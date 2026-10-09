@@ -8,7 +8,7 @@ import { sfx } from '../lib/sfx.js';
 import { words } from '../lib/lesson.js';
 import { checkTyped } from '../lib/score.js';
 
-function useSpeak() {
+export function useSpeak() {
   const course = useCourse();
   return (text, opts = {}) => {
     const { settings } = getState();
@@ -16,7 +16,7 @@ function useSpeak() {
   };
 }
 
-function useAutoPlay(text, deps = []) {
+export function useAutoPlay(text, deps = []) {
   const say = useSpeak();
   useEffect(() => {
     if (getState().settings.autoPlay && text) {

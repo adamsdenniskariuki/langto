@@ -59,12 +59,19 @@ let made = 0;
 let reused = 0;
 let missing = 0;
 let failed = 0;
+// Circuit breaker: after this many failures in a row (e.g. quota exhausted) stop calling Azure so CI doesn't hang.
+const MAX_STREAK = Number(process.env.AZURE_SPEECH_MAX_FAILURES || 20);
+let streak = 0;
+let tripped = false;
 
 for (const lang of langs) {
   if (!lang.tts?.default) continue;
   const course = readJSON(lang.course);
   const dir = lang.course.replace(/[^/]+$/, '');
-  const units = course.levels.filter((l) => !l.comingSoon).flatMap((l) => l.units.map((f) => readJSON(dir + f)));
+  const units = [
+    ...course.levels.filter((l) => !l.comingSoon).flatMap((l) => l.units),
+    ...(course.tracks || []).flatMap((t) => t.units),
+  ].map((f) => readJSON(dir + f));
   const lines = collectLines(lang, units);
   const outDir = join(root, 'audio', lang.code);
   mkdirSync(outDir, { recursive: true });
@@ -81,15 +88,24 @@ for (const lang of langs) {
   }
 
   await pool(todo, CONCURRENCY, async (line) => {
+    if (tripped) {
+      failed++;
+      return;
+    }
     try {
       const mp3 = await synthesize(line, lang.speech);
       writeFileSync(join(outDir, line.file), mp3);
       manifest[audioKey(line.voice, line.text)] = line.file;
       made++;
+      streak = 0;
       if (made % 25 === 0) console.log(`  … ${made}/${todo.length}`);
     } catch (e) {
       failed++;
       if (failed <= 5) console.warn(`⚠ ${e.message}`);
+      if (++streak >= MAX_STREAK && !tripped) {
+        tripped = true;
+        console.warn(`⚠ ${streak} failures in a row — stopping synthesis (quota or outage?). Remaining lines use Web Speech.`);
+      }
     }
   });
 

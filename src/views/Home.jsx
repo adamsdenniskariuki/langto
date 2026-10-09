@@ -5,7 +5,8 @@ import { update, useStore } from '../lib/store.js';
 import { currentStreak, levelFromXP } from '../lib/gamify.js';
 import { dateKey } from '../lib/date.js';
 import { dueCards } from '../lib/srs.js';
-import { isUnlocked, nextLessonId } from '../lib/content.js';
+import { isUnlocked, levelReached, nextLessonId } from '../lib/content.js';
+import { KINDS, kindOf } from '../lib/lesson.js';
 
 export function Home() {
   const course = useCourse();
@@ -20,6 +21,7 @@ export function Home() {
   const streak = currentStreak(s);
   const lvl = levelFromXP(s.xp);
   const due = dueCards(s.cards[lang]).length;
+  const ctx = { course, done, starts, next };
 
   return (
     <div class="home">
@@ -89,51 +91,13 @@ export function Home() {
             {level.comingSoon ? (
               <p class="card muted center">🚧 Coming soon — finish the levels above first!</p>
             ) : (
-              level.units.map((unit, ui) => {
-                const unitDone = unit.lessons.every((l) => done[l.id]?.done);
-                return (
-                  <div class={`unit ${unitDone ? 'unit-done' : ''}`} key={unit.id}>
-                    <div class="unit-head">
-                      <span class="unit-icon" aria-hidden="true">{unit.icon}</span>
-                      <div>
-                        <p class="eyebrow">Unit {ui + 1}</p>
-                        <h3 lang={course.lang.code}>{unit.title}</h3>
-                        <p class="muted small">{unit.subtitle}</p>
-                      </div>
-                      {unitDone && <span class="badge-chip" title="Unit complete">🏁</span>}
-                    </div>
-                    <ol class="path">
-                      {unit.lessons.map((l, li) => {
-                        const d = done[l.id];
-                        const unlocked = isUnlocked(course, done, l.id, starts);
-                        const current = l.id === next;
-                        const stars = d ? (d.best >= 1 ? 3 : d.best >= 0.8 ? 2 : 1) : 0;
-                        return (
-                          <li key={l.id} class={`node-wrap offset-${li % 4}`}>
-                            {unlocked ? (
-                              <a class={`node ${d?.done ? 'done' : ''} ${current ? 'current' : ''}`} href={`#/lesson/${l.id}`} aria-label={`${l.title}${d?.done ? ' (completed)' : current ? ' (next)' : ''}`}>
-                                <span aria-hidden="true">{d?.done ? '✓' : current ? '▶' : li + 1}</span>
-                              </a>
-                            ) : (
-                              <span class="node locked" aria-label={`${l.title} (locked)`}>
-                                <span aria-hidden="true">🔒</span>
-                              </span>
-                            )}
-                            <span class="node-label">
-                              {l.title}
-                              {stars > 0 && <span class="stars" aria-label={`${stars} of 3 stars`}>{'★'.repeat(stars)}{'☆'.repeat(3 - stars)}</span>}
-                            </span>
-                          </li>
-                        );
-                      })}
-                    </ol>
-                  </div>
-                );
-              })
+              level.units.map((unit, ui) => <Unit key={unit.id} unit={unit} label={`Unit ${ui + 1}`} ctx={ctx} />)
             )}
           </details>
         );
       })}
+
+      {(course.tracks || []).map((track) => <Track key={track.id} track={track} ctx={ctx} />)}
     </div>
   );
 }
@@ -144,4 +108,77 @@ function greeting(lang) {
   if (h < 11) return g.morning;
   if (h < 18) return g.day;
   return g.evening;
+}
+
+function Track({ track, ctx }) {
+  const { course, done, starts } = ctx;
+  const ids = track.units.flatMap((u) => u.lessons.map((l) => l.id));
+  const count = ids.filter((id) => done[id]?.done).length;
+  const open = track.units.filter((u) => levelReached(course, done, u.level, starts));
+  const locked = track.units.filter((u) => !open.includes(u));
+  return (
+    <details class="level track" id={`track-${track.id}`}>
+      <summary class="level-head">
+        <span class="cefr" aria-hidden="true">{track.badge || 'Ü'}</span>
+        <div>
+          <h2>{track.title}</h2>
+          <p class="muted small">{track.description}</p>
+        </div>
+        <span class="muted small nowrap">{count}/{ids.length}</span>
+      </summary>
+      {open.map((unit) => <Unit key={unit.id} unit={unit} label={`Sounds · ${unit.level}`} ctx={ctx} />)}
+      {locked.length > 0 && (
+        <p class="card muted small center">
+          🔒 {locked.length} more sound{locked.length > 1 ? 's' : ''} unlock as you reach {[...new Set(locked.map((u) => u.level))].join(', ')}.
+        </p>
+      )}
+    </details>
+  );
+}
+
+function Unit({ unit, label, ctx }) {
+  const { course, done, starts, next } = ctx;
+  const unitDone = unit.lessons.every((l) => done[l.id]?.done);
+  return (
+    <div class={`unit ${unitDone ? 'unit-done' : ''}`}>
+      <div class="unit-head">
+        <span class="unit-icon" aria-hidden="true">{unit.icon}</span>
+        <div>
+          <p class="eyebrow">{label}</p>
+          <h3 lang={course.lang.code}>{unit.title}</h3>
+          <p class="muted small">{unit.subtitle}</p>
+        </div>
+        {unitDone && <span class="badge-chip" title="Unit complete">🏁</span>}
+      </div>
+      <ol class="path">
+        {unit.lessons.map((l, li) => {
+          const d = done[l.id];
+          const unlocked = isUnlocked(course, done, l.id, starts);
+          const current = l.id === next;
+          const stars = d ? (d.best >= 1 ? 3 : d.best >= 0.8 ? 2 : 1) : 0;
+          const kind = KINDS[kindOf(l)];
+          const glyph = d?.done ? '✓' : current ? '▶' : kind.icon || li + 1;
+          const kindLabel = kind.icon ? `${kind.label}: ` : '';
+          return (
+            <li key={l.id} class={`node-wrap offset-${li % 4} kind-${kindOf(l)}`}>
+              {unlocked ? (
+                <a class={`node ${d?.done ? 'done' : ''} ${current ? 'current' : ''}`} href={`#/lesson/${l.id}`} aria-label={`${kindLabel}${l.title}${d?.done ? ' (completed)' : current ? ' (next)' : ''}`}>
+                  <span aria-hidden="true">{glyph}</span>
+                </a>
+              ) : (
+                <span class="node locked" aria-label={`${kindLabel}${l.title} (locked)`}>
+                  <span aria-hidden="true">🔒</span>
+                </span>
+              )}
+              <span class="node-label">
+                {kind.icon && <span class="kind-tag">{kind.icon} {kind.label}</span>}
+                {l.title}
+                {stars > 0 && <span class="stars" aria-label={`${stars} of 3 stars`}>{'★'.repeat(stars)}{'☆'.repeat(3 - stars)}</span>}
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
 }

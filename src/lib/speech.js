@@ -206,6 +206,80 @@ export function listen({ lang = 'de-DE', maxSeconds = 12, onStart } = {}) {
   return { promise, stop: () => rec.stop() };
 }
 
+/**
+ * Listen continuously for up to `seconds` (free speaking). Restarts the recogniser if the browser ends it early.
+ * `onText(text)` receives the running transcript (final + interim). Resolves { transcript, seconds }.
+ */
+export function listenLong({ lang = 'de-DE', seconds = 30, onText } = {}) {
+  if (!Recognition) return { promise: Promise.reject(new Error('unsupported')), stop() {} };
+  let finals = [];
+  let interim = '';
+  let stopped = false;
+  let rec = null;
+  let fatal = null;
+  const t0 = performance.now();
+  let finish;
+  const promise = new Promise((resolve, reject) => {
+    finish = () => {
+      const transcript = [...finals, interim].join(' ').replace(/\s+/g, ' ').trim();
+      const secs = (performance.now() - t0) / 1000;
+      if (fatal && !transcript) reject(new Error(fatal));
+      else resolve({ transcript, seconds: secs });
+    };
+  });
+  const timer = setTimeout(() => stop(), seconds * 1000);
+  const run = () => {
+    rec = new Recognition();
+    rec.lang = lang;
+    rec.interimResults = true;
+    rec.continuous = true;
+    rec.maxAlternatives = 1;
+    rec.onresult = (e) => {
+      interim = '';
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const r = e.results[i];
+        if (r.isFinal) finals.push(r[0].transcript);
+        else interim += r[0].transcript;
+      }
+      onText?.([...finals, interim].join(' ').trim());
+    };
+    rec.onerror = (e) => {
+      if (['not-allowed', 'service-not-allowed', 'audio-capture', 'network'].includes(e.error)) {
+        fatal = e.error;
+        stopped = true;
+      }
+    };
+    rec.onend = () => {
+      if (interim) {
+        finals.push(interim);
+        interim = '';
+      }
+      if (stopped) {
+        clearTimeout(timer);
+        finish();
+      } else run();
+    };
+    try {
+      rec.start();
+    } catch {
+      fatal = 'busy';
+      stopped = true;
+      clearTimeout(timer);
+      finish();
+    }
+  };
+  function stop() {
+    stopped = true;
+    try {
+      rec?.stop();
+    } catch {
+      finish();
+    }
+  }
+  run();
+  return { promise, stop };
+}
+
 export function recognitionErrorMessage(code) {
   switch (code) {
     case 'not-allowed':

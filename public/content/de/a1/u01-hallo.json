@@ -104,6 +104,179 @@
         { "n": "You stepped on someone's foot.", "t": ["Entschuldigung"] },
         { "n": "Someone thanks you. Reply.", "t": ["Bitte schön", "Bitte", "Kein Problem"] }
       ]
+    },
+    {
+      "id": "u01-l4",
+      "kind": "grammar",
+      "title": "du or Sie: the verb changes",
+      "goal": "Ask questions with du and Sie correctly.",
+      "tip": {
+        "title": "Verb endings follow the person",
+        "body": "German verbs change their ending: ich heiße, du heißt, Sie heißen. With Sie the verb looks like the infinitive. Swap the person and the ending follows."
+      },
+      "phrases": [
+        { "t": "Wie heißt du?", "n": "What's your name? (informal)" },
+        { "t": "Wie heißen Sie?", "n": "What's your name? (formal)" },
+        { "t": "Ich heiße Tom.", "n": "My name is Tom." },
+        { "t": "Woher kommst du?", "n": "Where are you from? (informal)" },
+        { "t": "Woher kommen Sie?", "n": "Where are you from? (formal)" }
+      ],
+      "drills": [
+        {
+          "title": "Swap du → Sie",
+          "base": { "t": "Wie geht es dir?", "n": "How are you? (informal)" },
+          "items": [
+            { "cue": "Sie", "t": "Wie geht es Ihnen?", "n": "How are you? (formal)" },
+            { "cue": "heißen · Sie", "t": "Wie heißen Sie?", "n": "What's your name? (formal)" },
+            { "cue": "kommen · Sie", "t": "Woher kommen Sie?", "n": "Where are you from? (formal)" }
+          ]
+        },
+        {
+          "title": "Swap the name",
+          "base": { "t": "Ich heiße Tom.", "n": "My name is Tom." },
+          "items": [
+            { "cue": "Anna", "t": "Ich heiße Anna.", "n": "My name is Anna." },
+            { "cue": "du · Lena?", "t": "Heißt du Lena?", "n": "Is your name Lena?" },
+            { "cue": "Sie · Weber?", "t": "Heißen Sie Weber?", "n": "Is your name Weber?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask a child what their name is.", "t": ["Wie heißt du"] },
+        { "n": "Ask a hotel receptionist where she is from.", "t": ["Woher kommen Sie"] }
+      ]
+    },
+    {
+      "id": "u01-l5",
+      "kind": "listening",
+      "title": "Meeting at the bus stop",
+      "goal": "Follow a short real-speed greeting.",
+      "phrases": [
+        { "t": "Freut mich!", "n": "Nice to meet you!" },
+        { "t": "Ich auch.", "n": "Me too." },
+        { "t": "Bis morgen!", "n": "See you tomorrow!" },
+        { "t": "Schönen Tag noch!", "n": "Have a nice day!" }
+      ],
+      "story": {
+        "title": "Two neighbours",
+        "intro": "Frau Weber meets a new neighbour, Herr Schmidt, at the bus stop.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "name": "Frau Weber", "t": "Guten Morgen! Sind Sie neu hier?", "n": "Good morning! Are you new here?" },
+          { "name": "Herr Schmidt", "voice": "de-DE-ConradNeural", "t": "Ja, ich wohne seit Montag hier. Ich heiße Schmidt.", "n": "Yes, I've lived here since Monday. My name is Schmidt." },
+          { "name": "Frau Weber", "t": "Freut mich! Ich bin Frau Weber.", "n": "Nice to meet you! I'm Mrs Weber." },
+          { "name": "Herr Schmidt", "voice": "de-DE-ConradNeural", "t": "Freut mich auch. Wie geht es Ihnen?", "n": "Nice to meet you too. How are you?" },
+          { "name": "Frau Weber", "t": "Gut, danke. Oh, da kommt mein Bus. Schönen Tag noch!", "n": "Good, thanks. Oh, here comes my bus. Have a nice day!" },
+          { "name": "Herr Schmidt", "voice": "de-DE-ConradNeural", "t": "Danke, Ihnen auch! Auf Wiedersehen!", "n": "Thanks, you too! Goodbye!" }
+        ],
+        "questions": [
+          { "q": "Wie heißt der neue Nachbar?", "n": "What is the new neighbour called?", "t": ["Schmidt", "Er heißt Schmidt", "Herr Schmidt"] },
+          { "q": "Wie geht es Frau Weber?", "n": "How is Mrs Weber?", "t": ["Gut", "Gut danke", "Es geht ihr gut"] },
+          { "q": "Was kommt?", "n": "What is coming?", "t": ["Der Bus", "Ihr Bus", "Der Bus kommt"] }
+        ]
+      }
+    },
+    {
+      "id": "u01-l6",
+      "kind": "roleplay",
+      "title": "First day at the language school",
+      "goal": "Introduce yourself — your choices steer the chat.",
+      "phrases": [
+        { "t": "Ich bin neu hier.", "n": "I'm new here." },
+        { "t": "Wie bitte?", "n": "Pardon?" },
+        { "t": "Langsamer, bitte.", "n": "Slower, please." },
+        { "t": "Bis dann!", "n": "See you then!" }
+      ],
+      "branch": {
+        "title": "At reception",
+        "scene": "You walk up to the reception desk on your first day.",
+        "name": "Rezeption",
+        "voice": "de-DE-AmalaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Morgen! Wie kann ich Ihnen helfen?", "n": "Good morning! How can I help you?",
+            "choices": [
+              { "t": "Guten Morgen! Ich bin neu hier.", "n": "Good morning! I'm new here.", "next": "name" },
+              { "t": "Wie bitte?", "n": "Pardon?", "next": "slow" }
+            ]
+          },
+          "slow": {
+            "t": "Kein Problem. Sind Sie neu hier?", "n": "No problem. Are you new here?",
+            "choices": [
+              { "t": "Ja, ich bin neu hier.", "n": "Yes, I'm new here.", "next": "name" },
+              { "t": "Langsamer, bitte.", "n": "Slower, please.", "next": "slow2" }
+            ]
+          },
+          "slow2": {
+            "t": "Sind … Sie … neu?", "n": "Are … you … new?",
+            "choices": [
+              { "t": "Ja! Ich bin neu.", "n": "Yes! I'm new.", "next": "name" }
+            ]
+          },
+          "name": {
+            "t": "Willkommen! Wie heißen Sie?", "n": "Welcome! What's your name?",
+            "choices": [
+              { "t": "Ich heiße Alex.", "n": "My name is Alex.", "next": "room" },
+              { "t": "Tschüss!", "n": "Bye!", "next": "bye" }
+            ]
+          },
+          "room": {
+            "t": "Freut mich, Alex! Ihr Kurs ist in Raum drei. Viel Spaß!", "n": "Nice to meet you, Alex! Your course is in room three. Have fun!",
+            "end": "good", "outcome": "You checked in and found your classroom."
+          },
+          "bye": {
+            "t": "Oh … tschüss?", "n": "Oh … bye?",
+            "end": "bad", "outcome": "You left before giving your name — try again and introduce yourself."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "You didn't understand. Ask politely.", "t": ["Wie bitte", "Langsamer bitte"] },
+        { "n": "Tell a new classmate you're new here.", "t": ["Ich bin neu hier"] }
+      ]
+    },
+    {
+      "id": "u01-l7",
+      "kind": "speaking",
+      "title": "Say hello your way",
+      "goal": "Greet and introduce yourself freely for 30 seconds.",
+      "culture": {
+        "title": "Hallo, Grüß Gott, Grüezi",
+        "body": "Greetings change by region. In Austria and southern Germany you'll hear Grüß Gott and Servus; in Switzerland Grüezi (formal) and Hoi (informal). Germans often shake hands when meeting — and say goodbye to the whole room when leaving a shop or waiting room.",
+        "regions": ["DE", "AT", "CH"]
+      },
+      "phrases": [
+        { "t": "Grüß Gott!", "n": "Hello! (Austria, Bavaria)" },
+        { "t": "Servus!", "n": "Hi! / Bye! (Austria, Bavaria)" },
+        { "t": "Grüezi!", "n": "Hello! (Switzerland)" },
+        { "t": "Ich komme aus England.", "n": "I come from England." }
+      ],
+      "free": [
+        {
+          "n": "Greet someone, say your name, where you're from and how you are.",
+          "hint": "Use Hallo / Guten Tag, Ich heiße …, Ich komme aus …, Mir geht's gut.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            { "label": "a greeting", "any": ["hallo", "guten tag", "guten morgen", "guten abend", "grüß gott", "servus", "grüezi"] },
+            { "label": "your name", "any": ["ich heiße", "ich bin", "mein name"] },
+            { "label": "where you're from", "any": ["ich komme aus", "komme aus"] },
+            { "label": "how you are", "any": ["gut", "es geht", "sehr gut"] }
+          ],
+          "model": "Hallo! Ich heiße Alex. Ich komme aus England. Mir geht es gut, danke."
+        }
+      ],
+      "prompts": [
+        { "n": "You're in Vienna. Greet the shopkeeper.", "t": ["Grüß Gott", "Guten Tag"] },
+        { "n": "Say goodbye and wish someone a nice day.", "t": ["Auf Wiedersehen schönen Tag noch", "Tschüss schönen Tag noch", "Schönen Tag noch"] }
+      ]
+    },
+    {
+      "id": "u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Hallo!",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

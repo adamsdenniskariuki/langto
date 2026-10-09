@@ -89,7 +89,7 @@ export function SpeakBox({ expected, modelText, onResult, label = 'Tap the mic a
       sfx(passed ? 'good' : 'bad');
       setResult({ ...r, passed });
       setPhase('result');
-      onResult?.({ passed, score: r.score });
+      onResult?.({ passed, score: r.score, answer: r.answer });
     } catch (e) {
       setPhase('idle');
       setError(recognitionErrorMessage(e.message));

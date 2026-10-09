@@ -4,7 +4,28 @@ import { dateKey, daysBetween } from './date.js';
 import { newCard } from './srs.js';
 
 export const MAX_FREEZES = 2;
-export const XP = { step: 2, build: 3, speakPass: 2, prompt: 3, promptFast: 2, dialogue: 10, lesson: 10, perfect: 5, review: 2 };
+export const XP = {
+  step: 2, build: 3, speakPass: 2, prompt: 3, promptFast: 2, dialogue: 10, lesson: 10, perfect: 5, review: 2,
+  drill: 3, question: 3, branch: 12, branchGood: 5, free: 6, freeTarget: 1, pair: 2, recall: 2, checkpoint: 15, test: 30,
+};
+
+/** Remember a missed phrase card so "Most missed" review can bring it back. */
+export function recordMiss(s, lang, cardId) {
+  if (!cardId) return;
+  s.misses ||= {};
+  s.misses[lang] ||= {};
+  s.misses[lang][cardId] = (s.misses[lang][cardId] || 0) + 1;
+}
+
+/** Card ids ordered by how often they were missed, most first. Correct answers in review pay misses back. */
+export function mostMissed(s, lang, limit = 15) {
+  return Object.entries(s.misses?.[lang] || {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, limit).map(([id]) => id);
+}
+
+export function recordHit(s, lang, cardId) {
+  const m = s.misses?.[lang];
+  if (m?.[cardId]) m[cardId] = Math.max(0, m[cardId] - 1);
+}
 
 export function xpForLevel(n) {
   return 25 * n * (n - 1);
@@ -83,7 +104,7 @@ export function recordSpeech(s, { seconds = 0, passed = false, score = 0 } = {})
   if (score >= 0.95) sp.aces += 1;
 }
 
-export function completeLesson(s, lang, lessonId, { accuracy = 1, cardIds = [] } = {}, events = [], today = dateKey()) {
+export function completeLesson(s, lang, lessonId, { accuracy = 1, cardIds = [], kind = 'lesson', level = null } = {}, events = [], today = dateKey()) {
   s.lessons[lang] ||= {};
   s.cards[lang] ||= {};
   const prev = s.lessons[lang][lessonId];
@@ -101,6 +122,17 @@ export function completeLesson(s, lang, lessonId, { accuracy = 1, cardIds = [] }
     s.perfectLessons = (s.perfectLessons || 0) + 1;
     xp += XP.perfect;
   }
+  if (kind === 'checkpoint' && !prev?.done) {
+    s.checkpoints = (s.checkpoints || 0) + 1;
+    xp += XP.checkpoint;
+  }
+  if (kind === 'test' && level) {
+    s.tests ||= {};
+    s.tests[lang] ||= {};
+    if (!s.tests[lang][level]) s.tests[lang][level] = today;
+    xp += XP.test;
+  }
+  if (kind === 'pron' && !prev?.done) s.pronLessons = (s.pronLessons || 0) + 1;
   awardXP(s, xp, events, today);
   return xp;
 }

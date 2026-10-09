@@ -113,3 +113,32 @@ export function verdict(score) {
 export function checkTyped(expected, typed, lang = 'de') {
   return scoreSpeech(expected, [typed], lang).score >= 0.85;
 }
+
+/**
+ * Check a free-speaking transcript against a task's targets.
+ * Target: { label, any: ["gestern", "am wochenende", "ging*"] } — a phrase matches as whole words, "stem*" matches word starts.
+ * Returns { hits: [label], missed: [label], words, score } where score = share of targets hit.
+ */
+export function checkFree(transcript, task, lang = 'de') {
+  const said = normalize(transcript, lang);
+  const ws = said.split(' ').filter(Boolean);
+  const padded = ` ${said} `;
+  const matches = (pattern) => {
+    const stem = pattern.trim().endsWith('*');
+    const p = normalize(pattern.replace(/\*\s*$/, ''), lang);
+    if (!p) return false;
+    if (stem && !p.includes(' ')) return ws.some((w) => w.startsWith(p));
+    if (stem) return padded.includes(` ${p}`);
+    return padded.includes(` ${p} `);
+  };
+  const targets = task.targets || [];
+  const hits = [];
+  const missed = [];
+  for (const t of targets) (t.any || []).some(matches) ? hits.push(t.label) : missed.push(t.label);
+  const minWords = task.minWords || 0;
+  const wordScore = minWords ? Math.min(1, ws.length / minWords) : 1;
+  const score = targets.length ? (hits.length / targets.length) * 0.8 + wordScore * 0.2 : wordScore;
+  return { hits, missed, words: ws.length, score };
+}
+
+export const FREE_PASS = 0.5;

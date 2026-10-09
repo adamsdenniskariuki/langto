@@ -1,48 +1,14 @@
 import { useMemo, useState } from 'preact/hooks';
 import { useCourse } from '../components/context.js';
-import { ChoiceStep, Footer } from '../components/Steps.jsx';
-import { SpeakBox } from '../components/SpeakBox.jsx';
-import { PlayButton } from '../components/PlayButton.jsx';
+import { ChoiceStep } from '../components/Steps.jsx';
+import { RecallStep } from '../components/ExtraSteps.jsx';
 import { update, useStore } from '../lib/store.js';
 import { dueCards, gradeCard, strength } from '../lib/srs.js';
-import { awardXP, XP } from '../lib/gamify.js';
+import { awardXP, mostMissed, recordHit, recordMiss, XP } from '../lib/gamify.js';
 import { pickOptions, shuffle } from '../lib/lesson.js';
 import { stopSpeaking } from '../lib/speech.js';
-import { sfx } from '../lib/sfx.js';
 
 const SESSION = 15;
-
-function RecallStep({ step, done }) {
-  const course = useCourse();
-  const { phrase } = step;
-  const [shown, setShown] = useState(false);
-  const [result, setResult] = useState(null);
-  const [self, setSelf] = useState(null);
-  const verdict = result ? result.passed : self;
-  return (
-    <div class="step">
-      <p class="eyebrow">🗣️ Say it in {course.lang.name}</p>
-      <h2>“{phrase.n}”</h2>
-      <SpeakBox expected={phrase.t} onResult={(r) => { setResult(r); setShown(true); }} />
-      {shown ? (
-        <p class="center reveal">
-          <strong lang={course.lang.code}>{phrase.t}</strong> <PlayButton text={phrase.t} />
-        </p>
-      ) : (
-        <div class="center"><button type="button" class="btn ghost" onClick={() => setShown(true)}>Show answer</button></div>
-      )}
-      {shown && !result && self === null && (
-        <div class="row gap center">
-          <button type="button" class="btn ghost" onClick={() => { setSelf(true); sfx('good'); }}>✅ I knew it</button>
-          <button type="button" class="btn ghost" onClick={() => { setSelf(false); sfx('bad'); }}>❌ I didn't</button>
-        </div>
-      )}
-      {verdict !== null && verdict !== undefined && (
-        <Footer tone={verdict ? 'good' : 'bad'} message={verdict ? 'Remembered!' : "We'll show this again soon."} onClick={() => done({ correct: verdict })} />
-      )}
-    </div>
-  );
-}
 
 export function Review() {
   const course = useCourse();
@@ -54,6 +20,7 @@ export function Review() {
   const [right, setRight] = useState(0);
   const due = dueCards(cards);
   const total = Object.keys(cards).length;
+  const missed = mostMissed(s, lang, SESSION).filter((id) => course.phraseIndex.has(id));
 
   const pool = useMemo(() => [...course.phraseIndex.values()].map((x) => x.phrase), [course]);
 
@@ -74,9 +41,13 @@ export function Review() {
     const onDone = ({ correct }) => {
       stopSpeaking();
       update((d, ev) => {
+        d.cards[lang] ||= {};
         d.cards[lang][item.id] = gradeCard(d.cards[lang][item.id], correct);
         d.reviews = (d.reviews || 0) + 1;
-        if (correct) awardXP(d, XP.review, ev);
+        if (correct) {
+          awardXP(d, XP.review, ev);
+          recordHit(d, lang, item.id);
+        } else recordMiss(d, lang, item.id);
       });
       if (correct) setRight(right + 1);
       setPos(pos + 1);
@@ -116,7 +87,7 @@ export function Review() {
     <section class="page">
       <h1>🔁 Review</h1>
       <p class="muted">Spaced repetition brings each phrase back just before you'd forget it. Saying it out loud makes it stick.</p>
-      {total === 0 ? (
+      {total === 0 && missed.length === 0 ? (
         <div class="card center">
           <p>Your review deck is empty. Complete a lesson and its phrases will appear here.</p>
           <a class="btn primary" href="#/">Go to lessons</a>
@@ -141,6 +112,13 @@ export function Review() {
               </>
             )}
           </div>
+          {missed.length > 0 && (
+            <div class="card center">
+              <h2>🎯 Most missed</h2>
+              <p class="muted small">A focused session built from the {missed.length} phrase{missed.length === 1 ? '' : 's'} you've slipped on most in lessons, checkpoints and reviews.</p>
+              <button type="button" class="btn primary" onClick={() => start(missed)}>Practise most missed ({missed.length})</button>
+            </div>
+          )}
         </>
       )}
     </section>
