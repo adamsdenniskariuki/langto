@@ -1,0 +1,83 @@
+{
+  "id": "c1-u01",
+  "title": "Den richtigen Ton treffen",
+  "subtitle": "Switching register: Sie, du, small talk & business",
+  "icon": "🎩",
+  "lessons": [
+    {
+      "id": "c1-u01-l1",
+      "title": "Sie or du?",
+      "goal": "Navigate the switch between Sie and du gracefully, and offer, accept or decline the du.",
+      "tip": {
+        "title": "Who offers the du?",
+        "body": "Traditionally the older or more senior person offers the du, and declining it politely is perfectly acceptable. When you're unsure, stay with Sie and say so openly — Germans appreciate the honesty. Say Wollen wir uns nicht duzen? with a light, rising, friendly tone; a flat tone can sound like a demand."
+      },
+      "phrases": [
+        { "t": "Wollen wir uns nicht duzen?", "n": "Shall we switch to du?", "note": "The negation nicht makes the offer sound warmer, not negative." },
+        { "t": "Sehr gern, das macht vieles einfacher.", "n": "Gladly, that makes a lot of things easier." },
+        { "t": "Darf ich Ihnen das Du anbieten?", "n": "May I offer to use du with you?", "note": "Formal and old-fashioned; used by the senior person." },
+        { "t": "Mir ist es lieber, wenn wir beim Sie bleiben.", "n": "I'd prefer it if we stuck with Sie." },
+        { "t": "Ich war mir nicht sicher, ob man sich hier duzt oder siezt.", "n": "I wasn't sure whether people use du or Sie here." },
+        { "t": "Bei uns im Team duzen sich eigentlich alle.", "n": "In our team pretty much everyone uses du." },
+        { "t": "Entschuldigen Sie, dass ich Sie so direkt anspreche.", "n": "Excuse me for approaching you so directly." },
+        { "t": "Ich hoffe, ich trete Ihnen damit nicht zu nahe.", "n": "I hope I'm not overstepping the mark.", "note": "Polite hedge before a personal question or remark." }
+      ],
+      "dialogue": {
+        "title": "Meeting the head of department",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Keller", "t": "Schön, dass Sie es zur Konferenz geschafft haben. Wie war die Anreise?", "n": "Nice that you made it to the conference. How was the journey?" },
+          { "who": "you", "t": "Danke, alles bestens. Ehrlich gesagt war ich mir nicht sicher, ob man sich hier duzt oder siezt.", "n": "Thanks, all fine. To be honest, I wasn't sure whether people use du or Sie here." },
+          { "who": "A", "name": "Frau Keller", "t": "Gute Frage. Bei uns in der Abteilung duzen sich eigentlich alle. Wollen wir uns also nicht duzen? Ich bin Sabine.", "n": "Good question. In our department pretty much everyone uses du. So shall we switch to du? I'm Sabine." },
+          { "who": "you", "t": "Sehr gern, das macht vieles einfacher.", "n": "Gladly, that makes a lot of things easier." },
+          { "who": "A", "name": "Frau Keller", "t": "Wunderbar. Nur beim Vorstand bleiben wir besser beim Sie, die sind da etwas altmodisch.", "n": "Wonderful. Only with the board we'd better stick to Sie, they're a bit old-fashioned about that." },
+          { "who": "you", "t": "Verstanden. Bei offiziellen Terminen ist mir das Sie ohnehin lieber.", "n": "Understood. At official meetings I prefer Sie anyway." }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest switching to du.", "t": ["Wollen wir uns nicht duzen", "Darf ich Ihnen das Du anbieten"] },
+        { "n": "Accept the du warmly.", "t": ["Sehr gern, das macht vieles einfacher", "Sehr gern"] },
+        { "n": "Politely say you'd rather stay with Sie.", "t": ["Mir ist es lieber, wenn wir beim Sie bleiben"] },
+        { "n": "Admit you weren't sure whether people use du or Sie here.", "t": ["Ich war mir nicht sicher, ob man sich hier duzt oder siezt"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l2",
+      "title": "From small talk to business",
+      "goal": "Open a business meeting with small talk and steer smoothly to the agenda — and switch back to casual with friends.",
+      "tip": {
+        "title": "The elegant transition",
+        "body": "German business small talk is short: arrival, weather, holidays — then a clear signal like Aber kommen wir zur Sache. Mark the transition with a short pause and a slightly lower, firmer pitch. With friends, contractions like läuft's and nachher sound natural; in a meeting, use full forms."
+      },
+      "phrases": [
+        { "t": "Haben Sie gut hergefunden?", "n": "Did you find your way here all right?" },
+        { "t": "Bei dem Wetter hat man ja kaum Lust, ins Büro zu fahren.", "n": "In this weather you hardly feel like going into the office." },
+        { "t": "Wie ich höre, waren Sie gerade im Urlaub?", "n": "I hear you've just been on holiday?" },
+        { "t": "Aber genug geplaudert, kommen wir zur Sache.", "n": "But enough chit-chat, let's get down to business." },
+        { "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.", "n": "If that's all right with you, I'd start straight away with the first item." },
+        { "t": "Ich möchte Ihre Zeit nicht über Gebühr beanspruchen.", "n": "I don't want to take up more of your time than necessary.", "note": "Very polite, formal register." },
+        { "t": "Na, wie läuft's bei dir so?", "n": "So, how are things with you?", "note": "Casual, among friends." },
+        { "t": "Lass uns das nachher beim Kaffee besprechen.", "n": "Let's talk about that later over coffee.", "note": "Casual du form." }
+      ],
+      "dialogue": {
+        "title": "A client visit",
+        "lines": [
+          { "who": "A", "name": "Herr Brandt", "t": "Guten Morgen! Schön, Sie endlich persönlich kennenzulernen.", "n": "Good morning! Nice to finally meet you in person." },
+          { "who": "you", "t": "Ganz meinerseits. Haben Sie gut hergefunden?", "n": "Likewise. Did you find your way here all right?" },
+          { "who": "A", "name": "Herr Brandt", "t": "Ja, problemlos, nur der Regen hat genervt. Bei dem Wetter bleibt man lieber zu Hause.", "n": "Yes, no problem, only the rain was annoying. In this weather you'd rather stay at home." },
+          { "who": "you", "t": "Da sagen Sie was. Wie ich höre, waren Sie gerade im Urlaub?", "n": "You can say that again. I hear you've just been on holiday?" },
+          { "who": "A", "name": "Herr Brandt", "t": "Stimmt, zwei Wochen Portugal. Herrlich, aber jetzt wartet natürlich ein voller Schreibtisch auf mich.", "n": "Right, two weeks in Portugal. Wonderful, but now of course a full desk is waiting for me." },
+          { "who": "you", "t": "Dann möchte ich Ihre Zeit nicht über Gebühr beanspruchen. Kommen wir zur Sache?", "n": "Then I don't want to take up too much of your time. Shall we get down to business?" },
+          { "who": "A", "name": "Herr Brandt", "t": "Sehr gern. Womit fangen wir an?", "n": "Gladly. Where shall we start?" },
+          { "who": "you", "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.", "n": "If that's all right with you, I'd start straight away with the first item." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a business guest whether they found the place easily.", "t": ["Haben Sie gut hergefunden"] },
+        { "n": "End the small talk and turn to business.", "t": ["Aber genug geplaudert, kommen wir zur Sache", "Kommen wir zur Sache"] },
+        { "n": "Casually ask a friend how things are going.", "t": ["Na, wie läuft's bei dir so", "Wie läuft's bei dir so"] },
+        { "n": "Say you don't want to take up too much of their time.", "t": ["Ich möchte Ihre Zeit nicht über Gebühr beanspruchen"] }
+      ]
+    }
+  ]
+}

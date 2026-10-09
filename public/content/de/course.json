@@ -68,6 +68,21 @@
       "id": "C1",
       "title": "Advanced",
       "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.",
+      "units": [
+        "c1/u01-register.json",
+        "c1/u02-modalpartikeln.json",
+        "c1/u03-nuancen.json",
+        "c1/u04-ueberzeugen.json",
+        "c1/u05-vortrag.json",
+        "c1/u06-diplomatie.json",
+        "c1/u07-erzaehlen.json",
+        "c1/u08-grosse-fragen.json"
+      ]
+    },
+    {
+      "id": "C2",
+      "title": "Mastery",
+      "description": "Speak with native-like precision, wit and regional awareness.",
       "comingSoon": true,
       "units": []
     }

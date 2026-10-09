@@ -1,0 +1,86 @@
+{
+  "id": "c1-u02",
+  "title": "Doch, ja, halt",
+  "subtitle": "Modal particles for natural speech",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "c1-u02-l1",
+      "title": "Softening and emphasising: doch, ja, mal",
+      "goal": "Use doch, ja and mal to sound friendly, emphatic and natural in everyday conversation.",
+      "tip": {
+        "title": "Small words, big attitude",
+        "body": "Modal particles don't change the facts, they change the tone: ja signals shared knowledge or surprise, doch urges or reminds, and mal softens a request. Keep them unstressed and glide over them — if you stress DOCH, it becomes a contradiction. Komm doch mal vorbei sounds warm; Komm vorbei sounds like an order."
+      },
+      "phrases": [
+        { "t": "Komm doch mal vorbei!", "n": "Why don't you drop by sometime!", "note": "doch mal = friendly invitation." },
+        { "t": "Das habe ich dir doch gestern schon gesagt.", "n": "I told you that yesterday, didn't I?", "note": "doch = reminder, slightly reproachful." },
+        { "t": "Das ist ja unglaublich!", "n": "That's incredible!", "note": "ja = surprise." },
+        { "t": "Du weißt ja, wie er ist.", "n": "You know what he's like.", "note": "ja = shared knowledge." },
+        { "t": "Kannst du mal kurz das Fenster aufmachen?", "n": "Could you open the window for a sec?" },
+        { "t": "Setzen Sie sich doch!", "n": "Do sit down!", "note": "Polite, encouraging invitation." },
+        { "t": "Sie kennen ja die Lage.", "n": "You know the situation, of course." },
+        { "t": "Hör mal, wir müssen reden.", "n": "Listen, we need to talk." }
+      ],
+      "dialogue": {
+        "title": "Flatmate chat",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Lena", "t": "Sag mal, hast du eigentlich die Stromrechnung bezahlt?", "n": "Tell me, did you actually pay the electricity bill?" },
+          { "who": "you", "t": "Na klar, das habe ich dir doch gestern schon gesagt.", "n": "Of course, I told you that yesterday, didn't I?" },
+          { "who": "A", "name": "Lena", "t": "Ach ja, stimmt. Ich bin heute total durch den Wind. Jonas hat schon wieder abgesagt.", "n": "Oh right. I'm all over the place today. Jonas has cancelled again." },
+          { "who": "you", "t": "Echt? Na ja, du weißt ja, wie er ist.", "n": "Really? Well, you know what he's like." },
+          { "who": "A", "name": "Lena", "t": "Schon, aber diesmal war es sein eigener Geburtstag! Er feiert einfach nicht.", "n": "Sure, but this time it was his own birthday! He's just not celebrating." },
+          { "who": "you", "t": "Das ist ja unglaublich! Komm doch heute Abend mit zu uns.", "n": "That's incredible! Why don't you come over to ours tonight?" },
+          { "who": "A", "name": "Lena", "t": "Gern, das ist lieb von dir. Kannst du mal kurz das Fenster aufmachen? Hier ist es so stickig.", "n": "Gladly, that's sweet of you. Could you open the window for a sec? It's so stuffy in here." },
+          { "who": "you", "t": "Klar, mach ich sofort.", "n": "Sure, I'll do it right away." }
+        ]
+      },
+      "prompts": [
+        { "n": "Invite a friend casually to drop by sometime.", "t": ["Komm doch mal vorbei"] },
+        { "n": "Remind someone that you told them yesterday.", "t": ["Das habe ich dir doch gestern schon gesagt", "Das habe ich dir doch gestern gesagt"] },
+        { "n": "Casually ask someone to open the window.", "t": ["Kannst du mal kurz das Fenster aufmachen", "Mach mal kurz das Fenster auf"] },
+        { "n": "React with amazement.", "t": ["Das ist ja unglaublich"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l2",
+      "title": "Shrugs and guesses: halt, eben, wohl, schon",
+      "goal": "Express acceptance, assumptions and reassurance naturally with halt, eben, wohl and schon.",
+      "tip": {
+        "title": "That's just how it is",
+        "body": "halt and eben both mean 'that's just the way it is' — halt is more colloquial and southern, eben more neutral. wohl marks an assumption (probably), schon reassures or concedes (sure, but…). On its own, Eben! is a stressed, emphatic 'Exactly!'. These particles also buy you a split second to think, so say them in a relaxed way."
+      },
+      "phrases": [
+        { "t": "Das ist halt so.", "n": "That's just the way it is.", "note": "Colloquial, resigned." },
+        { "t": "Dann müssen wir eben früher aufstehen.", "n": "Then we'll just have to get up earlier." },
+        { "t": "Er hat wohl den Zug verpasst.", "n": "He's probably missed the train.", "note": "wohl = assumption." },
+        { "t": "Das wird schon klappen.", "n": "It'll work out, don't worry.", "note": "schon = reassurance." },
+        { "t": "Eben! Genau das meine ich.", "n": "Exactly! That's precisely what I mean." },
+        { "t": "Das ist wohl kaum ein Zufall.", "n": "That's hardly a coincidence." },
+        { "t": "Man kann eben nicht alles haben.", "n": "You just can't have everything." },
+        { "t": "Schon, aber der Preis ist trotzdem zu hoch.", "n": "True, but the price is still too high.", "note": "schon = concession before a but." }
+      ],
+      "dialogue": {
+        "title": "The missing colleague",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Tobias", "t": "Wo bleibt denn Herr Albers? Das Meeting hat vor zehn Minuten angefangen.", "n": "Where's Mr Albers? The meeting started ten minutes ago." },
+          { "who": "you", "t": "Er hat wohl den Zug verpasst. Die Bahn streikt ja heute.", "n": "He's probably missed the train. The railway's on strike today, after all." },
+          { "who": "A", "name": "Tobias", "t": "Ach, schon wieder? Ohne ihn können wir die Zahlen aber nicht besprechen.", "n": "Oh, again? But we can't discuss the figures without him." },
+          { "who": "you", "t": "Das ist halt so. Dann verschieben wir den Punkt eben auf morgen.", "n": "That's just the way it is. Then we'll simply move the item to tomorrow." },
+          { "who": "A", "name": "Tobias", "t": "Morgen ist aber die Präsentation beim Kunden. Das wird ziemlich knapp.", "n": "But tomorrow is the presentation at the client's. That'll be pretty tight." },
+          { "who": "you", "t": "Das wird schon klappen. Dann müssen wir eben früher anfangen.", "n": "It'll work out. Then we'll just have to start earlier." },
+          { "who": "A", "name": "Tobias", "t": "Na gut. Man kann eben nicht alles planen.", "n": "All right. You just can't plan everything." },
+          { "who": "you", "t": "Eben! Genau das meine ich.", "n": "Exactly! That's precisely what I mean." }
+        ]
+      },
+      "prompts": [
+        { "n": "Guess that he's probably missed the train.", "t": ["Er hat wohl den Zug verpasst"] },
+        { "n": "Reassure someone that it'll work out.", "t": ["Das wird schon klappen"] },
+        { "n": "Accept the situation: that's just the way it is.", "t": ["Das ist halt so", "Das ist eben so"] },
+        { "n": "Agree emphatically: exactly, that's what you mean.", "t": ["Eben, genau das meine ich", "Genau das meine ich"] }
+      ]
+    }
+  ]
+}

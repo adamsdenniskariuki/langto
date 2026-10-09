@@ -1,0 +1,86 @@
+{
+  "id": "c1-u08",
+  "title": "Große Fragen",
+  "subtitle": "Abstract topics: ethics, AI, work & identity",
+  "icon": "🧠",
+  "lessons": [
+    {
+      "id": "c1-u08-l1",
+      "title": "Debating AI and ethics",
+      "goal": "Discuss abstract ethical questions precisely, using sophisticated connectors.",
+      "tip": {
+        "title": "Connectors that sound educated",
+        "body": "angesichts (+ genitive) = given, nichtsdestotrotz = nevertheless (verb comes second), sofern = provided that, insofern … als = insofar as, zumal = especially since. Starting a sentence with a connector gives you a moment to plan the rest — make a tiny pause after it and then speak the main idea in one breath."
+      },
+      "phrases": [
+        { "t": "Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln.", "n": "Given the rapid development, we urgently need clear rules." },
+        { "t": "Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.", "n": "Nevertheless, we shouldn't underestimate the opportunities." },
+        { "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.", "n": "Artificial intelligence is only dangerous insofar as we use it uncritically." },
+        { "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken.", "n": "Provided the data is anonymised, I have no concerns." },
+        { "t": "Die eigentliche Frage ist doch, wer die Verantwortung trägt.", "n": "The real question is who bears responsibility." },
+        { "t": "Das ist heikel, zumal die Technik schneller ist als jede Gesetzgebung.", "n": "That's tricky, especially since technology moves faster than any legislation." },
+        { "t": "Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung?", "n": "Where do we draw the line between help and paternalism?" },
+        { "t": "Letztlich ist das eine Frage der Werte, nicht der Technik.", "n": "Ultimately, that's a question of values, not of technology." }
+      ],
+      "dialogue": {
+        "title": "Podcast interview",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Dr. Roth", "t": "Willkommen im Podcast! Viele Menschen haben Angst vor künstlicher Intelligenz. Zu Recht?", "n": "Welcome to the podcast! Many people are afraid of artificial intelligence. Rightly so?" },
+          { "who": "you", "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.", "n": "Artificial intelligence is only dangerous insofar as we use it uncritically." },
+          { "who": "A", "name": "Dr. Roth", "t": "Aber Algorithmen entscheiden schon heute über Kredite oder Bewerbungen. Ist das nicht beunruhigend?", "n": "But algorithms already decide on loans or job applications today. Isn't that worrying?" },
+          { "who": "you", "t": "Durchaus. Die eigentliche Frage ist doch, wer die Verantwortung trägt, wenn etwas schiefgeht.", "n": "It certainly is. The real question is who bears responsibility when something goes wrong." },
+          { "who": "A", "name": "Dr. Roth", "t": "Und was ist mit unseren Daten? Manche Dienste wissen mehr über uns als unsere Freunde.", "n": "And what about our data? Some services know more about us than our friends do." },
+          { "who": "you", "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken. Aber das ist leider selten der Fall.", "n": "Provided the data is anonymised, I have no concerns. But sadly that's rarely the case." },
+          { "who": "A", "name": "Dr. Roth", "t": "Also sollte der Staat strenger regulieren?", "n": "So the state should regulate more strictly?" },
+          { "who": "you", "t": "Angesichts der rasanten Entwicklung ja. Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.", "n": "Given the rapid development, yes. Nevertheless, we shouldn't underestimate the opportunities." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that given the rapid development we urgently need clear rules.", "t": ["Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln", "Angesichts der rasanten Entwicklung brauchen wir klare Regeln"] },
+        { "n": "Say you have no concerns, provided the data is anonymised.", "t": ["Sofern die Daten anonymisiert sind, habe ich keine Bedenken"] },
+        { "n": "Say that ultimately it's a question of values, not technology.", "t": ["Letztlich ist das eine Frage der Werte, nicht der Technik", "Letztlich ist das eine Frage der Werte"] },
+        { "n": "Ask where we draw the line between help and paternalism.", "t": ["Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l2",
+      "title": "Reported views and hypotheticals",
+      "goal": "Report other people's opinions with Konjunktiv I and reflect on work, life and identity with Konjunktiv II.",
+      "tip": {
+        "title": "Konjunktiv I keeps your distance",
+        "body": "Konjunktiv I (er sei, man müsse, sie habe) reports what others say without vouching for it — common in the news and in educated speech. Konjunktiv II (wäre, könnte, hätte … gewusst) expresses the hypothetical and regrets. Pronounce sei and müsse crisply; they are the signal that you are quoting, not claiming."
+      },
+      "phrases": [
+        { "t": "Der Studie zufolge sei die Viertagewoche ein voller Erfolg.", "n": "According to the study, the four-day week is a complete success.", "note": "Konjunktiv I: you report, you don't vouch." },
+        { "t": "Meine Chefin meinte, das sei alles eine Frage der Organisation.", "n": "My boss said it was all a question of organisation." },
+        { "t": "Es heißt immer, man müsse nur wollen.", "n": "People always say you just have to want it." },
+        { "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten.", "n": "If I could start all over again, I'd work less." },
+        { "t": "Hätte ich das damals gewusst, hätte ich anders entschieden.", "n": "Had I known that back then, I'd have decided differently." },
+        { "t": "Unsere Identität hängt mehr am Beruf, als uns lieb ist.", "n": "Our identity depends on our job more than we'd like." },
+        { "t": "Ich frage mich, ob wir nicht falsche Prioritäten setzen.", "n": "I wonder whether we're setting the wrong priorities." },
+        { "t": "Als ob Erfolg nur in Überstunden zu messen wäre!", "n": "As if success could only be measured in overtime!" }
+      ],
+      "dialogue": {
+        "title": "Work, life and who we are",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Felix", "t": "Hast du schon gehört? Mein Konzern führt jetzt auch die Viertagewoche ein. Ich bin echt skeptisch.", "n": "Have you heard? My company is introducing the four-day week too. I'm really sceptical." },
+          { "who": "you", "t": "Warum denn? Der Studie zufolge sei die Viertagewoche ein voller Erfolg.", "n": "Why's that? According to the study, the four-day week is a complete success." },
+          { "who": "A", "name": "Felix", "t": "Mag sein. Aber mein Chef meinte, wer weniger arbeite, mache eben auch weniger Karriere.", "n": "Maybe. But my boss said that whoever works less simply has less of a career." },
+          { "who": "you", "t": "Als ob Erfolg nur in Überstunden zu messen wäre! Ich frage mich, ob wir nicht falsche Prioritäten setzen.", "n": "As if success could only be measured in overtime! I wonder whether we're setting the wrong priorities." },
+          { "who": "A", "name": "Felix", "t": "Leicht gesagt. Für viele ist der Job nun mal ein großer Teil ihrer Identität. Für mich auch.", "n": "Easy to say. For many people the job is simply a big part of their identity. For me too." },
+          { "who": "you", "t": "Das stimmt. Unsere Identität hängt mehr am Beruf, als uns lieb ist.", "n": "That's true. Our identity depends on our job more than we'd like." },
+          { "who": "A", "name": "Felix", "t": "Und du? Würdest du rückblickend etwas anders machen?", "n": "And you? Looking back, would you do anything differently?" },
+          { "who": "you", "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten und mehr reisen.", "n": "If I could start all over again, I'd work less and travel more." }
+        ]
+      },
+      "prompts": [
+        { "n": "Report that your boss said it's all a question of organisation.", "t": ["Meine Chefin meinte, das sei alles eine Frage der Organisation", "Mein Chef meinte, das sei alles eine Frage der Organisation"] },
+        { "n": "Say that if you could start all over again, you'd work less.", "t": ["Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten"] },
+        { "n": "Say that had you known back then, you'd have decided differently.", "t": ["Hätte ich das damals gewusst, hätte ich anders entschieden", "Wenn ich das damals gewusst hätte, hätte ich anders entschieden"] },
+        { "n": "Wonder aloud whether we're setting the wrong priorities.", "t": ["Ich frage mich, ob wir nicht falsche Prioritäten setzen"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c1-u07",
+  "title": "Erzählen mit Pfiff",
+  "subtitle": "Storytelling, humour & idioms",
+  "icon": "📖",
+  "lessons": [
+    {
+      "id": "c1-u07-l1",
+      "title": "Telling a story with suspense",
+      "goal": "Tell an anecdote vividly, build up tension and deliver the twist.",
+      "tip": {
+        "title": "Switch to the present for the drama",
+        "body": "In spoken German, stories usually run in the Perfekt, but switching to the present tense at the dramatic moment (und auf einmal steht da …) pulls listeners in. Hooks like Du wirst nicht glauben, was dann passiert ist build suspense. Speed up during the action, then pause just before the twist and let it drop."
+      },
+      "phrases": [
+        { "t": "Das war vielleicht ein Tag, sag ich dir!", "n": "What a day that was, I tell you!", "note": "vielleicht here = emphatic, not 'maybe'." },
+        { "t": "Ich ahnte noch nichts Böses.", "n": "I didn't suspect a thing yet." },
+        { "t": "Und auf einmal steht da dieser Typ vor mir.", "n": "And suddenly there's this guy standing in front of me.", "note": "Present tense for vividness." },
+        { "t": "Mir ist fast das Herz stehen geblieben.", "n": "My heart almost stopped." },
+        { "t": "Du wirst nicht glauben, was dann passiert ist.", "n": "You won't believe what happened next." },
+        { "t": "Im Nachhinein kann ich darüber lachen.", "n": "Looking back, I can laugh about it." },
+        { "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst.", "n": "Long story short: we missed the flight." },
+        { "t": "Und jetzt kommt der Clou.", "n": "And now comes the best part." }
+      ],
+      "dialogue": {
+        "title": "The trip to Lisbon",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Jana", "t": "Na, wie war eure Reise nach Lissabon? Erzähl mal!", "n": "So, how was your trip to Lisbon? Tell me!" },
+          { "who": "you", "t": "Das war vielleicht ein Tag, sag ich dir! Wir standen am Flughafen und ahnten noch nichts Böses.", "n": "What a day that was, I tell you! We were standing at the airport, not suspecting a thing." },
+          { "who": "A", "name": "Jana", "t": "Oh nein, das klingt nach Drama. Was ist passiert?", "n": "Oh no, that sounds like drama. What happened?" },
+          { "who": "you", "t": "Ich greife in die Tasche, und der Pass ist weg. Mir ist fast das Herz stehen geblieben.", "n": "I reach into my bag, and my passport's gone. My heart almost stopped." },
+          { "who": "A", "name": "Jana", "t": "Ach du Schreck! Und dann? Hast du ihn wiedergefunden?", "n": "Oh my goodness! And then? Did you find it again?" },
+          { "who": "you", "t": "Und jetzt kommt der Clou: Er steckte die ganze Zeit in meiner Jacke!", "n": "And now comes the best part: it was in my jacket the whole time!" },
+          { "who": "A", "name": "Jana", "t": "Nicht dein Ernst! Und habt ihr den Flug noch erwischt?", "n": "You're kidding! And did you still catch the flight?" },
+          { "who": "you", "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst. Im Nachhinein kann ich darüber lachen.", "n": "Long story short: we missed the flight. Looking back, I can laugh about it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell your friend they won't believe what happened next.", "t": ["Du wirst nicht glauben, was dann passiert ist"] },
+        { "n": "Say your heart almost stopped.", "t": ["Mir ist fast das Herz stehen geblieben"] },
+        { "n": "Sum it up: long story short, you missed the flight.", "t": ["Lange Rede, kurzer Sinn, wir haben den Flug verpasst", "Wir haben den Flug verpasst"] },
+        { "n": "Say that looking back you can laugh about it.", "t": ["Im Nachhinein kann ich darüber lachen"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l2",
+      "title": "Humour and idioms",
+      "goal": "Use common German idioms and self-irony to tell a funny story naturally.",
+      "tip": {
+        "title": "Idioms need the right moment",
+        "body": "Redewendungen like ins Fettnäpfchen treten or nur Bahnhof verstehen make your German colourful, but they belong in casual conversation, not in a report. Germans love dry self-irony. For comic timing, pause briefly before the punchline and say it in a flat, deadpan tone."
+      },
+      "phrases": [
+        { "t": "Da bin ich mal wieder ins Fettnäpfchen getreten.", "n": "I put my foot in it again.", "note": "Fettnäpfchen = a social blunder." },
+        { "t": "Ich habe nur Bahnhof verstanden.", "n": "It was all Greek to me." },
+        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem.", "note": "Colloquial." },
+        { "t": "Da hatten wir den Salat!", "n": "Now we were in a right mess!" },
+        { "t": "Ich drücke dir die Daumen.", "n": "I'll keep my fingers crossed for you." },
+        { "t": "Jetzt mal Butter bei die Fische!", "n": "Come on, get to the point!", "note": "Northern German, deliberately ungrammatical and jokey." },
+        { "t": "Er hat mal wieder den Vogel abgeschossen.", "n": "He's really outdone himself this time.", "note": "Often ironic: did something outrageous." },
+        { "t": "Da lachen ja die Hühner!", "n": "Don't make me laugh!" }
+      ],
+      "dialogue": {
+        "title": "The office party",
+        "lines": [
+          { "who": "A", "name": "Ralf", "t": "Und, wie war die Weihnachtsfeier? Ich lag ja leider mit Grippe im Bett.", "n": "So, how was the Christmas party? Unfortunately I was in bed with flu." },
+          { "who": "you", "t": "Ach, da bin ich mal wieder ins Fettnäpfchen getreten.", "n": "Oh, I put my foot in it again." },
+          { "who": "A", "name": "Ralf", "t": "Oh, das klingt vielversprechend. Jetzt mal Butter bei die Fische!", "n": "Oh, that sounds promising. Come on, spill the beans!" },
+          { "who": "you", "t": "Ich habe die Frau vom Chef für die Kellnerin gehalten und bei ihr ein Bier bestellt.", "n": "I mistook the boss's wife for the waitress and ordered a beer from her." },
+          { "who": "A", "name": "Ralf", "t": "Nein! Und was hat sie gesagt?", "n": "No! And what did she say?" },
+          { "who": "you", "t": "Sie meinte nur ganz trocken: Das ist nicht mein Bier.", "n": "She just said, completely deadpan: That's not my problem." },
+          { "who": "A", "name": "Ralf", "t": "Herrlich! Und der Chef? Hat er das mitbekommen?", "n": "Brilliant! And the boss? Did he notice?" },
+          { "who": "you", "t": "Natürlich, er stand direkt daneben. Da hatten wir den Salat!", "n": "Of course, he was standing right next to her. Now we were in a right mess!" },
+          { "who": "A", "name": "Ralf", "t": "Und nächste Woche hast du ausgerechnet dein Jahresgespräch mit ihm, oder?", "n": "And next week of all times you've got your annual review with him, right?" },
+          { "who": "you", "t": "Genau. Drück mir die Daumen!", "n": "Exactly. Keep your fingers crossed for me!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you put your foot in it again.", "t": ["Da bin ich mal wieder ins Fettnäpfchen getreten", "Ich bin ins Fettnäpfchen getreten"] },
+        { "n": "Say it was all Greek to you.", "t": ["Ich habe nur Bahnhof verstanden", "Ich verstehe nur Bahnhof"] },
+        { "n": "Wish a friend luck the German way.", "t": ["Ich drücke dir die Daumen"] },
+        { "n": "Say idiomatically that it's not your problem.", "t": ["Das ist nicht mein Bier"] }
+      ]
+    }
+  ]
+}

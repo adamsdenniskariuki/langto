@@ -1,0 +1,86 @@
+{
+  "id": "c1-u04",
+  "title": "Überzeugen",
+  "subtitle": "Persuasion & rhetoric in discussions",
+  "icon": "🎯",
+  "lessons": [
+    {
+      "id": "c1-u04-l1",
+      "title": "Building a persuasive argument",
+      "goal": "Argue for a proposal with examples, figures and rhetorical questions.",
+      "tip": {
+        "title": "Claim, reason, example, conclusion",
+        "body": "A convincing argument has a clear arc: claim, reason, concrete example, conclusion (unterm Strich …). Rhetorical questions like Was spricht eigentlich dagegen? invite agreement. Slow down on your key word and leave a short pause after a rhetorical question — silence makes it land."
+      },
+      "phrases": [
+        { "t": "Lassen Sie mich das an einem Beispiel verdeutlichen.", "n": "Let me illustrate that with an example." },
+        { "t": "Stellen Sie sich einmal vor, wir würden nichts unternehmen.", "n": "Just imagine we did nothing." },
+        { "t": "Die Zahlen sprechen eine eindeutige Sprache.", "n": "The figures speak for themselves." },
+        { "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren?", "n": "What's actually stopping us from just trying it?", "note": "Rhetorical question — pause afterwards." },
+        { "t": "Nicht nur das, wir sparen dadurch auch noch Zeit.", "n": "Not only that, we also save time this way." },
+        { "t": "Unterm Strich profitieren alle davon.", "n": "At the end of the day, everyone benefits." },
+        { "t": "Angesichts der steigenden Kosten haben wir kaum eine andere Wahl.", "n": "Given the rising costs, we hardly have any other choice.", "note": "angesichts + genitive." },
+        { "t": "Der entscheidende Punkt ist doch, dass wir flexibler werden.", "n": "The crucial point is that we become more flexible." }
+      ],
+      "dialogue": {
+        "title": "Pitching a four-day week",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Schuster", "t": "Eine Viertagewoche? Das klingt mir ehrlich gesagt nach einem teuren Experiment.", "n": "A four-day week? Frankly, that sounds like an expensive experiment to me." },
+          { "who": "you", "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren? Zum Beispiel drei Monate in einem Team.", "n": "What's actually stopping us from just trying it? For example, three months in one team." },
+          { "who": "A", "name": "Frau Schuster", "t": "Und wenn die Arbeit liegen bleibt? Dann stehen wir vor den Kunden ziemlich blöd da.", "n": "And if work piles up? Then we'll look pretty silly in front of our clients." },
+          { "who": "you", "t": "Lassen Sie mich das an einem Beispiel verdeutlichen. Eine Firma in Hamburg hat genau das getestet.", "n": "Let me illustrate that with an example. A company in Hamburg tested exactly that." },
+          { "who": "A", "name": "Frau Schuster", "t": "Und mit welchem Ergebnis?", "n": "And with what result?" },
+          { "who": "you", "t": "Die Zahlen sprechen eine eindeutige Sprache: weniger Krankheitstage bei gleicher Leistung.", "n": "The figures speak for themselves: fewer sick days with the same output." },
+          { "who": "A", "name": "Frau Schuster", "t": "Hm. Aber der Aufwand für die Umstellung ist auch nicht zu unterschätzen.", "n": "Hm. But the effort of switching over shouldn't be underestimated either." },
+          { "who": "you", "t": "Schon, aber unterm Strich profitieren alle davon. Stellen Sie sich vor, wir würden unsere besten Leute verlieren.", "n": "True, but at the end of the day everyone benefits. Imagine we lost our best people." }
+        ]
+      },
+      "prompts": [
+        { "n": "Offer to illustrate your point with an example.", "t": ["Lassen Sie mich das an einem Beispiel verdeutlichen"] },
+        { "n": "Ask what's actually stopping you from just trying it.", "t": ["Was spricht eigentlich dagegen, es einfach auszuprobieren", "Was spricht dagegen, es auszuprobieren"] },
+        { "n": "Say the figures speak for themselves.", "t": ["Die Zahlen sprechen eine eindeutige Sprache"] },
+        { "n": "Conclude that, at the end of the day, everyone benefits.", "t": ["Unterm Strich profitieren alle davon"] }
+      ]
+    },
+    {
+      "id": "c1-u04-l2",
+      "title": "Countering objections",
+      "goal": "Anticipate and rebut objections firmly but politely in a heated debate.",
+      "tip": {
+        "title": "Concede, then turn",
+        "body": "Take the wind out of your opponent's sails by naming the objection yourself: Nun könnte man einwenden, dass … Then concede briefly (Das mag sein) and turn it around (aber es greift zu kurz). If you're interrupted, stay calm: say Lassen Sie mich bitte ausreden at a steady volume rather than louder."
+      },
+      "phrases": [
+        { "t": "Nun könnte man einwenden, dass das zu teuer ist.", "n": "Now one might object that it's too expensive." },
+        { "t": "Das mag sein, aber das Argument greift zu kurz.", "n": "That may be, but the argument falls short." },
+        { "t": "Genau das Gegenteil ist der Fall.", "n": "Exactly the opposite is true." },
+        { "t": "Sie verwechseln hier Ursache und Wirkung.", "n": "You're confusing cause and effect here." },
+        { "t": "Gerade deshalb sollten wir jetzt handeln.", "n": "That's precisely why we should act now." },
+        { "t": "Mit Verlaub, das ist eine Unterstellung.", "n": "With respect, that's an insinuation.", "note": "Mit Verlaub = formal, polite-but-sharp." },
+        { "t": "Lassen Sie mich bitte ausreden.", "n": "Please let me finish." },
+        { "t": "Wer A sagt, muss auch B sagen.", "n": "In for a penny, in for a pound.", "note": "Proverb: if you start something, follow through." }
+      ],
+      "dialogue": {
+        "title": "Debate: a speed limit on the Autobahn",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Dr. Lindner", "t": "Ein Tempolimit bringt für das Klima so gut wie nichts. Das ist reine Symbolpolitik.", "n": "A speed limit does next to nothing for the climate. It's pure symbolic politics." },
+          { "who": "you", "t": "Genau das Gegenteil ist der Fall. Studien zeigen deutliche Einsparungen bei den Emissionen.", "n": "Exactly the opposite is true. Studies show clear reductions in emissions." },
+          { "who": "A", "name": "Dr. Lindner", "t": "Studien gibt es viele. Und die Freiheit der Autofahrer ist Ihnen offenbar völlig egal.", "n": "There are plenty of studies. And you obviously don't care at all about drivers' freedom." },
+          { "who": "you", "t": "Mit Verlaub, das ist eine Unterstellung. Nun könnte man einwenden, dass ein Tempolimit die Freiheit einschränkt.", "n": "With respect, that's an insinuation. Now one might object that a speed limit restricts freedom." },
+          { "who": "A", "name": "Dr. Lindner", "t": "Das tut es ja auch! Jeder Eingriff in die Freiheit ist ein Eingriff zu viel, und das wissen Sie genau!", "n": "And it does! Every restriction of freedom is one too many, and you know that full well!" },
+          { "who": "you", "t": "Lassen Sie mich bitte ausreden. Fast alle Nachbarländer haben ein Tempolimit, und dort fühlt sich niemand unfrei.", "n": "Please let me finish. Almost all neighbouring countries have a speed limit, and nobody there feels unfree." },
+          { "who": "A", "name": "Dr. Lindner", "t": "Das mag für die Nachbarn gelten. Aber bei uns gibt es nun mal eine andere Tradition.", "n": "That may apply to our neighbours. But we simply have a different tradition here." },
+          { "who": "you", "t": "Das mag sein, aber das Argument greift zu kurz. Traditionen sind kein Naturgesetz.", "n": "That may be, but the argument falls short. Traditions aren't a law of nature." }
+        ]
+      },
+      "prompts": [
+        { "n": "Anticipate the objection that it's too expensive.", "t": ["Nun könnte man einwenden, dass das zu teuer ist"] },
+        { "n": "Concede the point, but say the argument falls short.", "t": ["Das mag sein, aber das Argument greift zu kurz", "Das mag sein, aber das greift zu kurz"] },
+        { "n": "Ask firmly to be allowed to finish.", "t": ["Lassen Sie mich bitte ausreden"] },
+        { "n": "Say that's precisely why we should act now.", "t": ["Gerade deshalb sollten wir jetzt handeln"] }
+      ]
+    }
+  ]
+}

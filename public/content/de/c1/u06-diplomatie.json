@@ -1,0 +1,86 @@
+{
+  "id": "c1-u06",
+  "title": "Diplomatisch bleiben",
+  "subtitle": "Tactful criticism & conflict resolution",
+  "icon": "🕊️",
+  "lessons": [
+    {
+      "id": "c1-u06-l1",
+      "title": "Giving criticism tactfully",
+      "goal": "Raise a delicate issue with a colleague constructively, without causing offence.",
+      "tip": {
+        "title": "Soft on the person, clear on the issue",
+        "body": "Start with genuine appreciation, describe what you observed (Mir ist aufgefallen, dass …) instead of judging, and ask for the other person's view. Konjunktiv II softens requests: Wäre es denkbar …? Speak a little more slowly and quietly than usual, with a warm tone — the melody matters as much as the words."
+      },
+      "phrases": [
+        { "t": "Ich schätze Ihr Engagement sehr, deshalb möchte ich offen mit Ihnen sprechen.", "n": "I really value your commitment, which is why I'd like to speak openly with you." },
+        { "t": "Mir ist aufgefallen, dass sich die Abgabetermine zuletzt etwas verschoben haben.", "n": "I've noticed that deadlines have slipped a little recently." },
+        { "t": "Wäre es denkbar, die Berichte künftig etwas früher zu schicken?", "n": "Would it be possible to send the reports a little earlier in future?" },
+        { "t": "Das soll keineswegs ein Vorwurf sein.", "n": "That's not meant as a reproach in any way." },
+        { "t": "Wie sehen Sie das selbst?", "n": "How do you see it yourself?" },
+        { "t": "Was bräuchten Sie von mir, damit das besser klappt?", "n": "What would you need from me to make this work better?" },
+        { "t": "Ich hätte mir gewünscht, dass Sie mich früher informiert hätten.", "n": "I would have liked you to inform me earlier.", "note": "Konjunktiv II: criticism of the past, softly phrased." },
+        { "t": "Insgesamt bin ich mit Ihrer Arbeit sehr zufrieden.", "n": "Overall, I'm very happy with your work." }
+      ],
+      "dialogue": {
+        "title": "A feedback conversation",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Herr Krüger", "t": "Sie wollten mich sprechen? Ist etwas passiert?", "n": "You wanted to see me? Has something happened?" },
+          { "who": "you", "t": "Nein, keine Sorge. Ich schätze Ihr Engagement sehr, deshalb möchte ich offen mit Ihnen sprechen.", "n": "No, don't worry. I really value your commitment, which is why I'd like to speak openly with you." },
+          { "who": "A", "name": "Herr Krüger", "t": "Okay. Worum geht es denn?", "n": "OK. What's it about?" },
+          { "who": "you", "t": "Mir ist aufgefallen, dass sich die Abgabetermine zuletzt etwas verschoben haben. Wie sehen Sie das selbst?", "n": "I've noticed that deadlines have slipped a little recently. How do you see it yourself?" },
+          { "who": "A", "name": "Herr Krüger", "t": "Ja, das stimmt leider. Ich habe gerade drei Projekte gleichzeitig und komme kaum hinterher.", "n": "Yes, unfortunately that's true. I've got three projects at once right now and can hardly keep up." },
+          { "who": "you", "t": "Das soll keineswegs ein Vorwurf sein. Was bräuchten Sie von mir, damit das besser klappt?", "n": "That's not meant as a reproach in any way. What would you need from me to make this work better?" },
+          { "who": "A", "name": "Herr Krüger", "t": "Vielleicht könnten wir die Prioritäten gemeinsam festlegen? Dann wüsste ich, was zuerst dran ist.", "n": "Maybe we could set the priorities together? Then I'd know what comes first." },
+          { "who": "you", "t": "Gute Idee, das machen wir. Insgesamt bin ich mit Ihrer Arbeit sehr zufrieden.", "n": "Good idea, let's do that. Overall, I'm very happy with your work." }
+        ]
+      },
+      "prompts": [
+        { "n": "Make clear that it isn't meant as a reproach.", "t": ["Das soll keineswegs ein Vorwurf sein", "Das soll kein Vorwurf sein"] },
+        { "n": "Tactfully ask whether the reports could be sent earlier in future.", "t": ["Wäre es denkbar, die Berichte künftig etwas früher zu schicken", "Wäre es denkbar, die Berichte früher zu schicken"] },
+        { "n": "Ask what they would need from you to make it work better.", "t": ["Was bräuchten Sie von mir, damit das besser klappt"] },
+        { "n": "Say you would have liked to be informed earlier.", "t": ["Ich hätte mir gewünscht, dass Sie mich früher informiert hätten"] }
+      ]
+    },
+    {
+      "id": "c1-u06-l2",
+      "title": "Resolving a conflict",
+      "goal": "De-escalate a heated situation and negotiate a fair compromise.",
+      "tip": {
+        "title": "Calm voice, common ground",
+        "body": "First acknowledge the other person's feelings, then separate the person from the problem and look for room to move (Spielraum). Sofern (provided that) helps you agree conditionally. In conflicts, consciously lower your pitch and speed — a calm, low voice de-escalates far more than any argument."
+      },
+      "phrases": [
+        { "t": "Ich kann gut nachvollziehen, dass Sie verärgert sind.", "n": "I can well understand that you're annoyed." },
+        { "t": "Lassen Sie uns bitte sachlich bleiben.", "n": "Let's please keep this objective." },
+        { "t": "Mir geht es nicht darum, wer schuld ist, sondern um eine Lösung.", "n": "I'm not concerned with who's to blame, but with finding a solution." },
+        { "t": "Da ist offenbar ein Missverständnis entstanden.", "n": "There seems to have been a misunderstanding." },
+        { "t": "Wo sehen Sie denn Spielraum?", "n": "Where do you see room for manoeuvre?" },
+        { "t": "Könnten wir uns vielleicht in der Mitte treffen?", "n": "Could we perhaps meet halfway?" },
+        { "t": "Ich möchte das Thema behutsam ansprechen, weil es mir wichtig ist.", "n": "I'd like to raise this carefully, because it matters to me." },
+        { "t": "Sofern Sie einverstanden sind, halten wir das schriftlich fest.", "n": "Provided you agree, we'll put that in writing." }
+      ],
+      "dialogue": {
+        "title": "Trouble with the neighbour",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Becker", "t": "Ich muss das jetzt mal loswerden: Ihre Bauarbeiten jeden Samstag ab sieben Uhr sind eine Zumutung!", "n": "I have to get this off my chest: your building work every Saturday from seven o'clock is unacceptable!" },
+          { "who": "you", "t": "Ich kann gut nachvollziehen, dass Sie verärgert sind. Da ist offenbar ein Missverständnis entstanden.", "n": "I can well understand that you're annoyed. There seems to have been a misunderstanding." },
+          { "who": "A", "name": "Frau Becker", "t": "Ein Missverständnis? Ich habe Ihnen schon zweimal einen Zettel in den Briefkasten geworfen!", "n": "A misunderstanding? I've already put a note in your letterbox twice!" },
+          { "who": "you", "t": "Die Zettel sind leider nie angekommen. Mir geht es nicht um Schuld, sondern um eine Lösung.", "n": "Unfortunately the notes never arrived. I'm not concerned with blame, but with a solution." },
+          { "who": "A", "name": "Frau Becker", "t": "Na gut. Aber so kann es nicht weitergehen. Ich brauche wenigstens am Wochenende meine Ruhe.", "n": "All right. But it can't go on like this. I need my peace and quiet at least at the weekend." },
+          { "who": "you", "t": "Könnten wir uns vielleicht in der Mitte treffen? Samstags erst ab zehn, sonntags gar nicht.", "n": "Could we perhaps meet halfway? Saturdays not before ten, Sundays not at all." },
+          { "who": "A", "name": "Frau Becker", "t": "Hm, damit könnte ich leben. Aber nur, wenn das auch wirklich eingehalten wird.", "n": "Hm, I could live with that. But only if it's really kept to." },
+          { "who": "you", "t": "Sofern Sie einverstanden sind, halten wir das schriftlich fest.", "n": "Provided you agree, we'll put that in writing." }
+        ]
+      },
+      "prompts": [
+        { "n": "Show that you understand they're annoyed.", "t": ["Ich kann gut nachvollziehen, dass Sie verärgert sind"] },
+        { "n": "Ask everyone to keep things objective.", "t": ["Lassen Sie uns bitte sachlich bleiben", "Bleiben wir bitte sachlich"] },
+        { "n": "Suggest meeting halfway.", "t": ["Könnten wir uns vielleicht in der Mitte treffen", "Treffen wir uns in der Mitte"] },
+        { "n": "Say you care about a solution, not about blame.", "t": ["Mir geht es nicht darum, wer schuld ist, sondern um eine Lösung", "Mir geht es nicht um Schuld, sondern um eine Lösung"] }
+      ]
+    }
+  ]
+}

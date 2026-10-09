@@ -1,0 +1,85 @@
+{
+  "id": "c1-u03",
+  "title": "Vorsichtig formuliert",
+  "subtitle": "Nuanced opinions & hedging",
+  "icon": "🤔",
+  "lessons": [
+    {
+      "id": "c1-u03-l1",
+      "title": "Hedging your opinion",
+      "goal": "Express opinions cautiously and with nuance instead of in black and white.",
+      "tip": {
+        "title": "The power of Konjunktiv II",
+        "body": "Konjunktiv II turns a hard statement into a considered one: ich würde eher sagen, es ließe sich argumentieren, man könnte. Add qualifiers like meines Erachtens or soweit ich das beurteilen kann. When speaking, pause briefly after the hedge and then stress the key word of your claim — it sounds thoughtful, not unsure."
+      },
+      "phrases": [
+        { "t": "Ich würde eher sagen, dass das Problem tiefer liegt.", "n": "I'd rather say that the problem runs deeper." },
+        { "t": "Es ließe sich argumentieren, dass beide Seiten recht haben.", "n": "One could argue that both sides are right." },
+        { "t": "Soweit ich das beurteilen kann, ist der Plan durchaus realistisch.", "n": "As far as I can judge, the plan is quite realistic." },
+        { "t": "Ich bin mir da ehrlich gesagt nicht ganz sicher.", "n": "To be honest, I'm not entirely sure about that." },
+        { "t": "Das hängt meines Erachtens stark vom Kontext ab.", "n": "In my view, that depends heavily on the context.", "note": "meines Erachtens = formal 'in my opinion'." },
+        { "t": "Ganz so einfach ist es wohl nicht.", "n": "It's probably not quite that simple." },
+        { "t": "Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen.", "n": "I tend to agree with you, albeit with reservations." },
+        { "t": "Man könnte es auch anders sehen.", "n": "One could also see it differently." }
+      ],
+      "dialogue": {
+        "title": "Is working from home making us lazy?",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Dr. Weiß", "t": "Homeoffice macht die Leute faul. Das ist doch inzwischen bewiesen, oder?", "n": "Working from home makes people lazy. That's been proven by now, hasn't it?" },
+          { "who": "you", "t": "Ganz so einfach ist es wohl nicht. Das hängt meines Erachtens stark vom Kontext ab.", "n": "It's probably not quite that simple. In my view, that depends heavily on the context." },
+          { "who": "A", "name": "Dr. Weiß", "t": "Inwiefern? Die Produktivität ist in vielen Firmen messbar gesunken.", "n": "In what way? Productivity has measurably fallen in many companies." },
+          { "who": "you", "t": "In manchen schon. Ich würde eher sagen, dass das Problem tiefer liegt, nämlich bei der Führung.", "n": "In some, yes. I'd rather say that the problem runs deeper, namely in the management." },
+          { "who": "A", "name": "Dr. Weiß", "t": "Also liegt es an den Chefs? Das klingt mir ehrlich gesagt etwas zu bequem.", "n": "So it's the bosses' fault? Frankly, that sounds a bit too convenient to me." },
+          { "who": "you", "t": "Man könnte es auch anders sehen. Es ließe sich argumentieren, dass beide Seiten recht haben.", "n": "One could also see it differently. One could argue that both sides are right." },
+          { "who": "A", "name": "Dr. Weiß", "t": "Na gut, dann einigen wir uns auf ein diplomatisches Unentschieden.", "n": "All right, then let's agree on a diplomatic draw." },
+          { "who": "you", "t": "Soweit ich das beurteilen kann, ist das ein fairer Kompromiss.", "n": "As far as I can judge, that's a fair compromise." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that one could argue both sides are right.", "t": ["Es ließe sich argumentieren, dass beide Seiten recht haben"] },
+        { "n": "Say it's probably not quite that simple.", "t": ["Ganz so einfach ist es wohl nicht"] },
+        { "n": "Say you tend to agree, but with reservations.", "t": ["Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen", "Ich neige dazu, Ihnen zuzustimmen"] },
+        { "n": "Say that in your view it depends heavily on the context.", "t": ["Das hängt meines Erachtens stark vom Kontext ab", "Das hängt stark vom Kontext ab"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l2",
+      "title": "Agreeing and disagreeing with nuance",
+      "goal": "Partially agree, concede points and disagree respectfully in a discussion.",
+      "tip": {
+        "title": "Yes, but — the German way",
+        "body": "In German discussions, open disagreement is normal, but nuance earns respect: concede first (Da ist durchaus etwas dran), then add your aber. Insofern … als lets you agree only to a precise extent. Let your voice rise slightly on the concession and fall firmly on the part after aber."
+      },
+      "phrases": [
+        { "t": "Da ist durchaus etwas dran.", "n": "There's definitely something to that." },
+        { "t": "Im Prinzip ja, aber im Detail sehe ich das anders.", "n": "In principle yes, but in the details I see it differently." },
+        { "t": "Da muss ich Ihnen leider widersprechen.", "n": "I'm afraid I have to disagree with you there." },
+        { "t": "Das sehe ich grundsätzlich genauso.", "n": "Basically, I see it the same way." },
+        { "t": "Mit dieser Einschätzung tue ich mich etwas schwer.", "n": "I'm having a bit of trouble with that assessment.", "note": "Soft way to signal disagreement." },
+        { "t": "Ich gebe Ihnen insofern recht, als die Kosten tatsächlich steigen.", "n": "I agree with you insofar as costs really are rising." },
+        { "t": "Das ist ein berechtigter Einwand.", "n": "That's a valid objection." },
+        { "t": "Da gehen unsere Meinungen wohl auseinander.", "n": "I suppose our opinions differ there." }
+      ],
+      "dialogue": {
+        "title": "A car-free city centre?",
+        "lines": [
+          { "who": "A", "name": "Herr Vogt", "t": "Ich schlage vor, die Innenstadt ab nächstem Jahr komplett autofrei zu machen.", "n": "I propose making the city centre completely car-free from next year." },
+          { "who": "you", "t": "Da ist durchaus etwas dran. Die Luft wäre deutlich besser.", "n": "There's definitely something to that. The air would be much better." },
+          { "who": "A", "name": "Herr Vogt", "t": "Eben. Und die Geschäfte würden auch profitieren, weil mehr Fußgänger kommen.", "n": "Exactly. And the shops would benefit too, because more pedestrians would come." },
+          { "who": "you", "t": "Mit dieser Einschätzung tue ich mich etwas schwer. Viele Kunden kommen nun mal mit dem Auto.", "n": "I'm having a bit of trouble with that assessment. Many customers simply come by car." },
+          { "who": "A", "name": "Herr Vogt", "t": "Aber es gibt doch Busse und große Parkhäuser am Stadtrand.", "n": "But there are buses and big car parks on the edge of town." },
+          { "who": "you", "t": "Das ist ein berechtigter Einwand. Ich gebe Ihnen insofern recht, als der Nahverkehr gut ausgebaut ist.", "n": "That's a valid objection. I agree with you insofar as public transport is well developed." },
+          { "who": "A", "name": "Herr Vogt", "t": "Also sind wir uns im Grunde einig?", "n": "So we basically agree?" },
+          { "who": "you", "t": "Im Prinzip ja, aber im Detail sehe ich das anders.", "n": "In principle yes, but in the details I see it differently." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say there's definitely something to that.", "t": ["Da ist durchaus etwas dran", "Da ist was dran"] },
+        { "n": "Politely disagree with someone.", "t": ["Da muss ich Ihnen leider widersprechen"] },
+        { "n": "Agree in principle but not on the details.", "t": ["Im Prinzip ja, aber im Detail sehe ich das anders"] },
+        { "n": "Say that your opinions probably differ there.", "t": ["Da gehen unsere Meinungen wohl auseinander"] }
+      ]
+    }
+  ]
+}
