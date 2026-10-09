@@ -774,3 +774,10 @@ a.node:hover { transform: translateY(-2px); }
 .free-result { text-align: center; margin: 12px 0; }
 .track .cefr { font-size: 1.2rem; }
 @media (prefers-reduced-motion: reduce) { .story-lines li { transition: none; } }
+
+/* Microphone access */
+.mic-access { display: grid; gap: 0.5rem; }
+.mic-access .row { flex-wrap: wrap; }
+.mic-state.granted { color: var(--success, var(--accent)); }
+.mic-state.denied { color: var(--danger); }
+.unblock ol { margin: 0.4rem 0 0; padding-left: 1.2rem; display: grid; gap: 0.25rem; }

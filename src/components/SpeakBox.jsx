@@ -3,10 +3,11 @@ import { listen, recognitionErrorMessage, say, startRecording, stopSpeaking, sup
 import { PASS, scoreSpeech, verdict } from '../lib/score.js';
 import { recordSpeech } from '../lib/gamify.js';
 import { getState, update } from '../lib/store.js';
+import { micErrorMessage } from '../lib/mic.js';
 import { sfx } from '../lib/sfx.js';
 import { useCourse } from './context.js';
 
-const BLOCKING = new Set(['not-allowed', 'service-not-allowed', 'unsupported', 'audio-capture']);
+const BLOCKING = new Set(['not-allowed', 'service-not-allowed', 'unsupported', 'audio-capture', 'no-mic', 'insecure']);
 
 /** Record yourself, then compare against the model voice. */
 export function RecordCompare({ text }) {
@@ -29,8 +30,8 @@ export function RecordCompare({ text }) {
       try {
         stopSpeaking();
         setRec(await startRecording());
-      } catch {
-        setErr('Microphone access was blocked.');
+      } catch (e) {
+        setErr(micErrorMessage(e));
       }
     }
   };
@@ -140,10 +141,10 @@ export function SpeakBox({ expected, modelText, onResult, label = 'Tap the mic a
       )}
       {manual && (
         <div class="manual">
-          <p class="muted small">
+          <p class={support.stt ? 'muted small' : 'note'} role={support.stt ? undefined : 'note'}>
             {support.stt
               ? 'Say it out loud, then rate yourself honestly.'
-              : 'Automatic pronunciation checks need Chrome, Edge or Safari. Say it out loud, record yourself to compare, then rate yourself.'}
+              : '⚠️ Automatic scoring needs Chrome, Edge or Safari. Say it out loud, record yourself to compare with the model, then rate yourself.'}
           </p>
           <div class="row gap center">
             <button type="button" class={`btn ${selfRated === true ? 'primary' : 'ghost'}`} onClick={() => rate(true)}>

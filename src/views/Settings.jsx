@@ -3,6 +3,7 @@ import { useCourse } from '../components/context.js';
 import { exportData, parseImport, replaceState, resetAll, toast, update, useStore } from '../lib/store.js';
 import { FONTS, THEMES } from '../lib/appearance.js';
 import { listen, prefetchAudio, recognitionErrorMessage, say, support, voicesFor } from '../lib/speech.js';
+import { ensureMicPermission, MIC_STATE_LABEL, micErrorCode, micPermissionState, micSupported, unblockSteps, watchMicPermission } from '../lib/mic.js';
 import { navigate } from '../router.js';
 
 const GOALS = [
@@ -18,29 +19,80 @@ const set = (key, value) => update((d) => (d.settings[key] = value));
 export function MicTest() {
   const course = useCourse();
   const [state, setState] = useState('');
+  const [perm, setPerm] = useState('unknown');
+  useEffect(() => {
+    let live = true;
+    micPermissionState().then((s) => live && setPerm(s));
+    const off = watchMicPermission((s) => live && setPerm(s));
+    return () => {
+      live = false;
+      off();
+    };
+  }, []);
+  const failed = (code) => {
+    if (micErrorCode(code) === 'not-allowed') setPerm('denied');
+    const msg = recognitionErrorMessage(code);
+    setState(msg ? `⚠️ ${msg}` : '');
+  };
+  const allow = async () => {
+    setState('');
+    try {
+      await ensureMicPermission();
+      setPerm('granted');
+      return true;
+    } catch (e) {
+      failed(e.message);
+      return false;
+    }
+  };
+  const onAllow = async () => {
+    if (await allow()) setState(support.stt ? '✅ Microphone allowed.' : '✅ Microphone allowed — you can record yourself and compare with the model voice.');
+  };
   const run = async () => {
+    if (!(await allow())) return;
     setState(`🎙️ Listening… say “${course.lang.micPhrase || 'hello'}”`);
     try {
       const { transcripts } = await listen({ lang: course.lang.speech }).promise;
       setState(`✅ I heard: “${transcripts[0]}”`);
     } catch (e) {
-      setState(`⚠️ ${recognitionErrorMessage(e.message)}`);
+      failed(e.message);
     }
   };
+  const canMic = micSupported() || support.stt;
   return (
-    <div>
-      {support.stt ? (
-        <button type="button" class="btn ghost" onClick={run}>🎙️ Test microphone</button>
-      ) : (
-        <p class="small muted">
-          ⚠️ This browser can't check pronunciation automatically. You can still speak, record yourself and self-assess. For automatic feedback use Chrome, Edge or Safari.
+    <div class="mic-access">
+      {!support.stt && (
+        <p class="note" role="note">
+          ⚠️ Automatic scoring needs Chrome, Edge or Safari. In this browser you can still speak, record yourself and compare with the model voice, then rate yourself.
         </p>
+      )}
+      {canMic ? (
+        <>
+          <p class="small">
+            Microphone: <strong class={`mic-state ${perm}`}>{MIC_STATE_LABEL[perm] || MIC_STATE_LABEL.unknown}</strong>
+          </p>
+          <div class="row gap">
+            {perm !== 'granted' && (
+              <button type="button" class={`btn ${support.stt ? 'ghost' : 'primary'}`} onClick={onAllow}>🎙️ Allow microphone</button>
+            )}
+            {support.stt && <button type="button" class="btn ghost" onClick={run}>🎙️ Test microphone</button>}
+          </div>
+          {perm === 'denied' && (
+            <div class="note unblock">
+              <strong>How to unblock the microphone</strong>
+              <ol class="small">
+                {unblockSteps().map((s) => <li key={s}>{s}</li>)}
+              </ol>
+            </div>
+          )}
+        </>
+      ) : (
+        <p class="small muted">This browser can't use the microphone. Try Chrome, Edge or Safari.</p>
       )}
       {state && <p class="small" aria-live="polite">{state}</p>}
     </div>
   );
 }
-
 function OfflineAudio({ code }) {
   const [status, setStatus] = useState(null);
   const run = async () => {

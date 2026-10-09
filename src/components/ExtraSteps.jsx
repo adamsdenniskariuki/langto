@@ -6,6 +6,7 @@ import { RecordCompare, SpeakBox } from './SpeakBox.jsx';
 import { Footer, useAutoPlay, useSpeak } from './Steps.jsx';
 import { useCourse } from './context.js';
 import { listenLong, recognitionErrorMessage, stopSpeaking, support } from '../lib/speech.js';
+import { ensureMicPermission, micErrorMessage } from '../lib/mic.js';
 import { getState, update, useStore } from '../lib/store.js';
 import { sfx } from '../lib/sfx.js';
 import { stressParts } from '../lib/lesson.js';
@@ -430,9 +431,17 @@ export function FreeStep({ step, done }) {
     stopSpeaking();
     setError('');
     setText('');
+    let useMic = !manual;
+    try {
+      await ensureMicPermission();
+    } catch (e) {
+      setError(micErrorMessage(e.message));
+      setManual(true);
+      useMic = false;
+    }
     setLeft(seconds);
     setPhase('talking');
-    if (manual) return;
+    if (!useMic) return;
     const l = listenLong({ lang: course.lang.speech, seconds, onText: setText });
     ref.current = l;
     try {
@@ -443,7 +452,9 @@ export function FreeStep({ step, done }) {
       sfx(c.score >= FREE_PASS ? 'good' : 'bad');
       setPhase('result');
     } catch (e) {
-      setError(recognitionErrorMessage(e.message));
+      const msg = recognitionErrorMessage(e.message);
+      if (!msg) return setPhase('ready');
+      setError(msg);
       setManual(true);
       setPhase('ready');
     }

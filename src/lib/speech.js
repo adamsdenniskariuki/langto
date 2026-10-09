@@ -1,5 +1,6 @@
 // Web Speech API wrappers: text-to-speech, speech recognition and self-recording.
 import { audioKey, voiceFor } from './tts-keys.js';
+import { ensureMicPermission, forgetMicPermission, micErrorCode, micErrorMessage } from './mic.js';
 
 const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
 const Recognition = typeof window !== 'undefined' ? window.SpeechRecognition || window.webkitSpeechRecognition : null;
@@ -167,8 +168,39 @@ export function stopSpeaking() {
  * Listen once. Resolves { transcripts: string[], seconds }.
  * Rejects with Error(code) where code is e.g. 'not-allowed', 'no-speech', 'network', 'unsupported'.
  */
-export function listen({ lang = 'de-DE', maxSeconds = 12, onStart } = {}) {
+// Ask for the mic first (from the user's tap) so the browser always shows its prompt, then start recognising.
+function withMic(start) {
   if (!Recognition) return { promise: Promise.reject(new Error('unsupported')), stop() {} };
+  let inner = null;
+  let cancelled = false;
+  const promise = ensureMicPermission()
+    .then(() => {
+      if (cancelled) throw new Error('aborted');
+      inner = start();
+      return inner.promise;
+    })
+    .catch((e) => {
+      if (micErrorCode(e.message) === 'not-allowed') forgetMicPermission();
+      throw e;
+    });
+  return {
+    promise,
+    stop: () => {
+      cancelled = true;
+      inner?.stop();
+    },
+  };
+}
+
+export function listen(opts = {}) {
+  return withMic(() => listenNow(opts));
+}
+
+export function listenLong(opts = {}) {
+  return withMic(() => listenLongNow(opts));
+}
+
+function listenNow({ lang = 'de-DE', maxSeconds = 12, onStart } = {}) {
   const rec = new Recognition();
   rec.lang = lang;
   rec.interimResults = false;
@@ -210,8 +242,7 @@ export function listen({ lang = 'de-DE', maxSeconds = 12, onStart } = {}) {
  * Listen continuously for up to `seconds` (free speaking). Restarts the recogniser if the browser ends it early.
  * `onText(text)` receives the running transcript (final + interim). Resolves { transcript, seconds }.
  */
-export function listenLong({ lang = 'de-DE', seconds = 30, onText } = {}) {
-  if (!Recognition) return { promise: Promise.reject(new Error('unsupported')), stop() {} };
+function listenLongNow({ lang = 'de-DE', seconds = 30, onText } = {}) {
   let finals = [];
   let interim = '';
   let stopped = false;
@@ -284,11 +315,16 @@ export function recognitionErrorMessage(code) {
   switch (code) {
     case 'not-allowed':
     case 'service-not-allowed':
-      return 'Microphone access was blocked. Allow the microphone in your browser settings, or rate yourself below.';
+    case 'no-mic':
+    case 'mic-busy':
+    case 'insecure':
+      return micErrorMessage(code);
+    case 'aborted':
+      return '';
     case 'no-speech':
       return "I didn't hear anything. Tap the mic and speak a little louder.";
     case 'audio-capture':
-      return 'No microphone was found.';
+      return micErrorMessage('no-mic');
     case 'network':
       return 'Speech recognition needs an internet connection in this browser.';
     case 'unsupported':
