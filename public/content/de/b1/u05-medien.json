@@ -13,33 +13,117 @@
         "body": "Obwohl (although) starts a subordinate clause, so its verb goes to the end: Obwohl ich müde bin, schaue ich noch eine Folge. Trotzdem (still, nevertheless) takes position one and the verb follows straight after: Ich habe wenig Zeit. Trotzdem höre ich Podcasts. Pronunciation: stress the first syllable, OBwohl."
       },
       "phrases": [
-        { "t": "Ich lese die Nachrichten meistens auf dem Handy.", "n": "I mostly read the news on my phone." },
-        { "t": "Ich schaue abends gern Serien.", "n": "I like watching series in the evening." },
-        { "t": "Ich verbringe zu viel Zeit in den sozialen Medien.", "n": "I spend too much time on social media." },
-        { "t": "Obwohl ich müde bin, schaue ich noch eine Folge.", "n": "Although I'm tired, I watch one more episode.", "note": "obwohl: verb at the end" },
-        { "t": "Ich habe wenig Zeit. Trotzdem höre ich jeden Tag Podcasts.", "n": "I have little time. Still, I listen to podcasts every day.", "note": "trotzdem: verb comes next" },
-        { "t": "Ich habe keinen Fernseher mehr.", "n": "I don't have a TV anymore." },
-        { "t": "Zeitungen lese ich fast nie.", "n": "I hardly ever read newspapers." },
-        { "t": "Hast du schon die neue Serie gesehen?", "n": "Have you seen the new series yet?" }
+        {
+          "t": "Ich lese die Nachrichten meistens auf dem Handy.",
+          "n": "I mostly read the news on my phone."
+        },
+        {
+          "t": "Ich schaue abends gern Serien.",
+          "n": "I like watching series in the evening."
+        },
+        {
+          "t": "Ich verbringe zu viel Zeit in den sozialen Medien.",
+          "n": "I spend too much time on social media."
+        },
+        {
+          "t": "Obwohl ich müde bin, schaue ich noch eine Folge.",
+          "n": "Although I'm tired, I watch one more episode.",
+          "note": "obwohl: verb at the end"
+        },
+        {
+          "t": "Ich habe wenig Zeit. Trotzdem höre ich jeden Tag Podcasts.",
+          "n": "I have little time. Still, I listen to podcasts every day.",
+          "note": "trotzdem: verb comes next"
+        },
+        {
+          "t": "Ich habe keinen Fernseher mehr.",
+          "n": "I don't have a TV anymore."
+        },
+        {
+          "t": "Zeitungen lese ich fast nie.",
+          "n": "I hardly ever read newspapers."
+        },
+        {
+          "t": "Hast du schon die neue Serie gesehen?",
+          "n": "Have you seen the new series yet?"
+        }
       ],
       "dialogue": {
         "title": "Series addicts",
         "lines": [
-          { "who": "A", "name": "Lukas", "t": "Hast du schon die neue Serie auf Netflix gesehen?", "n": "Have you seen the new series on Netflix yet?" },
-          { "who": "you", "t": "Ja, klar! Ich schaue abends gern Serien.", "n": "Yes, of course! I like watching series in the evening." },
-          { "who": "A", "name": "Lukas", "t": "Ich auch. Gestern habe ich bis zwei Uhr geschaut!", "n": "Me too. Yesterday I watched until two o'clock!" },
-          { "who": "you", "t": "Das kenne ich. Obwohl ich müde bin, schaue ich noch eine Folge.", "n": "I know that feeling. Although I'm tired, I watch one more episode." },
-          { "who": "A", "name": "Lukas", "t": "Und wie informierst du dich über aktuelle Nachrichten?", "n": "And how do you keep up with the news?" },
-          { "who": "you", "t": "Ich lese die Nachrichten meistens auf dem Handy. Zeitungen lese ich fast nie.", "n": "I mostly read the news on my phone. I hardly ever read newspapers." },
-          { "who": "A", "name": "Lukas", "t": "Ich höre lieber Podcasts, zum Beispiel beim Kochen.", "n": "I prefer listening to podcasts, for example while cooking." },
-          { "who": "you", "t": "Gute Idee! Ich habe wenig Zeit, trotzdem höre ich jeden Tag Podcasts.", "n": "Good idea! I have little time, but I still listen to podcasts every day." }
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Hast du schon die neue Serie auf Netflix gesehen?",
+            "n": "Have you seen the new series on Netflix yet?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, klar! Ich schaue abends gern Serien.",
+            "n": "Yes, of course! I like watching series in the evening."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Ich auch. Gestern habe ich bis zwei Uhr geschaut!",
+            "n": "Me too. Yesterday I watched until two o'clock!"
+          },
+          {
+            "who": "you",
+            "t": "Das kenne ich. Obwohl ich müde bin, schaue ich noch eine Folge.",
+            "n": "I know that feeling. Although I'm tired, I watch one more episode."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Und wie informierst du dich über aktuelle Nachrichten?",
+            "n": "And how do you keep up with the news?"
+          },
+          {
+            "who": "you",
+            "t": "Ich lese die Nachrichten meistens auf dem Handy. Zeitungen lese ich fast nie.",
+            "n": "I mostly read the news on my phone. I hardly ever read newspapers."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Ich höre lieber Podcasts, zum Beispiel beim Kochen.",
+            "n": "I prefer listening to podcasts, for example while cooking."
+          },
+          {
+            "who": "you",
+            "t": "Gute Idee! Ich habe wenig Zeit, trotzdem höre ich jeden Tag Podcasts.",
+            "n": "Good idea! I have little time, but I still listen to podcasts every day."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you mostly read the news on your phone.", "t": ["Ich lese die Nachrichten meistens auf dem Handy", "Ich lese die Nachrichten meistens auf meinem Handy"] },
-        { "n": "Admit that you spend too much time on social media.", "t": ["Ich verbringe zu viel Zeit in den sozialen Medien"] },
-        { "n": "Say that although you're tired, you watch one more episode.", "t": ["Obwohl ich müde bin, schaue ich noch eine Folge"] },
-        { "n": "Ask a friend if they've seen the new series yet.", "t": ["Hast du schon die neue Serie gesehen", "Hast du die neue Serie gesehen"] }
+        {
+          "n": "Say you mostly read the news on your phone.",
+          "t": [
+            "Ich lese die Nachrichten meistens auf dem Handy",
+            "Ich lese die Nachrichten meistens auf meinem Handy"
+          ]
+        },
+        {
+          "n": "Admit that you spend too much time on social media.",
+          "t": [
+            "Ich verbringe zu viel Zeit in den sozialen Medien"
+          ]
+        },
+        {
+          "n": "Say that although you're tired, you watch one more episode.",
+          "t": [
+            "Obwohl ich müde bin, schaue ich noch eine Folge"
+          ]
+        },
+        {
+          "n": "Ask a friend if they've seen the new series yet.",
+          "t": [
+            "Hast du schon die neue Serie gesehen",
+            "Hast du die neue Serie gesehen"
+          ]
+        }
       ]
     },
     {
@@ -51,37 +135,668 @@
         "body": "To express a purpose with the same subject, use um ... zu + infinitive: Ich nutze mein Handy, um Deutsch zu lernen. With a different subject, use damit and put the verb at the end: Ich schicke dir den Link, damit du den Artikel lesen kannst. Fluency tip: \"Der Vorteil ist, dass\" and \"Der Nachteil ist, dass\" are great frames for longer answers."
       },
       "phrases": [
-        { "t": "Der Vorteil ist, dass man immer erreichbar ist.", "n": "The advantage is that you're always reachable." },
-        { "t": "Der Nachteil ist, dass man nie richtig abschaltet.", "n": "The disadvantage is that you never really switch off." },
-        { "t": "Ich nutze mein Handy, um Deutsch zu lernen.", "n": "I use my phone to learn German.", "note": "um ... zu = in order to" },
-        { "t": "Ich schicke dir den Link, damit du den Artikel lesen kannst.", "n": "I'll send you the link so that you can read the article.", "note": "damit = so that (different subject)" },
-        { "t": "Ohne Internet könnte ich nicht arbeiten.", "n": "I couldn't work without the internet." },
-        { "t": "Künstliche Intelligenz macht vieles einfacher.", "n": "Artificial intelligence makes a lot of things easier." },
-        { "t": "Man sollte gut auf seine Daten aufpassen.", "n": "You should take good care of your data." },
-        { "t": "Am Wochenende mache ich manchmal eine digitale Pause.", "n": "At weekends I sometimes take a digital break." }
+        {
+          "t": "Der Vorteil ist, dass man immer erreichbar ist.",
+          "n": "The advantage is that you're always reachable."
+        },
+        {
+          "t": "Der Nachteil ist, dass man nie richtig abschaltet.",
+          "n": "The disadvantage is that you never really switch off."
+        },
+        {
+          "t": "Ich nutze mein Handy, um Deutsch zu lernen.",
+          "n": "I use my phone to learn German.",
+          "note": "um ... zu = in order to"
+        },
+        {
+          "t": "Ich schicke dir den Link, damit du den Artikel lesen kannst.",
+          "n": "I'll send you the link so that you can read the article.",
+          "note": "damit = so that (different subject)"
+        },
+        {
+          "t": "Ohne Internet könnte ich nicht arbeiten.",
+          "n": "I couldn't work without the internet."
+        },
+        {
+          "t": "Künstliche Intelligenz macht vieles einfacher.",
+          "n": "Artificial intelligence makes a lot of things easier."
+        },
+        {
+          "t": "Man sollte gut auf seine Daten aufpassen.",
+          "n": "You should take good care of your data."
+        },
+        {
+          "t": "Am Wochenende mache ich manchmal eine digitale Pause.",
+          "n": "At weekends I sometimes take a digital break."
+        }
       ],
       "dialogue": {
         "title": "Always online?",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Mia", "t": "Bist du eigentlich immer online?", "n": "Are you actually always online?" },
-          { "who": "you", "t": "Fast immer. Der Vorteil ist, dass man immer erreichbar ist.", "n": "Almost always. The advantage is that you're always reachable." },
-          { "who": "A", "name": "Mia", "t": "Aber das ist doch auch stressig, oder?", "n": "But that's stressful too, isn't it?" },
-          { "who": "you", "t": "Stimmt. Der Nachteil ist, dass man nie richtig abschaltet.", "n": "True. The disadvantage is that you never really switch off." },
-          { "who": "A", "name": "Mia", "t": "Wofür brauchst du dein Handy am meisten?", "n": "What do you need your phone for most?" },
-          { "who": "you", "t": "Ich nutze mein Handy vor allem, um Deutsch zu lernen.", "n": "I mainly use my phone to learn German." },
-          { "who": "A", "name": "Mia", "t": "Cool! Kennst du einen guten Artikel über Sprach-Apps?", "n": "Cool! Do you know a good article about language apps?" },
-          { "who": "you", "t": "Ja, ich schicke dir den Link, damit du den Artikel lesen kannst.", "n": "Yes, I'll send you the link so that you can read the article." },
-          { "who": "A", "name": "Mia", "t": "Danke! Und machst du auch mal Pause vom Handy?", "n": "Thanks! And do you ever take a break from your phone?" },
-          { "who": "you", "t": "Ja, am Wochenende mache ich manchmal eine digitale Pause.", "n": "Yes, at weekends I sometimes take a digital break." }
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Bist du eigentlich immer online?",
+            "n": "Are you actually always online?"
+          },
+          {
+            "who": "you",
+            "t": "Fast immer. Der Vorteil ist, dass man immer erreichbar ist.",
+            "n": "Almost always. The advantage is that you're always reachable."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Aber das ist doch auch stressig, oder?",
+            "n": "But that's stressful too, isn't it?"
+          },
+          {
+            "who": "you",
+            "t": "Stimmt. Der Nachteil ist, dass man nie richtig abschaltet.",
+            "n": "True. The disadvantage is that you never really switch off."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Wofür brauchst du dein Handy am meisten?",
+            "n": "What do you need your phone for most?"
+          },
+          {
+            "who": "you",
+            "t": "Ich nutze mein Handy vor allem, um Deutsch zu lernen.",
+            "n": "I mainly use my phone to learn German."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Cool! Kennst du einen guten Artikel über Sprach-Apps?",
+            "n": "Cool! Do you know a good article about language apps?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich schicke dir den Link, damit du den Artikel lesen kannst.",
+            "n": "Yes, I'll send you the link so that you can read the article."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Danke! Und machst du auch mal Pause vom Handy?",
+            "n": "Thanks! And do you ever take a break from your phone?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, am Wochenende mache ich manchmal eine digitale Pause.",
+            "n": "Yes, at weekends I sometimes take a digital break."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you use your phone to learn German.", "t": ["Ich nutze mein Handy, um Deutsch zu lernen", "Ich benutze mein Handy, um Deutsch zu lernen"] },
-        { "n": "Say the disadvantage is that you never really switch off.", "t": ["Der Nachteil ist, dass man nie richtig abschaltet"] },
-        { "n": "Say you couldn't work without the internet.", "t": ["Ohne Internet könnte ich nicht arbeiten"] },
-        { "n": "Offer to send the link so your friend can read the article.", "t": ["Ich schicke dir den Link, damit du den Artikel lesen kannst", "Ich schicke dir den Link"] }
+        {
+          "n": "Say you use your phone to learn German.",
+          "t": [
+            "Ich nutze mein Handy, um Deutsch zu lernen",
+            "Ich benutze mein Handy, um Deutsch zu lernen"
+          ]
+        },
+        {
+          "n": "Say the disadvantage is that you never really switch off.",
+          "t": [
+            "Der Nachteil ist, dass man nie richtig abschaltet"
+          ]
+        },
+        {
+          "n": "Say you couldn't work without the internet.",
+          "t": [
+            "Ohne Internet könnte ich nicht arbeiten"
+          ]
+        },
+        {
+          "n": "Offer to send the link so your friend can read the article.",
+          "t": [
+            "Ich schicke dir den Link, damit du den Artikel lesen kannst",
+            "Ich schicke dir den Link"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u05-l3",
+      "title": "Internet trouble at home",
+      "goal": "Describe problems with your internet, phone and contract.",
+      "tip": {
+        "title": "seit + present tense",
+        "body": "For something that started in the past and is still going on, German uses seit with the present tense: Das WLAN ist seit gestern langsam. English would say \"has been\". Seit takes the dative: seit einer Woche, seit drei Tagen."
+      },
+      "phrases": [
+        {
+          "t": "Unser WLAN ist seit gestern sehr langsam.",
+          "n": "Our Wi-Fi has been very slow since yesterday.",
+          "note": "seit + present tense"
+        },
+        {
+          "t": "Hast du den Router schon neu gestartet?",
+          "n": "Have you restarted the router yet?"
+        },
+        {
+          "t": "Ich habe einen neuen Handyvertrag abgeschlossen.",
+          "n": "I've taken out a new phone contract."
+        },
+        {
+          "t": "Die Rechnung war viel zu hoch.",
+          "n": "The bill was much too high."
+        },
+        {
+          "t": "Man kann den Vertrag monatlich kündigen.",
+          "n": "You can cancel the contract monthly."
+        }
+      ],
+      "dialogue": {
+        "title": "No streaming tonight",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Kannst du heute Abend streamen? Bei mir geht gar nichts.",
+            "n": "Can you stream tonight? Nothing's working at my place."
+          },
+          {
+            "who": "you",
+            "t": "Nein, unser WLAN ist seit gestern sehr langsam.",
+            "n": "No, our Wi-Fi has been very slow since yesterday."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Hast du den Router schon neu gestartet?",
+            "n": "Have you restarted the router yet?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, zweimal. Trotzdem funktioniert es nicht.",
+            "n": "Yes, twice. It still doesn't work."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say your Wi-Fi has been very slow since yesterday.",
+          "t": [
+            "Unser WLAN ist seit gestern sehr langsam",
+            "Mein WLAN ist seit gestern sehr langsam",
+            "Das WLAN ist seit gestern sehr langsam"
+          ]
+        },
+        {
+          "n": "Say the bill was much too high.",
+          "t": [
+            "Die Rechnung war viel zu hoch"
+          ]
+        },
+        {
+          "n": "Ask a friend if they have restarted the router yet.",
+          "t": [
+            "Hast du den Router schon neu gestartet",
+            "Hast du den Router neu gestartet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l4",
+      "kind": "grammar",
+      "title": "Infinitive with zu",
+      "goal": "Use zu + infinitive after verbs like vergessen and versuchen.",
+      "tip": {
+        "title": "zu + infinitive goes to the end",
+        "body": "After verbs and phrases like vergessen, versuchen, keine Lust haben or es ist wichtig, the second verb goes to the end with zu: Ich habe vergessen, das Handy aufzuladen. With separable verbs, zu slips into the middle: aufzuladen, anzurufen. For a purpose, use um ... zu: um Filme zu schauen."
+      },
+      "phrases": [
+        {
+          "t": "Ich habe vergessen, mein Handy aufzuladen.",
+          "n": "I forgot to charge my phone.",
+          "note": "separable: auf-zu-laden"
+        },
+        {
+          "t": "Ich versuche, weniger am Handy zu sein.",
+          "n": "I'm trying to spend less time on my phone."
+        },
+        {
+          "t": "Es ist wichtig, sichere Passwörter zu benutzen.",
+          "n": "It's important to use secure passwords."
+        },
+        {
+          "t": "Ich habe keine Lust, schon wieder die Hotline anzurufen.",
+          "n": "I don't feel like calling the hotline again."
+        },
+        {
+          "t": "Ich brauche den Laptop, um von zu Hause zu arbeiten.",
+          "n": "I need the laptop to work from home.",
+          "note": "um ... zu = purpose"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the intro phrase",
+          "base": {
+            "t": "Ich habe vergessen, das Handy aufzuladen.",
+            "n": "I forgot to charge the phone."
+          },
+          "items": [
+            {
+              "cue": "versuchen",
+              "t": "Ich habe versucht, das Handy aufzuladen.",
+              "n": "I tried to charge the phone."
+            },
+            {
+              "cue": "keine Lust haben",
+              "t": "Ich habe keine Lust, das Handy aufzuladen.",
+              "n": "I don't feel like charging the phone."
+            },
+            {
+              "cue": "es ist wichtig",
+              "t": "Es ist wichtig, das Handy aufzuladen.",
+              "n": "It's important to charge the phone."
+            }
+          ]
+        },
+        {
+          "title": "Swap the purpose",
+          "base": {
+            "t": "Ich nutze den Laptop, um E-Mails zu schreiben.",
+            "n": "I use the laptop to write emails."
+          },
+          "items": [
+            {
+              "cue": "Filme schauen",
+              "t": "Ich nutze den Laptop, um Filme zu schauen.",
+              "n": "I use the laptop to watch films."
+            },
+            {
+              "cue": "Freunde anrufen",
+              "t": "Ich nutze den Laptop, um Freunde anzurufen.",
+              "n": "I use the laptop to call friends."
+            },
+            {
+              "cue": "von zu Hause arbeiten",
+              "t": "Ich nutze den Laptop, um von zu Hause zu arbeiten.",
+              "n": "I use the laptop to work from home."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you forgot to charge your phone.",
+          "t": [
+            "Ich habe vergessen, mein Handy aufzuladen",
+            "Ich habe vergessen, das Handy aufzuladen"
+          ]
+        },
+        {
+          "n": "Say it's important to use secure passwords.",
+          "t": [
+            "Es ist wichtig, sichere Passwörter zu benutzen",
+            "Es ist wichtig, sichere Passwörter zu verwenden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l5",
+      "kind": "listening",
+      "title": "A week offline",
+      "goal": "Follow a chat about a digital detox in the past tense.",
+      "phrases": [
+        {
+          "t": "Am Anfang war es schwer.",
+          "n": "At first it was hard.",
+          "note": "Präteritum: war"
+        },
+        {
+          "t": "Ich wollte ständig aufs Handy schauen.",
+          "n": "I constantly wanted to look at my phone."
+        },
+        {
+          "t": "Was hast du stattdessen gemacht?",
+          "n": "What did you do instead?"
+        },
+        {
+          "t": "Hattest du keine Angst, etwas zu verpassen?",
+          "n": "Weren't you afraid of missing something?"
+        }
+      ],
+      "story": {
+        "title": "Digital detox",
+        "intro": "Sophie asks her colleague Ben about the week he spent without his phone.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Sophie",
+            "t": "Ben, du warst eine Woche offline? Wie war das?",
+            "n": "Ben, you were offline for a week? What was it like?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Am Anfang war es schwer. Ich wollte ständig aufs Handy schauen.",
+            "n": "At first it was hard. I constantly wanted to look at my phone."
+          },
+          {
+            "name": "Sophie",
+            "t": "Und was hast du stattdessen gemacht?",
+            "n": "And what did you do instead?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich habe zwei Bücher gelesen und bin viel spazieren gegangen.",
+            "n": "I read two books and went for lots of walks."
+          },
+          {
+            "name": "Sophie",
+            "t": "Hattest du keine Angst, etwas zu verpassen?",
+            "n": "Weren't you afraid of missing something?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Doch, ein bisschen. Trotzdem möchte ich das jedes Jahr machen.",
+            "n": "Yes, a little. Still, I'd like to do it every year."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie lange war Ben offline?",
+            "n": "How long was Ben offline?",
+            "t": [
+              "Eine Woche",
+              "Er war eine Woche offline"
+            ]
+          },
+          {
+            "q": "Was hat Ben gelesen?",
+            "n": "What did Ben read?",
+            "t": [
+              "Zwei Bücher",
+              "Er hat zwei Bücher gelesen",
+              "Bücher"
+            ]
+          },
+          {
+            "q": "Was möchte Ben jedes Jahr machen?",
+            "n": "What would Ben like to do every year?",
+            "t": [
+              "Eine Woche offline sein",
+              "Offline sein",
+              "Eine digitale Pause machen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u05-l6",
+      "kind": "roleplay",
+      "title": "Calling the internet provider",
+      "goal": "Complain to customer service and get a fair solution.",
+      "phrases": [
+        {
+          "t": "Mein Internet funktioniert seit drei Tagen nicht.",
+          "n": "My internet hasn't worked for three days."
+        },
+        {
+          "t": "Ich arbeite von zu Hause und brauche das Internet.",
+          "n": "I work from home and need the internet."
+        },
+        {
+          "t": "Können Sie einen Techniker schicken?",
+          "n": "Can you send a technician?"
+        },
+        {
+          "t": "Geht es nicht früher?",
+          "n": "Can't it be sooner?"
+        }
+      ],
+      "branch": {
+        "title": "On the hotline",
+        "scene": "Your home internet has been down for three days. You call your provider's customer service.",
+        "name": "Kundenservice",
+        "voice": "de-DE-KatjaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Kundenservice, mein Name ist Krause. Was kann ich für Sie tun?",
+            "n": "Customer service, my name is Krause. What can I do for you?",
+            "choices": [
+              {
+                "t": "Mein Internet funktioniert seit drei Tagen nicht.",
+                "n": "My internet hasn't worked for three days.",
+                "next": "check"
+              },
+              {
+                "t": "Entschuldigung, können Sie das wiederholen?",
+                "n": "Sorry, could you repeat that?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Natürlich. Hier ist der Kundenservice. Wie kann ich Ihnen helfen?",
+            "n": "Of course. This is customer service. How can I help you?",
+            "choices": [
+              {
+                "t": "Ich habe ein Problem mit dem Internet.",
+                "n": "I have a problem with the internet.",
+                "next": "check"
+              },
+              {
+                "t": "Mein Internet funktioniert seit drei Tagen nicht.",
+                "n": "My internet hasn't worked for three days.",
+                "next": "check"
+              }
+            ]
+          },
+          "check": {
+            "t": "Das tut mir leid. Haben Sie den Router schon neu gestartet?",
+            "n": "I'm sorry. Have you restarted the router yet?",
+            "choices": [
+              {
+                "t": "Ja, mehrmals. Trotzdem geht es nicht.",
+                "n": "Yes, several times. It still doesn't work.",
+                "next": "tech"
+              },
+              {
+                "t": "Das ist doch Ihr Problem, nicht meins!",
+                "n": "That's your problem, not mine!",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Bitte bleiben Sie freundlich. Ich möchte Ihnen ja helfen.",
+            "n": "Please stay polite. I do want to help you.",
+            "choices": [
+              {
+                "t": "Entschuldigung. Ja, ich habe den Router neu gestartet.",
+                "n": "Sorry. Yes, I've restarted the router.",
+                "next": "tech"
+              },
+              {
+                "t": "Dann kündige ich sofort!",
+                "n": "Then I'm cancelling right now!",
+                "next": "bad"
+              }
+            ]
+          },
+          "tech": {
+            "t": "Ich sehe eine Störung in Ihrer Straße. Ein Techniker kann am Freitag kommen.",
+            "n": "I can see a fault in your street. A technician can come on Friday.",
+            "choices": [
+              {
+                "t": "Geht es nicht früher? Ich arbeite von zu Hause.",
+                "n": "Can't it be sooner? I work from home.",
+                "next": "earlier"
+              },
+              {
+                "t": "Gut, Freitag passt. Danke.",
+                "n": "OK, Friday works. Thanks.",
+                "next": "good"
+              }
+            ]
+          },
+          "earlier": {
+            "t": "Moment … Ja, morgen um zehn Uhr ist auch möglich.",
+            "n": "One moment … Yes, tomorrow at ten o'clock is possible too.",
+            "choices": [
+              {
+                "t": "Perfekt, das nehme ich.",
+                "n": "Perfect, I'll take that.",
+                "next": "good"
+              },
+              {
+                "t": "Super. Und bekomme ich eine Gutschrift?",
+                "n": "Great. And will I get a credit?",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Gern. Für die Tage ohne Internet bekommen Sie eine Gutschrift. Auf Wiederhören!",
+            "n": "You're welcome. You'll get a credit for the days without internet. Goodbye!",
+            "end": "good",
+            "outcome": "A technician is booked and you get money back for the outage."
+          },
+          "bad": {
+            "t": "Gut, ich schicke Ihnen das Kündigungsformular. Auf Wiederhören.",
+            "n": "Fine, I'll send you the cancellation form. Goodbye.",
+            "end": "bad",
+            "outcome": "You lost your temper and still have no internet — stay calm and describe the problem."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the hotline your internet hasn't worked for three days.",
+          "t": [
+            "Mein Internet funktioniert seit drei Tagen nicht",
+            "Das Internet funktioniert seit drei Tagen nicht"
+          ]
+        },
+        {
+          "n": "Ask if they can send a technician.",
+          "t": [
+            "Können Sie einen Techniker schicken",
+            "Könnten Sie einen Techniker schicken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l7",
+      "kind": "speaking",
+      "title": "My media life",
+      "goal": "Talk for about 45 seconds about how and why you use media.",
+      "culture": {
+        "title": "The Rundfunkbeitrag",
+        "body": "In Germany every household pays the Rundfunkbeitrag (about 18 euros a month) for public TV and radio like ARD, ZDF and Deutschlandfunk — even if you never watch TV. Austria has a similar ORF-Beitrag and Switzerland the Serafe fee. Many Germans still watch the Tagesschau news at 8 p.m. as an evening ritual.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich nutze vor allem mein Handy.",
+          "n": "I mainly use my phone."
+        },
+        {
+          "t": "Ehrlich gesagt bin ich zu oft online.",
+          "n": "To be honest, I'm online too often."
+        },
+        {
+          "t": "Ich zahle den Rundfunkbeitrag, obwohl ich kaum fernsehe.",
+          "n": "I pay the licence fee although I hardly watch TV."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your media habits: what you use, what for, and one disadvantage.",
+          "hint": "Use Ich nutze … um … zu …, Der Vorteil ist, dass …, Der Nachteil ist, dass …, obwohl / trotzdem.",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "devices or media",
+              "any": [
+                "handy",
+                "laptop",
+                "computer",
+                "fernse*",
+                "internet",
+                "podcast*",
+                "serie*",
+                "nachrichten",
+                "zeitung*",
+                "sozialen medien",
+                "radio",
+                "tablet"
+              ]
+            },
+            {
+              "label": "a purpose (um … zu)",
+              "any": [
+                "um",
+                "damit",
+                "zu lernen",
+                "zu schauen",
+                "zu lesen"
+              ]
+            },
+            {
+              "label": "pro or con",
+              "any": [
+                "vorteil",
+                "nachteil",
+                "problem",
+                "stressig",
+                "praktisch",
+                "zu viel"
+              ]
+            },
+            {
+              "label": "obwohl or trotzdem",
+              "any": [
+                "obwohl",
+                "trotzdem"
+              ]
+            }
+          ],
+          "model": "Ich nutze vor allem mein Handy, um Nachrichten zu lesen und Deutsch zu lernen. Der Nachteil ist, dass ich zu oft online bin. Trotzdem möchte ich nicht ohne Internet leben."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you pay the licence fee although you hardly watch TV.",
+          "t": [
+            "Ich zahle den Rundfunkbeitrag, obwohl ich kaum fernsehe"
+          ]
+        },
+        {
+          "n": "Say that, to be honest, you're online too often.",
+          "t": [
+            "Ehrlich gesagt bin ich zu oft online",
+            "Ich bin zu oft online"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Medien und Technik",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

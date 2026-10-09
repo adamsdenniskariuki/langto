@@ -13,34 +13,115 @@
         "body": "Use man for general statements about people: Man sollte weniger Plastik benutzen. Sollte (should) sounds like friendly advice, not an order. Pronunciation: stress the first syllable in UMwelt and KLIMawandel, and remember that German w sounds like English v."
       },
       "phrases": [
-        { "t": "Ich trenne meinen Müll.", "n": "I separate my rubbish." },
-        { "t": "Ich fahre mit dem Fahrrad, um die Umwelt zu schonen.", "n": "I cycle to protect the environment." },
-        { "t": "Man sollte weniger Plastik benutzen.", "n": "People should use less plastic." },
-        { "t": "Ich kaufe möglichst regionale Produkte.", "n": "I buy regional products whenever possible." },
-        { "t": "Ich esse seit einem Jahr kein Fleisch mehr.", "n": "I haven't eaten meat for a year." },
-        { "t": "Der Klimawandel ist ein großes Problem.", "n": "Climate change is a big problem." },
-        { "t": "Jeder kann etwas für die Umwelt tun.", "n": "Everyone can do something for the environment." },
-        { "t": "Ich nehme immer eine eigene Tasche mit.", "n": "I always bring my own bag." }
+        {
+          "t": "Ich trenne meinen Müll.",
+          "n": "I separate my rubbish."
+        },
+        {
+          "t": "Ich fahre mit dem Fahrrad, um die Umwelt zu schonen.",
+          "n": "I cycle to protect the environment."
+        },
+        {
+          "t": "Man sollte weniger Plastik benutzen.",
+          "n": "People should use less plastic."
+        },
+        {
+          "t": "Ich kaufe möglichst regionale Produkte.",
+          "n": "I buy regional products whenever possible."
+        },
+        {
+          "t": "Ich esse seit einem Jahr kein Fleisch mehr.",
+          "n": "I haven't eaten meat for a year."
+        },
+        {
+          "t": "Der Klimawandel ist ein großes Problem.",
+          "n": "Climate change is a big problem."
+        },
+        {
+          "t": "Jeder kann etwas für die Umwelt tun.",
+          "n": "Everyone can do something for the environment."
+        },
+        {
+          "t": "Ich nehme immer eine eigene Tasche mit.",
+          "n": "I always bring my own bag."
+        }
       ],
       "dialogue": {
         "title": "At the market",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Clara", "t": "Oh, du hast ja eine eigene Tasche dabei!", "n": "Oh, you've brought your own bag!" },
-          { "who": "you", "t": "Ja, ich nehme immer eine eigene Tasche mit. Man sollte weniger Plastik benutzen.", "n": "Yes, I always bring my own bag. People should use less plastic." },
-          { "who": "A", "name": "Clara", "t": "Finde ich gut. Was machst du sonst noch für die Umwelt?", "n": "I think that's good. What else do you do for the environment?" },
-          { "who": "you", "t": "Ich kaufe möglichst regionale Produkte und trenne meinen Müll.", "n": "I buy regional products whenever possible and separate my rubbish." },
-          { "who": "A", "name": "Clara", "t": "Und hast du ein Auto?", "n": "And do you have a car?" },
-          { "who": "you", "t": "Nein, ich fahre mit dem Fahrrad, um die Umwelt zu schonen.", "n": "No, I cycle to protect the environment." },
-          { "who": "A", "name": "Clara", "t": "Ehrlich gesagt glaube ich nicht, dass das viel hilft.", "n": "To be honest, I don't think that helps much." },
-          { "who": "you", "t": "Das sehe ich anders. Jeder kann etwas für die Umwelt tun.", "n": "I see it differently. Everyone can do something for the environment." }
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Oh, du hast ja eine eigene Tasche dabei!",
+            "n": "Oh, you've brought your own bag!"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich nehme immer eine eigene Tasche mit. Man sollte weniger Plastik benutzen.",
+            "n": "Yes, I always bring my own bag. People should use less plastic."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Finde ich gut. Was machst du sonst noch für die Umwelt?",
+            "n": "I think that's good. What else do you do for the environment?"
+          },
+          {
+            "who": "you",
+            "t": "Ich kaufe möglichst regionale Produkte und trenne meinen Müll.",
+            "n": "I buy regional products whenever possible and separate my rubbish."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Und hast du ein Auto?",
+            "n": "And do you have a car?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, ich fahre mit dem Fahrrad, um die Umwelt zu schonen.",
+            "n": "No, I cycle to protect the environment."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Ehrlich gesagt glaube ich nicht, dass das viel hilft.",
+            "n": "To be honest, I don't think that helps much."
+          },
+          {
+            "who": "you",
+            "t": "Das sehe ich anders. Jeder kann etwas für die Umwelt tun.",
+            "n": "I see it differently. Everyone can do something for the environment."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you separate your rubbish.", "t": ["Ich trenne meinen Müll"] },
-        { "n": "Say you cycle to protect the environment.", "t": ["Ich fahre mit dem Fahrrad, um die Umwelt zu schonen", "Ich fahre Fahrrad, um die Umwelt zu schonen"] },
-        { "n": "Say people should use less plastic.", "t": ["Man sollte weniger Plastik benutzen"] },
-        { "n": "Say everyone can do something for the environment.", "t": ["Jeder kann etwas für die Umwelt tun"] }
+        {
+          "n": "Say you separate your rubbish.",
+          "t": [
+            "Ich trenne meinen Müll"
+          ]
+        },
+        {
+          "n": "Say you cycle to protect the environment.",
+          "t": [
+            "Ich fahre mit dem Fahrrad, um die Umwelt zu schonen",
+            "Ich fahre Fahrrad, um die Umwelt zu schonen"
+          ]
+        },
+        {
+          "n": "Say people should use less plastic.",
+          "t": [
+            "Man sollte weniger Plastik benutzen"
+          ]
+        },
+        {
+          "n": "Say everyone can do something for the environment.",
+          "t": [
+            "Jeder kann etwas für die Umwelt tun"
+          ]
+        }
       ]
     },
     {
@@ -52,36 +133,661 @@
         "body": "Organise your points with erstens, zweitens, außerdem and zum Schluss. After these words the verb comes next: Außerdem gibt es weniger Lärm. Use ich bin dafür or ich bin dagegen to take a clear position. Discussion tip: \"Darf ich kurz etwas ergänzen?\" lets you join in politely, and \"Lass mich bitte kurz ausreden\" keeps the floor."
       },
       "phrases": [
-        { "t": "Ich bin dafür, dass die Innenstadt autofrei wird.", "n": "I'm in favour of the city centre becoming car-free." },
-        { "t": "Ich bin dagegen, weil viele Menschen ein Auto brauchen.", "n": "I'm against it because many people need a car." },
-        { "t": "Erstens ist die Luft dann sauberer.", "n": "Firstly, the air is cleaner then." },
-        { "t": "Außerdem gibt es weniger Lärm.", "n": "Besides, there's less noise.", "note": "außerdem: verb comes next" },
-        { "t": "Man darf aber die älteren Menschen nicht vergessen.", "n": "But we mustn't forget older people." },
-        { "t": "Darf ich kurz etwas ergänzen?", "n": "May I add something briefly?", "note": "Polite way to join in." },
-        { "t": "Lass mich bitte kurz ausreden.", "n": "Please let me finish." },
-        { "t": "Das Problem ist, dass der Bus zu selten fährt.", "n": "The problem is that the bus doesn't run often enough." }
+        {
+          "t": "Ich bin dafür, dass die Innenstadt autofrei wird.",
+          "n": "I'm in favour of the city centre becoming car-free."
+        },
+        {
+          "t": "Ich bin dagegen, weil viele Menschen ein Auto brauchen.",
+          "n": "I'm against it because many people need a car."
+        },
+        {
+          "t": "Erstens ist die Luft dann sauberer.",
+          "n": "Firstly, the air is cleaner then."
+        },
+        {
+          "t": "Außerdem gibt es weniger Lärm.",
+          "n": "Besides, there's less noise.",
+          "note": "außerdem: verb comes next"
+        },
+        {
+          "t": "Man darf aber die älteren Menschen nicht vergessen.",
+          "n": "But we mustn't forget older people."
+        },
+        {
+          "t": "Darf ich kurz etwas ergänzen?",
+          "n": "May I add something briefly?",
+          "note": "Polite way to join in."
+        },
+        {
+          "t": "Lass mich bitte kurz ausreden.",
+          "n": "Please let me finish."
+        },
+        {
+          "t": "Das Problem ist, dass der Bus zu selten fährt.",
+          "n": "The problem is that the bus doesn't run often enough."
+        }
       ],
       "dialogue": {
         "title": "A car-free city?",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Felix", "t": "Hast du gehört? Die Innenstadt soll autofrei werden.", "n": "Have you heard? The city centre is supposed to become car-free." },
-          { "who": "you", "t": "Ja, und ich bin dafür. Erstens ist die Luft dann sauberer.", "n": "Yes, and I'm in favour. Firstly, the air is cleaner then." },
-          { "who": "A", "name": "Felix", "t": "Aber viele Menschen brauchen doch ein Auto!", "n": "But lots of people need a car!" },
-          { "who": "you", "t": "Lass mich bitte kurz ausreden. Außerdem gibt es weniger Lärm.", "n": "Please let me finish. Besides, there's less noise." },
-          { "who": "A", "name": "Felix", "t": "Okay, aber was ist mit den älteren Menschen?", "n": "Okay, but what about older people?" },
-          { "who": "you", "t": "Da hast du recht. Man darf die älteren Menschen nicht vergessen.", "n": "You're right there. We mustn't forget older people." },
-          { "who": "A", "name": "Felix", "t": "Und mit dem Bus dauert alles viel länger.", "n": "And everything takes much longer by bus." },
-          { "who": "you", "t": "Genau. Das Problem ist, dass der Bus zu selten fährt.", "n": "Exactly. The problem is that the bus doesn't run often enough." },
-          { "who": "A", "name": "Felix", "t": "Siehst du! Da muss die Stadt zuerst etwas tun.", "n": "You see! The city has to do something about that first." }
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Hast du gehört? Die Innenstadt soll autofrei werden.",
+            "n": "Have you heard? The city centre is supposed to become car-free."
+          },
+          {
+            "who": "you",
+            "t": "Ja, und ich bin dafür. Erstens ist die Luft dann sauberer.",
+            "n": "Yes, and I'm in favour. Firstly, the air is cleaner then."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Aber viele Menschen brauchen doch ein Auto!",
+            "n": "But lots of people need a car!"
+          },
+          {
+            "who": "you",
+            "t": "Lass mich bitte kurz ausreden. Außerdem gibt es weniger Lärm.",
+            "n": "Please let me finish. Besides, there's less noise."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Okay, aber was ist mit den älteren Menschen?",
+            "n": "Okay, but what about older people?"
+          },
+          {
+            "who": "you",
+            "t": "Da hast du recht. Man darf die älteren Menschen nicht vergessen.",
+            "n": "You're right there. We mustn't forget older people."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Und mit dem Bus dauert alles viel länger.",
+            "n": "And everything takes much longer by bus."
+          },
+          {
+            "who": "you",
+            "t": "Genau. Das Problem ist, dass der Bus zu selten fährt.",
+            "n": "Exactly. The problem is that the bus doesn't run often enough."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Siehst du! Da muss die Stadt zuerst etwas tun.",
+            "n": "You see! The city has to do something about that first."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you're in favour of the city centre becoming car-free.", "t": ["Ich bin dafür, dass die Innenstadt autofrei wird", "Ich bin für eine autofreie Innenstadt"] },
-        { "n": "Say you're against it because many people need a car.", "t": ["Ich bin dagegen, weil viele Menschen ein Auto brauchen"] },
-        { "n": "Politely ask if you may add something.", "t": ["Darf ich kurz etwas ergänzen", "Darf ich etwas ergänzen"] },
-        { "n": "Ask a friend to let you finish.", "t": ["Lass mich bitte kurz ausreden", "Lass mich bitte ausreden"] }
+        {
+          "n": "Say you're in favour of the city centre becoming car-free.",
+          "t": [
+            "Ich bin dafür, dass die Innenstadt autofrei wird",
+            "Ich bin für eine autofreie Innenstadt"
+          ]
+        },
+        {
+          "n": "Say you're against it because many people need a car.",
+          "t": [
+            "Ich bin dagegen, weil viele Menschen ein Auto brauchen"
+          ]
+        },
+        {
+          "n": "Politely ask if you may add something.",
+          "t": [
+            "Darf ich kurz etwas ergänzen",
+            "Darf ich etwas ergänzen"
+          ]
+        },
+        {
+          "n": "Ask a friend to let you finish.",
+          "t": [
+            "Lass mich bitte kurz ausreden",
+            "Lass mich bitte ausreden"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u06-l3",
+      "title": "Sorting the rubbish",
+      "goal": "Understand and explain how rubbish is sorted in a German building.",
+      "tip": {
+        "title": "gehören in + accusative",
+        "body": "For where things go, German uses in + accusative because there is movement: in den gelben Sack, in die Biotonne, in den Glascontainer. Gehören in literally means \"belong in\" and is the everyday way to explain the rules."
+      },
+      "phrases": [
+        {
+          "t": "Plastik kommt in den gelben Sack.",
+          "n": "Plastic goes in the yellow bag."
+        },
+        {
+          "t": "Essensreste gehören in die Biotonne.",
+          "n": "Food scraps belong in the organic bin.",
+          "note": "in + accusative"
+        },
+        {
+          "t": "Papier kommt in die blaue Tonne.",
+          "n": "Paper goes in the blue bin."
+        },
+        {
+          "t": "Die Pfandflaschen bringe ich zum Supermarkt.",
+          "n": "I take the deposit bottles back to the supermarket."
+        },
+        {
+          "t": "Wo ist hier der Glascontainer?",
+          "n": "Where is the bottle bank around here?"
+        }
+      ],
+      "dialogue": {
+        "title": "A helpful neighbour",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Plastik kommt bei uns in den gelben Sack, nicht in den Restmüll.",
+            "n": "Here plastic goes in the yellow bag, not in the general waste."
+          },
+          {
+            "who": "you",
+            "t": "Oh, das wusste ich nicht. Danke!",
+            "n": "Oh, I didn't know that. Thanks!"
+          },
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Gern. Und Essensreste gehören in die Biotonne.",
+            "n": "You're welcome. And food scraps belong in the organic bin."
+          },
+          {
+            "who": "you",
+            "t": "Alles klar. Wo ist hier der Glascontainer?",
+            "n": "Got it. Where is the bottle bank around here?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say plastic goes in the yellow bag.",
+          "t": [
+            "Plastik kommt in den gelben Sack",
+            "Plastik gehört in den gelben Sack"
+          ]
+        },
+        {
+          "n": "Say food scraps belong in the organic bin.",
+          "t": [
+            "Essensreste gehören in die Biotonne",
+            "Essensreste kommen in die Biotonne"
+          ]
+        },
+        {
+          "n": "Ask where the bottle bank is.",
+          "t": [
+            "Wo ist hier der Glascontainer",
+            "Wo ist der Glascontainer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l4",
+      "kind": "grammar",
+      "title": "Passive and trotzdem",
+      "goal": "Say what is done with the passive, and contrast ideas with trotzdem.",
+      "tip": {
+        "title": "werden + participle",
+        "body": "The passive focuses on the action, not on who does it: werden + Partizip II at the end. Das Glas wird recycelt; die Flaschen werden recycelt. Trotzdem (still) stands in position one, so the verb comes straight after: Es regnet. Trotzdem fahre ich mit dem Fahrrad."
+      },
+      "phrases": [
+        {
+          "t": "Das Altglas wird nach Farben getrennt.",
+          "n": "Used glass is separated by colour.",
+          "note": "wird + Partizip II"
+        },
+        {
+          "t": "Die Flaschen werden recycelt.",
+          "n": "The bottles are recycled.",
+          "note": "plural: werden"
+        },
+        {
+          "t": "Der Müll wird jeden Dienstag abgeholt.",
+          "n": "The rubbish is collected every Tuesday."
+        },
+        {
+          "t": "Bio ist teuer. Trotzdem kaufe ich Bio.",
+          "n": "Organic is expensive. I still buy organic."
+        },
+        {
+          "t": "Es regnet. Trotzdem fahre ich mit dem Fahrrad.",
+          "n": "It's raining. I still cycle.",
+          "note": "trotzdem: verb next"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the subject or verb (passive)",
+          "base": {
+            "t": "Das Papier wird recycelt.",
+            "n": "The paper is recycled."
+          },
+          "items": [
+            {
+              "cue": "die Flaschen",
+              "t": "Die Flaschen werden recycelt.",
+              "n": "The bottles are recycled."
+            },
+            {
+              "cue": "abholen",
+              "t": "Das Papier wird abgeholt.",
+              "n": "The paper is collected."
+            },
+            {
+              "cue": "der Müll · jeden Montag abholen",
+              "t": "Der Müll wird jeden Montag abgeholt.",
+              "n": "The rubbish is collected every Monday."
+            }
+          ]
+        },
+        {
+          "title": "Swap the contrast",
+          "base": {
+            "t": "Es regnet. Trotzdem fahre ich mit dem Fahrrad.",
+            "n": "It's raining. I still cycle."
+          },
+          "items": [
+            {
+              "cue": "es ist kalt",
+              "t": "Es ist kalt. Trotzdem fahre ich mit dem Fahrrad.",
+              "n": "It's cold. I still cycle."
+            },
+            {
+              "cue": "Bio ist teuer · Bio kaufen",
+              "t": "Bio ist teuer. Trotzdem kaufe ich Bio.",
+              "n": "Organic is expensive. I still buy organic."
+            },
+            {
+              "cue": "ich bin müde · den Müll trennen",
+              "t": "Ich bin müde. Trotzdem trenne ich den Müll.",
+              "n": "I'm tired. I still separate the rubbish."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the bottles are recycled.",
+          "t": [
+            "Die Flaschen werden recycelt"
+          ]
+        },
+        {
+          "n": "Say organic is expensive, but you still buy it.",
+          "t": [
+            "Bio ist teuer. Trotzdem kaufe ich Bio",
+            "Bio ist teuer, trotzdem kaufe ich Bio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l5",
+      "kind": "listening",
+      "title": "At the Repair Café",
+      "goal": "Follow a conversation about repairing instead of throwing away.",
+      "phrases": [
+        {
+          "t": "Hier werden kaputte Sachen repariert.",
+          "n": "Broken things are repaired here."
+        },
+        {
+          "t": "Früher hat man alles weggeworfen.",
+          "n": "In the past people threw everything away."
+        },
+        {
+          "t": "Das lohnt sich.",
+          "n": "It's worth it."
+        },
+        {
+          "t": "Wir freuen uns über eine Spende.",
+          "n": "We're happy to receive a donation."
+        }
+      ],
+      "story": {
+        "title": "A broken toaster",
+        "intro": "Jana brings her toaster to a Repair Café run by volunteers.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Jana",
+            "t": "Guten Tag! Was ist das hier eigentlich, ein Repair-Café?",
+            "n": "Hello! What exactly is this, a Repair Café?"
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Genau. Hier werden kaputte Sachen kostenlos repariert.",
+            "n": "Exactly. Broken things are repaired here for free."
+          },
+          {
+            "name": "Jana",
+            "t": "Super. Mein Toaster funktioniert seit einer Woche nicht mehr.",
+            "n": "Great. My toaster hasn't worked for a week."
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Kein Problem. Früher hat man alles weggeworfen. Heute reparieren wir es zusammen.",
+            "n": "No problem. In the past people threw everything away. Today we repair it together."
+          },
+          {
+            "name": "Jana",
+            "t": "Und was kostet die Reparatur?",
+            "n": "And what does the repair cost?"
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Nichts. Aber wir freuen uns über eine Spende. Letztes Jahr wurden hier über tausend Geräte repariert.",
+            "n": "Nothing. But we're happy to receive a donation. Last year over a thousand devices were repaired here."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was wird im Repair-Café gemacht?",
+            "n": "What is done at the Repair Café?",
+            "t": [
+              "Kaputte Sachen werden repariert",
+              "Sachen werden repariert",
+              "Man repariert Sachen"
+            ]
+          },
+          {
+            "q": "Was ist kaputt?",
+            "n": "What is broken?",
+            "t": [
+              "Der Toaster",
+              "Ihr Toaster",
+              "Janas Toaster"
+            ]
+          },
+          {
+            "q": "Was kostet die Reparatur?",
+            "n": "What does the repair cost?",
+            "t": [
+              "Nichts",
+              "Sie ist kostenlos",
+              "Gar nichts"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u06-l6",
+      "kind": "roleplay",
+      "title": "Talking to the landlord",
+      "goal": "Complain about a neighbour calmly and get the landlord to act.",
+      "phrases": [
+        {
+          "t": "Ich möchte mich über meinen Nachbarn beschweren.",
+          "n": "I'd like to complain about my neighbour.",
+          "note": "n-declension: den Nachbarn"
+        },
+        {
+          "t": "Er trennt seinen Müll nicht.",
+          "n": "He doesn't separate his rubbish."
+        },
+        {
+          "t": "Nach 22 Uhr ist es oft sehr laut.",
+          "n": "After 10 p.m. it's often very loud."
+        },
+        {
+          "t": "Könnten Sie bitte mit ihm sprechen?",
+          "n": "Could you please talk to him?"
+        }
+      ],
+      "branch": {
+        "title": "A word with Herr Vogel",
+        "scene": "Your neighbour throws everything in the general waste and plays loud music late at night. You meet your landlord, Herr Vogel, in the stairwell.",
+        "name": "Herr Vogel (Vermieter)",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Tag! Sie wollten mich sprechen?",
+            "n": "Hello! You wanted to speak to me?",
+            "choices": [
+              {
+                "t": "Ja, ich möchte mich über meinen Nachbarn beschweren.",
+                "n": "Yes, I'd like to complain about my neighbour.",
+                "next": "what"
+              },
+              {
+                "t": "Entschuldigung, wie bitte?",
+                "n": "Sorry, pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Sie haben mir eine Nachricht geschrieben. Worum geht es denn?",
+            "n": "You sent me a message. What is it about?",
+            "choices": [
+              {
+                "t": "Es geht um meinen Nachbarn im zweiten Stock.",
+                "n": "It's about my neighbour on the second floor.",
+                "next": "what"
+              },
+              {
+                "t": "Ach so, ja. Ich habe ein Problem mit meinem Nachbarn.",
+                "n": "Oh right, yes. I have a problem with my neighbour.",
+                "next": "what"
+              }
+            ]
+          },
+          "what": {
+            "t": "Oh. Was ist denn passiert?",
+            "n": "Oh. What happened?",
+            "choices": [
+              {
+                "t": "Er trennt seinen Müll nicht, und nach 22 Uhr ist es oft sehr laut.",
+                "n": "He doesn't separate his rubbish, and after 10 p.m. it's often very loud.",
+                "next": "details"
+              },
+              {
+                "t": "Der Typ nervt einfach total!",
+                "n": "That guy is just so annoying!",
+                "next": "vague"
+              }
+            ]
+          },
+          "vague": {
+            "t": "Das verstehe ich, aber was genau ist das Problem?",
+            "n": "I understand, but what exactly is the problem?",
+            "choices": [
+              {
+                "t": "Er trennt seinen Müll nicht, und nach 22 Uhr ist es oft laut.",
+                "n": "He doesn't separate his rubbish, and after 10 p.m. it's often loud.",
+                "next": "details"
+              },
+              {
+                "t": "Machen Sie einfach etwas!",
+                "n": "Just do something!",
+                "next": "bad"
+              }
+            ]
+          },
+          "details": {
+            "t": "Hm. Haben Sie schon selbst mit ihm gesprochen?",
+            "n": "Hmm. Have you already spoken to him yourself?",
+            "choices": [
+              {
+                "t": "Ja, zweimal. Trotzdem ändert sich nichts.",
+                "n": "Yes, twice. Still, nothing changes.",
+                "next": "good"
+              },
+              {
+                "t": "Nein, noch nicht.",
+                "n": "No, not yet.",
+                "next": "notyet"
+              }
+            ]
+          },
+          "notyet": {
+            "t": "Dann würde ich vorschlagen, dass Sie zuerst mit ihm sprechen.",
+            "n": "Then I would suggest that you speak to him first.",
+            "choices": [
+              {
+                "t": "Gut, das mache ich. Aber könnten Sie auch etwas tun?",
+                "n": "OK, I'll do that. But could you do something too?",
+                "next": "good"
+              },
+              {
+                "t": "Könnten Sie bitte trotzdem mit ihm sprechen?",
+                "n": "Could you please talk to him anyway?",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Na gut. Ich schreibe allen Mietern einen Brief über Mülltrennung und Ruhezeiten.",
+            "n": "All right. I'll write all the tenants a letter about waste separation and quiet hours.",
+            "end": "good",
+            "outcome": "The landlord takes action without you having to start a fight."
+          },
+          "bad": {
+            "t": "So kann ich leider nichts machen. Schönen Tag noch.",
+            "n": "I'm afraid I can't do anything like this. Have a nice day.",
+            "end": "bad",
+            "outcome": "You were too vague and pushy — describe the concrete problem so the landlord can act."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the landlord you want to complain about your neighbour.",
+          "t": [
+            "Ich möchte mich über meinen Nachbarn beschweren"
+          ]
+        },
+        {
+          "n": "Politely ask the landlord to talk to him.",
+          "t": [
+            "Könnten Sie bitte mit ihm sprechen",
+            "Könnten Sie bitte mit ihm reden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l7",
+      "kind": "speaking",
+      "title": "Green at home",
+      "goal": "Explain for about 45 seconds how rubbish is handled where you live.",
+      "culture": {
+        "title": "Mülltrennung: the colour code",
+        "body": "In Germany you usually sort into yellow (packaging), blue (paper), brown (organic) and black or grey (general waste) bins; glass goes into street containers by colour — white, green, brown — but not on Sundays or late in the evening because of the noise. Colours vary by town, and Austria uses a similar system. In many Swiss towns you pay for each official rubbish bag, so people sort very carefully.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Bei uns wird der Müll getrennt.",
+          "n": "Where I live, rubbish is separated."
+        },
+        {
+          "t": "Glas wird nach Farben sortiert.",
+          "n": "Glass is sorted by colour."
+        },
+        {
+          "t": "In der Schweiz zahlt man für jeden Müllsack.",
+          "n": "In Switzerland you pay for every rubbish bag."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain how rubbish is handled where you live and one thing you do for the environment.",
+          "hint": "Use Bei uns wird … getrennt / abgeholt, … kommt in …, Trotzdem …, Ich versuche, … zu …",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "a passive (wird / werden)",
+              "any": [
+                "wird",
+                "werden"
+              ]
+            },
+            {
+              "label": "types of rubbish",
+              "any": [
+                "müll",
+                "plastik",
+                "papier",
+                "glas",
+                "biotonne",
+                "flaschen",
+                "essensreste",
+                "tonne",
+                "sack"
+              ]
+            },
+            {
+              "label": "something you do",
+              "any": [
+                "ich trenne",
+                "ich kaufe",
+                "ich fahre",
+                "ich nehme",
+                "ich versuche",
+                "fahrrad",
+                "regional*"
+              ]
+            },
+            {
+              "label": "a contrast",
+              "any": [
+                "trotzdem",
+                "obwohl",
+                "aber"
+              ]
+            }
+          ],
+          "model": "Bei uns wird der Müll getrennt. Plastik kommt in den gelben Sack und Papier in die blaue Tonne. Bio ist teuer, trotzdem kaufe ich oft regionale Produkte."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that where you live, rubbish is separated.",
+          "t": [
+            "Bei uns wird der Müll getrennt"
+          ]
+        },
+        {
+          "n": "Say glass is sorted by colour.",
+          "t": [
+            "Glas wird nach Farben sortiert",
+            "Glas wird nach Farben getrennt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Umwelt und Gesellschaft",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

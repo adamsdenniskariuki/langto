@@ -13,34 +13,119 @@
         "body": "In speech, Germans use the Perfekt for most verbs, but the Präteritum for sein, haben and modal verbs: ich war, ich hatte, ich konnte, ich musste, ich wollte. Als (when) for a single period in the past sends the verb to the end: Als ich Kind war. Speaking tip: let \"als ich\" flow together like one word."
       },
       "phrases": [
-        { "t": "Als ich Kind war, haben wir auf dem Land gewohnt.", "n": "When I was a child, we lived in the countryside.", "note": "als = when (one period in the past)" },
-        { "t": "Ich hatte einen kleinen Hund.", "n": "I had a small dog." },
-        { "t": "Ich konnte schon mit fünf Jahren schwimmen.", "n": "I could already swim when I was five." },
-        { "t": "Wir mussten jeden Tag zu Fuß zur Schule gehen.", "n": "We had to walk to school every day." },
-        { "t": "Früher war alles ein bisschen einfacher.", "n": "Things used to be a bit simpler." },
-        { "t": "Meine Oma hat immer Kuchen gebacken.", "n": "My grandma always baked cake." },
-        { "t": "Ich wollte unbedingt Pilot werden.", "n": "I really wanted to become a pilot." },
-        { "t": "Damals gab es noch kein Internet.", "n": "Back then there was no internet yet.", "note": "es gab = there was / there were" }
+        {
+          "t": "Als ich Kind war, haben wir auf dem Land gewohnt.",
+          "n": "When I was a child, we lived in the countryside.",
+          "note": "als = when (one period in the past)"
+        },
+        {
+          "t": "Ich hatte einen kleinen Hund.",
+          "n": "I had a small dog."
+        },
+        {
+          "t": "Ich konnte schon mit fünf Jahren schwimmen.",
+          "n": "I could already swim when I was five."
+        },
+        {
+          "t": "Wir mussten jeden Tag zu Fuß zur Schule gehen.",
+          "n": "We had to walk to school every day."
+        },
+        {
+          "t": "Früher war alles ein bisschen einfacher.",
+          "n": "Things used to be a bit simpler."
+        },
+        {
+          "t": "Meine Oma hat immer Kuchen gebacken.",
+          "n": "My grandma always baked cake."
+        },
+        {
+          "t": "Ich wollte unbedingt Pilot werden.",
+          "n": "I really wanted to become a pilot."
+        },
+        {
+          "t": "Damals gab es noch kein Internet.",
+          "n": "Back then there was no internet yet.",
+          "note": "es gab = there was / there were"
+        }
       ],
       "dialogue": {
         "title": "Childhood memories",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Sophie", "t": "Wo hast du eigentlich als Kind gewohnt?", "n": "Where did you actually live as a child?" },
-          { "who": "you", "t": "Als ich Kind war, haben wir auf dem Land gewohnt.", "n": "When I was a child, we lived in the countryside." },
-          { "who": "A", "name": "Sophie", "t": "Wie schön! Hattest du Haustiere?", "n": "How lovely! Did you have pets?" },
-          { "who": "you", "t": "Ja, ich hatte einen kleinen Hund.", "n": "Yes, I had a small dog." },
-          { "who": "A", "name": "Sophie", "t": "Und was wolltest du werden?", "n": "And what did you want to be?" },
-          { "who": "you", "t": "Ich wollte unbedingt Pilot werden.", "n": "I really wanted to become a pilot." },
-          { "who": "A", "name": "Sophie", "t": "Ich wollte Tierärztin werden. Damals war alles anders, oder?", "n": "I wanted to be a vet. Everything was different back then, wasn't it?" },
-          { "who": "you", "t": "Ja, damals gab es noch kein Internet.", "n": "Yes, back then there was no internet yet." }
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Wo hast du eigentlich als Kind gewohnt?",
+            "n": "Where did you actually live as a child?"
+          },
+          {
+            "who": "you",
+            "t": "Als ich Kind war, haben wir auf dem Land gewohnt.",
+            "n": "When I was a child, we lived in the countryside."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Wie schön! Hattest du Haustiere?",
+            "n": "How lovely! Did you have pets?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich hatte einen kleinen Hund.",
+            "n": "Yes, I had a small dog."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Und was wolltest du werden?",
+            "n": "And what did you want to be?"
+          },
+          {
+            "who": "you",
+            "t": "Ich wollte unbedingt Pilot werden.",
+            "n": "I really wanted to become a pilot."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Ich wollte Tierärztin werden. Damals war alles anders, oder?",
+            "n": "I wanted to be a vet. Everything was different back then, wasn't it?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, damals gab es noch kein Internet.",
+            "n": "Yes, back then there was no internet yet."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you had a small dog.", "t": ["Ich hatte einen kleinen Hund"] },
-        { "n": "Say you really wanted to become a pilot.", "t": ["Ich wollte unbedingt Pilot werden", "Ich wollte Pilot werden"] },
-        { "n": "Say there was no internet back then.", "t": ["Damals gab es noch kein Internet", "Damals gab es kein Internet"] },
-        { "n": "Say you could already swim at the age of five.", "t": ["Ich konnte schon mit fünf Jahren schwimmen", "Ich konnte mit fünf Jahren schwimmen"] }
+        {
+          "n": "Say you had a small dog.",
+          "t": [
+            "Ich hatte einen kleinen Hund"
+          ]
+        },
+        {
+          "n": "Say you really wanted to become a pilot.",
+          "t": [
+            "Ich wollte unbedingt Pilot werden",
+            "Ich wollte Pilot werden"
+          ]
+        },
+        {
+          "n": "Say there was no internet back then.",
+          "t": [
+            "Damals gab es noch kein Internet",
+            "Damals gab es kein Internet"
+          ]
+        },
+        {
+          "n": "Say you could already swim at the age of five.",
+          "t": [
+            "Ich konnte schon mit fünf Jahren schwimmen",
+            "Ich konnte mit fünf Jahren schwimmen"
+          ]
+        }
       ]
     },
     {
@@ -52,37 +137,647 @@
         "body": "Structure your story with zuerst, dann, danach, plötzlich and am Ende. For something that had already happened before another past event, use the Plusquamperfekt (hatte or war + participle): Ich hatte meinen Schlüssel vergessen. Storytelling tip: slow down and lift your voice on \"plötzlich\" to build suspense."
       },
       "phrases": [
-        { "t": "Stell dir vor, was mir gestern passiert ist!", "n": "Imagine what happened to me yesterday!", "note": "A classic story opener." },
-        { "t": "Zuerst bin ich wie immer joggen gegangen.", "n": "First I went jogging as usual." },
-        { "t": "Ich hatte meinen Schlüssel in der Wohnung vergessen.", "n": "I had left my key in the flat.", "note": "Plusquamperfekt: hatte + participle" },
-        { "t": "Plötzlich hat es angefangen zu regnen.", "n": "Suddenly it started to rain." },
-        { "t": "Ich musste eine Stunde vor der Tür warten.", "n": "I had to wait outside the door for an hour." },
-        { "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.", "n": "After I had waited a long time, my neighbour finally came.", "note": "nachdem + Plusquamperfekt" },
-        { "t": "Am Ende ist alles gut gegangen.", "n": "In the end everything turned out fine." },
-        { "t": "Und was ist dann passiert?", "n": "And then what happened?", "note": "Keeps the storyteller going." }
+        {
+          "t": "Stell dir vor, was mir gestern passiert ist!",
+          "n": "Imagine what happened to me yesterday!",
+          "note": "A classic story opener."
+        },
+        {
+          "t": "Zuerst bin ich wie immer joggen gegangen.",
+          "n": "First I went jogging as usual."
+        },
+        {
+          "t": "Ich hatte meinen Schlüssel in der Wohnung vergessen.",
+          "n": "I had left my key in the flat.",
+          "note": "Plusquamperfekt: hatte + participle"
+        },
+        {
+          "t": "Plötzlich hat es angefangen zu regnen.",
+          "n": "Suddenly it started to rain."
+        },
+        {
+          "t": "Ich musste eine Stunde vor der Tür warten.",
+          "n": "I had to wait outside the door for an hour."
+        },
+        {
+          "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.",
+          "n": "After I had waited a long time, my neighbour finally came.",
+          "note": "nachdem + Plusquamperfekt"
+        },
+        {
+          "t": "Am Ende ist alles gut gegangen.",
+          "n": "In the end everything turned out fine."
+        },
+        {
+          "t": "Und was ist dann passiert?",
+          "n": "And then what happened?",
+          "note": "Keeps the storyteller going."
+        }
       ],
       "dialogue": {
         "title": "A crazy morning",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Tim", "t": "Du siehst müde aus. Alles okay?", "n": "You look tired. Everything okay?" },
-          { "who": "you", "t": "Stell dir vor, was mir gestern passiert ist!", "n": "Imagine what happened to me yesterday!" },
-          { "who": "A", "name": "Tim", "t": "Erzähl mal!", "n": "Tell me!" },
-          { "who": "you", "t": "Zuerst bin ich joggen gegangen. Ich hatte meinen Schlüssel in der Wohnung vergessen.", "n": "First I went jogging. I had left my key in the flat." },
-          { "who": "A", "name": "Tim", "t": "Oh nein! Und was ist dann passiert?", "n": "Oh no! And then what happened?" },
-          { "who": "you", "t": "Ich musste eine Stunde vor der Tür warten. Plötzlich hat es angefangen zu regnen.", "n": "I had to wait outside the door for an hour. Suddenly it started to rain." },
-          { "who": "A", "name": "Tim", "t": "Das ist ja ärgerlich! Und dann?", "n": "That's so annoying! And then?" },
-          { "who": "you", "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.", "n": "After I had waited a long time, my neighbour finally came." },
-          { "who": "A", "name": "Tim", "t": "Zum Glück! Er hat einen Ersatzschlüssel, oder?", "n": "Luckily! He has a spare key, right?" },
-          { "who": "you", "t": "Genau. Am Ende ist alles gut gegangen.", "n": "Exactly. In the end everything turned out fine." }
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Du siehst müde aus. Alles okay?",
+            "n": "You look tired. Everything okay?"
+          },
+          {
+            "who": "you",
+            "t": "Stell dir vor, was mir gestern passiert ist!",
+            "n": "Imagine what happened to me yesterday!"
+          },
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Erzähl mal!",
+            "n": "Tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Zuerst bin ich joggen gegangen. Ich hatte meinen Schlüssel in der Wohnung vergessen.",
+            "n": "First I went jogging. I had left my key in the flat."
+          },
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Oh nein! Und was ist dann passiert?",
+            "n": "Oh no! And then what happened?"
+          },
+          {
+            "who": "you",
+            "t": "Ich musste eine Stunde vor der Tür warten. Plötzlich hat es angefangen zu regnen.",
+            "n": "I had to wait outside the door for an hour. Suddenly it started to rain."
+          },
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Das ist ja ärgerlich! Und dann?",
+            "n": "That's so annoying! And then?"
+          },
+          {
+            "who": "you",
+            "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.",
+            "n": "After I had waited a long time, my neighbour finally came."
+          },
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Zum Glück! Er hat einen Ersatzschlüssel, oder?",
+            "n": "Luckily! He has a spare key, right?"
+          },
+          {
+            "who": "you",
+            "t": "Genau. Am Ende ist alles gut gegangen.",
+            "n": "Exactly. In the end everything turned out fine."
+          }
         ]
       },
       "prompts": [
-        { "n": "Get a friend's attention: imagine what happened to you yesterday!", "t": ["Stell dir vor, was mir gestern passiert ist"] },
-        { "n": "Say you had left your key in the flat.", "t": ["Ich hatte meinen Schlüssel in der Wohnung vergessen", "Ich hatte meinen Schlüssel vergessen"] },
-        { "n": "Ask what happened next.", "t": ["Und was ist dann passiert", "Was ist dann passiert"] },
-        { "n": "Say that in the end everything turned out fine.", "t": ["Am Ende ist alles gut gegangen"] }
+        {
+          "n": "Get a friend's attention: imagine what happened to you yesterday!",
+          "t": [
+            "Stell dir vor, was mir gestern passiert ist"
+          ]
+        },
+        {
+          "n": "Say you had left your key in the flat.",
+          "t": [
+            "Ich hatte meinen Schlüssel in der Wohnung vergessen",
+            "Ich hatte meinen Schlüssel vergessen"
+          ]
+        },
+        {
+          "n": "Ask what happened next.",
+          "t": [
+            "Und was ist dann passiert",
+            "Was ist dann passiert"
+          ]
+        },
+        {
+          "n": "Say that in the end everything turned out fine.",
+          "t": [
+            "Am Ende ist alles gut gegangen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u02-l3",
+      "title": "Then and now",
+      "goal": "Share memories and say how things have changed.",
+      "tip": {
+        "title": "früher … heute",
+        "body": "Contrast past and present with früher … heute or damals … jetzt. Memories use sich erinnern an: Ich erinnere mich an meine Schulzeit. For change, say Seitdem hat sich viel verändert."
+      },
+      "phrases": [
+        {
+          "t": "Ich erinnere mich gern an meine Schulzeit.",
+          "n": "I have fond memories of my school days.",
+          "note": "sich erinnern an + accusative"
+        },
+        {
+          "t": "Jeden Sommer sind wir an die Ostsee gefahren.",
+          "n": "Every summer we went to the Baltic Sea."
+        },
+        {
+          "t": "Früher habe ich viel Fußball gespielt, heute jogge ich.",
+          "n": "I used to play a lot of football; today I jog."
+        },
+        {
+          "t": "Seitdem hat sich viel verändert.",
+          "n": "A lot has changed since then."
+        },
+        {
+          "t": "Das war eine schöne Zeit.",
+          "n": "That was a lovely time."
+        }
+      ],
+      "dialogue": {
+        "title": "Old school friends",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Erinnerst du dich noch an unsere Schulzeit?",
+            "n": "Do you still remember our school days?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich erinnere mich gern daran. Das war eine schöne Zeit.",
+            "n": "Yes, I like remembering them. That was a lovely time."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Spielst du eigentlich noch Fußball?",
+            "n": "Do you actually still play football?"
+          },
+          {
+            "who": "you",
+            "t": "Nein. Früher habe ich viel Fußball gespielt, heute jogge ich.",
+            "n": "No. I used to play a lot of football; today I jog."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you have fond memories of your school days.",
+          "t": [
+            "Ich erinnere mich gern an meine Schulzeit"
+          ]
+        },
+        {
+          "n": "Say a lot has changed since then.",
+          "t": [
+            "Seitdem hat sich viel verändert"
+          ]
+        },
+        {
+          "n": "Say you used to go to the Baltic Sea every summer.",
+          "t": [
+            "Jeden Sommer sind wir an die Ostsee gefahren",
+            "Jeden Sommer fuhren wir an die Ostsee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l4",
+      "kind": "grammar",
+      "title": "Präteritum and als / wenn",
+      "goal": "Tell a story in the Präteritum and choose between als and wenn.",
+      "tip": {
+        "title": "Story tense and \"when\"",
+        "body": "In written stories (and in northern German speech) the Präteritum is common: regular verbs add -te (ich wohnte, spielte), irregular verbs change their vowel (ich ging, kam, fuhr, sah). Use als for one event or one period in the past, wenn (or immer wenn) for things that happened again and again. Both send the verb to the end."
+      },
+      "phrases": [
+        {
+          "t": "Als ich zehn war, zogen wir nach Köln.",
+          "n": "When I was ten, we moved to Cologne.",
+          "note": "zog = moved (ziehen)"
+        },
+        {
+          "t": "Wenn es schneite, spielten wir draußen.",
+          "n": "Whenever it snowed, we played outside."
+        },
+        {
+          "t": "Mein Opa erzählte oft Geschichten.",
+          "n": "My grandpa often told stories."
+        },
+        {
+          "t": "Jeden Sommer fuhren wir ans Meer.",
+          "n": "Every summer we went to the seaside."
+        },
+        {
+          "t": "Als ich ankam, ging die Sonne unter.",
+          "n": "When I arrived, the sun was setting."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap Perfekt → Präteritum",
+          "base": {
+            "t": "Ich habe Fußball gespielt.",
+            "n": "I played football."
+          },
+          "items": [
+            {
+              "cue": "Präteritum",
+              "t": "Ich spielte Fußball.",
+              "n": "I played football."
+            },
+            {
+              "cue": "ins Kino gehen",
+              "t": "Ich ging ins Kino.",
+              "n": "I went to the cinema."
+            },
+            {
+              "cue": "ans Meer fahren",
+              "t": "Ich fuhr ans Meer.",
+              "n": "I went to the seaside."
+            }
+          ]
+        },
+        {
+          "title": "Swap wenn ↔ als",
+          "base": {
+            "t": "Wenn ich Oma besuchte, gab es Kuchen.",
+            "n": "Whenever I visited Grandma, there was cake."
+          },
+          "items": [
+            {
+              "cue": "only once · als",
+              "t": "Als ich Oma besuchte, gab es Kuchen.",
+              "n": "When I visited Grandma (that time), there was cake."
+            },
+            {
+              "cue": "krank sein · Tee",
+              "t": "Wenn ich krank war, gab es Tee.",
+              "n": "Whenever I was ill, there was tea."
+            },
+            {
+              "cue": "only once · Kind sein · Hund",
+              "t": "Als ich Kind war, hatte ich einen Hund.",
+              "n": "When I was a child, I had a dog."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that when you were ten, you moved to Cologne.",
+          "t": [
+            "Als ich zehn war, zogen wir nach Köln",
+            "Als ich zehn war, sind wir nach Köln gezogen"
+          ]
+        },
+        {
+          "n": "Say that whenever it snowed, you played outside.",
+          "t": [
+            "Wenn es schneite, spielten wir draußen",
+            "Wenn es geschneit hat, haben wir draußen gespielt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l5",
+      "kind": "listening",
+      "title": "Grandpa remembers",
+      "goal": "Follow a grandfather telling his granddaughter about the old days.",
+      "phrases": [
+        {
+          "t": "Wie war es, als du jung warst?",
+          "n": "What was it like when you were young?"
+        },
+        {
+          "t": "Wir hatten keinen Fernseher.",
+          "n": "We didn't have a TV."
+        },
+        {
+          "t": "Wenn das Wetter schön war, fuhren wir an den See.",
+          "n": "Whenever the weather was nice, we went to the lake."
+        },
+        {
+          "t": "Das war Liebe auf den ersten Blick.",
+          "n": "It was love at first sight."
+        }
+      ],
+      "story": {
+        "title": "Back then",
+        "intro": "Mia asks her grandpa Karl what life was like when he was young.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Mia",
+            "t": "Opa, wie war es eigentlich, als du jung warst?",
+            "n": "Grandpa, what was it actually like when you were young?"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ganz anders! Wir hatten kein Auto und keinen Fernseher.",
+            "n": "Totally different! We didn't have a car or a TV."
+          },
+          {
+            "name": "Mia",
+            "t": "Und was habt ihr am Wochenende gemacht?",
+            "n": "And what did you do at weekends?"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Wenn das Wetter schön war, fuhren wir mit dem Rad an den See.",
+            "n": "Whenever the weather was nice, we cycled to the lake."
+          },
+          {
+            "name": "Mia",
+            "t": "Und wo hast du Oma kennengelernt?",
+            "n": "And where did you meet Grandma?"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Auf einem Fest im Dorf. Als ich sie sah, war es Liebe auf den ersten Blick.",
+            "n": "At a village festival. When I saw her, it was love at first sight."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was hatte die Familie nicht?",
+            "n": "What didn't the family have?",
+            "t": [
+              "Kein Auto und keinen Fernseher",
+              "Kein Auto",
+              "Keinen Fernseher"
+            ]
+          },
+          {
+            "q": "Wohin fuhren sie bei schönem Wetter?",
+            "n": "Where did they go when the weather was nice?",
+            "t": [
+              "An den See",
+              "Mit dem Rad an den See"
+            ]
+          },
+          {
+            "q": "Wo hat Opa Oma kennengelernt?",
+            "n": "Where did Grandpa meet Grandma?",
+            "t": [
+              "Auf einem Fest im Dorf",
+              "Auf einem Fest",
+              "Im Dorf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u02-l6",
+      "kind": "roleplay",
+      "title": "Visiting your old neighbour",
+      "goal": "Reconnect with someone from your childhood and share memories.",
+      "phrases": [
+        {
+          "t": "Ich habe früher nebenan gewohnt.",
+          "n": "I used to live next door."
+        },
+        {
+          "t": "Erinnern Sie sich noch an unseren Hund?",
+          "n": "Do you still remember our dog?"
+        },
+        {
+          "t": "Sie haben uns oft Kuchen gegeben.",
+          "n": "You often gave us cake."
+        },
+        {
+          "t": "Sehr gern, wie früher!",
+          "n": "I’d love to, just like old times!"
+        }
+      ],
+      "branch": {
+        "title": "A visit to Salzburg",
+        "scene": "You are back in the street in Salzburg where you grew up and ring the bell of your old neighbour, Frau Huber.",
+        "name": "Frau Huber",
+        "voice": "de-AT-IngridNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Ja, bitte? Kennen wir uns?",
+            "n": "Yes? Do we know each other?",
+            "choices": [
+              {
+                "t": "Grüß Gott, Frau Huber! Ich habe früher nebenan gewohnt.",
+                "n": "Hello, Mrs Huber! I used to live next door.",
+                "next": "recognize"
+              },
+              {
+                "t": "Entschuldigung, wie bitte?",
+                "n": "Sorry, pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ich habe gefragt, ob wir uns kennen.",
+            "n": "I asked whether we know each other.",
+            "choices": [
+              {
+                "t": "Ja! Ich habe früher nebenan gewohnt.",
+                "n": "Yes! I used to live next door.",
+                "next": "recognize"
+              }
+            ]
+          },
+          "recognize": {
+            "t": "Nein, so was! Du bist ja groß geworden! Komm doch rein.",
+            "n": "Well I never! You've grown up! Do come in.",
+            "choices": [
+              {
+                "t": "Danke! Erinnern Sie sich noch an unseren Hund?",
+                "n": "Thanks! Do you still remember our dog?",
+                "next": "memories"
+              },
+              {
+                "t": "Nein danke, ich habe keine Zeit.",
+                "n": "No thanks, I don't have time.",
+                "next": "bad"
+              }
+            ]
+          },
+          "memories": {
+            "t": "Natürlich! Der hat immer in meinem Garten gegraben.",
+            "n": "Of course! He was always digging in my garden.",
+            "choices": [
+              {
+                "t": "Ja, und Sie haben uns oft Kuchen gegeben.",
+                "n": "Yes, and you often gave us cake.",
+                "next": "cake"
+              },
+              {
+                "t": "Ja, das war eine schöne Zeit.",
+                "n": "Yes, that was a lovely time.",
+                "next": "good"
+              }
+            ]
+          },
+          "cake": {
+            "t": "Stimmt! Wenn ihr Kinder kamt, habe ich immer gebacken. Magst du ein Stück?",
+            "n": "True! Whenever you kids came, I always baked. Would you like a piece?",
+            "choices": [
+              {
+                "t": "Sehr gern, wie früher!",
+                "n": "I’d love to, just like old times!",
+                "next": "cakeEnd"
+              }
+            ]
+          },
+          "cakeEnd": {
+            "t": "Dann setz dich. Und jetzt erzähl: Was machst du heute?",
+            "n": "Then sit down. And now tell me: what do you do these days?",
+            "end": "good",
+            "outcome": "You shared a memory, accepted the cake and are catching up over coffee."
+          },
+          "good": {
+            "t": "Ja, wirklich. Schön, dass du mich besuchst! Einen Kaffee?",
+            "n": "Yes, really. How nice that you're visiting me! A coffee?",
+            "end": "good",
+            "outcome": "You reconnected with your old neighbour over shared memories."
+          },
+          "bad": {
+            "t": "Ach so … na dann. Schade.",
+            "n": "Oh … well then. Too bad.",
+            "end": "bad",
+            "outcome": "You turned down the invitation abruptly. Try accepting and sharing a memory."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell someone you used to live next door.",
+          "t": [
+            "Ich habe früher nebenan gewohnt"
+          ]
+        },
+        {
+          "n": "Ask your old neighbour (formally) if she still remembers your dog.",
+          "t": [
+            "Erinnern Sie sich noch an unseren Hund",
+            "Erinnern Sie sich an unseren Hund"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l7",
+      "kind": "speaking",
+      "title": "Your childhood",
+      "goal": "Talk for a minute about where you grew up and what you used to do.",
+      "culture": {
+        "title": "The Schultüte",
+        "body": "On their first day of school (Einschulung), children in Germany and Austria get a big cardboard cone, the Schultüte or Zuckertüte, filled with sweets and small gifts. Families celebrate the day with photos and cake. Many adults still have a photo of themselves holding their Schultüte.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich bin in einem kleinen Dorf aufgewachsen.",
+          "n": "I grew up in a small village."
+        },
+        {
+          "t": "Am liebsten spielte ich draußen.",
+          "n": "Most of all I liked playing outside."
+        },
+        {
+          "t": "Daran erinnere ich mich noch genau.",
+          "n": "I still remember that exactly."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your childhood: where you lived, what you did and one special memory.",
+          "hint": "Als ich Kind war … Wir wohnten … Wenn …, dann … Ich erinnere mich an …",
+          "seconds": 60,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "past tense",
+              "any": [
+                "war",
+                "hatte",
+                "wohnte",
+                "ging",
+                "fuhr",
+                "spielte",
+                "gab",
+                "gewohnt",
+                "gespielt",
+                "aufgewachsen",
+                "gefahren"
+              ]
+            },
+            {
+              "label": "als or wenn",
+              "any": [
+                "als ich",
+                "als wir",
+                "wenn",
+                "immer wenn"
+              ]
+            },
+            {
+              "label": "a time word",
+              "any": [
+                "früher",
+                "damals",
+                "jeden sommer",
+                "immer",
+                "oft",
+                "als kind"
+              ]
+            },
+            {
+              "label": "a memory or feeling",
+              "any": [
+                "erinnere",
+                "schön*",
+                "toll",
+                "lustig",
+                "vermisse",
+                "zeit"
+              ]
+            }
+          ],
+          "model": "Als ich Kind war, wohnten wir in einem kleinen Dorf. Wenn das Wetter schön war, spielte ich immer draußen. Ich erinnere mich gern an diese Zeit."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you grew up in a small village.",
+          "t": [
+            "Ich bin in einem kleinen Dorf aufgewachsen"
+          ]
+        },
+        {
+          "n": "Say you still remember that exactly.",
+          "t": [
+            "Daran erinnere ich mich noch genau",
+            "Ich erinnere mich noch genau daran"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Früher und damals",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

@@ -13,34 +13,117 @@
         "body": "For unreal situations use würde + infinitive, or the short forms wäre, hätte and könnte: Wenn ich mehr Zeit hätte, würde ich mehr reisen. The verb goes to the end of the wenn-clause, and the main clause then starts with the verb. Pronunciation: hätte has a short ä like the e in \"bed\"; wäre has a long one, close to \"air\"."
       },
       "phrases": [
-        { "t": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "n": "If I had more time, I would travel more." },
-        { "t": "Wenn ich reich wäre, würde ich ein Haus am Meer kaufen.", "n": "If I were rich, I'd buy a house by the sea." },
-        { "t": "Ich würde gern in Berlin leben.", "n": "I'd like to live in Berlin." },
-        { "t": "Es wäre schön, wenn wir uns öfter sehen könnten.", "n": "It would be nice if we could see each other more often." },
-        { "t": "Ich hätte gern einen Hund.", "n": "I'd like to have a dog." },
-        { "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?", "n": "What would you do if you won the lottery?" },
-        { "t": "Ich wünschte, ich könnte besser kochen.", "n": "I wish I could cook better." },
-        { "t": "Das wäre mein Traum!", "n": "That would be my dream!" }
+        {
+          "t": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.",
+          "n": "If I had more time, I would travel more."
+        },
+        {
+          "t": "Wenn ich reich wäre, würde ich ein Haus am Meer kaufen.",
+          "n": "If I were rich, I'd buy a house by the sea."
+        },
+        {
+          "t": "Ich würde gern in Berlin leben.",
+          "n": "I'd like to live in Berlin."
+        },
+        {
+          "t": "Es wäre schön, wenn wir uns öfter sehen könnten.",
+          "n": "It would be nice if we could see each other more often."
+        },
+        {
+          "t": "Ich hätte gern einen Hund.",
+          "n": "I'd like to have a dog."
+        },
+        {
+          "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+          "n": "What would you do if you won the lottery?"
+        },
+        {
+          "t": "Ich wünschte, ich könnte besser kochen.",
+          "n": "I wish I could cook better."
+        },
+        {
+          "t": "Das wäre mein Traum!",
+          "n": "That would be my dream!"
+        }
       ],
       "dialogue": {
         "title": "Lottery dreams",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Leonie", "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?", "n": "What would you do if you won the lottery?" },
-          { "who": "you", "t": "Also, ich würde ein Haus am Meer kaufen.", "n": "Well, I'd buy a house by the sea." },
-          { "who": "A", "name": "Leonie", "t": "Schön! Und würdest du weiter arbeiten?", "n": "Nice! And would you keep working?" },
-          { "who": "you", "t": "Nein, ich würde mehr reisen. Das wäre mein Traum!", "n": "No, I'd travel more. That would be my dream!" },
-          { "who": "A", "name": "Leonie", "t": "Ich würde einen Kochkurs in Italien machen.", "n": "I'd take a cooking course in Italy." },
-          { "who": "you", "t": "Tolle Idee! Ich wünschte, ich könnte besser kochen.", "n": "Great idea! I wish I could cook better." },
-          { "who": "A", "name": "Leonie", "t": "Dann komm doch mit! Wir könnten zusammen fahren.", "n": "Then come along! We could go together." },
-          { "who": "you", "t": "Gern! Es wäre schön, wenn wir uns öfter sehen könnten.", "n": "I'd love to! It would be nice if we could see each other more often." }
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+            "n": "What would you do if you won the lottery?"
+          },
+          {
+            "who": "you",
+            "t": "Also, ich würde ein Haus am Meer kaufen.",
+            "n": "Well, I'd buy a house by the sea."
+          },
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Schön! Und würdest du weiter arbeiten?",
+            "n": "Nice! And would you keep working?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, ich würde mehr reisen. Das wäre mein Traum!",
+            "n": "No, I'd travel more. That would be my dream!"
+          },
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Ich würde einen Kochkurs in Italien machen.",
+            "n": "I'd take a cooking course in Italy."
+          },
+          {
+            "who": "you",
+            "t": "Tolle Idee! Ich wünschte, ich könnte besser kochen.",
+            "n": "Great idea! I wish I could cook better."
+          },
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Dann komm doch mit! Wir könnten zusammen fahren.",
+            "n": "Then come along! We could go together."
+          },
+          {
+            "who": "you",
+            "t": "Gern! Es wäre schön, wenn wir uns öfter sehen könnten.",
+            "n": "I'd love to! It would be nice if we could see each other more often."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say that if you had more time, you would travel more.", "t": ["Wenn ich mehr Zeit hätte, würde ich mehr reisen", "Wenn ich mehr Zeit hätte, würde ich reisen"] },
-        { "n": "Ask a friend what they would do if they won the lottery.", "t": ["Was würdest du machen, wenn du im Lotto gewinnen würdest", "Was würdest du machen, wenn du im Lotto gewinnst"] },
-        { "n": "Say you'd like to live in Berlin.", "t": ["Ich würde gern in Berlin leben", "Ich würde gerne in Berlin leben"] },
-        { "n": "Say you wish you could cook better.", "t": ["Ich wünschte, ich könnte besser kochen"] }
+        {
+          "n": "Say that if you had more time, you would travel more.",
+          "t": [
+            "Wenn ich mehr Zeit hätte, würde ich mehr reisen",
+            "Wenn ich mehr Zeit hätte, würde ich reisen"
+          ]
+        },
+        {
+          "n": "Ask a friend what they would do if they won the lottery.",
+          "t": [
+            "Was würdest du machen, wenn du im Lotto gewinnen würdest",
+            "Was würdest du machen, wenn du im Lotto gewinnst"
+          ]
+        },
+        {
+          "n": "Say you'd like to live in Berlin.",
+          "t": [
+            "Ich würde gern in Berlin leben",
+            "Ich würde gerne in Berlin leben"
+          ]
+        },
+        {
+          "n": "Say you wish you could cook better.",
+          "t": [
+            "Ich wünschte, ich könnte besser kochen"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +135,617 @@
         "body": "Könnten Sie and Würden Sie sound much more polite than Können Sie. For advice, use An deiner Stelle würde ich or Du solltest, and for suggestions Wie wäre es mit? Intonation tip: requests sound friendlier with a slight rise at the end and a warm, unhurried \"bitte\"."
       },
       "phrases": [
-        { "t": "Könntest du mir bitte helfen?", "n": "Could you help me, please?" },
-        { "t": "Würden Sie bitte das Fenster schließen?", "n": "Would you close the window, please?" },
-        { "t": "Hätten Sie kurz Zeit?", "n": "Would you have a moment?" },
-        { "t": "Es wäre nett, wenn du mich morgen anrufen könntest.", "n": "It would be nice if you could call me tomorrow." },
-        { "t": "An deiner Stelle würde ich mit ihm sprechen.", "n": "If I were you, I'd talk to him." },
-        { "t": "Du solltest mehr schlafen.", "n": "You should sleep more." },
-        { "t": "Wie wäre es mit einem Spaziergang?", "n": "How about a walk?" },
-        { "t": "Hast du schon mal versucht, früher ins Bett zu gehen?", "n": "Have you ever tried going to bed earlier?" }
+        {
+          "t": "Könntest du mir bitte helfen?",
+          "n": "Could you help me, please?"
+        },
+        {
+          "t": "Würden Sie bitte das Fenster schließen?",
+          "n": "Would you close the window, please?"
+        },
+        {
+          "t": "Hätten Sie kurz Zeit?",
+          "n": "Would you have a moment?"
+        },
+        {
+          "t": "Es wäre nett, wenn du mich morgen anrufen könntest.",
+          "n": "It would be nice if you could call me tomorrow."
+        },
+        {
+          "t": "An deiner Stelle würde ich mit ihm sprechen.",
+          "n": "If I were you, I'd talk to him."
+        },
+        {
+          "t": "Du solltest mehr schlafen.",
+          "n": "You should sleep more."
+        },
+        {
+          "t": "Wie wäre es mit einem Spaziergang?",
+          "n": "How about a walk?"
+        },
+        {
+          "t": "Hast du schon mal versucht, früher ins Bett zu gehen?",
+          "n": "Have you ever tried going to bed earlier?"
+        }
       ],
       "dialogue": {
         "title": "A stressed friend",
         "lines": [
-          { "who": "A", "name": "David", "t": "Ich bin total gestresst. Mein Kollege macht nie seine Arbeit.", "n": "I'm totally stressed. My colleague never does his work." },
-          { "who": "you", "t": "Oh je. An deiner Stelle würde ich mit ihm sprechen.", "n": "Oh dear. If I were you, I'd talk to him." },
-          { "who": "A", "name": "David", "t": "Das mache ich morgen. Aber ich schlafe auch so schlecht.", "n": "I'll do that tomorrow. But I'm also sleeping so badly." },
-          { "who": "you", "t": "Du solltest mehr schlafen. Hast du schon mal versucht, früher ins Bett zu gehen?", "n": "You should sleep more. Have you ever tried going to bed earlier?" },
-          { "who": "A", "name": "David", "t": "Ja, aber dann liege ich wach und denke an die Arbeit.", "n": "Yes, but then I lie awake thinking about work." },
-          { "who": "you", "t": "Wie wäre es mit einem Spaziergang am Abend?", "n": "How about a walk in the evening?" },
-          { "who": "A", "name": "David", "t": "Gute Idee. Kommst du vielleicht mit?", "n": "Good idea. Would you maybe come along?" },
-          { "who": "you", "t": "Klar! Es wäre nett, wenn du mich morgen anrufen könntest.", "n": "Sure! It would be nice if you could call me tomorrow." }
+          {
+            "who": "A",
+            "name": "David",
+            "t": "Ich bin total gestresst. Mein Kollege macht nie seine Arbeit.",
+            "n": "I'm totally stressed. My colleague never does his work."
+          },
+          {
+            "who": "you",
+            "t": "Oh je. An deiner Stelle würde ich mit ihm sprechen.",
+            "n": "Oh dear. If I were you, I'd talk to him."
+          },
+          {
+            "who": "A",
+            "name": "David",
+            "t": "Das mache ich morgen. Aber ich schlafe auch so schlecht.",
+            "n": "I'll do that tomorrow. But I'm also sleeping so badly."
+          },
+          {
+            "who": "you",
+            "t": "Du solltest mehr schlafen. Hast du schon mal versucht, früher ins Bett zu gehen?",
+            "n": "You should sleep more. Have you ever tried going to bed earlier?"
+          },
+          {
+            "who": "A",
+            "name": "David",
+            "t": "Ja, aber dann liege ich wach und denke an die Arbeit.",
+            "n": "Yes, but then I lie awake thinking about work."
+          },
+          {
+            "who": "you",
+            "t": "Wie wäre es mit einem Spaziergang am Abend?",
+            "n": "How about a walk in the evening?"
+          },
+          {
+            "who": "A",
+            "name": "David",
+            "t": "Gute Idee. Kommst du vielleicht mit?",
+            "n": "Good idea. Would you maybe come along?"
+          },
+          {
+            "who": "you",
+            "t": "Klar! Es wäre nett, wenn du mich morgen anrufen könntest.",
+            "n": "Sure! It would be nice if you could call me tomorrow."
+          }
         ]
       },
       "prompts": [
-        { "n": "Politely ask a friend to help you.", "t": ["Könntest du mir bitte helfen", "Kannst du mir bitte helfen"] },
-        { "n": "Advise a friend: if you were them, you'd talk to him.", "t": ["An deiner Stelle würde ich mit ihm sprechen", "An deiner Stelle würde ich mit ihm reden"] },
-        { "n": "Suggest going for a walk.", "t": ["Wie wäre es mit einem Spaziergang", "Wie wär's mit einem Spaziergang"] },
-        { "n": "Politely ask a stranger whether they have a moment.", "t": ["Hätten Sie kurz Zeit", "Haben Sie kurz Zeit"] }
+        {
+          "n": "Politely ask a friend to help you.",
+          "t": [
+            "Könntest du mir bitte helfen",
+            "Kannst du mir bitte helfen"
+          ]
+        },
+        {
+          "n": "Advise a friend: if you were them, you'd talk to him.",
+          "t": [
+            "An deiner Stelle würde ich mit ihm sprechen",
+            "An deiner Stelle würde ich mit ihm reden"
+          ]
+        },
+        {
+          "n": "Suggest going for a walk.",
+          "t": [
+            "Wie wäre es mit einem Spaziergang",
+            "Wie wär's mit einem Spaziergang"
+          ]
+        },
+        {
+          "n": "Politely ask a stranger whether they have a moment.",
+          "t": [
+            "Hätten Sie kurz Zeit",
+            "Haben Sie kurz Zeit"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u07-l3",
+      "title": "Dream job, dream home",
+      "goal": "Describe the life you would like using Konjunktiv II and relative clauses.",
+      "tip": {
+        "title": "Relative clauses with a preposition",
+        "body": "A relative clause describes a noun and sends its verb to the end: ein Job, bei dem ich viel reisen kann. The preposition comes first and the pronoun matches the noun's gender and case: der Job → bei dem, die Wohnung → in der."
+      },
+      "phrases": [
+        {
+          "t": "Ich hätte gern einen Job, bei dem ich viel reisen kann.",
+          "n": "I'd like a job where I can travel a lot.",
+          "note": "relative clause: verb at the end"
+        },
+        {
+          "t": "Am liebsten würde ich auf dem Land wohnen.",
+          "n": "Most of all I'd like to live in the countryside."
+        },
+        {
+          "t": "Ich würde gern ein Jahr im Ausland verbringen.",
+          "n": "I'd like to spend a year abroad."
+        },
+        {
+          "t": "Dafür bräuchte ich mehr Geld.",
+          "n": "For that I'd need more money."
+        },
+        {
+          "t": "Wer weiß, vielleicht klappt es ja.",
+          "n": "Who knows, maybe it will work out."
+        }
+      ],
+      "dialogue": {
+        "title": "Daydreaming",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Wo würdest du am liebsten wohnen?",
+            "n": "Where would you most like to live?"
+          },
+          {
+            "who": "you",
+            "t": "Am liebsten würde ich auf dem Land wohnen.",
+            "n": "Most of all I'd like to live in the countryside."
+          },
+          {
+            "who": "A",
+            "name": "Leonie",
+            "t": "Und was würdest du dort arbeiten?",
+            "n": "And what would you do for work there?"
+          },
+          {
+            "who": "you",
+            "t": "Ich hätte gern einen Job, bei dem ich viel reisen kann.",
+            "n": "I'd like a job where I can travel a lot."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like a job where you can travel a lot.",
+          "t": [
+            "Ich hätte gern einen Job, bei dem ich viel reisen kann",
+            "Ich hätte gerne einen Job, bei dem ich viel reisen kann"
+          ]
+        },
+        {
+          "n": "Say you'd like to spend a year abroad.",
+          "t": [
+            "Ich würde gern ein Jahr im Ausland verbringen",
+            "Ich würde gerne ein Jahr im Ausland verbringen"
+          ]
+        },
+        {
+          "n": "Say you'd need more money for that.",
+          "t": [
+            "Dafür bräuchte ich mehr Geld",
+            "Dafür würde ich mehr Geld brauchen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l4",
+      "kind": "grammar",
+      "title": "Konjunktiv II forms",
+      "goal": "Use wäre, hätte, könnte and würde with all persons.",
+      "tip": {
+        "title": "Short forms for sein, haben and modals",
+        "body": "Most verbs use würde + infinitive at the end: Ich würde reisen. But sein, haben and the modal verbs have their own forms with an umlaut: wäre, hätte, könnte, müsste. Endings work like the past tense: ich wäre, du wärst, wir wären."
+      },
+      "phrases": [
+        {
+          "t": "Ich wäre jetzt gern am Meer.",
+          "n": "I'd like to be by the sea right now."
+        },
+        {
+          "t": "Wir hätten gern mehr Zeit füreinander.",
+          "n": "We'd like to have more time for each other."
+        },
+        {
+          "t": "Du könntest mich am Wochenende besuchen.",
+          "n": "You could visit me at the weekend."
+        },
+        {
+          "t": "Wenn es nicht regnen würde, könnten wir grillen.",
+          "n": "If it weren't raining, we could have a barbecue."
+        },
+        {
+          "t": "Würdest du mir dein Fahrrad leihen?",
+          "n": "Would you lend me your bike?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Ich wäre gern am Meer.",
+            "n": "I'd like to be by the sea."
+          },
+          "items": [
+            {
+              "cue": "wir",
+              "t": "Wir wären gern am Meer.",
+              "n": "We'd like to be by the sea."
+            },
+            {
+              "cue": "du?",
+              "t": "Wärst du gern am Meer?",
+              "n": "Would you like to be by the sea?"
+            },
+            {
+              "cue": "meine Eltern",
+              "t": "Meine Eltern wären gern am Meer.",
+              "n": "My parents would like to be by the sea."
+            }
+          ]
+        },
+        {
+          "title": "Swap the condition",
+          "base": {
+            "t": "Wenn ich Zeit hätte, würde ich kommen.",
+            "n": "If I had time, I'd come."
+          },
+          "items": [
+            {
+              "cue": "Geld · reisen",
+              "t": "Wenn ich Geld hätte, würde ich reisen.",
+              "n": "If I had money, I'd travel."
+            },
+            {
+              "cue": "ein Auto · dich abholen",
+              "t": "Wenn ich ein Auto hätte, würde ich dich abholen.",
+              "n": "If I had a car, I'd pick you up."
+            },
+            {
+              "cue": "frei · ausschlafen",
+              "t": "Wenn ich frei hätte, würde ich ausschlafen.",
+              "n": "If I had the day off, I'd sleep in."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'd like to be by the sea right now.",
+          "t": [
+            "Ich wäre jetzt gern am Meer",
+            "Ich wäre jetzt gerne am Meer"
+          ]
+        },
+        {
+          "n": "Say if it weren't raining, we could have a barbecue.",
+          "t": [
+            "Wenn es nicht regnen würde, könnten wir grillen",
+            "Wenn es nicht regnete, könnten wir grillen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l5",
+      "kind": "listening",
+      "title": "A four-day week?",
+      "goal": "Follow two friends imagining a shorter working week.",
+      "phrases": [
+        {
+          "t": "Stell dir vor, …",
+          "n": "Imagine …"
+        },
+        {
+          "t": "Das wäre super!",
+          "n": "That would be great!"
+        },
+        {
+          "t": "Dann hätte ich jeden Freitag frei.",
+          "n": "Then I'd have every Friday off."
+        },
+        {
+          "t": "Das wäre es mir wert.",
+          "n": "It would be worth it to me."
+        }
+      ],
+      "story": {
+        "title": "What if?",
+        "intro": "Nina and Tim talk about what they would do with a four-day working week.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Nina",
+            "t": "Stell dir vor, du müsstest nur noch vier Tage pro Woche arbeiten.",
+            "n": "Imagine you only had to work four days a week."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Das wäre super! Dann hätte ich jeden Freitag frei.",
+            "n": "That would be great! Then I'd have every Friday off."
+          },
+          {
+            "name": "Nina",
+            "t": "Und was würdest du mit dem freien Tag machen?",
+            "n": "And what would you do with the day off?"
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich würde endlich Gitarre lernen. Und du?",
+            "n": "I'd finally learn the guitar. And you?"
+          },
+          {
+            "name": "Nina",
+            "t": "Ich würde meine Oma öfter besuchen. Sie wohnt in Hamburg.",
+            "n": "I'd visit my grandma more often. She lives in Hamburg."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Aber wir würden weniger verdienen, oder?",
+            "n": "But we'd earn less, wouldn't we?"
+          },
+          {
+            "name": "Nina",
+            "t": "Vielleicht. Trotzdem wäre es mir das wert.",
+            "n": "Maybe. Still, it would be worth it to me."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viele Tage würden sie arbeiten?",
+            "n": "How many days would they work?",
+            "t": [
+              "Vier Tage",
+              "Vier",
+              "Vier Tage pro Woche"
+            ]
+          },
+          {
+            "q": "Was würde Tim lernen?",
+            "n": "What would Tim learn?",
+            "t": [
+              "Gitarre",
+              "Er würde Gitarre lernen"
+            ]
+          },
+          {
+            "q": "Wen würde Nina besuchen?",
+            "n": "Who would Nina visit?",
+            "t": [
+              "Ihre Oma",
+              "Die Oma",
+              "Ihre Oma in Hamburg"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u07-l6",
+      "kind": "roleplay",
+      "title": "A job offer in Zürich?",
+      "goal": "Discuss a hypothetical decision with a friend.",
+      "phrases": [
+        {
+          "t": "Was würdest du machen?",
+          "n": "What would you do?"
+        },
+        {
+          "t": "Ich würde es auf jeden Fall versuchen.",
+          "n": "I'd definitely give it a try."
+        },
+        {
+          "t": "Das kommt darauf an.",
+          "n": "It depends."
+        },
+        {
+          "t": "Ich würde euch natürlich vermissen.",
+          "n": "Of course I'd miss you all."
+        }
+      ],
+      "branch": {
+        "title": "What would you do?",
+        "scene": "Over a coffee, your friend Paul asks what you would do with a dream job offer abroad.",
+        "name": "Paul",
+        "voice": "de-DE-ConradNeural",
+        "start": "offer",
+        "nodes": {
+          "offer": {
+            "t": "Stell dir vor, du bekommst ein Jobangebot in Zürich. Was würdest du machen?",
+            "n": "Imagine you get a job offer in Zürich. What would you do?",
+            "choices": [
+              {
+                "t": "Ich würde es auf jeden Fall versuchen.",
+                "n": "I'd definitely give it a try.",
+                "next": "yes"
+              },
+              {
+                "t": "Wie bitte? In Zürich?",
+                "n": "Pardon? In Zürich?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ja, in Zürich, in der Schweiz. Würdest du dorthin ziehen?",
+            "n": "Yes, in Zürich, in Switzerland. Would you move there?",
+            "choices": [
+              {
+                "t": "Das kommt darauf an. Wie wäre das Gehalt?",
+                "n": "It depends. What would the salary be like?",
+                "next": "depends"
+              },
+              {
+                "t": "Ja, ich würde es versuchen.",
+                "n": "Yes, I'd give it a try.",
+                "next": "yes"
+              }
+            ]
+          },
+          "depends": {
+            "t": "Das Gehalt wäre sehr gut, aber die Mieten sind dort sehr hoch.",
+            "n": "The salary would be very good, but rents there are very high.",
+            "choices": [
+              {
+                "t": "Dann würde ich trotzdem gehen.",
+                "n": "Then I'd still go.",
+                "next": "yes"
+              },
+              {
+                "t": "Keine Ahnung. Ist mir egal.",
+                "n": "No idea. I don't care.",
+                "next": "bad"
+              }
+            ]
+          },
+          "yes": {
+            "t": "Echt? Und was wäre mit deinen Freunden hier?",
+            "n": "Really? And what about your friends here?",
+            "choices": [
+              {
+                "t": "Ich würde euch natürlich vermissen.",
+                "n": "Of course I'd miss you all.",
+                "next": "good"
+              },
+              {
+                "t": "Ihr könntet mich oft besuchen!",
+                "n": "You could visit me often!",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Das klingt gut! Dann wäre ich dein erster Besuch.",
+            "n": "Sounds good! Then I'd be your first visitor.",
+            "end": "good",
+            "outcome": "You shared your plans and reasons — a real what-if conversation."
+          },
+          "bad": {
+            "t": "Hm, okay … Dann reden wir lieber über etwas anderes.",
+            "n": "Hmm, OK … Let's talk about something else then.",
+            "end": "bad",
+            "outcome": "You didn't play along — use würde and wäre to imagine the situation."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend what they would do.",
+          "t": [
+            "Was würdest du machen",
+            "Was würdest du tun"
+          ]
+        },
+        {
+          "n": "Say it depends.",
+          "t": [
+            "Das kommt darauf an",
+            "Kommt darauf an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l7",
+      "kind": "speaking",
+      "title": "A year anywhere",
+      "goal": "Imagine and describe a different life for about 50 seconds.",
+      "culture": {
+        "title": "Was wäre, wenn das Volk entscheidet?",
+        "body": "In Switzerland, citizens vote on national questions several times a year — from taxes to motorway tolls. With 100,000 signatures, people can even propose a change to the constitution (Volksinitiative). Many Germans and Austrians discuss whether they would like more direct democracy too.",
+        "regions": [
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Wenn ich Schweizer wäre, könnte ich abstimmen.",
+          "n": "If I were Swiss, I could vote."
+        },
+        {
+          "t": "In der Schweiz stimmt man oft über Gesetze ab.",
+          "n": "In Switzerland people often vote on laws."
+        },
+        {
+          "t": "Ich würde dorthin gehen, weil …",
+          "n": "I'd go there because …"
+        }
+      ],
+      "free": [
+        {
+          "n": "Imagine you could live anywhere for one year. Where would you go, what would you do and why?",
+          "hint": "Use Wenn ich könnte, würde ich …, Ich wäre …, Ich hätte …, weil …, Am liebsten würde ich …",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "würde + infinitive",
+              "any": [
+                "würde",
+                "würden",
+                "würdest"
+              ]
+            },
+            {
+              "label": "wäre / hätte / könnte",
+              "any": [
+                "wäre",
+                "hätte",
+                "könnte",
+                "bräuchte",
+                "müsste"
+              ]
+            },
+            {
+              "label": "a place",
+              "any": [
+                "in",
+                "nach",
+                "am meer",
+                "auf dem land",
+                "im ausland"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "weil",
+                "denn",
+                "deshalb",
+                "darum"
+              ]
+            }
+          ],
+          "model": "Am liebsten würde ich ein Jahr in Wien leben, weil ich Musik liebe. Ich würde jeden Abend ins Konzert gehen. Und wenn ich Zeit hätte, könnte ich endlich Klavier lernen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say if you were Swiss, you could vote.",
+          "t": [
+            "Wenn ich Schweizer wäre, könnte ich abstimmen",
+            "Wenn ich Schweizerin wäre, könnte ich abstimmen"
+          ]
+        },
+        {
+          "n": "Say that in Switzerland people often vote on laws.",
+          "t": [
+            "In der Schweiz stimmt man oft über Gesetze ab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Was wäre, wenn?",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

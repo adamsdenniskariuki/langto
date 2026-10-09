@@ -13,36 +13,128 @@
         "body": "Start softly (Entschuldigung, ich habe leider ein Problem), describe the problem, then say what you want with Konjunktiv II: Ich hätte gern ein anderes Zimmer. Indirect questions keep things polite: Können Sie mir sagen, wann der nächste Zug fährt? Speaking tip: a calm, steady voice works better than a loud one."
       },
       "phrases": [
-        { "t": "Entschuldigung, ich habe leider ein Problem.", "n": "Excuse me, I'm afraid I have a problem." },
-        { "t": "Die Heizung in meinem Zimmer funktioniert nicht.", "n": "The heating in my room isn't working." },
-        { "t": "Mein Zug hat zwei Stunden Verspätung.", "n": "My train is two hours late." },
-        { "t": "Mein Koffer ist nicht angekommen.", "n": "My suitcase hasn't arrived." },
-        { "t": "Können Sie mir sagen, wann der nächste Zug fährt?", "n": "Can you tell me when the next train leaves?" },
-        { "t": "Ich hätte gern ein anderes Zimmer.", "n": "I'd like a different room." },
-        { "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.", "n": "That's annoying, I specifically booked a quiet room." },
-        { "t": "Was können Sie mir in diesem Fall anbieten?", "n": "What can you offer me in this case?" }
+        {
+          "t": "Entschuldigung, ich habe leider ein Problem.",
+          "n": "Excuse me, I'm afraid I have a problem."
+        },
+        {
+          "t": "Die Heizung in meinem Zimmer funktioniert nicht.",
+          "n": "The heating in my room isn't working."
+        },
+        {
+          "t": "Mein Zug hat zwei Stunden Verspätung.",
+          "n": "My train is two hours late."
+        },
+        {
+          "t": "Mein Koffer ist nicht angekommen.",
+          "n": "My suitcase hasn't arrived."
+        },
+        {
+          "t": "Können Sie mir sagen, wann der nächste Zug fährt?",
+          "n": "Can you tell me when the next train leaves?"
+        },
+        {
+          "t": "Ich hätte gern ein anderes Zimmer.",
+          "n": "I'd like a different room."
+        },
+        {
+          "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.",
+          "n": "That's annoying, I specifically booked a quiet room."
+        },
+        {
+          "t": "Was können Sie mir in diesem Fall anbieten?",
+          "n": "What can you offer me in this case?"
+        }
       ],
       "dialogue": {
         "title": "At the hotel reception",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Rezeptionistin", "t": "Guten Abend, wie kann ich Ihnen helfen?", "n": "Good evening, how can I help you?" },
-          { "who": "you", "t": "Entschuldigung, ich habe leider ein Problem. Die Heizung in meinem Zimmer funktioniert nicht.", "n": "Excuse me, I'm afraid I have a problem. The heating in my room isn't working." },
-          { "who": "A", "name": "Rezeptionistin", "t": "Oh, das tut mir leid. Der Techniker kommt leider erst morgen.", "n": "Oh, I'm sorry. Unfortunately the technician isn't coming until tomorrow." },
-          { "who": "you", "t": "Hm, dann hätte ich gern ein anderes Zimmer.", "n": "Hmm, then I'd like a different room." },
-          { "who": "A", "name": "Rezeptionistin", "t": "Wir haben nur noch ein Zimmer zur Straße. Das ist etwas lauter.", "n": "We only have a room facing the street left. It's a bit noisier." },
-          { "who": "you", "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.", "n": "That's annoying, I specifically booked a quiet room." },
-          { "who": "A", "name": "Rezeptionistin", "t": "Das verstehe ich natürlich.", "n": "Of course I understand that." },
-          { "who": "you", "t": "Was können Sie mir in diesem Fall anbieten?", "n": "What can you offer me in this case?" },
-          { "who": "A", "name": "Rezeptionistin", "t": "Ich gebe Ihnen zehn Prozent Rabatt, und das Frühstück ist gratis.", "n": "I'll give you a ten percent discount, and breakfast is free." },
-          { "who": "you", "t": "Gut, das ist in Ordnung. Vielen Dank!", "n": "Good, that's fine. Thank you very much!" }
+          {
+            "who": "A",
+            "name": "Rezeptionistin",
+            "t": "Guten Abend, wie kann ich Ihnen helfen?",
+            "n": "Good evening, how can I help you?"
+          },
+          {
+            "who": "you",
+            "t": "Entschuldigung, ich habe leider ein Problem. Die Heizung in meinem Zimmer funktioniert nicht.",
+            "n": "Excuse me, I'm afraid I have a problem. The heating in my room isn't working."
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionistin",
+            "t": "Oh, das tut mir leid. Der Techniker kommt leider erst morgen.",
+            "n": "Oh, I'm sorry. Unfortunately the technician isn't coming until tomorrow."
+          },
+          {
+            "who": "you",
+            "t": "Hm, dann hätte ich gern ein anderes Zimmer.",
+            "n": "Hmm, then I'd like a different room."
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionistin",
+            "t": "Wir haben nur noch ein Zimmer zur Straße. Das ist etwas lauter.",
+            "n": "We only have a room facing the street left. It's a bit noisier."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.",
+            "n": "That's annoying, I specifically booked a quiet room."
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionistin",
+            "t": "Das verstehe ich natürlich.",
+            "n": "Of course I understand that."
+          },
+          {
+            "who": "you",
+            "t": "Was können Sie mir in diesem Fall anbieten?",
+            "n": "What can you offer me in this case?"
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionistin",
+            "t": "Ich gebe Ihnen zehn Prozent Rabatt, und das Frühstück ist gratis.",
+            "n": "I'll give you a ten percent discount, and breakfast is free."
+          },
+          {
+            "who": "you",
+            "t": "Gut, das ist in Ordnung. Vielen Dank!",
+            "n": "Good, that's fine. Thank you very much!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Politely tell the receptionist you have a problem.", "t": ["Entschuldigung, ich habe leider ein Problem", "Ich habe leider ein Problem"] },
-        { "n": "Say your suitcase hasn't arrived.", "t": ["Mein Koffer ist nicht angekommen"] },
-        { "n": "Politely ask when the next train leaves.", "t": ["Können Sie mir sagen, wann der nächste Zug fährt", "Wann fährt der nächste Zug"] },
-        { "n": "Say you'd like a different room.", "t": ["Ich hätte gern ein anderes Zimmer", "Ich hätte gerne ein anderes Zimmer"] }
+        {
+          "n": "Politely tell the receptionist you have a problem.",
+          "t": [
+            "Entschuldigung, ich habe leider ein Problem",
+            "Ich habe leider ein Problem"
+          ]
+        },
+        {
+          "n": "Say your suitcase hasn't arrived.",
+          "t": [
+            "Mein Koffer ist nicht angekommen"
+          ]
+        },
+        {
+          "n": "Politely ask when the next train leaves.",
+          "t": [
+            "Können Sie mir sagen, wann der nächste Zug fährt",
+            "Wann fährt der nächste Zug"
+          ]
+        },
+        {
+          "n": "Say you'd like a different room.",
+          "t": [
+            "Ich hätte gern ein anderes Zimmer",
+            "Ich hätte gerne ein anderes Zimmer"
+          ]
+        }
       ]
     },
     {
@@ -54,36 +146,671 @@
         "body": "Ask about customs with Weißt du, wann or Ich wüsste gern, ob, and put the verb at the end: Weißt du, wann der Karneval beginnt? To describe traditions, the passive with werden is handy: Zu Weihnachten wird ein Baum geschmückt. Fluency tip: link short words smoothly, as in \"zu Weihnachten\", without a pause."
       },
       "phrases": [
-        { "t": "Bei uns feiert man Weihnachten am Heiligabend.", "n": "Where I'm from, we celebrate Christmas on Christmas Eve." },
-        { "t": "Zu Weihnachten wird ein Baum geschmückt.", "n": "At Christmas a tree is decorated.", "note": "Passive: werden + participle" },
-        { "t": "Weißt du, wann der Karneval beginnt?", "n": "Do you know when carnival starts?" },
-        { "t": "Ich wüsste gern, ob man sich verkleiden muss.", "n": "I'd like to know whether you have to dress up." },
-        { "t": "Der Karneval, den ich in Köln erlebt habe, war fantastisch.", "n": "The carnival I experienced in Cologne was fantastic." },
-        { "t": "Das ist ein Fest, das in ganz Deutschland gefeiert wird.", "n": "It's a festival that is celebrated all over Germany." },
-        { "t": "Obwohl es kalt war, waren alle draußen auf der Straße.", "n": "Although it was cold, everyone was out on the street." },
-        { "t": "Bei uns ist es Tradition, dass die ganze Familie zusammen isst.", "n": "Where I'm from, it's a tradition for the whole family to eat together." }
+        {
+          "t": "Bei uns feiert man Weihnachten am Heiligabend.",
+          "n": "Where I'm from, we celebrate Christmas on Christmas Eve."
+        },
+        {
+          "t": "Zu Weihnachten wird ein Baum geschmückt.",
+          "n": "At Christmas a tree is decorated.",
+          "note": "Passive: werden + participle"
+        },
+        {
+          "t": "Weißt du, wann der Karneval beginnt?",
+          "n": "Do you know when carnival starts?"
+        },
+        {
+          "t": "Ich wüsste gern, ob man sich verkleiden muss.",
+          "n": "I'd like to know whether you have to dress up."
+        },
+        {
+          "t": "Der Karneval, den ich in Köln erlebt habe, war fantastisch.",
+          "n": "The carnival I experienced in Cologne was fantastic."
+        },
+        {
+          "t": "Das ist ein Fest, das in ganz Deutschland gefeiert wird.",
+          "n": "It's a festival that is celebrated all over Germany."
+        },
+        {
+          "t": "Obwohl es kalt war, waren alle draußen auf der Straße.",
+          "n": "Although it was cold, everyone was out on the street."
+        },
+        {
+          "t": "Bei uns ist es Tradition, dass die ganze Familie zusammen isst.",
+          "n": "Where I'm from, it's a tradition for the whole family to eat together."
+        }
       ],
       "dialogue": {
         "title": "Carnival in Cologne",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Katrin", "t": "Kommst du dieses Jahr mit zum Karneval nach Köln?", "n": "Are you coming to the carnival in Cologne with me this year?" },
-          { "who": "you", "t": "Gern! Weißt du, wann der Karneval beginnt?", "n": "I'd love to! Do you know when carnival starts?" },
-          { "who": "A", "name": "Katrin", "t": "Der Straßenkarneval beginnt am Donnerstag vor Rosenmontag.", "n": "Street carnival starts on the Thursday before Rose Monday." },
-          { "who": "you", "t": "Super. Ich wüsste gern, ob man sich verkleiden muss.", "n": "Great. I'd like to know whether you have to dress up." },
-          { "who": "A", "name": "Katrin", "t": "Nicht unbedingt, aber fast alle machen es. Gibt es bei euch auch so ein Fest?", "n": "Not necessarily, but almost everyone does. Do you have a festival like that too?" },
-          { "who": "you", "t": "Nicht wirklich. Aber bei uns ist es Tradition, dass die ganze Familie zusammen isst.", "n": "Not really. But where I'm from, it's a tradition for the whole family to eat together." },
-          { "who": "A", "name": "Katrin", "t": "Wie schön! Und wie feiert ihr Weihnachten?", "n": "How lovely! And how do you celebrate Christmas?" },
-          { "who": "you", "t": "Bei uns feiert man Weihnachten am Heiligabend. Zu Weihnachten wird ein Baum geschmückt.", "n": "We celebrate Christmas on Christmas Eve. At Christmas a tree is decorated." },
-          { "who": "A", "name": "Katrin", "t": "Genau wie bei uns in Deutschland!", "n": "Just like here in Germany!" }
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Kommst du dieses Jahr mit zum Karneval nach Köln?",
+            "n": "Are you coming to the carnival in Cologne with me this year?"
+          },
+          {
+            "who": "you",
+            "t": "Gern! Weißt du, wann der Karneval beginnt?",
+            "n": "I'd love to! Do you know when carnival starts?"
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Der Straßenkarneval beginnt am Donnerstag vor Rosenmontag.",
+            "n": "Street carnival starts on the Thursday before Rose Monday."
+          },
+          {
+            "who": "you",
+            "t": "Super. Ich wüsste gern, ob man sich verkleiden muss.",
+            "n": "Great. I'd like to know whether you have to dress up."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Nicht unbedingt, aber fast alle machen es. Gibt es bei euch auch so ein Fest?",
+            "n": "Not necessarily, but almost everyone does. Do you have a festival like that too?"
+          },
+          {
+            "who": "you",
+            "t": "Nicht wirklich. Aber bei uns ist es Tradition, dass die ganze Familie zusammen isst.",
+            "n": "Not really. But where I'm from, it's a tradition for the whole family to eat together."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Wie schön! Und wie feiert ihr Weihnachten?",
+            "n": "How lovely! And how do you celebrate Christmas?"
+          },
+          {
+            "who": "you",
+            "t": "Bei uns feiert man Weihnachten am Heiligabend. Zu Weihnachten wird ein Baum geschmückt.",
+            "n": "We celebrate Christmas on Christmas Eve. At Christmas a tree is decorated."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Genau wie bei uns in Deutschland!",
+            "n": "Just like here in Germany!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a friend if they know when carnival starts.", "t": ["Weißt du, wann der Karneval beginnt", "Wann beginnt der Karneval"] },
-        { "n": "Say you'd like to know whether you have to dress up.", "t": ["Ich wüsste gern, ob man sich verkleiden muss", "Ich wüsste gerne, ob man sich verkleiden muss", "Muss man sich verkleiden"] },
-        { "n": "Say that where you're from, it's a tradition for the whole family to eat together.", "t": ["Bei uns ist es Tradition, dass die ganze Familie zusammen isst"] },
-        { "n": "Say that at Christmas a tree is decorated.", "t": ["Zu Weihnachten wird ein Baum geschmückt", "An Weihnachten wird ein Baum geschmückt"] }
+        {
+          "n": "Ask a friend if they know when carnival starts.",
+          "t": [
+            "Weißt du, wann der Karneval beginnt",
+            "Wann beginnt der Karneval"
+          ]
+        },
+        {
+          "n": "Say you'd like to know whether you have to dress up.",
+          "t": [
+            "Ich wüsste gern, ob man sich verkleiden muss",
+            "Ich wüsste gerne, ob man sich verkleiden muss",
+            "Muss man sich verkleiden"
+          ]
+        },
+        {
+          "n": "Say that where you're from, it's a tradition for the whole family to eat together.",
+          "t": [
+            "Bei uns ist es Tradition, dass die ganze Familie zusammen isst"
+          ]
+        },
+        {
+          "n": "Say that at Christmas a tree is decorated.",
+          "t": [
+            "Zu Weihnachten wird ein Baum geschmückt",
+            "An Weihnachten wird ein Baum geschmückt"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u08-l3",
+      "title": "At the Bürgeramt",
+      "goal": "Register your new address and ask what documents you need.",
+      "tip": {
+        "title": "Indirect questions with welche",
+        "body": "Question words like welche, wann or wo also work inside a sentence, with the verb at the end: Können Sie mir sagen, welche Unterlagen ich brauche? Asking this way sounds polite and is very common at offices."
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte meine neue Adresse anmelden.",
+          "n": "I'd like to register my new address."
+        },
+        {
+          "t": "Ich bin vor zwei Wochen umgezogen.",
+          "n": "I moved two weeks ago."
+        },
+        {
+          "t": "Brauche ich dafür einen Termin?",
+          "n": "Do I need an appointment for that?"
+        },
+        {
+          "t": "Welche Unterlagen muss ich mitbringen?",
+          "n": "Which documents do I have to bring?"
+        },
+        {
+          "t": "Hier ist die Bestätigung von meinem Vermieter.",
+          "n": "Here's the confirmation from my landlord."
+        }
+      ],
+      "dialogue": {
+        "title": "Anmeldung",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sachbearbeiterin",
+            "t": "Guten Tag. Was kann ich für Sie tun?",
+            "n": "Hello. What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Ich möchte meine neue Adresse anmelden. Ich bin vor zwei Wochen umgezogen.",
+            "n": "I'd like to register my new address. I moved two weeks ago."
+          },
+          {
+            "who": "A",
+            "name": "Sachbearbeiterin",
+            "t": "Haben Sie Ihren Ausweis und die Bestätigung vom Vermieter?",
+            "n": "Do you have your ID and the confirmation from your landlord?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, hier sind beide.",
+            "n": "Yes, here are both."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to register your new address.",
+          "t": [
+            "Ich möchte meine neue Adresse anmelden",
+            "Ich möchte mich anmelden"
+          ]
+        },
+        {
+          "n": "Ask whether you need an appointment.",
+          "t": [
+            "Brauche ich dafür einen Termin",
+            "Brauche ich einen Termin"
+          ]
+        },
+        {
+          "n": "Ask which documents you have to bring.",
+          "t": [
+            "Welche Unterlagen muss ich mitbringen",
+            "Welche Unterlagen brauche ich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l4",
+      "kind": "grammar",
+      "title": "bevor and nachdem",
+      "goal": "Put events in order with bevor and nachdem.",
+      "tip": {
+        "title": "Before and after",
+        "body": "Bevor and nachdem start a subordinate clause, so the verb goes to the end; if the clause comes first, the main clause starts with its verb: Bevor ich losfahre, schaue ich auf die App. Nachdem needs the earlier tense: Perfekt with a present main clause, Plusquamperfekt (war/hatte + participle) with a past one."
+      },
+      "phrases": [
+        {
+          "t": "Bevor ich umziehe, kündige ich meinen Vertrag.",
+          "n": "Before I move, I'll cancel my contract."
+        },
+        {
+          "t": "Nachdem ich umgezogen bin, melde ich mich an.",
+          "n": "After I've moved, I'll register.",
+          "note": "nachdem + Perfekt"
+        },
+        {
+          "t": "Bevor der Zug kam, tranken wir noch einen Kaffee.",
+          "n": "Before the train came, we had another coffee.",
+          "note": "Präteritum: kam, tranken"
+        },
+        {
+          "t": "Nachdem der Streik vorbei war, fuhren die Züge wieder.",
+          "n": "After the strike was over, the trains ran again.",
+          "note": "Plusquamperfekt + Präteritum"
+        },
+        {
+          "t": "Kauf die Fahrkarte, bevor du einsteigst.",
+          "n": "Buy the ticket before you get on."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the activity (bevor)",
+          "base": {
+            "t": "Bevor ich losfahre, schaue ich auf die App.",
+            "n": "Before I set off, I check the app."
+          },
+          "items": [
+            {
+              "cue": "frühstücken",
+              "t": "Bevor ich losfahre, frühstücke ich.",
+              "n": "Before I set off, I have breakfast."
+            },
+            {
+              "cue": "eine Fahrkarte kaufen",
+              "t": "Bevor ich losfahre, kaufe ich eine Fahrkarte.",
+              "n": "Before I set off, I buy a ticket."
+            },
+            {
+              "cue": "meine Mutter anrufen",
+              "t": "Bevor ich losfahre, rufe ich meine Mutter an.",
+              "n": "Before I set off, I call my mother."
+            }
+          ]
+        },
+        {
+          "title": "Swap the activity (nachdem)",
+          "base": {
+            "t": "Nachdem ich gegessen habe, gehe ich spazieren.",
+            "n": "After I've eaten, I go for a walk."
+          },
+          "items": [
+            {
+              "cue": "arbeiten",
+              "t": "Nachdem ich gearbeitet habe, gehe ich spazieren.",
+              "n": "After I've worked, I go for a walk."
+            },
+            {
+              "cue": "einkaufen",
+              "t": "Nachdem ich eingekauft habe, gehe ich spazieren.",
+              "n": "After I've done the shopping, I go for a walk."
+            },
+            {
+              "cue": "ankommen",
+              "t": "Nachdem ich angekommen bin, gehe ich spazieren.",
+              "n": "After I've arrived, I go for a walk."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say before you move, you'll cancel your contract.",
+          "t": [
+            "Bevor ich umziehe, kündige ich meinen Vertrag"
+          ]
+        },
+        {
+          "n": "Say after you've moved, you'll register.",
+          "t": [
+            "Nachdem ich umgezogen bin, melde ich mich an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l5",
+      "kind": "listening",
+      "title": "Fasnacht in Basel",
+      "goal": "Follow two Swiss speakers talking about a famous festival.",
+      "phrases": [
+        {
+          "t": "Warst du schon mal an der Fasnacht?",
+          "n": "Have you ever been to the Fasnacht?",
+          "note": "Swiss: an der Fasnacht"
+        },
+        {
+          "t": "Das ist ja mitten in der Nacht!",
+          "n": "That's the middle of the night!"
+        },
+        {
+          "t": "Alle Lichter werden ausgeschaltet.",
+          "n": "All the lights are switched off."
+        },
+        {
+          "t": "Wie lange dauert das Ganze?",
+          "n": "How long does the whole thing last?"
+        }
+      ],
+      "story": {
+        "title": "Morgestraich",
+        "intro": "Leni tells her friend Jan about the Basel carnival, which starts at 4 a.m.",
+        "voice": "de-CH-LeniNeural",
+        "lines": [
+          {
+            "name": "Leni",
+            "t": "Warst du schon mal an der Basler Fasnacht?",
+            "n": "Have you ever been to the Basel Fasnacht?"
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Nein, noch nie. Wann beginnt sie denn?",
+            "n": "No, never. When does it start?"
+          },
+          {
+            "name": "Leni",
+            "t": "Am Montag nach Aschermittwoch, um vier Uhr morgens.",
+            "n": "On the Monday after Ash Wednesday, at four o'clock in the morning."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Um vier Uhr? Das ist ja mitten in der Nacht!",
+            "n": "At four? That's the middle of the night!"
+          },
+          {
+            "name": "Leni",
+            "t": "Genau. Alle Lichter in der Stadt werden ausgeschaltet. Dann kommen die Trommler und Pfeifer.",
+            "n": "Exactly. All the lights in the city are switched off. Then the drummers and pipers come."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Und wie lange dauert das Ganze?",
+            "n": "And how long does the whole thing last?"
+          },
+          {
+            "name": "Leni",
+            "t": "Drei Tage. Nachdem ich das einmal erlebt hatte, wollte ich jedes Jahr wieder hin.",
+            "n": "Three days. After I had experienced it once, I wanted to go back every year."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann beginnt die Fasnacht?",
+            "n": "When does the Fasnacht start?",
+            "t": [
+              "Am Montag nach Aschermittwoch",
+              "Um vier Uhr morgens",
+              "Am Montag um vier Uhr"
+            ]
+          },
+          {
+            "q": "Was wird ausgeschaltet?",
+            "n": "What is switched off?",
+            "t": [
+              "Die Lichter",
+              "Alle Lichter",
+              "Das Licht"
+            ]
+          },
+          {
+            "q": "Wie lange dauert die Fasnacht?",
+            "n": "How long does the Fasnacht last?",
+            "t": [
+              "Drei Tage",
+              "Sie dauert drei Tage"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u08-l6",
+      "kind": "roleplay",
+      "title": "Strike at the station",
+      "goal": "Find a way to travel and know your rights when trains are cancelled.",
+      "phrases": [
+        {
+          "t": "Wegen des Streiks fallen viele Züge aus.",
+          "n": "Because of the strike, many trains are cancelled.",
+          "note": "wegen + genitive"
+        },
+        {
+          "t": "Ich muss heute unbedingt nach München.",
+          "n": "I absolutely have to get to Munich today."
+        },
+        {
+          "t": "Gilt mein Ticket auch für diesen Zug?",
+          "n": "Is my ticket valid for this train too?"
+        },
+        {
+          "t": "Bekomme ich mein Geld zurück?",
+          "n": "Will I get my money back?"
+        }
+      ],
+      "branch": {
+        "title": "At the service desk",
+        "scene": "There is a train drivers' strike. You go to the DB service desk to find a way to Munich.",
+        "name": "Bahn-Service",
+        "voice": "de-DE-KatjaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Tag. Wegen des Streiks fallen heute viele Züge aus. Wohin möchten Sie?",
+            "n": "Hello. Because of the strike, many trains are cancelled today. Where would you like to go?",
+            "choices": [
+              {
+                "t": "Ich muss heute unbedingt nach München.",
+                "n": "I absolutely have to get to Munich today.",
+                "next": "options"
+              },
+              {
+                "t": "Entschuldigung, warum fallen die Züge aus?",
+                "n": "Sorry, why are the trains cancelled?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Die Lokführer streiken bis morgen früh. Wohin möchten Sie denn?",
+            "n": "The train drivers are on strike until tomorrow morning. Where do you want to go?",
+            "choices": [
+              {
+                "t": "Nach München. Das ist sehr wichtig.",
+                "n": "To Munich. It's very important.",
+                "next": "options"
+              },
+              {
+                "t": "Ich muss heute unbedingt nach München.",
+                "n": "I absolutely have to get to Munich today.",
+                "next": "options"
+              }
+            ]
+          },
+          "options": {
+            "t": "Ein Regionalzug fährt um 14 Uhr. Aber Sie müssen zweimal umsteigen.",
+            "n": "A regional train leaves at 2 p.m. But you have to change twice.",
+            "choices": [
+              {
+                "t": "Gilt mein Ticket auch für diesen Zug?",
+                "n": "Is my ticket valid for this train too?",
+                "next": "ticket"
+              },
+              {
+                "t": "Das ist eine Katastrophe! Sie sind schuld!",
+                "n": "This is a disaster! It's your fault!",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Ich verstehe Ihren Ärger, aber ich streike nicht. Möchten Sie den Zug nehmen?",
+            "n": "I understand you're annoyed, but I'm not the one on strike. Would you like to take the train?",
+            "choices": [
+              {
+                "t": "Entschuldigung. Ja, gilt mein Ticket dafür?",
+                "n": "Sorry. Yes, is my ticket valid for it?",
+                "next": "ticket"
+              },
+              {
+                "t": "Nein, vergessen Sie es!",
+                "n": "No, forget it!",
+                "next": "bad"
+              }
+            ]
+          },
+          "ticket": {
+            "t": "Ja, Ihr Ticket gilt heute für alle Züge. Später können Sie eine Entschädigung beantragen.",
+            "n": "Yes, your ticket is valid for all trains today. Later you can apply for compensation.",
+            "choices": [
+              {
+                "t": "Super. Wo kann ich das beantragen?",
+                "n": "Great. Where can I apply for it?",
+                "next": "good"
+              },
+              {
+                "t": "Und bekomme ich mein Geld zurück, wenn ich nicht fahre?",
+                "n": "And do I get my money back if I don't travel?",
+                "next": "refund"
+              }
+            ]
+          },
+          "refund": {
+            "t": "Ja, dann bekommen Sie den vollen Preis zurück.",
+            "n": "Yes, then you'll get the full price back.",
+            "end": "good",
+            "outcome": "You found out you can get a full refund if you cancel your trip."
+          },
+          "good": {
+            "t": "Online oder hier im Reisezentrum. Gute Fahrt!",
+            "n": "Online or here at the travel centre. Have a good trip!",
+            "end": "good",
+            "outcome": "You're on the 2 p.m. train with a valid ticket and can claim compensation."
+          },
+          "bad": {
+            "t": "Wie Sie meinen. Der Nächste, bitte!",
+            "n": "As you wish. Next, please!",
+            "end": "bad",
+            "outcome": "You walked away without a solution — staying polite gets you further."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you absolutely have to get to Munich today.",
+          "t": [
+            "Ich muss heute unbedingt nach München"
+          ]
+        },
+        {
+          "n": "Ask whether your ticket is valid for this train too.",
+          "t": [
+            "Gilt mein Ticket auch für diesen Zug",
+            "Gilt mein Ticket für diesen Zug"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l7",
+      "kind": "speaking",
+      "title": "My favourite festival",
+      "goal": "Describe a festival or tradition for about 50 seconds.",
+      "culture": {
+        "title": "Karneval, Fasching or Fasnacht?",
+        "body": "In the Rhineland (Cologne, Düsseldorf, Mainz) it is Karneval, with shouts of \"Alaaf\" or \"Helau\"; in Bavaria and Austria it is Fasching; in the south-west and Switzerland it is Fasnacht, often with carved wooden masks. Oktoberfest in Munich actually starts in September, and many Germans never go. In winter, every town has a Weihnachtsmarkt — you pay a deposit for your Glühwein mug.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Das Oktoberfest beginnt eigentlich schon im September.",
+          "n": "The Oktoberfest actually starts in September."
+        },
+        {
+          "t": "Auf dem Weihnachtsmarkt trinkt man Glühwein.",
+          "n": "At the Christmas market people drink mulled wine."
+        },
+        {
+          "t": "Im Rheinland sagt man Karneval, in Bayern Fasching.",
+          "n": "In the Rhineland they say Karneval, in Bavaria Fasching."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe a festival or tradition you know: when it is, what is done, and what you did last time.",
+          "hint": "Use Das Fest ist im …, Man …, Es wird … gefeiert / geschmückt, Letztes Jahr war ich …, Bevor / Nachdem …",
+          "seconds": 55,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "when it happens",
+              "any": [
+                "im",
+                "am",
+                "januar",
+                "februar",
+                "dezember",
+                "september",
+                "sommer",
+                "winter",
+                "frühling",
+                "herbst",
+                "jedes jahr"
+              ]
+            },
+            {
+              "label": "what is done (passive or man)",
+              "any": [
+                "wird",
+                "werden",
+                "man"
+              ]
+            },
+            {
+              "label": "the past",
+              "any": [
+                "war",
+                "waren",
+                "hatte",
+                "habe",
+                "bin",
+                "letztes jahr",
+                "gefeiert",
+                "gegessen",
+                "getanzt"
+              ]
+            },
+            {
+              "label": "bevor / nachdem / wenn",
+              "any": [
+                "bevor",
+                "nachdem",
+                "wenn",
+                "als",
+                "während"
+              ]
+            }
+          ],
+          "model": "Im Dezember gehe ich gern auf den Weihnachtsmarkt. Dort wird Glühwein getrunken, und die Stadt wird geschmückt. Letztes Jahr war ich in Nürnberg, und nachdem wir alles gesehen hatten, haben wir Lebkuchen gekauft."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the Oktoberfest actually starts in September.",
+          "t": [
+            "Das Oktoberfest beginnt eigentlich schon im September",
+            "Das Oktoberfest beginnt schon im September"
+          ]
+        },
+        {
+          "n": "Say that at the Christmas market people drink mulled wine.",
+          "t": [
+            "Auf dem Weihnachtsmarkt trinkt man Glühwein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Unterwegs und Feste",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b1-test",
+      "kind": "test",
+      "title": "B1 speaking test",
+      "goal": "Pass to earn your B1 badge and unlock B2.",
+      "tip": {
+        "title": "Show what you can do",
+        "body": "You will say phrases from all B1 units from memory. Take your time, speak in full sentences and watch the verb position after weil, obwohl, wenn and nachdem. Konjunktiv II (wäre, hätte, würde) and the passive (wird + participle) will come up."
+      }
     }
   ]
 }

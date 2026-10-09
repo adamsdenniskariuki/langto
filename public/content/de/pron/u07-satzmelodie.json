@@ -1,0 +1,190 @@
+{
+  "id": "pron-u07",
+  "level": "B1",
+  "title": "Satzmelodie",
+  "subtitle": "Questions, statements, contrast",
+  "icon": "🎵",
+  "lessons": [
+    {
+      "id": "pron-u07-l1",
+      "kind": "pron",
+      "title": "Rising and falling",
+      "goal": "Make questions and statements sound right.",
+      "tip": {
+        "title": "Up for yes/no, down for facts",
+        "body": "Statements and W-questions (wo, wann, wie) fall at the end. Yes/no questions rise. You can even turn a statement into a question just by rising: \"Du kommst?\" The main stress falls on the new information."
+      },
+      "phrases": [
+        {
+          "t": "Kommst du mit?",
+          "n": "Are you coming along?"
+        },
+        {
+          "t": "Wo wohnst du?",
+          "n": "Where do you live?"
+        },
+        {
+          "t": "Ach so!",
+          "n": "I see!"
+        },
+        {
+          "t": "Wirklich?",
+          "n": "Really?"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Sie kommen aus Wien.",
+            "n": "You're from Vienna."
+          },
+          "b": {
+            "t": "Sie kommen aus Wien?",
+            "n": "You're from Vienna?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Das ist Ihr Auto.",
+            "n": "That's your car."
+          },
+          "b": {
+            "t": "Das ist Ihr Auto?",
+            "n": "That's your car?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Du hast Zeit.",
+            "n": "You have time."
+          },
+          "b": {
+            "t": "Hast du Zeit?",
+            "n": "Do you have time?"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Kommst du mit?",
+          "n": "Are you coming along?",
+          "mark": "Kommst du *mit*?",
+          "note": "Yes/no question: the voice rises at the end."
+        },
+        {
+          "t": "Wo wohnst du?",
+          "n": "Where do you live?",
+          "mark": "Wo *wohnst* du?",
+          "note": "W-question: the voice falls at the end."
+        },
+        {
+          "t": "Ich komme aus Hamburg.",
+          "n": "I'm from Hamburg.",
+          "mark": "Ich komme aus *Ham*burg.",
+          "note": "Statement: stress the new information, then fall."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend if they're coming along.",
+          "t": [
+            "Kommst du mit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u07-l2",
+      "kind": "pron",
+      "title": "Contrastive stress",
+      "goal": "Stress the word you want to contrast.",
+      "tip": {
+        "title": "Stress shows what matters",
+        "body": "Germans move the main stress to the word they want to contrast or correct: \"Ich trinke TEE, nicht Kaffee.\" Make the stressed syllable louder, longer and higher; keep the rest flat."
+      },
+      "phrases": [
+        {
+          "t": "Nicht heute, morgen!",
+          "n": "Not today, tomorrow!"
+        },
+        {
+          "t": "Ich meine den roten.",
+          "n": "I mean the red one."
+        },
+        {
+          "t": "Doch!",
+          "n": "Yes, it is! / Yes, I do!",
+          "note": "Contradicts a negative statement."
+        },
+        {
+          "t": "Genau!",
+          "n": "Exactly!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Gut.",
+            "n": "Good."
+          },
+          "b": {
+            "t": "Gut?",
+            "n": "Good?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Morgen.",
+            "n": "Tomorrow."
+          },
+          "b": {
+            "t": "Morgen?",
+            "n": "Tomorrow?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Doch.",
+            "n": "Yes, it is."
+          },
+          "b": {
+            "t": "Doch?",
+            "n": "Is it, though?"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich trinke Tee, nicht Kaffee.",
+          "n": "I drink tea, not coffee.",
+          "mark": "Ich trinke *Tee*, nicht *Kaf*fee."
+        },
+        {
+          "t": "Ich habe das gesagt, nicht er.",
+          "n": "I said that, not him.",
+          "mark": "*Ich* habe das gesagt, nicht *er*."
+        },
+        {
+          "t": "Das Auto ist rot, nicht blau.",
+          "n": "The car is red, not blue.",
+          "mark": "Das Auto ist *rot*, nicht *blau*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Correct someone: not today, tomorrow.",
+          "t": [
+            "Nicht heute, morgen",
+            "Nicht heute morgen"
+          ]
+        }
+      ]
+    }
+  ]
+}

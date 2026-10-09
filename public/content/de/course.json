@@ -106,7 +106,9 @@
         "pron/u02-ch.json",
         "pron/u03-en-sch.json",
         "pron/u04-r.json",
-        "pron/u05-w-v-z.json"
+        "pron/u05-w-v-z.json",
+        "pron/u06-vokale.json",
+        "pron/u07-satzmelodie.json"
       ]
     }
   ]

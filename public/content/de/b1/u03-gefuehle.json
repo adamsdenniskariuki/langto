@@ -13,34 +13,120 @@
         "body": "Many feeling verbs are reflexive: sich freuen, sich ärgern, sich fühlen. The pronoun matches the subject: ich freue mich, du freust dich, wir freuen uns. Sich freuen auf means to look forward to; sich freuen über means to be happy about. To sound empathetic, let your voice fall gently on \"Das tut mir leid\"."
       },
       "phrases": [
-        { "t": "Ich freue mich sehr auf das Wochenende.", "n": "I'm really looking forward to the weekend.", "note": "freuen auf = something in the future" },
-        { "t": "Ich habe mich über dein Geschenk gefreut.", "n": "I was happy about your present.", "note": "freuen über = something that happened" },
-        { "t": "Ich ärgere mich über meinen Chef.", "n": "I'm annoyed with my boss." },
-        { "t": "Ich fühle mich heute nicht so gut.", "n": "I don't feel so good today." },
-        { "t": "Mach dir keine Sorgen!", "n": "Don't worry!" },
-        { "t": "Ich interessiere mich für Musik.", "n": "I'm interested in music." },
-        { "t": "Das tut mir wirklich leid.", "n": "I'm really sorry about that." },
-        { "t": "Wie schön, das freut mich für dich!", "n": "How lovely, I'm happy for you!" }
+        {
+          "t": "Ich freue mich sehr auf das Wochenende.",
+          "n": "I'm really looking forward to the weekend.",
+          "note": "freuen auf = something in the future"
+        },
+        {
+          "t": "Ich habe mich über dein Geschenk gefreut.",
+          "n": "I was happy about your present.",
+          "note": "freuen über = something that happened"
+        },
+        {
+          "t": "Ich ärgere mich über meinen Chef.",
+          "n": "I'm annoyed with my boss."
+        },
+        {
+          "t": "Ich fühle mich heute nicht so gut.",
+          "n": "I don't feel so good today."
+        },
+        {
+          "t": "Mach dir keine Sorgen!",
+          "n": "Don't worry!"
+        },
+        {
+          "t": "Ich interessiere mich für Musik.",
+          "n": "I'm interested in music."
+        },
+        {
+          "t": "Das tut mir wirklich leid.",
+          "n": "I'm really sorry about that."
+        },
+        {
+          "t": "Wie schön, das freut mich für dich!",
+          "n": "How lovely, I'm happy for you!"
+        }
       ],
       "dialogue": {
         "title": "Good news, bad news",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Anna", "t": "Hey, wie geht's dir?", "n": "Hey, how are you?" },
-          { "who": "you", "t": "Ehrlich gesagt fühle ich mich heute nicht so gut.", "n": "To be honest, I don't feel so good today." },
-          { "who": "A", "name": "Anna", "t": "Oh, was ist denn los?", "n": "Oh, what's the matter?" },
-          { "who": "you", "t": "Ich ärgere mich über meinen Chef. Ich muss am Samstag arbeiten.", "n": "I'm annoyed with my boss. I have to work on Saturday." },
-          { "who": "A", "name": "Anna", "t": "Das tut mir leid. Aber ich habe gute Nachrichten: Ich habe eine neue Wohnung!", "n": "I'm sorry. But I have good news: I've got a new flat!" },
-          { "who": "you", "t": "Wie schön, das freut mich für dich!", "n": "How lovely, I'm happy for you!" },
-          { "who": "A", "name": "Anna", "t": "Danke! Kommst du nächste Woche zu meiner Party?", "n": "Thanks! Are you coming to my party next week?" },
-          { "who": "you", "t": "Klar, ich freue mich schon darauf.", "n": "Of course, I'm already looking forward to it." }
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Hey, wie geht's dir?",
+            "n": "Hey, how are you?"
+          },
+          {
+            "who": "you",
+            "t": "Ehrlich gesagt fühle ich mich heute nicht so gut.",
+            "n": "To be honest, I don't feel so good today."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Oh, was ist denn los?",
+            "n": "Oh, what's the matter?"
+          },
+          {
+            "who": "you",
+            "t": "Ich ärgere mich über meinen Chef. Ich muss am Samstag arbeiten.",
+            "n": "I'm annoyed with my boss. I have to work on Saturday."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Das tut mir leid. Aber ich habe gute Nachrichten: Ich habe eine neue Wohnung!",
+            "n": "I'm sorry. But I have good news: I've got a new flat!"
+          },
+          {
+            "who": "you",
+            "t": "Wie schön, das freut mich für dich!",
+            "n": "How lovely, I'm happy for you!"
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Danke! Kommst du nächste Woche zu meiner Party?",
+            "n": "Thanks! Are you coming to my party next week?"
+          },
+          {
+            "who": "you",
+            "t": "Klar, ich freue mich schon darauf.",
+            "n": "Of course, I'm already looking forward to it."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you're really looking forward to the weekend.", "t": ["Ich freue mich sehr auf das Wochenende", "Ich freue mich auf das Wochenende", "Ich freue mich aufs Wochenende"] },
-        { "n": "Say you don't feel so good today.", "t": ["Ich fühle mich heute nicht so gut", "Ich fühle mich nicht so gut"] },
-        { "n": "Tell a friend not to worry.", "t": ["Mach dir keine Sorgen"] },
-        { "n": "React to a friend's good news: say you're happy for them.", "t": ["Wie schön, das freut mich für dich", "Das freut mich für dich"] }
+        {
+          "n": "Say you're really looking forward to the weekend.",
+          "t": [
+            "Ich freue mich sehr auf das Wochenende",
+            "Ich freue mich auf das Wochenende",
+            "Ich freue mich aufs Wochenende"
+          ]
+        },
+        {
+          "n": "Say you don't feel so good today.",
+          "t": [
+            "Ich fühle mich heute nicht so gut",
+            "Ich fühle mich nicht so gut"
+          ]
+        },
+        {
+          "n": "Tell a friend not to worry.",
+          "t": [
+            "Mach dir keine Sorgen"
+          ]
+        },
+        {
+          "n": "React to a friend's good news: say you're happy for them.",
+          "t": [
+            "Wie schön, das freut mich für dich",
+            "Das freut mich für dich"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +138,639 @@
         "body": "Describe people with relative clauses: Das ist die Freundin, die in Wien wohnt. Der Freund, den ich getroffen habe, ist Lehrer. The relative pronoun matches the person's gender and its role in the clause, and the verb goes to the end. Fluency tip: one relative clause per sentence is plenty when speaking."
       },
       "phrases": [
-        { "t": "Das ist meine beste Freundin, die in Wien wohnt.", "n": "That's my best friend, who lives in Vienna." },
-        { "t": "Wir haben uns im Studium kennengelernt.", "n": "We met at university." },
-        { "t": "Er ist ein Mensch, auf den man sich verlassen kann.", "n": "He's someone you can rely on." },
-        { "t": "Wir verstehen uns sehr gut.", "n": "We get on really well." },
-        { "t": "Manchmal streiten wir uns, aber nie lange.", "n": "Sometimes we argue, but never for long." },
-        { "t": "Sie hat sich sofort in ihn verliebt.", "n": "She fell in love with him immediately." },
-        { "t": "Wir haben uns leider aus den Augen verloren.", "n": "Unfortunately we lost touch.", "note": "Literally: lost each other from our eyes." },
-        { "t": "Der Freund, den ich gestern getroffen habe, ist Lehrer.", "n": "The friend I met yesterday is a teacher.", "note": "den = accusative relative pronoun" }
+        {
+          "t": "Das ist meine beste Freundin, die in Wien wohnt.",
+          "n": "That's my best friend, who lives in Vienna."
+        },
+        {
+          "t": "Wir haben uns im Studium kennengelernt.",
+          "n": "We met at university."
+        },
+        {
+          "t": "Er ist ein Mensch, auf den man sich verlassen kann.",
+          "n": "He's someone you can rely on."
+        },
+        {
+          "t": "Wir verstehen uns sehr gut.",
+          "n": "We get on really well."
+        },
+        {
+          "t": "Manchmal streiten wir uns, aber nie lange.",
+          "n": "Sometimes we argue, but never for long."
+        },
+        {
+          "t": "Sie hat sich sofort in ihn verliebt.",
+          "n": "She fell in love with him immediately."
+        },
+        {
+          "t": "Wir haben uns leider aus den Augen verloren.",
+          "n": "Unfortunately we lost touch.",
+          "note": "Literally: lost each other from our eyes."
+        },
+        {
+          "t": "Der Freund, den ich gestern getroffen habe, ist Lehrer.",
+          "n": "The friend I met yesterday is a teacher.",
+          "note": "den = accusative relative pronoun"
+        }
       ],
       "dialogue": {
         "title": "The photo album",
         "lines": [
-          { "who": "A", "name": "Jonas", "t": "Wer ist die Frau auf dem Foto?", "n": "Who's the woman in the photo?" },
-          { "who": "you", "t": "Das ist meine beste Freundin, die in Wien wohnt.", "n": "That's my best friend, who lives in Vienna." },
-          { "who": "A", "name": "Jonas", "t": "Wie lange kennt ihr euch schon?", "n": "How long have you known each other?" },
-          { "who": "you", "t": "Wir haben uns im Studium kennengelernt.", "n": "We met at university." },
-          { "who": "A", "name": "Jonas", "t": "Und versteht ihr euch immer gut?", "n": "And do you always get on well?" },
-          { "who": "you", "t": "Ja, wir verstehen uns sehr gut. Manchmal streiten wir uns, aber nie lange.", "n": "Yes, we get on really well. Sometimes we argue, but never for long." },
-          { "who": "A", "name": "Jonas", "t": "Und wer ist der Mann neben ihr?", "n": "And who's the man next to her?" },
-          { "who": "you", "t": "Das ist ihr Freund. Er ist ein Mensch, auf den man sich verlassen kann.", "n": "That's her boyfriend. He's someone you can rely on." }
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Wer ist die Frau auf dem Foto?",
+            "n": "Who's the woman in the photo?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist meine beste Freundin, die in Wien wohnt.",
+            "n": "That's my best friend, who lives in Vienna."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Wie lange kennt ihr euch schon?",
+            "n": "How long have you known each other?"
+          },
+          {
+            "who": "you",
+            "t": "Wir haben uns im Studium kennengelernt.",
+            "n": "We met at university."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Und versteht ihr euch immer gut?",
+            "n": "And do you always get on well?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, wir verstehen uns sehr gut. Manchmal streiten wir uns, aber nie lange.",
+            "n": "Yes, we get on really well. Sometimes we argue, but never for long."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Und wer ist der Mann neben ihr?",
+            "n": "And who's the man next to her?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist ihr Freund. Er ist ein Mensch, auf den man sich verlassen kann.",
+            "n": "That's her boyfriend. He's someone you can rely on."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you met at university.", "t": ["Wir haben uns im Studium kennengelernt", "Wir haben uns an der Uni kennengelernt"] },
-        { "n": "Say you get on really well.", "t": ["Wir verstehen uns sehr gut", "Wir verstehen uns gut"] },
-        { "n": "Introduce your best friend who lives in Vienna.", "t": ["Das ist meine beste Freundin, die in Wien wohnt", "Das ist mein bester Freund, der in Wien wohnt"] },
-        { "n": "Say that unfortunately you lost touch.", "t": ["Wir haben uns leider aus den Augen verloren", "Wir haben uns aus den Augen verloren"] }
+        {
+          "n": "Say you met at university.",
+          "t": [
+            "Wir haben uns im Studium kennengelernt",
+            "Wir haben uns an der Uni kennengelernt"
+          ]
+        },
+        {
+          "n": "Say you get on really well.",
+          "t": [
+            "Wir verstehen uns sehr gut",
+            "Wir verstehen uns gut"
+          ]
+        },
+        {
+          "n": "Introduce your best friend who lives in Vienna.",
+          "t": [
+            "Das ist meine beste Freundin, die in Wien wohnt",
+            "Das ist mein bester Freund, der in Wien wohnt"
+          ]
+        },
+        {
+          "n": "Say that unfortunately you lost touch.",
+          "t": [
+            "Wir haben uns leider aus den Augen verloren",
+            "Wir haben uns aus den Augen verloren"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u03-l3",
+      "title": "Comfort and encouragement",
+      "goal": "Show sympathy and encourage someone who is having a hard time.",
+      "tip": {
+        "title": "Showing empathy",
+        "body": "Short reactions show you are listening: Oh nein! Echt? Das verstehe ich. To cheer someone up, say Kopf hoch! (literally \"head up\") or Das schaffst du schon. Speak a little more slowly and softly than usual."
+      },
+      "phrases": [
+        {
+          "t": "Kopf hoch, das wird schon wieder!",
+          "n": "Chin up, it'll be fine!"
+        },
+        {
+          "t": "Ich kann dich gut verstehen.",
+          "n": "I can really understand you."
+        },
+        {
+          "t": "Kann ich irgendwas für dich tun?",
+          "n": "Is there anything I can do for you?"
+        },
+        {
+          "t": "Ich bin total enttäuscht.",
+          "n": "I'm totally disappointed."
+        },
+        {
+          "t": "Ich habe Angst vor der Prüfung.",
+          "n": "I'm scared of the exam.",
+          "note": "Angst haben vor + dative"
+        },
+        {
+          "t": "Ich bin stolz auf dich!",
+          "n": "I'm proud of you!"
+        }
+      ],
+      "dialogue": {
+        "title": "Bad news",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Ich habe die Stelle leider nicht bekommen. Ich bin total enttäuscht.",
+            "n": "Unfortunately I didn't get the job. I'm totally disappointed."
+          },
+          {
+            "who": "you",
+            "t": "Oh nein! Ich kann dich gut verstehen.",
+            "n": "Oh no! I can really understand you."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Ich habe mich so darauf gefreut.",
+            "n": "I was looking forward to it so much."
+          },
+          {
+            "who": "you",
+            "t": "Kopf hoch, das wird schon wieder! Kann ich irgendwas für dich tun?",
+            "n": "Chin up, it'll be fine! Is there anything I can do for you?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Cheer up a friend: chin up, it'll be fine.",
+          "t": [
+            "Kopf hoch, das wird schon wieder",
+            "Kopf hoch"
+          ]
+        },
+        {
+          "n": "Ask a friend if there is anything you can do for them.",
+          "t": [
+            "Kann ich irgendwas für dich tun",
+            "Kann ich etwas für dich tun"
+          ]
+        },
+        {
+          "n": "Tell a friend you're proud of them.",
+          "t": [
+            "Ich bin stolz auf dich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l4",
+      "kind": "grammar",
+      "title": "Worauf? Darauf! — da- and wo- words",
+      "goal": "Ask and answer with verbs that take a fixed preposition.",
+      "tip": {
+        "title": "wo(r)- to ask, da(r)- to answer",
+        "body": "Many feeling verbs have a fixed preposition: sich freuen auf, sich ärgern über, Angst haben vor, denken an. For things, ask with wo + preposition (Worauf freust du dich?) and refer back with da + preposition (Ich freue mich darauf); add -r- before a vowel. For people, keep preposition + pronoun: Auf wen wartest du?"
+      },
+      "phrases": [
+        {
+          "t": "Worauf freust du dich am meisten?",
+          "n": "What are you looking forward to most?"
+        },
+        {
+          "t": "Ich freue mich schon sehr darauf.",
+          "n": "I'm already really looking forward to it."
+        },
+        {
+          "t": "Worüber ärgerst du dich?",
+          "n": "What are you annoyed about?"
+        },
+        {
+          "t": "Ich habe keine Angst davor.",
+          "n": "I'm not afraid of it."
+        },
+        {
+          "t": "Woran denkst du gerade?",
+          "n": "What are you thinking about right now?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the verb",
+          "base": {
+            "t": "Worauf freust du dich?",
+            "n": "What are you looking forward to?"
+          },
+          "items": [
+            {
+              "cue": "sich ärgern über",
+              "t": "Worüber ärgerst du dich?",
+              "n": "What are you annoyed about?"
+            },
+            {
+              "cue": "Angst haben vor",
+              "t": "Wovor hast du Angst?",
+              "n": "What are you afraid of?"
+            },
+            {
+              "cue": "denken an",
+              "t": "Woran denkst du?",
+              "n": "What are you thinking about?"
+            }
+          ]
+        },
+        {
+          "title": "Answer with da-",
+          "base": {
+            "t": "Ich freue mich auf den Urlaub.",
+            "n": "I'm looking forward to the holiday."
+          },
+          "items": [
+            {
+              "cue": "auf den Urlaub → da-",
+              "t": "Ich freue mich darauf.",
+              "n": "I'm looking forward to it."
+            },
+            {
+              "cue": "sich ärgern · über den Lärm → da-",
+              "t": "Ich ärgere mich darüber.",
+              "n": "I'm annoyed about it."
+            },
+            {
+              "cue": "denken · an die Prüfung → da-",
+              "t": "Ich denke daran.",
+              "n": "I'm thinking about it."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend what they are looking forward to most.",
+          "t": [
+            "Worauf freust du dich am meisten",
+            "Worauf freust du dich"
+          ]
+        },
+        {
+          "n": "Say you're not afraid of it.",
+          "t": [
+            "Ich habe keine Angst davor",
+            "Davor habe ich keine Angst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l5",
+      "kind": "listening",
+      "title": "A misunderstanding",
+      "goal": "Follow two friends clearing up a mix-up.",
+      "phrases": [
+        {
+          "t": "Warum hast du dich nicht gemeldet?",
+          "n": "Why didn't you get in touch?"
+        },
+        {
+          "t": "Das war ein Missverständnis.",
+          "n": "That was a misunderstanding."
+        },
+        {
+          "t": "Schon gut.",
+          "n": "It's okay."
+        },
+        {
+          "t": "Darauf freue ich mich!",
+          "n": "I'm looking forward to that!"
+        }
+      ],
+      "story": {
+        "title": "Thursday or Friday?",
+        "intro": "Jana waited for Felix yesterday, but he never showed up.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Jana",
+            "t": "Felix, warum hast du dich gestern nicht gemeldet?",
+            "n": "Felix, why didn't you get in touch yesterday?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Wieso? Ich dachte, wir treffen uns erst am Freitag.",
+            "n": "Why? I thought we weren't meeting until Friday."
+          },
+          {
+            "name": "Jana",
+            "t": "Nein, wir hatten Donnerstag gesagt. Ich habe eine Stunde gewartet.",
+            "n": "No, we had said Thursday. I waited for an hour."
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Oh nein, das tut mir wirklich leid! Das war ein Missverständnis.",
+            "n": "Oh no, I'm really sorry! That was a misunderstanding."
+          },
+          {
+            "name": "Jana",
+            "t": "Schon gut. Ich habe mich nur ein bisschen geärgert.",
+            "n": "It’s okay. I was just a bit annoyed."
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Darf ich dich am Freitag zum Essen einladen?",
+            "n": "May I take you out for dinner on Friday?"
+          },
+          {
+            "name": "Jana",
+            "t": "Gern, darauf freue ich mich!",
+            "n": "Gladly, I'm looking forward to that!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann wollten sie sich treffen?",
+            "n": "When were they supposed to meet?",
+            "t": [
+              "Am Donnerstag",
+              "Donnerstag"
+            ]
+          },
+          {
+            "q": "Wie lange hat Jana gewartet?",
+            "n": "How long did Jana wait?",
+            "t": [
+              "Eine Stunde",
+              "Sie hat eine Stunde gewartet"
+            ]
+          },
+          {
+            "q": "Wozu lädt Felix Jana ein?",
+            "n": "What does Felix invite Jana to?",
+            "t": [
+              "Zum Essen",
+              "Am Freitag zum Essen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u03-l6",
+      "kind": "roleplay",
+      "title": "A friend in a bad mood",
+      "goal": "Comfort a friend — and repair it if you say the wrong thing.",
+      "phrases": [
+        {
+          "t": "Was ist denn los?",
+          "n": "What's wrong?"
+        },
+        {
+          "t": "Entschuldige, so habe ich das nicht gemeint.",
+          "n": "Sorry, I didn't mean it like that.",
+          "note": "Informal: entschuldige"
+        },
+        {
+          "t": "Mach dir keine Sorgen, wir können zusammen üben.",
+          "n": "Don't worry, we can practise together."
+        },
+        {
+          "t": "Ich bin sicher, dass du es beim nächsten Mal schaffst.",
+          "n": "I'm sure you'll do it next time."
+        }
+      ],
+      "branch": {
+        "title": "Coffee with Paula",
+        "scene": "You meet your friend Paula for coffee. She looks unhappy.",
+        "name": "Paula",
+        "voice": "de-DE-KatjaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Hallo. Ach, mir geht es heute nicht so gut.",
+            "n": "Hi. Oh, I'm not doing so well today.",
+            "choices": [
+              {
+                "t": "Was ist denn los? Kann ich dir helfen?",
+                "n": "What's wrong? Can I help you?",
+                "next": "tell"
+              },
+              {
+                "t": "Ach, das wird schon. Hast du Lust auf Kino?",
+                "n": "Oh, it’ll be fine. Fancy the cinema?",
+                "next": "hurt"
+              }
+            ]
+          },
+          "hurt": {
+            "t": "Hörst du mir überhaupt zu? Ich bin echt traurig.",
+            "n": "Are you even listening to me? I'm really sad.",
+            "choices": [
+              {
+                "t": "Entschuldige, so habe ich das nicht gemeint. Was ist passiert?",
+                "n": "Sorry, I didn't mean it like that. What happened?",
+                "next": "tell"
+              },
+              {
+                "t": "Du übertreibst.",
+                "n": "You're exaggerating.",
+                "next": "bad"
+              }
+            ]
+          },
+          "tell": {
+            "t": "Ich habe die Prüfung nicht bestanden. Ich bin so enttäuscht.",
+            "n": "I didn't pass the exam. I'm so disappointed.",
+            "choices": [
+              {
+                "t": "Das tut mir leid. Ich kann dich gut verstehen.",
+                "n": "I'm sorry. I can really understand you.",
+                "next": "worry"
+              },
+              {
+                "t": "Wie bitte? Welche Prüfung denn?",
+                "n": "Sorry? Which exam?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Die Führerscheinprüfung. Ich war so nervös.",
+            "n": "My driving test. I was so nervous.",
+            "choices": [
+              {
+                "t": "Ach so! Das passiert vielen. Kopf hoch!",
+                "n": "Oh I see! That happens to lots of people. Chin up!",
+                "next": "worry"
+              }
+            ]
+          },
+          "worry": {
+            "t": "Jetzt habe ich Angst vor dem nächsten Versuch.",
+            "n": "Now I'm scared of the next attempt.",
+            "choices": [
+              {
+                "t": "Mach dir keine Sorgen, wir können zusammen üben.",
+                "n": "Don't worry, we can practise together.",
+                "next": "good"
+              },
+              {
+                "t": "Ich bin sicher, dass du es beim nächsten Mal schaffst.",
+                "n": "I'm sure you'll do it next time.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Danke, das hilft mir wirklich. Ich fühle mich schon besser.",
+            "n": "Thanks, that really helps. I already feel better.",
+            "end": "good",
+            "outcome": "You listened, showed sympathy and cheered Paula up."
+          },
+          "bad": {
+            "t": "Weißt du was? Ich gehe jetzt nach Hause.",
+            "n": "You know what? I'm going home now.",
+            "end": "bad",
+            "outcome": "Paula felt ignored. Next time ask what happened and show some sympathy."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Your friend looks sad. Ask what is wrong.",
+          "t": [
+            "Was ist denn los",
+            "Was ist los"
+          ]
+        },
+        {
+          "n": "Tell your friend you're sure she'll do it next time.",
+          "t": [
+            "Ich bin sicher, dass du es beim nächsten Mal schaffst",
+            "Du schaffst es beim nächsten Mal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l7",
+      "kind": "speaking",
+      "title": "Joys, worries and wishes",
+      "goal": "Talk about what makes you happy, what annoys you and what you wish for.",
+      "culture": {
+        "title": "Friends through the Verein",
+        "body": "Clubs (Vereine) are a big part of social life in German-speaking countries: sports clubs, choirs, volunteer fire brigades, allotment and carnival clubs. Many adults make their closest friends there rather than at work. Joining a Verein is one of the best ways to meet locals and practise German.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich wünschte, ich hätte mehr Zeit für meine Freunde.",
+          "n": "I wish I had more time for my friends.",
+          "note": "Konjunktiv II: hätte, wäre"
+        },
+        {
+          "t": "Es wäre schön, wenn wir uns öfter sehen könnten.",
+          "n": "It would be nice if we could see each other more often."
+        },
+        {
+          "t": "Darüber ärgere ich mich jedes Mal.",
+          "n": "That annoys me every time."
+        },
+        {
+          "t": "Ich freue mich riesig darauf.",
+          "n": "I'm hugely looking forward to it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about something you're looking forward to, something that annoys you and one wish.",
+          "hint": "Ich freue mich auf … Ich ärgere mich über … weil … Ich wünschte, ich hätte … / Es wäre schön, wenn …",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "looking forward to",
+              "any": [
+                "freue mich",
+                "freu mich",
+                "freue ich mich",
+                "darauf"
+              ]
+            },
+            {
+              "label": "something annoying",
+              "any": [
+                "ärgere",
+                "ärgert",
+                "nervt",
+                "darüber",
+                "stört"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "weil",
+                "denn"
+              ]
+            },
+            {
+              "label": "a wish",
+              "any": [
+                "ich wünschte",
+                "hätte",
+                "wäre",
+                "würde gern",
+                "würde gerne",
+                "könnte"
+              ]
+            }
+          ],
+          "model": "Ich freue mich auf den Sommer, weil wir ans Meer fahren. Ich ärgere mich über den Lärm in meiner Straße. Ich wünschte, ich hätte mehr Zeit für meine Freunde."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you wish you had more time for your friends.",
+          "t": [
+            "Ich wünschte, ich hätte mehr Zeit für meine Freunde",
+            "Ich hätte gern mehr Zeit für meine Freunde"
+          ]
+        },
+        {
+          "n": "Say it would be nice if you could see each other more often.",
+          "t": [
+            "Es wäre schön, wenn wir uns öfter sehen könnten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Gefühle und Beziehungen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

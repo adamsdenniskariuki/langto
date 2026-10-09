@@ -1,0 +1,243 @@
+{
+  "id": "pron-u06",
+  "level": "B1",
+  "title": "Lange & kurze Vokale",
+  "subtitle": "Staat/Stadt, Ofen/offen",
+  "icon": "⏱️",
+  "lessons": [
+    {
+      "id": "pron-u06-l1",
+      "kind": "pron",
+      "title": "Long and short a, i",
+      "goal": "Hear vowel length — it changes meaning.",
+      "tip": {
+        "title": "Length is meaning",
+        "body": "Long vowels are tense and held (Staat, Miete); short vowels are lax and quick, followed by a firm consonant (Stadt, Mitte). Spelling helps: double vowels, h or ie mean long; double consonants mean short."
+      },
+      "phrases": [
+        {
+          "t": "Die Miete ist zu hoch.",
+          "n": "The rent is too high."
+        },
+        {
+          "t": "Wir wohnen in der Stadtmitte.",
+          "n": "We live in the city centre."
+        },
+        {
+          "t": "Ich bin satt, danke.",
+          "n": "I'm full, thanks."
+        },
+        {
+          "t": "Ich kenne ihn.",
+          "n": "I know him."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "long a / short a",
+          "a": {
+            "t": "Staat",
+            "n": "state"
+          },
+          "b": {
+            "t": "Stadt",
+            "n": "city"
+          }
+        },
+        {
+          "sound": "long a / short a",
+          "a": {
+            "t": "Wahl",
+            "n": "election"
+          },
+          "b": {
+            "t": "Wall",
+            "n": "rampart"
+          }
+        },
+        {
+          "sound": "long a / short a",
+          "a": {
+            "t": "Saat",
+            "n": "seed"
+          },
+          "b": {
+            "t": "satt",
+            "n": "full"
+          }
+        },
+        {
+          "sound": "long i / short i",
+          "a": {
+            "t": "Miete",
+            "n": "rent"
+          },
+          "b": {
+            "t": "Mitte",
+            "n": "middle"
+          }
+        },
+        {
+          "sound": "long i / short i",
+          "a": {
+            "t": "Bienen",
+            "n": "bees"
+          },
+          "b": {
+            "t": "binnen",
+            "n": "within"
+          }
+        },
+        {
+          "sound": "long i / short i",
+          "a": {
+            "t": "ihn",
+            "n": "him"
+          },
+          "b": {
+            "t": "in",
+            "n": "in"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Die Miete ist zu hoch.",
+          "n": "The rent is too high.",
+          "mark": "Die *Mie*te ist zu *hoch*."
+        },
+        {
+          "t": "Wir wohnen in der Stadtmitte.",
+          "n": "We live in the city centre.",
+          "mark": "Wir *woh*nen in der *Stadt*mitte.",
+          "note": "In compounds the first part carries the main stress."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're full.",
+          "t": [
+            "Ich bin satt",
+            "Ich bin satt danke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u06-l2",
+      "kind": "pron",
+      "title": "Long and short o, ö, e, u, ü",
+      "goal": "Keep long and short vowels apart.",
+      "tip": {
+        "title": "Tense or relaxed",
+        "body": "Long o in Ofen is a pure, rounded \"oh\" with no glide. Short o in offen is open, like British \"hot\". Long e (Beet) is a tense \"ay\" without the y-glide; short e (Bett) is like \"bed\"."
+      },
+      "phrases": [
+        {
+          "t": "Die Tür ist offen.",
+          "n": "The door is open."
+        },
+        {
+          "t": "Ich muss jetzt gehen.",
+          "n": "I have to go now."
+        },
+        {
+          "t": "Das Bett ist bequem.",
+          "n": "The bed is comfortable."
+        },
+        {
+          "t": "Der Ofen ist heiß.",
+          "n": "The oven is hot."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "long o / short o",
+          "a": {
+            "t": "Ofen",
+            "n": "oven"
+          },
+          "b": {
+            "t": "offen",
+            "n": "open"
+          }
+        },
+        {
+          "sound": "long ö / short ö",
+          "a": {
+            "t": "Höhle",
+            "n": "cave"
+          },
+          "b": {
+            "t": "Hölle",
+            "n": "hell"
+          }
+        },
+        {
+          "sound": "long e / short e",
+          "a": {
+            "t": "Beet",
+            "n": "flower bed"
+          },
+          "b": {
+            "t": "Bett",
+            "n": "bed"
+          }
+        },
+        {
+          "sound": "long u / short u",
+          "a": {
+            "t": "Mus",
+            "n": "purée"
+          },
+          "b": {
+            "t": "muss",
+            "n": "must"
+          }
+        },
+        {
+          "sound": "long e / short e",
+          "a": {
+            "t": "den",
+            "n": "the"
+          },
+          "b": {
+            "t": "denn",
+            "n": "because"
+          }
+        },
+        {
+          "sound": "long ü / short ü",
+          "a": {
+            "t": "fühlen",
+            "n": "to feel"
+          },
+          "b": {
+            "t": "füllen",
+            "n": "to fill"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich muss jetzt gehen.",
+          "n": "I have to go now.",
+          "mark": "Ich *muss* jetzt *ge*hen."
+        },
+        {
+          "t": "Die Tür ist offen.",
+          "n": "The door is open.",
+          "mark": "Die *Tür* ist *of*fen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the door is open.",
+          "t": [
+            "Die Tür ist offen"
+          ]
+        }
+      ]
+    }
+  ]
+}

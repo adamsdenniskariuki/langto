@@ -13,34 +13,121 @@
         "body": "After ich finde, dass or ich glaube, dass the conjugated verb moves to the end: Ich finde, dass Deutsch schön ist. Meiner Meinung nach is followed directly by the verb: Meiner Meinung nach ist das wichtig. Speaking tip: a short pause after \"ich finde\" buys you thinking time and sounds completely natural."
       },
       "phrases": [
-        { "t": "Ich finde, dass Deutsch eine schöne Sprache ist.", "n": "I think German is a beautiful language." },
-        { "t": "Meiner Meinung nach ist das zu teuer.", "n": "In my opinion, that's too expensive.", "note": "The verb comes right after \"nach\"." },
-        { "t": "Ich glaube, dass du recht hast.", "n": "I believe you're right." },
-        { "t": "Ich bin der Meinung, dass wir mehr Zeit brauchen.", "n": "I'm of the opinion that we need more time.", "note": "A bit more formal." },
-        { "t": "Was hältst du davon?", "n": "What do you think of it?" },
-        { "t": "Ehrlich gesagt finde ich das nicht so gut.", "n": "To be honest, I don't think that's so good." },
-        { "t": "Das ist wichtig, weil man jeden Tag üben muss.", "n": "That's important because you have to practise every day." },
-        { "t": "Also, ich weiß nicht genau.", "n": "Well, I'm not quite sure.", "note": "\"Also\" is a handy filler to gain time." }
+        {
+          "t": "Ich finde, dass Deutsch eine schöne Sprache ist.",
+          "n": "I think German is a beautiful language."
+        },
+        {
+          "t": "Meiner Meinung nach ist das zu teuer.",
+          "n": "In my opinion, that's too expensive.",
+          "note": "The verb comes right after \"nach\"."
+        },
+        {
+          "t": "Ich glaube, dass du recht hast.",
+          "n": "I believe you're right."
+        },
+        {
+          "t": "Ich bin der Meinung, dass wir mehr Zeit brauchen.",
+          "n": "I'm of the opinion that we need more time.",
+          "note": "A bit more formal."
+        },
+        {
+          "t": "Was hältst du davon?",
+          "n": "What do you think of it?"
+        },
+        {
+          "t": "Ehrlich gesagt finde ich das nicht so gut.",
+          "n": "To be honest, I don't think that's so good."
+        },
+        {
+          "t": "Das ist wichtig, weil man jeden Tag üben muss.",
+          "n": "That's important because you have to practise every day."
+        },
+        {
+          "t": "Also, ich weiß nicht genau.",
+          "n": "Well, I'm not quite sure.",
+          "note": "\"Also\" is a handy filler to gain time."
+        }
       ],
       "dialogue": {
         "title": "Learning with apps",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Lena", "t": "Ich lerne jetzt Spanisch mit einer App. Was hältst du davon?", "n": "I'm learning Spanish with an app now. What do you think of that?" },
-          { "who": "you", "t": "Ich finde, dass Apps sehr praktisch sind.", "n": "I think apps are very practical." },
-          { "who": "A", "name": "Lena", "t": "Wirklich? Ich glaube, mit Apps lernt man nicht richtig sprechen.", "n": "Really? I think you don't really learn to speak with apps." },
-          { "who": "you", "t": "Also, ich weiß nicht genau. Das ist wichtig, weil man jeden Tag üben muss.", "n": "Well, I'm not quite sure. That's important because you have to practise every day." },
-          { "who": "A", "name": "Lena", "t": "Und ein Kurs? Der ist doch besser, oder?", "n": "And a course? That's better, isn't it?" },
-          { "who": "you", "t": "Ehrlich gesagt finde ich Kurse zu teuer.", "n": "To be honest, I find courses too expensive." },
-          { "who": "A", "name": "Lena", "t": "Na ja, das stimmt. Aber sprechen muss man trotzdem.", "n": "Well, that's true. But you still have to speak." },
-          { "who": "you", "t": "Ich glaube, dass du recht hast.", "n": "I believe you're right." }
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Ich lerne jetzt Spanisch mit einer App. Was hältst du davon?",
+            "n": "I'm learning Spanish with an app now. What do you think of that?"
+          },
+          {
+            "who": "you",
+            "t": "Ich finde, dass Apps sehr praktisch sind.",
+            "n": "I think apps are very practical."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Wirklich? Ich glaube, mit Apps lernt man nicht richtig sprechen.",
+            "n": "Really? I think you don't really learn to speak with apps."
+          },
+          {
+            "who": "you",
+            "t": "Also, ich weiß nicht genau. Das ist wichtig, weil man jeden Tag üben muss.",
+            "n": "Well, I'm not quite sure. That's important because you have to practise every day."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Und ein Kurs? Der ist doch besser, oder?",
+            "n": "And a course? That's better, isn't it?"
+          },
+          {
+            "who": "you",
+            "t": "Ehrlich gesagt finde ich Kurse zu teuer.",
+            "n": "To be honest, I find courses too expensive."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Na ja, das stimmt. Aber sprechen muss man trotzdem.",
+            "n": "Well, that's true. But you still have to speak."
+          },
+          {
+            "who": "you",
+            "t": "Ich glaube, dass du recht hast.",
+            "n": "I believe you're right."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you think German is a beautiful language.", "t": ["Ich finde, dass Deutsch eine schöne Sprache ist", "Meiner Meinung nach ist Deutsch eine schöne Sprache"] },
-        { "n": "Ask a friend what they think of it.", "t": ["Was hältst du davon", "Was denkst du darüber"] },
-        { "n": "Say that in your opinion it's too expensive.", "t": ["Meiner Meinung nach ist das zu teuer", "Ich finde, dass das zu teuer ist"] },
-        { "n": "Say honestly that you don't think it's so good.", "t": ["Ehrlich gesagt finde ich das nicht so gut", "Ich finde das nicht so gut"] }
+        {
+          "n": "Say you think German is a beautiful language.",
+          "t": [
+            "Ich finde, dass Deutsch eine schöne Sprache ist",
+            "Meiner Meinung nach ist Deutsch eine schöne Sprache"
+          ]
+        },
+        {
+          "n": "Ask a friend what they think of it.",
+          "t": [
+            "Was hältst du davon",
+            "Was denkst du darüber"
+          ]
+        },
+        {
+          "n": "Say that in your opinion it's too expensive.",
+          "t": [
+            "Meiner Meinung nach ist das zu teuer",
+            "Ich finde, dass das zu teuer ist"
+          ]
+        },
+        {
+          "n": "Say honestly that you don't think it's so good.",
+          "t": [
+            "Ehrlich gesagt finde ich das nicht so gut",
+            "Ich finde das nicht so gut"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +139,650 @@
         "body": "German speakers can be direct, but softeners help: Das sehe ich ein bisschen anders sounds friendlier than Das ist falsch. To agree, say Da hast du recht or simply Genau! Weigh both sides with einerseits, andererseits. Stress the key word: Das sehe ich ANDERS."
       },
       "phrases": [
-        { "t": "Da hast du völlig recht.", "n": "You're completely right there." },
-        { "t": "Da bin ich ganz deiner Meinung.", "n": "I completely agree with you." },
-        { "t": "Das sehe ich ein bisschen anders.", "n": "I see that a bit differently.", "note": "Soft, polite disagreement." },
-        { "t": "Da bin ich anderer Meinung.", "n": "I disagree there." },
-        { "t": "Einerseits ist es praktisch, andererseits ist es teuer.", "n": "On the one hand it's practical, on the other hand it's expensive." },
-        { "t": "Das stimmt, aber man muss auch an die Umwelt denken.", "n": "That's true, but you also have to think about the environment." },
-        { "t": "Wie meinst du das genau?", "n": "What exactly do you mean?", "note": "Ask for clarification." },
-        { "t": "Das ist ein gutes Argument.", "n": "That's a good point." }
+        {
+          "t": "Da hast du völlig recht.",
+          "n": "You're completely right there."
+        },
+        {
+          "t": "Da bin ich ganz deiner Meinung.",
+          "n": "I completely agree with you."
+        },
+        {
+          "t": "Das sehe ich ein bisschen anders.",
+          "n": "I see that a bit differently.",
+          "note": "Soft, polite disagreement."
+        },
+        {
+          "t": "Da bin ich anderer Meinung.",
+          "n": "I disagree there."
+        },
+        {
+          "t": "Einerseits ist es praktisch, andererseits ist es teuer.",
+          "n": "On the one hand it's practical, on the other hand it's expensive."
+        },
+        {
+          "t": "Das stimmt, aber man muss auch an die Umwelt denken.",
+          "n": "That's true, but you also have to think about the environment."
+        },
+        {
+          "t": "Wie meinst du das genau?",
+          "n": "What exactly do you mean?",
+          "note": "Ask for clarification."
+        },
+        {
+          "t": "Das ist ein gutes Argument.",
+          "n": "That's a good point."
+        }
       ],
       "dialogue": {
         "title": "Car or bike?",
         "lines": [
-          { "who": "A", "name": "Markus", "t": "Ich finde, dass jeder in der Stadt ein Auto braucht.", "n": "I think everyone in the city needs a car." },
-          { "who": "you", "t": "Das sehe ich ein bisschen anders.", "n": "I see that a bit differently." },
-          { "who": "A", "name": "Markus", "t": "Wieso? Mit dem Auto ist man doch flexibel.", "n": "Why? You're flexible with a car." },
-          { "who": "you", "t": "Das stimmt, aber man muss auch an die Umwelt denken.", "n": "That's true, but you also have to think about the environment." },
-          { "who": "A", "name": "Markus", "t": "Aber im Winter ist Radfahren wirklich nicht schön.", "n": "But cycling in winter really isn't nice." },
-          { "who": "you", "t": "Das ist ein gutes Argument. Einerseits ist ein Auto praktisch, andererseits ist es teuer.", "n": "That's a good point. On the one hand a car is practical, on the other it's expensive." },
-          { "who": "A", "name": "Markus", "t": "Vielleicht ist der Bus die beste Lösung.", "n": "Maybe the bus is the best solution." },
-          { "who": "you", "t": "Da bin ich ganz deiner Meinung.", "n": "I completely agree with you." }
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Ich finde, dass jeder in der Stadt ein Auto braucht.",
+            "n": "I think everyone in the city needs a car."
+          },
+          {
+            "who": "you",
+            "t": "Das sehe ich ein bisschen anders.",
+            "n": "I see that a bit differently."
+          },
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Wieso? Mit dem Auto ist man doch flexibel.",
+            "n": "Why? You're flexible with a car."
+          },
+          {
+            "who": "you",
+            "t": "Das stimmt, aber man muss auch an die Umwelt denken.",
+            "n": "That's true, but you also have to think about the environment."
+          },
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Aber im Winter ist Radfahren wirklich nicht schön.",
+            "n": "But cycling in winter really isn't nice."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ein gutes Argument. Einerseits ist ein Auto praktisch, andererseits ist es teuer.",
+            "n": "That's a good point. On the one hand a car is practical, on the other it's expensive."
+          },
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Vielleicht ist der Bus die beste Lösung.",
+            "n": "Maybe the bus is the best solution."
+          },
+          {
+            "who": "you",
+            "t": "Da bin ich ganz deiner Meinung.",
+            "n": "I completely agree with you."
+          }
         ]
       },
       "prompts": [
-        { "n": "Tell a friend they're completely right.", "t": ["Da hast du völlig recht", "Da hast du recht", "Du hast völlig recht"] },
-        { "n": "Politely say you see it a bit differently.", "t": ["Das sehe ich ein bisschen anders", "Das sehe ich anders", "Da bin ich anderer Meinung"] },
-        { "n": "Ask what exactly they mean.", "t": ["Wie meinst du das genau", "Wie meinst du das"] },
-        { "n": "Say it's practical on the one hand but expensive on the other.", "t": ["Einerseits ist es praktisch, andererseits ist es teuer"] }
+        {
+          "n": "Tell a friend they're completely right.",
+          "t": [
+            "Da hast du völlig recht",
+            "Da hast du recht",
+            "Du hast völlig recht"
+          ]
+        },
+        {
+          "n": "Politely say you see it a bit differently.",
+          "t": [
+            "Das sehe ich ein bisschen anders",
+            "Das sehe ich anders",
+            "Da bin ich anderer Meinung"
+          ]
+        },
+        {
+          "n": "Ask what exactly they mean.",
+          "t": [
+            "Wie meinst du das genau",
+            "Wie meinst du das"
+          ]
+        },
+        {
+          "n": "Say it's practical on the one hand but expensive on the other.",
+          "t": [
+            "Einerseits ist es praktisch, andererseits ist es teuer"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b1-u01-l3",
+      "title": "Taking part in a discussion",
+      "goal": "Get a word in, ask not to be interrupted and find common ground.",
+      "tip": {
+        "title": "Taking turns",
+        "body": "In German discussions people usually expect to finish their argument before someone else jumps in. Ask for the floor with Darf ich kurz etwas sagen? and, if you are interrupted, say Lass mich bitte ausreden — it is firm but not rude."
+      },
+      "phrases": [
+        {
+          "t": "Darf ich kurz etwas sagen?",
+          "n": "May I quickly say something?"
+        },
+        {
+          "t": "Lass mich bitte ausreden.",
+          "n": "Please let me finish.",
+          "note": "Formal: Lassen Sie mich bitte ausreden."
+        },
+        {
+          "t": "Das kommt darauf an.",
+          "n": "It depends."
+        },
+        {
+          "t": "Ich gebe zu, dass das ein Problem ist.",
+          "n": "I admit that's a problem."
+        },
+        {
+          "t": "Da sind wir uns einig.",
+          "n": "We agree on that."
+        }
+      ],
+      "dialogue": {
+        "title": "Bikes in the city",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Radfahren ist in der Stadt einfach zu gefährlich.",
+            "n": "Cycling in the city is simply too dangerous."
+          },
+          {
+            "who": "you",
+            "t": "Das kommt darauf an. Darf ich kurz etwas sagen?",
+            "n": "It depends. May I quickly say something?"
+          },
+          {
+            "who": "A",
+            "name": "Markus",
+            "t": "Klar, sag mal.",
+            "n": "Sure, go ahead."
+          },
+          {
+            "who": "you",
+            "t": "Ich gebe zu, dass das ein Problem ist. Aber wir brauchen mehr Radwege.",
+            "n": "I admit that's a problem. But we need more cycle lanes."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if you may quickly say something.",
+          "t": [
+            "Darf ich kurz etwas sagen"
+          ]
+        },
+        {
+          "n": "Someone keeps interrupting you. Ask them to let you finish.",
+          "t": [
+            "Lass mich bitte ausreden",
+            "Lassen Sie mich bitte ausreden"
+          ]
+        },
+        {
+          "n": "Say that it depends.",
+          "t": [
+            "Das kommt darauf an",
+            "Es kommt darauf an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l4",
+      "kind": "grammar",
+      "title": "obwohl and trotzdem",
+      "goal": "Say that something happens in spite of something else.",
+      "tip": {
+        "title": "Same idea, different word order",
+        "body": "obwohl (although) starts a subordinate clause, so its verb goes to the end: Ich fahre Rad, obwohl es regnet. trotzdem (nevertheless) is an adverb in a main clause, so the verb comes straight after it: Es regnet. Trotzdem fahre ich Rad. If the obwohl clause comes first, the main clause starts with the verb."
+      },
+      "phrases": [
+        {
+          "t": "Obwohl Autos praktisch sind, fahre ich lieber Rad.",
+          "n": "Although cars are practical, I prefer to cycle."
+        },
+        {
+          "t": "Ich lerne Deutsch, obwohl ich wenig Zeit habe.",
+          "n": "I'm learning German although I have little time."
+        },
+        {
+          "t": "Das Essen war teuer. Trotzdem war es lecker.",
+          "n": "The food was expensive. Nevertheless it was tasty."
+        },
+        {
+          "t": "Es regnet. Trotzdem gehen wir spazieren.",
+          "n": "It's raining. We're going for a walk anyway."
+        },
+        {
+          "t": "Obwohl ich anderer Meinung bin, verstehe ich dich.",
+          "n": "Although I disagree, I understand you."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the reason",
+          "base": {
+            "t": "Ich gehe zu Fuß, obwohl es regnet.",
+            "n": "I'm walking although it's raining."
+          },
+          "items": [
+            {
+              "cue": "kalt sein",
+              "t": "Ich gehe zu Fuß, obwohl es kalt ist.",
+              "n": "I'm walking although it's cold."
+            },
+            {
+              "cue": "ich · müde sein",
+              "t": "Ich gehe zu Fuß, obwohl ich müde bin.",
+              "n": "I'm walking although I'm tired."
+            },
+            {
+              "cue": "ich · wenig Zeit haben",
+              "t": "Ich gehe zu Fuß, obwohl ich wenig Zeit habe.",
+              "n": "I'm walking although I have little time."
+            }
+          ]
+        },
+        {
+          "title": "Swap obwohl → trotzdem",
+          "base": {
+            "t": "Obwohl es teuer ist, kaufe ich es.",
+            "n": "Although it's expensive, I'm buying it."
+          },
+          "items": [
+            {
+              "cue": "trotzdem",
+              "t": "Es ist teuer. Trotzdem kaufe ich es.",
+              "n": "It's expensive. I'm buying it anyway."
+            },
+            {
+              "cue": "weit sein · hinfahren",
+              "t": "Obwohl es weit ist, fahre ich hin.",
+              "n": "Although it's far, I'm going there."
+            },
+            {
+              "cue": "trotzdem · weit sein · hinfahren",
+              "t": "Es ist weit. Trotzdem fahre ich hin.",
+              "n": "It's far. I'm going there anyway."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're learning German although you have little time.",
+          "t": [
+            "Ich lerne Deutsch, obwohl ich wenig Zeit habe",
+            "Obwohl ich wenig Zeit habe, lerne ich Deutsch"
+          ]
+        },
+        {
+          "n": "Say it's raining, but you're going for a walk anyway (use trotzdem).",
+          "t": [
+            "Es regnet. Trotzdem gehen wir spazieren",
+            "Es regnet. Trotzdem gehe ich spazieren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l5",
+      "kind": "listening",
+      "title": "Home office or office?",
+      "goal": "Follow two colleagues weighing up pros and cons.",
+      "phrases": [
+        {
+          "t": "Was hältst du eigentlich vom Homeoffice?",
+          "n": "What do you actually think of working from home?"
+        },
+        {
+          "t": "Ich vermisse meine Kollegen.",
+          "n": "I miss my colleagues."
+        },
+        {
+          "t": "Zu Hause ist es viel ruhiger.",
+          "n": "It's much quieter at home."
+        },
+        {
+          "t": "Das ist vielleicht die beste Lösung.",
+          "n": "That's maybe the best solution."
+        }
+      ],
+      "story": {
+        "title": "In the coffee kitchen",
+        "intro": "Lena and Markus discuss whether they prefer working from home or at the office.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Lena",
+            "t": "Markus, was hältst du eigentlich vom Homeoffice?",
+            "n": "Markus, what do you actually think of working from home?"
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ehrlich gesagt finde ich es super. Ich spare jeden Tag eine Stunde.",
+            "n": "To be honest, I think it’s great. I save an hour every day."
+          },
+          {
+            "name": "Lena",
+            "t": "Das stimmt. Aber ich vermisse meine Kollegen.",
+            "n": "True. But I miss my colleagues."
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Einerseits verstehe ich das. Andererseits ist es zu Hause viel ruhiger.",
+            "n": "On the one hand I understand that. On the other hand it’s much quieter at home."
+          },
+          {
+            "name": "Lena",
+            "t": "Obwohl es ruhiger ist, arbeite ich lieber im Büro.",
+            "n": "Although it’s quieter, I prefer working at the office."
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Dann sind zwei Tage Homeoffice vielleicht die beste Lösung.",
+            "n": "Then maybe two days from home is the best solution."
+          },
+          {
+            "name": "Lena",
+            "t": "Da bin ich ganz deiner Meinung!",
+            "n": "I completely agree with you!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viel Zeit spart Markus jeden Tag?",
+            "n": "How much time does Markus save every day?",
+            "t": [
+              "Eine Stunde",
+              "Er spart eine Stunde"
+            ]
+          },
+          {
+            "q": "Was vermisst Lena?",
+            "n": "What does Lena miss?",
+            "t": [
+              "Ihre Kollegen",
+              "Die Kollegen",
+              "Sie vermisst ihre Kollegen"
+            ]
+          },
+          {
+            "q": "Wo arbeitet Lena lieber?",
+            "n": "Where does Lena prefer to work?",
+            "t": [
+              "Im Büro",
+              "Lieber im Büro",
+              "Sie arbeitet lieber im Büro"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u01-l6",
+      "kind": "roleplay",
+      "title": "A heated topic at dinner",
+      "goal": "Disagree with your host politely — your tone decides how dinner goes.",
+      "phrases": [
+        {
+          "t": "Wie meinen Sie das genau?",
+          "n": "What exactly do you mean?"
+        },
+        {
+          "t": "Entschuldigung, so habe ich das nicht gemeint.",
+          "n": "Sorry, I didn't mean it like that."
+        },
+        {
+          "t": "Daran habe ich nicht gedacht.",
+          "n": "I hadn't thought of that."
+        },
+        {
+          "t": "Einerseits haben Sie recht, andererseits ist das Handy praktisch.",
+          "n": "On the one hand you're right, on the other hand the phone is practical."
+        }
+      ],
+      "branch": {
+        "title": "Dinner at the Beckers",
+        "scene": "You're a dinner guest at your colleague's parents' home. Her father brings up a topic you see differently.",
+        "name": "Herr Becker",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Ich finde, junge Leute sind heute viel zu oft am Handy.",
+            "n": "I think young people are on their phones far too often these days.",
+            "choices": [
+              {
+                "t": "Das sehe ich ein bisschen anders.",
+                "n": "I see that a bit differently.",
+                "next": "why"
+              },
+              {
+                "t": "Wie meinen Sie das genau?",
+                "n": "What exactly do you mean?",
+                "next": "explain"
+              },
+              {
+                "t": "Das ist doch Unsinn!",
+                "n": "That's nonsense!",
+                "next": "offended"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Na ja, beim Essen schaut jeder nur aufs Handy.",
+            "n": "Well, at meals everyone just looks at their phone.",
+            "choices": [
+              {
+                "t": "Da haben Sie recht. Beim Essen stört mich das auch.",
+                "n": "You're right there. That bothers me at meals too.",
+                "next": "agree"
+              },
+              {
+                "t": "Das stimmt. Trotzdem lernt man online auch viel.",
+                "n": "That's true. Still, you also learn a lot online.",
+                "next": "concede"
+              }
+            ]
+          },
+          "why": {
+            "t": "Ach ja? Wieso denn?",
+            "n": "Oh really? Why's that?",
+            "choices": [
+              {
+                "t": "Obwohl viele oft am Handy sind, lesen sie auch Bücher.",
+                "n": "Although many are often on their phones, they also read books.",
+                "next": "concede"
+              },
+              {
+                "t": "Weil Sie davon keine Ahnung haben.",
+                "n": "Because you have no idea about it.",
+                "next": "offended"
+              }
+            ]
+          },
+          "offended": {
+            "t": "Wie bitte? Das finde ich jetzt aber unhöflich.",
+            "n": "Excuse me? I find that rather rude.",
+            "choices": [
+              {
+                "t": "Entschuldigung, so habe ich das nicht gemeint.",
+                "n": "Sorry, I didn't mean it like that.",
+                "next": "why"
+              },
+              {
+                "t": "Ist doch egal.",
+                "n": "Whatever.",
+                "next": "bad"
+              }
+            ]
+          },
+          "concede": {
+            "t": "Hm, das ist ein gutes Argument. Daran habe ich nicht gedacht.",
+            "n": "Hm, that's a good point. I hadn't thought of that.",
+            "choices": [
+              {
+                "t": "Einerseits haben Sie recht, andererseits ist das Handy praktisch.",
+                "n": "On the one hand you're right, on the other hand the phone is practical.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Da sind wir uns einig. Möchten Sie noch etwas Wein?",
+            "n": "We agree on that. Would you like some more wine?",
+            "end": "good",
+            "outcome": "You disagreed politely, gave a reason and found common ground."
+          },
+          "agree": {
+            "t": "Schön, dass wir uns einig sind! Noch etwas Suppe?",
+            "n": "Nice that we agree! Some more soup?",
+            "end": "good",
+            "outcome": "You asked for clarification and found the point you agree on."
+          },
+          "bad": {
+            "t": "Ich glaube, wir reden besser über etwas anderes.",
+            "n": "I think we had better talk about something else.",
+            "end": "bad",
+            "outcome": "Being blunt and dismissive spoiled the mood. Try a softer way to disagree."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Your host said something unclear. Ask what exactly he means.",
+          "t": [
+            "Wie meinen Sie das genau",
+            "Wie meinen Sie das"
+          ]
+        },
+        {
+          "n": "You sounded rude. Apologise and say you didn't mean it like that.",
+          "t": [
+            "Entschuldigung, so habe ich das nicht gemeint",
+            "So habe ich das nicht gemeint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l7",
+      "kind": "speaking",
+      "title": "Your opinion in a minute",
+      "goal": "Give a short, structured opinion with reasons and a counter-argument.",
+      "culture": {
+        "title": "Direct, not rude",
+        "body": "Germans often state disagreement openly and focus on the facts (sachlich), which can feel blunt to outsiders. A clear Nein or Das sehe ich anders is usually meant about the topic, not about you. Austrians and Swiss tend to be a little more indirect and soften their criticism more.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich bin dafür, dass die Innenstadt autofrei wird.",
+          "n": "I'm in favour of the city centre becoming car-free."
+        },
+        {
+          "t": "Ich bin dagegen.",
+          "n": "I'm against it."
+        },
+        {
+          "t": "Ein Vorteil ist, dass die Luft besser wird.",
+          "n": "One advantage is that the air gets better."
+        },
+        {
+          "t": "Zusammenfassend kann man sagen, dass es sich lohnt.",
+          "n": "To sum up, you can say that it's worth it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Should city centres be car-free? Give your opinion, a reason, a counter-argument and a conclusion.",
+          "hint": "Meiner Meinung nach … weil … Obwohl … / Trotzdem … Deshalb … / Zusammenfassend …",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "your opinion",
+              "any": [
+                "ich finde",
+                "meiner meinung nach",
+                "ich glaube",
+                "ich bin der meinung",
+                "ich denke",
+                "ich bin dafür",
+                "ich bin dagegen"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "weil",
+                "denn",
+                "deshalb"
+              ]
+            },
+            {
+              "label": "a counter-argument",
+              "any": [
+                "obwohl",
+                "trotzdem",
+                "aber",
+                "andererseits",
+                "einerseits"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "deshalb",
+                "deswegen",
+                "also",
+                "zusammenfassend",
+                "am ende",
+                "insgesamt"
+              ]
+            }
+          ],
+          "model": "Meiner Meinung nach sollte die Innenstadt autofrei sein, weil die Luft besser wird. Obwohl Autos praktisch sind, braucht man sie dort nicht. Deshalb bin ich dafür."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're in favour of the city centre becoming car-free.",
+          "t": [
+            "Ich bin dafür, dass die Innenstadt autofrei wird",
+            "Ich bin dafür"
+          ]
+        },
+        {
+          "n": "Say one advantage is that the air gets better.",
+          "t": [
+            "Ein Vorteil ist, dass die Luft besser wird"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Meiner Meinung nach",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }
