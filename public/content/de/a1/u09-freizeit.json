@@ -13,29 +13,89 @@
         "body": "In a German statement the verb is always the second element: Ich spiele gern Fußball. Am Samstag spiele ich Fußball."
       },
       "phrases": [
-        { "t": "Was machst du gern?", "n": "What do you like doing?" },
-        { "t": "Ich spiele gern Fußball.", "n": "I like playing football." },
-        { "t": "Ich lese gern.", "n": "I like reading." },
-        { "t": "Ich höre gern Musik.", "n": "I like listening to music." },
-        { "t": "Ich koche gern.", "n": "I like cooking." },
-        { "t": "Ich gehe gern ins Kino.", "n": "I like going to the cinema." },
-        { "t": "Was ist dein Hobby?", "n": "What's your hobby?" }
+        {
+          "t": "Was machst du gern?",
+          "n": "What do you like doing?"
+        },
+        {
+          "t": "Ich spiele gern Fußball.",
+          "n": "I like playing football."
+        },
+        {
+          "t": "Ich lese gern.",
+          "n": "I like reading."
+        },
+        {
+          "t": "Ich höre gern Musik.",
+          "n": "I like listening to music."
+        },
+        {
+          "t": "Ich koche gern.",
+          "n": "I like cooking."
+        },
+        {
+          "t": "Ich gehe gern ins Kino.",
+          "n": "I like going to the cinema."
+        },
+        {
+          "t": "Was ist dein Hobby?",
+          "n": "What's your hobby?"
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Getting to know each other",
         "lines": [
-          { "who": "A", "name": "Nina", "t": "Was machst du gern?", "n": "What do you like doing?" },
-          { "who": "you", "t": "Ich lese gern und ich koche gern.", "n": "I like reading and I like cooking." },
-          { "who": "A", "name": "Nina", "t": "Toll! Ich höre gern Musik.", "n": "Great! I like listening to music." },
-          { "who": "you", "t": "Was ist dein Hobby?", "n": "What's your hobby?" },
-          { "who": "A", "name": "Nina", "t": "Ich spiele gern Fußball.", "n": "I like playing football." }
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Was machst du gern?",
+            "n": "What do you like doing?"
+          },
+          {
+            "who": "you",
+            "t": "Ich lese gern und ich koche gern.",
+            "n": "I like reading and I like cooking."
+          },
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Toll! Ich höre gern Musik.",
+            "n": "Great! I like listening to music."
+          },
+          {
+            "who": "you",
+            "t": "Was ist dein Hobby?",
+            "n": "What's your hobby?"
+          },
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Ich spiele gern Fußball.",
+            "n": "I like playing football."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask what someone likes doing.", "t": ["Was machst du gern", "Was ist dein Hobby"] },
-        { "n": "Say you like listening to music.", "t": ["Ich höre gern Musik"] },
-        { "n": "Say you like going to the cinema.", "t": ["Ich gehe gern ins Kino"] }
+        {
+          "n": "Ask what someone likes doing.",
+          "t": [
+            "Was machst du gern",
+            "Was ist dein Hobby"
+          ]
+        },
+        {
+          "n": "Say you like listening to music.",
+          "t": [
+            "Ich höre gern Musik"
+          ]
+        },
+        {
+          "n": "Say you like going to the cinema.",
+          "t": [
+            "Ich gehe gern ins Kino"
+          ]
+        }
       ]
     },
     {
@@ -47,27 +107,610 @@
         "body": "Wollen wir … ? (Shall we …?) is the friendly way to suggest something. To decline politely: Leider kann ich nicht — unfortunately I can't."
       },
       "phrases": [
-        { "t": "Hast du am Samstag Zeit?", "n": "Are you free on Saturday?" },
-        { "t": "Wollen wir ins Kino gehen?", "n": "Shall we go to the cinema?" },
-        { "t": "Gute Idee!", "n": "Good idea!" },
-        { "t": "Leider kann ich nicht.", "n": "Unfortunately I can't." },
-        { "t": "Treffen wir uns um sieben?", "n": "Shall we meet at seven?" },
-        { "t": "Bis Samstag!", "n": "See you Saturday!" }
+        {
+          "t": "Hast du am Samstag Zeit?",
+          "n": "Are you free on Saturday?"
+        },
+        {
+          "t": "Wollen wir ins Kino gehen?",
+          "n": "Shall we go to the cinema?"
+        },
+        {
+          "t": "Gute Idee!",
+          "n": "Good idea!"
+        },
+        {
+          "t": "Leider kann ich nicht.",
+          "n": "Unfortunately I can't."
+        },
+        {
+          "t": "Treffen wir uns um sieben?",
+          "n": "Shall we meet at seven?"
+        },
+        {
+          "t": "Bis Samstag!",
+          "n": "See you Saturday!"
+        }
       ],
       "dialogue": {
         "title": "Weekend plans",
         "lines": [
-          { "who": "A", "name": "Max", "t": "Hast du am Samstag Zeit?", "n": "Are you free on Saturday?" },
-          { "who": "you", "t": "Ja! Wollen wir ins Kino gehen?", "n": "Yes! Shall we go to the cinema?" },
-          { "who": "A", "name": "Max", "t": "Gute Idee! Treffen wir uns um sieben?", "n": "Good idea! Shall we meet at seven?" },
-          { "who": "you", "t": "Ja, um sieben. Bis Samstag!", "n": "Yes, at seven. See you Saturday!" }
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Hast du am Samstag Zeit?",
+            "n": "Are you free on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Ja! Wollen wir ins Kino gehen?",
+            "n": "Yes! Shall we go to the cinema?"
+          },
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Gute Idee! Treffen wir uns um sieben?",
+            "n": "Good idea! Shall we meet at seven?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, um sieben. Bis Samstag!",
+            "n": "Yes, at seven. See you Saturday!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a friend if they're free on Sunday.", "t": ["Hast du am Sonntag Zeit"] },
-        { "n": "Suggest going to the cinema.", "t": ["Wollen wir ins Kino gehen"] },
-        { "n": "Politely say you can't.", "t": ["Leider kann ich nicht", "Tut mir leid ich kann nicht"] }
+        {
+          "n": "Ask a friend if they're free on Sunday.",
+          "t": [
+            "Hast du am Sonntag Zeit"
+          ]
+        },
+        {
+          "n": "Suggest going to the cinema.",
+          "t": [
+            "Wollen wir ins Kino gehen"
+          ]
+        },
+        {
+          "n": "Politely say you can't.",
+          "t": [
+            "Leider kann ich nicht",
+            "Tut mir leid ich kann nicht"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u09-l3",
+      "title": "Sport & more",
+      "goal": "Say what you do and how often.",
+      "tip": {
+        "title": "Wie oft?",
+        "body": "Answer Wie oft? (How often?) with einmal, zweimal, dreimal pro Woche — once, twice, three times a week. Rad fahren means cycling: Ich fahre gern Rad."
+      },
+      "phrases": [
+        {
+          "t": "Ich schwimme gern.",
+          "n": "I like swimming."
+        },
+        {
+          "t": "Ich fahre gern Rad.",
+          "n": "I like cycling."
+        },
+        {
+          "t": "Ich spiele Gitarre.",
+          "n": "I play the guitar."
+        },
+        {
+          "t": "Am Wochenende gehe ich wandern.",
+          "n": "At the weekend I go hiking."
+        },
+        {
+          "t": "Wie oft spielst du Fußball?",
+          "n": "How often do you play football?"
+        },
+        {
+          "t": "Zweimal pro Woche.",
+          "n": "Twice a week."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "After class",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Fährst du gern Rad?",
+            "n": "Do you like cycling?"
+          },
+          {
+            "who": "you",
+            "t": "Ja! Und am Wochenende gehe ich wandern.",
+            "n": "Yes! And at the weekend I go hiking."
+          },
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Toll! Spielst du auch Fußball?",
+            "n": "Great! Do you play football too?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, zweimal pro Woche.",
+            "n": "Yes, twice a week."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you like swimming.",
+          "t": [
+            "Ich schwimme gern"
+          ]
+        },
+        {
+          "n": "Ask how often someone plays football.",
+          "t": [
+            "Wie oft spielst du Fußball"
+          ]
+        },
+        {
+          "n": "Say you go hiking at the weekend.",
+          "t": [
+            "Am Wochenende gehe ich wandern",
+            "Ich gehe am Wochenende wandern"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l4",
+      "kind": "grammar",
+      "title": "gern, lieber & können",
+      "goal": "Say what you like, prefer and can do.",
+      "tip": {
+        "title": "Two verbs? The second goes last",
+        "body": "Put gern after the verb for what you like and lieber for what you prefer: Ich spiele gern Tennis, aber ich schwimme lieber. With können the main verb jumps to the end in its basic form: Ich kann gut kochen. Kannst du schwimmen?"
+      },
+      "phrases": [
+        {
+          "t": "Ich spiele gern Tennis.",
+          "n": "I like playing tennis."
+        },
+        {
+          "t": "Ich schwimme lieber.",
+          "n": "I prefer swimming."
+        },
+        {
+          "t": "Ich kann gut kochen.",
+          "n": "I can cook well."
+        },
+        {
+          "t": "Kannst du schwimmen?",
+          "n": "Can you swim?"
+        },
+        {
+          "t": "Ich kann nicht tanzen.",
+          "n": "I can't dance."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap gern → lieber",
+          "base": {
+            "t": "Ich lese gern.",
+            "n": "I like reading."
+          },
+          "items": [
+            {
+              "cue": "lieber",
+              "t": "Ich lese lieber.",
+              "n": "I prefer reading."
+            },
+            {
+              "cue": "Musik hören · lieber",
+              "t": "Ich höre lieber Musik.",
+              "n": "I prefer listening to music."
+            },
+            {
+              "cue": "du · gern?",
+              "t": "Liest du gern?",
+              "n": "Do you like reading?"
+            }
+          ]
+        },
+        {
+          "title": "Swap in können",
+          "base": {
+            "t": "Ich koche.",
+            "n": "I cook."
+          },
+          "items": [
+            {
+              "cue": "können",
+              "t": "Ich kann kochen.",
+              "n": "I can cook."
+            },
+            {
+              "cue": "du · schwimmen?",
+              "t": "Kannst du schwimmen?",
+              "n": "Can you swim?"
+            },
+            {
+              "cue": "wir · Fußball spielen",
+              "t": "Wir können Fußball spielen.",
+              "n": "We can play football."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you like playing tennis, but you prefer swimming.",
+          "t": [
+            "Ich spiele gern Tennis aber ich schwimme lieber"
+          ]
+        },
+        {
+          "n": "Ask a friend if they can dance.",
+          "t": [
+            "Kannst du tanzen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l5",
+      "kind": "listening",
+      "title": "Football or swimming?",
+      "goal": "Understand two friends planning their weekend.",
+      "phrases": [
+        {
+          "t": "Ich bin im Verein.",
+          "n": "I'm in a club."
+        },
+        {
+          "t": "Kommst du mit?",
+          "n": "Are you coming along?"
+        },
+        {
+          "t": "Ich gehe ins Schwimmbad.",
+          "n": "I'm going to the swimming pool."
+        },
+        {
+          "t": "Kannst du gut schwimmen?",
+          "n": "Can you swim well?"
+        }
+      ],
+      "story": {
+        "title": "Lena and Felix",
+        "intro": "Lena asks Felix about his weekend.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Lena",
+            "t": "Felix, was machst du am Samstag?",
+            "n": "Felix, what are you doing on Saturday?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Am Samstag spiele ich Fußball. Ich bin im Verein.",
+            "n": "On Saturday I play football. I'm in a club."
+          },
+          {
+            "name": "Lena",
+            "t": "Toll! Ich spiele nicht gern Fußball. Ich schwimme lieber.",
+            "n": "Great! I don't like playing football. I prefer swimming."
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Kannst du gut schwimmen?",
+            "n": "Can you swim well?"
+          },
+          {
+            "name": "Lena",
+            "t": "Ja! Am Sonntag gehe ich ins Schwimmbad. Kommst du mit?",
+            "n": "Yes! On Sunday I'm going to the pool. Are you coming along?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gern! Um wie viel Uhr?",
+            "n": "Gladly! At what time?"
+          },
+          {
+            "name": "Lena",
+            "t": "Um zehn Uhr.",
+            "n": "At ten o'clock."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was macht Felix am Samstag?",
+            "n": "What does Felix do on Saturday?",
+            "t": [
+              "Er spielt Fußball",
+              "Fußball",
+              "Er spielt Fußball im Verein"
+            ]
+          },
+          {
+            "q": "Was macht Lena lieber?",
+            "n": "What does Lena prefer doing?",
+            "t": [
+              "Sie schwimmt lieber",
+              "Schwimmen",
+              "Sie schwimmt"
+            ]
+          },
+          {
+            "q": "Wann gehen sie ins Schwimmbad?",
+            "n": "When are they going to the pool?",
+            "t": [
+              "Am Sonntag um zehn Uhr",
+              "Am Sonntag",
+              "Um zehn Uhr"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u09-l6",
+      "kind": "roleplay",
+      "title": "Inviting a friend",
+      "goal": "Invite Max out and agree on a time.",
+      "phrases": [
+        {
+          "t": "Wollen wir ins Konzert gehen?",
+          "n": "Shall we go to a concert?"
+        },
+        {
+          "t": "Wann treffen wir uns?",
+          "n": "When shall we meet?"
+        },
+        {
+          "t": "Kannst du um sieben?",
+          "n": "Can you make it at seven?"
+        },
+        {
+          "t": "Hörst du mich?",
+          "n": "Can you hear me?"
+        }
+      ],
+      "branch": {
+        "title": "Phone call with Max",
+        "scene": "You call your friend Max to make plans for Friday.",
+        "name": "Max",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Hallo! Na, wie geht's?",
+            "n": "Hi! So, how's it going?",
+            "choices": [
+              {
+                "t": "Gut! Hast du am Freitag Zeit?",
+                "n": "Good! Are you free on Friday?",
+                "next": "free"
+              },
+              {
+                "t": "Hallo? Max? Hörst du mich?",
+                "n": "Hello? Max? Can you hear me?",
+                "next": "line"
+              }
+            ]
+          },
+          "line": {
+            "t": "Ja, jetzt höre ich dich. Was gibt's?",
+            "n": "Yes, now I can hear you. What's up?",
+            "choices": [
+              {
+                "t": "Hast du am Freitag Zeit?",
+                "n": "Are you free on Friday?",
+                "next": "free"
+              }
+            ]
+          },
+          "free": {
+            "t": "Am Freitag? Ja, warum?",
+            "n": "On Friday? Yes, why?",
+            "choices": [
+              {
+                "t": "Wollen wir ins Konzert gehen?",
+                "n": "Shall we go to a concert?",
+                "next": "concert"
+              },
+              {
+                "t": "Wollen wir Fußball spielen?",
+                "n": "Shall we play football?",
+                "next": "football"
+              }
+            ]
+          },
+          "football": {
+            "t": "Hm, ich spiele nicht so gern Fußball. Ich gehe lieber ins Konzert.",
+            "n": "Hm, I don't really like football. I'd rather go to a concert.",
+            "choices": [
+              {
+                "t": "Okay, gehen wir ins Konzert!",
+                "n": "Okay, let's go to a concert!",
+                "next": "concert"
+              },
+              {
+                "t": "Nein, Fußball oder nichts!",
+                "n": "No, football or nothing!",
+                "next": "nothing"
+              }
+            ]
+          },
+          "concert": {
+            "t": "Super Idee! Wann treffen wir uns?",
+            "n": "Great idea! When shall we meet?",
+            "choices": [
+              {
+                "t": "Um halb acht am Bahnhof?",
+                "n": "At half past seven at the station?",
+                "next": "deal"
+              },
+              {
+                "t": "Kannst du um sieben?",
+                "n": "Can you make it at seven?",
+                "next": "late"
+              }
+            ]
+          },
+          "late": {
+            "t": "Um sieben kann ich leider nicht. Ich arbeite bis sieben. Geht halb acht?",
+            "n": "Unfortunately I can't at seven. I work until seven. Does half past seven work?",
+            "choices": [
+              {
+                "t": "Ja, halb acht geht. Am Bahnhof?",
+                "n": "Yes, half past seven works. At the station?",
+                "next": "deal"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Perfekt! Um halb acht am Bahnhof. Bis Freitag!",
+            "n": "Perfect! Half past seven at the station. See you Friday!",
+            "end": "good",
+            "outcome": "You and Max are going to a concert on Friday."
+          },
+          "nothing": {
+            "t": "Dann leider nicht. Tschüss!",
+            "n": "Then unfortunately not. Bye!",
+            "end": "bad",
+            "outcome": "Too pushy — try again and find a plan you both like."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Invite a friend to a concert.",
+          "t": [
+            "Wollen wir ins Konzert gehen",
+            "Kommst du mit ins Konzert"
+          ]
+        },
+        {
+          "n": "Ask when you'll meet.",
+          "t": [
+            "Wann treffen wir uns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l7",
+      "kind": "speaking",
+      "title": "My free time",
+      "goal": "Talk about your hobbies for 30 seconds.",
+      "culture": {
+        "title": "Feierabend & the Verein",
+        "body": "When work ends, it's Feierabend — time off that people take seriously, with few work calls or emails in the evening. Much free time happens in a Verein (club): Germany has around 600,000 of them for football, choir, hiking, chess and more. Joining one is the classic way to make friends.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich habe Feierabend!",
+          "n": "I've finished work for the day!"
+        },
+        {
+          "t": "Ich singe im Chor.",
+          "n": "I sing in a choir."
+        },
+        {
+          "t": "Nach der Arbeit gehe ich joggen.",
+          "n": "After work I go jogging."
+        },
+        {
+          "t": "Das macht Spaß!",
+          "n": "That's fun!"
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your hobbies: what you like, what you prefer and what you can do.",
+          "hint": "Ich … gern · Ich … lieber · Ich kann (gut) … · Am Wochenende …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "gern",
+              "any": [
+                "gern",
+                "gerne"
+              ]
+            },
+            {
+              "label": "lieber",
+              "any": [
+                "lieber",
+                "am liebsten"
+              ]
+            },
+            {
+              "label": "können",
+              "any": [
+                "kann",
+                "kannst",
+                "können"
+              ]
+            },
+            {
+              "label": "a hobby",
+              "any": [
+                "fußball",
+                "tennis",
+                "schwimm*",
+                "les*",
+                "musik",
+                "koch*",
+                "tanz*",
+                "wander*",
+                "rad",
+                "kino",
+                "gitarre",
+                "sing*",
+                "jogg*",
+                "spiel*"
+              ]
+            }
+          ],
+          "model": "Ich spiele gern Tennis, aber ich schwimme lieber. Ich kann gut kochen. Am Wochenende gehe ich wandern."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Work is over for the day. Say so happily.",
+          "t": [
+            "Ich habe Feierabend",
+            "Endlich Feierabend"
+          ]
+        },
+        {
+          "n": "Say that's fun.",
+          "t": [
+            "Das macht Spaß",
+            "Das macht viel Spaß"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Freizeit",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

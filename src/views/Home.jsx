@@ -61,6 +61,8 @@ export function Home() {
         </div>
       </section>
 
+      {(course.tracks || []).map((track) => <Track key={track.id} track={track} ctx={ctx} />)}
+
       {course.levels.map((level) => {
         const ids = level.units.flatMap((u) => u.lessons.map((l) => l.id));
         const count = ids.filter((id) => done[id]?.done).length;
@@ -96,8 +98,6 @@ export function Home() {
           </details>
         );
       })}
-
-      {(course.tracks || []).map((track) => <Track key={track.id} track={track} ctx={ctx} />)}
     </div>
   );
 }

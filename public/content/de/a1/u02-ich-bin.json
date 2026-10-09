@@ -13,27 +13,84 @@
         "body": "Read the second letter: ei sounds like English \"eye\" (heiße, mein), ie sounds like \"ee\" (sie, Wiedersehen). ß is just a sharp \"ss\"."
       },
       "phrases": [
-        { "t": "Ich heiße Anna.", "n": "My name is Anna." },
-        { "t": "Wie heißt du?", "n": "What's your name? (informal)" },
-        { "t": "Wie heißen Sie?", "n": "What's your name? (formal)" },
-        { "t": "Ich bin Tom.", "n": "I'm Tom." },
-        { "t": "Mein Name ist Müller.", "n": "My name is Müller." },
-        { "t": "Freut mich!", "n": "Nice to meet you!" },
-        { "t": "Freut mich auch!", "n": "Nice to meet you too!" }
+        {
+          "t": "Ich heiße Anna.",
+          "n": "My name is Anna."
+        },
+        {
+          "t": "Wie heißt du?",
+          "n": "What's your name? (informal)"
+        },
+        {
+          "t": "Wie heißen Sie?",
+          "n": "What's your name? (formal)"
+        },
+        {
+          "t": "Ich bin Tom.",
+          "n": "I'm Tom."
+        },
+        {
+          "t": "Mein Name ist Müller.",
+          "n": "My name is Müller."
+        },
+        {
+          "t": "Freut mich!",
+          "n": "Nice to meet you!"
+        },
+        {
+          "t": "Freut mich auch!",
+          "n": "Nice to meet you too!"
+        }
       ],
       "dialogue": {
         "title": "First day at the language café",
         "lines": [
-          { "who": "A", "name": "Jonas", "t": "Hallo! Ich bin Jonas. Wie heißt du?", "n": "Hi! I'm Jonas. What's your name?" },
-          { "who": "you", "t": "Ich heiße Sam.", "n": "My name is Sam." },
-          { "who": "A", "name": "Jonas", "t": "Freut mich, Sam!", "n": "Nice to meet you, Sam!" },
-          { "who": "you", "t": "Freut mich auch!", "n": "Nice to meet you too!" }
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Hallo! Ich bin Jonas. Wie heißt du?",
+            "n": "Hi! I'm Jonas. What's your name?"
+          },
+          {
+            "who": "you",
+            "t": "Ich heiße Sam.",
+            "n": "My name is Sam."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Freut mich, Sam!",
+            "n": "Nice to meet you, Sam!"
+          },
+          {
+            "who": "you",
+            "t": "Freut mich auch!",
+            "n": "Nice to meet you too!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Introduce yourself with your own name.", "t": ["Ich heiße …", "Ich bin …", "Mein Name ist …"] },
-        { "n": "Ask a child what their name is.", "t": ["Wie heißt du"] },
-        { "n": "Ask a hotel guest for their name.", "t": ["Wie heißen Sie", "Wie ist Ihr Name"] }
+        {
+          "n": "Introduce yourself with your own name.",
+          "t": [
+            "Ich heiße …",
+            "Ich bin …",
+            "Mein Name ist …"
+          ]
+        },
+        {
+          "n": "Ask a child what their name is.",
+          "t": [
+            "Wie heißt du"
+          ]
+        },
+        {
+          "n": "Ask a hotel guest for their name.",
+          "t": [
+            "Wie heißen Sie",
+            "Wie ist Ihr Name"
+          ]
+        }
       ]
     },
     {
@@ -45,31 +102,97 @@
         "body": "ich komme, du kommst, Sie kommen. The ich-form usually ends in -e, the du-form in -st, the Sie-form in -en."
       },
       "phrases": [
-        { "t": "Woher kommst du?", "n": "Where are you from? (informal)" },
-        { "t": "Woher kommen Sie?", "n": "Where are you from? (formal)" },
-        { "t": "Ich komme aus England.", "n": "I'm from England." },
-        { "t": "Ich komme aus den USA.", "n": "I'm from the USA." },
-        { "t": "Wo wohnst du?", "n": "Where do you live?" },
-        { "t": "Ich wohne in Berlin.", "n": "I live in Berlin." },
-        { "t": "Ich spreche Englisch.", "n": "I speak English." },
-        { "t": "Ich lerne Deutsch.", "n": "I'm learning German." }
+        {
+          "t": "Woher kommst du?",
+          "n": "Where are you from? (informal)"
+        },
+        {
+          "t": "Woher kommen Sie?",
+          "n": "Where are you from? (formal)"
+        },
+        {
+          "t": "Ich komme aus England.",
+          "n": "I'm from England."
+        },
+        {
+          "t": "Ich komme aus den USA.",
+          "n": "I'm from the USA."
+        },
+        {
+          "t": "Wo wohnst du?",
+          "n": "Where do you live?"
+        },
+        {
+          "t": "Ich wohne in Berlin.",
+          "n": "I live in Berlin."
+        },
+        {
+          "t": "Ich spreche Englisch.",
+          "n": "I speak English."
+        },
+        {
+          "t": "Ich lerne Deutsch.",
+          "n": "I'm learning German."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Small talk at a party",
         "lines": [
-          { "who": "A", "name": "Mia", "t": "Woher kommst du?", "n": "Where are you from?" },
-          { "who": "you", "t": "Ich komme aus England.", "n": "I'm from England." },
-          { "who": "A", "name": "Mia", "t": "Und wo wohnst du?", "n": "And where do you live?" },
-          { "who": "you", "t": "Ich wohne in Berlin. Ich lerne Deutsch.", "n": "I live in Berlin. I'm learning German." },
-          { "who": "A", "name": "Mia", "t": "Super! Du sprichst gut!", "n": "Great! You speak well!" },
-          { "who": "you", "t": "Danke schön!", "n": "Thank you very much!" }
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Woher kommst du?",
+            "n": "Where are you from?"
+          },
+          {
+            "who": "you",
+            "t": "Ich komme aus England.",
+            "n": "I'm from England."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Und wo wohnst du?",
+            "n": "And where do you live?"
+          },
+          {
+            "who": "you",
+            "t": "Ich wohne in Berlin. Ich lerne Deutsch.",
+            "n": "I live in Berlin. I'm learning German."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Super! Du sprichst gut!",
+            "n": "Great! You speak well!"
+          },
+          {
+            "who": "you",
+            "t": "Danke schön!",
+            "n": "Thank you very much!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say which country you come from.", "t": ["Ich komme aus …"] },
-        { "n": "Say which city you live in.", "t": ["Ich wohne in …"] },
-        { "n": "Tell someone you're learning German.", "t": ["Ich lerne Deutsch"] }
+        {
+          "n": "Say which country you come from.",
+          "t": [
+            "Ich komme aus …"
+          ]
+        },
+        {
+          "n": "Say which city you live in.",
+          "t": [
+            "Ich wohne in …"
+          ]
+        },
+        {
+          "n": "Tell someone you're learning German.",
+          "t": [
+            "Ich lerne Deutsch"
+          ]
+        }
       ]
     },
     {
@@ -81,30 +204,507 @@
         "body": "These phrases keep any conversation alive. Native speakers are happy to slow down — just ask. The German r is soft, made at the back of the throat, almost like a gentle gargle."
       },
       "phrases": [
-        { "t": "Sprichst du Englisch?", "n": "Do you speak English?" },
-        { "t": "Ein bisschen.", "n": "A little." },
-        { "t": "Ich verstehe nicht.", "n": "I don't understand." },
-        { "t": "Wie bitte?", "n": "Pardon?" },
-        { "t": "Noch einmal, bitte.", "n": "Once more, please." },
-        { "t": "Langsamer, bitte.", "n": "Slower, please." },
-        { "t": "Was bedeutet das?", "n": "What does that mean?" }
+        {
+          "t": "Sprichst du Englisch?",
+          "n": "Do you speak English?"
+        },
+        {
+          "t": "Ein bisschen.",
+          "n": "A little."
+        },
+        {
+          "t": "Ich verstehe nicht.",
+          "n": "I don't understand."
+        },
+        {
+          "t": "Wie bitte?",
+          "n": "Pardon?"
+        },
+        {
+          "t": "Noch einmal, bitte.",
+          "n": "Once more, please."
+        },
+        {
+          "t": "Langsamer, bitte.",
+          "n": "Slower, please."
+        },
+        {
+          "t": "Was bedeutet das?",
+          "n": "What does that mean?"
+        }
       ],
       "dialogue": {
         "title": "Asking for help",
         "lines": [
-          { "who": "A", "name": "Verkäufer", "t": "Möchten Sie eine Tüte?", "n": "Would you like a bag?" },
-          { "who": "you", "t": "Wie bitte? Langsamer, bitte.", "n": "Pardon? Slower, please." },
-          { "who": "A", "name": "Verkäufer", "t": "Eine Tüte?", "n": "A bag?" },
-          { "who": "you", "t": "Was bedeutet das?", "n": "What does that mean?" },
-          { "who": "A", "name": "Verkäufer", "t": "A bag!", "n": "A bag!" },
-          { "who": "you", "t": "Ah! Nein, danke.", "n": "Ah! No, thank you." }
+          {
+            "who": "A",
+            "name": "Verkäufer",
+            "t": "Möchten Sie eine Tüte?",
+            "n": "Would you like a bag?"
+          },
+          {
+            "who": "you",
+            "t": "Wie bitte? Langsamer, bitte.",
+            "n": "Pardon? Slower, please."
+          },
+          {
+            "who": "A",
+            "name": "Verkäufer",
+            "t": "Eine Tüte?",
+            "n": "A bag?"
+          },
+          {
+            "who": "you",
+            "t": "Was bedeutet das?",
+            "n": "What does that mean?"
+          },
+          {
+            "who": "A",
+            "name": "Verkäufer",
+            "t": "A bag!",
+            "n": "A bag!"
+          },
+          {
+            "who": "you",
+            "t": "Ah! Nein, danke.",
+            "n": "Ah! No, thank you."
+          }
         ]
       },
       "prompts": [
-        { "n": "You didn't catch that. Ask them to repeat.", "t": ["Wie bitte", "Noch einmal bitte"] },
-        { "n": "Ask them to speak more slowly.", "t": ["Langsamer bitte"] },
-        { "n": "Say you don't understand.", "t": ["Ich verstehe nicht", "Ich verstehe das nicht"] }
+        {
+          "n": "You didn't catch that. Ask them to repeat.",
+          "t": [
+            "Wie bitte",
+            "Noch einmal bitte"
+          ]
+        },
+        {
+          "n": "Ask them to speak more slowly.",
+          "t": [
+            "Langsamer bitte"
+          ]
+        },
+        {
+          "n": "Say you don't understand.",
+          "t": [
+            "Ich verstehe nicht",
+            "Ich verstehe das nicht"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u02-l4",
+      "kind": "grammar",
+      "title": "sein & W-questions",
+      "goal": "Use bin/bist/ist and ask who, where and where from.",
+      "tip": {
+        "title": "sein is irregular — the verb comes second",
+        "body": "sein (to be) has its own forms: ich bin, du bist, er/sie ist, Sie sind. Regular verbs add -t for er/sie: er kommt, sie wohnt. In W-questions (wer, wie, wo, woher) the verb always comes second: Wo wohnt sie?"
+      },
+      "phrases": [
+        {
+          "t": "Wer ist das?",
+          "n": "Who is that?"
+        },
+        {
+          "t": "Das ist Jonas.",
+          "n": "That's Jonas."
+        },
+        {
+          "t": "Er kommt aus Österreich.",
+          "n": "He's from Austria."
+        },
+        {
+          "t": "Sie wohnt in München.",
+          "n": "She lives in Munich."
+        },
+        {
+          "t": "Wo wohnen Sie?",
+          "n": "Where do you live? (formal)"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person (sein)",
+          "base": {
+            "t": "Ich bin neu hier.",
+            "n": "I'm new here."
+          },
+          "items": [
+            {
+              "cue": "du",
+              "t": "Du bist neu hier.",
+              "n": "You're new here."
+            },
+            {
+              "cue": "er",
+              "t": "Er ist neu hier.",
+              "n": "He's new here."
+            },
+            {
+              "cue": "Sie (formal)",
+              "t": "Sie sind neu hier.",
+              "n": "You're new here. (formal)"
+            }
+          ]
+        },
+        {
+          "title": "Swap the question word",
+          "base": {
+            "t": "Wie heißt du?",
+            "n": "What's your name?"
+          },
+          "items": [
+            {
+              "cue": "woher · kommen",
+              "t": "Woher kommst du?",
+              "n": "Where are you from?"
+            },
+            {
+              "cue": "wo · wohnen",
+              "t": "Wo wohnst du?",
+              "n": "Where do you live?"
+            },
+            {
+              "cue": "was · lernen",
+              "t": "Was lernst du?",
+              "n": "What are you learning?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Point at someone and ask who that is.",
+          "t": [
+            "Wer ist das"
+          ]
+        },
+        {
+          "n": "Say Jonas comes from Austria.",
+          "t": [
+            "Jonas kommt aus Österreich",
+            "Er kommt aus Österreich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l5",
+      "kind": "listening",
+      "title": "First German class",
+      "goal": "Understand a short introduction at normal speed.",
+      "phrases": [
+        {
+          "t": "Ich komme aus Italien.",
+          "n": "I'm from Italy."
+        },
+        {
+          "t": "Ich wohne jetzt in Köln.",
+          "n": "I live in Cologne now."
+        },
+        {
+          "t": "Sprechen Sie Englisch?",
+          "n": "Do you speak English? (formal)"
+        },
+        {
+          "t": "Und Sie?",
+          "n": "And you? (formal)"
+        }
+      ],
+      "story": {
+        "title": "Frau Klein meets Marco",
+        "intro": "A teacher meets a new student on the first day of the German course.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Frau Klein",
+            "t": "Hallo! Ich bin Frau Klein, Ihre Lehrerin. Wie heißen Sie?",
+            "n": "Hello! I'm Mrs Klein, your teacher. What's your name?"
+          },
+          {
+            "name": "Marco",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich heiße Marco. Ich komme aus Italien.",
+            "n": "My name is Marco. I'm from Italy."
+          },
+          {
+            "name": "Frau Klein",
+            "t": "Und wo wohnen Sie?",
+            "n": "And where do you live?"
+          },
+          {
+            "name": "Marco",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich wohne jetzt in Köln. Und Sie?",
+            "n": "I live in Cologne now. And you?"
+          },
+          {
+            "name": "Frau Klein",
+            "t": "Ich wohne auch in Köln. Sprechen Sie Englisch?",
+            "n": "I live in Cologne too. Do you speak English?"
+          },
+          {
+            "name": "Marco",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ja, ein bisschen. Und ich lerne Deutsch!",
+            "n": "Yes, a little. And I'm learning German!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Woher kommt Marco?",
+            "n": "Where is Marco from?",
+            "t": [
+              "Aus Italien",
+              "Er kommt aus Italien",
+              "Italien"
+            ]
+          },
+          {
+            "q": "Wo wohnt Marco?",
+            "n": "Where does Marco live?",
+            "t": [
+              "In Köln",
+              "Er wohnt in Köln",
+              "Köln"
+            ]
+          },
+          {
+            "q": "Spricht Marco Englisch?",
+            "n": "Does Marco speak English?",
+            "t": [
+              "Ja ein bisschen",
+              "Ein bisschen",
+              "Ja"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u02-l6",
+      "kind": "roleplay",
+      "title": "Hotel check-in",
+      "goal": "Give your name and answer questions at reception.",
+      "phrases": [
+        {
+          "t": "Haben Sie eine Reservierung?",
+          "n": "Do you have a reservation?"
+        },
+        {
+          "t": "Mein Name ist Brown.",
+          "n": "My name is Brown."
+        },
+        {
+          "t": "Sie sprechen gut Deutsch!",
+          "n": "You speak German well!"
+        },
+        {
+          "t": "Hier ist Ihr Schlüssel.",
+          "n": "Here's your key."
+        }
+      ],
+      "branch": {
+        "title": "At the hotel desk",
+        "scene": "You arrive at a small hotel in the evening.",
+        "name": "Rezeption",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Abend! Haben Sie eine Reservierung?",
+            "n": "Good evening! Do you have a reservation?",
+            "choices": [
+              {
+                "t": "Ja. Mein Name ist Brown.",
+                "n": "Yes. My name is Brown.",
+                "next": "from"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "slow"
+              }
+            ]
+          },
+          "slow": {
+            "t": "Kein Problem. Wie heißen Sie?",
+            "n": "No problem. What's your name?",
+            "choices": [
+              {
+                "t": "Ich heiße Brown.",
+                "n": "My name is Brown.",
+                "next": "from"
+              },
+              {
+                "t": "Tschüss!",
+                "n": "Bye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "from": {
+            "t": "Willkommen! Woher kommen Sie?",
+            "n": "Welcome! Where are you from?",
+            "choices": [
+              {
+                "t": "Ich komme aus England.",
+                "n": "I'm from England.",
+                "next": "key"
+              },
+              {
+                "t": "Aus Kanada. Und Sie?",
+                "n": "From Canada. And you?",
+                "next": "chat"
+              }
+            ]
+          },
+          "chat": {
+            "t": "Ich komme aus Wien. Sie sprechen gut Deutsch!",
+            "n": "I'm from Vienna. You speak German well!",
+            "choices": [
+              {
+                "t": "Danke! Ich lerne Deutsch.",
+                "n": "Thanks! I'm learning German.",
+                "next": "key"
+              },
+              {
+                "t": "Ein bisschen. Danke!",
+                "n": "A little. Thanks!",
+                "next": "key"
+              }
+            ]
+          },
+          "key": {
+            "t": "Hier ist Ihr Schlüssel. Zimmer drei. Gute Nacht!",
+            "n": "Here's your key. Room three. Good night!",
+            "end": "good",
+            "outcome": "You checked in and got your room key."
+          },
+          "bye": {
+            "t": "Äh … und Ihr Zimmer?",
+            "n": "Er … and your room?",
+            "end": "bad",
+            "outcome": "You walked off without checking in — try again and give your name."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the receptionist your surname is Brown.",
+          "t": [
+            "Mein Name ist Brown",
+            "Ich heiße Brown"
+          ]
+        },
+        {
+          "n": "Ask the receptionist where she is from (formal).",
+          "t": [
+            "Woher kommen Sie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l7",
+      "kind": "speaking",
+      "title": "All about me",
+      "goal": "Introduce yourself freely for 30 seconds.",
+      "culture": {
+        "title": "Herr, Frau and titles",
+        "body": "In formal situations people use Herr or Frau plus the surname: Guten Tag, Frau Weber. First names usually go together with du. In Austria academic titles matter a lot — you may hear Frau Magister or Herr Doktor.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Guten Tag, Herr Weber!",
+          "n": "Hello, Mr Weber!"
+        },
+        {
+          "t": "Mein Vorname ist Sam.",
+          "n": "My first name is Sam."
+        },
+        {
+          "t": "Ich wohne in London.",
+          "n": "I live in London."
+        },
+        {
+          "t": "Ich spreche Englisch und ein bisschen Deutsch.",
+          "n": "I speak English and a little German."
+        }
+      ],
+      "free": [
+        {
+          "n": "Introduce yourself: your name, where you're from, where you live and which languages you speak.",
+          "hint": "Ich heiße …, Ich komme aus …, Ich wohne in …, Ich spreche …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "your name",
+              "any": [
+                "ich heiße",
+                "heiße",
+                "ich bin",
+                "mein name",
+                "vorname"
+              ]
+            },
+            {
+              "label": "where you're from",
+              "any": [
+                "komme aus",
+                "aus"
+              ]
+            },
+            {
+              "label": "where you live",
+              "any": [
+                "wohne",
+                "ich wohne"
+              ]
+            },
+            {
+              "label": "languages",
+              "any": [
+                "spreche",
+                "lerne",
+                "englisch",
+                "deutsch"
+              ]
+            }
+          ],
+          "model": "Hallo! Ich heiße Sam. Ich komme aus Kanada und wohne in Berlin. Ich spreche Englisch und lerne Deutsch."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Greet Mr Weber formally.",
+          "t": [
+            "Guten Tag Herr Weber",
+            "Guten Morgen Herr Weber"
+          ]
+        },
+        {
+          "n": "Say you speak English and a little German.",
+          "t": [
+            "Ich spreche Englisch und ein bisschen Deutsch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ich bin …",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

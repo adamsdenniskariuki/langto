@@ -20,7 +20,7 @@ function useLearned() {
     const fallback = !ids.length;
     const use = fallback ? course.order.slice(0, 1) : ids;
     const lessons = use.map((id) => course.lessonIndex.get(id).lesson);
-    return { fallback, lessons, phrases: lessons.flatMap((l) => l.phrases) };
+    return { fallback, lessons, phrases: lessons.flatMap((l) => l.phrases || []) };
   }, [course, key]);
 }
 

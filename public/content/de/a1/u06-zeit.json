@@ -13,30 +13,93 @@
         "body": "All days are masculine and use am for \"on\": am Montag (on Monday). The w in Mittwoch sounds like English v."
       },
       "phrases": [
-        { "t": "Montag", "n": "Monday" },
-        { "t": "Dienstag", "n": "Tuesday" },
-        { "t": "Mittwoch", "n": "Wednesday" },
-        { "t": "Donnerstag", "n": "Thursday" },
-        { "t": "Freitag", "n": "Friday" },
-        { "t": "Samstag", "n": "Saturday" },
-        { "t": "Sonntag", "n": "Sunday" },
-        { "t": "Welcher Tag ist heute?", "n": "What day is it today?" },
-        { "t": "Heute ist Freitag.", "n": "Today is Friday." },
-        { "t": "am Wochenende", "n": "at the weekend" }
+        {
+          "t": "Montag",
+          "n": "Monday"
+        },
+        {
+          "t": "Dienstag",
+          "n": "Tuesday"
+        },
+        {
+          "t": "Mittwoch",
+          "n": "Wednesday"
+        },
+        {
+          "t": "Donnerstag",
+          "n": "Thursday"
+        },
+        {
+          "t": "Freitag",
+          "n": "Friday"
+        },
+        {
+          "t": "Samstag",
+          "n": "Saturday"
+        },
+        {
+          "t": "Sonntag",
+          "n": "Sunday"
+        },
+        {
+          "t": "Welcher Tag ist heute?",
+          "n": "What day is it today?"
+        },
+        {
+          "t": "Heute ist Freitag.",
+          "n": "Today is Friday."
+        },
+        {
+          "t": "am Wochenende",
+          "n": "at the weekend"
+        }
       ],
       "dialogue": {
         "title": "Almost the weekend",
         "lines": [
-          { "who": "A", "name": "Ben", "t": "Welcher Tag ist heute?", "n": "What day is it today?" },
-          { "who": "you", "t": "Heute ist Freitag.", "n": "Today is Friday." },
-          { "who": "A", "name": "Ben", "t": "Super! Was machst du am Wochenende?", "n": "Great! What are you doing at the weekend?" },
-          { "who": "you", "t": "Am Samstag lerne ich Deutsch.", "n": "On Saturday I'm learning German." }
+          {
+            "who": "A",
+            "name": "Ben",
+            "t": "Welcher Tag ist heute?",
+            "n": "What day is it today?"
+          },
+          {
+            "who": "you",
+            "t": "Heute ist Freitag.",
+            "n": "Today is Friday."
+          },
+          {
+            "who": "A",
+            "name": "Ben",
+            "t": "Super! Was machst du am Wochenende?",
+            "n": "Great! What are you doing at the weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Am Samstag lerne ich Deutsch.",
+            "n": "On Saturday I'm learning German."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say today is Monday.", "t": ["Heute ist Montag"] },
-        { "n": "Ask what day it is today.", "t": ["Welcher Tag ist heute"] },
-        { "n": "Say \"on Sunday\".", "t": ["am Sonntag"] }
+        {
+          "n": "Say today is Monday.",
+          "t": [
+            "Heute ist Montag"
+          ]
+        },
+        {
+          "n": "Ask what day it is today.",
+          "t": [
+            "Welcher Tag ist heute"
+          ]
+        },
+        {
+          "n": "Say \"on Sunday\".",
+          "t": [
+            "am Sonntag"
+          ]
+        }
       ]
     },
     {
@@ -48,29 +111,605 @@
         "body": "Germans say half TO the next hour: halb vier means half (on the way) to four — 3:30. Viertel nach zwei = quarter past two."
       },
       "phrases": [
-        { "t": "Wie spät ist es?", "n": "What time is it?" },
-        { "t": "Es ist drei Uhr.", "n": "It's three o'clock." },
-        { "t": "Es ist halb vier.", "n": "It's half past three." },
-        { "t": "Es ist Viertel nach zwei.", "n": "It's quarter past two." },
-        { "t": "Um wie viel Uhr?", "n": "At what time?" },
-        { "t": "Um acht Uhr.", "n": "At eight o'clock." },
-        { "t": "Ich habe keine Zeit.", "n": "I don't have time." }
+        {
+          "t": "Wie spät ist es?",
+          "n": "What time is it?"
+        },
+        {
+          "t": "Es ist drei Uhr.",
+          "n": "It's three o'clock."
+        },
+        {
+          "t": "Es ist halb vier.",
+          "n": "It's half past three."
+        },
+        {
+          "t": "Es ist Viertel nach zwei.",
+          "n": "It's quarter past two."
+        },
+        {
+          "t": "Um wie viel Uhr?",
+          "n": "At what time?"
+        },
+        {
+          "t": "Um acht Uhr.",
+          "n": "At eight o'clock."
+        },
+        {
+          "t": "Ich habe keine Zeit.",
+          "n": "I don't have time."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Running late",
         "lines": [
-          { "who": "you", "t": "Entschuldigung, wie spät ist es?", "n": "Excuse me, what time is it?" },
-          { "who": "A", "name": "Frau", "t": "Es ist halb vier.", "n": "It's half past three." },
-          { "who": "you", "t": "Oh nein! Danke schön!", "n": "Oh no! Thank you!" },
-          { "who": "A", "name": "Frau", "t": "Bitte schön!", "n": "You're welcome!" }
+          {
+            "who": "you",
+            "t": "Entschuldigung, wie spät ist es?",
+            "n": "Excuse me, what time is it?"
+          },
+          {
+            "who": "A",
+            "name": "Frau",
+            "t": "Es ist halb vier.",
+            "n": "It's half past three."
+          },
+          {
+            "who": "you",
+            "t": "Oh nein! Danke schön!",
+            "n": "Oh no! Thank you!"
+          },
+          {
+            "who": "A",
+            "name": "Frau",
+            "t": "Bitte schön!",
+            "n": "You're welcome!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a stranger what time it is.", "t": ["Wie spät ist es", "Entschuldigung wie spät ist es", "Wie viel Uhr ist es"] },
-        { "n": "Say it's three o'clock.", "t": ["Es ist drei Uhr"] },
-        { "n": "Say you don't have time.", "t": ["Ich habe keine Zeit"] }
+        {
+          "n": "Ask a stranger what time it is.",
+          "t": [
+            "Wie spät ist es",
+            "Entschuldigung wie spät ist es",
+            "Wie viel Uhr ist es"
+          ]
+        },
+        {
+          "n": "Say it's three o'clock.",
+          "t": [
+            "Es ist drei Uhr"
+          ]
+        },
+        {
+          "n": "Say you don't have time.",
+          "t": [
+            "Ich habe keine Zeit"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u06-l3",
+      "title": "Finding a time",
+      "goal": "Ask when someone is free and suggest a day.",
+      "tip": {
+        "title": "Geht es …?",
+        "body": "Geht es am Dienstag? (Does Tuesday work?) is the easy way to suggest a day. Answer with Ja, das geht or Heute geht es nicht."
+      },
+      "phrases": [
+        {
+          "t": "Wann hast du Zeit?",
+          "n": "When are you free?"
+        },
+        {
+          "t": "Geht es am Dienstag?",
+          "n": "Does Tuesday work?"
+        },
+        {
+          "t": "Am Dienstag um zehn Uhr.",
+          "n": "On Tuesday at ten o'clock."
+        },
+        {
+          "t": "Heute geht es nicht.",
+          "n": "Today doesn't work."
+        },
+        {
+          "t": "Morgen habe ich Zeit.",
+          "n": "I'm free tomorrow."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "Coffee with Mia",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Wann hast du Zeit?",
+            "n": "When are you free?"
+          },
+          {
+            "who": "you",
+            "t": "Heute geht es nicht. Morgen habe ich Zeit.",
+            "n": "Today doesn't work. I'm free tomorrow."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Um wie viel Uhr?",
+            "n": "At what time?"
+          },
+          {
+            "who": "you",
+            "t": "Um zehn Uhr.",
+            "n": "At ten o'clock."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend when they're free.",
+          "t": [
+            "Wann hast du Zeit"
+          ]
+        },
+        {
+          "n": "Ask if Tuesday works.",
+          "t": [
+            "Geht es am Dienstag",
+            "Geht Dienstag"
+          ]
+        },
+        {
+          "n": "Say you're free tomorrow.",
+          "t": [
+            "Morgen habe ich Zeit",
+            "Ich habe morgen Zeit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l4",
+      "kind": "grammar",
+      "title": "Time first, verb second",
+      "goal": "Start a sentence with a time and keep the verb in place.",
+      "tip": {
+        "title": "The verb stays in slot two",
+        "body": "In a German statement the verb is always the second element. If you start with a time — Heute, Am Montag, Um acht Uhr — the subject moves behind the verb: Ich arbeite am Montag → Am Montag arbeite ich."
+      },
+      "phrases": [
+        {
+          "t": "Ich arbeite am Montag.",
+          "n": "I work on Monday."
+        },
+        {
+          "t": "Am Montag arbeite ich.",
+          "n": "On Monday I work."
+        },
+        {
+          "t": "Heute lerne ich Deutsch.",
+          "n": "Today I'm learning German."
+        },
+        {
+          "t": "Um acht Uhr stehe ich auf.",
+          "n": "At eight o'clock I get up."
+        },
+        {
+          "t": "Am Wochenende habe ich Zeit.",
+          "n": "At the weekend I have time."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the time",
+          "base": {
+            "t": "Am Montag arbeite ich.",
+            "n": "On Monday I work."
+          },
+          "items": [
+            {
+              "cue": "Heute",
+              "t": "Heute arbeite ich.",
+              "n": "Today I work."
+            },
+            {
+              "cue": "Um neun Uhr",
+              "t": "Um neun Uhr arbeite ich.",
+              "n": "At nine o'clock I work."
+            },
+            {
+              "cue": "Am Samstag · nicht",
+              "t": "Am Samstag arbeite ich nicht.",
+              "n": "On Saturday I don't work."
+            }
+          ]
+        },
+        {
+          "title": "Swap: start with the time",
+          "base": {
+            "t": "Ich lerne heute Deutsch.",
+            "n": "I'm learning German today."
+          },
+          "items": [
+            {
+              "cue": "Heute …",
+              "t": "Heute lerne ich Deutsch.",
+              "n": "Today I'm learning German."
+            },
+            {
+              "cue": "Am Abend …",
+              "t": "Am Abend lerne ich Deutsch.",
+              "n": "In the evening I learn German."
+            },
+            {
+              "cue": "Um sieben Uhr …",
+              "t": "Um sieben Uhr lerne ich Deutsch.",
+              "n": "At seven o'clock I learn German."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"On Sunday I have time\" — start with the day.",
+          "t": [
+            "Am Sonntag habe ich Zeit"
+          ]
+        },
+        {
+          "n": "Say \"Today I'm working\" — start with today.",
+          "t": [
+            "Heute arbeite ich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l5",
+      "kind": "listening",
+      "title": "A busy week",
+      "goal": "Catch days and times in a real conversation.",
+      "phrases": [
+        {
+          "t": "Ich arbeite bis sechs Uhr.",
+          "n": "I work until six o'clock."
+        },
+        {
+          "t": "Mittwoch geht gut.",
+          "n": "Wednesday works well."
+        },
+        {
+          "t": "Um halb acht?",
+          "n": "At half past seven?"
+        },
+        {
+          "t": "Bis Mittwoch!",
+          "n": "See you Wednesday!"
+        }
+      ],
+      "story": {
+        "title": "Mia calls Jonas",
+        "intro": "Mia wants to meet Jonas this week, but he is busy.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Mia",
+            "t": "Hallo Jonas! Hast du am Montag Zeit?",
+            "n": "Hi Jonas! Are you free on Monday?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-DE-ConradNeural",
+            "t": "Am Montag? Nein, da arbeite ich bis sechs Uhr.",
+            "n": "On Monday? No, I work until six then."
+          },
+          {
+            "name": "Mia",
+            "t": "Und am Mittwoch?",
+            "n": "And on Wednesday?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-DE-ConradNeural",
+            "t": "Mittwoch geht gut. Um wie viel Uhr?",
+            "n": "Wednesday works well. At what time?"
+          },
+          {
+            "name": "Mia",
+            "t": "Um halb acht im Café?",
+            "n": "At half past seven in the café?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-DE-ConradNeural",
+            "t": "Super. Bis Mittwoch!",
+            "n": "Great. See you Wednesday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was macht Jonas am Montag?",
+            "n": "What does Jonas do on Monday?",
+            "t": [
+              "Er arbeitet bis sechs Uhr",
+              "Er arbeitet",
+              "Arbeiten"
+            ]
+          },
+          {
+            "q": "Welcher Tag geht gut?",
+            "n": "Which day works well?",
+            "t": [
+              "Mittwoch",
+              "Am Mittwoch",
+              "Mittwoch geht gut"
+            ]
+          },
+          {
+            "q": "Um wie viel Uhr treffen sie sich?",
+            "n": "At what time do they meet?",
+            "t": [
+              "Um halb acht",
+              "Halb acht"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u06-l6",
+      "kind": "roleplay",
+      "title": "Booking a haircut",
+      "goal": "Make an appointment on the phone.",
+      "phrases": [
+        {
+          "t": "Ich möchte einen Termin.",
+          "n": "I'd like an appointment."
+        },
+        {
+          "t": "Wann haben Sie Zeit?",
+          "n": "When are you free? (formal)"
+        },
+        {
+          "t": "Wir haben leider zu.",
+          "n": "Unfortunately we're closed."
+        },
+        {
+          "t": "Um zehn Uhr, bitte.",
+          "n": "At ten o'clock, please."
+        }
+      ],
+      "branch": {
+        "title": "Calling the hairdresser",
+        "scene": "You phone a hair salon to book a haircut this week.",
+        "name": "Salon Lisa",
+        "voice": "de-DE-AmalaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Salon Lisa, guten Tag!",
+            "n": "Salon Lisa, hello!",
+            "choices": [
+              {
+                "t": "Guten Tag! Ich möchte einen Termin, bitte.",
+                "n": "Hello! I'd like an appointment, please.",
+                "next": "day"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Hier ist Salon Lisa. Was möchten Sie?",
+            "n": "This is Salon Lisa. What would you like?",
+            "choices": [
+              {
+                "t": "Einen Termin, bitte.",
+                "n": "An appointment, please.",
+                "next": "day"
+              },
+              {
+                "t": "Ich möchte eine Pizza.",
+                "n": "I'd like a pizza.",
+                "next": "pizza"
+              }
+            ]
+          },
+          "day": {
+            "t": "Gern. Wann haben Sie Zeit?",
+            "n": "Sure. When are you free?",
+            "choices": [
+              {
+                "t": "Am Montag, bitte.",
+                "n": "On Monday, please.",
+                "next": "monday"
+              },
+              {
+                "t": "Am Freitag, bitte.",
+                "n": "On Friday, please.",
+                "next": "friday"
+              }
+            ]
+          },
+          "monday": {
+            "t": "Am Montag haben wir leider zu. Geht es am Freitag?",
+            "n": "Unfortunately we're closed on Monday. Does Friday work?",
+            "choices": [
+              {
+                "t": "Ja, Freitag geht gut.",
+                "n": "Yes, Friday works well.",
+                "next": "friday"
+              }
+            ]
+          },
+          "friday": {
+            "t": "Am Freitag geht es um zehn Uhr oder um halb drei.",
+            "n": "On Friday we can do ten o'clock or half past two.",
+            "choices": [
+              {
+                "t": "Um zehn Uhr, bitte.",
+                "n": "At ten o'clock, please.",
+                "next": "name"
+              },
+              {
+                "t": "Um halb drei, bitte.",
+                "n": "At half past two, please.",
+                "next": "name"
+              }
+            ]
+          },
+          "name": {
+            "t": "Gut. Wie ist Ihr Name, bitte?",
+            "n": "Good. What's your name, please?",
+            "choices": [
+              {
+                "t": "Mein Name ist Alex Brown.",
+                "n": "My name is Alex Brown.",
+                "next": "done"
+              }
+            ]
+          },
+          "done": {
+            "t": "Danke! Also bis Freitag. Auf Wiederhören!",
+            "n": "Thanks! See you Friday, then. Goodbye! (on the phone)",
+            "end": "good",
+            "outcome": "You booked a haircut for Friday."
+          },
+          "pizza": {
+            "t": "Pizza? Hier ist ein Friseur! Tschüss.",
+            "n": "Pizza? This is a hairdresser! Bye.",
+            "end": "bad",
+            "outcome": "Off-topic — try again and ask for a Termin."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask for an appointment.",
+          "t": [
+            "Ich möchte einen Termin bitte",
+            "Ich möchte einen Termin"
+          ]
+        },
+        {
+          "n": "Ask if Friday works.",
+          "t": [
+            "Geht es am Freitag",
+            "Geht Freitag"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l7",
+      "kind": "speaking",
+      "title": "My week",
+      "goal": "Talk about your week for 30 seconds.",
+      "culture": {
+        "title": "Pünktlich & the 24-hour clock",
+        "body": "Being on time matters in Germany, Austria and Switzerland — arriving a few minutes early is normal, and if you're running late, send a quick message. Timetables, shop hours and invitations use the 24-hour clock: 18:30 is read as achtzehn Uhr dreißig. In casual speech people still say halb sieben.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Tut mir leid, ich bin zu spät.",
+          "n": "Sorry, I'm late."
+        },
+        {
+          "t": "Der Zug fährt um achtzehn Uhr dreißig.",
+          "n": "The train leaves at 18:30."
+        },
+        {
+          "t": "Am Wochenende habe ich frei.",
+          "n": "I'm off at the weekend."
+        },
+        {
+          "t": "Ich bin immer pünktlich.",
+          "n": "I'm always on time."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your week: what you do on which days and at what time.",
+          "hint": "Am Montag arbeite ich … · Um … Uhr … · Am Wochenende habe ich frei.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "a day",
+              "any": [
+                "montag",
+                "dienstag",
+                "mittwoch",
+                "donnerstag",
+                "freitag",
+                "samstag",
+                "sonntag",
+                "wochenende"
+              ]
+            },
+            {
+              "label": "a time",
+              "any": [
+                "uhr",
+                "halb",
+                "viertel",
+                "heute",
+                "morgen",
+                "abend"
+              ]
+            },
+            {
+              "label": "an activity",
+              "any": [
+                "arbeit*",
+                "lern*",
+                "spiel*",
+                "koch*",
+                "les*",
+                "geh*",
+                "fahr*",
+                "habe",
+                "mache"
+              ]
+            }
+          ],
+          "model": "Am Montag arbeite ich bis fünf Uhr. Am Mittwoch lerne ich Deutsch. Am Wochenende habe ich frei."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say sorry, you're late.",
+          "t": [
+            "Tut mir leid ich bin zu spät",
+            "Entschuldigung ich bin zu spät"
+          ]
+        },
+        {
+          "n": "Say you're off at the weekend.",
+          "t": [
+            "Am Wochenende habe ich frei",
+            "Ich habe am Wochenende frei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Die Zeit",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

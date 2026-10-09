@@ -1,0 +1,242 @@
+{
+  "id": "pron-u03",
+  "level": "A1",
+  "title": "Endings & sch",
+  "subtitle": "-e, -en, -er · st, sp",
+  "icon": "🗣️",
+  "lessons": [
+    {
+      "id": "pron-u03-l1",
+      "kind": "pron",
+      "title": "Weak endings",
+      "goal": "Say -e, -en and -er the German way.",
+      "tip": {
+        "title": "Relax the ending",
+        "body": "Final -e is a short, relaxed \"uh\" (like the \"a\" in \"sofa\"). In -en the e almost disappears: \"kommen\" sounds like \"komm'n\". Final -er sounds like a short open \"a\": \"Lehrer\" ≈ \"Lehra\"."
+      },
+      "phrases": [
+        {
+          "t": "Bitte schön!",
+          "n": "You're welcome!"
+        },
+        {
+          "t": "Wir kommen morgen.",
+          "n": "We're coming tomorrow."
+        },
+        {
+          "t": "Mein Bruder ist Lehrer.",
+          "n": "My brother is a teacher."
+        },
+        {
+          "t": "Haben Sie Wasser?",
+          "n": "Do you have water?"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "-e / -er",
+          "a": {
+            "t": "bitte",
+            "n": "please"
+          },
+          "b": {
+            "t": "bitter",
+            "n": "bitter"
+          }
+        },
+        {
+          "sound": "-e / -er",
+          "a": {
+            "t": "Messe",
+            "n": "trade fair"
+          },
+          "b": {
+            "t": "Messer",
+            "n": "knife"
+          }
+        },
+        {
+          "sound": "-e / -er",
+          "a": {
+            "t": "Lehre",
+            "n": "apprenticeship"
+          },
+          "b": {
+            "t": "Lehrer",
+            "n": "teacher"
+          }
+        },
+        {
+          "sound": "-e / -en",
+          "a": {
+            "t": "Liebe",
+            "n": "love"
+          },
+          "b": {
+            "t": "lieben",
+            "n": "to love"
+          }
+        },
+        {
+          "sound": "-e / -en",
+          "a": {
+            "t": "Rose",
+            "n": "rose"
+          },
+          "b": {
+            "t": "Rosen",
+            "n": "roses"
+          }
+        },
+        {
+          "sound": "-e / -en",
+          "a": {
+            "t": "Woche",
+            "n": "week"
+          },
+          "b": {
+            "t": "Wochen",
+            "n": "weeks"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Bitte schön!",
+          "n": "You're welcome!",
+          "mark": "*Bit*te *schön*!"
+        },
+        {
+          "t": "Wir kommen morgen.",
+          "n": "We're coming tomorrow.",
+          "mark": "Wir *kom*men *mor*gen."
+        },
+        {
+          "t": "Mein Bruder ist Lehrer.",
+          "n": "My brother is a teacher.",
+          "mark": "Mein *Bru*der ist *Leh*rer."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"knife\".",
+          "t": [
+            "Messer",
+            "das Messer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u03-l2",
+      "kind": "pron",
+      "title": "st and sp",
+      "goal": "Say \"scht\" and \"schp\" at the start of words.",
+      "tip": {
+        "title": "S becomes sh",
+        "body": "At the start of a word or word part, st sounds like \"sht\" and sp like \"shp\": Stein = \"shtein\", Sport = \"shport\". A single s before a vowel is a buzzing \"z\": Sand = \"zand\"."
+      },
+      "phrases": [
+        {
+          "t": "Ich spiele Fußball.",
+          "n": "I play football."
+        },
+        {
+          "t": "Die Straße ist lang.",
+          "n": "The street is long."
+        },
+        {
+          "t": "Sport ist super!",
+          "n": "Sport is great!"
+        },
+        {
+          "t": "Es ist schon spät.",
+          "n": "It's already late."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "st / sch",
+          "a": {
+            "t": "Stein",
+            "n": "stone"
+          },
+          "b": {
+            "t": "Schein",
+            "n": "banknote"
+          }
+        },
+        {
+          "sound": "st / sch",
+          "a": {
+            "t": "Stall",
+            "n": "stable"
+          },
+          "b": {
+            "t": "Schall",
+            "n": "sound"
+          }
+        },
+        {
+          "sound": "sp / st",
+          "a": {
+            "t": "Spiel",
+            "n": "game"
+          },
+          "b": {
+            "t": "Stiel",
+            "n": "stalk"
+          }
+        },
+        {
+          "sound": "sp / st",
+          "a": {
+            "t": "Spur",
+            "n": "track"
+          },
+          "b": {
+            "t": "stur",
+            "n": "stubborn"
+          }
+        },
+        {
+          "sound": "st / s",
+          "a": {
+            "t": "Stand",
+            "n": "stand"
+          },
+          "b": {
+            "t": "Sand",
+            "n": "sand"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich spiele Fußball.",
+          "n": "I play football.",
+          "mark": "Ich *spie*le *Fuß*ball."
+        },
+        {
+          "t": "Die Straße ist lang.",
+          "n": "The street is long.",
+          "mark": "Die *Stra*ße ist *lang*."
+        },
+        {
+          "t": "Es ist schon spät.",
+          "n": "It's already late.",
+          "mark": "Es ist schon *spät*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"It's already late.\"",
+          "t": [
+            "Es ist schon spät",
+            "Es ist spät"
+          ]
+        }
+      ]
+    }
+  ]
+}

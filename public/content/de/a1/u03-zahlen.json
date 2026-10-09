@@ -13,31 +13,97 @@
         "body": "z sounds like \"ts\" (zwei = tsvai). v sounds like \"f\" (vier = feer). ch in acht is a breathy sound from the back of the throat, like Scottish \"loch\"."
       },
       "phrases": [
-        { "t": "null", "n": "zero" },
-        { "t": "eins", "n": "one" },
-        { "t": "zwei", "n": "two" },
-        { "t": "drei", "n": "three" },
-        { "t": "vier", "n": "four" },
-        { "t": "fünf", "n": "five" },
-        { "t": "sechs", "n": "six" },
-        { "t": "sieben", "n": "seven" },
-        { "t": "acht", "n": "eight" },
-        { "t": "neun", "n": "nine" },
-        { "t": "zehn", "n": "ten" }
+        {
+          "t": "null",
+          "n": "zero"
+        },
+        {
+          "t": "eins",
+          "n": "one"
+        },
+        {
+          "t": "zwei",
+          "n": "two"
+        },
+        {
+          "t": "drei",
+          "n": "three"
+        },
+        {
+          "t": "vier",
+          "n": "four"
+        },
+        {
+          "t": "fünf",
+          "n": "five"
+        },
+        {
+          "t": "sechs",
+          "n": "six"
+        },
+        {
+          "t": "sieben",
+          "n": "seven"
+        },
+        {
+          "t": "acht",
+          "n": "eight"
+        },
+        {
+          "t": "neun",
+          "n": "nine"
+        },
+        {
+          "t": "zehn",
+          "n": "ten"
+        }
       ],
       "dialogue": {
         "title": "Phone number",
         "lines": [
-          { "who": "A", "name": "Paul", "t": "Wie ist deine Nummer?", "n": "What's your number?" },
-          { "who": "you", "t": "Null, eins, sieben, drei.", "n": "Zero, one, seven, three." },
-          { "who": "A", "name": "Paul", "t": "Und dann?", "n": "And then?" },
-          { "who": "you", "t": "Fünf, acht, zwei, neun.", "n": "Five, eight, two, nine." }
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Wie ist deine Nummer?",
+            "n": "What's your number?"
+          },
+          {
+            "who": "you",
+            "t": "Null, eins, sieben, drei.",
+            "n": "Zero, one, seven, three."
+          },
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Und dann?",
+            "n": "And then?"
+          },
+          {
+            "who": "you",
+            "t": "Fünf, acht, zwei, neun.",
+            "n": "Five, eight, two, nine."
+          }
         ]
       },
       "prompts": [
-        { "n": "Count from one to five.", "t": ["eins zwei drei vier fünf"] },
-        { "n": "Say the number 8.", "t": ["acht"] },
-        { "n": "Say the number 6.", "t": ["sechs"] }
+        {
+          "n": "Count from one to five.",
+          "t": [
+            "eins zwei drei vier fünf"
+          ]
+        },
+        {
+          "n": "Say the number 8.",
+          "t": [
+            "acht"
+          ]
+        },
+        {
+          "n": "Say the number 6.",
+          "t": [
+            "sechs"
+          ]
+        }
       ]
     },
     {
@@ -49,31 +115,592 @@
         "body": "From 13 up, Germans say the ones first: dreizehn (three-ten). Above 20 it continues: einundzwanzig = one-and-twenty (21). Age: Ich bin … Jahre alt."
       },
       "phrases": [
-        { "t": "elf", "n": "eleven" },
-        { "t": "zwölf", "n": "twelve" },
-        { "t": "dreizehn", "n": "thirteen" },
-        { "t": "sechzehn", "n": "sixteen" },
-        { "t": "zwanzig", "n": "twenty" },
-        { "t": "einundzwanzig", "n": "twenty-one" },
-        { "t": "dreißig", "n": "thirty" },
-        { "t": "Wie alt bist du?", "n": "How old are you?" },
-        { "t": "Ich bin zwanzig Jahre alt.", "n": "I'm twenty years old." }
+        {
+          "t": "elf",
+          "n": "eleven"
+        },
+        {
+          "t": "zwölf",
+          "n": "twelve"
+        },
+        {
+          "t": "dreizehn",
+          "n": "thirteen"
+        },
+        {
+          "t": "sechzehn",
+          "n": "sixteen"
+        },
+        {
+          "t": "zwanzig",
+          "n": "twenty"
+        },
+        {
+          "t": "einundzwanzig",
+          "n": "twenty-one"
+        },
+        {
+          "t": "dreißig",
+          "n": "thirty"
+        },
+        {
+          "t": "Wie alt bist du?",
+          "n": "How old are you?"
+        },
+        {
+          "t": "Ich bin zwanzig Jahre alt.",
+          "n": "I'm twenty years old."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Birthday party",
         "lines": [
-          { "who": "A", "name": "Emma", "t": "Wie alt bist du?", "n": "How old are you?" },
-          { "who": "you", "t": "Ich bin dreißig Jahre alt. Und du?", "n": "I'm thirty. And you?" },
-          { "who": "A", "name": "Emma", "t": "Ich bin heute einundzwanzig!", "n": "I'm twenty-one today!" },
-          { "who": "you", "t": "Alles Gute zum Geburtstag!", "n": "Happy birthday!" }
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Wie alt bist du?",
+            "n": "How old are you?"
+          },
+          {
+            "who": "you",
+            "t": "Ich bin dreißig Jahre alt. Und du?",
+            "n": "I'm thirty. And you?"
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Ich bin heute einundzwanzig!",
+            "n": "I'm twenty-one today!"
+          },
+          {
+            "who": "you",
+            "t": "Alles Gute zum Geburtstag!",
+            "n": "Happy birthday!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a friend how old they are.", "t": ["Wie alt bist du"] },
-        { "n": "Say you're twenty years old.", "t": ["Ich bin zwanzig Jahre alt", "Ich bin zwanzig"] },
-        { "n": "Say the number 12.", "t": ["zwölf"] }
+        {
+          "n": "Ask a friend how old they are.",
+          "t": [
+            "Wie alt bist du"
+          ]
+        },
+        {
+          "n": "Say you're twenty years old.",
+          "t": [
+            "Ich bin zwanzig Jahre alt",
+            "Ich bin zwanzig"
+          ]
+        },
+        {
+          "n": "Say the number 12.",
+          "t": [
+            "zwölf"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u03-l3",
+      "title": "Prices",
+      "goal": "Ask what something costs and understand the price.",
+      "tip": {
+        "title": "Tens and euros",
+        "body": "Tens end in -zig: zwanzig, vierzig, fünfzig — but 30 is dreißig. For prices, say Euro in the middle: 4,50 € = vier Euro fünfzig."
+      },
+      "phrases": [
+        {
+          "t": "vierzig",
+          "n": "forty"
+        },
+        {
+          "t": "fünfzig",
+          "n": "fifty"
+        },
+        {
+          "t": "hundert",
+          "n": "a hundred"
+        },
+        {
+          "t": "Was kostet das?",
+          "n": "How much is that?"
+        },
+        {
+          "t": "Das kostet fünf Euro.",
+          "n": "That costs five euros."
+        },
+        {
+          "t": "vier Euro fünfzig",
+          "n": "€4.50"
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "At the market",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Entschuldigung, was kostet das?",
+            "n": "Excuse me, how much is that?"
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Vier Euro fünfzig.",
+            "n": "€4.50."
+          },
+          {
+            "who": "you",
+            "t": "Hier, bitte.",
+            "n": "Here you go."
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Danke schön!",
+            "n": "Thank you!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how much something costs.",
+          "t": [
+            "Was kostet das"
+          ]
+        },
+        {
+          "n": "Say it costs five euros.",
+          "t": [
+            "Das kostet fünf Euro",
+            "Fünf Euro"
+          ]
+        },
+        {
+          "n": "Say the number 40.",
+          "t": [
+            "vierzig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l4",
+      "kind": "grammar",
+      "title": "haben & plurals",
+      "goal": "Say what you have — one or many.",
+      "tip": {
+        "title": "haben + plural nouns",
+        "body": "haben: ich habe, du hast, er/sie hat, wir haben, Sie haben. After numbers above one the noun goes plural, and German plurals vary: eine Katze → zwei Katzen, ein Hund → drei Hunde, ein Buch → vier Bücher. Euro stays the same: zehn Euro."
+      },
+      "phrases": [
+        {
+          "t": "Ich habe eine Katze.",
+          "n": "I have a cat."
+        },
+        {
+          "t": "Du hast zwei Katzen.",
+          "n": "You have two cats."
+        },
+        {
+          "t": "Er hat drei Kinder.",
+          "n": "He has three children."
+        },
+        {
+          "t": "Wir haben zehn Euro.",
+          "n": "We have ten euros."
+        },
+        {
+          "t": "Hast du ein Handy?",
+          "n": "Do you have a mobile phone?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person (haben)",
+          "base": {
+            "t": "Ich habe zwei Kinder.",
+            "n": "I have two children."
+          },
+          "items": [
+            {
+              "cue": "du",
+              "t": "Du hast zwei Kinder.",
+              "n": "You have two children."
+            },
+            {
+              "cue": "er",
+              "t": "Er hat zwei Kinder.",
+              "n": "He has two children."
+            },
+            {
+              "cue": "wir",
+              "t": "Wir haben zwei Kinder.",
+              "n": "We have two children."
+            }
+          ]
+        },
+        {
+          "title": "Swap the number",
+          "base": {
+            "t": "Ich habe eine Katze.",
+            "n": "I have a cat."
+          },
+          "items": [
+            {
+              "cue": "zwei",
+              "t": "Ich habe zwei Katzen.",
+              "n": "I have two cats."
+            },
+            {
+              "cue": "drei · Hund",
+              "t": "Ich habe drei Hunde.",
+              "n": "I have three dogs."
+            },
+            {
+              "cue": "vier · Buch",
+              "t": "Ich habe vier Bücher.",
+              "n": "I have four books."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have two cats.",
+          "t": [
+            "Ich habe zwei Katzen"
+          ]
+        },
+        {
+          "n": "Ask a friend if they have a mobile phone.",
+          "t": [
+            "Hast du ein Handy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l5",
+      "kind": "listening",
+      "title": "Signing up for football",
+      "goal": "Catch ages, phone numbers and prices.",
+      "phrases": [
+        {
+          "t": "Wie ist deine Telefonnummer?",
+          "n": "What's your phone number?"
+        },
+        {
+          "t": "Der Kurs kostet zwanzig Euro.",
+          "n": "The course costs twenty euros."
+        },
+        {
+          "t": "Ich habe nur zehn Euro.",
+          "n": "I only have ten euros."
+        },
+        {
+          "t": "zweiundzwanzig",
+          "n": "twenty-two"
+        }
+      ],
+      "story": {
+        "title": "Jan at the football club",
+        "intro": "Jan signs up for a football course at his local club.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Trainerin",
+            "t": "Hallo! Wie heißt du?",
+            "n": "Hi! What's your name?"
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich heiße Jan. Ich bin zwölf Jahre alt.",
+            "n": "My name is Jan. I'm twelve years old."
+          },
+          {
+            "name": "Trainerin",
+            "t": "Und wie ist deine Telefonnummer?",
+            "n": "And what's your phone number?"
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Null eins fünf eins, zweiundzwanzig, achtzehn, vierzig.",
+            "n": "0151 – 22 18 40."
+          },
+          {
+            "name": "Trainerin",
+            "t": "Danke. Der Kurs kostet zwanzig Euro.",
+            "n": "Thanks. The course costs twenty euros."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich habe nur zehn Euro. Mein Vater zahlt morgen!",
+            "n": "I only have ten euros. My dad will pay tomorrow!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie alt ist Jan?",
+            "n": "How old is Jan?",
+            "t": [
+              "Zwölf",
+              "Er ist zwölf",
+              "Zwölf Jahre alt"
+            ]
+          },
+          {
+            "q": "Was kostet der Kurs?",
+            "n": "How much is the course?",
+            "t": [
+              "Zwanzig Euro",
+              "Zwanzig",
+              "Der Kurs kostet zwanzig Euro"
+            ]
+          },
+          {
+            "q": "Wie viel Geld hat Jan?",
+            "n": "How much money does Jan have?",
+            "t": [
+              "Zehn Euro",
+              "Er hat zehn Euro",
+              "Zehn"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u03-l6",
+      "kind": "roleplay",
+      "title": "At the kiosk",
+      "goal": "Buy something and check the change.",
+      "phrases": [
+        {
+          "t": "Was kostet die Zeitung?",
+          "n": "How much is the newspaper?"
+        },
+        {
+          "t": "Zwei Euro fünfzig.",
+          "n": "€2.50."
+        },
+        {
+          "t": "Hier sind drei Euro.",
+          "n": "Here are three euros."
+        },
+        {
+          "t": "Fünfzig Cent zurück.",
+          "n": "Fifty cents change."
+        }
+      ],
+      "branch": {
+        "title": "Buying a newspaper",
+        "scene": "You stop at a kiosk at the train station.",
+        "name": "Verkäufer",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Hallo! Bitte schön?",
+            "n": "Hi! What can I get you?",
+            "choices": [
+              {
+                "t": "Was kostet die Zeitung?",
+                "n": "How much is the newspaper?",
+                "next": "price"
+              },
+              {
+                "t": "Eine Fahrkarte, bitte.",
+                "n": "A ticket, please.",
+                "next": "ticket"
+              }
+            ]
+          },
+          "ticket": {
+            "t": "Fahrkarten haben wir nicht. Der Automat ist da.",
+            "n": "We don't have tickets. The machine is over there.",
+            "choices": [
+              {
+                "t": "Ach so. Was kostet die Zeitung?",
+                "n": "I see. How much is the newspaper?",
+                "next": "price"
+              },
+              {
+                "t": "Na gut. Tschüss!",
+                "n": "Oh well. Bye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "price": {
+            "t": "Zwei Euro fünfzig.",
+            "n": "€2.50.",
+            "choices": [
+              {
+                "t": "Hier sind drei Euro.",
+                "n": "Here are three euros.",
+                "next": "change"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Zwei Euro … fünfzig.",
+            "n": "Two euros … fifty.",
+            "choices": [
+              {
+                "t": "Danke. Hier sind drei Euro.",
+                "n": "Thanks. Here are three euros.",
+                "next": "change"
+              }
+            ]
+          },
+          "change": {
+            "t": "Danke. Fünfzig Cent zurück. Schönen Tag!",
+            "n": "Thanks. Fifty cents change. Have a nice day!",
+            "end": "good",
+            "outcome": "You bought the paper and got the right change."
+          },
+          "bye": {
+            "t": "Tschüss!",
+            "n": "Bye!",
+            "end": "bad",
+            "outcome": "You left with nothing — try asking about the newspaper."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask how much the newspaper costs.",
+          "t": [
+            "Was kostet die Zeitung"
+          ]
+        },
+        {
+          "n": "Hand over three euros.",
+          "t": [
+            "Hier sind drei Euro",
+            "Drei Euro bitte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l7",
+      "kind": "speaking",
+      "title": "My numbers",
+      "goal": "Talk about your numbers for 30 seconds.",
+      "culture": {
+        "title": "Numbers in pairs — and zwo",
+        "body": "Germans often read phone numbers in pairs: 22 18 40 = zweiundzwanzig, achtzehn, vierzig. On the phone people say zwo instead of zwei so it doesn't sound like drei. When counting on fingers, start with the thumb — a raised thumb means one.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich bin dreißig Jahre alt.",
+          "n": "I'm thirty years old."
+        },
+        {
+          "t": "Meine Nummer ist null, eins, sieben, zwo.",
+          "n": "My number is 0172.",
+          "note": "zwo = zwei, clearer on the phone."
+        },
+        {
+          "t": "Meine Hausnummer ist zwölf.",
+          "n": "My house number is twelve."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your numbers: your age, your phone number and your house number.",
+          "hint": "Ich bin … Jahre alt. Meine Nummer ist … Meine Hausnummer ist …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "your age",
+              "any": [
+                "jahre alt",
+                "jahre",
+                "alt"
+              ]
+            },
+            {
+              "label": "your phone number",
+              "any": [
+                "nummer",
+                "telefonnummer",
+                "handynummer"
+              ]
+            },
+            {
+              "label": "your house number",
+              "any": [
+                "hausnummer",
+                "wohne"
+              ]
+            },
+            {
+              "label": "numbers",
+              "any": [
+                "null",
+                "eins",
+                "zwei",
+                "zwo",
+                "drei",
+                "vier",
+                "fünf",
+                "sechs",
+                "sieben",
+                "acht",
+                "neun",
+                "zehn",
+                "elf",
+                "zwölf",
+                "zwanzig",
+                "dreißig",
+                "vierzig",
+                "fünfzig"
+              ]
+            }
+          ],
+          "model": "Ich bin dreißig Jahre alt. Meine Nummer ist null, eins, sieben, zwo, achtzehn, vierzig. Meine Hausnummer ist zwölf."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the number 2 the 'phone way'.",
+          "t": [
+            "zwo"
+          ]
+        },
+        {
+          "n": "Say you're thirty years old.",
+          "t": [
+            "Ich bin dreißig Jahre alt",
+            "Ich bin dreißig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Zahlen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

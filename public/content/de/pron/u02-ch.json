@@ -1,0 +1,220 @@
+{
+  "id": "pron-u02",
+  "level": "A1",
+  "title": "Das ch",
+  "subtitle": "ich-Laut, ach-Laut, sch",
+  "icon": "🐍",
+  "lessons": [
+    {
+      "id": "pron-u02-l1",
+      "kind": "pron",
+      "title": "ich vs ach",
+      "goal": "Make both ch sounds.",
+      "tip": {
+        "title": "Two ch sounds",
+        "body": "After e, i, ä, ö, ü, ei, eu and consonants, ch is soft: say \"h\" in \"huge\" and push more air (ich). After a, o, u, au it is the rough \"ch\" in Scottish \"loch\" (ach). Never say \"k\" or \"sh\"."
+      },
+      "phrases": [
+        {
+          "t": "Ich spreche Deutsch.",
+          "n": "I speak German."
+        },
+        {
+          "t": "Milch, bitte.",
+          "n": "Milk, please."
+        },
+        {
+          "t": "Das Buch ist gut.",
+          "n": "The book is good."
+        },
+        {
+          "t": "Um acht Uhr.",
+          "n": "At eight o'clock."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ach / ich",
+          "a": {
+            "t": "Buch",
+            "n": "book"
+          },
+          "b": {
+            "t": "Bücher",
+            "n": "books"
+          }
+        },
+        {
+          "sound": "ach / ich",
+          "a": {
+            "t": "Dach",
+            "n": "roof"
+          },
+          "b": {
+            "t": "Dächer",
+            "n": "roofs"
+          }
+        },
+        {
+          "sound": "ach / ich",
+          "a": {
+            "t": "Nacht",
+            "n": "night"
+          },
+          "b": {
+            "t": "Nächte",
+            "n": "nights"
+          }
+        },
+        {
+          "sound": "ach / ich",
+          "a": {
+            "t": "Tochter",
+            "n": "daughter"
+          },
+          "b": {
+            "t": "Töchter",
+            "n": "daughters"
+          }
+        },
+        {
+          "sound": "ach / ich",
+          "a": {
+            "t": "Koch",
+            "n": "cook"
+          },
+          "b": {
+            "t": "Köche",
+            "n": "cooks"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich spreche Deutsch.",
+          "n": "I speak German.",
+          "mark": "Ich *spre*che *Deutsch*."
+        },
+        {
+          "t": "Ich möchte Kuchen.",
+          "n": "I'd like cake.",
+          "mark": "Ich *möch*te *Ku*chen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"I speak German.\"",
+          "t": [
+            "Ich spreche Deutsch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u02-l2",
+      "kind": "pron",
+      "title": "ch, sch or k?",
+      "goal": "Keep ch apart from sch and k.",
+      "tip": {
+        "title": "Air, not a hiss or a stop",
+        "body": "For sch, push your lips forward like English \"sh\". For the ich-sound, keep the lips flat and smile slightly. For k, the tongue closes completely; for ach, it only gets close and the air keeps flowing."
+      },
+      "phrases": [
+        {
+          "t": "Die Kirche ist alt.",
+          "n": "The church is old."
+        },
+        {
+          "t": "Ich esse gern Kirschen.",
+          "n": "I like eating cherries."
+        },
+        {
+          "t": "Gute Nacht!",
+          "n": "Good night!"
+        },
+        {
+          "t": "Sechs Wochen.",
+          "n": "Six weeks.",
+          "note": "chs sounds like \"ks\"."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ch / sch",
+          "a": {
+            "t": "Kirche",
+            "n": "church"
+          },
+          "b": {
+            "t": "Kirsche",
+            "n": "cherry"
+          }
+        },
+        {
+          "sound": "ch / sch",
+          "a": {
+            "t": "mich",
+            "n": "me"
+          },
+          "b": {
+            "t": "misch",
+            "n": "mix!"
+          }
+        },
+        {
+          "sound": "ch / sch",
+          "a": {
+            "t": "Rauch",
+            "n": "smoke"
+          },
+          "b": {
+            "t": "Rausch",
+            "n": "rush, high"
+          }
+        },
+        {
+          "sound": "ch / k",
+          "a": {
+            "t": "Nacht",
+            "n": "night"
+          },
+          "b": {
+            "t": "nackt",
+            "n": "naked"
+          }
+        },
+        {
+          "sound": "ch / ks",
+          "a": {
+            "t": "Dach",
+            "n": "roof"
+          },
+          "b": {
+            "t": "Dachs",
+            "n": "badger"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Die Kirche ist alt.",
+          "n": "The church is old.",
+          "mark": "Die *Kir*che ist *alt*."
+        },
+        {
+          "t": "Ich esse gern Kirschen.",
+          "n": "I like eating cherries.",
+          "mark": "Ich *es*se gern *Kir*schen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"Good night!\"",
+          "t": [
+            "Gute Nacht"
+          ]
+        }
+      ]
+    }
+  ]
+}

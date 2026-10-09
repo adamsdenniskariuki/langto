@@ -13,29 +13,89 @@
         "body": "Use mein for masculine and neuter words (mein Vater, mein Kind) and meine for feminine and plural (meine Mutter, meine Eltern)."
       },
       "phrases": [
-        { "t": "Das ist meine Mutter.", "n": "This is my mother." },
-        { "t": "Das ist mein Vater.", "n": "This is my father." },
-        { "t": "Ich habe einen Bruder.", "n": "I have a brother." },
-        { "t": "Ich habe eine Schwester.", "n": "I have a sister." },
-        { "t": "Hast du Geschwister?", "n": "Do you have siblings?" },
-        { "t": "Ich bin Einzelkind.", "n": "I'm an only child." },
-        { "t": "Meine Eltern wohnen in Hamburg.", "n": "My parents live in Hamburg." }
+        {
+          "t": "Das ist meine Mutter.",
+          "n": "This is my mother."
+        },
+        {
+          "t": "Das ist mein Vater.",
+          "n": "This is my father."
+        },
+        {
+          "t": "Ich habe einen Bruder.",
+          "n": "I have a brother."
+        },
+        {
+          "t": "Ich habe eine Schwester.",
+          "n": "I have a sister."
+        },
+        {
+          "t": "Hast du Geschwister?",
+          "n": "Do you have siblings?"
+        },
+        {
+          "t": "Ich bin Einzelkind.",
+          "n": "I'm an only child."
+        },
+        {
+          "t": "Meine Eltern wohnen in Hamburg.",
+          "n": "My parents live in Hamburg."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Looking at photos",
         "lines": [
-          { "who": "A", "name": "Sara", "t": "Wer ist das?", "n": "Who is that?" },
-          { "who": "you", "t": "Das ist meine Mutter.", "n": "That's my mother." },
-          { "who": "A", "name": "Sara", "t": "Hast du Geschwister?", "n": "Do you have siblings?" },
-          { "who": "you", "t": "Ja, ich habe einen Bruder.", "n": "Yes, I have a brother." },
-          { "who": "A", "name": "Sara", "t": "Ich bin Einzelkind.", "n": "I'm an only child." }
+          {
+            "who": "A",
+            "name": "Sara",
+            "t": "Wer ist das?",
+            "n": "Who is that?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist meine Mutter.",
+            "n": "That's my mother."
+          },
+          {
+            "who": "A",
+            "name": "Sara",
+            "t": "Hast du Geschwister?",
+            "n": "Do you have siblings?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich habe einen Bruder.",
+            "n": "Yes, I have a brother."
+          },
+          {
+            "who": "A",
+            "name": "Sara",
+            "t": "Ich bin Einzelkind.",
+            "n": "I'm an only child."
+          }
         ]
       },
       "prompts": [
-        { "n": "Point to a photo: \"This is my father.\"", "t": ["Das ist mein Vater"] },
-        { "n": "Ask someone if they have siblings.", "t": ["Hast du Geschwister", "Haben Sie Geschwister"] },
-        { "n": "Say you have a sister.", "t": ["Ich habe eine Schwester"] }
+        {
+          "n": "Point to a photo: \"This is my father.\"",
+          "t": [
+            "Das ist mein Vater"
+          ]
+        },
+        {
+          "n": "Ask someone if they have siblings.",
+          "t": [
+            "Hast du Geschwister",
+            "Haben Sie Geschwister"
+          ]
+        },
+        {
+          "n": "Say you have a sister.",
+          "t": [
+            "Ich habe eine Schwester"
+          ]
+        }
       ]
     },
     {
@@ -47,28 +107,585 @@
         "body": "er = he, sie = she (and they), es = it. Adjectives after ist don't change: Er ist groß. Sie ist groß."
       },
       "phrases": [
-        { "t": "Mein Bruder ist groß.", "n": "My brother is tall." },
-        { "t": "Meine Schwester ist lustig.", "n": "My sister is funny." },
-        { "t": "Er ist zehn Jahre alt.", "n": "He's ten years old." },
-        { "t": "Sie heißt Maria.", "n": "Her name is Maria." },
-        { "t": "Mein Vater ist sehr nett.", "n": "My father is very nice." },
-        { "t": "Ich habe zwei Kinder.", "n": "I have two children." },
-        { "t": "Wir sind eine kleine Familie.", "n": "We're a small family." }
+        {
+          "t": "Mein Bruder ist groß.",
+          "n": "My brother is tall."
+        },
+        {
+          "t": "Meine Schwester ist lustig.",
+          "n": "My sister is funny."
+        },
+        {
+          "t": "Er ist zehn Jahre alt.",
+          "n": "He's ten years old."
+        },
+        {
+          "t": "Sie heißt Maria.",
+          "n": "Her name is Maria."
+        },
+        {
+          "t": "Mein Vater ist sehr nett.",
+          "n": "My father is very nice."
+        },
+        {
+          "t": "Ich habe zwei Kinder.",
+          "n": "I have two children."
+        },
+        {
+          "t": "Wir sind eine kleine Familie.",
+          "n": "We're a small family."
+        }
       ],
       "dialogue": {
         "title": "Tell me about them",
         "lines": [
-          { "who": "A", "name": "Tim", "t": "Wie heißt deine Schwester?", "n": "What's your sister's name?" },
-          { "who": "you", "t": "Sie heißt Maria. Sie ist lustig.", "n": "Her name is Maria. She's funny." },
-          { "who": "A", "name": "Tim", "t": "Und dein Bruder?", "n": "And your brother?" },
-          { "who": "you", "t": "Er ist zehn Jahre alt.", "n": "He's ten years old." }
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Wie heißt deine Schwester?",
+            "n": "What's your sister's name?"
+          },
+          {
+            "who": "you",
+            "t": "Sie heißt Maria. Sie ist lustig.",
+            "n": "Her name is Maria. She's funny."
+          },
+          {
+            "who": "A",
+            "name": "Tim",
+            "t": "Und dein Bruder?",
+            "n": "And your brother?"
+          },
+          {
+            "who": "you",
+            "t": "Er ist zehn Jahre alt.",
+            "n": "He's ten years old."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say your father is very nice.", "t": ["Mein Vater ist sehr nett"] },
-        { "n": "Say you have two children.", "t": ["Ich habe zwei Kinder"] },
-        { "n": "Say her name is Maria.", "t": ["Sie heißt Maria"] }
+        {
+          "n": "Say your father is very nice.",
+          "t": [
+            "Mein Vater ist sehr nett"
+          ]
+        },
+        {
+          "n": "Say you have two children.",
+          "t": [
+            "Ich habe zwei Kinder"
+          ]
+        },
+        {
+          "n": "Say her name is Maria.",
+          "t": [
+            "Sie heißt Maria"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u05-l3",
+      "title": "Grandparents & pets",
+      "goal": "Talk about grandparents and pets.",
+      "tip": {
+        "title": "Oma, Opa — das sind …",
+        "body": "Oma and Opa are the everyday words for grandma and grandpa; Großeltern means grandparents. For more than one person or thing, say Das sind …: Das sind meine Großeltern."
+      },
+      "phrases": [
+        {
+          "t": "Das sind meine Großeltern.",
+          "n": "These are my grandparents."
+        },
+        {
+          "t": "Meine Oma ist achtzig.",
+          "n": "My grandma is eighty."
+        },
+        {
+          "t": "Mein Opa heißt Karl.",
+          "n": "My grandpa is called Karl."
+        },
+        {
+          "t": "Ich habe einen Hund.",
+          "n": "I have a dog."
+        },
+        {
+          "t": "Wir haben eine Katze.",
+          "n": "We have a cat."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "More photos",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sara",
+            "t": "Ist das deine Oma?",
+            "n": "Is that your grandma?"
+          },
+          {
+            "who": "you",
+            "t": "Ja. Sie ist achtzig.",
+            "n": "Yes. She's eighty."
+          },
+          {
+            "who": "A",
+            "name": "Sara",
+            "t": "Und der Hund?",
+            "n": "And the dog?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist mein Hund Bello.",
+            "n": "That's my dog Bello."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say these are your grandparents.",
+          "t": [
+            "Das sind meine Großeltern"
+          ]
+        },
+        {
+          "n": "Say you have a dog.",
+          "t": [
+            "Ich habe einen Hund"
+          ]
+        },
+        {
+          "n": "Ask a friend if that is their grandma.",
+          "t": [
+            "Ist das deine Oma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l4",
+      "kind": "grammar",
+      "title": "mein, dein, Ihr",
+      "goal": "Say my and your with the right ending.",
+      "tip": {
+        "title": "Possessives work like ein",
+        "body": "mein, dein and Ihr take the same endings as ein: mein Bruder, meine Schwester, mein Kind — and -e for plural: meine Eltern. Ask a friend with dein, someone formal with Ihr: Wie heißt Ihre Tochter?"
+      },
+      "phrases": [
+        {
+          "t": "Wie heißt dein Bruder?",
+          "n": "What's your brother's name?"
+        },
+        {
+          "t": "Wie heißt Ihre Tochter?",
+          "n": "What's your daughter's name? (formal)"
+        },
+        {
+          "t": "Meine Tochter heißt Lea.",
+          "n": "My daughter's name is Lea."
+        },
+        {
+          "t": "Dein Vater ist nett.",
+          "n": "Your father is nice."
+        },
+        {
+          "t": "Sind das deine Eltern?",
+          "n": "Are those your parents?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the family member",
+          "base": {
+            "t": "Das ist mein Bruder.",
+            "n": "This is my brother."
+          },
+          "items": [
+            {
+              "cue": "Schwester",
+              "t": "Das ist meine Schwester.",
+              "n": "This is my sister."
+            },
+            {
+              "cue": "Kind",
+              "t": "Das ist mein Kind.",
+              "n": "This is my child."
+            },
+            {
+              "cue": "Eltern",
+              "t": "Das sind meine Eltern.",
+              "n": "These are my parents."
+            }
+          ]
+        },
+        {
+          "title": "Swap my → your",
+          "base": {
+            "t": "Meine Mutter heißt Anna.",
+            "n": "My mother's name is Anna."
+          },
+          "items": [
+            {
+              "cue": "du?",
+              "t": "Wie heißt deine Mutter?",
+              "n": "What's your mother's name?"
+            },
+            {
+              "cue": "Sie?",
+              "t": "Wie heißt Ihre Mutter?",
+              "n": "What's your mother's name? (formal)"
+            },
+            {
+              "cue": "Vater · du?",
+              "t": "Wie heißt dein Vater?",
+              "n": "What's your father's name?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend what their brother's name is.",
+          "t": [
+            "Wie heißt dein Bruder"
+          ]
+        },
+        {
+          "n": "Ask a colleague (formal) what her daughter's name is.",
+          "t": [
+            "Wie heißt Ihre Tochter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l5",
+      "kind": "listening",
+      "title": "The family photo",
+      "goal": "Follow a chat about family members.",
+      "phrases": [
+        {
+          "t": "Ist das deine Familie?",
+          "n": "Is that your family?"
+        },
+        {
+          "t": "Das sind meine Eltern.",
+          "n": "These are my parents."
+        },
+        {
+          "t": "Wer ist die Frau hier?",
+          "n": "Who is the woman here?"
+        },
+        {
+          "t": "Er ist fünfzehn.",
+          "n": "He's fifteen."
+        }
+      ],
+      "story": {
+        "title": "Sara's family",
+        "intro": "Tim looks at a family photo on Sara's phone.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ist das deine Familie?",
+            "n": "Is that your family?"
+          },
+          {
+            "name": "Sara",
+            "t": "Ja. Das sind meine Eltern und mein Bruder Paul.",
+            "n": "Yes. These are my parents and my brother Paul."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Wie alt ist Paul?",
+            "n": "How old is Paul?"
+          },
+          {
+            "name": "Sara",
+            "t": "Er ist fünfzehn. Er ist sehr lustig.",
+            "n": "He's fifteen. He's very funny."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Und wer ist die Frau hier?",
+            "n": "And who is the woman here?"
+          },
+          {
+            "name": "Sara",
+            "t": "Das ist meine Oma. Sie wohnt in Wien.",
+            "n": "That's my grandma. She lives in Vienna."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie heißt der Bruder?",
+            "n": "What is the brother's name?",
+            "t": [
+              "Paul",
+              "Er heißt Paul"
+            ]
+          },
+          {
+            "q": "Wie alt ist Paul?",
+            "n": "How old is Paul?",
+            "t": [
+              "Fünfzehn",
+              "Er ist fünfzehn"
+            ]
+          },
+          {
+            "q": "Wo wohnt die Oma?",
+            "n": "Where does the grandma live?",
+            "t": [
+              "In Wien",
+              "Sie wohnt in Wien",
+              "Wien"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u05-l6",
+      "kind": "roleplay",
+      "title": "Meeting a friend's mother",
+      "goal": "Make a polite first impression — Sie or du?",
+      "phrases": [
+        {
+          "t": "Guten Tag, Frau Berger!",
+          "n": "Hello, Mrs Berger!"
+        },
+        {
+          "t": "Haben Sie Geschwister?",
+          "n": "Do you have siblings? (formal)"
+        },
+        {
+          "t": "Wie heißt Ihre Schwester?",
+          "n": "What's your sister's name? (formal)"
+        },
+        {
+          "t": "Lena hat zwei Brüder.",
+          "n": "Lena has two brothers."
+        }
+      ],
+      "branch": {
+        "title": "At Lena's home",
+        "scene": "Your friend Lena opens the door — and her mother comes to say hello.",
+        "name": "Frau Berger",
+        "voice": "de-DE-KatjaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Hallo! Ich bin Lenas Mutter. Willkommen!",
+            "n": "Hello! I'm Lena's mother. Welcome!",
+            "choices": [
+              {
+                "t": "Guten Tag, Frau Berger! Freut mich.",
+                "n": "Hello, Mrs Berger! Nice to meet you.",
+                "next": "polite"
+              },
+              {
+                "t": "Hallo! Wie heißt du?",
+                "n": "Hi! What's your name? (informal)",
+                "next": "du"
+              }
+            ]
+          },
+          "du": {
+            "t": "Oh … Ich bin Frau Berger.",
+            "n": "Oh … I'm Mrs Berger.",
+            "choices": [
+              {
+                "t": "Entschuldigung! Freut mich, Frau Berger.",
+                "n": "Sorry! Nice to meet you, Mrs Berger.",
+                "next": "polite"
+              },
+              {
+                "t": "Okay. Tschüss!",
+                "n": "OK. Bye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "polite": {
+            "t": "Freut mich auch! Haben Sie Geschwister?",
+            "n": "Nice to meet you too! Do you have siblings?",
+            "choices": [
+              {
+                "t": "Ja, ich habe eine Schwester.",
+                "n": "Yes, I have a sister.",
+                "next": "sister"
+              },
+              {
+                "t": "Nein, ich bin Einzelkind.",
+                "n": "No, I'm an only child.",
+                "next": "only"
+              }
+            ]
+          },
+          "sister": {
+            "t": "Schön! Wie heißt Ihre Schwester?",
+            "n": "Nice! What's your sister's name?",
+            "choices": [
+              {
+                "t": "Sie heißt Emma. Sie ist zwölf.",
+                "n": "Her name is Emma. She's twelve.",
+                "next": "cake"
+              }
+            ]
+          },
+          "only": {
+            "t": "Ach so. Lena hat zwei Brüder — sehr laut!",
+            "n": "I see. Lena has two brothers — very loud!",
+            "choices": [
+              {
+                "t": "Wie heißen die Brüder?",
+                "n": "What are the brothers' names?",
+                "next": "cake"
+              }
+            ]
+          },
+          "cake": {
+            "t": "Kommen Sie! Wir haben Kaffee und Kuchen.",
+            "n": "Come in! We've got coffee and cake.",
+            "end": "good",
+            "outcome": "You made a polite first impression on Lena's family."
+          },
+          "bye": {
+            "t": "Tschüss …?",
+            "n": "Bye …?",
+            "end": "bad",
+            "outcome": "Use Sie and Frau + surname with a friend's parents — try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Greet your friend's mother, Mrs Berger, politely.",
+          "t": [
+            "Guten Tag Frau Berger",
+            "Freut mich Frau Berger"
+          ]
+        },
+        {
+          "n": "Ask her (formal) if she has siblings.",
+          "t": [
+            "Haben Sie Geschwister"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l7",
+      "kind": "speaking",
+      "title": "My family",
+      "goal": "Describe your family freely for 30 seconds.",
+      "culture": {
+        "title": "du in the family",
+        "body": "Within the family everyone says du — children to parents, grandchildren to grandparents, nieces to aunts. With a partner's parents many people start with Sie until they are offered the du. Sunday is a classic family day, often with lunch at Oma's.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich habe eine große Familie.",
+          "n": "I have a big family."
+        },
+        {
+          "t": "Meine Mutter heißt Anna.",
+          "n": "My mother's name is Anna."
+        },
+        {
+          "t": "Mein Bruder wohnt in Wien.",
+          "n": "My brother lives in Vienna."
+        },
+        {
+          "t": "Am Sonntag besuche ich meine Oma.",
+          "n": "On Sunday I visit my grandma."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your family: who they are, their names, ages and where they live.",
+          "hint": "Meine Mutter heißt … Mein Bruder ist … Jahre alt. Er wohnt in …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "family members",
+              "any": [
+                "mutter",
+                "vater",
+                "bruder",
+                "brüder",
+                "schwester*",
+                "eltern",
+                "oma",
+                "opa",
+                "großeltern",
+                "kind*",
+                "tochter",
+                "sohn",
+                "geschwister",
+                "familie"
+              ]
+            },
+            {
+              "label": "names",
+              "any": [
+                "heißt",
+                "heißen",
+                "name"
+              ]
+            },
+            {
+              "label": "ages",
+              "any": [
+                "jahre alt",
+                "jahre",
+                "alt"
+              ]
+            },
+            {
+              "label": "where they live",
+              "any": [
+                "wohnt",
+                "wohnen",
+                "wohne"
+              ]
+            }
+          ],
+          "model": "Ich habe eine kleine Familie. Meine Mutter heißt Anna, sie ist sechzig Jahre alt. Mein Bruder Paul wohnt in Wien."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have a big family.",
+          "t": [
+            "Ich habe eine große Familie"
+          ]
+        },
+        {
+          "n": "Say your brother lives in Vienna.",
+          "t": [
+            "Mein Bruder wohnt in Wien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Familie",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

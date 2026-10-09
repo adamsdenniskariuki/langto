@@ -1,0 +1,247 @@
+{
+  "id": "pron-u01",
+  "level": "A1",
+  "title": "Umlaute",
+  "subtitle": "ü, ö, ä vs u, o, a",
+  "icon": "👄",
+  "lessons": [
+    {
+      "id": "pron-u01-l1",
+      "kind": "pron",
+      "title": "ü and ö",
+      "goal": "Hear and say ü/u and ö/o.",
+      "tip": {
+        "title": "Round your lips, think \"ee\"",
+        "body": "For ü, say \"ee\" as in \"see\", then round your lips tightly as for \"oo\" — keep the tongue forward. For ö, say \"ay\" as in \"say\" and round your lips. Don't slide into \"oo\" or \"oh\"."
+      },
+      "phrases": [
+        {
+          "t": "schön",
+          "n": "beautiful"
+        },
+        {
+          "t": "Grüß dich!",
+          "n": "Hi!"
+        },
+        {
+          "t": "Brötchen",
+          "n": "bread roll"
+        },
+        {
+          "t": "fünf Bücher",
+          "n": "five books"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ü / u",
+          "a": {
+            "t": "Mütter",
+            "n": "mothers"
+          },
+          "b": {
+            "t": "Mutter",
+            "n": "mother"
+          }
+        },
+        {
+          "sound": "ü / u",
+          "a": {
+            "t": "Brüder",
+            "n": "brothers"
+          },
+          "b": {
+            "t": "Bruder",
+            "n": "brother"
+          }
+        },
+        {
+          "sound": "ü / u",
+          "a": {
+            "t": "spülen",
+            "n": "to rinse"
+          },
+          "b": {
+            "t": "spulen",
+            "n": "to spool"
+          }
+        },
+        {
+          "sound": "ö / o",
+          "a": {
+            "t": "schön",
+            "n": "beautiful"
+          },
+          "b": {
+            "t": "schon",
+            "n": "already"
+          }
+        },
+        {
+          "sound": "ö / o",
+          "a": {
+            "t": "Töchter",
+            "n": "daughters"
+          },
+          "b": {
+            "t": "Tochter",
+            "n": "daughter"
+          }
+        },
+        {
+          "sound": "ö / o",
+          "a": {
+            "t": "Öfen",
+            "n": "ovens"
+          },
+          "b": {
+            "t": "Ofen",
+            "n": "oven"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Grüß dich!",
+          "n": "Hi!",
+          "mark": "*Grüß* dich!"
+        },
+        {
+          "t": "Die Brötchen sind schön.",
+          "n": "The rolls are nice.",
+          "mark": "Die *Bröt*chen sind *schön*."
+        },
+        {
+          "t": "Fünf Bücher",
+          "n": "Five books",
+          "mark": "*Fünf* *Bü*cher"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"beautiful\".",
+          "t": [
+            "schön"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u01-l2",
+      "kind": "pron",
+      "title": "ä, ü and ö again",
+      "goal": "Tell ä from a, ü from i, ö from e.",
+      "tip": {
+        "title": "Spread vs round",
+        "body": "ä is like \"e\" in \"bed\" (long ä like \"air\" without the r). ü and i use the same tongue position — only the lips change: spread for i, rounded for ü. Same for e (spread) and ö (rounded)."
+      },
+      "phrases": [
+        {
+          "t": "Danke schön!",
+          "n": "Thank you very much!"
+        },
+        {
+          "t": "Käse",
+          "n": "cheese"
+        },
+        {
+          "t": "zwölf",
+          "n": "twelve"
+        },
+        {
+          "t": "Wir hören Musik.",
+          "n": "We listen to music."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ä / a",
+          "a": {
+            "t": "Bär",
+            "n": "bear"
+          },
+          "b": {
+            "t": "Bar",
+            "n": "bar"
+          }
+        },
+        {
+          "sound": "ä / a",
+          "a": {
+            "t": "Väter",
+            "n": "fathers"
+          },
+          "b": {
+            "t": "Vater",
+            "n": "father"
+          }
+        },
+        {
+          "sound": "ü / i",
+          "a": {
+            "t": "Tür",
+            "n": "door"
+          },
+          "b": {
+            "t": "Tier",
+            "n": "animal"
+          }
+        },
+        {
+          "sound": "ü / i",
+          "a": {
+            "t": "küssen",
+            "n": "to kiss"
+          },
+          "b": {
+            "t": "Kissen",
+            "n": "pillow"
+          }
+        },
+        {
+          "sound": "ü / i",
+          "a": {
+            "t": "spülen",
+            "n": "to rinse"
+          },
+          "b": {
+            "t": "spielen",
+            "n": "to play"
+          }
+        },
+        {
+          "sound": "ö / e",
+          "a": {
+            "t": "können",
+            "n": "can"
+          },
+          "b": {
+            "t": "kennen",
+            "n": "to know"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Danke schön!",
+          "n": "Thank you very much!",
+          "mark": "*Dan*ke *schön*!"
+        },
+        {
+          "t": "Wir hören Musik.",
+          "n": "We listen to music.",
+          "mark": "Wir *hö*ren Mu*sik*.",
+          "note": "Musik is stressed on the end: Mu-SIK."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"twelve\".",
+          "t": [
+            "zwölf"
+          ]
+        }
+      ]
+    }
+  ]
+}

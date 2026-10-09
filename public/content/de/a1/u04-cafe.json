@@ -13,30 +13,97 @@
         "body": "Every noun has a gender. When you order something, masculine words change: der Kaffee → einen Kaffee. Feminine and neuter stay: eine Cola, ein Wasser. Ich hätte gern … is the politest way to order."
       },
       "phrases": [
-        { "t": "Was möchten Sie?", "n": "What would you like?" },
-        { "t": "Ich hätte gern einen Kaffee.", "n": "I'd like a coffee." },
-        { "t": "Einen Tee, bitte.", "n": "A tea, please." },
-        { "t": "Ein Wasser, bitte.", "n": "A water, please." },
-        { "t": "Ich nehme ein Stück Kuchen.", "n": "I'll take a piece of cake." },
-        { "t": "Mit Milch, bitte.", "n": "With milk, please." },
-        { "t": "Ohne Zucker.", "n": "Without sugar." }
+        {
+          "t": "Was möchten Sie?",
+          "n": "What would you like?"
+        },
+        {
+          "t": "Ich hätte gern einen Kaffee.",
+          "n": "I'd like a coffee."
+        },
+        {
+          "t": "Einen Tee, bitte.",
+          "n": "A tea, please."
+        },
+        {
+          "t": "Ein Wasser, bitte.",
+          "n": "A water, please."
+        },
+        {
+          "t": "Ich nehme ein Stück Kuchen.",
+          "n": "I'll take a piece of cake."
+        },
+        {
+          "t": "Mit Milch, bitte.",
+          "n": "With milk, please."
+        },
+        {
+          "t": "Ohne Zucker.",
+          "n": "Without sugar."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "At the counter",
         "lines": [
-          { "who": "A", "name": "Kellnerin", "t": "Guten Tag! Was möchten Sie?", "n": "Hello! What would you like?" },
-          { "who": "you", "t": "Ich hätte gern einen Kaffee, bitte.", "n": "I'd like a coffee, please." },
-          { "who": "A", "name": "Kellnerin", "t": "Mit Milch und Zucker?", "n": "With milk and sugar?" },
-          { "who": "you", "t": "Mit Milch, ohne Zucker.", "n": "With milk, without sugar." },
-          { "who": "A", "name": "Kellnerin", "t": "Gern. Sonst noch etwas?", "n": "Sure. Anything else?" },
-          { "who": "you", "t": "Ich nehme ein Stück Kuchen.", "n": "I'll take a piece of cake." }
+          {
+            "who": "A",
+            "name": "Kellnerin",
+            "t": "Guten Tag! Was möchten Sie?",
+            "n": "Hello! What would you like?"
+          },
+          {
+            "who": "you",
+            "t": "Ich hätte gern einen Kaffee, bitte.",
+            "n": "I'd like a coffee, please."
+          },
+          {
+            "who": "A",
+            "name": "Kellnerin",
+            "t": "Mit Milch und Zucker?",
+            "n": "With milk and sugar?"
+          },
+          {
+            "who": "you",
+            "t": "Mit Milch, ohne Zucker.",
+            "n": "With milk, without sugar."
+          },
+          {
+            "who": "A",
+            "name": "Kellnerin",
+            "t": "Gern. Sonst noch etwas?",
+            "n": "Sure. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Ich nehme ein Stück Kuchen.",
+            "n": "I'll take a piece of cake."
+          }
         ]
       },
       "prompts": [
-        { "n": "Order a coffee politely.", "t": ["Ich hätte gern einen Kaffee", "Einen Kaffee bitte", "Ich nehme einen Kaffee"] },
-        { "n": "Ask for a water.", "t": ["Ein Wasser bitte", "Ich hätte gern ein Wasser"] },
-        { "n": "Say you want it without sugar.", "t": ["Ohne Zucker", "Ohne Zucker bitte"] }
+        {
+          "n": "Order a coffee politely.",
+          "t": [
+            "Ich hätte gern einen Kaffee",
+            "Einen Kaffee bitte",
+            "Ich nehme einen Kaffee"
+          ]
+        },
+        {
+          "n": "Ask for a water.",
+          "t": [
+            "Ein Wasser bitte",
+            "Ich hätte gern ein Wasser"
+          ]
+        },
+        {
+          "n": "Say you want it without sugar.",
+          "t": [
+            "Ohne Zucker",
+            "Ohne Zucker bitte"
+          ]
+        }
       ]
     },
     {
@@ -48,31 +115,619 @@
         "body": "In Germany you usually round up and tell the server the total you want to pay, or say Stimmt so! (keep the change). Many cafés ask Zusammen oder getrennt? — together or separately?"
       },
       "phrases": [
-        { "t": "Die Rechnung, bitte!", "n": "The bill, please!" },
-        { "t": "Zahlen, bitte!", "n": "We'd like to pay, please!" },
-        { "t": "Was macht das?", "n": "How much is that?" },
-        { "t": "Das macht sieben Euro.", "n": "That's seven euros." },
-        { "t": "Zusammen oder getrennt?", "n": "Together or separately?" },
-        { "t": "Getrennt, bitte.", "n": "Separately, please." },
-        { "t": "Stimmt so!", "n": "Keep the change!" },
-        { "t": "Kann ich mit Karte zahlen?", "n": "Can I pay by card?" }
+        {
+          "t": "Die Rechnung, bitte!",
+          "n": "The bill, please!"
+        },
+        {
+          "t": "Zahlen, bitte!",
+          "n": "We'd like to pay, please!"
+        },
+        {
+          "t": "Was macht das?",
+          "n": "How much is that?"
+        },
+        {
+          "t": "Das macht sieben Euro.",
+          "n": "That's seven euros."
+        },
+        {
+          "t": "Zusammen oder getrennt?",
+          "n": "Together or separately?"
+        },
+        {
+          "t": "Getrennt, bitte.",
+          "n": "Separately, please."
+        },
+        {
+          "t": "Stimmt so!",
+          "n": "Keep the change!"
+        },
+        {
+          "t": "Kann ich mit Karte zahlen?",
+          "n": "Can I pay by card?"
+        }
       ],
       "dialogue": {
         "title": "Time to go",
         "lines": [
-          { "who": "you", "t": "Zahlen, bitte!", "n": "We'd like to pay, please!" },
-          { "who": "A", "name": "Kellner", "t": "Zusammen oder getrennt?", "n": "Together or separately?" },
-          { "who": "you", "t": "Zusammen. Was macht das?", "n": "Together. How much is that?" },
-          { "who": "A", "name": "Kellner", "t": "Das macht neun Euro.", "n": "That's nine euros." },
-          { "who": "you", "t": "Zehn Euro. Stimmt so!", "n": "Ten euros. Keep the change!" },
-          { "who": "A", "name": "Kellner", "t": "Vielen Dank! Schönen Tag noch!", "n": "Many thanks! Have a nice day!" }
+          {
+            "who": "you",
+            "t": "Zahlen, bitte!",
+            "n": "We'd like to pay, please!"
+          },
+          {
+            "who": "A",
+            "name": "Kellner",
+            "t": "Zusammen oder getrennt?",
+            "n": "Together or separately?"
+          },
+          {
+            "who": "you",
+            "t": "Zusammen. Was macht das?",
+            "n": "Together. How much is that?"
+          },
+          {
+            "who": "A",
+            "name": "Kellner",
+            "t": "Das macht neun Euro.",
+            "n": "That's nine euros."
+          },
+          {
+            "who": "you",
+            "t": "Zehn Euro. Stimmt so!",
+            "n": "Ten euros. Keep the change!"
+          },
+          {
+            "who": "A",
+            "name": "Kellner",
+            "t": "Vielen Dank! Schönen Tag noch!",
+            "n": "Many thanks! Have a nice day!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask for the bill.", "t": ["Die Rechnung bitte", "Zahlen bitte"] },
-        { "n": "Ask if you can pay by card.", "t": ["Kann ich mit Karte zahlen"] },
-        { "n": "Tell the waiter to keep the change.", "t": ["Stimmt so"] }
+        {
+          "n": "Ask for the bill.",
+          "t": [
+            "Die Rechnung bitte",
+            "Zahlen bitte"
+          ]
+        },
+        {
+          "n": "Ask if you can pay by card.",
+          "t": [
+            "Kann ich mit Karte zahlen"
+          ]
+        },
+        {
+          "n": "Tell the waiter to keep the change.",
+          "t": [
+            "Stimmt so"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u04-l3",
+      "title": "At the bakery",
+      "goal": "Buy rolls and cake at the bakery.",
+      "tip": {
+        "title": "Brötchen, Semmel, Weggli",
+        "body": "A bread roll is a Brötchen in most of Germany, a Semmel in Austria and Bavaria, and a Weggli in Switzerland. Was darf es sein? is how bakers ask what you want."
+      },
+      "phrases": [
+        {
+          "t": "Was darf es sein?",
+          "n": "What can I get you?"
+        },
+        {
+          "t": "Zwei Brötchen, bitte.",
+          "n": "Two bread rolls, please."
+        },
+        {
+          "t": "Haben Sie Apfelkuchen?",
+          "n": "Do you have apple cake?"
+        },
+        {
+          "t": "Für hier oder zum Mitnehmen?",
+          "n": "For here or to take away?"
+        },
+        {
+          "t": "Zum Mitnehmen, bitte.",
+          "n": "To take away, please."
+        },
+        {
+          "t": "Das ist alles.",
+          "n": "That's all."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "Morning at the bakery",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Guten Morgen! Was darf es sein?",
+            "n": "Good morning! What can I get you?"
+          },
+          {
+            "who": "you",
+            "t": "Zwei Brötchen, bitte.",
+            "n": "Two bread rolls, please."
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Für hier oder zum Mitnehmen?",
+            "n": "For here or to take away?"
+          },
+          {
+            "who": "you",
+            "t": "Zum Mitnehmen. Das ist alles.",
+            "n": "To take away. That's all."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Order two bread rolls.",
+          "t": [
+            "Zwei Brötchen bitte",
+            "Ich möchte zwei Brötchen"
+          ]
+        },
+        {
+          "n": "Say it's to take away.",
+          "t": [
+            "Zum Mitnehmen",
+            "Zum Mitnehmen bitte"
+          ]
+        },
+        {
+          "n": "Say that's all.",
+          "t": [
+            "Das ist alles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l4",
+      "kind": "grammar",
+      "title": "möchten + einen, eine, ein",
+      "goal": "Order anything with the right article.",
+      "tip": {
+        "title": "What you order changes the article",
+        "body": "möchten: ich möchte, du möchtest, er/sie möchte, wir/Sie möchten. The thing you order is the object (accusative): masculine der Tee becomes einen Tee. Feminine eine Cola and neuter ein Wasser stay the same."
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte einen Tee.",
+          "n": "I'd like a tea."
+        },
+        {
+          "t": "Möchtest du eine Cola?",
+          "n": "Would you like a cola?"
+        },
+        {
+          "t": "Er möchte ein Wasser.",
+          "n": "He'd like a water."
+        },
+        {
+          "t": "Wir möchten zwei Kaffee.",
+          "n": "We'd like two coffees.",
+          "note": "When ordering, Kaffee often stays singular."
+        },
+        {
+          "t": "Möchten Sie Milch?",
+          "n": "Would you like milk?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the drink",
+          "base": {
+            "t": "Ich möchte einen Kaffee.",
+            "n": "I'd like a coffee."
+          },
+          "items": [
+            {
+              "cue": "Cola (die)",
+              "t": "Ich möchte eine Cola.",
+              "n": "I'd like a cola."
+            },
+            {
+              "cue": "Wasser (das)",
+              "t": "Ich möchte ein Wasser.",
+              "n": "I'd like a water."
+            },
+            {
+              "cue": "Tee (der)",
+              "t": "Ich möchte einen Tee.",
+              "n": "I'd like a tea."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Ich möchte ein Brötchen.",
+            "n": "I'd like a bread roll."
+          },
+          "items": [
+            {
+              "cue": "du?",
+              "t": "Möchtest du ein Brötchen?",
+              "n": "Would you like a bread roll?"
+            },
+            {
+              "cue": "Sie?",
+              "t": "Möchten Sie ein Brötchen?",
+              "n": "Would you like a bread roll? (formal)"
+            },
+            {
+              "cue": "er",
+              "t": "Er möchte ein Brötchen.",
+              "n": "He'd like a bread roll."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'd like a tea.",
+          "t": [
+            "Ich möchte einen Tee",
+            "Einen Tee bitte"
+          ]
+        },
+        {
+          "n": "Ask a friend if they'd like a cola.",
+          "t": [
+            "Möchtest du eine Cola"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l5",
+      "kind": "listening",
+      "title": "Coffee with Lena",
+      "goal": "Follow two friends ordering.",
+      "phrases": [
+        {
+          "t": "Was möchtest du?",
+          "n": "What would you like?"
+        },
+        {
+          "t": "Ich nehme nur einen Tee.",
+          "n": "I'll just have a tea."
+        },
+        {
+          "t": "Na gut.",
+          "n": "Oh, all right."
+        },
+        {
+          "t": "Ich zahle heute.",
+          "n": "I'm paying today."
+        }
+      ],
+      "story": {
+        "title": "Lena and Max order",
+        "intro": "Two friends sit down in a café.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Max",
+            "voice": "de-DE-ConradNeural",
+            "t": "Was möchtest du, Lena?",
+            "n": "What would you like, Lena?"
+          },
+          {
+            "name": "Lena",
+            "t": "Ich möchte einen Cappuccino und ein Stück Apfelkuchen.",
+            "n": "I'd like a cappuccino and a piece of apple cake."
+          },
+          {
+            "name": "Max",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich nehme nur einen Tee.",
+            "n": "I'll just have a tea."
+          },
+          {
+            "name": "Lena",
+            "t": "Nur einen Tee? Der Kuchen hier ist super!",
+            "n": "Just a tea? The cake here is great!"
+          },
+          {
+            "name": "Max",
+            "voice": "de-DE-ConradNeural",
+            "t": "Na gut. Dann auch ein Stück Kuchen.",
+            "n": "Oh, all right. A piece of cake too, then."
+          },
+          {
+            "name": "Lena",
+            "t": "Und ich zahle heute!",
+            "n": "And I'm paying today!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was trinkt Lena?",
+            "n": "What is Lena drinking?",
+            "t": [
+              "Einen Cappuccino",
+              "Cappuccino"
+            ]
+          },
+          {
+            "q": "Was trinkt Max?",
+            "n": "What is Max drinking?",
+            "t": [
+              "Einen Tee",
+              "Tee"
+            ]
+          },
+          {
+            "q": "Wer zahlt heute?",
+            "n": "Who is paying today?",
+            "t": [
+              "Lena",
+              "Lena zahlt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u04-l6",
+      "kind": "roleplay",
+      "title": "Order, pay, tip",
+      "goal": "Order in a café and pay like a local.",
+      "phrases": [
+        {
+          "t": "Was möchten Sie trinken?",
+          "n": "What would you like to drink?"
+        },
+        {
+          "t": "Schwarz, bitte.",
+          "n": "Black, please."
+        },
+        {
+          "t": "Möchten Sie auch ein Stück Kuchen?",
+          "n": "Would you also like a piece of cake?"
+        },
+        {
+          "t": "Sieben Euro. Stimmt so!",
+          "n": "Seven euros. Keep the change!"
+        }
+      ],
+      "branch": {
+        "title": "At a café table",
+        "scene": "You sit down at a café; the waiter comes over.",
+        "name": "Kellner",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Tag! Was möchten Sie trinken?",
+            "n": "Hello! What would you like to drink?",
+            "choices": [
+              {
+                "t": "Ich möchte einen Kaffee, bitte.",
+                "n": "I'd like a coffee, please.",
+                "next": "milk"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "again"
+              }
+            ]
+          },
+          "again": {
+            "t": "Was möchten Sie trinken? Kaffee? Tee?",
+            "n": "What would you like to drink? Coffee? Tea?",
+            "choices": [
+              {
+                "t": "Einen Kaffee, bitte.",
+                "n": "A coffee, please.",
+                "next": "milk"
+              },
+              {
+                "t": "Einen Tee, bitte.",
+                "n": "A tea, please.",
+                "next": "cake"
+              }
+            ]
+          },
+          "milk": {
+            "t": "Mit Milch und Zucker?",
+            "n": "With milk and sugar?",
+            "choices": [
+              {
+                "t": "Mit Milch, bitte.",
+                "n": "With milk, please.",
+                "next": "cake"
+              },
+              {
+                "t": "Schwarz, bitte.",
+                "n": "Black, please.",
+                "next": "cake"
+              }
+            ]
+          },
+          "cake": {
+            "t": "Gern. Möchten Sie auch ein Stück Kuchen?",
+            "n": "Sure. Would you also like a piece of cake?",
+            "choices": [
+              {
+                "t": "Ja, gern. Apfelkuchen, bitte.",
+                "n": "Yes, please. Apple cake.",
+                "next": "pay"
+              },
+              {
+                "t": "Nein, danke. Zahlen, bitte.",
+                "n": "No, thanks. I'd like to pay.",
+                "next": "pay"
+              }
+            ]
+          },
+          "pay": {
+            "t": "Gern. Das macht sechs Euro.",
+            "n": "Sure. That's six euros.",
+            "choices": [
+              {
+                "t": "Sieben Euro. Stimmt so!",
+                "n": "Seven euros. Keep the change!",
+                "next": "thanks"
+              },
+              {
+                "t": "Sechs Euro? Das ist zu teuer!",
+                "n": "Six euros? That's too expensive!",
+                "next": "grumpy"
+              }
+            ]
+          },
+          "thanks": {
+            "t": "Vielen Dank! Schönen Tag noch!",
+            "n": "Many thanks! Have a nice day!",
+            "end": "good",
+            "outcome": "You ordered, paid and tipped like a local."
+          },
+          "grumpy": {
+            "t": "Hm. Das ist der Preis.",
+            "n": "Hm. That's the price.",
+            "end": "bad",
+            "outcome": "Complaining about the price fell flat — try rounding up with Stimmt so!"
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you want your coffee black.",
+          "t": [
+            "Schwarz bitte",
+            "Einen Kaffee schwarz bitte"
+          ]
+        },
+        {
+          "n": "The bill is 6 euros. Pay 7 and keep the change.",
+          "t": [
+            "Sieben Euro stimmt so"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l7",
+      "kind": "speaking",
+      "title": "Your café order",
+      "goal": "Order and pay freely for 30 seconds.",
+      "culture": {
+        "title": "Kaffee und Kuchen",
+        "body": "On weekend afternoons around 3 or 4 pm, many Germans sit down for Kaffee und Kuchen — coffee and (often homemade) cake with family or friends. In Vienna the coffee house is an institution: your coffee comes with a glass of water and you can sit for hours.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Kaffee und Kuchen",
+          "n": "coffee and cake (afternoon tradition)"
+        },
+        {
+          "t": "Eine Melange, bitte.",
+          "n": "A Melange, please.",
+          "note": "Viennese coffee with frothed milk."
+        },
+        {
+          "t": "Ein Stück Torte, bitte.",
+          "n": "A piece of gateau, please."
+        },
+        {
+          "t": "Das schmeckt gut!",
+          "n": "That tastes good!"
+        }
+      ],
+      "free": [
+        {
+          "n": "In a café: greet, order a drink and something to eat, then ask for the bill.",
+          "hint": "Guten Tag! Ich möchte einen …, ein Stück … Die Rechnung, bitte.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "a drink",
+              "any": [
+                "kaffee",
+                "tee",
+                "wasser",
+                "cola",
+                "cappuccino",
+                "melange",
+                "milch"
+              ]
+            },
+            {
+              "label": "something to eat",
+              "any": [
+                "kuchen",
+                "apfelkuchen",
+                "torte",
+                "brötchen",
+                "croissant",
+                "stück"
+              ]
+            },
+            {
+              "label": "ordering politely",
+              "any": [
+                "möchte*",
+                "hätte gern",
+                "nehme",
+                "bitte"
+              ]
+            },
+            {
+              "label": "paying",
+              "any": [
+                "rechnung",
+                "zahlen",
+                "stimmt so",
+                "karte",
+                "was macht das"
+              ]
+            }
+          ],
+          "model": "Guten Tag! Ich möchte einen Kaffee mit Milch und ein Stück Apfelkuchen, bitte. Und dann die Rechnung, bitte."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the cake tastes good.",
+          "t": [
+            "Das schmeckt gut",
+            "Der Kuchen schmeckt gut"
+          ]
+        },
+        {
+          "n": "In Vienna: order a Melange.",
+          "t": [
+            "Eine Melange bitte",
+            "Ich möchte eine Melange"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Im Café",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

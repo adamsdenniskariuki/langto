@@ -13,28 +13,91 @@
         "body": "Ich möchte (I would like) is your best friend in shops. Plurals vary: ein Brötchen → drei Brötchen, ein Apfel → zwei Äpfel."
       },
       "phrases": [
-        { "t": "Ich möchte ein Brot.", "n": "I'd like a loaf of bread." },
-        { "t": "Ich nehme drei Brötchen.", "n": "I'll take three bread rolls." },
-        { "t": "Haben Sie Croissants?", "n": "Do you have croissants?" },
-        { "t": "Wie viel kostet das?", "n": "How much does that cost?" },
-        { "t": "Das ist zu teuer.", "n": "That's too expensive." },
-        { "t": "Sonst noch etwas?", "n": "Anything else?" },
-        { "t": "Nein, danke, das ist alles.", "n": "No thanks, that's all." }
+        {
+          "t": "Ich möchte ein Brot.",
+          "n": "I'd like a loaf of bread."
+        },
+        {
+          "t": "Ich nehme drei Brötchen.",
+          "n": "I'll take three bread rolls."
+        },
+        {
+          "t": "Haben Sie Croissants?",
+          "n": "Do you have croissants?"
+        },
+        {
+          "t": "Wie viel kostet das?",
+          "n": "How much does that cost?"
+        },
+        {
+          "t": "Das ist zu teuer.",
+          "n": "That's too expensive."
+        },
+        {
+          "t": "Sonst noch etwas?",
+          "n": "Anything else?"
+        },
+        {
+          "t": "Nein, danke, das ist alles.",
+          "n": "No thanks, that's all."
+        }
       ],
       "dialogue": {
         "title": "Bäckerei Schmidt",
         "lines": [
-          { "who": "A", "name": "Bäcker", "t": "Guten Morgen! Was darf es sein?", "n": "Good morning! What can I get you?" },
-          { "who": "you", "t": "Ich nehme drei Brötchen, bitte.", "n": "I'll take three rolls, please." },
-          { "who": "A", "name": "Bäcker", "t": "Sonst noch etwas?", "n": "Anything else?" },
-          { "who": "you", "t": "Nein, danke, das ist alles. Wie viel kostet das?", "n": "No thanks, that's all. How much is it?" },
-          { "who": "A", "name": "Bäcker", "t": "Zwei Euro zehn, bitte.", "n": "Two euros ten, please." }
+          {
+            "who": "A",
+            "name": "Bäcker",
+            "t": "Guten Morgen! Was darf es sein?",
+            "n": "Good morning! What can I get you?"
+          },
+          {
+            "who": "you",
+            "t": "Ich nehme drei Brötchen, bitte.",
+            "n": "I'll take three rolls, please."
+          },
+          {
+            "who": "A",
+            "name": "Bäcker",
+            "t": "Sonst noch etwas?",
+            "n": "Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, danke, das ist alles. Wie viel kostet das?",
+            "n": "No thanks, that's all. How much is it?"
+          },
+          {
+            "who": "A",
+            "name": "Bäcker",
+            "t": "Zwei Euro zehn, bitte.",
+            "n": "Two euros ten, please."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask how much something costs.", "t": ["Wie viel kostet das", "Was kostet das"] },
-        { "n": "Order three bread rolls.", "t": ["Ich nehme drei Brötchen", "Drei Brötchen bitte", "Ich möchte drei Brötchen"] },
-        { "n": "Say that's all, thanks.", "t": ["Nein danke das ist alles", "Das ist alles"] }
+        {
+          "n": "Ask how much something costs.",
+          "t": [
+            "Wie viel kostet das",
+            "Was kostet das"
+          ]
+        },
+        {
+          "n": "Order three bread rolls.",
+          "t": [
+            "Ich nehme drei Brötchen",
+            "Drei Brötchen bitte",
+            "Ich möchte drei Brötchen"
+          ]
+        },
+        {
+          "n": "Say that's all, thanks.",
+          "t": [
+            "Nein danke das ist alles",
+            "Das ist alles"
+          ]
+        }
       ]
     },
     {
@@ -46,30 +109,625 @@
         "body": "Add gern after a verb to say you like doing it: Ich esse gern Pizza (I like eating pizza). Use kein/keinen to say you don't: Ich mag keinen Fisch."
       },
       "phrases": [
-        { "t": "Ich esse gern Pizza.", "n": "I like eating pizza." },
-        { "t": "Ich trinke gern Kaffee.", "n": "I like drinking coffee." },
-        { "t": "Ich mag keinen Fisch.", "n": "I don't like fish." },
-        { "t": "Ich bin Vegetarier.", "n": "I'm vegetarian. (male)" },
-        { "t": "Ich bin Vegetarierin.", "n": "I'm vegetarian. (female)" },
-        { "t": "Das schmeckt gut!", "n": "That tastes good!" },
-        { "t": "Ich habe Hunger.", "n": "I'm hungry." },
-        { "t": "Ich habe Durst.", "n": "I'm thirsty." }
+        {
+          "t": "Ich esse gern Pizza.",
+          "n": "I like eating pizza."
+        },
+        {
+          "t": "Ich trinke gern Kaffee.",
+          "n": "I like drinking coffee."
+        },
+        {
+          "t": "Ich mag keinen Fisch.",
+          "n": "I don't like fish."
+        },
+        {
+          "t": "Ich bin Vegetarier.",
+          "n": "I'm vegetarian. (male)"
+        },
+        {
+          "t": "Ich bin Vegetarierin.",
+          "n": "I'm vegetarian. (female)"
+        },
+        {
+          "t": "Das schmeckt gut!",
+          "n": "That tastes good!"
+        },
+        {
+          "t": "Ich habe Hunger.",
+          "n": "I'm hungry."
+        },
+        {
+          "t": "Ich habe Durst.",
+          "n": "I'm thirsty."
+        }
       ],
       "dialogue": {
         "title": "Dinner plans",
         "lines": [
-          { "who": "A", "name": "Lukas", "t": "Ich habe Hunger! Isst du gern Fisch?", "n": "I'm hungry! Do you like fish?" },
-          { "who": "you", "t": "Nein, ich mag keinen Fisch.", "n": "No, I don't like fish." },
-          { "who": "A", "name": "Lukas", "t": "Und Pizza?", "n": "And pizza?" },
-          { "who": "you", "t": "Ja! Ich esse gern Pizza.", "n": "Yes! I like eating pizza." },
-          { "who": "A", "name": "Lukas", "t": "Mmm, das schmeckt gut!", "n": "Mmm, that tastes good!" }
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Ich habe Hunger! Isst du gern Fisch?",
+            "n": "I'm hungry! Do you like fish?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, ich mag keinen Fisch.",
+            "n": "No, I don't like fish."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Und Pizza?",
+            "n": "And pizza?"
+          },
+          {
+            "who": "you",
+            "t": "Ja! Ich esse gern Pizza.",
+            "n": "Yes! I like eating pizza."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Mmm, das schmeckt gut!",
+            "n": "Mmm, that tastes good!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you're hungry.", "t": ["Ich habe Hunger"] },
-        { "n": "Say you like drinking coffee.", "t": ["Ich trinke gern Kaffee"] },
-        { "n": "Compliment the food.", "t": ["Das schmeckt gut", "Das schmeckt sehr gut", "Lecker"] }
+        {
+          "n": "Say you're hungry.",
+          "t": [
+            "Ich habe Hunger"
+          ]
+        },
+        {
+          "n": "Say you like drinking coffee.",
+          "t": [
+            "Ich trinke gern Kaffee"
+          ]
+        },
+        {
+          "n": "Compliment the food.",
+          "t": [
+            "Das schmeckt gut",
+            "Das schmeckt sehr gut",
+            "Lecker"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "At the market",
+      "goal": "Buy fruit and veg and pay.",
+      "tip": {
+        "title": "Ich hätte gern …",
+        "body": "Ich hätte gern (I'd like) is as polite as Ich möchte. Prices: Was kostet … for one thing, Was kosten … for several."
+      },
+      "phrases": [
+        {
+          "t": "Ich hätte gern ein Kilo Äpfel.",
+          "n": "I'd like a kilo of apples."
+        },
+        {
+          "t": "Was kosten die Tomaten?",
+          "n": "How much are the tomatoes?"
+        },
+        {
+          "t": "Ein Kilo kostet drei Euro.",
+          "n": "A kilo costs three euros."
+        },
+        {
+          "t": "Ich brauche Milch und Eier.",
+          "n": "I need milk and eggs."
+        },
+        {
+          "t": "Kann ich mit Karte zahlen?",
+          "n": "Can I pay by card?"
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "Saturday market",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Guten Tag! Was darf es sein?",
+            "n": "Hello! What can I get you?"
+          },
+          {
+            "who": "you",
+            "t": "Ich hätte gern ein Kilo Äpfel.",
+            "n": "I'd like a kilo of apples."
+          },
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Gern. Sonst noch etwas?",
+            "n": "Sure. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, danke. Kann ich mit Karte zahlen?",
+            "n": "No, thanks. Can I pay by card?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how much the tomatoes are.",
+          "t": [
+            "Was kosten die Tomaten",
+            "Wie viel kosten die Tomaten"
+          ]
+        },
+        {
+          "n": "Ask if you can pay by card.",
+          "t": [
+            "Kann ich mit Karte zahlen"
+          ]
+        },
+        {
+          "n": "Say you need milk and eggs.",
+          "t": [
+            "Ich brauche Milch und Eier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "kind": "grammar",
+      "title": "einen, eine, ein",
+      "goal": "Use the accusative and plurals when shopping.",
+      "tip": {
+        "title": "Only der changes",
+        "body": "After möchten, nehmen, brauchen and haben the thing you want is in the accusative. Only masculine words change: der Apfel → Ich nehme einen Apfel; eine Banane and ein Brot stay the same. One thing: Was kostet der Käse? Several: Was kosten die Äpfel?"
+      },
+      "phrases": [
+        {
+          "t": "Ich nehme einen Apfel.",
+          "n": "I'll take an apple."
+        },
+        {
+          "t": "Ich möchte eine Banane.",
+          "n": "I'd like a banana."
+        },
+        {
+          "t": "Ich kaufe ein Brot.",
+          "n": "I'm buying a loaf of bread."
+        },
+        {
+          "t": "Was kostet der Käse?",
+          "n": "How much is the cheese?"
+        },
+        {
+          "t": "Was kosten die Äpfel?",
+          "n": "How much are the apples?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the food",
+          "base": {
+            "t": "Ich möchte einen Kaffee.",
+            "n": "I'd like a coffee."
+          },
+          "items": [
+            {
+              "cue": "Tee (der)",
+              "t": "Ich möchte einen Tee.",
+              "n": "I'd like a tea."
+            },
+            {
+              "cue": "Banane (die)",
+              "t": "Ich möchte eine Banane.",
+              "n": "I'd like a banana."
+            },
+            {
+              "cue": "Brötchen (das)",
+              "t": "Ich möchte ein Brötchen.",
+              "n": "I'd like a bread roll."
+            }
+          ]
+        },
+        {
+          "title": "Swap one → several",
+          "base": {
+            "t": "Was kostet der Apfel?",
+            "n": "How much is the apple?"
+          },
+          "items": [
+            {
+              "cue": "die Äpfel",
+              "t": "Was kosten die Äpfel?",
+              "n": "How much are the apples?"
+            },
+            {
+              "cue": "die Tomaten",
+              "t": "Was kosten die Tomaten?",
+              "n": "How much are the tomatoes?"
+            },
+            {
+              "cue": "das Brot",
+              "t": "Was kostet das Brot?",
+              "n": "How much is the bread?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'd like a coffee (der Kaffee).",
+          "t": [
+            "Ich möchte einen Kaffee",
+            "Einen Kaffee bitte",
+            "Ich nehme einen Kaffee"
+          ]
+        },
+        {
+          "n": "Ask how much the eggs are.",
+          "t": [
+            "Was kosten die Eier",
+            "Wie viel kosten die Eier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l5",
+      "kind": "listening",
+      "title": "The shopping list",
+      "goal": "Follow a couple planning their shopping.",
+      "phrases": [
+        {
+          "t": "Wir brauchen Käse.",
+          "n": "We need cheese."
+        },
+        {
+          "t": "Wir haben keine Eier.",
+          "n": "We don't have any eggs."
+        },
+        {
+          "t": "Der Supermarkt ist offen.",
+          "n": "The supermarket is open."
+        },
+        {
+          "t": "Morgen ist alles zu.",
+          "n": "Tomorrow everything is closed."
+        }
+      ],
+      "story": {
+        "title": "Saturday evening",
+        "intro": "Anna and Tim check the fridge on a Saturday evening.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Anna",
+            "t": "Tim, wir brauchen Milch, Brot und Käse.",
+            "n": "Tim, we need milk, bread and cheese."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Und Eier? Wir haben keine Eier.",
+            "n": "And eggs? We don't have any eggs."
+          },
+          {
+            "name": "Anna",
+            "t": "Ja, sechs Eier. Und Äpfel für den Kuchen.",
+            "n": "Yes, six eggs. And apples for the cake."
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Der Supermarkt ist bis acht Uhr offen.",
+            "n": "The supermarket is open until eight."
+          },
+          {
+            "name": "Anna",
+            "t": "Gut, denn morgen ist Sonntag. Da ist alles zu!",
+            "n": "Good, because tomorrow is Sunday. Everything is closed then!"
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Dann gehe ich jetzt. Bis gleich!",
+            "n": "Then I'll go now. See you soon!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viele Eier brauchen sie?",
+            "n": "How many eggs do they need?",
+            "t": [
+              "Sechs Eier",
+              "Sechs"
+            ]
+          },
+          {
+            "q": "Bis wann ist der Supermarkt offen?",
+            "n": "Until when is the supermarket open?",
+            "t": [
+              "Bis acht Uhr",
+              "Bis acht"
+            ]
+          },
+          {
+            "q": "Wer geht einkaufen?",
+            "n": "Who goes shopping?",
+            "t": [
+              "Tim",
+              "Tim geht einkaufen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u07-l6",
+      "kind": "roleplay",
+      "title": "At the checkout",
+      "goal": "Pay at the supermarket till.",
+      "culture": {
+        "title": "Pfand: bottles are money",
+        "body": "Most plastic bottles and cans in Germany carry a deposit (Pfand) of up to 25 cents — Austria introduced one in 2025 too. Feed them into the machine in any supermarket and you get a Pfandbon, a receipt you cash in at the till. That's why people leave bottles next to bins: someone else can collect them.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Brauchen Sie eine Tüte?",
+          "n": "Do you need a bag?"
+        },
+        {
+          "t": "Das macht zwölf Euro.",
+          "n": "That's twelve euros."
+        },
+        {
+          "t": "Mit Karte, bitte.",
+          "n": "By card, please."
+        },
+        {
+          "t": "Ich habe einen Pfandbon.",
+          "n": "I have a bottle-deposit receipt.",
+          "note": "From the bottle-return machine."
+        }
+      ],
+      "branch": {
+        "title": "Supermarket till",
+        "scene": "You put your shopping on the belt. The cashier smiles at you.",
+        "name": "Kassiererin",
+        "voice": "de-DE-KatjaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Hallo! Brauchen Sie eine Tüte?",
+            "n": "Hi! Do you need a bag?",
+            "choices": [
+              {
+                "t": "Ja, bitte.",
+                "n": "Yes, please.",
+                "next": "bag"
+              },
+              {
+                "t": "Nein, danke.",
+                "n": "No, thanks.",
+                "next": "total"
+              }
+            ]
+          },
+          "bag": {
+            "t": "Die Tüte kostet zwanzig Cent. Okay?",
+            "n": "The bag costs twenty cents. Okay?",
+            "choices": [
+              {
+                "t": "Ja, kein Problem.",
+                "n": "Yes, no problem.",
+                "next": "total"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "bag2"
+              }
+            ]
+          },
+          "bag2": {
+            "t": "Die Tüte … kostet … zwanzig Cent.",
+            "n": "The bag … costs … twenty cents.",
+            "choices": [
+              {
+                "t": "Ach so. Ja, bitte.",
+                "n": "I see. Yes, please.",
+                "next": "total"
+              }
+            ]
+          },
+          "total": {
+            "t": "Das macht zwölf Euro fünfzig.",
+            "n": "That's twelve euros fifty.",
+            "choices": [
+              {
+                "t": "Mit Karte, bitte.",
+                "n": "By card, please.",
+                "next": "card"
+              },
+              {
+                "t": "Ich habe noch einen Pfandbon.",
+                "n": "I also have a bottle-deposit receipt.",
+                "next": "pfand"
+              },
+              {
+                "t": "Das ist zu teuer! Ich gehe.",
+                "n": "That's too expensive! I'm leaving.",
+                "next": "leave"
+              }
+            ]
+          },
+          "pfand": {
+            "t": "Super, das sind zwei Euro. Dann macht das zehn Euro fünfzig.",
+            "n": "Great, that's two euros. So that's ten euros fifty.",
+            "choices": [
+              {
+                "t": "Mit Karte, bitte.",
+                "n": "By card, please.",
+                "next": "card"
+              }
+            ]
+          },
+          "card": {
+            "t": "Gern. Danke schön! Schönen Tag noch!",
+            "n": "Sure. Thank you! Have a nice day!",
+            "end": "good",
+            "outcome": "You paid and left with your shopping."
+          },
+          "leave": {
+            "t": "Oh … okay. Der Nächste, bitte!",
+            "n": "Oh … okay. Next, please!",
+            "end": "bad",
+            "outcome": "You left without your shopping — try again and pay."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to pay by card.",
+          "t": [
+            "Mit Karte bitte",
+            "Kann ich mit Karte zahlen",
+            "Ich zahle mit Karte"
+          ]
+        },
+        {
+          "n": "Say no thanks, you don't need a bag.",
+          "t": [
+            "Nein danke ich brauche keine Tüte",
+            "Nein danke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l7",
+      "kind": "speaking",
+      "title": "My shopping list",
+      "goal": "Say what you need and what you like for 30 seconds.",
+      "culture": {
+        "title": "Brötchen, Semmel, Weggli",
+        "body": "The bread roll has many names: Brötchen in most of Germany, Schrippe in Berlin, Semmel in Bavaria and Austria, and Weggli or Brötli in Switzerland. Bakeries open early, and many people fetch fresh rolls for breakfast, especially at the weekend. Use the local word and you'll get a smile.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Zwei Semmeln, bitte.",
+          "n": "Two bread rolls, please. (Bavaria, Austria)"
+        },
+        {
+          "t": "Ein Weggli, bitte.",
+          "n": "A bread roll, please. (Switzerland)"
+        },
+        {
+          "t": "Ich brauche noch Butter.",
+          "n": "I still need butter."
+        },
+        {
+          "t": "Das ist billig!",
+          "n": "That's cheap!"
+        }
+      ],
+      "free": [
+        {
+          "n": "Say what you need from the shop today and what you like to eat.",
+          "hint": "Ich brauche … · Ich kaufe einen / eine / ein … · Ich esse gern …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "what you need or buy",
+              "any": [
+                "brauche",
+                "kaufe",
+                "möchte",
+                "nehme",
+                "hätte gern"
+              ]
+            },
+            {
+              "label": "food",
+              "any": [
+                "brot",
+                "brötchen",
+                "semmel*",
+                "milch",
+                "käse",
+                "eier",
+                "apfel",
+                "äpfel",
+                "tomate*",
+                "banane*",
+                "butter",
+                "kaffee",
+                "tee",
+                "pizza",
+                "fisch",
+                "wasser"
+              ]
+            },
+            {
+              "label": "einen / eine / ein / kein",
+              "any": [
+                "einen",
+                "eine",
+                "ein",
+                "kein*"
+              ]
+            },
+            {
+              "label": "what you like",
+              "any": [
+                "gern",
+                "mag",
+                "lecker",
+                "schmeckt"
+              ]
+            }
+          ],
+          "model": "Ich brauche Brot, Milch und sechs Eier. Ich kaufe auch ein Kilo Äpfel. Ich esse gern Käse."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "You're in Vienna. Ask for two bread rolls.",
+          "t": [
+            "Zwei Semmeln bitte",
+            "Ich möchte zwei Semmeln",
+            "Ich hätte gern zwei Semmeln"
+          ]
+        },
+        {
+          "n": "Say that's cheap!",
+          "t": [
+            "Das ist billig",
+            "Das ist günstig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Einkaufen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

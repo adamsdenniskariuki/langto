@@ -13,29 +13,92 @@
         "body": "Wie komme ich … (how do I get …) uses zum for masculine/neuter places (zum Bahnhof, zum Museum) and zur for feminine ones (zur Post)."
       },
       "phrases": [
-        { "t": "Wo ist der Bahnhof?", "n": "Where is the train station?" },
-        { "t": "Wo ist die Toilette?", "n": "Where is the toilet?" },
-        { "t": "Wie komme ich zum Museum?", "n": "How do I get to the museum?" },
-        { "t": "Geradeaus.", "n": "Straight ahead." },
-        { "t": "Nach links.", "n": "To the left." },
-        { "t": "Nach rechts.", "n": "To the right." },
-        { "t": "Ist es weit?", "n": "Is it far?" },
-        { "t": "Nein, es ist ganz nah.", "n": "No, it's very close." }
+        {
+          "t": "Wo ist der Bahnhof?",
+          "n": "Where is the train station?"
+        },
+        {
+          "t": "Wo ist die Toilette?",
+          "n": "Where is the toilet?"
+        },
+        {
+          "t": "Wie komme ich zum Museum?",
+          "n": "How do I get to the museum?"
+        },
+        {
+          "t": "Geradeaus.",
+          "n": "Straight ahead."
+        },
+        {
+          "t": "Nach links.",
+          "n": "To the left."
+        },
+        {
+          "t": "Nach rechts.",
+          "n": "To the right."
+        },
+        {
+          "t": "Ist es weit?",
+          "n": "Is it far?"
+        },
+        {
+          "t": "Nein, es ist ganz nah.",
+          "n": "No, it's very close."
+        }
       ],
       "dialogue": {
         "title": "Lost in Munich",
         "lines": [
-          { "who": "you", "t": "Entschuldigung, wie komme ich zum Bahnhof?", "n": "Excuse me, how do I get to the station?" },
-          { "who": "A", "name": "Passant", "t": "Geradeaus und dann nach links.", "n": "Straight ahead and then left." },
-          { "who": "you", "t": "Ist es weit?", "n": "Is it far?" },
-          { "who": "A", "name": "Passant", "t": "Nein, es ist ganz nah. Fünf Minuten.", "n": "No, it's very close. Five minutes." },
-          { "who": "you", "t": "Vielen Dank!", "n": "Many thanks!" }
+          {
+            "who": "you",
+            "t": "Entschuldigung, wie komme ich zum Bahnhof?",
+            "n": "Excuse me, how do I get to the station?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Geradeaus und dann nach links.",
+            "n": "Straight ahead and then left."
+          },
+          {
+            "who": "you",
+            "t": "Ist es weit?",
+            "n": "Is it far?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Nein, es ist ganz nah. Fünf Minuten.",
+            "n": "No, it's very close. Five minutes."
+          },
+          {
+            "who": "you",
+            "t": "Vielen Dank!",
+            "n": "Many thanks!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask where the toilet is.", "t": ["Wo ist die Toilette", "Entschuldigung wo ist die Toilette"] },
-        { "n": "Ask how to get to the museum.", "t": ["Wie komme ich zum Museum"] },
-        { "n": "Ask whether it's far.", "t": ["Ist es weit", "Ist das weit"] }
+        {
+          "n": "Ask where the toilet is.",
+          "t": [
+            "Wo ist die Toilette",
+            "Entschuldigung wo ist die Toilette"
+          ]
+        },
+        {
+          "n": "Ask how to get to the museum.",
+          "t": [
+            "Wie komme ich zum Museum"
+          ]
+        },
+        {
+          "n": "Ask whether it's far.",
+          "t": [
+            "Ist es weit",
+            "Ist das weit"
+          ]
+        }
       ]
     },
     {
@@ -47,31 +110,625 @@
         "body": "fahren is for travelling by vehicle (Ich fahre mit dem Bus), gehen is for walking (Ich gehe zu Fuß)."
       },
       "phrases": [
-        { "t": "Ich fahre mit dem Bus.", "n": "I'm going by bus." },
-        { "t": "Ich gehe zu Fuß.", "n": "I'm walking." },
-        { "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
-        { "t": "Wann fährt der Zug?", "n": "When does the train leave?" },
-        { "t": "Von welchem Gleis?", "n": "From which platform?" },
-        { "t": "Der Zug hat Verspätung.", "n": "The train is delayed." },
-        { "t": "Hin und zurück.", "n": "Return (there and back)." }
+        {
+          "t": "Ich fahre mit dem Bus.",
+          "n": "I'm going by bus."
+        },
+        {
+          "t": "Ich gehe zu Fuß.",
+          "n": "I'm walking."
+        },
+        {
+          "t": "Eine Fahrkarte nach München, bitte.",
+          "n": "A ticket to Munich, please."
+        },
+        {
+          "t": "Wann fährt der Zug?",
+          "n": "When does the train leave?"
+        },
+        {
+          "t": "Von welchem Gleis?",
+          "n": "From which platform?"
+        },
+        {
+          "t": "Der Zug hat Verspätung.",
+          "n": "The train is delayed."
+        },
+        {
+          "t": "Hin und zurück.",
+          "n": "Return (there and back)."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "At the ticket office",
         "lines": [
-          { "who": "you", "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
-          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Einfach oder hin und zurück?", "n": "Single or return?" },
-          { "who": "you", "t": "Hin und zurück. Wann fährt der Zug?", "n": "Return. When does the train leave?" },
-          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Um zehn Uhr.", "n": "At ten o'clock." },
-          { "who": "you", "t": "Von welchem Gleis?", "n": "From which platform?" },
-          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Gleis drei. Gute Reise!", "n": "Platform three. Have a good trip!" }
+          {
+            "who": "you",
+            "t": "Eine Fahrkarte nach München, bitte.",
+            "n": "A ticket to Munich, please."
+          },
+          {
+            "who": "A",
+            "name": "Bahnmitarbeiterin",
+            "t": "Einfach oder hin und zurück?",
+            "n": "Single or return?"
+          },
+          {
+            "who": "you",
+            "t": "Hin und zurück. Wann fährt der Zug?",
+            "n": "Return. When does the train leave?"
+          },
+          {
+            "who": "A",
+            "name": "Bahnmitarbeiterin",
+            "t": "Um zehn Uhr.",
+            "n": "At ten o'clock."
+          },
+          {
+            "who": "you",
+            "t": "Von welchem Gleis?",
+            "n": "From which platform?"
+          },
+          {
+            "who": "A",
+            "name": "Bahnmitarbeiterin",
+            "t": "Gleis drei. Gute Reise!",
+            "n": "Platform three. Have a good trip!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Buy a ticket to Berlin.", "t": ["Eine Fahrkarte nach Berlin bitte", "Ein Ticket nach Berlin bitte"] },
-        { "n": "Ask when the train leaves.", "t": ["Wann fährt der Zug"] },
-        { "n": "Say you're walking.", "t": ["Ich gehe zu Fuß"] }
+        {
+          "n": "Buy a ticket to Berlin.",
+          "t": [
+            "Eine Fahrkarte nach Berlin bitte",
+            "Ein Ticket nach Berlin bitte"
+          ]
+        },
+        {
+          "n": "Ask when the train leaves.",
+          "t": [
+            "Wann fährt der Zug"
+          ]
+        },
+        {
+          "n": "Say you're walking.",
+          "t": [
+            "Ich gehe zu Fuß"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u08-l3",
+      "title": "Places in town",
+      "goal": "Find shops and stops nearby.",
+      "tip": {
+        "title": "Gibt es hier …?",
+        "body": "Gibt es hier eine Apotheke? (Is there a pharmacy here?) works for anything you're looking for. Ich suche den / die / das … means I'm looking for …."
+      },
+      "phrases": [
+        {
+          "t": "Gibt es hier eine Apotheke?",
+          "n": "Is there a pharmacy around here?"
+        },
+        {
+          "t": "Ja, da vorne rechts.",
+          "n": "Yes, up ahead on the right."
+        },
+        {
+          "t": "Wo ist die Haltestelle?",
+          "n": "Where is the stop?"
+        },
+        {
+          "t": "Die Bank ist gegenüber.",
+          "n": "The bank is opposite."
+        },
+        {
+          "t": "Ich suche den Supermarkt.",
+          "n": "I'm looking for the supermarket."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "On the high street",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Entschuldigung, gibt es hier eine Apotheke?",
+            "n": "Excuse me, is there a pharmacy around here?"
+          },
+          {
+            "who": "A",
+            "name": "Frau",
+            "t": "Ja, da vorne rechts.",
+            "n": "Yes, up ahead on the right."
+          },
+          {
+            "who": "you",
+            "t": "Danke! Und wo ist die Haltestelle?",
+            "n": "Thanks! And where is the stop?"
+          },
+          {
+            "who": "A",
+            "name": "Frau",
+            "t": "Gegenüber, neben der Bank.",
+            "n": "Opposite, next to the bank."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if there's a pharmacy around here.",
+          "t": [
+            "Gibt es hier eine Apotheke",
+            "Entschuldigung gibt es hier eine Apotheke"
+          ]
+        },
+        {
+          "n": "Say you're looking for the supermarket.",
+          "t": [
+            "Ich suche den Supermarkt",
+            "Ich suche einen Supermarkt"
+          ]
+        },
+        {
+          "n": "Ask where the stop is.",
+          "t": [
+            "Wo ist die Haltestelle",
+            "Wo ist die Bushaltestelle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l4",
+      "kind": "grammar",
+      "title": "Gehen Sie geradeaus!",
+      "goal": "Give polite directions and use zum / zur.",
+      "tip": {
+        "title": "Verb first, then Sie",
+        "body": "To tell a stranger what to do, put the verb first and add Sie: Gehen Sie geradeaus! Nehmen Sie den Bus! For destinations use zum with der/das words (zum Bahnhof, zum Hotel) and zur with die words (zur Post, zur Bank)."
+      },
+      "phrases": [
+        {
+          "t": "Gehen Sie geradeaus.",
+          "n": "Go straight ahead."
+        },
+        {
+          "t": "Nehmen Sie die erste Straße links.",
+          "n": "Take the first street on the left."
+        },
+        {
+          "t": "Fahren Sie mit der U-Bahn.",
+          "n": "Take the underground."
+        },
+        {
+          "t": "Wie komme ich zur Post?",
+          "n": "How do I get to the post office?"
+        },
+        {
+          "t": "Wie komme ich zum Hotel?",
+          "n": "How do I get to the hotel?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the place (zum / zur)",
+          "base": {
+            "t": "Wie komme ich zum Bahnhof?",
+            "n": "How do I get to the station?"
+          },
+          "items": [
+            {
+              "cue": "die Post",
+              "t": "Wie komme ich zur Post?",
+              "n": "How do I get to the post office?"
+            },
+            {
+              "cue": "das Hotel",
+              "t": "Wie komme ich zum Hotel?",
+              "n": "How do I get to the hotel?"
+            },
+            {
+              "cue": "die Bank",
+              "t": "Wie komme ich zur Bank?",
+              "n": "How do I get to the bank?"
+            }
+          ]
+        },
+        {
+          "title": "Swap the instruction",
+          "base": {
+            "t": "Gehen Sie geradeaus.",
+            "n": "Go straight ahead."
+          },
+          "items": [
+            {
+              "cue": "nach rechts",
+              "t": "Gehen Sie nach rechts.",
+              "n": "Go to the right."
+            },
+            {
+              "cue": "nehmen · den Bus",
+              "t": "Nehmen Sie den Bus.",
+              "n": "Take the bus."
+            },
+            {
+              "cue": "nehmen · die zweite Straße links",
+              "t": "Nehmen Sie die zweite Straße links.",
+              "n": "Take the second street on the left."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a tourist politely to go straight ahead.",
+          "t": [
+            "Gehen Sie geradeaus"
+          ]
+        },
+        {
+          "n": "Ask how to get to the bank.",
+          "t": [
+            "Wie komme ich zur Bank"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l5",
+      "kind": "listening",
+      "title": "Where's the hotel?",
+      "goal": "Follow directions at real speed.",
+      "phrases": [
+        {
+          "t": "bis zur Kirche",
+          "n": "as far as the church"
+        },
+        {
+          "t": "Und dann?",
+          "n": "And then?"
+        },
+        {
+          "t": "die zweite Straße rechts",
+          "n": "the second street on the right"
+        },
+        {
+          "t": "neben der Post",
+          "n": "next to the post office"
+        }
+      ],
+      "story": {
+        "title": "Sara asks the way",
+        "intro": "Sara has just arrived and is looking for her hotel.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Sara",
+            "t": "Entschuldigung, wie komme ich zum Hotel Krone?",
+            "n": "Excuse me, how do I get to the Hotel Krone?"
+          },
+          {
+            "name": "Mann",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gehen Sie hier geradeaus bis zur Kirche.",
+            "n": "Go straight ahead here as far as the church."
+          },
+          {
+            "name": "Sara",
+            "t": "Bis zur Kirche. Und dann?",
+            "n": "As far as the church. And then?"
+          },
+          {
+            "name": "Mann",
+            "voice": "de-DE-ConradNeural",
+            "t": "Dann nehmen Sie die zweite Straße rechts. Das Hotel ist neben der Post.",
+            "n": "Then take the second street on the right. The hotel is next to the post office."
+          },
+          {
+            "name": "Sara",
+            "t": "Ist es weit?",
+            "n": "Is it far?"
+          },
+          {
+            "name": "Mann",
+            "voice": "de-DE-ConradNeural",
+            "t": "Nein, zehn Minuten zu Fuß.",
+            "n": "No, ten minutes on foot."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wohin möchte Sara?",
+            "n": "Where does Sara want to go?",
+            "t": [
+              "Zum Hotel Krone",
+              "Zum Hotel",
+              "Hotel Krone"
+            ]
+          },
+          {
+            "q": "Welche Straße nimmt sie?",
+            "n": "Which street does she take?",
+            "t": [
+              "Die zweite Straße rechts",
+              "Die zweite rechts"
+            ]
+          },
+          {
+            "q": "Wie weit ist es?",
+            "n": "How far is it?",
+            "t": [
+              "Zehn Minuten zu Fuß",
+              "Zehn Minuten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u08-l6",
+      "kind": "roleplay",
+      "title": "On the bus",
+      "goal": "Buy a ticket from the driver and find your stop.",
+      "phrases": [
+        {
+          "t": "Fährt der Bus zum Bahnhof?",
+          "n": "Does the bus go to the station?"
+        },
+        {
+          "t": "Eine Einzelfahrkarte, bitte.",
+          "n": "A single ticket, please."
+        },
+        {
+          "t": "eine Tageskarte",
+          "n": "a day ticket"
+        },
+        {
+          "t": "Wo muss ich aussteigen?",
+          "n": "Where do I have to get off?"
+        }
+      ],
+      "branch": {
+        "title": "Bus number 5",
+        "scene": "You get on a city bus and want to go to the train station.",
+        "name": "Busfahrer",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Tag!",
+            "n": "Hello!",
+            "choices": [
+              {
+                "t": "Guten Tag! Fährt der Bus zum Bahnhof?",
+                "n": "Hello! Does the bus go to the station?",
+                "next": "yes"
+              },
+              {
+                "t": "Eine Fahrkarte, bitte.",
+                "n": "A ticket, please.",
+                "next": "which"
+              }
+            ]
+          },
+          "yes": {
+            "t": "Ja, zum Bahnhof. Haben Sie eine Fahrkarte?",
+            "n": "Yes, to the station. Do you have a ticket?",
+            "choices": [
+              {
+                "t": "Nein. Eine Fahrkarte, bitte.",
+                "n": "No. A ticket, please.",
+                "next": "which"
+              },
+              {
+                "t": "Ja, hier, bitte.",
+                "n": "Yes, here you go.",
+                "next": "stamp"
+              }
+            ]
+          },
+          "stamp": {
+            "t": "Die Karte ist nicht gestempelt. Bitte stempeln Sie da vorne.",
+            "n": "The ticket isn't stamped. Please stamp it up there.",
+            "choices": [
+              {
+                "t": "Oh, danke! Wo muss ich aussteigen?",
+                "n": "Oh, thanks! Where do I have to get off?",
+                "next": "stop"
+              }
+            ]
+          },
+          "which": {
+            "t": "Einzelfahrkarte oder Tageskarte?",
+            "n": "Single ticket or day ticket?",
+            "choices": [
+              {
+                "t": "Eine Einzelfahrkarte, bitte.",
+                "n": "A single ticket, please.",
+                "next": "price"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "explain"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Eine Fahrt oder den ganzen Tag?",
+            "n": "One trip or the whole day?",
+            "choices": [
+              {
+                "t": "Eine Fahrt, bitte.",
+                "n": "One trip, please.",
+                "next": "price"
+              }
+            ]
+          },
+          "price": {
+            "t": "Das macht drei Euro.",
+            "n": "That's three euros.",
+            "choices": [
+              {
+                "t": "Hier, bitte. Wo muss ich aussteigen?",
+                "n": "Here you go. Where do I have to get off?",
+                "next": "stop"
+              },
+              {
+                "t": "Drei Euro? Nein, ich gehe zu Fuß!",
+                "n": "Three euros? No, I'll walk!",
+                "next": "walk"
+              }
+            ]
+          },
+          "stop": {
+            "t": "Am Bahnhof. Das ist in zehn Minuten. Ich sage es Ihnen.",
+            "n": "At the station. That's in ten minutes. I'll tell you.",
+            "end": "good",
+            "outcome": "You have a valid ticket and you know where to get off."
+          },
+          "walk": {
+            "t": "Okay. Dann bitte aussteigen.",
+            "n": "Okay. Then please get off.",
+            "end": "bad",
+            "outcome": "You're walking now — try again and buy the ticket."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask the driver if the bus goes to the station.",
+          "t": [
+            "Fährt der Bus zum Bahnhof",
+            "Fahren Sie zum Bahnhof"
+          ]
+        },
+        {
+          "n": "Ask where you have to get off.",
+          "t": [
+            "Wo muss ich aussteigen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l7",
+      "kind": "speaking",
+      "title": "Show me the way",
+      "goal": "Explain a route for 30 seconds.",
+      "culture": {
+        "title": "No gates — but carry a ticket",
+        "body": "Most buses, trams and trains in Germany, Austria and Switzerland have no ticket barriers — the system runs on trust. Some tickets must be stamped (entwertet) in a small machine before or when you board. Inspectors check at random, and riding without a valid ticket (Schwarzfahren) usually costs a fine of around 60 euros.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Fahrkarten, bitte!",
+          "n": "Tickets, please!",
+          "note": "What inspectors say."
+        },
+        {
+          "t": "Wo kann ich eine Fahrkarte kaufen?",
+          "n": "Where can I buy a ticket?"
+        },
+        {
+          "t": "Das ist neben dem Park.",
+          "n": "That's next to the park."
+        },
+        {
+          "t": "Das sind zehn Minuten zu Fuß.",
+          "n": "That's ten minutes on foot."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain the way from the station to a café, museum or hotel.",
+          "hint": "Gehen Sie geradeaus · Nehmen Sie die erste Straße links / rechts · Das Café ist neben … · zehn Minuten zu Fuß",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "an instruction (Gehen Sie …)",
+              "any": [
+                "gehen sie",
+                "nehmen sie",
+                "fahren sie",
+                "geh",
+                "nimm",
+                "fahr"
+              ]
+            },
+            {
+              "label": "a direction",
+              "any": [
+                "links",
+                "rechts",
+                "geradeaus"
+              ]
+            },
+            {
+              "label": "a place",
+              "any": [
+                "bahnhof",
+                "café",
+                "cafe",
+                "museum",
+                "hotel",
+                "post",
+                "bank",
+                "kirche",
+                "park",
+                "supermarkt",
+                "apotheke",
+                "haltestelle"
+              ]
+            },
+            {
+              "label": "where or how far",
+              "any": [
+                "neben",
+                "gegenüber",
+                "da vorne",
+                "minuten",
+                "weit",
+                "nah",
+                "zu fuß"
+              ]
+            }
+          ],
+          "model": "Gehen Sie vom Bahnhof geradeaus. Nehmen Sie die zweite Straße links. Das Café ist neben der Post, zehn Minuten zu Fuß."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask where you can buy a ticket.",
+          "t": [
+            "Wo kann ich eine Fahrkarte kaufen",
+            "Wo kann ich ein Ticket kaufen"
+          ]
+        },
+        {
+          "n": "Say it's ten minutes on foot.",
+          "t": [
+            "Das sind zehn Minuten zu Fuß",
+            "Zehn Minuten zu Fuß"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: In der Stadt",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

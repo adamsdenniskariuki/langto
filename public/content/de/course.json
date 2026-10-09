@@ -94,5 +94,18 @@
         "c2/u08-krise.json"
       ]
     }
+  ],
+  "tracks": [
+    {
+      "id": "pron",
+      "title": "Pronunciation",
+      "description": "Train the sounds English speakers find hard: ü ö ä, ch, r, -en, sch/sp/st, w/v/z, plus stress and intonation. New units unlock as you reach each level.",
+      "badge": "Ü",
+      "units": [
+        "pron/u01-umlaute.json",
+        "pron/u02-ch.json",
+        "pron/u03-en-sch.json"
+      ]
+    }
   ]
 }

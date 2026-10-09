@@ -13,28 +13,86 @@
         "body": "Some verbs split in two: aufstehen → Ich stehe um sieben Uhr auf. fernsehen → Ich sehe fern. The little prefix jumps to the end of the sentence."
       },
       "phrases": [
-        { "t": "Ich stehe um sieben Uhr auf.", "n": "I get up at seven o'clock." },
-        { "t": "Ich dusche am Morgen.", "n": "I shower in the morning." },
-        { "t": "Ich frühstücke.", "n": "I have breakfast." },
-        { "t": "Ich arbeite von neun bis fünf.", "n": "I work from nine to five." },
-        { "t": "Am Abend sehe ich fern.", "n": "In the evening I watch TV." },
-        { "t": "Ich gehe um elf Uhr ins Bett.", "n": "I go to bed at eleven." }
+        {
+          "t": "Ich stehe um sieben Uhr auf.",
+          "n": "I get up at seven o'clock."
+        },
+        {
+          "t": "Ich dusche am Morgen.",
+          "n": "I shower in the morning."
+        },
+        {
+          "t": "Ich frühstücke.",
+          "n": "I have breakfast."
+        },
+        {
+          "t": "Ich arbeite von neun bis fünf.",
+          "n": "I work from nine to five."
+        },
+        {
+          "t": "Am Abend sehe ich fern.",
+          "n": "In the evening I watch TV."
+        },
+        {
+          "t": "Ich gehe um elf Uhr ins Bett.",
+          "n": "I go to bed at eleven."
+        }
       ],
       "dialogue": {
         "voice": "de-DE-AmalaNeural",
         "title": "Early bird?",
         "lines": [
-          { "who": "A", "name": "Julia", "t": "Wann stehst du auf?", "n": "When do you get up?" },
-          { "who": "you", "t": "Ich stehe um sieben Uhr auf.", "n": "I get up at seven." },
-          { "who": "A", "name": "Julia", "t": "Und was machst du am Abend?", "n": "And what do you do in the evening?" },
-          { "who": "you", "t": "Am Abend sehe ich fern.", "n": "In the evening I watch TV." },
-          { "who": "A", "name": "Julia", "t": "Ich auch!", "n": "Me too!" }
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Wann stehst du auf?",
+            "n": "When do you get up?"
+          },
+          {
+            "who": "you",
+            "t": "Ich stehe um sieben Uhr auf.",
+            "n": "I get up at seven."
+          },
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Und was machst du am Abend?",
+            "n": "And what do you do in the evening?"
+          },
+          {
+            "who": "you",
+            "t": "Am Abend sehe ich fern.",
+            "n": "In the evening I watch TV."
+          },
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Ich auch!",
+            "n": "Me too!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you get up at seven.", "t": ["Ich stehe um sieben Uhr auf", "Ich stehe um sieben auf"] },
-        { "n": "Say you work from nine to five.", "t": ["Ich arbeite von neun bis fünf"] },
-        { "n": "Say you go to bed at eleven.", "t": ["Ich gehe um elf Uhr ins Bett", "Ich gehe um elf ins Bett"] }
+        {
+          "n": "Say you get up at seven.",
+          "t": [
+            "Ich stehe um sieben Uhr auf",
+            "Ich stehe um sieben auf"
+          ]
+        },
+        {
+          "n": "Say you work from nine to five.",
+          "t": [
+            "Ich arbeite von neun bis fünf"
+          ]
+        },
+        {
+          "n": "Say you go to bed at eleven.",
+          "t": [
+            "Ich gehe um elf Uhr ins Bett",
+            "Ich gehe um elf ins Bett"
+          ]
+        }
       ]
     },
     {
@@ -46,30 +104,626 @@
         "body": "Spoken German uses haben + a past participle: Ich habe gearbeitet (I worked). For \"was\" use war: Mein Tag war gut."
       },
       "phrases": [
-        { "t": "Wie war dein Tag?", "n": "How was your day?" },
-        { "t": "Mein Tag war gut.", "n": "My day was good." },
-        { "t": "Ich bin müde.", "n": "I'm tired." },
-        { "t": "Ich war im Büro.", "n": "I was at the office." },
-        { "t": "Ich habe viel gearbeitet.", "n": "I worked a lot." },
-        { "t": "Was hast du gemacht?", "n": "What did you do?" },
-        { "t": "Ich habe Deutsch gelernt.", "n": "I learned German." }
+        {
+          "t": "Wie war dein Tag?",
+          "n": "How was your day?"
+        },
+        {
+          "t": "Mein Tag war gut.",
+          "n": "My day was good."
+        },
+        {
+          "t": "Ich bin müde.",
+          "n": "I'm tired."
+        },
+        {
+          "t": "Ich war im Büro.",
+          "n": "I was at the office."
+        },
+        {
+          "t": "Ich habe viel gearbeitet.",
+          "n": "I worked a lot."
+        },
+        {
+          "t": "Was hast du gemacht?",
+          "n": "What did you do?"
+        },
+        {
+          "t": "Ich habe Deutsch gelernt.",
+          "n": "I learned German."
+        }
       ],
       "dialogue": {
         "title": "Evening chat",
         "lines": [
-          { "who": "A", "name": "Paul", "t": "Hallo! Wie war dein Tag?", "n": "Hi! How was your day?" },
-          { "who": "you", "t": "Mein Tag war gut, aber ich bin müde.", "n": "My day was good, but I'm tired." },
-          { "who": "A", "name": "Paul", "t": "Was hast du gemacht?", "n": "What did you do?" },
-          { "who": "you", "t": "Ich war im Büro. Ich habe viel gearbeitet.", "n": "I was at the office. I worked a lot." },
-          { "who": "A", "name": "Paul", "t": "Und am Abend?", "n": "And in the evening?" },
-          { "who": "you", "t": "Ich habe Deutsch gelernt!", "n": "I learned German!" }
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Hallo! Wie war dein Tag?",
+            "n": "Hi! How was your day?"
+          },
+          {
+            "who": "you",
+            "t": "Mein Tag war gut, aber ich bin müde.",
+            "n": "My day was good, but I'm tired."
+          },
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Was hast du gemacht?",
+            "n": "What did you do?"
+          },
+          {
+            "who": "you",
+            "t": "Ich war im Büro. Ich habe viel gearbeitet.",
+            "n": "I was at the office. I worked a lot."
+          },
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Und am Abend?",
+            "n": "And in the evening?"
+          },
+          {
+            "who": "you",
+            "t": "Ich habe Deutsch gelernt!",
+            "n": "I learned German!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a friend how their day was.", "t": ["Wie war dein Tag"] },
-        { "n": "Say you're tired.", "t": ["Ich bin müde"] },
-        { "n": "Say you learned German today.", "t": ["Ich habe Deutsch gelernt", "Ich habe heute Deutsch gelernt"] }
+        {
+          "n": "Ask a friend how their day was.",
+          "t": [
+            "Wie war dein Tag"
+          ]
+        },
+        {
+          "n": "Say you're tired.",
+          "t": [
+            "Ich bin müde"
+          ]
+        },
+        {
+          "n": "Say you learned German today.",
+          "t": [
+            "Ich habe Deutsch gelernt",
+            "Ich habe heute Deutsch gelernt"
+          ]
+        }
       ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Chores & errands",
+      "goal": "Talk about jobs at home and in town.",
+      "tip": {
+        "title": "More split verbs",
+        "body": "einkaufen (to shop), aufräumen (to tidy up) and anrufen (to call) split too: Ich kaufe ein. Ich räume auf. Ich rufe meine Mutter an."
+      },
+      "phrases": [
+        {
+          "t": "Ich kaufe am Samstag ein.",
+          "n": "I do the shopping on Saturday."
+        },
+        {
+          "t": "Ich räume auf.",
+          "n": "I'm tidying up."
+        },
+        {
+          "t": "Ich koche das Abendessen.",
+          "n": "I'm cooking dinner."
+        },
+        {
+          "t": "Ich rufe meine Mutter an.",
+          "n": "I'm calling my mother."
+        },
+        {
+          "t": "Um sechs Uhr komme ich nach Hause.",
+          "n": "At six o'clock I come home."
+        }
+      ],
+      "dialogue": {
+        "voice": "de-DE-AmalaNeural",
+        "title": "Weekend jobs",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Was machst du am Samstag?",
+            "n": "What are you doing on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Am Samstag kaufe ich ein und räume auf.",
+            "n": "On Saturday I go shopping and tidy up."
+          },
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Und am Sonntag?",
+            "n": "And on Sunday?"
+          },
+          {
+            "who": "you",
+            "t": "Am Sonntag rufe ich meine Mutter an.",
+            "n": "On Sunday I call my mother."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you do the shopping on Saturday.",
+          "t": [
+            "Ich kaufe am Samstag ein",
+            "Am Samstag kaufe ich ein"
+          ]
+        },
+        {
+          "n": "Say you come home at six.",
+          "t": [
+            "Um sechs Uhr komme ich nach Hause",
+            "Ich komme um sechs Uhr nach Hause",
+            "Ich komme um sechs nach Hause"
+          ]
+        },
+        {
+          "n": "Say you're calling your mother.",
+          "t": [
+            "Ich rufe meine Mutter an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l4",
+      "kind": "grammar",
+      "title": "Separable verbs",
+      "goal": "Put the prefix in the right place.",
+      "tip": {
+        "title": "Prefix to the end",
+        "body": "Verbs like aufstehen, einkaufen, anrufen and fernsehen split in the present tense: the verb is in second place and the prefix goes to the very end — Am Montag stehe ich früh auf. With möchten or können the verb stays in one piece at the end: Ich möchte heute einkaufen."
+      },
+      "phrases": [
+        {
+          "t": "Ich stehe früh auf.",
+          "n": "I get up early."
+        },
+        {
+          "t": "Wann kaufst du ein?",
+          "n": "When do you go shopping?"
+        },
+        {
+          "t": "Er ruft seine Schwester an.",
+          "n": "He's calling his sister."
+        },
+        {
+          "t": "Wir sehen am Abend fern.",
+          "n": "We watch TV in the evening."
+        },
+        {
+          "t": "Ich möchte heute einkaufen.",
+          "n": "I'd like to go shopping today."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the verb",
+          "base": {
+            "t": "Ich stehe um sieben Uhr auf.",
+            "n": "I get up at seven o'clock."
+          },
+          "items": [
+            {
+              "cue": "einkaufen · um zehn",
+              "t": "Ich kaufe um zehn Uhr ein.",
+              "n": "I go shopping at ten o'clock."
+            },
+            {
+              "cue": "anrufen · Anna · um acht",
+              "t": "Ich rufe Anna um acht Uhr an.",
+              "n": "I call Anna at eight o'clock."
+            },
+            {
+              "cue": "fernsehen · um neun",
+              "t": "Ich sehe um neun Uhr fern.",
+              "n": "I watch TV at nine o'clock."
+            }
+          ]
+        },
+        {
+          "title": "Swap in möchten / können",
+          "base": {
+            "t": "Ich kaufe heute ein.",
+            "n": "I'm going shopping today."
+          },
+          "items": [
+            {
+              "cue": "möchten",
+              "t": "Ich möchte heute einkaufen.",
+              "n": "I'd like to go shopping today."
+            },
+            {
+              "cue": "können · nicht",
+              "t": "Ich kann heute nicht einkaufen.",
+              "n": "I can't go shopping today."
+            },
+            {
+              "cue": "du · möchten?",
+              "t": "Möchtest du heute einkaufen?",
+              "n": "Would you like to go shopping today?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you get up early.",
+          "t": [
+            "Ich stehe früh auf"
+          ]
+        },
+        {
+          "n": "Ask a friend when they go shopping.",
+          "t": [
+            "Wann kaufst du ein",
+            "Wann gehst du einkaufen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l5",
+      "kind": "listening",
+      "title": "The baker's day",
+      "goal": "Follow someone describing their routine.",
+      "phrases": [
+        {
+          "t": "jeden Tag",
+          "n": "every day"
+        },
+        {
+          "t": "Warum so früh?",
+          "n": "Why so early?"
+        },
+        {
+          "t": "am Nachmittag",
+          "n": "in the afternoon"
+        },
+        {
+          "t": "Ich hole meine Tochter ab.",
+          "n": "I pick up my daughter."
+        }
+      ],
+      "story": {
+        "title": "Paul is tired",
+        "intro": "Julia meets Paul, who looks very tired.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Julia",
+            "t": "Hallo Paul! Bist du müde?",
+            "n": "Hi Paul! Are you tired?"
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ja! Ich stehe jeden Tag um vier Uhr auf.",
+            "n": "Yes! I get up at four o'clock every day."
+          },
+          {
+            "name": "Julia",
+            "t": "Um vier? Warum so früh?",
+            "n": "At four? Why so early?"
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich bin Bäcker. Ich arbeite von fünf bis eins.",
+            "n": "I'm a baker. I work from five to one."
+          },
+          {
+            "name": "Julia",
+            "t": "Und am Nachmittag?",
+            "n": "And in the afternoon?"
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Da kaufe ich ein und hole meine Tochter ab. Um neun gehe ich ins Bett.",
+            "n": "Then I go shopping and pick up my daughter. At nine I go to bed."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann steht Paul auf?",
+            "n": "When does Paul get up?",
+            "t": [
+              "Um vier Uhr",
+              "Um vier",
+              "Er steht um vier Uhr auf"
+            ]
+          },
+          {
+            "q": "Was ist Paul von Beruf?",
+            "n": "What is Paul's job?",
+            "t": [
+              "Bäcker",
+              "Er ist Bäcker"
+            ]
+          },
+          {
+            "q": "Wann geht Paul ins Bett?",
+            "n": "When does Paul go to bed?",
+            "t": [
+              "Um neun Uhr",
+              "Um neun"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u10-l6",
+      "kind": "roleplay",
+      "title": "Hotel check-in",
+      "goal": "Check in and ask about breakfast.",
+      "phrases": [
+        {
+          "t": "Ich habe eine Reservierung.",
+          "n": "I have a reservation."
+        },
+        {
+          "t": "Haben Sie ein Zimmer frei?",
+          "n": "Do you have a room available?"
+        },
+        {
+          "t": "Hier ist Ihr Schlüssel.",
+          "n": "Here is your key."
+        },
+        {
+          "t": "Wann gibt es Frühstück?",
+          "n": "When is breakfast?"
+        }
+      ],
+      "branch": {
+        "title": "Hotel Krone, 9 pm",
+        "scene": "You arrive at the hotel reception in the evening with your suitcase.",
+        "name": "Rezeption",
+        "voice": "de-DE-ConradNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Guten Abend! Willkommen im Hotel Krone.",
+            "n": "Good evening! Welcome to the Hotel Krone.",
+            "choices": [
+              {
+                "t": "Guten Abend! Ich habe eine Reservierung.",
+                "n": "Good evening! I have a reservation.",
+                "next": "name"
+              },
+              {
+                "t": "Haben Sie ein Zimmer frei?",
+                "n": "Do you have a room available?",
+                "next": "room"
+              }
+            ]
+          },
+          "room": {
+            "t": "Heute? Ja, ein Einzelzimmer für neunzig Euro.",
+            "n": "Tonight? Yes, a single room for ninety euros.",
+            "choices": [
+              {
+                "t": "Gut, ich nehme das Zimmer.",
+                "n": "Good, I'll take the room.",
+                "next": "name"
+              },
+              {
+                "t": "Das ist zu teuer. Tschüss!",
+                "n": "That's too expensive. Bye!",
+                "next": "gone"
+              }
+            ]
+          },
+          "name": {
+            "t": "Wie ist Ihr Name, bitte?",
+            "n": "What's your name, please?",
+            "choices": [
+              {
+                "t": "Mein Name ist Alex Brown.",
+                "n": "My name is Alex Brown.",
+                "next": "key"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "again"
+              }
+            ]
+          },
+          "again": {
+            "t": "Wie heißen Sie, bitte?",
+            "n": "What's your name, please?",
+            "choices": [
+              {
+                "t": "Ich heiße Alex Brown.",
+                "n": "My name is Alex Brown.",
+                "next": "key"
+              }
+            ]
+          },
+          "key": {
+            "t": "Danke. Hier ist Ihr Schlüssel. Zimmer zwölf.",
+            "n": "Thank you. Here is your key. Room twelve.",
+            "choices": [
+              {
+                "t": "Wann gibt es Frühstück?",
+                "n": "When is breakfast?",
+                "next": "breakfast"
+              },
+              {
+                "t": "Wo ist der Aufzug?",
+                "n": "Where is the lift?",
+                "next": "lift"
+              }
+            ]
+          },
+          "breakfast": {
+            "t": "Von sieben bis zehn Uhr. Gute Nacht!",
+            "n": "From seven to ten o'clock. Good night!",
+            "end": "good",
+            "outcome": "You checked in and know when breakfast is."
+          },
+          "lift": {
+            "t": "Da vorne links. Frühstück gibt es ab sieben. Gute Nacht!",
+            "n": "Up ahead on the left. Breakfast is from seven. Good night!",
+            "end": "good",
+            "outcome": "You checked in and found the lift."
+          },
+          "gone": {
+            "t": "Schade. Auf Wiedersehen!",
+            "n": "Pity. Goodbye!",
+            "end": "bad",
+            "outcome": "No room for tonight — try again and take the room."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the receptionist you have a reservation.",
+          "t": [
+            "Ich habe eine Reservierung"
+          ]
+        },
+        {
+          "n": "Ask when breakfast is.",
+          "t": [
+            "Wann gibt es Frühstück",
+            "Wann ist das Frühstück"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l7",
+      "kind": "speaking",
+      "title": "A normal day",
+      "goal": "Describe your day for 30 seconds.",
+      "culture": {
+        "title": "Ruhezeit: quiet, please",
+        "body": "Many house rules set quiet hours (Ruhezeiten), usually from 10 pm to 6 or 7 am, sometimes at lunchtime too. Sundays and public holidays are quiet days: no drilling or lawnmowing — and in Germany and Austria most shops are closed, so do your shopping on Saturday. Neighbours do notice!",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Zuerst frühstücke ich.",
+          "n": "First I have breakfast."
+        },
+        {
+          "t": "Dann gehe ich zur Arbeit.",
+          "n": "Then I go to work."
+        },
+        {
+          "t": "Entschuldigung, ist das zu laut?",
+          "n": "Sorry, is that too loud?"
+        },
+        {
+          "t": "Am Sonntag ist es ruhig.",
+          "n": "On Sunday it's quiet."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe a normal day from morning to evening.",
+          "hint": "Ich stehe um … Uhr auf · Zuerst … dann … · Ich arbeite bis … · Am Abend sehe ich fern.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "a time",
+              "any": [
+                "uhr",
+                "halb",
+                "morgen",
+                "mittag",
+                "nachmittag",
+                "abend",
+                "früh"
+              ]
+            },
+            {
+              "label": "a separable verb (… auf / ein / an / fern)",
+              "any": [
+                "auf",
+                "ein",
+                "an",
+                "fern",
+                "aufstehen",
+                "einkaufen",
+                "anrufen",
+                "fernsehen"
+              ]
+            },
+            {
+              "label": "a routine verb",
+              "any": [
+                "arbeite*",
+                "frühstück*",
+                "dusch*",
+                "koch*",
+                "esse",
+                "lerne",
+                "gehe"
+              ]
+            },
+            {
+              "label": "zuerst / dann",
+              "any": [
+                "zuerst",
+                "dann",
+                "danach",
+                "später"
+              ]
+            }
+          ],
+          "model": "Ich stehe um sieben Uhr auf. Zuerst dusche ich, dann frühstücke ich. Ich arbeite bis fünf, und am Abend sehe ich fern."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask your neighbour politely if it's too loud.",
+          "t": [
+            "Entschuldigung ist das zu laut",
+            "Ist das zu laut"
+          ]
+        },
+        {
+          "n": "Say first you have breakfast, then you go to work.",
+          "t": [
+            "Zuerst frühstücke ich dann gehe ich zur Arbeit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Mein Tag",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "a1-test",
+      "kind": "test",
+      "title": "A1 speaking test",
+      "goal": "Pass to earn your A1 badge and unlock A2.",
+      "tip": {
+        "title": "You've got this",
+        "body": "The test mixes phrases from all ten A1 units. Speak in short, clear sentences — if a word is missing, say what you can and keep going."
+      }
     }
   ]
 }
