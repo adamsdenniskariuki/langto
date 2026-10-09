@@ -1,5 +1,6 @@
 import { useCourse } from '../components/context.js';
 import { Bar, Ring } from '../components/Ring.jsx';
+import { Flag } from '../components/Flag.jsx';
 import { update, useStore } from '../lib/store.js';
 import { currentStreak, levelFromXP } from '../lib/gamify.js';
 import { dateKey } from '../lib/date.js';
@@ -24,7 +25,7 @@ export function Home() {
     <div class="home">
       <section class="hero card">
         <div class="hero-text">
-          <p class="eyebrow">{course.lang.flag} {course.course.title}</p>
+          <p class="eyebrow"><Flag code={course.lang.code} /> {course.course.title}</p>
           <h1>{greeting(course.lang)}!</h1>
           <p class="muted">
             {streak.count > 0

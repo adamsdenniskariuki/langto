@@ -395,12 +395,19 @@ fieldset.card legend { font-weight: 800; padding: 0 0.4rem; font-size: 1.05rem; 
 .hero { display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .hero-text { flex: 1 1 260px; }
 .hero-text h1 { font-size: 1.8rem; }
-.hero-rings { display: flex; gap: 1rem; align-items: center; }
-.ring { position: relative; display: inline-grid; place-items: center; }
-.ring svg { position: absolute; inset: 0; }
+.hero-rings { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
+.ring { position: relative; flex: none; display: inline-grid; place-items: center; }
+.ring svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 .ring circle { transition: stroke-dashoffset 0.6s ease; }
+.ring .ring-track { stroke: color-mix(in srgb, var(--muted) 35%, transparent); }
 .ring-inner { position: relative; display: flex; flex-direction: column; align-items: center; line-height: 1.1; font-weight: 800; text-align: center; }
-.level-mini { display: flex; flex-direction: column; gap: 0.25rem; min-width: 110px; font-weight: 700; font-size: 0.85rem; }
+.level-mini { display: flex; flex-direction: column; gap: 0.25rem; min-width: 110px; flex: 1 1 110px; font-weight: 700; font-size: 0.85rem; }
+@media (max-width: 520px) {
+  .hero-rings { width: 100%; }
+}
+.flag-svg { display: inline-block; vertical-align: -0.15em; border-radius: 2px; box-shadow: 0 0 0 1px rgb(0 0 0 / 0.25); }
+.flag-badge { display: inline-block; padding: 0 0.3em; border-radius: 4px; background: var(--primary); color: var(--on-primary); font-weight: 800; font-size: 0.85em; line-height: 1.4; }
+.emoji, .unit-icon, .badge-chip, .lang-btn .flag { font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', 'Twemoji Mozilla', sans-serif; }
 
 .bar { height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; }
 .bar > span { display: block; height: 100%; border-radius: inherit; background: var(--primary); transition: width 0.5s ease; }
@@ -427,7 +434,11 @@ summary.level-head:focus-visible { outline: 3px solid var(--primary); outline-of
   border-radius: 12px;
   background: var(--primary);
   color: var(--on-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
   font-weight: 900;
+  flex: none;
 }
 .unit { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; margin-bottom: 1rem; box-shadow: var(--shadow); }
 .unit.unit-done { border-color: var(--success); }
@@ -703,7 +714,7 @@ a.node:hover { transform: translateY(-2px); }
 .dots span.on { background: var(--primary); width: 22px; border-radius: 999px; }
 .features { list-style: none; padding: 0; margin: 1rem 0 1.5rem; text-align: left; display: flex; flex-direction: column; gap: 0.6rem; }
 .lang-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.6rem; margin-top: 1rem; }
-.lang-btn .flag { font-size: 2.4rem; }
+.lang-btn .flag { font-size: 2.4rem; line-height: 1; display: block; }
 .lang-btn.soon { opacity: 0.55; cursor: default; }
 .back { margin-top: 1rem; }
 

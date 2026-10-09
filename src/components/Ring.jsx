@@ -3,9 +3,9 @@ export function Ring({ value, max, size = 64, stroke = 7, children, label }) {
   const c = 2 * Math.PI * r;
   const pct = max ? Math.min(1, value / max) : 0;
   return (
-    <div class="ring" style={{ width: size, height: size }} role="img" aria-label={label}>
+    <div class="ring" style={{ width: `${size}px`, height: `${size}px` }} role="img" aria-label={label}>
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
-        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--track)" stroke-width={stroke} />
+        <circle class="ring-track" cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--track)" stroke-width={stroke} />
         <circle
           cx={size / 2}
           cy={size / 2}

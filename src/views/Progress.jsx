@@ -1,5 +1,6 @@
 import { useCourse } from '../components/context.js';
 import { Bar } from '../components/Ring.jsx';
+import { Flag } from '../components/Flag.jsx';
 import { useStore } from '../lib/store.js';
 import { BADGES } from '../lib/badges.js';
 import { currentStreak, lessonsDone, levelFromXP, MAX_FREEZES } from '../lib/gamify.js';
@@ -37,7 +38,7 @@ export function Progress() {
       </div>
 
       <div class="card">
-        <h2>{course.lang.flag} {course.lang.name} — CEFR path</h2>
+        <h2><Flag code={course.lang.code} /> {course.lang.name} — CEFR path</h2>
         {course.levels.map((level) => {
           const ids = level.units.flatMap((u) => u.lessons.map((l) => l.id));
           const n = ids.filter((id) => done[id]?.done).length;

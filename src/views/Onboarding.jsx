@@ -5,6 +5,7 @@ import { GOALS, MicTest } from './Settings.jsx';
 import { support } from '../lib/speech.js';
 import { navigate } from '../router.js';
 import { RotatingGreeting } from '../components/RotatingGreeting.jsx';
+import { Flag } from '../components/Flag.jsx';
 
 export function Onboarding() {
   const s = useStore();
@@ -56,7 +57,7 @@ export function Onboarding() {
                   setStep(2);
                 }}
               >
-                <span class="flag" aria-hidden="true">{l.flag}</span>
+                <span class="flag"><Flag code={l.code} size="1.8rem" /></span>
                 <strong>{l.name}</strong>
                 <span class="muted small">{l.native}</span>
               </button>
