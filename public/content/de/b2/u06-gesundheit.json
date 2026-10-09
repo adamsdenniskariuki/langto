@@ -1,0 +1,85 @@
+{
+  "id": "b2-u06",
+  "title": "Gesundheit und Lebensstil",
+  "subtitle": "Health, habits & hindsight",
+  "icon": "🧘",
+  "lessons": [
+    {
+      "id": "b2-u06-l1",
+      "title": "Discussing healthy habits",
+      "goal": "Talk about lifestyle choices, give advice and react tactfully to others' habits.",
+      "tip": {
+        "title": "Nominalisierung in speech",
+        "body": "Turning verbs into nouns sounds more precise: ausreichend schlafen → ausreichender Schlaf, sich ernähren → die Ernährung. Use it sparingly in speech – one noun phrase per sentence is enough. When giving advice, soften it with an Es wäre vielleicht gut, wenn … and a warm, rising tone instead of a commanding Du musst …"
+      },
+      "phrases": [
+        { "t": "Ausreichender Schlaf ist mindestens genauso wichtig wie Sport.", "n": "Getting enough sleep is at least as important as exercise." },
+        { "t": "Seit ich mich bewusster ernähre, habe ich viel mehr Energie.", "n": "Since I've been eating more consciously, I've had much more energy." },
+        { "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.", "n": "It might be good if you took things a bit easier.", "note": "kürzertreten = to slow down" },
+        { "t": "Der ständige Stress geht mir allmählich an die Substanz.", "n": "The constant stress is gradually wearing me down." },
+        { "t": "Ich versuche, regelmäßig Pausen einzulegen.", "n": "I try to take regular breaks." },
+        { "t": "Das muss jeder für sich selbst entscheiden.", "n": "Everyone has to decide that for themselves." },
+        { "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.", "n": "I don't want to interfere, but I'm worried.", "note": "reinreden = to meddle" },
+        { "t": "Kleine Veränderungen im Alltag bewirken oft am meisten.", "n": "Small changes in everyday life often have the biggest effect." }
+      ],
+      "dialogue": {
+        "title": "A friend under pressure",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Anna", "t": "Ich bin total erschöpft. Ich arbeite jeden Abend bis zehn.", "n": "I'm completely exhausted. I work until ten every evening." },
+          { "who": "you", "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.", "n": "I don't want to interfere, but I'm worried." },
+          { "who": "A", "name": "Anna", "t": "Ja, ich weiß. Der ständige Stress geht mir allmählich an die Substanz.", "n": "Yes, I know. The constant stress is gradually wearing me down." },
+          { "who": "you", "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.", "n": "It might be good if you took things a bit easier." },
+          { "who": "A", "name": "Anna", "t": "Leichter gesagt als getan. Was machst du denn?", "n": "Easier said than done. What do you do?" },
+          { "who": "you", "t": "Ich versuche, regelmäßig Pausen einzulegen. Und ausreichender Schlaf ist mindestens genauso wichtig wie Sport.", "n": "I try to take regular breaks. And getting enough sleep is at least as important as exercise." },
+          { "who": "A", "name": "Anna", "t": "Hm. Vielleicht fange ich einfach mit dem Schlafen an.", "n": "Hmm. Maybe I'll just start with the sleeping." },
+          { "who": "you", "t": "Gute Idee. Kleine Veränderungen im Alltag bewirken oft am meisten.", "n": "Good idea. Small changes in everyday life often have the biggest effect." }
+        ]
+      },
+      "prompts": [
+        { "n": "Gently suggest a friend should take things easier.", "t": ["Es wäre vielleicht gut, wenn du mal kürzertreten würdest", "Es wäre gut, wenn du kürzertreten würdest"] },
+        { "n": "Say since you've been eating more consciously, you've had more energy.", "t": ["Seit ich mich bewusster ernähre, habe ich viel mehr Energie", "Seit ich mich bewusster ernähre, habe ich mehr Energie"] },
+        { "n": "Say everyone has to decide that for themselves.", "t": ["Das muss jeder für sich selbst entscheiden", "Das muss jeder selbst entscheiden"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l2",
+      "title": "Regrets and hindsight",
+      "goal": "Talk about past decisions, regrets and what would have happened otherwise.",
+      "tip": {
+        "title": "Konjunktiv II Vergangenheit",
+        "body": "For unreal past situations use hätte/wäre + Partizip II: Ich hätte früher zum Arzt gehen sollen. Wenn ich mich aufgewärmt hätte, wäre das nicht passiert. With modal verbs, the double infinitive goes at the end: hätte … gehen sollen. Stress hätte or wäre – that's where the regret sits."
+      },
+      "phrases": [
+        { "t": "Ich hätte viel früher zum Arzt gehen sollen.", "n": "I should have gone to the doctor much earlier." },
+        { "t": "Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.", "n": "If I had warmed up beforehand, that wouldn't have happened." },
+        { "t": "An deiner Stelle hätte ich mir eine zweite Meinung eingeholt.", "n": "In your place, I would have got a second opinion." },
+        { "t": "Im Nachhinein ist man immer schlauer.", "n": "Hindsight is always twenty-twenty." },
+        { "t": "Hätte ich bloß nicht so lange gewartet!", "n": "If only I hadn't waited so long!" },
+        { "t": "Das hättest du doch nicht wissen können.", "n": "You couldn't have known that." },
+        { "t": "Mach dir keine Vorwürfe.", "n": "Don't blame yourself." },
+        { "t": "Zum Glück ist es nicht schlimmer gekommen.", "n": "Luckily it didn't turn out worse." }
+      ],
+      "dialogue": {
+        "title": "After the injury",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "So, wie geht's dem Knie? Erzählen Sie mal, wie das passiert ist.", "n": "So, how's the knee? Tell me how it happened." },
+          { "who": "you", "t": "Beim Joggen. Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.", "n": "While jogging. If I had warmed up beforehand, that wouldn't have happened." },
+          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Und wann waren Sie damit beim Arzt?", "n": "And when did you see a doctor about it?" },
+          { "who": "you", "t": "Erst nach drei Wochen. Ich hätte viel früher zum Arzt gehen sollen.", "n": "Only after three weeks. I should have gone to the doctor much earlier." },
+          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Tja, das wäre besser gewesen. Aber die Bänder sind zum Glück heil.", "n": "Well, that would have been better. But luckily the ligaments are intact." },
+          { "who": "you", "t": "Zum Glück ist es nicht schlimmer gekommen. Hätte ich bloß nicht so lange gewartet!", "n": "Luckily it didn't turn out worse. If only I hadn't waited so long!" },
+          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Machen Sie sich keine Vorwürfe. In sechs Wochen laufen Sie wieder.", "n": "Don't blame yourself. You'll be running again in six weeks." },
+          { "who": "you", "t": "Na ja, im Nachhinein ist man immer schlauer.", "n": "Well, hindsight is always twenty-twenty." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you should have gone to the doctor much earlier.", "t": ["Ich hätte viel früher zum Arzt gehen sollen", "Ich hätte früher zum Arzt gehen sollen"] },
+        { "n": "Advise in hindsight: in your place, you would have got a second opinion.", "t": ["An deiner Stelle hätte ich mir eine zweite Meinung eingeholt", "An Ihrer Stelle hätte ich mir eine zweite Meinung eingeholt"] },
+        { "n": "Reassure a friend: they couldn't have known that.", "t": ["Das hättest du doch nicht wissen können", "Das hättest du nicht wissen können"] },
+        { "n": "Tell a friend not to blame themselves.", "t": ["Mach dir keine Vorwürfe"] }
+      ]
+    }
+  ]
+}

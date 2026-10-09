@@ -1,0 +1,86 @@
+{
+  "id": "b2-u01",
+  "title": "Pro und Contra",
+  "subtitle": "Weighing arguments & debating",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "b2-u01-l1",
+      "title": "Weighing pros and cons",
+      "goal": "Present both sides of an issue and state a balanced opinion out loud.",
+      "tip": {
+        "title": "einerseits … andererseits, zwar … aber",
+        "body": "Two-part connectors help you sound balanced: Einerseits ist es praktisch, andererseits ist es teuer. With zwar … aber you admit a point and then counter it: Das ist zwar bequem, aber nicht gesund. When speaking, pause briefly after the first half and stress the word aber or andererseits – your listener hears the turn in your argument."
+      },
+      "phrases": [
+        { "t": "Einerseits ist Homeoffice praktisch, andererseits fehlt mir der Kontakt zu den Kollegen.", "n": "On the one hand, working from home is practical; on the other, I miss contact with colleagues." },
+        { "t": "Das klingt zwar gut, aber in der Praxis sieht es anders aus.", "n": "That sounds good, but in practice it looks different." },
+        { "t": "Ein großer Vorteil ist, dass man flexibler ist.", "n": "A big advantage is that you're more flexible." },
+        { "t": "Der Nachteil liegt auf der Hand: Es kostet viel Geld.", "n": "The disadvantage is obvious: it costs a lot of money.", "note": "auf der Hand liegen = to be obvious" },
+        { "t": "Man darf aber nicht vergessen, dass nicht jeder davon profitiert.", "n": "But we mustn't forget that not everyone benefits from it." },
+        { "t": "Unterm Strich überwiegen für mich die Vorteile.", "n": "All things considered, the advantages outweigh the disadvantages for me.", "note": "unterm Strich = bottom line" },
+        { "t": "Ich sehe das ein bisschen differenzierter.", "n": "I see it in a slightly more nuanced way." },
+        { "t": "Es kommt ganz darauf an, wie man es umsetzt.", "n": "It really depends on how you implement it." }
+      ],
+      "dialogue": {
+        "title": "Working from home – yes or no?",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Julia", "t": "Was hältst du eigentlich vom Homeoffice? Ich finde es einfach super.", "n": "What do you actually think of working from home? I just think it's great." },
+          { "who": "you", "t": "Einerseits ist Homeoffice praktisch, andererseits fehlt mir der Kontakt zu den Kollegen.", "n": "On the one hand, working from home is practical; on the other, I miss contact with colleagues." },
+          { "who": "A", "name": "Julia", "t": "Aber man spart doch jeden Tag den Arbeitsweg!", "n": "But you save the commute every day!" },
+          { "who": "you", "t": "Das stimmt, das ist ein großer Vorteil. Man ist einfach flexibler.", "n": "That's true, that's a big advantage. You're simply more flexible." },
+          { "who": "A", "name": "Julia", "t": "Also bist du doch dafür?", "n": "So you are in favour after all?" },
+          { "who": "you", "t": "Ich sehe das ein bisschen differenzierter. Es kommt ganz darauf an, wie man es umsetzt.", "n": "I see it in a slightly more nuanced way. It really depends on how you implement it." },
+          { "who": "A", "name": "Julia", "t": "Und wenn du dich entscheiden müsstest?", "n": "And if you had to decide?" },
+          { "who": "you", "t": "Unterm Strich überwiegen für mich die Vorteile.", "n": "All things considered, the advantages outweigh the disadvantages for me." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that something sounds good, but looks different in practice.", "t": ["Das klingt zwar gut, aber in der Praxis sieht es anders aus"] },
+        { "n": "Say that, all things considered, the advantages outweigh the disadvantages for you.", "t": ["Unterm Strich überwiegen für mich die Vorteile", "Für mich überwiegen die Vorteile"] },
+        { "n": "Say it really depends on how you implement it.", "t": ["Es kommt ganz darauf an, wie man es umsetzt", "Es kommt darauf an, wie man es umsetzt"] },
+        { "n": "Say you see it in a slightly more nuanced way.", "t": ["Ich sehe das ein bisschen differenzierter", "Ich sehe das differenzierter"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l2",
+      "title": "Holding your ground in a debate",
+      "goal": "Interrupt politely, keep the floor and counter an argument in a discussion.",
+      "tip": {
+        "title": "je … desto & taking the floor",
+        "body": "Je … desto links two comparisons: Je mehr Autos, desto schlechter die Luft. Note the word order: the verb goes to the end after je, but straight after the comparative in the desto part. To keep the floor, don't drop your voice at the end of a clause – say Moment, lass mich bitte ausreden and carry on. To interrupt, start with a soft Darf ich da kurz einhaken?"
+      },
+      "phrases": [
+        { "t": "Darf ich da kurz einhaken?", "n": "May I just come in on that point?", "note": "einhaken = to cut in (politely)" },
+        { "t": "Moment, lass mich bitte ausreden.", "n": "Hang on, please let me finish." },
+        { "t": "Je mehr Leute Fahrrad fahren, desto besser ist die Luft in der Stadt.", "n": "The more people cycle, the better the air in the city." },
+        { "t": "Da muss ich dir widersprechen.", "n": "I have to disagree with you there." },
+        { "t": "Das ist ein berechtigter Einwand, aber trotzdem bleibe ich bei meiner Meinung.", "n": "That's a fair objection, but I'm still sticking to my opinion." },
+        { "t": "Worauf ich hinauswill, ist Folgendes.", "n": "What I'm getting at is this." },
+        { "t": "Das mag sein, aber das ist nicht der Punkt.", "n": "That may be, but that's not the point." },
+        { "t": "Je länger ich darüber nachdenke, desto weniger überzeugt mich das.", "n": "The longer I think about it, the less it convinces me." }
+      ],
+      "dialogue": {
+        "title": "A car-free city centre?",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Markus", "t": "Eine autofreie Innenstadt ist doch Unsinn. Die Geschäfte verlieren dann ihre Kunden.", "n": "A car-free city centre is nonsense. The shops will lose their customers." },
+          { "who": "you", "t": "Da muss ich dir widersprechen. Je mehr Leute Fahrrad fahren, desto besser ist die Luft in der Stadt.", "n": "I have to disagree with you there. The more people cycle, the better the air in the city." },
+          { "who": "A", "name": "Markus", "t": "Ja, aber die Luft kauft nichts ein! Die Händler …", "n": "Yes, but the air doesn't buy anything! The shopkeepers …" },
+          { "who": "you", "t": "Moment, lass mich bitte ausreden. Worauf ich hinauswill, ist Folgendes.", "n": "Hang on, please let me finish. What I'm getting at is this." },
+          { "who": "A", "name": "Markus", "t": "Na gut, ich höre.", "n": "All right, I'm listening." },
+          { "who": "you", "t": "Wenn die Straßen ruhiger sind, bleiben die Leute länger und kaufen mehr.", "n": "If the streets are quieter, people stay longer and buy more." },
+          { "who": "A", "name": "Markus", "t": "Aber ältere Menschen kommen dann schlechter in die Stadt.", "n": "But older people would find it harder to get into town." },
+          { "who": "you", "t": "Das ist ein berechtigter Einwand, aber trotzdem bleibe ich bei meiner Meinung.", "n": "That's a fair objection, but I'm still sticking to my opinion." }
+        ]
+      },
+      "prompts": [
+        { "n": "Politely ask if you may come in on a point.", "t": ["Darf ich da kurz einhaken", "Darf ich kurz einhaken"] },
+        { "n": "Ask someone to let you finish.", "t": ["Moment, lass mich bitte ausreden", "Lass mich bitte ausreden"] },
+        { "n": "Say: the longer you think about it, the less it convinces you.", "t": ["Je länger ich darüber nachdenke, desto weniger überzeugt mich das"] },
+        { "n": "Tell someone you have to disagree with them there.", "t": ["Da muss ich dir widersprechen", "Da muss ich Ihnen widersprechen"] }
+      ]
+    }
+  ]
+}

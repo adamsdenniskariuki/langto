@@ -1,0 +1,86 @@
+{
+  "id": "b2-u02",
+  "title": "Im Meeting",
+  "subtitle": "Meetings & presenting results",
+  "icon": "📊",
+  "lessons": [
+    {
+      "id": "b2-u02-l1",
+      "title": "Taking part in a meeting",
+      "goal": "Open a topic, ask for input and summarise decisions in a work meeting.",
+      "tip": {
+        "title": "Connectors that structure your talk",
+        "body": "Words like außerdem, deshalb and folglich sit in position 1 and push the verb into position 2: Deshalb schlage ich vor … Use them to signal where your contribution is going. In meetings, a short summary sounds very competent: Fassen wir kurz zusammen. Say it slowly and clearly – it signals that you are steering the conversation."
+      },
+      "phrases": [
+        { "t": "Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen.", "n": "Let's get straight to the first item on the agenda." },
+        { "t": "Wie sieht es bei euch im Team aus?", "n": "How are things looking in your team?" },
+        { "t": "Außerdem sollten wir das Budget im Blick behalten.", "n": "We should also keep an eye on the budget." },
+        { "t": "Deshalb schlage ich vor, dass wir den Termin verschieben.", "n": "That's why I suggest we postpone the deadline." },
+        { "t": "Könntest du das noch etwas genauer erklären?", "n": "Could you explain that in a bit more detail?" },
+        { "t": "Das sollten wir lieber in einem separaten Termin besprechen.", "n": "We'd better discuss that in a separate meeting." },
+        { "t": "Fassen wir kurz zusammen: Wir starten erst im März.", "n": "Let's briefly sum up: we won't start until March." },
+        { "t": "Wer kümmert sich bis Freitag darum?", "n": "Who will take care of it by Friday?" }
+      ],
+      "dialogue": {
+        "title": "The weekly team meeting",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Guten Morgen zusammen. Möchten Sie heute die Moderation übernehmen?", "n": "Good morning, everyone. Would you like to chair the meeting today?" },
+          { "who": "you", "t": "Gern. Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen: dem Projektstart.", "n": "Sure. Let's get straight to the first item on the agenda: the project launch." },
+          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Die Entwicklung ist leider noch nicht fertig. Uns fehlen zwei Wochen.", "n": "Unfortunately development isn't finished yet. We're two weeks short." },
+          { "who": "you", "t": "Verstehe. Deshalb schlage ich vor, dass wir den Termin verschieben.", "n": "I see. That's why I suggest we postpone the deadline." },
+          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Einverstanden. Und was ist mit den Zusatzkosten?", "n": "Agreed. And what about the extra costs?" },
+          { "who": "you", "t": "Das sollten wir lieber in einem separaten Termin besprechen.", "n": "We'd better discuss that in a separate meeting." },
+          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Gut. Können Sie das Ergebnis noch einmal festhalten?", "n": "Fine. Could you record the outcome once more?" },
+          { "who": "you", "t": "Fassen wir kurz zusammen: Wir starten erst im März. Wer kümmert sich bis Freitag darum?", "n": "Let's briefly sum up: we won't start until March. Who will take care of it by Friday?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest postponing the deadline, starting with 'That's why'.", "t": ["Deshalb schlage ich vor, dass wir den Termin verschieben"] },
+        { "n": "Ask a colleague to explain something in more detail.", "t": ["Könntest du das noch etwas genauer erklären", "Könnten Sie das noch etwas genauer erklären", "Könntest du das genauer erklären"] },
+        { "n": "Ask who will take care of it by Friday.", "t": ["Wer kümmert sich bis Freitag darum"] },
+        { "n": "Suggest discussing it in a separate meeting.", "t": ["Das sollten wir lieber in einem separaten Termin besprechen", "Das sollten wir in einem separaten Termin besprechen"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l2",
+      "title": "Presenting results",
+      "goal": "Present figures and findings clearly and handle questions afterwards.",
+      "tip": {
+        "title": "Describing figures",
+        "body": "Use steigen/sinken um (by) and auf (to): Der Umsatz ist um zehn Prozent auf zwei Millionen gestiegen. Nouns like die Steigerung or der Rückgang make your talk sound more professional. When presenting, slow down before numbers and stress them – listeners need a moment to process figures."
+      },
+      "phrases": [
+        { "t": "Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.", "n": "Today I'd like to present the most important results to you." },
+        { "t": "Wie Sie auf dieser Folie sehen, ist der Umsatz deutlich gestiegen.", "n": "As you can see on this slide, sales have risen significantly." },
+        { "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.", "n": "Compared with last year, we're seeing an increase of twelve percent." },
+        { "t": "Die Kosten sind dagegen leicht gesunken.", "n": "Costs, on the other hand, have fallen slightly." },
+        { "t": "Das liegt vor allem an der neuen Marketingstrategie.", "n": "That's mainly due to the new marketing strategy." },
+        { "t": "Folglich können wir im nächsten Quartal mehr investieren.", "n": "Consequently, we can invest more next quarter." },
+        { "t": "Damit komme ich zum Schluss.", "n": "That brings me to the end." },
+        { "t": "Gute Frage – darauf komme ich gleich noch zurück.", "n": "Good question – I'll come back to that in a moment." }
+      ],
+      "dialogue": {
+        "title": "The quarterly report",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "So, wir sind gespannt. Bitte, Sie haben das Wort.", "n": "Right, we're curious. Please, the floor is yours." },
+          { "who": "you", "t": "Vielen Dank. Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.", "n": "Thank you. Today I'd like to present the most important results to you." },
+          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Wie lief denn das Quartal insgesamt?", "n": "So how did the quarter go overall?" },
+          { "who": "you", "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.", "n": "Compared with last year, we're seeing an increase of twelve percent." },
+          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Beeindruckend. Woran liegt das?", "n": "Impressive. What's the reason for that?" },
+          { "who": "you", "t": "Das liegt vor allem an der neuen Marketingstrategie.", "n": "That's mainly due to the new marketing strategy." },
+          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Und was bedeutet das für unser Budget im Herbst?", "n": "And what does that mean for our budget in the autumn?" },
+          { "who": "you", "t": "Gute Frage – darauf komme ich gleich noch zurück. Folglich können wir mehr investieren.", "n": "Good question – I'll come back to that in a moment. Consequently, we can invest more." }
+        ]
+      },
+      "prompts": [
+        { "n": "Open your presentation: say you'd like to present the most important results.", "t": ["Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen", "Ich möchte Ihnen die wichtigsten Ergebnisse vorstellen"] },
+        { "n": "Say costs have fallen slightly.", "t": ["Die Kosten sind leicht gesunken", "Die Kosten sind dagegen leicht gesunken"] },
+        { "n": "Signal that you are coming to the end.", "t": ["Damit komme ich zum Schluss"] },
+        { "n": "Say it's mainly due to the new marketing strategy.", "t": ["Das liegt vor allem an der neuen Marketingstrategie"] }
+      ]
+    }
+  ]
+}

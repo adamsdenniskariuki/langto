@@ -53,6 +53,21 @@
       "id": "B2",
       "title": "Upper intermediate",
       "description": "Debate, negotiate, present in meetings and use idioms naturally.",
+      "units": [
+        "b2/u01-pro-und-contra.json",
+        "b2/u02-im-meeting.json",
+        "b2/u03-verhandeln.json",
+        "b2/u04-nachrichten.json",
+        "b2/u05-technik-und-zukunft.json",
+        "b2/u06-gesundheit.json",
+        "b2/u07-stadt-oder-land.json",
+        "b2/u08-redewendungen.json"
+      ]
+    },
+    {
+      "id": "C1",
+      "title": "Advanced",
+      "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.",
       "comingSoon": true,
       "units": []
     }

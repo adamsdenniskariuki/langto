@@ -1,0 +1,86 @@
+{
+  "id": "b2-u04",
+  "title": "Nachrichten und Gesellschaft",
+  "subtitle": "News, politics & reported speech",
+  "icon": "📰",
+  "lessons": [
+    {
+      "id": "b2-u04-l1",
+      "title": "Talking about the news",
+      "goal": "Report and discuss current events using the passive voice.",
+      "tip": {
+        "title": "The passive: werden + Partizip II",
+        "body": "In news, the action matters more than who did it: Das Gesetz wurde gestern beschlossen. Present: wird gebaut, past: wurde gebaut, perfect: ist gebaut worden. Name the actor with von if needed. In conversation, open with Hast du mitbekommen, dass …? – it's a natural way to bring up a news topic."
+      },
+      "phrases": [
+        { "t": "Hast du schon mitbekommen, dass die Mieten wieder erhöht werden?", "n": "Have you heard that rents are going up again?", "note": "mitbekommen = to catch, to hear about" },
+        { "t": "Das neue Gesetz wurde gestern im Bundestag beschlossen.", "n": "The new law was passed in the Bundestag yesterday." },
+        { "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.", "n": "According to a recent survey, most citizens are against it." },
+        { "t": "In unserer Stadt wird endlich eine neue Schule gebaut.", "n": "A new school is finally being built in our town." },
+        { "t": "Darüber wird gerade überall heftig diskutiert.", "n": "It's being hotly debated everywhere right now." },
+        { "t": "Das Thema wird in den Medien total aufgebauscht.", "n": "The topic is being totally blown out of proportion in the media." },
+        { "t": "Man sollte nicht alles glauben, was in den sozialen Medien steht.", "n": "You shouldn't believe everything you read on social media." },
+        { "t": "Mich würde interessieren, wie du das siehst.", "n": "I'd be interested to know how you see it." }
+      ],
+      "dialogue": {
+        "title": "Over lunch",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Sabine", "t": "Hast du heute schon Nachrichten gehört?", "n": "Have you listened to the news today?" },
+          { "who": "you", "t": "Ja. Das neue Gesetz wurde gestern im Bundestag beschlossen.", "n": "Yes. The new law was passed in the Bundestag yesterday." },
+          { "who": "A", "name": "Sabine", "t": "Ach, das mit dem Tempolimit? Endlich!", "n": "Oh, the speed limit thing? Finally!" },
+          { "who": "you", "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.", "n": "According to a recent survey, most citizens are against it." },
+          { "who": "A", "name": "Sabine", "t": "Wirklich? In meinem Umfeld sind alle dafür.", "n": "Really? Everyone around me is in favour." },
+          { "who": "you", "t": "Darüber wird gerade überall heftig diskutiert. Mich würde interessieren, wie du das siehst.", "n": "It's being hotly debated everywhere right now. I'd be interested to know how you see it." },
+          { "who": "A", "name": "Sabine", "t": "Ich finde, es rettet Leben. Aber im Netz gibt es so viel Panikmache.", "n": "I think it saves lives. But there's so much scaremongering online." },
+          { "who": "you", "t": "Stimmt. Man sollte nicht alles glauben, was in den sozialen Medien steht.", "n": "True. You shouldn't believe everything you read on social media." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say a new school is finally being built in your town.", "t": ["In unserer Stadt wird endlich eine neue Schule gebaut"] },
+        { "n": "Say the new law was passed yesterday.", "t": ["Das neue Gesetz wurde gestern beschlossen", "Das neue Gesetz wurde gestern im Bundestag beschlossen"] },
+        { "n": "Ask for someone's view: say you'd be interested to know how they see it.", "t": ["Mich würde interessieren, wie du das siehst", "Mich würde interessieren, wie Sie das sehen"] },
+        { "n": "Say the topic is being blown out of proportion in the media.", "t": ["Das Thema wird in den Medien total aufgebauscht", "Das Thema wird in den Medien aufgebauscht"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l2",
+      "title": "Reporting what others said",
+      "goal": "Pass on statements from politicians, experts and the media neutrally.",
+      "tip": {
+        "title": "Konjunktiv I – reported speech",
+        "body": "To report without taking sides, use Konjunktiv I: Sie sagt, sie sei dafür. Er meint, das Projekt habe Vorteile. In everyday speech it's mostly sei and habe; otherwise people often use Konjunktiv II or just dass + indicative. Phrases like angeblich or Es heißt, … also signal distance – say them with a slightly sceptical tone."
+      },
+      "phrases": [
+        { "t": "Die Ministerin sagte, die Lage sei unter Kontrolle.", "n": "The minister said the situation was under control." },
+        { "t": "Er behauptet, er habe davon nichts gewusst.", "n": "He claims he knew nothing about it." },
+        { "t": "Angeblich sollen die Steuern im nächsten Jahr sinken.", "n": "Supposedly, taxes are set to fall next year.", "note": "sollen here = reportedly" },
+        { "t": "Es heißt, die Verhandlungen seien gescheitert.", "n": "It's said the negotiations have failed." },
+        { "t": "Experten zufolge wird sich die Situation bald verbessern.", "n": "According to experts, the situation will soon improve.", "note": "zufolge follows the noun" },
+        { "t": "Ob das wirklich stimmt, bleibt abzuwarten.", "n": "Whether that's really true remains to be seen." },
+        { "t": "Ich gebe nur wieder, was in der Zeitung stand.", "n": "I'm only repeating what was in the paper." },
+        { "t": "Da bin ich ehrlich gesagt etwas skeptisch.", "n": "To be honest, I'm a bit sceptical about that." }
+      ],
+      "dialogue": {
+        "title": "Discussing a political scandal",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          { "who": "A", "name": "Thomas", "t": "Hast du gelesen? Der Bürgermeister soll Gelder veruntreut haben.", "n": "Have you read it? The mayor is supposed to have embezzled funds." },
+          { "who": "you", "t": "Ja, aber er behauptet, er habe davon nichts gewusst.", "n": "Yes, but he claims he knew nothing about it." },
+          { "who": "A", "name": "Thomas", "t": "Das glaubt ihm doch keiner! Was sagt denn die Partei dazu?", "n": "Nobody believes that! What does his party say?" },
+          { "who": "you", "t": "Die Parteichefin sagte, die Lage sei unter Kontrolle. Ich gebe nur wieder, was in der Zeitung stand.", "n": "The party leader said the situation was under control. I'm only repeating what was in the paper." },
+          { "who": "A", "name": "Thomas", "t": "Und tritt er jetzt zurück?", "n": "And is he resigning now?" },
+          { "who": "you", "t": "Es heißt, er wolle im Amt bleiben. Ob das wirklich stimmt, bleibt abzuwarten.", "n": "It's said he wants to stay in office. Whether that's really true remains to be seen." },
+          { "who": "A", "name": "Thomas", "t": "Ich wette, nächste Woche ist er weg.", "n": "I bet he'll be gone next week." },
+          { "who": "you", "t": "Da bin ich ehrlich gesagt etwas skeptisch.", "n": "To be honest, I'm a bit sceptical about that." }
+        ]
+      },
+      "prompts": [
+        { "n": "Report neutrally: the minister said the situation was under control.", "t": ["Die Ministerin sagte, die Lage sei unter Kontrolle", "Der Minister sagte, die Lage sei unter Kontrolle"] },
+        { "n": "Say it's said the negotiations have failed.", "t": ["Es heißt, die Verhandlungen seien gescheitert"] },
+        { "n": "Say whether that's really true remains to be seen.", "t": ["Ob das wirklich stimmt, bleibt abzuwarten", "Ob das stimmt, bleibt abzuwarten"] },
+        { "n": "Say you're only repeating what was in the paper.", "t": ["Ich gebe nur wieder, was in der Zeitung stand"] }
+      ]
+    }
+  ]
+}

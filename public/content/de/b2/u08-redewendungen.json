@@ -1,0 +1,88 @@
+{
+  "id": "b2-u08",
+  "title": "Redewendungen",
+  "subtitle": "Idioms & colloquial conversation",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b2-u08-l1",
+      "title": "Everyday idioms",
+      "goal": "Use common German idioms naturally when telling stories and reacting to news.",
+      "tip": {
+        "title": "Idioms – fixed and unchangeable",
+        "body": "Idioms are fixed chunks: you can conjugate the verb, but don't swap the nouns. Ich verstehe nur Bahnhof means I don't understand a thing – not something about stations! Learn each idiom as one melody and say it smoothly without pauses; hesitating in the middle makes it sound translated."
+      },
+      "phrases": [
+        { "t": "Ehrlich gesagt verstehe ich nur Bahnhof.", "n": "To be honest, it's all Greek to me." },
+        { "t": "Da hast du den Nagel auf den Kopf getroffen.", "n": "You've hit the nail on the head there." },
+        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem." },
+        { "t": "Ich drücke dir die Daumen!", "n": "I'll keep my fingers crossed for you!" },
+        { "t": "Jetzt mal Butter bei die Fische: Was ist passiert?", "n": "Come on, out with it: what happened?", "note": "colloquial, intentionally ungrammatical" },
+        { "t": "Da ist mir echt ein Stein vom Herzen gefallen.", "n": "That was a real weight off my mind." },
+        { "t": "Er hat mal wieder die beleidigte Leberwurst gespielt.", "n": "He sulked like a child yet again." },
+        { "t": "Das ist doch ein Katzensprung von hier.", "n": "That's just a stone's throw from here." }
+      ],
+      "dialogue": {
+        "title": "Catching up with a friend",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Mia", "t": "Na, wie war das Vorstellungsgespräch? Erzähl!", "n": "So, how was the job interview? Tell me!" },
+          { "who": "you", "t": "Puh. Bei den technischen Fragen habe ich ehrlich gesagt nur Bahnhof verstanden.", "n": "Phew. To be honest, the technical questions were all Greek to me." },
+          { "who": "A", "name": "Mia", "t": "Oh nein! Und? Jetzt mal Butter bei die Fische: Hast du die Stelle?", "n": "Oh no! And? Come on, out with it: did you get the job?" },
+          { "who": "you", "t": "Ja! Sie haben heute Morgen angerufen. Da ist mir echt ein Stein vom Herzen gefallen.", "n": "Yes! They called this morning. That was a real weight off my mind." },
+          { "who": "A", "name": "Mia", "t": "Glückwunsch! Und wo ist das Büro?", "n": "Congratulations! And where's the office?" },
+          { "who": "you", "t": "In der Altstadt. Das ist doch ein Katzensprung von hier.", "n": "In the old town. That's just a stone's throw from here." },
+          { "who": "A", "name": "Mia", "t": "Perfekt! Mein Bruder hat übrigens auch eine Bewerbung laufen.", "n": "Perfect! My brother's got an application running too, by the way." },
+          { "who": "you", "t": "Dann drücke ich ihm die Daumen!", "n": "Then I'll keep my fingers crossed for him!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell someone they've hit the nail on the head.", "t": ["Da hast du den Nagel auf den Kopf getroffen", "Du hast den Nagel auf den Kopf getroffen"] },
+        { "n": "Say you'll keep your fingers crossed for a friend.", "t": ["Ich drücke dir die Daumen"] },
+        { "n": "Say you don't understand a thing, using the idiom.", "t": ["Ich verstehe nur Bahnhof", "Ehrlich gesagt verstehe ich nur Bahnhof"] },
+        { "n": "Say it was a real weight off your mind.", "t": ["Da ist mir echt ein Stein vom Herzen gefallen", "Da ist mir ein Stein vom Herzen gefallen"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l2",
+      "title": "Steering a casual conversation",
+      "goal": "Keep a relaxed conversation flowing: change topic, buy time, check understanding and wrap up.",
+      "tip": {
+        "title": "Fillers, particles and wrapping up",
+        "body": "Natural speech is full of particles – halt, eben, ja, mal – and fillers like Wie soll ich sagen … that buy you thinking time. Use Apropos … or Übrigens … to switch topics smoothly. To check understanding, paraphrase: Du meinst also, dass …? End with a short summary and a warm falling tone: Na ja, so ist das halt."
+      },
+      "phrases": [
+        { "t": "Wie soll ich sagen, das ist eine lange Geschichte.", "n": "How should I put it, it's a long story." },
+        { "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?", "n": "Speaking of holidays, have you actually been to Vienna yet?" },
+        { "t": "Du meinst also, dass er einfach keine Lust mehr hatte?", "n": "So you mean he simply didn't feel like it anymore?" },
+        { "t": "Na ja, so ist das halt.", "n": "Oh well, that's just the way it is." },
+        { "t": "Ich will jetzt nicht vom Thema ablenken, aber das erinnert mich an etwas.", "n": "I don't want to change the subject, but that reminds me of something." },
+        { "t": "Wo war ich stehen geblieben?", "n": "Where was I?" },
+        { "t": "Kurz gesagt: Es hat sich am Ende alles gelohnt.", "n": "In short: in the end it was all worth it." },
+        { "t": "Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter.", "n": "I really have to go now, let's carry on chatting next week." }
+      ],
+      "dialogue": {
+        "title": "At a friend's barbecue",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Felix", "t": "Sag mal, warum bist du eigentlich nicht mehr in der Band?", "n": "Tell me, why aren't you in the band anymore?" },
+          { "who": "you", "t": "Wie soll ich sagen, das ist eine lange Geschichte. Unser Sänger ist plötzlich ausgestiegen.", "n": "How should I put it, it's a long story. Our singer suddenly quit." },
+          { "who": "A", "name": "Felix", "t": "Tja, manche haben halt irgendwann keine Lust mehr.", "n": "Well, some people just lose interest at some point." },
+          { "who": "you", "t": "Du meinst also, dass er einfach keine Lust mehr hatte? Nee, er ist nach Österreich gezogen.", "n": "So you mean he simply didn't feel like it anymore? Nah, he moved to Austria." },
+          { "who": "A", "name": "Felix", "t": "Nach Österreich? Wir fahren im Sommer nach Salzburg!", "n": "To Austria? We're going to Salzburg in the summer!" },
+          { "who": "you", "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?", "n": "Speaking of holidays, have you actually been to Vienna yet?" },
+          { "who": "A", "name": "Felix", "t": "Ja, letztes Jahr. Tolle Stadt! Aber erzähl weiter.", "n": "Yes, last year. Great city! But go on." },
+          { "who": "you", "t": "Wo war ich stehen geblieben?", "n": "Where was I?" },
+          { "who": "A", "name": "Felix", "t": "Bei eurem Sänger. Und jetzt? Keine Band mehr?", "n": "You were talking about your singer. And now? No more band?" },
+          { "who": "you", "t": "Na ja, so ist das halt. Kurz gesagt: Es hat sich am Ende alles gelohnt.", "n": "Oh well, that's just the way it is. In short: in the end it was all worth it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Buy time: say 'how should I put it, it's a long story'.", "t": ["Wie soll ich sagen, das ist eine lange Geschichte"] },
+        { "n": "After a digression, ask where you were.", "t": ["Wo war ich stehen geblieben", "Wo war ich"] },
+        { "n": "Wrap up: in short, it was all worth it in the end.", "t": ["Kurz gesagt: Es hat sich am Ende alles gelohnt", "Kurz gesagt, es hat sich am Ende alles gelohnt", "Es hat sich am Ende alles gelohnt"] },
+        { "n": "Say you really have to go and you'll carry on chatting next week.", "t": ["Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter", "Ich muss jetzt echt los, wir quatschen nächste Woche weiter"] }
+      ]
+    }
+  ]
+}

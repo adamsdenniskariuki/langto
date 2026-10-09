@@ -1,0 +1,85 @@
+{
+  "id": "b2-u03",
+  "title": "Verhandeln",
+  "subtitle": "Negotiating & finding compromises",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "b2-u03-l1",
+      "title": "Negotiating terms",
+      "goal": "Make offers, set conditions and push back politely in a negotiation.",
+      "tip": {
+        "title": "Softening with Konjunktiv II",
+        "body": "Hard demands sound rude in German negotiations; Konjunktiv II softens them: Wären Sie bereit …? Könnten wir uns auf … einigen? Conditions use vorausgesetzt, dass or unter der Bedingung, dass – the verb goes to the end. Keep your tone calm and even; a slight rise at the end of an offer keeps the door open."
+      },
+      "phrases": [
+        { "t": "Wären Sie bereit, uns beim Preis etwas entgegenzukommen?", "n": "Would you be willing to meet us halfway on the price?", "note": "entgegenkommen = to accommodate" },
+        { "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.", "n": "Unfortunately, that's not quite what we had in mind." },
+        { "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.", "n": "We could agree, provided that delivery is on time." },
+        { "t": "Was wäre, wenn wir eine größere Menge bestellen würden?", "n": "What if we ordered a larger quantity?" },
+        { "t": "Da sind uns leider die Hände gebunden.", "n": "Unfortunately our hands are tied there." },
+        { "t": "Das ist unser letztes Angebot.", "n": "That's our final offer." },
+        { "t": "Ich müsste das erst mit meiner Chefin absprechen.", "n": "I'd have to clear that with my boss first." },
+        { "t": "Unter dieser Bedingung wären wir einverstanden.", "n": "On that condition, we'd agree." }
+      ],
+      "dialogue": {
+        "title": "Talking to a supplier",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Wir können Ihnen das Material für achtzehn Euro pro Stück anbieten.", "n": "We can offer you the material for eighteen euros per item." },
+          { "who": "you", "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.", "n": "Unfortunately, that's not quite what we had in mind." },
+          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Woran hatten Sie denn gedacht?", "n": "What did you have in mind then?" },
+          { "who": "you", "t": "Was wäre, wenn wir eine größere Menge bestellen würden? Sagen wir, tausend Stück.", "n": "What if we ordered a larger quantity? Let's say a thousand items." },
+          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Dann könnten wir auf sechzehn Euro runtergehen. Bei Zahlung innerhalb von zehn Tagen.", "n": "Then we could go down to sixteen euros. With payment within ten days." },
+          { "who": "you", "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.", "n": "We could agree, provided that delivery is on time." },
+          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Das garantieren wir Ihnen. Haben wir einen Deal?", "n": "We guarantee that. Do we have a deal?" },
+          { "who": "you", "t": "Ich müsste das erst mit meiner Chefin absprechen. Aber unter dieser Bedingung wären wir einverstanden.", "n": "I'd have to clear that with my boss first. But on that condition, we'd agree." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if they'd be willing to meet you halfway on the price.", "t": ["Wären Sie bereit, uns beim Preis etwas entgegenzukommen", "Wären Sie bereit, uns beim Preis entgegenzukommen"] },
+        { "n": "Say your hands are tied.", "t": ["Da sind uns leider die Hände gebunden", "Uns sind leider die Hände gebunden"] },
+        { "n": "Say you'd have to clear it with your boss first.", "t": ["Ich müsste das erst mit meiner Chefin absprechen", "Ich müsste das erst mit meinem Chef absprechen"] },
+        { "n": "Say that on that condition you'd agree.", "t": ["Unter dieser Bedingung wären wir einverstanden", "Unter dieser Bedingung wäre ich einverstanden"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l2",
+      "title": "Reaching a compromise",
+      "goal": "Find common ground, make concessions and agree on a solution in everyday disputes.",
+      "tip": {
+        "title": "Concessions with obwohl and dennoch",
+        "body": "Obwohl starts a subordinate clause (verb at the end): Obwohl ich lieber ans Meer fahren würde, … Dennoch and trotzdem take position 1 and are followed by the verb: Dennoch bin ich einverstanden. To sound cooperative, use wir instead of ich and keep a friendly, slightly rising tone – Wie wär's, wenn …? invites the other person in."
+      },
+      "phrases": [
+        { "t": "Wie wär's, wenn wir uns in der Mitte treffen?", "n": "How about we meet in the middle?" },
+        { "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.", "n": "Although I'd rather go to the seaside, I'm open to the mountains." },
+        { "t": "Ich kann dir da ein Stück entgegenkommen.", "n": "I can meet you partway on that." },
+        { "t": "Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.", "n": "Nevertheless, it's important to me that we have enough time to relax." },
+        { "t": "Damit kann ich leben.", "n": "I can live with that." },
+        { "t": "Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind.", "n": "Let's find a compromise we're both happy with." },
+        { "t": "Dieses Jahr machen wir es so, und nächstes Jahr entscheidest du.", "n": "This year we'll do it this way, and next year you decide." },
+        { "t": "Abgemacht!", "n": "Deal!" }
+      ],
+      "dialogue": {
+        "title": "Planning the holiday",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Jonas", "t": "Ich will dieses Jahr unbedingt wandern gehen. Zwei Wochen in den Alpen!", "n": "This year I really want to go hiking. Two weeks in the Alps!" },
+          { "who": "you", "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.", "n": "Although I'd rather go to the seaside, I'm open to the mountains." },
+          { "who": "A", "name": "Jonas", "t": "Echt? Ich dachte, du hasst Wandern.", "n": "Really? I thought you hated hiking." },
+          { "who": "you", "t": "Ich kann dir da ein Stück entgegenkommen. Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.", "n": "I can meet you partway on that. Nevertheless, it's important to me that we have enough time to relax." },
+          { "who": "A", "name": "Jonas", "t": "Okay. Eine Woche Berge, eine Woche See?", "n": "Okay. One week of mountains, one week by a lake?" },
+          { "who": "you", "t": "Damit kann ich leben. Dieses Jahr machen wir es so, und nächstes Jahr entscheide ich.", "n": "I can live with that. This year we'll do it this way, and next year I decide." },
+          { "who": "A", "name": "Jonas", "t": "Klingt fair. Abgemacht?", "n": "Sounds fair. Deal?" },
+          { "who": "you", "t": "Abgemacht!", "n": "Deal!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest meeting in the middle.", "t": ["Wie wär's, wenn wir uns in der Mitte treffen", "Wie wäre es, wenn wir uns in der Mitte treffen"] },
+        { "n": "Say you can live with that.", "t": ["Damit kann ich leben"] },
+        { "n": "Suggest finding a compromise you're both happy with.", "t": ["Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind", "Lass uns einen Kompromiss finden"] }
+      ]
+    }
+  ]
+}
