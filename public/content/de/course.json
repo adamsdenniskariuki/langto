@@ -38,6 +38,21 @@
       "id": "B1",
       "title": "Intermediate",
       "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.",
+      "units": [
+        "b1/u01-meinung.json",
+        "b1/u02-frueher.json",
+        "b1/u03-gefuehle.json",
+        "b1/u04-beruf.json",
+        "b1/u05-medien.json",
+        "b1/u06-umwelt.json",
+        "b1/u07-was-waere-wenn.json",
+        "b1/u08-unterwegs-feste.json"
+      ]
+    },
+    {
+      "id": "B2",
+      "title": "Upper intermediate",
+      "description": "Debate, negotiate, present in meetings and use idioms naturally.",
       "comingSoon": true,
       "units": []
     }

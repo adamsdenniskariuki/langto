@@ -1,0 +1,85 @@
+{
+  "id": "b1-u01",
+  "title": "Meiner Meinung nach",
+  "subtitle": "Opinions & discussion",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b1-u01-l1",
+      "title": "Giving your opinion",
+      "goal": "Say what you think about a topic and give a reason.",
+      "tip": {
+        "title": "dass and weil send the verb to the end",
+        "body": "After ich finde, dass or ich glaube, dass the conjugated verb moves to the end: Ich finde, dass Deutsch schön ist. Meiner Meinung nach is followed directly by the verb: Meiner Meinung nach ist das wichtig. Speaking tip: a short pause after \"ich finde\" buys you thinking time and sounds completely natural."
+      },
+      "phrases": [
+        { "t": "Ich finde, dass Deutsch eine schöne Sprache ist.", "n": "I think German is a beautiful language." },
+        { "t": "Meiner Meinung nach ist das zu teuer.", "n": "In my opinion, that's too expensive.", "note": "The verb comes right after \"nach\"." },
+        { "t": "Ich glaube, dass du recht hast.", "n": "I believe you're right." },
+        { "t": "Ich bin der Meinung, dass wir mehr Zeit brauchen.", "n": "I'm of the opinion that we need more time.", "note": "A bit more formal." },
+        { "t": "Was hältst du davon?", "n": "What do you think of it?" },
+        { "t": "Ehrlich gesagt finde ich das nicht so gut.", "n": "To be honest, I don't think that's so good." },
+        { "t": "Das ist wichtig, weil man jeden Tag üben muss.", "n": "That's important because you have to practise every day." },
+        { "t": "Also, ich weiß nicht genau.", "n": "Well, I'm not quite sure.", "note": "\"Also\" is a handy filler to gain time." }
+      ],
+      "dialogue": {
+        "title": "Learning with apps",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Lena", "t": "Ich lerne jetzt Spanisch mit einer App. Was hältst du davon?", "n": "I'm learning Spanish with an app now. What do you think of that?" },
+          { "who": "you", "t": "Ich finde, dass Apps sehr praktisch sind.", "n": "I think apps are very practical." },
+          { "who": "A", "name": "Lena", "t": "Wirklich? Ich glaube, mit Apps lernt man nicht richtig sprechen.", "n": "Really? I think you don't really learn to speak with apps." },
+          { "who": "you", "t": "Also, ich weiß nicht genau. Das ist wichtig, weil man jeden Tag üben muss.", "n": "Well, I'm not quite sure. That's important because you have to practise every day." },
+          { "who": "A", "name": "Lena", "t": "Und ein Kurs? Der ist doch besser, oder?", "n": "And a course? That's better, isn't it?" },
+          { "who": "you", "t": "Ehrlich gesagt finde ich Kurse zu teuer.", "n": "To be honest, I find courses too expensive." },
+          { "who": "A", "name": "Lena", "t": "Na ja, das stimmt. Aber sprechen muss man trotzdem.", "n": "Well, that's true. But you still have to speak." },
+          { "who": "you", "t": "Ich glaube, dass du recht hast.", "n": "I believe you're right." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you think German is a beautiful language.", "t": ["Ich finde, dass Deutsch eine schöne Sprache ist", "Meiner Meinung nach ist Deutsch eine schöne Sprache"] },
+        { "n": "Ask a friend what they think of it.", "t": ["Was hältst du davon", "Was denkst du darüber"] },
+        { "n": "Say that in your opinion it's too expensive.", "t": ["Meiner Meinung nach ist das zu teuer", "Ich finde, dass das zu teuer ist"] },
+        { "n": "Say honestly that you don't think it's so good.", "t": ["Ehrlich gesagt finde ich das nicht so gut", "Ich finde das nicht so gut"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l2",
+      "title": "Agreeing and disagreeing",
+      "goal": "Agree, disagree politely and keep a discussion going.",
+      "tip": {
+        "title": "Disagree politely",
+        "body": "German speakers can be direct, but softeners help: Das sehe ich ein bisschen anders sounds friendlier than Das ist falsch. To agree, say Da hast du recht or simply Genau! Weigh both sides with einerseits, andererseits. Stress the key word: Das sehe ich ANDERS."
+      },
+      "phrases": [
+        { "t": "Da hast du völlig recht.", "n": "You're completely right there." },
+        { "t": "Da bin ich ganz deiner Meinung.", "n": "I completely agree with you." },
+        { "t": "Das sehe ich ein bisschen anders.", "n": "I see that a bit differently.", "note": "Soft, polite disagreement." },
+        { "t": "Da bin ich anderer Meinung.", "n": "I disagree there." },
+        { "t": "Einerseits ist es praktisch, andererseits ist es teuer.", "n": "On the one hand it's practical, on the other hand it's expensive." },
+        { "t": "Das stimmt, aber man muss auch an die Umwelt denken.", "n": "That's true, but you also have to think about the environment." },
+        { "t": "Wie meinst du das genau?", "n": "What exactly do you mean?", "note": "Ask for clarification." },
+        { "t": "Das ist ein gutes Argument.", "n": "That's a good point." }
+      ],
+      "dialogue": {
+        "title": "Car or bike?",
+        "lines": [
+          { "who": "A", "name": "Markus", "t": "Ich finde, dass jeder in der Stadt ein Auto braucht.", "n": "I think everyone in the city needs a car." },
+          { "who": "you", "t": "Das sehe ich ein bisschen anders.", "n": "I see that a bit differently." },
+          { "who": "A", "name": "Markus", "t": "Wieso? Mit dem Auto ist man doch flexibel.", "n": "Why? You're flexible with a car." },
+          { "who": "you", "t": "Das stimmt, aber man muss auch an die Umwelt denken.", "n": "That's true, but you also have to think about the environment." },
+          { "who": "A", "name": "Markus", "t": "Aber im Winter ist Radfahren wirklich nicht schön.", "n": "But cycling in winter really isn't nice." },
+          { "who": "you", "t": "Das ist ein gutes Argument. Einerseits ist ein Auto praktisch, andererseits ist es teuer.", "n": "That's a good point. On the one hand a car is practical, on the other it's expensive." },
+          { "who": "A", "name": "Markus", "t": "Vielleicht ist der Bus die beste Lösung.", "n": "Maybe the bus is the best solution." },
+          { "who": "you", "t": "Da bin ich ganz deiner Meinung.", "n": "I completely agree with you." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell a friend they're completely right.", "t": ["Da hast du völlig recht", "Da hast du recht", "Du hast völlig recht"] },
+        { "n": "Politely say you see it a bit differently.", "t": ["Das sehe ich ein bisschen anders", "Das sehe ich anders", "Da bin ich anderer Meinung"] },
+        { "n": "Ask what exactly they mean.", "t": ["Wie meinst du das genau", "Wie meinst du das"] },
+        { "n": "Say it's practical on the one hand but expensive on the other.", "t": ["Einerseits ist es praktisch, andererseits ist es teuer"] }
+      ]
+    }
+  ]
+}

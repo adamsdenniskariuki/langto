@@ -1,0 +1,85 @@
+{
+  "id": "b1-u07",
+  "title": "Was wäre, wenn?",
+  "subtitle": "Wishes, requests & advice",
+  "icon": "💭",
+  "lessons": [
+    {
+      "id": "b1-u07-l1",
+      "title": "Dreams and what-ifs",
+      "goal": "Talk about wishes and imagine hypothetical situations.",
+      "tip": {
+        "title": "Konjunktiv II",
+        "body": "For unreal situations use würde + infinitive, or the short forms wäre, hätte and könnte: Wenn ich mehr Zeit hätte, würde ich mehr reisen. The verb goes to the end of the wenn-clause, and the main clause then starts with the verb. Pronunciation: hätte has a short ä like the e in \"bed\"; wäre has a long one, close to \"air\"."
+      },
+      "phrases": [
+        { "t": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.", "n": "If I had more time, I would travel more." },
+        { "t": "Wenn ich reich wäre, würde ich ein Haus am Meer kaufen.", "n": "If I were rich, I'd buy a house by the sea." },
+        { "t": "Ich würde gern in Berlin leben.", "n": "I'd like to live in Berlin." },
+        { "t": "Es wäre schön, wenn wir uns öfter sehen könnten.", "n": "It would be nice if we could see each other more often." },
+        { "t": "Ich hätte gern einen Hund.", "n": "I'd like to have a dog." },
+        { "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?", "n": "What would you do if you won the lottery?" },
+        { "t": "Ich wünschte, ich könnte besser kochen.", "n": "I wish I could cook better." },
+        { "t": "Das wäre mein Traum!", "n": "That would be my dream!" }
+      ],
+      "dialogue": {
+        "title": "Lottery dreams",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Leonie", "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?", "n": "What would you do if you won the lottery?" },
+          { "who": "you", "t": "Also, ich würde ein Haus am Meer kaufen.", "n": "Well, I'd buy a house by the sea." },
+          { "who": "A", "name": "Leonie", "t": "Schön! Und würdest du weiter arbeiten?", "n": "Nice! And would you keep working?" },
+          { "who": "you", "t": "Nein, ich würde mehr reisen. Das wäre mein Traum!", "n": "No, I'd travel more. That would be my dream!" },
+          { "who": "A", "name": "Leonie", "t": "Ich würde einen Kochkurs in Italien machen.", "n": "I'd take a cooking course in Italy." },
+          { "who": "you", "t": "Tolle Idee! Ich wünschte, ich könnte besser kochen.", "n": "Great idea! I wish I could cook better." },
+          { "who": "A", "name": "Leonie", "t": "Dann komm doch mit! Wir könnten zusammen fahren.", "n": "Then come along! We could go together." },
+          { "who": "you", "t": "Gern! Es wäre schön, wenn wir uns öfter sehen könnten.", "n": "I'd love to! It would be nice if we could see each other more often." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that if you had more time, you would travel more.", "t": ["Wenn ich mehr Zeit hätte, würde ich mehr reisen", "Wenn ich mehr Zeit hätte, würde ich reisen"] },
+        { "n": "Ask a friend what they would do if they won the lottery.", "t": ["Was würdest du machen, wenn du im Lotto gewinnen würdest", "Was würdest du machen, wenn du im Lotto gewinnst"] },
+        { "n": "Say you'd like to live in Berlin.", "t": ["Ich würde gern in Berlin leben", "Ich würde gerne in Berlin leben"] },
+        { "n": "Say you wish you could cook better.", "t": ["Ich wünschte, ich könnte besser kochen"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l2",
+      "title": "Polite requests and advice",
+      "goal": "Make polite requests and give a friend advice and suggestions.",
+      "tip": {
+        "title": "Softening with Konjunktiv II",
+        "body": "Könnten Sie and Würden Sie sound much more polite than Können Sie. For advice, use An deiner Stelle würde ich or Du solltest, and for suggestions Wie wäre es mit? Intonation tip: requests sound friendlier with a slight rise at the end and a warm, unhurried \"bitte\"."
+      },
+      "phrases": [
+        { "t": "Könntest du mir bitte helfen?", "n": "Could you help me, please?" },
+        { "t": "Würden Sie bitte das Fenster schließen?", "n": "Would you close the window, please?" },
+        { "t": "Hätten Sie kurz Zeit?", "n": "Would you have a moment?" },
+        { "t": "Es wäre nett, wenn du mich morgen anrufen könntest.", "n": "It would be nice if you could call me tomorrow." },
+        { "t": "An deiner Stelle würde ich mit ihm sprechen.", "n": "If I were you, I'd talk to him." },
+        { "t": "Du solltest mehr schlafen.", "n": "You should sleep more." },
+        { "t": "Wie wäre es mit einem Spaziergang?", "n": "How about a walk?" },
+        { "t": "Hast du schon mal versucht, früher ins Bett zu gehen?", "n": "Have you ever tried going to bed earlier?" }
+      ],
+      "dialogue": {
+        "title": "A stressed friend",
+        "lines": [
+          { "who": "A", "name": "David", "t": "Ich bin total gestresst. Mein Kollege macht nie seine Arbeit.", "n": "I'm totally stressed. My colleague never does his work." },
+          { "who": "you", "t": "Oh je. An deiner Stelle würde ich mit ihm sprechen.", "n": "Oh dear. If I were you, I'd talk to him." },
+          { "who": "A", "name": "David", "t": "Das mache ich morgen. Aber ich schlafe auch so schlecht.", "n": "I'll do that tomorrow. But I'm also sleeping so badly." },
+          { "who": "you", "t": "Du solltest mehr schlafen. Hast du schon mal versucht, früher ins Bett zu gehen?", "n": "You should sleep more. Have you ever tried going to bed earlier?" },
+          { "who": "A", "name": "David", "t": "Ja, aber dann liege ich wach und denke an die Arbeit.", "n": "Yes, but then I lie awake thinking about work." },
+          { "who": "you", "t": "Wie wäre es mit einem Spaziergang am Abend?", "n": "How about a walk in the evening?" },
+          { "who": "A", "name": "David", "t": "Gute Idee. Kommst du vielleicht mit?", "n": "Good idea. Would you maybe come along?" },
+          { "who": "you", "t": "Klar! Es wäre nett, wenn du mich morgen anrufen könntest.", "n": "Sure! It would be nice if you could call me tomorrow." }
+        ]
+      },
+      "prompts": [
+        { "n": "Politely ask a friend to help you.", "t": ["Könntest du mir bitte helfen", "Kannst du mir bitte helfen"] },
+        { "n": "Advise a friend: if you were them, you'd talk to him.", "t": ["An deiner Stelle würde ich mit ihm sprechen", "An deiner Stelle würde ich mit ihm reden"] },
+        { "n": "Suggest going for a walk.", "t": ["Wie wäre es mit einem Spaziergang", "Wie wär's mit einem Spaziergang"] },
+        { "n": "Politely ask a stranger whether they have a moment.", "t": ["Hätten Sie kurz Zeit", "Haben Sie kurz Zeit"] }
+      ]
+    }
+  ]
+}

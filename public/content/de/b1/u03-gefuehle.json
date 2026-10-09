@@ -1,0 +1,85 @@
+{
+  "id": "b1-u03",
+  "title": "Gefühle und Beziehungen",
+  "subtitle": "Feelings & relationships",
+  "icon": "❤️",
+  "lessons": [
+    {
+      "id": "b1-u03-l1",
+      "title": "How do you feel?",
+      "goal": "Talk about your feelings and react to other people's news.",
+      "tip": {
+        "title": "Reflexive verbs",
+        "body": "Many feeling verbs are reflexive: sich freuen, sich ärgern, sich fühlen. The pronoun matches the subject: ich freue mich, du freust dich, wir freuen uns. Sich freuen auf means to look forward to; sich freuen über means to be happy about. To sound empathetic, let your voice fall gently on \"Das tut mir leid\"."
+      },
+      "phrases": [
+        { "t": "Ich freue mich sehr auf das Wochenende.", "n": "I'm really looking forward to the weekend.", "note": "freuen auf = something in the future" },
+        { "t": "Ich habe mich über dein Geschenk gefreut.", "n": "I was happy about your present.", "note": "freuen über = something that happened" },
+        { "t": "Ich ärgere mich über meinen Chef.", "n": "I'm annoyed with my boss." },
+        { "t": "Ich fühle mich heute nicht so gut.", "n": "I don't feel so good today." },
+        { "t": "Mach dir keine Sorgen!", "n": "Don't worry!" },
+        { "t": "Ich interessiere mich für Musik.", "n": "I'm interested in music." },
+        { "t": "Das tut mir wirklich leid.", "n": "I'm really sorry about that." },
+        { "t": "Wie schön, das freut mich für dich!", "n": "How lovely, I'm happy for you!" }
+      ],
+      "dialogue": {
+        "title": "Good news, bad news",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Anna", "t": "Hey, wie geht's dir?", "n": "Hey, how are you?" },
+          { "who": "you", "t": "Ehrlich gesagt fühle ich mich heute nicht so gut.", "n": "To be honest, I don't feel so good today." },
+          { "who": "A", "name": "Anna", "t": "Oh, was ist denn los?", "n": "Oh, what's the matter?" },
+          { "who": "you", "t": "Ich ärgere mich über meinen Chef. Ich muss am Samstag arbeiten.", "n": "I'm annoyed with my boss. I have to work on Saturday." },
+          { "who": "A", "name": "Anna", "t": "Das tut mir leid. Aber ich habe gute Nachrichten: Ich habe eine neue Wohnung!", "n": "I'm sorry. But I have good news: I've got a new flat!" },
+          { "who": "you", "t": "Wie schön, das freut mich für dich!", "n": "How lovely, I'm happy for you!" },
+          { "who": "A", "name": "Anna", "t": "Danke! Kommst du nächste Woche zu meiner Party?", "n": "Thanks! Are you coming to my party next week?" },
+          { "who": "you", "t": "Klar, ich freue mich schon darauf.", "n": "Of course, I'm already looking forward to it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're really looking forward to the weekend.", "t": ["Ich freue mich sehr auf das Wochenende", "Ich freue mich auf das Wochenende", "Ich freue mich aufs Wochenende"] },
+        { "n": "Say you don't feel so good today.", "t": ["Ich fühle mich heute nicht so gut", "Ich fühle mich nicht so gut"] },
+        { "n": "Tell a friend not to worry.", "t": ["Mach dir keine Sorgen"] },
+        { "n": "React to a friend's good news: say you're happy for them.", "t": ["Wie schön, das freut mich für dich", "Das freut mich für dich"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l2",
+      "title": "Friends and partners",
+      "goal": "Describe people close to you and how your relationships developed.",
+      "tip": {
+        "title": "Relative clauses",
+        "body": "Describe people with relative clauses: Das ist die Freundin, die in Wien wohnt. Der Freund, den ich getroffen habe, ist Lehrer. The relative pronoun matches the person's gender and its role in the clause, and the verb goes to the end. Fluency tip: one relative clause per sentence is plenty when speaking."
+      },
+      "phrases": [
+        { "t": "Das ist meine beste Freundin, die in Wien wohnt.", "n": "That's my best friend, who lives in Vienna." },
+        { "t": "Wir haben uns im Studium kennengelernt.", "n": "We met at university." },
+        { "t": "Er ist ein Mensch, auf den man sich verlassen kann.", "n": "He's someone you can rely on." },
+        { "t": "Wir verstehen uns sehr gut.", "n": "We get on really well." },
+        { "t": "Manchmal streiten wir uns, aber nie lange.", "n": "Sometimes we argue, but never for long." },
+        { "t": "Sie hat sich sofort in ihn verliebt.", "n": "She fell in love with him immediately." },
+        { "t": "Wir haben uns leider aus den Augen verloren.", "n": "Unfortunately we lost touch.", "note": "Literally: lost each other from our eyes." },
+        { "t": "Der Freund, den ich gestern getroffen habe, ist Lehrer.", "n": "The friend I met yesterday is a teacher.", "note": "den = accusative relative pronoun" }
+      ],
+      "dialogue": {
+        "title": "The photo album",
+        "lines": [
+          { "who": "A", "name": "Jonas", "t": "Wer ist die Frau auf dem Foto?", "n": "Who's the woman in the photo?" },
+          { "who": "you", "t": "Das ist meine beste Freundin, die in Wien wohnt.", "n": "That's my best friend, who lives in Vienna." },
+          { "who": "A", "name": "Jonas", "t": "Wie lange kennt ihr euch schon?", "n": "How long have you known each other?" },
+          { "who": "you", "t": "Wir haben uns im Studium kennengelernt.", "n": "We met at university." },
+          { "who": "A", "name": "Jonas", "t": "Und versteht ihr euch immer gut?", "n": "And do you always get on well?" },
+          { "who": "you", "t": "Ja, wir verstehen uns sehr gut. Manchmal streiten wir uns, aber nie lange.", "n": "Yes, we get on really well. Sometimes we argue, but never for long." },
+          { "who": "A", "name": "Jonas", "t": "Und wer ist der Mann neben ihr?", "n": "And who's the man next to her?" },
+          { "who": "you", "t": "Das ist ihr Freund. Er ist ein Mensch, auf den man sich verlassen kann.", "n": "That's her boyfriend. He's someone you can rely on." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you met at university.", "t": ["Wir haben uns im Studium kennengelernt", "Wir haben uns an der Uni kennengelernt"] },
+        { "n": "Say you get on really well.", "t": ["Wir verstehen uns sehr gut", "Wir verstehen uns gut"] },
+        { "n": "Introduce your best friend who lives in Vienna.", "t": ["Das ist meine beste Freundin, die in Wien wohnt", "Das ist mein bester Freund, der in Wien wohnt"] },
+        { "n": "Say that unfortunately you lost touch.", "t": ["Wir haben uns leider aus den Augen verloren", "Wir haben uns aus den Augen verloren"] }
+      ]
+    }
+  ]
+}

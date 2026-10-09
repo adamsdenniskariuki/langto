@@ -25,7 +25,7 @@ const fileFor = (voice, text) => createHash('sha256').update(`${FORMAT}|${voice}
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function synthesize({ text, voice }, xmlLang) {
-  const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${xmlLang}"><voice name="${esc(voice)}">${esc(text)}</voice></speak>`;
+  const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${/^[a-z]{2}-[A-Z]{2}-/.test(voice) ? voice.slice(0, 5) : xmlLang}"><voice name="${esc(voice)}">${esc(text)}</voice></speak>`;
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(`https://${REGION}.tts.speech.microsoft.com/cognitiveservices/v1`, {
       method: 'POST',

@@ -1,0 +1,88 @@
+{
+  "id": "b1-u02",
+  "title": "Früher und damals",
+  "subtitle": "Telling stories about the past",
+  "icon": "📖",
+  "lessons": [
+    {
+      "id": "b1-u02-l1",
+      "title": "When I was a child",
+      "goal": "Describe what your life was like in the past.",
+      "tip": {
+        "title": "Präteritum for war, hatte and modals",
+        "body": "In speech, Germans use the Perfekt for most verbs, but the Präteritum for sein, haben and modal verbs: ich war, ich hatte, ich konnte, ich musste, ich wollte. Als (when) for a single period in the past sends the verb to the end: Als ich Kind war. Speaking tip: let \"als ich\" flow together like one word."
+      },
+      "phrases": [
+        { "t": "Als ich Kind war, haben wir auf dem Land gewohnt.", "n": "When I was a child, we lived in the countryside.", "note": "als = when (one period in the past)" },
+        { "t": "Ich hatte einen kleinen Hund.", "n": "I had a small dog." },
+        { "t": "Ich konnte schon mit fünf Jahren schwimmen.", "n": "I could already swim when I was five." },
+        { "t": "Wir mussten jeden Tag zu Fuß zur Schule gehen.", "n": "We had to walk to school every day." },
+        { "t": "Früher war alles ein bisschen einfacher.", "n": "Things used to be a bit simpler." },
+        { "t": "Meine Oma hat immer Kuchen gebacken.", "n": "My grandma always baked cake." },
+        { "t": "Ich wollte unbedingt Pilot werden.", "n": "I really wanted to become a pilot." },
+        { "t": "Damals gab es noch kein Internet.", "n": "Back then there was no internet yet.", "note": "es gab = there was / there were" }
+      ],
+      "dialogue": {
+        "title": "Childhood memories",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Sophie", "t": "Wo hast du eigentlich als Kind gewohnt?", "n": "Where did you actually live as a child?" },
+          { "who": "you", "t": "Als ich Kind war, haben wir auf dem Land gewohnt.", "n": "When I was a child, we lived in the countryside." },
+          { "who": "A", "name": "Sophie", "t": "Wie schön! Hattest du Haustiere?", "n": "How lovely! Did you have pets?" },
+          { "who": "you", "t": "Ja, ich hatte einen kleinen Hund.", "n": "Yes, I had a small dog." },
+          { "who": "A", "name": "Sophie", "t": "Und was wolltest du werden?", "n": "And what did you want to be?" },
+          { "who": "you", "t": "Ich wollte unbedingt Pilot werden.", "n": "I really wanted to become a pilot." },
+          { "who": "A", "name": "Sophie", "t": "Ich wollte Tierärztin werden. Damals war alles anders, oder?", "n": "I wanted to be a vet. Everything was different back then, wasn't it?" },
+          { "who": "you", "t": "Ja, damals gab es noch kein Internet.", "n": "Yes, back then there was no internet yet." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you had a small dog.", "t": ["Ich hatte einen kleinen Hund"] },
+        { "n": "Say you really wanted to become a pilot.", "t": ["Ich wollte unbedingt Pilot werden", "Ich wollte Pilot werden"] },
+        { "n": "Say there was no internet back then.", "t": ["Damals gab es noch kein Internet", "Damals gab es kein Internet"] },
+        { "n": "Say you could already swim at the age of five.", "t": ["Ich konnte schon mit fünf Jahren schwimmen", "Ich konnte mit fünf Jahren schwimmen"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l2",
+      "title": "Telling an anecdote",
+      "goal": "Tell a short story with a clear order of events.",
+      "tip": {
+        "title": "Sequencing and Plusquamperfekt",
+        "body": "Structure your story with zuerst, dann, danach, plötzlich and am Ende. For something that had already happened before another past event, use the Plusquamperfekt (hatte or war + participle): Ich hatte meinen Schlüssel vergessen. Storytelling tip: slow down and lift your voice on \"plötzlich\" to build suspense."
+      },
+      "phrases": [
+        { "t": "Stell dir vor, was mir gestern passiert ist!", "n": "Imagine what happened to me yesterday!", "note": "A classic story opener." },
+        { "t": "Zuerst bin ich wie immer joggen gegangen.", "n": "First I went jogging as usual." },
+        { "t": "Ich hatte meinen Schlüssel in der Wohnung vergessen.", "n": "I had left my key in the flat.", "note": "Plusquamperfekt: hatte + participle" },
+        { "t": "Plötzlich hat es angefangen zu regnen.", "n": "Suddenly it started to rain." },
+        { "t": "Ich musste eine Stunde vor der Tür warten.", "n": "I had to wait outside the door for an hour." },
+        { "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.", "n": "After I had waited a long time, my neighbour finally came.", "note": "nachdem + Plusquamperfekt" },
+        { "t": "Am Ende ist alles gut gegangen.", "n": "In the end everything turned out fine." },
+        { "t": "Und was ist dann passiert?", "n": "And then what happened?", "note": "Keeps the storyteller going." }
+      ],
+      "dialogue": {
+        "title": "A crazy morning",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Tim", "t": "Du siehst müde aus. Alles okay?", "n": "You look tired. Everything okay?" },
+          { "who": "you", "t": "Stell dir vor, was mir gestern passiert ist!", "n": "Imagine what happened to me yesterday!" },
+          { "who": "A", "name": "Tim", "t": "Erzähl mal!", "n": "Tell me!" },
+          { "who": "you", "t": "Zuerst bin ich joggen gegangen. Ich hatte meinen Schlüssel in der Wohnung vergessen.", "n": "First I went jogging. I had left my key in the flat." },
+          { "who": "A", "name": "Tim", "t": "Oh nein! Und was ist dann passiert?", "n": "Oh no! And then what happened?" },
+          { "who": "you", "t": "Ich musste eine Stunde vor der Tür warten. Plötzlich hat es angefangen zu regnen.", "n": "I had to wait outside the door for an hour. Suddenly it started to rain." },
+          { "who": "A", "name": "Tim", "t": "Das ist ja ärgerlich! Und dann?", "n": "That's so annoying! And then?" },
+          { "who": "you", "t": "Nachdem ich lange gewartet hatte, kam endlich mein Nachbar.", "n": "After I had waited a long time, my neighbour finally came." },
+          { "who": "A", "name": "Tim", "t": "Zum Glück! Er hat einen Ersatzschlüssel, oder?", "n": "Luckily! He has a spare key, right?" },
+          { "who": "you", "t": "Genau. Am Ende ist alles gut gegangen.", "n": "Exactly. In the end everything turned out fine." }
+        ]
+      },
+      "prompts": [
+        { "n": "Get a friend's attention: imagine what happened to you yesterday!", "t": ["Stell dir vor, was mir gestern passiert ist"] },
+        { "n": "Say you had left your key in the flat.", "t": ["Ich hatte meinen Schlüssel in der Wohnung vergessen", "Ich hatte meinen Schlüssel vergessen"] },
+        { "n": "Ask what happened next.", "t": ["Und was ist dann passiert", "Was ist dann passiert"] },
+        { "n": "Say that in the end everything turned out fine.", "t": ["Am Ende ist alles gut gegangen"] }
+      ]
+    }
+  ]
+}

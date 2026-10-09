@@ -1,0 +1,87 @@
+{
+  "id": "b1-u06",
+  "title": "Umwelt und Gesellschaft",
+  "subtitle": "Environment & society",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "id": "b1-u06-l1",
+      "title": "Living green",
+      "goal": "Explain what you do for the environment and why.",
+      "tip": {
+        "title": "man and sollte",
+        "body": "Use man for general statements about people: Man sollte weniger Plastik benutzen. Sollte (should) sounds like friendly advice, not an order. Pronunciation: stress the first syllable in UMwelt and KLIMawandel, and remember that German w sounds like English v."
+      },
+      "phrases": [
+        { "t": "Ich trenne meinen Müll.", "n": "I separate my rubbish." },
+        { "t": "Ich fahre mit dem Fahrrad, um die Umwelt zu schonen.", "n": "I cycle to protect the environment." },
+        { "t": "Man sollte weniger Plastik benutzen.", "n": "People should use less plastic." },
+        { "t": "Ich kaufe möglichst regionale Produkte.", "n": "I buy regional products whenever possible." },
+        { "t": "Ich esse seit einem Jahr kein Fleisch mehr.", "n": "I haven't eaten meat for a year." },
+        { "t": "Der Klimawandel ist ein großes Problem.", "n": "Climate change is a big problem." },
+        { "t": "Jeder kann etwas für die Umwelt tun.", "n": "Everyone can do something for the environment." },
+        { "t": "Ich nehme immer eine eigene Tasche mit.", "n": "I always bring my own bag." }
+      ],
+      "dialogue": {
+        "title": "At the market",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Clara", "t": "Oh, du hast ja eine eigene Tasche dabei!", "n": "Oh, you've brought your own bag!" },
+          { "who": "you", "t": "Ja, ich nehme immer eine eigene Tasche mit. Man sollte weniger Plastik benutzen.", "n": "Yes, I always bring my own bag. People should use less plastic." },
+          { "who": "A", "name": "Clara", "t": "Finde ich gut. Was machst du sonst noch für die Umwelt?", "n": "I think that's good. What else do you do for the environment?" },
+          { "who": "you", "t": "Ich kaufe möglichst regionale Produkte und trenne meinen Müll.", "n": "I buy regional products whenever possible and separate my rubbish." },
+          { "who": "A", "name": "Clara", "t": "Und hast du ein Auto?", "n": "And do you have a car?" },
+          { "who": "you", "t": "Nein, ich fahre mit dem Fahrrad, um die Umwelt zu schonen.", "n": "No, I cycle to protect the environment." },
+          { "who": "A", "name": "Clara", "t": "Ehrlich gesagt glaube ich nicht, dass das viel hilft.", "n": "To be honest, I don't think that helps much." },
+          { "who": "you", "t": "Das sehe ich anders. Jeder kann etwas für die Umwelt tun.", "n": "I see it differently. Everyone can do something for the environment." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you separate your rubbish.", "t": ["Ich trenne meinen Müll"] },
+        { "n": "Say you cycle to protect the environment.", "t": ["Ich fahre mit dem Fahrrad, um die Umwelt zu schonen", "Ich fahre Fahrrad, um die Umwelt zu schonen"] },
+        { "n": "Say people should use less plastic.", "t": ["Man sollte weniger Plastik benutzen"] },
+        { "n": "Say everyone can do something for the environment.", "t": ["Jeder kann etwas für die Umwelt tun"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l2",
+      "title": "A debate in town",
+      "goal": "Take part in a discussion about a local issue and structure your arguments.",
+      "tip": {
+        "title": "Structuring arguments",
+        "body": "Organise your points with erstens, zweitens, außerdem and zum Schluss. After these words the verb comes next: Außerdem gibt es weniger Lärm. Use ich bin dafür or ich bin dagegen to take a clear position. Discussion tip: \"Darf ich kurz etwas ergänzen?\" lets you join in politely, and \"Lass mich bitte kurz ausreden\" keeps the floor."
+      },
+      "phrases": [
+        { "t": "Ich bin dafür, dass die Innenstadt autofrei wird.", "n": "I'm in favour of the city centre becoming car-free." },
+        { "t": "Ich bin dagegen, weil viele Menschen ein Auto brauchen.", "n": "I'm against it because many people need a car." },
+        { "t": "Erstens ist die Luft dann sauberer.", "n": "Firstly, the air is cleaner then." },
+        { "t": "Außerdem gibt es weniger Lärm.", "n": "Besides, there's less noise.", "note": "außerdem: verb comes next" },
+        { "t": "Man darf aber die älteren Menschen nicht vergessen.", "n": "But we mustn't forget older people." },
+        { "t": "Darf ich kurz etwas ergänzen?", "n": "May I add something briefly?", "note": "Polite way to join in." },
+        { "t": "Lass mich bitte kurz ausreden.", "n": "Please let me finish." },
+        { "t": "Das Problem ist, dass der Bus zu selten fährt.", "n": "The problem is that the bus doesn't run often enough." }
+      ],
+      "dialogue": {
+        "title": "A car-free city?",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Felix", "t": "Hast du gehört? Die Innenstadt soll autofrei werden.", "n": "Have you heard? The city centre is supposed to become car-free." },
+          { "who": "you", "t": "Ja, und ich bin dafür. Erstens ist die Luft dann sauberer.", "n": "Yes, and I'm in favour. Firstly, the air is cleaner then." },
+          { "who": "A", "name": "Felix", "t": "Aber viele Menschen brauchen doch ein Auto!", "n": "But lots of people need a car!" },
+          { "who": "you", "t": "Lass mich bitte kurz ausreden. Außerdem gibt es weniger Lärm.", "n": "Please let me finish. Besides, there's less noise." },
+          { "who": "A", "name": "Felix", "t": "Okay, aber was ist mit den älteren Menschen?", "n": "Okay, but what about older people?" },
+          { "who": "you", "t": "Da hast du recht. Man darf die älteren Menschen nicht vergessen.", "n": "You're right there. We mustn't forget older people." },
+          { "who": "A", "name": "Felix", "t": "Und mit dem Bus dauert alles viel länger.", "n": "And everything takes much longer by bus." },
+          { "who": "you", "t": "Genau. Das Problem ist, dass der Bus zu selten fährt.", "n": "Exactly. The problem is that the bus doesn't run often enough." },
+          { "who": "A", "name": "Felix", "t": "Siehst du! Da muss die Stadt zuerst etwas tun.", "n": "You see! The city has to do something about that first." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're in favour of the city centre becoming car-free.", "t": ["Ich bin dafür, dass die Innenstadt autofrei wird", "Ich bin für eine autofreie Innenstadt"] },
+        { "n": "Say you're against it because many people need a car.", "t": ["Ich bin dagegen, weil viele Menschen ein Auto brauchen"] },
+        { "n": "Politely ask if you may add something.", "t": ["Darf ich kurz etwas ergänzen", "Darf ich etwas ergänzen"] },
+        { "n": "Ask a friend to let you finish.", "t": ["Lass mich bitte kurz ausreden", "Lass mich bitte ausreden"] }
+      ]
+    }
+  ]
+}

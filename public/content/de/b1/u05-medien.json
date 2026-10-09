@@ -1,0 +1,87 @@
+{
+  "id": "b1-u05",
+  "title": "Medien und Technik",
+  "subtitle": "Media & technology",
+  "icon": "📱",
+  "lessons": [
+    {
+      "id": "b1-u05-l1",
+      "title": "Media habits",
+      "goal": "Talk about how you use media, including your contradictions.",
+      "tip": {
+        "title": "obwohl vs. trotzdem",
+        "body": "Obwohl (although) starts a subordinate clause, so its verb goes to the end: Obwohl ich müde bin, schaue ich noch eine Folge. Trotzdem (still, nevertheless) takes position one and the verb follows straight after: Ich habe wenig Zeit. Trotzdem höre ich Podcasts. Pronunciation: stress the first syllable, OBwohl."
+      },
+      "phrases": [
+        { "t": "Ich lese die Nachrichten meistens auf dem Handy.", "n": "I mostly read the news on my phone." },
+        { "t": "Ich schaue abends gern Serien.", "n": "I like watching series in the evening." },
+        { "t": "Ich verbringe zu viel Zeit in den sozialen Medien.", "n": "I spend too much time on social media." },
+        { "t": "Obwohl ich müde bin, schaue ich noch eine Folge.", "n": "Although I'm tired, I watch one more episode.", "note": "obwohl: verb at the end" },
+        { "t": "Ich habe wenig Zeit. Trotzdem höre ich jeden Tag Podcasts.", "n": "I have little time. Still, I listen to podcasts every day.", "note": "trotzdem: verb comes next" },
+        { "t": "Ich habe keinen Fernseher mehr.", "n": "I don't have a TV anymore." },
+        { "t": "Zeitungen lese ich fast nie.", "n": "I hardly ever read newspapers." },
+        { "t": "Hast du schon die neue Serie gesehen?", "n": "Have you seen the new series yet?" }
+      ],
+      "dialogue": {
+        "title": "Series addicts",
+        "lines": [
+          { "who": "A", "name": "Lukas", "t": "Hast du schon die neue Serie auf Netflix gesehen?", "n": "Have you seen the new series on Netflix yet?" },
+          { "who": "you", "t": "Ja, klar! Ich schaue abends gern Serien.", "n": "Yes, of course! I like watching series in the evening." },
+          { "who": "A", "name": "Lukas", "t": "Ich auch. Gestern habe ich bis zwei Uhr geschaut!", "n": "Me too. Yesterday I watched until two o'clock!" },
+          { "who": "you", "t": "Das kenne ich. Obwohl ich müde bin, schaue ich noch eine Folge.", "n": "I know that feeling. Although I'm tired, I watch one more episode." },
+          { "who": "A", "name": "Lukas", "t": "Und wie informierst du dich über aktuelle Nachrichten?", "n": "And how do you keep up with the news?" },
+          { "who": "you", "t": "Ich lese die Nachrichten meistens auf dem Handy. Zeitungen lese ich fast nie.", "n": "I mostly read the news on my phone. I hardly ever read newspapers." },
+          { "who": "A", "name": "Lukas", "t": "Ich höre lieber Podcasts, zum Beispiel beim Kochen.", "n": "I prefer listening to podcasts, for example while cooking." },
+          { "who": "you", "t": "Gute Idee! Ich habe wenig Zeit, trotzdem höre ich jeden Tag Podcasts.", "n": "Good idea! I have little time, but I still listen to podcasts every day." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you mostly read the news on your phone.", "t": ["Ich lese die Nachrichten meistens auf dem Handy", "Ich lese die Nachrichten meistens auf meinem Handy"] },
+        { "n": "Admit that you spend too much time on social media.", "t": ["Ich verbringe zu viel Zeit in den sozialen Medien"] },
+        { "n": "Say that although you're tired, you watch one more episode.", "t": ["Obwohl ich müde bin, schaue ich noch eine Folge"] },
+        { "n": "Ask a friend if they've seen the new series yet.", "t": ["Hast du schon die neue Serie gesehen", "Hast du die neue Serie gesehen"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l2",
+      "title": "Pros and cons of technology",
+      "goal": "Discuss advantages and disadvantages of technology and explain why you use it.",
+      "tip": {
+        "title": "um ... zu and damit",
+        "body": "To express a purpose with the same subject, use um ... zu + infinitive: Ich nutze mein Handy, um Deutsch zu lernen. With a different subject, use damit and put the verb at the end: Ich schicke dir den Link, damit du den Artikel lesen kannst. Fluency tip: \"Der Vorteil ist, dass\" and \"Der Nachteil ist, dass\" are great frames for longer answers."
+      },
+      "phrases": [
+        { "t": "Der Vorteil ist, dass man immer erreichbar ist.", "n": "The advantage is that you're always reachable." },
+        { "t": "Der Nachteil ist, dass man nie richtig abschaltet.", "n": "The disadvantage is that you never really switch off." },
+        { "t": "Ich nutze mein Handy, um Deutsch zu lernen.", "n": "I use my phone to learn German.", "note": "um ... zu = in order to" },
+        { "t": "Ich schicke dir den Link, damit du den Artikel lesen kannst.", "n": "I'll send you the link so that you can read the article.", "note": "damit = so that (different subject)" },
+        { "t": "Ohne Internet könnte ich nicht arbeiten.", "n": "I couldn't work without the internet." },
+        { "t": "Künstliche Intelligenz macht vieles einfacher.", "n": "Artificial intelligence makes a lot of things easier." },
+        { "t": "Man sollte gut auf seine Daten aufpassen.", "n": "You should take good care of your data." },
+        { "t": "Am Wochenende mache ich manchmal eine digitale Pause.", "n": "At weekends I sometimes take a digital break." }
+      ],
+      "dialogue": {
+        "title": "Always online?",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Mia", "t": "Bist du eigentlich immer online?", "n": "Are you actually always online?" },
+          { "who": "you", "t": "Fast immer. Der Vorteil ist, dass man immer erreichbar ist.", "n": "Almost always. The advantage is that you're always reachable." },
+          { "who": "A", "name": "Mia", "t": "Aber das ist doch auch stressig, oder?", "n": "But that's stressful too, isn't it?" },
+          { "who": "you", "t": "Stimmt. Der Nachteil ist, dass man nie richtig abschaltet.", "n": "True. The disadvantage is that you never really switch off." },
+          { "who": "A", "name": "Mia", "t": "Wofür brauchst du dein Handy am meisten?", "n": "What do you need your phone for most?" },
+          { "who": "you", "t": "Ich nutze mein Handy vor allem, um Deutsch zu lernen.", "n": "I mainly use my phone to learn German." },
+          { "who": "A", "name": "Mia", "t": "Cool! Kennst du einen guten Artikel über Sprach-Apps?", "n": "Cool! Do you know a good article about language apps?" },
+          { "who": "you", "t": "Ja, ich schicke dir den Link, damit du den Artikel lesen kannst.", "n": "Yes, I'll send you the link so that you can read the article." },
+          { "who": "A", "name": "Mia", "t": "Danke! Und machst du auch mal Pause vom Handy?", "n": "Thanks! And do you ever take a break from your phone?" },
+          { "who": "you", "t": "Ja, am Wochenende mache ich manchmal eine digitale Pause.", "n": "Yes, at weekends I sometimes take a digital break." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you use your phone to learn German.", "t": ["Ich nutze mein Handy, um Deutsch zu lernen", "Ich benutze mein Handy, um Deutsch zu lernen"] },
+        { "n": "Say the disadvantage is that you never really switch off.", "t": ["Der Nachteil ist, dass man nie richtig abschaltet"] },
+        { "n": "Say you couldn't work without the internet.", "t": ["Ohne Internet könnte ich nicht arbeiten"] },
+        { "n": "Offer to send the link so your friend can read the article.", "t": ["Ich schicke dir den Link, damit du den Artikel lesen kannst", "Ich schicke dir den Link"] }
+      ]
+    }
+  ]
+}

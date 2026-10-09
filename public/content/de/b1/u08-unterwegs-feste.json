@@ -1,0 +1,89 @@
+{
+  "id": "b1-u08",
+  "title": "Unterwegs und Feste",
+  "subtitle": "Travel problems & traditions",
+  "icon": "🎉",
+  "lessons": [
+    {
+      "id": "b1-u08-l1",
+      "title": "When things go wrong",
+      "goal": "Complain politely and solve problems while travelling.",
+      "tip": {
+        "title": "Complaining politely",
+        "body": "Start softly (Entschuldigung, ich habe leider ein Problem), describe the problem, then say what you want with Konjunktiv II: Ich hätte gern ein anderes Zimmer. Indirect questions keep things polite: Können Sie mir sagen, wann der nächste Zug fährt? Speaking tip: a calm, steady voice works better than a loud one."
+      },
+      "phrases": [
+        { "t": "Entschuldigung, ich habe leider ein Problem.", "n": "Excuse me, I'm afraid I have a problem." },
+        { "t": "Die Heizung in meinem Zimmer funktioniert nicht.", "n": "The heating in my room isn't working." },
+        { "t": "Mein Zug hat zwei Stunden Verspätung.", "n": "My train is two hours late." },
+        { "t": "Mein Koffer ist nicht angekommen.", "n": "My suitcase hasn't arrived." },
+        { "t": "Können Sie mir sagen, wann der nächste Zug fährt?", "n": "Can you tell me when the next train leaves?" },
+        { "t": "Ich hätte gern ein anderes Zimmer.", "n": "I'd like a different room." },
+        { "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.", "n": "That's annoying, I specifically booked a quiet room." },
+        { "t": "Was können Sie mir in diesem Fall anbieten?", "n": "What can you offer me in this case?" }
+      ],
+      "dialogue": {
+        "title": "At the hotel reception",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Rezeptionistin", "t": "Guten Abend, wie kann ich Ihnen helfen?", "n": "Good evening, how can I help you?" },
+          { "who": "you", "t": "Entschuldigung, ich habe leider ein Problem. Die Heizung in meinem Zimmer funktioniert nicht.", "n": "Excuse me, I'm afraid I have a problem. The heating in my room isn't working." },
+          { "who": "A", "name": "Rezeptionistin", "t": "Oh, das tut mir leid. Der Techniker kommt leider erst morgen.", "n": "Oh, I'm sorry. Unfortunately the technician isn't coming until tomorrow." },
+          { "who": "you", "t": "Hm, dann hätte ich gern ein anderes Zimmer.", "n": "Hmm, then I'd like a different room." },
+          { "who": "A", "name": "Rezeptionistin", "t": "Wir haben nur noch ein Zimmer zur Straße. Das ist etwas lauter.", "n": "We only have a room facing the street left. It's a bit noisier." },
+          { "who": "you", "t": "Das ist ärgerlich, ich habe extra ein ruhiges Zimmer gebucht.", "n": "That's annoying, I specifically booked a quiet room." },
+          { "who": "A", "name": "Rezeptionistin", "t": "Das verstehe ich natürlich.", "n": "Of course I understand that." },
+          { "who": "you", "t": "Was können Sie mir in diesem Fall anbieten?", "n": "What can you offer me in this case?" },
+          { "who": "A", "name": "Rezeptionistin", "t": "Ich gebe Ihnen zehn Prozent Rabatt, und das Frühstück ist gratis.", "n": "I'll give you a ten percent discount, and breakfast is free." },
+          { "who": "you", "t": "Gut, das ist in Ordnung. Vielen Dank!", "n": "Good, that's fine. Thank you very much!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Politely tell the receptionist you have a problem.", "t": ["Entschuldigung, ich habe leider ein Problem", "Ich habe leider ein Problem"] },
+        { "n": "Say your suitcase hasn't arrived.", "t": ["Mein Koffer ist nicht angekommen"] },
+        { "n": "Politely ask when the next train leaves.", "t": ["Können Sie mir sagen, wann der nächste Zug fährt", "Wann fährt der nächste Zug"] },
+        { "n": "Say you'd like a different room.", "t": ["Ich hätte gern ein anderes Zimmer", "Ich hätte gerne ein anderes Zimmer"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l2",
+      "title": "Festivals and traditions",
+      "goal": "Describe a festival or tradition and ask about local customs.",
+      "tip": {
+        "title": "Indirect questions and the passive",
+        "body": "Ask about customs with Weißt du, wann or Ich wüsste gern, ob, and put the verb at the end: Weißt du, wann der Karneval beginnt? To describe traditions, the passive with werden is handy: Zu Weihnachten wird ein Baum geschmückt. Fluency tip: link short words smoothly, as in \"zu Weihnachten\", without a pause."
+      },
+      "phrases": [
+        { "t": "Bei uns feiert man Weihnachten am Heiligabend.", "n": "Where I'm from, we celebrate Christmas on Christmas Eve." },
+        { "t": "Zu Weihnachten wird ein Baum geschmückt.", "n": "At Christmas a tree is decorated.", "note": "Passive: werden + participle" },
+        { "t": "Weißt du, wann der Karneval beginnt?", "n": "Do you know when carnival starts?" },
+        { "t": "Ich wüsste gern, ob man sich verkleiden muss.", "n": "I'd like to know whether you have to dress up." },
+        { "t": "Der Karneval, den ich in Köln erlebt habe, war fantastisch.", "n": "The carnival I experienced in Cologne was fantastic." },
+        { "t": "Das ist ein Fest, das in ganz Deutschland gefeiert wird.", "n": "It's a festival that is celebrated all over Germany." },
+        { "t": "Obwohl es kalt war, waren alle draußen auf der Straße.", "n": "Although it was cold, everyone was out on the street." },
+        { "t": "Bei uns ist es Tradition, dass die ganze Familie zusammen isst.", "n": "Where I'm from, it's a tradition for the whole family to eat together." }
+      ],
+      "dialogue": {
+        "title": "Carnival in Cologne",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Katrin", "t": "Kommst du dieses Jahr mit zum Karneval nach Köln?", "n": "Are you coming to the carnival in Cologne with me this year?" },
+          { "who": "you", "t": "Gern! Weißt du, wann der Karneval beginnt?", "n": "I'd love to! Do you know when carnival starts?" },
+          { "who": "A", "name": "Katrin", "t": "Der Straßenkarneval beginnt am Donnerstag vor Rosenmontag.", "n": "Street carnival starts on the Thursday before Rose Monday." },
+          { "who": "you", "t": "Super. Ich wüsste gern, ob man sich verkleiden muss.", "n": "Great. I'd like to know whether you have to dress up." },
+          { "who": "A", "name": "Katrin", "t": "Nicht unbedingt, aber fast alle machen es. Gibt es bei euch auch so ein Fest?", "n": "Not necessarily, but almost everyone does. Do you have a festival like that too?" },
+          { "who": "you", "t": "Nicht wirklich. Aber bei uns ist es Tradition, dass die ganze Familie zusammen isst.", "n": "Not really. But where I'm from, it's a tradition for the whole family to eat together." },
+          { "who": "A", "name": "Katrin", "t": "Wie schön! Und wie feiert ihr Weihnachten?", "n": "How lovely! And how do you celebrate Christmas?" },
+          { "who": "you", "t": "Bei uns feiert man Weihnachten am Heiligabend. Zu Weihnachten wird ein Baum geschmückt.", "n": "We celebrate Christmas on Christmas Eve. At Christmas a tree is decorated." },
+          { "who": "A", "name": "Katrin", "t": "Genau wie bei uns in Deutschland!", "n": "Just like here in Germany!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend if they know when carnival starts.", "t": ["Weißt du, wann der Karneval beginnt", "Wann beginnt der Karneval"] },
+        { "n": "Say you'd like to know whether you have to dress up.", "t": ["Ich wüsste gern, ob man sich verkleiden muss", "Ich wüsste gerne, ob man sich verkleiden muss", "Muss man sich verkleiden"] },
+        { "n": "Say that where you're from, it's a tradition for the whole family to eat together.", "t": ["Bei uns ist es Tradition, dass die ganze Familie zusammen isst"] },
+        { "n": "Say that at Christmas a tree is decorated.", "t": ["Zu Weihnachten wird ein Baum geschmückt", "An Weihnachten wird ein Baum geschmückt"] }
+      ]
+    }
+  ]
+}

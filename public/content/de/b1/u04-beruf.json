@@ -1,0 +1,88 @@
+{
+  "id": "b1-u04",
+  "title": "Arbeit und Beruf",
+  "subtitle": "Work & job interviews",
+  "icon": "💼",
+  "lessons": [
+    {
+      "id": "b1-u04-l1",
+      "title": "Describing your experience",
+      "goal": "Talk about your job, your tasks and your experience.",
+      "tip": {
+        "title": "seit + present tense",
+        "body": "For something that started in the past and still continues, German uses the present tense with seit: Ich arbeite seit drei Jahren als Projektmanager. Finished experience uses the Perfekt: Vorher habe ich bei einer kleinen Firma gearbeitet. Professional tip: speak a little slower than usual and finish your sentences clearly; it sounds confident."
+      },
+      "phrases": [
+        { "t": "Ich arbeite seit drei Jahren als Projektmanager.", "n": "I've been working as a project manager for three years.", "note": "Women: Projektmanagerin" },
+        { "t": "Vorher habe ich bei einer kleinen Firma gearbeitet.", "n": "Before that, I worked at a small company." },
+        { "t": "Ich bin für die Kundenbetreuung zuständig.", "n": "I'm responsible for customer service.", "note": "zuständig für = responsible for" },
+        { "t": "Ich habe viel Erfahrung im Marketing.", "n": "I have a lot of experience in marketing." },
+        { "t": "Zu meinen Aufgaben gehört die Planung von Projekten.", "n": "My tasks include planning projects." },
+        { "t": "Ich arbeite gern im Team.", "n": "I like working in a team." },
+        { "t": "Ich spreche fließend Englisch und ein bisschen Spanisch.", "n": "I speak English fluently and a little Spanish." },
+        { "t": "Ich habe Informatik studiert.", "n": "I studied computer science." }
+      ],
+      "dialogue": {
+        "title": "At a networking event",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Herr Wagner", "t": "Was machen Sie beruflich?", "n": "What do you do for a living?" },
+          { "who": "you", "t": "Ich arbeite seit drei Jahren als Projektmanager.", "n": "I've been working as a project manager for three years." },
+          { "who": "A", "name": "Herr Wagner", "t": "Interessant! Und was sind Ihre Aufgaben?", "n": "Interesting! And what are your tasks?" },
+          { "who": "you", "t": "Ich bin für die Kundenbetreuung zuständig. Ich arbeite gern im Team.", "n": "I'm responsible for customer service. I like working in a team." },
+          { "who": "A", "name": "Herr Wagner", "t": "Und was haben Sie vorher gemacht?", "n": "And what did you do before that?" },
+          { "who": "you", "t": "Ich habe Informatik studiert. Danach habe ich bei einer kleinen Firma gearbeitet.", "n": "I studied computer science. After that I worked at a small company." },
+          { "who": "A", "name": "Herr Wagner", "t": "Und welche Sprachen sprechen Sie?", "n": "And which languages do you speak?" },
+          { "who": "you", "t": "Ich spreche fließend Englisch und ein bisschen Spanisch.", "n": "I speak English fluently and a little Spanish." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've been working as a project manager for three years.", "t": ["Ich arbeite seit drei Jahren als Projektmanager", "Ich arbeite seit drei Jahren als Projektmanagerin"] },
+        { "n": "Say you're responsible for customer service.", "t": ["Ich bin für die Kundenbetreuung zuständig"] },
+        { "n": "Say you like working in a team.", "t": ["Ich arbeite gern im Team", "Ich arbeite gerne im Team"] },
+        { "n": "Say you have a lot of experience in marketing.", "t": ["Ich habe viel Erfahrung im Marketing"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l2",
+      "title": "The job interview",
+      "goal": "Answer typical interview questions and ask your own questions politely.",
+      "tip": {
+        "title": "Indirect questions",
+        "body": "Polite questions are often indirect: Können Sie mir sagen, wie das Team aussieht? Ich würde gern wissen, ob man im Homeoffice arbeiten kann. After the question word or ob, the verb goes to the end. Interview tip: \"Das ist eine gute Frage\" is a perfectly natural way to win a few seconds before you answer."
+      },
+      "phrases": [
+        { "t": "Ich bewerbe mich um die Stelle im Vertrieb.", "n": "I'm applying for the sales position." },
+        { "t": "Meine Stärke ist, dass ich sehr organisiert bin.", "n": "My strength is that I'm very organised." },
+        { "t": "Manchmal bin ich zu ungeduldig, aber ich arbeite daran.", "n": "Sometimes I'm too impatient, but I'm working on it." },
+        { "t": "Ich möchte mich beruflich weiterentwickeln.", "n": "I'd like to develop professionally." },
+        { "t": "Das ist eine gute Frage.", "n": "That's a good question.", "note": "Buys you thinking time." },
+        { "t": "Können Sie mir sagen, wie das Team aussieht?", "n": "Can you tell me what the team is like?" },
+        { "t": "Ich würde gern wissen, ob man auch im Homeoffice arbeiten kann.", "n": "I'd like to know whether you can also work from home." },
+        { "t": "Ab wann könnte ich anfangen?", "n": "When could I start?" }
+      ],
+      "dialogue": {
+        "title": "The interview",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Schulz", "t": "Warum bewerben Sie sich bei uns?", "n": "Why are you applying to us?" },
+          { "who": "you", "t": "Ich möchte mich beruflich weiterentwickeln.", "n": "I'd like to develop professionally." },
+          { "who": "A", "name": "Frau Schulz", "t": "Was ist Ihre größte Stärke?", "n": "What is your greatest strength?" },
+          { "who": "you", "t": "Meine Stärke ist, dass ich sehr organisiert bin.", "n": "My strength is that I'm very organised." },
+          { "who": "A", "name": "Frau Schulz", "t": "Und Ihre Schwäche?", "n": "And your weakness?" },
+          { "who": "you", "t": "Das ist eine gute Frage. Manchmal bin ich zu ungeduldig, aber ich arbeite daran.", "n": "That's a good question. Sometimes I'm too impatient, but I'm working on it." },
+          { "who": "A", "name": "Frau Schulz", "t": "Haben Sie noch Fragen an uns?", "n": "Do you have any questions for us?" },
+          { "who": "you", "t": "Ja, ich würde gern wissen, ob man auch im Homeoffice arbeiten kann.", "n": "Yes, I'd like to know whether you can also work from home." },
+          { "who": "A", "name": "Frau Schulz", "t": "Ja, zwei Tage pro Woche.", "n": "Yes, two days a week." },
+          { "who": "you", "t": "Super. Ab wann könnte ich anfangen?", "n": "Great. When could I start?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say your strength is that you're very organised.", "t": ["Meine Stärke ist, dass ich sehr organisiert bin"] },
+        { "n": "Politely ask whether you can also work from home.", "t": ["Ich würde gern wissen, ob man auch im Homeoffice arbeiten kann", "Kann man auch im Homeoffice arbeiten"] },
+        { "n": "Ask the interviewer to tell you what the team is like.", "t": ["Können Sie mir sagen, wie das Team aussieht", "Wie sieht das Team aus"] },
+        { "n": "Ask when you could start.", "t": ["Ab wann könnte ich anfangen", "Wann könnte ich anfangen"] }
+      ]
+    }
+  ]
+}
