@@ -1,0 +1,78 @@
+{
+  "id": "u03",
+  "title": "Zahlen",
+  "subtitle": "Numbers & age",
+  "icon": "🔢",
+  "lessons": [
+    {
+      "id": "u03-l1",
+      "title": "Zero to ten",
+      "goal": "Count from 0 to 10.",
+      "tip": {
+        "title": "Tricky sounds",
+        "body": "z sounds like \"ts\" (zwei = tsvai). v sounds like \"f\" (vier = feer). ch in acht is a breathy sound from the back of the throat, like Scottish \"loch\"."
+      },
+      "phrases": [
+        { "t": "null", "n": "zero" },
+        { "t": "eins", "n": "one" },
+        { "t": "zwei", "n": "two" },
+        { "t": "drei", "n": "three" },
+        { "t": "vier", "n": "four" },
+        { "t": "fünf", "n": "five" },
+        { "t": "sechs", "n": "six" },
+        { "t": "sieben", "n": "seven" },
+        { "t": "acht", "n": "eight" },
+        { "t": "neun", "n": "nine" },
+        { "t": "zehn", "n": "ten" }
+      ],
+      "dialogue": {
+        "title": "Phone number",
+        "lines": [
+          { "who": "A", "name": "Paul", "t": "Wie ist deine Nummer?", "n": "What's your number?" },
+          { "who": "you", "t": "Null, eins, sieben, drei.", "n": "Zero, one, seven, three." },
+          { "who": "A", "name": "Paul", "t": "Und dann?", "n": "And then?" },
+          { "who": "you", "t": "Fünf, acht, zwei, neun.", "n": "Five, eight, two, nine." }
+        ]
+      },
+      "prompts": [
+        { "n": "Count from one to five.", "t": ["eins zwei drei vier fünf"] },
+        { "n": "Say the number 8.", "t": ["acht"] },
+        { "n": "Say the number 6.", "t": ["sechs"] }
+      ]
+    },
+    {
+      "id": "u03-l2",
+      "title": "Eleven to twenty & your age",
+      "goal": "Say how old you are.",
+      "tip": {
+        "title": "Numbers backwards",
+        "body": "From 13 up, Germans say the ones first: dreizehn (three-ten). Above 20 it continues: einundzwanzig = one-and-twenty (21). Age: Ich bin … Jahre alt."
+      },
+      "phrases": [
+        { "t": "elf", "n": "eleven" },
+        { "t": "zwölf", "n": "twelve" },
+        { "t": "dreizehn", "n": "thirteen" },
+        { "t": "sechzehn", "n": "sixteen" },
+        { "t": "zwanzig", "n": "twenty" },
+        { "t": "einundzwanzig", "n": "twenty-one" },
+        { "t": "dreißig", "n": "thirty" },
+        { "t": "Wie alt bist du?", "n": "How old are you?" },
+        { "t": "Ich bin zwanzig Jahre alt.", "n": "I'm twenty years old." }
+      ],
+      "dialogue": {
+        "title": "Birthday party",
+        "lines": [
+          { "who": "A", "name": "Emma", "t": "Wie alt bist du?", "n": "How old are you?" },
+          { "who": "you", "t": "Ich bin dreißig Jahre alt. Und du?", "n": "I'm thirty. And you?" },
+          { "who": "A", "name": "Emma", "t": "Ich bin heute einundzwanzig!", "n": "I'm twenty-one today!" },
+          { "who": "you", "t": "Alles Gute zum Geburtstag!", "n": "Happy birthday!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend how old they are.", "t": ["Wie alt bist du"] },
+        { "n": "Say you're twenty years old.", "t": ["Ich bin zwanzig Jahre alt", "Ich bin zwanzig"] },
+        { "n": "Say the number 12.", "t": ["zwölf"] }
+      ]
+    }
+  ]
+}

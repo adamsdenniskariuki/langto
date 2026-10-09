@@ -1,0 +1,75 @@
+{
+  "id": "u07",
+  "title": "Einkaufen",
+  "subtitle": "Food & shopping",
+  "icon": "🛒",
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "At the bakery",
+      "goal": "Buy things and ask about prices.",
+      "tip": {
+        "title": "Ich möchte …",
+        "body": "Ich möchte (I would like) is your best friend in shops. Plurals vary: ein Brötchen → drei Brötchen, ein Apfel → zwei Äpfel."
+      },
+      "phrases": [
+        { "t": "Ich möchte ein Brot.", "n": "I'd like a loaf of bread." },
+        { "t": "Ich nehme drei Brötchen.", "n": "I'll take three bread rolls." },
+        { "t": "Haben Sie Croissants?", "n": "Do you have croissants?" },
+        { "t": "Wie viel kostet das?", "n": "How much does that cost?" },
+        { "t": "Das ist zu teuer.", "n": "That's too expensive." },
+        { "t": "Sonst noch etwas?", "n": "Anything else?" },
+        { "t": "Nein, danke, das ist alles.", "n": "No thanks, that's all." }
+      ],
+      "dialogue": {
+        "title": "Bäckerei Schmidt",
+        "lines": [
+          { "who": "A", "name": "Bäcker", "t": "Guten Morgen! Was darf es sein?", "n": "Good morning! What can I get you?" },
+          { "who": "you", "t": "Ich nehme drei Brötchen, bitte.", "n": "I'll take three rolls, please." },
+          { "who": "A", "name": "Bäcker", "t": "Sonst noch etwas?", "n": "Anything else?" },
+          { "who": "you", "t": "Nein, danke, das ist alles. Wie viel kostet das?", "n": "No thanks, that's all. How much is it?" },
+          { "who": "A", "name": "Bäcker", "t": "Zwei Euro zehn, bitte.", "n": "Two euros ten, please." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask how much something costs.", "t": ["Wie viel kostet das", "Was kostet das"] },
+        { "n": "Order three bread rolls.", "t": ["Ich nehme drei Brötchen", "Drei Brötchen bitte", "Ich möchte drei Brötchen"] },
+        { "n": "Say that's all, thanks.", "t": ["Nein danke das ist alles", "Das ist alles"] }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "Food I like",
+      "goal": "Talk about what you like to eat and drink.",
+      "tip": {
+        "title": "gern = with pleasure",
+        "body": "Add gern after a verb to say you like doing it: Ich esse gern Pizza (I like eating pizza). Use kein/keinen to say you don't: Ich mag keinen Fisch."
+      },
+      "phrases": [
+        { "t": "Ich esse gern Pizza.", "n": "I like eating pizza." },
+        { "t": "Ich trinke gern Kaffee.", "n": "I like drinking coffee." },
+        { "t": "Ich mag keinen Fisch.", "n": "I don't like fish." },
+        { "t": "Ich bin Vegetarier.", "n": "I'm vegetarian. (male)" },
+        { "t": "Ich bin Vegetarierin.", "n": "I'm vegetarian. (female)" },
+        { "t": "Das schmeckt gut!", "n": "That tastes good!" },
+        { "t": "Ich habe Hunger.", "n": "I'm hungry." },
+        { "t": "Ich habe Durst.", "n": "I'm thirsty." }
+      ],
+      "dialogue": {
+        "title": "Dinner plans",
+        "lines": [
+          { "who": "A", "name": "Lukas", "t": "Ich habe Hunger! Isst du gern Fisch?", "n": "I'm hungry! Do you like fish?" },
+          { "who": "you", "t": "Nein, ich mag keinen Fisch.", "n": "No, I don't like fish." },
+          { "who": "A", "name": "Lukas", "t": "Und Pizza?", "n": "And pizza?" },
+          { "who": "you", "t": "Ja! Ich esse gern Pizza.", "n": "Yes! I like eating pizza." },
+          { "who": "A", "name": "Lukas", "t": "Mmm, das schmeckt gut!", "n": "Mmm, that tastes good!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're hungry.", "t": ["Ich habe Hunger"] },
+        { "n": "Say you like drinking coffee.", "t": ["Ich trinke gern Kaffee"] },
+        { "n": "Compliment the food.", "t": ["Das schmeckt gut", "Das schmeckt sehr gut", "Lecker"] }
+      ]
+    }
+  ]
+}

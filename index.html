@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-theme="system" data-font="system">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Langto — get your tongue around a new language</title>
+    <meta name="description" content="Learn to speak German step by step with speech-first lessons. No account needed — your progress stays on your device." />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+      // Apply saved appearance before first paint to avoid a theme flash.
+      try {
+        var s = (JSON.parse(localStorage.getItem('langto:v1') || '{}').settings) || {};
+        var d = document.documentElement;
+        if (s.theme) d.dataset.theme = s.theme;
+        if (s.font) d.dataset.font = s.font;
+        if (s.fontScale) d.style.setProperty('--font-scale', s.fontScale);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>Langto needs JavaScript to run.</noscript>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

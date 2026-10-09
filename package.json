@@ -1,0 +1,23 @@
+{
+  "name": "langto",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Langto — get your tongue around a new language. Speech-first language learning, starting with German.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.mjs",
+    "audio": "node scripts/generate-audio.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "preact": "^11.0.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "u09",
+  "title": "Freizeit",
+  "subtitle": "Hobbies & making plans",
+  "icon": "⚽",
+  "lessons": [
+    {
+      "id": "u09-l1",
+      "title": "What do you like doing?",
+      "goal": "Talk about your hobbies.",
+      "tip": {
+        "title": "Verb in second place",
+        "body": "In a German statement the verb is always the second element: Ich spiele gern Fußball. Am Samstag spiele ich Fußball."
+      },
+      "phrases": [
+        { "t": "Was machst du gern?", "n": "What do you like doing?" },
+        { "t": "Ich spiele gern Fußball.", "n": "I like playing football." },
+        { "t": "Ich lese gern.", "n": "I like reading." },
+        { "t": "Ich höre gern Musik.", "n": "I like listening to music." },
+        { "t": "Ich koche gern.", "n": "I like cooking." },
+        { "t": "Ich gehe gern ins Kino.", "n": "I like going to the cinema." },
+        { "t": "Was ist dein Hobby?", "n": "What's your hobby?" }
+      ],
+      "dialogue": {
+        "title": "Getting to know each other",
+        "lines": [
+          { "who": "A", "name": "Nina", "t": "Was machst du gern?", "n": "What do you like doing?" },
+          { "who": "you", "t": "Ich lese gern und ich koche gern.", "n": "I like reading and I like cooking." },
+          { "who": "A", "name": "Nina", "t": "Toll! Ich höre gern Musik.", "n": "Great! I like listening to music." },
+          { "who": "you", "t": "Was ist dein Hobby?", "n": "What's your hobby?" },
+          { "who": "A", "name": "Nina", "t": "Ich spiele gern Fußball.", "n": "I like playing football." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask what someone likes doing.", "t": ["Was machst du gern", "Was ist dein Hobby"] },
+        { "n": "Say you like listening to music.", "t": ["Ich höre gern Musik"] },
+        { "n": "Say you like going to the cinema.", "t": ["Ich gehe gern ins Kino"] }
+      ]
+    },
+    {
+      "id": "u09-l2",
+      "title": "Let's meet!",
+      "goal": "Suggest plans, accept and decline.",
+      "tip": {
+        "title": "Wollen wir …?",
+        "body": "Wollen wir … ? (Shall we …?) is the friendly way to suggest something. To decline politely: Leider kann ich nicht — unfortunately I can't."
+      },
+      "phrases": [
+        { "t": "Hast du am Samstag Zeit?", "n": "Are you free on Saturday?" },
+        { "t": "Wollen wir ins Kino gehen?", "n": "Shall we go to the cinema?" },
+        { "t": "Gute Idee!", "n": "Good idea!" },
+        { "t": "Leider kann ich nicht.", "n": "Unfortunately I can't." },
+        { "t": "Treffen wir uns um sieben?", "n": "Shall we meet at seven?" },
+        { "t": "Bis Samstag!", "n": "See you Saturday!" }
+      ],
+      "dialogue": {
+        "title": "Weekend plans",
+        "lines": [
+          { "who": "A", "name": "Max", "t": "Hast du am Samstag Zeit?", "n": "Are you free on Saturday?" },
+          { "who": "you", "t": "Ja! Wollen wir ins Kino gehen?", "n": "Yes! Shall we go to the cinema?" },
+          { "who": "A", "name": "Max", "t": "Gute Idee! Treffen wir uns um sieben?", "n": "Good idea! Shall we meet at seven?" },
+          { "who": "you", "t": "Ja, um sieben. Bis Samstag!", "n": "Yes, at seven. See you Saturday!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend if they're free on Sunday.", "t": ["Hast du am Sonntag Zeit"] },
+        { "n": "Suggest going to the cinema.", "t": ["Wollen wir ins Kino gehen"] },
+        { "n": "Politely say you can't.", "t": ["Leider kann ich nicht", "Tut mir leid ich kann nicht"] }
+      ]
+    }
+  ]
+}

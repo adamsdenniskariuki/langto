@@ -1,0 +1,74 @@
+{
+  "id": "u10",
+  "title": "Mein Tag",
+  "subtitle": "Daily routine",
+  "icon": "🌅",
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "My daily routine",
+      "goal": "Describe a normal day.",
+      "tip": {
+        "title": "Separable verbs",
+        "body": "Some verbs split in two: aufstehen → Ich stehe um sieben Uhr auf. fernsehen → Ich sehe fern. The little prefix jumps to the end of the sentence."
+      },
+      "phrases": [
+        { "t": "Ich stehe um sieben Uhr auf.", "n": "I get up at seven o'clock." },
+        { "t": "Ich dusche am Morgen.", "n": "I shower in the morning." },
+        { "t": "Ich frühstücke.", "n": "I have breakfast." },
+        { "t": "Ich arbeite von neun bis fünf.", "n": "I work from nine to five." },
+        { "t": "Am Abend sehe ich fern.", "n": "In the evening I watch TV." },
+        { "t": "Ich gehe um elf Uhr ins Bett.", "n": "I go to bed at eleven." }
+      ],
+      "dialogue": {
+        "title": "Early bird?",
+        "lines": [
+          { "who": "A", "name": "Julia", "t": "Wann stehst du auf?", "n": "When do you get up?" },
+          { "who": "you", "t": "Ich stehe um sieben Uhr auf.", "n": "I get up at seven." },
+          { "who": "A", "name": "Julia", "t": "Und was machst du am Abend?", "n": "And what do you do in the evening?" },
+          { "who": "you", "t": "Am Abend sehe ich fern.", "n": "In the evening I watch TV." },
+          { "who": "A", "name": "Julia", "t": "Ich auch!", "n": "Me too!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you get up at seven.", "t": ["Ich stehe um sieben Uhr auf", "Ich stehe um sieben auf"] },
+        { "n": "Say you work from nine to five.", "t": ["Ich arbeite von neun bis fünf"] },
+        { "n": "Say you go to bed at eleven.", "t": ["Ich gehe um elf Uhr ins Bett", "Ich gehe um elf ins Bett"] }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "How was your day?",
+      "goal": "Talk about your day in the past.",
+      "tip": {
+        "title": "A peek at the past",
+        "body": "Spoken German uses haben + a past participle: Ich habe gearbeitet (I worked). For \"was\" use war: Mein Tag war gut."
+      },
+      "phrases": [
+        { "t": "Wie war dein Tag?", "n": "How was your day?" },
+        { "t": "Mein Tag war gut.", "n": "My day was good." },
+        { "t": "Ich bin müde.", "n": "I'm tired." },
+        { "t": "Ich war im Büro.", "n": "I was at the office." },
+        { "t": "Ich habe viel gearbeitet.", "n": "I worked a lot." },
+        { "t": "Was hast du gemacht?", "n": "What did you do?" },
+        { "t": "Ich habe Deutsch gelernt.", "n": "I learned German." }
+      ],
+      "dialogue": {
+        "title": "Evening chat",
+        "lines": [
+          { "who": "A", "name": "Paul", "t": "Hallo! Wie war dein Tag?", "n": "Hi! How was your day?" },
+          { "who": "you", "t": "Mein Tag war gut, aber ich bin müde.", "n": "My day was good, but I'm tired." },
+          { "who": "A", "name": "Paul", "t": "Was hast du gemacht?", "n": "What did you do?" },
+          { "who": "you", "t": "Ich war im Büro. Ich habe viel gearbeitet.", "n": "I was at the office. I worked a lot." },
+          { "who": "A", "name": "Paul", "t": "Und am Abend?", "n": "And in the evening?" },
+          { "who": "you", "t": "Ich habe Deutsch gelernt!", "n": "I learned German!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend how their day was.", "t": ["Wie war dein Tag"] },
+        { "n": "Say you're tired.", "t": ["Ich bin müde"] },
+        { "n": "Say you learned German today.", "t": ["Ich habe Deutsch gelernt", "Ich habe heute Deutsch gelernt"] }
+      ]
+    }
+  ]
+}

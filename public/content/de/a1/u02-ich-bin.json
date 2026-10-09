@@ -1,0 +1,109 @@
+{
+  "id": "u02",
+  "title": "Ich bin …",
+  "subtitle": "Introducing yourself",
+  "icon": "🙋",
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "What's your name?",
+      "goal": "Say your name and ask for someone else's.",
+      "tip": {
+        "title": "ei vs. ie",
+        "body": "Read the second letter: ei sounds like English \"eye\" (heiße, mein), ie sounds like \"ee\" (sie, Wiedersehen). ß is just a sharp \"ss\"."
+      },
+      "phrases": [
+        { "t": "Ich heiße Anna.", "n": "My name is Anna." },
+        { "t": "Wie heißt du?", "n": "What's your name? (informal)" },
+        { "t": "Wie heißen Sie?", "n": "What's your name? (formal)" },
+        { "t": "Ich bin Tom.", "n": "I'm Tom." },
+        { "t": "Mein Name ist Müller.", "n": "My name is Müller." },
+        { "t": "Freut mich!", "n": "Nice to meet you!" },
+        { "t": "Freut mich auch!", "n": "Nice to meet you too!" }
+      ],
+      "dialogue": {
+        "title": "First day at the language café",
+        "lines": [
+          { "who": "A", "name": "Jonas", "t": "Hallo! Ich bin Jonas. Wie heißt du?", "n": "Hi! I'm Jonas. What's your name?" },
+          { "who": "you", "t": "Ich heiße Sam.", "n": "My name is Sam." },
+          { "who": "A", "name": "Jonas", "t": "Freut mich, Sam!", "n": "Nice to meet you, Sam!" },
+          { "who": "you", "t": "Freut mich auch!", "n": "Nice to meet you too!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Introduce yourself with your own name.", "t": ["Ich heiße …", "Ich bin …", "Mein Name ist …"] },
+        { "n": "Ask a child what their name is.", "t": ["Wie heißt du"] },
+        { "n": "Ask a hotel guest for their name.", "t": ["Wie heißen Sie", "Wie ist Ihr Name"] }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "Where are you from?",
+      "goal": "Say where you're from and where you live.",
+      "tip": {
+        "title": "Verbs change their ending",
+        "body": "ich komme, du kommst, Sie kommen. The ich-form usually ends in -e, the du-form in -st, the Sie-form in -en."
+      },
+      "phrases": [
+        { "t": "Woher kommst du?", "n": "Where are you from? (informal)" },
+        { "t": "Woher kommen Sie?", "n": "Where are you from? (formal)" },
+        { "t": "Ich komme aus England.", "n": "I'm from England." },
+        { "t": "Ich komme aus den USA.", "n": "I'm from the USA." },
+        { "t": "Wo wohnst du?", "n": "Where do you live?" },
+        { "t": "Ich wohne in Berlin.", "n": "I live in Berlin." },
+        { "t": "Ich spreche Englisch.", "n": "I speak English." },
+        { "t": "Ich lerne Deutsch.", "n": "I'm learning German." }
+      ],
+      "dialogue": {
+        "title": "Small talk at a party",
+        "lines": [
+          { "who": "A", "name": "Mia", "t": "Woher kommst du?", "n": "Where are you from?" },
+          { "who": "you", "t": "Ich komme aus England.", "n": "I'm from England." },
+          { "who": "A", "name": "Mia", "t": "Und wo wohnst du?", "n": "And where do you live?" },
+          { "who": "you", "t": "Ich wohne in Berlin. Ich lerne Deutsch.", "n": "I live in Berlin. I'm learning German." },
+          { "who": "A", "name": "Mia", "t": "Super! Du sprichst gut!", "n": "Great! You speak well!" },
+          { "who": "you", "t": "Danke schön!", "n": "Thank you very much!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say which country you come from.", "t": ["Ich komme aus …"] },
+        { "n": "Say which city you live in.", "t": ["Ich wohne in …"] },
+        { "n": "Tell someone you're learning German.", "t": ["Ich lerne Deutsch"] }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Survival phrases",
+      "goal": "Keep a conversation going when you don't understand.",
+      "tip": {
+        "title": "Your secret weapon",
+        "body": "These phrases keep any conversation alive. Native speakers are happy to slow down — just ask. The German r is soft, made at the back of the throat, almost like a gentle gargle."
+      },
+      "phrases": [
+        { "t": "Sprichst du Englisch?", "n": "Do you speak English?" },
+        { "t": "Ein bisschen.", "n": "A little." },
+        { "t": "Ich verstehe nicht.", "n": "I don't understand." },
+        { "t": "Wie bitte?", "n": "Pardon?" },
+        { "t": "Noch einmal, bitte.", "n": "Once more, please." },
+        { "t": "Langsamer, bitte.", "n": "Slower, please." },
+        { "t": "Was bedeutet das?", "n": "What does that mean?" }
+      ],
+      "dialogue": {
+        "title": "Asking for help",
+        "lines": [
+          { "who": "A", "name": "Verkäufer", "t": "Möchten Sie eine Tüte?", "n": "Would you like a bag?" },
+          { "who": "you", "t": "Wie bitte? Langsamer, bitte.", "n": "Pardon? Slower, please." },
+          { "who": "A", "name": "Verkäufer", "t": "Eine Tüte?", "n": "A bag?" },
+          { "who": "you", "t": "Was bedeutet das?", "n": "What does that mean?" },
+          { "who": "A", "name": "Verkäufer", "t": "A bag!", "n": "A bag!" },
+          { "who": "you", "t": "Ah! Nein, danke.", "n": "Ah! No, thank you." }
+        ]
+      },
+      "prompts": [
+        { "n": "You didn't catch that. Ask them to repeat.", "t": ["Wie bitte", "Noch einmal bitte"] },
+        { "n": "Ask them to speak more slowly.", "t": ["Langsamer bitte"] },
+        { "n": "Say you don't understand.", "t": ["Ich verstehe nicht", "Ich verstehe das nicht"] }
+      ]
+    }
+  ]
+}

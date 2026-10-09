@@ -1,0 +1,73 @@
+{
+  "id": "u05",
+  "title": "Familie",
+  "subtitle": "Family & people",
+  "icon": "👨‍👩‍👧",
+  "lessons": [
+    {
+      "id": "u05-l1",
+      "title": "My family",
+      "goal": "Introduce your family members.",
+      "tip": {
+        "title": "mein or meine?",
+        "body": "Use mein for masculine and neuter words (mein Vater, mein Kind) and meine for feminine and plural (meine Mutter, meine Eltern)."
+      },
+      "phrases": [
+        { "t": "Das ist meine Mutter.", "n": "This is my mother." },
+        { "t": "Das ist mein Vater.", "n": "This is my father." },
+        { "t": "Ich habe einen Bruder.", "n": "I have a brother." },
+        { "t": "Ich habe eine Schwester.", "n": "I have a sister." },
+        { "t": "Hast du Geschwister?", "n": "Do you have siblings?" },
+        { "t": "Ich bin Einzelkind.", "n": "I'm an only child." },
+        { "t": "Meine Eltern wohnen in Hamburg.", "n": "My parents live in Hamburg." }
+      ],
+      "dialogue": {
+        "title": "Looking at photos",
+        "lines": [
+          { "who": "A", "name": "Sara", "t": "Wer ist das?", "n": "Who is that?" },
+          { "who": "you", "t": "Das ist meine Mutter.", "n": "That's my mother." },
+          { "who": "A", "name": "Sara", "t": "Hast du Geschwister?", "n": "Do you have siblings?" },
+          { "who": "you", "t": "Ja, ich habe einen Bruder.", "n": "Yes, I have a brother." },
+          { "who": "A", "name": "Sara", "t": "Ich bin Einzelkind.", "n": "I'm an only child." }
+        ]
+      },
+      "prompts": [
+        { "n": "Point to a photo: \"This is my father.\"", "t": ["Das ist mein Vater"] },
+        { "n": "Ask someone if they have siblings.", "t": ["Hast du Geschwister", "Haben Sie Geschwister"] },
+        { "n": "Say you have a sister.", "t": ["Ich habe eine Schwester"] }
+      ]
+    },
+    {
+      "id": "u05-l2",
+      "title": "Describing people",
+      "goal": "Say what people are like.",
+      "tip": {
+        "title": "er, sie, es",
+        "body": "er = he, sie = she (and they), es = it. Adjectives after ist don't change: Er ist groß. Sie ist groß."
+      },
+      "phrases": [
+        { "t": "Mein Bruder ist groß.", "n": "My brother is tall." },
+        { "t": "Meine Schwester ist lustig.", "n": "My sister is funny." },
+        { "t": "Er ist zehn Jahre alt.", "n": "He's ten years old." },
+        { "t": "Sie heißt Maria.", "n": "Her name is Maria." },
+        { "t": "Mein Vater ist sehr nett.", "n": "My father is very nice." },
+        { "t": "Ich habe zwei Kinder.", "n": "I have two children." },
+        { "t": "Wir sind eine kleine Familie.", "n": "We're a small family." }
+      ],
+      "dialogue": {
+        "title": "Tell me about them",
+        "lines": [
+          { "who": "A", "name": "Tim", "t": "Wie heißt deine Schwester?", "n": "What's your sister's name?" },
+          { "who": "you", "t": "Sie heißt Maria. Sie ist lustig.", "n": "Her name is Maria. She's funny." },
+          { "who": "A", "name": "Tim", "t": "Und dein Bruder?", "n": "And your brother?" },
+          { "who": "you", "t": "Er ist zehn Jahre alt.", "n": "He's ten years old." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say your father is very nice.", "t": ["Mein Vater ist sehr nett"] },
+        { "n": "Say you have two children.", "t": ["Ich habe zwei Kinder"] },
+        { "n": "Say her name is Maria.", "t": ["Sie heißt Maria"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "u04",
+  "title": "Im Café",
+  "subtitle": "Ordering & paying",
+  "icon": "☕",
+  "lessons": [
+    {
+      "id": "u04-l1",
+      "title": "Ordering a drink",
+      "goal": "Order food and drinks politely.",
+      "tip": {
+        "title": "der, die, das → einen, eine, ein",
+        "body": "Every noun has a gender. When you order something, masculine words change: der Kaffee → einen Kaffee. Feminine and neuter stay: eine Cola, ein Wasser. Ich hätte gern … is the politest way to order."
+      },
+      "phrases": [
+        { "t": "Was möchten Sie?", "n": "What would you like?" },
+        { "t": "Ich hätte gern einen Kaffee.", "n": "I'd like a coffee." },
+        { "t": "Einen Tee, bitte.", "n": "A tea, please." },
+        { "t": "Ein Wasser, bitte.", "n": "A water, please." },
+        { "t": "Ich nehme ein Stück Kuchen.", "n": "I'll take a piece of cake." },
+        { "t": "Mit Milch, bitte.", "n": "With milk, please." },
+        { "t": "Ohne Zucker.", "n": "Without sugar." }
+      ],
+      "dialogue": {
+        "title": "At the counter",
+        "lines": [
+          { "who": "A", "name": "Kellnerin", "t": "Guten Tag! Was möchten Sie?", "n": "Hello! What would you like?" },
+          { "who": "you", "t": "Ich hätte gern einen Kaffee, bitte.", "n": "I'd like a coffee, please." },
+          { "who": "A", "name": "Kellnerin", "t": "Mit Milch und Zucker?", "n": "With milk and sugar?" },
+          { "who": "you", "t": "Mit Milch, ohne Zucker.", "n": "With milk, without sugar." },
+          { "who": "A", "name": "Kellnerin", "t": "Gern. Sonst noch etwas?", "n": "Sure. Anything else?" },
+          { "who": "you", "t": "Ich nehme ein Stück Kuchen.", "n": "I'll take a piece of cake." }
+        ]
+      },
+      "prompts": [
+        { "n": "Order a coffee politely.", "t": ["Ich hätte gern einen Kaffee", "Einen Kaffee bitte", "Ich nehme einen Kaffee"] },
+        { "n": "Ask for a water.", "t": ["Ein Wasser bitte", "Ich hätte gern ein Wasser"] },
+        { "n": "Say you want it without sugar.", "t": ["Ohne Zucker", "Ohne Zucker bitte"] }
+      ]
+    },
+    {
+      "id": "u04-l2",
+      "title": "Paying the bill",
+      "goal": "Ask for the bill and pay.",
+      "tip": {
+        "title": "Tipping",
+        "body": "In Germany you usually round up and tell the server the total you want to pay, or say Stimmt so! (keep the change). Many cafés ask Zusammen oder getrennt? — together or separately?"
+      },
+      "phrases": [
+        { "t": "Die Rechnung, bitte!", "n": "The bill, please!" },
+        { "t": "Zahlen, bitte!", "n": "We'd like to pay, please!" },
+        { "t": "Was macht das?", "n": "How much is that?" },
+        { "t": "Das macht sieben Euro.", "n": "That's seven euros." },
+        { "t": "Zusammen oder getrennt?", "n": "Together or separately?" },
+        { "t": "Getrennt, bitte.", "n": "Separately, please." },
+        { "t": "Stimmt so!", "n": "Keep the change!" },
+        { "t": "Kann ich mit Karte zahlen?", "n": "Can I pay by card?" }
+      ],
+      "dialogue": {
+        "title": "Time to go",
+        "lines": [
+          { "who": "you", "t": "Zahlen, bitte!", "n": "We'd like to pay, please!" },
+          { "who": "A", "name": "Kellner", "t": "Zusammen oder getrennt?", "n": "Together or separately?" },
+          { "who": "you", "t": "Zusammen. Was macht das?", "n": "Together. How much is that?" },
+          { "who": "A", "name": "Kellner", "t": "Das macht neun Euro.", "n": "That's nine euros." },
+          { "who": "you", "t": "Zehn Euro. Stimmt so!", "n": "Ten euros. Keep the change!" },
+          { "who": "A", "name": "Kellner", "t": "Vielen Dank! Schönen Tag noch!", "n": "Many thanks! Have a nice day!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask for the bill.", "t": ["Die Rechnung bitte", "Zahlen bitte"] },
+        { "n": "Ask if you can pay by card.", "t": ["Kann ich mit Karte zahlen"] },
+        { "n": "Tell the waiter to keep the change.", "t": ["Stimmt so"] }
+      ]
+    }
+  ]
+}

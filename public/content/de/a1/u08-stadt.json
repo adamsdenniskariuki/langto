@@ -1,0 +1,76 @@
+{
+  "id": "u08",
+  "title": "In der Stadt",
+  "subtitle": "Directions & transport",
+  "icon": "🚉",
+  "lessons": [
+    {
+      "id": "u08-l1",
+      "title": "Where is …?",
+      "goal": "Ask for and understand directions.",
+      "tip": {
+        "title": "zum or zur?",
+        "body": "Wie komme ich … (how do I get …) uses zum for masculine/neuter places (zum Bahnhof, zum Museum) and zur for feminine ones (zur Post)."
+      },
+      "phrases": [
+        { "t": "Wo ist der Bahnhof?", "n": "Where is the train station?" },
+        { "t": "Wo ist die Toilette?", "n": "Where is the toilet?" },
+        { "t": "Wie komme ich zum Museum?", "n": "How do I get to the museum?" },
+        { "t": "Geradeaus.", "n": "Straight ahead." },
+        { "t": "Nach links.", "n": "To the left." },
+        { "t": "Nach rechts.", "n": "To the right." },
+        { "t": "Ist es weit?", "n": "Is it far?" },
+        { "t": "Nein, es ist ganz nah.", "n": "No, it's very close." }
+      ],
+      "dialogue": {
+        "title": "Lost in Munich",
+        "lines": [
+          { "who": "you", "t": "Entschuldigung, wie komme ich zum Bahnhof?", "n": "Excuse me, how do I get to the station?" },
+          { "who": "A", "name": "Passant", "t": "Geradeaus und dann nach links.", "n": "Straight ahead and then left." },
+          { "who": "you", "t": "Ist es weit?", "n": "Is it far?" },
+          { "who": "A", "name": "Passant", "t": "Nein, es ist ganz nah. Fünf Minuten.", "n": "No, it's very close. Five minutes." },
+          { "who": "you", "t": "Vielen Dank!", "n": "Many thanks!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask where the toilet is.", "t": ["Wo ist die Toilette", "Entschuldigung wo ist die Toilette"] },
+        { "n": "Ask how to get to the museum.", "t": ["Wie komme ich zum Museum"] },
+        { "n": "Ask whether it's far.", "t": ["Ist es weit", "Ist das weit"] }
+      ]
+    },
+    {
+      "id": "u08-l2",
+      "title": "Getting around",
+      "goal": "Buy a ticket and take the train.",
+      "tip": {
+        "title": "fahren vs. gehen",
+        "body": "fahren is for travelling by vehicle (Ich fahre mit dem Bus), gehen is for walking (Ich gehe zu Fuß)."
+      },
+      "phrases": [
+        { "t": "Ich fahre mit dem Bus.", "n": "I'm going by bus." },
+        { "t": "Ich gehe zu Fuß.", "n": "I'm walking." },
+        { "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
+        { "t": "Wann fährt der Zug?", "n": "When does the train leave?" },
+        { "t": "Von welchem Gleis?", "n": "From which platform?" },
+        { "t": "Der Zug hat Verspätung.", "n": "The train is delayed." },
+        { "t": "Hin und zurück.", "n": "Return (there and back)." }
+      ],
+      "dialogue": {
+        "title": "At the ticket office",
+        "lines": [
+          { "who": "you", "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
+          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Einfach oder hin und zurück?", "n": "Single or return?" },
+          { "who": "you", "t": "Hin und zurück. Wann fährt der Zug?", "n": "Return. When does the train leave?" },
+          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Um zehn Uhr.", "n": "At ten o'clock." },
+          { "who": "you", "t": "Von welchem Gleis?", "n": "From which platform?" },
+          { "who": "A", "name": "Bahnmitarbeiterin", "t": "Gleis drei. Gute Reise!", "n": "Platform three. Have a good trip!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Buy a ticket to Berlin.", "t": ["Eine Fahrkarte nach Berlin bitte", "Ein Ticket nach Berlin bitte"] },
+        { "n": "Ask when the train leaves.", "t": ["Wann fährt der Zug"] },
+        { "n": "Say you're walking.", "t": ["Ich gehe zu Fuß"] }
+      ]
+    }
+  ]
+}

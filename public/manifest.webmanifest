@@ -1,0 +1,13 @@
+{
+  "name": "Langto — get your tongue around a new language",
+  "short_name": "Langto",
+  "description": "Speech-first language learning. No account, progress stays on your device.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f1222",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

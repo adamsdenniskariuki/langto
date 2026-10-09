@@ -1,0 +1,75 @@
+{
+  "id": "u06",
+  "title": "Die Zeit",
+  "subtitle": "Days & telling time",
+  "icon": "🕒",
+  "lessons": [
+    {
+      "id": "u06-l1",
+      "title": "Days of the week",
+      "goal": "Name the days and say what day it is.",
+      "tip": {
+        "title": "am Montag",
+        "body": "All days are masculine and use am for \"on\": am Montag (on Monday). The w in Mittwoch sounds like English v."
+      },
+      "phrases": [
+        { "t": "Montag", "n": "Monday" },
+        { "t": "Dienstag", "n": "Tuesday" },
+        { "t": "Mittwoch", "n": "Wednesday" },
+        { "t": "Donnerstag", "n": "Thursday" },
+        { "t": "Freitag", "n": "Friday" },
+        { "t": "Samstag", "n": "Saturday" },
+        { "t": "Sonntag", "n": "Sunday" },
+        { "t": "Welcher Tag ist heute?", "n": "What day is it today?" },
+        { "t": "Heute ist Freitag.", "n": "Today is Friday." },
+        { "t": "am Wochenende", "n": "at the weekend" }
+      ],
+      "dialogue": {
+        "title": "Almost the weekend",
+        "lines": [
+          { "who": "A", "name": "Ben", "t": "Welcher Tag ist heute?", "n": "What day is it today?" },
+          { "who": "you", "t": "Heute ist Freitag.", "n": "Today is Friday." },
+          { "who": "A", "name": "Ben", "t": "Super! Was machst du am Wochenende?", "n": "Great! What are you doing at the weekend?" },
+          { "who": "you", "t": "Am Samstag lerne ich Deutsch.", "n": "On Saturday I'm learning German." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say today is Monday.", "t": ["Heute ist Montag"] },
+        { "n": "Ask what day it is today.", "t": ["Welcher Tag ist heute"] },
+        { "n": "Say \"on Sunday\".", "t": ["am Sonntag"] }
+      ]
+    },
+    {
+      "id": "u06-l2",
+      "title": "What time is it?",
+      "goal": "Ask and tell the time.",
+      "tip": {
+        "title": "halb vier = 3:30!",
+        "body": "Germans say half TO the next hour: halb vier means half (on the way) to four — 3:30. Viertel nach zwei = quarter past two."
+      },
+      "phrases": [
+        { "t": "Wie spät ist es?", "n": "What time is it?" },
+        { "t": "Es ist drei Uhr.", "n": "It's three o'clock." },
+        { "t": "Es ist halb vier.", "n": "It's half past three." },
+        { "t": "Es ist Viertel nach zwei.", "n": "It's quarter past two." },
+        { "t": "Um wie viel Uhr?", "n": "At what time?" },
+        { "t": "Um acht Uhr.", "n": "At eight o'clock." },
+        { "t": "Ich habe keine Zeit.", "n": "I don't have time." }
+      ],
+      "dialogue": {
+        "title": "Running late",
+        "lines": [
+          { "who": "you", "t": "Entschuldigung, wie spät ist es?", "n": "Excuse me, what time is it?" },
+          { "who": "A", "name": "Frau", "t": "Es ist halb vier.", "n": "It's half past three." },
+          { "who": "you", "t": "Oh nein! Danke schön!", "n": "Oh no! Thank you!" },
+          { "who": "A", "name": "Frau", "t": "Bitte schön!", "n": "You're welcome!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a stranger what time it is.", "t": ["Wie spät ist es", "Entschuldigung wie spät ist es", "Wie viel Uhr ist es"] },
+        { "n": "Say it's three o'clock.", "t": ["Es ist drei Uhr"] },
+        { "n": "Say you don't have time.", "t": ["Ich habe keine Zeit"] }
+      ]
+    }
+  ]
+}

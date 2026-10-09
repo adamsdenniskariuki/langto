@@ -1,0 +1,25 @@
+{
+  "lang": "de",
+  "title": "Speak German",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Beginner",
+      "description": "Introduce yourself, order food, ask the way and talk about your day.",
+      "units": [
+        "a1/u01-hallo.json",
+        "a1/u02-ich-bin.json",
+        "a1/u03-zahlen.json",
+        "a1/u04-cafe.json",
+        "a1/u05-familie.json",
+        "a1/u06-zeit.json",
+        "a1/u07-einkaufen.json",
+        "a1/u08-stadt.json",
+        "a1/u09-freizeit.json",
+        "a1/u10-mein-tag.json"
+      ]
+    },
+    { "id": "A2", "title": "Elementary", "description": "Talk about the past, travel and plans.", "comingSoon": true, "units": [] },
+    { "id": "B1", "title": "Intermediate", "description": "Hold everyday conversations with confidence.", "comingSoon": true, "units": [] }
+  ]
+}

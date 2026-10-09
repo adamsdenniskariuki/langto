@@ -1,0 +1,107 @@
+{
+  "id": "u01",
+  "title": "Hallo!",
+  "subtitle": "Greetings & goodbyes",
+  "icon": "👋",
+  "lessons": [
+    {
+      "id": "u01-l1",
+      "title": "Saying hello",
+      "goal": "Greet anyone at any time of day.",
+      "tip": {
+        "title": "Greetings follow the clock",
+        "body": "Germans greet according to the time of day: Guten Morgen until about 11, Guten Tag during the day, Guten Abend from about 6 pm. Hallo works any time with friends. The ü in Tschüss: say \"ee\" while rounding your lips like \"oo\"."
+      },
+      "phrases": [
+        { "t": "Hallo!", "n": "Hello!", "note": "Informal, but used almost everywhere." },
+        { "t": "Guten Morgen!", "n": "Good morning!" },
+        { "t": "Guten Tag!", "n": "Good day! / Hello!", "note": "Neutral and polite." },
+        { "t": "Guten Abend!", "n": "Good evening!" },
+        { "t": "Gute Nacht!", "n": "Good night!", "note": "Only when going to bed." },
+        { "t": "Tschüss!", "n": "Bye!" },
+        { "t": "Auf Wiedersehen!", "n": "Goodbye!", "note": "Formal." },
+        { "t": "Bis später!", "n": "See you later!" }
+      ],
+      "dialogue": {
+        "title": "Morning in the stairwell",
+        "lines": [
+          { "who": "A", "name": "Frau Weber", "t": "Guten Morgen!", "n": "Good morning!" },
+          { "who": "you", "t": "Guten Morgen!", "n": "Good morning!" },
+          { "who": "A", "name": "Frau Weber", "t": "Auf Wiedersehen!", "n": "Goodbye!" },
+          { "who": "you", "t": "Auf Wiedersehen!", "n": "Goodbye!" }
+        ]
+      },
+      "prompts": [
+        { "n": "It's 8 a.m. Greet your neighbour.", "t": ["Guten Morgen", "Hallo"] },
+        { "n": "You're leaving a shop. Say goodbye politely.", "t": ["Auf Wiedersehen", "Tschüss"] },
+        { "n": "Tell your friend you'll see them later.", "t": ["Bis später", "Tschüss bis später"] }
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "title": "How are you?",
+      "goal": "Ask how someone is and answer.",
+      "tip": {
+        "title": "du or Sie?",
+        "body": "German has two words for \"you\": du for friends, family and children; Sie for strangers, colleagues and anyone you'd call Mr or Mrs. When in doubt, use Sie."
+      },
+      "phrases": [
+        { "t": "Wie geht's?", "n": "How's it going?", "note": "Short for \"Wie geht es?\"" },
+        { "t": "Wie geht es Ihnen?", "n": "How are you? (formal)" },
+        { "t": "Gut, danke!", "n": "Good, thanks!" },
+        { "t": "Sehr gut!", "n": "Very good!" },
+        { "t": "Es geht.", "n": "So-so." },
+        { "t": "Nicht so gut.", "n": "Not so good." },
+        { "t": "Und dir?", "n": "And you? (informal)" },
+        { "t": "Und Ihnen?", "n": "And you? (formal)" }
+      ],
+      "dialogue": {
+        "title": "Bumping into Lena",
+        "lines": [
+          { "who": "A", "name": "Lena", "t": "Hallo! Wie geht's?", "n": "Hi! How's it going?" },
+          { "who": "you", "t": "Gut, danke! Und dir?", "n": "Good, thanks! And you?" },
+          { "who": "A", "name": "Lena", "t": "Sehr gut, danke!", "n": "Very good, thanks!" },
+          { "who": "you", "t": "Tschüss, bis später!", "n": "Bye, see you later!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend how they are.", "t": ["Wie geht's", "Wie geht es dir"] },
+        { "n": "Ask your new boss how she is.", "t": ["Wie geht es Ihnen"] },
+        { "n": "Say you're fine, thanks, and ask back (informal).", "t": ["Gut danke und dir", "Sehr gut danke und dir"] }
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "title": "Please & thank you",
+      "goal": "Be polite in any situation.",
+      "tip": {
+        "title": "Bitte does a lot of work",
+        "body": "Bitte means please, you're welcome, and \"pardon?\" (as Wie bitte?). Answer Danke with Bitte or Bitte schön."
+      },
+      "phrases": [
+        { "t": "Danke!", "n": "Thanks!" },
+        { "t": "Danke schön!", "n": "Thank you very much!" },
+        { "t": "Bitte.", "n": "Please. / You're welcome." },
+        { "t": "Bitte schön!", "n": "You're very welcome!" },
+        { "t": "Entschuldigung!", "n": "Excuse me! / Sorry!" },
+        { "t": "Kein Problem!", "n": "No problem!" },
+        { "t": "Ja, gern.", "n": "Yes, gladly." },
+        { "t": "Nein, danke.", "n": "No, thank you." }
+      ],
+      "dialogue": {
+        "title": "On the tram",
+        "lines": [
+          { "who": "you", "t": "Entschuldigung!", "n": "Excuse me!" },
+          { "who": "A", "name": "Mann", "t": "Kein Problem!", "n": "No problem!" },
+          { "who": "A", "name": "Mann", "t": "Möchten Sie sitzen?", "n": "Would you like to sit?" },
+          { "who": "you", "t": "Nein, danke.", "n": "No, thank you." }
+        ]
+      },
+      "prompts": [
+        { "n": "Someone holds the door for you. Thank them warmly.", "t": ["Danke schön", "Vielen Dank", "Danke"] },
+        { "n": "You stepped on someone's foot.", "t": ["Entschuldigung"] },
+        { "n": "Someone thanks you. Reply.", "t": ["Bitte schön", "Bitte", "Kein Problem"] }
+      ]
+    }
+  ]
+}

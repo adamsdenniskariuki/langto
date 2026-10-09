@@ -1,0 +1,14 @@
+[
+  {
+    "code": "de",
+    "name": "German",
+    "native": "Deutsch",
+    "flag": "🇩🇪",
+    "speech": "de-DE",
+    "tts": { "default": "de-DE-KatjaNeural", "partner": "de-DE-ConradNeural" },
+    "course": "content/de/course.json",
+    "greetings": { "morning": "Guten Morgen", "day": "Guten Tag", "evening": "Guten Abend" },
+    "voiceSample": "Hallo! Ich bin deine Stimme. Viel Spaß beim Lernen!",
+    "micPhrase": "Hallo, wie geht's?"
+  }
+]
