@@ -1,0 +1,87 @@
+{
+  "id": "c2-u08",
+  "title": "Unter Druck",
+  "subtitle": "Press interviews & crisis communication",
+  "icon": "📰",
+  "lessons": [
+    {
+      "id": "c2-u08-l1",
+      "title": "Facing the press",
+      "goal": "Handle a critical press interview: acknowledge, correct, decline to speculate and deliver your key message.",
+      "tip": {
+        "title": "Acknowledge, bridge, message",
+        "body": "Media pros acknowledge a hard question, bridge to context, then deliver their core message in one clear sentence. Correct false figures immediately but calmly. Speak in short sentences with a falling intonation at the end; that sounds certain. Replace every äh with a silent pause."
+      },
+      "phrases": [
+        { "t": "Das ist eine berechtigte Frage, und ich beantworte sie gern.", "n": "That's a fair question, and I'm happy to answer it." },
+        { "t": "Lassen Sie mich zunächst den Kontext erläutern.", "n": "Let me first explain the context." },
+        { "t": "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern.", "n": "I can't comment on that at this point." },
+        { "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.", "n": "I have to correct you there, that figure isn't right." },
+        { "t": "Entscheidend ist doch etwas ganz anderes.", "n": "What really matters is something else entirely." },
+        { "t": "Ich möchte nicht über Hypothesen spekulieren.", "n": "I don't want to speculate about hypotheticals." },
+        { "t": "Die Entscheidung ist uns nicht leichtgefallen.", "n": "It wasn't an easy decision for us." },
+        { "t": "Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.", "n": "Let me be very clear about one thing: we stand by our employees." }
+      ],
+      "dialogue": {
+        "title": "The plant closure interview",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Lange", "t": "Ihr Unternehmen schließt das Werk in Bochum, dreihundert Menschen verlieren ihre Arbeit. Wie rechtfertigen Sie das?", "n": "Your company is closing the plant in Bochum; three hundred people will lose their jobs. How do you justify that?" },
+          { "who": "you", "t": "Das ist eine berechtigte Frage. Lassen Sie mich zunächst den Kontext erläutern.", "n": "That's a fair question. Let me first explain the context." },
+          { "who": "A", "name": "Frau Lange", "t": "Kritiker sagen, Sie hätten im letzten Jahr zweihundert Millionen Euro Gewinn gemacht.", "n": "Critics say you made two hundred million euros in profit last year." },
+          { "who": "you", "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.", "n": "I have to correct you there, that figure isn't right." },
+          { "who": "A", "name": "Frau Lange", "t": "Werden weitere Standorte folgen?", "n": "Will other sites follow?" },
+          { "who": "you", "t": "Ich möchte nicht über Hypothesen spekulieren.", "n": "I don't want to speculate about hypotheticals." },
+          { "who": "A", "name": "Frau Lange", "t": "Was sagen Sie den Betroffenen?", "n": "What do you say to the people affected?" },
+          { "who": "you", "t": "Die Entscheidung ist uns nicht leichtgefallen. Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.", "n": "It wasn't an easy decision for us. Let me be very clear: we stand by our employees." }
+        ]
+      },
+      "prompts": [
+        { "n": "Acknowledge that it's a fair question.", "t": ["Das ist eine berechtigte Frage", "Das ist eine berechtigte Frage, und ich beantworte sie gern"] },
+        { "n": "Decline to comment at this point.", "t": ["Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern", "Dazu kann ich mich derzeit nicht äußern"] },
+        { "n": "Refuse to speculate about hypotheticals.", "t": ["Ich möchte nicht über Hypothesen spekulieren"] },
+        { "n": "Correct the journalist's figure.", "t": ["Da muss ich Sie korrigieren, die Zahl stimmt so nicht", "Die Zahl stimmt so nicht"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l2",
+      "title": "Crisis communication",
+      "goal": "Speak for your organisation in a crisis: express regret, take responsibility and commit to action.",
+      "tip": {
+        "title": "Empathy, facts, action",
+        "body": "In a crisis, start with empathy, then give verified facts, then concrete action and the next update. Never say kein Kommentar. Use a calm, low voice and a measured pace, and drop hedging fillers like eigentlich or irgendwie: they make you sound evasive."
+      },
+      "phrases": [
+        { "t": "Wir bedauern den Vorfall zutiefst.", "n": "We deeply regret the incident." },
+        { "t": "Wir übernehmen die volle Verantwortung.", "n": "We take full responsibility." },
+        { "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen.", "n": "According to current information, around twelve thousand customers are affected." },
+        { "t": "Wir arbeiten mit Hochdruck an der Aufklärung.", "n": "We are working flat out to get to the bottom of it." },
+        { "t": "Im Nachhinein war das ein Fehler, und dazu stehen wir.", "n": "In hindsight that was a mistake, and we own it." },
+        { "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung.", "n": "Affected customers will of course receive compensation." },
+        { "t": "Ich bitte die Betroffenen in aller Form um Entschuldigung.", "n": "I formally apologise to everyone affected." },
+        { "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.", "n": "As soon as we have confirmed findings, we will inform you immediately." }
+      ],
+      "dialogue": {
+        "title": "The data breach",
+        "lines": [
+          { "who": "A", "name": "Reporter", "t": "Bei Ihrer Bank sind Kundendaten gestohlen worden. Was sagen Sie dazu?", "n": "Customer data has been stolen from your bank. What do you have to say?" },
+          { "who": "you", "t": "Wir bedauern den Vorfall zutiefst und übernehmen die volle Verantwortung.", "n": "We deeply regret the incident and take full responsibility." },
+          { "who": "A", "name": "Reporter", "t": "Wie viele Kunden sind betroffen?", "n": "How many customers are affected?" },
+          { "who": "you", "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen. Wir arbeiten mit Hochdruck an der Aufklärung.", "n": "According to current information, around twelve thousand customers are affected. We are working flat out to get to the bottom of it." },
+          { "who": "A", "name": "Reporter", "t": "Warum haben Sie die Öffentlichkeit erst nach drei Tagen informiert?", "n": "Why did you only inform the public after three days?" },
+          { "who": "you", "t": "Wir wollten nichts Ungesichertes verbreiten. Im Nachhinein war das ein Fehler, und dazu stehen wir.", "n": "We didn't want to spread unverified information. In hindsight that was a mistake, and we own it." },
+          { "who": "A", "name": "Reporter", "t": "Und was passiert jetzt mit den Betroffenen?", "n": "And what happens now to those affected?" },
+          { "who": "you", "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung. Ich bitte sie in aller Form um Entschuldigung.", "n": "Affected customers will of course receive compensation. I formally apologise to them." },
+          { "who": "A", "name": "Reporter", "t": "Wann erfahren wir mehr?", "n": "When will we learn more?" },
+          { "who": "you", "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.", "n": "As soon as we have confirmed findings, we will inform you immediately." }
+        ]
+      },
+      "prompts": [
+        { "n": "Express deep regret for the incident.", "t": ["Wir bedauern den Vorfall zutiefst"] },
+        { "n": "Say your organisation takes full responsibility.", "t": ["Wir übernehmen die volle Verantwortung"] },
+        { "n": "Promise to inform the press as soon as findings are confirmed.", "t": ["Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend"] },
+        { "n": "Formally apologise to everyone affected.", "t": ["Ich bitte die Betroffenen in aller Form um Entschuldigung"] }
+      ]
+    }
+  ]
+}

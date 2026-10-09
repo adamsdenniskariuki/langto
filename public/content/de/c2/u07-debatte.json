@@ -1,0 +1,87 @@
+{
+  "id": "c2-u07",
+  "title": "Rede und Widerrede",
+  "subtitle": "Spontaneous argument & rebuttal",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "c2-u07-l1",
+      "title": "Arguing on the spot",
+      "goal": "Build a convincing argument spontaneously, anticipate objections and illustrate with examples.",
+      "tip": {
+        "title": "Claim, reason, objection, rebuttal",
+        "body": "A strong spoken argument names its core claim, adds support (Hinzu kommt …), anticipates the objection (Man könnte einwenden …) and refutes it (Dem halte ich entgegen …). Need a second to think? Buy time with a framing phrase like Sagen wir es so instead of äh. Land your conclusion with a firm, falling intonation."
+      },
+      "phrases": [
+        { "t": "Sagen wir es so: Die Frage ist nicht ob, sondern wie.", "n": "Let's put it this way: the question isn't whether, but how.", "note": "Buys time and reframes the debate." },
+        { "t": "Mein zentrales Argument ist folgendes: Wir verschenken Potenzial.", "n": "My central argument is this: we're wasting potential." },
+        { "t": "Hinzu kommt, dass die Daten eindeutig sind.", "n": "On top of that, the data are clear." },
+        { "t": "Man könnte natürlich einwenden, das sei zu teuer.", "n": "Of course, one could object that it's too expensive." },
+        { "t": "Dem halte ich entgegen, dass Nichtstun noch teurer ist.", "n": "My response to that is that doing nothing is even more expensive." },
+        { "t": "Gerade deshalb müssen wir jetzt handeln.", "n": "That's precisely why we have to act now." },
+        { "t": "Lassen Sie mich das an einem Beispiel verdeutlichen.", "n": "Let me illustrate that with an example." },
+        { "t": "Unterm Strich überwiegen die Vorteile deutlich.", "n": "On balance, the advantages clearly outweigh the drawbacks." }
+      ],
+      "dialogue": {
+        "title": "Panel debate: the four-day week",
+        "lines": [
+          { "who": "A", "name": "Moderator", "t": "Sie sind für die Viertagewoche. Warum eigentlich?", "n": "You're in favour of the four-day week. Why, exactly?" },
+          { "who": "you", "t": "Sagen wir es so: Die Frage ist nicht ob, sondern wie.", "n": "Let's put it this way: the question isn't whether, but how." },
+          { "who": "A", "name": "Moderator", "t": "Das klingt elegant, ist aber noch keine Begründung.", "n": "That sounds elegant, but it isn't a justification yet." },
+          { "who": "you", "t": "Mein zentrales Argument ist folgendes: Ausgeruhte Menschen arbeiten produktiver. Hinzu kommt, dass die Daten eindeutig sind.", "n": "My central argument is this: rested people work more productively. On top of that, the data are clear." },
+          { "who": "A", "name": "Moderator", "t": "Viele Unternehmer sagen aber, das könne sich kein Mittelständler leisten.", "n": "But many business owners say no medium-sized company could afford that." },
+          { "who": "you", "t": "Dem halte ich entgegen, dass der Fachkräftemangel noch teurer ist.", "n": "My response to that is that the skills shortage is even more expensive." },
+          { "who": "A", "name": "Moderator", "t": "Haben Sie dafür ein konkretes Beispiel?", "n": "Do you have a concrete example of that?" },
+          { "who": "you", "t": "Lassen Sie mich das an einem Beispiel verdeutlichen: Eine Bäckerei in Kiel findet seitdem wieder Personal.", "n": "Let me illustrate that with an example: a bakery in Kiel has been finding staff again ever since." },
+          { "who": "A", "name": "Moderator", "t": "Ist das nicht ein Einzelfall?", "n": "Isn't that an isolated case?" },
+          { "who": "you", "t": "Keineswegs. Unterm Strich überwiegen die Vorteile deutlich.", "n": "Not at all. On balance, the advantages clearly outweigh the drawbacks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Anticipate the objection that it's too expensive.", "t": ["Man könnte natürlich einwenden, das sei zu teuer", "Man könnte einwenden, das sei zu teuer"] },
+        { "n": "Counter that doing nothing is even more expensive.", "t": ["Dem halte ich entgegen, dass Nichtstun noch teurer ist"] },
+        { "n": "Offer to illustrate your point with an example.", "t": ["Lassen Sie mich das an einem Beispiel verdeutlichen"] },
+        { "n": "Conclude that on balance the advantages clearly outweigh.", "t": ["Unterm Strich überwiegen die Vorteile deutlich", "Unterm Strich überwiegen die Vorteile"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l2",
+      "title": "Rebuttal under fire",
+      "goal": "Rebut misrepresentations firmly but politely and hold the floor when interrupted.",
+      "tip": {
+        "title": "Firm, not loud",
+        "body": "When someone twists your words, name it calmly: Das ist eine Unterstellung. Mit Verlaub signals ultra-polite disagreement that is actually quite sharp. If interrupted, don't raise your pitch; lower it, slow down and keep talking evenly. Stress the key words: Genau DAS habe ich NICHT gesagt."
+      },
+      "phrases": [
+        { "t": "Darf ich das kurz richtigstellen?", "n": "May I briefly set the record straight?" },
+        { "t": "Das ist schlicht nicht zutreffend.", "n": "That is simply not accurate." },
+        { "t": "Sie vermischen hier zwei völlig verschiedene Dinge.", "n": "You're mixing up two completely different things here." },
+        { "t": "Lassen Sie mich bitte ausreden.", "n": "Please let me finish." },
+        { "t": "Das ist eine Unterstellung.", "n": "That's an insinuation.", "note": "Used when someone attributes a claim or motive to you." },
+        { "t": "Mit Verlaub, das greift zu kurz.", "n": "With respect, that's far too simplistic.", "note": "Mit Verlaub: formal and pointed." },
+        { "t": "Genau das habe ich nicht gesagt.", "n": "That is exactly what I did not say." },
+        { "t": "Da muss ich Ihnen ausnahmsweise recht geben.", "n": "For once, I have to agree with you.", "note": "A disarming concession." }
+      ],
+      "dialogue": {
+        "title": "Head to head",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Herr Brandt", "t": "Ihre Viertagewoche ist doch nichts anderes als bezahltes Faulenzen!", "n": "Your four-day week is nothing but paid idleness!" },
+          { "who": "you", "t": "Mit Verlaub, das greift zu kurz. Und das ist eine Unterstellung.", "n": "With respect, that's far too simplistic. And it's an insinuation." },
+          { "who": "A", "name": "Herr Brandt", "t": "Sie wollen also, dass die Leute weniger arbeiten und trotzdem gleich viel verdienen. Das ist doch absurd!", "n": "So you want people to work less and still earn the same. That's absurd!" },
+          { "who": "you", "t": "Lassen Sie mich bitte ausreden. Genau das habe ich nicht gesagt.", "n": "Please let me finish. That is exactly what I did not say." },
+          { "who": "A", "name": "Herr Brandt", "t": "Aber die Produktivität in Deutschland sinkt seit Jahren, das ist Fakt!", "n": "But productivity in Germany has been falling for years, that's a fact!" },
+          { "who": "you", "t": "Sie vermischen hier zwei völlig verschiedene Dinge.", "n": "You're mixing up two completely different things here." },
+          { "who": "A", "name": "Herr Brandt", "t": "Immerhin sind wir uns einig, dass sich etwas ändern muss.", "n": "At least we agree that something has to change." },
+          { "who": "you", "t": "Da muss ich Ihnen ausnahmsweise recht geben.", "n": "For once, I have to agree with you." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask to briefly set the record straight.", "t": ["Darf ich das kurz richtigstellen"] },
+        { "n": "Insist on finishing your point.", "t": ["Lassen Sie mich bitte ausreden", "Lassen Sie mich ausreden"] },
+        { "n": "Say, with formal politeness, that this is too simplistic.", "t": ["Mit Verlaub, das greift zu kurz", "Das greift zu kurz"] },
+        { "n": "Say that is exactly what you did not say.", "t": ["Genau das habe ich nicht gesagt"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "c2-u02",
+  "title": "Ironie und Wortwitz",
+  "subtitle": "Irony, understatement & wordplay",
+  "icon": "😏",
+  "lessons": [
+    {
+      "id": "c2-u02-l1",
+      "title": "Irony and understatement",
+      "goal": "Use irony and understatement to comment on a bad day with dry humour.",
+      "tip": {
+        "title": "Say less, mean more",
+        "body": "German understatement loves litotes: nicht ganz unproblematisch means 'a real mess', nicht gerade der Fleißigste means 'lazy'. Irony lives in the voice: say praise words like wunderbar with a flat, slightly drawn-out tone and a falling ending. A tiny pause before the key word (sagen wir mal …) makes the understatement land."
+      },
+      "phrases": [
+        { "t": "Na, das hat ja wunderbar geklappt.", "n": "Well, that went brilliantly.", "note": "Ironic: flat, drawn-out intonation." },
+        { "t": "Ganz toll, jetzt regnet es auch noch.", "n": "Just great, now it's raining as well." },
+        { "t": "Das war nicht ganz unproblematisch.", "n": "That was not entirely unproblematic.", "note": "Litotes: in fact it was a disaster." },
+        { "t": "Er ist nicht gerade der Fleißigste.", "n": "He's not exactly the most hard-working." },
+        { "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.", "n": "The food was, let's say, an acquired taste." },
+        { "t": "Man gönnt sich ja sonst nichts.", "n": "Well, you've got to treat yourself sometimes.", "note": "Ironic self-justification for an indulgence." },
+        { "t": "Das war jetzt aber nicht ironisch gemeint.", "n": "I didn't mean that ironically, by the way." },
+        { "t": "Halb so wild.", "n": "No big deal." }
+      ],
+      "dialogue": {
+        "title": "After a disastrous pitch",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Katrin", "t": "Und, wie lief die Präsentation beim Kunden?", "n": "So, how did the presentation at the client's go?" },
+          { "who": "you", "t": "Na, das hat ja wunderbar geklappt. Der Beamer ist gleich am Anfang ausgefallen.", "n": "Well, that went brilliantly. The projector died right at the start." },
+          { "who": "A", "name": "Katrin", "t": "Oje. Und dein Chef? War der wenigstens eine Hilfe?", "n": "Oh dear. And your boss? Was he at least any help?" },
+          { "who": "you", "t": "Er ist nicht gerade der Geduldigste. Es war nicht ganz unproblematisch.", "n": "He's not exactly the most patient. It was not entirely unproblematic." },
+          { "who": "A", "name": "Katrin", "t": "Klingt nach einem langen Tag. Habt ihr danach wenigstens gut gegessen?", "n": "Sounds like a long day. Did you at least eat well afterwards?" },
+          { "who": "you", "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.", "n": "The food was, let's say, an acquired taste." },
+          { "who": "A", "name": "Katrin", "t": "Na, dann hast du dir jetzt einen Cocktail verdient.", "n": "Well, then you've earned yourself a cocktail now." },
+          { "who": "you", "t": "Genau. Man gönnt sich ja sonst nichts.", "n": "Exactly. You've got to treat yourself sometimes." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say ironically that it went brilliantly.", "t": ["Na, das hat ja wunderbar geklappt", "Das hat ja wunderbar geklappt"] },
+        { "n": "Understate that he's lazy: he's not exactly the most hard-working.", "t": ["Er ist nicht gerade der Fleißigste"] },
+        { "n": "Say the food was, let's say, an acquired taste.", "t": ["Das Essen war, sagen wir mal, gewöhnungsbedürftig", "Das Essen war gewöhnungsbedürftig"] },
+        { "n": "Reassure someone that it's no big deal.", "t": ["Halb so wild", "Das ist halb so wild"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l2",
+      "title": "Wordplay and colourful idioms",
+      "goal": "Banter with friends using playful, highly idiomatic expressions.",
+      "tip": {
+        "title": "Food, animals and rhymes",
+        "body": "Colloquial German is full of food and animal images: Wurst, Bier, Butter, Bär, Schwein. Rhyming formulas like Nicht schlecht, Herr Specht! are deliberately silly. Deliver the punchline with a straight face and a tiny pause before the key word; the humour comes from timing, not volume."
+      },
+      "phrases": [
+        { "t": "Nicht schlecht, Herr Specht!", "n": "Not bad at all!", "note": "Playful rhyme; Specht means woodpecker." },
+        { "t": "Da steppt der Bär.", "n": "That's where the party is.", "note": "Literally: the bear is tap-dancing there." },
+        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem." },
+        { "t": "Ich verstehe nur Bahnhof.", "n": "It's all Greek to me." },
+        { "t": "Jetzt mal Butter bei die Fische!", "n": "Let's get down to brass tacks!", "note": "Northern idiom; the grammar is deliberately wrong." },
+        { "t": "Alles hat ein Ende, nur die Wurst hat zwei.", "n": "Everything has an end, only a sausage has two.", "note": "Jokey line for the end of an event." },
+        { "t": "Das ist mir Wurst.", "n": "I couldn't care less.", "note": "In the south often Wurscht." },
+        { "t": "Ich glaub, mein Schwein pfeift!", "n": "I don't believe it!", "note": "Literally: I think my pig is whistling." }
+      ],
+      "dialogue": {
+        "title": "Party plans",
+        "lines": [
+          { "who": "A", "name": "Max", "t": "Gehst du am Samstag auf Tims Party? Da steppt angeblich der Bär.", "n": "Are you going to Tim's party on Saturday? Apparently that's where it's at." },
+          { "who": "you", "t": "Ich glaub, mein Schwein pfeift! Tim schmeißt eine Party?", "n": "I don't believe it! Tim is throwing a party?" },
+          { "who": "A", "name": "Max", "t": "Ja, er ist befördert worden. Er erklärt dir bestimmt stundenlang seine neue Software.", "n": "Yes, he's been promoted. He'll surely explain his new software to you for hours." },
+          { "who": "you", "t": "Dann verstehe ich wieder nur Bahnhof.", "n": "Then it'll all be Greek to me again." },
+          { "who": "A", "name": "Max", "t": "Und wer kümmert sich um die Getränke? Bringst du das Bier mit?", "n": "And who's taking care of the drinks? Will you bring the beer?" },
+          { "who": "you", "t": "Das ist nicht mein Bier. Ich bringe Kuchen mit.", "n": "That's not my problem, or my beer. I'm bringing cake." },
+          { "who": "A", "name": "Max", "t": "Ha, nicht schlecht, Herr Specht! Gut, dann frag ich Lukas.", "n": "Ha, not bad at all! Fine, then I'll ask Lukas." },
+          { "who": "you", "t": "Ob Bier oder Kuchen, das ist mir Wurst. Hauptsache, wir feiern.", "n": "Beer or cake, I couldn't care less. The main thing is we celebrate." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say it's all Greek to you.", "t": ["Ich verstehe nur Bahnhof"] },
+        { "n": "Say it's not your problem, using the beer idiom.", "t": ["Das ist nicht mein Bier"] },
+        { "n": "Urge someone to get to the point, northern style.", "t": ["Jetzt mal Butter bei die Fische", "Butter bei die Fische"] },
+        { "n": "Say you couldn't care less.", "t": ["Das ist mir Wurst", "Das ist mir Wurscht"] }
+      ]
+    }
+  ]
+}

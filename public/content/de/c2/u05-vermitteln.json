@@ -1,0 +1,89 @@
+{
+  "id": "c2-u05",
+  "title": "Vermitteln",
+  "subtitle": "Mediating & summarising positions",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "c2-u05-l1",
+      "title": "Calming a conflict",
+      "goal": "Mediate in a tense workplace conflict by paraphrasing, validating and proposing a compromise.",
+      "tip": {
+        "title": "Konjunktiv II is your best friend",
+        "body": "Mediators soften everything: Was bräuchten Sie …? Könnten wir uns …? Paraphrase before you propose (Wenn ich Sie richtig verstehe …), and replace a confrontational aber with und gleichzeitig. Speak a little lower and slower than the angry party; a calm voice lowers the temperature of the whole room."
+      },
+      "phrases": [
+        { "t": "Lassen wir die Vorwürfe mal beiseite.", "n": "Let's set the accusations aside for a moment." },
+        { "t": "Lassen Sie uns einen Schritt zurücktreten.", "n": "Let's take a step back." },
+        { "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.", "n": "If I understand you correctly, your main concern is being able to plan reliably." },
+        { "t": "Was bräuchten Sie, um zustimmen zu können?", "n": "What would you need in order to agree?" },
+        { "t": "Beide Seiten haben nachvollziehbare Gründe.", "n": "Both sides have understandable reasons." },
+        { "t": "Könnten wir uns zumindest auf einen Zeitplan einigen?", "n": "Could we at least agree on a timeline?" },
+        { "t": "Ich schlage einen Kompromiss vor: Wir testen das drei Monate lang.", "n": "I propose a compromise: we trial it for three months." },
+        { "t": "Ich glaube, Sie wollen im Grunde dasselbe.", "n": "I think you basically want the same thing." }
+      ],
+      "dialogue": {
+        "title": "Sales versus IT",
+        "lines": [
+          { "who": "A", "name": "Herr Wolf", "t": "Die IT blockiert seit Monaten alles! So kann ich einfach nicht arbeiten.", "n": "IT has been blocking everything for months! I simply can't work like this." },
+          { "who": "you", "t": "Lassen wir die Vorwürfe mal beiseite. Was genau brauchen Sie?", "n": "Let's set the accusations aside for a moment. What exactly do you need?" },
+          { "who": "A", "name": "Herr Wolf", "t": "Ich muss wissen, wann das neue System endlich kommt. Meine Kunden fragen jeden Tag danach.", "n": "I need to know when the new system is finally coming. My customers ask about it every day." },
+          { "who": "you", "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.", "n": "If I understand you correctly, your main concern is being able to plan reliably." },
+          { "who": "A", "name": "Herr Wolf", "t": "Genau. Aber die IT will sich ja auf nichts festlegen.", "n": "Exactly. But IT won't commit to anything." },
+          { "who": "you", "t": "Die IT will Fehler vermeiden. Beide Seiten haben nachvollziehbare Gründe.", "n": "IT wants to avoid mistakes. Both sides have understandable reasons." },
+          { "who": "A", "name": "Herr Wolf", "t": "Mag sein. Und was schlagen Sie vor?", "n": "Maybe. So what do you suggest?" },
+          { "who": "you", "t": "Ich schlage einen Kompromiss vor: Wir testen das System drei Monate lang mit Ihrem Team.", "n": "I propose a compromise: we trial the system with your team for three months." },
+          { "who": "A", "name": "Herr Wolf", "t": "Damit könnte ich leben, wenn es einen festen Starttermin gibt.", "n": "I could live with that if there's a fixed start date." },
+          { "who": "you", "t": "Gut. Ich glaube, Sie wollen im Grunde dasselbe.", "n": "Good. I think you basically want the same thing." }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest setting the accusations aside.", "t": ["Lassen wir die Vorwürfe mal beiseite", "Lassen wir die Vorwürfe beiseite"] },
+        { "n": "Paraphrase: his main concern is being able to plan reliably.", "t": ["Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit", "Es geht Ihnen vor allem um Planungssicherheit"] },
+        { "n": "Ask what they would need in order to agree.", "t": ["Was bräuchten Sie, um zustimmen zu können", "Was bräuchten Sie, um zuzustimmen"] },
+        { "n": "Acknowledge that both sides have understandable reasons.", "t": ["Beide Seiten haben nachvollziehbare Gründe"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l2",
+      "title": "Summing up complex positions",
+      "goal": "Neutrally summarise opposing positions in a meeting using reported speech.",
+      "tip": {
+        "title": "Konjunktiv I keeps you neutral",
+        "body": "When you report others' views, Konjunktiv I (seien, verliere, habe) signals 'this is their claim, not mine'. Structure your summary aloud: two positions, common ground, open question, one-line essence. Pause clearly between positions and keep a flat, neutral intonation so nobody hears you taking sides."
+      },
+      "phrases": [
+        { "t": "Zusammengefasst lassen sich zwei Positionen unterscheiden.", "n": "In summary, two positions can be distinguished." },
+        { "t": "Die eine Seite argumentiert, die Kosten seien zu hoch.", "n": "One side argues that the costs are too high.", "note": "seien = Konjunktiv I for reported speech." },
+        { "t": "Die andere Seite hält dagegen, ohne Investitionen verliere man den Anschluss.", "n": "The other side counters that without investment you fall behind." },
+        { "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss.", "n": "The only point of agreement is that action is needed." },
+        { "t": "Strittig bleibt vor allem die Frage der Finanzierung.", "n": "The main point of contention remains financing." },
+        { "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.", "n": "To put it pointedly: security versus progress." },
+        { "t": "Ich gebe das bewusst neutral wieder.", "n": "I'm deliberately rendering this neutrally." },
+        { "t": "Habe ich Ihre Position damit korrekt wiedergegeben?", "n": "Have I represented your position correctly?" }
+      ],
+      "dialogue": {
+        "title": "Summing up for the board",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Dr. Hoffmann", "t": "Wir diskutieren jetzt seit zwei Stunden. Können Sie die Lage kurz zusammenfassen?", "n": "We've been discussing this for two hours. Could you briefly sum up where we are?" },
+          { "who": "you", "t": "Gern. Zusammengefasst lassen sich zwei Positionen unterscheiden.", "n": "Certainly. In summary, two positions can be distinguished." },
+          { "who": "A", "name": "Dr. Hoffmann", "t": "Fangen Sie mit der Finanzabteilung an.", "n": "Start with the finance department." },
+          { "who": "you", "t": "Die Finanzabteilung argumentiert, die Kosten seien zu hoch.", "n": "The finance department argues that the costs are too high." },
+          { "who": "A", "name": "Dr. Hoffmann", "t": "Und die Entwicklung?", "n": "And R&D?" },
+          { "who": "you", "t": "Die Entwicklung hält dagegen, ohne Investitionen verliere man den Anschluss.", "n": "R&D counters that without investment we'll fall behind." },
+          { "who": "A", "name": "Dr. Hoffmann", "t": "Gibt es denn überhaupt Gemeinsamkeiten?", "n": "Is there any common ground at all?" },
+          { "who": "you", "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss. Strittig bleibt die Finanzierung.", "n": "The only agreement is that action is needed. Financing remains disputed." },
+          { "who": "A", "name": "Dr. Hoffmann", "t": "Sehr klar. Und wenn Sie es auf einen Satz bringen müssten?", "n": "Very clear. And if you had to put it in one sentence?" },
+          { "who": "you", "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.", "n": "To put it pointedly: security versus progress." }
+        ]
+      },
+      "prompts": [
+        { "n": "Report that one side argues the costs are too high.", "t": ["Die eine Seite argumentiert, die Kosten seien zu hoch"] },
+        { "n": "Say the only point of agreement is that action is needed.", "t": ["Einig ist man sich lediglich darin, dass gehandelt werden muss", "Einig ist man sich nur darin, dass gehandelt werden muss"] },
+        { "n": "Check whether you've represented someone's position correctly.", "t": ["Habe ich Ihre Position damit korrekt wiedergegeben", "Habe ich Ihre Position korrekt wiedergegeben"] },
+        { "n": "Sum it up pointedly as security versus progress.", "t": ["Überspitzt formuliert: Sicherheit gegen Fortschritt", "Sicherheit gegen Fortschritt"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "c2-u04",
+  "title": "Die Kunst der Rede",
+  "subtitle": "Toasts, speeches & rhetoric",
+  "icon": "🎤",
+  "lessons": [
+    {
+      "id": "c2-u04-l1",
+      "title": "Raising a toast",
+      "goal": "Give a short, warm and witty birthday toast in front of a group.",
+      "tip": {
+        "title": "Attention, anecdote, toast",
+        "body": "A good German toast has three steps: ask for attention, tell one short personal anecdote, then raise the glass. Use eure Aufmerksamkeit among friends and Ihre at formal events. Pause before the final line, then lift both your pitch and volume on Auf Anna! And when you clink glasses, look each person in the eye."
+      },
+      "phrases": [
+        { "t": "Darf ich kurz um eure Aufmerksamkeit bitten?", "n": "May I have your attention for a moment?", "note": "Formal events: um Ihre Aufmerksamkeit." },
+        { "t": "Ich halte mich kurz, das Buffet wartet.", "n": "I'll keep it short, the buffet is waiting." },
+        { "t": "Ich erinnere mich noch gut an unsere erste Begegnung.", "n": "I still remember our first meeting well." },
+        { "t": "Wer Anna kennt, weiß: Sie gibt niemals auf.", "n": "Anyone who knows Anna knows: she never gives up." },
+        { "t": "Liebe Anna, du hast uns alle immer wieder überrascht.", "n": "Dear Anna, you've surprised us all time and again." },
+        { "t": "Lasst uns die Gläser erheben!", "n": "Let's raise our glasses!" },
+        { "t": "Auf Anna und die nächsten fünfzig Jahre!", "n": "To Anna and the next fifty years!" },
+        { "t": "Zum Wohl! Auf dich!", "n": "Cheers! To you!" }
+      ],
+      "dialogue": {
+        "title": "Anna's fiftieth birthday",
+        "lines": [
+          { "who": "A", "name": "Thomas", "t": "Möchtest du nicht ein paar Worte sagen? Du kennst Anna doch am längsten.", "n": "Wouldn't you like to say a few words? You've known Anna the longest, after all." },
+          { "who": "you", "t": "Gern. Darf ich kurz um eure Aufmerksamkeit bitten?", "n": "Gladly. May I have your attention for a moment?" },
+          { "who": "A", "name": "Thomas", "t": "Psst, alle mal herhören! Jetzt kommt eine Rede.", "n": "Shh, listen up, everyone! Here comes a speech." },
+          { "who": "you", "t": "Keine Sorge, ich halte mich kurz, das Buffet wartet.", "n": "Don't worry, I'll keep it short, the buffet is waiting." },
+          { "who": "A", "name": "Thomas", "t": "Sehr vernünftig! Erzähl doch, wie ihr euch kennengelernt habt.", "n": "Very sensible! Tell us how you two met." },
+          { "who": "you", "t": "Ich erinnere mich noch gut an unsere erste Begegnung. Anna hat mich sofort korrigiert.", "n": "I still remember our first meeting well. Anna corrected me straight away." },
+          { "who": "A", "name": "Thomas", "t": "Typisch Anna! Und was wünschst du ihr?", "n": "Typical Anna! And what do you wish her?" },
+          { "who": "you", "t": "Wer Anna kennt, weiß: Sie gibt niemals auf. Lasst uns die Gläser erheben!", "n": "Anyone who knows Anna knows: she never gives up. Let's raise our glasses!" },
+          { "who": "A", "name": "Thomas", "t": "Auf Anna! Zum Wohl!", "n": "To Anna! Cheers!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask your friends for their attention for a moment.", "t": ["Darf ich kurz um eure Aufmerksamkeit bitten", "Darf ich kurz um Ihre Aufmerksamkeit bitten"] },
+        { "n": "Promise to keep it short because the buffet is waiting.", "t": ["Ich halte mich kurz, das Buffet wartet", "Ich halte mich kurz"] },
+        { "n": "Invite everyone to raise their glasses.", "t": ["Lasst uns die Gläser erheben", "Erheben wir die Gläser"] },
+        { "n": "Propose a toast to Anna and the next fifty years.", "t": ["Auf Anna und die nächsten fünfzig Jahre", "Auf Anna"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l2",
+      "title": "Rhetoric that sticks",
+      "goal": "Open, structure and close a formal speech using classic rhetorical devices.",
+      "tip": {
+        "title": "Question, contrast, triad",
+        "body": "Three devices make a speech memorable: the rhetorical question (Was wäre, wenn …?), the antithesis (nicht um Schuld, sondern um Verantwortung) and the triad (Mut, Geduld, einander). After a rhetorical question, pause for two full seconds. In a triad, let your voice rise on the first two items and fall decisively on the third."
+      },
+      "phrases": [
+        { "t": "Meine sehr geehrten Damen und Herren, ich freue mich, heute hier zu sein.", "n": "Ladies and gentlemen, I'm delighted to be here today." },
+        { "t": "Lassen Sie mich mit einer Frage beginnen.", "n": "Let me begin with a question." },
+        { "t": "Was wäre, wenn wir alles anders machten?", "n": "What if we did everything differently?", "note": "Rhetorical question: pause afterwards." },
+        { "t": "Es geht nicht um Schuld, es geht um Verantwortung.", "n": "It's not about blame, it's about responsibility.", "note": "Antithesis." },
+        { "t": "Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.", "n": "We need courage, we need patience, and we need each other.", "note": "Triad with repetition (anaphora)." },
+        { "t": "Ich komme damit zu meinem letzten Punkt.", "n": "That brings me to my final point." },
+        { "t": "Lassen Sie mich das Gesagte kurz zusammenfassen.", "n": "Let me briefly sum up what I've said." },
+        { "t": "Ich danke Ihnen für Ihre Aufmerksamkeit.", "n": "Thank you for your attention." }
+      ],
+      "dialogue": {
+        "title": "Rehearsing with a speech coach",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Berger", "t": "Fangen wir mit dem Einstieg an. Wie eröffnen Sie Ihre Rede?", "n": "Let's start with the opening. How do you open your speech?" },
+          { "who": "you", "t": "Meine sehr geehrten Damen und Herren, lassen Sie mich mit einer Frage beginnen.", "n": "Ladies and gentlemen, let me begin with a question." },
+          { "who": "A", "name": "Frau Berger", "t": "Gut. Und welche Frage? Machen Sie danach unbedingt eine Pause.", "n": "Good. And which question? Be sure to pause afterwards." },
+          { "who": "you", "t": "Was wäre, wenn wir alles anders machten?", "n": "What if we did everything differently?" },
+          { "who": "A", "name": "Frau Berger", "t": "Sehr schön. Jetzt brauche ich einen Satz, der hängen bleibt.", "n": "Very nice. Now I need a sentence that sticks." },
+          { "who": "you", "t": "Es geht nicht um Schuld, es geht um Verantwortung.", "n": "It's not about blame, it's about responsibility." },
+          { "who": "A", "name": "Frau Berger", "t": "Eine starke Antithese. Und wie leiten Sie zum Schluss über?", "n": "A strong antithesis. And how do you lead into the conclusion?" },
+          { "who": "you", "t": "Ich komme damit zu meinem letzten Punkt: Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.", "n": "That brings me to my final point: we need courage, we need patience, and we need each other." }
+        ]
+      },
+      "prompts": [
+        { "n": "Open your speech by announcing a question.", "t": ["Lassen Sie mich mit einer Frage beginnen"] },
+        { "n": "Ask the audience: what if we did everything differently?", "t": ["Was wäre, wenn wir alles anders machten", "Was wäre, wenn wir alles anders machen würden"] },
+        { "n": "Say it's not about blame, it's about responsibility.", "t": ["Es geht nicht um Schuld, es geht um Verantwortung", "Es geht nicht um Schuld, sondern um Verantwortung"] },
+        { "n": "Thank the audience for their attention.", "t": ["Ich danke Ihnen für Ihre Aufmerksamkeit", "Vielen Dank für Ihre Aufmerksamkeit"] }
+      ]
+    }
+  ]
+}

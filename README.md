@@ -8,8 +8,8 @@
 
 - **Speech-first lessons**: listen & repeat, shadowing, pronunciation checks, role-play dialogues, timed spoken answers, and optional self-recording so you can compare yourself with the model.
 - **Natural neural voices**: lesson audio is pre-generated with Azure AI Speech at build time. If a clip is missing, the browser's own voice (Web Speech API) is used instead.
-- **Step-by-step path**: CEFR-aligned levels and units. German A1 has 10 units and 22 lessons.
-- **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed. There are no hearts and no leaderboards.
+- **Step-by-step path**: CEFR-aligned levels and units. German covers the full range from A1 to C2: 50 units and 102 lessons, from greetings up to irony, rhetoric and Austrian and Swiss German. Learners who already know some German can choose to **start at any level**.
+- **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed, plus a completion badge and a speaking milestone for each level. There are no hearts and no leaderboards.
 - **Spaced-repetition review** of every phrase you've learned.
 - **Themes and fonts**: System (follows dark mode), Light, Dark, Sepia, High contrast and more. Fonts include a dyslexia-friendly option, and text size is adjustable.
 - **No account and fully private**: progress lives in your browser (localStorage). You can **export and import** a JSON backup to move between devices.

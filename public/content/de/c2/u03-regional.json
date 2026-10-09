@@ -1,0 +1,86 @@
+{
+  "id": "c2-u03",
+  "title": "Servus und Grüezi",
+  "subtitle": "Austrian & Swiss standard German",
+  "icon": "🏔️",
+  "lessons": [
+    {
+      "id": "c2-u03-l1",
+      "title": "German the Austrian way",
+      "goal": "Shop, order and chat in Austria using Austrian standard vocabulary.",
+      "tip": {
+        "title": "Österreichisches Deutsch",
+        "body": "Austrian German is a full standard variety, not a dialect: Jänner, Paradeiser, Erdäpfel, Marille, Schlagobers and Sackerl are perfectly correct in Vienna. Greet with Grüß Gott in shops and Servus among friends. You don't need to imitate the accent; just use the words with a relaxed, melodic tone and let vowels sound a little softer."
+      },
+      "phrases": [
+        { "t": "Servus, wie geht's dir?", "n": "Hi, how are you?", "note": "Informal; means both hello and bye in Austria and Bavaria." },
+        { "t": "Grüß Gott, ich hätte gern einen Verlängerten.", "n": "Hello, I'd like a Verlängerter, please.", "note": "Espresso topped up with hot water, a Viennese café classic." },
+        { "t": "Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.", "n": "A kilo of tomatoes and half a kilo of potatoes, please.", "note": "Paradeiser = Tomaten, Erdäpfel = Kartoffeln." },
+        { "t": "Im Jänner fahren wir immer Ski.", "n": "In January we always go skiing.", "note": "Jänner = Januar." },
+        { "t": "Können Sie mir ein Sackerl geben?", "n": "Could you give me a bag?", "note": "Sackerl = Tüte." },
+        { "t": "Heuer war der Sommer besonders heiß.", "n": "This year the summer was particularly hot.", "note": "heuer = dieses Jahr." },
+        { "t": "Ich nehme die Marillenknödel mit Schlagobers.", "n": "I'll have the apricot dumplings with whipped cream.", "note": "Marille = Aprikose, Schlagobers = Sahne." },
+        { "t": "Auf Wiederschauen und schönes Wochenende!", "n": "Goodbye and have a nice weekend!", "note": "Austrian and Bavarian for Auf Wiedersehen." }
+      ],
+      "dialogue": {
+        "title": "At the Naschmarkt in Vienna",
+        "voice": "de-AT-IngridNeural",
+        "lines": [
+          { "who": "A", "name": "Marktfrau", "t": "Grüß Gott! Was darf's denn sein?", "n": "Hello! What can I get you?" },
+          { "who": "you", "t": "Grüß Gott! Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.", "n": "Hello! A kilo of tomatoes and half a kilo of potatoes, please." },
+          { "who": "A", "name": "Marktfrau", "t": "Gern. Die Marillen sind heuer übrigens besonders süß. Möchten Sie eine kosten?", "n": "Sure. The apricots are especially sweet this year, by the way. Would you like to try one?" },
+          { "who": "you", "t": "Ja, gern. Heuer war der Sommer ja besonders heiß.", "n": "Yes, please. The summer was particularly hot this year, after all." },
+          { "who": "A", "name": "Marktfrau", "t": "Eben, deshalb sind sie so gut. Darf's sonst noch was sein?", "n": "Exactly, that's why they're so good. Anything else?" },
+          { "who": "you", "t": "Ein halbes Kilo Marillen, bitte. Können Sie mir ein Sackerl geben?", "n": "Half a kilo of apricots, please. Could you give me a bag?" },
+          { "who": "A", "name": "Marktfrau", "t": "Freilich. Das macht dann neun Euro achtzig.", "n": "Of course. That comes to nine euros eighty." },
+          { "who": "you", "t": "Bitte schön. Auf Wiederschauen und schönes Wochenende!", "n": "Here you go. Goodbye and have a nice weekend!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Order a Verlängerter in a Viennese café.", "t": ["Grüß Gott, ich hätte gern einen Verlängerten", "Ich hätte gern einen Verlängerten", "Einen Verlängerten bitte"] },
+        { "n": "Ask for a kilo of tomatoes, using the Austrian word.", "t": ["Ein Kilo Paradeiser bitte", "Ich hätte gern ein Kilo Paradeiser"] },
+        { "n": "Say that in January you always go skiing, the Austrian way.", "t": ["Im Jänner fahren wir immer Ski"] },
+        { "n": "Ask for a bag in an Austrian shop.", "t": ["Können Sie mir ein Sackerl geben"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l2",
+      "title": "German the Swiss way",
+      "goal": "Handle everyday situations in Switzerland using Swiss standard vocabulary.",
+      "tip": {
+        "title": "Schweizer Hochdeutsch",
+        "body": "Swiss standard German never uses ß (always ss) and borrows from French: Velo, Billett, Glace, merci. Many verbs take -ieren: parkieren, grillieren. Swiss speakers talk Hochdeutsch slowly and clearly, and stress French loans on the first syllable: VElo, BIllett. Matching that calm, deliberate pace sounds friendly, not slow."
+      },
+      "phrases": [
+        { "t": "Grüezi mitenand!", "n": "Hello, everyone!", "note": "Polite Swiss greeting to a group; to one person just Grüezi." },
+        { "t": "Merci vielmal für die Einladung.", "n": "Thanks a lot for the invitation.", "note": "French merci is completely standard in Switzerland." },
+        { "t": "Ich fahre jeden Tag mit dem Velo zur Arbeit.", "n": "I cycle to work every day.", "note": "Velo = Fahrrad." },
+        { "t": "Kann ich hier parkieren?", "n": "Can I park here?", "note": "parkieren = parken." },
+        { "t": "Am Samstag wollen wir am See grillieren.", "n": "On Saturday we want to have a barbecue by the lake.", "note": "grillieren = grillen." },
+        { "t": "Das Billett kostet zwölf Franken.", "n": "The ticket costs twelve francs.", "note": "Billett = Fahrkarte." },
+        { "t": "Ich hätte gerne eine Glace mit Rahm.", "n": "I'd like an ice cream with whipped cream.", "note": "die Glace = Eis, Rahm = Sahne." },
+        { "t": "En Guete!", "n": "Enjoy your meal!", "note": "Swiss German, used everywhere before eating." }
+      ],
+      "dialogue": {
+        "title": "Arriving in Zurich",
+        "voice": "de-CH-JanNeural",
+        "lines": [
+          { "who": "A", "name": "Jan", "t": "Grüezi! Schön, dass Sie es nach Zürich geschafft haben. Wie war die Reise?", "n": "Hello! Great that you made it to Zurich. How was the trip?" },
+          { "who": "you", "t": "Grüezi! Sehr angenehm, danke. Das Billett war allerdings ziemlich teuer.", "n": "Hello! Very pleasant, thanks. The ticket was rather expensive, though." },
+          { "who": "A", "name": "Jan", "t": "Ja, die Schweiz ist kein billiges Pflaster. Wir grillieren heute Abend am See. Kommen Sie mit?", "n": "Yes, Switzerland isn't a cheap place. We're having a barbecue by the lake tonight. Will you come along?" },
+          { "who": "you", "t": "Merci vielmal für die Einladung! Kann ich dort parkieren?", "n": "Thanks a lot for the invitation! Can I park there?" },
+          { "who": "A", "name": "Jan", "t": "Eher schwierig. Nehmen Sie doch das Velo, ich leihe Ihnen meins.", "n": "Rather difficult. Why not take the bike? I'll lend you mine." },
+          { "who": "you", "t": "Gute Idee. Ich fahre zu Hause auch jeden Tag mit dem Velo.", "n": "Good idea. At home I cycle every day too." },
+          { "who": "A", "name": "Jan", "t": "Perfekt. Und zum Dessert gibt es Glace.", "n": "Perfect. And there's ice cream for dessert." },
+          { "who": "you", "t": "Wunderbar! Ich hätte gerne eine Glace mit Rahm.", "n": "Wonderful! I'd like an ice cream with whipped cream." }
+        ]
+      },
+      "prompts": [
+        { "n": "Greet a group of people in Switzerland.", "t": ["Grüezi mitenand", "Grüezi"] },
+        { "n": "Thank your Swiss host warmly for the invitation.", "t": ["Merci vielmal für die Einladung"] },
+        { "n": "Say you cycle to work every day, using the Swiss word.", "t": ["Ich fahre jeden Tag mit dem Velo zur Arbeit"] },
+        { "n": "Ask if you can park here, the Swiss way.", "t": ["Kann ich hier parkieren"] }
+      ]
+    }
+  ]
+}

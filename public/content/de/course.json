@@ -83,8 +83,16 @@
       "id": "C2",
       "title": "Mastery",
       "description": "Speak with native-like precision, wit and regional awareness.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "c2/u01-nuancen.json",
+        "c2/u02-ironie.json",
+        "c2/u03-regional.json",
+        "c2/u04-rede.json",
+        "c2/u05-vermitteln.json",
+        "c2/u06-zitate.json",
+        "c2/u07-debatte.json",
+        "c2/u08-krise.json"
+      ]
     }
   ]
 }

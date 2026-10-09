@@ -1,0 +1,85 @@
+{
+  "id": "c2-u01",
+  "title": "Feine Unterschiede",
+  "subtitle": "Nuance & precise word choice",
+  "icon": "🔍",
+  "lessons": [
+    {
+      "id": "c2-u01-l1",
+      "title": "The right word, not just a word",
+      "goal": "Distinguish near-synonyms out loud and correct imprecise wording diplomatically.",
+      "tip": {
+        "title": "Connotation is everything",
+        "body": "Near-synonyms differ in tone: geizig is an insult, sparsam a compliment; Misstrauen is hostile, Skepsis merely cautious. Watch the classic trap: scheinbar means 'only seemingly (but not really)', anscheinend means 'apparently'. When you correct a word, stress the contrast: nicht GEIZIG, sondern SPARSAM."
+      },
+      "phrases": [
+        { "t": "Das ist nicht falsch, aber es trifft es nicht ganz.", "n": "That's not wrong, but it doesn't quite capture it.", "note": "A diplomatic way to correct someone's wording." },
+        { "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.", "n": "I'd speak of scepticism rather than distrust." },
+        { "t": "Sie ist nicht geizig, sondern sparsam.", "n": "She isn't stingy, she's thrifty.", "note": "Same behaviour, opposite judgement." },
+        { "t": "Das Problem ist nur scheinbar gelöst.", "n": "The problem only seems to be solved.", "note": "scheinbar = it looks like it, but it isn't." },
+        { "t": "Anscheinend hat niemand die Mail gelesen.", "n": "Apparently nobody read the email.", "note": "anscheinend = judging by the evidence, probably true." },
+        { "t": "Verärgert ist noch milde ausgedrückt.", "n": "Annoyed is putting it mildly." },
+        { "t": "Lass mich das präzisieren.", "n": "Let me put that more precisely." },
+        { "t": "Genauer gesagt geht es um Vertrauen, nicht um Kontrolle.", "n": "More precisely, it's about trust, not control." }
+      ],
+      "dialogue": {
+        "title": "Editing the report",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Lena", "t": "Im Bericht steht, die Kunden seien misstrauisch. Passt das so?", "n": "The report says the customers are distrustful. Is that okay?" },
+          { "who": "you", "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.", "n": "I'd speak of scepticism rather than distrust." },
+          { "who": "A", "name": "Lena", "t": "Ist das nicht Haarspalterei? Am Ende läuft es doch auf dasselbe hinaus.", "n": "Isn't that hair-splitting? In the end it amounts to the same thing." },
+          { "who": "you", "t": "Das ist nicht falsch, aber es trifft es nicht ganz. Skepsis klingt abwartender.", "n": "That's not wrong, but it doesn't quite capture it. Scepticism sounds more wait-and-see." },
+          { "who": "A", "name": "Lena", "t": "Verstehe. Und hier steht, das Lieferproblem sei inzwischen gelöst.", "n": "I see. And here it says the delivery problem has been solved in the meantime." },
+          { "who": "you", "t": "Das Problem ist nur scheinbar gelöst. Die Ursache besteht weiter.", "n": "The problem only seems to be solved. The cause is still there." },
+          { "who": "A", "name": "Lena", "t": "Oh. Und wie hat der Vorstand reagiert? Ist er verärgert?", "n": "Oh. And how did the board react? Are they annoyed?" },
+          { "who": "you", "t": "Verärgert ist noch milde ausgedrückt.", "n": "Annoyed is putting it mildly." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say she isn't stingy, she's thrifty.", "t": ["Sie ist nicht geizig, sondern sparsam"] },
+        { "n": "Say the problem only seems to be solved.", "t": ["Das Problem ist nur scheinbar gelöst"] },
+        { "n": "Say that 'annoyed' is putting it mildly.", "t": ["Verärgert ist noch milde ausgedrückt"] },
+        { "n": "Politely say a word isn't wrong but doesn't quite capture it.", "t": ["Das ist nicht falsch, aber es trifft es nicht ganz", "Das trifft es nicht ganz"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l2",
+      "title": "Little words, big attitude",
+      "goal": "Use modal particles (ja, doch, denn, halt, mal, wohl, bloß) to sound natural and convey attitude.",
+      "tip": {
+        "title": "Abtönungspartikeln",
+        "body": "Modal particles add no facts, only attitude: ja signals shared knowledge or surprise, doch softens or urges, denn makes questions friendly, halt shows resignation, mal makes requests casual. Keep them short and unstressed. A stressed DOCH means something else entirely: contradiction."
+      },
+      "phrases": [
+        { "t": "Das ist ja interessant!", "n": "Well, that's interesting!", "note": "ja = surprise." },
+        { "t": "Komm doch einfach mit!", "n": "Why don't you just come along!", "note": "doch + einfach = friendly encouragement." },
+        { "t": "Was machst du denn hier?", "n": "What are you doing here?", "note": "denn = genuine curiosity or surprise." },
+        { "t": "Das weißt du doch.", "n": "You know that, surely.", "note": "Slightly reproachful reminder." },
+        { "t": "Dann mach es halt morgen.", "n": "Then just do it tomorrow.", "note": "halt = resignation; northern speakers say eben." },
+        { "t": "Ruf mich mal an, wenn du Zeit hast.", "n": "Give me a call sometime when you're free.", "note": "mal makes it casual." },
+        { "t": "Du hast wohl keine Lust, oder?", "n": "I suppose you don't feel like it?", "note": "wohl = assumption." },
+        { "t": "Sag bloß, du hast es vergessen!", "n": "Don't tell me you forgot!", "note": "bloß = disbelief." }
+      ],
+      "dialogue": {
+        "title": "Bumping into a friend",
+        "lines": [
+          { "who": "A", "name": "Jonas", "t": "Na, was machst du denn hier? Ich dachte, du bist im Urlaub.", "n": "Hey, what are you doing here? I thought you were on holiday." },
+          { "who": "you", "t": "Sag bloß, du hast es vergessen! Ich bin seit gestern zurück.", "n": "Don't tell me you forgot! I've been back since yesterday." },
+          { "who": "A", "name": "Jonas", "t": "Stimmt, das hattest du ja erzählt. Wir grillen übrigens heute Abend bei Paul.", "n": "Right, you did mention it. By the way, we're having a barbecue at Paul's tonight." },
+          { "who": "you", "t": "Das ist ja schön! Wer kommt denn alles?", "n": "Oh, that's nice! So who's coming?" },
+          { "who": "A", "name": "Jonas", "t": "Nur ein paar Leute. Komm doch einfach mit!", "n": "Just a few people. Why don't you just come along!" },
+          { "who": "you", "t": "Ich muss leider noch eine Präsentation fertig machen.", "n": "Unfortunately I still have to finish a presentation." },
+          { "who": "A", "name": "Jonas", "t": "Dann mach sie halt morgen. Die läuft dir doch nicht weg.", "n": "Then just do it tomorrow. It's not going anywhere." },
+          { "who": "you", "t": "Na gut, du hast ja recht. Ich komme mit.", "n": "Oh, all right, you're right. I'll come along." }
+        ]
+      },
+      "prompts": [
+        { "n": "Casually invite a friend to just come along.", "t": ["Komm doch einfach mit", "Komm doch mit"] },
+        { "n": "Ask, surprised, what your friend is doing here.", "t": ["Was machst du denn hier"] },
+        { "n": "Tell someone, with a shrug, to just do it tomorrow.", "t": ["Dann mach es halt morgen", "Dann mach es eben morgen"] },
+        { "n": "React in disbelief: don't tell me you forgot!", "t": ["Sag bloß, du hast es vergessen"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "c2-u06",
+  "title": "Geflügelte Worte",
+  "subtitle": "Quotations & proverbs in conversation",
+  "icon": "📚",
+  "lessons": [
+    {
+      "id": "c2-u06-l1",
+      "title": "Quoting the classics",
+      "goal": "Recognise and playfully drop famous literary quotations into everyday conversation.",
+      "tip": {
+        "title": "Goethe and Schiller at the dinner table",
+        "body": "Educated Germans quote Faust, Schiller or Fontane casually, often ironically and sometimes only halfway: Drum prüfe … is enough for everyone to finish the line. Mark a quotation with your voice: a tiny pause before it and a slightly more theatrical tone, like audible quotation marks."
+      },
+      "phrases": [
+        { "t": "Das also war des Pudels Kern!", "n": "So that was the heart of the matter!", "note": "Goethe, Faust I." },
+        { "t": "Da steh ich nun, ich armer Tor, und bin so klug als wie zuvor.", "n": "And here I stand, poor fool, no wiser than before.", "note": "Faust I; said when you've learned nothing new." },
+        { "t": "Die Axt im Haus erspart den Zimmermann.", "n": "An axe in the house saves calling the carpenter.", "note": "Schiller, Wilhelm Tell; praise for DIY." },
+        { "t": "Drum prüfe, wer sich ewig bindet.", "n": "So let those who bind themselves forever check carefully.", "note": "Schiller; a jokey warning before marriage." },
+        { "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.", "n": "I hear the message well, but I lack the faith.", "note": "Faust I; polite scepticism." },
+        { "t": "Das ist ein weites Feld.", "n": "That's a wide field.", "note": "Fontane, Effi Briest; to avoid a long debate." },
+        { "t": "Sein oder Nichtsein, das ist hier die Frage.", "n": "To be or not to be, that is the question.", "note": "Schlegel's classic Hamlet translation." },
+        { "t": "Gut gebrüllt, Löwe!", "n": "Well roared, lion!", "note": "Shakespeare; praise for a bold statement." }
+      ],
+      "dialogue": {
+        "title": "A sudden engagement",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Clara", "t": "Stell dir vor, Tom hat mir einen Heiratsantrag gemacht! Nach nur drei Monaten!", "n": "Guess what, Tom proposed to me! After only three months!" },
+          { "who": "you", "t": "Herzlichen Glückwunsch! Aber drum prüfe, wer sich ewig bindet.", "n": "Congratulations! But look before you leap, as Schiller said." },
+          { "who": "A", "name": "Clara", "t": "Ach, Schiller hin oder her. Er will sogar für mich Vegetarier werden.", "n": "Oh, never mind Schiller. He even wants to become a vegetarian for me." },
+          { "who": "you", "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.", "n": "I hear the message well, but I lack the faith." },
+          { "who": "A", "name": "Clara", "t": "Gemein! Er hat übrigens unsere ganze Wohnung allein renoviert.", "n": "That's mean! By the way, he renovated our whole flat by himself." },
+          { "who": "you", "t": "Die Axt im Haus erspart den Zimmermann. Das spricht natürlich für ihn.", "n": "An axe in the house saves the carpenter. That certainly speaks for him." },
+          { "who": "A", "name": "Clara", "t": "Ehrlich gesagt hatte ich vor allem Angst, allein alt zu werden.", "n": "To be honest, I was mainly afraid of growing old alone." },
+          { "who": "you", "t": "Das also war des Pudels Kern!", "n": "So that was the heart of the matter!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Remark, quoting Goethe, that this is the heart of the matter.", "t": ["Das also war des Pudels Kern", "Das ist des Pudels Kern"] },
+        { "n": "Jokingly warn a friend not to marry in haste, quoting Schiller.", "t": ["Drum prüfe, wer sich ewig bindet"] },
+        { "n": "Express scepticism with the Faust line about lacking faith.", "t": ["Die Botschaft hör ich wohl, allein mir fehlt der Glaube"] },
+        { "n": "Politely sidestep a huge topic, quoting Fontane.", "t": ["Das ist ein weites Feld"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l2",
+      "title": "Proverbs at the right moment",
+      "goal": "Comment on situations at work with fitting proverbs.",
+      "tip": {
+        "title": "Wie heißt es so schön?",
+        "body": "Introduce a proverb with Wie heißt es so schön? or simply say its first half, and your listener finishes it in their head. Proverbs live from rhythm and parallelism, so stress the matching words: WER zuletzt LACHT, LACHT am BESTEN. Don't overdo it; one well-timed proverb per conversation is plenty."
+      },
+      "phrases": [
+        { "t": "Wie heißt es so schön: Ende gut, alles gut.", "n": "As the saying goes: all's well that ends well." },
+        { "t": "Man soll den Tag nicht vor dem Abend loben.", "n": "Don't count your chickens before they hatch." },
+        { "t": "Viele Köche verderben den Brei.", "n": "Too many cooks spoil the broth." },
+        { "t": "Der Apfel fällt nicht weit vom Stamm.", "n": "The apple doesn't fall far from the tree." },
+        { "t": "Wer A sagt, muss auch B sagen.", "n": "In for a penny, in for a pound." },
+        { "t": "Wie man in den Wald hineinruft, so schallt es heraus.", "n": "As you sow, so shall you reap.", "note": "How you treat others is how they'll treat you." },
+        { "t": "Lügen haben kurze Beine.", "n": "Lies don't get you far.", "note": "Literally: lies have short legs." },
+        { "t": "Wer zuletzt lacht, lacht am besten.", "n": "He who laughs last laughs longest." }
+      ],
+      "dialogue": {
+        "title": "The project that almost failed",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Stefan", "t": "Der Kunde hat das Projekt am Ende doch noch genehmigt. Damit hätte ich nie gerechnet!", "n": "The client approved the project in the end after all. I'd never have expected that!" },
+          { "who": "you", "t": "Wie heißt es so schön: Ende gut, alles gut.", "n": "As the saying goes: all's well that ends well." },
+          { "who": "A", "name": "Stefan", "t": "Na ja, warte erst mal ab. Die Finanzierung steht noch nicht.", "n": "Well, wait and see. The financing isn't secured yet." },
+          { "who": "you", "t": "Stimmt, man soll den Tag nicht vor dem Abend loben.", "n": "True, we shouldn't count our chickens before they hatch." },
+          { "who": "A", "name": "Stefan", "t": "Und jetzt will plötzlich jede Abteilung mitreden.", "n": "And now suddenly every department wants a say." },
+          { "who": "you", "t": "Viele Köche verderben den Brei. Wir sollten das Team klein halten.", "n": "Too many cooks spoil the broth. We should keep the team small." },
+          { "who": "A", "name": "Stefan", "t": "Übrigens, Müllers Sohn arbeitet jetzt im Controlling. Genauso pedantisch wie sein Vater.", "n": "By the way, Müller's son now works in controlling. Just as pedantic as his father." },
+          { "who": "you", "t": "Tja, der Apfel fällt nicht weit vom Stamm.", "n": "Well, the apple doesn't fall far from the tree." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that too many people involved will spoil things.", "t": ["Viele Köche verderben den Brei"] },
+        { "n": "Warn against celebrating too early.", "t": ["Man soll den Tag nicht vor dem Abend loben"] },
+        { "n": "Say that once you've started, you have to follow through.", "t": ["Wer A sagt, muss auch B sagen"] },
+        { "n": "Say that lies don't get you far.", "t": ["Lügen haben kurze Beine"] }
+      ]
+    }
+  ]
+}
