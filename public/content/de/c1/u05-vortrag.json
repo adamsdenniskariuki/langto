@@ -13,34 +13,115 @@
         "body": "Listeners can't scroll back, so tell them where you are: Mein Vortrag gliedert sich in …, Damit komme ich zu …, Lassen Sie mich zusammenfassen. Speak noticeably slower than in conversation and pause after every signpost. Look up at the audience on the last word of each sentence, and let your pitch fall to sound confident."
       },
       "phrases": [
-        { "t": "Ich möchte Ihnen heute die Ergebnisse unserer Studie vorstellen.", "n": "Today I'd like to present the results of our study to you." },
-        { "t": "Mein Vortrag gliedert sich in drei Teile.", "n": "My talk is divided into three parts." },
-        { "t": "Zunächst gebe ich einen kurzen Überblick über den aktuellen Forschungsstand.", "n": "First, I'll give a brief overview of the current state of research." },
-        { "t": "Damit komme ich zum zweiten Punkt.", "n": "That brings me to my second point." },
-        { "t": "Wie Sie auf dieser Folie sehen können, ist der Anteil deutlich gestiegen.", "n": "As you can see on this slide, the share has risen significantly." },
-        { "t": "Hervorzuheben ist an dieser Stelle vor allem die Rolle der Bildung.", "n": "What deserves particular emphasis here is the role of education." },
-        { "t": "Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen.", "n": "Let me briefly summarise the key points." },
-        { "t": "Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen.", "n": "Thank you for your attention, I look forward to your questions." }
+        {
+          "t": "Ich möchte Ihnen heute die Ergebnisse unserer Studie vorstellen.",
+          "n": "Today I'd like to present the results of our study to you."
+        },
+        {
+          "t": "Mein Vortrag gliedert sich in drei Teile.",
+          "n": "My talk is divided into three parts."
+        },
+        {
+          "t": "Zunächst gebe ich einen kurzen Überblick über den aktuellen Forschungsstand.",
+          "n": "First, I'll give a brief overview of the current state of research."
+        },
+        {
+          "t": "Damit komme ich zum zweiten Punkt.",
+          "n": "That brings me to my second point."
+        },
+        {
+          "t": "Wie Sie auf dieser Folie sehen können, ist der Anteil deutlich gestiegen.",
+          "n": "As you can see on this slide, the share has risen significantly."
+        },
+        {
+          "t": "Hervorzuheben ist an dieser Stelle vor allem die Rolle der Bildung.",
+          "n": "What deserves particular emphasis here is the role of education."
+        },
+        {
+          "t": "Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen.",
+          "n": "Let me briefly summarise the key points."
+        },
+        {
+          "t": "Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen.",
+          "n": "Thank you for your attention, I look forward to your questions."
+        }
       ],
       "dialogue": {
         "title": "Rehearsal with your supervisor",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Prof. Hartmann", "t": "Gut, dann proben wir mal. Fangen Sie einfach so an, als säße das Publikum schon da.", "n": "Right, let's rehearse. Just start as if the audience were already sitting there." },
-          { "who": "you", "t": "Guten Morgen, ich möchte Ihnen heute die Ergebnisse unserer Studie vorstellen.", "n": "Good morning, today I'd like to present the results of our study to you." },
-          { "who": "A", "name": "Prof. Hartmann", "t": "Schön. Und wie geht es weiter? Das Publikum braucht Orientierung.", "n": "Nice. And how do you continue? The audience needs orientation." },
-          { "who": "you", "t": "Mein Vortrag gliedert sich in drei Teile. Zunächst gebe ich einen kurzen Überblick über den Forschungsstand.", "n": "My talk is divided into three parts. First, I'll give a brief overview of the state of research." },
-          { "who": "A", "name": "Prof. Hartmann", "t": "Sehr klar. Springen wir zu den Daten. Was zeigt Ihre zentrale Grafik?", "n": "Very clear. Let's jump to the data. What does your central chart show?" },
-          { "who": "you", "t": "Wie Sie auf dieser Folie sehen können, ist der Anteil deutlich gestiegen.", "n": "As you can see on this slide, the share has risen significantly." },
-          { "who": "A", "name": "Prof. Hartmann", "t": "Gut. Und am Ende bitte nicht einfach abbrechen, sondern sauber abrunden.", "n": "Good. And at the end, please don't just stop — round it off properly." },
-          { "who": "you", "t": "Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen.", "n": "Let me briefly summarise the key points." }
+          {
+            "who": "A",
+            "name": "Prof. Hartmann",
+            "t": "Gut, dann proben wir mal. Fangen Sie einfach so an, als säße das Publikum schon da.",
+            "n": "Right, let's rehearse. Just start as if the audience were already sitting there."
+          },
+          {
+            "who": "you",
+            "t": "Guten Morgen, ich möchte Ihnen heute die Ergebnisse unserer Studie vorstellen.",
+            "n": "Good morning, today I'd like to present the results of our study to you."
+          },
+          {
+            "who": "A",
+            "name": "Prof. Hartmann",
+            "t": "Schön. Und wie geht es weiter? Das Publikum braucht Orientierung.",
+            "n": "Nice. And how do you continue? The audience needs orientation."
+          },
+          {
+            "who": "you",
+            "t": "Mein Vortrag gliedert sich in drei Teile. Zunächst gebe ich einen kurzen Überblick über den Forschungsstand.",
+            "n": "My talk is divided into three parts. First, I'll give a brief overview of the state of research."
+          },
+          {
+            "who": "A",
+            "name": "Prof. Hartmann",
+            "t": "Sehr klar. Springen wir zu den Daten. Was zeigt Ihre zentrale Grafik?",
+            "n": "Very clear. Let's jump to the data. What does your central chart show?"
+          },
+          {
+            "who": "you",
+            "t": "Wie Sie auf dieser Folie sehen können, ist der Anteil deutlich gestiegen.",
+            "n": "As you can see on this slide, the share has risen significantly."
+          },
+          {
+            "who": "A",
+            "name": "Prof. Hartmann",
+            "t": "Gut. Und am Ende bitte nicht einfach abbrechen, sondern sauber abrunden.",
+            "n": "Good. And at the end, please don't just stop — round it off properly."
+          },
+          {
+            "who": "you",
+            "t": "Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen.",
+            "n": "Let me briefly summarise the key points."
+          }
         ]
       },
       "prompts": [
-        { "n": "Announce that your talk has three parts.", "t": ["Mein Vortrag gliedert sich in drei Teile"] },
-        { "n": "Move on to your second point.", "t": ["Damit komme ich zum zweiten Punkt"] },
-        { "n": "Offer to briefly summarise the key points.", "t": ["Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen"] },
-        { "n": "Thank the audience and invite questions.", "t": ["Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen", "Vielen Dank für Ihre Aufmerksamkeit"] }
+        {
+          "n": "Announce that your talk has three parts.",
+          "t": [
+            "Mein Vortrag gliedert sich in drei Teile"
+          ]
+        },
+        {
+          "n": "Move on to your second point.",
+          "t": [
+            "Damit komme ich zum zweiten Punkt"
+          ]
+        },
+        {
+          "n": "Offer to briefly summarise the key points.",
+          "t": [
+            "Lassen Sie mich die wichtigsten Punkte kurz zusammenfassen"
+          ]
+        },
+        {
+          "n": "Thank the audience and invite questions.",
+          "t": [
+            "Vielen Dank für Ihre Aufmerksamkeit, ich freue mich auf Ihre Fragen",
+            "Vielen Dank für Ihre Aufmerksamkeit"
+          ]
+        }
       ]
     },
     {
@@ -52,33 +133,701 @@
         "body": "Thanking the questioner and paraphrasing the question (Wenn ich Sie richtig verstanden habe …) gives you valuable seconds to think. It's perfectly professional to admit a gap if you promise to follow up. Keep your intonation calm and falling, even with a critical question — a rising, hurried tone sounds defensive."
       },
       "phrases": [
-        { "t": "Vielen Dank für diese spannende Frage.", "n": "Thank you for this interesting question." },
-        { "t": "Wenn ich Sie richtig verstanden habe, geht es Ihnen um die Methodik.", "n": "If I've understood you correctly, your concern is the methodology." },
-        { "t": "Das ist ein wichtiger Punkt, auf den ich gern näher eingehe.", "n": "That's an important point, which I'm happy to go into in more detail." },
-        { "t": "Da muss ich passen, aber ich reiche die Information gern nach.", "n": "I'll have to pass on that, but I'll gladly send you the information later.", "note": "passen = admit you don't know (from card games)." },
-        { "t": "Das würde den Rahmen dieses Vortrags leider sprengen.", "n": "Unfortunately, that would go beyond the scope of this talk." },
-        { "t": "Darauf gibt es keine einfache Antwort.", "n": "There's no simple answer to that." },
-        { "t": "Können Sie Ihre Frage vielleicht etwas präzisieren?", "n": "Could you perhaps make your question a little more specific?" },
-        { "t": "Habe ich Ihre Frage damit beantwortet?", "n": "Have I answered your question?" }
+        {
+          "t": "Vielen Dank für diese spannende Frage.",
+          "n": "Thank you for this interesting question."
+        },
+        {
+          "t": "Wenn ich Sie richtig verstanden habe, geht es Ihnen um die Methodik.",
+          "n": "If I've understood you correctly, your concern is the methodology."
+        },
+        {
+          "t": "Das ist ein wichtiger Punkt, auf den ich gern näher eingehe.",
+          "n": "That's an important point, which I'm happy to go into in more detail."
+        },
+        {
+          "t": "Da muss ich passen, aber ich reiche die Information gern nach.",
+          "n": "I'll have to pass on that, but I'll gladly send you the information later.",
+          "note": "passen = admit you don't know (from card games)."
+        },
+        {
+          "t": "Das würde den Rahmen dieses Vortrags leider sprengen.",
+          "n": "Unfortunately, that would go beyond the scope of this talk."
+        },
+        {
+          "t": "Darauf gibt es keine einfache Antwort.",
+          "n": "There's no simple answer to that."
+        },
+        {
+          "t": "Können Sie Ihre Frage vielleicht etwas präzisieren?",
+          "n": "Could you perhaps make your question a little more specific?"
+        },
+        {
+          "t": "Habe ich Ihre Frage damit beantwortet?",
+          "n": "Have I answered your question?"
+        }
       ],
       "dialogue": {
         "title": "A critical question from the audience",
         "lines": [
-          { "who": "A", "name": "Dr. Neumann", "t": "Danke für den Vortrag. Mich würde interessieren, wie repräsentativ Ihre Stichprobe eigentlich ist.", "n": "Thanks for the talk. I'd be interested to know how representative your sample actually is." },
-          { "who": "you", "t": "Vielen Dank für diese spannende Frage. Wenn ich Sie richtig verstanden habe, geht es Ihnen um die Methodik.", "n": "Thank you for this interesting question. If I've understood you correctly, your concern is the methodology." },
-          { "who": "A", "name": "Dr. Neumann", "t": "Genau. Dreihundert Befragte aus nur zwei Städten erscheinen mir doch etwas wenig.", "n": "Exactly. Three hundred respondents from just two cities seems a bit few to me." },
-          { "who": "you", "t": "Das ist ein wichtiger Punkt. Die Stichprobe ist nicht repräsentativ, aber für eine Pilotstudie durchaus aussagekräftig.", "n": "That's an important point. The sample isn't representative, but it's quite meaningful for a pilot study." },
-          { "who": "A", "name": "Dr. Neumann", "t": "Verstehe. Und wie sieht es mit Vergleichsdaten aus anderen Ländern aus?", "n": "I see. And what about comparative data from other countries?" },
-          { "who": "you", "t": "Da muss ich passen, aber ich reiche die Information gern nach. Habe ich Ihre Frage damit beantwortet?", "n": "I'll have to pass on that, but I'll gladly send the information later. Have I answered your question?" },
-          { "who": "A", "name": "Dr. Neumann", "t": "Ja, voll und ganz. Vielen Dank.", "n": "Yes, completely. Thank you very much." }
+          {
+            "who": "A",
+            "name": "Dr. Neumann",
+            "t": "Danke für den Vortrag. Mich würde interessieren, wie repräsentativ Ihre Stichprobe eigentlich ist.",
+            "n": "Thanks for the talk. I'd be interested to know how representative your sample actually is."
+          },
+          {
+            "who": "you",
+            "t": "Vielen Dank für diese spannende Frage. Wenn ich Sie richtig verstanden habe, geht es Ihnen um die Methodik.",
+            "n": "Thank you for this interesting question. If I've understood you correctly, your concern is the methodology."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Neumann",
+            "t": "Genau. Dreihundert Befragte aus nur zwei Städten erscheinen mir doch etwas wenig.",
+            "n": "Exactly. Three hundred respondents from just two cities seems a bit few to me."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ein wichtiger Punkt. Die Stichprobe ist nicht repräsentativ, aber für eine Pilotstudie durchaus aussagekräftig.",
+            "n": "That's an important point. The sample isn't representative, but it's quite meaningful for a pilot study."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Neumann",
+            "t": "Verstehe. Und wie sieht es mit Vergleichsdaten aus anderen Ländern aus?",
+            "n": "I see. And what about comparative data from other countries?"
+          },
+          {
+            "who": "you",
+            "t": "Da muss ich passen, aber ich reiche die Information gern nach. Habe ich Ihre Frage damit beantwortet?",
+            "n": "I'll have to pass on that, but I'll gladly send the information later. Have I answered your question?"
+          },
+          {
+            "who": "A",
+            "name": "Dr. Neumann",
+            "t": "Ja, voll und ganz. Vielen Dank.",
+            "n": "Yes, completely. Thank you very much."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask the questioner to make their question more specific.", "t": ["Können Sie Ihre Frage vielleicht etwas präzisieren", "Können Sie Ihre Frage etwas präzisieren"] },
-        { "n": "Say that would go beyond the scope of your talk.", "t": ["Das würde den Rahmen dieses Vortrags leider sprengen", "Das würde den Rahmen leider sprengen"] },
-        { "n": "Admit you don't know and promise to follow up.", "t": ["Da muss ich passen, aber ich reiche die Information gern nach"] },
-        { "n": "Check whether you've answered the question.", "t": ["Habe ich Ihre Frage damit beantwortet"] }
+        {
+          "n": "Ask the questioner to make their question more specific.",
+          "t": [
+            "Können Sie Ihre Frage vielleicht etwas präzisieren",
+            "Können Sie Ihre Frage etwas präzisieren"
+          ]
+        },
+        {
+          "n": "Say that would go beyond the scope of your talk.",
+          "t": [
+            "Das würde den Rahmen dieses Vortrags leider sprengen",
+            "Das würde den Rahmen leider sprengen"
+          ]
+        },
+        {
+          "n": "Admit you don't know and promise to follow up.",
+          "t": [
+            "Da muss ich passen, aber ich reiche die Information gern nach"
+          ]
+        },
+        {
+          "n": "Check whether you've answered the question.",
+          "t": [
+            "Habe ich Ihre Frage damit beantwortet"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u05-l3",
+      "title": "Presenting charts and data",
+      "goal": "Describe a chart precisely and point out what matters.",
+      "tip": {
+        "title": "Lead the eye",
+        "body": "Name the chart first (Die Grafik veranschaulicht …), then the axes, then the one trend you want people to remember. Auffällig ist … is the classic way to highlight a detail. Point at the slide while you speak, then turn back to the audience."
+      },
+      "phrases": [
+        {
+          "t": "Die Grafik veranschaulicht die Entwicklung der letzten zehn Jahre.",
+          "n": "The chart illustrates the development over the last ten years."
+        },
+        {
+          "t": "Auf der x-Achse ist die Zeit abgetragen, auf der y-Achse der Umsatz.",
+          "n": "Time is plotted on the x-axis, turnover on the y-axis."
+        },
+        {
+          "t": "Der Wert hat sich seit 2015 nahezu verdoppelt.",
+          "n": "The figure has almost doubled since 2015."
+        },
+        {
+          "t": "Auffällig ist der starke Rückgang im Jahr 2020.",
+          "n": "What stands out is the sharp drop in 2020."
+        },
+        {
+          "t": "Darauf komme ich gleich noch zurück.",
+          "n": "I'll come back to that in a moment."
+        },
+        {
+          "t": "Diese Zahlen sprechen für sich.",
+          "n": "These figures speak for themselves."
+        }
+      ],
+      "dialogue": {
+        "title": "Checking slides with a colleague",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Deine Grafik ist gut, aber was genau soll das Publikum daraus mitnehmen?",
+            "n": "Your chart is good, but what exactly should the audience take away from it?"
+          },
+          {
+            "who": "you",
+            "t": "Die Grafik veranschaulicht die Entwicklung der letzten zehn Jahre. Der Wert hat sich nahezu verdoppelt.",
+            "n": "The chart illustrates the development over the last ten years. The figure has almost doubled."
+          },
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Und der Knick in der Mitte? Danach fragt bestimmt jemand.",
+            "n": "And the dip in the middle? Someone's bound to ask about that."
+          },
+          {
+            "who": "you",
+            "t": "Auffällig ist der starke Rückgang im Jahr 2020. Darauf komme ich gleich noch zurück.",
+            "n": "What stands out is the sharp drop in 2020. I'll come back to that in a moment."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say the chart illustrates the development over the last ten years.",
+          "t": [
+            "Die Grafik veranschaulicht die Entwicklung der letzten zehn Jahre"
+          ]
+        },
+        {
+          "n": "Point out the sharp drop in 2020.",
+          "t": [
+            "Auffällig ist der starke Rückgang im Jahr 2020",
+            "Auffällig ist der starke Rückgang"
+          ]
+        },
+        {
+          "n": "Say you'll come back to that in a moment.",
+          "t": [
+            "Darauf komme ich gleich noch zurück",
+            "Darauf komme ich gleich zurück"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l4",
+      "kind": "grammar",
+      "title": "Nominal style for slides and summaries",
+      "goal": "Turn verbs into nouns to sound concise and academic.",
+      "tip": {
+        "title": "Nominalisierung: the verb becomes a noun",
+        "body": "Presentations and reports love nouns: weil die Kosten gestiegen sind becomes wegen des Anstiegs der Kosten. The verb turns into a noun (often -ung), prepositions like wegen, nach, zur and bei introduce it, and what belonged to the verb follows in the genitive. Use it for slide titles and summaries, but explain in a more verbal style."
+      },
+      "phrases": [
+        {
+          "t": "Nach der Auswertung der Daten zeigte sich ein klares Bild.",
+          "n": "After analysing the data, a clear picture emerged."
+        },
+        {
+          "t": "Wegen des Anstiegs der Kosten verschieben wir das Projekt.",
+          "n": "Because of the rise in costs, we're postponing the project."
+        },
+        {
+          "t": "Die Einführung des neuen Systems verlief reibungslos.",
+          "n": "The introduction of the new system went smoothly."
+        },
+        {
+          "t": "Zur Verbesserung der Qualität schlagen wir drei Maßnahmen vor.",
+          "n": "To improve quality, we propose three measures."
+        },
+        {
+          "t": "Bei der Analyse fiel uns ein Fehler auf.",
+          "n": "During the analysis we noticed an error."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the cause (genitive)",
+          "base": {
+            "t": "Wegen des Anstiegs der Kosten verschieben wir das Projekt.",
+            "n": "Because of the rise in costs, we're postponing the project."
+          },
+          "items": [
+            {
+              "cue": "Personalmangel",
+              "t": "Wegen des Personalmangels verschieben wir das Projekt.",
+              "n": "Because of the staff shortage, we're postponing the project."
+            },
+            {
+              "cue": "Verzögerung der Lieferung",
+              "t": "Wegen der Verzögerung der Lieferung verschieben wir das Projekt.",
+              "n": "Because of the delivery delay, we're postponing the project."
+            },
+            {
+              "cue": "Erkrankung des Projektleiters",
+              "t": "Wegen der Erkrankung des Projektleiters verschieben wir das Projekt.",
+              "n": "Because of the project manager's illness, we're postponing the project."
+            }
+          ]
+        },
+        {
+          "title": "Swap verb → noun",
+          "base": {
+            "t": "Wir haben die Daten ausgewertet.",
+            "n": "We have analysed the data."
+          },
+          "items": [
+            {
+              "cue": "Auswertung · abgeschlossen",
+              "t": "Die Auswertung der Daten ist abgeschlossen.",
+              "n": "The analysis of the data is complete."
+            },
+            {
+              "cue": "Kosten senken · Ziel",
+              "t": "Ziel ist die Senkung der Kosten.",
+              "n": "The aim is to reduce costs."
+            },
+            {
+              "cue": "System einführen · reibungslos",
+              "t": "Die Einführung des Systems verlief reibungslos.",
+              "n": "The introduction of the system went smoothly."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that after analysing the data, a clear picture emerged.",
+          "t": [
+            "Nach der Auswertung der Daten zeigte sich ein klares Bild"
+          ]
+        },
+        {
+          "n": "Propose three measures to improve quality.",
+          "t": [
+            "Zur Verbesserung der Qualität schlagen wir drei Maßnahmen vor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l5",
+      "kind": "listening",
+      "title": "After the conference talk",
+      "goal": "Follow two colleagues evaluating a presentation.",
+      "phrases": [
+        {
+          "t": "Inhaltlich war der Vortrag stark.",
+          "n": "In terms of content, the talk was strong."
+        },
+        {
+          "t": "Die Moderatorin musste sie unterbrechen.",
+          "n": "The chair had to interrupt her."
+        },
+        {
+          "t": "Sie ist gelassen auf die Kritik eingegangen.",
+          "n": "She responded calmly to the criticism."
+        },
+        {
+          "t": "Genau das macht sie glaubwürdig.",
+          "n": "That's exactly what makes her credible."
+        }
+      ],
+      "story": {
+        "title": "Coffee break at the conference",
+        "intro": "Lea and Martin discuss a talk they have just heard at a conference.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Lea",
+            "t": "Und, wie fandest du den Vortrag von Frau Dr. Yilmaz?",
+            "n": "So, what did you think of Dr Yilmaz’s talk?"
+          },
+          {
+            "name": "Martin",
+            "voice": "de-DE-ConradNeural",
+            "t": "Inhaltlich stark, aber sie hat fast fünfzig Folien in zwanzig Minuten gezeigt.",
+            "n": "Strong on content, but she showed almost fifty slides in twenty minutes."
+          },
+          {
+            "name": "Lea",
+            "t": "Stimmt, am Ende musste die Moderatorin sie sogar unterbrechen.",
+            "n": "True, at the end the chair even had to interrupt her."
+          },
+          {
+            "name": "Martin",
+            "voice": "de-DE-ConradNeural",
+            "t": "Schade, denn ihre These zur Stadtplanung fand ich wirklich überzeugend.",
+            "n": "A pity, because I found her thesis on urban planning really convincing."
+          },
+          {
+            "name": "Lea",
+            "t": "Mich hat eher die Fragerunde beeindruckt. Sie ist gelassen auf jede Kritik eingegangen.",
+            "n": "I was more impressed by the Q&A. She responded calmly to every criticism."
+          },
+          {
+            "name": "Martin",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ja, und bei der Frage nach den Kosten hat sie offen zugegeben, dass sie passen muss.",
+            "n": "Yes, and on the question about costs she openly admitted she had to pass."
+          },
+          {
+            "name": "Lea",
+            "t": "Genau das macht sie glaubwürdig. Mit weniger Folien wäre es perfekt gewesen.",
+            "n": "That’s exactly what makes her credible. With fewer slides it would have been perfect."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viele Folien hat Frau Dr. Yilmaz gezeigt?",
+            "n": "How many slides did Dr Yilmaz show?",
+            "t": [
+              "Fast fünfzig",
+              "Fast fünfzig Folien",
+              "Fünfzig"
+            ]
+          },
+          {
+            "q": "Was hat Lea besonders beeindruckt?",
+            "n": "What particularly impressed Lea?",
+            "t": [
+              "Die Fragerunde",
+              "Die Fragerunde hat sie beeindruckt"
+            ]
+          },
+          {
+            "q": "Bei welcher Frage musste die Rednerin passen?",
+            "n": "Which question did the speaker have to pass on?",
+            "t": [
+              "Bei der Frage nach den Kosten",
+              "Nach den Kosten",
+              "Die Kosten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u05-l6",
+      "kind": "roleplay",
+      "title": "A sceptic in the Q&A",
+      "goal": "Handle a critical question after your talk — calmly and convincingly.",
+      "phrases": [
+        {
+          "t": "Vielen Dank für Ihren Einwand.",
+          "n": "Thank you for your objection."
+        },
+        {
+          "t": "Ein berechtigter Punkt.",
+          "n": "A fair point."
+        },
+        {
+          "t": "Die Ergebnisse sind vorläufig.",
+          "n": "The results are preliminary."
+        },
+        {
+          "t": "Sprechen wir gern in der Pause weiter.",
+          "n": "Let's happily continue talking during the break."
+        }
+      ],
+      "branch": {
+        "title": "Questions from the floor",
+        "scene": "You have just finished presenting a pilot study. A senior researcher raises his hand.",
+        "name": "Dr. Brandt",
+        "voice": "de-DE-ConradNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Danke für Ihren Vortrag. Ehrlich gesagt halte ich Ihre Schlussfolgerungen für etwas gewagt.",
+            "n": "Thank you for your talk. Frankly, I find your conclusions somewhat bold.",
+            "choices": [
+              {
+                "t": "Vielen Dank für Ihren Einwand. Können Sie das etwas präzisieren?",
+                "n": "Thank you for your objection. Could you be a little more specific?",
+                "next": "detail"
+              },
+              {
+                "t": "Das sehe ich anders, Sie haben wohl nicht richtig zugehört.",
+                "n": "I see it differently — you probably weren't listening properly.",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Ich habe sehr genau zugehört. Vielleicht sollten Sie Kritik etwas gelassener nehmen.",
+            "n": "I listened very carefully. Perhaps you should take criticism a little more calmly.",
+            "choices": [
+              {
+                "t": "Entschuldigung, das kam falsch rüber. Worauf bezieht sich Ihre Kritik genau?",
+                "n": "Sorry, that came out wrong. What exactly does your criticism refer to?",
+                "next": "detail"
+              },
+              {
+                "t": "Nächste Frage, bitte.",
+                "n": "Next question, please.",
+                "next": "bad"
+              }
+            ]
+          },
+          "detail": {
+            "t": "Sie schließen aus einer Pilotstudie auf die gesamte Bevölkerung. Ist das nicht zu weit gegriffen?",
+            "n": "You're drawing conclusions about the whole population from a pilot study. Isn't that going too far?",
+            "choices": [
+              {
+                "t": "Ein berechtigter Punkt. Die Ergebnisse sind vorläufig, das hätte ich deutlicher sagen sollen.",
+                "n": "A fair point. The results are preliminary — I should have said that more clearly.",
+                "next": "followup"
+              },
+              {
+                "t": "Wie bitte? Könnten Sie die Frage noch einmal wiederholen?",
+                "n": "Pardon? Could you repeat the question?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Gern. Kann man aus so wenigen Daten wirklich allgemeine Schlüsse ziehen?",
+            "n": "Certainly. Can you really draw general conclusions from so little data?",
+            "choices": [
+              {
+                "t": "Nur bedingt. Die Ergebnisse sind vorläufig, das hätte ich deutlicher sagen sollen.",
+                "n": "Only to a limited extent. The results are preliminary — I should have said that more clearly.",
+                "next": "followup"
+              },
+              {
+                "t": "Doch, die Zahlen sprechen für sich.",
+                "n": "Yes, the figures speak for themselves.",
+                "next": "push"
+              }
+            ]
+          },
+          "push": {
+            "t": "Mit Verlaub, dreihundert Befragte sprechen noch für gar nichts.",
+            "n": "With respect, three hundred respondents prove nothing yet.",
+            "choices": [
+              {
+                "t": "Da haben Sie recht, deshalb planen wir eine größere Folgestudie.",
+                "n": "You're right, which is why we're planning a larger follow-up study.",
+                "next": "followup"
+              },
+              {
+                "t": "Darüber diskutiere ich hier nicht.",
+                "n": "I'm not discussing that here.",
+                "next": "bad"
+              }
+            ]
+          },
+          "followup": {
+            "t": "Das freut mich zu hören. Gibt es denn schon Pläne für eine größere Studie?",
+            "n": "I'm glad to hear that. Are there already plans for a larger study?",
+            "choices": [
+              {
+                "t": "Ja, die Folgestudie startet im Frühjahr. Ich reiche Ihnen die Details gern nach.",
+                "n": "Yes, the follow-up study starts in spring. I'll gladly send you the details.",
+                "next": "good"
+              },
+              {
+                "t": "Das würde den Rahmen leider sprengen, aber sprechen wir gern in der Pause weiter.",
+                "n": "That would go beyond the scope, unfortunately, but let's continue during the break.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ausgezeichnet, dann komme ich in der Pause auf Sie zu. Vielen Dank!",
+            "n": "Excellent, then I'll come and find you in the break. Thank you!",
+            "end": "good",
+            "outcome": "You handled the critique calmly and turned a sceptic into an interested contact."
+          },
+          "bad": {
+            "t": "Nun gut. Offenbar möchten Sie darüber nicht diskutieren.",
+            "n": "Very well. Apparently you don't want to discuss it.",
+            "end": "bad",
+            "outcome": "You brushed off the criticism and lost the audience’s goodwill — acknowledge the point instead."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Thank the questioner for their objection.",
+          "t": [
+            "Vielen Dank für Ihren Einwand"
+          ]
+        },
+        {
+          "n": "Concede that the results are preliminary.",
+          "t": [
+            "Die Ergebnisse sind vorläufig",
+            "Unsere Ergebnisse sind vorläufig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l7",
+      "kind": "speaking",
+      "title": "Your mini-presentation",
+      "goal": "Give a structured short talk and handle a follow-up question.",
+      "culture": {
+        "title": "c.t., s.t. and academic titles",
+        "body": "At German-speaking universities, a lecture marked c.t. (cum tempore) starts a quarter past the hour — the akademisches Viertel — while s.t. (sine tempore) means sharp. Titles matter: address professors as Frau Professorin or Herr Professor. In Austria titles are taken especially seriously and appear on doorbells and in everyday address, e.g. Frau Doktor or Herr Magister.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte Ihnen kurz ein Projekt vorstellen, das mir am Herzen liegt.",
+          "n": "I'd like to briefly present a project that's close to my heart."
+        },
+        {
+          "t": "Das bringt mich zu meiner Kernaussage.",
+          "n": "That brings me to my key message."
+        },
+        {
+          "t": "Abschließend lässt sich sagen, dass sich der Aufwand gelohnt hat.",
+          "n": "In conclusion, it can be said that the effort was worth it."
+        },
+        {
+          "t": "Gibt es dazu Fragen?",
+          "n": "Are there any questions about that?"
+        }
+      ],
+      "free": [
+        {
+          "n": "Give a short presentation on a topic you know well: open it, announce the structure, move through your points and conclude.",
+          "hint": "Ich möchte Ihnen heute … vorstellen · Mein Vortrag gliedert sich in … · Zunächst … · Damit komme ich zu … · Abschließend lässt sich sagen …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "an opening",
+              "any": [
+                "vorstellen",
+                "präsentieren",
+                "mein vortrag",
+                "mein thema",
+                "heute"
+              ]
+            },
+            {
+              "label": "announce the structure",
+              "any": [
+                "gliedert sich",
+                "zunächst",
+                "erstens",
+                "zuerst",
+                "teile",
+                "punkte"
+              ]
+            },
+            {
+              "label": "a transition",
+              "any": [
+                "damit komme ich",
+                "komme ich zu",
+                "zweitens",
+                "als nächstes",
+                "darüber hinaus",
+                "außerdem"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "zusammenfass*",
+                "abschließend",
+                "fazit",
+                "zum schluss",
+                "kernaussage"
+              ]
+            }
+          ],
+          "model": "Ich möchte Ihnen heute unser Gemeinschaftsgarten-Projekt vorstellen. Mein Vortrag gliedert sich in zwei Teile: Zunächst zeige ich, wie alles begann, dann komme ich zu den Ergebnissen. Abschließend lässt sich sagen, dass sich der Aufwand gelohnt hat."
+        },
+        {
+          "n": "Someone asks a critical question about your topic. Thank them, paraphrase the question and answer it — or admit a gap and promise to follow up.",
+          "hint": "Vielen Dank für … · Wenn ich Sie richtig verstanden habe … · Das ist ein berechtigter Punkt … · Da muss ich passen, aber ich reiche … nach.",
+          "seconds": 60,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "thank the questioner",
+              "any": [
+                "danke",
+                "vielen dank",
+                "dank für"
+              ]
+            },
+            {
+              "label": "paraphrase the question",
+              "any": [
+                "richtig verstanden",
+                "geht es ihnen um",
+                "sie meinen",
+                "ihre frage"
+              ]
+            },
+            {
+              "label": "acknowledge the point",
+              "any": [
+                "berechtigt*",
+                "wichtiger punkt",
+                "recht",
+                "allerdings",
+                "zwar",
+                "stimmt"
+              ]
+            },
+            {
+              "label": "promise a follow-up",
+              "any": [
+                "nachreich*",
+                "reiche",
+                "pause",
+                "später",
+                "schicke",
+                "melde mich"
+              ]
+            }
+          ],
+          "model": "Vielen Dank für Ihre Frage. Wenn ich Sie richtig verstanden habe, geht es Ihnen um die Finanzierung. Das ist ein berechtigter Punkt; die genauen Zahlen habe ich nicht im Kopf, aber ich reiche sie Ihnen gern nach."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say this brings you to your key message.",
+          "t": [
+            "Das bringt mich zu meiner Kernaussage"
+          ]
+        },
+        {
+          "n": "Ask the audience whether there are questions about it.",
+          "t": [
+            "Gibt es dazu Fragen",
+            "Gibt es noch Fragen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Vortragen und Fragen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

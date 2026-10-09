@@ -13,34 +13,116 @@
         "body": "angesichts (+ genitive) = given, nichtsdestotrotz = nevertheless (verb comes second), sofern = provided that, insofern … als = insofar as, zumal = especially since. Starting a sentence with a connector gives you a moment to plan the rest — make a tiny pause after it and then speak the main idea in one breath."
       },
       "phrases": [
-        { "t": "Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln.", "n": "Given the rapid development, we urgently need clear rules." },
-        { "t": "Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.", "n": "Nevertheless, we shouldn't underestimate the opportunities." },
-        { "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.", "n": "Artificial intelligence is only dangerous insofar as we use it uncritically." },
-        { "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken.", "n": "Provided the data is anonymised, I have no concerns." },
-        { "t": "Die eigentliche Frage ist doch, wer die Verantwortung trägt.", "n": "The real question is who bears responsibility." },
-        { "t": "Das ist heikel, zumal die Technik schneller ist als jede Gesetzgebung.", "n": "That's tricky, especially since technology moves faster than any legislation." },
-        { "t": "Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung?", "n": "Where do we draw the line between help and paternalism?" },
-        { "t": "Letztlich ist das eine Frage der Werte, nicht der Technik.", "n": "Ultimately, that's a question of values, not of technology." }
+        {
+          "t": "Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln.",
+          "n": "Given the rapid development, we urgently need clear rules."
+        },
+        {
+          "t": "Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.",
+          "n": "Nevertheless, we shouldn't underestimate the opportunities."
+        },
+        {
+          "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.",
+          "n": "Artificial intelligence is only dangerous insofar as we use it uncritically."
+        },
+        {
+          "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken.",
+          "n": "Provided the data is anonymised, I have no concerns."
+        },
+        {
+          "t": "Die eigentliche Frage ist doch, wer die Verantwortung trägt.",
+          "n": "The real question is who bears responsibility."
+        },
+        {
+          "t": "Das ist heikel, zumal die Technik schneller ist als jede Gesetzgebung.",
+          "n": "That's tricky, especially since technology moves faster than any legislation."
+        },
+        {
+          "t": "Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung?",
+          "n": "Where do we draw the line between help and paternalism?"
+        },
+        {
+          "t": "Letztlich ist das eine Frage der Werte, nicht der Technik.",
+          "n": "Ultimately, that's a question of values, not of technology."
+        }
       ],
       "dialogue": {
         "title": "Podcast interview",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Roth", "t": "Willkommen im Podcast! Viele Menschen haben Angst vor künstlicher Intelligenz. Zu Recht?", "n": "Welcome to the podcast! Many people are afraid of artificial intelligence. Rightly so?" },
-          { "who": "you", "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.", "n": "Artificial intelligence is only dangerous insofar as we use it uncritically." },
-          { "who": "A", "name": "Dr. Roth", "t": "Aber Algorithmen entscheiden schon heute über Kredite oder Bewerbungen. Ist das nicht beunruhigend?", "n": "But algorithms already decide on loans or job applications today. Isn't that worrying?" },
-          { "who": "you", "t": "Durchaus. Die eigentliche Frage ist doch, wer die Verantwortung trägt, wenn etwas schiefgeht.", "n": "It certainly is. The real question is who bears responsibility when something goes wrong." },
-          { "who": "A", "name": "Dr. Roth", "t": "Und was ist mit unseren Daten? Manche Dienste wissen mehr über uns als unsere Freunde.", "n": "And what about our data? Some services know more about us than our friends do." },
-          { "who": "you", "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken. Aber das ist leider selten der Fall.", "n": "Provided the data is anonymised, I have no concerns. But sadly that's rarely the case." },
-          { "who": "A", "name": "Dr. Roth", "t": "Also sollte der Staat strenger regulieren?", "n": "So the state should regulate more strictly?" },
-          { "who": "you", "t": "Angesichts der rasanten Entwicklung ja. Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.", "n": "Given the rapid development, yes. Nevertheless, we shouldn't underestimate the opportunities." }
+          {
+            "who": "A",
+            "name": "Dr. Roth",
+            "t": "Willkommen im Podcast! Viele Menschen haben Angst vor künstlicher Intelligenz. Zu Recht?",
+            "n": "Welcome to the podcast! Many people are afraid of artificial intelligence. Rightly so?"
+          },
+          {
+            "who": "you",
+            "t": "Künstliche Intelligenz ist nur insofern gefährlich, als wir sie unkritisch einsetzen.",
+            "n": "Artificial intelligence is only dangerous insofar as we use it uncritically."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Roth",
+            "t": "Aber Algorithmen entscheiden schon heute über Kredite oder Bewerbungen. Ist das nicht beunruhigend?",
+            "n": "But algorithms already decide on loans or job applications today. Isn't that worrying?"
+          },
+          {
+            "who": "you",
+            "t": "Durchaus. Die eigentliche Frage ist doch, wer die Verantwortung trägt, wenn etwas schiefgeht.",
+            "n": "It certainly is. The real question is who bears responsibility when something goes wrong."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Roth",
+            "t": "Und was ist mit unseren Daten? Manche Dienste wissen mehr über uns als unsere Freunde.",
+            "n": "And what about our data? Some services know more about us than our friends do."
+          },
+          {
+            "who": "you",
+            "t": "Sofern die Daten anonymisiert sind, habe ich keine Bedenken. Aber das ist leider selten der Fall.",
+            "n": "Provided the data is anonymised, I have no concerns. But sadly that's rarely the case."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Roth",
+            "t": "Also sollte der Staat strenger regulieren?",
+            "n": "So the state should regulate more strictly?"
+          },
+          {
+            "who": "you",
+            "t": "Angesichts der rasanten Entwicklung ja. Nichtsdestotrotz sollten wir die Chancen nicht unterschätzen.",
+            "n": "Given the rapid development, yes. Nevertheless, we shouldn't underestimate the opportunities."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say that given the rapid development we urgently need clear rules.", "t": ["Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln", "Angesichts der rasanten Entwicklung brauchen wir klare Regeln"] },
-        { "n": "Say you have no concerns, provided the data is anonymised.", "t": ["Sofern die Daten anonymisiert sind, habe ich keine Bedenken"] },
-        { "n": "Say that ultimately it's a question of values, not technology.", "t": ["Letztlich ist das eine Frage der Werte, nicht der Technik", "Letztlich ist das eine Frage der Werte"] },
-        { "n": "Ask where we draw the line between help and paternalism.", "t": ["Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung"] }
+        {
+          "n": "Say that given the rapid development we urgently need clear rules.",
+          "t": [
+            "Angesichts der rasanten Entwicklung brauchen wir dringend klare Regeln",
+            "Angesichts der rasanten Entwicklung brauchen wir klare Regeln"
+          ]
+        },
+        {
+          "n": "Say you have no concerns, provided the data is anonymised.",
+          "t": [
+            "Sofern die Daten anonymisiert sind, habe ich keine Bedenken"
+          ]
+        },
+        {
+          "n": "Say that ultimately it's a question of values, not technology.",
+          "t": [
+            "Letztlich ist das eine Frage der Werte, nicht der Technik",
+            "Letztlich ist das eine Frage der Werte"
+          ]
+        },
+        {
+          "n": "Ask where we draw the line between help and paternalism.",
+          "t": [
+            "Wo ziehen wir die Grenze zwischen Hilfe und Bevormundung"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +134,710 @@
         "body": "Konjunktiv I (er sei, man müsse, sie habe) reports what others say without vouching for it — common in the news and in educated speech. Konjunktiv II (wäre, könnte, hätte … gewusst) expresses the hypothetical and regrets. Pronounce sei and müsse crisply; they are the signal that you are quoting, not claiming."
       },
       "phrases": [
-        { "t": "Der Studie zufolge sei die Viertagewoche ein voller Erfolg.", "n": "According to the study, the four-day week is a complete success.", "note": "Konjunktiv I: you report, you don't vouch." },
-        { "t": "Meine Chefin meinte, das sei alles eine Frage der Organisation.", "n": "My boss said it was all a question of organisation." },
-        { "t": "Es heißt immer, man müsse nur wollen.", "n": "People always say you just have to want it." },
-        { "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten.", "n": "If I could start all over again, I'd work less." },
-        { "t": "Hätte ich das damals gewusst, hätte ich anders entschieden.", "n": "Had I known that back then, I'd have decided differently." },
-        { "t": "Unsere Identität hängt mehr am Beruf, als uns lieb ist.", "n": "Our identity depends on our job more than we'd like." },
-        { "t": "Ich frage mich, ob wir nicht falsche Prioritäten setzen.", "n": "I wonder whether we're setting the wrong priorities." },
-        { "t": "Als ob Erfolg nur in Überstunden zu messen wäre!", "n": "As if success could only be measured in overtime!" }
+        {
+          "t": "Der Studie zufolge sei die Viertagewoche ein voller Erfolg.",
+          "n": "According to the study, the four-day week is a complete success.",
+          "note": "Konjunktiv I: you report, you don't vouch."
+        },
+        {
+          "t": "Meine Chefin meinte, das sei alles eine Frage der Organisation.",
+          "n": "My boss said it was all a question of organisation."
+        },
+        {
+          "t": "Es heißt immer, man müsse nur wollen.",
+          "n": "People always say you just have to want it."
+        },
+        {
+          "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten.",
+          "n": "If I could start all over again, I'd work less."
+        },
+        {
+          "t": "Hätte ich das damals gewusst, hätte ich anders entschieden.",
+          "n": "Had I known that back then, I'd have decided differently."
+        },
+        {
+          "t": "Unsere Identität hängt mehr am Beruf, als uns lieb ist.",
+          "n": "Our identity depends on our job more than we'd like."
+        },
+        {
+          "t": "Ich frage mich, ob wir nicht falsche Prioritäten setzen.",
+          "n": "I wonder whether we're setting the wrong priorities."
+        },
+        {
+          "t": "Als ob Erfolg nur in Überstunden zu messen wäre!",
+          "n": "As if success could only be measured in overtime!"
+        }
       ],
       "dialogue": {
         "title": "Work, life and who we are",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Felix", "t": "Hast du schon gehört? Mein Konzern führt jetzt auch die Viertagewoche ein. Ich bin echt skeptisch.", "n": "Have you heard? My company is introducing the four-day week too. I'm really sceptical." },
-          { "who": "you", "t": "Warum denn? Der Studie zufolge sei die Viertagewoche ein voller Erfolg.", "n": "Why's that? According to the study, the four-day week is a complete success." },
-          { "who": "A", "name": "Felix", "t": "Mag sein. Aber mein Chef meinte, wer weniger arbeite, mache eben auch weniger Karriere.", "n": "Maybe. But my boss said that whoever works less simply has less of a career." },
-          { "who": "you", "t": "Als ob Erfolg nur in Überstunden zu messen wäre! Ich frage mich, ob wir nicht falsche Prioritäten setzen.", "n": "As if success could only be measured in overtime! I wonder whether we're setting the wrong priorities." },
-          { "who": "A", "name": "Felix", "t": "Leicht gesagt. Für viele ist der Job nun mal ein großer Teil ihrer Identität. Für mich auch.", "n": "Easy to say. For many people the job is simply a big part of their identity. For me too." },
-          { "who": "you", "t": "Das stimmt. Unsere Identität hängt mehr am Beruf, als uns lieb ist.", "n": "That's true. Our identity depends on our job more than we'd like." },
-          { "who": "A", "name": "Felix", "t": "Und du? Würdest du rückblickend etwas anders machen?", "n": "And you? Looking back, would you do anything differently?" },
-          { "who": "you", "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten und mehr reisen.", "n": "If I could start all over again, I'd work less and travel more." }
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Hast du schon gehört? Mein Konzern führt jetzt auch die Viertagewoche ein. Ich bin echt skeptisch.",
+            "n": "Have you heard? My company is introducing the four-day week too. I'm really sceptical."
+          },
+          {
+            "who": "you",
+            "t": "Warum denn? Der Studie zufolge sei die Viertagewoche ein voller Erfolg.",
+            "n": "Why's that? According to the study, the four-day week is a complete success."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Mag sein. Aber mein Chef meinte, wer weniger arbeite, mache eben auch weniger Karriere.",
+            "n": "Maybe. But my boss said that whoever works less simply has less of a career."
+          },
+          {
+            "who": "you",
+            "t": "Als ob Erfolg nur in Überstunden zu messen wäre! Ich frage mich, ob wir nicht falsche Prioritäten setzen.",
+            "n": "As if success could only be measured in overtime! I wonder whether we're setting the wrong priorities."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Leicht gesagt. Für viele ist der Job nun mal ein großer Teil ihrer Identität. Für mich auch.",
+            "n": "Easy to say. For many people the job is simply a big part of their identity. For me too."
+          },
+          {
+            "who": "you",
+            "t": "Das stimmt. Unsere Identität hängt mehr am Beruf, als uns lieb ist.",
+            "n": "That's true. Our identity depends on our job more than we'd like."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Und du? Würdest du rückblickend etwas anders machen?",
+            "n": "And you? Looking back, would you do anything differently?"
+          },
+          {
+            "who": "you",
+            "t": "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten und mehr reisen.",
+            "n": "If I could start all over again, I'd work less and travel more."
+          }
         ]
       },
       "prompts": [
-        { "n": "Report that your boss said it's all a question of organisation.", "t": ["Meine Chefin meinte, das sei alles eine Frage der Organisation", "Mein Chef meinte, das sei alles eine Frage der Organisation"] },
-        { "n": "Say that if you could start all over again, you'd work less.", "t": ["Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten"] },
-        { "n": "Say that had you known back then, you'd have decided differently.", "t": ["Hätte ich das damals gewusst, hätte ich anders entschieden", "Wenn ich das damals gewusst hätte, hätte ich anders entschieden"] },
-        { "n": "Wonder aloud whether we're setting the wrong priorities.", "t": ["Ich frage mich, ob wir nicht falsche Prioritäten setzen"] }
+        {
+          "n": "Report that your boss said it's all a question of organisation.",
+          "t": [
+            "Meine Chefin meinte, das sei alles eine Frage der Organisation",
+            "Mein Chef meinte, das sei alles eine Frage der Organisation"
+          ]
+        },
+        {
+          "n": "Say that if you could start all over again, you'd work less.",
+          "t": [
+            "Wenn ich noch einmal von vorn anfangen könnte, würde ich weniger arbeiten"
+          ]
+        },
+        {
+          "n": "Say that had you known back then, you'd have decided differently.",
+          "t": [
+            "Hätte ich das damals gewusst, hätte ich anders entschieden",
+            "Wenn ich das damals gewusst hätte, hätte ich anders entschieden"
+          ]
+        },
+        {
+          "n": "Wonder aloud whether we're setting the wrong priorities.",
+          "t": [
+            "Ich frage mich, ob wir nicht falsche Prioritäten setzen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u08-l3",
+      "title": "Weighing up and taking a stance",
+      "goal": "Give a nuanced view on a complex question and take a clear position.",
+      "tip": {
+        "title": "Differentiate, then commit",
+        "body": "At C1, avoid black-and-white answers: signal nuance (Man muss das differenziert betrachten), weigh both sides with einerseits … andererseits, then commit with Ich vertrete die Auffassung, dass … Dem kann ich nur bedingt zustimmen is a polite partial disagreement. Stress the contrast words einerseits and andererseits."
+      },
+      "phrases": [
+        {
+          "t": "Man muss das differenziert betrachten.",
+          "n": "You have to look at it in a nuanced way."
+        },
+        {
+          "t": "Einerseits schafft die Digitalisierung Freiheit, andererseits erzeugt sie Druck.",
+          "n": "On the one hand digitalisation creates freedom, on the other it creates pressure."
+        },
+        {
+          "t": "Ich vertrete die Auffassung, dass wir lernen müssen, Grenzen zu ziehen.",
+          "n": "I take the view that we need to learn to draw boundaries."
+        },
+        {
+          "t": "Das lässt sich nicht pauschal beantworten.",
+          "n": "There's no blanket answer to that."
+        },
+        {
+          "t": "Dem kann ich nur bedingt zustimmen.",
+          "n": "I can only partly agree with that."
+        }
+      ],
+      "dialogue": {
+        "title": "Always online?",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Macht uns die ständige Erreichbarkeit eigentlich freier oder unfreier?",
+            "n": "Does being constantly reachable make us more free or less free?"
+          },
+          {
+            "who": "you",
+            "t": "Das lässt sich nicht pauschal beantworten. Einerseits schafft die Digitalisierung Freiheit, andererseits erzeugt sie Druck.",
+            "n": "There's no blanket answer to that. On the one hand digitalisation creates freedom, on the other it creates pressure."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Also sollte man Mails nach Feierabend einfach verbieten?",
+            "n": "So should emails after work simply be banned?"
+          },
+          {
+            "who": "you",
+            "t": "Dem kann ich nur bedingt zustimmen. Ich vertrete die Auffassung, dass wir lernen müssen, Grenzen zu ziehen.",
+            "n": "I can only partly agree with that. I take the view that we need to learn to draw boundaries."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say there's no blanket answer to that.",
+          "t": [
+            "Das lässt sich nicht pauschal beantworten"
+          ]
+        },
+        {
+          "n": "Say you can only partly agree with that.",
+          "t": [
+            "Dem kann ich nur bedingt zustimmen"
+          ]
+        },
+        {
+          "n": "Say you have to look at it in a nuanced way.",
+          "t": [
+            "Man muss das differenziert betrachten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l4",
+      "kind": "grammar",
+      "title": "Extended participle phrases",
+      "goal": "Pack information into noun phrases like in quality newspapers.",
+      "tip": {
+        "title": "The clause moves in front of the noun",
+        "body": "Formal German turns a relative clause into an attribute: die Menschen, die von KI betroffen sind → die von KI betroffenen Menschen. Participle II (betroffen, geführt) is passive or completed, participle I (lebend, wachsend) is active and ongoing. Everything from the clause goes between article and participle, which takes a normal adjective ending."
+      },
+      "phrases": [
+        {
+          "t": "Die von der Automatisierung bedrohten Berufe werden sich stark verändern.",
+          "n": "The jobs threatened by automation will change dramatically."
+        },
+        {
+          "t": "Die ständig wachsende Datenmenge stellt uns vor neue Fragen.",
+          "n": "The constantly growing amount of data confronts us with new questions."
+        },
+        {
+          "t": "Die im Gesetz vorgesehenen Regeln greifen zu kurz.",
+          "n": "The rules provided for in the law fall short."
+        },
+        {
+          "t": "Wir brauchen eine auf Vertrauen basierende Gesellschaft.",
+          "n": "We need a society based on trust."
+        },
+        {
+          "t": "Die seit Jahren geführte Debatte bringt kaum Ergebnisse.",
+          "n": "The debate that has been going on for years is producing hardly any results."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the participle phrase",
+          "base": {
+            "t": "Die seit Jahren geführte Debatte bringt kaum Ergebnisse.",
+            "n": "The debate that has been going on for years is producing hardly any results."
+          },
+          "items": [
+            {
+              "cue": "Diskussion · immer wieder vertagt",
+              "t": "Die immer wieder vertagte Diskussion bringt kaum Ergebnisse.",
+              "n": "The repeatedly postponed discussion is producing hardly any results."
+            },
+            {
+              "cue": "Gespräche · in Berlin geführt",
+              "t": "Die in Berlin geführten Gespräche bringen kaum Ergebnisse.",
+              "n": "The talks held in Berlin are producing hardly any results."
+            },
+            {
+              "cue": "Verhandlungen · von beiden Seiten blockiert",
+              "t": "Die von beiden Seiten blockierten Verhandlungen bringen kaum Ergebnisse.",
+              "n": "The negotiations blocked by both sides are producing hardly any results."
+            }
+          ]
+        },
+        {
+          "title": "Swap relative clause → participle",
+          "base": {
+            "t": "Die Menschen, die von KI betroffen sind, brauchen Unterstützung.",
+            "n": "The people who are affected by AI need support."
+          },
+          "items": [
+            {
+              "cue": "Partizip",
+              "t": "Die von KI betroffenen Menschen brauchen Unterstützung.",
+              "n": "The people affected by AI need support."
+            },
+            {
+              "cue": "Beschäftigte · stark belastet",
+              "t": "Die stark belasteten Beschäftigten brauchen Unterstützung.",
+              "n": "The heavily burdened employees need support."
+            },
+            {
+              "cue": "Familien · in Armut leben",
+              "t": "Die in Armut lebenden Familien brauchen Unterstützung.",
+              "n": "The families living in poverty need support."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the debate that's been going on for years is producing hardly any results.",
+          "t": [
+            "Die seit Jahren geführte Debatte bringt kaum Ergebnisse"
+          ]
+        },
+        {
+          "n": "Say we need a society based on trust.",
+          "t": [
+            "Wir brauchen eine auf Vertrauen basierende Gesellschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l5",
+      "kind": "listening",
+      "title": "Radio debate: basic income",
+      "goal": "Follow an economist weighing arguments on Swiss radio.",
+      "phrases": [
+        {
+          "t": "Das Argument halte ich für widerlegt.",
+          "n": "I consider that argument disproven."
+        },
+        {
+          "t": "Da gebe ich den Kritikern recht.",
+          "n": "On that point I agree with the critics."
+        },
+        {
+          "t": "Ist das nicht der Knackpunkt?",
+          "n": "Isn't that the crux?"
+        },
+        {
+          "t": "Ein Ja zur Debatte, aber kein Ja um jeden Preis.",
+          "n": "A yes to the debate, but not a yes at any price."
+        }
+      ],
+      "story": {
+        "title": "Grundeinkommen für alle?",
+        "intro": "A Swiss radio host interviews economist Jan Meier about an unconditional basic income.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Moderatorin",
+            "voice": "de-CH-LeniNeural",
+            "t": "Herr Meier, die Schweiz hat 2016 über ein bedingungsloses Grundeinkommen abgestimmt. Warum ist das Thema wieder aktuell?",
+            "n": "Mr Meier, Switzerland voted on an unconditional basic income in 2016. Why is the topic back on the agenda?"
+          },
+          {
+            "name": "Jan Meier",
+            "voice": "de-CH-JanNeural",
+            "t": "Weil die Digitalisierung viele Routinejobs überflüssig macht. Die Frage ist, wovon diese Menschen künftig leben sollen.",
+            "n": "Because digitalisation is making many routine jobs redundant. The question is what these people will live on in future."
+          },
+          {
+            "name": "Moderatorin",
+            "voice": "de-CH-LeniNeural",
+            "t": "Kritiker sagen, ein Grundeinkommen sei unbezahlbar und mache faul.",
+            "n": "Critics say a basic income is unaffordable and makes people lazy."
+          },
+          {
+            "name": "Jan Meier",
+            "voice": "de-CH-JanNeural",
+            "t": "Das Argument mit der Faulheit halte ich für widerlegt. Die meisten Menschen wollen etwas Sinnvolles tun.",
+            "n": "I consider the laziness argument disproven. Most people want to do something meaningful."
+          },
+          {
+            "name": "Moderatorin",
+            "voice": "de-CH-LeniNeural",
+            "t": "Und die Finanzierung? Ist das nicht der Knackpunkt?",
+            "n": "And the funding? Isn't that the crux?"
+          },
+          {
+            "name": "Jan Meier",
+            "voice": "de-CH-JanNeural",
+            "t": "Da gebe ich den Kritikern recht. Ohne grundlegende Steuerreform wäre es nicht finanzierbar.",
+            "n": "On that I agree with the critics. Without fundamental tax reform it couldn’t be financed."
+          },
+          {
+            "name": "Moderatorin",
+            "voice": "de-CH-LeniNeural",
+            "t": "Also ein Ja zur Debatte, aber kein Ja um jeden Preis.",
+            "n": "So a yes to the debate, but not a yes at any price."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann hat die Schweiz über das Grundeinkommen abgestimmt?",
+            "n": "When did Switzerland vote on the basic income?",
+            "t": [
+              "2016",
+              "Im Jahr 2016",
+              "Zweitausendsechzehn"
+            ]
+          },
+          {
+            "q": "Was macht die Digitalisierung laut Herrn Meier überflüssig?",
+            "n": "According to Mr Meier, what is digitalisation making redundant?",
+            "t": [
+              "Routinejobs",
+              "Viele Routinejobs"
+            ]
+          },
+          {
+            "q": "Was bräuchte man für die Finanzierung?",
+            "n": "What would be needed for the funding?",
+            "t": [
+              "Eine Steuerreform",
+              "Eine grundlegende Steuerreform",
+              "Steuerreform"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u08-l6",
+      "kind": "roleplay",
+      "title": "On the panel: the future of work",
+      "goal": "Hold your ground in a panel debate — nuanced, precise and fair.",
+      "phrases": [
+        {
+          "t": "Ich habe mich zu pauschal ausgedrückt.",
+          "n": "I expressed myself too sweepingly."
+        },
+        {
+          "t": "Dort braucht es andere Lösungen.",
+          "n": "Other solutions are needed there."
+        },
+        {
+          "t": "Studien zufolge sei die Produktivität sogar gestiegen.",
+          "n": "According to studies, productivity has even risen."
+        },
+        {
+          "t": "Ich möchte noch etwas ergänzen.",
+          "n": "I'd like to add something."
+        }
+      ],
+      "branch": {
+        "title": "Podiumsdiskussion",
+        "scene": "You are a panellist at a public debate on the four-day week. The moderator turns to you.",
+        "name": "Herr Vogt (Moderator)",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Herzlich willkommen auf dem Podium. Ist die Viertagewoche aus Ihrer Sicht ein Modell für alle Branchen?",
+            "n": "A warm welcome to the panel. In your view, is the four-day week a model for all sectors?",
+            "choices": [
+              {
+                "t": "Das lässt sich nicht pauschal beantworten. Man muss das differenziert betrachten.",
+                "n": "There's no blanket answer. You have to look at it in a nuanced way.",
+                "next": "diff"
+              },
+              {
+                "t": "Ja, natürlich. Wer etwas anderes sagt, hat keine Ahnung.",
+                "n": "Yes, of course. Anyone who says otherwise has no idea.",
+                "next": "harsh"
+              }
+            ]
+          },
+          "harsh": {
+            "t": "Eine steile These. Die Pflegekräfte im Publikum sehen das sicher anders.",
+            "n": "A bold claim. The nurses in the audience surely see it differently.",
+            "choices": [
+              {
+                "t": "Da haben Sie recht, ich habe mich zu pauschal ausgedrückt. Gerade in der Pflege ist das schwierig.",
+                "n": "You're right, I expressed myself too sweepingly. Especially in nursing it's difficult.",
+                "next": "diff"
+              },
+              {
+                "t": "Das ist mir ehrlich gesagt egal.",
+                "n": "Frankly, I don't care.",
+                "next": "bad"
+              }
+            ]
+          },
+          "diff": {
+            "t": "Dann bitte konkret: Wo sehen Sie Grenzen?",
+            "n": "Then please be specific: where do you see limits?",
+            "choices": [
+              {
+                "t": "In der Pflege oder im Handwerk ist die Arbeit an Präsenz gebunden. Dort braucht es andere Lösungen.",
+                "n": "In nursing or skilled trades, work requires being on site. Other solutions are needed there.",
+                "next": "limits"
+              },
+              {
+                "t": "Entschuldigung, könnten Sie die Frage etwas präzisieren?",
+                "n": "Sorry, could you make the question a little more specific?",
+                "next": "precise"
+              }
+            ]
+          },
+          "precise": {
+            "t": "Gern. In welchen Berufen halten Sie eine Viertagewoche für unrealistisch?",
+            "n": "Certainly. In which professions do you consider a four-day week unrealistic?",
+            "choices": [
+              {
+                "t": "In der Pflege oder im Handwerk ist die Arbeit an Präsenz gebunden. Dort braucht es andere Lösungen.",
+                "n": "In nursing or skilled trades, work requires being on site. Other solutions are needed there.",
+                "next": "limits"
+              }
+            ]
+          },
+          "limits": {
+            "t": "Ein Kollege auf dem Podium meinte vorhin, mit weniger Stunden leide die Produktivität. Was entgegnen Sie ihm?",
+            "n": "A colleague on the panel said earlier that productivity suffers with fewer hours. What do you say to him?",
+            "choices": [
+              {
+                "t": "Dem kann ich nur bedingt zustimmen. Studien zufolge sei die Produktivität sogar gestiegen.",
+                "n": "I can only partly agree with that. According to studies, productivity has even risen.",
+                "next": "good"
+              },
+              {
+                "t": "Na ja, vielleicht hat er recht. Ich weiß es nicht.",
+                "n": "Well, maybe he's right. I don't know.",
+                "next": "weak"
+              }
+            ]
+          },
+          "weak": {
+            "t": "Hm, damit bleibt Ihre Position etwas unklar. Möchten Sie noch etwas ergänzen?",
+            "n": "Hm, that leaves your position somewhat unclear. Would you like to add anything?",
+            "choices": [
+              {
+                "t": "Ja, ich möchte noch etwas ergänzen: Letztlich ist das eine Frage der Werte, nicht nur der Produktivität.",
+                "n": "Yes, I'd like to add something: ultimately it's a question of values, not just productivity.",
+                "next": "good"
+              },
+              {
+                "t": "Nein, eigentlich nicht.",
+                "n": "No, not really.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ein klares, differenziertes Plädoyer. Vielen Dank für Ihren Beitrag!",
+            "n": "A clear, nuanced case. Thank you for your contribution!",
+            "end": "good",
+            "outcome": "You argued with nuance, corrected yourself gracefully and held your position."
+          },
+          "bad": {
+            "t": "Nun gut, dann gebe ich das Wort an die nächste Rednerin weiter.",
+            "n": "Very well, then I’ll pass the floor to the next speaker.",
+            "end": "bad",
+            "outcome": "You lost the audience — differentiate, back your view with evidence and stay engaged."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Admit you expressed yourself too sweepingly.",
+          "t": [
+            "Ich habe mich zu pauschal ausgedrückt"
+          ]
+        },
+        {
+          "n": "Say that other solutions are needed there.",
+          "t": [
+            "Dort braucht es andere Lösungen",
+            "Da braucht es andere Lösungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l7",
+      "kind": "speaking",
+      "title": "Your take on the big questions",
+      "goal": "Argue a nuanced position and reflect on work and identity freely.",
+      "culture": {
+        "title": "Direct democracy in Switzerland",
+        "body": "Swiss citizens vote on national issues several times a year, from motorway tolls to a basic income. With 100,000 signatures collected within 18 months, anyone can force a popular vote on a constitutional amendment (Volksinitiative). As a result, big societal questions are debated very publicly — on the radio, at dinner tables and on campaign posters.",
+        "regions": [
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Für mich persönlich steht fest, dass Arbeit nicht alles ist.",
+          "n": "For me personally, it's clear that work isn't everything."
+        },
+        {
+          "t": "Es kommt ganz darauf an, wie wir die Technik nutzen.",
+          "n": "It all depends on how we use technology."
+        },
+        {
+          "t": "Unterm Strich überwiegen für mich die Vorteile.",
+          "n": "On balance, for me the advantages outweigh the disadvantages."
+        },
+        {
+          "t": "Ich lasse mich aber gern vom Gegenteil überzeugen.",
+          "n": "But I'm happy to be convinced otherwise."
+        }
+      ],
+      "free": [
+        {
+          "n": "Should AI be allowed to make decisions about people, e.g. loans or job applications? Weigh up pros and cons, add a condition and conclude.",
+          "hint": "Ich vertrete die Auffassung … · Einerseits … andererseits … · Sofern … · Unterm Strich …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "your stance",
+              "any": [
+                "meiner meinung",
+                "ich vertrete",
+                "ansicht",
+                "für mich",
+                "meines erachtens",
+                "ich halte",
+                "ich finde"
+              ]
+            },
+            {
+              "label": "weigh both sides",
+              "any": [
+                "einerseits",
+                "andererseits",
+                "zwar",
+                "allerdings",
+                "jedoch",
+                "nichtsdestotrotz"
+              ]
+            },
+            {
+              "label": "a condition",
+              "any": [
+                "sofern",
+                "solange",
+                "vorausgesetzt",
+                "insofern",
+                "wenn"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "letztlich",
+                "unterm strich",
+                "insgesamt",
+                "abschließend",
+                "fazit"
+              ]
+            }
+          ],
+          "model": "Einerseits kann KI Entscheidungen schneller und manchmal fairer treffen, andererseits fehlt oft die Transparenz. Ich vertrete die Auffassung, dass sie nur helfen darf, sofern ein Mensch die letzte Entscheidung trifft. Unterm Strich überwiegen dann für mich die Vorteile."
+        },
+        {
+          "n": "Imagine you could start your working life again. What would you do differently, and what role does work play in your identity?",
+          "hint": "Wenn ich noch einmal … könnte, würde ich … · Hätte ich damals …, hätte ich … · Mein Beruf ist (nicht) Teil meiner Identität …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "Konjunktiv II",
+              "any": [
+                "würde",
+                "wäre",
+                "hätte",
+                "könnte"
+              ]
+            },
+            {
+              "label": "identity",
+              "any": [
+                "identität",
+                "wer ich bin",
+                "beruf",
+                "sinn",
+                "persönlichkeit"
+              ]
+            },
+            {
+              "label": "values and priorities",
+              "any": [
+                "wichtig",
+                "priorität*",
+                "werte",
+                "familie",
+                "freiheit",
+                "zeit"
+              ]
+            },
+            {
+              "label": "looking back",
+              "any": [
+                "rückblickend",
+                "im nachhinein",
+                "damals",
+                "heute",
+                "von vorn"
+              ]
+            }
+          ],
+          "model": "Wenn ich noch einmal von vorn anfangen könnte, würde ich mir mehr Zeit für Reisen nehmen. Rückblickend war mein Beruf ein zu großer Teil meiner Identität. Heute ist mir klar, dass Familie und Freiheit mindestens genauso wichtig sind."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that on balance, for you, the advantages outweigh the disadvantages.",
+          "t": [
+            "Unterm Strich überwiegen für mich die Vorteile"
+          ]
+        },
+        {
+          "n": "Say you're happy to be convinced otherwise.",
+          "t": [
+            "Ich lasse mich aber gern vom Gegenteil überzeugen",
+            "Ich lasse mich gern vom Gegenteil überzeugen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Große Fragen",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "c1-test",
+      "kind": "test",
+      "title": "C1 speaking test",
+      "goal": "Pass to earn your C1 badge and unlock C2.",
+      "tip": {
+        "title": "What the test checks",
+        "body": "You will present, criticise diplomatically, tell a story and take a stance on abstract questions. Use precise connectors, Konjunktiv I and II and a clear structure — fluency and nuance matter more than perfection."
+      }
     }
   ]
 }

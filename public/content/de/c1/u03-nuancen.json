@@ -13,34 +13,117 @@
         "body": "Konjunktiv II turns a hard statement into a considered one: ich würde eher sagen, es ließe sich argumentieren, man könnte. Add qualifiers like meines Erachtens or soweit ich das beurteilen kann. When speaking, pause briefly after the hedge and then stress the key word of your claim — it sounds thoughtful, not unsure."
       },
       "phrases": [
-        { "t": "Ich würde eher sagen, dass das Problem tiefer liegt.", "n": "I'd rather say that the problem runs deeper." },
-        { "t": "Es ließe sich argumentieren, dass beide Seiten recht haben.", "n": "One could argue that both sides are right." },
-        { "t": "Soweit ich das beurteilen kann, ist der Plan durchaus realistisch.", "n": "As far as I can judge, the plan is quite realistic." },
-        { "t": "Ich bin mir da ehrlich gesagt nicht ganz sicher.", "n": "To be honest, I'm not entirely sure about that." },
-        { "t": "Das hängt meines Erachtens stark vom Kontext ab.", "n": "In my view, that depends heavily on the context.", "note": "meines Erachtens = formal 'in my opinion'." },
-        { "t": "Ganz so einfach ist es wohl nicht.", "n": "It's probably not quite that simple." },
-        { "t": "Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen.", "n": "I tend to agree with you, albeit with reservations." },
-        { "t": "Man könnte es auch anders sehen.", "n": "One could also see it differently." }
+        {
+          "t": "Ich würde eher sagen, dass das Problem tiefer liegt.",
+          "n": "I'd rather say that the problem runs deeper."
+        },
+        {
+          "t": "Es ließe sich argumentieren, dass beide Seiten recht haben.",
+          "n": "One could argue that both sides are right."
+        },
+        {
+          "t": "Soweit ich das beurteilen kann, ist der Plan durchaus realistisch.",
+          "n": "As far as I can judge, the plan is quite realistic."
+        },
+        {
+          "t": "Ich bin mir da ehrlich gesagt nicht ganz sicher.",
+          "n": "To be honest, I'm not entirely sure about that."
+        },
+        {
+          "t": "Das hängt meines Erachtens stark vom Kontext ab.",
+          "n": "In my view, that depends heavily on the context.",
+          "note": "meines Erachtens = formal 'in my opinion'."
+        },
+        {
+          "t": "Ganz so einfach ist es wohl nicht.",
+          "n": "It's probably not quite that simple."
+        },
+        {
+          "t": "Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen.",
+          "n": "I tend to agree with you, albeit with reservations."
+        },
+        {
+          "t": "Man könnte es auch anders sehen.",
+          "n": "One could also see it differently."
+        }
       ],
       "dialogue": {
         "title": "Is working from home making us lazy?",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Weiß", "t": "Homeoffice macht die Leute faul. Das ist doch inzwischen bewiesen, oder?", "n": "Working from home makes people lazy. That's been proven by now, hasn't it?" },
-          { "who": "you", "t": "Ganz so einfach ist es wohl nicht. Das hängt meines Erachtens stark vom Kontext ab.", "n": "It's probably not quite that simple. In my view, that depends heavily on the context." },
-          { "who": "A", "name": "Dr. Weiß", "t": "Inwiefern? Die Produktivität ist in vielen Firmen messbar gesunken.", "n": "In what way? Productivity has measurably fallen in many companies." },
-          { "who": "you", "t": "In manchen schon. Ich würde eher sagen, dass das Problem tiefer liegt, nämlich bei der Führung.", "n": "In some, yes. I'd rather say that the problem runs deeper, namely in the management." },
-          { "who": "A", "name": "Dr. Weiß", "t": "Also liegt es an den Chefs? Das klingt mir ehrlich gesagt etwas zu bequem.", "n": "So it's the bosses' fault? Frankly, that sounds a bit too convenient to me." },
-          { "who": "you", "t": "Man könnte es auch anders sehen. Es ließe sich argumentieren, dass beide Seiten recht haben.", "n": "One could also see it differently. One could argue that both sides are right." },
-          { "who": "A", "name": "Dr. Weiß", "t": "Na gut, dann einigen wir uns auf ein diplomatisches Unentschieden.", "n": "All right, then let's agree on a diplomatic draw." },
-          { "who": "you", "t": "Soweit ich das beurteilen kann, ist das ein fairer Kompromiss.", "n": "As far as I can judge, that's a fair compromise." }
+          {
+            "who": "A",
+            "name": "Dr. Weiß",
+            "t": "Homeoffice macht die Leute faul. Das ist doch inzwischen bewiesen, oder?",
+            "n": "Working from home makes people lazy. That's been proven by now, hasn't it?"
+          },
+          {
+            "who": "you",
+            "t": "Ganz so einfach ist es wohl nicht. Das hängt meines Erachtens stark vom Kontext ab.",
+            "n": "It's probably not quite that simple. In my view, that depends heavily on the context."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Weiß",
+            "t": "Inwiefern? Die Produktivität ist in vielen Firmen messbar gesunken.",
+            "n": "In what way? Productivity has measurably fallen in many companies."
+          },
+          {
+            "who": "you",
+            "t": "In manchen schon. Ich würde eher sagen, dass das Problem tiefer liegt, nämlich bei der Führung.",
+            "n": "In some, yes. I'd rather say that the problem runs deeper, namely in the management."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Weiß",
+            "t": "Also liegt es an den Chefs? Das klingt mir ehrlich gesagt etwas zu bequem.",
+            "n": "So it's the bosses' fault? Frankly, that sounds a bit too convenient to me."
+          },
+          {
+            "who": "you",
+            "t": "Man könnte es auch anders sehen. Es ließe sich argumentieren, dass beide Seiten recht haben.",
+            "n": "One could also see it differently. One could argue that both sides are right."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Weiß",
+            "t": "Na gut, dann einigen wir uns auf ein diplomatisches Unentschieden.",
+            "n": "All right, then let's agree on a diplomatic draw."
+          },
+          {
+            "who": "you",
+            "t": "Soweit ich das beurteilen kann, ist das ein fairer Kompromiss.",
+            "n": "As far as I can judge, that's a fair compromise."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say that one could argue both sides are right.", "t": ["Es ließe sich argumentieren, dass beide Seiten recht haben"] },
-        { "n": "Say it's probably not quite that simple.", "t": ["Ganz so einfach ist es wohl nicht"] },
-        { "n": "Say you tend to agree, but with reservations.", "t": ["Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen", "Ich neige dazu, Ihnen zuzustimmen"] },
-        { "n": "Say that in your view it depends heavily on the context.", "t": ["Das hängt meines Erachtens stark vom Kontext ab", "Das hängt stark vom Kontext ab"] }
+        {
+          "n": "Say that one could argue both sides are right.",
+          "t": [
+            "Es ließe sich argumentieren, dass beide Seiten recht haben"
+          ]
+        },
+        {
+          "n": "Say it's probably not quite that simple.",
+          "t": [
+            "Ganz so einfach ist es wohl nicht"
+          ]
+        },
+        {
+          "n": "Say you tend to agree, but with reservations.",
+          "t": [
+            "Ich neige dazu, Ihnen zuzustimmen, allerdings mit Einschränkungen",
+            "Ich neige dazu, Ihnen zuzustimmen"
+          ]
+        },
+        {
+          "n": "Say that in your view it depends heavily on the context.",
+          "t": [
+            "Das hängt meines Erachtens stark vom Kontext ab",
+            "Das hängt stark vom Kontext ab"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +135,665 @@
         "body": "In German discussions, open disagreement is normal, but nuance earns respect: concede first (Da ist durchaus etwas dran), then add your aber. Insofern … als lets you agree only to a precise extent. Let your voice rise slightly on the concession and fall firmly on the part after aber."
       },
       "phrases": [
-        { "t": "Da ist durchaus etwas dran.", "n": "There's definitely something to that." },
-        { "t": "Im Prinzip ja, aber im Detail sehe ich das anders.", "n": "In principle yes, but in the details I see it differently." },
-        { "t": "Da muss ich Ihnen leider widersprechen.", "n": "I'm afraid I have to disagree with you there." },
-        { "t": "Das sehe ich grundsätzlich genauso.", "n": "Basically, I see it the same way." },
-        { "t": "Mit dieser Einschätzung tue ich mich etwas schwer.", "n": "I'm having a bit of trouble with that assessment.", "note": "Soft way to signal disagreement." },
-        { "t": "Ich gebe Ihnen insofern recht, als die Kosten tatsächlich steigen.", "n": "I agree with you insofar as costs really are rising." },
-        { "t": "Das ist ein berechtigter Einwand.", "n": "That's a valid objection." },
-        { "t": "Da gehen unsere Meinungen wohl auseinander.", "n": "I suppose our opinions differ there." }
+        {
+          "t": "Da ist durchaus etwas dran.",
+          "n": "There's definitely something to that."
+        },
+        {
+          "t": "Im Prinzip ja, aber im Detail sehe ich das anders.",
+          "n": "In principle yes, but in the details I see it differently."
+        },
+        {
+          "t": "Da muss ich Ihnen leider widersprechen.",
+          "n": "I'm afraid I have to disagree with you there."
+        },
+        {
+          "t": "Das sehe ich grundsätzlich genauso.",
+          "n": "Basically, I see it the same way."
+        },
+        {
+          "t": "Mit dieser Einschätzung tue ich mich etwas schwer.",
+          "n": "I'm having a bit of trouble with that assessment.",
+          "note": "Soft way to signal disagreement."
+        },
+        {
+          "t": "Ich gebe Ihnen insofern recht, als die Kosten tatsächlich steigen.",
+          "n": "I agree with you insofar as costs really are rising."
+        },
+        {
+          "t": "Das ist ein berechtigter Einwand.",
+          "n": "That's a valid objection."
+        },
+        {
+          "t": "Da gehen unsere Meinungen wohl auseinander.",
+          "n": "I suppose our opinions differ there."
+        }
       ],
       "dialogue": {
         "title": "A car-free city centre?",
         "lines": [
-          { "who": "A", "name": "Herr Vogt", "t": "Ich schlage vor, die Innenstadt ab nächstem Jahr komplett autofrei zu machen.", "n": "I propose making the city centre completely car-free from next year." },
-          { "who": "you", "t": "Da ist durchaus etwas dran. Die Luft wäre deutlich besser.", "n": "There's definitely something to that. The air would be much better." },
-          { "who": "A", "name": "Herr Vogt", "t": "Eben. Und die Geschäfte würden auch profitieren, weil mehr Fußgänger kommen.", "n": "Exactly. And the shops would benefit too, because more pedestrians would come." },
-          { "who": "you", "t": "Mit dieser Einschätzung tue ich mich etwas schwer. Viele Kunden kommen nun mal mit dem Auto.", "n": "I'm having a bit of trouble with that assessment. Many customers simply come by car." },
-          { "who": "A", "name": "Herr Vogt", "t": "Aber es gibt doch Busse und große Parkhäuser am Stadtrand.", "n": "But there are buses and big car parks on the edge of town." },
-          { "who": "you", "t": "Das ist ein berechtigter Einwand. Ich gebe Ihnen insofern recht, als der Nahverkehr gut ausgebaut ist.", "n": "That's a valid objection. I agree with you insofar as public transport is well developed." },
-          { "who": "A", "name": "Herr Vogt", "t": "Also sind wir uns im Grunde einig?", "n": "So we basically agree?" },
-          { "who": "you", "t": "Im Prinzip ja, aber im Detail sehe ich das anders.", "n": "In principle yes, but in the details I see it differently." }
+          {
+            "who": "A",
+            "name": "Herr Vogt",
+            "t": "Ich schlage vor, die Innenstadt ab nächstem Jahr komplett autofrei zu machen.",
+            "n": "I propose making the city centre completely car-free from next year."
+          },
+          {
+            "who": "you",
+            "t": "Da ist durchaus etwas dran. Die Luft wäre deutlich besser.",
+            "n": "There's definitely something to that. The air would be much better."
+          },
+          {
+            "who": "A",
+            "name": "Herr Vogt",
+            "t": "Eben. Und die Geschäfte würden auch profitieren, weil mehr Fußgänger kommen.",
+            "n": "Exactly. And the shops would benefit too, because more pedestrians would come."
+          },
+          {
+            "who": "you",
+            "t": "Mit dieser Einschätzung tue ich mich etwas schwer. Viele Kunden kommen nun mal mit dem Auto.",
+            "n": "I'm having a bit of trouble with that assessment. Many customers simply come by car."
+          },
+          {
+            "who": "A",
+            "name": "Herr Vogt",
+            "t": "Aber es gibt doch Busse und große Parkhäuser am Stadtrand.",
+            "n": "But there are buses and big car parks on the edge of town."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ein berechtigter Einwand. Ich gebe Ihnen insofern recht, als der Nahverkehr gut ausgebaut ist.",
+            "n": "That's a valid objection. I agree with you insofar as public transport is well developed."
+          },
+          {
+            "who": "A",
+            "name": "Herr Vogt",
+            "t": "Also sind wir uns im Grunde einig?",
+            "n": "So we basically agree?"
+          },
+          {
+            "who": "you",
+            "t": "Im Prinzip ja, aber im Detail sehe ich das anders.",
+            "n": "In principle yes, but in the details I see it differently."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say there's definitely something to that.", "t": ["Da ist durchaus etwas dran", "Da ist was dran"] },
-        { "n": "Politely disagree with someone.", "t": ["Da muss ich Ihnen leider widersprechen"] },
-        { "n": "Agree in principle but not on the details.", "t": ["Im Prinzip ja, aber im Detail sehe ich das anders"] },
-        { "n": "Say that your opinions probably differ there.", "t": ["Da gehen unsere Meinungen wohl auseinander"] }
+        {
+          "n": "Say there's definitely something to that.",
+          "t": [
+            "Da ist durchaus etwas dran",
+            "Da ist was dran"
+          ]
+        },
+        {
+          "n": "Politely disagree with someone.",
+          "t": [
+            "Da muss ich Ihnen leider widersprechen"
+          ]
+        },
+        {
+          "n": "Agree in principle but not on the details.",
+          "t": [
+            "Im Prinzip ja, aber im Detail sehe ich das anders"
+          ]
+        },
+        {
+          "n": "Say that your opinions probably differ there.",
+          "t": [
+            "Da gehen unsere Meinungen wohl auseinander"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u03-l3",
+      "title": "Degrees of certainty",
+      "goal": "Signal exactly how sure you are, from firm expectation to open doubt.",
+      "tip": {
+        "title": "Match the claim to the evidence",
+        "body": "German offers a fine scale of certainty: fest davon ausgehen, mit großer Wahrscheinlichkeit, vermutlich, nicht auszuschließen. In professional settings, overstating certainty costs credibility faster than admitting doubt — so pick the expression that matches what you actually know."
+      },
+      "phrases": [
+        {
+          "t": "Ich gehe fest davon aus, dass der Termin hält.",
+          "n": "I fully expect the deadline to hold."
+        },
+        {
+          "t": "Es ist nicht auszuschließen, dass sich das Projekt verzögert.",
+          "n": "It can't be ruled out that the project will be delayed."
+        },
+        {
+          "t": "Das ist mit großer Wahrscheinlichkeit ein Messfehler.",
+          "n": "That's very probably a measurement error."
+        },
+        {
+          "t": "Darauf würde ich keine Wette abschließen.",
+          "n": "I wouldn't bet on that."
+        },
+        {
+          "t": "Das lässt sich zum jetzigen Zeitpunkt nicht sagen.",
+          "n": "That can't be said at this point."
+        }
+      ],
+      "dialogue": {
+        "title": "Status update",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Schaffen wir den Launch noch vor Weihnachten?",
+            "n": "Will we manage the launch before Christmas?"
+          },
+          {
+            "who": "you",
+            "t": "Ich gehe fest davon aus. Es ist allerdings nicht auszuschließen, dass sich die Tests verzögern.",
+            "n": "I fully expect so. However, it can't be ruled out that the tests will be delayed."
+          },
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Und die Kosten? Bleiben wir im Budget?",
+            "n": "And the costs? Will we stay within budget?"
+          },
+          {
+            "who": "you",
+            "t": "Das lässt sich zum jetzigen Zeitpunkt nicht sagen. Darauf würde ich keine Wette abschließen.",
+            "n": "That can't be said at this point. I wouldn't bet on it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say it can't be ruled out that the project will be delayed.",
+          "t": [
+            "Es ist nicht auszuschließen, dass sich das Projekt verzögert"
+          ]
+        },
+        {
+          "n": "Say you wouldn't bet on that.",
+          "t": [
+            "Darauf würde ich keine Wette abschließen",
+            "Darauf würde ich nicht wetten"
+          ]
+        },
+        {
+          "n": "Say that can't be said at this point.",
+          "t": [
+            "Das lässt sich zum jetzigen Zeitpunkt nicht sagen",
+            "Das lässt sich jetzt noch nicht sagen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l4",
+      "kind": "grammar",
+      "title": "Modal verbs that guess and report",
+      "goal": "Use subjective modal verbs to express assumptions and hearsay.",
+      "tip": {
+        "title": "dürfte, müsste, soll, will",
+        "body": "Modal verbs can express your assessment instead of ability or duty: Er dürfte schon da sein (probably), Er müsste es wissen (I’m fairly sure), Das kann nicht stimmen (impossible). sollen reports what others say, wollen what someone claims about themselves: Er soll reich sein, Er will nichts gewusst haben. For the past, add a perfect infinitive: gewusst haben, gewesen sein."
+      },
+      "phrases": [
+        {
+          "t": "Der Bericht dürfte bald fertig sein.",
+          "n": "The report should be ready soon."
+        },
+        {
+          "t": "Sie müsste eigentlich schon im Büro sein.",
+          "n": "She really ought to be in the office by now."
+        },
+        {
+          "t": "Der Minister soll von dem Skandal gewusst haben.",
+          "n": "The minister is said to have known about the scandal."
+        },
+        {
+          "t": "Er will nichts davon gewusst haben.",
+          "n": "He claims not to have known anything about it."
+        },
+        {
+          "t": "Das kann nicht stimmen.",
+          "n": "That can't be right."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the certainty",
+          "base": {
+            "t": "Er ist wahrscheinlich schon zu Hause.",
+            "n": "He's probably home already."
+          },
+          "items": [
+            {
+              "cue": "dürfte",
+              "t": "Er dürfte schon zu Hause sein.",
+              "n": "He's probably home already."
+            },
+            {
+              "cue": "müsste",
+              "t": "Er müsste schon zu Hause sein.",
+              "n": "He really ought to be home already."
+            },
+            {
+              "cue": "kann nicht · noch",
+              "t": "Er kann noch nicht zu Hause sein.",
+              "n": "He can't be home yet."
+            }
+          ]
+        },
+        {
+          "title": "Swap fact → hearsay",
+          "base": {
+            "t": "Man sagt, dass sie gekündigt hat.",
+            "n": "People say she's resigned."
+          },
+          "items": [
+            {
+              "cue": "sollen",
+              "t": "Sie soll gekündigt haben.",
+              "n": "She is said to have resigned."
+            },
+            {
+              "cue": "sie behauptet es · wollen",
+              "t": "Sie will gekündigt haben.",
+              "n": "She claims to have resigned."
+            },
+            {
+              "cue": "der Minister · davon gewusst",
+              "t": "Der Minister soll davon gewusst haben.",
+              "n": "The minister is said to have known about it."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Report the rumour that the minister knew about the scandal.",
+          "t": [
+            "Der Minister soll von dem Skandal gewusst haben",
+            "Der Minister soll davon gewusst haben"
+          ]
+        },
+        {
+          "n": "Say the report should probably be ready soon.",
+          "t": [
+            "Der Bericht dürfte bald fertig sein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l5",
+      "kind": "listening",
+      "title": "Does social media make us lonely?",
+      "goal": "Follow a radio interview full of careful, hedged statements.",
+      "phrases": [
+        {
+          "t": "Die Datenlage ist noch dünn.",
+          "n": "The data is still thin."
+        },
+        {
+          "t": "Ein Zusammenhang ist zumindest denkbar.",
+          "n": "A connection is at least conceivable."
+        },
+        {
+          "t": "Das wäre voreilig.",
+          "n": "That would be premature."
+        },
+        {
+          "t": "Man sollte die Ergebnisse nicht überbewerten.",
+          "n": "One shouldn't overrate the results."
+        }
+      ],
+      "story": {
+        "title": "Macht Social Media einsam?",
+        "intro": "A radio host interviews a researcher about a new study on social media and loneliness.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Moderatorin",
+            "t": "Eine neue Studie behauptet, soziale Medien machten Jugendliche einsam. Stimmt das?",
+            "n": "A new study claims social media makes young people lonely. Is that true?"
+          },
+          {
+            "name": "Dr. Brandl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ganz so einfach ist es nicht. Die Datenlage ist noch ziemlich dünn.",
+            "n": "It's not quite that simple. The data is still rather thin."
+          },
+          {
+            "name": "Moderatorin",
+            "t": "Aber ein Zusammenhang besteht doch, oder?",
+            "n": "But there is a connection, isn't there?"
+          },
+          {
+            "name": "Dr. Brandl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ein Zusammenhang ist zumindest denkbar. Einsame Jugendliche dürften aber auch häufiger online sein.",
+            "n": "A connection is at least conceivable. But lonely teenagers are probably also online more often."
+          },
+          {
+            "name": "Moderatorin",
+            "t": "Also ist gar nicht klar, was Ursache und was Wirkung ist?",
+            "n": "So it isn't clear at all what's cause and what's effect?"
+          },
+          {
+            "name": "Dr. Brandl",
+            "voice": "de-DE-ConradNeural",
+            "t": "Genau. Daraus ein Verbot abzuleiten, wäre voreilig. Man sollte die Ergebnisse nicht überbewerten.",
+            "n": "Exactly. Deriving a ban from it would be premature. One shouldn't overrate the results."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie beschreibt Dr. Brandl die Datenlage?",
+            "n": "How does Dr Brandl describe the data?",
+            "t": [
+              "Dünn",
+              "Noch ziemlich dünn",
+              "Die Datenlage ist dünn"
+            ]
+          },
+          {
+            "q": "Wer dürfte häufiger online sein?",
+            "n": "Who is probably online more often?",
+            "t": [
+              "Einsame Jugendliche",
+              "Einsame Jugendliche sind häufiger online"
+            ]
+          },
+          {
+            "q": "Was wäre laut Dr. Brandl voreilig?",
+            "n": "According to Dr Brandl, what would be premature?",
+            "t": [
+              "Ein Verbot",
+              "Daraus ein Verbot abzuleiten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u03-l6",
+      "kind": "roleplay",
+      "title": "Press interview",
+      "goal": "Answer a journalist’s tough questions without confirming rumours — your choices shape the story.",
+      "phrases": [
+        {
+          "t": "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern.",
+          "n": "I can't comment on that at this point."
+        },
+        {
+          "t": "Das sind Spekulationen, die ich nicht kommentiere.",
+          "n": "That's speculation I won't comment on."
+        },
+        {
+          "t": "Ich möchte den Gesprächen nicht vorgreifen.",
+          "n": "I don't want to pre-empt the talks."
+        },
+        {
+          "t": "Was ich Ihnen sagen kann, ist Folgendes:",
+          "n": "What I can tell you is this:"
+        }
+      ],
+      "branch": {
+        "title": "Rumours of job cuts",
+        "scene": "You are the spokesperson of a car parts supplier. A journalist asks about rumoured job cuts at the Leipzig plant.",
+        "name": "Journalistin Frau Kaya",
+        "voice": "de-DE-KatjaNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Es heißt, in Ihrem Werk in Leipzig sollen fünfhundert Stellen wegfallen. Können Sie das bestätigen?",
+            "n": "Word is that five hundred jobs are to go at your Leipzig plant. Can you confirm that?",
+            "choices": [
+              {
+                "t": "Das sind Spekulationen, die ich nicht kommentiere. Was ich Ihnen sagen kann: Wir prüfen alle Standorte.",
+                "n": "That's speculation I won't comment on. What I can tell you: we're reviewing all sites.",
+                "next": "q2"
+              },
+              {
+                "t": "Wie bitte? Woher haben Sie diese Zahl?",
+                "n": "Pardon? Where did you get that figure?",
+                "next": "source"
+              }
+            ]
+          },
+          "source": {
+            "t": "Aus Gewerkschaftskreisen. Also: Stimmt die Zahl oder nicht?",
+            "n": "From union circles. So: is the figure right or not?",
+            "choices": [
+              {
+                "t": "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern. Wir prüfen alle Standorte.",
+                "n": "I can't comment on that at this point. We're reviewing all sites.",
+                "next": "q2"
+              },
+              {
+                "t": "Ja, ungefähr. Aber das haben Sie nicht von mir.",
+                "n": "Yes, roughly. But you didn't hear it from me.",
+                "next": "leak"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Heißt „prüfen“ am Ende nicht doch Stellenabbau?",
+            "n": "Doesn't 'reviewing' mean job cuts in the end?",
+            "choices": [
+              {
+                "t": "Ich möchte den Gesprächen mit dem Betriebsrat nicht vorgreifen. Kündigungen sind derzeit nicht geplant.",
+                "n": "I don't want to pre-empt the talks with the works council. No redundancies are planned at present.",
+                "next": "q3"
+              },
+              {
+                "t": "Kein Kommentar. Nächste Frage.",
+                "n": "No comment. Next question.",
+                "next": "cold"
+              }
+            ]
+          },
+          "cold": {
+            "t": "Mit dieser Haltung dürften Sie die Belegschaft kaum beruhigen.",
+            "n": "With that attitude you'll hardly reassure the workforce.",
+            "choices": [
+              {
+                "t": "Das ist ein berechtigter Einwand. Wir setzen auf Gespräche mit dem Betriebsrat und wollen Kündigungen vermeiden.",
+                "n": "That's a fair point. We're relying on talks with the works council and want to avoid redundancies.",
+                "next": "q3"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Wann können die Beschäftigten mit Klarheit rechnen?",
+            "n": "When can employees expect clarity?",
+            "choices": [
+              {
+                "t": "Wir gehen davon aus, dass wir Ende des Monats Ergebnisse vorstellen können.",
+                "n": "We expect to be able to present results at the end of the month.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Vielen Dank für das Gespräch. Wir bleiben dran.",
+            "n": "Thank you for the interview. We'll stay on it.",
+            "end": "good",
+            "outcome": "You stayed credible without confirming the rumour — a textbook press answer."
+          },
+          "leak": {
+            "t": "Interessant! Das steht dann morgen auf Seite eins.",
+            "n": "Interesting! That'll be on page one tomorrow.",
+            "end": "bad",
+            "outcome": "You confirmed the rumour off the record — a spokesperson’s nightmare. Try a careful non-answer."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell a journalist you can't comment at this point.",
+          "t": [
+            "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern",
+            "Dazu kann ich mich nicht äußern"
+          ]
+        },
+        {
+          "n": "Say you don't want to pre-empt the talks.",
+          "t": [
+            "Ich möchte den Gesprächen nicht vorgreifen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l7",
+      "kind": "speaking",
+      "title": "Weigh it up",
+      "goal": "Give a balanced, carefully hedged opinion and report a rumour with distance.",
+      "culture": {
+        "title": "Nicht schlecht!",
+        "body": "Praise in German-speaking countries is often understated: Nicht schlecht or Kann man so machen can be a genuine compliment, and in Austria and southern Germany Passt! signals full approval. Conversely, people tend to take statements at face value, so a polite Ich überlege es mir is heard as real consideration, not a soft no. Say what you mean — and don’t expect effusive praise.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Nicht schlecht, muss ich sagen.",
+          "n": "Not bad, I must say.",
+          "note": "Often genuine praise."
+        },
+        {
+          "t": "Pauschal lässt sich das nicht beantworten.",
+          "n": "There's no blanket answer to that."
+        },
+        {
+          "t": "Die Wahrheit liegt vermutlich irgendwo in der Mitte.",
+          "n": "The truth probably lies somewhere in between."
+        },
+        {
+          "t": "Ich will nicht ausschließen, dass ich mich irre.",
+          "n": "I won't rule out that I'm wrong."
+        }
+      ],
+      "free": [
+        {
+          "n": "Give a nuanced opinion: should social media be banned for under-16s? Weigh both sides before concluding.",
+          "hint": "Pauschal lässt sich das nicht beantworten … / Einerseits … andererseits … / Es ließe sich argumentieren … / Die Wahrheit liegt vermutlich …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a hedge",
+              "any": [
+                "meines erachtens",
+                "soweit ich",
+                "ich würde eher",
+                "vermutlich",
+                "wohl",
+                "pauschal"
+              ]
+            },
+            {
+              "label": "both sides",
+              "any": [
+                "einerseits",
+                "andererseits",
+                "zwar",
+                "allerdings",
+                "jedoch",
+                "auf der anderen seite"
+              ]
+            },
+            {
+              "label": "Konjunktiv II",
+              "any": [
+                "würde",
+                "wäre",
+                "könnte",
+                "ließe",
+                "hätte",
+                "sollte"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "insgesamt",
+                "unterm strich",
+                "letztlich",
+                "alles in allem",
+                "in der mitte",
+                "deshalb"
+              ]
+            }
+          ],
+          "model": "Pauschal lässt sich das nicht beantworten. Einerseits würde ein Verbot Kinder vor Mobbing schützen, andererseits wäre es kaum durchzusetzen. Meines Erachtens wäre Medienkompetenz in der Schule sinnvoller. Die Wahrheit liegt vermutlich irgendwo in der Mitte."
+        },
+        {
+          "n": "Report a rumour from your workplace or town with careful distance — make clear what is confirmed and what isn’t.",
+          "hint": "Es heißt, … / Er soll … haben. / Angeblich … / Bestätigt ist das aber nicht.",
+          "seconds": 60,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "hearsay",
+              "any": [
+                "es heißt",
+                "angeblich",
+                "soll",
+                "sollen",
+                "man sagt",
+                "gerücht*"
+              ]
+            },
+            {
+              "label": "uncertainty",
+              "any": [
+                "nicht bestätigt",
+                "nicht sicher",
+                "unklar",
+                "nicht auszuschließen",
+                "vermutlich",
+                "dürfte"
+              ]
+            },
+            {
+              "label": "your own view",
+              "any": [
+                "ich glaube",
+                "ich vermute",
+                "meiner meinung",
+                "ich halte",
+                "ich würde"
+              ]
+            }
+          ],
+          "model": "Es heißt, unsere Kantine soll nächstes Jahr schließen. Angeblich ist sie zu teuer. Bestätigt ist das aber nicht, und ich vermute, dass da viel übertrieben wird. Es ist allerdings nicht auszuschließen, dass sie zumindest verkleinert wird."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say there's no blanket answer to that.",
+          "t": [
+            "Pauschal lässt sich das nicht beantworten"
+          ]
+        },
+        {
+          "n": "Say the truth probably lies somewhere in between.",
+          "t": [
+            "Die Wahrheit liegt vermutlich irgendwo in der Mitte",
+            "Die Wahrheit liegt irgendwo in der Mitte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Vorsichtig formuliert",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

@@ -13,32 +13,108 @@
         "body": "Traditionally the older or more senior person offers the du, and declining it politely is perfectly acceptable. When you're unsure, stay with Sie and say so openly — Germans appreciate the honesty. Say Wollen wir uns nicht duzen? with a light, rising, friendly tone; a flat tone can sound like a demand."
       },
       "phrases": [
-        { "t": "Wollen wir uns nicht duzen?", "n": "Shall we switch to du?", "note": "The negation nicht makes the offer sound warmer, not negative." },
-        { "t": "Sehr gern, das macht vieles einfacher.", "n": "Gladly, that makes a lot of things easier." },
-        { "t": "Darf ich Ihnen das Du anbieten?", "n": "May I offer to use du with you?", "note": "Formal and old-fashioned; used by the senior person." },
-        { "t": "Mir ist es lieber, wenn wir beim Sie bleiben.", "n": "I'd prefer it if we stuck with Sie." },
-        { "t": "Ich war mir nicht sicher, ob man sich hier duzt oder siezt.", "n": "I wasn't sure whether people use du or Sie here." },
-        { "t": "Bei uns im Team duzen sich eigentlich alle.", "n": "In our team pretty much everyone uses du." },
-        { "t": "Entschuldigen Sie, dass ich Sie so direkt anspreche.", "n": "Excuse me for approaching you so directly." },
-        { "t": "Ich hoffe, ich trete Ihnen damit nicht zu nahe.", "n": "I hope I'm not overstepping the mark.", "note": "Polite hedge before a personal question or remark." }
+        {
+          "t": "Wollen wir uns nicht duzen?",
+          "n": "Shall we switch to du?",
+          "note": "The negation nicht makes the offer sound warmer, not negative."
+        },
+        {
+          "t": "Sehr gern, das macht vieles einfacher.",
+          "n": "Gladly, that makes a lot of things easier."
+        },
+        {
+          "t": "Darf ich Ihnen das Du anbieten?",
+          "n": "May I offer to use du with you?",
+          "note": "Formal and old-fashioned; used by the senior person."
+        },
+        {
+          "t": "Mir ist es lieber, wenn wir beim Sie bleiben.",
+          "n": "I'd prefer it if we stuck with Sie."
+        },
+        {
+          "t": "Ich war mir nicht sicher, ob man sich hier duzt oder siezt.",
+          "n": "I wasn't sure whether people use du or Sie here."
+        },
+        {
+          "t": "Bei uns im Team duzen sich eigentlich alle.",
+          "n": "In our team pretty much everyone uses du."
+        },
+        {
+          "t": "Entschuldigen Sie, dass ich Sie so direkt anspreche.",
+          "n": "Excuse me for approaching you so directly."
+        },
+        {
+          "t": "Ich hoffe, ich trete Ihnen damit nicht zu nahe.",
+          "n": "I hope I'm not overstepping the mark.",
+          "note": "Polite hedge before a personal question or remark."
+        }
       ],
       "dialogue": {
         "title": "Meeting the head of department",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Frau Keller", "t": "Schön, dass Sie es zur Konferenz geschafft haben. Wie war die Anreise?", "n": "Nice that you made it to the conference. How was the journey?" },
-          { "who": "you", "t": "Danke, alles bestens. Ehrlich gesagt war ich mir nicht sicher, ob man sich hier duzt oder siezt.", "n": "Thanks, all fine. To be honest, I wasn't sure whether people use du or Sie here." },
-          { "who": "A", "name": "Frau Keller", "t": "Gute Frage. Bei uns in der Abteilung duzen sich eigentlich alle. Wollen wir uns also nicht duzen? Ich bin Sabine.", "n": "Good question. In our department pretty much everyone uses du. So shall we switch to du? I'm Sabine." },
-          { "who": "you", "t": "Sehr gern, das macht vieles einfacher.", "n": "Gladly, that makes a lot of things easier." },
-          { "who": "A", "name": "Frau Keller", "t": "Wunderbar. Nur beim Vorstand bleiben wir besser beim Sie, die sind da etwas altmodisch.", "n": "Wonderful. Only with the board we'd better stick to Sie, they're a bit old-fashioned about that." },
-          { "who": "you", "t": "Verstanden. Bei offiziellen Terminen ist mir das Sie ohnehin lieber.", "n": "Understood. At official meetings I prefer Sie anyway." }
+          {
+            "who": "A",
+            "name": "Frau Keller",
+            "t": "Schön, dass Sie es zur Konferenz geschafft haben. Wie war die Anreise?",
+            "n": "Nice that you made it to the conference. How was the journey?"
+          },
+          {
+            "who": "you",
+            "t": "Danke, alles bestens. Ehrlich gesagt war ich mir nicht sicher, ob man sich hier duzt oder siezt.",
+            "n": "Thanks, all fine. To be honest, I wasn't sure whether people use du or Sie here."
+          },
+          {
+            "who": "A",
+            "name": "Frau Keller",
+            "t": "Gute Frage. Bei uns in der Abteilung duzen sich eigentlich alle. Wollen wir uns also nicht duzen? Ich bin Sabine.",
+            "n": "Good question. In our department pretty much everyone uses du. So shall we switch to du? I'm Sabine."
+          },
+          {
+            "who": "you",
+            "t": "Sehr gern, das macht vieles einfacher.",
+            "n": "Gladly, that makes a lot of things easier."
+          },
+          {
+            "who": "A",
+            "name": "Frau Keller",
+            "t": "Wunderbar. Nur beim Vorstand bleiben wir besser beim Sie, die sind da etwas altmodisch.",
+            "n": "Wonderful. Only with the board we'd better stick to Sie, they're a bit old-fashioned about that."
+          },
+          {
+            "who": "you",
+            "t": "Verstanden. Bei offiziellen Terminen ist mir das Sie ohnehin lieber.",
+            "n": "Understood. At official meetings I prefer Sie anyway."
+          }
         ]
       },
       "prompts": [
-        { "n": "Suggest switching to du.", "t": ["Wollen wir uns nicht duzen", "Darf ich Ihnen das Du anbieten"] },
-        { "n": "Accept the du warmly.", "t": ["Sehr gern, das macht vieles einfacher", "Sehr gern"] },
-        { "n": "Politely say you'd rather stay with Sie.", "t": ["Mir ist es lieber, wenn wir beim Sie bleiben"] },
-        { "n": "Admit you weren't sure whether people use du or Sie here.", "t": ["Ich war mir nicht sicher, ob man sich hier duzt oder siezt"] }
+        {
+          "n": "Suggest switching to du.",
+          "t": [
+            "Wollen wir uns nicht duzen",
+            "Darf ich Ihnen das Du anbieten"
+          ]
+        },
+        {
+          "n": "Accept the du warmly.",
+          "t": [
+            "Sehr gern, das macht vieles einfacher",
+            "Sehr gern"
+          ]
+        },
+        {
+          "n": "Politely say you'd rather stay with Sie.",
+          "t": [
+            "Mir ist es lieber, wenn wir beim Sie bleiben"
+          ]
+        },
+        {
+          "n": "Admit you weren't sure whether people use du or Sie here.",
+          "t": [
+            "Ich war mir nicht sicher, ob man sich hier duzt oder siezt"
+          ]
+        }
       ]
     },
     {
@@ -50,34 +126,702 @@
         "body": "German business small talk is short: arrival, weather, holidays — then a clear signal like Aber kommen wir zur Sache. Mark the transition with a short pause and a slightly lower, firmer pitch. With friends, contractions like läuft's and nachher sound natural; in a meeting, use full forms."
       },
       "phrases": [
-        { "t": "Haben Sie gut hergefunden?", "n": "Did you find your way here all right?" },
-        { "t": "Bei dem Wetter hat man ja kaum Lust, ins Büro zu fahren.", "n": "In this weather you hardly feel like going into the office." },
-        { "t": "Wie ich höre, waren Sie gerade im Urlaub?", "n": "I hear you've just been on holiday?" },
-        { "t": "Aber genug geplaudert, kommen wir zur Sache.", "n": "But enough chit-chat, let's get down to business." },
-        { "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.", "n": "If that's all right with you, I'd start straight away with the first item." },
-        { "t": "Ich möchte Ihre Zeit nicht über Gebühr beanspruchen.", "n": "I don't want to take up more of your time than necessary.", "note": "Very polite, formal register." },
-        { "t": "Na, wie läuft's bei dir so?", "n": "So, how are things with you?", "note": "Casual, among friends." },
-        { "t": "Lass uns das nachher beim Kaffee besprechen.", "n": "Let's talk about that later over coffee.", "note": "Casual du form." }
+        {
+          "t": "Haben Sie gut hergefunden?",
+          "n": "Did you find your way here all right?"
+        },
+        {
+          "t": "Bei dem Wetter hat man ja kaum Lust, ins Büro zu fahren.",
+          "n": "In this weather you hardly feel like going into the office."
+        },
+        {
+          "t": "Wie ich höre, waren Sie gerade im Urlaub?",
+          "n": "I hear you've just been on holiday?"
+        },
+        {
+          "t": "Aber genug geplaudert, kommen wir zur Sache.",
+          "n": "But enough chit-chat, let's get down to business."
+        },
+        {
+          "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.",
+          "n": "If that's all right with you, I'd start straight away with the first item."
+        },
+        {
+          "t": "Ich möchte Ihre Zeit nicht über Gebühr beanspruchen.",
+          "n": "I don't want to take up more of your time than necessary.",
+          "note": "Very polite, formal register."
+        },
+        {
+          "t": "Na, wie läuft's bei dir so?",
+          "n": "So, how are things with you?",
+          "note": "Casual, among friends."
+        },
+        {
+          "t": "Lass uns das nachher beim Kaffee besprechen.",
+          "n": "Let's talk about that later over coffee.",
+          "note": "Casual du form."
+        }
       ],
       "dialogue": {
         "title": "A client visit",
         "lines": [
-          { "who": "A", "name": "Herr Brandt", "t": "Guten Morgen! Schön, Sie endlich persönlich kennenzulernen.", "n": "Good morning! Nice to finally meet you in person." },
-          { "who": "you", "t": "Ganz meinerseits. Haben Sie gut hergefunden?", "n": "Likewise. Did you find your way here all right?" },
-          { "who": "A", "name": "Herr Brandt", "t": "Ja, problemlos, nur der Regen hat genervt. Bei dem Wetter bleibt man lieber zu Hause.", "n": "Yes, no problem, only the rain was annoying. In this weather you'd rather stay at home." },
-          { "who": "you", "t": "Da sagen Sie was. Wie ich höre, waren Sie gerade im Urlaub?", "n": "You can say that again. I hear you've just been on holiday?" },
-          { "who": "A", "name": "Herr Brandt", "t": "Stimmt, zwei Wochen Portugal. Herrlich, aber jetzt wartet natürlich ein voller Schreibtisch auf mich.", "n": "Right, two weeks in Portugal. Wonderful, but now of course a full desk is waiting for me." },
-          { "who": "you", "t": "Dann möchte ich Ihre Zeit nicht über Gebühr beanspruchen. Kommen wir zur Sache?", "n": "Then I don't want to take up too much of your time. Shall we get down to business?" },
-          { "who": "A", "name": "Herr Brandt", "t": "Sehr gern. Womit fangen wir an?", "n": "Gladly. Where shall we start?" },
-          { "who": "you", "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.", "n": "If that's all right with you, I'd start straight away with the first item." }
+          {
+            "who": "A",
+            "name": "Herr Brandt",
+            "t": "Guten Morgen! Schön, Sie endlich persönlich kennenzulernen.",
+            "n": "Good morning! Nice to finally meet you in person."
+          },
+          {
+            "who": "you",
+            "t": "Ganz meinerseits. Haben Sie gut hergefunden?",
+            "n": "Likewise. Did you find your way here all right?"
+          },
+          {
+            "who": "A",
+            "name": "Herr Brandt",
+            "t": "Ja, problemlos, nur der Regen hat genervt. Bei dem Wetter bleibt man lieber zu Hause.",
+            "n": "Yes, no problem, only the rain was annoying. In this weather you'd rather stay at home."
+          },
+          {
+            "who": "you",
+            "t": "Da sagen Sie was. Wie ich höre, waren Sie gerade im Urlaub?",
+            "n": "You can say that again. I hear you've just been on holiday?"
+          },
+          {
+            "who": "A",
+            "name": "Herr Brandt",
+            "t": "Stimmt, zwei Wochen Portugal. Herrlich, aber jetzt wartet natürlich ein voller Schreibtisch auf mich.",
+            "n": "Right, two weeks in Portugal. Wonderful, but now of course a full desk is waiting for me."
+          },
+          {
+            "who": "you",
+            "t": "Dann möchte ich Ihre Zeit nicht über Gebühr beanspruchen. Kommen wir zur Sache?",
+            "n": "Then I don't want to take up too much of your time. Shall we get down to business?"
+          },
+          {
+            "who": "A",
+            "name": "Herr Brandt",
+            "t": "Sehr gern. Womit fangen wir an?",
+            "n": "Gladly. Where shall we start?"
+          },
+          {
+            "who": "you",
+            "t": "Wenn es Ihnen recht ist, würde ich gleich mit dem ersten Punkt beginnen.",
+            "n": "If that's all right with you, I'd start straight away with the first item."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a business guest whether they found the place easily.", "t": ["Haben Sie gut hergefunden"] },
-        { "n": "End the small talk and turn to business.", "t": ["Aber genug geplaudert, kommen wir zur Sache", "Kommen wir zur Sache"] },
-        { "n": "Casually ask a friend how things are going.", "t": ["Na, wie läuft's bei dir so", "Wie läuft's bei dir so"] },
-        { "n": "Say you don't want to take up too much of their time.", "t": ["Ich möchte Ihre Zeit nicht über Gebühr beanspruchen"] }
+        {
+          "n": "Ask a business guest whether they found the place easily.",
+          "t": [
+            "Haben Sie gut hergefunden"
+          ]
+        },
+        {
+          "n": "End the small talk and turn to business.",
+          "t": [
+            "Aber genug geplaudert, kommen wir zur Sache",
+            "Kommen wir zur Sache"
+          ]
+        },
+        {
+          "n": "Casually ask a friend how things are going.",
+          "t": [
+            "Na, wie läuft's bei dir so",
+            "Wie läuft's bei dir so"
+          ]
+        },
+        {
+          "n": "Say you don't want to take up too much of their time.",
+          "t": [
+            "Ich möchte Ihre Zeit nicht über Gebühr beanspruchen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u01-l3",
+      "title": "Official register on the phone",
+      "goal": "Make a formal request and handle an official call with the right register.",
+      "tip": {
+        "title": "Formulaic but warm",
+        "body": "Official German relies on fixed formulas: sich mit einem Anliegen an jemanden wenden, jemandem zur Verfügung stehen, um Verständnis bitten. Combine them with Konjunktiv II (Wären Sie so freundlich …?) and you sound competent rather than stiff."
+      },
+      "phrases": [
+        {
+          "t": "Ich wende mich mit einem Anliegen an Sie.",
+          "n": "I'm contacting you with a request."
+        },
+        {
+          "t": "Wären Sie so freundlich, mich mit der zuständigen Person zu verbinden?",
+          "n": "Would you be so kind as to put me through to the person in charge?"
+        },
+        {
+          "t": "Ich darf kurz auf unser Gespräch von letzter Woche zurückkommen.",
+          "n": "If I may briefly come back to our conversation last week."
+        },
+        {
+          "t": "Für Rückfragen stehe ich Ihnen jederzeit zur Verfügung.",
+          "n": "I'm available at any time if you have questions."
+        },
+        {
+          "t": "Ich bitte um Ihr Verständnis.",
+          "n": "I ask for your understanding."
+        }
+      ],
+      "dialogue": {
+        "title": "Calling the district office",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Roth",
+            "t": "Landratsamt, Roth am Apparat. Was kann ich für Sie tun?",
+            "n": "District office, Roth speaking. What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Guten Tag, ich wende mich mit einem Anliegen an Sie. Wären Sie so freundlich, mich mit der zuständigen Person zu verbinden?",
+            "n": "Good afternoon, I'm contacting you with a request. Would you be so kind as to put me through to the person in charge?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Roth",
+            "t": "Herr Dr. Fischer ist leider in einer Besprechung. Darf ich etwas ausrichten?",
+            "n": "Dr Fischer is in a meeting, I'm afraid. May I take a message?"
+          },
+          {
+            "who": "you",
+            "t": "Gern. Er möchte mich bitte zurückrufen. Für Rückfragen stehe ich jederzeit zur Verfügung.",
+            "n": "Yes, please. Could he call me back? I'm available at any time for questions."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you're contacting them with a request.",
+          "t": [
+            "Ich wende mich mit einem Anliegen an Sie"
+          ]
+        },
+        {
+          "n": "Politely ask to be put through to the person in charge.",
+          "t": [
+            "Wären Sie so freundlich, mich mit der zuständigen Person zu verbinden",
+            "Könnten Sie mich mit der zuständigen Person verbinden"
+          ]
+        },
+        {
+          "n": "Say you're available at any time for questions.",
+          "t": [
+            "Für Rückfragen stehe ich Ihnen jederzeit zur Verfügung",
+            "Für Rückfragen stehe ich Ihnen gern zur Verfügung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l4",
+      "kind": "grammar",
+      "title": "Nominalstil vs Verbalstil",
+      "goal": "Switch between official noun style and conversational verb style.",
+      "tip": {
+        "title": "Same content, different register",
+        "body": "Official German packs actions into nouns: nach Abschluss des Projekts instead of wenn wir das Projekt abgeschlossen haben. The verb becomes a noun, its object moves into the genitive, and a preposition (nach, bei, wegen, vor) replaces the conjunction. In conversation, unpack it into verb clauses again — it sounds friendlier and is easier to follow."
+      },
+      "phrases": [
+        {
+          "t": "Nach Abschluss des Projekts melden wir uns bei Ihnen.",
+          "n": "Once the project is completed, we'll get in touch with you."
+        },
+        {
+          "t": "Wenn wir das Projekt abgeschlossen haben, melden wir uns.",
+          "n": "When we've finished the project, we'll get in touch."
+        },
+        {
+          "t": "Bei Verlust der Karte wenden Sie sich bitte an den Kundenservice.",
+          "n": "If you lose the card, please contact customer service."
+        },
+        {
+          "t": "Wegen der Erkrankung des Referenten fällt der Vortrag aus.",
+          "n": "Due to the speaker’s illness, the talk is cancelled."
+        },
+        {
+          "t": "Vor Beginn der Sitzung bitten wir um Ruhe.",
+          "n": "Before the meeting begins, we ask for quiet."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap verb style → noun style",
+          "base": {
+            "t": "Wenn wir das Projekt abgeschlossen haben, melden wir uns.",
+            "n": "When we've finished the project, we'll get in touch."
+          },
+          "items": [
+            {
+              "cue": "nach · Abschluss",
+              "t": "Nach Abschluss des Projekts melden wir uns.",
+              "n": "Once the project is completed, we'll get in touch."
+            },
+            {
+              "cue": "Vertrag · Unterzeichnung",
+              "t": "Nach Unterzeichnung des Vertrags melden wir uns.",
+              "n": "Once the contract is signed, we'll get in touch."
+            },
+            {
+              "cue": "Antrag · Prüfung",
+              "t": "Nach Prüfung des Antrags melden wir uns.",
+              "n": "Once the application has been reviewed, we'll get in touch."
+            }
+          ]
+        },
+        {
+          "title": "Swap noun style → verb style",
+          "base": {
+            "t": "Wegen der Erkrankung des Referenten fällt der Vortrag aus.",
+            "n": "Due to the speaker’s illness, the talk is cancelled."
+          },
+          "items": [
+            {
+              "cue": "weil …",
+              "t": "Weil der Referent erkrankt ist, fällt der Vortrag aus.",
+              "n": "Because the speaker is ill, the talk is cancelled."
+            },
+            {
+              "cue": "bei Verlust der Karte → wenn …",
+              "t": "Wenn Sie die Karte verlieren, wenden Sie sich an den Kundenservice.",
+              "n": "If you lose the card, contact customer service."
+            },
+            {
+              "cue": "vor Beginn der Sitzung → bevor …",
+              "t": "Bevor die Sitzung beginnt, bitten wir um Ruhe.",
+              "n": "Before the meeting begins, we ask for quiet."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "In official style: say you'll get in touch once the project is completed.",
+          "t": [
+            "Nach Abschluss des Projekts melden wir uns bei Ihnen",
+            "Nach Abschluss des Projekts melden wir uns"
+          ]
+        },
+        {
+          "n": "Unpack it for a friend: because the speaker is ill, the talk is cancelled.",
+          "t": [
+            "Weil der Referent erkrankt ist, fällt der Vortrag aus",
+            "Weil der Referent krank ist, fällt der Vortrag aus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l5",
+      "kind": "listening",
+      "title": "The du faux pas",
+      "goal": "Follow a colleague’s anecdote about choosing the wrong register.",
+      "phrases": [
+        {
+          "t": "Ich bin ins Fettnäpfchen getreten.",
+          "n": "I put my foot in it."
+        },
+        {
+          "t": "Das war mir total peinlich.",
+          "n": "I was really embarrassed about it."
+        },
+        {
+          "t": "Er hat es mit Humor genommen.",
+          "n": "He took it with good humour."
+        },
+        {
+          "t": "Das kann jedem mal passieren.",
+          "n": "That can happen to anyone."
+        }
+      ],
+      "story": {
+        "title": "Ins Fettnäpfchen getreten",
+        "intro": "Mia tells her colleague Jan about an awkward moment in the lift.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Mia",
+            "t": "Jan, ich bin gestern so richtig ins Fettnäpfchen getreten.",
+            "n": "Jan, I really put my foot in it yesterday."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Oh nein. Was ist denn passiert?",
+            "n": "Oh no. What happened?"
+          },
+          {
+            "name": "Mia",
+            "t": "Im Aufzug stand ein Mann, und ich habe ihn einfach geduzt. Es war der neue Vorstandschef.",
+            "n": "There was a man in the lift and I just used du with him. It was the new CEO."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ach du meine Güte! Und wie hat er reagiert?",
+            "n": "Oh my goodness! And how did he react?"
+          },
+          {
+            "name": "Mia",
+            "t": "Er hat es mit Humor genommen. Er meinte, er fühle sich gleich zehn Jahre jünger.",
+            "n": "He took it with good humour. He said he felt ten years younger straight away."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Na siehst du. Das kann jedem mal passieren.",
+            "n": "There you go. That can happen to anyone."
+          },
+          {
+            "name": "Mia",
+            "t": "Trotzdem war mir das total peinlich. Beim nächsten Mal bleibe ich lieber beim Sie.",
+            "n": "Still, I was really embarrassed. Next time I'll stick with Sie."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wen hat Mia im Aufzug geduzt?",
+            "n": "Who did Mia address as du in the lift?",
+            "t": [
+              "Den neuen Vorstandschef",
+              "Den Vorstandschef",
+              "Den Chef"
+            ]
+          },
+          {
+            "q": "Wie hat der Mann reagiert?",
+            "n": "How did the man react?",
+            "t": [
+              "Mit Humor",
+              "Er hat es mit Humor genommen"
+            ]
+          },
+          {
+            "q": "Was macht Mia beim nächsten Mal?",
+            "n": "What will Mia do next time?",
+            "t": [
+              "Sie bleibt beim Sie",
+              "Beim Sie bleiben",
+              "Sie siezt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u01-l6",
+      "kind": "roleplay",
+      "title": "Reception at the embassy",
+      "goal": "Strike a diplomatic tone with an ambassador — your choices steer the conversation.",
+      "phrases": [
+        {
+          "t": "Darf ich mich kurz vorstellen?",
+          "n": "May I briefly introduce myself?"
+        },
+        {
+          "t": "Es ist mir eine Ehre, Sie kennenzulernen.",
+          "n": "It's an honour to meet you."
+        },
+        {
+          "t": "Wie darf ich das verstehen?",
+          "n": "How should I understand that?",
+          "note": "Polite request for clarification."
+        },
+        {
+          "t": "Ich würde mich freuen, das Gespräch bei Gelegenheit fortzusetzen.",
+          "n": "I'd be glad to continue the conversation some time."
+        }
+      ],
+      "branch": {
+        "title": "At the embassy reception",
+        "scene": "At a reception at the German embassy, you approach the ambassador to win support for a student exchange programme.",
+        "name": "Botschafterin Dr. Hartmann",
+        "voice": "de-DE-KatjaNeural",
+        "start": "greet",
+        "nodes": {
+          "greet": {
+            "t": "Guten Abend. Wir kennen uns noch nicht, oder?",
+            "n": "Good evening. We haven't met yet, have we?",
+            "choices": [
+              {
+                "t": "Guten Abend, Frau Botschafterin. Darf ich mich kurz vorstellen?",
+                "n": "Good evening, Ambassador. May I briefly introduce myself?",
+                "next": "intro"
+              },
+              {
+                "t": "Hi! Na, wie läuft's so?",
+                "n": "Hi! So, how are things?",
+                "next": "casual"
+              }
+            ]
+          },
+          "casual": {
+            "t": "Wie bitte? Ich glaube, wir sind einander noch nicht vorgestellt worden.",
+            "n": "Pardon? I don't believe we've been introduced.",
+            "choices": [
+              {
+                "t": "Verzeihung, da habe ich den Ton verfehlt. Darf ich mich vorstellen?",
+                "n": "Forgive me, I got the tone wrong. May I introduce myself?",
+                "next": "intro"
+              },
+              {
+                "t": "Ach, egal. Ich brauche Geld für mein Projekt.",
+                "n": "Oh, whatever. I need money for my project.",
+                "next": "bad"
+              }
+            ]
+          },
+          "intro": {
+            "t": "Sehr gern. Und was führt Sie heute Abend hierher?",
+            "n": "Please do. And what brings you here this evening?",
+            "choices": [
+              {
+                "t": "Es ist mir eine Ehre, Sie kennenzulernen. Ich leite ein Austauschprogramm für Studierende.",
+                "n": "It's an honour to meet you. I run an exchange programme for students.",
+                "next": "project"
+              },
+              {
+                "t": "Ich will Fördergeld. Können Sie das organisieren?",
+                "n": "I want funding. Can you sort that out?",
+                "next": "bad"
+              }
+            ]
+          },
+          "project": {
+            "t": "Interessant. Allerdings sind die Mittel für solche Programme derzeit knapp.",
+            "n": "Interesting. However, funds for such programmes are tight at the moment.",
+            "choices": [
+              {
+                "t": "Wie darf ich das verstehen? Gibt es dennoch eine Chance?",
+                "n": "How should I understand that? Is there still a chance?",
+                "next": "chance"
+              },
+              {
+                "t": "Dann muss sich das eben ändern!",
+                "n": "Well, then that has to change!",
+                "next": "bad"
+              }
+            ]
+          },
+          "chance": {
+            "t": "Durchaus. Schicken Sie mir doch eine kurze Projektskizze, dann sehen wir weiter.",
+            "n": "Certainly. Why don't you send me a short project outline, and we'll see.",
+            "choices": [
+              {
+                "t": "Sehr gern. Ich würde mich freuen, das Gespräch bei Gelegenheit fortzusetzen.",
+                "n": "Gladly. I'd be glad to continue the conversation some time.",
+                "next": "good"
+              },
+              {
+                "t": "Verzeihung, wie ausführlich sollte die Skizze sein?",
+                "n": "Excuse me, how detailed should the outline be?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Zwei Seiten genügen. Meine Referentin gibt Ihnen gleich ihre Karte.",
+            "n": "Two pages are enough. My adviser will give you her card in a moment.",
+            "choices": [
+              {
+                "t": "Vielen Dank, ich lasse Ihnen die Skizze gern zukommen.",
+                "n": "Thank you very much, I'll be glad to send you the outline.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ich freue mich darauf. Einen schönen Abend noch!",
+            "n": "I look forward to it. Enjoy the rest of your evening!",
+            "end": "good",
+            "outcome": "You struck the right tone and were invited to submit your project."
+          },
+          "bad": {
+            "t": "Ich denke, wir beenden das Gespräch an dieser Stelle. Entschuldigen Sie mich.",
+            "n": "I think we'll end the conversation here. Excuse me.",
+            "end": "bad",
+            "outcome": "Your tone was too blunt for a diplomatic setting — try a more formal approach."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Introduce yourself formally to an ambassador.",
+          "t": [
+            "Darf ich mich kurz vorstellen",
+            "Es ist mir eine Ehre, Sie kennenzulernen"
+          ]
+        },
+        {
+          "n": "Politely ask how you should understand a remark.",
+          "t": [
+            "Wie darf ich das verstehen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l7",
+      "kind": "speaking",
+      "title": "Switching registers",
+      "goal": "Talk freely about forms of address and switch between formal and casual German.",
+      "culture": {
+        "title": "Herr Doktor, Frau Magistra",
+        "body": "In formal German, academic titles are treated as part of the name: Dr. Fischer is addressed as Herr Doktor Fischer until he waves it off. Austria goes further — Mag., Dipl.-Ing. and honorary titles like Hofrat appear on doorbells and in greetings, and leaving them out can seem cool. When in doubt, use the title and let the other person drop it.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Guten Tag, Herr Doktor Fischer.",
+          "n": "Good afternoon, Dr Fischer."
+        },
+        {
+          "t": "Bei uns ist das etwas lockerer.",
+          "n": "Where I come from, things are a bit more relaxed."
+        },
+        {
+          "t": "Im Beruflichen bin ich eher förmlich.",
+          "n": "In professional settings I'm rather formal."
+        },
+        {
+          "t": "Unter Freunden würde ich das ganz anders sagen.",
+          "n": "Among friends I'd put it quite differently."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain how people use formal and informal address in your country compared with German-speaking countries.",
+          "hint": "Compare: Bei uns … / In Deutschland dagegen … / Im Beruflichen … / Unter Freunden …",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "formal or informal address",
+              "any": [
+                "sie",
+                "du",
+                "duzen",
+                "siezen",
+                "duzt",
+                "siezt",
+                "förmlich",
+                "locker*"
+              ]
+            },
+            {
+              "label": "a comparison",
+              "any": [
+                "dagegen",
+                "im gegensatz",
+                "während",
+                "anders als",
+                "im vergleich"
+              ]
+            },
+            {
+              "label": "the work context",
+              "any": [
+                "beruf*",
+                "arbeit*",
+                "büro",
+                "kolleg*",
+                "chef*",
+                "kunden"
+              ]
+            },
+            {
+              "label": "your own experience",
+              "any": [
+                "ich habe",
+                "mir ist",
+                "ich war",
+                "erlebt",
+                "ich finde"
+              ]
+            }
+          ],
+          "model": "Bei uns ist das etwas lockerer, im Englischen gibt es ja kein Sie. In Deutschland dagegen siezen sich Kollegen manchmal jahrelang. Im Beruflichen bin ich deshalb eher förmlich, aber unter Freunden duze ich natürlich alle."
+        },
+        {
+          "n": "Share the same news (you're changing jobs) twice: first with your boss, then with a close friend.",
+          "hint": "Formal: Ich möchte Ihnen mitteilen, dass … / Casual: Stell dir vor, …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "formal register",
+              "any": [
+                "ihnen",
+                "mitteilen",
+                "informieren",
+                "ich möchte sie"
+              ]
+            },
+            {
+              "label": "casual register",
+              "any": [
+                "stell dir vor",
+                "dir",
+                "weißt du",
+                "rate mal"
+              ]
+            },
+            {
+              "label": "the news",
+              "any": [
+                "kündig*",
+                "neue stelle",
+                "neuen job",
+                "wechsel*",
+                "neuen arbeitgeber"
+              ]
+            },
+            {
+              "label": "thanks or feelings",
+              "any": [
+                "dank*",
+                "freu*",
+                "schade",
+                "vermissen",
+                "aufgeregt"
+              ]
+            }
+          ],
+          "model": "Frau Keller, ich möchte Ihnen mitteilen, dass ich zum ersten März zu einem neuen Arbeitgeber wechsle. Ich danke Ihnen sehr für die Zusammenarbeit. – Stell dir vor, ich hab einen neuen Job! Ich freu mich riesig, aber das Team werde ich echt vermissen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Greet Dr Fischer formally, using his title.",
+          "t": [
+            "Guten Tag, Herr Doktor Fischer",
+            "Guten Tag, Herr Dr. Fischer"
+          ]
+        },
+        {
+          "n": "Say that among friends you'd put it quite differently.",
+          "t": [
+            "Unter Freunden würde ich das ganz anders sagen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Den richtigen Ton treffen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

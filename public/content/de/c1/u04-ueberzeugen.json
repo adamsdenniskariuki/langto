@@ -13,34 +13,117 @@
         "body": "A convincing argument has a clear arc: claim, reason, concrete example, conclusion (unterm Strich …). Rhetorical questions like Was spricht eigentlich dagegen? invite agreement. Slow down on your key word and leave a short pause after a rhetorical question — silence makes it land."
       },
       "phrases": [
-        { "t": "Lassen Sie mich das an einem Beispiel verdeutlichen.", "n": "Let me illustrate that with an example." },
-        { "t": "Stellen Sie sich einmal vor, wir würden nichts unternehmen.", "n": "Just imagine we did nothing." },
-        { "t": "Die Zahlen sprechen eine eindeutige Sprache.", "n": "The figures speak for themselves." },
-        { "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren?", "n": "What's actually stopping us from just trying it?", "note": "Rhetorical question — pause afterwards." },
-        { "t": "Nicht nur das, wir sparen dadurch auch noch Zeit.", "n": "Not only that, we also save time this way." },
-        { "t": "Unterm Strich profitieren alle davon.", "n": "At the end of the day, everyone benefits." },
-        { "t": "Angesichts der steigenden Kosten haben wir kaum eine andere Wahl.", "n": "Given the rising costs, we hardly have any other choice.", "note": "angesichts + genitive." },
-        { "t": "Der entscheidende Punkt ist doch, dass wir flexibler werden.", "n": "The crucial point is that we become more flexible." }
+        {
+          "t": "Lassen Sie mich das an einem Beispiel verdeutlichen.",
+          "n": "Let me illustrate that with an example."
+        },
+        {
+          "t": "Stellen Sie sich einmal vor, wir würden nichts unternehmen.",
+          "n": "Just imagine we did nothing."
+        },
+        {
+          "t": "Die Zahlen sprechen eine eindeutige Sprache.",
+          "n": "The figures speak for themselves."
+        },
+        {
+          "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren?",
+          "n": "What's actually stopping us from just trying it?",
+          "note": "Rhetorical question — pause afterwards."
+        },
+        {
+          "t": "Nicht nur das, wir sparen dadurch auch noch Zeit.",
+          "n": "Not only that, we also save time this way."
+        },
+        {
+          "t": "Unterm Strich profitieren alle davon.",
+          "n": "At the end of the day, everyone benefits."
+        },
+        {
+          "t": "Angesichts der steigenden Kosten haben wir kaum eine andere Wahl.",
+          "n": "Given the rising costs, we hardly have any other choice.",
+          "note": "angesichts + genitive."
+        },
+        {
+          "t": "Der entscheidende Punkt ist doch, dass wir flexibler werden.",
+          "n": "The crucial point is that we become more flexible."
+        }
       ],
       "dialogue": {
         "title": "Pitching a four-day week",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Frau Schuster", "t": "Eine Viertagewoche? Das klingt mir ehrlich gesagt nach einem teuren Experiment.", "n": "A four-day week? Frankly, that sounds like an expensive experiment to me." },
-          { "who": "you", "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren? Zum Beispiel drei Monate in einem Team.", "n": "What's actually stopping us from just trying it? For example, three months in one team." },
-          { "who": "A", "name": "Frau Schuster", "t": "Und wenn die Arbeit liegen bleibt? Dann stehen wir vor den Kunden ziemlich blöd da.", "n": "And if work piles up? Then we'll look pretty silly in front of our clients." },
-          { "who": "you", "t": "Lassen Sie mich das an einem Beispiel verdeutlichen. Eine Firma in Hamburg hat genau das getestet.", "n": "Let me illustrate that with an example. A company in Hamburg tested exactly that." },
-          { "who": "A", "name": "Frau Schuster", "t": "Und mit welchem Ergebnis?", "n": "And with what result?" },
-          { "who": "you", "t": "Die Zahlen sprechen eine eindeutige Sprache: weniger Krankheitstage bei gleicher Leistung.", "n": "The figures speak for themselves: fewer sick days with the same output." },
-          { "who": "A", "name": "Frau Schuster", "t": "Hm. Aber der Aufwand für die Umstellung ist auch nicht zu unterschätzen.", "n": "Hm. But the effort of switching over shouldn't be underestimated either." },
-          { "who": "you", "t": "Schon, aber unterm Strich profitieren alle davon. Stellen Sie sich vor, wir würden unsere besten Leute verlieren.", "n": "True, but at the end of the day everyone benefits. Imagine we lost our best people." }
+          {
+            "who": "A",
+            "name": "Frau Schuster",
+            "t": "Eine Viertagewoche? Das klingt mir ehrlich gesagt nach einem teuren Experiment.",
+            "n": "A four-day week? Frankly, that sounds like an expensive experiment to me."
+          },
+          {
+            "who": "you",
+            "t": "Was spricht eigentlich dagegen, es einfach auszuprobieren? Zum Beispiel drei Monate in einem Team.",
+            "n": "What's actually stopping us from just trying it? For example, three months in one team."
+          },
+          {
+            "who": "A",
+            "name": "Frau Schuster",
+            "t": "Und wenn die Arbeit liegen bleibt? Dann stehen wir vor den Kunden ziemlich blöd da.",
+            "n": "And if work piles up? Then we'll look pretty silly in front of our clients."
+          },
+          {
+            "who": "you",
+            "t": "Lassen Sie mich das an einem Beispiel verdeutlichen. Eine Firma in Hamburg hat genau das getestet.",
+            "n": "Let me illustrate that with an example. A company in Hamburg tested exactly that."
+          },
+          {
+            "who": "A",
+            "name": "Frau Schuster",
+            "t": "Und mit welchem Ergebnis?",
+            "n": "And with what result?"
+          },
+          {
+            "who": "you",
+            "t": "Die Zahlen sprechen eine eindeutige Sprache: weniger Krankheitstage bei gleicher Leistung.",
+            "n": "The figures speak for themselves: fewer sick days with the same output."
+          },
+          {
+            "who": "A",
+            "name": "Frau Schuster",
+            "t": "Hm. Aber der Aufwand für die Umstellung ist auch nicht zu unterschätzen.",
+            "n": "Hm. But the effort of switching over shouldn't be underestimated either."
+          },
+          {
+            "who": "you",
+            "t": "Schon, aber unterm Strich profitieren alle davon. Stellen Sie sich vor, wir würden unsere besten Leute verlieren.",
+            "n": "True, but at the end of the day everyone benefits. Imagine we lost our best people."
+          }
         ]
       },
       "prompts": [
-        { "n": "Offer to illustrate your point with an example.", "t": ["Lassen Sie mich das an einem Beispiel verdeutlichen"] },
-        { "n": "Ask what's actually stopping you from just trying it.", "t": ["Was spricht eigentlich dagegen, es einfach auszuprobieren", "Was spricht dagegen, es auszuprobieren"] },
-        { "n": "Say the figures speak for themselves.", "t": ["Die Zahlen sprechen eine eindeutige Sprache"] },
-        { "n": "Conclude that, at the end of the day, everyone benefits.", "t": ["Unterm Strich profitieren alle davon"] }
+        {
+          "n": "Offer to illustrate your point with an example.",
+          "t": [
+            "Lassen Sie mich das an einem Beispiel verdeutlichen"
+          ]
+        },
+        {
+          "n": "Ask what's actually stopping you from just trying it.",
+          "t": [
+            "Was spricht eigentlich dagegen, es einfach auszuprobieren",
+            "Was spricht dagegen, es auszuprobieren"
+          ]
+        },
+        {
+          "n": "Say the figures speak for themselves.",
+          "t": [
+            "Die Zahlen sprechen eine eindeutige Sprache"
+          ]
+        },
+        {
+          "n": "Conclude that, at the end of the day, everyone benefits.",
+          "t": [
+            "Unterm Strich profitieren alle davon"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +135,677 @@
         "body": "Take the wind out of your opponent's sails by naming the objection yourself: Nun könnte man einwenden, dass … Then concede briefly (Das mag sein) and turn it around (aber es greift zu kurz). If you're interrupted, stay calm: say Lassen Sie mich bitte ausreden at a steady volume rather than louder."
       },
       "phrases": [
-        { "t": "Nun könnte man einwenden, dass das zu teuer ist.", "n": "Now one might object that it's too expensive." },
-        { "t": "Das mag sein, aber das Argument greift zu kurz.", "n": "That may be, but the argument falls short." },
-        { "t": "Genau das Gegenteil ist der Fall.", "n": "Exactly the opposite is true." },
-        { "t": "Sie verwechseln hier Ursache und Wirkung.", "n": "You're confusing cause and effect here." },
-        { "t": "Gerade deshalb sollten wir jetzt handeln.", "n": "That's precisely why we should act now." },
-        { "t": "Mit Verlaub, das ist eine Unterstellung.", "n": "With respect, that's an insinuation.", "note": "Mit Verlaub = formal, polite-but-sharp." },
-        { "t": "Lassen Sie mich bitte ausreden.", "n": "Please let me finish." },
-        { "t": "Wer A sagt, muss auch B sagen.", "n": "In for a penny, in for a pound.", "note": "Proverb: if you start something, follow through." }
+        {
+          "t": "Nun könnte man einwenden, dass das zu teuer ist.",
+          "n": "Now one might object that it's too expensive."
+        },
+        {
+          "t": "Das mag sein, aber das Argument greift zu kurz.",
+          "n": "That may be, but the argument falls short."
+        },
+        {
+          "t": "Genau das Gegenteil ist der Fall.",
+          "n": "Exactly the opposite is true."
+        },
+        {
+          "t": "Sie verwechseln hier Ursache und Wirkung.",
+          "n": "You're confusing cause and effect here."
+        },
+        {
+          "t": "Gerade deshalb sollten wir jetzt handeln.",
+          "n": "That's precisely why we should act now."
+        },
+        {
+          "t": "Mit Verlaub, das ist eine Unterstellung.",
+          "n": "With respect, that's an insinuation.",
+          "note": "Mit Verlaub = formal, polite-but-sharp."
+        },
+        {
+          "t": "Lassen Sie mich bitte ausreden.",
+          "n": "Please let me finish."
+        },
+        {
+          "t": "Wer A sagt, muss auch B sagen.",
+          "n": "In for a penny, in for a pound.",
+          "note": "Proverb: if you start something, follow through."
+        }
       ],
       "dialogue": {
         "title": "Debate: a speed limit on the Autobahn",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Lindner", "t": "Ein Tempolimit bringt für das Klima so gut wie nichts. Das ist reine Symbolpolitik.", "n": "A speed limit does next to nothing for the climate. It's pure symbolic politics." },
-          { "who": "you", "t": "Genau das Gegenteil ist der Fall. Studien zeigen deutliche Einsparungen bei den Emissionen.", "n": "Exactly the opposite is true. Studies show clear reductions in emissions." },
-          { "who": "A", "name": "Dr. Lindner", "t": "Studien gibt es viele. Und die Freiheit der Autofahrer ist Ihnen offenbar völlig egal.", "n": "There are plenty of studies. And you obviously don't care at all about drivers' freedom." },
-          { "who": "you", "t": "Mit Verlaub, das ist eine Unterstellung. Nun könnte man einwenden, dass ein Tempolimit die Freiheit einschränkt.", "n": "With respect, that's an insinuation. Now one might object that a speed limit restricts freedom." },
-          { "who": "A", "name": "Dr. Lindner", "t": "Das tut es ja auch! Jeder Eingriff in die Freiheit ist ein Eingriff zu viel, und das wissen Sie genau!", "n": "And it does! Every restriction of freedom is one too many, and you know that full well!" },
-          { "who": "you", "t": "Lassen Sie mich bitte ausreden. Fast alle Nachbarländer haben ein Tempolimit, und dort fühlt sich niemand unfrei.", "n": "Please let me finish. Almost all neighbouring countries have a speed limit, and nobody there feels unfree." },
-          { "who": "A", "name": "Dr. Lindner", "t": "Das mag für die Nachbarn gelten. Aber bei uns gibt es nun mal eine andere Tradition.", "n": "That may apply to our neighbours. But we simply have a different tradition here." },
-          { "who": "you", "t": "Das mag sein, aber das Argument greift zu kurz. Traditionen sind kein Naturgesetz.", "n": "That may be, but the argument falls short. Traditions aren't a law of nature." }
+          {
+            "who": "A",
+            "name": "Dr. Lindner",
+            "t": "Ein Tempolimit bringt für das Klima so gut wie nichts. Das ist reine Symbolpolitik.",
+            "n": "A speed limit does next to nothing for the climate. It's pure symbolic politics."
+          },
+          {
+            "who": "you",
+            "t": "Genau das Gegenteil ist der Fall. Studien zeigen deutliche Einsparungen bei den Emissionen.",
+            "n": "Exactly the opposite is true. Studies show clear reductions in emissions."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lindner",
+            "t": "Studien gibt es viele. Und die Freiheit der Autofahrer ist Ihnen offenbar völlig egal.",
+            "n": "There are plenty of studies. And you obviously don't care at all about drivers' freedom."
+          },
+          {
+            "who": "you",
+            "t": "Mit Verlaub, das ist eine Unterstellung. Nun könnte man einwenden, dass ein Tempolimit die Freiheit einschränkt.",
+            "n": "With respect, that's an insinuation. Now one might object that a speed limit restricts freedom."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lindner",
+            "t": "Das tut es ja auch! Jeder Eingriff in die Freiheit ist ein Eingriff zu viel, und das wissen Sie genau!",
+            "n": "And it does! Every restriction of freedom is one too many, and you know that full well!"
+          },
+          {
+            "who": "you",
+            "t": "Lassen Sie mich bitte ausreden. Fast alle Nachbarländer haben ein Tempolimit, und dort fühlt sich niemand unfrei.",
+            "n": "Please let me finish. Almost all neighbouring countries have a speed limit, and nobody there feels unfree."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lindner",
+            "t": "Das mag für die Nachbarn gelten. Aber bei uns gibt es nun mal eine andere Tradition.",
+            "n": "That may apply to our neighbours. But we simply have a different tradition here."
+          },
+          {
+            "who": "you",
+            "t": "Das mag sein, aber das Argument greift zu kurz. Traditionen sind kein Naturgesetz.",
+            "n": "That may be, but the argument falls short. Traditions aren't a law of nature."
+          }
         ]
       },
       "prompts": [
-        { "n": "Anticipate the objection that it's too expensive.", "t": ["Nun könnte man einwenden, dass das zu teuer ist"] },
-        { "n": "Concede the point, but say the argument falls short.", "t": ["Das mag sein, aber das Argument greift zu kurz", "Das mag sein, aber das greift zu kurz"] },
-        { "n": "Ask firmly to be allowed to finish.", "t": ["Lassen Sie mich bitte ausreden"] },
-        { "n": "Say that's precisely why we should act now.", "t": ["Gerade deshalb sollten wir jetzt handeln"] }
+        {
+          "n": "Anticipate the objection that it's too expensive.",
+          "t": [
+            "Nun könnte man einwenden, dass das zu teuer ist"
+          ]
+        },
+        {
+          "n": "Concede the point, but say the argument falls short.",
+          "t": [
+            "Das mag sein, aber das Argument greift zu kurz",
+            "Das mag sein, aber das greift zu kurz"
+          ]
+        },
+        {
+          "n": "Ask firmly to be allowed to finish.",
+          "t": [
+            "Lassen Sie mich bitte ausreden"
+          ]
+        },
+        {
+          "n": "Say that's precisely why we should act now.",
+          "t": [
+            "Gerade deshalb sollten wir jetzt handeln"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u04-l3",
+      "title": "Making a proposal in committee",
+      "goal": "Table a proposal formally and win support with set phrases (Funktionsverbgefüge).",
+      "tip": {
+        "title": "Noun + verb = formal weight",
+        "body": "Formal debate loves Funktionsverbgefüge — fixed noun-verb pairs like zur Diskussion stellen, in Betracht ziehen, zur Verfügung stellen. They sound weightier than plain verbs (vorschlagen, überlegen), so use them when you address a committee and the simple verb in casual talk."
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte folgenden Vorschlag zur Diskussion stellen.",
+          "n": "I'd like to put the following proposal up for discussion."
+        },
+        {
+          "t": "Ich bitte Sie, diese Option ernsthaft in Betracht zu ziehen.",
+          "n": "I ask you to seriously consider this option."
+        },
+        {
+          "t": "Damit hätten wir gleich zwei Probleme auf einmal gelöst.",
+          "n": "That way we'd have solved two problems at once."
+        },
+        {
+          "t": "Wir sitzen hier doch alle im selben Boot.",
+          "n": "We're all in the same boat here."
+        },
+        {
+          "t": "Ich bin überzeugt, dass sich die Investition auszahlt.",
+          "n": "I'm convinced the investment will pay off."
+        }
+      ],
+      "dialogue": {
+        "title": "At the town council",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Dr. Kühn",
+            "t": "Sie haben das Wort. Was schlagen Sie vor?",
+            "n": "You have the floor. What do you propose?"
+          },
+          {
+            "who": "you",
+            "t": "Ich möchte folgenden Vorschlag zur Diskussion stellen: ein Gemeinschaftsgarten auf dem alten Parkplatz.",
+            "n": "I'd like to put the following proposal up for discussion: a community garden on the old car park."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Kühn",
+            "t": "Und was haben die Bürger davon, außer Arbeit?",
+            "n": "And what do residents get out of it, apart from work?"
+          },
+          {
+            "who": "you",
+            "t": "Mehr Grün und einen Treffpunkt. Damit hätten wir gleich zwei Probleme auf einmal gelöst.",
+            "n": "More green space and a meeting place. That way we'd have solved two problems at once."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Put a proposal up for discussion.",
+          "t": [
+            "Ich möchte folgenden Vorschlag zur Diskussion stellen"
+          ]
+        },
+        {
+          "n": "Ask them to seriously consider this option.",
+          "t": [
+            "Ich bitte Sie, diese Option ernsthaft in Betracht zu ziehen"
+          ]
+        },
+        {
+          "n": "Say you're convinced the investment will pay off.",
+          "t": [
+            "Ich bin überzeugt, dass sich die Investition auszahlt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l4",
+      "kind": "grammar",
+      "title": "Conceding without giving in",
+      "goal": "Use concessive clauses — zwar … aber, obwohl, auch wenn, so … auch — to acknowledge and counter.",
+      "tip": {
+        "title": "Admit the point, keep your position",
+        "body": "obwohl and auch wenn send the verb to the end of their clause; zwar … aber splits a statement into concession and counterpoint; trotzdem and dennoch start the next main clause with the verb second. For emphasis, use so … auch: So gut die Idee auch ist, sie kommt zu spät."
+      },
+      "phrases": [
+        {
+          "t": "Das Projekt ist zwar teuer, aber es lohnt sich.",
+          "n": "The project is expensive, admittedly, but it's worth it."
+        },
+        {
+          "t": "Obwohl die Kosten steigen, halten wir an dem Plan fest.",
+          "n": "Although costs are rising, we're sticking to the plan."
+        },
+        {
+          "t": "Auch wenn Sie das anders sehen, die Zahlen sind eindeutig.",
+          "n": "Even if you see it differently, the figures are clear."
+        },
+        {
+          "t": "So gut die Idee auch ist, sie kommt zu spät.",
+          "n": "However good the idea is, it comes too late."
+        },
+        {
+          "t": "Die Kosten sind hoch. Dennoch sollten wir investieren.",
+          "n": "The costs are high. Nevertheless, we should invest."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the connector",
+          "base": {
+            "t": "Das Projekt ist teuer, aber es lohnt sich.",
+            "n": "The project is expensive, but it's worth it."
+          },
+          "items": [
+            {
+              "cue": "zwar … aber",
+              "t": "Das Projekt ist zwar teuer, aber es lohnt sich.",
+              "n": "The project is admittedly expensive, but it's worth it."
+            },
+            {
+              "cue": "obwohl",
+              "t": "Obwohl das Projekt teuer ist, lohnt es sich.",
+              "n": "Although the project is expensive, it's worth it."
+            },
+            {
+              "cue": "trotzdem",
+              "t": "Das Projekt ist teuer. Trotzdem lohnt es sich.",
+              "n": "The project is expensive. Nevertheless, it's worth it."
+            }
+          ]
+        },
+        {
+          "title": "Swap in so … auch",
+          "base": {
+            "t": "Die Idee ist gut, aber sie kommt zu spät.",
+            "n": "The idea is good, but it comes too late."
+          },
+          "items": [
+            {
+              "cue": "so … auch",
+              "t": "So gut die Idee auch ist, sie kommt zu spät.",
+              "n": "However good the idea is, it comes too late."
+            },
+            {
+              "cue": "so … auch · Vorschlag · kreativ",
+              "t": "So kreativ der Vorschlag auch ist, er kommt zu spät.",
+              "n": "However creative the proposal is, it comes too late."
+            },
+            {
+              "cue": "auch wenn",
+              "t": "Auch wenn die Idee gut ist, kommt sie zu spät.",
+              "n": "Even if the idea is good, it comes too late."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Concede that the project is expensive but say it's worth it (zwar … aber).",
+          "t": [
+            "Das Projekt ist zwar teuer, aber es lohnt sich",
+            "Zwar ist das Projekt teuer, aber es lohnt sich"
+          ]
+        },
+        {
+          "n": "Say: however good the idea is, it comes too late.",
+          "t": [
+            "So gut die Idee auch ist, sie kommt zu spät",
+            "So gut die Idee auch ist, kommt sie zu spät"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l5",
+      "kind": "listening",
+      "title": "Voting Sunday in Zurich",
+      "goal": "Follow a Swiss conversation in which one colleague persuades another.",
+      "phrases": [
+        {
+          "t": "Das überzeugt mich nicht ganz.",
+          "n": "That doesn't quite convince me."
+        },
+        {
+          "t": "Auf lange Sicht zahlt sich das aus.",
+          "n": "In the long run it pays off."
+        },
+        {
+          "t": "Das gibt den Ausschlag.",
+          "n": "That tips the balance."
+        },
+        {
+          "t": "Dann stimme ich Ja.",
+          "n": "Then I'll vote yes."
+        }
+      ],
+      "story": {
+        "title": "Abstimmungssonntag",
+        "intro": "In Zurich, Leni tries to persuade her colleague Jan to vote for a new tram line.",
+        "voice": "de-CH-LeniNeural",
+        "lines": [
+          {
+            "name": "Leni",
+            "t": "Jan, am Sonntag stimmen wir über die neue Tramlinie ab. Du gehst doch hin, oder?",
+            "n": "Jan, we're voting on the new tram line on Sunday. You're going, aren't you?"
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Ehrlich gesagt überzeugt mich das Projekt nicht ganz. Zweihundert Millionen sind viel Geld.",
+            "n": "To be honest, the project doesn't quite convince me. Two hundred million is a lot of money."
+          },
+          {
+            "name": "Leni",
+            "t": "Zwar ist das teuer, aber auf lange Sicht zahlt es sich aus. Die Busse sind jetzt schon überfüllt.",
+            "n": "It's expensive, admittedly, but in the long run it pays off. The buses are already overcrowded."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Das mag sein. Aber die Bauarbeiten dauern sechs Jahre.",
+            "n": "That may be. But the construction will take six years."
+          },
+          {
+            "name": "Leni",
+            "t": "Stimmt. Dafür bist du danach in zwölf Minuten im Büro statt in vierzig.",
+            "n": "True. But afterwards you'll get to the office in twelve minutes instead of forty."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Zwölf statt vierzig? Hm, das gibt wohl den Ausschlag. Dann stimme ich Ja.",
+            "n": "Twelve instead of forty? Hm, that probably tips the balance. Then I'll vote yes."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Worüber wird am Sonntag abgestimmt?",
+            "n": "What is the vote about on Sunday?",
+            "t": [
+              "Über die neue Tramlinie",
+              "Die neue Tramlinie",
+              "Eine Tramlinie"
+            ]
+          },
+          {
+            "q": "Wie lange dauern die Bauarbeiten?",
+            "n": "How long will the construction take?",
+            "t": [
+              "Sechs Jahre"
+            ]
+          },
+          {
+            "q": "Was gibt für Jan den Ausschlag?",
+            "n": "What tips the balance for Jan?",
+            "t": [
+              "Die kürzere Fahrzeit",
+              "Zwölf statt vierzig Minuten",
+              "Der kürzere Weg ins Büro"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u04-l6",
+      "kind": "roleplay",
+      "title": "Before the funding committee",
+      "goal": "Win over a sceptical committee chair — your answers decide the funding.",
+      "phrases": [
+        {
+          "t": "Darf ich gleich auf Ihren Einwand eingehen?",
+          "n": "May I address your objection right away?"
+        },
+        {
+          "t": "Dafür übernehme ich persönlich die Verantwortung.",
+          "n": "I'll take personal responsibility for that."
+        },
+        {
+          "t": "Wir sind gern bereit, Ihnen entgegenzukommen.",
+          "n": "We're happy to meet you halfway."
+        },
+        {
+          "t": "Könnten Sie die Frage etwas präzisieren?",
+          "n": "Could you make the question a little more precise?"
+        }
+      ],
+      "branch": {
+        "title": "Pitching for funding",
+        "scene": "You are asking a foundation’s committee for €80,000 for a language project for young people. The chair is sceptical.",
+        "name": "Vorsitzender Dr. Lorenz",
+        "voice": "de-DE-ConradNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Achtzigtausend Euro für einen Sprachkurs? Das erscheint mir reichlich viel.",
+            "n": "Eighty thousand euros for a language course? That seems rather a lot to me.",
+            "choices": [
+              {
+                "t": "Darf ich gleich auf Ihren Einwand eingehen? Es geht um zweihundert Jugendliche über zwei Jahre.",
+                "n": "May I address your objection right away? We're talking about two hundred young people over two years.",
+                "next": "numbers"
+              },
+              {
+                "t": "Andere Projekte bekommen doch auch so viel.",
+                "n": "Other projects get that much too.",
+                "next": "compare"
+              }
+            ]
+          },
+          "compare": {
+            "t": "Andere Projekte interessieren mich hier nicht. Überzeugen Sie mich von Ihrem.",
+            "n": "Other projects don't interest me here. Convince me of yours.",
+            "choices": [
+              {
+                "t": "Selbstverständlich. Es geht um zweihundert Jugendliche über zwei Jahre.",
+                "n": "Of course. We're talking about two hundred young people over two years.",
+                "next": "numbers"
+              },
+              {
+                "t": "Wenn Sie das nicht verstehen, kann ich Ihnen auch nicht helfen.",
+                "n": "If you don't understand that, I can't help you.",
+                "next": "bad"
+              }
+            ]
+          },
+          "numbers": {
+            "t": "Das sind immerhin zweihundert Euro pro Kopf und Jahr. Aber woher wissen Sie, dass es wirkt?",
+            "n": "That's two hundred euros per head per year, granted. But how do you know it works?",
+            "choices": [
+              {
+                "t": "Im Pilotprojekt haben achtzig Prozent die Prüfung bestanden.",
+                "n": "In the pilot project, eighty percent passed the exam.",
+                "next": "risk"
+              },
+              {
+                "t": "Könnten Sie die Frage etwas präzisieren? Meinen Sie den Lernerfolg oder die Integration?",
+                "n": "Could you make the question more precise? Do you mean learning success or integration?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Beides, aber vor allem den Lernerfolg.",
+            "n": "Both, but above all learning success.",
+            "choices": [
+              {
+                "t": "Im Pilotprojekt haben achtzig Prozent die Prüfung bestanden.",
+                "n": "In the pilot project, eighty percent passed the exam.",
+                "next": "risk"
+              }
+            ]
+          },
+          "risk": {
+            "t": "Beachtlich. Trotzdem: Was passiert, wenn die Teilnehmerzahlen einbrechen?",
+            "n": "Impressive. Still: what happens if participant numbers collapse?",
+            "choices": [
+              {
+                "t": "Dafür übernehme ich persönlich die Verantwortung. Und wir sind gern bereit, Ihnen entgegenzukommen: erst ein Jahr, dann eine Zwischenbilanz.",
+                "n": "I'll take personal responsibility for that. And we're happy to meet you halfway: one year first, then an interim review.",
+                "next": "good"
+              },
+              {
+                "t": "Das wird nicht passieren, glauben Sie mir einfach.",
+                "n": "That won't happen, just trust me.",
+                "next": "doubt"
+              }
+            ]
+          },
+          "doubt": {
+            "t": "Mit „Glauben Sie mir“ kann ich im Ausschuss wenig anfangen.",
+            "n": "I can't do much with 'trust me' in committee.",
+            "choices": [
+              {
+                "t": "Verständlich. Dann schlage ich eine Förderung für ein Jahr mit Zwischenbilanz vor.",
+                "n": "Understandable. Then I propose funding for one year with an interim review.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Das klingt fair. Ich werde dem Ausschuss empfehlen, das erste Jahr zu fördern.",
+            "n": "That sounds fair. I will recommend that the committee fund the first year.",
+            "end": "good",
+            "outcome": "You handled every objection calmly and won funding for the first year."
+          },
+          "bad": {
+            "t": "Ich denke, wir sind hier fertig. Der Nächste, bitte.",
+            "n": "I think we're done here. Next, please.",
+            "end": "bad",
+            "outcome": "You lost your composure — committees reward calm answers to tough questions."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask if you may address their objection right away.",
+          "t": [
+            "Darf ich gleich auf Ihren Einwand eingehen",
+            "Darf ich auf Ihren Einwand eingehen"
+          ]
+        },
+        {
+          "n": "Say you're happy to meet them halfway.",
+          "t": [
+            "Wir sind gern bereit, Ihnen entgegenzukommen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l7",
+      "kind": "speaking",
+      "title": "Make your case",
+      "goal": "Argue for a proposal and rebut an objection freely for a minute or more.",
+      "culture": {
+        "title": "Abstimmen in der Schweiz",
+        "body": "Swiss citizens vote on national issues about four times a year, and 100,000 signatures are enough to force a popular vote on a constitutional amendment. Before each vote, every household receives an official booklet with the arguments for and against, and campaigns are fought with posters and public debates. Persuading — and losing a vote gracefully — is a civic skill.",
+        "regions": [
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte Sie für diese Idee gewinnen.",
+          "n": "I'd like to win you over to this idea."
+        },
+        {
+          "t": "Das Argument hat mich überzeugt.",
+          "n": "That argument convinced me."
+        },
+        {
+          "t": "Geben Sie der Sache eine Chance.",
+          "n": "Give it a chance."
+        },
+        {
+          "t": "Am Ende entscheidet die Mehrheit.",
+          "n": "In the end, the majority decides."
+        }
+      ],
+      "free": [
+        {
+          "n": "Persuade your town council to build a new cycle path. Use a claim, a reason, an example and a conclusion.",
+          "hint": "Ich möchte Sie für … gewinnen. / Zwar … aber … / Stellen Sie sich vor … / Unterm Strich …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a proposal",
+              "any": [
+                "vorschlag",
+                "schlage vor",
+                "radweg*",
+                "gewinnen",
+                "ich möchte"
+              ]
+            },
+            {
+              "label": "a concession",
+              "any": [
+                "zwar",
+                "obwohl",
+                "auch wenn",
+                "das mag sein",
+                "dennoch",
+                "trotzdem"
+              ]
+            },
+            {
+              "label": "an example or figure",
+              "any": [
+                "zum beispiel",
+                "beispielsweise",
+                "prozent",
+                "stellen sie sich vor",
+                "etwa"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "unterm strich",
+                "letztlich",
+                "deshalb",
+                "alles in allem",
+                "profitieren"
+              ]
+            }
+          ],
+          "model": "Ich möchte Sie für einen neuen Radweg zur Schule gewinnen. Zwar kostet er rund eine Million, aber stellen Sie sich vor, dreihundert Kinder könnten sicher mit dem Rad fahren. In Freiburg ist der Autoverkehr dadurch um zwanzig Prozent gesunken. Unterm Strich profitieren alle davon."
+        },
+        {
+          "n": "A sceptic says your idea is too expensive. Concede the point, then turn it around.",
+          "hint": "Das mag sein, aber … / Auch wenn …, … / So teuer … auch ist, … / Gerade deshalb …",
+          "seconds": 60,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a concession",
+              "any": [
+                "das mag sein",
+                "zwar",
+                "auch wenn",
+                "obwohl",
+                "sie haben recht",
+                "stimmt"
+              ]
+            },
+            {
+              "label": "a counterargument",
+              "any": [
+                "aber",
+                "jedoch",
+                "allerdings",
+                "dennoch",
+                "trotzdem",
+                "gerade deshalb"
+              ]
+            },
+            {
+              "label": "a long-term view",
+              "any": [
+                "langfristig",
+                "auf lange sicht",
+                "zukunft",
+                "später",
+                "jahren",
+                "auszahl*"
+              ]
+            }
+          ],
+          "model": "Das mag sein, die Anfangskosten sind hoch. Aber so teuer das Projekt auch ist, langfristig sparen wir Geld, weil die Wartung billiger wird. Gerade deshalb sollten wir jetzt investieren, statt in zehn Jahren das Doppelte zu zahlen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'd like to win them over to this idea.",
+          "t": [
+            "Ich möchte Sie für diese Idee gewinnen"
+          ]
+        },
+        {
+          "n": "Say that argument convinced you.",
+          "t": [
+            "Das Argument hat mich überzeugt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Überzeugen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

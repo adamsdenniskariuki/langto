@@ -13,34 +13,117 @@
         "body": "In spoken German, stories usually run in the Perfekt, but switching to the present tense at the dramatic moment (und auf einmal steht da …) pulls listeners in. Hooks like Du wirst nicht glauben, was dann passiert ist build suspense. Speed up during the action, then pause just before the twist and let it drop."
       },
       "phrases": [
-        { "t": "Das war vielleicht ein Tag, sag ich dir!", "n": "What a day that was, I tell you!", "note": "vielleicht here = emphatic, not 'maybe'." },
-        { "t": "Ich ahnte noch nichts Böses.", "n": "I didn't suspect a thing yet." },
-        { "t": "Und auf einmal steht da dieser Typ vor mir.", "n": "And suddenly there's this guy standing in front of me.", "note": "Present tense for vividness." },
-        { "t": "Mir ist fast das Herz stehen geblieben.", "n": "My heart almost stopped." },
-        { "t": "Du wirst nicht glauben, was dann passiert ist.", "n": "You won't believe what happened next." },
-        { "t": "Im Nachhinein kann ich darüber lachen.", "n": "Looking back, I can laugh about it." },
-        { "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst.", "n": "Long story short: we missed the flight." },
-        { "t": "Und jetzt kommt der Clou.", "n": "And now comes the best part." }
+        {
+          "t": "Das war vielleicht ein Tag, sag ich dir!",
+          "n": "What a day that was, I tell you!",
+          "note": "vielleicht here = emphatic, not 'maybe'."
+        },
+        {
+          "t": "Ich ahnte noch nichts Böses.",
+          "n": "I didn't suspect a thing yet."
+        },
+        {
+          "t": "Und auf einmal steht da dieser Typ vor mir.",
+          "n": "And suddenly there's this guy standing in front of me.",
+          "note": "Present tense for vividness."
+        },
+        {
+          "t": "Mir ist fast das Herz stehen geblieben.",
+          "n": "My heart almost stopped."
+        },
+        {
+          "t": "Du wirst nicht glauben, was dann passiert ist.",
+          "n": "You won't believe what happened next."
+        },
+        {
+          "t": "Im Nachhinein kann ich darüber lachen.",
+          "n": "Looking back, I can laugh about it."
+        },
+        {
+          "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst.",
+          "n": "Long story short: we missed the flight."
+        },
+        {
+          "t": "Und jetzt kommt der Clou.",
+          "n": "And now comes the best part."
+        }
       ],
       "dialogue": {
         "title": "The trip to Lisbon",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Jana", "t": "Na, wie war eure Reise nach Lissabon? Erzähl mal!", "n": "So, how was your trip to Lisbon? Tell me!" },
-          { "who": "you", "t": "Das war vielleicht ein Tag, sag ich dir! Wir standen am Flughafen und ahnten noch nichts Böses.", "n": "What a day that was, I tell you! We were standing at the airport, not suspecting a thing." },
-          { "who": "A", "name": "Jana", "t": "Oh nein, das klingt nach Drama. Was ist passiert?", "n": "Oh no, that sounds like drama. What happened?" },
-          { "who": "you", "t": "Ich greife in die Tasche, und der Pass ist weg. Mir ist fast das Herz stehen geblieben.", "n": "I reach into my bag, and my passport's gone. My heart almost stopped." },
-          { "who": "A", "name": "Jana", "t": "Ach du Schreck! Und dann? Hast du ihn wiedergefunden?", "n": "Oh my goodness! And then? Did you find it again?" },
-          { "who": "you", "t": "Und jetzt kommt der Clou: Er steckte die ganze Zeit in meiner Jacke!", "n": "And now comes the best part: it was in my jacket the whole time!" },
-          { "who": "A", "name": "Jana", "t": "Nicht dein Ernst! Und habt ihr den Flug noch erwischt?", "n": "You're kidding! And did you still catch the flight?" },
-          { "who": "you", "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst. Im Nachhinein kann ich darüber lachen.", "n": "Long story short: we missed the flight. Looking back, I can laugh about it." }
+          {
+            "who": "A",
+            "name": "Jana",
+            "t": "Na, wie war eure Reise nach Lissabon? Erzähl mal!",
+            "n": "So, how was your trip to Lisbon? Tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Das war vielleicht ein Tag, sag ich dir! Wir standen am Flughafen und ahnten noch nichts Böses.",
+            "n": "What a day that was, I tell you! We were standing at the airport, not suspecting a thing."
+          },
+          {
+            "who": "A",
+            "name": "Jana",
+            "t": "Oh nein, das klingt nach Drama. Was ist passiert?",
+            "n": "Oh no, that sounds like drama. What happened?"
+          },
+          {
+            "who": "you",
+            "t": "Ich greife in die Tasche, und der Pass ist weg. Mir ist fast das Herz stehen geblieben.",
+            "n": "I reach into my bag, and my passport's gone. My heart almost stopped."
+          },
+          {
+            "who": "A",
+            "name": "Jana",
+            "t": "Ach du Schreck! Und dann? Hast du ihn wiedergefunden?",
+            "n": "Oh my goodness! And then? Did you find it again?"
+          },
+          {
+            "who": "you",
+            "t": "Und jetzt kommt der Clou: Er steckte die ganze Zeit in meiner Jacke!",
+            "n": "And now comes the best part: it was in my jacket the whole time!"
+          },
+          {
+            "who": "A",
+            "name": "Jana",
+            "t": "Nicht dein Ernst! Und habt ihr den Flug noch erwischt?",
+            "n": "You're kidding! And did you still catch the flight?"
+          },
+          {
+            "who": "you",
+            "t": "Lange Rede, kurzer Sinn: Wir haben den Flug verpasst. Im Nachhinein kann ich darüber lachen.",
+            "n": "Long story short: we missed the flight. Looking back, I can laugh about it."
+          }
         ]
       },
       "prompts": [
-        { "n": "Tell your friend they won't believe what happened next.", "t": ["Du wirst nicht glauben, was dann passiert ist"] },
-        { "n": "Say your heart almost stopped.", "t": ["Mir ist fast das Herz stehen geblieben"] },
-        { "n": "Sum it up: long story short, you missed the flight.", "t": ["Lange Rede, kurzer Sinn, wir haben den Flug verpasst", "Wir haben den Flug verpasst"] },
-        { "n": "Say that looking back you can laugh about it.", "t": ["Im Nachhinein kann ich darüber lachen"] }
+        {
+          "n": "Tell your friend they won't believe what happened next.",
+          "t": [
+            "Du wirst nicht glauben, was dann passiert ist"
+          ]
+        },
+        {
+          "n": "Say your heart almost stopped.",
+          "t": [
+            "Mir ist fast das Herz stehen geblieben"
+          ]
+        },
+        {
+          "n": "Sum it up: long story short, you missed the flight.",
+          "t": [
+            "Lange Rede, kurzer Sinn, wir haben den Flug verpasst",
+            "Wir haben den Flug verpasst"
+          ]
+        },
+        {
+          "n": "Say that looking back you can laugh about it.",
+          "t": [
+            "Im Nachhinein kann ich darüber lachen"
+          ]
+        }
       ]
     },
     {
@@ -52,36 +135,715 @@
         "body": "Redewendungen like ins Fettnäpfchen treten or nur Bahnhof verstehen make your German colourful, but they belong in casual conversation, not in a report. Germans love dry self-irony. For comic timing, pause briefly before the punchline and say it in a flat, deadpan tone."
       },
       "phrases": [
-        { "t": "Da bin ich mal wieder ins Fettnäpfchen getreten.", "n": "I put my foot in it again.", "note": "Fettnäpfchen = a social blunder." },
-        { "t": "Ich habe nur Bahnhof verstanden.", "n": "It was all Greek to me." },
-        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem.", "note": "Colloquial." },
-        { "t": "Da hatten wir den Salat!", "n": "Now we were in a right mess!" },
-        { "t": "Ich drücke dir die Daumen.", "n": "I'll keep my fingers crossed for you." },
-        { "t": "Jetzt mal Butter bei die Fische!", "n": "Come on, get to the point!", "note": "Northern German, deliberately ungrammatical and jokey." },
-        { "t": "Er hat mal wieder den Vogel abgeschossen.", "n": "He's really outdone himself this time.", "note": "Often ironic: did something outrageous." },
-        { "t": "Da lachen ja die Hühner!", "n": "Don't make me laugh!" }
+        {
+          "t": "Da bin ich mal wieder ins Fettnäpfchen getreten.",
+          "n": "I put my foot in it again.",
+          "note": "Fettnäpfchen = a social blunder."
+        },
+        {
+          "t": "Ich habe nur Bahnhof verstanden.",
+          "n": "It was all Greek to me."
+        },
+        {
+          "t": "Das ist nicht mein Bier.",
+          "n": "That's not my problem.",
+          "note": "Colloquial."
+        },
+        {
+          "t": "Da hatten wir den Salat!",
+          "n": "Now we were in a right mess!"
+        },
+        {
+          "t": "Ich drücke dir die Daumen.",
+          "n": "I'll keep my fingers crossed for you."
+        },
+        {
+          "t": "Jetzt mal Butter bei die Fische!",
+          "n": "Come on, get to the point!",
+          "note": "Northern German, deliberately ungrammatical and jokey."
+        },
+        {
+          "t": "Er hat mal wieder den Vogel abgeschossen.",
+          "n": "He's really outdone himself this time.",
+          "note": "Often ironic: did something outrageous."
+        },
+        {
+          "t": "Da lachen ja die Hühner!",
+          "n": "Don't make me laugh!"
+        }
       ],
       "dialogue": {
         "title": "The office party",
         "lines": [
-          { "who": "A", "name": "Ralf", "t": "Und, wie war die Weihnachtsfeier? Ich lag ja leider mit Grippe im Bett.", "n": "So, how was the Christmas party? Unfortunately I was in bed with flu." },
-          { "who": "you", "t": "Ach, da bin ich mal wieder ins Fettnäpfchen getreten.", "n": "Oh, I put my foot in it again." },
-          { "who": "A", "name": "Ralf", "t": "Oh, das klingt vielversprechend. Jetzt mal Butter bei die Fische!", "n": "Oh, that sounds promising. Come on, spill the beans!" },
-          { "who": "you", "t": "Ich habe die Frau vom Chef für die Kellnerin gehalten und bei ihr ein Bier bestellt.", "n": "I mistook the boss's wife for the waitress and ordered a beer from her." },
-          { "who": "A", "name": "Ralf", "t": "Nein! Und was hat sie gesagt?", "n": "No! And what did she say?" },
-          { "who": "you", "t": "Sie meinte nur ganz trocken: Das ist nicht mein Bier.", "n": "She just said, completely deadpan: That's not my problem." },
-          { "who": "A", "name": "Ralf", "t": "Herrlich! Und der Chef? Hat er das mitbekommen?", "n": "Brilliant! And the boss? Did he notice?" },
-          { "who": "you", "t": "Natürlich, er stand direkt daneben. Da hatten wir den Salat!", "n": "Of course, he was standing right next to her. Now we were in a right mess!" },
-          { "who": "A", "name": "Ralf", "t": "Und nächste Woche hast du ausgerechnet dein Jahresgespräch mit ihm, oder?", "n": "And next week of all times you've got your annual review with him, right?" },
-          { "who": "you", "t": "Genau. Drück mir die Daumen!", "n": "Exactly. Keep your fingers crossed for me!" }
+          {
+            "who": "A",
+            "name": "Ralf",
+            "t": "Und, wie war die Weihnachtsfeier? Ich lag ja leider mit Grippe im Bett.",
+            "n": "So, how was the Christmas party? Unfortunately I was in bed with flu."
+          },
+          {
+            "who": "you",
+            "t": "Ach, da bin ich mal wieder ins Fettnäpfchen getreten.",
+            "n": "Oh, I put my foot in it again."
+          },
+          {
+            "who": "A",
+            "name": "Ralf",
+            "t": "Oh, das klingt vielversprechend. Jetzt mal Butter bei die Fische!",
+            "n": "Oh, that sounds promising. Come on, spill the beans!"
+          },
+          {
+            "who": "you",
+            "t": "Ich habe die Frau vom Chef für die Kellnerin gehalten und bei ihr ein Bier bestellt.",
+            "n": "I mistook the boss's wife for the waitress and ordered a beer from her."
+          },
+          {
+            "who": "A",
+            "name": "Ralf",
+            "t": "Nein! Und was hat sie gesagt?",
+            "n": "No! And what did she say?"
+          },
+          {
+            "who": "you",
+            "t": "Sie meinte nur ganz trocken: Das ist nicht mein Bier.",
+            "n": "She just said, completely deadpan: That's not my problem."
+          },
+          {
+            "who": "A",
+            "name": "Ralf",
+            "t": "Herrlich! Und der Chef? Hat er das mitbekommen?",
+            "n": "Brilliant! And the boss? Did he notice?"
+          },
+          {
+            "who": "you",
+            "t": "Natürlich, er stand direkt daneben. Da hatten wir den Salat!",
+            "n": "Of course, he was standing right next to her. Now we were in a right mess!"
+          },
+          {
+            "who": "A",
+            "name": "Ralf",
+            "t": "Und nächste Woche hast du ausgerechnet dein Jahresgespräch mit ihm, oder?",
+            "n": "And next week of all times you've got your annual review with him, right?"
+          },
+          {
+            "who": "you",
+            "t": "Genau. Drück mir die Daumen!",
+            "n": "Exactly. Keep your fingers crossed for me!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you put your foot in it again.", "t": ["Da bin ich mal wieder ins Fettnäpfchen getreten", "Ich bin ins Fettnäpfchen getreten"] },
-        { "n": "Say it was all Greek to you.", "t": ["Ich habe nur Bahnhof verstanden", "Ich verstehe nur Bahnhof"] },
-        { "n": "Wish a friend luck the German way.", "t": ["Ich drücke dir die Daumen"] },
-        { "n": "Say idiomatically that it's not your problem.", "t": ["Das ist nicht mein Bier"] }
+        {
+          "n": "Say you put your foot in it again.",
+          "t": [
+            "Da bin ich mal wieder ins Fettnäpfchen getreten",
+            "Ich bin ins Fettnäpfchen getreten"
+          ]
+        },
+        {
+          "n": "Say it was all Greek to you.",
+          "t": [
+            "Ich habe nur Bahnhof verstanden",
+            "Ich verstehe nur Bahnhof"
+          ]
+        },
+        {
+          "n": "Wish a friend luck the German way.",
+          "t": [
+            "Ich drücke dir die Daumen"
+          ]
+        },
+        {
+          "n": "Say idiomatically that it's not your problem.",
+          "t": [
+            "Das ist nicht mein Bier"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u07-l3",
+      "title": "Listening and reacting to stories",
+      "goal": "Keep a storyteller going with lively reactions and link in your own story.",
+      "tip": {
+        "title": "Good listeners talk too",
+        "body": "German storytelling is a duet: listeners react with Das gibt’s doch nicht!, Erzähl weiter! or Und dann? to show interest. To take over, bridge with Das erinnert mich an … Put real surprise into your voice — a flat Aha sounds bored rather than polite."
+      },
+      "phrases": [
+        {
+          "t": "Erzähl weiter, ich bin ganz Ohr!",
+          "n": "Go on, I'm all ears!"
+        },
+        {
+          "t": "Das gibt’s doch nicht!",
+          "n": "You're kidding!"
+        },
+        {
+          "t": "Das hätte ich dir nie zugetraut!",
+          "n": "I never thought you had it in you!"
+        },
+        {
+          "t": "Wie ist die Sache denn ausgegangen?",
+          "n": "So how did it all end?"
+        },
+        {
+          "t": "Ich habe mich kaputtgelacht.",
+          "n": "I nearly died laughing.",
+          "note": "Colloquial."
+        },
+        {
+          "t": "Das erinnert mich an eine Geschichte, die mir neulich passiert ist.",
+          "n": "That reminds me of something that happened to me recently."
+        }
+      ],
+      "dialogue": {
+        "title": "Stuck in the lift",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Stell dir vor, ich bin gestern im Aufzug stecken geblieben – mit meinem Ex!",
+            "n": "Imagine, I got stuck in the lift yesterday — with my ex!"
+          },
+          {
+            "who": "you",
+            "t": "Das gibt’s doch nicht! Erzähl weiter, ich bin ganz Ohr!",
+            "n": "You're kidding! Go on, I'm all ears!"
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Zwei Stunden lang! Am Ende haben wir uns sogar richtig gut unterhalten.",
+            "n": "For two hours! In the end we actually had a really good chat."
+          },
+          {
+            "who": "you",
+            "t": "Das erinnert mich an eine Geschichte, die mir neulich passiert ist.",
+            "n": "That reminds me of something that happened to me recently."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Encourage a friend to keep telling — you're all ears.",
+          "t": [
+            "Erzähl weiter, ich bin ganz Ohr",
+            "Erzähl weiter"
+          ]
+        },
+        {
+          "n": "Ask how the whole thing ended.",
+          "t": [
+            "Wie ist die Sache denn ausgegangen",
+            "Wie ist die Sache ausgegangen"
+          ]
+        },
+        {
+          "n": "Say it reminds you of something that happened to you recently.",
+          "t": [
+            "Das erinnert mich an eine Geschichte, die mir neulich passiert ist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l4",
+      "kind": "grammar",
+      "title": "Präteritum and Plusquamperfekt",
+      "goal": "Narrate in a polished style and show what had happened before.",
+      "tip": {
+        "title": "Two past tenses for real narration",
+        "body": "Polished or written stories use the Präteritum: ich ging, er stand, wir fuhren. For events that happened even earlier, use the Plusquamperfekt — hatte or war + participle: Als ich ankam, war der Zug schon abgefahren. After nachdem with a Präteritum main clause, the Plusquamperfekt is required."
+      },
+      "phrases": [
+        {
+          "t": "Als ich am Bahnhof ankam, war der Zug schon abgefahren.",
+          "n": "When I arrived at the station, the train had already left."
+        },
+        {
+          "t": "Nachdem wir stundenlang gesucht hatten, fanden wir endlich den Schlüssel.",
+          "n": "After we had searched for hours, we finally found the key."
+        },
+        {
+          "t": "Sie hatte mich gewarnt, aber ich hörte nicht auf sie.",
+          "n": "She had warned me, but I didn't listen to her."
+        },
+        {
+          "t": "Es war eine stürmische Nacht, und niemand ahnte etwas.",
+          "n": "It was a stormy night, and nobody suspected a thing."
+        },
+        {
+          "t": "Kaum hatte er die Tür geöffnet, ging das Licht aus.",
+          "n": "No sooner had he opened the door than the light went out."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap Perfekt → Präteritum",
+          "base": {
+            "t": "Ich bin nach Hause gegangen.",
+            "n": "I went home. (spoken Perfekt)"
+          },
+          "items": [
+            {
+              "cue": "Präteritum",
+              "t": "Ich ging nach Hause.",
+              "n": "I went home."
+            },
+            {
+              "cue": "wir · fahren",
+              "t": "Wir fuhren nach Hause.",
+              "n": "We drove home."
+            },
+            {
+              "cue": "er · laufen",
+              "t": "Er lief nach Hause.",
+              "n": "He ran home."
+            }
+          ]
+        },
+        {
+          "title": "Swap the earlier event",
+          "base": {
+            "t": "Als ich ankam, war der Zug schon abgefahren.",
+            "n": "When I arrived, the train had already left."
+          },
+          "items": [
+            {
+              "cue": "die Gäste · gehen",
+              "t": "Als ich ankam, waren die Gäste schon gegangen.",
+              "n": "When I arrived, the guests had already left."
+            },
+            {
+              "cue": "der Film · beginnen",
+              "t": "Als ich ankam, hatte der Film schon begonnen.",
+              "n": "When I arrived, the film had already started."
+            },
+            {
+              "cue": "meine Schwester · alles aufessen",
+              "t": "Als ich ankam, hatte meine Schwester schon alles aufgegessen.",
+              "n": "When I arrived, my sister had already eaten everything."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that after searching for hours, you finally found the key.",
+          "t": [
+            "Nachdem wir stundenlang gesucht hatten, fanden wir endlich den Schlüssel",
+            "Nachdem ich stundenlang gesucht hatte, fand ich endlich den Schlüssel"
+          ]
+        },
+        {
+          "n": "Say the train had already left when you arrived at the station.",
+          "t": [
+            "Als ich am Bahnhof ankam, war der Zug schon abgefahren",
+            "Als ich ankam, war der Zug schon abgefahren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l5",
+      "kind": "listening",
+      "title": "Grandpa’s Opera Ball story",
+      "goal": "Follow a family anecdote told in the Präteritum.",
+      "phrases": [
+        {
+          "t": "Erzähl doch noch mal die Geschichte!",
+          "n": "Tell the story one more time!"
+        },
+        {
+          "t": "Ich hatte noch nie einen Frack getragen.",
+          "n": "I had never worn tails before."
+        },
+        {
+          "t": "Er lachte nur.",
+          "n": "He just laughed."
+        },
+        {
+          "t": "Lass mich raten!",
+          "n": "Let me guess!"
+        }
+      ],
+      "story": {
+        "title": "Der Opernball",
+        "intro": "In Vienna, Sophie asks her grandfather to retell a family story.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Sophie",
+            "voice": "de-AT-IngridNeural",
+            "t": "Opa, erzähl doch noch mal die Geschichte vom Opernball!",
+            "n": "Grandpa, tell the Opera Ball story one more time!"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-AT-JonasNeural",
+            "t": "Ach, das war neunzehnhundertachtundsechzig. Ich war damals Kellner und hatte noch nie einen Frack getragen.",
+            "n": "Oh, that was 1968. I was a waiter back then and had never worn tails before."
+          },
+          {
+            "name": "Sophie",
+            "voice": "de-AT-IngridNeural",
+            "t": "Und gleich am ersten Abend hast du die Oma kennengelernt, oder?",
+            "n": "And on the very first evening you met Grandma, right?"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-AT-JonasNeural",
+            "t": "Langsam! Zuerst verschüttete ich ein ganzes Tablett Sekt über einen Minister.",
+            "n": "Slow down! First I spilled a whole tray of sparkling wine over a minister."
+          },
+          {
+            "name": "Sophie",
+            "voice": "de-AT-IngridNeural",
+            "t": "Nein! Und was hat der gemacht?",
+            "n": "No! And what did he do?"
+          },
+          {
+            "name": "Opa Karl",
+            "voice": "de-AT-JonasNeural",
+            "t": "Er lachte nur und meinte, er habe ohnehin zu viel getrunken. Und die junge Dame neben ihm reichte mir eine Serviette.",
+            "n": "He just laughed and said he'd had too much to drink anyway. And the young lady next to him handed me a napkin."
+          },
+          {
+            "name": "Sophie",
+            "voice": "de-AT-IngridNeural",
+            "t": "Lass mich raten: Das war die Oma!",
+            "n": "Let me guess: that was Grandma!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was war Opa Karl damals von Beruf?",
+            "n": "What was Grandpa Karl’s job back then?",
+            "t": [
+              "Kellner",
+              "Er war Kellner"
+            ]
+          },
+          {
+            "q": "Über wen verschüttete er den Sekt?",
+            "n": "Who did he spill the sparkling wine over?",
+            "t": [
+              "Über einen Minister",
+              "Einen Minister"
+            ]
+          },
+          {
+            "q": "Wer reichte ihm eine Serviette?",
+            "n": "Who handed him a napkin?",
+            "t": [
+              "Die Oma",
+              "Die junge Dame",
+              "Seine spätere Frau"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u07-l6",
+      "kind": "roleplay",
+      "title": "Your story on the radio",
+      "goal": "Tell an anecdote live on air — build suspense and land the punchline.",
+      "phrases": [
+        {
+          "t": "Sie werden nicht glauben, was damit passiert ist.",
+          "n": "You won't believe what happened to it."
+        },
+        {
+          "t": "Auf einmal rutscht ihm das Klavier aus der Hand.",
+          "n": "Suddenly the piano slips out of his hands."
+        },
+        {
+          "t": "Zum Glück wurde niemand verletzt.",
+          "n": "Luckily nobody was hurt."
+        },
+        {
+          "t": "Die Leitung rauscht.",
+          "n": "The line is crackling."
+        }
+      ],
+      "branch": {
+        "title": "Hörergeschichten",
+        "scene": "A local radio station invited you to tell the story of your most chaotic house move, live on air.",
+        "name": "Frau Kühn (Moderatorin)",
+        "voice": "de-DE-KatjaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Willkommen bei Hörergeschichten! Sie haben uns geschrieben, Sie hätten den kuriosesten Umzug aller Zeiten erlebt. Erzählen Sie!",
+            "n": "Welcome to Listeners’ Stories! You wrote to us that you’d had the strangest house move ever. Tell us!",
+            "choices": [
+              {
+                "t": "Gern! Ich ahnte noch nichts Böses, als die Möbelpacker unser Klavier die Treppe hochtrugen.",
+                "n": "Gladly! I suspected nothing when the movers carried our piano up the stairs.",
+                "next": "piano"
+              },
+              {
+                "t": "Ähm, eigentlich war alles ganz normal.",
+                "n": "Um, actually everything was quite normal.",
+                "next": "flat"
+              }
+            ]
+          },
+          "flat": {
+            "t": "Aber in Ihrer Mail war doch von einem Klavier die Rede!",
+            "n": "But your email mentioned a piano!",
+            "choices": [
+              {
+                "t": "Ach ja, das Klavier! Sie werden nicht glauben, was damit passiert ist.",
+                "n": "Oh yes, the piano! You won't believe what happened to it.",
+                "next": "piano"
+              },
+              {
+                "t": "Ach, das ist nicht so wichtig.",
+                "n": "Oh, that's not so important.",
+                "next": "bad"
+              }
+            ]
+          },
+          "piano": {
+            "t": "Das klingt spannend! Was ist denn passiert?",
+            "n": "That sounds exciting! So what happened?",
+            "choices": [
+              {
+                "t": "Auf einmal rutscht einem Packer das Klavier aus der Hand und kracht durchs Geländer.",
+                "n": "Suddenly the piano slips out of a mover’s hands and crashes through the banister.",
+                "next": "crash"
+              },
+              {
+                "t": "Wie bitte? Die Leitung rauscht ein bisschen.",
+                "n": "Pardon? The line is crackling a bit.",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Kein Problem! Ich wollte wissen, was mit dem Klavier passiert ist.",
+            "n": "No problem! I wanted to know what happened to the piano.",
+            "choices": [
+              {
+                "t": "Auf einmal rutscht einem Packer das Klavier aus der Hand und kracht durchs Geländer.",
+                "n": "Suddenly the piano slips out of a mover’s hands and crashes through the banister.",
+                "next": "crash"
+              }
+            ]
+          },
+          "crash": {
+            "t": "Um Himmels willen! Wurde jemand verletzt?",
+            "n": "Good heavens! Was anyone hurt?",
+            "choices": [
+              {
+                "t": "Zum Glück wurde niemand verletzt. Und jetzt kommt der Clou: Unten stand zufällig ein Klavierstimmer.",
+                "n": "Luckily nobody was hurt. And now comes the best part: a piano tuner happened to be standing downstairs.",
+                "next": "clou"
+              },
+              {
+                "t": "Nein, aber mir ist fast das Herz stehen geblieben. Lange Rede, kurzer Sinn: Das Klavier war hin.",
+                "n": "No, but my heart almost stopped. Long story short: the piano was done for.",
+                "next": "good"
+              }
+            ]
+          },
+          "clou": {
+            "t": "Das gibt’s doch nicht! Und was hat er gesagt?",
+            "n": "You're kidding! And what did he say?",
+            "choices": [
+              {
+                "t": "Er meinte ganz trocken, jetzt sei es wenigstens verstimmt genug für Jazz.",
+                "n": "He said, completely deadpan, that at least it was now out of tune enough for jazz.",
+                "next": "good"
+              },
+              {
+                "t": "Er bot mir an, es zu reparieren – und heute ist er mein Nachbar.",
+                "n": "He offered to repair it — and today he's my neighbour.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Herrlich erzählt! Vielen Dank, dass Sie Ihre Geschichte mit uns geteilt haben.",
+            "n": "Wonderfully told! Thank you for sharing your story with us.",
+            "end": "good",
+            "outcome": "You built suspense and delivered the punchline — the listeners loved it."
+          },
+          "bad": {
+            "t": "Schade … Dann spielen wir jetzt wohl lieber Musik.",
+            "n": "Pity … then I suppose we'd better play some music.",
+            "end": "bad",
+            "outcome": "You killed the story before the punchline — build suspense and deliver the twist."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the radio host that luckily nobody was hurt.",
+          "t": [
+            "Zum Glück wurde niemand verletzt"
+          ]
+        },
+        {
+          "n": "Tell the host (formally) they won't believe what happened to it.",
+          "t": [
+            "Sie werden nicht glauben, was damit passiert ist",
+            "Sie werden nicht glauben, was passiert ist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l7",
+      "kind": "speaking",
+      "title": "Tell your own story",
+      "goal": "Tell and retell anecdotes freely with suspense and the right past tenses.",
+      "culture": {
+        "title": "Wiener Schmäh",
+        "body": "Viennese humour, der Schmäh, is charming, ironic and a little morbid, often wrapped in apparent grumpiness (der Grant). Waiters in traditional Viennese coffee houses are famous for it — a gruff Herr Ober is part of the show, not an insult. The best response is a witty, relaxed reply.",
+        "regions": [
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Das Beste kommt aber noch.",
+          "n": "But the best is yet to come."
+        },
+        {
+          "t": "Wie das Leben so spielt.",
+          "n": "That's life."
+        },
+        {
+          "t": "Ich war fix und fertig.",
+          "n": "I was completely exhausted."
+        },
+        {
+          "t": "Ende gut, alles gut.",
+          "n": "All's well that ends well."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a funny or embarrassing anecdote from your life — with a hook, suspense, a twist and an ending.",
+          "hint": "Das war vielleicht ein Tag! · Ich ahnte noch nichts Böses … · Und auf einmal … · Und jetzt kommt der Clou … · Im Nachhinein …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a hook",
+              "any": [
+                "sag ich dir",
+                "du wirst nicht glauben",
+                "stell dir vor",
+                "das war vielleicht",
+                "neulich"
+              ]
+            },
+            {
+              "label": "a sudden turn",
+              "any": [
+                "auf einmal",
+                "plötzlich",
+                "und dann",
+                "clou",
+                "das beste"
+              ]
+            },
+            {
+              "label": "a reaction or feeling",
+              "any": [
+                "herz",
+                "schreck",
+                "peinlich",
+                "fix und fertig",
+                "gelacht",
+                "erschrocken"
+              ]
+            },
+            {
+              "label": "an ending",
+              "any": [
+                "im nachhinein",
+                "lange rede",
+                "ende gut",
+                "am ende",
+                "schließlich",
+                "zum schluss"
+              ]
+            }
+          ],
+          "model": "Das war vielleicht ein Tag! Ich saß im Zug und ahnte noch nichts Böses. Auf einmal merke ich, dass ich in die falsche Richtung fahre – und jetzt kommt der Clou: Ich landete in Salzburg statt in München. Im Nachhinein kann ich darüber lachen."
+        },
+        {
+          "n": "Retell a story you heard from someone else (family, travel, a friend) using the Präteritum and Plusquamperfekt.",
+          "hint": "Meine Tante erzählte einmal … · Damals war … · Nachdem sie … hatte, … · Als sie ankam, war … schon …",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "Präteritum",
+              "any": [
+                "war",
+                "ging",
+                "kam",
+                "sagte",
+                "fuhr",
+                "stand",
+                "lebte",
+                "wollte",
+                "erzählte"
+              ]
+            },
+            {
+              "label": "Plusquamperfekt",
+              "any": [
+                "hatte",
+                "hatten",
+                "war schon",
+                "waren schon",
+                "nachdem"
+              ]
+            },
+            {
+              "label": "narrative connectors",
+              "any": [
+                "als",
+                "nachdem",
+                "kaum",
+                "danach",
+                "schließlich",
+                "damals"
+              ]
+            }
+          ],
+          "model": "Meine Großmutter erzählte oft von ihrer ersten Reise nach Italien. Nachdem sie monatelang gespart hatte, fuhr sie allein mit dem Zug nach Rom. Als sie ankam, war ihr Koffer allerdings schon in Neapel."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say: all's well that ends well.",
+          "t": [
+            "Ende gut, alles gut"
+          ]
+        },
+        {
+          "n": "Say you were completely exhausted.",
+          "t": [
+            "Ich war fix und fertig",
+            "Ich war völlig fertig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Erzählen mit Pfiff",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

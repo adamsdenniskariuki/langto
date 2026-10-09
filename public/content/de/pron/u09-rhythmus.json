@@ -1,0 +1,216 @@
+{
+  "id": "pron-u09",
+  "level": "C1",
+  "title": "Rhythmus",
+  "subtitle": "Connected speech & word stress",
+  "icon": "🥁",
+  "lessons": [
+    {
+      "id": "pron-u09-l1",
+      "kind": "pron",
+      "title": "Connected speech",
+      "goal": "Recognise how fast speech shrinks words.",
+      "tip": {
+        "title": "Stressed words stay, the rest shrinks",
+        "body": "In fast speech, unstressed words melt together: \"haben wir\" → \"hamwa\", \"gibt es\" → \"gibt's\", \"ich weiß es nicht\" → \"weiß nich\". Understand these forms, but keep stressed words clear when you speak."
+      },
+      "phrases": [
+        {
+          "t": "Weiß ich nicht.",
+          "n": "Dunno."
+        },
+        {
+          "t": "Gibt's was Neues?",
+          "n": "Any news?"
+        },
+        {
+          "t": "Mal sehen.",
+          "n": "We'll see."
+        },
+        {
+          "t": "Schon erledigt.",
+          "n": "Already done."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "full / reduced",
+          "a": {
+            "t": "Gibt es noch Kaffee?",
+            "n": "Is there any coffee left?"
+          },
+          "b": {
+            "t": "Gibt's noch Kaffee?",
+            "n": "Any coffee left?"
+          }
+        },
+        {
+          "sound": "full / reduced",
+          "a": {
+            "t": "Ich habe es vergessen.",
+            "n": "I forgot it."
+          },
+          "b": {
+            "t": "Ich hab's vergessen.",
+            "n": "I forgot it."
+          }
+        },
+        {
+          "sound": "full / reduced",
+          "a": {
+            "t": "Wie geht es dir?",
+            "n": "How are you?"
+          },
+          "b": {
+            "t": "Wie geht's dir?",
+            "n": "How're you doing?"
+          }
+        },
+        {
+          "sound": "full / reduced",
+          "a": {
+            "t": "Hast du Zeit?",
+            "n": "Do you have time?"
+          },
+          "b": {
+            "t": "Haste Zeit?",
+            "n": "Got time?"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Haben wir das schon erledigt?",
+          "n": "Have we done that yet?",
+          "mark": "Haben wir das *schon* er*le*digt?",
+          "note": "\"Haben wir\" often shrinks to \"hamwa\"."
+        },
+        {
+          "t": "Ich weiß es nicht.",
+          "n": "I don't know.",
+          "mark": "Ich *weiß* es *nicht*.",
+          "note": "Casually: \"Weiß nich.\""
+        },
+        {
+          "t": "Kannst du mir mal helfen?",
+          "n": "Can you give me a hand?",
+          "mark": "Kannst du mir mal *hel*fen?",
+          "note": "\"Kannst du\" often sounds like \"kannste\"."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask casually if there's any news.",
+          "t": [
+            "Gibt's was Neues",
+            "Gibt es was Neues"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u09-l2",
+      "kind": "pron",
+      "title": "Word stress",
+      "goal": "Stress compounds and foreign words correctly.",
+      "tip": {
+        "title": "German first, foreign last",
+        "body": "Native German words stress the first syllable of the stem (Kinderzimmer). Compounds take main stress on the first part. Many foreign words stress the last syllable: Universität, Politik, Fotografie — but Politiker and Musiker shift it."
+      },
+      "phrases": [
+        {
+          "t": "Die Universität ist modern.",
+          "n": "The university is modern."
+        },
+        {
+          "t": "Der Bahnhof ist dort drüben.",
+          "n": "The station is over there."
+        },
+        {
+          "t": "Ich studiere Politik.",
+          "n": "I study politics."
+        },
+        {
+          "t": "Das ist eine Katastrophe!",
+          "n": "That's a disaster!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Montag",
+            "n": "Monday"
+          },
+          "b": {
+            "t": "Montage",
+            "n": "assembly"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Politik",
+            "n": "politics"
+          },
+          "b": {
+            "t": "Politiker",
+            "n": "politician"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Musik",
+            "n": "music"
+          },
+          "b": {
+            "t": "Musiker",
+            "n": "musician"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Kaffee",
+            "n": "coffee"
+          },
+          "b": {
+            "t": "Café",
+            "n": "café"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Die Universität ist modern.",
+          "n": "The university is modern.",
+          "mark": "Die Universi*tät* ist mo*dern*."
+        },
+        {
+          "t": "Der Bahnhof ist dort drüben.",
+          "n": "The station is over there.",
+          "mark": "Der *Bahn*hof ist dort *drü*ben."
+        },
+        {
+          "t": "Ich studiere Politik.",
+          "n": "I study politics.",
+          "mark": "Ich stu*die*re Poli*tik*."
+        },
+        {
+          "t": "Das ist eine Katastrophe!",
+          "n": "That's a disaster!",
+          "mark": "Das ist eine Kata*stro*phe!"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you study politics.",
+          "t": [
+            "Ich studiere Politik"
+          ]
+        }
+      ]
+    }
+  ]
+}

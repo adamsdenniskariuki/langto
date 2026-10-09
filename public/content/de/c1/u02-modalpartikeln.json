@@ -13,34 +13,121 @@
         "body": "Modal particles don't change the facts, they change the tone: ja signals shared knowledge or surprise, doch urges or reminds, and mal softens a request. Keep them unstressed and glide over them — if you stress DOCH, it becomes a contradiction. Komm doch mal vorbei sounds warm; Komm vorbei sounds like an order."
       },
       "phrases": [
-        { "t": "Komm doch mal vorbei!", "n": "Why don't you drop by sometime!", "note": "doch mal = friendly invitation." },
-        { "t": "Das habe ich dir doch gestern schon gesagt.", "n": "I told you that yesterday, didn't I?", "note": "doch = reminder, slightly reproachful." },
-        { "t": "Das ist ja unglaublich!", "n": "That's incredible!", "note": "ja = surprise." },
-        { "t": "Du weißt ja, wie er ist.", "n": "You know what he's like.", "note": "ja = shared knowledge." },
-        { "t": "Kannst du mal kurz das Fenster aufmachen?", "n": "Could you open the window for a sec?" },
-        { "t": "Setzen Sie sich doch!", "n": "Do sit down!", "note": "Polite, encouraging invitation." },
-        { "t": "Sie kennen ja die Lage.", "n": "You know the situation, of course." },
-        { "t": "Hör mal, wir müssen reden.", "n": "Listen, we need to talk." }
+        {
+          "t": "Komm doch mal vorbei!",
+          "n": "Why don't you drop by sometime!",
+          "note": "doch mal = friendly invitation."
+        },
+        {
+          "t": "Das habe ich dir doch gestern schon gesagt.",
+          "n": "I told you that yesterday, didn't I?",
+          "note": "doch = reminder, slightly reproachful."
+        },
+        {
+          "t": "Das ist ja unglaublich!",
+          "n": "That's incredible!",
+          "note": "ja = surprise."
+        },
+        {
+          "t": "Du weißt ja, wie er ist.",
+          "n": "You know what he's like.",
+          "note": "ja = shared knowledge."
+        },
+        {
+          "t": "Kannst du mal kurz das Fenster aufmachen?",
+          "n": "Could you open the window for a sec?"
+        },
+        {
+          "t": "Setzen Sie sich doch!",
+          "n": "Do sit down!",
+          "note": "Polite, encouraging invitation."
+        },
+        {
+          "t": "Sie kennen ja die Lage.",
+          "n": "You know the situation, of course."
+        },
+        {
+          "t": "Hör mal, wir müssen reden.",
+          "n": "Listen, we need to talk."
+        }
       ],
       "dialogue": {
         "title": "Flatmate chat",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Lena", "t": "Sag mal, hast du eigentlich die Stromrechnung bezahlt?", "n": "Tell me, did you actually pay the electricity bill?" },
-          { "who": "you", "t": "Na klar, das habe ich dir doch gestern schon gesagt.", "n": "Of course, I told you that yesterday, didn't I?" },
-          { "who": "A", "name": "Lena", "t": "Ach ja, stimmt. Ich bin heute total durch den Wind. Jonas hat schon wieder abgesagt.", "n": "Oh right. I'm all over the place today. Jonas has cancelled again." },
-          { "who": "you", "t": "Echt? Na ja, du weißt ja, wie er ist.", "n": "Really? Well, you know what he's like." },
-          { "who": "A", "name": "Lena", "t": "Schon, aber diesmal war es sein eigener Geburtstag! Er feiert einfach nicht.", "n": "Sure, but this time it was his own birthday! He's just not celebrating." },
-          { "who": "you", "t": "Das ist ja unglaublich! Komm doch heute Abend mit zu uns.", "n": "That's incredible! Why don't you come over to ours tonight?" },
-          { "who": "A", "name": "Lena", "t": "Gern, das ist lieb von dir. Kannst du mal kurz das Fenster aufmachen? Hier ist es so stickig.", "n": "Gladly, that's sweet of you. Could you open the window for a sec? It's so stuffy in here." },
-          { "who": "you", "t": "Klar, mach ich sofort.", "n": "Sure, I'll do it right away." }
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Sag mal, hast du eigentlich die Stromrechnung bezahlt?",
+            "n": "Tell me, did you actually pay the electricity bill?"
+          },
+          {
+            "who": "you",
+            "t": "Na klar, das habe ich dir doch gestern schon gesagt.",
+            "n": "Of course, I told you that yesterday, didn't I?"
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Ach ja, stimmt. Ich bin heute total durch den Wind. Jonas hat schon wieder abgesagt.",
+            "n": "Oh right. I'm all over the place today. Jonas has cancelled again."
+          },
+          {
+            "who": "you",
+            "t": "Echt? Na ja, du weißt ja, wie er ist.",
+            "n": "Really? Well, you know what he's like."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Schon, aber diesmal war es sein eigener Geburtstag! Er feiert einfach nicht.",
+            "n": "Sure, but this time it was his own birthday! He's just not celebrating."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ja unglaublich! Komm doch heute Abend mit zu uns.",
+            "n": "That's incredible! Why don't you come over to ours tonight?"
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Gern, das ist lieb von dir. Kannst du mal kurz das Fenster aufmachen? Hier ist es so stickig.",
+            "n": "Gladly, that's sweet of you. Could you open the window for a sec? It's so stuffy in here."
+          },
+          {
+            "who": "you",
+            "t": "Klar, mach ich sofort.",
+            "n": "Sure, I'll do it right away."
+          }
         ]
       },
       "prompts": [
-        { "n": "Invite a friend casually to drop by sometime.", "t": ["Komm doch mal vorbei"] },
-        { "n": "Remind someone that you told them yesterday.", "t": ["Das habe ich dir doch gestern schon gesagt", "Das habe ich dir doch gestern gesagt"] },
-        { "n": "Casually ask someone to open the window.", "t": ["Kannst du mal kurz das Fenster aufmachen", "Mach mal kurz das Fenster auf"] },
-        { "n": "React with amazement.", "t": ["Das ist ja unglaublich"] }
+        {
+          "n": "Invite a friend casually to drop by sometime.",
+          "t": [
+            "Komm doch mal vorbei"
+          ]
+        },
+        {
+          "n": "Remind someone that you told them yesterday.",
+          "t": [
+            "Das habe ich dir doch gestern schon gesagt",
+            "Das habe ich dir doch gestern gesagt"
+          ]
+        },
+        {
+          "n": "Casually ask someone to open the window.",
+          "t": [
+            "Kannst du mal kurz das Fenster aufmachen",
+            "Mach mal kurz das Fenster auf"
+          ]
+        },
+        {
+          "n": "React with amazement.",
+          "t": [
+            "Das ist ja unglaublich"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +139,678 @@
         "body": "halt and eben both mean 'that's just the way it is' — halt is more colloquial and southern, eben more neutral. wohl marks an assumption (probably), schon reassures or concedes (sure, but…). On its own, Eben! is a stressed, emphatic 'Exactly!'. These particles also buy you a split second to think, so say them in a relaxed way."
       },
       "phrases": [
-        { "t": "Das ist halt so.", "n": "That's just the way it is.", "note": "Colloquial, resigned." },
-        { "t": "Dann müssen wir eben früher aufstehen.", "n": "Then we'll just have to get up earlier." },
-        { "t": "Er hat wohl den Zug verpasst.", "n": "He's probably missed the train.", "note": "wohl = assumption." },
-        { "t": "Das wird schon klappen.", "n": "It'll work out, don't worry.", "note": "schon = reassurance." },
-        { "t": "Eben! Genau das meine ich.", "n": "Exactly! That's precisely what I mean." },
-        { "t": "Das ist wohl kaum ein Zufall.", "n": "That's hardly a coincidence." },
-        { "t": "Man kann eben nicht alles haben.", "n": "You just can't have everything." },
-        { "t": "Schon, aber der Preis ist trotzdem zu hoch.", "n": "True, but the price is still too high.", "note": "schon = concession before a but." }
+        {
+          "t": "Das ist halt so.",
+          "n": "That's just the way it is.",
+          "note": "Colloquial, resigned."
+        },
+        {
+          "t": "Dann müssen wir eben früher aufstehen.",
+          "n": "Then we'll just have to get up earlier."
+        },
+        {
+          "t": "Er hat wohl den Zug verpasst.",
+          "n": "He's probably missed the train.",
+          "note": "wohl = assumption."
+        },
+        {
+          "t": "Das wird schon klappen.",
+          "n": "It'll work out, don't worry.",
+          "note": "schon = reassurance."
+        },
+        {
+          "t": "Eben! Genau das meine ich.",
+          "n": "Exactly! That's precisely what I mean."
+        },
+        {
+          "t": "Das ist wohl kaum ein Zufall.",
+          "n": "That's hardly a coincidence."
+        },
+        {
+          "t": "Man kann eben nicht alles haben.",
+          "n": "You just can't have everything."
+        },
+        {
+          "t": "Schon, aber der Preis ist trotzdem zu hoch.",
+          "n": "True, but the price is still too high.",
+          "note": "schon = concession before a but."
+        }
       ],
       "dialogue": {
         "title": "The missing colleague",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Tobias", "t": "Wo bleibt denn Herr Albers? Das Meeting hat vor zehn Minuten angefangen.", "n": "Where's Mr Albers? The meeting started ten minutes ago." },
-          { "who": "you", "t": "Er hat wohl den Zug verpasst. Die Bahn streikt ja heute.", "n": "He's probably missed the train. The railway's on strike today, after all." },
-          { "who": "A", "name": "Tobias", "t": "Ach, schon wieder? Ohne ihn können wir die Zahlen aber nicht besprechen.", "n": "Oh, again? But we can't discuss the figures without him." },
-          { "who": "you", "t": "Das ist halt so. Dann verschieben wir den Punkt eben auf morgen.", "n": "That's just the way it is. Then we'll simply move the item to tomorrow." },
-          { "who": "A", "name": "Tobias", "t": "Morgen ist aber die Präsentation beim Kunden. Das wird ziemlich knapp.", "n": "But tomorrow is the presentation at the client's. That'll be pretty tight." },
-          { "who": "you", "t": "Das wird schon klappen. Dann müssen wir eben früher anfangen.", "n": "It'll work out. Then we'll just have to start earlier." },
-          { "who": "A", "name": "Tobias", "t": "Na gut. Man kann eben nicht alles planen.", "n": "All right. You just can't plan everything." },
-          { "who": "you", "t": "Eben! Genau das meine ich.", "n": "Exactly! That's precisely what I mean." }
+          {
+            "who": "A",
+            "name": "Tobias",
+            "t": "Wo bleibt denn Herr Albers? Das Meeting hat vor zehn Minuten angefangen.",
+            "n": "Where's Mr Albers? The meeting started ten minutes ago."
+          },
+          {
+            "who": "you",
+            "t": "Er hat wohl den Zug verpasst. Die Bahn streikt ja heute.",
+            "n": "He's probably missed the train. The railway's on strike today, after all."
+          },
+          {
+            "who": "A",
+            "name": "Tobias",
+            "t": "Ach, schon wieder? Ohne ihn können wir die Zahlen aber nicht besprechen.",
+            "n": "Oh, again? But we can't discuss the figures without him."
+          },
+          {
+            "who": "you",
+            "t": "Das ist halt so. Dann verschieben wir den Punkt eben auf morgen.",
+            "n": "That's just the way it is. Then we'll simply move the item to tomorrow."
+          },
+          {
+            "who": "A",
+            "name": "Tobias",
+            "t": "Morgen ist aber die Präsentation beim Kunden. Das wird ziemlich knapp.",
+            "n": "But tomorrow is the presentation at the client's. That'll be pretty tight."
+          },
+          {
+            "who": "you",
+            "t": "Das wird schon klappen. Dann müssen wir eben früher anfangen.",
+            "n": "It'll work out. Then we'll just have to start earlier."
+          },
+          {
+            "who": "A",
+            "name": "Tobias",
+            "t": "Na gut. Man kann eben nicht alles planen.",
+            "n": "All right. You just can't plan everything."
+          },
+          {
+            "who": "you",
+            "t": "Eben! Genau das meine ich.",
+            "n": "Exactly! That's precisely what I mean."
+          }
         ]
       },
       "prompts": [
-        { "n": "Guess that he's probably missed the train.", "t": ["Er hat wohl den Zug verpasst"] },
-        { "n": "Reassure someone that it'll work out.", "t": ["Das wird schon klappen"] },
-        { "n": "Accept the situation: that's just the way it is.", "t": ["Das ist halt so", "Das ist eben so"] },
-        { "n": "Agree emphatically: exactly, that's what you mean.", "t": ["Eben, genau das meine ich", "Genau das meine ich"] }
+        {
+          "n": "Guess that he's probably missed the train.",
+          "t": [
+            "Er hat wohl den Zug verpasst"
+          ]
+        },
+        {
+          "n": "Reassure someone that it'll work out.",
+          "t": [
+            "Das wird schon klappen"
+          ]
+        },
+        {
+          "n": "Accept the situation: that's just the way it is.",
+          "t": [
+            "Das ist halt so",
+            "Das ist eben so"
+          ]
+        },
+        {
+          "n": "Agree emphatically: exactly, that's what you mean.",
+          "t": [
+            "Eben, genau das meine ich",
+            "Genau das meine ich"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c1-u02-l3",
+      "title": "Questions with attitude: denn, eigentlich, etwa, überhaupt",
+      "goal": "Make questions sound interested, surprised or sceptical.",
+      "tip": {
+        "title": "One small word changes the question",
+        "body": "denn makes a question sound genuinely interested — without it, Was machst du hier? can sound cold. eigentlich casually changes the subject or asks about the real point, etwa signals you hope the answer is no, and überhaupt questions the basic premise."
+      },
+      "phrases": [
+        {
+          "t": "Was machst du denn hier?",
+          "n": "What are you doing here?",
+          "note": "denn = friendly interest or surprise."
+        },
+        {
+          "t": "Wie spät ist es eigentlich?",
+          "n": "What time is it, by the way?"
+        },
+        {
+          "t": "Hast du etwa schon wieder dein Handy vergessen?",
+          "n": "Don't tell me you've forgotten your phone again?",
+          "note": "etwa = you hope it is not true."
+        },
+        {
+          "t": "Hast du überhaupt Zeit dafür?",
+          "n": "Do you even have time for that?"
+        },
+        {
+          "t": "Was soll das denn heißen?",
+          "n": "What's that supposed to mean?"
+        }
+      ],
+      "dialogue": {
+        "title": "Back at the office on holiday",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Na, was machst du denn hier? Ich dachte, du bist im Urlaub.",
+            "n": "Well, what are you doing here? I thought you were on holiday."
+          },
+          {
+            "who": "you",
+            "t": "Bin ich eigentlich auch. Ich muss nur kurz was abholen.",
+            "n": "I actually am. I just need to pick something up."
+          },
+          {
+            "who": "A",
+            "name": "Paul",
+            "t": "Hast du etwa schon wieder deinen Laptop im Büro vergessen?",
+            "n": "Don't tell me you've left your laptop at the office again?"
+          },
+          {
+            "who": "you",
+            "t": "Erwischt. Wie spät ist es eigentlich? Mein Zug fährt um vier.",
+            "n": "Caught me. What time is it, by the way? My train leaves at four."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend in surprise what they are doing here.",
+          "t": [
+            "Was machst du denn hier"
+          ]
+        },
+        {
+          "n": "Sceptically ask whether they even have time for it.",
+          "t": [
+            "Hast du überhaupt Zeit dafür",
+            "Hast du überhaupt Zeit"
+          ]
+        },
+        {
+          "n": "Ask, hoping it's not true, whether they've forgotten their phone again.",
+          "t": [
+            "Hast du etwa schon wieder dein Handy vergessen",
+            "Hast du etwa dein Handy vergessen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l4",
+      "kind": "grammar",
+      "title": "Where particles go",
+      "goal": "Place modal particles and particle combinations correctly in the sentence.",
+      "tip": {
+        "title": "In the middle, before the news",
+        "body": "Modal particles sit in the middle field: after the conjugated verb and unstressed pronouns, but before the new or stressed information and before nicht. Combinations follow a fixed order — ja doch, doch mal, denn eigentlich — so say Ruf mich doch mal an, never mal doch. Particles never start a sentence and are never stressed."
+      },
+      "phrases": [
+        {
+          "t": "Ruf mich doch mal an!",
+          "n": "Why don’t you give me a call!"
+        },
+        {
+          "t": "Das hast du ihm doch nicht etwa erzählt?",
+          "n": "You didn't tell him that, did you?"
+        },
+        {
+          "t": "Ich habe es dir ja gleich gesagt.",
+          "n": "I told you so right away."
+        },
+        {
+          "t": "Wo wohnst du denn eigentlich?",
+          "n": "Where do you actually live, then?"
+        },
+        {
+          "t": "Er kommt wohl nicht mehr.",
+          "n": "He's probably not coming any more.",
+          "note": "wohl comes before nicht."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap in doch mal",
+          "base": {
+            "t": "Ruf mich an.",
+            "n": "Call me."
+          },
+          "items": [
+            {
+              "cue": "doch mal",
+              "t": "Ruf mich doch mal an.",
+              "n": "Why don’t you give me a call."
+            },
+            {
+              "cue": "schreiben · doch mal",
+              "t": "Schreib mir doch mal.",
+              "n": "Why don’t you drop me a line."
+            },
+            {
+              "cue": "besuchen · uns · doch mal",
+              "t": "Besuch uns doch mal.",
+              "n": "Why don’t you come and visit us."
+            }
+          ]
+        },
+        {
+          "title": "Swap the attitude",
+          "base": {
+            "t": "Wo warst du?",
+            "n": "Where were you?"
+          },
+          "items": [
+            {
+              "cue": "denn",
+              "t": "Wo warst du denn?",
+              "n": "Where were you, then?"
+            },
+            {
+              "cue": "denn eigentlich",
+              "t": "Wo warst du denn eigentlich?",
+              "n": "Where were you, actually?"
+            },
+            {
+              "cue": "etwa · schon fertig?",
+              "t": "Bist du etwa schon fertig?",
+              "n": "Don't tell me you're done already?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you told them so right away.",
+          "t": [
+            "Ich habe es dir ja gleich gesagt",
+            "Ich hab's dir ja gleich gesagt"
+          ]
+        },
+        {
+          "n": "Ask, with interest, where they actually live.",
+          "t": [
+            "Wo wohnst du denn eigentlich",
+            "Wo wohnst du eigentlich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l5",
+      "kind": "listening",
+      "title": "A trip to the Wachau",
+      "goal": "Follow a casual Austrian conversation full of particles.",
+      "phrases": [
+        {
+          "t": "Das geht eh schneller.",
+          "n": "That's quicker anyway.",
+          "note": "eh = Austrian for anyway."
+        },
+        {
+          "t": "Geh, das ist doch kein Problem!",
+          "n": "Oh come on, that's no problem!",
+          "note": "Geh = Austrian come on."
+        },
+        {
+          "t": "Dann nehmen wir halt den Zug.",
+          "n": "Then we'll just take the train."
+        },
+        {
+          "t": "Schauen wir mal.",
+          "n": "Let's see."
+        }
+      ],
+      "story": {
+        "title": "Ein Ausflug in die Wachau",
+        "intro": "Ingrid and Jonas from Vienna plan a weekend trip to the Wachau valley.",
+        "voice": "de-AT-IngridNeural",
+        "lines": [
+          {
+            "name": "Ingrid",
+            "t": "Fahren wir am Samstag doch mal in die Wachau! Die Marillen blühen gerade.",
+            "n": "Let's go to the Wachau on Saturday! The apricot trees are in blossom."
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Gern, aber wie denn? Mein Auto ist ja in der Werkstatt.",
+            "n": "Sure, but how? My car is in the garage, you know."
+          },
+          {
+            "name": "Ingrid",
+            "t": "Geh, das ist doch kein Problem! Dann nehmen wir halt den Zug bis Melk.",
+            "n": "Oh come on, that's no problem! Then we'll just take the train to Melk."
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Stimmt, das geht eh schneller. Und wann fahren wir los?",
+            "n": "True, that's quicker anyway. And when do we leave?"
+          },
+          {
+            "name": "Ingrid",
+            "t": "Um sieben. Ist dir das etwa zu früh?",
+            "n": "At seven. Don't tell me that's too early for you?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Ein bisschen schon. Aber schauen wir mal, ich stelle mir halt zwei Wecker.",
+            "n": "A bit, yes. But let's see, I'll just set two alarms."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wohin wollen Ingrid und Jonas fahren?",
+            "n": "Where do Ingrid and Jonas want to go?",
+            "t": [
+              "In die Wachau",
+              "Wachau"
+            ]
+          },
+          {
+            "q": "Warum fahren sie nicht mit dem Auto?",
+            "n": "Why aren't they going by car?",
+            "t": [
+              "Es ist in der Werkstatt",
+              "Weil das Auto in der Werkstatt ist",
+              "Werkstatt"
+            ]
+          },
+          {
+            "q": "Wie fahren sie stattdessen?",
+            "n": "How are they travelling instead?",
+            "t": [
+              "Mit dem Zug",
+              "Mit dem Zug bis Melk",
+              "Zug"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u02-l6",
+      "kind": "roleplay",
+      "title": "Mediating a neighbour dispute",
+      "goal": "Use particles to calm a heated conversation — your choices steer the mediation.",
+      "phrases": [
+        {
+          "t": "Das ist ja durchaus verständlich.",
+          "n": "That's entirely understandable, of course."
+        },
+        {
+          "t": "Was genau stört Sie denn?",
+          "n": "What exactly bothers you?"
+        },
+        {
+          "t": "Erzählen Sie doch mal in Ruhe.",
+          "n": "Just tell me calmly."
+        },
+        {
+          "t": "Vielleicht finden wir ja eine Lösung, mit der beide leben können.",
+          "n": "Perhaps we can find a solution both sides can live with."
+        }
+      ],
+      "branch": {
+        "title": "Noise dispute",
+        "scene": "As a volunteer mediator, you meet Herr Krause, who is furious about his neighbour’s piano playing.",
+        "name": "Herr Krause",
+        "voice": "de-DE-ConradNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Ich sage es Ihnen gleich: Diese Klavierspielerei ist doch eine Zumutung!",
+            "n": "I'll tell you straight away: this piano playing is an imposition!",
+            "choices": [
+              {
+                "t": "Das ist ja durchaus verständlich. Was genau stört Sie denn?",
+                "n": "That's entirely understandable. What exactly bothers you?",
+                "next": "detail"
+              },
+              {
+                "t": "Na, jetzt übertreiben Sie aber.",
+                "n": "Come on, now you're exaggerating.",
+                "next": "angry"
+              }
+            ]
+          },
+          "angry": {
+            "t": "Ich übertreibe? Sie haben ja keine Ahnung, wie das ist!",
+            "n": "I'm exaggerating? You have no idea what it's like!",
+            "choices": [
+              {
+                "t": "Entschuldigung, so war das nicht gemeint. Erzählen Sie doch mal in Ruhe.",
+                "n": "Sorry, I didn't mean it like that. Just tell me calmly.",
+                "next": "detail"
+              },
+              {
+                "t": "Dann ziehen Sie halt um.",
+                "n": "Then just move out.",
+                "next": "bad"
+              }
+            ]
+          },
+          "detail": {
+            "t": "Sie übt jeden Abend bis zehn. Und ich muss um vier aufstehen.",
+            "n": "She practises every evening until ten. And I have to get up at four.",
+            "choices": [
+              {
+                "t": "Verstehe. Vielleicht finden wir ja eine Lösung, mit der beide leben können.",
+                "n": "I see. Perhaps we can find a solution both sides can live with.",
+                "next": "offer"
+              },
+              {
+                "t": "Wie bitte? Um vier?",
+                "n": "Pardon? At four?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Ja, ich bin Bäcker. Da ist um neun eben Schlafenszeit.",
+            "n": "Yes, I'm a baker. So bedtime is simply at nine.",
+            "choices": [
+              {
+                "t": "Das wusste ich nicht. Dann suchen wir doch mal gemeinsam eine Lösung.",
+                "n": "I didn't know that. Then let's look for a solution together.",
+                "next": "offer"
+              }
+            ]
+          },
+          "offer": {
+            "t": "Und wie soll die aussehen? Sie wird ja wohl kaum aufhören.",
+            "n": "And what would that look like? She's hardly going to stop.",
+            "choices": [
+              {
+                "t": "Wie wäre es, wenn sie unter der Woche nur bis acht übt und am Wochenende länger?",
+                "n": "How about if she only practises until eight on weekdays and longer at weekends?",
+                "next": "good"
+              },
+              {
+                "t": "Sie könnten ja Ohrstöpsel tragen.",
+                "n": "You could always wear earplugs.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Bis acht? Na gut, damit könnte ich leben. Danke für Ihre Geduld.",
+            "n": "Until eight? All right, I could live with that. Thank you for your patience.",
+            "end": "good",
+            "outcome": "You calmed things down and found a compromise both neighbours can accept."
+          },
+          "bad": {
+            "t": "Also, das muss ich mir nicht bieten lassen. Ich gehe!",
+            "n": "Well, I don't have to put up with this. I'm leaving!",
+            "end": "bad",
+            "outcome": "You sounded dismissive and Herr Krause walked out — acknowledge his feelings first."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Calmly ask what exactly is bothering them.",
+          "t": [
+            "Was genau stört Sie denn"
+          ]
+        },
+        {
+          "n": "Suggest there might be a solution both sides can live with.",
+          "t": [
+            "Vielleicht finden wir ja eine Lösung, mit der beide leben können"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l7",
+      "kind": "speaking",
+      "title": "Sound like a local",
+      "goal": "Speak freely with natural modal particles for a minute or more.",
+      "culture": {
+        "title": "eh, gell, oder?",
+        "body": "Particles vary by region. Austrians constantly use eh (anyway, obviously), as in Das weiß ich eh. In southern Germany and Austria gell? works as a tag question, while the Swiss end sentences with oder? or gäll. Northern Germans prefer ne? and say eben where southerners say halt.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Das weiß ich eh.",
+          "n": "I know that anyway.",
+          "note": "Austrian."
+        },
+        {
+          "t": "Schön war’s, gell?",
+          "n": "That was nice, wasn’t it?",
+          "note": "Southern German and Austrian tag."
+        },
+        {
+          "t": "Das ist doch super, oder?",
+          "n": "That's great, isn't it?"
+        },
+        {
+          "t": "Na ja, wie das halt so ist.",
+          "n": "Well, you know how it is."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a friend about a frustrating day, using at least three modal particles (doch, ja, halt, eben, mal, wohl).",
+          "hint": "Stell dir vor … / Das war ja … / Das ist halt so … / Ich hab ihm doch gesagt …",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "doch or ja",
+              "any": [
+                "doch",
+                "ja"
+              ]
+            },
+            {
+              "label": "halt, eben or wohl",
+              "any": [
+                "halt",
+                "eben",
+                "wohl"
+              ]
+            },
+            {
+              "label": "mal or denn",
+              "any": [
+                "mal",
+                "denn"
+              ]
+            },
+            {
+              "label": "a reaction or feeling",
+              "any": [
+                "genervt",
+                "ärger*",
+                "unglaublich",
+                "frust*",
+                "peinlich",
+                "stress*",
+                "müde"
+              ]
+            }
+          ],
+          "model": "Stell dir vor, heute ist ja echt alles schiefgegangen. Erst ist der Zug mal wieder ausgefallen, dann hat mein Chef wohl vergessen, dass ich frei habe. Ich hab ihm doch letzte Woche Bescheid gesagt! Na ja, das ist halt so. Ich bin total genervt."
+        },
+        {
+          "n": "Persuade a reluctant friend to come to a party tonight — sound warm rather than pushy.",
+          "hint": "Komm doch mit! / Das wird schon lustig. / Du kannst ja früher gehen. / Was spricht denn dagegen?",
+          "seconds": 60,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "an invitation with doch",
+              "any": [
+                "komm doch",
+                "doch mit",
+                "doch mal",
+                "doch vorbei"
+              ]
+            },
+            {
+              "label": "reassurance",
+              "any": [
+                "schon",
+                "bestimmt",
+                "sicher"
+              ]
+            },
+            {
+              "label": "a compromise",
+              "any": [
+                "früher gehen",
+                "kurz",
+                "eine stunde",
+                "wenn du willst",
+                "ja gehen"
+              ]
+            },
+            {
+              "label": "a question",
+              "any": [
+                "denn",
+                "oder",
+                "gell",
+                "überhaupt"
+              ]
+            }
+          ],
+          "model": "Komm doch heute Abend mit! Die anderen freuen sich bestimmt, dich mal wiederzusehen. Du kannst ja früher gehen, wenn du müde bist. Was spricht denn dagegen? Das wird schon lustig, oder?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Austrian style: say you know that anyway.",
+          "t": [
+            "Das weiß ich eh",
+            "Das weiß ich eh schon"
+          ]
+        },
+        {
+          "n": "Say: well, you know how it is.",
+          "t": [
+            "Na ja, wie das halt so ist",
+            "Wie das halt so ist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Doch, ja, halt",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }
