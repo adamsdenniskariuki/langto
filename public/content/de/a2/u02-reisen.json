@@ -13,34 +13,119 @@
         "body": "After mit, von, nach and zu you use the dative: mit dem Zug, von welchem Gleis. Separable verbs split in a main clause: abfahren → Der Zug fährt um zehn ab. Pronounce Zug as 'tsook' — z is always 'ts' and a final g sounds like k."
       },
       "phrases": [
-        { "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
-        { "t": "Hin und zurück, bitte.", "n": "A return ticket, please.", "note": "One way = einfach" },
-        { "t": "Wann fährt der nächste Zug nach München?", "n": "When does the next train to Munich leave?" },
-        { "t": "Von welchem Gleis fährt der Zug ab?", "n": "Which platform does the train leave from?" },
-        { "t": "Muss ich umsteigen?", "n": "Do I have to change trains?" },
-        { "t": "Der Zug hat zwanzig Minuten Verspätung.", "n": "The train is twenty minutes late." },
-        { "t": "Ich möchte einen Platz reservieren.", "n": "I'd like to reserve a seat." },
-        { "t": "Ist dieser Platz noch frei?", "n": "Is this seat free?" }
+        {
+          "t": "Eine Fahrkarte nach München, bitte.",
+          "n": "A ticket to Munich, please."
+        },
+        {
+          "t": "Hin und zurück, bitte.",
+          "n": "A return ticket, please.",
+          "note": "One way = einfach"
+        },
+        {
+          "t": "Wann fährt der nächste Zug nach München?",
+          "n": "When does the next train to Munich leave?"
+        },
+        {
+          "t": "Von welchem Gleis fährt der Zug ab?",
+          "n": "Which platform does the train leave from?"
+        },
+        {
+          "t": "Muss ich umsteigen?",
+          "n": "Do I have to change trains?"
+        },
+        {
+          "t": "Der Zug hat zwanzig Minuten Verspätung.",
+          "n": "The train is twenty minutes late."
+        },
+        {
+          "t": "Ich möchte einen Platz reservieren.",
+          "n": "I'd like to reserve a seat."
+        },
+        {
+          "t": "Ist dieser Platz noch frei?",
+          "n": "Is this seat free?"
+        }
       ],
       "dialogue": {
         "title": "At the ticket counter",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Mitarbeiterin", "t": "Guten Tag! Was kann ich für Sie tun?", "n": "Hello! What can I do for you?" },
-          { "who": "you", "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
-          { "who": "A", "name": "Mitarbeiterin", "t": "Einfach oder hin und zurück?", "n": "One way or return?" },
-          { "who": "you", "t": "Hin und zurück, bitte. Muss ich umsteigen?", "n": "Return, please. Do I have to change trains?" },
-          { "who": "A", "name": "Mitarbeiterin", "t": "Nein, der Zug fährt direkt. Er fährt um zehn Uhr fünfzehn ab.", "n": "No, the train is direct. It leaves at ten fifteen." },
-          { "who": "you", "t": "Von welchem Gleis fährt der Zug ab?", "n": "Which platform does the train leave from?" },
-          { "who": "A", "name": "Mitarbeiterin", "t": "Von Gleis sieben. Gute Reise!", "n": "From platform seven. Have a good trip!" },
-          { "who": "you", "t": "Vielen Dank! Auf Wiedersehen!", "n": "Thank you very much! Goodbye!" }
+          {
+            "who": "A",
+            "name": "Mitarbeiterin",
+            "t": "Guten Tag! Was kann ich für Sie tun?",
+            "n": "Hello! What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Eine Fahrkarte nach München, bitte.",
+            "n": "A ticket to Munich, please."
+          },
+          {
+            "who": "A",
+            "name": "Mitarbeiterin",
+            "t": "Einfach oder hin und zurück?",
+            "n": "One way or return?"
+          },
+          {
+            "who": "you",
+            "t": "Hin und zurück, bitte. Muss ich umsteigen?",
+            "n": "Return, please. Do I have to change trains?"
+          },
+          {
+            "who": "A",
+            "name": "Mitarbeiterin",
+            "t": "Nein, der Zug fährt direkt. Er fährt um zehn Uhr fünfzehn ab.",
+            "n": "No, the train is direct. It leaves at ten fifteen."
+          },
+          {
+            "who": "you",
+            "t": "Von welchem Gleis fährt der Zug ab?",
+            "n": "Which platform does the train leave from?"
+          },
+          {
+            "who": "A",
+            "name": "Mitarbeiterin",
+            "t": "Von Gleis sieben. Gute Reise!",
+            "n": "From platform seven. Have a good trip!"
+          },
+          {
+            "who": "you",
+            "t": "Vielen Dank! Auf Wiedersehen!",
+            "n": "Thank you very much! Goodbye!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Buy a return ticket to Munich.", "t": ["Eine Fahrkarte nach München hin und zurück bitte", "Einmal München hin und zurück bitte"] },
-        { "n": "Ask if you have to change trains.", "t": ["Muss ich umsteigen"] },
-        { "n": "Ask which platform the train leaves from.", "t": ["Von welchem Gleis fährt der Zug ab", "Von welchem Gleis fährt der Zug"] },
-        { "n": "Ask if this seat is free.", "t": ["Ist dieser Platz noch frei", "Ist der Platz noch frei", "Ist hier noch frei"] }
+        {
+          "n": "Buy a return ticket to Munich.",
+          "t": [
+            "Eine Fahrkarte nach München hin und zurück bitte",
+            "Einmal München hin und zurück bitte"
+          ]
+        },
+        {
+          "n": "Ask if you have to change trains.",
+          "t": [
+            "Muss ich umsteigen"
+          ]
+        },
+        {
+          "n": "Ask which platform the train leaves from.",
+          "t": [
+            "Von welchem Gleis fährt der Zug ab",
+            "Von welchem Gleis fährt der Zug"
+          ]
+        },
+        {
+          "n": "Ask if this seat is free.",
+          "t": [
+            "Ist dieser Platz noch frei",
+            "Ist der Platz noch frei",
+            "Ist hier noch frei"
+          ]
+        }
       ]
     },
     {
@@ -52,36 +137,654 @@
         "body": "With a modal verb like müssen, the second verb goes to the end as an infinitive: Ich muss um elf Uhr auschecken. Questions start with the question word: Bis wann muss ich auschecken? For ü in Frühstück, say 'ee' and round your lips as if to whistle."
       },
       "phrases": [
-        { "t": "Ich habe ein Zimmer reserviert.", "n": "I've booked a room." },
-        { "t": "Die Reservierung ist auf den Namen Weber.", "n": "The booking is under the name Weber." },
-        { "t": "Haben Sie noch ein Einzelzimmer frei?", "n": "Do you still have a single room available?", "note": "Double room = Doppelzimmer" },
-        { "t": "Ich bleibe zwei Nächte.", "n": "I'm staying two nights." },
-        { "t": "Ist das Frühstück inklusive?", "n": "Is breakfast included?" },
-        { "t": "Wann gibt es Frühstück?", "n": "When is breakfast served?" },
-        { "t": "Wie ist das WLAN-Passwort?", "n": "What's the Wi-Fi password?", "note": "WLAN = 'vay-lahn'" },
-        { "t": "Bis wann muss ich auschecken?", "n": "By what time do I have to check out?" }
+        {
+          "t": "Ich habe ein Zimmer reserviert.",
+          "n": "I've booked a room."
+        },
+        {
+          "t": "Die Reservierung ist auf den Namen Weber.",
+          "n": "The booking is under the name Weber."
+        },
+        {
+          "t": "Haben Sie noch ein Einzelzimmer frei?",
+          "n": "Do you still have a single room available?",
+          "note": "Double room = Doppelzimmer"
+        },
+        {
+          "t": "Ich bleibe zwei Nächte.",
+          "n": "I'm staying two nights."
+        },
+        {
+          "t": "Ist das Frühstück inklusive?",
+          "n": "Is breakfast included?"
+        },
+        {
+          "t": "Wann gibt es Frühstück?",
+          "n": "When is breakfast served?"
+        },
+        {
+          "t": "Wie ist das WLAN-Passwort?",
+          "n": "What's the Wi-Fi password?",
+          "note": "WLAN = 'vay-lahn'"
+        },
+        {
+          "t": "Bis wann muss ich auschecken?",
+          "n": "By what time do I have to check out?"
+        }
       ],
       "dialogue": {
         "title": "Checking in",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Rezeptionist", "t": "Guten Abend! Willkommen im Hotel Sonne.", "n": "Good evening! Welcome to Hotel Sonne." },
-          { "who": "you", "t": "Guten Abend! Ich habe ein Zimmer reserviert.", "n": "Good evening! I've booked a room." },
-          { "who": "A", "name": "Rezeptionist", "t": "Auf welchen Namen, bitte?", "n": "Under what name, please?" },
-          { "who": "you", "t": "Die Reservierung ist auf den Namen Weber.", "n": "The booking is under the name Weber." },
-          { "who": "A", "name": "Rezeptionist", "t": "Ja, ein Einzelzimmer für zwei Nächte. Hier ist Ihr Schlüssel.", "n": "Yes, a single room for two nights. Here's your key." },
-          { "who": "you", "t": "Danke! Ist das Frühstück inklusive?", "n": "Thanks! Is breakfast included?" },
-          { "who": "A", "name": "Rezeptionist", "t": "Ja, Frühstück gibt es von sieben bis zehn Uhr.", "n": "Yes, breakfast is from seven to ten." },
-          { "who": "you", "t": "Super. Und bis wann muss ich auschecken?", "n": "Great. And by what time do I have to check out?" },
-          { "who": "A", "name": "Rezeptionist", "t": "Bis elf Uhr. Einen schönen Aufenthalt!", "n": "By eleven. Enjoy your stay!" }
+          {
+            "who": "A",
+            "name": "Rezeptionist",
+            "t": "Guten Abend! Willkommen im Hotel Sonne.",
+            "n": "Good evening! Welcome to Hotel Sonne."
+          },
+          {
+            "who": "you",
+            "t": "Guten Abend! Ich habe ein Zimmer reserviert.",
+            "n": "Good evening! I've booked a room."
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionist",
+            "t": "Auf welchen Namen, bitte?",
+            "n": "Under what name, please?"
+          },
+          {
+            "who": "you",
+            "t": "Die Reservierung ist auf den Namen Weber.",
+            "n": "The booking is under the name Weber."
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionist",
+            "t": "Ja, ein Einzelzimmer für zwei Nächte. Hier ist Ihr Schlüssel.",
+            "n": "Yes, a single room for two nights. Here's your key."
+          },
+          {
+            "who": "you",
+            "t": "Danke! Ist das Frühstück inklusive?",
+            "n": "Thanks! Is breakfast included?"
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionist",
+            "t": "Ja, Frühstück gibt es von sieben bis zehn Uhr.",
+            "n": "Yes, breakfast is from seven to ten."
+          },
+          {
+            "who": "you",
+            "t": "Super. Und bis wann muss ich auschecken?",
+            "n": "Great. And by what time do I have to check out?"
+          },
+          {
+            "who": "A",
+            "name": "Rezeptionist",
+            "t": "Bis elf Uhr. Einen schönen Aufenthalt!",
+            "n": "By eleven. Enjoy your stay!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you've booked a room.", "t": ["Ich habe ein Zimmer reserviert"] },
-        { "n": "Ask if breakfast is included.", "t": ["Ist das Frühstück inklusive", "Ist Frühstück inklusive"] },
-        { "n": "Say you're staying two nights.", "t": ["Ich bleibe zwei Nächte"] },
-        { "n": "Ask by what time you have to check out.", "t": ["Bis wann muss ich auschecken", "Wann muss ich auschecken"] }
+        {
+          "n": "Say you've booked a room.",
+          "t": [
+            "Ich habe ein Zimmer reserviert"
+          ]
+        },
+        {
+          "n": "Ask if breakfast is included.",
+          "t": [
+            "Ist das Frühstück inklusive",
+            "Ist Frühstück inklusive"
+          ]
+        },
+        {
+          "n": "Say you're staying two nights.",
+          "t": [
+            "Ich bleibe zwei Nächte"
+          ]
+        },
+        {
+          "n": "Ask by what time you have to check out.",
+          "t": [
+            "Bis wann muss ich auschecken",
+            "Wann muss ich auschecken"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u02-l3",
+      "title": "Getting around town",
+      "goal": "Ask the way and use buses and the U-Bahn.",
+      "phrases": [
+        {
+          "t": "Wie komme ich zum Hauptbahnhof?",
+          "n": "How do I get to the main station?",
+          "note": "zum = zu dem"
+        },
+        {
+          "t": "Nehmen Sie die U-Bahn, Linie zwei.",
+          "n": "Take the underground, line two."
+        },
+        {
+          "t": "Wo muss ich aussteigen?",
+          "n": "Where do I have to get off?",
+          "note": "aussteigen = get off; einsteigen = get on"
+        },
+        {
+          "t": "Die Haltestelle ist vor dem Hotel.",
+          "n": "The stop is in front of the hotel."
+        },
+        {
+          "t": "Wo kann ich eine Fahrkarte kaufen?",
+          "n": "Where can I buy a ticket?"
+        },
+        {
+          "t": "Ich gehe lieber zu Fuß.",
+          "n": "I'd rather walk."
+        }
+      ],
+      "dialogue": {
+        "title": "Asking the way",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Entschuldigung, wie komme ich zum Hauptbahnhof?",
+            "n": "Excuse me, how do I get to the main station?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Nehmen Sie die U-Bahn, Linie zwei. Die Haltestelle ist vor dem Hotel.",
+            "n": "Take the underground, line two. The stop is in front of the hotel."
+          },
+          {
+            "who": "you",
+            "t": "Danke! Und wo muss ich aussteigen?",
+            "n": "Thanks! And where do I have to get off?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Am Hauptbahnhof. Das sind nur drei Stationen.",
+            "n": "At the main station. It's only three stops."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how to get to the main station.",
+          "t": [
+            "Wie komme ich zum Hauptbahnhof"
+          ]
+        },
+        {
+          "n": "Ask where you have to get off.",
+          "t": [
+            "Wo muss ich aussteigen"
+          ]
+        },
+        {
+          "n": "Say you'd rather walk.",
+          "t": [
+            "Ich gehe lieber zu Fuß"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l4",
+      "kind": "grammar",
+      "title": "mit dem Zug, in die Stadt",
+      "goal": "Use the dative after prepositions and tell wo? from wohin?",
+      "tip": {
+        "title": "Dative prepositions & two-way prepositions",
+        "body": "mit, zu, von, aus, bei and nach always take the dative: mit dem Bus, mit der U-Bahn, zur Arbeit (zu der). Two-way prepositions like in, an, auf, vor take the dative for wo? (in der Stadt, im Park) and the accusative for wohin? (in die Stadt, in den Park)."
+      },
+      "phrases": [
+        {
+          "t": "Ich fahre mit dem Fahrrad zur Arbeit.",
+          "n": "I cycle to work.",
+          "note": "zur = zu der"
+        },
+        {
+          "t": "Wir sind in der Stadt.",
+          "n": "We're in town.",
+          "note": "wo? → dative"
+        },
+        {
+          "t": "Wir gehen in die Stadt.",
+          "n": "We're going into town.",
+          "note": "wohin? → accusative"
+        },
+        {
+          "t": "Der Bus hält vor dem Bahnhof.",
+          "n": "The bus stops in front of the station."
+        },
+        {
+          "t": "Ich wohne bei meiner Schwester.",
+          "n": "I'm staying at my sister's."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the transport",
+          "base": {
+            "t": "Ich fahre mit dem Zug.",
+            "n": "I go by train."
+          },
+          "items": [
+            {
+              "cue": "Bus",
+              "t": "Ich fahre mit dem Bus.",
+              "n": "I go by bus."
+            },
+            {
+              "cue": "U-Bahn",
+              "t": "Ich fahre mit der U-Bahn.",
+              "n": "I go by underground."
+            },
+            {
+              "cue": "Fahrrad",
+              "t": "Ich fahre mit dem Fahrrad.",
+              "n": "I go by bike."
+            }
+          ]
+        },
+        {
+          "title": "Swap wo? → wohin?",
+          "base": {
+            "t": "Wir sind im Park.",
+            "n": "We're in the park."
+          },
+          "items": [
+            {
+              "cue": "gehen",
+              "t": "Wir gehen in den Park.",
+              "n": "We're going to the park."
+            },
+            {
+              "cue": "Stadt",
+              "t": "Wir sind in der Stadt.",
+              "n": "We're in town."
+            },
+            {
+              "cue": "Stadt · gehen",
+              "t": "Wir gehen in die Stadt.",
+              "n": "We're going into town."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you cycle to work.",
+          "t": [
+            "Ich fahre mit dem Fahrrad zur Arbeit",
+            "Ich fahre mit dem Rad zur Arbeit"
+          ]
+        },
+        {
+          "n": "Say you're going into town.",
+          "t": [
+            "Ich gehe in die Stadt",
+            "Wir gehen in die Stadt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l5",
+      "kind": "listening",
+      "title": "Delay on the platform",
+      "goal": "Follow a conversation about a delayed train.",
+      "phrases": [
+        {
+          "t": "Unser Zug hat Verspätung.",
+          "n": "Our train is late."
+        },
+        {
+          "t": "Wir verpassen den Anschluss.",
+          "n": "We'll miss the connection."
+        },
+        {
+          "t": "Der Zug fährt heute von Gleis neun.",
+          "n": "Today the train leaves from platform nine."
+        },
+        {
+          "t": "Keine Panik!",
+          "n": "Don't panic!"
+        }
+      ],
+      "story": {
+        "title": "Cologne to Berlin",
+        "intro": "Mia and Paul are waiting at Cologne station for their train to Berlin.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Mia",
+            "t": "Paul, schau mal! Unser Zug hat dreißig Minuten Verspätung.",
+            "n": "Paul, look! Our train is thirty minutes late."
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Oh nein! Dann verpassen wir in Hannover den Anschluss.",
+            "n": "Oh no! Then we'll miss the connection in Hanover."
+          },
+          {
+            "name": "Mia",
+            "t": "Warte, eine Durchsage. Der Zug fährt heute von Gleis neun.",
+            "n": "Wait, an announcement. Today the train leaves from platform nine."
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Von Gleis neun? Na super. Typisch Bahn!",
+            "n": "From platform nine? Great. Typical railway!"
+          },
+          {
+            "name": "Mia",
+            "t": "Keine Panik. Der Zug kommt erst in vierzig Minuten.",
+            "n": "Don't panic. The train only comes in forty minutes."
+          },
+          {
+            "name": "Paul",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gut. Dann kaufe ich noch zwei Kaffee.",
+            "n": "Good. Then I'll buy two coffees."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viel Verspätung hat der Zug?",
+            "n": "How late is the train?",
+            "t": [
+              "Dreißig Minuten",
+              "Er hat dreißig Minuten Verspätung"
+            ]
+          },
+          {
+            "q": "Wo verpassen sie den Anschluss?",
+            "n": "Where will they miss the connection?",
+            "t": [
+              "In Hannover",
+              "Hannover"
+            ]
+          },
+          {
+            "q": "Von welchem Gleis fährt der Zug heute?",
+            "n": "Which platform does the train leave from today?",
+            "t": [
+              "Von Gleis neun",
+              "Gleis neun"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u02-l6",
+      "kind": "roleplay",
+      "title": "Missed connection",
+      "goal": "Sort out a missed connection at the ticket counter.",
+      "phrases": [
+        {
+          "t": "Ich habe meinen Anschluss verpasst.",
+          "n": "I've missed my connection."
+        },
+        {
+          "t": "Kann ich mit meiner Fahrkarte fahren?",
+          "n": "Can I travel with my ticket?"
+        },
+        {
+          "t": "Bekomme ich Geld zurück?",
+          "n": "Do I get money back?"
+        },
+        {
+          "t": "Können Sie das bitte wiederholen?",
+          "n": "Could you repeat that, please?"
+        }
+      ],
+      "branch": {
+        "title": "At the DB travel centre",
+        "scene": "Your train was late and you missed your connection to Cologne. You go to the ticket counter.",
+        "name": "Bahnmitarbeiter",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Guten Tag! Was kann ich für Sie tun?",
+            "n": "Hello! What can I do for you?",
+            "choices": [
+              {
+                "t": "Mein Zug hatte Verspätung. Ich habe meinen Anschluss verpasst.",
+                "n": "My train was late. I missed my connection.",
+                "next": "where"
+              },
+              {
+                "t": "Ich will sofort nach Köln! Das ist Ihr Problem!",
+                "n": "I want to go to Cologne right now! That’s your problem!",
+                "next": "calm"
+              }
+            ]
+          },
+          "calm": {
+            "t": "Bitte bleiben Sie freundlich. Ich helfe Ihnen gern.",
+            "n": "Please stay polite. I'm happy to help you.",
+            "choices": [
+              {
+                "t": "Entschuldigung. Ich habe meinen Anschluss verpasst.",
+                "n": "Sorry. I've missed my connection.",
+                "next": "where"
+              },
+              {
+                "t": "Nein, danke. Ich gehe.",
+                "n": "No thanks. I'm leaving.",
+                "next": "bad"
+              }
+            ]
+          },
+          "where": {
+            "t": "Das tut mir leid. Wohin möchten Sie denn?",
+            "n": "I'm sorry. Where do you want to go?",
+            "choices": [
+              {
+                "t": "Nach Köln, bitte.",
+                "n": "To Cologne, please.",
+                "next": "train"
+              }
+            ]
+          },
+          "train": {
+            "t": "Der nächste Zug fährt um vierzehn Uhr zwanzig von Gleis fünf. Sie müssen in Frankfurt umsteigen.",
+            "n": "The next train leaves at 14:20 from platform five. You have to change in Frankfurt.",
+            "choices": [
+              {
+                "t": "Können Sie das bitte wiederholen?",
+                "n": "Could you repeat that, please?",
+                "next": "repeat"
+              },
+              {
+                "t": "Kann ich mit meiner Fahrkarte fahren?",
+                "n": "Can I travel with my ticket?",
+                "next": "valid"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Natürlich. Um vierzehn Uhr zwanzig, Gleis fünf. Umsteigen in Frankfurt.",
+            "n": "Of course. At 14:20, platform five. Change in Frankfurt.",
+            "choices": [
+              {
+                "t": "Danke! Kann ich mit meiner Fahrkarte fahren?",
+                "n": "Thanks! Can I travel with my ticket?",
+                "next": "valid"
+              }
+            ]
+          },
+          "valid": {
+            "t": "Ja, Ihre Fahrkarte gilt. Ich schreibe Ihnen die Verbindung auf.",
+            "n": "Yes, your ticket is valid. I'll write down the connection for you.",
+            "choices": [
+              {
+                "t": "Super, vielen Dank!",
+                "n": "Great, thank you very much!",
+                "next": "good"
+              },
+              {
+                "t": "Und bekomme ich Geld zurück?",
+                "n": "And do I get money back?",
+                "next": "refund"
+              }
+            ]
+          },
+          "good": {
+            "t": "Gern. Gute Reise!",
+            "n": "You’re welcome. Have a good trip!",
+            "end": "good",
+            "outcome": "You have a new connection to Cologne."
+          },
+          "refund": {
+            "t": "Ab sechzig Minuten Verspätung bekommen Sie fünfundzwanzig Prozent zurück. Hier ist das Formular.",
+            "n": "From sixty minutes of delay you get twenty-five percent back. Here is the form.",
+            "end": "good",
+            "outcome": "New connection booked — and you know how to claim a refund."
+          },
+          "bad": {
+            "t": "Wie Sie möchten. Auf Wiedersehen.",
+            "n": "As you wish. Goodbye.",
+            "end": "bad",
+            "outcome": "You left without a new connection. Stay calm and explain the problem."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you've missed your connection.",
+          "t": [
+            "Ich habe meinen Anschluss verpasst"
+          ]
+        },
+        {
+          "n": "Ask if you can travel with your ticket.",
+          "t": [
+            "Kann ich mit meiner Fahrkarte fahren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l7",
+      "kind": "speaking",
+      "title": "Tell us about a trip",
+      "goal": "Describe a trip for 40 seconds.",
+      "culture": {
+        "title": "Deutsche Bahn and punctuality",
+        "body": "Germans love joking about Deutsche Bahn: long-distance trains are often late, so Verspätung and Anschluss verpasst are everyday words. From 60 minutes late you can claim 25% of the fare back (50% from 120 minutes). Swiss trains (SBB) are famously punctual, and in Austria the ÖBB runs the network.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Letzten Sommer bin ich nach Wien gefahren.",
+          "n": "Last summer I went to Vienna."
+        },
+        {
+          "t": "Ich habe in einem kleinen Hotel gewohnt.",
+          "n": "I stayed in a small hotel."
+        },
+        {
+          "t": "Der Zug war pünktlich!",
+          "n": "The train was on time!"
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell us about a trip: where you went, how you travelled, where you stayed and what you did.",
+          "hint": "Ich bin nach … gefahren, mit dem Zug/Auto, Ich habe in einem Hotel gewohnt, Ich habe … gesehen.",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "where you went",
+              "any": [
+                "nach",
+                "gefahren",
+                "geflogen",
+                "war in",
+                "bin"
+              ]
+            },
+            {
+              "label": "how you travelled",
+              "any": [
+                "mit dem",
+                "mit der",
+                "zug",
+                "auto",
+                "bus",
+                "flugzeug",
+                "fahrrad",
+                "bahn"
+              ]
+            },
+            {
+              "label": "where you stayed",
+              "any": [
+                "hotel",
+                "gewohnt",
+                "übernachtet",
+                "geschlafen",
+                "bei",
+                "ferienwohnung"
+              ]
+            },
+            {
+              "label": "what you did",
+              "any": [
+                "gesehen",
+                "besucht",
+                "gegessen",
+                "gemacht",
+                "getroffen",
+                "gewandert",
+                "spazieren"
+              ]
+            }
+          ],
+          "model": "Letzten Sommer bin ich mit dem Zug nach Wien gefahren. Ich habe in einem kleinen Hotel gewohnt. Ich habe viele Museen besucht."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you stayed in a small hotel.",
+          "t": [
+            "Ich habe in einem kleinen Hotel gewohnt"
+          ]
+        },
+        {
+          "n": "Say the train was on time.",
+          "t": [
+            "Der Zug war pünktlich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Auf Reisen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

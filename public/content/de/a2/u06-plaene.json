@@ -13,33 +13,116 @@
         "body": "Use werden + infinitive for plans and predictions: Ich werde nächstes Jahr nach Spanien fahren. Morgen wird es regnen. wenn (if/when) sends its verb to the end, and the main clause then starts with the verb: Wenn das Wetter schön ist, gehen wir in den Park. German w sounds like English v: Wollen wir …?"
       },
       "phrases": [
-        { "t": "Was machst du am Samstag?", "n": "What are you doing on Saturday?" },
-        { "t": "Hast du Lust, ins Kino zu gehen?", "n": "Do you fancy going to the cinema?" },
-        { "t": "Ich werde nächstes Jahr nach Spanien fahren.", "n": "I'm going to go to Spain next year." },
-        { "t": "Morgen wird es regnen.", "n": "It's going to rain tomorrow." },
-        { "t": "Wir könnten zusammen grillen.", "n": "We could have a barbecue together." },
-        { "t": "Wollen wir uns um sieben treffen?", "n": "Shall we meet at seven?" },
-        { "t": "Wo treffen wir uns?", "n": "Where shall we meet?" },
-        { "t": "Wenn das Wetter schön ist, gehen wir in den Park.", "n": "If the weather is nice, we'll go to the park.", "note": "in den Park: movement → accusative" }
+        {
+          "t": "Was machst du am Samstag?",
+          "n": "What are you doing on Saturday?"
+        },
+        {
+          "t": "Hast du Lust, ins Kino zu gehen?",
+          "n": "Do you fancy going to the cinema?"
+        },
+        {
+          "t": "Ich werde nächstes Jahr nach Spanien fahren.",
+          "n": "I'm going to go to Spain next year."
+        },
+        {
+          "t": "Morgen wird es regnen.",
+          "n": "It's going to rain tomorrow."
+        },
+        {
+          "t": "Wir könnten zusammen grillen.",
+          "n": "We could have a barbecue together."
+        },
+        {
+          "t": "Wollen wir uns um sieben treffen?",
+          "n": "Shall we meet at seven?"
+        },
+        {
+          "t": "Wo treffen wir uns?",
+          "n": "Where shall we meet?"
+        },
+        {
+          "t": "Wenn das Wetter schön ist, gehen wir in den Park.",
+          "n": "If the weather is nice, we'll go to the park.",
+          "note": "in den Park: movement → accusative"
+        }
       ],
       "dialogue": {
         "title": "Weekend plans",
         "lines": [
-          { "who": "you", "t": "Was machst du am Samstag?", "n": "What are you doing on Saturday?" },
-          { "who": "A", "name": "Lukas", "t": "Noch nichts. Warum?", "n": "Nothing yet. Why?" },
-          { "who": "you", "t": "Hast du Lust, ins Kino zu gehen?", "n": "Do you fancy going to the cinema?" },
-          { "who": "A", "name": "Lukas", "t": "Hm, am Samstag wird es sonnig. Wir könnten auch grillen.", "n": "Hmm, it's going to be sunny on Saturday. We could also have a barbecue." },
-          { "who": "you", "t": "Gute Idee! Wenn das Wetter schön ist, grillen wir im Park.", "n": "Good idea! If the weather is nice, we'll have a barbecue in the park." },
-          { "who": "A", "name": "Lukas", "t": "Super! Wann treffen wir uns?", "n": "Great! When shall we meet?" },
-          { "who": "you", "t": "Wollen wir uns um sieben treffen?", "n": "Shall we meet at seven?" },
-          { "who": "A", "name": "Lukas", "t": "Perfekt. Bis Samstag!", "n": "Perfect. See you on Saturday!" }
+          {
+            "who": "you",
+            "t": "Was machst du am Samstag?",
+            "n": "What are you doing on Saturday?"
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Noch nichts. Warum?",
+            "n": "Nothing yet. Why?"
+          },
+          {
+            "who": "you",
+            "t": "Hast du Lust, ins Kino zu gehen?",
+            "n": "Do you fancy going to the cinema?"
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Hm, am Samstag wird es sonnig. Wir könnten auch grillen.",
+            "n": "Hmm, it's going to be sunny on Saturday. We could also have a barbecue."
+          },
+          {
+            "who": "you",
+            "t": "Gute Idee! Wenn das Wetter schön ist, grillen wir im Park.",
+            "n": "Good idea! If the weather is nice, we'll have a barbecue in the park."
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Super! Wann treffen wir uns?",
+            "n": "Great! When shall we meet?"
+          },
+          {
+            "who": "you",
+            "t": "Wollen wir uns um sieben treffen?",
+            "n": "Shall we meet at seven?"
+          },
+          {
+            "who": "A",
+            "name": "Lukas",
+            "t": "Perfekt. Bis Samstag!",
+            "n": "Perfect. See you on Saturday!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a friend what they're doing on Saturday.", "t": ["Was machst du am Samstag"] },
-        { "n": "Ask a friend if they fancy going to the cinema.", "t": ["Hast du Lust ins Kino zu gehen"] },
-        { "n": "Suggest meeting at seven.", "t": ["Wollen wir uns um sieben treffen", "Treffen wir uns um sieben"] },
-        { "n": "Say you're going to go to Spain next year.", "t": ["Ich werde nächstes Jahr nach Spanien fahren", "Nächstes Jahr fahre ich nach Spanien"] }
+        {
+          "n": "Ask a friend what they're doing on Saturday.",
+          "t": [
+            "Was machst du am Samstag"
+          ]
+        },
+        {
+          "n": "Ask a friend if they fancy going to the cinema.",
+          "t": [
+            "Hast du Lust ins Kino zu gehen"
+          ]
+        },
+        {
+          "n": "Suggest meeting at seven.",
+          "t": [
+            "Wollen wir uns um sieben treffen",
+            "Treffen wir uns um sieben"
+          ]
+        },
+        {
+          "n": "Say you're going to go to Spain next year.",
+          "t": [
+            "Ich werde nächstes Jahr nach Spanien fahren",
+            "Nächstes Jahr fahre ich nach Spanien"
+          ]
+        }
       ]
     },
     {
@@ -51,37 +134,643 @@
         "body": "In a weil or dass clause the conjugated verb goes last — with a modal verb, the modal is the very last word: Leider kann ich nicht, weil ich arbeiten muss. Separable verbs like einladen and mitbringen are stressed on the prefix: EIN-laden, MIT-bringen. Say Ich komme gern with a warm, friendly tone."
       },
       "phrases": [
-        { "t": "Ich möchte dich zu meiner Geburtstagsparty einladen.", "n": "I'd like to invite you to my birthday party." },
-        { "t": "Danke für die Einladung!", "n": "Thanks for the invitation!" },
-        { "t": "Ich komme gern.", "n": "I'd love to come." },
-        { "t": "Leider kann ich nicht, weil ich arbeiten muss.", "n": "Unfortunately I can't because I have to work." },
-        { "t": "Schade, vielleicht nächstes Mal.", "n": "Too bad, maybe next time." },
-        { "t": "Soll ich etwas mitbringen?", "n": "Shall I bring something?" },
-        { "t": "Ich bringe einen Salat mit.", "n": "I'll bring a salad." },
-        { "t": "Ich glaube, dass ich etwas später komme.", "n": "I think I'll come a bit later." }
+        {
+          "t": "Ich möchte dich zu meiner Geburtstagsparty einladen.",
+          "n": "I'd like to invite you to my birthday party."
+        },
+        {
+          "t": "Danke für die Einladung!",
+          "n": "Thanks for the invitation!"
+        },
+        {
+          "t": "Ich komme gern.",
+          "n": "I'd love to come."
+        },
+        {
+          "t": "Leider kann ich nicht, weil ich arbeiten muss.",
+          "n": "Unfortunately I can't because I have to work."
+        },
+        {
+          "t": "Schade, vielleicht nächstes Mal.",
+          "n": "Too bad, maybe next time."
+        },
+        {
+          "t": "Soll ich etwas mitbringen?",
+          "n": "Shall I bring something?"
+        },
+        {
+          "t": "Ich bringe einen Salat mit.",
+          "n": "I'll bring a salad."
+        },
+        {
+          "t": "Ich glaube, dass ich etwas später komme.",
+          "n": "I think I'll come a bit later."
+        }
       ],
       "dialogue": {
         "title": "A birthday invitation",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Sophie", "t": "Hallo! Am Freitag feiere ich meinen Geburtstag. Ich möchte dich einladen!", "n": "Hi! I'm celebrating my birthday on Friday. I'd like to invite you!" },
-          { "who": "you", "t": "Oh, danke für die Einladung! Ich komme gern.", "n": "Oh, thanks for the invitation! I'd love to come." },
-          { "who": "A", "name": "Sophie", "t": "Super! Die Party fängt um acht Uhr an.", "n": "Great! The party starts at eight." },
-          { "who": "you", "t": "Ich glaube, dass ich etwas später komme.", "n": "I think I'll come a bit later." },
-          { "who": "A", "name": "Sophie", "t": "Kein Problem. Kommt dein Bruder auch?", "n": "No problem. Is your brother coming too?" },
-          { "who": "you", "t": "Leider kann er nicht, weil er arbeiten muss.", "n": "Unfortunately he can't because he has to work." },
-          { "who": "A", "name": "Sophie", "t": "Schade, vielleicht nächstes Mal.", "n": "Too bad, maybe next time." },
-          { "who": "you", "t": "Soll ich etwas mitbringen?", "n": "Shall I bring something?" },
-          { "who": "A", "name": "Sophie", "t": "Gern! Vielleicht einen Salat?", "n": "Yes, please! Maybe a salad?" },
-          { "who": "you", "t": "Klar, ich bringe einen Salat mit.", "n": "Sure, I'll bring a salad." }
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Hallo! Am Freitag feiere ich meinen Geburtstag. Ich möchte dich einladen!",
+            "n": "Hi! I'm celebrating my birthday on Friday. I'd like to invite you!"
+          },
+          {
+            "who": "you",
+            "t": "Oh, danke für die Einladung! Ich komme gern.",
+            "n": "Oh, thanks for the invitation! I'd love to come."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Super! Die Party fängt um acht Uhr an.",
+            "n": "Great! The party starts at eight."
+          },
+          {
+            "who": "you",
+            "t": "Ich glaube, dass ich etwas später komme.",
+            "n": "I think I'll come a bit later."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Kein Problem. Kommt dein Bruder auch?",
+            "n": "No problem. Is your brother coming too?"
+          },
+          {
+            "who": "you",
+            "t": "Leider kann er nicht, weil er arbeiten muss.",
+            "n": "Unfortunately he can't because he has to work."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Schade, vielleicht nächstes Mal.",
+            "n": "Too bad, maybe next time."
+          },
+          {
+            "who": "you",
+            "t": "Soll ich etwas mitbringen?",
+            "n": "Shall I bring something?"
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Gern! Vielleicht einen Salat?",
+            "n": "Yes, please! Maybe a salad?"
+          },
+          {
+            "who": "you",
+            "t": "Klar, ich bringe einen Salat mit.",
+            "n": "Sure, I'll bring a salad."
+          }
         ]
       },
       "prompts": [
-        { "n": "Thank someone for the invitation.", "t": ["Danke für die Einladung", "Vielen Dank für die Einladung"] },
-        { "n": "Accept an invitation.", "t": ["Ich komme gern", "Ja ich komme gern"] },
-        { "n": "Decline because you have to work.", "t": ["Leider kann ich nicht weil ich arbeiten muss"] },
-        { "n": "Ask if you should bring something.", "t": ["Soll ich etwas mitbringen", "Soll ich was mitbringen"] }
+        {
+          "n": "Thank someone for the invitation.",
+          "t": [
+            "Danke für die Einladung",
+            "Vielen Dank für die Einladung"
+          ]
+        },
+        {
+          "n": "Accept an invitation.",
+          "t": [
+            "Ich komme gern",
+            "Ja ich komme gern"
+          ]
+        },
+        {
+          "n": "Decline because you have to work.",
+          "t": [
+            "Leider kann ich nicht weil ich arbeiten muss"
+          ]
+        },
+        {
+          "n": "Ask if you should bring something.",
+          "t": [
+            "Soll ich etwas mitbringen",
+            "Soll ich was mitbringen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u06-l3",
+      "title": "Planning a trip",
+      "goal": "Talk about where, how and how long you will travel.",
+      "phrases": [
+        {
+          "t": "Wir fahren im Sommer an die Ostsee.",
+          "n": "We're going to the Baltic Sea in summer.",
+          "note": "an die See / ans Meer: to the sea"
+        },
+        {
+          "t": "Ich habe schon ein Hotel gebucht.",
+          "n": "I've already booked a hotel."
+        },
+        {
+          "t": "Wie lange bleibt ihr?",
+          "n": "How long are you staying?"
+        },
+        {
+          "t": "Wir bleiben eine Woche.",
+          "n": "We're staying for a week."
+        },
+        {
+          "t": "Fahren wir mit dem Zug oder mit dem Auto?",
+          "n": "Shall we go by train or by car?"
+        }
+      ],
+      "dialogue": {
+        "title": "Holiday plans",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Wohin fahrt ihr im Sommer?",
+            "n": "Where are you going in summer?"
+          },
+          {
+            "who": "you",
+            "t": "Wir fahren an die Ostsee. Ich habe schon ein Hotel gebucht.",
+            "n": "We're going to the Baltic Sea. I've already booked a hotel."
+          },
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Schön! Wie lange bleibt ihr?",
+            "n": "Lovely! How long are you staying?"
+          },
+          {
+            "who": "you",
+            "t": "Wir bleiben eine Woche.",
+            "n": "We're staying for a week."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you've already booked a hotel.",
+          "t": [
+            "Ich habe schon ein Hotel gebucht"
+          ]
+        },
+        {
+          "n": "Ask your friends how long they are staying.",
+          "t": [
+            "Wie lange bleibt ihr"
+          ]
+        },
+        {
+          "n": "Ask if you should go by train or by car.",
+          "t": [
+            "Fahren wir mit dem Zug oder mit dem Auto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l4",
+      "kind": "grammar",
+      "title": "Talking about the future",
+      "goal": "Use the present with a time word, or werden, for plans.",
+      "tip": {
+        "title": "Present + time word, or werden",
+        "body": "German usually uses the present tense for the future when a time word is there: Morgen fahre ich nach Wien. If the time comes first, the verb stays in position 2 and the subject follows it. werden + infinitive at the end sounds like a firm plan or promise: Ich werde mehr Sport machen."
+      },
+      "phrases": [
+        {
+          "t": "Morgen fahre ich nach Wien.",
+          "n": "Tomorrow I'm going to Vienna."
+        },
+        {
+          "t": "Nächste Woche besuche ich meine Eltern.",
+          "n": "Next week I'm visiting my parents."
+        },
+        {
+          "t": "Am Wochenende gehen wir wandern.",
+          "n": "At the weekend we're going hiking."
+        },
+        {
+          "t": "Ich werde mehr Sport machen.",
+          "n": "I'm going to do more sport."
+        },
+        {
+          "t": "Wenn ich Zeit habe, komme ich mit.",
+          "n": "If I have time, I'll come along."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the time and person",
+          "base": {
+            "t": "Morgen fahre ich nach Wien.",
+            "n": "Tomorrow I'm going to Vienna."
+          },
+          "items": [
+            {
+              "cue": "nächste Woche",
+              "t": "Nächste Woche fahre ich nach Wien.",
+              "n": "Next week I'm going to Vienna."
+            },
+            {
+              "cue": "im Sommer · wir",
+              "t": "Im Sommer fahren wir nach Wien.",
+              "n": "In summer we're going to Vienna."
+            },
+            {
+              "cue": "am Freitag · Lukas",
+              "t": "Am Freitag fährt Lukas nach Wien.",
+              "n": "On Friday Lukas is going to Vienna."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person with werden",
+          "base": {
+            "t": "Ich werde mehr Sport machen.",
+            "n": "I'm going to do more sport."
+          },
+          "items": [
+            {
+              "cue": "du",
+              "t": "Du wirst mehr Sport machen.",
+              "n": "You're going to do more sport."
+            },
+            {
+              "cue": "wir · Deutsch lernen",
+              "t": "Wir werden mehr Deutsch lernen.",
+              "n": "We're going to learn more German."
+            },
+            {
+              "cue": "er · weniger arbeiten",
+              "t": "Er wird weniger arbeiten.",
+              "n": "He's going to work less."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're visiting your parents next week.",
+          "t": [
+            "Nächste Woche besuche ich meine Eltern",
+            "Ich besuche nächste Woche meine Eltern"
+          ]
+        },
+        {
+          "n": "Say if you have time, you'll come along.",
+          "t": [
+            "Wenn ich Zeit habe komme ich mit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l5",
+      "kind": "listening",
+      "title": "A long weekend in Salzburg",
+      "goal": "Understand someone describing their travel plans.",
+      "phrases": [
+        {
+          "t": "Was machst du am langen Wochenende?",
+          "n": "What are you doing on the long weekend?"
+        },
+        {
+          "t": "Mit dem Zug ist es bequemer.",
+          "n": "It's more comfortable by train."
+        },
+        {
+          "t": "Wir haben eine Pension gebucht.",
+          "n": "We've booked a guesthouse."
+        },
+        {
+          "t": "Wenn das Wetter schön ist, wandern wir.",
+          "n": "If the weather is nice, we'll go hiking."
+        }
+      ],
+      "story": {
+        "title": "Off to Salzburg",
+        "intro": "Anna asks her Austrian friend Jonas about his plans for the long weekend.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Anna",
+            "t": "Jonas, was machst du am langen Wochenende?",
+            "n": "Jonas, what are you doing on the long weekend?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Ich fahre mit meiner Schwester nach Salzburg.",
+            "n": "I'm going to Salzburg with my sister."
+          },
+          {
+            "name": "Anna",
+            "t": "Toll! Fahrt ihr mit dem Auto?",
+            "n": "Great! Are you going by car?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Nein, mit dem Zug. Das ist bequemer.",
+            "n": "No, by train. It's more comfortable."
+          },
+          {
+            "name": "Anna",
+            "t": "Und wo schlaft ihr?",
+            "n": "And where are you sleeping?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Wir haben eine kleine Pension gebucht. Wenn das Wetter schön ist, wandern wir.",
+            "n": "We've booked a small guesthouse. If the weather is nice, we'll go hiking."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wohin fährt Jonas?",
+            "n": "Where is Jonas going?",
+            "t": [
+              "Nach Salzburg",
+              "Salzburg"
+            ]
+          },
+          {
+            "q": "Wie fahren sie?",
+            "n": "How are they travelling?",
+            "t": [
+              "Mit dem Zug",
+              "Zug"
+            ]
+          },
+          {
+            "q": "Was machen sie, wenn das Wetter schön ist?",
+            "n": "What will they do if the weather is nice?",
+            "t": [
+              "Sie wandern",
+              "Wandern"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u06-l6",
+      "kind": "roleplay",
+      "title": "Planning a trip together",
+      "goal": "Agree on a destination, transport and dates with a friend.",
+      "phrases": [
+        {
+          "t": "Wohin möchtest du fahren?",
+          "n": "Where would you like to go?"
+        },
+        {
+          "t": "Lieber in die Berge.",
+          "n": "I'd rather go to the mountains."
+        },
+        {
+          "t": "Im Juli habe ich zwei Wochen frei.",
+          "n": "In July I have two weeks off."
+        },
+        {
+          "t": "Ich sage dir Bescheid.",
+          "n": "I'll let you know."
+        }
+      ],
+      "branch": {
+        "title": "Summer holiday",
+        "scene": "Your friend Lukas calls you with an idea for the summer.",
+        "name": "Lukas",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Hey! Wollen wir im Sommer zusammen verreisen?",
+            "n": "Hey! Shall we go away together in the summer?",
+            "choices": [
+              {
+                "t": "Gute Idee! Wohin möchtest du fahren?",
+                "n": "Good idea! Where would you like to go?",
+                "next": "where"
+              },
+              {
+                "t": "Wie bitte? Was meinst du?",
+                "n": "Pardon? What do you mean?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Ich meine: Wollen wir zusammen Urlaub machen?",
+            "n": "I mean: shall we go on holiday together?",
+            "choices": [
+              {
+                "t": "Ach so! Ja, gern. Wohin?",
+                "n": "Oh, I see! Yes, I'd love to. Where to?",
+                "next": "where"
+              },
+              {
+                "t": "Nein, ich habe keine Lust.",
+                "n": "No, I don't feel like it.",
+                "next": "bad"
+              }
+            ]
+          },
+          "where": {
+            "t": "An die Ostsee oder lieber in die Berge?",
+            "n": "To the Baltic Sea or rather to the mountains?",
+            "choices": [
+              {
+                "t": "Lieber in die Berge. Ich wandere gern.",
+                "n": "I'd rather go to the mountains. I like hiking.",
+                "next": "travel"
+              },
+              {
+                "t": "An die Ostsee! Ich schwimme gern.",
+                "n": "To the Baltic Sea! I like swimming.",
+                "next": "travel"
+              }
+            ]
+          },
+          "travel": {
+            "t": "Super! Fahren wir mit dem Zug oder mit dem Auto?",
+            "n": "Great! Shall we go by train or by car?",
+            "choices": [
+              {
+                "t": "Mit dem Zug. Das ist bequemer.",
+                "n": "By train. It's more comfortable.",
+                "next": "when"
+              },
+              {
+                "t": "Mit dem Auto. Das ist billiger.",
+                "n": "By car. It's cheaper.",
+                "next": "when"
+              }
+            ]
+          },
+          "when": {
+            "t": "Okay. Und wann hast du Urlaub?",
+            "n": "Okay. And when do you have time off?",
+            "choices": [
+              {
+                "t": "Im Juli habe ich zwei Wochen frei.",
+                "n": "In July I have two weeks off.",
+                "next": "good"
+              },
+              {
+                "t": "Ich weiß es noch nicht. Ich sage dir Bescheid.",
+                "n": "I don't know yet. I'll let you know.",
+                "next": "later"
+              }
+            ]
+          },
+          "good": {
+            "t": "Perfekt! Dann buche ich heute Abend die Unterkunft.",
+            "n": "Perfect! Then I'll book the accommodation this evening.",
+            "end": "good",
+            "outcome": "You planned a summer trip together."
+          },
+          "later": {
+            "t": "Kein Problem. Wenn du es weißt, buchen wir.",
+            "n": "No problem. When you know, we'll book.",
+            "end": "good",
+            "outcome": "The trip is planned — you just need to confirm your dates."
+          },
+          "bad": {
+            "t": "Schade. Dann fahre ich allein.",
+            "n": "Too bad. Then I'll go on my own.",
+            "end": "bad",
+            "outcome": "Lukas is disappointed. Try saying yes and making a plan."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend where they would like to go.",
+          "t": [
+            "Wohin möchtest du fahren"
+          ]
+        },
+        {
+          "n": "Say you have two weeks off in July.",
+          "t": [
+            "Im Juli habe ich zwei Wochen frei",
+            "Ich habe im Juli zwei Wochen frei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l7",
+      "kind": "speaking",
+      "title": "Your next holiday",
+      "goal": "Talk about your plans for 40 seconds.",
+      "culture": {
+        "title": "Urlaub and Brückentage",
+        "body": "Many Germans plan their holidays months ahead and hand in their Urlaubsantrag early in the year. A Brückentag (bridge day) is a working day between a public holiday and the weekend — people take it off for a long weekend. Public holidays differ by region: Bavaria and Austria have more Catholic holidays, and Swiss cantons set many of their own.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Nächsten Sommer fahre ich nach Italien.",
+          "n": "Next summer I'm going to Italy."
+        },
+        {
+          "t": "Ich nehme einen Brückentag.",
+          "n": "I'm taking a bridge day off."
+        },
+        {
+          "t": "Ich freue mich schon darauf.",
+          "n": "I'm already looking forward to it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your plans for your next holiday or long weekend: when, where, how and what you will do.",
+          "hint": "Im Sommer / Nächste Woche fahre ich nach …, mit dem Zug …, Wenn das Wetter schön ist, …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "when",
+              "any": [
+                "nächst*",
+                "im sommer",
+                "im winter",
+                "im juli",
+                "im august",
+                "am wochenende",
+                "morgen",
+                "bald"
+              ]
+            },
+            {
+              "label": "where",
+              "any": [
+                "nach",
+                "an die",
+                "in die",
+                "ans meer",
+                "berge"
+              ]
+            },
+            {
+              "label": "how you travel",
+              "any": [
+                "zug",
+                "auto",
+                "bus",
+                "fahrrad",
+                "flugzeug",
+                "flieg*"
+              ]
+            },
+            {
+              "label": "future or wenn",
+              "any": [
+                "werde",
+                "werden",
+                "wird",
+                "wenn"
+              ]
+            }
+          ],
+          "model": "Im Sommer fahre ich mit dem Zug nach Österreich. Ich bleibe eine Woche. Wenn das Wetter schön ist, werde ich viel wandern."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're already looking forward to it.",
+          "t": [
+            "Ich freue mich schon darauf",
+            "Ich freue mich schon"
+          ]
+        },
+        {
+          "n": "Say next summer you're going to Italy.",
+          "t": [
+            "Nächsten Sommer fahre ich nach Italien",
+            "Ich fahre nächsten Sommer nach Italien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Pläne und Einladungen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

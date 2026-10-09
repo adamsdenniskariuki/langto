@@ -13,33 +13,117 @@
         "body": "To say where something is, use in, an, auf, neben, über, unter + dative: im Wohnzimmer, neben dem Bett, über dem Tisch. Furniture stands (steht), lies (liegt) or hangs (hängt). Long compounds like Zweizimmerwohnung are stressed on the first part: ZWEI-zimmerwohnung."
       },
       "phrases": [
-        { "t": "Ich wohne in einer Zweizimmerwohnung.", "n": "I live in a two-room flat.", "note": "Germans count rooms without the kitchen and bathroom." },
-        { "t": "Die Wohnung liegt im dritten Stock.", "n": "The flat is on the third floor." },
-        { "t": "Die Küche ist klein, aber hell.", "n": "The kitchen is small but bright." },
-        { "t": "Das Sofa steht im Wohnzimmer.", "n": "The sofa is in the living room.", "note": "im = in dem" },
-        { "t": "Neben dem Bett steht ein Schrank.", "n": "There's a wardrobe next to the bed." },
-        { "t": "Die Lampe hängt über dem Tisch.", "n": "The lamp hangs above the table." },
-        { "t": "Ich habe einen Balkon mit Blick auf den Park.", "n": "I have a balcony with a view of the park." },
-        { "t": "Ich wohne gern hier, weil es so ruhig ist.", "n": "I like living here because it's so quiet." }
+        {
+          "t": "Ich wohne in einer Zweizimmerwohnung.",
+          "n": "I live in a two-room flat.",
+          "note": "Germans count rooms without the kitchen and bathroom."
+        },
+        {
+          "t": "Die Wohnung liegt im dritten Stock.",
+          "n": "The flat is on the third floor."
+        },
+        {
+          "t": "Die Küche ist klein, aber hell.",
+          "n": "The kitchen is small but bright."
+        },
+        {
+          "t": "Das Sofa steht im Wohnzimmer.",
+          "n": "The sofa is in the living room.",
+          "note": "im = in dem"
+        },
+        {
+          "t": "Neben dem Bett steht ein Schrank.",
+          "n": "There's a wardrobe next to the bed."
+        },
+        {
+          "t": "Die Lampe hängt über dem Tisch.",
+          "n": "The lamp hangs above the table."
+        },
+        {
+          "t": "Ich habe einen Balkon mit Blick auf den Park.",
+          "n": "I have a balcony with a view of the park."
+        },
+        {
+          "t": "Ich wohne gern hier, weil es so ruhig ist.",
+          "n": "I like living here because it's so quiet."
+        }
       ],
       "dialogue": {
         "title": "The new flat",
         "lines": [
-          { "who": "A", "name": "Tom", "t": "Du bist doch umgezogen, oder? Wie ist die neue Wohnung?", "n": "You've moved, haven't you? What's the new flat like?" },
-          { "who": "you", "t": "Sie ist super! Ich wohne in einer Zweizimmerwohnung.", "n": "It's great! I live in a two-room flat." },
-          { "who": "A", "name": "Tom", "t": "Toll! Und wie ist die Küche?", "n": "Great! And what's the kitchen like?" },
-          { "who": "you", "t": "Die Küche ist klein, aber hell.", "n": "The kitchen is small but bright." },
-          { "who": "A", "name": "Tom", "t": "Hast du auch einen Balkon?", "n": "Do you have a balcony too?" },
-          { "who": "you", "t": "Ja, ich habe einen Balkon mit Blick auf den Park.", "n": "Yes, I have a balcony with a view of the park." },
-          { "who": "A", "name": "Tom", "t": "Und wie ist die Gegend?", "n": "And what's the neighbourhood like?" },
-          { "who": "you", "t": "Ich wohne gern hier, weil es so ruhig ist.", "n": "I like living here because it's so quiet." }
+          {
+            "who": "A",
+            "name": "Tom",
+            "t": "Du bist doch umgezogen, oder? Wie ist die neue Wohnung?",
+            "n": "You've moved, haven't you? What's the new flat like?"
+          },
+          {
+            "who": "you",
+            "t": "Sie ist super! Ich wohne in einer Zweizimmerwohnung.",
+            "n": "It's great! I live in a two-room flat."
+          },
+          {
+            "who": "A",
+            "name": "Tom",
+            "t": "Toll! Und wie ist die Küche?",
+            "n": "Great! And what's the kitchen like?"
+          },
+          {
+            "who": "you",
+            "t": "Die Küche ist klein, aber hell.",
+            "n": "The kitchen is small but bright."
+          },
+          {
+            "who": "A",
+            "name": "Tom",
+            "t": "Hast du auch einen Balkon?",
+            "n": "Do you have a balcony too?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich habe einen Balkon mit Blick auf den Park.",
+            "n": "Yes, I have a balcony with a view of the park."
+          },
+          {
+            "who": "A",
+            "name": "Tom",
+            "t": "Und wie ist die Gegend?",
+            "n": "And what's the neighbourhood like?"
+          },
+          {
+            "who": "you",
+            "t": "Ich wohne gern hier, weil es so ruhig ist.",
+            "n": "I like living here because it's so quiet."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you live in a two-room flat.", "t": ["Ich wohne in einer Zweizimmerwohnung"] },
-        { "n": "Say the kitchen is small but bright.", "t": ["Die Küche ist klein aber hell"] },
-        { "n": "Say there's a wardrobe next to the bed.", "t": ["Neben dem Bett steht ein Schrank", "Ein Schrank steht neben dem Bett"] },
-        { "n": "Say you like living here because it's so quiet.", "t": ["Ich wohne gern hier weil es so ruhig ist", "Ich wohne gern hier weil es ruhig ist"] }
+        {
+          "n": "Say you live in a two-room flat.",
+          "t": [
+            "Ich wohne in einer Zweizimmerwohnung"
+          ]
+        },
+        {
+          "n": "Say the kitchen is small but bright.",
+          "t": [
+            "Die Küche ist klein aber hell"
+          ]
+        },
+        {
+          "n": "Say there's a wardrobe next to the bed.",
+          "t": [
+            "Neben dem Bett steht ein Schrank",
+            "Ein Schrank steht neben dem Bett"
+          ]
+        },
+        {
+          "n": "Say you like living here because it's so quiet.",
+          "t": [
+            "Ich wohne gern hier weil es so ruhig ist",
+            "Ich wohne gern hier weil es ruhig ist"
+          ]
+        }
       ]
     },
     {
@@ -51,37 +135,631 @@
         "body": "dürfen means 'be allowed to': Darf man Haustiere haben? Moving verbs are separable: einziehen → Ich ziehe am ersten Mai ein. Kaltmiete is rent without heating and utilities; Warmmiete includes them. Pronounce Miete with a long 'ee': MEE-te."
       },
       "phrases": [
-        { "t": "Ich rufe wegen der Wohnung an.", "n": "I'm calling about the flat." },
-        { "t": "Ist die Wohnung noch frei?", "n": "Is the flat still available?" },
-        { "t": "Wie hoch ist die Miete?", "n": "How much is the rent?" },
-        { "t": "Sind die Nebenkosten inklusive?", "n": "Are the utilities included?" },
-        { "t": "Ab wann ist die Wohnung frei?", "n": "From when is the flat available?" },
-        { "t": "Darf man Haustiere haben?", "n": "Are pets allowed?" },
-        { "t": "Kann ich die Wohnung besichtigen?", "n": "Can I view the flat?" },
-        { "t": "Ich möchte am ersten Mai einziehen.", "n": "I'd like to move in on the first of May." }
+        {
+          "t": "Ich rufe wegen der Wohnung an.",
+          "n": "I'm calling about the flat."
+        },
+        {
+          "t": "Ist die Wohnung noch frei?",
+          "n": "Is the flat still available?"
+        },
+        {
+          "t": "Wie hoch ist die Miete?",
+          "n": "How much is the rent?"
+        },
+        {
+          "t": "Sind die Nebenkosten inklusive?",
+          "n": "Are the utilities included?"
+        },
+        {
+          "t": "Ab wann ist die Wohnung frei?",
+          "n": "From when is the flat available?"
+        },
+        {
+          "t": "Darf man Haustiere haben?",
+          "n": "Are pets allowed?"
+        },
+        {
+          "t": "Kann ich die Wohnung besichtigen?",
+          "n": "Can I view the flat?"
+        },
+        {
+          "t": "Ich möchte am ersten Mai einziehen.",
+          "n": "I'd like to move in on the first of May."
+        }
       ],
       "dialogue": {
         "title": "Calling the landlady",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Frau Becker", "t": "Becker, guten Tag.", "n": "Becker speaking, hello." },
-          { "who": "you", "t": "Guten Tag! Ich rufe wegen der Wohnung an. Ist sie noch frei?", "n": "Hello! I'm calling about the flat. Is it still available?" },
-          { "who": "A", "name": "Frau Becker", "t": "Ja, die Wohnung ist noch frei.", "n": "Yes, the flat is still available." },
-          { "who": "you", "t": "Wie hoch ist die Miete?", "n": "How much is the rent?" },
-          { "who": "A", "name": "Frau Becker", "t": "Siebenhundert Euro kalt, plus hundertfünfzig Euro Nebenkosten.", "n": "Seven hundred euros, plus one hundred and fifty euros for utilities." },
-          { "who": "you", "t": "Ab wann ist die Wohnung frei?", "n": "From when is the flat available?" },
-          { "who": "A", "name": "Frau Becker", "t": "Ab dem ersten Mai.", "n": "From the first of May." },
-          { "who": "you", "t": "Perfekt. Kann ich die Wohnung besichtigen?", "n": "Perfect. Can I view the flat?" },
-          { "who": "A", "name": "Frau Becker", "t": "Natürlich. Haben Sie morgen um fünf Uhr Zeit?", "n": "Of course. Are you free tomorrow at five?" },
-          { "who": "you", "t": "Ja, das passt. Bis morgen!", "n": "Yes, that works. See you tomorrow!" }
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Becker, guten Tag.",
+            "n": "Becker speaking, hello."
+          },
+          {
+            "who": "you",
+            "t": "Guten Tag! Ich rufe wegen der Wohnung an. Ist sie noch frei?",
+            "n": "Hello! I'm calling about the flat. Is it still available?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Ja, die Wohnung ist noch frei.",
+            "n": "Yes, the flat is still available."
+          },
+          {
+            "who": "you",
+            "t": "Wie hoch ist die Miete?",
+            "n": "How much is the rent?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Siebenhundert Euro kalt, plus hundertfünfzig Euro Nebenkosten.",
+            "n": "Seven hundred euros, plus one hundred and fifty euros for utilities."
+          },
+          {
+            "who": "you",
+            "t": "Ab wann ist die Wohnung frei?",
+            "n": "From when is the flat available?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Ab dem ersten Mai.",
+            "n": "From the first of May."
+          },
+          {
+            "who": "you",
+            "t": "Perfekt. Kann ich die Wohnung besichtigen?",
+            "n": "Perfect. Can I view the flat?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Becker",
+            "t": "Natürlich. Haben Sie morgen um fünf Uhr Zeit?",
+            "n": "Of course. Are you free tomorrow at five?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, das passt. Bis morgen!",
+            "n": "Yes, that works. See you tomorrow!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask if the flat is still available.", "t": ["Ist die Wohnung noch frei"] },
-        { "n": "Ask how much the rent is.", "t": ["Wie hoch ist die Miete", "Wie viel kostet die Miete"] },
-        { "n": "Ask if pets are allowed.", "t": ["Darf man Haustiere haben", "Sind Haustiere erlaubt"] },
-        { "n": "Ask if you can view the flat.", "t": ["Kann ich die Wohnung besichtigen", "Kann ich die Wohnung ansehen"] }
+        {
+          "n": "Ask if the flat is still available.",
+          "t": [
+            "Ist die Wohnung noch frei"
+          ]
+        },
+        {
+          "n": "Ask how much the rent is.",
+          "t": [
+            "Wie hoch ist die Miete",
+            "Wie viel kostet die Miete"
+          ]
+        },
+        {
+          "n": "Ask if pets are allowed.",
+          "t": [
+            "Darf man Haustiere haben",
+            "Sind Haustiere erlaubt"
+          ]
+        },
+        {
+          "n": "Ask if you can view the flat.",
+          "t": [
+            "Kann ich die Wohnung besichtigen",
+            "Kann ich die Wohnung ansehen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u04-l3",
+      "title": "Neighbours & house rules",
+      "goal": "Talk to neighbours about rubbish, noise and parcels.",
+      "phrases": [
+        {
+          "t": "Die neue Wohnung ist größer als die alte.",
+          "n": "The new flat is bigger than the old one.",
+          "note": "groß → größer als"
+        },
+        {
+          "t": "Wo kommt der Müll hin?",
+          "n": "Where does the rubbish go?"
+        },
+        {
+          "t": "Papier kommt in die blaue Tonne.",
+          "n": "Paper goes in the blue bin."
+        },
+        {
+          "t": "Ab zweiundzwanzig Uhr ist Ruhezeit.",
+          "n": "From 10 p.m. it’s quiet time."
+        },
+        {
+          "t": "Könnten Sie bitte etwas leiser sein?",
+          "n": "Could you please be a bit quieter?"
+        },
+        {
+          "t": "Ich habe ein Paket für Sie angenommen.",
+          "n": "I've taken in a parcel for you."
+        }
+      ],
+      "dialogue": {
+        "title": "On the stairs",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Roth",
+            "t": "Hallo! Sind Sie der neue Nachbar?",
+            "n": "Hello! Are you the new neighbour?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich bin am Samstag eingezogen. Wo kommt der Müll hin?",
+            "n": "Yes, I moved in on Saturday. Where does the rubbish go?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Roth",
+            "t": "In den Hof. Papier kommt in die blaue Tonne.",
+            "n": "Into the courtyard. Paper goes in the blue bin."
+          },
+          {
+            "who": "you",
+            "t": "Danke! Ach, ich habe ein Paket für Sie angenommen.",
+            "n": "Thanks! Oh, I've taken in a parcel for you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where the rubbish goes.",
+          "t": [
+            "Wo kommt der Müll hin"
+          ]
+        },
+        {
+          "n": "Ask your neighbour politely to be a bit quieter.",
+          "t": [
+            "Könnten Sie bitte etwas leiser sein",
+            "Können Sie bitte leiser sein"
+          ]
+        },
+        {
+          "n": "Say the new flat is bigger than the old one.",
+          "t": [
+            "Die neue Wohnung ist größer als die alte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l4",
+      "kind": "grammar",
+      "title": "weil … & gefällt mir",
+      "goal": "Give reasons with weil and use dative verbs.",
+      "tip": {
+        "title": "weil sends the verb to the end; gefallen takes the dative",
+        "body": "In a weil clause the conjugated verb goes to the very end: Ich nehme die Wohnung, weil sie hell ist. Verbs like gefallen, gehören, helfen and passen take a dative person: Die Küche gefällt mir. Das Fahrrad gehört meinem Nachbarn."
+      },
+      "phrases": [
+        {
+          "t": "Die Wohnung gefällt mir, weil sie hell ist.",
+          "n": "I like the flat because it is bright."
+        },
+        {
+          "t": "Ich nehme die Wohnung nicht, weil sie zu teuer ist.",
+          "n": "I'm not taking the flat because it's too expensive."
+        },
+        {
+          "t": "Wem gehört das Fahrrad?",
+          "n": "Whose bike is this?"
+        },
+        {
+          "t": "Das Fahrrad gehört meinem Nachbarn.",
+          "n": "The bike belongs to my neighbour."
+        },
+        {
+          "t": "Kannst du mir beim Umzug helfen?",
+          "n": "Can you help me with the move?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the reason",
+          "base": {
+            "t": "Ich nehme die Wohnung, weil sie hell ist.",
+            "n": "I'm taking the flat because it's bright."
+          },
+          "items": [
+            {
+              "cue": "groß",
+              "t": "Ich nehme die Wohnung, weil sie groß ist.",
+              "n": "I'm taking the flat because it's big."
+            },
+            {
+              "cue": "einen Balkon haben",
+              "t": "Ich nehme die Wohnung, weil sie einen Balkon hat.",
+              "n": "I'm taking the flat because it has a balcony."
+            },
+            {
+              "cue": "nicht · zu teuer",
+              "t": "Ich nehme die Wohnung nicht, weil sie zu teuer ist.",
+              "n": "I'm not taking the flat because it's too expensive."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person (dative)",
+          "base": {
+            "t": "Die Küche gefällt mir.",
+            "n": "I like the kitchen."
+          },
+          "items": [
+            {
+              "cue": "dir?",
+              "t": "Gefällt dir die Küche?",
+              "n": "Do you like the kitchen?"
+            },
+            {
+              "cue": "uns",
+              "t": "Die Küche gefällt uns.",
+              "n": "We like the kitchen."
+            },
+            {
+              "cue": "Ihnen?",
+              "t": "Gefällt Ihnen die Küche?",
+              "n": "Do you like the kitchen? (formal)"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you like the flat because it is bright.",
+          "t": [
+            "Die Wohnung gefällt mir weil sie hell ist"
+          ]
+        },
+        {
+          "n": "Ask whose bike this is.",
+          "t": [
+            "Wem gehört das Fahrrad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l5",
+      "kind": "listening",
+      "title": "Why did you move?",
+      "goal": "Follow a friend explaining a move.",
+      "phrases": [
+        {
+          "t": "Warum bist du umgezogen?",
+          "n": "Why did you move?"
+        },
+        {
+          "t": "Die alte Wohnung war zu klein.",
+          "n": "The old flat was too small."
+        },
+        {
+          "t": "Die Miete ist sogar billiger.",
+          "n": "The rent is even cheaper."
+        },
+        {
+          "t": "Meine Freunde haben mir geholfen.",
+          "n": "My friends helped me."
+        }
+      ],
+      "story": {
+        "title": "The big move",
+        "intro": "Nina asks her friend Felix about his new flat.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Nina",
+            "t": "Felix, du bist umgezogen! Warum denn?",
+            "n": "Felix, you moved! Why?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Weil die alte Wohnung zu klein war. Jetzt habe ich drei Zimmer.",
+            "n": "Because the old flat was too small. Now I have three rooms."
+          },
+          {
+            "name": "Nina",
+            "t": "Toll! Ist die Miete nicht teurer?",
+            "n": "Great! Isn't the rent more expensive?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Nein, sie ist sogar billiger, weil die Wohnung nicht im Zentrum liegt.",
+            "n": "No, it's even cheaper, because the flat isn't in the centre."
+          },
+          {
+            "name": "Nina",
+            "t": "Und wer hat dir beim Umzug geholfen?",
+            "n": "And who helped you with the move?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Meine Freunde. Danach haben wir zusammen Pizza gegessen.",
+            "n": "My friends. Afterwards we ate pizza together."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Warum ist Felix umgezogen?",
+            "n": "Why did Felix move?",
+            "t": [
+              "Die alte Wohnung war zu klein",
+              "Weil die alte Wohnung zu klein war",
+              "Zu klein"
+            ]
+          },
+          {
+            "q": "Wie viele Zimmer hat Felix jetzt?",
+            "n": "How many rooms does Felix have now?",
+            "t": [
+              "Drei",
+              "Drei Zimmer"
+            ]
+          },
+          {
+            "q": "Wer hat beim Umzug geholfen?",
+            "n": "Who helped with the move?",
+            "t": [
+              "Seine Freunde",
+              "Freunde"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u04-l6",
+      "kind": "roleplay",
+      "title": "Flat viewing",
+      "goal": "View a flat with the landlord and decide.",
+      "phrases": [
+        {
+          "t": "Wie groß ist die Wohnung?",
+          "n": "How big is the flat?"
+        },
+        {
+          "t": "Ich habe eine Katze.",
+          "n": "I have a cat."
+        },
+        {
+          "t": "Die Wohnung gefällt mir sehr.",
+          "n": "I like the flat a lot."
+        },
+        {
+          "t": "Ich möchte sie nehmen.",
+          "n": "I'd like to take it."
+        }
+      ],
+      "branch": {
+        "title": "The viewing",
+        "scene": "You meet the landlord, Herr Krüger, to view a two-room flat.",
+        "name": "Herr Krüger",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Guten Tag! Kommen Sie rein. Das ist das Wohnzimmer.",
+            "n": "Hello! Come in. This is the living room.",
+            "choices": [
+              {
+                "t": "Oh, schön hell! Wie groß ist die Wohnung?",
+                "n": "Oh, nice and bright! How big is the flat?",
+                "next": "size"
+              },
+              {
+                "t": "Wie bitte? Langsamer, bitte.",
+                "n": "Pardon? Slower, please.",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Entschuldigung! Das ist das Wohnzimmer. Es ist sehr hell.",
+            "n": "Sorry! This is the living room. It is very bright.",
+            "choices": [
+              {
+                "t": "Danke! Wie groß ist die Wohnung?",
+                "n": "Thanks! How big is the flat?",
+                "next": "size"
+              }
+            ]
+          },
+          "size": {
+            "t": "Sechzig Quadratmeter: zwei Zimmer, Küche und Bad.",
+            "n": "Sixty square metres: two rooms, kitchen and bathroom.",
+            "choices": [
+              {
+                "t": "Darf man Haustiere haben? Ich habe eine Katze.",
+                "n": "Are pets allowed? I have a cat.",
+                "next": "pets"
+              },
+              {
+                "t": "Sind die Nebenkosten inklusive?",
+                "n": "Are the utilities included?",
+                "next": "costs"
+              }
+            ]
+          },
+          "pets": {
+            "t": "Eine Katze ist kein Problem.",
+            "n": "A cat is no problem.",
+            "choices": [
+              {
+                "t": "Super! Sind die Nebenkosten inklusive?",
+                "n": "Great! Are the utilities included?",
+                "next": "costs"
+              }
+            ]
+          },
+          "costs": {
+            "t": "Nein, die Nebenkosten sind zweihundert Euro extra. Gefällt Ihnen die Wohnung?",
+            "n": "No, the utilities are two hundred euros extra. Do you like the flat?",
+            "choices": [
+              {
+                "t": "Ja, sie gefällt mir sehr. Ich möchte sie nehmen.",
+                "n": "Yes, I like it a lot. I'd like to take it.",
+                "next": "good"
+              },
+              {
+                "t": "Nein, die Wohnung ist hässlich.",
+                "n": "No, the flat is ugly.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Prima! Schicken Sie mir bitte Ihre Unterlagen.",
+            "n": "Great! Please send me your documents.",
+            "end": "good",
+            "outcome": "The landlord liked you — send your documents and the flat could be yours."
+          },
+          "bad": {
+            "t": "Na, dann … auf Wiedersehen.",
+            "n": "Well then … goodbye.",
+            "end": "bad",
+            "outcome": "Too blunt. Give a polite reason, e.g. Sie ist leider zu teuer für mich."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask how big the flat is.",
+          "t": [
+            "Wie groß ist die Wohnung"
+          ]
+        },
+        {
+          "n": "Say you like the flat and you'd like to take it.",
+          "t": [
+            "Die Wohnung gefällt mir ich möchte sie nehmen",
+            "Die Wohnung gefällt mir sehr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l7",
+      "kind": "speaking",
+      "title": "My home",
+      "goal": "Describe your home and say why you like it for 40 seconds.",
+      "culture": {
+        "title": "Hausordnung, Mülltrennung, Ruhezeiten",
+        "body": "Most blocks of flats have a Hausordnung (house rules). Rubbish is sorted into paper, packaging, organic and general waste, and glass goes to bottle banks by colour. Quiet hours (Ruhezeiten) are usually 10 p.m. to 6 a.m. and all of Sunday — no drilling or loud music. In Switzerland you often need official, paid rubbish bags.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Meine Wohnung gefällt mir, weil sie hell ist.",
+          "n": "I like my flat because it is bright."
+        },
+        {
+          "t": "Am besten gefällt mir der Balkon.",
+          "n": "I like the balcony best."
+        },
+        {
+          "t": "Leider ist sie ein bisschen laut.",
+          "n": "Unfortunately it's a bit noisy."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your home: the rooms, what you like and why.",
+          "hint": "Ich wohne in …, Die Wohnung hat … Zimmer, … gefällt mir, weil …, Leider ist sie …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "rooms",
+              "any": [
+                "zimmer",
+                "küche",
+                "bad",
+                "wohnzimmer",
+                "schlafzimmer",
+                "balkon",
+                "garten"
+              ]
+            },
+            {
+              "label": "what you like",
+              "any": [
+                "gefällt",
+                "gern",
+                "mag",
+                "schön",
+                "am besten"
+              ]
+            },
+            {
+              "label": "a reason with weil",
+              "any": [
+                "weil"
+              ]
+            },
+            {
+              "label": "a describing word",
+              "any": [
+                "groß",
+                "klein",
+                "hell",
+                "ruhig",
+                "laut",
+                "teuer",
+                "billig",
+                "dunkel",
+                "größer",
+                "kleiner"
+              ]
+            }
+          ],
+          "model": "Ich wohne in einer Zweizimmerwohnung. Sie gefällt mir, weil sie hell und ruhig ist. Am besten gefällt mir der Balkon."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you like the balcony best.",
+          "t": [
+            "Am besten gefällt mir der Balkon"
+          ]
+        },
+        {
+          "n": "Say unfortunately it's a bit noisy.",
+          "t": [
+            "Leider ist sie ein bisschen laut",
+            "Leider ist es ein bisschen laut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Meine Wohnung",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

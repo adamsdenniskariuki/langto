@@ -1,0 +1,230 @@
+{
+  "id": "pron-u04",
+  "level": "A2",
+  "title": "Das R",
+  "subtitle": "Uvular r & vocalised r",
+  "icon": "🦁",
+  "lessons": [
+    {
+      "id": "pron-u04-l1",
+      "kind": "pron",
+      "title": "The back r",
+      "goal": "Make the German r at the back of the mouth.",
+      "tip": {
+        "title": "Gargle gently",
+        "body": "The standard German r is made at the back: raise the back of your tongue towards the uvula, as if gargling very softly. Don't curl the tongue tip like an English r. A rolled tip r is also understood (South, Austria, Switzerland)."
+      },
+      "phrases": [
+        {
+          "t": "Drei Brote, bitte.",
+          "n": "Three loaves, please."
+        },
+        {
+          "t": "Ich reise gern.",
+          "n": "I like travelling."
+        },
+        {
+          "t": "Das ist richtig.",
+          "n": "That's right."
+        },
+        {
+          "t": "Die Rose ist rot.",
+          "n": "The rose is red."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "Reise",
+            "n": "trip"
+          },
+          "b": {
+            "t": "leise",
+            "n": "quiet"
+          }
+        },
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "Rand",
+            "n": "edge"
+          },
+          "b": {
+            "t": "Land",
+            "n": "country"
+          }
+        },
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "Ratte",
+            "n": "rat"
+          },
+          "b": {
+            "t": "Latte",
+            "n": "slat"
+          }
+        },
+        {
+          "sound": "r / h",
+          "a": {
+            "t": "Rose",
+            "n": "rose"
+          },
+          "b": {
+            "t": "Hose",
+            "n": "trousers"
+          }
+        },
+        {
+          "sound": "r / h",
+          "a": {
+            "t": "rund",
+            "n": "round"
+          },
+          "b": {
+            "t": "Hund",
+            "n": "dog"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich reise gern.",
+          "n": "I like travelling.",
+          "mark": "Ich *rei*se *gern*."
+        },
+        {
+          "t": "Die Rose ist rot.",
+          "n": "The rose is red.",
+          "mark": "Die *Ro*se ist *rot*."
+        },
+        {
+          "t": "Das ist richtig.",
+          "n": "That's right.",
+          "mark": "Das ist *rich*tig."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"three\".",
+          "t": [
+            "drei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u04-l2",
+      "kind": "pron",
+      "title": "The silent r",
+      "goal": "Vocalise r after long vowels.",
+      "tip": {
+        "title": "r turns into \"a\"",
+        "body": "After a long vowel, r becomes a short, open \"uh/a\" glide: Bier ≈ \"bee-a\", hier ≈ \"hee-a\", vier ≈ \"fee-a\". The ending -er does the same: Vater ≈ \"Fah-ta\". Don't pronounce a hard r here."
+      },
+      "phrases": [
+        {
+          "t": "Ein Bier, bitte.",
+          "n": "A beer, please."
+        },
+        {
+          "t": "Mein Vater ist hier.",
+          "n": "My father is here."
+        },
+        {
+          "t": "Wir sind zu viert.",
+          "n": "There are four of us."
+        },
+        {
+          "t": "Das ist sehr gut.",
+          "n": "That's very good."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "-r / –",
+          "a": {
+            "t": "wir",
+            "n": "we"
+          },
+          "b": {
+            "t": "wie",
+            "n": "how"
+          }
+        },
+        {
+          "sound": "-r / –",
+          "a": {
+            "t": "dir",
+            "n": "to you"
+          },
+          "b": {
+            "t": "die",
+            "n": "the"
+          }
+        },
+        {
+          "sound": "-r / –",
+          "a": {
+            "t": "sehr",
+            "n": "very"
+          },
+          "b": {
+            "t": "See",
+            "n": "lake"
+          }
+        },
+        {
+          "sound": "-r / –",
+          "a": {
+            "t": "vier",
+            "n": "four"
+          },
+          "b": {
+            "t": "Vieh",
+            "n": "cattle"
+          }
+        },
+        {
+          "sound": "-r / –",
+          "a": {
+            "t": "Ohr",
+            "n": "ear"
+          },
+          "b": {
+            "t": "oh",
+            "n": "oh"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Mein Vater ist hier.",
+          "n": "My father is here.",
+          "mark": "Mein *Va*ter ist *hier*."
+        },
+        {
+          "t": "Ein Bier, bitte.",
+          "n": "A beer, please.",
+          "mark": "Ein *Bier*, *bit*te."
+        },
+        {
+          "t": "Wir sind zu viert.",
+          "n": "There are four of us.",
+          "mark": "Wir sind zu *viert*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Order a beer politely.",
+          "t": [
+            "Ein Bier bitte",
+            "Ein Bier, bitte"
+          ]
+        }
+      ]
+    }
+  ]
+}

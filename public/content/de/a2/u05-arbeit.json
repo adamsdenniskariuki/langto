@@ -13,34 +13,116 @@
         "body": "Separable verbs split: anfangen → Ich fange um acht Uhr an. gefallen works 'backwards' with the dative: Meine Arbeit gefällt mir (my work pleases me). The separable prefix carries the stress, even at the end: Ich fange um acht AN."
       },
       "phrases": [
-        { "t": "Ich arbeite in einem Büro.", "n": "I work in an office." },
-        { "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.", "n": "I've been working at an IT company for two years." },
-        { "t": "Ich fange um acht Uhr an.", "n": "I start at eight o'clock." },
-        { "t": "Meistens mache ich um zwölf Mittagspause.", "n": "I usually take my lunch break at twelve." },
-        { "t": "Ich habe oft Besprechungen.", "n": "I often have meetings." },
-        { "t": "Ich fahre mit dem Fahrrad zur Arbeit.", "n": "I cycle to work.", "note": "zur = zu der" },
-        { "t": "Nach der Arbeit bin ich oft müde.", "n": "After work I'm often tired." },
-        { "t": "Meine Arbeit gefällt mir, weil meine Kollegen nett sind.", "n": "I like my job because my colleagues are nice." }
+        {
+          "t": "Ich arbeite in einem Büro.",
+          "n": "I work in an office."
+        },
+        {
+          "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.",
+          "n": "I've been working at an IT company for two years."
+        },
+        {
+          "t": "Ich fange um acht Uhr an.",
+          "n": "I start at eight o'clock."
+        },
+        {
+          "t": "Meistens mache ich um zwölf Mittagspause.",
+          "n": "I usually take my lunch break at twelve."
+        },
+        {
+          "t": "Ich habe oft Besprechungen.",
+          "n": "I often have meetings."
+        },
+        {
+          "t": "Ich fahre mit dem Fahrrad zur Arbeit.",
+          "n": "I cycle to work.",
+          "note": "zur = zu der"
+        },
+        {
+          "t": "Nach der Arbeit bin ich oft müde.",
+          "n": "After work I'm often tired."
+        },
+        {
+          "t": "Meine Arbeit gefällt mir, weil meine Kollegen nett sind.",
+          "n": "I like my job because my colleagues are nice."
+        }
       ],
       "dialogue": {
         "title": "Small talk at a party",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Mia", "t": "Und was machst du beruflich?", "n": "And what do you do for a living?" },
-          { "who": "you", "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.", "n": "I've been working at an IT company for two years." },
-          { "who": "A", "name": "Mia", "t": "Interessant! Wie sieht dein Arbeitstag aus?", "n": "Interesting! What does your working day look like?" },
-          { "who": "you", "t": "Ich fange um acht Uhr an. Ich habe oft Besprechungen.", "n": "I start at eight. I often have meetings." },
-          { "who": "A", "name": "Mia", "t": "Und wie kommst du zur Arbeit?", "n": "And how do you get to work?" },
-          { "who": "you", "t": "Ich fahre mit dem Fahrrad zur Arbeit.", "n": "I cycle to work." },
-          { "who": "A", "name": "Mia", "t": "Gefällt dir deine Arbeit?", "n": "Do you like your job?" },
-          { "who": "you", "t": "Ja, meine Arbeit gefällt mir, weil meine Kollegen nett sind.", "n": "Yes, I like my job because my colleagues are nice." }
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Und was machst du beruflich?",
+            "n": "And what do you do for a living?"
+          },
+          {
+            "who": "you",
+            "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.",
+            "n": "I've been working at an IT company for two years."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Interessant! Wie sieht dein Arbeitstag aus?",
+            "n": "Interesting! What does your working day look like?"
+          },
+          {
+            "who": "you",
+            "t": "Ich fange um acht Uhr an. Ich habe oft Besprechungen.",
+            "n": "I start at eight. I often have meetings."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Und wie kommst du zur Arbeit?",
+            "n": "And how do you get to work?"
+          },
+          {
+            "who": "you",
+            "t": "Ich fahre mit dem Fahrrad zur Arbeit.",
+            "n": "I cycle to work."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Gefällt dir deine Arbeit?",
+            "n": "Do you like your job?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, meine Arbeit gefällt mir, weil meine Kollegen nett sind.",
+            "n": "Yes, I like my job because my colleagues are nice."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you start work at eight.", "t": ["Ich fange um acht Uhr an", "Ich fange um acht an"] },
-        { "n": "Say you cycle to work.", "t": ["Ich fahre mit dem Fahrrad zur Arbeit"] },
-        { "n": "Say you've been working at an IT company for two years.", "t": ["Ich arbeite seit zwei Jahren bei einer IT-Firma"] },
-        { "n": "Say you like your job because your colleagues are nice.", "t": ["Meine Arbeit gefällt mir weil meine Kollegen nett sind"] }
+        {
+          "n": "Say you start work at eight.",
+          "t": [
+            "Ich fange um acht Uhr an",
+            "Ich fange um acht an"
+          ]
+        },
+        {
+          "n": "Say you cycle to work.",
+          "t": [
+            "Ich fahre mit dem Fahrrad zur Arbeit"
+          ]
+        },
+        {
+          "n": "Say you've been working at an IT company for two years.",
+          "t": [
+            "Ich arbeite seit zwei Jahren bei einer IT-Firma"
+          ]
+        },
+        {
+          "n": "Say you like your job because your colleagues are nice.",
+          "t": [
+            "Meine Arbeit gefällt mir weil meine Kollegen nett sind"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +134,642 @@
         "body": "Verbs like helfen, schicken and geben use the dative for the person: Kannst du mir helfen? Ich schicke dir die Unterlagen. With your boss, Könnten Sie …? is extra polite. Feierabend (end of the working day) is said FEI-er-a-bend — the -er sounds like a short 'uh'."
       },
       "phrases": [
-        { "t": "Kannst du mir kurz helfen?", "n": "Can you help me for a moment?" },
-        { "t": "Der Drucker funktioniert nicht.", "n": "The printer isn't working." },
-        { "t": "Könnten Sie mir die Datei schicken?", "n": "Could you send me the file?", "note": "Very polite — good for your boss" },
-        { "t": "Ich schicke dir die Unterlagen heute Nachmittag.", "n": "I'll send you the documents this afternoon." },
-        { "t": "Wann ist die Besprechung?", "n": "When is the meeting?" },
-        { "t": "Der Bericht ist noch nicht fertig.", "n": "The report isn't finished yet." },
-        { "t": "Ich muss heute länger arbeiten.", "n": "I have to work late today." },
-        { "t": "Schönen Feierabend!", "n": "Have a nice evening!", "note": "Said to colleagues when leaving work" }
+        {
+          "t": "Kannst du mir kurz helfen?",
+          "n": "Can you help me for a moment?"
+        },
+        {
+          "t": "Der Drucker funktioniert nicht.",
+          "n": "The printer isn't working."
+        },
+        {
+          "t": "Könnten Sie mir die Datei schicken?",
+          "n": "Could you send me the file?",
+          "note": "Very polite — good for your boss"
+        },
+        {
+          "t": "Ich schicke dir die Unterlagen heute Nachmittag.",
+          "n": "I'll send you the documents this afternoon."
+        },
+        {
+          "t": "Wann ist die Besprechung?",
+          "n": "When is the meeting?"
+        },
+        {
+          "t": "Der Bericht ist noch nicht fertig.",
+          "n": "The report isn't finished yet."
+        },
+        {
+          "t": "Ich muss heute länger arbeiten.",
+          "n": "I have to work late today."
+        },
+        {
+          "t": "Schönen Feierabend!",
+          "n": "Have a nice evening!",
+          "note": "Said to colleagues when leaving work"
+        }
       ],
       "dialogue": {
         "title": "A busy day",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Jan", "t": "Morgen! Hast du die Unterlagen für das Projekt?", "n": "Morning! Do you have the documents for the project?" },
-          { "who": "you", "t": "Ja, ich schicke dir die Unterlagen heute Nachmittag.", "n": "Yes, I'll send you the documents this afternoon." },
-          { "who": "A", "name": "Jan", "t": "Super, danke. Wann ist eigentlich die Besprechung?", "n": "Great, thanks. When is the meeting, by the way?" },
-          { "who": "you", "t": "Um drei Uhr. Kannst du mir kurz helfen? Der Drucker funktioniert nicht.", "n": "At three. Can you help me for a moment? The printer isn't working." },
-          { "who": "A", "name": "Jan", "t": "Klar, ich schaue mal. So, jetzt geht er wieder.", "n": "Sure, I'll take a look. There, it's working again." },
-          { "who": "you", "t": "Danke! Ich muss heute länger arbeiten. Der Bericht ist noch nicht fertig.", "n": "Thanks! I have to work late today. The report isn't finished yet." },
-          { "who": "A", "name": "Jan", "t": "Oh, schade. Ich mache jetzt Feierabend. Bis morgen!", "n": "Oh, too bad. I'm off now. See you tomorrow!" },
-          { "who": "you", "t": "Schönen Feierabend! Bis morgen!", "n": "Have a nice evening! See you tomorrow!" }
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Morgen! Hast du die Unterlagen für das Projekt?",
+            "n": "Morning! Do you have the documents for the project?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich schicke dir die Unterlagen heute Nachmittag.",
+            "n": "Yes, I'll send you the documents this afternoon."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Super, danke. Wann ist eigentlich die Besprechung?",
+            "n": "Great, thanks. When is the meeting, by the way?"
+          },
+          {
+            "who": "you",
+            "t": "Um drei Uhr. Kannst du mir kurz helfen? Der Drucker funktioniert nicht.",
+            "n": "At three. Can you help me for a moment? The printer isn't working."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Klar, ich schaue mal. So, jetzt geht er wieder.",
+            "n": "Sure, I'll take a look. There, it's working again."
+          },
+          {
+            "who": "you",
+            "t": "Danke! Ich muss heute länger arbeiten. Der Bericht ist noch nicht fertig.",
+            "n": "Thanks! I have to work late today. The report isn't finished yet."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Oh, schade. Ich mache jetzt Feierabend. Bis morgen!",
+            "n": "Oh, too bad. I'm off now. See you tomorrow!"
+          },
+          {
+            "who": "you",
+            "t": "Schönen Feierabend! Bis morgen!",
+            "n": "Have a nice evening! See you tomorrow!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask a colleague to help you for a moment.", "t": ["Kannst du mir kurz helfen", "Können Sie mir kurz helfen"] },
-        { "n": "Say the printer isn't working.", "t": ["Der Drucker funktioniert nicht", "Der Drucker geht nicht"] },
-        { "n": "Politely ask your boss to send you the file.", "t": ["Könnten Sie mir die Datei schicken", "Können Sie mir die Datei schicken"] },
-        { "n": "Wish a colleague a nice evening as they leave work.", "t": ["Schönen Feierabend"] }
+        {
+          "n": "Ask a colleague to help you for a moment.",
+          "t": [
+            "Kannst du mir kurz helfen",
+            "Können Sie mir kurz helfen"
+          ]
+        },
+        {
+          "n": "Say the printer isn't working.",
+          "t": [
+            "Der Drucker funktioniert nicht",
+            "Der Drucker geht nicht"
+          ]
+        },
+        {
+          "n": "Politely ask your boss to send you the file.",
+          "t": [
+            "Könnten Sie mir die Datei schicken",
+            "Können Sie mir die Datei schicken"
+          ]
+        },
+        {
+          "n": "Wish a colleague a nice evening as they leave work.",
+          "t": [
+            "Schönen Feierabend"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u05-l3",
+      "title": "Jobs and workplaces",
+      "goal": "Say what you do, where you work and how busy you are.",
+      "phrases": [
+        {
+          "t": "Was sind Sie von Beruf?",
+          "n": "What do you do for a living? (formal)"
+        },
+        {
+          "t": "Ich bin Lehrerin von Beruf.",
+          "n": "I'm a teacher by profession.",
+          "note": "Male: Lehrer"
+        },
+        {
+          "t": "Ich arbeite oft im Homeoffice.",
+          "n": "I often work from home."
+        },
+        {
+          "t": "Heute habe ich viel zu tun.",
+          "n": "I have a lot to do today."
+        },
+        {
+          "t": "Mein Chef ist diese Woche im Urlaub.",
+          "n": "My boss is on holiday this week."
+        },
+        {
+          "t": "Morgen habe ich frei.",
+          "n": "I have the day off tomorrow."
+        }
+      ],
+      "dialogue": {
+        "title": "At the coffee machine",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Herr Braun",
+            "t": "Was sind Sie eigentlich von Beruf?",
+            "n": "So what do you do, actually?"
+          },
+          {
+            "who": "you",
+            "t": "Ich bin Lehrerin. Aber heute habe ich viel zu tun.",
+            "n": "I'm a teacher. But I have a lot to do today."
+          },
+          {
+            "who": "A",
+            "name": "Herr Braun",
+            "t": "Arbeiten Sie auch im Homeoffice?",
+            "n": "Do you work from home too?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, oft. Und morgen habe ich frei.",
+            "n": "Yes, often. And tomorrow I have the day off."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask someone formally what they do for a living.",
+          "t": [
+            "Was sind Sie von Beruf",
+            "Was machen Sie beruflich"
+          ]
+        },
+        {
+          "n": "Say you often work from home.",
+          "t": [
+            "Ich arbeite oft im Homeoffice"
+          ]
+        },
+        {
+          "n": "Say you have a lot to do today.",
+          "t": [
+            "Heute habe ich viel zu tun",
+            "Ich habe heute viel zu tun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l4",
+      "kind": "grammar",
+      "title": "dass: verb to the end",
+      "goal": "Give opinions and information with dass-clauses.",
+      "tip": {
+        "title": "dass sends the verb last",
+        "body": "After Ich glaube, Ich finde, Ich weiß or Er sagt you can add a dass-clause. dass pushes the conjugated verb to the very end: Ich glaube, dass der Bericht fertig ist. With a modal verb, the modal comes last: …, dass ich länger arbeiten muss."
+      },
+      "phrases": [
+        {
+          "t": "Ich glaube, dass der Chef heute krank ist.",
+          "n": "I think the boss is ill today."
+        },
+        {
+          "t": "Ich finde, dass die Arbeit interessant ist.",
+          "n": "I think the work is interesting."
+        },
+        {
+          "t": "Ich weiß, dass die Besprechung um drei ist.",
+          "n": "I know the meeting is at three."
+        },
+        {
+          "t": "Ich hoffe, dass ich bald Urlaub habe.",
+          "n": "I hope I have a holiday soon."
+        },
+        {
+          "t": "Er sagt, dass er länger arbeiten muss.",
+          "n": "He says he has to work late."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the opening",
+          "base": {
+            "t": "Ich glaube, dass die Besprechung um drei ist.",
+            "n": "I think the meeting is at three."
+          },
+          "items": [
+            {
+              "cue": "weiß",
+              "t": "Ich weiß, dass die Besprechung um drei ist.",
+              "n": "I know the meeting is at three."
+            },
+            {
+              "cue": "denke",
+              "t": "Ich denke, dass die Besprechung um drei ist.",
+              "n": "I think the meeting is at three."
+            },
+            {
+              "cue": "Er sagt",
+              "t": "Er sagt, dass die Besprechung um drei ist.",
+              "n": "He says the meeting is at three."
+            }
+          ]
+        },
+        {
+          "title": "Swap the dass-clause",
+          "base": {
+            "t": "Ich glaube, dass der Bericht fertig ist.",
+            "n": "I think the report is finished."
+          },
+          "items": [
+            {
+              "cue": "der Drucker · funktioniert nicht",
+              "t": "Ich glaube, dass der Drucker nicht funktioniert.",
+              "n": "I think the printer isn't working."
+            },
+            {
+              "cue": "der Chef · ist im Urlaub",
+              "t": "Ich glaube, dass der Chef im Urlaub ist.",
+              "n": "I think the boss is on holiday."
+            },
+            {
+              "cue": "ich · muss länger arbeiten",
+              "t": "Ich glaube, dass ich länger arbeiten muss.",
+              "n": "I think I have to work late."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you think the work is interesting.",
+          "t": [
+            "Ich finde dass die Arbeit interessant ist",
+            "Ich glaube dass die Arbeit interessant ist"
+          ]
+        },
+        {
+          "n": "Say you know the meeting is at three.",
+          "t": [
+            "Ich weiß dass die Besprechung um drei ist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l5",
+      "kind": "listening",
+      "title": "Lunch in the canteen",
+      "goal": "Follow colleagues chatting about work.",
+      "phrases": [
+        {
+          "t": "Wie war dein erster Monat?",
+          "n": "How was your first month?"
+        },
+        {
+          "t": "Ich habe viel zu tun.",
+          "n": "I have a lot to do."
+        },
+        {
+          "t": "Am Freitag arbeite ich im Homeoffice.",
+          "n": "On Friday I work from home."
+        },
+        {
+          "t": "Ich mache meistens um fünf Feierabend.",
+          "n": "I usually finish work at five."
+        }
+      ],
+      "story": {
+        "title": "A new colleague",
+        "intro": "Lena asks her new colleague Tim about his first month at the company.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Lena",
+            "t": "Hallo Tim! Wie war dein erster Monat in der Firma?",
+            "n": "Hi Tim! How was your first month at the company?"
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gut! Die Kollegen sind sehr nett, aber ich habe viel zu tun.",
+            "n": "Good! The colleagues are very nice, but I have a lot to do."
+          },
+          {
+            "name": "Lena",
+            "t": "Arbeitest du auch im Homeoffice?",
+            "n": "Do you work from home too?"
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ja, am Freitag. Dann muss ich nicht mit dem Zug fahren.",
+            "n": "Yes, on Fridays. Then I don't have to take the train."
+          },
+          {
+            "name": "Lena",
+            "t": "Und wann machst du Feierabend?",
+            "n": "And when do you finish work?"
+          },
+          {
+            "name": "Tim",
+            "voice": "de-DE-ConradNeural",
+            "t": "Meistens um fünf. Aber heute muss ich länger arbeiten.",
+            "n": "Usually at five. But today I have to work late."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie sind die Kollegen?",
+            "n": "What are the colleagues like?",
+            "t": [
+              "Sehr nett",
+              "Nett",
+              "Die Kollegen sind sehr nett"
+            ]
+          },
+          {
+            "q": "Wann arbeitet Tim im Homeoffice?",
+            "n": "When does Tim work from home?",
+            "t": [
+              "Am Freitag",
+              "Freitag"
+            ]
+          },
+          {
+            "q": "Wann macht Tim meistens Feierabend?",
+            "n": "When does Tim usually finish work?",
+            "t": [
+              "Um fünf",
+              "Meistens um fünf",
+              "Um fünf Uhr"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u05-l6",
+      "kind": "roleplay",
+      "title": "First day at work",
+      "goal": "Meet a colleague and ask for help on your first day.",
+      "phrases": [
+        {
+          "t": "Heute ist mein erster Tag.",
+          "n": "Today is my first day."
+        },
+        {
+          "t": "Kannst du mir helfen?",
+          "n": "Can you help me?"
+        },
+        {
+          "t": "Wo ist die Küche?",
+          "n": "Where is the kitchen?"
+        },
+        {
+          "t": "Vielen Dank für deine Hilfe!",
+          "n": "Thanks a lot for your help!"
+        }
+      ],
+      "branch": {
+        "title": "The new desk",
+        "scene": "It is your first morning in a new office. A colleague comes over to your desk.",
+        "name": "Max (Kollege)",
+        "voice": "de-DE-ConradNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Hallo! Bist du neu hier? Ich bin Max.",
+            "n": "Hi! Are you new here? I'm Max.",
+            "choices": [
+              {
+                "t": "Ja, heute ist mein erster Tag. Ich bin Alex.",
+                "n": "Yes, today is my first day. I'm Alex.",
+                "next": "welcome"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Bist du neu hier? Ich heiße Max.",
+            "n": "Are you new here? My name is Max.",
+            "choices": [
+              {
+                "t": "Ach so! Ja, ich bin neu. Ich heiße Alex.",
+                "n": "Oh, I see! Yes, I'm new. My name is Alex.",
+                "next": "welcome"
+              }
+            ]
+          },
+          "welcome": {
+            "t": "Willkommen im Team! Kann ich dir helfen?",
+            "n": "Welcome to the team! Can I help you?",
+            "choices": [
+              {
+                "t": "Ja, gern. Mein Computer funktioniert nicht.",
+                "n": "Yes, please. My computer isn't working.",
+                "next": "computer"
+              },
+              {
+                "t": "Wo ist die Küche?",
+                "n": "Where is the kitchen?",
+                "next": "kitchen"
+              }
+            ]
+          },
+          "kitchen": {
+            "t": "Die Küche ist dort hinten. Brauchst du sonst noch etwas?",
+            "n": "The kitchen is back there. Do you need anything else?",
+            "choices": [
+              {
+                "t": "Ja, mein Computer funktioniert nicht.",
+                "n": "Yes, my computer isn't working.",
+                "next": "computer"
+              },
+              {
+                "t": "Nein. Lass mich in Ruhe!",
+                "n": "No. Leave me alone!",
+                "next": "bad"
+              }
+            ]
+          },
+          "computer": {
+            "t": "Ich zeige dir das Passwort. So, jetzt geht er.",
+            "n": "I'll show you the password. There, now it works.",
+            "choices": [
+              {
+                "t": "Super, vielen Dank für deine Hilfe!",
+                "n": "Great, thanks a lot for your help!",
+                "next": "lunch"
+              },
+              {
+                "t": "Danke! Wann ist die Besprechung?",
+                "n": "Thanks! When is the meeting?",
+                "next": "meeting"
+              }
+            ]
+          },
+          "meeting": {
+            "t": "Um zehn. Komm, wir gehen zusammen hin.",
+            "n": "At ten. Come on, we'll go together.",
+            "end": "good",
+            "outcome": "You got help, sorted your computer and found your first meeting."
+          },
+          "lunch": {
+            "t": "Gern! Wir essen um zwölf in der Kantine. Kommst du mit?",
+            "n": "You're welcome! We eat in the canteen at twelve. Are you coming?",
+            "end": "good",
+            "outcome": "Your colleague helped you and invited you to lunch."
+          },
+          "bad": {
+            "t": "Oh … okay. Viel Glück.",
+            "n": "Oh … okay. Good luck.",
+            "end": "bad",
+            "outcome": "That was rude — on your first day, friendly help is gold. Try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell a colleague it is your first day.",
+          "t": [
+            "Heute ist mein erster Tag"
+          ]
+        },
+        {
+          "n": "Thank a colleague for their help.",
+          "t": [
+            "Vielen Dank für deine Hilfe",
+            "Danke für deine Hilfe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l7",
+      "kind": "speaking",
+      "title": "Talk about your job",
+      "goal": "Describe your job and what you think of it for 40 seconds.",
+      "culture": {
+        "title": "Feierabend and du at work",
+        "body": "Feierabend is taken seriously: after work, many people don't answer work emails or calls. In start-ups and many modern companies colleagues use du from day one; in banks, offices of public authorities and traditional firms Sie plus surname is still common. If unsure, start with Sie and wait for the more senior person to offer du. In Austria, academic titles are often used: Guten Tag, Frau Magister!",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich arbeite als Ingenieur.",
+          "n": "I work as an engineer."
+        },
+        {
+          "t": "Ich finde, dass mein Job interessant ist.",
+          "n": "I think my job is interesting."
+        },
+        {
+          "t": "Wir duzen uns im Büro.",
+          "n": "We use du with each other in the office."
+        },
+        {
+          "t": "Nach Feierabend lese ich keine E-Mails.",
+          "n": "After work I don't read emails."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your job or daily work, and say what you think about it.",
+          "hint": "Ich arbeite als / bei …, Ich fange um … an, Ich finde, dass …, Meine Kollegen sind …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "your job or workplace",
+              "any": [
+                "ich arbeite",
+                "arbeite als",
+                "arbeite bei",
+                "von beruf",
+                "ich bin",
+                "büro",
+                "firma",
+                "homeoffice"
+              ]
+            },
+            {
+              "label": "a time",
+              "any": [
+                "uhr",
+                "um",
+                "fange",
+                "feierabend",
+                "morgens",
+                "meistens"
+              ]
+            },
+            {
+              "label": "an opinion with dass",
+              "any": [
+                "dass",
+                "ich finde",
+                "ich glaube",
+                "ich denke"
+              ]
+            },
+            {
+              "label": "colleagues or how you like it",
+              "any": [
+                "kolleg*",
+                "gefällt",
+                "interessant",
+                "nett",
+                "stressig",
+                "langweilig"
+              ]
+            }
+          ],
+          "model": "Ich arbeite als Lehrerin in Köln. Ich fange um acht Uhr an. Ich finde, dass meine Arbeit interessant ist, weil meine Kollegen nett sind."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you work as an engineer.",
+          "t": [
+            "Ich arbeite als Ingenieur",
+            "Ich bin Ingenieur"
+          ]
+        },
+        {
+          "n": "Say you don't read emails after work.",
+          "t": [
+            "Nach Feierabend lese ich keine E-Mails",
+            "Ich lese nach Feierabend keine E-Mails"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Bei der Arbeit",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

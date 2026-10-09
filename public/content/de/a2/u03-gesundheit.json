@@ -13,34 +13,117 @@
         "body": "Say what hurts with wehtun: Mein Hals tut weh, Meine Füße tun weh. Many feelings use the dative mir: Mir ist schlecht, Mir ist kalt. For something that started in the past and is still going on, use seit with the present tense: Ich habe seit gestern Fieber. In Kopfschmerzen, say the 'ts' clearly: Kopf-schmer-tsen."
       },
       "phrases": [
-        { "t": "Ich fühle mich nicht gut.", "n": "I don't feel well." },
-        { "t": "Mir ist schlecht.", "n": "I feel sick.", "note": "Dative mir, no ich!" },
-        { "t": "Ich habe Kopfschmerzen.", "n": "I have a headache." },
-        { "t": "Mein Hals tut weh.", "n": "My throat hurts." },
-        { "t": "Mein Rücken tut weh.", "n": "My back hurts." },
-        { "t": "Ich habe seit gestern Fieber.", "n": "I've had a fever since yesterday." },
-        { "t": "Ich bin erkältet.", "n": "I have a cold." },
-        { "t": "Ich habe letzte Nacht schlecht geschlafen.", "n": "I slept badly last night." }
+        {
+          "t": "Ich fühle mich nicht gut.",
+          "n": "I don't feel well."
+        },
+        {
+          "t": "Mir ist schlecht.",
+          "n": "I feel sick.",
+          "note": "Dative mir, no ich!"
+        },
+        {
+          "t": "Ich habe Kopfschmerzen.",
+          "n": "I have a headache."
+        },
+        {
+          "t": "Mein Hals tut weh.",
+          "n": "My throat hurts."
+        },
+        {
+          "t": "Mein Rücken tut weh.",
+          "n": "My back hurts."
+        },
+        {
+          "t": "Ich habe seit gestern Fieber.",
+          "n": "I've had a fever since yesterday."
+        },
+        {
+          "t": "Ich bin erkältet.",
+          "n": "I have a cold."
+        },
+        {
+          "t": "Ich habe letzte Nacht schlecht geschlafen.",
+          "n": "I slept badly last night."
+        }
       ],
       "dialogue": {
         "title": "You look tired",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Anna", "t": "Hallo! Du siehst müde aus. Was ist los?", "n": "Hi! You look tired. What's up?" },
-          { "who": "you", "t": "Ich fühle mich nicht gut. Ich habe letzte Nacht schlecht geschlafen.", "n": "I don't feel well. I slept badly last night." },
-          { "who": "A", "name": "Anna", "t": "Oh nein! Was hast du denn?", "n": "Oh no! What's wrong?" },
-          { "who": "you", "t": "Ich habe Kopfschmerzen und mein Hals tut weh.", "n": "I have a headache and my throat hurts." },
-          { "who": "A", "name": "Anna", "t": "Hast du auch Fieber?", "n": "Do you have a fever too?" },
-          { "who": "you", "t": "Ja, ich habe seit gestern Fieber.", "n": "Yes, I've had a fever since yesterday." },
-          { "who": "A", "name": "Anna", "t": "Dann musst du zum Arzt gehen!", "n": "Then you have to go to the doctor!" },
-          { "who": "you", "t": "Du hast recht. Ich gehe morgen zum Arzt.", "n": "You're right. I'll go to the doctor tomorrow." }
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Hallo! Du siehst müde aus. Was ist los?",
+            "n": "Hi! You look tired. What's up?"
+          },
+          {
+            "who": "you",
+            "t": "Ich fühle mich nicht gut. Ich habe letzte Nacht schlecht geschlafen.",
+            "n": "I don't feel well. I slept badly last night."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Oh nein! Was hast du denn?",
+            "n": "Oh no! What's wrong?"
+          },
+          {
+            "who": "you",
+            "t": "Ich habe Kopfschmerzen und mein Hals tut weh.",
+            "n": "I have a headache and my throat hurts."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Hast du auch Fieber?",
+            "n": "Do you have a fever too?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich habe seit gestern Fieber.",
+            "n": "Yes, I've had a fever since yesterday."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Dann musst du zum Arzt gehen!",
+            "n": "Then you have to go to the doctor!"
+          },
+          {
+            "who": "you",
+            "t": "Du hast recht. Ich gehe morgen zum Arzt.",
+            "n": "You're right. I'll go to the doctor tomorrow."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you don't feel well.", "t": ["Ich fühle mich nicht gut", "Mir geht es nicht gut"] },
-        { "n": "Say you have a headache.", "t": ["Ich habe Kopfschmerzen"] },
-        { "n": "Say your throat hurts.", "t": ["Mein Hals tut weh", "Ich habe Halsschmerzen"] },
-        { "n": "Say you've had a fever since yesterday.", "t": ["Ich habe seit gestern Fieber"] }
+        {
+          "n": "Say you don't feel well.",
+          "t": [
+            "Ich fühle mich nicht gut",
+            "Mir geht es nicht gut"
+          ]
+        },
+        {
+          "n": "Say you have a headache.",
+          "t": [
+            "Ich habe Kopfschmerzen"
+          ]
+        },
+        {
+          "n": "Say your throat hurts.",
+          "t": [
+            "Mein Hals tut weh",
+            "Ich habe Halsschmerzen"
+          ]
+        },
+        {
+          "n": "Say you've had a fever since yesterday.",
+          "t": [
+            "Ich habe seit gestern Fieber"
+          ]
+        }
       ]
     },
     {
@@ -52,37 +135,647 @@
         "body": "weil (because) sends the conjugated verb to the end of its clause: Ich kann nicht schlafen, weil ich so stark huste. Use sollen to ask about instructions: Wie oft soll ich die Tabletten nehmen? Pronounce ich with a soft hiss, like a cat — not 'ick' and not 'ish'."
       },
       "phrases": [
-        { "t": "Ich habe Halsschmerzen und ich huste stark.", "n": "I have a sore throat and I'm coughing a lot." },
-        { "t": "Seit drei Tagen.", "n": "For three days.", "note": "seit + dative: Tagen" },
-        { "t": "Ich kann nicht gut schlafen, weil ich so stark huste.", "n": "I can't sleep well because I'm coughing so much." },
-        { "t": "Muss ich Tabletten nehmen?", "n": "Do I have to take tablets?" },
-        { "t": "Wie oft soll ich die Tabletten nehmen?", "n": "How often should I take the tablets?" },
-        { "t": "Ich bin allergisch gegen Penizillin.", "n": "I'm allergic to penicillin." },
-        { "t": "Kann ich eine Krankschreibung bekommen?", "n": "Can I get a sick note?", "note": "bekommen = to get, not 'become'" },
-        { "t": "Gute Besserung!", "n": "Get well soon!" }
+        {
+          "t": "Ich habe Halsschmerzen und ich huste stark.",
+          "n": "I have a sore throat and I'm coughing a lot."
+        },
+        {
+          "t": "Seit drei Tagen.",
+          "n": "For three days.",
+          "note": "seit + dative: Tagen"
+        },
+        {
+          "t": "Ich kann nicht gut schlafen, weil ich so stark huste.",
+          "n": "I can't sleep well because I'm coughing so much."
+        },
+        {
+          "t": "Muss ich Tabletten nehmen?",
+          "n": "Do I have to take tablets?"
+        },
+        {
+          "t": "Wie oft soll ich die Tabletten nehmen?",
+          "n": "How often should I take the tablets?"
+        },
+        {
+          "t": "Ich bin allergisch gegen Penizillin.",
+          "n": "I'm allergic to penicillin."
+        },
+        {
+          "t": "Kann ich eine Krankschreibung bekommen?",
+          "n": "Can I get a sick note?",
+          "note": "bekommen = to get, not 'become'"
+        },
+        {
+          "t": "Gute Besserung!",
+          "n": "Get well soon!"
+        }
       ],
       "dialogue": {
         "title": "In the surgery",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Yilmaz", "t": "Guten Morgen! Was fehlt Ihnen denn?", "n": "Good morning! What seems to be the problem?" },
-          { "who": "you", "t": "Ich habe Halsschmerzen und ich huste stark.", "n": "I have a sore throat and I'm coughing a lot." },
-          { "who": "A", "name": "Dr. Yilmaz", "t": "Seit wann haben Sie die Beschwerden?", "n": "How long have you had the symptoms?" },
-          { "who": "you", "t": "Seit drei Tagen. Ich kann nicht gut schlafen, weil ich so stark huste.", "n": "For three days. I can't sleep well because I'm coughing so much." },
-          { "who": "A", "name": "Dr. Yilmaz", "t": "Haben Sie Allergien?", "n": "Do you have any allergies?" },
-          { "who": "you", "t": "Ja, ich bin allergisch gegen Penizillin.", "n": "Yes, I'm allergic to penicillin." },
-          { "who": "A", "name": "Dr. Yilmaz", "t": "Kein Problem. Ich verschreibe Ihnen einen Hustensaft.", "n": "No problem. I'll prescribe you a cough syrup." },
-          { "who": "you", "t": "Wie oft soll ich den Hustensaft nehmen?", "n": "How often should I take the cough syrup?" },
-          { "who": "A", "name": "Dr. Yilmaz", "t": "Dreimal am Tag. Und bleiben Sie zwei Tage zu Hause.", "n": "Three times a day. And stay at home for two days." },
-          { "who": "you", "t": "Kann ich eine Krankschreibung bekommen?", "n": "Can I get a sick note?" }
+          {
+            "who": "A",
+            "name": "Dr. Yilmaz",
+            "t": "Guten Morgen! Was fehlt Ihnen denn?",
+            "n": "Good morning! What seems to be the problem?"
+          },
+          {
+            "who": "you",
+            "t": "Ich habe Halsschmerzen und ich huste stark.",
+            "n": "I have a sore throat and I'm coughing a lot."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Yilmaz",
+            "t": "Seit wann haben Sie die Beschwerden?",
+            "n": "How long have you had the symptoms?"
+          },
+          {
+            "who": "you",
+            "t": "Seit drei Tagen. Ich kann nicht gut schlafen, weil ich so stark huste.",
+            "n": "For three days. I can't sleep well because I'm coughing so much."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Yilmaz",
+            "t": "Haben Sie Allergien?",
+            "n": "Do you have any allergies?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, ich bin allergisch gegen Penizillin.",
+            "n": "Yes, I'm allergic to penicillin."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Yilmaz",
+            "t": "Kein Problem. Ich verschreibe Ihnen einen Hustensaft.",
+            "n": "No problem. I'll prescribe you a cough syrup."
+          },
+          {
+            "who": "you",
+            "t": "Wie oft soll ich den Hustensaft nehmen?",
+            "n": "How often should I take the cough syrup?"
+          },
+          {
+            "who": "A",
+            "name": "Dr. Yilmaz",
+            "t": "Dreimal am Tag. Und bleiben Sie zwei Tage zu Hause.",
+            "n": "Three times a day. And stay at home for two days."
+          },
+          {
+            "who": "you",
+            "t": "Kann ich eine Krankschreibung bekommen?",
+            "n": "Can I get a sick note?"
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you can't sleep well because you're coughing so much.", "t": ["Ich kann nicht gut schlafen weil ich so stark huste", "Ich kann nicht schlafen weil ich so stark huste"] },
-        { "n": "Say you're allergic to penicillin.", "t": ["Ich bin allergisch gegen Penizillin"] },
-        { "n": "Ask how often you should take the tablets.", "t": ["Wie oft soll ich die Tabletten nehmen"] },
-        { "n": "Wish someone a speedy recovery.", "t": ["Gute Besserung"] }
+        {
+          "n": "Say you can't sleep well because you're coughing so much.",
+          "t": [
+            "Ich kann nicht gut schlafen weil ich so stark huste",
+            "Ich kann nicht schlafen weil ich so stark huste"
+          ]
+        },
+        {
+          "n": "Say you're allergic to penicillin.",
+          "t": [
+            "Ich bin allergisch gegen Penizillin"
+          ]
+        },
+        {
+          "n": "Ask how often you should take the tablets.",
+          "t": [
+            "Wie oft soll ich die Tabletten nehmen"
+          ]
+        },
+        {
+          "n": "Wish someone a speedy recovery.",
+          "t": [
+            "Gute Besserung"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u03-l3",
+      "title": "At the pharmacy",
+      "goal": "Ask for medicine and name more body parts.",
+      "tip": {
+        "title": "Only in the Apotheke",
+        "body": "In Germany even painkillers like ibuprofen are sold only in a pharmacy (Apotheke), not in supermarkets. At night and on Sundays one pharmacy in each area has Notdienst — the address is posted on every pharmacy door."
+      },
+      "phrases": [
+        {
+          "t": "Wo ist die nächste Apotheke?",
+          "n": "Where's the nearest pharmacy?"
+        },
+        {
+          "t": "Haben Sie etwas gegen Kopfschmerzen?",
+          "n": "Do you have something for a headache?"
+        },
+        {
+          "t": "Brauche ich dafür ein Rezept?",
+          "n": "Do I need a prescription for it?"
+        },
+        {
+          "t": "Ich habe Bauchschmerzen.",
+          "n": "I have a stomach ache."
+        },
+        {
+          "t": "Mein Knie tut weh.",
+          "n": "My knee hurts."
+        },
+        {
+          "t": "Nehmen Sie eine Tablette nach dem Essen.",
+          "n": "Take one tablet after meals."
+        }
+      ],
+      "dialogue": {
+        "title": "In the Apotheke",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Apothekerin",
+            "t": "Guten Tag! Was kann ich für Sie tun?",
+            "n": "Hello! What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Haben Sie etwas gegen Kopfschmerzen?",
+            "n": "Do you have something for a headache?"
+          },
+          {
+            "who": "A",
+            "name": "Apothekerin",
+            "t": "Ja, hier. Nehmen Sie eine Tablette nach dem Essen.",
+            "n": "Yes, here. Take one tablet after meals."
+          },
+          {
+            "who": "you",
+            "t": "Danke. Brauche ich dafür ein Rezept?",
+            "n": "Thanks. Do I need a prescription for it?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask for something for a headache.",
+          "t": [
+            "Haben Sie etwas gegen Kopfschmerzen"
+          ]
+        },
+        {
+          "n": "Ask if you need a prescription.",
+          "t": [
+            "Brauche ich dafür ein Rezept",
+            "Brauche ich ein Rezept"
+          ]
+        },
+        {
+          "n": "Say your knee hurts.",
+          "t": [
+            "Mein Knie tut weh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l4",
+      "kind": "grammar",
+      "title": "müssen, sollen, dürfen",
+      "goal": "Understand and repeat the doctor's instructions.",
+      "tip": {
+        "title": "Modal verb in position 2, infinitive at the end",
+        "body": "müssen = must/have to, sollen = should (someone else's advice), dürfen = be allowed to: Sie müssen viel Wasser trinken. Careful: nicht dürfen means must not, but nicht müssen means don't have to. ich and er/sie have the same form: ich muss, er muss; ich darf, sie darf."
+      },
+      "phrases": [
+        {
+          "t": "Sie müssen viel Wasser trinken.",
+          "n": "You must drink a lot of water."
+        },
+        {
+          "t": "Sie sollen drei Tage im Bett bleiben.",
+          "n": "You should stay in bed for three days.",
+          "note": "sollen = the doctor's advice"
+        },
+        {
+          "t": "Mit dem Knie dürfen Sie keinen Sport machen.",
+          "n": "With that knee you mustn't do sport."
+        },
+        {
+          "t": "Sie müssen nicht ins Krankenhaus.",
+          "n": "You don't have to go to hospital."
+        },
+        {
+          "t": "Darf ich arbeiten gehen?",
+          "n": "Am I allowed to go to work?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap person or modal",
+          "base": {
+            "t": "Ich muss im Bett bleiben.",
+            "n": "I have to stay in bed."
+          },
+          "items": [
+            {
+              "cue": "du",
+              "t": "Du musst im Bett bleiben.",
+              "n": "You have to stay in bed."
+            },
+            {
+              "cue": "Sie · sollen",
+              "t": "Sie sollen im Bett bleiben.",
+              "n": "You should stay in bed."
+            },
+            {
+              "cue": "er · sollen",
+              "t": "Er soll im Bett bleiben.",
+              "n": "He should stay in bed."
+            }
+          ]
+        },
+        {
+          "title": "Swap the drink",
+          "base": {
+            "t": "Ich darf keinen Kaffee trinken.",
+            "n": "I'm not allowed to drink coffee."
+          },
+          "items": [
+            {
+              "cue": "Alkohol",
+              "t": "Ich darf keinen Alkohol trinken.",
+              "n": "I'm not allowed to drink alcohol."
+            },
+            {
+              "cue": "du",
+              "t": "Du darfst keinen Kaffee trinken.",
+              "n": "You're not allowed to drink coffee."
+            },
+            {
+              "cue": "viel Wasser · müssen",
+              "t": "Ich muss viel Wasser trinken.",
+              "n": "I have to drink a lot of water."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have to drink a lot of water.",
+          "t": [
+            "Ich muss viel Wasser trinken"
+          ]
+        },
+        {
+          "n": "Ask the doctor if you are allowed to do sport.",
+          "t": [
+            "Darf ich Sport machen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l5",
+      "kind": "listening",
+      "title": "A football injury",
+      "goal": "Follow a friend telling you about an injury.",
+      "phrases": [
+        {
+          "t": "Ich bin hingefallen.",
+          "n": "I fell over."
+        },
+        {
+          "t": "Mein Fuß ist geschwollen.",
+          "n": "My foot is swollen."
+        },
+        {
+          "t": "Ich darf keinen Sport machen.",
+          "n": "I'm not allowed to do sport."
+        },
+        {
+          "t": "Das tut mir leid!",
+          "n": "I'm sorry!"
+        }
+      ],
+      "story": {
+        "title": "On crutches",
+        "intro": "Sara meets her friend Ben, who is walking on crutches.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Sara",
+            "t": "Ben, warum hast du Krücken? Was ist passiert?",
+            "n": "Ben, why are you on crutches? What happened?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich bin am Sonntag beim Fußball hingefallen.",
+            "n": "I fell over playing football on Sunday."
+          },
+          {
+            "name": "Sara",
+            "t": "Oh nein! Tut es sehr weh?",
+            "n": "Oh no! Does it hurt a lot?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ja, mein Fuß ist ganz geschwollen. Ich war gestern beim Arzt.",
+            "n": "Yes, my foot is really swollen. I was at the doctor yesterday."
+          },
+          {
+            "name": "Sara",
+            "t": "Und was hat der Arzt gesagt?",
+            "n": "And what did the doctor say?"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Der Fuß ist nicht gebrochen. Aber ich darf drei Wochen keinen Sport machen.",
+            "n": "The foot isn't broken. But I can't do sport for three weeks."
+          },
+          {
+            "name": "Sara",
+            "t": "Das tut mir leid! Gute Besserung!",
+            "n": "I'm sorry! Get well soon!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann ist Ben hingefallen?",
+            "n": "When did Ben fall?",
+            "t": [
+              "Am Sonntag",
+              "Am Sonntag beim Fußball",
+              "Beim Fußball"
+            ]
+          },
+          {
+            "q": "Was ist mit seinem Fuß?",
+            "n": "What's wrong with his foot?",
+            "t": [
+              "Er ist geschwollen",
+              "Geschwollen"
+            ]
+          },
+          {
+            "q": "Wie lange darf Ben keinen Sport machen?",
+            "n": "How long can't Ben do sport?",
+            "t": [
+              "Drei Wochen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u03-l6",
+      "kind": "roleplay",
+      "title": "Booking a doctor's appointment",
+      "goal": "Phone the practice and get an appointment.",
+      "phrases": [
+        {
+          "t": "Ich möchte einen Termin machen.",
+          "n": "I'd like to make an appointment."
+        },
+        {
+          "t": "Es ist nicht dringend.",
+          "n": "It's not urgent."
+        },
+        {
+          "t": "Das passt gut.",
+          "n": "That suits me well."
+        },
+        {
+          "t": "Auf Wiederhören!",
+          "n": "Goodbye! (on the phone)"
+        }
+      ],
+      "branch": {
+        "title": "On the phone",
+        "scene": "You're not well and call Dr. Yilmaz's practice to get an appointment.",
+        "name": "Praxis",
+        "voice": "de-DE-KatjaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Praxis Dr. Yilmaz, guten Morgen!",
+            "n": "Dr. Yilmaz's practice, good morning!",
+            "choices": [
+              {
+                "t": "Guten Morgen! Ich möchte einen Termin machen.",
+                "n": "Good morning! I'd like to make an appointment.",
+                "next": "reason"
+              },
+              {
+                "t": "Wie bitte?",
+                "n": "Pardon?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Hier ist die Praxis Dr. Yilmaz. Was kann ich für Sie tun?",
+            "n": "This is Dr. Yilmaz's practice. What can I do for you?",
+            "choices": [
+              {
+                "t": "Ich möchte einen Termin machen, bitte.",
+                "n": "I'd like to make an appointment, please.",
+                "next": "reason"
+              }
+            ]
+          },
+          "reason": {
+            "t": "Was fehlt Ihnen denn?",
+            "n": "What's the problem?",
+            "choices": [
+              {
+                "t": "Ich habe seit drei Tagen Fieber.",
+                "n": "I've had a fever for three days.",
+                "next": "today"
+              },
+              {
+                "t": "Mein Rücken tut ein bisschen weh. Es ist nicht dringend.",
+                "n": "My back hurts a bit. It's not urgent.",
+                "next": "later"
+              }
+            ]
+          },
+          "today": {
+            "t": "Dann kommen Sie bitte heute um elf Uhr. Bringen Sie Ihre Versichertenkarte mit.",
+            "n": "Then please come today at eleven. Bring your health insurance card.",
+            "choices": [
+              {
+                "t": "Gut, ich komme um elf. Danke!",
+                "n": "OK, I'll come at eleven. Thanks!",
+                "next": "goodToday"
+              }
+            ]
+          },
+          "later": {
+            "t": "Am Dienstag um neun Uhr ist ein Termin frei. Passt das?",
+            "n": "There's an appointment free on Tuesday at nine. Does that suit you?",
+            "choices": [
+              {
+                "t": "Ja, das passt gut.",
+                "n": "Yes, that suits me well.",
+                "next": "goodLater"
+              },
+              {
+                "t": "Nein, da muss ich arbeiten.",
+                "n": "No, I have to work then.",
+                "next": "thursday"
+              }
+            ]
+          },
+          "thursday": {
+            "t": "Und am Donnerstag um sechzehn Uhr?",
+            "n": "And on Thursday at four p.m.?",
+            "choices": [
+              {
+                "t": "Ja, Donnerstag passt.",
+                "n": "Yes, Thursday works.",
+                "next": "goodLater"
+              }
+            ]
+          },
+          "goodToday": {
+            "t": "Bis später. Gute Besserung!",
+            "n": "See you later. Get well soon!",
+            "end": "good",
+            "outcome": "You got an appointment for today."
+          },
+          "goodLater": {
+            "t": "Gut, ich trage Sie ein. Auf Wiederhören!",
+            "n": "Good, I'll put you down. Goodbye!",
+            "end": "good",
+            "outcome": "You booked an appointment that fits your week."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to make an appointment.",
+          "t": [
+            "Ich möchte einen Termin machen",
+            "Ich hätte gern einen Termin"
+          ]
+        },
+        {
+          "n": "Say it's not urgent.",
+          "t": [
+            "Es ist nicht dringend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l7",
+      "kind": "speaking",
+      "title": "Off sick",
+      "goal": "Explain your illness and the doctor’s advice for 40 seconds.",
+      "culture": {
+        "title": "Krankschreibung",
+        "body": "In Germany, if you are ill for more than three calendar days you usually need a doctor's note (Krankschreibung, officially AU) — some employers want one from day one. Doctors now send it electronically to your health insurer, and for mild colds you can often get it by phone. Austrians call being off sick im Krankenstand sein.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich bin seit Montag krank.",
+          "n": "I've been ill since Monday."
+        },
+        {
+          "t": "Der Arzt sagt, ich soll viel schlafen.",
+          "n": "The doctor says I should sleep a lot."
+        },
+        {
+          "t": "Ich darf noch nicht arbeiten.",
+          "n": "I'm not allowed to work yet."
+        }
+      ],
+      "free": [
+        {
+          "n": "You're off sick. Tell a colleague what's wrong, since when, and what the doctor says you must or should do.",
+          "hint": "Ich habe seit … Fieber/Kopfschmerzen, … tut weh, Der Arzt sagt, ich soll/muss …, Ich darf nicht …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "a symptom",
+              "any": [
+                "weh",
+                "schmerz*",
+                "fieber",
+                "huste*",
+                "erkältet",
+                "schlecht",
+                "krank"
+              ]
+            },
+            {
+              "label": "since when",
+              "any": [
+                "seit",
+                "gestern",
+                "tagen",
+                "woche"
+              ]
+            },
+            {
+              "label": "a modal verb",
+              "any": [
+                "muss",
+                "soll",
+                "darf",
+                "müssen",
+                "sollen",
+                "dürfen",
+                "kann"
+              ]
+            },
+            {
+              "label": "the doctor",
+              "any": [
+                "arzt",
+                "ärztin",
+                "doktor",
+                "praxis"
+              ]
+            }
+          ],
+          "model": "Ich bin krank. Ich habe seit Montag Fieber und Halsschmerzen. Der Arzt sagt, ich soll im Bett bleiben und viel Wasser trinken."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you've been ill since Monday.",
+          "t": [
+            "Ich bin seit Montag krank"
+          ]
+        },
+        {
+          "n": "Say the doctor says you should sleep a lot.",
+          "t": [
+            "Der Arzt sagt ich soll viel schlafen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Beim Arzt",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

@@ -104,7 +104,9 @@
       "units": [
         "pron/u01-umlaute.json",
         "pron/u02-ch.json",
-        "pron/u03-en-sch.json"
+        "pron/u03-en-sch.json",
+        "pron/u04-r.json",
+        "pron/u05-w-v-z.json"
       ]
     }
   ]

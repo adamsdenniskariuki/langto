@@ -13,35 +13,123 @@
         "body": "Three verbs about clothes take the dative: passen (fit) — Die Jacke passt mir nicht; stehen (suit) — Das Hemd steht dir gut; gefallen (like) — Die Farbe gefällt mir. What you buy is accusative: Ich nehme den Pullover. For ö in Größe, say 'e' with rounded lips."
       },
       "phrases": [
-        { "t": "Ich suche eine Jacke.", "n": "I'm looking for a jacket." },
-        { "t": "Haben Sie das auch in Blau?", "n": "Do you have this in blue too?" },
-        { "t": "Kann ich das anprobieren?", "n": "Can I try this on?" },
-        { "t": "Wo sind die Umkleidekabinen?", "n": "Where are the changing rooms?" },
-        { "t": "Die Jacke passt mir nicht.", "n": "The jacket doesn't fit me." },
-        { "t": "Haben Sie die Jacke eine Nummer größer?", "n": "Do you have the jacket a size bigger?" },
-        { "t": "Das Hemd steht dir gut.", "n": "That shirt suits you." },
-        { "t": "Ich nehme den Pullover.", "n": "I'll take the jumper.", "note": "der → den (accusative)" }
+        {
+          "t": "Ich suche eine Jacke.",
+          "n": "I'm looking for a jacket."
+        },
+        {
+          "t": "Haben Sie das auch in Blau?",
+          "n": "Do you have this in blue too?"
+        },
+        {
+          "t": "Kann ich das anprobieren?",
+          "n": "Can I try this on?"
+        },
+        {
+          "t": "Wo sind die Umkleidekabinen?",
+          "n": "Where are the changing rooms?"
+        },
+        {
+          "t": "Die Jacke passt mir nicht.",
+          "n": "The jacket doesn't fit me."
+        },
+        {
+          "t": "Haben Sie die Jacke eine Nummer größer?",
+          "n": "Do you have the jacket a size bigger?"
+        },
+        {
+          "t": "Das Hemd steht dir gut.",
+          "n": "That shirt suits you."
+        },
+        {
+          "t": "Ich nehme den Pullover.",
+          "n": "I'll take the jumper.",
+          "note": "der → den (accusative)"
+        }
       ],
       "dialogue": {
         "title": "Finding a jacket",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Verkäuferin", "t": "Guten Tag! Kann ich Ihnen helfen?", "n": "Hello! Can I help you?" },
-          { "who": "you", "t": "Ja, gern. Ich suche eine Jacke.", "n": "Yes, please. I'm looking for a jacket." },
-          { "who": "A", "name": "Verkäuferin", "t": "Wie gefällt Ihnen diese Jacke hier?", "n": "How do you like this jacket here?" },
-          { "who": "you", "t": "Sie ist schön. Haben Sie die auch in Blau?", "n": "It's nice. Do you have it in blue too?" },
-          { "who": "A", "name": "Verkäuferin", "t": "Ja, hier, bitte. Welche Größe brauchen Sie?", "n": "Yes, here you are. What size do you need?" },
-          { "who": "you", "t": "Größe achtunddreißig. Kann ich sie anprobieren?", "n": "Size thirty-eight. Can I try it on?" },
-          { "who": "A", "name": "Verkäuferin", "t": "Natürlich. Die Umkleidekabinen sind dort hinten.", "n": "Of course. The changing rooms are over there at the back." },
-          { "who": "you", "t": "Hm, die Jacke passt mir nicht. Haben Sie sie eine Nummer größer?", "n": "Hmm, the jacket doesn't fit me. Do you have it a size bigger?" },
-          { "who": "A", "name": "Verkäuferin", "t": "Einen Moment, ich schaue mal nach.", "n": "One moment, I'll have a look." }
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Guten Tag! Kann ich Ihnen helfen?",
+            "n": "Hello! Can I help you?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, gern. Ich suche eine Jacke.",
+            "n": "Yes, please. I'm looking for a jacket."
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Wie gefällt Ihnen diese Jacke hier?",
+            "n": "How do you like this jacket here?"
+          },
+          {
+            "who": "you",
+            "t": "Sie ist schön. Haben Sie die auch in Blau?",
+            "n": "It's nice. Do you have it in blue too?"
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Ja, hier, bitte. Welche Größe brauchen Sie?",
+            "n": "Yes, here you are. What size do you need?"
+          },
+          {
+            "who": "you",
+            "t": "Größe achtunddreißig. Kann ich sie anprobieren?",
+            "n": "Size thirty-eight. Can I try it on?"
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Natürlich. Die Umkleidekabinen sind dort hinten.",
+            "n": "Of course. The changing rooms are over there at the back."
+          },
+          {
+            "who": "you",
+            "t": "Hm, die Jacke passt mir nicht. Haben Sie sie eine Nummer größer?",
+            "n": "Hmm, the jacket doesn't fit me. Do you have it a size bigger?"
+          },
+          {
+            "who": "A",
+            "name": "Verkäuferin",
+            "t": "Einen Moment, ich schaue mal nach.",
+            "n": "One moment, I'll have a look."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you're looking for a jacket.", "t": ["Ich suche eine Jacke"] },
-        { "n": "Ask if you can try it on.", "t": ["Kann ich das anprobieren", "Kann ich sie anprobieren"] },
-        { "n": "Say the jacket doesn't fit you.", "t": ["Die Jacke passt mir nicht", "Die Jacke passt nicht"] },
-        { "n": "Tell a friend the shirt suits them.", "t": ["Das Hemd steht dir gut"] }
+        {
+          "n": "Say you're looking for a jacket.",
+          "t": [
+            "Ich suche eine Jacke"
+          ]
+        },
+        {
+          "n": "Ask if you can try it on.",
+          "t": [
+            "Kann ich das anprobieren",
+            "Kann ich sie anprobieren"
+          ]
+        },
+        {
+          "n": "Say the jacket doesn't fit you.",
+          "t": [
+            "Die Jacke passt mir nicht",
+            "Die Jacke passt nicht"
+          ]
+        },
+        {
+          "n": "Tell a friend the shirt suits them.",
+          "t": [
+            "Das Hemd steht dir gut"
+          ]
+        }
       ]
     },
     {
@@ -53,35 +141,640 @@
         "body": "Comparative: add -er and use als: schöner als, günstiger als. Superlative: am schönsten or der/die/das schönste. Short words often take an umlaut: groß → größer, teuer → teurer. Irregular: gut, besser, am besten; gern, lieber, am liebsten. Don't swallow the -er: say schö-ner clearly."
       },
       "phrases": [
-        { "t": "Die blaue Jacke ist schöner als die schwarze.", "n": "The blue jacket is nicer than the black one." },
-        { "t": "Der Mantel ist mir zu teuer.", "n": "The coat is too expensive for me." },
-        { "t": "Haben Sie etwas Günstigeres?", "n": "Do you have anything cheaper?" },
-        { "t": "Diese Schuhe sind bequemer.", "n": "These shoes are more comfortable." },
-        { "t": "Das ist das schönste Kleid im Laden.", "n": "That's the most beautiful dress in the shop." },
-        { "t": "Die Hose ist genauso gut wie die Jeans.", "n": "The trousers are just as good as the jeans.", "note": "Equal: so … wie; unequal: …er als" },
-        { "t": "Am liebsten trage ich Turnschuhe.", "n": "I like wearing trainers best." },
-        { "t": "Kann ich das umtauschen?", "n": "Can I exchange this?" }
+        {
+          "t": "Die blaue Jacke ist schöner als die schwarze.",
+          "n": "The blue jacket is nicer than the black one."
+        },
+        {
+          "t": "Der Mantel ist mir zu teuer.",
+          "n": "The coat is too expensive for me."
+        },
+        {
+          "t": "Haben Sie etwas Günstigeres?",
+          "n": "Do you have anything cheaper?"
+        },
+        {
+          "t": "Diese Schuhe sind bequemer.",
+          "n": "These shoes are more comfortable."
+        },
+        {
+          "t": "Das ist das schönste Kleid im Laden.",
+          "n": "That's the most beautiful dress in the shop."
+        },
+        {
+          "t": "Die Hose ist genauso gut wie die Jeans.",
+          "n": "The trousers are just as good as the jeans.",
+          "note": "Equal: so … wie; unequal: …er als"
+        },
+        {
+          "t": "Am liebsten trage ich Turnschuhe.",
+          "n": "I like wearing trainers best."
+        },
+        {
+          "t": "Kann ich das umtauschen?",
+          "n": "Can I exchange this?"
+        }
       ],
       "dialogue": {
         "title": "Shopping with a friend",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Emma", "t": "Welche Jacke findest du besser, die blaue oder die schwarze?", "n": "Which jacket do you think is better, the blue one or the black one?" },
-          { "who": "you", "t": "Die blaue Jacke ist schöner als die schwarze.", "n": "The blue jacket is nicer than the black one." },
-          { "who": "A", "name": "Emma", "t": "Aber die schwarze ist günstiger.", "n": "But the black one is cheaper." },
-          { "who": "you", "t": "Stimmt. Und diese Schuhe sind bequemer.", "n": "True. And these shoes are more comfortable." },
-          { "who": "A", "name": "Emma", "t": "Ja, aber sie sind die teuersten im Laden!", "n": "Yes, but they're the most expensive in the shop!" },
-          { "who": "you", "t": "Hm, die Schuhe sind mir zu teuer.", "n": "Hmm, the shoes are too expensive for me." },
-          { "who": "A", "name": "Emma", "t": "Was trägst du denn am liebsten?", "n": "So what do you like wearing best?" },
-          { "who": "you", "t": "Am liebsten trage ich Turnschuhe.", "n": "I like wearing trainers best." }
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Welche Jacke findest du besser, die blaue oder die schwarze?",
+            "n": "Which jacket do you think is better, the blue one or the black one?"
+          },
+          {
+            "who": "you",
+            "t": "Die blaue Jacke ist schöner als die schwarze.",
+            "n": "The blue jacket is nicer than the black one."
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Aber die schwarze ist günstiger.",
+            "n": "But the black one is cheaper."
+          },
+          {
+            "who": "you",
+            "t": "Stimmt. Und diese Schuhe sind bequemer.",
+            "n": "True. And these shoes are more comfortable."
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Ja, aber sie sind die teuersten im Laden!",
+            "n": "Yes, but they're the most expensive in the shop!"
+          },
+          {
+            "who": "you",
+            "t": "Hm, die Schuhe sind mir zu teuer.",
+            "n": "Hmm, the shoes are too expensive for me."
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Was trägst du denn am liebsten?",
+            "n": "So what do you like wearing best?"
+          },
+          {
+            "who": "you",
+            "t": "Am liebsten trage ich Turnschuhe.",
+            "n": "I like wearing trainers best."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say the blue jacket is nicer than the black one.", "t": ["Die blaue Jacke ist schöner als die schwarze"] },
-        { "n": "Ask for something cheaper.", "t": ["Haben Sie etwas Günstigeres", "Haben Sie etwas Billigeres"] },
-        { "n": "Say the coat is too expensive for you.", "t": ["Der Mantel ist mir zu teuer", "Der Mantel ist zu teuer"] },
-        { "n": "Say you like wearing trainers best.", "t": ["Am liebsten trage ich Turnschuhe", "Ich trage am liebsten Turnschuhe"] }
+        {
+          "n": "Say the blue jacket is nicer than the black one.",
+          "t": [
+            "Die blaue Jacke ist schöner als die schwarze"
+          ]
+        },
+        {
+          "n": "Ask for something cheaper.",
+          "t": [
+            "Haben Sie etwas Günstigeres",
+            "Haben Sie etwas Billigeres"
+          ]
+        },
+        {
+          "n": "Say the coat is too expensive for you.",
+          "t": [
+            "Der Mantel ist mir zu teuer",
+            "Der Mantel ist zu teuer"
+          ]
+        },
+        {
+          "n": "Say you like wearing trainers best.",
+          "t": [
+            "Am liebsten trage ich Turnschuhe",
+            "Ich trage am liebsten Turnschuhe"
+          ]
+        }
       ]
+    },
+    {
+      "id": "a2-u07-l3",
+      "title": "At the checkout",
+      "goal": "Pay for clothes and keep your receipt.",
+      "phrases": [
+        {
+          "t": "Wo ist die Kasse?",
+          "n": "Where is the checkout?"
+        },
+        {
+          "t": "Das Kleid ist im Angebot.",
+          "n": "The dress is on offer."
+        },
+        {
+          "t": "Kann ich mit Karte bezahlen?",
+          "n": "Can I pay by card?"
+        },
+        {
+          "t": "Brauchen Sie eine Tüte?",
+          "n": "Do you need a bag?"
+        },
+        {
+          "t": "Nein, danke. Ich habe eine Tasche dabei.",
+          "n": "No, thanks. I've got a bag with me."
+        },
+        {
+          "t": "Hier ist Ihr Kassenbon.",
+          "n": "Here's your receipt."
+        }
+      ],
+      "dialogue": {
+        "title": "Paying",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Kassiererin",
+            "t": "Das macht neununddreißig Euro.",
+            "n": "That's thirty-nine euros."
+          },
+          {
+            "who": "you",
+            "t": "Kann ich mit Karte bezahlen?",
+            "n": "Can I pay by card?"
+          },
+          {
+            "who": "A",
+            "name": "Kassiererin",
+            "t": "Natürlich. Brauchen Sie eine Tüte?",
+            "n": "Of course. Do you need a bag?"
+          },
+          {
+            "who": "you",
+            "t": "Nein, danke. Ich habe eine Tasche dabei.",
+            "n": "No, thanks. I've got a bag with me."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where the checkout is.",
+          "t": [
+            "Wo ist die Kasse"
+          ]
+        },
+        {
+          "n": "Ask if you can pay by card.",
+          "t": [
+            "Kann ich mit Karte bezahlen",
+            "Kann ich mit Karte zahlen"
+          ]
+        },
+        {
+          "n": "Say you don't need a bag, you've got one with you.",
+          "t": [
+            "Nein danke ich habe eine Tasche dabei"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l4",
+      "kind": "grammar",
+      "title": "der blaue Mantel, ein blauer Mantel",
+      "goal": "Use adjective endings after der and ein.",
+      "tip": {
+        "title": "Adjective endings: der vs ein",
+        "body": "After der/die/das the adjective just takes -e: der blaue Mantel, die rote Jacke, das weiße Hemd (plural: die blauen Schuhe). After ein the adjective shows the gender: ein blauer Mantel, eine rote Jacke, ein weißes Hemd. In the accusative only masculine changes: Ich nehme den blauen Mantel / einen blauen Mantel."
+      },
+      "phrases": [
+        {
+          "t": "Der blaue Mantel ist teuer.",
+          "n": "The blue coat is expensive."
+        },
+        {
+          "t": "Ich suche einen warmen Pullover.",
+          "n": "I'm looking for a warm jumper."
+        },
+        {
+          "t": "Ich nehme die rote Jacke.",
+          "n": "I'll take the red jacket."
+        },
+        {
+          "t": "Das ist ein schönes Kleid.",
+          "n": "That's a lovely dress."
+        },
+        {
+          "t": "Hast du eine schwarze Hose?",
+          "n": "Have you got black trousers?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the item (der/die/das)",
+          "base": {
+            "t": "Der blaue Mantel ist teuer.",
+            "n": "The blue coat is expensive."
+          },
+          "items": [
+            {
+              "cue": "Jacke",
+              "t": "Die blaue Jacke ist teuer.",
+              "n": "The blue jacket is expensive."
+            },
+            {
+              "cue": "Hemd",
+              "t": "Das blaue Hemd ist teuer.",
+              "n": "The blue shirt is expensive."
+            },
+            {
+              "cue": "Schuhe",
+              "t": "Die blauen Schuhe sind teuer.",
+              "n": "The blue shoes are expensive."
+            }
+          ]
+        },
+        {
+          "title": "Swap the item (ein)",
+          "base": {
+            "t": "Ich suche einen warmen Pullover.",
+            "n": "I'm looking for a warm jumper."
+          },
+          "items": [
+            {
+              "cue": "Jacke",
+              "t": "Ich suche eine warme Jacke.",
+              "n": "I'm looking for a warm jacket."
+            },
+            {
+              "cue": "Kleid · schön",
+              "t": "Ich suche ein schönes Kleid.",
+              "n": "I'm looking for a lovely dress."
+            },
+            {
+              "cue": "Mantel · lang",
+              "t": "Ich suche einen langen Mantel.",
+              "n": "I'm looking for a long coat."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're looking for a warm jumper.",
+          "t": [
+            "Ich suche einen warmen Pullover"
+          ]
+        },
+        {
+          "n": "Say you'll take the red jacket.",
+          "t": [
+            "Ich nehme die rote Jacke"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l5",
+      "kind": "listening",
+      "title": "A new jacket",
+      "goal": "Follow friends talking about shopping and prices.",
+      "phrases": [
+        {
+          "t": "Ich habe eine neue Jacke gekauft.",
+          "n": "I've bought a new jacket."
+        },
+        {
+          "t": "Die Farbe steht dir gut.",
+          "n": "The colour suits you."
+        },
+        {
+          "t": "Sie war im Angebot.",
+          "n": "It was on offer."
+        },
+        {
+          "t": "Der Laden hat die besten Preise.",
+          "n": "The shop has the best prices."
+        }
+      ],
+      "story": {
+        "title": "Show and tell",
+        "intro": "Julia shows her friend Ben what she bought.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Julia",
+            "t": "Schau mal, ich habe eine neue Jacke gekauft!",
+            "n": "Look, I've bought a new jacket!"
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Schön! Die rote Farbe steht dir gut. War sie teuer?",
+            "n": "Nice! The red colour suits you. Was it expensive?"
+          },
+          {
+            "name": "Julia",
+            "t": "Nein, sie war im Angebot. Nur fünfzig Euro.",
+            "n": "No, it was on offer. Only fifty euros."
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Das ist günstig! Ich brauche auch einen warmen Mantel.",
+            "n": "That's cheap! I need a warm coat too."
+          },
+          {
+            "name": "Julia",
+            "t": "Dann komm am Samstag mit. Der Laden am Bahnhof hat die besten Preise.",
+            "n": "Then come along on Saturday. The shop at the station has the best prices."
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gute Idee. Bis Samstag!",
+            "n": "Good idea. See you Saturday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was hat Julia gekauft?",
+            "n": "What did Julia buy?",
+            "t": [
+              "Eine Jacke",
+              "Eine neue Jacke",
+              "Eine rote Jacke"
+            ]
+          },
+          {
+            "q": "Wie viel hat die Jacke gekostet?",
+            "n": "How much did the jacket cost?",
+            "t": [
+              "Fünfzig Euro",
+              "Nur fünfzig Euro"
+            ]
+          },
+          {
+            "q": "Was braucht Ben?",
+            "n": "What does Ben need?",
+            "t": [
+              "Einen Mantel",
+              "Einen warmen Mantel"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u07-l6",
+      "kind": "roleplay",
+      "title": "Returning a jacket",
+      "goal": "Take back a jacket that does not fit — politely.",
+      "phrases": [
+        {
+          "t": "Ich möchte diese Jacke umtauschen.",
+          "n": "I'd like to exchange this jacket."
+        },
+        {
+          "t": "Sie ist mir zu klein.",
+          "n": "It's too small for me."
+        },
+        {
+          "t": "Hier ist der Kassenbon.",
+          "n": "Here's the receipt."
+        },
+        {
+          "t": "Dann nehme ich einen Gutschein.",
+          "n": "Then I'll take a voucher."
+        }
+      ],
+      "branch": {
+        "title": "At the counter",
+        "scene": "You bought a jacket last week. At home it was too small, so you go back to the shop.",
+        "name": "Verkäufer",
+        "voice": "de-DE-ConradNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Guten Tag! Was kann ich für Sie tun?",
+            "n": "Hello! What can I do for you?",
+            "choices": [
+              {
+                "t": "Ich möchte diese Jacke umtauschen. Sie ist mir zu klein.",
+                "n": "I'd like to exchange this jacket. It's too small for me.",
+                "next": "receipt"
+              },
+              {
+                "t": "Die Jacke ist schlecht! Ich will mein Geld!",
+                "n": "The jacket is bad! I want my money!",
+                "next": "calm"
+              }
+            ]
+          },
+          "calm": {
+            "t": "Bitte bleiben Sie ruhig. Was ist denn das Problem?",
+            "n": "Please stay calm. What's the problem?",
+            "choices": [
+              {
+                "t": "Entschuldigung. Die Jacke passt mir nicht.",
+                "n": "Sorry. The jacket doesn't fit me.",
+                "next": "receipt"
+              },
+              {
+                "t": "Das ist mir egal!",
+                "n": "I don't care!",
+                "next": "bad"
+              }
+            ]
+          },
+          "receipt": {
+            "t": "Verstehe. Haben Sie den Kassenbon dabei?",
+            "n": "I see. Do you have the receipt with you?",
+            "choices": [
+              {
+                "t": "Ja, hier. Haben Sie die Jacke eine Nummer größer?",
+                "n": "Yes, here. Do you have the jacket a size bigger?",
+                "next": "exchange"
+              },
+              {
+                "t": "Ja, hier. Ich hätte gern mein Geld zurück.",
+                "n": "Yes, here. I'd like my money back.",
+                "next": "refund"
+              },
+              {
+                "t": "Nein, leider nicht.",
+                "n": "No, unfortunately not.",
+                "next": "nobon"
+              }
+            ]
+          },
+          "nobon": {
+            "t": "Ohne Kassenbon kann ich Ihnen leider nur einen Gutschein geben.",
+            "n": "Without a receipt I can unfortunately only give you a voucher.",
+            "choices": [
+              {
+                "t": "Okay, dann nehme ich einen Gutschein.",
+                "n": "Okay, then I'll take a voucher.",
+                "next": "voucher"
+              },
+              {
+                "t": "Moment, hier ist der Kassenbon ja!",
+                "n": "Wait, here's the receipt after all!",
+                "next": "refund"
+              }
+            ]
+          },
+          "exchange": {
+            "t": "Kein Problem. Hier ist sie in Größe vierzig.",
+            "n": "No problem. Here it is in size forty.",
+            "end": "good",
+            "outcome": "You exchanged the jacket for a bigger size."
+          },
+          "refund": {
+            "t": "Danke. Hier ist Ihr Geld zurück.",
+            "n": "Thanks. Here's your money back.",
+            "end": "good",
+            "outcome": "You returned the jacket and got your money back."
+          },
+          "voucher": {
+            "t": "Gern. Hier ist Ihr Gutschein über fünfzig Euro.",
+            "n": "Sure. Here's your voucher for fifty euros.",
+            "end": "good",
+            "outcome": "No receipt, but you left with a voucher. Keep your Kassenbon next time!"
+          },
+          "bad": {
+            "t": "So kann ich Ihnen leider nicht helfen.",
+            "n": "I'm afraid I can't help you like this.",
+            "end": "bad",
+            "outcome": "Shouting rarely works in German shops. Explain the problem calmly."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to exchange this jacket.",
+          "t": [
+            "Ich möchte diese Jacke umtauschen",
+            "Ich möchte die Jacke umtauschen"
+          ]
+        },
+        {
+          "n": "Say it's too small for you.",
+          "t": [
+            "Sie ist mir zu klein",
+            "Die Jacke ist mir zu klein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l7",
+      "kind": "speaking",
+      "title": "Your favourite clothes",
+      "goal": "Describe and compare clothes for 40 seconds.",
+      "culture": {
+        "title": "Umtausch and the Kassenbon",
+        "body": "Shops in Germany, Austria and Switzerland don't have to take back items bought in-store unless they're faulty — but many do within 14 or 30 days if you bring the receipt. Keep your Kassenbon (in Austria: Kassazettel, in Switzerland: Quittung). Online orders in the EU can be sent back within 14 days.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Am liebsten trage ich meine blaue Jeans.",
+          "n": "I like wearing my blue jeans best."
+        },
+        {
+          "t": "Der graue Pullover ist wärmer als die Jacke.",
+          "n": "The grey jumper is warmer than the jacket."
+        },
+        {
+          "t": "Ich kaufe meistens im Angebot.",
+          "n": "I usually buy things on offer."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your favourite outfit and compare two pieces of clothing.",
+          "hint": "Am liebsten trage ich …, der/die/das … ist bequemer / schöner als …, ein blauer / eine rote …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "a piece of clothing",
+              "any": [
+                "jacke",
+                "hose",
+                "pullover",
+                "hemd",
+                "kleid",
+                "schuh*",
+                "mantel",
+                "jeans",
+                "t-shirt",
+                "rock",
+                "turnschuh*"
+              ]
+            },
+            {
+              "label": "a colour",
+              "any": [
+                "blau*",
+                "rot*",
+                "schwarz*",
+                "weiß*",
+                "grün*",
+                "grau*",
+                "braun*",
+                "gelb*"
+              ]
+            },
+            {
+              "label": "a comparison",
+              "any": [
+                "als",
+                "besser",
+                "lieber",
+                "am liebsten",
+                "bequemer",
+                "schöner",
+                "günstiger",
+                "wärmer",
+                "genauso"
+              ]
+            },
+            {
+              "label": "like or wear",
+              "any": [
+                "trage",
+                "gefällt",
+                "mag",
+                "finde"
+              ]
+            }
+          ],
+          "model": "Am liebsten trage ich meine blaue Jeans und einen grauen Pullover. Turnschuhe finde ich bequemer als Stiefel."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the grey jumper is warmer than the jacket.",
+          "t": [
+            "Der graue Pullover ist wärmer als die Jacke"
+          ]
+        },
+        {
+          "n": "Say you usually buy things on offer.",
+          "t": [
+            "Ich kaufe meistens im Angebot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Kleidung kaufen",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

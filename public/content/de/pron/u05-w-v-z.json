@@ -1,0 +1,241 @@
+{
+  "id": "pron-u05",
+  "level": "A2",
+  "title": "W, V, Z",
+  "subtitle": "w = v, v = f, z = ts, pf",
+  "icon": "🐝",
+  "lessons": [
+    {
+      "id": "pron-u05-l1",
+      "kind": "pron",
+      "title": "w and v",
+      "goal": "Say w as \"v\" and v as \"f\".",
+      "tip": {
+        "title": "Teeth on lip",
+        "body": "German w is English \"v\": touch your top teeth to your lower lip and buzz (Wasser = \"vasser\"). German v is usually \"f\" (Vater = \"fahter\"). In some foreign words v stays \"v\": Vase, Video."
+      },
+      "phrases": [
+        {
+          "t": "Wasser, bitte.",
+          "n": "Water, please."
+        },
+        {
+          "t": "Mein Vater wohnt in Wien.",
+          "n": "My father lives in Vienna."
+        },
+        {
+          "t": "Wie viel kostet das?",
+          "n": "How much is that?"
+        },
+        {
+          "t": "Die Vase ist schön.",
+          "n": "The vase is beautiful."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "w / f",
+          "a": {
+            "t": "Wein",
+            "n": "wine"
+          },
+          "b": {
+            "t": "fein",
+            "n": "fine"
+          }
+        },
+        {
+          "sound": "w / v=f",
+          "a": {
+            "t": "wir",
+            "n": "we"
+          },
+          "b": {
+            "t": "vier",
+            "n": "four"
+          }
+        },
+        {
+          "sound": "w / v=f",
+          "a": {
+            "t": "Wetter",
+            "n": "weather"
+          },
+          "b": {
+            "t": "Vetter",
+            "n": "cousin"
+          }
+        },
+        {
+          "sound": "w / f",
+          "a": {
+            "t": "Wort",
+            "n": "word"
+          },
+          "b": {
+            "t": "fort",
+            "n": "away"
+          }
+        },
+        {
+          "sound": "v / f",
+          "a": {
+            "t": "Vase",
+            "n": "vase"
+          },
+          "b": {
+            "t": "Phase",
+            "n": "phase"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Wasser, bitte.",
+          "n": "Water, please.",
+          "mark": "*Was*ser, *bit*te."
+        },
+        {
+          "t": "Wie viel kostet das?",
+          "n": "How much is that?",
+          "mark": "Wie *viel* kostet das?"
+        },
+        {
+          "t": "Mein Vater wohnt in Wien.",
+          "n": "My father lives in Vienna.",
+          "mark": "Mein *Va*ter wohnt in *Wien*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask how much something costs.",
+          "t": [
+            "Wie viel kostet das"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u05-l2",
+      "kind": "pron",
+      "title": "z and pf",
+      "goal": "Say z as \"ts\" and pf in one go.",
+      "tip": {
+        "title": "Two sounds glued together",
+        "body": "German z is always \"ts\" as in \"cats\" — even at the start: Zeit = \"tsait\", Zoo = \"tso\". For pf, close your lips for p and release straight into f: Pfund. Don't drop the p."
+      },
+      "phrases": [
+        {
+          "t": "Ich habe keine Zeit.",
+          "n": "I have no time."
+        },
+        {
+          "t": "Zehn Minuten.",
+          "n": "Ten minutes."
+        },
+        {
+          "t": "Wir gehen in den Zoo.",
+          "n": "We're going to the zoo."
+        },
+        {
+          "t": "Ein Pfund Äpfel.",
+          "n": "A pound of apples."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "z / s",
+          "a": {
+            "t": "Zeit",
+            "n": "time"
+          },
+          "b": {
+            "t": "seit",
+            "n": "since"
+          }
+        },
+        {
+          "sound": "z / s",
+          "a": {
+            "t": "Zoo",
+            "n": "zoo"
+          },
+          "b": {
+            "t": "so",
+            "n": "so"
+          }
+        },
+        {
+          "sound": "z / s",
+          "a": {
+            "t": "Zahl",
+            "n": "number"
+          },
+          "b": {
+            "t": "Saal",
+            "n": "hall"
+          }
+        },
+        {
+          "sound": "pf / f",
+          "a": {
+            "t": "Pfund",
+            "n": "pound"
+          },
+          "b": {
+            "t": "Fund",
+            "n": "find"
+          }
+        },
+        {
+          "sound": "pf / f",
+          "a": {
+            "t": "Pflug",
+            "n": "plough"
+          },
+          "b": {
+            "t": "Flug",
+            "n": "flight"
+          }
+        },
+        {
+          "sound": "pf / f",
+          "a": {
+            "t": "Pfand",
+            "n": "deposit"
+          },
+          "b": {
+            "t": "fand",
+            "n": "found"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ich habe keine Zeit.",
+          "n": "I have no time.",
+          "mark": "Ich habe *kei*ne *Zeit*."
+        },
+        {
+          "t": "Zehn Minuten.",
+          "n": "Ten minutes.",
+          "mark": "*Zehn* Mi*nu*ten."
+        },
+        {
+          "t": "Ein Pfund Äpfel.",
+          "n": "A pound of apples.",
+          "mark": "Ein *Pfund* *Äp*fel."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have no time.",
+          "t": [
+            "Ich habe keine Zeit",
+            "Keine Zeit"
+          ]
+        }
+      ]
+    }
+  ]
+}

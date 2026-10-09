@@ -5,7 +5,7 @@ import { BranchStep, CultureStep, DrillStep, FreeStep, PairStep, QuestionStep, R
 import { buildSteps, EXAM_PASS, GRADED, isExam, kindOf, KINDS, NO_RETRY } from '../lib/lesson.js';
 import { awardXP, completeLesson, recordMiss, XP } from '../lib/gamify.js';
 import { update, useStore } from '../lib/store.js';
-import { cardId, isUnlocked, nextLessonId } from '../lib/content.js';
+import { cardId, isUnlocked, levelReached, nextLessonId } from '../lib/content.js';
 import { stopSpeaking } from '../lib/speech.js';
 import { sfx } from '../lib/sfx.js';
 import { navigate } from '../router.js';
@@ -77,7 +77,7 @@ function LessonRun({ lessonId, retry }) {
     return (
       <section class="card center">
         <h1>🔒 Locked</h1>
-        <p>{entry.track ? `This sound unlocks when you reach ${entry.unit.level}.` : 'Finish the previous lessons first'} — “{entry.lesson.title}”.</p>
+        <p>{entry.track && !levelReached(course, done, entry.unit.level, s.levelStarts?.[lang]) ? `This sound unlocks when you reach ${entry.unit.level}.` : 'Finish the previous lessons first'} — “{entry.lesson.title}”.</p>
         <a class="btn primary" href="#/">Back to the path</a>
       </section>
     );
