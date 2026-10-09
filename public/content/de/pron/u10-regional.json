@@ -1,0 +1,217 @@
+{
+  "id": "pron-u10",
+  "level": "C2",
+  "title": "Regional & expressiv",
+  "subtitle": "DE/AT/CH accents, irony, emphasis",
+  "icon": "🏔️",
+  "lessons": [
+    {
+      "id": "pron-u10-l1",
+      "kind": "pron",
+      "title": "Regional sounds",
+      "goal": "Recognise DE, AT and CH pronunciation.",
+      "tip": {
+        "title": "One language, many accents",
+        "body": "Standard German says -ig as \"-ich\" (richtig = \"richtich\"); in southern Germany, Austria and Switzerland you hear \"-ik\". Austrians and Swiss often roll the r; Swiss speakers keep a strong ach-sound and stress French loans at the start (Büro = BÜ-ro). Many everyday words differ too."
+      },
+      "phrases": [
+        {
+          "t": "Grüß Gott!",
+          "n": "Hello! (South DE/AT)"
+        },
+        {
+          "t": "Servus!",
+          "n": "Hi! / Bye! (Bavaria/AT)"
+        },
+        {
+          "t": "Grüezi!",
+          "n": "Hello! (CH)"
+        },
+        {
+          "t": "Das ist richtig wichtig.",
+          "n": "That's really important."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "DE / AT",
+          "a": {
+            "t": "Januar",
+            "n": "January"
+          },
+          "b": {
+            "t": "Jänner",
+            "n": "January (AT)"
+          }
+        },
+        {
+          "sound": "DE / AT",
+          "a": {
+            "t": "Tomate",
+            "n": "tomato"
+          },
+          "b": {
+            "t": "Paradeiser",
+            "n": "tomato (AT)"
+          }
+        },
+        {
+          "sound": "DE / CH",
+          "a": {
+            "t": "Fahrrad",
+            "n": "bicycle"
+          },
+          "b": {
+            "t": "Velo",
+            "n": "bicycle (CH)"
+          }
+        },
+        {
+          "sound": "DE / AT",
+          "a": {
+            "t": "Kartoffel",
+            "n": "potato"
+          },
+          "b": {
+            "t": "Erdapfel",
+            "n": "potato (AT)"
+          }
+        },
+        {
+          "sound": "DE / South",
+          "a": {
+            "t": "Guten Tag!",
+            "n": "Hello!"
+          },
+          "b": {
+            "t": "Grüß Gott!",
+            "n": "Hello! (South)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Das ist richtig wichtig.",
+          "n": "That's really important.",
+          "mark": "Das ist *rich*tig *wich*tig.",
+          "note": "North: \"-ich\"; South/AT/CH: \"-ik\"."
+        },
+        {
+          "t": "Grüezi mitenand!",
+          "n": "Hello everyone! (CH)",
+          "mark": "*Grüe*zi mitenand!"
+        },
+        {
+          "t": "Servus!",
+          "n": "Hi! (AT)",
+          "mark": "*Ser*vus!"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Greet someone the Austrian way.",
+          "t": [
+            "Grüß Gott",
+            "Servus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u10-l2",
+      "kind": "pron",
+      "title": "Irony and emphasis",
+      "goal": "Use melody to show irony and emotion.",
+      "tip": {
+        "title": "Melody carries attitude",
+        "body": "The same words can mean the opposite: \"Toll!\" with a bright rise is praise; \"Na toll.\" flat and drawn out is irony. Particles like ja, doch and halt are unstressed — the emphasis lands on the word after them."
+      },
+      "phrases": [
+        {
+          "t": "Na toll.",
+          "n": "Oh, great. (ironic)"
+        },
+        {
+          "t": "Das ist ja interessant.",
+          "n": "Well, that's interesting."
+        },
+        {
+          "t": "Echt jetzt?",
+          "n": "Seriously?"
+        },
+        {
+          "t": "Ach, wirklich?",
+          "n": "Oh, really?"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "Toll!",
+            "n": "Great!"
+          },
+          "b": {
+            "t": "Na toll.",
+            "n": "Oh, great."
+          }
+        },
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "Super!",
+            "n": "Super!"
+          },
+          "b": {
+            "t": "Na super.",
+            "n": "Oh, super."
+          }
+        },
+        {
+          "sound": "↗ / ↘",
+          "a": {
+            "t": "Echt?",
+            "n": "Really?"
+          },
+          "b": {
+            "t": "Echt.",
+            "n": "Really."
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Na toll.",
+          "n": "Oh, great.",
+          "mark": "Na *toll*.",
+          "note": "Irony: long, low and flat."
+        },
+        {
+          "t": "Das hast du ja super gemacht.",
+          "n": "Well, you did a great job there.",
+          "mark": "Das hast du ja *su*per gemacht.",
+          "note": "Sarcastic: exaggerated stress on \"super\"."
+        },
+        {
+          "t": "Das ist doch nicht dein Ernst!",
+          "n": "You can't be serious!",
+          "mark": "Das ist doch nicht dein *Ernst*!"
+        },
+        {
+          "t": "Ich hab's dir doch gesagt!",
+          "n": "I told you so!",
+          "mark": "Ich hab's dir doch ge*sagt*!"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "React ironically: \"Oh, great.\"",
+          "t": [
+            "Na toll",
+            "Na super"
+          ]
+        }
+      ]
+    }
+  ]
+}

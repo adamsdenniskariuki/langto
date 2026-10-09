@@ -13,34 +13,119 @@
         "body": "Near-synonyms differ in tone: geizig is an insult, sparsam a compliment; Misstrauen is hostile, Skepsis merely cautious. Watch the classic trap: scheinbar means 'only seemingly (but not really)', anscheinend means 'apparently'. When you correct a word, stress the contrast: nicht GEIZIG, sondern SPARSAM."
       },
       "phrases": [
-        { "t": "Das ist nicht falsch, aber es trifft es nicht ganz.", "n": "That's not wrong, but it doesn't quite capture it.", "note": "A diplomatic way to correct someone's wording." },
-        { "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.", "n": "I'd speak of scepticism rather than distrust." },
-        { "t": "Sie ist nicht geizig, sondern sparsam.", "n": "She isn't stingy, she's thrifty.", "note": "Same behaviour, opposite judgement." },
-        { "t": "Das Problem ist nur scheinbar gelöst.", "n": "The problem only seems to be solved.", "note": "scheinbar = it looks like it, but it isn't." },
-        { "t": "Anscheinend hat niemand die Mail gelesen.", "n": "Apparently nobody read the email.", "note": "anscheinend = judging by the evidence, probably true." },
-        { "t": "Verärgert ist noch milde ausgedrückt.", "n": "Annoyed is putting it mildly." },
-        { "t": "Lass mich das präzisieren.", "n": "Let me put that more precisely." },
-        { "t": "Genauer gesagt geht es um Vertrauen, nicht um Kontrolle.", "n": "More precisely, it's about trust, not control." }
+        {
+          "t": "Das ist nicht falsch, aber es trifft es nicht ganz.",
+          "n": "That's not wrong, but it doesn't quite capture it.",
+          "note": "A diplomatic way to correct someone's wording."
+        },
+        {
+          "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.",
+          "n": "I'd speak of scepticism rather than distrust."
+        },
+        {
+          "t": "Sie ist nicht geizig, sondern sparsam.",
+          "n": "She isn't stingy, she's thrifty.",
+          "note": "Same behaviour, opposite judgement."
+        },
+        {
+          "t": "Das Problem ist nur scheinbar gelöst.",
+          "n": "The problem only seems to be solved.",
+          "note": "scheinbar = it looks like it, but it isn't."
+        },
+        {
+          "t": "Anscheinend hat niemand die Mail gelesen.",
+          "n": "Apparently nobody read the email.",
+          "note": "anscheinend = judging by the evidence, probably true."
+        },
+        {
+          "t": "Verärgert ist noch milde ausgedrückt.",
+          "n": "Annoyed is putting it mildly."
+        },
+        {
+          "t": "Lass mich das präzisieren.",
+          "n": "Let me put that more precisely."
+        },
+        {
+          "t": "Genauer gesagt geht es um Vertrauen, nicht um Kontrolle.",
+          "n": "More precisely, it's about trust, not control."
+        }
       ],
       "dialogue": {
         "title": "Editing the report",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Lena", "t": "Im Bericht steht, die Kunden seien misstrauisch. Passt das so?", "n": "The report says the customers are distrustful. Is that okay?" },
-          { "who": "you", "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.", "n": "I'd speak of scepticism rather than distrust." },
-          { "who": "A", "name": "Lena", "t": "Ist das nicht Haarspalterei? Am Ende läuft es doch auf dasselbe hinaus.", "n": "Isn't that hair-splitting? In the end it amounts to the same thing." },
-          { "who": "you", "t": "Das ist nicht falsch, aber es trifft es nicht ganz. Skepsis klingt abwartender.", "n": "That's not wrong, but it doesn't quite capture it. Scepticism sounds more wait-and-see." },
-          { "who": "A", "name": "Lena", "t": "Verstehe. Und hier steht, das Lieferproblem sei inzwischen gelöst.", "n": "I see. And here it says the delivery problem has been solved in the meantime." },
-          { "who": "you", "t": "Das Problem ist nur scheinbar gelöst. Die Ursache besteht weiter.", "n": "The problem only seems to be solved. The cause is still there." },
-          { "who": "A", "name": "Lena", "t": "Oh. Und wie hat der Vorstand reagiert? Ist er verärgert?", "n": "Oh. And how did the board react? Are they annoyed?" },
-          { "who": "you", "t": "Verärgert ist noch milde ausgedrückt.", "n": "Annoyed is putting it mildly." }
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Im Bericht steht, die Kunden seien misstrauisch. Passt das so?",
+            "n": "The report says the customers are distrustful. Is that okay?"
+          },
+          {
+            "who": "you",
+            "t": "Ich würde eher von Skepsis als von Misstrauen sprechen.",
+            "n": "I'd speak of scepticism rather than distrust."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Ist das nicht Haarspalterei? Am Ende läuft es doch auf dasselbe hinaus.",
+            "n": "Isn't that hair-splitting? In the end it amounts to the same thing."
+          },
+          {
+            "who": "you",
+            "t": "Das ist nicht falsch, aber es trifft es nicht ganz. Skepsis klingt abwartender.",
+            "n": "That's not wrong, but it doesn't quite capture it. Scepticism sounds more wait-and-see."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Verstehe. Und hier steht, das Lieferproblem sei inzwischen gelöst.",
+            "n": "I see. And here it says the delivery problem has been solved in the meantime."
+          },
+          {
+            "who": "you",
+            "t": "Das Problem ist nur scheinbar gelöst. Die Ursache besteht weiter.",
+            "n": "The problem only seems to be solved. The cause is still there."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Oh. Und wie hat der Vorstand reagiert? Ist er verärgert?",
+            "n": "Oh. And how did the board react? Are they annoyed?"
+          },
+          {
+            "who": "you",
+            "t": "Verärgert ist noch milde ausgedrückt.",
+            "n": "Annoyed is putting it mildly."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say she isn't stingy, she's thrifty.", "t": ["Sie ist nicht geizig, sondern sparsam"] },
-        { "n": "Say the problem only seems to be solved.", "t": ["Das Problem ist nur scheinbar gelöst"] },
-        { "n": "Say that 'annoyed' is putting it mildly.", "t": ["Verärgert ist noch milde ausgedrückt"] },
-        { "n": "Politely say a word isn't wrong but doesn't quite capture it.", "t": ["Das ist nicht falsch, aber es trifft es nicht ganz", "Das trifft es nicht ganz"] }
+        {
+          "n": "Say she isn't stingy, she's thrifty.",
+          "t": [
+            "Sie ist nicht geizig, sondern sparsam"
+          ]
+        },
+        {
+          "n": "Say the problem only seems to be solved.",
+          "t": [
+            "Das Problem ist nur scheinbar gelöst"
+          ]
+        },
+        {
+          "n": "Say that 'annoyed' is putting it mildly.",
+          "t": [
+            "Verärgert ist noch milde ausgedrückt"
+          ]
+        },
+        {
+          "n": "Politely say a word isn't wrong but doesn't quite capture it.",
+          "t": [
+            "Das ist nicht falsch, aber es trifft es nicht ganz",
+            "Das trifft es nicht ganz"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +137,697 @@
         "body": "Modal particles add no facts, only attitude: ja signals shared knowledge or surprise, doch softens or urges, denn makes questions friendly, halt shows resignation, mal makes requests casual. Keep them short and unstressed. A stressed DOCH means something else entirely: contradiction."
       },
       "phrases": [
-        { "t": "Das ist ja interessant!", "n": "Well, that's interesting!", "note": "ja = surprise." },
-        { "t": "Komm doch einfach mit!", "n": "Why don't you just come along!", "note": "doch + einfach = friendly encouragement." },
-        { "t": "Was machst du denn hier?", "n": "What are you doing here?", "note": "denn = genuine curiosity or surprise." },
-        { "t": "Das weißt du doch.", "n": "You know that, surely.", "note": "Slightly reproachful reminder." },
-        { "t": "Dann mach es halt morgen.", "n": "Then just do it tomorrow.", "note": "halt = resignation; northern speakers say eben." },
-        { "t": "Ruf mich mal an, wenn du Zeit hast.", "n": "Give me a call sometime when you're free.", "note": "mal makes it casual." },
-        { "t": "Du hast wohl keine Lust, oder?", "n": "I suppose you don't feel like it?", "note": "wohl = assumption." },
-        { "t": "Sag bloß, du hast es vergessen!", "n": "Don't tell me you forgot!", "note": "bloß = disbelief." }
+        {
+          "t": "Das ist ja interessant!",
+          "n": "Well, that's interesting!",
+          "note": "ja = surprise."
+        },
+        {
+          "t": "Komm doch einfach mit!",
+          "n": "Why don't you just come along!",
+          "note": "doch + einfach = friendly encouragement."
+        },
+        {
+          "t": "Was machst du denn hier?",
+          "n": "What are you doing here?",
+          "note": "denn = genuine curiosity or surprise."
+        },
+        {
+          "t": "Das weißt du doch.",
+          "n": "You know that, surely.",
+          "note": "Slightly reproachful reminder."
+        },
+        {
+          "t": "Dann mach es halt morgen.",
+          "n": "Then just do it tomorrow.",
+          "note": "halt = resignation; northern speakers say eben."
+        },
+        {
+          "t": "Ruf mich mal an, wenn du Zeit hast.",
+          "n": "Give me a call sometime when you're free.",
+          "note": "mal makes it casual."
+        },
+        {
+          "t": "Du hast wohl keine Lust, oder?",
+          "n": "I suppose you don't feel like it?",
+          "note": "wohl = assumption."
+        },
+        {
+          "t": "Sag bloß, du hast es vergessen!",
+          "n": "Don't tell me you forgot!",
+          "note": "bloß = disbelief."
+        }
       ],
       "dialogue": {
         "title": "Bumping into a friend",
         "lines": [
-          { "who": "A", "name": "Jonas", "t": "Na, was machst du denn hier? Ich dachte, du bist im Urlaub.", "n": "Hey, what are you doing here? I thought you were on holiday." },
-          { "who": "you", "t": "Sag bloß, du hast es vergessen! Ich bin seit gestern zurück.", "n": "Don't tell me you forgot! I've been back since yesterday." },
-          { "who": "A", "name": "Jonas", "t": "Stimmt, das hattest du ja erzählt. Wir grillen übrigens heute Abend bei Paul.", "n": "Right, you did mention it. By the way, we're having a barbecue at Paul's tonight." },
-          { "who": "you", "t": "Das ist ja schön! Wer kommt denn alles?", "n": "Oh, that's nice! So who's coming?" },
-          { "who": "A", "name": "Jonas", "t": "Nur ein paar Leute. Komm doch einfach mit!", "n": "Just a few people. Why don't you just come along!" },
-          { "who": "you", "t": "Ich muss leider noch eine Präsentation fertig machen.", "n": "Unfortunately I still have to finish a presentation." },
-          { "who": "A", "name": "Jonas", "t": "Dann mach sie halt morgen. Die läuft dir doch nicht weg.", "n": "Then just do it tomorrow. It's not going anywhere." },
-          { "who": "you", "t": "Na gut, du hast ja recht. Ich komme mit.", "n": "Oh, all right, you're right. I'll come along." }
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Na, was machst du denn hier? Ich dachte, du bist im Urlaub.",
+            "n": "Hey, what are you doing here? I thought you were on holiday."
+          },
+          {
+            "who": "you",
+            "t": "Sag bloß, du hast es vergessen! Ich bin seit gestern zurück.",
+            "n": "Don't tell me you forgot! I've been back since yesterday."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Stimmt, das hattest du ja erzählt. Wir grillen übrigens heute Abend bei Paul.",
+            "n": "Right, you did mention it. By the way, we're having a barbecue at Paul's tonight."
+          },
+          {
+            "who": "you",
+            "t": "Das ist ja schön! Wer kommt denn alles?",
+            "n": "Oh, that's nice! So who's coming?"
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Nur ein paar Leute. Komm doch einfach mit!",
+            "n": "Just a few people. Why don't you just come along!"
+          },
+          {
+            "who": "you",
+            "t": "Ich muss leider noch eine Präsentation fertig machen.",
+            "n": "Unfortunately I still have to finish a presentation."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Dann mach sie halt morgen. Die läuft dir doch nicht weg.",
+            "n": "Then just do it tomorrow. It's not going anywhere."
+          },
+          {
+            "who": "you",
+            "t": "Na gut, du hast ja recht. Ich komme mit.",
+            "n": "Oh, all right, you're right. I'll come along."
+          }
         ]
       },
       "prompts": [
-        { "n": "Casually invite a friend to just come along.", "t": ["Komm doch einfach mit", "Komm doch mit"] },
-        { "n": "Ask, surprised, what your friend is doing here.", "t": ["Was machst du denn hier"] },
-        { "n": "Tell someone, with a shrug, to just do it tomorrow.", "t": ["Dann mach es halt morgen", "Dann mach es eben morgen"] },
-        { "n": "React in disbelief: don't tell me you forgot!", "t": ["Sag bloß, du hast es vergessen"] }
+        {
+          "n": "Casually invite a friend to just come along.",
+          "t": [
+            "Komm doch einfach mit",
+            "Komm doch mit"
+          ]
+        },
+        {
+          "n": "Ask, surprised, what your friend is doing here.",
+          "t": [
+            "Was machst du denn hier"
+          ]
+        },
+        {
+          "n": "Tell someone, with a shrug, to just do it tomorrow.",
+          "t": [
+            "Dann mach es halt morgen",
+            "Dann mach es eben morgen"
+          ]
+        },
+        {
+          "n": "React in disbelief: don't tell me you forgot!",
+          "t": [
+            "Sag bloß, du hast es vergessen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u01-l3",
+      "title": "Shades of certainty",
+      "goal": "Hedge, doubt and rule things out with precisely graded expressions.",
+      "tip": {
+        "title": "Grade your certainty",
+        "body": "C2 speakers rarely say just ja or nein. Es spricht einiges dafür is cautious agreement, Ich wage zu bezweifeln is polite but firm doubt, and Davon kann keine Rede sein shuts a claim down completely. Stress the key word: KEINE Rede, beZWEIfeln."
+      },
+      "phrases": [
+        {
+          "t": "Es spricht einiges dafür, dass sie recht hat.",
+          "n": "There is a fair amount to suggest she is right."
+        },
+        {
+          "t": "Ich wage zu bezweifeln, dass das reicht.",
+          "n": "I venture to doubt that's enough.",
+          "note": "Polite but firm doubt."
+        },
+        {
+          "t": "Davon kann keine Rede sein.",
+          "n": "That's out of the question.",
+          "note": "Flatly rejects a claim."
+        },
+        {
+          "t": "Das dürfte kaum ins Gewicht fallen.",
+          "n": "That's unlikely to carry much weight."
+        },
+        {
+          "t": "Ganz so einfach ist es nicht.",
+          "n": "It's not quite that simple."
+        }
+      ],
+      "dialogue": {
+        "title": "Assessing a client",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Der Kunde springt ab, das ist doch sicher.",
+            "n": "The client is pulling out, that's certain."
+          },
+          {
+            "who": "you",
+            "t": "Davon kann keine Rede sein. Es spricht einiges dafür, dass er bleibt.",
+            "n": "That's out of the question. There's a fair amount to suggest he'll stay."
+          },
+          {
+            "who": "A",
+            "name": "Lena",
+            "t": "Und die Preiserhöhung? Die ärgert ihn bestimmt.",
+            "n": "And the price increase? That will surely annoy him."
+          },
+          {
+            "who": "you",
+            "t": "Die dürfte kaum ins Gewicht fallen. Ganz so einfach ist es nicht.",
+            "n": "That's unlikely to carry much weight. It's not quite that simple."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Politely say you venture to doubt that's enough.",
+          "t": [
+            "Ich wage zu bezweifeln, dass das reicht"
+          ]
+        },
+        {
+          "n": "Flatly reject a claim: it's out of the question.",
+          "t": [
+            "Davon kann keine Rede sein"
+          ]
+        },
+        {
+          "n": "Say it's not quite that simple.",
+          "t": [
+            "Ganz so einfach ist es nicht",
+            "So einfach ist es nicht"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l4",
+      "kind": "grammar",
+      "title": "Modal verbs that judge",
+      "goal": "Use modal verbs to express how sure you are and whose claim it is.",
+      "tip": {
+        "title": "Subjective modal verbs",
+        "body": "Modal verbs have a second meaning: they show the speaker’s certainty. muss = almost certain, dürfte = probable, kann nicht = impossible; soll reports hearsay, will reports the subject’s own (doubtful) claim. For the past, add the perfect infinitive at the end: Er muss es gewusst haben."
+      },
+      "phrases": [
+        {
+          "t": "Er muss es gewusst haben.",
+          "n": "He must have known."
+        },
+        {
+          "t": "Sie dürfte inzwischen zu Hause sein.",
+          "n": "She's probably home by now."
+        },
+        {
+          "t": "Der Chef soll schon gekündigt haben.",
+          "n": "The boss is said to have resigned already.",
+          "note": "soll = rumour, hearsay."
+        },
+        {
+          "t": "Er will nichts davon gewusst haben.",
+          "n": "He claims to have known nothing about it.",
+          "note": "will = his own claim, which you doubt."
+        },
+        {
+          "t": "Das kann nicht stimmen.",
+          "n": "That can't be right."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the degree of certainty",
+          "base": {
+            "t": "Er hat es gewusst.",
+            "n": "He knew it."
+          },
+          "items": [
+            {
+              "cue": "muss",
+              "t": "Er muss es gewusst haben.",
+              "n": "He must have known it."
+            },
+            {
+              "cue": "dürfte",
+              "t": "Er dürfte es gewusst haben.",
+              "n": "He probably knew it."
+            },
+            {
+              "cue": "kann nicht",
+              "t": "Er kann es nicht gewusst haben.",
+              "n": "He can't have known it."
+            }
+          ]
+        },
+        {
+          "title": "Swap whose claim it is",
+          "base": {
+            "t": "Sie behauptet, dass sie nichts gesehen hat.",
+            "n": "She claims that she saw nothing."
+          },
+          "items": [
+            {
+              "cue": "will",
+              "t": "Sie will nichts gesehen haben.",
+              "n": "She claims to have seen nothing."
+            },
+            {
+              "cue": "man sagt · soll",
+              "t": "Sie soll nichts gesehen haben.",
+              "n": "She is said to have seen nothing."
+            },
+            {
+              "cue": "ich vermute · dürfte",
+              "t": "Sie dürfte nichts gesehen haben.",
+              "n": "She probably saw nothing."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're almost certain he knew.",
+          "t": [
+            "Er muss es gewusst haben"
+          ]
+        },
+        {
+          "n": "Pass on a rumour: the boss is said to have resigned already.",
+          "t": [
+            "Der Chef soll schon gekündigt haben",
+            "Der Chef soll gekündigt haben"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l5",
+      "kind": "listening",
+      "title": "Reading between the lines",
+      "goal": "Follow two HR colleagues decoding a reference letter.",
+      "culture": {
+        "title": "The coded Arbeitszeugnis",
+        "body": "German employers must give departing staff a written reference, and by law it has to sound benevolent. So HR writes in code: stets zu unserer vollsten Zufriedenheit is top marks, zu unserer Zufriedenheit only satisfactory, and hat sich bemüht means failure. What is missing, like any word on reliability, can say as much as what is there.",
+        "regions": [
+          "DE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Das liest sich zunächst ganz positiv.",
+          "n": "At first that reads quite positively."
+        },
+        {
+          "t": "Zwischen den Zeilen steht etwas anderes.",
+          "n": "Between the lines it says something else."
+        },
+        {
+          "t": "Er hat sich stets bemüht.",
+          "n": "He always made an effort.",
+          "note": "In a reference letter this is damning."
+        },
+        {
+          "t": "Sie arbeitete stets zu unserer vollsten Zufriedenheit.",
+          "n": "She always worked to our fullest satisfaction.",
+          "note": "Grammatically odd, but it means top marks."
+        }
+      ],
+      "story": {
+        "title": "The reference letter",
+        "intro": "Two HR managers, Frau Kraus and Herr Wolf, read an applicant’s reference letter.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Frau Kraus",
+            "t": "Haben Sie das Zeugnis von Herrn Brandt gelesen? Das liest sich zunächst ganz positiv.",
+            "n": "Have you read Mr Brandt's reference? At first it reads quite positively."
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Zunächst, ja. Aber zwischen den Zeilen steht etwas anderes.",
+            "n": "At first, yes. But between the lines it says something else."
+          },
+          {
+            "name": "Frau Kraus",
+            "t": "Wie meinen Sie das? Da steht doch, er habe sich stets bemüht.",
+            "n": "What do you mean? It says he always made an effort."
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Eben. Bemüht heißt im Zeugnisdeutsch: Er hat es versucht, aber nicht geschafft.",
+            "n": "Exactly. In reference-speak, 'made an effort' means: he tried but didn't manage."
+          },
+          {
+            "name": "Frau Kraus",
+            "t": "Und dass er sehr gesellig war, klingt doch eigentlich sympathisch.",
+            "n": "And that he was very sociable actually sounds likeable."
+          },
+          {
+            "name": "Herr Wolf",
+            "voice": "de-DE-ConradNeural",
+            "t": "Gesellig dürfte heißen, dass er gern mal ein Glas zu viel getrunken hat.",
+            "n": "'Sociable' probably means he liked to have one glass too many."
+          },
+          {
+            "name": "Frau Kraus",
+            "t": "Na wunderbar. Dann sollten wir im Gespräch genau nachfragen.",
+            "n": "Wonderful. Then we should ask very carefully in the interview."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wessen Zeugnis lesen die beiden?",
+            "n": "Whose reference are they reading?",
+            "t": [
+              "Das Zeugnis von Herrn Brandt",
+              "Von Herrn Brandt",
+              "Herrn Brandts Zeugnis"
+            ]
+          },
+          {
+            "q": "Was bedeutet bemüht im Zeugnisdeutsch?",
+            "n": "What does 'bemüht' mean in reference-speak?",
+            "t": [
+              "Er hat es versucht, aber nicht geschafft",
+              "Er hat es nicht geschafft"
+            ]
+          },
+          {
+            "q": "Was wollen sie im Gespräch tun?",
+            "n": "What do they want to do in the interview?",
+            "t": [
+              "Genau nachfragen",
+              "Sie wollen genau nachfragen",
+              "Nachfragen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u01-l6",
+      "kind": "roleplay",
+      "title": "Weighing every word",
+      "goal": "Correct a journalist’s loaded wording without sounding defensive.",
+      "phrases": [
+        {
+          "t": "Das haben Sie gesagt, nicht ich.",
+          "n": "That's what you said, not me."
+        },
+        {
+          "t": "Ich möchte das so nicht stehen lassen.",
+          "n": "I don't want to let that stand."
+        },
+        {
+          "t": "Von einem Skandal würde ich nicht sprechen.",
+          "n": "I wouldn't call it a scandal."
+        },
+        {
+          "t": "Wie meinen Sie das genau?",
+          "n": "What exactly do you mean by that?"
+        }
+      ],
+      "branch": {
+        "title": "The press interview",
+        "scene": "You are a company spokesperson. A journalist interviews you about wrong invoices sent to customers.",
+        "name": "Journalistin Frau Haas",
+        "voice": "de-DE-KatjaNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Ihr Unternehmen steckt mitten in einem Skandal. Wie erklären Sie das?",
+            "n": "Your company is in the middle of a scandal. How do you explain that?",
+            "choices": [
+              {
+                "t": "Von einem Skandal würde ich nicht sprechen. Es gab einen Fehler, und den beheben wir.",
+                "n": "I wouldn't call it a scandal. There was a mistake, and we're fixing it.",
+                "next": "q2"
+              },
+              {
+                "t": "Wie meinen Sie das genau?",
+                "n": "What exactly do you mean by that?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Nun, Kunden berichten von falschen Rechnungen. Manche sprechen sogar von Betrug.",
+            "n": "Well, customers report wrong invoices. Some even speak of fraud.",
+            "choices": [
+              {
+                "t": "Ich möchte das so nicht stehen lassen. Es war ein technischer Fehler, kein Betrug.",
+                "n": "I don't want to let that stand. It was a technical error, not fraud.",
+                "next": "q2"
+              },
+              {
+                "t": "Kein Kommentar.",
+                "n": "No comment.",
+                "next": "cold"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Sie geben also zu, dass Sie Ihre Kunden getäuscht haben?",
+            "n": "So you admit that you deceived your customers?",
+            "choices": [
+              {
+                "t": "Das haben Sie gesagt, nicht ich. Wir haben niemanden getäuscht, aber wir haben zu spät informiert.",
+                "n": "That's what you said, not me. We didn't deceive anyone, but we informed people too late.",
+                "next": "q3"
+              },
+              {
+                "t": "Das ist völliger Unsinn, Sie haben ja keine Ahnung!",
+                "n": "That's complete nonsense, you have no idea!",
+                "next": "quote"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Ein bemerkenswertes Eingeständnis. Was bieten Sie den Betroffenen an?",
+            "n": "A remarkable admission. What are you offering those affected?",
+            "choices": [
+              {
+                "t": "Alle Betroffenen erhalten ihr Geld zurück, und zwar unaufgefordert.",
+                "n": "Everyone affected gets their money back, without having to ask.",
+                "next": "good"
+              },
+              {
+                "t": "Darüber dürfte in den nächsten Tagen entschieden werden.",
+                "n": "That will probably be decided in the next few days.",
+                "next": "vague"
+              }
+            ]
+          },
+          "vague": {
+            "t": "Das klingt, mit Verlaub, ziemlich ausweichend.",
+            "n": "With respect, that sounds rather evasive.",
+            "choices": [
+              {
+                "t": "Sie haben recht. Konkret: Alle Betroffenen erhalten ihr Geld zurück.",
+                "n": "You're right. Specifically: everyone affected gets their money back.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Das ist eine klare Aussage. Vielen Dank für das Gespräch.",
+            "n": "That's a clear statement. Thank you for the interview.",
+            "end": "good",
+            "outcome": "You corrected the loaded wording calmly and gave a concrete commitment."
+          },
+          "cold": {
+            "t": "Kein Kommentar? Das werden unsere Leser sicher interessant finden.",
+            "n": "No comment? Our readers will certainly find that interesting.",
+            "end": "bad",
+            "outcome": "Stonewalling made you look guilty. Try correcting the wording instead."
+          },
+          "quote": {
+            "t": "Danke, das zitiere ich gern wörtlich.",
+            "n": "Thanks, I'll be happy to quote that word for word.",
+            "end": "bad",
+            "outcome": "You lost your temper on the record, and the headline writes itself."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the journalist that's what they said, not you.",
+          "t": [
+            "Das haben Sie gesagt, nicht ich"
+          ]
+        },
+        {
+          "n": "Say you wouldn't call it a scandal.",
+          "t": [
+            "Von einem Skandal würde ich nicht sprechen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l7",
+      "kind": "speaking",
+      "title": "Splitting hairs, on purpose",
+      "goal": "Explain fine differences in meaning and grade your certainty freely.",
+      "phrases": [
+        {
+          "t": "Der Unterschied mag gering erscheinen, ist aber entscheidend.",
+          "n": "The difference may seem small, but it is crucial."
+        },
+        {
+          "t": "Streng genommen ist das kein Fehler, sondern ein Versäumnis.",
+          "n": "Strictly speaking that's not a mistake but an omission."
+        },
+        {
+          "t": "Ein treffenderes Wort wäre vielleicht Zurückhaltung.",
+          "n": "A more fitting word might be reticence."
+        },
+        {
+          "t": "Damit ist nicht gemeint, dass alles schlecht war.",
+          "n": "That doesn't mean everything was bad."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain the difference between two near-synonyms (e.g. sparsam/geizig or Skepsis/Misstrauen) and when you would use each.",
+          "hint": "Use: Der Unterschied mag gering erscheinen …, … klingt eher …, während …, Streng genommen …, zum Beispiel …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a contrast",
+              "any": [
+                "während",
+                "dagegen",
+                "hingegen",
+                "sondern",
+                "im gegensatz"
+              ]
+            },
+            {
+              "label": "connotation",
+              "any": [
+                "klingt",
+                "positiv",
+                "negativ",
+                "abwertend",
+                "neutral",
+                "wertend",
+                "konnotation*"
+              ]
+            },
+            {
+              "label": "an example",
+              "any": [
+                "zum beispiel",
+                "beispielsweise",
+                "etwa",
+                "wenn jemand",
+                "wenn ich"
+              ]
+            },
+            {
+              "label": "precise wording",
+              "any": [
+                "streng genommen",
+                "genauer gesagt",
+                "eher",
+                "im grunde",
+                "treffender*"
+              ]
+            }
+          ],
+          "model": "Der Unterschied zwischen sparsam und geizig mag gering erscheinen, ist aber entscheidend. Beide Wörter beschreiben jemanden, der wenig Geld ausgibt, während geizig eindeutig abwertend klingt. Wenn ich zum Beispiel meine Großmutter lobe, sage ich sparsam; über einen knausrigen Chef würde ich eher geizig sagen."
+        },
+        {
+          "n": "Comment on a rumour at work, separating what is certain, what is probable and what is only being said.",
+          "hint": "Use: Er muss … haben, sie dürfte …, angeblich / soll …, Ich wage zu bezweifeln, dass …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "certainty",
+              "any": [
+                "muss",
+                "müssen",
+                "zweifellos",
+                "sicher",
+                "eindeutig"
+              ]
+            },
+            {
+              "label": "probability",
+              "any": [
+                "dürfte",
+                "dürften",
+                "vermutlich",
+                "wahrscheinlich",
+                "wohl"
+              ]
+            },
+            {
+              "label": "hearsay",
+              "any": [
+                "soll",
+                "sollen",
+                "angeblich",
+                "man sagt",
+                "will"
+              ]
+            },
+            {
+              "label": "doubt",
+              "any": [
+                "bezweifle",
+                "bezweifeln",
+                "kaum",
+                "fraglich",
+                "keine rede"
+              ]
+            }
+          ],
+          "model": "Angeblich soll unsere Abteilung aufgelöst werden. Der Chef muss davon gewusst haben, und die Entscheidung dürfte längst gefallen sein. Ich wage allerdings zu bezweifeln, dass wirklich alle Stellen wegfallen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the difference may seem small but is crucial.",
+          "t": [
+            "Der Unterschied mag gering erscheinen, ist aber entscheidend"
+          ]
+        },
+        {
+          "n": "Clarify that this doesn't mean everything was bad.",
+          "t": [
+            "Damit ist nicht gemeint, dass alles schlecht war"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Feine Unterschiede",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

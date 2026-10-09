@@ -13,34 +13,117 @@
         "body": "Media pros acknowledge a hard question, bridge to context, then deliver their core message in one clear sentence. Correct false figures immediately but calmly. Speak in short sentences with a falling intonation at the end; that sounds certain. Replace every äh with a silent pause."
       },
       "phrases": [
-        { "t": "Das ist eine berechtigte Frage, und ich beantworte sie gern.", "n": "That's a fair question, and I'm happy to answer it." },
-        { "t": "Lassen Sie mich zunächst den Kontext erläutern.", "n": "Let me first explain the context." },
-        { "t": "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern.", "n": "I can't comment on that at this point." },
-        { "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.", "n": "I have to correct you there, that figure isn't right." },
-        { "t": "Entscheidend ist doch etwas ganz anderes.", "n": "What really matters is something else entirely." },
-        { "t": "Ich möchte nicht über Hypothesen spekulieren.", "n": "I don't want to speculate about hypotheticals." },
-        { "t": "Die Entscheidung ist uns nicht leichtgefallen.", "n": "It wasn't an easy decision for us." },
-        { "t": "Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.", "n": "Let me be very clear about one thing: we stand by our employees." }
+        {
+          "t": "Das ist eine berechtigte Frage, und ich beantworte sie gern.",
+          "n": "That's a fair question, and I'm happy to answer it."
+        },
+        {
+          "t": "Lassen Sie mich zunächst den Kontext erläutern.",
+          "n": "Let me first explain the context."
+        },
+        {
+          "t": "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern.",
+          "n": "I can't comment on that at this point."
+        },
+        {
+          "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.",
+          "n": "I have to correct you there, that figure isn't right."
+        },
+        {
+          "t": "Entscheidend ist doch etwas ganz anderes.",
+          "n": "What really matters is something else entirely."
+        },
+        {
+          "t": "Ich möchte nicht über Hypothesen spekulieren.",
+          "n": "I don't want to speculate about hypotheticals."
+        },
+        {
+          "t": "Die Entscheidung ist uns nicht leichtgefallen.",
+          "n": "It wasn't an easy decision for us."
+        },
+        {
+          "t": "Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.",
+          "n": "Let me be very clear about one thing: we stand by our employees."
+        }
       ],
       "dialogue": {
         "title": "The plant closure interview",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Frau Lange", "t": "Ihr Unternehmen schließt das Werk in Bochum, dreihundert Menschen verlieren ihre Arbeit. Wie rechtfertigen Sie das?", "n": "Your company is closing the plant in Bochum; three hundred people will lose their jobs. How do you justify that?" },
-          { "who": "you", "t": "Das ist eine berechtigte Frage. Lassen Sie mich zunächst den Kontext erläutern.", "n": "That's a fair question. Let me first explain the context." },
-          { "who": "A", "name": "Frau Lange", "t": "Kritiker sagen, Sie hätten im letzten Jahr zweihundert Millionen Euro Gewinn gemacht.", "n": "Critics say you made two hundred million euros in profit last year." },
-          { "who": "you", "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.", "n": "I have to correct you there, that figure isn't right." },
-          { "who": "A", "name": "Frau Lange", "t": "Werden weitere Standorte folgen?", "n": "Will other sites follow?" },
-          { "who": "you", "t": "Ich möchte nicht über Hypothesen spekulieren.", "n": "I don't want to speculate about hypotheticals." },
-          { "who": "A", "name": "Frau Lange", "t": "Was sagen Sie den Betroffenen?", "n": "What do you say to the people affected?" },
-          { "who": "you", "t": "Die Entscheidung ist uns nicht leichtgefallen. Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.", "n": "It wasn't an easy decision for us. Let me be very clear: we stand by our employees." }
+          {
+            "who": "A",
+            "name": "Frau Lange",
+            "t": "Ihr Unternehmen schließt das Werk in Bochum, dreihundert Menschen verlieren ihre Arbeit. Wie rechtfertigen Sie das?",
+            "n": "Your company is closing the plant in Bochum; three hundred people will lose their jobs. How do you justify that?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist eine berechtigte Frage. Lassen Sie mich zunächst den Kontext erläutern.",
+            "n": "That's a fair question. Let me first explain the context."
+          },
+          {
+            "who": "A",
+            "name": "Frau Lange",
+            "t": "Kritiker sagen, Sie hätten im letzten Jahr zweihundert Millionen Euro Gewinn gemacht.",
+            "n": "Critics say you made two hundred million euros in profit last year."
+          },
+          {
+            "who": "you",
+            "t": "Da muss ich Sie korrigieren, die Zahl stimmt so nicht.",
+            "n": "I have to correct you there, that figure isn't right."
+          },
+          {
+            "who": "A",
+            "name": "Frau Lange",
+            "t": "Werden weitere Standorte folgen?",
+            "n": "Will other sites follow?"
+          },
+          {
+            "who": "you",
+            "t": "Ich möchte nicht über Hypothesen spekulieren.",
+            "n": "I don't want to speculate about hypotheticals."
+          },
+          {
+            "who": "A",
+            "name": "Frau Lange",
+            "t": "Was sagen Sie den Betroffenen?",
+            "n": "What do you say to the people affected?"
+          },
+          {
+            "who": "you",
+            "t": "Die Entscheidung ist uns nicht leichtgefallen. Eines möchte ich ganz klar sagen: Wir stehen zu unseren Mitarbeitern.",
+            "n": "It wasn't an easy decision for us. Let me be very clear: we stand by our employees."
+          }
         ]
       },
       "prompts": [
-        { "n": "Acknowledge that it's a fair question.", "t": ["Das ist eine berechtigte Frage", "Das ist eine berechtigte Frage, und ich beantworte sie gern"] },
-        { "n": "Decline to comment at this point.", "t": ["Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern", "Dazu kann ich mich derzeit nicht äußern"] },
-        { "n": "Refuse to speculate about hypotheticals.", "t": ["Ich möchte nicht über Hypothesen spekulieren"] },
-        { "n": "Correct the journalist's figure.", "t": ["Da muss ich Sie korrigieren, die Zahl stimmt so nicht", "Die Zahl stimmt so nicht"] }
+        {
+          "n": "Acknowledge that it's a fair question.",
+          "t": [
+            "Das ist eine berechtigte Frage",
+            "Das ist eine berechtigte Frage, und ich beantworte sie gern"
+          ]
+        },
+        {
+          "n": "Decline to comment at this point.",
+          "t": [
+            "Dazu kann ich mich zum jetzigen Zeitpunkt nicht äußern",
+            "Dazu kann ich mich derzeit nicht äußern"
+          ]
+        },
+        {
+          "n": "Refuse to speculate about hypotheticals.",
+          "t": [
+            "Ich möchte nicht über Hypothesen spekulieren"
+          ]
+        },
+        {
+          "n": "Correct the journalist's figure.",
+          "t": [
+            "Da muss ich Sie korrigieren, die Zahl stimmt so nicht",
+            "Die Zahl stimmt so nicht"
+          ]
+        }
       ]
     },
     {
@@ -52,36 +135,705 @@
         "body": "In a crisis, start with empathy, then give verified facts, then concrete action and the next update. Never say kein Kommentar. Use a calm, low voice and a measured pace, and drop hedging fillers like eigentlich or irgendwie: they make you sound evasive."
       },
       "phrases": [
-        { "t": "Wir bedauern den Vorfall zutiefst.", "n": "We deeply regret the incident." },
-        { "t": "Wir übernehmen die volle Verantwortung.", "n": "We take full responsibility." },
-        { "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen.", "n": "According to current information, around twelve thousand customers are affected." },
-        { "t": "Wir arbeiten mit Hochdruck an der Aufklärung.", "n": "We are working flat out to get to the bottom of it." },
-        { "t": "Im Nachhinein war das ein Fehler, und dazu stehen wir.", "n": "In hindsight that was a mistake, and we own it." },
-        { "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung.", "n": "Affected customers will of course receive compensation." },
-        { "t": "Ich bitte die Betroffenen in aller Form um Entschuldigung.", "n": "I formally apologise to everyone affected." },
-        { "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.", "n": "As soon as we have confirmed findings, we will inform you immediately." }
+        {
+          "t": "Wir bedauern den Vorfall zutiefst.",
+          "n": "We deeply regret the incident."
+        },
+        {
+          "t": "Wir übernehmen die volle Verantwortung.",
+          "n": "We take full responsibility."
+        },
+        {
+          "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen.",
+          "n": "According to current information, around twelve thousand customers are affected."
+        },
+        {
+          "t": "Wir arbeiten mit Hochdruck an der Aufklärung.",
+          "n": "We are working flat out to get to the bottom of it."
+        },
+        {
+          "t": "Im Nachhinein war das ein Fehler, und dazu stehen wir.",
+          "n": "In hindsight that was a mistake, and we own it."
+        },
+        {
+          "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung.",
+          "n": "Affected customers will of course receive compensation."
+        },
+        {
+          "t": "Ich bitte die Betroffenen in aller Form um Entschuldigung.",
+          "n": "I formally apologise to everyone affected."
+        },
+        {
+          "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.",
+          "n": "As soon as we have confirmed findings, we will inform you immediately."
+        }
       ],
       "dialogue": {
         "title": "The data breach",
         "lines": [
-          { "who": "A", "name": "Reporter", "t": "Bei Ihrer Bank sind Kundendaten gestohlen worden. Was sagen Sie dazu?", "n": "Customer data has been stolen from your bank. What do you have to say?" },
-          { "who": "you", "t": "Wir bedauern den Vorfall zutiefst und übernehmen die volle Verantwortung.", "n": "We deeply regret the incident and take full responsibility." },
-          { "who": "A", "name": "Reporter", "t": "Wie viele Kunden sind betroffen?", "n": "How many customers are affected?" },
-          { "who": "you", "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen. Wir arbeiten mit Hochdruck an der Aufklärung.", "n": "According to current information, around twelve thousand customers are affected. We are working flat out to get to the bottom of it." },
-          { "who": "A", "name": "Reporter", "t": "Warum haben Sie die Öffentlichkeit erst nach drei Tagen informiert?", "n": "Why did you only inform the public after three days?" },
-          { "who": "you", "t": "Wir wollten nichts Ungesichertes verbreiten. Im Nachhinein war das ein Fehler, und dazu stehen wir.", "n": "We didn't want to spread unverified information. In hindsight that was a mistake, and we own it." },
-          { "who": "A", "name": "Reporter", "t": "Und was passiert jetzt mit den Betroffenen?", "n": "And what happens now to those affected?" },
-          { "who": "you", "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung. Ich bitte sie in aller Form um Entschuldigung.", "n": "Affected customers will of course receive compensation. I formally apologise to them." },
-          { "who": "A", "name": "Reporter", "t": "Wann erfahren wir mehr?", "n": "When will we learn more?" },
-          { "who": "you", "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.", "n": "As soon as we have confirmed findings, we will inform you immediately." }
+          {
+            "who": "A",
+            "name": "Reporter",
+            "t": "Bei Ihrer Bank sind Kundendaten gestohlen worden. Was sagen Sie dazu?",
+            "n": "Customer data has been stolen from your bank. What do you have to say?"
+          },
+          {
+            "who": "you",
+            "t": "Wir bedauern den Vorfall zutiefst und übernehmen die volle Verantwortung.",
+            "n": "We deeply regret the incident and take full responsibility."
+          },
+          {
+            "who": "A",
+            "name": "Reporter",
+            "t": "Wie viele Kunden sind betroffen?",
+            "n": "How many customers are affected?"
+          },
+          {
+            "who": "you",
+            "t": "Nach aktuellem Kenntnisstand sind rund zwölftausend Kunden betroffen. Wir arbeiten mit Hochdruck an der Aufklärung.",
+            "n": "According to current information, around twelve thousand customers are affected. We are working flat out to get to the bottom of it."
+          },
+          {
+            "who": "A",
+            "name": "Reporter",
+            "t": "Warum haben Sie die Öffentlichkeit erst nach drei Tagen informiert?",
+            "n": "Why did you only inform the public after three days?"
+          },
+          {
+            "who": "you",
+            "t": "Wir wollten nichts Ungesichertes verbreiten. Im Nachhinein war das ein Fehler, und dazu stehen wir.",
+            "n": "We didn't want to spread unverified information. In hindsight that was a mistake, and we own it."
+          },
+          {
+            "who": "A",
+            "name": "Reporter",
+            "t": "Und was passiert jetzt mit den Betroffenen?",
+            "n": "And what happens now to those affected?"
+          },
+          {
+            "who": "you",
+            "t": "Betroffene Kunden erhalten selbstverständlich eine Entschädigung. Ich bitte sie in aller Form um Entschuldigung.",
+            "n": "Affected customers will of course receive compensation. I formally apologise to them."
+          },
+          {
+            "who": "A",
+            "name": "Reporter",
+            "t": "Wann erfahren wir mehr?",
+            "n": "When will we learn more?"
+          },
+          {
+            "who": "you",
+            "t": "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend.",
+            "n": "As soon as we have confirmed findings, we will inform you immediately."
+          }
         ]
       },
       "prompts": [
-        { "n": "Express deep regret for the incident.", "t": ["Wir bedauern den Vorfall zutiefst"] },
-        { "n": "Say your organisation takes full responsibility.", "t": ["Wir übernehmen die volle Verantwortung"] },
-        { "n": "Promise to inform the press as soon as findings are confirmed.", "t": ["Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend"] },
-        { "n": "Formally apologise to everyone affected.", "t": ["Ich bitte die Betroffenen in aller Form um Entschuldigung"] }
+        {
+          "n": "Express deep regret for the incident.",
+          "t": [
+            "Wir bedauern den Vorfall zutiefst"
+          ]
+        },
+        {
+          "n": "Say your organisation takes full responsibility.",
+          "t": [
+            "Wir übernehmen die volle Verantwortung"
+          ]
+        },
+        {
+          "n": "Promise to inform the press as soon as findings are confirmed.",
+          "t": [
+            "Sobald uns gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend"
+          ]
+        },
+        {
+          "n": "Formally apologise to everyone affected.",
+          "t": [
+            "Ich bitte die Betroffenen in aller Form um Entschuldigung"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u08-l3",
+      "title": "The internal crisis briefing",
+      "goal": "Brief your own staff in a crisis: inform first-hand, stop rumours, route all press enquiries.",
+      "tip": {
+        "title": "Inside before outside",
+        "body": "Staff should never learn about a crisis from the news. Brief them first-hand, set clear rules (Alle Anfragen laufen über die Pressestelle) and give the time of the next update. Keep it short and factual; rumours fill any gap you leave."
+      },
+      "phrases": [
+        {
+          "t": "Ich möchte Sie aus erster Hand informieren.",
+          "n": "I want to inform you first-hand."
+        },
+        {
+          "t": "Bitte geben Sie gegenüber der Presse keine Auskünfte.",
+          "n": "Please don’t give the press any information."
+        },
+        {
+          "t": "Alle Anfragen laufen ab sofort über die Pressestelle.",
+          "n": "From now on, all enquiries go through the press office."
+        },
+        {
+          "t": "Wir richten einen Krisenstab ein.",
+          "n": "We’re setting up a crisis team."
+        },
+        {
+          "t": "Gerüchte helfen jetzt niemandem.",
+          "n": "Rumours don’t help anyone right now."
+        }
+      ],
+      "dialogue": {
+        "title": "Rumours on the shop floor",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Kaya",
+            "t": "Stimmt es, dass wir gehackt wurden? In den sozialen Medien kursieren schon die wildesten Gerüchte.",
+            "n": "Is it true we’ve been hacked? The wildest rumours are already circulating on social media."
+          },
+          {
+            "who": "you",
+            "t": "Ich möchte Sie aus erster Hand informieren: Ja, es gab einen Angriff. Gerüchte helfen jetzt niemandem.",
+            "n": "I want to inform you first-hand: yes, there was an attack. Rumours don’t help anyone right now."
+          },
+          {
+            "who": "A",
+            "name": "Frau Kaya",
+            "t": "Ein Journalist hat mich gerade angerufen. Was soll ich ihm sagen?",
+            "n": "A journalist just called me. What should I tell him?"
+          },
+          {
+            "who": "you",
+            "t": "Bitte geben Sie keine Auskünfte. Alle Anfragen laufen ab sofort über die Pressestelle.",
+            "n": "Please don’t give any information. From now on, all enquiries go through the press office."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you’re setting up a crisis team.",
+          "t": [
+            "Wir richten einen Krisenstab ein"
+          ]
+        },
+        {
+          "n": "Ask staff not to give the press any information.",
+          "t": [
+            "Bitte geben Sie gegenüber der Presse keine Auskünfte",
+            "Bitte geben Sie keine Auskünfte"
+          ]
+        },
+        {
+          "n": "Say all enquiries now go through the press office.",
+          "t": [
+            "Alle Anfragen laufen ab sofort über die Pressestelle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u08-l4",
+      "kind": "grammar",
+      "title": "Hedging: dürfte, soll, scheint",
+      "goal": "Separate facts from assumptions and hearsay with epistemic modals and sein + zu.",
+      "tip": {
+        "title": "Say how sure you are",
+        "body": "Crisis speakers mark certainty precisely. dürfte = probably (Die Ursache dürfte ein Softwarefehler sein), sollen + past infinitive = reportedly (Der Angreifer soll Zugang gehabt haben), scheinen + zu = appears to. sein + zu expresses possibility without naming anyone: Ein Zusammenhang ist nicht auszuschließen."
+      },
+      "phrases": [
+        {
+          "t": "Die Ursache dürfte ein Softwarefehler sein.",
+          "n": "The cause is probably a software error."
+        },
+        {
+          "t": "Der Angreifer soll Zugang zu internen Systemen gehabt haben.",
+          "n": "The attacker reportedly had access to internal systems."
+        },
+        {
+          "t": "Das System scheint inzwischen stabil zu laufen.",
+          "n": "The system now appears to be running stably."
+        },
+        {
+          "t": "Ein Zusammenhang ist nicht auszuschließen.",
+          "n": "A connection cannot be ruled out.",
+          "note": "sein + zu = passive possibility (can/must be done)."
+        },
+        {
+          "t": "Nach unseren Erkenntnissen wurden keine Daten weitergegeben.",
+          "n": "According to our findings, no data was passed on."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap certainty → hedge",
+          "base": {
+            "t": "Die Ursache ist ein Softwarefehler.",
+            "n": "The cause is a software error."
+          },
+          "items": [
+            {
+              "cue": "dürfte",
+              "t": "Die Ursache dürfte ein Softwarefehler sein.",
+              "n": "The cause is probably a software error."
+            },
+            {
+              "cue": "scheinen",
+              "t": "Die Ursache scheint ein Softwarefehler zu sein.",
+              "n": "The cause appears to be a software error."
+            },
+            {
+              "cue": "könnte",
+              "t": "Die Ursache könnte ein Softwarefehler sein.",
+              "n": "The cause could be a software error."
+            }
+          ]
+        },
+        {
+          "title": "Swap the reported claim",
+          "base": {
+            "t": "Der Angreifer soll Zugang gehabt haben.",
+            "n": "The attacker reportedly had access."
+          },
+          "items": [
+            {
+              "cue": "Daten verkauft",
+              "t": "Der Angreifer soll Daten verkauft haben.",
+              "n": "The attacker reportedly sold data."
+            },
+            {
+              "cue": "ein Mitarbeiter · gewarnt",
+              "t": "Ein Mitarbeiter soll gewarnt haben.",
+              "n": "An employee reportedly gave a warning."
+            },
+            {
+              "cue": "die Lücke · seit Monaten bekannt",
+              "t": "Die Lücke soll seit Monaten bekannt gewesen sein.",
+              "n": "The vulnerability had reportedly been known for months."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say a connection cannot be ruled out.",
+          "t": [
+            "Ein Zusammenhang ist nicht auszuschließen",
+            "Ein Zusammenhang lässt sich nicht ausschließen"
+          ]
+        },
+        {
+          "n": "Say the cause is probably a software error.",
+          "t": [
+            "Die Ursache dürfte ein Softwarefehler sein"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u08-l5",
+      "kind": "listening",
+      "title": "A product recall on the radio",
+      "goal": "Follow an Austrian radio interview about a food recall.",
+      "phrases": [
+        {
+          "t": "Wir rufen das Produkt vorsorglich zurück.",
+          "n": "We are recalling the product as a precaution."
+        },
+        {
+          "t": "Eine Gefahr ist nicht auszuschließen.",
+          "n": "A risk cannot be ruled out."
+        },
+        {
+          "t": "Sie bekommen Ihr Geld auch ohne Kassenbon zurück.",
+          "n": "You’ll get your money back even without a receipt."
+        },
+        {
+          "t": "Der Fehler dürfte bei der neuen Abfüllanlage liegen.",
+          "n": "The fault probably lies with the new filling plant."
+        }
+      ],
+      "story": {
+        "title": "Yoghurt recall",
+        "intro": "An Austrian radio reporter interviews the head of a dairy about a recall.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Reporterin",
+            "voice": "de-AT-IngridNeural",
+            "t": "Herr Huber, Ihre Molkerei ruft seit heute früh Joghurt zurück. Was ist passiert?",
+            "n": "Mr Huber, your dairy has been recalling yoghurt since early this morning. What happened?"
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Bei einer Routinekontrolle wurden in einer Charge Kunststoffteilchen gefunden.",
+            "n": "During a routine check, plastic particles were found in one batch."
+          },
+          {
+            "name": "Reporterin",
+            "voice": "de-AT-IngridNeural",
+            "t": "Ist die Gesundheit der Konsumenten gefährdet?",
+            "n": "Is consumers’ health at risk?"
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Eine Gefahr ist nicht auszuschließen. Wir bitten daher alle, den Joghurt nicht zu essen.",
+            "n": "A risk cannot be ruled out. We therefore ask everyone not to eat the yoghurt."
+          },
+          {
+            "name": "Reporterin",
+            "voice": "de-AT-IngridNeural",
+            "t": "Bekommen die Kunden ihr Geld zurück?",
+            "n": "Will customers get their money back?"
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Selbstverständlich, auch ohne Kassenbon. Der Fehler dürfte bei der neuen Abfüllanlage liegen.",
+            "n": "Of course, even without a receipt. The fault probably lies with the new filling plant."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was ruft die Molkerei zurück?",
+            "n": "What is the dairy recalling?",
+            "t": [
+              "Joghurt",
+              "Den Joghurt"
+            ]
+          },
+          {
+            "q": "Was wurde gefunden?",
+            "n": "What was found?",
+            "t": [
+              "Kunststoffteilchen",
+              "Plastikteilchen",
+              "Kunststoff"
+            ]
+          },
+          {
+            "q": "Braucht man einen Kassenbon?",
+            "n": "Do you need a receipt?",
+            "t": [
+              "Nein",
+              "Nein, auch ohne Kassenbon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u08-l6",
+      "kind": "roleplay",
+      "title": "Press conference: airport shutdown",
+      "goal": "Face a live press conference: show empathy, hedge the cause, commit to the next update.",
+      "phrases": [
+        {
+          "t": "Wir bedauern die Lage für die Reisenden zutiefst.",
+          "n": "We deeply regret the situation for travellers."
+        },
+        {
+          "t": "Gesicherte Erkenntnisse liegen noch nicht vor.",
+          "n": "Confirmed findings are not yet available."
+        },
+        {
+          "t": "Wir rechnen mit einer schrittweisen Wiederaufnahme.",
+          "n": "We expect a gradual resumption."
+        },
+        {
+          "t": "Die nächste Information gibt es um achtzehn Uhr.",
+          "n": "The next update will be at six p.m."
+        }
+      ],
+      "branch": {
+        "title": "Thousands stranded",
+        "scene": "You are the airport’s spokesperson. An IT failure has grounded all flights since dawn.",
+        "name": "Journalist",
+        "voice": "de-DE-ConradNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Seit heute Morgen steht der Flughafen still. Tausende sitzen fest. Was sagen Sie den Menschen?",
+            "n": "The airport has been at a standstill since this morning. Thousands are stranded. What do you say to them?",
+            "choices": [
+              {
+                "t": "Zunächst: Wir bedauern die Lage für die Reisenden zutiefst.",
+                "n": "First of all: we deeply regret the situation for travellers.",
+                "next": "q2"
+              },
+              {
+                "t": "Kein Kommentar.",
+                "n": "No comment.",
+                "next": "stonewall"
+              }
+            ]
+          },
+          "stonewall": {
+            "t": "Kein Kommentar? Tausende Menschen warten auf Antworten!",
+            "n": "No comment? Thousands of people are waiting for answers!",
+            "choices": [
+              {
+                "t": "Sie haben recht. Wir bedauern die Lage für die Reisenden zutiefst.",
+                "n": "You’re right. We deeply regret the situation for travellers.",
+                "next": "q2"
+              },
+              {
+                "t": "Ich habe gesagt: kein Kommentar.",
+                "n": "I said: no comment.",
+                "next": "bad"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Und was ist die Ursache?",
+            "n": "And what is the cause?",
+            "choices": [
+              {
+                "t": "Die Ursache dürfte ein Softwarefehler sein. Ein Angriff ist nicht auszuschließen, aber unwahrscheinlich.",
+                "n": "The cause is probably a software error. An attack can’t be ruled out, but is unlikely.",
+                "next": "q3"
+              },
+              {
+                "t": "Das war garantiert ein Hackerangriff aus dem Ausland.",
+                "n": "That was definitely a hacker attack from abroad.",
+                "next": "spec"
+              }
+            ]
+          },
+          "spec": {
+            "t": "Sie bestätigen also einen Cyberangriff?",
+            "n": "So you’re confirming a cyberattack?",
+            "choices": [
+              {
+                "t": "Nein, ich möchte nicht spekulieren. Gesicherte Erkenntnisse liegen noch nicht vor.",
+                "n": "No, I don’t want to speculate. Confirmed findings are not yet available.",
+                "next": "q3"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Wann geht der Betrieb wieder los?",
+            "n": "When will operations resume?",
+            "choices": [
+              {
+                "t": "Wir rechnen mit einer schrittweisen Wiederaufnahme ab heute Abend. Die nächste Information gibt es um achtzehn Uhr.",
+                "n": "We expect a gradual resumption from this evening. The next update will be at six p.m.",
+                "next": "good"
+              },
+              {
+                "t": "Wie bitte? Könnten Sie die Frage wiederholen?",
+                "n": "Sorry? Could you repeat the question?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ich fragte, wann die Flüge wieder starten.",
+            "n": "I asked when flights will start again.",
+            "choices": [
+              {
+                "t": "Wir rechnen mit einer schrittweisen Wiederaufnahme ab heute Abend. Die nächste Information gibt es um achtzehn Uhr.",
+                "n": "We expect a gradual resumption from this evening. The next update will be at six p.m.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Danke für die klaren Worte. Wir sehen uns um achtzehn Uhr.",
+            "n": "Thank you for the clear words. See you at six.",
+            "end": "good",
+            "outcome": "Empathy first, a carefully hedged cause and a firm next update — textbook crisis communication."
+          },
+          "bad": {
+            "t": "Das wird morgen die Schlagzeile: Flughafen mauert.",
+            "n": "That’ll be tomorrow’s headline: airport stonewalls.",
+            "end": "bad",
+            "outcome": "Never say kein Kommentar in a crisis — show empathy and say what you can."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say confirmed findings are not yet available.",
+          "t": [
+            "Gesicherte Erkenntnisse liegen noch nicht vor"
+          ]
+        },
+        {
+          "n": "Say you expect a gradual resumption.",
+          "t": [
+            "Wir rechnen mit einer schrittweisen Wiederaufnahme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u08-l7",
+      "kind": "speaking",
+      "title": "Your crisis statement",
+      "goal": "Deliver a crisis statement and handle a hostile question, 90 seconds each.",
+      "culture": {
+        "title": "Bundespressekonferenz: unter eins, zwei, drei",
+        "body": "In Berlin the Bundespressekonferenz is an association run by journalists: they invite government spokespeople, not the other way round. Information is given unter eins (quotable by name), unter zwei (quotable without naming the source) or unter drei (background only, not for publication). Knowing these rules matters if you ever brief German media off the record.",
+        "regions": [
+          "DE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich wende mich heute persönlich an Sie.",
+          "n": "I am addressing you personally today."
+        },
+        {
+          "t": "Unsere oberste Priorität ist die Sicherheit der Betroffenen.",
+          "n": "Our top priority is the safety of those affected."
+        },
+        {
+          "t": "Wir werden alles lückenlos aufklären.",
+          "n": "We will clear everything up completely."
+        },
+        {
+          "t": "Daraus werden wir die nötigen Konsequenzen ziehen.",
+          "n": "We will draw the necessary consequences from this."
+        }
+      ],
+      "free": [
+        {
+          "n": "As spokesperson after a serious incident (e.g. a data leak or product recall), give a statement: empathy, facts, action and the next update.",
+          "hint": "Use: Wir bedauern zutiefst …; Nach aktuellem Kenntnisstand …; Wir werden alles lückenlos aufklären; Sobald …, informieren wir Sie umgehend.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "empathy / apology",
+              "any": [
+                "bedauern",
+                "bedauer*",
+                "entschuldig*",
+                "tut uns leid",
+                "mitgefühl"
+              ]
+            },
+            {
+              "label": "facts",
+              "any": [
+                "nach aktuellem",
+                "kenntnisstand",
+                "betroffen*",
+                "wurde",
+                "wurden"
+              ]
+            },
+            {
+              "label": "concrete action",
+              "any": [
+                "wir werden",
+                "wir haben",
+                "aufklär*",
+                "maßnahmen",
+                "entschädig*",
+                "konsequenzen"
+              ]
+            },
+            {
+              "label": "next update",
+              "any": [
+                "sobald",
+                "informieren",
+                "nächste",
+                "umgehend",
+                "auf dem laufenden"
+              ]
+            }
+          ],
+          "model": "Ich wende mich heute persönlich an Sie. Wir bedauern zutiefst, dass bei uns Kundendaten abgeflossen sind; nach aktuellem Kenntnisstand sind rund fünftausend Menschen betroffen. Wir haben alle Passwörter zurückgesetzt und werden alles lückenlos aufklären. Sobald gesicherte Erkenntnisse vorliegen, informieren wir Sie umgehend."
+        },
+        {
+          "n": "A journalist asks a hostile question you can’t fully answer yet. Acknowledge it, hedge carefully and bridge to your key message.",
+          "hint": "Use: Das ist eine berechtigte Frage; Nach jetzigem Stand dürfte …; … ist nicht auszuschließen; Ich möchte nicht spekulieren; Eines möchte ich klar sagen: …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "acknowledge the question",
+              "any": [
+                "berechtigte frage",
+                "verstehe",
+                "nachvollziehbar",
+                "verständlich",
+                "gute frage"
+              ]
+            },
+            {
+              "label": "hedging",
+              "any": [
+                "dürfte",
+                "soll",
+                "scheint",
+                "auszuschließen",
+                "möglicherweise",
+                "vermutlich",
+                "nach jetzigem stand"
+              ]
+            },
+            {
+              "label": "no speculation",
+              "any": [
+                "spekulieren",
+                "nicht äußern",
+                "noch nicht",
+                "gesichert*"
+              ]
+            },
+            {
+              "label": "key message",
+              "any": [
+                "eines möchte ich",
+                "klar sagen",
+                "oberste priorität",
+                "entscheidend",
+                "wichtig ist"
+              ]
+            }
+          ],
+          "model": "Das ist eine berechtigte Frage. Nach jetzigem Stand dürfte ein menschlicher Fehler die Ursache sein, ein Angriff ist aber nicht auszuschließen. Darüber möchte ich nicht spekulieren. Eines möchte ich jedoch klar sagen: Die Sicherheit unserer Kunden hat oberste Priorität."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you will clear everything up completely.",
+          "t": [
+            "Wir werden alles lückenlos aufklären"
+          ]
+        },
+        {
+          "n": "Say you will draw the necessary consequences from this.",
+          "t": [
+            "Daraus werden wir die nötigen Konsequenzen ziehen",
+            "Wir werden die nötigen Konsequenzen ziehen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Unter Druck",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "c2-test",
+      "kind": "test",
+      "title": "C2 speaking test",
+      "goal": "Pass to earn your C2 badge.",
+      "tip": {
+        "title": "The summit",
+        "body": "The test mixes phrases from all eight C2 units. Aim for precise register: hedge where facts are uncertain, quote accurately, concede without giving up your position — and keep a calm, measured delivery."
+      }
     }
   ]
 }

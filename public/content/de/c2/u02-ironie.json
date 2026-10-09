@@ -13,34 +13,120 @@
         "body": "German understatement loves litotes: nicht ganz unproblematisch means 'a real mess', nicht gerade der Fleißigste means 'lazy'. Irony lives in the voice: say praise words like wunderbar with a flat, slightly drawn-out tone and a falling ending. A tiny pause before the key word (sagen wir mal …) makes the understatement land."
       },
       "phrases": [
-        { "t": "Na, das hat ja wunderbar geklappt.", "n": "Well, that went brilliantly.", "note": "Ironic: flat, drawn-out intonation." },
-        { "t": "Ganz toll, jetzt regnet es auch noch.", "n": "Just great, now it's raining as well." },
-        { "t": "Das war nicht ganz unproblematisch.", "n": "That was not entirely unproblematic.", "note": "Litotes: in fact it was a disaster." },
-        { "t": "Er ist nicht gerade der Fleißigste.", "n": "He's not exactly the most hard-working." },
-        { "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.", "n": "The food was, let's say, an acquired taste." },
-        { "t": "Man gönnt sich ja sonst nichts.", "n": "Well, you've got to treat yourself sometimes.", "note": "Ironic self-justification for an indulgence." },
-        { "t": "Das war jetzt aber nicht ironisch gemeint.", "n": "I didn't mean that ironically, by the way." },
-        { "t": "Halb so wild.", "n": "No big deal." }
+        {
+          "t": "Na, das hat ja wunderbar geklappt.",
+          "n": "Well, that went brilliantly.",
+          "note": "Ironic: flat, drawn-out intonation."
+        },
+        {
+          "t": "Ganz toll, jetzt regnet es auch noch.",
+          "n": "Just great, now it's raining as well."
+        },
+        {
+          "t": "Das war nicht ganz unproblematisch.",
+          "n": "That was not entirely unproblematic.",
+          "note": "Litotes: in fact it was a disaster."
+        },
+        {
+          "t": "Er ist nicht gerade der Fleißigste.",
+          "n": "He's not exactly the most hard-working."
+        },
+        {
+          "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.",
+          "n": "The food was, let's say, an acquired taste."
+        },
+        {
+          "t": "Man gönnt sich ja sonst nichts.",
+          "n": "Well, you've got to treat yourself sometimes.",
+          "note": "Ironic self-justification for an indulgence."
+        },
+        {
+          "t": "Das war jetzt aber nicht ironisch gemeint.",
+          "n": "I didn't mean that ironically, by the way."
+        },
+        {
+          "t": "Halb so wild.",
+          "n": "No big deal."
+        }
       ],
       "dialogue": {
         "title": "After a disastrous pitch",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Katrin", "t": "Und, wie lief die Präsentation beim Kunden?", "n": "So, how did the presentation at the client's go?" },
-          { "who": "you", "t": "Na, das hat ja wunderbar geklappt. Der Beamer ist gleich am Anfang ausgefallen.", "n": "Well, that went brilliantly. The projector died right at the start." },
-          { "who": "A", "name": "Katrin", "t": "Oje. Und dein Chef? War der wenigstens eine Hilfe?", "n": "Oh dear. And your boss? Was he at least any help?" },
-          { "who": "you", "t": "Er ist nicht gerade der Geduldigste. Es war nicht ganz unproblematisch.", "n": "He's not exactly the most patient. It was not entirely unproblematic." },
-          { "who": "A", "name": "Katrin", "t": "Klingt nach einem langen Tag. Habt ihr danach wenigstens gut gegessen?", "n": "Sounds like a long day. Did you at least eat well afterwards?" },
-          { "who": "you", "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.", "n": "The food was, let's say, an acquired taste." },
-          { "who": "A", "name": "Katrin", "t": "Na, dann hast du dir jetzt einen Cocktail verdient.", "n": "Well, then you've earned yourself a cocktail now." },
-          { "who": "you", "t": "Genau. Man gönnt sich ja sonst nichts.", "n": "Exactly. You've got to treat yourself sometimes." }
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Und, wie lief die Präsentation beim Kunden?",
+            "n": "So, how did the presentation at the client's go?"
+          },
+          {
+            "who": "you",
+            "t": "Na, das hat ja wunderbar geklappt. Der Beamer ist gleich am Anfang ausgefallen.",
+            "n": "Well, that went brilliantly. The projector died right at the start."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Oje. Und dein Chef? War der wenigstens eine Hilfe?",
+            "n": "Oh dear. And your boss? Was he at least any help?"
+          },
+          {
+            "who": "you",
+            "t": "Er ist nicht gerade der Geduldigste. Es war nicht ganz unproblematisch.",
+            "n": "He's not exactly the most patient. It was not entirely unproblematic."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Klingt nach einem langen Tag. Habt ihr danach wenigstens gut gegessen?",
+            "n": "Sounds like a long day. Did you at least eat well afterwards?"
+          },
+          {
+            "who": "you",
+            "t": "Das Essen war, sagen wir mal, gewöhnungsbedürftig.",
+            "n": "The food was, let's say, an acquired taste."
+          },
+          {
+            "who": "A",
+            "name": "Katrin",
+            "t": "Na, dann hast du dir jetzt einen Cocktail verdient.",
+            "n": "Well, then you've earned yourself a cocktail now."
+          },
+          {
+            "who": "you",
+            "t": "Genau. Man gönnt sich ja sonst nichts.",
+            "n": "Exactly. You've got to treat yourself sometimes."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say ironically that it went brilliantly.", "t": ["Na, das hat ja wunderbar geklappt", "Das hat ja wunderbar geklappt"] },
-        { "n": "Understate that he's lazy: he's not exactly the most hard-working.", "t": ["Er ist nicht gerade der Fleißigste"] },
-        { "n": "Say the food was, let's say, an acquired taste.", "t": ["Das Essen war, sagen wir mal, gewöhnungsbedürftig", "Das Essen war gewöhnungsbedürftig"] },
-        { "n": "Reassure someone that it's no big deal.", "t": ["Halb so wild", "Das ist halb so wild"] }
+        {
+          "n": "Say ironically that it went brilliantly.",
+          "t": [
+            "Na, das hat ja wunderbar geklappt",
+            "Das hat ja wunderbar geklappt"
+          ]
+        },
+        {
+          "n": "Understate that he's lazy: he's not exactly the most hard-working.",
+          "t": [
+            "Er ist nicht gerade der Fleißigste"
+          ]
+        },
+        {
+          "n": "Say the food was, let's say, an acquired taste.",
+          "t": [
+            "Das Essen war, sagen wir mal, gewöhnungsbedürftig",
+            "Das Essen war gewöhnungsbedürftig"
+          ]
+        },
+        {
+          "n": "Reassure someone that it's no big deal.",
+          "t": [
+            "Halb so wild",
+            "Das ist halb so wild"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +138,681 @@
         "body": "Colloquial German is full of food and animal images: Wurst, Bier, Butter, Bär, Schwein. Rhyming formulas like Nicht schlecht, Herr Specht! are deliberately silly. Deliver the punchline with a straight face and a tiny pause before the key word; the humour comes from timing, not volume."
       },
       "phrases": [
-        { "t": "Nicht schlecht, Herr Specht!", "n": "Not bad at all!", "note": "Playful rhyme; Specht means woodpecker." },
-        { "t": "Da steppt der Bär.", "n": "That's where the party is.", "note": "Literally: the bear is tap-dancing there." },
-        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem." },
-        { "t": "Ich verstehe nur Bahnhof.", "n": "It's all Greek to me." },
-        { "t": "Jetzt mal Butter bei die Fische!", "n": "Let's get down to brass tacks!", "note": "Northern idiom; the grammar is deliberately wrong." },
-        { "t": "Alles hat ein Ende, nur die Wurst hat zwei.", "n": "Everything has an end, only a sausage has two.", "note": "Jokey line for the end of an event." },
-        { "t": "Das ist mir Wurst.", "n": "I couldn't care less.", "note": "In the south often Wurscht." },
-        { "t": "Ich glaub, mein Schwein pfeift!", "n": "I don't believe it!", "note": "Literally: I think my pig is whistling." }
+        {
+          "t": "Nicht schlecht, Herr Specht!",
+          "n": "Not bad at all!",
+          "note": "Playful rhyme; Specht means woodpecker."
+        },
+        {
+          "t": "Da steppt der Bär.",
+          "n": "That's where the party is.",
+          "note": "Literally: the bear is tap-dancing there."
+        },
+        {
+          "t": "Das ist nicht mein Bier.",
+          "n": "That's not my problem."
+        },
+        {
+          "t": "Ich verstehe nur Bahnhof.",
+          "n": "It's all Greek to me."
+        },
+        {
+          "t": "Jetzt mal Butter bei die Fische!",
+          "n": "Let's get down to brass tacks!",
+          "note": "Northern idiom; the grammar is deliberately wrong."
+        },
+        {
+          "t": "Alles hat ein Ende, nur die Wurst hat zwei.",
+          "n": "Everything has an end, only a sausage has two.",
+          "note": "Jokey line for the end of an event."
+        },
+        {
+          "t": "Das ist mir Wurst.",
+          "n": "I couldn't care less.",
+          "note": "In the south often Wurscht."
+        },
+        {
+          "t": "Ich glaub, mein Schwein pfeift!",
+          "n": "I don't believe it!",
+          "note": "Literally: I think my pig is whistling."
+        }
       ],
       "dialogue": {
         "title": "Party plans",
         "lines": [
-          { "who": "A", "name": "Max", "t": "Gehst du am Samstag auf Tims Party? Da steppt angeblich der Bär.", "n": "Are you going to Tim's party on Saturday? Apparently that's where it's at." },
-          { "who": "you", "t": "Ich glaub, mein Schwein pfeift! Tim schmeißt eine Party?", "n": "I don't believe it! Tim is throwing a party?" },
-          { "who": "A", "name": "Max", "t": "Ja, er ist befördert worden. Er erklärt dir bestimmt stundenlang seine neue Software.", "n": "Yes, he's been promoted. He'll surely explain his new software to you for hours." },
-          { "who": "you", "t": "Dann verstehe ich wieder nur Bahnhof.", "n": "Then it'll all be Greek to me again." },
-          { "who": "A", "name": "Max", "t": "Und wer kümmert sich um die Getränke? Bringst du das Bier mit?", "n": "And who's taking care of the drinks? Will you bring the beer?" },
-          { "who": "you", "t": "Das ist nicht mein Bier. Ich bringe Kuchen mit.", "n": "That's not my problem, or my beer. I'm bringing cake." },
-          { "who": "A", "name": "Max", "t": "Ha, nicht schlecht, Herr Specht! Gut, dann frag ich Lukas.", "n": "Ha, not bad at all! Fine, then I'll ask Lukas." },
-          { "who": "you", "t": "Ob Bier oder Kuchen, das ist mir Wurst. Hauptsache, wir feiern.", "n": "Beer or cake, I couldn't care less. The main thing is we celebrate." }
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Gehst du am Samstag auf Tims Party? Da steppt angeblich der Bär.",
+            "n": "Are you going to Tim's party on Saturday? Apparently that's where it's at."
+          },
+          {
+            "who": "you",
+            "t": "Ich glaub, mein Schwein pfeift! Tim schmeißt eine Party?",
+            "n": "I don't believe it! Tim is throwing a party?"
+          },
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Ja, er ist befördert worden. Er erklärt dir bestimmt stundenlang seine neue Software.",
+            "n": "Yes, he's been promoted. He'll surely explain his new software to you for hours."
+          },
+          {
+            "who": "you",
+            "t": "Dann verstehe ich wieder nur Bahnhof.",
+            "n": "Then it'll all be Greek to me again."
+          },
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Und wer kümmert sich um die Getränke? Bringst du das Bier mit?",
+            "n": "And who's taking care of the drinks? Will you bring the beer?"
+          },
+          {
+            "who": "you",
+            "t": "Das ist nicht mein Bier. Ich bringe Kuchen mit.",
+            "n": "That's not my problem, or my beer. I'm bringing cake."
+          },
+          {
+            "who": "A",
+            "name": "Max",
+            "t": "Ha, nicht schlecht, Herr Specht! Gut, dann frag ich Lukas.",
+            "n": "Ha, not bad at all! Fine, then I'll ask Lukas."
+          },
+          {
+            "who": "you",
+            "t": "Ob Bier oder Kuchen, das ist mir Wurst. Hauptsache, wir feiern.",
+            "n": "Beer or cake, I couldn't care less. The main thing is we celebrate."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say it's all Greek to you.", "t": ["Ich verstehe nur Bahnhof"] },
-        { "n": "Say it's not your problem, using the beer idiom.", "t": ["Das ist nicht mein Bier"] },
-        { "n": "Urge someone to get to the point, northern style.", "t": ["Jetzt mal Butter bei die Fische", "Butter bei die Fische"] },
-        { "n": "Say you couldn't care less.", "t": ["Das ist mir Wurst", "Das ist mir Wurscht"] }
+        {
+          "n": "Say it's all Greek to you.",
+          "t": [
+            "Ich verstehe nur Bahnhof"
+          ]
+        },
+        {
+          "n": "Say it's not your problem, using the beer idiom.",
+          "t": [
+            "Das ist nicht mein Bier"
+          ]
+        },
+        {
+          "n": "Urge someone to get to the point, northern style.",
+          "t": [
+            "Jetzt mal Butter bei die Fische",
+            "Butter bei die Fische"
+          ]
+        },
+        {
+          "n": "Say you couldn't care less.",
+          "t": [
+            "Das ist mir Wurst",
+            "Das ist mir Wurscht"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u02-l3",
+      "title": "Taking a joke",
+      "goal": "Recognise teasing, defuse it and switch back to being serious.",
+      "tip": {
+        "title": "Signal the switch",
+        "body": "Irony needs exits. Ask Das war jetzt ironisch, oder? if you are unsure, and use Spaß beiseite to switch to a serious tone. Mit einem Augenzwinkern tells people a remark was tongue-in-cheek. Say Spaß beiseite with a short pause after it and a lower, calmer voice."
+      },
+      "phrases": [
+        {
+          "t": "Das war jetzt ironisch, oder?",
+          "n": "That was ironic, right?"
+        },
+        {
+          "t": "Spaß beiseite, wie geht es dir wirklich?",
+          "n": "Joking aside, how are you really?"
+        },
+        {
+          "t": "Das nehme ich mal als Kompliment.",
+          "n": "I'll take that as a compliment."
+        },
+        {
+          "t": "Das war mit einem Augenzwinkern gemeint.",
+          "n": "That was meant tongue-in-cheek."
+        },
+        {
+          "t": "Wer den Schaden hat, braucht für den Spott nicht zu sorgen.",
+          "n": "Insult always follows injury.",
+          "note": "Proverb: whoever suffers the damage gets mocked as well."
+        }
+      ],
+      "dialogue": {
+        "title": "The new haircut",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sven",
+            "t": "Schicke Frisur! Warst du beim Friseur oder beim Rasenmäher?",
+            "n": "Smart haircut! Did you go to the hairdresser or the lawnmower?"
+          },
+          {
+            "who": "you",
+            "t": "Das nehme ich mal als Kompliment.",
+            "n": "I'll take that as a compliment."
+          },
+          {
+            "who": "A",
+            "name": "Sven",
+            "t": "Das war mit einem Augenzwinkern gemeint! Spaß beiseite, sie steht dir.",
+            "n": "That was tongue-in-cheek! Joking aside, it suits you."
+          },
+          {
+            "who": "you",
+            "t": "Na ja, wer den Schaden hat, braucht für den Spott nicht zu sorgen.",
+            "n": "Oh well, insult always follows injury."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Check whether a remark was meant ironically.",
+          "t": [
+            "Das war jetzt ironisch, oder",
+            "War das ironisch"
+          ]
+        },
+        {
+          "n": "Say you'll take that as a compliment.",
+          "t": [
+            "Das nehme ich mal als Kompliment",
+            "Das nehme ich als Kompliment"
+          ]
+        },
+        {
+          "n": "Explain that your remark was meant tongue-in-cheek.",
+          "t": [
+            "Das war mit einem Augenzwinkern gemeint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l4",
+      "kind": "grammar",
+      "title": "Exclamations with a sting",
+      "goal": "Build ironic exclamations with particles, wie-clauses and the ethical dative.",
+      "tip": {
+        "title": "Where irony hides in grammar",
+        "body": "Ironic exclamations use particles: Das ist ja großartig! Der hat vielleicht Nerven! Here vielleicht means \"really\", not \"maybe\", and the verb stays second. In Wie schön, dass du auch schon da bist! the dass-clause sends the verb to the end. The so-called ethical dative mir (Du bist mir ein Freund!) adds mock indignation."
+      },
+      "phrases": [
+        {
+          "t": "Du bist mir ja ein schöner Freund!",
+          "n": "Some friend you are!",
+          "note": "mir = ethical dative, mock indignation."
+        },
+        {
+          "t": "Der hat vielleicht Nerven!",
+          "n": "He's got some nerve!",
+          "note": "vielleicht = really, not maybe."
+        },
+        {
+          "t": "Wie schön, dass du auch schon da bist!",
+          "n": "How nice of you to finally show up!"
+        },
+        {
+          "t": "Was für eine Überraschung!",
+          "n": "What a surprise!",
+          "note": "Often ironic: nobody is surprised."
+        },
+        {
+          "t": "Das ist aber nett von dir!",
+          "n": "Well, isn't that nice of you!",
+          "note": "Sincere or ironic: the tone decides."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the target of the mock praise",
+          "base": {
+            "t": "Du bist mir ja ein schöner Freund!",
+            "n": "Some friend you are!"
+          },
+          "items": [
+            {
+              "cue": "Kollege",
+              "t": "Du bist mir ja ein schöner Kollege!",
+              "n": "Some colleague you are!"
+            },
+            {
+              "cue": "Sie · Chef",
+              "t": "Sie sind mir ja ein schöner Chef!",
+              "n": "Some boss you are!"
+            },
+            {
+              "cue": "ihr · Helden",
+              "t": "Ihr seid mir ja schöne Helden!",
+              "n": "Some heroes you are!"
+            }
+          ]
+        },
+        {
+          "title": "Swap the wie-exclamation",
+          "base": {
+            "t": "Wie schön, dass du auch schon da bist!",
+            "n": "How nice of you to finally show up!"
+          },
+          "items": [
+            {
+              "cue": "nett · ihr · auch mal anrufen",
+              "t": "Wie nett, dass ihr auch mal anruft!",
+              "n": "How nice of you to call for once!"
+            },
+            {
+              "cue": "praktisch · der Zug · ausfallen",
+              "t": "Wie praktisch, dass der Zug ausfällt!",
+              "n": "How convenient that the train is cancelled!"
+            },
+            {
+              "cue": "toll · Sie · sich auch mal melden",
+              "t": "Wie toll, dass Sie sich auch mal melden!",
+              "n": "How great that you get in touch for once!"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tease a friend who arrives very late.",
+          "t": [
+            "Wie schön, dass du auch schon da bist"
+          ]
+        },
+        {
+          "n": "Exclaim that he's got some nerve.",
+          "t": [
+            "Der hat vielleicht Nerven",
+            "Der hat ja Nerven"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l5",
+      "kind": "listening",
+      "title": "A call from the landlord",
+      "goal": "Follow a dry, ironic conversation between flatmates.",
+      "phrases": [
+        {
+          "t": "Rate mal, wer heute angerufen hat.",
+          "n": "Guess who called today."
+        },
+        {
+          "t": "Was für eine Ehre!",
+          "n": "What an honour!",
+          "note": "Ironic here."
+        },
+        {
+          "t": "Wie fürsorglich.",
+          "n": "How very caring."
+        },
+        {
+          "t": "Aber bitte ohne Ironie.",
+          "n": "But without irony, please."
+        }
+      ],
+      "story": {
+        "title": "The broken washing machine",
+        "intro": "Flatmates Lisa and Ben talk about a phone call from their landlord.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Lisa",
+            "t": "Rate mal, wer heute angerufen hat. Unser Vermieter, höchstpersönlich.",
+            "n": "Guess who called today. Our landlord, in person."
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Was für eine Ehre! Hat er sich etwa an die Waschmaschine erinnert?",
+            "n": "What an honour! Don't tell me he remembered the washing machine?"
+          },
+          {
+            "name": "Lisa",
+            "t": "Nicht ganz. Er wollte uns mitteilen, dass die Miete steigt.",
+            "n": "Not quite. He wanted to tell us that the rent is going up."
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Der hat vielleicht Nerven. Seit drei Monaten waschen wir im Waschsalon.",
+            "n": "He's got some nerve. We've been washing at the laundrette for three months."
+          },
+          {
+            "name": "Lisa",
+            "t": "Er meinte, der Waschsalon sei doch gut für unsere sozialen Kontakte.",
+            "n": "He said the laundrette was good for our social life."
+          },
+          {
+            "name": "Ben",
+            "voice": "de-DE-ConradNeural",
+            "t": "Wie fürsorglich. Dann schreibe ich ihm mal einen sehr freundlichen Brief.",
+            "n": "How very caring. Then I'll write him a very friendly letter."
+          },
+          {
+            "name": "Lisa",
+            "t": "Aber bitte ohne Ironie. Die versteht er nämlich nicht.",
+            "n": "But without irony, please. He doesn't get it."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wer hat angerufen?",
+            "n": "Who called?",
+            "t": [
+              "Der Vermieter",
+              "Ihr Vermieter",
+              "Der Vermieter hat angerufen"
+            ]
+          },
+          {
+            "q": "Was steigt?",
+            "n": "What is going up?",
+            "t": [
+              "Die Miete",
+              "Die Miete steigt"
+            ]
+          },
+          {
+            "q": "Wo waschen die beiden seit drei Monaten?",
+            "n": "Where have they been washing for three months?",
+            "t": [
+              "Im Waschsalon"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u02-l6",
+      "kind": "roleplay",
+      "title": "Quick-witted on the talk show",
+      "goal": "Parry a host’s sarcastic jab with humour, then make a serious point.",
+      "phrases": [
+        {
+          "t": "Da haben Sie mich auf dem falschen Fuß erwischt.",
+          "n": "You caught me off guard there."
+        },
+        {
+          "t": "Ich nehme das sportlich.",
+          "n": "I'll take it in good spirit."
+        },
+        {
+          "t": "Wenn ich auch mal ernst werden darf …",
+          "n": "If I may be serious for a moment …"
+        },
+        {
+          "t": "Wie war die Frage noch mal?",
+          "n": "What was the question again?"
+        }
+      ],
+      "branch": {
+        "title": "Live on air",
+        "scene": "You are a guest on a TV talk show about punctuality, and you arrived ten minutes late.",
+        "name": "Moderator Herr Lange",
+        "voice": "de-DE-ConradNeural",
+        "start": "jab",
+        "nodes": {
+          "jab": {
+            "t": "Willkommen! Sie sind eingeladen, um über Pünktlichkeit zu sprechen, und kommen zehn Minuten zu spät.",
+            "n": "Welcome! You're invited to talk about punctuality, and you arrive ten minutes late.",
+            "choices": [
+              {
+                "t": "Ich nehme das sportlich. Ich wollte nur zeigen, wie dringend das Thema ist.",
+                "n": "I'll take it in good spirit. I just wanted to show how urgent the topic is.",
+                "next": "laugh"
+              },
+              {
+                "t": "Wie war die Frage noch mal?",
+                "n": "What was the question again?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ganz einfach: Wie erklären Sie Ihre Verspätung, ausgerechnet heute?",
+            "n": "Quite simple: how do you explain being late, today of all days?",
+            "choices": [
+              {
+                "t": "Da haben Sie mich auf dem falschen Fuß erwischt. Die Bahn hat eben ihren eigenen Humor.",
+                "n": "You caught me off guard there. The railway just has its own sense of humour.",
+                "next": "laugh"
+              },
+              {
+                "t": "Das geht Sie überhaupt nichts an.",
+                "n": "That's none of your business.",
+                "next": "frost"
+              }
+            ]
+          },
+          "laugh": {
+            "t": "Touché! Das Publikum ist auf Ihrer Seite. Aber im Ernst: Sind die Deutschen wirklich so pünktlich?",
+            "n": "Touché! The audience is on your side. But seriously: are Germans really that punctual?",
+            "choices": [
+              {
+                "t": "Wenn ich auch mal ernst werden darf: Pünktlichkeit ist bei uns weniger Tugend als Höflichkeit.",
+                "n": "If I may be serious for a moment: for us punctuality is less a virtue than a courtesy.",
+                "next": "good"
+              },
+              {
+                "t": "Ach, Pünktlichkeit wird ohnehin überschätzt, finden Sie nicht?",
+                "n": "Oh, punctuality is overrated anyway, don't you think?",
+                "next": "tease"
+              }
+            ]
+          },
+          "tease": {
+            "t": "Sagt der Gast, der zu spät kam! Wollen Sie das wirklich so stehen lassen?",
+            "n": "Says the guest who came late! Do you really want to let that stand?",
+            "choices": [
+              {
+                "t": "Natürlich nicht. Im Ernst: Pünktlichkeit ist eine Form von Respekt.",
+                "n": "Of course not. Seriously: punctuality is a form of respect.",
+                "next": "good"
+              },
+              {
+                "t": "Ich lasse stehen, was mir gefällt.",
+                "n": "I let stand whatever I like.",
+                "next": "frost"
+              }
+            ]
+          },
+          "good": {
+            "t": "Schön gesagt. Applaus für unseren Gast!",
+            "n": "Well said. A round of applause for our guest!",
+            "end": "good",
+            "outcome": "You laughed at yourself first, then made a serious point, and the audience loved it."
+          },
+          "frost": {
+            "t": "Oh. Na, dann machen wir wohl mit dem nächsten Gast weiter.",
+            "n": "Oh. Well, then I suppose we'll move on to the next guest.",
+            "end": "bad",
+            "outcome": "You took the joke personally and lost the audience."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'll take it in good spirit.",
+          "t": [
+            "Ich nehme das sportlich"
+          ]
+        },
+        {
+          "n": "Admit the host caught you off guard.",
+          "t": [
+            "Da haben Sie mich auf dem falschen Fuß erwischt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l7",
+      "kind": "speaking",
+      "title": "Telling it with a wink",
+      "goal": "Narrate a mishap with irony and talk about humour across cultures.",
+      "culture": {
+        "title": "Kabarett and Wiener Schmäh",
+        "body": "German-speaking countries have a strong Kabarett tradition: sharp political satire on small stages and on TV. In Vienna humour comes as Schmäh, a charming, deadpan teasing that outsiders sometimes mistake for rudeness. Irony is common among friends, but in formal emails or with strangers it easily misfires, which is why people sometimes flag it: Achtung, Ironie!",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Achtung, Ironie!",
+          "n": "Irony alert!"
+        },
+        {
+          "t": "Das meine ich natürlich nicht ganz ernst.",
+          "n": "Of course I don't entirely mean that."
+        },
+        {
+          "t": "Man könnte fast meinen, es sei Absicht.",
+          "n": "You could almost think it was deliberate."
+        },
+        {
+          "t": "Im Nachhinein kann ich darüber lachen.",
+          "n": "In hindsight I can laugh about it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell the story of a minor disaster (a trip, a party, a move) using irony and understatement.",
+          "hint": "Use: Na, das hat ja wunderbar geklappt …, nicht ganz unproblematisch, sagen wir mal …, Im Nachhinein kann ich darüber lachen.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "ironic praise",
+              "any": [
+                "wunderbar",
+                "großartig",
+                "ganz toll",
+                "herrlich",
+                "perfekt",
+                "was für ein*"
+              ]
+            },
+            {
+              "label": "understatement",
+              "any": [
+                "nicht ganz",
+                "nicht gerade",
+                "sagen wir mal",
+                "ein bisschen",
+                "etwas"
+              ]
+            },
+            {
+              "label": "what went wrong",
+              "any": [
+                "ausgefallen",
+                "kaputt*",
+                "verpasst",
+                "vergessen",
+                "verloren",
+                "geregnet",
+                "zu spät"
+              ]
+            },
+            {
+              "label": "the punchline",
+              "any": [
+                "im nachhinein",
+                "lachen",
+                "halb so wild",
+                "immerhin",
+                "am ende"
+              ]
+            }
+          ],
+          "model": "Unser Umzug war, sagen wir mal, nicht ganz unproblematisch. Der Transporter ist auf der Autobahn ausgefallen, und dann hat es natürlich auch noch geregnet. Ganz toll! Im Nachhinein kann ich aber darüber lachen, denn immerhin ist nichts kaputtgegangen."
+        },
+        {
+          "n": "Explain to a German friend how humour works in your culture and when irony can misfire.",
+          "hint": "Use: Bei uns …, während …, Ironie kommt … an, missverstanden, Das meine ich nicht ganz ernst.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a comparison",
+              "any": [
+                "bei uns",
+                "in meinem land",
+                "während",
+                "im vergleich",
+                "anders als"
+              ]
+            },
+            {
+              "label": "humour words",
+              "any": [
+                "humor",
+                "ironie",
+                "ironisch",
+                "witz*",
+                "sarkas*",
+                "lachen"
+              ]
+            },
+            {
+              "label": "the risk",
+              "any": [
+                "missverst*",
+                "falsch verstanden",
+                "beleidig*",
+                "peinlich",
+                "übel nehmen",
+                "verletz*"
+              ]
+            },
+            {
+              "label": "a situation",
+              "any": [
+                "im büro",
+                "bei der arbeit",
+                "fremde*",
+                "freunde*",
+                "e-mail*",
+                "förmlich*"
+              ]
+            }
+          ],
+          "model": "Bei uns in England ist Ironie fast eine Lebensform, während viele Deutsche im Büro eher sachlich bleiben. In einer E-Mail an Fremde kann ein ironischer Satz leicht missverstanden werden. Unter Freunden dagegen wird hier genauso viel gelacht wie bei uns."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Flag that what you're saying is ironic.",
+          "t": [
+            "Achtung, Ironie"
+          ]
+        },
+        {
+          "n": "Say that in hindsight you can laugh about it.",
+          "t": [
+            "Im Nachhinein kann ich darüber lachen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ironie und Wortwitz",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

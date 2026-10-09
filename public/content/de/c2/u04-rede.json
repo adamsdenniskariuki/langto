@@ -13,34 +13,124 @@
         "body": "A good German toast has three steps: ask for attention, tell one short personal anecdote, then raise the glass. Use eure Aufmerksamkeit among friends and Ihre at formal events. Pause before the final line, then lift both your pitch and volume on Auf Anna! And when you clink glasses, look each person in the eye."
       },
       "phrases": [
-        { "t": "Darf ich kurz um eure Aufmerksamkeit bitten?", "n": "May I have your attention for a moment?", "note": "Formal events: um Ihre Aufmerksamkeit." },
-        { "t": "Ich halte mich kurz, das Buffet wartet.", "n": "I'll keep it short, the buffet is waiting." },
-        { "t": "Ich erinnere mich noch gut an unsere erste Begegnung.", "n": "I still remember our first meeting well." },
-        { "t": "Wer Anna kennt, weiß: Sie gibt niemals auf.", "n": "Anyone who knows Anna knows: she never gives up." },
-        { "t": "Liebe Anna, du hast uns alle immer wieder überrascht.", "n": "Dear Anna, you've surprised us all time and again." },
-        { "t": "Lasst uns die Gläser erheben!", "n": "Let's raise our glasses!" },
-        { "t": "Auf Anna und die nächsten fünfzig Jahre!", "n": "To Anna and the next fifty years!" },
-        { "t": "Zum Wohl! Auf dich!", "n": "Cheers! To you!" }
+        {
+          "t": "Darf ich kurz um eure Aufmerksamkeit bitten?",
+          "n": "May I have your attention for a moment?",
+          "note": "Formal events: um Ihre Aufmerksamkeit."
+        },
+        {
+          "t": "Ich halte mich kurz, das Buffet wartet.",
+          "n": "I'll keep it short, the buffet is waiting."
+        },
+        {
+          "t": "Ich erinnere mich noch gut an unsere erste Begegnung.",
+          "n": "I still remember our first meeting well."
+        },
+        {
+          "t": "Wer Anna kennt, weiß: Sie gibt niemals auf.",
+          "n": "Anyone who knows Anna knows: she never gives up."
+        },
+        {
+          "t": "Liebe Anna, du hast uns alle immer wieder überrascht.",
+          "n": "Dear Anna, you've surprised us all time and again."
+        },
+        {
+          "t": "Lasst uns die Gläser erheben!",
+          "n": "Let's raise our glasses!"
+        },
+        {
+          "t": "Auf Anna und die nächsten fünfzig Jahre!",
+          "n": "To Anna and the next fifty years!"
+        },
+        {
+          "t": "Zum Wohl! Auf dich!",
+          "n": "Cheers! To you!"
+        }
       ],
       "dialogue": {
         "title": "Anna's fiftieth birthday",
         "lines": [
-          { "who": "A", "name": "Thomas", "t": "Möchtest du nicht ein paar Worte sagen? Du kennst Anna doch am längsten.", "n": "Wouldn't you like to say a few words? You've known Anna the longest, after all." },
-          { "who": "you", "t": "Gern. Darf ich kurz um eure Aufmerksamkeit bitten?", "n": "Gladly. May I have your attention for a moment?" },
-          { "who": "A", "name": "Thomas", "t": "Psst, alle mal herhören! Jetzt kommt eine Rede.", "n": "Shh, listen up, everyone! Here comes a speech." },
-          { "who": "you", "t": "Keine Sorge, ich halte mich kurz, das Buffet wartet.", "n": "Don't worry, I'll keep it short, the buffet is waiting." },
-          { "who": "A", "name": "Thomas", "t": "Sehr vernünftig! Erzähl doch, wie ihr euch kennengelernt habt.", "n": "Very sensible! Tell us how you two met." },
-          { "who": "you", "t": "Ich erinnere mich noch gut an unsere erste Begegnung. Anna hat mich sofort korrigiert.", "n": "I still remember our first meeting well. Anna corrected me straight away." },
-          { "who": "A", "name": "Thomas", "t": "Typisch Anna! Und was wünschst du ihr?", "n": "Typical Anna! And what do you wish her?" },
-          { "who": "you", "t": "Wer Anna kennt, weiß: Sie gibt niemals auf. Lasst uns die Gläser erheben!", "n": "Anyone who knows Anna knows: she never gives up. Let's raise our glasses!" },
-          { "who": "A", "name": "Thomas", "t": "Auf Anna! Zum Wohl!", "n": "To Anna! Cheers!" }
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Möchtest du nicht ein paar Worte sagen? Du kennst Anna doch am längsten.",
+            "n": "Wouldn't you like to say a few words? You've known Anna the longest, after all."
+          },
+          {
+            "who": "you",
+            "t": "Gern. Darf ich kurz um eure Aufmerksamkeit bitten?",
+            "n": "Gladly. May I have your attention for a moment?"
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Psst, alle mal herhören! Jetzt kommt eine Rede.",
+            "n": "Shh, listen up, everyone! Here comes a speech."
+          },
+          {
+            "who": "you",
+            "t": "Keine Sorge, ich halte mich kurz, das Buffet wartet.",
+            "n": "Don't worry, I'll keep it short, the buffet is waiting."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Sehr vernünftig! Erzähl doch, wie ihr euch kennengelernt habt.",
+            "n": "Very sensible! Tell us how you two met."
+          },
+          {
+            "who": "you",
+            "t": "Ich erinnere mich noch gut an unsere erste Begegnung. Anna hat mich sofort korrigiert.",
+            "n": "I still remember our first meeting well. Anna corrected me straight away."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Typisch Anna! Und was wünschst du ihr?",
+            "n": "Typical Anna! And what do you wish her?"
+          },
+          {
+            "who": "you",
+            "t": "Wer Anna kennt, weiß: Sie gibt niemals auf. Lasst uns die Gläser erheben!",
+            "n": "Anyone who knows Anna knows: she never gives up. Let's raise our glasses!"
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Auf Anna! Zum Wohl!",
+            "n": "To Anna! Cheers!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask your friends for their attention for a moment.", "t": ["Darf ich kurz um eure Aufmerksamkeit bitten", "Darf ich kurz um Ihre Aufmerksamkeit bitten"] },
-        { "n": "Promise to keep it short because the buffet is waiting.", "t": ["Ich halte mich kurz, das Buffet wartet", "Ich halte mich kurz"] },
-        { "n": "Invite everyone to raise their glasses.", "t": ["Lasst uns die Gläser erheben", "Erheben wir die Gläser"] },
-        { "n": "Propose a toast to Anna and the next fifty years.", "t": ["Auf Anna und die nächsten fünfzig Jahre", "Auf Anna"] }
+        {
+          "n": "Ask your friends for their attention for a moment.",
+          "t": [
+            "Darf ich kurz um eure Aufmerksamkeit bitten",
+            "Darf ich kurz um Ihre Aufmerksamkeit bitten"
+          ]
+        },
+        {
+          "n": "Promise to keep it short because the buffet is waiting.",
+          "t": [
+            "Ich halte mich kurz, das Buffet wartet",
+            "Ich halte mich kurz"
+          ]
+        },
+        {
+          "n": "Invite everyone to raise their glasses.",
+          "t": [
+            "Lasst uns die Gläser erheben",
+            "Erheben wir die Gläser"
+          ]
+        },
+        {
+          "n": "Propose a toast to Anna and the next fifty years.",
+          "t": [
+            "Auf Anna und die nächsten fünfzig Jahre",
+            "Auf Anna"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +142,677 @@
         "body": "Three devices make a speech memorable: the rhetorical question (Was wäre, wenn …?), the antithesis (nicht um Schuld, sondern um Verantwortung) and the triad (Mut, Geduld, einander). After a rhetorical question, pause for two full seconds. In a triad, let your voice rise on the first two items and fall decisively on the third."
       },
       "phrases": [
-        { "t": "Meine sehr geehrten Damen und Herren, ich freue mich, heute hier zu sein.", "n": "Ladies and gentlemen, I'm delighted to be here today." },
-        { "t": "Lassen Sie mich mit einer Frage beginnen.", "n": "Let me begin with a question." },
-        { "t": "Was wäre, wenn wir alles anders machten?", "n": "What if we did everything differently?", "note": "Rhetorical question: pause afterwards." },
-        { "t": "Es geht nicht um Schuld, es geht um Verantwortung.", "n": "It's not about blame, it's about responsibility.", "note": "Antithesis." },
-        { "t": "Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.", "n": "We need courage, we need patience, and we need each other.", "note": "Triad with repetition (anaphora)." },
-        { "t": "Ich komme damit zu meinem letzten Punkt.", "n": "That brings me to my final point." },
-        { "t": "Lassen Sie mich das Gesagte kurz zusammenfassen.", "n": "Let me briefly sum up what I've said." },
-        { "t": "Ich danke Ihnen für Ihre Aufmerksamkeit.", "n": "Thank you for your attention." }
+        {
+          "t": "Meine sehr geehrten Damen und Herren, ich freue mich, heute hier zu sein.",
+          "n": "Ladies and gentlemen, I'm delighted to be here today."
+        },
+        {
+          "t": "Lassen Sie mich mit einer Frage beginnen.",
+          "n": "Let me begin with a question."
+        },
+        {
+          "t": "Was wäre, wenn wir alles anders machten?",
+          "n": "What if we did everything differently?",
+          "note": "Rhetorical question: pause afterwards."
+        },
+        {
+          "t": "Es geht nicht um Schuld, es geht um Verantwortung.",
+          "n": "It's not about blame, it's about responsibility.",
+          "note": "Antithesis."
+        },
+        {
+          "t": "Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.",
+          "n": "We need courage, we need patience, and we need each other.",
+          "note": "Triad with repetition (anaphora)."
+        },
+        {
+          "t": "Ich komme damit zu meinem letzten Punkt.",
+          "n": "That brings me to my final point."
+        },
+        {
+          "t": "Lassen Sie mich das Gesagte kurz zusammenfassen.",
+          "n": "Let me briefly sum up what I've said."
+        },
+        {
+          "t": "Ich danke Ihnen für Ihre Aufmerksamkeit.",
+          "n": "Thank you for your attention."
+        }
       ],
       "dialogue": {
         "title": "Rehearsing with a speech coach",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Frau Berger", "t": "Fangen wir mit dem Einstieg an. Wie eröffnen Sie Ihre Rede?", "n": "Let's start with the opening. How do you open your speech?" },
-          { "who": "you", "t": "Meine sehr geehrten Damen und Herren, lassen Sie mich mit einer Frage beginnen.", "n": "Ladies and gentlemen, let me begin with a question." },
-          { "who": "A", "name": "Frau Berger", "t": "Gut. Und welche Frage? Machen Sie danach unbedingt eine Pause.", "n": "Good. And which question? Be sure to pause afterwards." },
-          { "who": "you", "t": "Was wäre, wenn wir alles anders machten?", "n": "What if we did everything differently?" },
-          { "who": "A", "name": "Frau Berger", "t": "Sehr schön. Jetzt brauche ich einen Satz, der hängen bleibt.", "n": "Very nice. Now I need a sentence that sticks." },
-          { "who": "you", "t": "Es geht nicht um Schuld, es geht um Verantwortung.", "n": "It's not about blame, it's about responsibility." },
-          { "who": "A", "name": "Frau Berger", "t": "Eine starke Antithese. Und wie leiten Sie zum Schluss über?", "n": "A strong antithesis. And how do you lead into the conclusion?" },
-          { "who": "you", "t": "Ich komme damit zu meinem letzten Punkt: Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.", "n": "That brings me to my final point: we need courage, we need patience, and we need each other." }
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Fangen wir mit dem Einstieg an. Wie eröffnen Sie Ihre Rede?",
+            "n": "Let's start with the opening. How do you open your speech?"
+          },
+          {
+            "who": "you",
+            "t": "Meine sehr geehrten Damen und Herren, lassen Sie mich mit einer Frage beginnen.",
+            "n": "Ladies and gentlemen, let me begin with a question."
+          },
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Gut. Und welche Frage? Machen Sie danach unbedingt eine Pause.",
+            "n": "Good. And which question? Be sure to pause afterwards."
+          },
+          {
+            "who": "you",
+            "t": "Was wäre, wenn wir alles anders machten?",
+            "n": "What if we did everything differently?"
+          },
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Sehr schön. Jetzt brauche ich einen Satz, der hängen bleibt.",
+            "n": "Very nice. Now I need a sentence that sticks."
+          },
+          {
+            "who": "you",
+            "t": "Es geht nicht um Schuld, es geht um Verantwortung.",
+            "n": "It's not about blame, it's about responsibility."
+          },
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Eine starke Antithese. Und wie leiten Sie zum Schluss über?",
+            "n": "A strong antithesis. And how do you lead into the conclusion?"
+          },
+          {
+            "who": "you",
+            "t": "Ich komme damit zu meinem letzten Punkt: Wir brauchen Mut, wir brauchen Geduld, und wir brauchen einander.",
+            "n": "That brings me to my final point: we need courage, we need patience, and we need each other."
+          }
         ]
       },
       "prompts": [
-        { "n": "Open your speech by announcing a question.", "t": ["Lassen Sie mich mit einer Frage beginnen"] },
-        { "n": "Ask the audience: what if we did everything differently?", "t": ["Was wäre, wenn wir alles anders machten", "Was wäre, wenn wir alles anders machen würden"] },
-        { "n": "Say it's not about blame, it's about responsibility.", "t": ["Es geht nicht um Schuld, es geht um Verantwortung", "Es geht nicht um Schuld, sondern um Verantwortung"] },
-        { "n": "Thank the audience for their attention.", "t": ["Ich danke Ihnen für Ihre Aufmerksamkeit", "Vielen Dank für Ihre Aufmerksamkeit"] }
+        {
+          "n": "Open your speech by announcing a question.",
+          "t": [
+            "Lassen Sie mich mit einer Frage beginnen"
+          ]
+        },
+        {
+          "n": "Ask the audience: what if we did everything differently?",
+          "t": [
+            "Was wäre, wenn wir alles anders machten",
+            "Was wäre, wenn wir alles anders machen würden"
+          ]
+        },
+        {
+          "n": "Say it's not about blame, it's about responsibility.",
+          "t": [
+            "Es geht nicht um Schuld, es geht um Verantwortung",
+            "Es geht nicht um Schuld, sondern um Verantwortung"
+          ]
+        },
+        {
+          "n": "Thank the audience for their attention.",
+          "t": [
+            "Ich danke Ihnen für Ihre Aufmerksamkeit",
+            "Vielen Dank für Ihre Aufmerksamkeit"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u04-l3",
+      "title": "A farewell speech",
+      "goal": "Say goodbye to a long-serving colleague with warmth and dignity.",
+      "tip": {
+        "title": "Gratitude, legacy, wishes",
+        "body": "A farewell speech honours the past, names the person’s legacy and ends with wishes. Formulas like große Fußstapfen hinterlassen and ein Haus prägen carry the weight. Slow down and lower your voice slightly for the personal part; let the final wish sound bright."
+      },
+      "phrases": [
+        {
+          "t": "Heute fällt es mir nicht leicht, die richtigen Worte zu finden.",
+          "n": "Today it isn't easy for me to find the right words."
+        },
+        {
+          "t": "Wir verabschieden heute eine Kollegin, die dieses Haus geprägt hat.",
+          "n": "Today we say goodbye to a colleague who has shaped this company."
+        },
+        {
+          "t": "Ohne dich wären wir nicht, wo wir heute sind.",
+          "n": "Without you we wouldn't be where we are today."
+        },
+        {
+          "t": "Du hinterlässt große Fußstapfen.",
+          "n": "You leave big shoes to fill."
+        },
+        {
+          "t": "Für deinen Ruhestand wünschen wir dir alles Gute.",
+          "n": "We wish you all the best for your retirement."
+        }
+      ],
+      "dialogue": {
+        "title": "Preparing the speech",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Petra",
+            "t": "Du hältst morgen die Abschiedsrede für Monika, oder? Wie fängst du an?",
+            "n": "You're giving the farewell speech for Monika tomorrow, aren't you? How will you start?"
+          },
+          {
+            "who": "you",
+            "t": "Wir verabschieden heute eine Kollegin, die dieses Haus geprägt hat.",
+            "n": "Today we say goodbye to a colleague who has shaped this company."
+          },
+          {
+            "who": "A",
+            "name": "Petra",
+            "t": "Schön. Und wie hörst du auf?",
+            "n": "Nice. And how will you finish?"
+          },
+          {
+            "who": "you",
+            "t": "Du hinterlässt große Fußstapfen. Für deinen Ruhestand wünschen wir dir alles Gute.",
+            "n": "You leave big shoes to fill. We wish you all the best for your retirement."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a retiring colleague she leaves big shoes to fill.",
+          "t": [
+            "Du hinterlässt große Fußstapfen",
+            "Sie hinterlassen große Fußstapfen"
+          ]
+        },
+        {
+          "n": "Say that without her you wouldn't be where you are today.",
+          "t": [
+            "Ohne dich wären wir nicht, wo wir heute sind",
+            "Ohne Sie wären wir nicht, wo wir heute sind"
+          ]
+        },
+        {
+          "n": "Wish her all the best for her retirement.",
+          "t": [
+            "Für deinen Ruhestand wünschen wir dir alles Gute",
+            "Für Ihren Ruhestand wünschen wir Ihnen alles Gute"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l4",
+      "kind": "grammar",
+      "title": "Je … desto and emphatic fronting",
+      "goal": "Give your sentences rhetorical rhythm with paired connectors and fronting.",
+      "tip": {
+        "title": "Rhythm through structure",
+        "body": "In je … desto, the je-clause has the verb at the end and the desto-clause inverts: Je länger wir warten, desto teurer wird es. Nicht nur … sondern auch builds towards a climax. Fronting the key idea (Gerade jetzt dürfen wir …) puts it in first position and the stress on it, while the verb stays second."
+      },
+      "phrases": [
+        {
+          "t": "Je länger wir warten, desto teurer wird es.",
+          "n": "The longer we wait, the more expensive it gets."
+        },
+        {
+          "t": "Je offener wir reden, desto mehr Vertrauen entsteht.",
+          "n": "The more openly we talk, the more trust develops."
+        },
+        {
+          "t": "Wir brauchen nicht nur gute Ideen, sondern auch den Mut, sie umzusetzen.",
+          "n": "We need not only good ideas but also the courage to put them into practice."
+        },
+        {
+          "t": "Gerade jetzt dürfen wir nicht nachlassen.",
+          "n": "Now of all times we mustn’t let up."
+        },
+        {
+          "t": "Nicht trotz, sondern wegen der Krise haben wir es geschafft.",
+          "n": "Not despite but because of the crisis, we made it."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the je … desto pair",
+          "base": {
+            "t": "Je länger wir warten, desto teurer wird es.",
+            "n": "The longer we wait, the more expensive it gets."
+          },
+          "items": [
+            {
+              "cue": "früher · handeln · leichter",
+              "t": "Je früher wir handeln, desto leichter wird es.",
+              "n": "The sooner we act, the easier it gets."
+            },
+            {
+              "cue": "mehr · zuhören · besser verstehen",
+              "t": "Je mehr wir zuhören, desto besser verstehen wir einander.",
+              "n": "The more we listen, the better we understand each other."
+            },
+            {
+              "cue": "ehrlicher · sein · glaubwürdiger",
+              "t": "Je ehrlicher wir sind, desto glaubwürdiger werden wir.",
+              "n": "The more honest we are, the more credible we become."
+            }
+          ]
+        },
+        {
+          "title": "Swap the fronted element",
+          "base": {
+            "t": "Wir dürfen gerade jetzt nicht nachlassen.",
+            "n": "We mustn't let up right now."
+          },
+          "items": [
+            {
+              "cue": "Gerade jetzt …",
+              "t": "Gerade jetzt dürfen wir nicht nachlassen.",
+              "n": "Now of all times we mustn’t let up."
+            },
+            {
+              "cue": "Nachlassen …",
+              "t": "Nachlassen dürfen wir gerade jetzt nicht.",
+              "n": "Letting up is the one thing we mustn’t do now."
+            },
+            {
+              "cue": "Heute mehr denn je …",
+              "t": "Heute mehr denn je dürfen wir nicht nachlassen.",
+              "n": "Today more than ever, we mustn’t let up."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the longer we wait, the more expensive it gets.",
+          "t": [
+            "Je länger wir warten, desto teurer wird es",
+            "Je länger wir warten, umso teurer wird es"
+          ]
+        },
+        {
+          "n": "Say we need not only good ideas but also the courage to put them into practice.",
+          "t": [
+            "Wir brauchen nicht nur gute Ideen, sondern auch den Mut, sie umzusetzen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l5",
+      "kind": "listening",
+      "title": "The mayor opens the festival",
+      "goal": "Follow a short ceremonial speech and spot its rhetorical devices.",
+      "culture": {
+        "title": "Protocol in the opening address",
+        "body": "Formal German speeches open with a ritual list of addressees in order of rank: Sehr geehrter Herr Minister, sehr geehrte Frau Bürgermeisterin, meine Damen und Herren. Forgetting an important guest gets noticed. Inclusive forms such as liebe Bürgerinnen und Bürger are now standard in public speeches, while at private celebrations a simple Liebe Gäste is enough.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Liebe Bürgerinnen und Bürger, herzlich willkommen!",
+          "n": "Dear citizens, welcome!"
+        },
+        {
+          "t": "Nicht Geld, nicht Glück, sondern Menschen.",
+          "n": "Not money, not luck, but people."
+        },
+        {
+          "t": "Menschen, die anpacken.",
+          "n": "People who roll up their sleeves.",
+          "note": "anpacken = get stuck in, do the work."
+        },
+        {
+          "t": "Ich erkläre das Fest für eröffnet.",
+          "n": "I declare the festival open."
+        }
+      ],
+      "story": {
+        "title": "Opening speech",
+        "intro": "Mayor Vogel opens the town festival on the market square.",
+        "voice": "de-DE-KatjaNeural",
+        "lines": [
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Sehr geehrter Herr Minister, liebe Bürgerinnen und Bürger, herzlich willkommen zu unserem Stadtfest!",
+            "n": "Minister, dear citizens, welcome to our town festival!"
+          },
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Vor dreißig Jahren war dieser Marktplatz ein Parkplatz. Heute tanzen hier Kinder.",
+            "n": "Thirty years ago this market square was a car park. Today children dance here."
+          },
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Was hat unsere Stadt verändert? Nicht Geld, nicht Glück, sondern Menschen.",
+            "n": "What changed our town? Not money, not luck, but people."
+          },
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Menschen, die anpacken, Menschen, die streiten, und Menschen, die sich wieder versöhnen.",
+            "n": "People who roll up their sleeves, people who argue, and people who make up again."
+          },
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Je mehr wir gemeinsam schaffen, desto stolzer dürfen wir sein.",
+            "n": "The more we achieve together, the prouder we may be."
+          },
+          {
+            "name": "Bürgermeisterin Vogel",
+            "t": "Ich erkläre das Stadtfest für eröffnet. Feiern Sie schön!",
+            "n": "I declare the town festival open. Enjoy the celebrations!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was war der Marktplatz vor dreißig Jahren?",
+            "n": "What was the market square thirty years ago?",
+            "t": [
+              "Ein Parkplatz",
+              "Er war ein Parkplatz"
+            ]
+          },
+          {
+            "q": "Was hat die Stadt laut der Rede verändert?",
+            "n": "According to the speech, what changed the town?",
+            "t": [
+              "Menschen",
+              "Die Menschen",
+              "Nicht Geld, sondern Menschen"
+            ]
+          },
+          {
+            "q": "Was eröffnet die Bürgermeisterin?",
+            "n": "What does the mayor open?",
+            "t": [
+              "Das Stadtfest",
+              "Sie eröffnet das Stadtfest"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u04-l6",
+      "kind": "roleplay",
+      "title": "Heckled at the town hall",
+      "goal": "Keep control of your speech when someone interrupts.",
+      "phrases": [
+        {
+          "t": "Lassen Sie mich bitte ausreden.",
+          "n": "Please let me finish."
+        },
+        {
+          "t": "Ich nehme Ihren Einwand ernst.",
+          "n": "I take your objection seriously."
+        },
+        {
+          "t": "Darauf komme ich gleich zurück.",
+          "n": "I'll come back to that in a moment."
+        },
+        {
+          "t": "Könnten Sie Ihre Frage bitte wiederholen?",
+          "n": "Could you repeat your question, please?"
+        }
+      ],
+      "branch": {
+        "title": "The wind farm debate",
+        "scene": "You are presenting a new wind farm at a public town meeting when a resident interrupts loudly.",
+        "name": "Anwohner Herr Brandl",
+        "voice": "de-DE-ConradNeural",
+        "start": "heckle",
+        "nodes": {
+          "heckle": {
+            "t": "Das ist doch alles Schönfärberei! Die Windräder stehen dann vor meinem Fenster, nicht vor Ihrem!",
+            "n": "That's all just window dressing! The wind turbines will be outside my window, not yours!",
+            "choices": [
+              {
+                "t": "Ich nehme Ihren Einwand ernst. Darauf komme ich gleich zurück.",
+                "n": "I take your objection seriously. I'll come back to that in a moment.",
+                "next": "wait"
+              },
+              {
+                "t": "Könnten Sie Ihre Frage bitte wiederholen?",
+                "n": "Could you repeat your question, please?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Gern, laut und deutlich: Warum sollen ausgerechnet wir den Lärm ertragen?",
+            "n": "Gladly, loud and clear: why should we of all people put up with the noise?",
+            "choices": [
+              {
+                "t": "Eine berechtigte Frage. Der Abstand zu den Häusern beträgt mindestens einen Kilometer.",
+                "n": "A fair question. The distance to the houses is at least one kilometre.",
+                "next": "facts"
+              },
+              {
+                "t": "Weil es nun mal so beschlossen ist.",
+                "n": "Because that's simply what's been decided.",
+                "next": "uproar"
+              }
+            ]
+          },
+          "wait": {
+            "t": "Und wann? Nach der Abstimmung vielleicht?",
+            "n": "And when? After the vote, perhaps?",
+            "choices": [
+              {
+                "t": "Jetzt gleich. Der Abstand zu den Häusern beträgt mindestens einen Kilometer.",
+                "n": "Right now. The distance to the houses is at least one kilometre.",
+                "next": "facts"
+              },
+              {
+                "t": "Lassen Sie mich bitte ausreden, dann bekommen Sie eine Antwort.",
+                "n": "Please let me finish, then you'll get an answer.",
+                "next": "calm"
+              }
+            ]
+          },
+          "calm": {
+            "t": "Na gut, ich bin ja schon still. Aber ich bin gespannt.",
+            "n": "All right, I'm quiet. But I'm curious.",
+            "choices": [
+              {
+                "t": "Danke. Zu Ihrer Sorge: Der Abstand zu den Häusern beträgt mindestens einen Kilometer.",
+                "n": "Thank you. On your concern: the distance to the houses is at least one kilometre.",
+                "next": "facts"
+              }
+            ]
+          },
+          "facts": {
+            "t": "Ein Kilometer? Und was habe ich davon?",
+            "n": "One kilometre? And what's in it for me?",
+            "choices": [
+              {
+                "t": "Die Gemeinde erhält jedes Jahr Einnahmen, und die Anwohner zahlen weniger für Strom.",
+                "n": "The town gets income every year, and residents pay less for electricity.",
+                "next": "good"
+              },
+              {
+                "t": "Das müssen Sie schon selbst herausfinden.",
+                "n": "You'll have to find that out for yourself.",
+                "next": "uproar"
+              }
+            ]
+          },
+          "good": {
+            "t": "Hm. Weniger für Strom … Das höre ich mir an. Reden Sie weiter.",
+            "n": "Hm. Less for electricity … I'll listen to that. Go on.",
+            "end": "good",
+            "outcome": "You stayed calm, acknowledged the objection and won over a sceptic."
+          },
+          "uproar": {
+            "t": "Da hören Sie es, Leute! Arrogant wie immer!",
+            "n": "There you have it, folks! Arrogant as ever!",
+            "end": "bad",
+            "outcome": "You brushed the heckler off and lost the room."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Politely ask a heckler to let you finish.",
+          "t": [
+            "Lassen Sie mich bitte ausreden",
+            "Bitte lassen Sie mich ausreden"
+          ]
+        },
+        {
+          "n": "Say you take the objection seriously and you'll come back to it.",
+          "t": [
+            "Ich nehme Ihren Einwand ernst. Darauf komme ich gleich zurück",
+            "Ich nehme Ihren Einwand ernst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l7",
+      "kind": "speaking",
+      "title": "Your speech, your stage",
+      "goal": "Deliver a ceremonial opening and a crisis statement with rhetorical control.",
+      "phrases": [
+        {
+          "t": "Gestatten Sie mir eine persönliche Bemerkung.",
+          "n": "Allow me a personal remark."
+        },
+        {
+          "t": "Lassen Sie mich mit einem Bild schließen.",
+          "n": "Let me close with an image."
+        },
+        {
+          "t": "Damit bin ich am Ende meiner Rede.",
+          "n": "That brings me to the end of my speech."
+        },
+        {
+          "t": "Wenn Sie sich nur eines merken, dann dies:",
+          "n": "If you remember only one thing, let it be this:"
+        }
+      ],
+      "free": [
+        {
+          "n": "Give the opening of a speech for a company's 50th anniversary: address the audience, ask a rhetorical question and use a triad.",
+          "hint": "Use: Sehr geehrte …, liebe …; Wer hätte gedacht …?; Wir brauchen …, … und …; Je …, desto …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a formal address",
+              "any": [
+                "sehr geehrte*",
+                "liebe gäste",
+                "meine damen und herren",
+                "liebe kolleg*"
+              ]
+            },
+            {
+              "label": "a rhetorical question",
+              "any": [
+                "was wäre",
+                "wer hätte",
+                "gedacht",
+                "fragen sie sich",
+                "was macht"
+              ]
+            },
+            {
+              "label": "a triad or contrast",
+              "any": [
+                "nicht nur",
+                "sondern",
+                "je",
+                "desto",
+                "wir brauchen"
+              ]
+            },
+            {
+              "label": "the anniversary",
+              "any": [
+                "jahre",
+                "jubiläum",
+                "danke*",
+                "feiern",
+                "gegründet"
+              ]
+            }
+          ],
+          "model": "Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen! Wer hätte vor fünfzig Jahren gedacht, dass aus einer kleinen Werkstatt ein Unternehmen mit dreihundert Mitarbeitern wird? Dafür brauchte es Mut, Geduld und vor allem einander. Und je größer wir werden, desto wichtiger wird dieser Zusammenhalt."
+        },
+        {
+          "n": "Give a short statement to staff after a serious IT outage: acknowledge it, explain it, commit to action and end with a memorable line.",
+          "hint": "Use: Ich will nichts beschönigen …, Es geht nicht um Schuld, sondern um …, Wir werden …, Wenn Sie sich nur eines merken, dann dies: …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "acknowledge",
+              "any": [
+                "beschönig*",
+                "fehler",
+                "verantwortung",
+                "entschuldig*",
+                "bedauer*"
+              ]
+            },
+            {
+              "label": "explain",
+              "any": [
+                "ursache",
+                "weil",
+                "grund",
+                "ausgefallen",
+                "passiert"
+              ]
+            },
+            {
+              "label": "commit",
+              "any": [
+                "wir werden",
+                "ab sofort",
+                "versprech*",
+                "sorgen dafür",
+                "bis ende"
+              ]
+            },
+            {
+              "label": "a strong close",
+              "any": [
+                "merken",
+                "zum schluss",
+                "abschließend",
+                "lassen sie mich",
+                "danke"
+              ]
+            }
+          ],
+          "model": "Ich will nichts beschönigen: Unsere Systeme sind zwei Tage ausgefallen, und das war unser Fehler. Es geht jetzt nicht um Schuld, sondern um Verantwortung. Wir werden bis Ende des Monats ein zweites Rechenzentrum einrichten. Wenn Sie sich nur eines merken, dann dies: So etwas darf nicht wieder passieren."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask the audience to allow you a personal remark.",
+          "t": [
+            "Gestatten Sie mir eine persönliche Bemerkung"
+          ]
+        },
+        {
+          "n": "Signal that you are at the end of your speech.",
+          "t": [
+            "Damit bin ich am Ende meiner Rede"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Die Kunst der Rede",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

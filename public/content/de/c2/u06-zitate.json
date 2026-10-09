@@ -13,34 +13,123 @@
         "body": "Educated Germans quote Faust, Schiller or Fontane casually, often ironically and sometimes only halfway: Drum prüfe … is enough for everyone to finish the line. Mark a quotation with your voice: a tiny pause before it and a slightly more theatrical tone, like audible quotation marks."
       },
       "phrases": [
-        { "t": "Das also war des Pudels Kern!", "n": "So that was the heart of the matter!", "note": "Goethe, Faust I." },
-        { "t": "Da steh ich nun, ich armer Tor, und bin so klug als wie zuvor.", "n": "And here I stand, poor fool, no wiser than before.", "note": "Faust I; said when you've learned nothing new." },
-        { "t": "Die Axt im Haus erspart den Zimmermann.", "n": "An axe in the house saves calling the carpenter.", "note": "Schiller, Wilhelm Tell; praise for DIY." },
-        { "t": "Drum prüfe, wer sich ewig bindet.", "n": "So let those who bind themselves forever check carefully.", "note": "Schiller; a jokey warning before marriage." },
-        { "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.", "n": "I hear the message well, but I lack the faith.", "note": "Faust I; polite scepticism." },
-        { "t": "Das ist ein weites Feld.", "n": "That's a wide field.", "note": "Fontane, Effi Briest; to avoid a long debate." },
-        { "t": "Sein oder Nichtsein, das ist hier die Frage.", "n": "To be or not to be, that is the question.", "note": "Schlegel's classic Hamlet translation." },
-        { "t": "Gut gebrüllt, Löwe!", "n": "Well roared, lion!", "note": "Shakespeare; praise for a bold statement." }
+        {
+          "t": "Das also war des Pudels Kern!",
+          "n": "So that was the heart of the matter!",
+          "note": "Goethe, Faust I."
+        },
+        {
+          "t": "Da steh ich nun, ich armer Tor, und bin so klug als wie zuvor.",
+          "n": "And here I stand, poor fool, no wiser than before.",
+          "note": "Faust I; said when you've learned nothing new."
+        },
+        {
+          "t": "Die Axt im Haus erspart den Zimmermann.",
+          "n": "An axe in the house saves calling the carpenter.",
+          "note": "Schiller, Wilhelm Tell; praise for DIY."
+        },
+        {
+          "t": "Drum prüfe, wer sich ewig bindet.",
+          "n": "So let those who bind themselves forever check carefully.",
+          "note": "Schiller; a jokey warning before marriage."
+        },
+        {
+          "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.",
+          "n": "I hear the message well, but I lack the faith.",
+          "note": "Faust I; polite scepticism."
+        },
+        {
+          "t": "Das ist ein weites Feld.",
+          "n": "That's a wide field.",
+          "note": "Fontane, Effi Briest; to avoid a long debate."
+        },
+        {
+          "t": "Sein oder Nichtsein, das ist hier die Frage.",
+          "n": "To be or not to be, that is the question.",
+          "note": "Schlegel's classic Hamlet translation."
+        },
+        {
+          "t": "Gut gebrüllt, Löwe!",
+          "n": "Well roared, lion!",
+          "note": "Shakespeare; praise for a bold statement."
+        }
       ],
       "dialogue": {
         "title": "A sudden engagement",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Clara", "t": "Stell dir vor, Tom hat mir einen Heiratsantrag gemacht! Nach nur drei Monaten!", "n": "Guess what, Tom proposed to me! After only three months!" },
-          { "who": "you", "t": "Herzlichen Glückwunsch! Aber drum prüfe, wer sich ewig bindet.", "n": "Congratulations! But look before you leap, as Schiller said." },
-          { "who": "A", "name": "Clara", "t": "Ach, Schiller hin oder her. Er will sogar für mich Vegetarier werden.", "n": "Oh, never mind Schiller. He even wants to become a vegetarian for me." },
-          { "who": "you", "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.", "n": "I hear the message well, but I lack the faith." },
-          { "who": "A", "name": "Clara", "t": "Gemein! Er hat übrigens unsere ganze Wohnung allein renoviert.", "n": "That's mean! By the way, he renovated our whole flat by himself." },
-          { "who": "you", "t": "Die Axt im Haus erspart den Zimmermann. Das spricht natürlich für ihn.", "n": "An axe in the house saves the carpenter. That certainly speaks for him." },
-          { "who": "A", "name": "Clara", "t": "Ehrlich gesagt hatte ich vor allem Angst, allein alt zu werden.", "n": "To be honest, I was mainly afraid of growing old alone." },
-          { "who": "you", "t": "Das also war des Pudels Kern!", "n": "So that was the heart of the matter!" }
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Stell dir vor, Tom hat mir einen Heiratsantrag gemacht! Nach nur drei Monaten!",
+            "n": "Guess what, Tom proposed to me! After only three months!"
+          },
+          {
+            "who": "you",
+            "t": "Herzlichen Glückwunsch! Aber drum prüfe, wer sich ewig bindet.",
+            "n": "Congratulations! But look before you leap, as Schiller said."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Ach, Schiller hin oder her. Er will sogar für mich Vegetarier werden.",
+            "n": "Oh, never mind Schiller. He even wants to become a vegetarian for me."
+          },
+          {
+            "who": "you",
+            "t": "Die Botschaft hör ich wohl, allein mir fehlt der Glaube.",
+            "n": "I hear the message well, but I lack the faith."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Gemein! Er hat übrigens unsere ganze Wohnung allein renoviert.",
+            "n": "That's mean! By the way, he renovated our whole flat by himself."
+          },
+          {
+            "who": "you",
+            "t": "Die Axt im Haus erspart den Zimmermann. Das spricht natürlich für ihn.",
+            "n": "An axe in the house saves the carpenter. That certainly speaks for him."
+          },
+          {
+            "who": "A",
+            "name": "Clara",
+            "t": "Ehrlich gesagt hatte ich vor allem Angst, allein alt zu werden.",
+            "n": "To be honest, I was mainly afraid of growing old alone."
+          },
+          {
+            "who": "you",
+            "t": "Das also war des Pudels Kern!",
+            "n": "So that was the heart of the matter!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Remark, quoting Goethe, that this is the heart of the matter.", "t": ["Das also war des Pudels Kern", "Das ist des Pudels Kern"] },
-        { "n": "Jokingly warn a friend not to marry in haste, quoting Schiller.", "t": ["Drum prüfe, wer sich ewig bindet"] },
-        { "n": "Express scepticism with the Faust line about lacking faith.", "t": ["Die Botschaft hör ich wohl, allein mir fehlt der Glaube"] },
-        { "n": "Politely sidestep a huge topic, quoting Fontane.", "t": ["Das ist ein weites Feld"] }
+        {
+          "n": "Remark, quoting Goethe, that this is the heart of the matter.",
+          "t": [
+            "Das also war des Pudels Kern",
+            "Das ist des Pudels Kern"
+          ]
+        },
+        {
+          "n": "Jokingly warn a friend not to marry in haste, quoting Schiller.",
+          "t": [
+            "Drum prüfe, wer sich ewig bindet"
+          ]
+        },
+        {
+          "n": "Express scepticism with the Faust line about lacking faith.",
+          "t": [
+            "Die Botschaft hör ich wohl, allein mir fehlt der Glaube"
+          ]
+        },
+        {
+          "n": "Politely sidestep a huge topic, quoting Fontane.",
+          "t": [
+            "Das ist ein weites Feld"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +141,689 @@
         "body": "Introduce a proverb with Wie heißt es so schön? or simply say its first half, and your listener finishes it in their head. Proverbs live from rhythm and parallelism, so stress the matching words: WER zuletzt LACHT, LACHT am BESTEN. Don't overdo it; one well-timed proverb per conversation is plenty."
       },
       "phrases": [
-        { "t": "Wie heißt es so schön: Ende gut, alles gut.", "n": "As the saying goes: all's well that ends well." },
-        { "t": "Man soll den Tag nicht vor dem Abend loben.", "n": "Don't count your chickens before they hatch." },
-        { "t": "Viele Köche verderben den Brei.", "n": "Too many cooks spoil the broth." },
-        { "t": "Der Apfel fällt nicht weit vom Stamm.", "n": "The apple doesn't fall far from the tree." },
-        { "t": "Wer A sagt, muss auch B sagen.", "n": "In for a penny, in for a pound." },
-        { "t": "Wie man in den Wald hineinruft, so schallt es heraus.", "n": "As you sow, so shall you reap.", "note": "How you treat others is how they'll treat you." },
-        { "t": "Lügen haben kurze Beine.", "n": "Lies don't get you far.", "note": "Literally: lies have short legs." },
-        { "t": "Wer zuletzt lacht, lacht am besten.", "n": "He who laughs last laughs longest." }
+        {
+          "t": "Wie heißt es so schön: Ende gut, alles gut.",
+          "n": "As the saying goes: all's well that ends well."
+        },
+        {
+          "t": "Man soll den Tag nicht vor dem Abend loben.",
+          "n": "Don't count your chickens before they hatch."
+        },
+        {
+          "t": "Viele Köche verderben den Brei.",
+          "n": "Too many cooks spoil the broth."
+        },
+        {
+          "t": "Der Apfel fällt nicht weit vom Stamm.",
+          "n": "The apple doesn't fall far from the tree."
+        },
+        {
+          "t": "Wer A sagt, muss auch B sagen.",
+          "n": "In for a penny, in for a pound."
+        },
+        {
+          "t": "Wie man in den Wald hineinruft, so schallt es heraus.",
+          "n": "As you sow, so shall you reap.",
+          "note": "How you treat others is how they'll treat you."
+        },
+        {
+          "t": "Lügen haben kurze Beine.",
+          "n": "Lies don't get you far.",
+          "note": "Literally: lies have short legs."
+        },
+        {
+          "t": "Wer zuletzt lacht, lacht am besten.",
+          "n": "He who laughs last laughs longest."
+        }
       ],
       "dialogue": {
         "title": "The project that almost failed",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Stefan", "t": "Der Kunde hat das Projekt am Ende doch noch genehmigt. Damit hätte ich nie gerechnet!", "n": "The client approved the project in the end after all. I'd never have expected that!" },
-          { "who": "you", "t": "Wie heißt es so schön: Ende gut, alles gut.", "n": "As the saying goes: all's well that ends well." },
-          { "who": "A", "name": "Stefan", "t": "Na ja, warte erst mal ab. Die Finanzierung steht noch nicht.", "n": "Well, wait and see. The financing isn't secured yet." },
-          { "who": "you", "t": "Stimmt, man soll den Tag nicht vor dem Abend loben.", "n": "True, we shouldn't count our chickens before they hatch." },
-          { "who": "A", "name": "Stefan", "t": "Und jetzt will plötzlich jede Abteilung mitreden.", "n": "And now suddenly every department wants a say." },
-          { "who": "you", "t": "Viele Köche verderben den Brei. Wir sollten das Team klein halten.", "n": "Too many cooks spoil the broth. We should keep the team small." },
-          { "who": "A", "name": "Stefan", "t": "Übrigens, Müllers Sohn arbeitet jetzt im Controlling. Genauso pedantisch wie sein Vater.", "n": "By the way, Müller's son now works in controlling. Just as pedantic as his father." },
-          { "who": "you", "t": "Tja, der Apfel fällt nicht weit vom Stamm.", "n": "Well, the apple doesn't fall far from the tree." }
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Der Kunde hat das Projekt am Ende doch noch genehmigt. Damit hätte ich nie gerechnet!",
+            "n": "The client approved the project in the end after all. I'd never have expected that!"
+          },
+          {
+            "who": "you",
+            "t": "Wie heißt es so schön: Ende gut, alles gut.",
+            "n": "As the saying goes: all's well that ends well."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Na ja, warte erst mal ab. Die Finanzierung steht noch nicht.",
+            "n": "Well, wait and see. The financing isn't secured yet."
+          },
+          {
+            "who": "you",
+            "t": "Stimmt, man soll den Tag nicht vor dem Abend loben.",
+            "n": "True, we shouldn't count our chickens before they hatch."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Und jetzt will plötzlich jede Abteilung mitreden.",
+            "n": "And now suddenly every department wants a say."
+          },
+          {
+            "who": "you",
+            "t": "Viele Köche verderben den Brei. Wir sollten das Team klein halten.",
+            "n": "Too many cooks spoil the broth. We should keep the team small."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Übrigens, Müllers Sohn arbeitet jetzt im Controlling. Genauso pedantisch wie sein Vater.",
+            "n": "By the way, Müller's son now works in controlling. Just as pedantic as his father."
+          },
+          {
+            "who": "you",
+            "t": "Tja, der Apfel fällt nicht weit vom Stamm.",
+            "n": "Well, the apple doesn't fall far from the tree."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say that too many people involved will spoil things.", "t": ["Viele Köche verderben den Brei"] },
-        { "n": "Warn against celebrating too early.", "t": ["Man soll den Tag nicht vor dem Abend loben"] },
-        { "n": "Say that once you've started, you have to follow through.", "t": ["Wer A sagt, muss auch B sagen"] },
-        { "n": "Say that lies don't get you far.", "t": ["Lügen haben kurze Beine"] }
+        {
+          "n": "Say that too many people involved will spoil things.",
+          "t": [
+            "Viele Köche verderben den Brei"
+          ]
+        },
+        {
+          "n": "Warn against celebrating too early.",
+          "t": [
+            "Man soll den Tag nicht vor dem Abend loben"
+          ]
+        },
+        {
+          "n": "Say that once you've started, you have to follow through.",
+          "t": [
+            "Wer A sagt, muss auch B sagen"
+          ]
+        },
+        {
+          "n": "Say that lies don't get you far.",
+          "t": [
+            "Lügen haben kurze Beine"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u06-l3",
+      "title": "Quoting sources precisely",
+      "goal": "Attribute, introduce and defend quotations accurately in discussion.",
+      "tip": {
+        "title": "Wer hat’s gesagt?",
+        "body": "Introduce quotes with Um es mit … zu sagen or Frei nach … when you adapt them. Misattributions are common (much of what is credited to Goethe or Einstein isn’t theirs), so learn to say so politely — and to object when your own words are taken out of context."
+      },
+      "phrases": [
+        {
+          "t": "Um es mit Brecht zu sagen: Erst kommt das Fressen, dann kommt die Moral.",
+          "n": "To put it in Brecht’s words: food first, then morality.",
+          "note": "From the Dreigroschenoper."
+        },
+        {
+          "t": "Das Zitat wird Goethe zugeschrieben, stammt aber nicht von ihm.",
+          "n": "The quote is attributed to Goethe, but it isn’t by him."
+        },
+        {
+          "t": "Ich zitiere wörtlich: „Wir schaffen das.“",
+          "n": "I quote verbatim: “We can do this.”",
+          "note": "Angela Merkel, 2015."
+        },
+        {
+          "t": "Dieser Satz ist völlig aus dem Zusammenhang gerissen.",
+          "n": "This sentence has been taken completely out of context."
+        },
+        {
+          "t": "Frei nach Wilhelm Busch: Erstens kommt es anders, und zweitens als man denkt.",
+          "n": "Loosely after Wilhelm Busch: things never turn out the way you expect."
+        }
+      ],
+      "dialogue": {
+        "title": "The wedding speech",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "In meiner Rede zitiere ich Goethe: Erstens kommt es anders, und zweitens als man denkt.",
+            "n": "In my speech I’m quoting Goethe: things never turn out the way you expect."
+          },
+          {
+            "who": "you",
+            "t": "Vorsicht, das Zitat wird Goethe zugeschrieben, stammt aber nicht von ihm.",
+            "n": "Careful, the quote is attributed to Goethe, but it isn’t by him."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Wirklich? Von wem denn dann?",
+            "n": "Really? Who’s it by, then?"
+          },
+          {
+            "who": "you",
+            "t": "Sag einfach: frei nach Wilhelm Busch. Dann bist du auf der sicheren Seite.",
+            "n": "Just say: loosely after Wilhelm Busch. Then you’re on the safe side."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Introduce a Brecht quotation: “to put it in Brecht’s words”.",
+          "t": [
+            "Um es mit Brecht zu sagen"
+          ]
+        },
+        {
+          "n": "Object that a sentence has been taken completely out of context.",
+          "t": [
+            "Dieser Satz ist völlig aus dem Zusammenhang gerissen",
+            "Das ist aus dem Zusammenhang gerissen"
+          ]
+        },
+        {
+          "n": "Say the quote is attributed to Goethe but isn’t by him.",
+          "t": [
+            "Das Zitat wird Goethe zugeschrieben, stammt aber nicht von ihm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l4",
+      "kind": "grammar",
+      "title": "Reported questions and commands",
+      "goal": "Report questions, requests and hearsay with ob, sollen and mögen.",
+      "tip": {
+        "title": "ob, sollen, mögen",
+        "body": "Reported yes/no questions take ob, other questions keep their question word; the verb goes to the end in Konjunktiv I: Er fragt, wer das gesagt habe. Reported orders use sollen (Sie sagt, wir sollten die Quelle angeben), polite requests mögen (man möge …). sollen + past infinitive marks hearsay: Brecht soll gesagt haben …"
+      },
+      "phrases": [
+        {
+          "t": "Der Journalist fragte, ob das Zitat echt sei.",
+          "n": "The journalist asked whether the quote was genuine."
+        },
+        {
+          "t": "Sie wollte wissen, woher der Spruch stamme.",
+          "n": "She wanted to know where the saying came from."
+        },
+        {
+          "t": "Er sagte, wir sollten die Quelle angeben.",
+          "n": "He said we should cite the source."
+        },
+        {
+          "t": "Die Autorin bittet, man möge sie nicht falsch zitieren.",
+          "n": "The author asks not to be misquoted."
+        },
+        {
+          "t": "Brecht soll gesagt haben, die Wahrheit sei konkret.",
+          "n": "Brecht is said to have said that truth is concrete.",
+          "note": "sollen + past infinitive = “is said to have”."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap question → reported question",
+          "base": {
+            "t": "Er fragt, ob das Zitat echt sei.",
+            "n": "He asks whether the quote is genuine."
+          },
+          "items": [
+            {
+              "cue": "„Wer hat das gesagt?“",
+              "t": "Er fragt, wer das gesagt habe.",
+              "n": "He asks who said that."
+            },
+            {
+              "cue": "„Wann ist das Buch erschienen?“",
+              "t": "Er fragt, wann das Buch erschienen sei.",
+              "n": "He asks when the book was published."
+            },
+            {
+              "cue": "„Kennt sie den Autor?“",
+              "t": "Er fragt, ob sie den Autor kenne.",
+              "n": "He asks whether she knows the author."
+            }
+          ]
+        },
+        {
+          "title": "Swap command → reported command",
+          "base": {
+            "t": "Sie sagt, wir sollten die Quelle angeben.",
+            "n": "She says we should cite the source."
+          },
+          "items": [
+            {
+              "cue": "„Zitieren Sie wörtlich!“",
+              "t": "Sie sagt, wir sollten wörtlich zitieren.",
+              "n": "She says we should quote verbatim."
+            },
+            {
+              "cue": "„Lesen Sie das Original!“",
+              "t": "Sie sagt, wir sollten das Original lesen.",
+              "n": "She says we should read the original."
+            },
+            {
+              "cue": "„Bitte seien Sie vorsichtig.“ · man möge",
+              "t": "Sie bittet, man möge vorsichtig sein.",
+              "n": "She asks people to be careful."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Report that the journalist asked whether the quote was genuine.",
+          "t": [
+            "Der Journalist fragte, ob das Zitat echt sei"
+          ]
+        },
+        {
+          "n": "Say Brecht is said to have said that truth is concrete.",
+          "t": [
+            "Brecht soll gesagt haben, die Wahrheit sei konkret"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l5",
+      "kind": "listening",
+      "title": "Einstein said it — or did he?",
+      "goal": "Follow a fast exchange about a misattributed quotation.",
+      "phrases": [
+        {
+          "t": "Dafür gibt es keinen einzigen Beleg.",
+          "n": "There isn’t a single piece of evidence for that."
+        },
+        {
+          "t": "Woher stammt der Satz denn dann?",
+          "n": "So where does the sentence come from, then?"
+        },
+        {
+          "t": "Ein berühmter Name verleiht jedem Satz Gewicht.",
+          "n": "A famous name lends weight to any sentence."
+        },
+        {
+          "t": "Prüf lieber immer die Quelle.",
+          "n": "Better always check the source."
+        }
+      ],
+      "story": {
+        "title": "The definition of insanity",
+        "intro": "Nora finds a famous quote online; her friend Felix is sceptical.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Nora",
+            "t": "Schau mal, hier steht, Einstein habe gesagt, Wahnsinn sei, immer wieder das Gleiche zu tun.",
+            "n": "Look, it says here that Einstein said insanity is doing the same thing over and over again."
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ein Klassiker. Nur gibt es dafür keinen einzigen Beleg.",
+            "n": "A classic. Except there isn’t a single piece of evidence for it."
+          },
+          {
+            "name": "Nora",
+            "t": "Woher stammt der Satz denn dann?",
+            "n": "So where does the sentence come from, then?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Vermutlich aus einer Broschüre der Achtzigerjahre. Einstein war da längst tot.",
+            "n": "Probably from a brochure from the eighties. Einstein had long been dead by then."
+          },
+          {
+            "name": "Nora",
+            "t": "Und warum zitieren ihn trotzdem alle?",
+            "n": "And why does everyone quote him anyway?"
+          },
+          {
+            "name": "Felix",
+            "voice": "de-DE-ConradNeural",
+            "t": "Weil ein berühmter Name jedem Satz Gewicht verleiht. Prüf lieber immer die Quelle.",
+            "n": "Because a famous name lends weight to any sentence. Better always check the source."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wem wird das Zitat zugeschrieben?",
+            "n": "Who is the quote attributed to?",
+            "t": [
+              "Einstein",
+              "Albert Einstein"
+            ]
+          },
+          {
+            "q": "Gibt es einen Beleg dafür?",
+            "n": "Is there any evidence for it?",
+            "t": [
+              "Nein",
+              "Nein, keinen",
+              "Es gibt keinen Beleg"
+            ]
+          },
+          {
+            "q": "Was soll man immer prüfen?",
+            "n": "What should you always check?",
+            "t": [
+              "Die Quelle",
+              "Die Quelle prüfen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u06-l6",
+      "kind": "roleplay",
+      "title": "Misquoted in the paper",
+      "goal": "Get a newspaper to correct a misquotation — firmly but without burning bridges.",
+      "phrases": [
+        {
+          "t": "Sie haben mich falsch zitiert.",
+          "n": "You misquoted me."
+        },
+        {
+          "t": "Das habe ich so nie gesagt.",
+          "n": "I never said that."
+        },
+        {
+          "t": "Das ist ein entscheidender Unterschied.",
+          "n": "That’s a crucial difference."
+        },
+        {
+          "t": "Ich bitte um eine Richtigstellung.",
+          "n": "I’m asking for a correction."
+        }
+      ],
+      "branch": {
+        "title": "Calling the newsroom",
+        "scene": "A local paper quoted you as supporting a factory closure. You call the editor.",
+        "name": "Herr Vogt, Redakteur",
+        "voice": "de-DE-ConradNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Redaktion Tagesecho, Vogt. Was kann ich für Sie tun?",
+            "n": "Tagesecho newsroom, Vogt speaking. What can I do for you?",
+            "choices": [
+              {
+                "t": "Guten Tag, Sie haben mich in Ihrem Artikel von heute falsch zitiert.",
+                "n": "Hello, you misquoted me in today’s article.",
+                "next": "claim"
+              },
+              {
+                "t": "Ihr Artikel ist eine Frechheit! Sie verdrehen einem ja jedes Wort!",
+                "n": "Your article is outrageous! You twist every word!",
+                "next": "bad"
+              }
+            ]
+          },
+          "claim": {
+            "t": "Das tut mir leid zu hören. Um welche Stelle geht es denn genau?",
+            "n": "I’m sorry to hear that. Which passage is it exactly?",
+            "choices": [
+              {
+                "t": "Sie schreiben, ich hätte die Schließung befürwortet. Das habe ich so nie gesagt.",
+                "n": "You write that I supported the closure. I never said that.",
+                "next": "check"
+              },
+              {
+                "t": "Wie bitte? Die Verbindung ist schlecht.",
+                "n": "Sorry? The line is bad.",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ich fragte, um welche Stelle im Artikel es geht.",
+            "n": "I asked which passage in the article it’s about.",
+            "choices": [
+              {
+                "t": "Um den Satz, ich hätte die Schließung befürwortet.",
+                "n": "The sentence saying I supported the closure.",
+                "next": "check"
+              }
+            ]
+          },
+          "check": {
+            "t": "Laut meinen Notizen sagten Sie, die Schließung sei unvermeidlich.",
+            "n": "According to my notes, you said the closure was inevitable.",
+            "choices": [
+              {
+                "t": "Unvermeidlich ist nicht dasselbe wie wünschenswert. Das ist ein entscheidender Unterschied.",
+                "n": "Inevitable isn’t the same as desirable. That’s a crucial difference.",
+                "next": "concede"
+              },
+              {
+                "t": "Ihre Notizen sind offensichtlich wertlos.",
+                "n": "Your notes are obviously worthless.",
+                "next": "bad"
+              }
+            ]
+          },
+          "concede": {
+            "t": "Da haben Sie recht. Was schlagen Sie vor?",
+            "n": "You have a point there. What do you suggest?",
+            "choices": [
+              {
+                "t": "Ich bitte um eine Richtigstellung in der Online-Ausgabe.",
+                "n": "I’m asking for a correction in the online edition.",
+                "next": "good"
+              },
+              {
+                "t": "Ich erwarte eine Entschuldigung auf der Titelseite.",
+                "n": "I expect an apology on the front page.",
+                "next": "front"
+              }
+            ]
+          },
+          "front": {
+            "t": "Das ist leider unrealistisch. Eine Korrektur online kann ich Ihnen aber zusagen.",
+            "n": "I’m afraid that’s unrealistic. But I can promise you a correction online.",
+            "choices": [
+              {
+                "t": "Gut, damit bin ich einverstanden.",
+                "n": "Fine, I can agree to that.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Die Korrektur erscheint noch heute, mit dem Hinweis, dass wir Sie falsch zitiert haben.",
+            "n": "The correction will appear today, noting that we misquoted you.",
+            "end": "good",
+            "outcome": "You got a correction published without making an enemy of the newspaper."
+          },
+          "bad": {
+            "t": "In diesem Ton führe ich das Gespräch nicht weiter. Auf Wiederhören.",
+            "n": "I won’t continue this conversation in that tone. Goodbye.",
+            "end": "bad",
+            "outcome": "Attacking the journalist ended the call — state the difference calmly and ask for a correction."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the journalist he misquoted you.",
+          "t": [
+            "Sie haben mich falsch zitiert"
+          ]
+        },
+        {
+          "n": "Ask for a correction.",
+          "t": [
+            "Ich bitte um eine Richtigstellung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l7",
+      "kind": "speaking",
+      "title": "Words that stayed with you",
+      "goal": "Present a quotation that matters to you and report a public statement critically.",
+      "culture": {
+        "title": "Der Büchmann and German quotation marks",
+        "body": "Germans call famous quotations geflügelte Worte (“winged words”), a term popularised by Georg Büchmann’s 1864 collection, which is still reprinted today. Quoting Goethe, Schiller or Brecht signals Bildung, but a misattributed line is quickly noticed — and debate opponents love to point it out. In print, Germany and Austria use „low-high“ quotation marks, while Switzerland uses «guillemets».",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Der Spruch begleitet mich seit meiner Schulzeit.",
+          "n": "The saying has stayed with me since my school days."
+        },
+        {
+          "t": "Er bringt auf den Punkt, was ich oft erlebe.",
+          "n": "It sums up what I often experience."
+        },
+        {
+          "t": "Inzwischen sehe ich das differenzierter.",
+          "n": "Nowadays I see it in a more nuanced way."
+        }
+      ],
+      "free": [
+        {
+          "n": "Present a quotation or proverb that means something to you: where it comes from, what it means, and when it helped you.",
+          "hint": "Use: Mein Lieblingszitat stammt von …; Der Spruch bringt auf den Punkt, …; Als ich …, hat mir dieser Satz geholfen.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "the quotation itself",
+              "any": [
+                "zitat",
+                "spruch",
+                "sprichwort",
+                "motto",
+                "satz",
+                "heißt es"
+              ]
+            },
+            {
+              "label": "its source",
+              "any": [
+                "stammt",
+                "zugeschrieben",
+                "von",
+                "aus",
+                "nach"
+              ]
+            },
+            {
+              "label": "its meaning",
+              "any": [
+                "bedeutet",
+                "heißt",
+                "meint",
+                "sinn",
+                "auf den punkt"
+              ]
+            },
+            {
+              "label": "a personal experience",
+              "any": [
+                "als ich",
+                "damals",
+                "erlebt",
+                "erlebe",
+                "geholfen",
+                "hilft"
+              ]
+            }
+          ],
+          "model": "Mein Lieblingszitat stammt von Wilhelm Busch: Erstens kommt es anders, und zweitens als man denkt. Der Spruch bringt auf den Punkt, was ich oft erlebe: Pläne sind gut, aber man muss flexibel bleiben. Als mein Flug nach Lissabon gestrichen wurde, hat mir genau dieser Satz geholfen, gelassen zu bleiben."
+        },
+        {
+          "n": "Report what a public figure said recently, using indirect speech, then comment critically on it.",
+          "hint": "Use: Sie erklärte, … sei …; Er betonte, man werde …; Ich halte das für fraglich, denn …; Im Zusammenhang gesehen …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a reporting verb",
+              "any": [
+                "sagte",
+                "erklärte",
+                "behauptet*",
+                "betont*",
+                "meinte",
+                "zufolge",
+                "laut"
+              ]
+            },
+            {
+              "label": "reported speech (Konjunktiv)",
+              "any": [
+                "sei",
+                "habe",
+                "werde",
+                "könne",
+                "müsse",
+                "solle",
+                "würden",
+                "hätte*"
+              ]
+            },
+            {
+              "label": "your evaluation",
+              "any": [
+                "ich halte",
+                "meiner meinung",
+                "finde",
+                "fraglich",
+                "bezweifle",
+                "greift zu kurz",
+                "überzeugt"
+              ]
+            },
+            {
+              "label": "context",
+              "any": [
+                "zusammenhang",
+                "kontext",
+                "interview",
+                "rede",
+                "artikel"
+              ]
+            }
+          ],
+          "model": "Die Ministerin erklärte in einem Interview, die Energiewende sei auf einem guten Weg. Sie betonte außerdem, die Preise würden bald sinken. Ich halte das für fraglich, denn im Kontext steigender Netzkosten greift diese Aussage zu kurz."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the saying has stayed with you since your school days.",
+          "t": [
+            "Der Spruch begleitet mich seit meiner Schulzeit"
+          ]
+        },
+        {
+          "n": "Say that nowadays you see it in a more nuanced way.",
+          "t": [
+            "Inzwischen sehe ich das differenzierter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Geflügelte Worte",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

@@ -110,7 +110,8 @@
         "pron/u06-vokale.json",
         "pron/u07-satzmelodie.json",
         "pron/u08-cluster.json",
-        "pron/u09-rhythmus.json"
+        "pron/u09-rhythmus.json",
+        "pron/u10-regional.json"
       ]
     }
   ]

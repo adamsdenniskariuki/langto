@@ -13,35 +13,127 @@
         "body": "Mediators soften everything: Was bräuchten Sie …? Könnten wir uns …? Paraphrase before you propose (Wenn ich Sie richtig verstehe …), and replace a confrontational aber with und gleichzeitig. Speak a little lower and slower than the angry party; a calm voice lowers the temperature of the whole room."
       },
       "phrases": [
-        { "t": "Lassen wir die Vorwürfe mal beiseite.", "n": "Let's set the accusations aside for a moment." },
-        { "t": "Lassen Sie uns einen Schritt zurücktreten.", "n": "Let's take a step back." },
-        { "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.", "n": "If I understand you correctly, your main concern is being able to plan reliably." },
-        { "t": "Was bräuchten Sie, um zustimmen zu können?", "n": "What would you need in order to agree?" },
-        { "t": "Beide Seiten haben nachvollziehbare Gründe.", "n": "Both sides have understandable reasons." },
-        { "t": "Könnten wir uns zumindest auf einen Zeitplan einigen?", "n": "Could we at least agree on a timeline?" },
-        { "t": "Ich schlage einen Kompromiss vor: Wir testen das drei Monate lang.", "n": "I propose a compromise: we trial it for three months." },
-        { "t": "Ich glaube, Sie wollen im Grunde dasselbe.", "n": "I think you basically want the same thing." }
+        {
+          "t": "Lassen wir die Vorwürfe mal beiseite.",
+          "n": "Let's set the accusations aside for a moment."
+        },
+        {
+          "t": "Lassen Sie uns einen Schritt zurücktreten.",
+          "n": "Let's take a step back."
+        },
+        {
+          "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.",
+          "n": "If I understand you correctly, your main concern is being able to plan reliably."
+        },
+        {
+          "t": "Was bräuchten Sie, um zustimmen zu können?",
+          "n": "What would you need in order to agree?"
+        },
+        {
+          "t": "Beide Seiten haben nachvollziehbare Gründe.",
+          "n": "Both sides have understandable reasons."
+        },
+        {
+          "t": "Könnten wir uns zumindest auf einen Zeitplan einigen?",
+          "n": "Could we at least agree on a timeline?"
+        },
+        {
+          "t": "Ich schlage einen Kompromiss vor: Wir testen das drei Monate lang.",
+          "n": "I propose a compromise: we trial it for three months."
+        },
+        {
+          "t": "Ich glaube, Sie wollen im Grunde dasselbe.",
+          "n": "I think you basically want the same thing."
+        }
       ],
       "dialogue": {
         "title": "Sales versus IT",
         "lines": [
-          { "who": "A", "name": "Herr Wolf", "t": "Die IT blockiert seit Monaten alles! So kann ich einfach nicht arbeiten.", "n": "IT has been blocking everything for months! I simply can't work like this." },
-          { "who": "you", "t": "Lassen wir die Vorwürfe mal beiseite. Was genau brauchen Sie?", "n": "Let's set the accusations aside for a moment. What exactly do you need?" },
-          { "who": "A", "name": "Herr Wolf", "t": "Ich muss wissen, wann das neue System endlich kommt. Meine Kunden fragen jeden Tag danach.", "n": "I need to know when the new system is finally coming. My customers ask about it every day." },
-          { "who": "you", "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.", "n": "If I understand you correctly, your main concern is being able to plan reliably." },
-          { "who": "A", "name": "Herr Wolf", "t": "Genau. Aber die IT will sich ja auf nichts festlegen.", "n": "Exactly. But IT won't commit to anything." },
-          { "who": "you", "t": "Die IT will Fehler vermeiden. Beide Seiten haben nachvollziehbare Gründe.", "n": "IT wants to avoid mistakes. Both sides have understandable reasons." },
-          { "who": "A", "name": "Herr Wolf", "t": "Mag sein. Und was schlagen Sie vor?", "n": "Maybe. So what do you suggest?" },
-          { "who": "you", "t": "Ich schlage einen Kompromiss vor: Wir testen das System drei Monate lang mit Ihrem Team.", "n": "I propose a compromise: we trial the system with your team for three months." },
-          { "who": "A", "name": "Herr Wolf", "t": "Damit könnte ich leben, wenn es einen festen Starttermin gibt.", "n": "I could live with that if there's a fixed start date." },
-          { "who": "you", "t": "Gut. Ich glaube, Sie wollen im Grunde dasselbe.", "n": "Good. I think you basically want the same thing." }
+          {
+            "who": "A",
+            "name": "Herr Wolf",
+            "t": "Die IT blockiert seit Monaten alles! So kann ich einfach nicht arbeiten.",
+            "n": "IT has been blocking everything for months! I simply can't work like this."
+          },
+          {
+            "who": "you",
+            "t": "Lassen wir die Vorwürfe mal beiseite. Was genau brauchen Sie?",
+            "n": "Let's set the accusations aside for a moment. What exactly do you need?"
+          },
+          {
+            "who": "A",
+            "name": "Herr Wolf",
+            "t": "Ich muss wissen, wann das neue System endlich kommt. Meine Kunden fragen jeden Tag danach.",
+            "n": "I need to know when the new system is finally coming. My customers ask about it every day."
+          },
+          {
+            "who": "you",
+            "t": "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit.",
+            "n": "If I understand you correctly, your main concern is being able to plan reliably."
+          },
+          {
+            "who": "A",
+            "name": "Herr Wolf",
+            "t": "Genau. Aber die IT will sich ja auf nichts festlegen.",
+            "n": "Exactly. But IT won't commit to anything."
+          },
+          {
+            "who": "you",
+            "t": "Die IT will Fehler vermeiden. Beide Seiten haben nachvollziehbare Gründe.",
+            "n": "IT wants to avoid mistakes. Both sides have understandable reasons."
+          },
+          {
+            "who": "A",
+            "name": "Herr Wolf",
+            "t": "Mag sein. Und was schlagen Sie vor?",
+            "n": "Maybe. So what do you suggest?"
+          },
+          {
+            "who": "you",
+            "t": "Ich schlage einen Kompromiss vor: Wir testen das System drei Monate lang mit Ihrem Team.",
+            "n": "I propose a compromise: we trial the system with your team for three months."
+          },
+          {
+            "who": "A",
+            "name": "Herr Wolf",
+            "t": "Damit könnte ich leben, wenn es einen festen Starttermin gibt.",
+            "n": "I could live with that if there's a fixed start date."
+          },
+          {
+            "who": "you",
+            "t": "Gut. Ich glaube, Sie wollen im Grunde dasselbe.",
+            "n": "Good. I think you basically want the same thing."
+          }
         ]
       },
       "prompts": [
-        { "n": "Suggest setting the accusations aside.", "t": ["Lassen wir die Vorwürfe mal beiseite", "Lassen wir die Vorwürfe beiseite"] },
-        { "n": "Paraphrase: his main concern is being able to plan reliably.", "t": ["Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit", "Es geht Ihnen vor allem um Planungssicherheit"] },
-        { "n": "Ask what they would need in order to agree.", "t": ["Was bräuchten Sie, um zustimmen zu können", "Was bräuchten Sie, um zuzustimmen"] },
-        { "n": "Acknowledge that both sides have understandable reasons.", "t": ["Beide Seiten haben nachvollziehbare Gründe"] }
+        {
+          "n": "Suggest setting the accusations aside.",
+          "t": [
+            "Lassen wir die Vorwürfe mal beiseite",
+            "Lassen wir die Vorwürfe beiseite"
+          ]
+        },
+        {
+          "n": "Paraphrase: his main concern is being able to plan reliably.",
+          "t": [
+            "Wenn ich Sie richtig verstehe, geht es Ihnen vor allem um Planungssicherheit",
+            "Es geht Ihnen vor allem um Planungssicherheit"
+          ]
+        },
+        {
+          "n": "Ask what they would need in order to agree.",
+          "t": [
+            "Was bräuchten Sie, um zustimmen zu können",
+            "Was bräuchten Sie, um zuzustimmen"
+          ]
+        },
+        {
+          "n": "Acknowledge that both sides have understandable reasons.",
+          "t": [
+            "Beide Seiten haben nachvollziehbare Gründe"
+          ]
+        }
       ]
     },
     {
@@ -53,37 +145,704 @@
         "body": "When you report others' views, Konjunktiv I (seien, verliere, habe) signals 'this is their claim, not mine'. Structure your summary aloud: two positions, common ground, open question, one-line essence. Pause clearly between positions and keep a flat, neutral intonation so nobody hears you taking sides."
       },
       "phrases": [
-        { "t": "Zusammengefasst lassen sich zwei Positionen unterscheiden.", "n": "In summary, two positions can be distinguished." },
-        { "t": "Die eine Seite argumentiert, die Kosten seien zu hoch.", "n": "One side argues that the costs are too high.", "note": "seien = Konjunktiv I for reported speech." },
-        { "t": "Die andere Seite hält dagegen, ohne Investitionen verliere man den Anschluss.", "n": "The other side counters that without investment you fall behind." },
-        { "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss.", "n": "The only point of agreement is that action is needed." },
-        { "t": "Strittig bleibt vor allem die Frage der Finanzierung.", "n": "The main point of contention remains financing." },
-        { "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.", "n": "To put it pointedly: security versus progress." },
-        { "t": "Ich gebe das bewusst neutral wieder.", "n": "I'm deliberately rendering this neutrally." },
-        { "t": "Habe ich Ihre Position damit korrekt wiedergegeben?", "n": "Have I represented your position correctly?" }
+        {
+          "t": "Zusammengefasst lassen sich zwei Positionen unterscheiden.",
+          "n": "In summary, two positions can be distinguished."
+        },
+        {
+          "t": "Die eine Seite argumentiert, die Kosten seien zu hoch.",
+          "n": "One side argues that the costs are too high.",
+          "note": "seien = Konjunktiv I for reported speech."
+        },
+        {
+          "t": "Die andere Seite hält dagegen, ohne Investitionen verliere man den Anschluss.",
+          "n": "The other side counters that without investment you fall behind."
+        },
+        {
+          "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss.",
+          "n": "The only point of agreement is that action is needed."
+        },
+        {
+          "t": "Strittig bleibt vor allem die Frage der Finanzierung.",
+          "n": "The main point of contention remains financing."
+        },
+        {
+          "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.",
+          "n": "To put it pointedly: security versus progress."
+        },
+        {
+          "t": "Ich gebe das bewusst neutral wieder.",
+          "n": "I'm deliberately rendering this neutrally."
+        },
+        {
+          "t": "Habe ich Ihre Position damit korrekt wiedergegeben?",
+          "n": "Have I represented your position correctly?"
+        }
       ],
       "dialogue": {
         "title": "Summing up for the board",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Hoffmann", "t": "Wir diskutieren jetzt seit zwei Stunden. Können Sie die Lage kurz zusammenfassen?", "n": "We've been discussing this for two hours. Could you briefly sum up where we are?" },
-          { "who": "you", "t": "Gern. Zusammengefasst lassen sich zwei Positionen unterscheiden.", "n": "Certainly. In summary, two positions can be distinguished." },
-          { "who": "A", "name": "Dr. Hoffmann", "t": "Fangen Sie mit der Finanzabteilung an.", "n": "Start with the finance department." },
-          { "who": "you", "t": "Die Finanzabteilung argumentiert, die Kosten seien zu hoch.", "n": "The finance department argues that the costs are too high." },
-          { "who": "A", "name": "Dr. Hoffmann", "t": "Und die Entwicklung?", "n": "And R&D?" },
-          { "who": "you", "t": "Die Entwicklung hält dagegen, ohne Investitionen verliere man den Anschluss.", "n": "R&D counters that without investment we'll fall behind." },
-          { "who": "A", "name": "Dr. Hoffmann", "t": "Gibt es denn überhaupt Gemeinsamkeiten?", "n": "Is there any common ground at all?" },
-          { "who": "you", "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss. Strittig bleibt die Finanzierung.", "n": "The only agreement is that action is needed. Financing remains disputed." },
-          { "who": "A", "name": "Dr. Hoffmann", "t": "Sehr klar. Und wenn Sie es auf einen Satz bringen müssten?", "n": "Very clear. And if you had to put it in one sentence?" },
-          { "who": "you", "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.", "n": "To put it pointedly: security versus progress." }
+          {
+            "who": "A",
+            "name": "Dr. Hoffmann",
+            "t": "Wir diskutieren jetzt seit zwei Stunden. Können Sie die Lage kurz zusammenfassen?",
+            "n": "We've been discussing this for two hours. Could you briefly sum up where we are?"
+          },
+          {
+            "who": "you",
+            "t": "Gern. Zusammengefasst lassen sich zwei Positionen unterscheiden.",
+            "n": "Certainly. In summary, two positions can be distinguished."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Hoffmann",
+            "t": "Fangen Sie mit der Finanzabteilung an.",
+            "n": "Start with the finance department."
+          },
+          {
+            "who": "you",
+            "t": "Die Finanzabteilung argumentiert, die Kosten seien zu hoch.",
+            "n": "The finance department argues that the costs are too high."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Hoffmann",
+            "t": "Und die Entwicklung?",
+            "n": "And R&D?"
+          },
+          {
+            "who": "you",
+            "t": "Die Entwicklung hält dagegen, ohne Investitionen verliere man den Anschluss.",
+            "n": "R&D counters that without investment we'll fall behind."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Hoffmann",
+            "t": "Gibt es denn überhaupt Gemeinsamkeiten?",
+            "n": "Is there any common ground at all?"
+          },
+          {
+            "who": "you",
+            "t": "Einig ist man sich lediglich darin, dass gehandelt werden muss. Strittig bleibt die Finanzierung.",
+            "n": "The only agreement is that action is needed. Financing remains disputed."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Hoffmann",
+            "t": "Sehr klar. Und wenn Sie es auf einen Satz bringen müssten?",
+            "n": "Very clear. And if you had to put it in one sentence?"
+          },
+          {
+            "who": "you",
+            "t": "Überspitzt formuliert: Sicherheit gegen Fortschritt.",
+            "n": "To put it pointedly: security versus progress."
+          }
         ]
       },
       "prompts": [
-        { "n": "Report that one side argues the costs are too high.", "t": ["Die eine Seite argumentiert, die Kosten seien zu hoch"] },
-        { "n": "Say the only point of agreement is that action is needed.", "t": ["Einig ist man sich lediglich darin, dass gehandelt werden muss", "Einig ist man sich nur darin, dass gehandelt werden muss"] },
-        { "n": "Check whether you've represented someone's position correctly.", "t": ["Habe ich Ihre Position damit korrekt wiedergegeben", "Habe ich Ihre Position korrekt wiedergegeben"] },
-        { "n": "Sum it up pointedly as security versus progress.", "t": ["Überspitzt formuliert: Sicherheit gegen Fortschritt", "Sicherheit gegen Fortschritt"] }
+        {
+          "n": "Report that one side argues the costs are too high.",
+          "t": [
+            "Die eine Seite argumentiert, die Kosten seien zu hoch"
+          ]
+        },
+        {
+          "n": "Say the only point of agreement is that action is needed.",
+          "t": [
+            "Einig ist man sich lediglich darin, dass gehandelt werden muss",
+            "Einig ist man sich nur darin, dass gehandelt werden muss"
+          ]
+        },
+        {
+          "n": "Check whether you've represented someone's position correctly.",
+          "t": [
+            "Habe ich Ihre Position damit korrekt wiedergegeben",
+            "Habe ich Ihre Position korrekt wiedergegeben"
+          ]
+        },
+        {
+          "n": "Sum it up pointedly as security versus progress.",
+          "t": [
+            "Überspitzt formuliert: Sicherheit gegen Fortschritt",
+            "Sicherheit gegen Fortschritt"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u05-l3",
+      "title": "Relaying and rephrasing",
+      "goal": "Pass on what someone meant — not just what they said — to a third party.",
+      "tip": {
+        "title": "Sinn vor Wortlaut",
+        "body": "Good mediators relay the intention, not the literal words: Sinngemäß hat er gesagt … or Worauf sie eigentlich hinauswill, ist … Flag when something doesn’t translate one-to-one, and offer a free rendering instead."
+      },
+      "phrases": [
+        {
+          "t": "Sinngemäß hat er gesagt, dass er mehr Zeit braucht.",
+          "n": "Roughly speaking, he said he needs more time."
+        },
+        {
+          "t": "Mit anderen Worten: Das Angebot steht, aber nur bis Freitag.",
+          "n": "In other words: the offer stands, but only until Friday."
+        },
+        {
+          "t": "Worauf sie eigentlich hinauswill, ist mehr Mitsprache.",
+          "n": "What she is really getting at is more of a say."
+        },
+        {
+          "t": "Das lässt sich nicht eins zu eins übersetzen.",
+          "n": "That can’t be translated one-to-one."
+        },
+        {
+          "t": "Frei übertragen heißt das etwa: Wir sitzen alle im selben Boot.",
+          "n": "Freely rendered, it means something like: we’re all in the same boat."
+        }
+      ],
+      "dialogue": {
+        "title": "After the call with Lyon",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Was hat der Kunde aus Lyon denn gesagt? Ich habe kaum etwas verstanden.",
+            "n": "So what did the client from Lyon say? I hardly understood a thing."
+          },
+          {
+            "who": "you",
+            "t": "Sinngemäß hat er gesagt, dass er mehr Zeit braucht.",
+            "n": "Roughly speaking, he said he needs more time."
+          },
+          {
+            "who": "A",
+            "name": "Frau Berger",
+            "t": "Und wie ernst ist das gemeint?",
+            "n": "And how seriously is that meant?"
+          },
+          {
+            "who": "you",
+            "t": "Worauf er eigentlich hinauswill, ist ein besserer Preis.",
+            "n": "What he’s really getting at is a better price."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that, roughly speaking, he said he needs more time.",
+          "t": [
+            "Sinngemäß hat er gesagt, dass er mehr Zeit braucht"
+          ]
+        },
+        {
+          "n": "Say that it can’t be translated one-to-one.",
+          "t": [
+            "Das lässt sich nicht eins zu eins übersetzen"
+          ]
+        },
+        {
+          "n": "Say what she is really getting at is more of a say.",
+          "t": [
+            "Worauf sie eigentlich hinauswill, ist mehr Mitsprache"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l4",
+      "kind": "grammar",
+      "title": "Reported speech and its stand-ins",
+      "goal": "Report others’ words neutrally with Konjunktiv I — and switch to Konjunktiv II when needed.",
+      "tip": {
+        "title": "Konjunktiv I, unless it looks like the indicative",
+        "body": "Neutral reporting uses Konjunktiv I: er habe, sie sei, man werde. Where Konjunktiv I is identical to the indicative (sie haben, sie können), switch to Konjunktiv II: sie hätten, sie könnten. dass is optional — without it, the verb stays in second position: Sie sagt, sie sei bereit."
+      },
+      "phrases": [
+        {
+          "t": "Sie betont, sie sei zu Gesprächen bereit.",
+          "n": "She stresses that she is open to talks."
+        },
+        {
+          "t": "Er behauptet, er habe davon nichts gewusst.",
+          "n": "He claims he knew nothing about it."
+        },
+        {
+          "t": "Die Mitarbeiter sagen, sie hätten keine Zeit für Schulungen.",
+          "n": "The staff say they have no time for training.",
+          "note": "hätten replaces haben, which would look like the indicative."
+        },
+        {
+          "t": "Die Leitung erklärt, man werde die Sache prüfen.",
+          "n": "Management says it will look into the matter."
+        },
+        {
+          "t": "Sie fragt, ob wir den Termin verschieben könnten.",
+          "n": "She asks whether we could postpone the meeting."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the speaker",
+          "base": {
+            "t": "Er sagt, er habe keine Zeit.",
+            "n": "He says he has no time."
+          },
+          "items": [
+            {
+              "cue": "die Chefin",
+              "t": "Die Chefin sagt, sie habe keine Zeit.",
+              "n": "The boss says she has no time."
+            },
+            {
+              "cue": "die Kollegen",
+              "t": "Die Kollegen sagen, sie hätten keine Zeit.",
+              "n": "The colleagues say they have no time."
+            },
+            {
+              "cue": "der Betriebsrat",
+              "t": "Der Betriebsrat sagt, er habe keine Zeit.",
+              "n": "The works council says it has no time."
+            }
+          ]
+        },
+        {
+          "title": "Swap direct → reported",
+          "base": {
+            "t": "Sie sagt, sie sei verärgert.",
+            "n": "She says she is annoyed."
+          },
+          "items": [
+            {
+              "cue": "„Ich bin enttäuscht.“",
+              "t": "Sie sagt, sie sei enttäuscht.",
+              "n": "She says she is disappointed."
+            },
+            {
+              "cue": "„Ich kann nicht kommen.“",
+              "t": "Sie sagt, sie könne nicht kommen.",
+              "n": "She says she can’t come."
+            },
+            {
+              "cue": "„Ich werde kündigen.“",
+              "t": "Sie sagt, sie werde kündigen.",
+              "n": "She says she will resign."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Report neutrally that he claims he knew nothing about it.",
+          "t": [
+            "Er behauptet, er habe davon nichts gewusst"
+          ]
+        },
+        {
+          "n": "Report that she stresses she is open to talks.",
+          "t": [
+            "Sie betont, sie sei zu Gesprächen bereit",
+            "Sie sagt, sie sei zu Gesprächen bereit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l5",
+      "kind": "listening",
+      "title": "A neighbourhood dispute",
+      "goal": "Follow a mediator relaying positions between two neighbours.",
+      "phrases": [
+        {
+          "t": "Ihre Nachbarin sagt, die Musik sei bis Mitternacht zu hören.",
+          "n": "Your neighbour says the music can be heard until midnight."
+        },
+        {
+          "t": "Wenn ich Sie richtig verstehe, sehen Sie das Problem vor allem am Samstag.",
+          "n": "If I understand you correctly, you see the problem mainly on Saturdays."
+        },
+        {
+          "t": "Frau Kühn wiederum betont, sie müsse sonntags früh zur Arbeit.",
+          "n": "Ms Kühn, for her part, stresses that she has to go to work early on Sundays."
+        },
+        {
+          "t": "Dann würde ich vorschlagen, dass wir samstags ab elf die Fenster schließen.",
+          "n": "Then I’d suggest we close the windows from eleven on Saturdays."
+        }
+      ],
+      "story": {
+        "title": "Music until midnight",
+        "intro": "A community mediator talks to a bar owner about a neighbour’s noise complaint.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Frau Albers",
+            "t": "Herr Demir, Ihre Nachbarin sagt, die Musik aus Ihrem Lokal sei bis Mitternacht zu hören.",
+            "n": "Mr Demir, your neighbour says the music from your bar can be heard until midnight."
+          },
+          {
+            "name": "Herr Demir",
+            "voice": "de-DE-ConradNeural",
+            "t": "Das stimmt nur am Wochenende. Unter der Woche schließen wir um zehn.",
+            "n": "That’s only true at weekends. During the week we close at ten."
+          },
+          {
+            "name": "Frau Albers",
+            "t": "Wenn ich Sie richtig verstehe, sehen Sie das Problem vor allem am Samstag.",
+            "n": "If I understand you correctly, you see the problem mainly on Saturdays."
+          },
+          {
+            "name": "Herr Demir",
+            "voice": "de-DE-ConradNeural",
+            "t": "Genau. Und ohne die Samstage könnte ich meine Miete nicht zahlen.",
+            "n": "Exactly. And without Saturdays I couldn’t pay my rent."
+          },
+          {
+            "name": "Frau Albers",
+            "t": "Frau Kühn wiederum betont, sie müsse sonntags früh zur Arbeit.",
+            "n": "Ms Kühn, for her part, stresses that she has to go to work early on Sundays."
+          },
+          {
+            "name": "Herr Demir",
+            "voice": "de-DE-ConradNeural",
+            "t": "Dann würde ich vorschlagen, dass wir samstags ab elf die Fenster schließen.",
+            "n": "Then I’d suggest we close the windows from eleven on Saturdays."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wann schließt das Lokal unter der Woche?",
+            "n": "When does the bar close during the week?",
+            "t": [
+              "Um zehn",
+              "Um zehn Uhr",
+              "Bis zehn"
+            ]
+          },
+          {
+            "q": "Warum braucht Herr Demir die Samstage?",
+            "n": "Why does Mr Demir need Saturdays?",
+            "t": [
+              "Für die Miete",
+              "Um die Miete zu zahlen",
+              "Sonst kann er die Miete nicht zahlen"
+            ]
+          },
+          {
+            "q": "Was schlägt Herr Demir vor?",
+            "n": "What does Mr Demir suggest?",
+            "t": [
+              "Die Fenster zu schließen",
+              "Samstags ab elf die Fenster schließen",
+              "Die Fenster schließen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u05-l6",
+      "kind": "roleplay",
+      "title": "Mediating a team conflict",
+      "goal": "Get an angry team lead from blame to a concrete agreement.",
+      "phrases": [
+        {
+          "t": "Was genau ist passiert?",
+          "n": "What exactly happened?"
+        },
+        {
+          "t": "Das war unglücklich formuliert.",
+          "n": "That was badly phrased."
+        },
+        {
+          "t": "Es geht Ihnen also vor allem um Verlässlichkeit.",
+          "n": "So what matters most to you is reliability."
+        },
+        {
+          "t": "Ich schlage vor, wir besprechen das morgen zu dritt.",
+          "n": "I suggest the three of us discuss it tomorrow."
+        }
+      ],
+      "branch": {
+        "title": "Missed deadlines",
+        "scene": "As an internal mediator, you meet project lead Ms Roth, who is furious with her colleague Jonas.",
+        "name": "Frau Roth",
+        "voice": "de-DE-AmalaNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Ehrlich gesagt habe ich keine Lust mehr. Jonas hält sich an keine einzige Frist.",
+            "n": "Honestly, I’ve had enough. Jonas doesn’t keep a single deadline.",
+            "choices": [
+              {
+                "t": "Lassen wir die Vorwürfe mal beiseite. Was genau ist passiert?",
+                "n": "Let’s set the accusations aside for a moment. What exactly happened?",
+                "next": "facts"
+              },
+              {
+                "t": "Na ja, Sie sind ja auch nicht ganz unschuldig.",
+                "n": "Well, you’re not entirely blameless either.",
+                "next": "defensive"
+              }
+            ]
+          },
+          "defensive": {
+            "t": "Wie bitte? Ich dachte, Sie sollen hier neutral sein!",
+            "n": "Excuse me? I thought you were supposed to be neutral here!",
+            "choices": [
+              {
+                "t": "Entschuldigung, das war unglücklich formuliert. Erzählen Sie mir, was passiert ist.",
+                "n": "Sorry, that was badly phrased. Tell me what happened.",
+                "next": "facts"
+              },
+              {
+                "t": "Neutral heißt nicht, dass ich Ihnen recht gebe.",
+                "n": "Neutral doesn’t mean I agree with you.",
+                "next": "bad"
+              }
+            ]
+          },
+          "facts": {
+            "t": "Der Bericht war für Montag vereinbart. Er kam am Donnerstag, ohne ein Wort der Erklärung.",
+            "n": "The report was agreed for Monday. It arrived on Thursday without a word of explanation.",
+            "choices": [
+              {
+                "t": "Wenn ich Sie richtig verstehe, stört Sie weniger die Verspätung als das Schweigen.",
+                "n": "If I understand you correctly, it’s less the delay that bothers you than the silence.",
+                "next": "insight"
+              },
+              {
+                "t": "Könnten Sie das präzisieren? Was hat Sie am meisten gestört?",
+                "n": "Could you be more specific? What bothered you most?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Am meisten stört mich, dass er nicht Bescheid gibt. Verspätungen passieren ja.",
+            "n": "What bothers me most is that he doesn’t let me know. Delays happen.",
+            "choices": [
+              {
+                "t": "Es geht Ihnen also vor allem um Verlässlichkeit.",
+                "n": "So what matters most to you is reliability.",
+                "next": "insight"
+              }
+            ]
+          },
+          "insight": {
+            "t": "Genau. Wenn er rechtzeitig Bescheid gäbe, könnte ich ja umplanen.",
+            "n": "Exactly. If he let me know in time, I could replan.",
+            "choices": [
+              {
+                "t": "Was bräuchten Sie, um wieder gut mit ihm zusammenzuarbeiten?",
+                "n": "What would you need to work well with him again?",
+                "next": "proposal"
+              },
+              {
+                "t": "Dann sage ich Jonas, dass er sich zusammenreißen soll.",
+                "n": "Then I’ll tell Jonas to pull himself together.",
+                "next": "bad"
+              }
+            ]
+          },
+          "proposal": {
+            "t": "Eine kurze Nachricht, sobald sich etwas verzögert. Mehr nicht.",
+            "n": "A short message as soon as something is delayed. Nothing more.",
+            "choices": [
+              {
+                "t": "Gut. Ich schlage vor, wir besprechen das morgen zu dritt.",
+                "n": "Good. I suggest the three of us discuss it tomorrow.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Einverstanden. Danke, dass Sie mir wirklich zugehört haben.",
+            "n": "Agreed. Thank you for really listening to me.",
+            "end": "good",
+            "outcome": "You uncovered the real need behind the anger and set up a joint meeting."
+          },
+          "bad": {
+            "t": "Dann brauchen wir dieses Gespräch auch nicht fortzusetzen.",
+            "n": "Then there’s no need to continue this conversation.",
+            "end": "bad",
+            "outcome": "You took sides or went over her head — paraphrase her need before proposing anything."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Apologise that what you said was badly phrased.",
+          "t": [
+            "Das war unglücklich formuliert",
+            "Entschuldigung, das war unglücklich formuliert"
+          ]
+        },
+        {
+          "n": "Suggest that the three of you discuss it tomorrow.",
+          "t": [
+            "Ich schlage vor, wir besprechen das morgen zu dritt",
+            "Wir besprechen das morgen zu dritt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l7",
+      "kind": "speaking",
+      "title": "Summarise and mediate",
+      "goal": "Summarise a dispute neutrally and mediate between two sides for 90 seconds.",
+      "culture": {
+        "title": "Schlichtung and Mitbestimmung",
+        "body": "Germany has a strong culture of institutionalised mediation. In wage disputes a neutral Schlichter is often called in before strikes escalate, and the Betriebsrat (works council) gives employees a legal say in many workplace decisions. Courts also routinely attempt a Güteverhandlung (conciliation hearing) before a trial, so seeking consensus is seen as professional, not weak.",
+        "regions": [
+          "DE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Aus Sicht der Mieter ist die Erhöhung unzumutbar.",
+          "n": "From the tenants’ point of view, the increase is unreasonable."
+        },
+        {
+          "t": "Der Vermieter wiederum verweist auf gestiegene Kosten.",
+          "n": "The landlord, for his part, points to increased costs."
+        },
+        {
+          "t": "Ein möglicher Mittelweg wäre eine gestaffelte Erhöhung.",
+          "n": "A possible middle way would be a staggered increase."
+        },
+        {
+          "t": "Es geht weniger um Geld als um Vertrauen.",
+          "n": "It’s less about money than about trust."
+        }
+      ],
+      "free": [
+        {
+          "n": "Summarise a conflict you know (at work, among friends or in the news) neutrally: both positions, common ground and the open question.",
+          "hint": "Use: Die eine Seite argumentiert, … sei …; Die andere Seite hält dagegen …; Einig ist man sich darin, dass …; Strittig bleibt …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "one side’s position",
+              "any": [
+                "die eine seite",
+                "einerseits",
+                "aus sicht",
+                "argumentier*",
+                "ist der meinung",
+                "vertritt"
+              ]
+            },
+            {
+              "label": "the other side",
+              "any": [
+                "die andere seite",
+                "andererseits",
+                "hält dagegen",
+                "wiederum",
+                "verweist"
+              ]
+            },
+            {
+              "label": "reported speech (Konjunktiv I/II)",
+              "any": [
+                "sei",
+                "habe",
+                "könne",
+                "müsse",
+                "werde",
+                "solle",
+                "hätten",
+                "seien"
+              ]
+            },
+            {
+              "label": "common ground or open issue",
+              "any": [
+                "einig",
+                "gemeinsam*",
+                "strittig",
+                "offen",
+                "umstritten"
+              ]
+            }
+          ],
+          "model": "Im Streit um die Mieterhöhung lassen sich zwei Positionen unterscheiden. Die Mieter argumentieren, die Erhöhung sei unzumutbar; der Vermieter wiederum verweist auf gestiegene Kosten. Einig ist man sich darin, dass das Haus saniert werden muss. Strittig bleibt, wer das bezahlen soll."
+        },
+        {
+          "n": "Two friends are arguing about where to spend the holidays. Paraphrase each side, validate both and propose a compromise.",
+          "hint": "Use: Wenn ich euch richtig verstehe, …; Dir geht es vor allem um …; Beides ist nachvollziehbar; Ein möglicher Mittelweg wäre …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "paraphrase",
+              "any": [
+                "wenn ich dich richtig verstehe",
+                "wenn ich euch richtig verstehe",
+                "geht es dir",
+                "geht es euch",
+                "geht es ihr",
+                "geht es ihm",
+                "mit anderen worten",
+                "sinngemäß"
+              ]
+            },
+            {
+              "label": "validate both sides",
+              "any": [
+                "beide",
+                "beides",
+                "nachvollziehbar",
+                "verständlich",
+                "verstehe"
+              ]
+            },
+            {
+              "label": "propose a compromise",
+              "any": [
+                "kompromiss",
+                "mittelweg",
+                "vorschlag",
+                "schlage",
+                "wie wäre es"
+              ]
+            },
+            {
+              "label": "softening subjunctive",
+              "any": [
+                "wäre",
+                "könnte*",
+                "würde*",
+                "bräuchte*",
+                "hätte*"
+              ]
+            }
+          ],
+          "model": "Wenn ich euch richtig verstehe, geht es Lisa vor allem um Erholung und Paul um Abwechslung. Beides ist nachvollziehbar. Ein möglicher Mittelweg wäre eine Woche am Meer und danach drei Tage in Lissabon. Könntet ihr damit leben?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say a possible middle way would be a staggered increase.",
+          "t": [
+            "Ein möglicher Mittelweg wäre eine gestaffelte Erhöhung"
+          ]
+        },
+        {
+          "n": "Say it’s less about money than about trust.",
+          "t": [
+            "Es geht weniger um Geld als um Vertrauen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Vermitteln",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

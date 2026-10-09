@@ -13,34 +13,125 @@
         "body": "Austrian German is a full standard variety, not a dialect: Jänner, Paradeiser, Erdäpfel, Marille, Schlagobers and Sackerl are perfectly correct in Vienna. Greet with Grüß Gott in shops and Servus among friends. You don't need to imitate the accent; just use the words with a relaxed, melodic tone and let vowels sound a little softer."
       },
       "phrases": [
-        { "t": "Servus, wie geht's dir?", "n": "Hi, how are you?", "note": "Informal; means both hello and bye in Austria and Bavaria." },
-        { "t": "Grüß Gott, ich hätte gern einen Verlängerten.", "n": "Hello, I'd like a Verlängerter, please.", "note": "Espresso topped up with hot water, a Viennese café classic." },
-        { "t": "Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.", "n": "A kilo of tomatoes and half a kilo of potatoes, please.", "note": "Paradeiser = Tomaten, Erdäpfel = Kartoffeln." },
-        { "t": "Im Jänner fahren wir immer Ski.", "n": "In January we always go skiing.", "note": "Jänner = Januar." },
-        { "t": "Können Sie mir ein Sackerl geben?", "n": "Could you give me a bag?", "note": "Sackerl = Tüte." },
-        { "t": "Heuer war der Sommer besonders heiß.", "n": "This year the summer was particularly hot.", "note": "heuer = dieses Jahr." },
-        { "t": "Ich nehme die Marillenknödel mit Schlagobers.", "n": "I'll have the apricot dumplings with whipped cream.", "note": "Marille = Aprikose, Schlagobers = Sahne." },
-        { "t": "Auf Wiederschauen und schönes Wochenende!", "n": "Goodbye and have a nice weekend!", "note": "Austrian and Bavarian for Auf Wiedersehen." }
+        {
+          "t": "Servus, wie geht's dir?",
+          "n": "Hi, how are you?",
+          "note": "Informal; means both hello and bye in Austria and Bavaria."
+        },
+        {
+          "t": "Grüß Gott, ich hätte gern einen Verlängerten.",
+          "n": "Hello, I'd like a Verlängerter, please.",
+          "note": "Espresso topped up with hot water, a Viennese café classic."
+        },
+        {
+          "t": "Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.",
+          "n": "A kilo of tomatoes and half a kilo of potatoes, please.",
+          "note": "Paradeiser = Tomaten, Erdäpfel = Kartoffeln."
+        },
+        {
+          "t": "Im Jänner fahren wir immer Ski.",
+          "n": "In January we always go skiing.",
+          "note": "Jänner = Januar."
+        },
+        {
+          "t": "Können Sie mir ein Sackerl geben?",
+          "n": "Could you give me a bag?",
+          "note": "Sackerl = Tüte."
+        },
+        {
+          "t": "Heuer war der Sommer besonders heiß.",
+          "n": "This year the summer was particularly hot.",
+          "note": "heuer = dieses Jahr."
+        },
+        {
+          "t": "Ich nehme die Marillenknödel mit Schlagobers.",
+          "n": "I'll have the apricot dumplings with whipped cream.",
+          "note": "Marille = Aprikose, Schlagobers = Sahne."
+        },
+        {
+          "t": "Auf Wiederschauen und schönes Wochenende!",
+          "n": "Goodbye and have a nice weekend!",
+          "note": "Austrian and Bavarian for Auf Wiedersehen."
+        }
       ],
       "dialogue": {
         "title": "At the Naschmarkt in Vienna",
         "voice": "de-AT-IngridNeural",
         "lines": [
-          { "who": "A", "name": "Marktfrau", "t": "Grüß Gott! Was darf's denn sein?", "n": "Hello! What can I get you?" },
-          { "who": "you", "t": "Grüß Gott! Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.", "n": "Hello! A kilo of tomatoes and half a kilo of potatoes, please." },
-          { "who": "A", "name": "Marktfrau", "t": "Gern. Die Marillen sind heuer übrigens besonders süß. Möchten Sie eine kosten?", "n": "Sure. The apricots are especially sweet this year, by the way. Would you like to try one?" },
-          { "who": "you", "t": "Ja, gern. Heuer war der Sommer ja besonders heiß.", "n": "Yes, please. The summer was particularly hot this year, after all." },
-          { "who": "A", "name": "Marktfrau", "t": "Eben, deshalb sind sie so gut. Darf's sonst noch was sein?", "n": "Exactly, that's why they're so good. Anything else?" },
-          { "who": "you", "t": "Ein halbes Kilo Marillen, bitte. Können Sie mir ein Sackerl geben?", "n": "Half a kilo of apricots, please. Could you give me a bag?" },
-          { "who": "A", "name": "Marktfrau", "t": "Freilich. Das macht dann neun Euro achtzig.", "n": "Of course. That comes to nine euros eighty." },
-          { "who": "you", "t": "Bitte schön. Auf Wiederschauen und schönes Wochenende!", "n": "Here you go. Goodbye and have a nice weekend!" }
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Grüß Gott! Was darf's denn sein?",
+            "n": "Hello! What can I get you?"
+          },
+          {
+            "who": "you",
+            "t": "Grüß Gott! Ein Kilo Paradeiser und ein halbes Kilo Erdäpfel, bitte.",
+            "n": "Hello! A kilo of tomatoes and half a kilo of potatoes, please."
+          },
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Gern. Die Marillen sind heuer übrigens besonders süß. Möchten Sie eine kosten?",
+            "n": "Sure. The apricots are especially sweet this year, by the way. Would you like to try one?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, gern. Heuer war der Sommer ja besonders heiß.",
+            "n": "Yes, please. The summer was particularly hot this year, after all."
+          },
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Eben, deshalb sind sie so gut. Darf's sonst noch was sein?",
+            "n": "Exactly, that's why they're so good. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Ein halbes Kilo Marillen, bitte. Können Sie mir ein Sackerl geben?",
+            "n": "Half a kilo of apricots, please. Could you give me a bag?"
+          },
+          {
+            "who": "A",
+            "name": "Marktfrau",
+            "t": "Freilich. Das macht dann neun Euro achtzig.",
+            "n": "Of course. That comes to nine euros eighty."
+          },
+          {
+            "who": "you",
+            "t": "Bitte schön. Auf Wiederschauen und schönes Wochenende!",
+            "n": "Here you go. Goodbye and have a nice weekend!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Order a Verlängerter in a Viennese café.", "t": ["Grüß Gott, ich hätte gern einen Verlängerten", "Ich hätte gern einen Verlängerten", "Einen Verlängerten bitte"] },
-        { "n": "Ask for a kilo of tomatoes, using the Austrian word.", "t": ["Ein Kilo Paradeiser bitte", "Ich hätte gern ein Kilo Paradeiser"] },
-        { "n": "Say that in January you always go skiing, the Austrian way.", "t": ["Im Jänner fahren wir immer Ski"] },
-        { "n": "Ask for a bag in an Austrian shop.", "t": ["Können Sie mir ein Sackerl geben"] }
+        {
+          "n": "Order a Verlängerter in a Viennese café.",
+          "t": [
+            "Grüß Gott, ich hätte gern einen Verlängerten",
+            "Ich hätte gern einen Verlängerten",
+            "Einen Verlängerten bitte"
+          ]
+        },
+        {
+          "n": "Ask for a kilo of tomatoes, using the Austrian word.",
+          "t": [
+            "Ein Kilo Paradeiser bitte",
+            "Ich hätte gern ein Kilo Paradeiser"
+          ]
+        },
+        {
+          "n": "Say that in January you always go skiing, the Austrian way.",
+          "t": [
+            "Im Jänner fahren wir immer Ski"
+          ]
+        },
+        {
+          "n": "Ask for a bag in an Austrian shop.",
+          "t": [
+            "Können Sie mir ein Sackerl geben"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +143,713 @@
         "body": "Swiss standard German never uses ß (always ss) and borrows from French: Velo, Billett, Glace, merci. Many verbs take -ieren: parkieren, grillieren. Swiss speakers talk Hochdeutsch slowly and clearly, and stress French loans on the first syllable: VElo, BIllett. Matching that calm, deliberate pace sounds friendly, not slow."
       },
       "phrases": [
-        { "t": "Grüezi mitenand!", "n": "Hello, everyone!", "note": "Polite Swiss greeting to a group; to one person just Grüezi." },
-        { "t": "Merci vielmal für die Einladung.", "n": "Thanks a lot for the invitation.", "note": "French merci is completely standard in Switzerland." },
-        { "t": "Ich fahre jeden Tag mit dem Velo zur Arbeit.", "n": "I cycle to work every day.", "note": "Velo = Fahrrad." },
-        { "t": "Kann ich hier parkieren?", "n": "Can I park here?", "note": "parkieren = parken." },
-        { "t": "Am Samstag wollen wir am See grillieren.", "n": "On Saturday we want to have a barbecue by the lake.", "note": "grillieren = grillen." },
-        { "t": "Das Billett kostet zwölf Franken.", "n": "The ticket costs twelve francs.", "note": "Billett = Fahrkarte." },
-        { "t": "Ich hätte gerne eine Glace mit Rahm.", "n": "I'd like an ice cream with whipped cream.", "note": "die Glace = Eis, Rahm = Sahne." },
-        { "t": "En Guete!", "n": "Enjoy your meal!", "note": "Swiss German, used everywhere before eating." }
+        {
+          "t": "Grüezi mitenand!",
+          "n": "Hello, everyone!",
+          "note": "Polite Swiss greeting to a group; to one person just Grüezi."
+        },
+        {
+          "t": "Merci vielmal für die Einladung.",
+          "n": "Thanks a lot for the invitation.",
+          "note": "French merci is completely standard in Switzerland."
+        },
+        {
+          "t": "Ich fahre jeden Tag mit dem Velo zur Arbeit.",
+          "n": "I cycle to work every day.",
+          "note": "Velo = Fahrrad."
+        },
+        {
+          "t": "Kann ich hier parkieren?",
+          "n": "Can I park here?",
+          "note": "parkieren = parken."
+        },
+        {
+          "t": "Am Samstag wollen wir am See grillieren.",
+          "n": "On Saturday we want to have a barbecue by the lake.",
+          "note": "grillieren = grillen."
+        },
+        {
+          "t": "Das Billett kostet zwölf Franken.",
+          "n": "The ticket costs twelve francs.",
+          "note": "Billett = Fahrkarte."
+        },
+        {
+          "t": "Ich hätte gerne eine Glace mit Rahm.",
+          "n": "I'd like an ice cream with whipped cream.",
+          "note": "die Glace = Eis, Rahm = Sahne."
+        },
+        {
+          "t": "En Guete!",
+          "n": "Enjoy your meal!",
+          "note": "Swiss German, used everywhere before eating."
+        }
       ],
       "dialogue": {
         "title": "Arriving in Zurich",
         "voice": "de-CH-JanNeural",
         "lines": [
-          { "who": "A", "name": "Jan", "t": "Grüezi! Schön, dass Sie es nach Zürich geschafft haben. Wie war die Reise?", "n": "Hello! Great that you made it to Zurich. How was the trip?" },
-          { "who": "you", "t": "Grüezi! Sehr angenehm, danke. Das Billett war allerdings ziemlich teuer.", "n": "Hello! Very pleasant, thanks. The ticket was rather expensive, though." },
-          { "who": "A", "name": "Jan", "t": "Ja, die Schweiz ist kein billiges Pflaster. Wir grillieren heute Abend am See. Kommen Sie mit?", "n": "Yes, Switzerland isn't a cheap place. We're having a barbecue by the lake tonight. Will you come along?" },
-          { "who": "you", "t": "Merci vielmal für die Einladung! Kann ich dort parkieren?", "n": "Thanks a lot for the invitation! Can I park there?" },
-          { "who": "A", "name": "Jan", "t": "Eher schwierig. Nehmen Sie doch das Velo, ich leihe Ihnen meins.", "n": "Rather difficult. Why not take the bike? I'll lend you mine." },
-          { "who": "you", "t": "Gute Idee. Ich fahre zu Hause auch jeden Tag mit dem Velo.", "n": "Good idea. At home I cycle every day too." },
-          { "who": "A", "name": "Jan", "t": "Perfekt. Und zum Dessert gibt es Glace.", "n": "Perfect. And there's ice cream for dessert." },
-          { "who": "you", "t": "Wunderbar! Ich hätte gerne eine Glace mit Rahm.", "n": "Wonderful! I'd like an ice cream with whipped cream." }
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Grüezi! Schön, dass Sie es nach Zürich geschafft haben. Wie war die Reise?",
+            "n": "Hello! Great that you made it to Zurich. How was the trip?"
+          },
+          {
+            "who": "you",
+            "t": "Grüezi! Sehr angenehm, danke. Das Billett war allerdings ziemlich teuer.",
+            "n": "Hello! Very pleasant, thanks. The ticket was rather expensive, though."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Ja, die Schweiz ist kein billiges Pflaster. Wir grillieren heute Abend am See. Kommen Sie mit?",
+            "n": "Yes, Switzerland isn't a cheap place. We're having a barbecue by the lake tonight. Will you come along?"
+          },
+          {
+            "who": "you",
+            "t": "Merci vielmal für die Einladung! Kann ich dort parkieren?",
+            "n": "Thanks a lot for the invitation! Can I park there?"
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Eher schwierig. Nehmen Sie doch das Velo, ich leihe Ihnen meins.",
+            "n": "Rather difficult. Why not take the bike? I'll lend you mine."
+          },
+          {
+            "who": "you",
+            "t": "Gute Idee. Ich fahre zu Hause auch jeden Tag mit dem Velo.",
+            "n": "Good idea. At home I cycle every day too."
+          },
+          {
+            "who": "A",
+            "name": "Jan",
+            "t": "Perfekt. Und zum Dessert gibt es Glace.",
+            "n": "Perfect. And there's ice cream for dessert."
+          },
+          {
+            "who": "you",
+            "t": "Wunderbar! Ich hätte gerne eine Glace mit Rahm.",
+            "n": "Wonderful! I'd like an ice cream with whipped cream."
+          }
         ]
       },
       "prompts": [
-        { "n": "Greet a group of people in Switzerland.", "t": ["Grüezi mitenand", "Grüezi"] },
-        { "n": "Thank your Swiss host warmly for the invitation.", "t": ["Merci vielmal für die Einladung"] },
-        { "n": "Say you cycle to work every day, using the Swiss word.", "t": ["Ich fahre jeden Tag mit dem Velo zur Arbeit"] },
-        { "n": "Ask if you can park here, the Swiss way.", "t": ["Kann ich hier parkieren"] }
+        {
+          "n": "Greet a group of people in Switzerland.",
+          "t": [
+            "Grüezi mitenand",
+            "Grüezi"
+          ]
+        },
+        {
+          "n": "Thank your Swiss host warmly for the invitation.",
+          "t": [
+            "Merci vielmal für die Einladung"
+          ]
+        },
+        {
+          "n": "Say you cycle to work every day, using the Swiss word.",
+          "t": [
+            "Ich fahre jeden Tag mit dem Velo zur Arbeit"
+          ]
+        },
+        {
+          "n": "Ask if you can park here, the Swiss way.",
+          "t": [
+            "Kann ich hier parkieren"
+          ]
+        }
       ]
+    },
+    {
+      "id": "c2-u03-l3",
+      "title": "Comparing the varieties",
+      "goal": "Talk about regional words with curiosity, not condescension.",
+      "tip": {
+        "title": "Ask, don’t correct",
+        "body": "Austrian and Swiss standard German are not “wrong” German. Ask Wie sagt man hier eigentlich zu …? and adopt local words where it feels natural. Never imitate an accent to be funny; borrowing the vocabulary is the compliment."
+      },
+      "phrases": [
+        {
+          "t": "Wie sagt man hier eigentlich zu Brötchen?",
+          "n": "What do people here actually call bread rolls?"
+        },
+        {
+          "t": "In Wien sagt man Semmel, in Zürich Brötli.",
+          "n": "In Vienna they say Semmel, in Zurich Brötli."
+        },
+        {
+          "t": "Das Wort ist typisch süddeutsch.",
+          "n": "That word is typical of southern Germany."
+        },
+        {
+          "t": "Ich habe mir das hier angewöhnt.",
+          "n": "I picked that up here."
+        },
+        {
+          "t": "Kein Deutsch ist richtiger als das andere.",
+          "n": "No German is more correct than any other."
+        }
+      ],
+      "dialogue": {
+        "title": "At the bakery in Vienna",
+        "voice": "de-AT-IngridNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Huber",
+            "t": "Sie sagen ja schon Semmel! Sind Sie nicht aus Hamburg?",
+            "n": "You already say Semmel! Aren’t you from Hamburg?"
+          },
+          {
+            "who": "you",
+            "t": "Doch, aber ich habe mir das hier angewöhnt.",
+            "n": "Yes, but I picked that up here."
+          },
+          {
+            "who": "A",
+            "name": "Frau Huber",
+            "t": "Und in Hamburg? Wie sagt man dort?",
+            "n": "And in Hamburg? What do they say there?"
+          },
+          {
+            "who": "you",
+            "t": "Dort sagt man Brötchen. Aber kein Deutsch ist richtiger als das andere.",
+            "n": "There they say Brötchen. But no German is more correct than any other."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask what people here actually call bread rolls.",
+          "t": [
+            "Wie sagt man hier eigentlich zu Brötchen",
+            "Wie sagt man hier zu Brötchen"
+          ]
+        },
+        {
+          "n": "Say you picked the word up here.",
+          "t": [
+            "Ich habe mir das hier angewöhnt"
+          ]
+        },
+        {
+          "n": "Say no German is more correct than any other.",
+          "t": [
+            "Kein Deutsch ist richtiger als das andere"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l4",
+      "kind": "grammar",
+      "title": "Regional grammar: gesessen and das E-Mail",
+      "goal": "Use the southern Perfekt with sein and Austrian/Swiss noun genders.",
+      "tip": {
+        "title": "Grammar varies too",
+        "body": "In Austria, Switzerland and southern Germany, sitzen, stehen and liegen form the Perfekt with sein: Ich bin gesessen, wir sind gestanden. Some nouns change gender: das E-Mail and das Cola (AT/CH), das Tram (CH). Both systems are standard in their region; just stay consistent."
+      },
+      "phrases": [
+        {
+          "t": "Ich bin den ganzen Tag im Büro gesessen.",
+          "n": "I sat in the office all day.",
+          "note": "Northern Germany: habe gesessen."
+        },
+        {
+          "t": "Wir sind lange an der Haltestelle gestanden.",
+          "n": "We stood at the stop for a long time."
+        },
+        {
+          "t": "Das Buch ist die ganze Zeit auf dem Tisch gelegen.",
+          "n": "The book was lying on the table the whole time."
+        },
+        {
+          "t": "Hast du mein E-Mail bekommen?",
+          "n": "Did you get my email?",
+          "note": "AT/CH: das E-Mail; Germany: die E-Mail."
+        },
+        {
+          "t": "Ich nehme das Tram zum Bahnhof.",
+          "n": "I'll take the tram to the station.",
+          "note": "CH: das Tram; Germany: die Straßenbahn."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap to the southern Perfekt",
+          "base": {
+            "t": "Ich habe im Zug gesessen.",
+            "n": "I sat on the train. (northern)"
+          },
+          "items": [
+            {
+              "cue": "Süden · sein",
+              "t": "Ich bin im Zug gesessen.",
+              "n": "I sat on the train. (southern)"
+            },
+            {
+              "cue": "wir · stehen",
+              "t": "Wir sind im Zug gestanden.",
+              "n": "We stood on the train."
+            },
+            {
+              "cue": "er · liegen · im Bett",
+              "t": "Er ist im Bett gelegen.",
+              "n": "He was lying in bed."
+            }
+          ]
+        },
+        {
+          "title": "Swap to Austrian and Swiss genders",
+          "base": {
+            "t": "Ich habe dir eine E-Mail geschickt.",
+            "n": "I sent you an email. (Germany)"
+          },
+          "items": [
+            {
+              "cue": "Österreich",
+              "t": "Ich habe dir ein E-Mail geschickt.",
+              "n": "I sent you an email. (Austria)"
+            },
+            {
+              "cue": "Cola · mitbringen · Österreich",
+              "t": "Ich habe dir ein Cola mitgebracht.",
+              "n": "I brought you a cola. (Austria)"
+            },
+            {
+              "cue": "Tram · nehmen · Schweiz",
+              "t": "Ich habe das Tram genommen.",
+              "n": "I took the tram. (Switzerland)"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say, Austrian-style, that you sat in the office all day.",
+          "t": [
+            "Ich bin den ganzen Tag im Büro gesessen"
+          ]
+        },
+        {
+          "n": "Ask a Swiss colleague if they got your email.",
+          "t": [
+            "Hast du mein E-Mail bekommen",
+            "Haben Sie mein E-Mail bekommen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l5",
+      "kind": "listening",
+      "title": "Vienna meets Zurich",
+      "goal": "Follow Austrian and Swiss speakers comparing their words.",
+      "phrases": [
+        {
+          "t": "Gehst du nachher mit auf einen Kaffee?",
+          "n": "Will you come for a coffee later?"
+        },
+        {
+          "t": "Bei uns sagt man Eis.",
+          "n": "Where I live we say Eis."
+        },
+        {
+          "t": "Am Abend gehen wir zum Heurigen.",
+          "n": "In the evening we're going to a Heuriger.",
+          "note": "Heuriger = Viennese wine tavern serving new wine."
+        },
+        {
+          "t": "Das klingt fein.",
+          "n": "That sounds lovely.",
+          "note": "Swiss fein = nice, tasty."
+        }
+      ],
+      "story": {
+        "title": "Coffee break at the conference",
+        "intro": "Lukas from Vienna and Leni from Zurich meet at a conference in Vienna and compare words.",
+        "voice": "de-AT-JonasNeural",
+        "lines": [
+          {
+            "name": "Lukas",
+            "t": "Servus! Du bist aus Zürich, oder? Ich bin gestern auch drei Stunden im Zug gesessen.",
+            "n": "Hi! You’re from Zurich, right? I sat on the train for three hours yesterday too."
+          },
+          {
+            "name": "Leni",
+            "voice": "de-CH-LeniNeural",
+            "t": "Grüezi! Ja, genau. Bei uns ist der Zug zum Glück fast immer pünktlich.",
+            "n": "Hello! Yes, exactly. Luckily our trains are almost always on time."
+          },
+          {
+            "name": "Lukas",
+            "t": "Bei uns heuer leider nicht. Gehst du nachher mit auf einen Kaffee?",
+            "n": "Ours not this year, unfortunately. Will you come for a coffee later?"
+          },
+          {
+            "name": "Leni",
+            "voice": "de-CH-LeniNeural",
+            "t": "Gern, merci. Aber ich nehme lieber eine Glace, es ist ja so heiß.",
+            "n": "Gladly, thanks. But I'd rather have an ice cream, it's so hot."
+          },
+          {
+            "name": "Lukas",
+            "t": "Eine Glace? Bei uns sagt man Eis. Und am Abend gehen wir zum Heurigen.",
+            "n": "A Glace? We say Eis. And in the evening we're going to a Heuriger."
+          },
+          {
+            "name": "Leni",
+            "voice": "de-CH-LeniNeural",
+            "t": "Das klingt fein. Wo treffen wir uns?",
+            "n": "That sounds lovely. Where shall we meet?"
+          },
+          {
+            "name": "Lukas",
+            "t": "Um halb sieben bei der Bim. So sagen wir in Wien zur Straßenbahn.",
+            "n": "At half past six at the Bim. That's what we call the tram in Vienna."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Woher kommt Leni?",
+            "n": "Where is Leni from?",
+            "t": [
+              "Aus Zürich",
+              "Sie kommt aus Zürich"
+            ]
+          },
+          {
+            "q": "Was möchte Leni lieber als einen Kaffee?",
+            "n": "What would Leni rather have than a coffee?",
+            "t": [
+              "Eine Glace",
+              "Ein Eis",
+              "Glace"
+            ]
+          },
+          {
+            "q": "Was ist die Bim?",
+            "n": "What is the Bim?",
+            "t": [
+              "Die Straßenbahn",
+              "Das Tram",
+              "Eine Straßenbahn"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u03-l6",
+      "kind": "roleplay",
+      "title": "At the ministry in Vienna",
+      "goal": "Win over an Austrian senior official with courtesy and tact.",
+      "culture": {
+        "title": "Titles in Austria",
+        "body": "Austrians use titles far more than Germans: academic and official ones appear in speech, on doorbells and in emails, such as Frau Magistra, Herr Diplomingenieur or Herr Hofrat. Leaving out a title can sound cold, while many Germans find the custom old-fashioned. In Swiss workplaces, by contrast, titles are rarely used at all. When in doubt in Vienna, use the title.",
+        "regions": [
+          "AT",
+          "DE",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Grüß Gott, Herr Hofrat!",
+          "n": "Good day, Hofrat!",
+          "note": "Hofrat = honorary title for senior civil servants."
+        },
+        {
+          "t": "Es freut mich sehr, dass Sie sich Zeit nehmen.",
+          "n": "I'm very glad you're taking the time."
+        },
+        {
+          "t": "Darf ich Ihnen unseren Vorschlag kurz erläutern?",
+          "n": "May I briefly explain our proposal?"
+        },
+        {
+          "t": "Entschuldigen Sie, wie war das gemeint?",
+          "n": "Excuse me, how was that meant?"
+        }
+      ],
+      "branch": {
+        "title": "A cross-border project",
+        "scene": "You lead a delegation from Munich and meet a senior Austrian civil servant to propose a joint project.",
+        "name": "Hofrat Dr. Leitner",
+        "voice": "de-AT-JonasNeural",
+        "start": "greet",
+        "nodes": {
+          "greet": {
+            "t": "Grüß Gott, kommen Sie nur herein. Sie sind die Delegation aus München, nehme ich an?",
+            "n": "Good day, do come in. You're the delegation from Munich, I take it?",
+            "choices": [
+              {
+                "t": "Grüß Gott, Herr Hofrat! Es freut mich sehr, dass Sie sich Zeit nehmen.",
+                "n": "Good day, Hofrat! I'm very glad you're taking the time.",
+                "next": "warm"
+              },
+              {
+                "t": "Hallo, Herr Leitner. Wollen wir gleich anfangen?",
+                "n": "Hello, Mr Leitner. Shall we get started?",
+                "next": "cool"
+              }
+            ]
+          },
+          "cool": {
+            "t": "Hofrat Leitner, wenn’s recht ist. Aber bitte, fangen wir an.",
+            "n": "Hofrat Leitner, if you don't mind. But please, let's begin.",
+            "choices": [
+              {
+                "t": "Verzeihung, Herr Hofrat. Darf ich Ihnen unseren Vorschlag kurz erläutern?",
+                "n": "I beg your pardon, Hofrat. May I briefly explain our proposal?",
+                "next": "proposal"
+              },
+              {
+                "t": "Ach, Titel sind doch heutzutage nicht mehr so wichtig.",
+                "n": "Oh, titles don't really matter these days.",
+                "next": "fail"
+              }
+            ]
+          },
+          "warm": {
+            "t": "Die Freude ist ganz meinerseits. Nehmen Sie Platz. Was führt Sie zu uns?",
+            "n": "The pleasure is all mine. Have a seat. What brings you to us?",
+            "choices": [
+              {
+                "t": "Darf ich Ihnen unseren Vorschlag kurz erläutern?",
+                "n": "May I briefly explain our proposal?",
+                "next": "proposal"
+              }
+            ]
+          },
+          "proposal": {
+            "t": "Bitte. Aber ich sag’s gleich: Grenzüberschreitende Projekte sind bei uns nicht ganz unkompliziert.",
+            "n": "Please. But I'll say it right away: cross-border projects aren't exactly simple here.",
+            "choices": [
+              {
+                "t": "Entschuldigen Sie, wie war das gemeint? Gibt es konkrete Bedenken?",
+                "n": "Excuse me, how was that meant? Are there specific concerns?",
+                "next": "concern"
+              },
+              {
+                "t": "Das wird schon. In Deutschland machen wir das ständig.",
+                "n": "It’ll be fine. We do this all the time in Germany.",
+                "next": "fail"
+              }
+            ]
+          },
+          "concern": {
+            "t": "Nun ja, die Zuständigkeiten. Das müsste durch drei Abteilungen.",
+            "n": "Well, the responsibilities. It would have to go through three departments.",
+            "choices": [
+              {
+                "t": "Verstehe. Wäre es denkbar, dass wir die Unterlagen gleich für alle drei vorbereiten?",
+                "n": "I see. Would it be conceivable for us to prepare the documents for all three right away?",
+                "next": "good"
+              },
+              {
+                "t": "Drei Abteilungen? Das ist doch absurd.",
+                "n": "Three departments? That's absurd.",
+                "next": "fail"
+              }
+            ]
+          },
+          "good": {
+            "t": "Das wäre eine große Hilfe. Dann schauen wir, dass wir das bis Jänner erledigt haben.",
+            "n": "That would be a great help. Then we'll see that it's done by January.",
+            "end": "good",
+            "outcome": "Your courtesy and practical offer won over the Hofrat, and the project moves forward."
+          },
+          "fail": {
+            "t": "Ich fürchte, dann wird das heuer nichts mehr. Auf Wiederschauen.",
+            "n": "I'm afraid nothing will come of it this year, then. Goodbye.",
+            "end": "bad",
+            "outcome": "You came across as dismissive of Austrian customs. Try the courteous route."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Greet a senior Austrian civil servant with his title.",
+          "t": [
+            "Grüß Gott, Herr Hofrat"
+          ]
+        },
+        {
+          "n": "Ask if you may briefly explain your proposal.",
+          "t": [
+            "Darf ich Ihnen unseren Vorschlag kurz erläutern"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l7",
+      "kind": "speaking",
+      "title": "One language, three standards",
+      "goal": "Compare German in Germany, Austria and Switzerland, and tell a story of a regional mix-up.",
+      "culture": {
+        "title": "Dialect and standard in Switzerland",
+        "body": "In German-speaking Switzerland almost everyone speaks Swiss German dialect (Mundart) in daily life, even at work and on TV; standard German is mainly for writing, school and foreigners. If Swiss people switch to Hochdeutsch for you, it is politeness, not distance. In Germany, by contrast, standard German dominates public life and dialect is mostly regional and informal.",
+        "regions": [
+          "CH",
+          "DE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Österreichisches Deutsch ist eine eigene Standardvarietät.",
+          "n": "Austrian German is a standard variety in its own right."
+        },
+        {
+          "t": "Die Schweizer wechseln mir zuliebe ins Hochdeutsche.",
+          "n": "The Swiss switch to standard German for my sake."
+        },
+        {
+          "t": "Im Alltag spricht man in der Schweiz Mundart.",
+          "n": "In Switzerland people speak dialect in everyday life."
+        },
+        {
+          "t": "Das Wort habe ich in Wien zum ersten Mal gehört.",
+          "n": "I first heard that word in Vienna."
+        }
+      ],
+      "free": [
+        {
+          "n": "Compare German as spoken in Germany, Austria and Switzerland, with at least three word examples.",
+          "hint": "Use: In Österreich sagt man …, in der Schweiz dagegen …, während man in Deutschland …, eine eigene Standardvarietät.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "Austria",
+              "any": [
+                "österreich*",
+                "wien",
+                "jänner",
+                "paradeiser",
+                "erdäpfel",
+                "sackerl",
+                "marille*",
+                "semmel",
+                "servus"
+              ]
+            },
+            {
+              "label": "Switzerland",
+              "any": [
+                "schweiz*",
+                "zürich",
+                "velo",
+                "billett",
+                "glace",
+                "grüezi",
+                "parkieren",
+                "mundart",
+                "tram"
+              ]
+            },
+            {
+              "label": "Germany",
+              "any": [
+                "deutschland",
+                "norddeutsch*",
+                "hamburg",
+                "berlin",
+                "tomate*",
+                "kartoffel*",
+                "fahrrad",
+                "brötchen"
+              ]
+            },
+            {
+              "label": "a contrast",
+              "any": [
+                "während",
+                "dagegen",
+                "hingegen",
+                "im gegensatz",
+                "anders als"
+              ]
+            }
+          ],
+          "model": "In Österreich sagt man Paradeiser und Jänner, während man in Deutschland Tomate und Januar sagt. In der Schweiz fährt man dagegen Velo statt Fahrrad und kauft ein Billett. Keine dieser Varianten ist falsch, denn österreichisches und Schweizer Deutsch sind eigene Standardvarietäten."
+        },
+        {
+          "n": "Tell the story of a misunderstanding caused by a regional word (real or invented) and what you learned from it.",
+          "hint": "Use: Ich bin … gesessen, Ich wusste nicht, dass …, Ich dachte …, Seitdem …, Das Wort habe ich … zum ersten Mal gehört.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "past narration",
+              "any": [
+                "war",
+                "habe",
+                "hatte",
+                "bin",
+                "gesessen",
+                "gestanden"
+              ]
+            },
+            {
+              "label": "the misunderstanding",
+              "any": [
+                "missverst*",
+                "verwechsel*",
+                "nicht verstanden",
+                "verwirrt",
+                "dachte",
+                "gedacht"
+              ]
+            },
+            {
+              "label": "the regional word",
+              "any": [
+                "heißt",
+                "sagt man",
+                "bedeutet",
+                "wort",
+                "ausdruck"
+              ]
+            },
+            {
+              "label": "the lesson",
+              "any": [
+                "seitdem",
+                "inzwischen",
+                "gelernt",
+                "jetzt weiß ich",
+                "angewöhnt"
+              ]
+            }
+          ],
+          "model": "In einem Wiener Café habe ich einen Verlängerten bestellt und dachte, ich bekomme einen extra langen Kuchen. Ich war ziemlich verwirrt, als ein Kaffee kam. Seitdem weiß ich, dass man in Wien jeder Kaffeesorte einen eigenen Namen gibt."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say Austrian German is a standard variety in its own right.",
+          "t": [
+            "Österreichisches Deutsch ist eine eigene Standardvarietät"
+          ]
+        },
+        {
+          "n": "Say that in Switzerland people speak dialect in everyday life.",
+          "t": [
+            "Im Alltag spricht man in der Schweiz Mundart",
+            "In der Schweiz spricht man im Alltag Mundart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Servus und Grüezi",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }
