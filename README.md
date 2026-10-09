@@ -1,6 +1,6 @@
 # Langto
 
-**Get your tongue around a new language.** Langto is a free, speech-first language-learning site, starting with German. It teaches step by step, from A1 upwards, and the goal is that you can *speak*.
+**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), and more languages can be added as content alone.
 
 🌍 Live at **https://langto.madebyfavor.com**
 

@@ -4,6 +4,7 @@ import { loadLanguages } from '../lib/content.js';
 import { GOALS, MicTest } from './Settings.jsx';
 import { support } from '../lib/speech.js';
 import { navigate } from '../router.js';
+import { RotatingGreeting } from '../components/RotatingGreeting.jsx';
 
 export function Onboarding() {
   const s = useStore();
@@ -29,11 +30,11 @@ export function Onboarding() {
       {step === 0 && (
         <div class="center">
           <img src="/icons/icon.svg" alt="" width="96" height="96" />
-          <h1>Willkommen bei Langto!</h1>
+          <RotatingGreeting />
           <p class="lead">Get your tongue around a new language.</p>
           <ul class="features">
             <li>🗣️ <strong>Speech-first:</strong> listen, repeat and hold real conversations out loud.</li>
-            <li>🪜 <strong>Step by step:</strong> short lessons from your very first “Hallo”.</li>
+            <li>🪜 <strong>Step by step:</strong> short lessons from your very first hello.</li>
             <li>🔁 <strong>Smart review</strong> brings phrases back before you forget them.</li>
             <li>🔒 <strong>No account.</strong> Your progress stays on this device — export it any time.</li>
           </ul>
