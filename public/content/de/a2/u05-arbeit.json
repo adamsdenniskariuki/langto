@@ -1,0 +1,86 @@
+{
+  "id": "a2-u05",
+  "title": "Bei der Arbeit",
+  "subtitle": "Work & your working day",
+  "icon": "💼",
+  "lessons": [
+    {
+      "id": "a2-u05-l1",
+      "title": "My working day",
+      "goal": "Talk about your job and describe your working day.",
+      "tip": {
+        "title": "anfangen & gefallen",
+        "body": "Separable verbs split: anfangen → Ich fange um acht Uhr an. gefallen works 'backwards' with the dative: Meine Arbeit gefällt mir (my work pleases me). The separable prefix carries the stress, even at the end: Ich fange um acht AN."
+      },
+      "phrases": [
+        { "t": "Ich arbeite in einem Büro.", "n": "I work in an office." },
+        { "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.", "n": "I've been working at an IT company for two years." },
+        { "t": "Ich fange um acht Uhr an.", "n": "I start at eight o'clock." },
+        { "t": "Meistens mache ich um zwölf Mittagspause.", "n": "I usually take my lunch break at twelve." },
+        { "t": "Ich habe oft Besprechungen.", "n": "I often have meetings." },
+        { "t": "Ich fahre mit dem Fahrrad zur Arbeit.", "n": "I cycle to work.", "note": "zur = zu der" },
+        { "t": "Nach der Arbeit bin ich oft müde.", "n": "After work I'm often tired." },
+        { "t": "Meine Arbeit gefällt mir, weil meine Kollegen nett sind.", "n": "I like my job because my colleagues are nice." }
+      ],
+      "dialogue": {
+        "title": "Small talk at a party",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Mia", "t": "Und was machst du beruflich?", "n": "And what do you do for a living?" },
+          { "who": "you", "t": "Ich arbeite seit zwei Jahren bei einer IT-Firma.", "n": "I've been working at an IT company for two years." },
+          { "who": "A", "name": "Mia", "t": "Interessant! Wie sieht dein Arbeitstag aus?", "n": "Interesting! What does your working day look like?" },
+          { "who": "you", "t": "Ich fange um acht Uhr an. Ich habe oft Besprechungen.", "n": "I start at eight. I often have meetings." },
+          { "who": "A", "name": "Mia", "t": "Und wie kommst du zur Arbeit?", "n": "And how do you get to work?" },
+          { "who": "you", "t": "Ich fahre mit dem Fahrrad zur Arbeit.", "n": "I cycle to work." },
+          { "who": "A", "name": "Mia", "t": "Gefällt dir deine Arbeit?", "n": "Do you like your job?" },
+          { "who": "you", "t": "Ja, meine Arbeit gefällt mir, weil meine Kollegen nett sind.", "n": "Yes, I like my job because my colleagues are nice." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you start work at eight.", "t": ["Ich fange um acht Uhr an", "Ich fange um acht an"] },
+        { "n": "Say you cycle to work.", "t": ["Ich fahre mit dem Fahrrad zur Arbeit"] },
+        { "n": "Say you've been working at an IT company for two years.", "t": ["Ich arbeite seit zwei Jahren bei einer IT-Firma"] },
+        { "n": "Say you like your job because your colleagues are nice.", "t": ["Meine Arbeit gefällt mir weil meine Kollegen nett sind"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l2",
+      "title": "At the office",
+      "goal": "Ask colleagues for help, make requests and talk about tasks.",
+      "tip": {
+        "title": "mir, dir, Ihnen",
+        "body": "Verbs like helfen, schicken and geben use the dative for the person: Kannst du mir helfen? Ich schicke dir die Unterlagen. With your boss, Könnten Sie …? is extra polite. Feierabend (end of the working day) is said FEI-er-a-bend — the -er sounds like a short 'uh'."
+      },
+      "phrases": [
+        { "t": "Kannst du mir kurz helfen?", "n": "Can you help me for a moment?" },
+        { "t": "Der Drucker funktioniert nicht.", "n": "The printer isn't working." },
+        { "t": "Könnten Sie mir die Datei schicken?", "n": "Could you send me the file?", "note": "Very polite — good for your boss" },
+        { "t": "Ich schicke dir die Unterlagen heute Nachmittag.", "n": "I'll send you the documents this afternoon." },
+        { "t": "Wann ist die Besprechung?", "n": "When is the meeting?" },
+        { "t": "Der Bericht ist noch nicht fertig.", "n": "The report isn't finished yet." },
+        { "t": "Ich muss heute länger arbeiten.", "n": "I have to work late today." },
+        { "t": "Schönen Feierabend!", "n": "Have a nice evening!", "note": "Said to colleagues when leaving work" }
+      ],
+      "dialogue": {
+        "title": "A busy day",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Jan", "t": "Morgen! Hast du die Unterlagen für das Projekt?", "n": "Morning! Do you have the documents for the project?" },
+          { "who": "you", "t": "Ja, ich schicke dir die Unterlagen heute Nachmittag.", "n": "Yes, I'll send you the documents this afternoon." },
+          { "who": "A", "name": "Jan", "t": "Super, danke. Wann ist eigentlich die Besprechung?", "n": "Great, thanks. When is the meeting, by the way?" },
+          { "who": "you", "t": "Um drei Uhr. Kannst du mir kurz helfen? Der Drucker funktioniert nicht.", "n": "At three. Can you help me for a moment? The printer isn't working." },
+          { "who": "A", "name": "Jan", "t": "Klar, ich schaue mal. So, jetzt geht er wieder.", "n": "Sure, I'll take a look. There, it's working again." },
+          { "who": "you", "t": "Danke! Ich muss heute länger arbeiten. Der Bericht ist noch nicht fertig.", "n": "Thanks! I have to work late today. The report isn't finished yet." },
+          { "who": "A", "name": "Jan", "t": "Oh, schade. Ich mache jetzt Feierabend. Bis morgen!", "n": "Oh, too bad. I'm off now. See you tomorrow!" },
+          { "who": "you", "t": "Schönen Feierabend! Bis morgen!", "n": "Have a nice evening! See you tomorrow!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a colleague to help you for a moment.", "t": ["Kannst du mir kurz helfen", "Können Sie mir kurz helfen"] },
+        { "n": "Say the printer isn't working.", "t": ["Der Drucker funktioniert nicht", "Der Drucker geht nicht"] },
+        { "n": "Politely ask your boss to send you the file.", "t": ["Könnten Sie mir die Datei schicken", "Können Sie mir die Datei schicken"] },
+        { "n": "Wish a colleague a nice evening as they leave work.", "t": ["Schönen Feierabend"] }
+      ]
+    }
+  ]
+}

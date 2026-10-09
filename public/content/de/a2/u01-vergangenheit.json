@@ -1,0 +1,85 @@
+{
+  "id": "a2-u01",
+  "title": "Was hast du gemacht?",
+  "subtitle": "Talking about the past",
+  "icon": "⏪",
+  "lessons": [
+    {
+      "id": "a2-u01-l1",
+      "title": "What did you do?",
+      "goal": "Say what you did at the weekend using the Perfekt with haben.",
+      "tip": {
+        "title": "Perfekt: haben + ge…t / ge…en",
+        "body": "In spoken German you talk about the past with the Perfekt: haben + past participle at the very end. Ich habe Fußball gespielt. Ich habe einen Film gesehen. The ge- is unstressed — stress the stem: ge-MACHT, ge-SE-hen."
+      },
+      "phrases": [
+        { "t": "Was hast du am Wochenende gemacht?", "n": "What did you do at the weekend?" },
+        { "t": "Ich habe lange geschlafen.", "n": "I slept in.", "note": "Literally: I slept long." },
+        { "t": "Ich habe meine Freunde getroffen.", "n": "I met my friends.", "note": "treffen → getroffen" },
+        { "t": "Wir haben zusammen gekocht.", "n": "We cooked together." },
+        { "t": "Am Abend habe ich einen Film gesehen.", "n": "In the evening I watched a film.", "note": "Time first → verb second: habe ich" },
+        { "t": "Ich habe ein Buch gelesen.", "n": "I read a book." },
+        { "t": "Am Samstag habe ich Fußball gespielt.", "n": "On Saturday I played football." },
+        { "t": "Das hat Spaß gemacht.", "n": "That was fun." }
+      ],
+      "dialogue": {
+        "title": "Monday morning chat",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Lena", "t": "Hallo! Wie war dein Wochenende?", "n": "Hi! How was your weekend?" },
+          { "who": "you", "t": "Gut, danke! Ich habe lange geschlafen.", "n": "Good, thanks! I slept in." },
+          { "who": "A", "name": "Lena", "t": "Schön! Und was hast du dann gemacht?", "n": "Nice! And what did you do then?" },
+          { "who": "you", "t": "Ich habe meine Freunde getroffen. Wir haben zusammen gekocht.", "n": "I met my friends. We cooked together." },
+          { "who": "A", "name": "Lena", "t": "Lecker! Was habt ihr gekocht?", "n": "Yum! What did you cook?" },
+          { "who": "you", "t": "Wir haben Pasta gekocht. Das hat Spaß gemacht.", "n": "We cooked pasta. That was fun." },
+          { "who": "A", "name": "Lena", "t": "Ich habe am Samstag leider nur gearbeitet.", "n": "Unfortunately I only worked on Saturday." },
+          { "who": "you", "t": "Oh, schade! Und was hast du am Sonntag gemacht?", "n": "Oh, too bad! And what did you do on Sunday?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you slept in.", "t": ["Ich habe lange geschlafen"] },
+        { "n": "Say you met your friends.", "t": ["Ich habe meine Freunde getroffen", "Ich habe Freunde getroffen"] },
+        { "n": "Ask a friend what they did at the weekend.", "t": ["Was hast du am Wochenende gemacht"] },
+        { "n": "Say that it was fun.", "t": ["Das hat Spaß gemacht"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l2",
+      "title": "Where did you go?",
+      "goal": "Talk about trips and movement in the past using the Perfekt with sein.",
+      "tip": {
+        "title": "Perfekt with sein",
+        "body": "Verbs of movement or change (fahren, gehen, kommen, aufstehen) and bleiben use sein: Ich bin nach Hamburg gefahren. With separable verbs, ge- goes in the middle: aufstehen → aufgestanden. For sein itself, Germans usually say war: Wo warst du? Ich war in Hamburg."
+      },
+      "phrases": [
+        { "t": "Ich bin nach Hamburg gefahren.", "n": "I went to Hamburg." },
+        { "t": "Wir sind mit dem Zug gefahren.", "n": "We went by train.", "note": "mit + dative: mit dem Zug" },
+        { "t": "Am Sonntag bin ich zu Hause geblieben.", "n": "On Sunday I stayed at home." },
+        { "t": "Ich bin früh aufgestanden.", "n": "I got up early.", "note": "auf-ge-standen" },
+        { "t": "Wir sind im Park spazieren gegangen.", "n": "We went for a walk in the park." },
+        { "t": "Wann bist du zurückgekommen?", "n": "When did you come back?" },
+        { "t": "Ich bin spät nach Hause gekommen.", "n": "I came home late." },
+        { "t": "Was ist passiert?", "n": "What happened?" }
+      ],
+      "dialogue": {
+        "title": "Back from a trip",
+        "lines": [
+          { "who": "A", "name": "Jonas", "t": "Hey! Wo warst du am Wochenende?", "n": "Hey! Where were you at the weekend?" },
+          { "who": "you", "t": "Ich bin nach Hamburg gefahren.", "n": "I went to Hamburg." },
+          { "who": "A", "name": "Jonas", "t": "Cool! Bist du mit dem Auto gefahren?", "n": "Cool! Did you go by car?" },
+          { "who": "you", "t": "Nein, ich bin mit dem Zug gefahren.", "n": "No, I went by train." },
+          { "who": "A", "name": "Jonas", "t": "Und was hast du in Hamburg gemacht?", "n": "And what did you do in Hamburg?" },
+          { "who": "you", "t": "Wir sind am Hafen spazieren gegangen.", "n": "We went for a walk by the harbour." },
+          { "who": "A", "name": "Jonas", "t": "Schön! Wann bist du zurückgekommen?", "n": "Nice! When did you come back?" },
+          { "who": "you", "t": "Gestern. Ich bin spät nach Hause gekommen.", "n": "Yesterday. I came home late." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you went to Hamburg.", "t": ["Ich bin nach Hamburg gefahren"] },
+        { "n": "Say you travelled by train.", "t": ["Ich bin mit dem Zug gefahren", "Wir sind mit dem Zug gefahren"] },
+        { "n": "Say you stayed at home on Sunday.", "t": ["Am Sonntag bin ich zu Hause geblieben", "Ich bin am Sonntag zu Hause geblieben"] },
+        { "n": "Ask a friend when they came back.", "t": ["Wann bist du zurückgekommen"] }
+      ]
+    }
+  ]
+}

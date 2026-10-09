@@ -1,0 +1,87 @@
+{
+  "id": "a2-u04",
+  "title": "Meine Wohnung",
+  "subtitle": "Home & renting a flat",
+  "icon": "🏠",
+  "lessons": [
+    {
+      "id": "a2-u04-l1",
+      "title": "Describing your home",
+      "goal": "Describe your flat, its rooms and where things are.",
+      "tip": {
+        "title": "Wo? → dative",
+        "body": "To say where something is, use in, an, auf, neben, über, unter + dative: im Wohnzimmer, neben dem Bett, über dem Tisch. Furniture stands (steht), lies (liegt) or hangs (hängt). Long compounds like Zweizimmerwohnung are stressed on the first part: ZWEI-zimmerwohnung."
+      },
+      "phrases": [
+        { "t": "Ich wohne in einer Zweizimmerwohnung.", "n": "I live in a two-room flat.", "note": "Germans count rooms without the kitchen and bathroom." },
+        { "t": "Die Wohnung liegt im dritten Stock.", "n": "The flat is on the third floor." },
+        { "t": "Die Küche ist klein, aber hell.", "n": "The kitchen is small but bright." },
+        { "t": "Das Sofa steht im Wohnzimmer.", "n": "The sofa is in the living room.", "note": "im = in dem" },
+        { "t": "Neben dem Bett steht ein Schrank.", "n": "There's a wardrobe next to the bed." },
+        { "t": "Die Lampe hängt über dem Tisch.", "n": "The lamp hangs above the table." },
+        { "t": "Ich habe einen Balkon mit Blick auf den Park.", "n": "I have a balcony with a view of the park." },
+        { "t": "Ich wohne gern hier, weil es so ruhig ist.", "n": "I like living here because it's so quiet." }
+      ],
+      "dialogue": {
+        "title": "The new flat",
+        "lines": [
+          { "who": "A", "name": "Tom", "t": "Du bist doch umgezogen, oder? Wie ist die neue Wohnung?", "n": "You've moved, haven't you? What's the new flat like?" },
+          { "who": "you", "t": "Sie ist super! Ich wohne in einer Zweizimmerwohnung.", "n": "It's great! I live in a two-room flat." },
+          { "who": "A", "name": "Tom", "t": "Toll! Und wie ist die Küche?", "n": "Great! And what's the kitchen like?" },
+          { "who": "you", "t": "Die Küche ist klein, aber hell.", "n": "The kitchen is small but bright." },
+          { "who": "A", "name": "Tom", "t": "Hast du auch einen Balkon?", "n": "Do you have a balcony too?" },
+          { "who": "you", "t": "Ja, ich habe einen Balkon mit Blick auf den Park.", "n": "Yes, I have a balcony with a view of the park." },
+          { "who": "A", "name": "Tom", "t": "Und wie ist die Gegend?", "n": "And what's the neighbourhood like?" },
+          { "who": "you", "t": "Ich wohne gern hier, weil es so ruhig ist.", "n": "I like living here because it's so quiet." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you live in a two-room flat.", "t": ["Ich wohne in einer Zweizimmerwohnung"] },
+        { "n": "Say the kitchen is small but bright.", "t": ["Die Küche ist klein aber hell"] },
+        { "n": "Say there's a wardrobe next to the bed.", "t": ["Neben dem Bett steht ein Schrank", "Ein Schrank steht neben dem Bett"] },
+        { "n": "Say you like living here because it's so quiet.", "t": ["Ich wohne gern hier weil es so ruhig ist", "Ich wohne gern hier weil es ruhig ist"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l2",
+      "title": "Renting a flat",
+      "goal": "Call about a flat for rent and ask about rent, costs and a viewing.",
+      "tip": {
+        "title": "dürfen & separable verbs",
+        "body": "dürfen means 'be allowed to': Darf man Haustiere haben? Moving verbs are separable: einziehen → Ich ziehe am ersten Mai ein. Kaltmiete is rent without heating and utilities; Warmmiete includes them. Pronounce Miete with a long 'ee': MEE-te."
+      },
+      "phrases": [
+        { "t": "Ich rufe wegen der Wohnung an.", "n": "I'm calling about the flat." },
+        { "t": "Ist die Wohnung noch frei?", "n": "Is the flat still available?" },
+        { "t": "Wie hoch ist die Miete?", "n": "How much is the rent?" },
+        { "t": "Sind die Nebenkosten inklusive?", "n": "Are the utilities included?" },
+        { "t": "Ab wann ist die Wohnung frei?", "n": "From when is the flat available?" },
+        { "t": "Darf man Haustiere haben?", "n": "Are pets allowed?" },
+        { "t": "Kann ich die Wohnung besichtigen?", "n": "Can I view the flat?" },
+        { "t": "Ich möchte am ersten Mai einziehen.", "n": "I'd like to move in on the first of May." }
+      ],
+      "dialogue": {
+        "title": "Calling the landlady",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Becker", "t": "Becker, guten Tag.", "n": "Becker speaking, hello." },
+          { "who": "you", "t": "Guten Tag! Ich rufe wegen der Wohnung an. Ist sie noch frei?", "n": "Hello! I'm calling about the flat. Is it still available?" },
+          { "who": "A", "name": "Frau Becker", "t": "Ja, die Wohnung ist noch frei.", "n": "Yes, the flat is still available." },
+          { "who": "you", "t": "Wie hoch ist die Miete?", "n": "How much is the rent?" },
+          { "who": "A", "name": "Frau Becker", "t": "Siebenhundert Euro kalt, plus hundertfünfzig Euro Nebenkosten.", "n": "Seven hundred euros, plus one hundred and fifty euros for utilities." },
+          { "who": "you", "t": "Ab wann ist die Wohnung frei?", "n": "From when is the flat available?" },
+          { "who": "A", "name": "Frau Becker", "t": "Ab dem ersten Mai.", "n": "From the first of May." },
+          { "who": "you", "t": "Perfekt. Kann ich die Wohnung besichtigen?", "n": "Perfect. Can I view the flat?" },
+          { "who": "A", "name": "Frau Becker", "t": "Natürlich. Haben Sie morgen um fünf Uhr Zeit?", "n": "Of course. Are you free tomorrow at five?" },
+          { "who": "you", "t": "Ja, das passt. Bis morgen!", "n": "Yes, that works. See you tomorrow!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if the flat is still available.", "t": ["Ist die Wohnung noch frei"] },
+        { "n": "Ask how much the rent is.", "t": ["Wie hoch ist die Miete", "Wie viel kostet die Miete"] },
+        { "n": "Ask if pets are allowed.", "t": ["Darf man Haustiere haben", "Sind Haustiere erlaubt"] },
+        { "n": "Ask if you can view the flat.", "t": ["Kann ich die Wohnung besichtigen", "Kann ich die Wohnung ansehen"] }
+      ]
+    }
+  ]
+}

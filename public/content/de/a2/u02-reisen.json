@@ -1,0 +1,87 @@
+{
+  "id": "a2-u02",
+  "title": "Auf Reisen",
+  "subtitle": "Train station & hotel",
+  "icon": "🚆",
+  "lessons": [
+    {
+      "id": "a2-u02-l1",
+      "title": "At the train station",
+      "goal": "Buy a ticket and ask about trains, platforms and connections.",
+      "tip": {
+        "title": "Dative after mit, von, nach, zu",
+        "body": "After mit, von, nach and zu you use the dative: mit dem Zug, von welchem Gleis. Separable verbs split in a main clause: abfahren → Der Zug fährt um zehn ab. Pronounce Zug as 'tsook' — z is always 'ts' and a final g sounds like k."
+      },
+      "phrases": [
+        { "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
+        { "t": "Hin und zurück, bitte.", "n": "A return ticket, please.", "note": "One way = einfach" },
+        { "t": "Wann fährt der nächste Zug nach München?", "n": "When does the next train to Munich leave?" },
+        { "t": "Von welchem Gleis fährt der Zug ab?", "n": "Which platform does the train leave from?" },
+        { "t": "Muss ich umsteigen?", "n": "Do I have to change trains?" },
+        { "t": "Der Zug hat zwanzig Minuten Verspätung.", "n": "The train is twenty minutes late." },
+        { "t": "Ich möchte einen Platz reservieren.", "n": "I'd like to reserve a seat." },
+        { "t": "Ist dieser Platz noch frei?", "n": "Is this seat free?" }
+      ],
+      "dialogue": {
+        "title": "At the ticket counter",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Mitarbeiterin", "t": "Guten Tag! Was kann ich für Sie tun?", "n": "Hello! What can I do for you?" },
+          { "who": "you", "t": "Eine Fahrkarte nach München, bitte.", "n": "A ticket to Munich, please." },
+          { "who": "A", "name": "Mitarbeiterin", "t": "Einfach oder hin und zurück?", "n": "One way or return?" },
+          { "who": "you", "t": "Hin und zurück, bitte. Muss ich umsteigen?", "n": "Return, please. Do I have to change trains?" },
+          { "who": "A", "name": "Mitarbeiterin", "t": "Nein, der Zug fährt direkt. Er fährt um zehn Uhr fünfzehn ab.", "n": "No, the train is direct. It leaves at ten fifteen." },
+          { "who": "you", "t": "Von welchem Gleis fährt der Zug ab?", "n": "Which platform does the train leave from?" },
+          { "who": "A", "name": "Mitarbeiterin", "t": "Von Gleis sieben. Gute Reise!", "n": "From platform seven. Have a good trip!" },
+          { "who": "you", "t": "Vielen Dank! Auf Wiedersehen!", "n": "Thank you very much! Goodbye!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Buy a return ticket to Munich.", "t": ["Eine Fahrkarte nach München hin und zurück bitte", "Einmal München hin und zurück bitte"] },
+        { "n": "Ask if you have to change trains.", "t": ["Muss ich umsteigen"] },
+        { "n": "Ask which platform the train leaves from.", "t": ["Von welchem Gleis fährt der Zug ab", "Von welchem Gleis fährt der Zug"] },
+        { "n": "Ask if this seat is free.", "t": ["Ist dieser Platz noch frei", "Ist der Platz noch frei", "Ist hier noch frei"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l2",
+      "title": "At the hotel",
+      "goal": "Check in at a hotel and ask about breakfast, Wi-Fi and check-out.",
+      "tip": {
+        "title": "müssen: verb to the end",
+        "body": "With a modal verb like müssen, the second verb goes to the end as an infinitive: Ich muss um elf Uhr auschecken. Questions start with the question word: Bis wann muss ich auschecken? For ü in Frühstück, say 'ee' and round your lips as if to whistle."
+      },
+      "phrases": [
+        { "t": "Ich habe ein Zimmer reserviert.", "n": "I've booked a room." },
+        { "t": "Die Reservierung ist auf den Namen Weber.", "n": "The booking is under the name Weber." },
+        { "t": "Haben Sie noch ein Einzelzimmer frei?", "n": "Do you still have a single room available?", "note": "Double room = Doppelzimmer" },
+        { "t": "Ich bleibe zwei Nächte.", "n": "I'm staying two nights." },
+        { "t": "Ist das Frühstück inklusive?", "n": "Is breakfast included?" },
+        { "t": "Wann gibt es Frühstück?", "n": "When is breakfast served?" },
+        { "t": "Wie ist das WLAN-Passwort?", "n": "What's the Wi-Fi password?", "note": "WLAN = 'vay-lahn'" },
+        { "t": "Bis wann muss ich auschecken?", "n": "By what time do I have to check out?" }
+      ],
+      "dialogue": {
+        "title": "Checking in",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Rezeptionist", "t": "Guten Abend! Willkommen im Hotel Sonne.", "n": "Good evening! Welcome to Hotel Sonne." },
+          { "who": "you", "t": "Guten Abend! Ich habe ein Zimmer reserviert.", "n": "Good evening! I've booked a room." },
+          { "who": "A", "name": "Rezeptionist", "t": "Auf welchen Namen, bitte?", "n": "Under what name, please?" },
+          { "who": "you", "t": "Die Reservierung ist auf den Namen Weber.", "n": "The booking is under the name Weber." },
+          { "who": "A", "name": "Rezeptionist", "t": "Ja, ein Einzelzimmer für zwei Nächte. Hier ist Ihr Schlüssel.", "n": "Yes, a single room for two nights. Here's your key." },
+          { "who": "you", "t": "Danke! Ist das Frühstück inklusive?", "n": "Thanks! Is breakfast included?" },
+          { "who": "A", "name": "Rezeptionist", "t": "Ja, Frühstück gibt es von sieben bis zehn Uhr.", "n": "Yes, breakfast is from seven to ten." },
+          { "who": "you", "t": "Super. Und bis wann muss ich auschecken?", "n": "Great. And by what time do I have to check out?" },
+          { "who": "A", "name": "Rezeptionist", "t": "Bis elf Uhr. Einen schönen Aufenthalt!", "n": "By eleven. Enjoy your stay!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've booked a room.", "t": ["Ich habe ein Zimmer reserviert"] },
+        { "n": "Ask if breakfast is included.", "t": ["Ist das Frühstück inklusive", "Ist Frühstück inklusive"] },
+        { "n": "Say you're staying two nights.", "t": ["Ich bleibe zwei Nächte"] },
+        { "n": "Ask by what time you have to check out.", "t": ["Bis wann muss ich auschecken", "Wann muss ich auschecken"] }
+      ]
+    }
+  ]
+}

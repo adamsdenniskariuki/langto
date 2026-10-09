@@ -63,12 +63,19 @@ async function buildCourse(code) {
   return { lang, course, levels, lessonIndex, phraseIndex, order };
 }
 
-// First not-yet-completed lesson in order; lessons unlock sequentially.
-export function nextLessonId(course, done) {
-  return course.order.find((id) => !done?.[id]?.done) || null;
+// Lessons unlock sequentially; the first lesson of a level is also unlocked when the learner chose to start
+// at that level (`starts` = { [levelId]: true }), so advanced learners can skip ahead.
+export function isUnlocked(course, done, lessonId, starts = {}) {
+  const i = course.order.indexOf(lessonId);
+  if (i <= 0 || !!done?.[lessonId]?.done || !!done?.[course.order[i - 1]]?.done) return true;
+  const entry = course.lessonIndex.get(lessonId);
+  return !!(entry && starts?.[entry.level.id] && firstOfLevel(course, entry.level.id) === lessonId);
 }
 
-export function isUnlocked(course, done, lessonId) {
-  const i = course.order.indexOf(lessonId);
-  return i <= 0 || !!done?.[course.order[i - 1]]?.done || !!done?.[lessonId]?.done;
+const firstOfLevel = (course, levelId) => course.order.find((id) => course.lessonIndex.get(id)?.level.id === levelId);
+
+// The lesson to continue with: the unlocked, unfinished lesson in the highest level the learner has reached.
+export function nextLessonId(course, done, starts = {}) {
+  const open = course.order.filter((id) => !done?.[id]?.done && isUnlocked(course, done, id, starts));
+  return open[open.length - 1] || null;
 }

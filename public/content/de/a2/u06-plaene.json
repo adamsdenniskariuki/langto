@@ -1,0 +1,87 @@
+{
+  "id": "a2-u06",
+  "title": "Pläne und Einladungen",
+  "subtitle": "Plans & invitations",
+  "icon": "🎉",
+  "lessons": [
+    {
+      "id": "a2-u06-l1",
+      "title": "Making plans",
+      "goal": "Suggest activities, make plans and talk about the future.",
+      "tip": {
+        "title": "werden & wenn",
+        "body": "Use werden + infinitive for plans and predictions: Ich werde nächstes Jahr nach Spanien fahren. Morgen wird es regnen. wenn (if/when) sends its verb to the end, and the main clause then starts with the verb: Wenn das Wetter schön ist, gehen wir in den Park. German w sounds like English v: Wollen wir …?"
+      },
+      "phrases": [
+        { "t": "Was machst du am Samstag?", "n": "What are you doing on Saturday?" },
+        { "t": "Hast du Lust, ins Kino zu gehen?", "n": "Do you fancy going to the cinema?" },
+        { "t": "Ich werde nächstes Jahr nach Spanien fahren.", "n": "I'm going to go to Spain next year." },
+        { "t": "Morgen wird es regnen.", "n": "It's going to rain tomorrow." },
+        { "t": "Wir könnten zusammen grillen.", "n": "We could have a barbecue together." },
+        { "t": "Wollen wir uns um sieben treffen?", "n": "Shall we meet at seven?" },
+        { "t": "Wo treffen wir uns?", "n": "Where shall we meet?" },
+        { "t": "Wenn das Wetter schön ist, gehen wir in den Park.", "n": "If the weather is nice, we'll go to the park.", "note": "in den Park: movement → accusative" }
+      ],
+      "dialogue": {
+        "title": "Weekend plans",
+        "lines": [
+          { "who": "you", "t": "Was machst du am Samstag?", "n": "What are you doing on Saturday?" },
+          { "who": "A", "name": "Lukas", "t": "Noch nichts. Warum?", "n": "Nothing yet. Why?" },
+          { "who": "you", "t": "Hast du Lust, ins Kino zu gehen?", "n": "Do you fancy going to the cinema?" },
+          { "who": "A", "name": "Lukas", "t": "Hm, am Samstag wird es sonnig. Wir könnten auch grillen.", "n": "Hmm, it's going to be sunny on Saturday. We could also have a barbecue." },
+          { "who": "you", "t": "Gute Idee! Wenn das Wetter schön ist, grillen wir im Park.", "n": "Good idea! If the weather is nice, we'll have a barbecue in the park." },
+          { "who": "A", "name": "Lukas", "t": "Super! Wann treffen wir uns?", "n": "Great! When shall we meet?" },
+          { "who": "you", "t": "Wollen wir uns um sieben treffen?", "n": "Shall we meet at seven?" },
+          { "who": "A", "name": "Lukas", "t": "Perfekt. Bis Samstag!", "n": "Perfect. See you on Saturday!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they're doing on Saturday.", "t": ["Was machst du am Samstag"] },
+        { "n": "Ask a friend if they fancy going to the cinema.", "t": ["Hast du Lust ins Kino zu gehen"] },
+        { "n": "Suggest meeting at seven.", "t": ["Wollen wir uns um sieben treffen", "Treffen wir uns um sieben"] },
+        { "n": "Say you're going to go to Spain next year.", "t": ["Ich werde nächstes Jahr nach Spanien fahren", "Nächstes Jahr fahre ich nach Spanien"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l2",
+      "title": "Accepting and declining",
+      "goal": "Invite someone, accept or decline an invitation and give a reason.",
+      "tip": {
+        "title": "weil & dass with modal verbs",
+        "body": "In a weil or dass clause the conjugated verb goes last — with a modal verb, the modal is the very last word: Leider kann ich nicht, weil ich arbeiten muss. Separable verbs like einladen and mitbringen are stressed on the prefix: EIN-laden, MIT-bringen. Say Ich komme gern with a warm, friendly tone."
+      },
+      "phrases": [
+        { "t": "Ich möchte dich zu meiner Geburtstagsparty einladen.", "n": "I'd like to invite you to my birthday party." },
+        { "t": "Danke für die Einladung!", "n": "Thanks for the invitation!" },
+        { "t": "Ich komme gern.", "n": "I'd love to come." },
+        { "t": "Leider kann ich nicht, weil ich arbeiten muss.", "n": "Unfortunately I can't because I have to work." },
+        { "t": "Schade, vielleicht nächstes Mal.", "n": "Too bad, maybe next time." },
+        { "t": "Soll ich etwas mitbringen?", "n": "Shall I bring something?" },
+        { "t": "Ich bringe einen Salat mit.", "n": "I'll bring a salad." },
+        { "t": "Ich glaube, dass ich etwas später komme.", "n": "I think I'll come a bit later." }
+      ],
+      "dialogue": {
+        "title": "A birthday invitation",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Sophie", "t": "Hallo! Am Freitag feiere ich meinen Geburtstag. Ich möchte dich einladen!", "n": "Hi! I'm celebrating my birthday on Friday. I'd like to invite you!" },
+          { "who": "you", "t": "Oh, danke für die Einladung! Ich komme gern.", "n": "Oh, thanks for the invitation! I'd love to come." },
+          { "who": "A", "name": "Sophie", "t": "Super! Die Party fängt um acht Uhr an.", "n": "Great! The party starts at eight." },
+          { "who": "you", "t": "Ich glaube, dass ich etwas später komme.", "n": "I think I'll come a bit later." },
+          { "who": "A", "name": "Sophie", "t": "Kein Problem. Kommt dein Bruder auch?", "n": "No problem. Is your brother coming too?" },
+          { "who": "you", "t": "Leider kann er nicht, weil er arbeiten muss.", "n": "Unfortunately he can't because he has to work." },
+          { "who": "A", "name": "Sophie", "t": "Schade, vielleicht nächstes Mal.", "n": "Too bad, maybe next time." },
+          { "who": "you", "t": "Soll ich etwas mitbringen?", "n": "Shall I bring something?" },
+          { "who": "A", "name": "Sophie", "t": "Gern! Vielleicht einen Salat?", "n": "Yes, please! Maybe a salad?" },
+          { "who": "you", "t": "Klar, ich bringe einen Salat mit.", "n": "Sure, I'll bring a salad." }
+        ]
+      },
+      "prompts": [
+        { "n": "Thank someone for the invitation.", "t": ["Danke für die Einladung", "Vielen Dank für die Einladung"] },
+        { "n": "Accept an invitation.", "t": ["Ich komme gern", "Ja ich komme gern"] },
+        { "n": "Decline because you have to work.", "t": ["Leider kann ich nicht weil ich arbeiten muss"] },
+        { "n": "Ask if you should bring something.", "t": ["Soll ich etwas mitbringen", "Soll ich was mitbringen"] }
+      ]
+    }
+  ]
+}

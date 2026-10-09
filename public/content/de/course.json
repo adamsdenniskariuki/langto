@@ -19,7 +19,27 @@
         "a1/u10-mein-tag.json"
       ]
     },
-    { "id": "A2", "title": "Elementary", "description": "Talk about the past, travel and plans.", "comingSoon": true, "units": [] },
-    { "id": "B1", "title": "Intermediate", "description": "Hold everyday conversations with confidence.", "comingSoon": true, "units": [] }
+    {
+      "id": "A2",
+      "title": "Elementary",
+      "description": "Talk about the past, travel, health, work and plans; handle phone calls and complaints.",
+      "units": [
+        "a2/u01-vergangenheit.json",
+        "a2/u02-reisen.json",
+        "a2/u03-gesundheit.json",
+        "a2/u04-wohnen.json",
+        "a2/u05-arbeit.json",
+        "a2/u06-plaene.json",
+        "a2/u07-kleidung.json",
+        "a2/u08-telefon.json"
+      ]
+    },
+    {
+      "id": "B1",
+      "title": "Intermediate",
+      "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.",
+      "comingSoon": true,
+      "units": []
+    }
   ]
 }

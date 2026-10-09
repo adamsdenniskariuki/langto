@@ -411,6 +411,13 @@ fieldset.card legend { font-weight: 800; padding: 0 0.4rem; font-size: 1.05rem; 
 .level-head > div { flex: 1; }
 .level-head h2 { margin: 0; }
 .level-head p { margin: 0; }
+summary.level-head { cursor: pointer; list-style: none; border-radius: 12px; padding: 0.25rem; }
+summary.level-head::-webkit-details-marker { display: none; }
+summary.level-head::after { content: '▸'; font-size: 1.2rem; color: var(--muted); transition: transform 0.2s; }
+details.level[open] > summary.level-head::after { transform: rotate(90deg); }
+summary.level-head:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.level-skip { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+.level-skip p { margin: 0; flex: 1 1 200px; }
 .cefr {
   display: inline-grid;
   place-items: center;

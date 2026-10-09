@@ -57,6 +57,7 @@
         { "t": "Ich habe keine Zeit.", "n": "I don't have time." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Running late",
         "lines": [
           { "who": "you", "t": "Entschuldigung, wie spät ist es?", "n": "Excuse me, what time is it?" },

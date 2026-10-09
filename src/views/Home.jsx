@@ -1,6 +1,6 @@
 import { useCourse } from '../components/context.js';
 import { Bar, Ring } from '../components/Ring.jsx';
-import { useStore } from '../lib/store.js';
+import { update, useStore } from '../lib/store.js';
 import { currentStreak, levelFromXP } from '../lib/gamify.js';
 import { dateKey } from '../lib/date.js';
 import { dueCards } from '../lib/srs.js';
@@ -11,8 +11,10 @@ export function Home() {
   const s = useStore();
   const lang = course.lang.code;
   const done = s.lessons[lang] || {};
-  const next = nextLessonId(course, done);
+  const starts = s.levelStarts?.[lang] || {};
+  const next = nextLessonId(course, done, starts);
   const nextEntry = next && course.lessonIndex.get(next);
+  const nextLevel = nextEntry?.level.id;
   const today = s.xpLog[dateKey()] || 0;
   const streak = currentStreak(s);
   const lvl = levelFromXP(s.xp);
@@ -59,16 +61,30 @@ export function Home() {
       {course.levels.map((level) => {
         const ids = level.units.flatMap((u) => u.lessons.map((l) => l.id));
         const count = ids.filter((id) => done[id]?.done).length;
+        const reachable = ids.length > 0 && isUnlocked(course, done, ids[0], starts);
+        const startHere = () => {
+          if (!confirm(`Start at ${level.id}? Earlier levels stay available, and your progress is kept.`)) return;
+          update((d) => {
+            d.levelStarts = { ...d.levelStarts, [lang]: { ...(d.levelStarts?.[lang] || {}), [level.id]: true } };
+          });
+          location.hash = `#/lesson/${ids[0]}`;
+        };
         return (
-          <section class="level" key={level.id} aria-labelledby={`lvl-${level.id}`}>
-            <header class="level-head">
+          <details class="level" key={level.id} open={level.id === nextLevel || (!nextLevel && level === course.levels[0])}>
+            <summary class="level-head" id={`lvl-${level.id}`}>
               <span class="cefr">{level.id}</span>
               <div>
-                <h2 id={`lvl-${level.id}`}>{level.title}</h2>
+                <h2>{level.title}</h2>
                 <p class="muted small">{level.description}</p>
               </div>
-              {!level.comingSoon && <span class="muted small nowrap">{count}/{ids.length}</span>}
-            </header>
+              {!level.comingSoon && <span class="muted small nowrap">{count === ids.length && count ? '🎓 ' : ''}{count}/{ids.length}</span>}
+            </summary>
+            {!level.comingSoon && !reachable && (
+              <div class="card level-skip">
+                <p class="small">Already speak some German? Jump straight in — earlier levels stay open.</p>
+                <button type="button" class="btn ghost" onClick={startHere}>⏩ Start at {level.id}</button>
+              </div>
+            )}
             {level.comingSoon ? (
               <p class="card muted center">🚧 Coming soon — finish the levels above first!</p>
             ) : (
@@ -88,7 +104,7 @@ export function Home() {
                     <ol class="path">
                       {unit.lessons.map((l, li) => {
                         const d = done[l.id];
-                        const unlocked = isUnlocked(course, done, l.id);
+                        const unlocked = isUnlocked(course, done, l.id, starts);
                         const current = l.id === next;
                         const stars = d ? (d.best >= 1 ? 3 : d.best >= 0.8 ? 2 : 1) : 0;
                         return (
@@ -114,7 +130,7 @@ export function Home() {
                 );
               })
             )}
-          </section>
+          </details>
         );
       })}
     </div>

@@ -1,0 +1,87 @@
+{
+  "id": "a2-u08",
+  "title": "Am Telefon",
+  "subtitle": "Appointments, problems & complaints",
+  "icon": "☎️",
+  "lessons": [
+    {
+      "id": "a2-u08-l1",
+      "title": "Making an appointment",
+      "goal": "Make, confirm and cancel an appointment on the phone.",
+      "tip": {
+        "title": "Polite: Könnten Sie …?",
+        "body": "On the phone, polite forms help a lot: Könnten Sie das bitte wiederholen? Separable verbs split: absagen → Ich sage den Termin ab. Note halb zehn means 9:30 (half to ten). End phone calls with Auf Wiederhören, not Auf Wiedersehen. Speak a little slower than usual and say your name clearly."
+      },
+      "phrases": [
+        { "t": "Guten Tag, hier spricht Alex Müller.", "n": "Hello, this is Alex Müller speaking." },
+        { "t": "Ich möchte einen Termin vereinbaren.", "n": "I'd like to make an appointment." },
+        { "t": "Geht es am Dienstagvormittag?", "n": "Is Tuesday morning possible?" },
+        { "t": "Das passt mir gut.", "n": "That suits me well." },
+        { "t": "Könnten Sie das bitte wiederholen?", "n": "Could you repeat that, please?" },
+        { "t": "Können Sie bitte langsamer sprechen?", "n": "Can you speak more slowly, please?" },
+        { "t": "Ich muss meinen Termin leider absagen.", "n": "Unfortunately I have to cancel my appointment." },
+        { "t": "Kann ich eine Nachricht hinterlassen?", "n": "Can I leave a message?" }
+      ],
+      "dialogue": {
+        "title": "Calling the hairdresser",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Frau Klein", "t": "Friseursalon Schnitt, guten Tag!", "n": "Schnitt hair salon, hello!" },
+          { "who": "you", "t": "Guten Tag, hier spricht Alex Müller. Ich möchte einen Termin vereinbaren.", "n": "Hello, this is Alex Müller. I'd like to make an appointment." },
+          { "who": "A", "name": "Frau Klein", "t": "Gern. Wann hätten Sie denn Zeit?", "n": "Sure. When would you have time?" },
+          { "who": "you", "t": "Geht es am Dienstagvormittag?", "n": "Is Tuesday morning possible?" },
+          { "who": "A", "name": "Frau Klein", "t": "Am Dienstag um neun Uhr dreißig ist noch etwas frei.", "n": "There's still a slot on Tuesday at nine thirty." },
+          { "who": "you", "t": "Entschuldigung, könnten Sie das bitte wiederholen?", "n": "Sorry, could you repeat that, please?" },
+          { "who": "A", "name": "Frau Klein", "t": "Natürlich: am Dienstag um halb zehn.", "n": "Of course: on Tuesday at half past nine." },
+          { "who": "you", "t": "Das passt mir gut. Vielen Dank!", "n": "That suits me well. Thank you very much!" },
+          { "who": "A", "name": "Frau Klein", "t": "Gerne. Bis Dienstag, auf Wiederhören!", "n": "You're welcome. See you on Tuesday, goodbye!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you'd like to make an appointment.", "t": ["Ich möchte einen Termin vereinbaren", "Ich möchte einen Termin machen"] },
+        { "n": "Ask the person to repeat that.", "t": ["Könnten Sie das bitte wiederholen", "Können Sie das bitte wiederholen"] },
+        { "n": "Ask the person to speak more slowly.", "t": ["Können Sie bitte langsamer sprechen", "Könnten Sie bitte langsamer sprechen"] },
+        { "n": "Say you unfortunately have to cancel your appointment.", "t": ["Ich muss meinen Termin leider absagen", "Leider muss ich meinen Termin absagen"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l2",
+      "title": "Problems and complaints",
+      "goal": "Report a problem, complain politely and ask for a solution.",
+      "tip": {
+        "title": "Complain politely",
+        "body": "Start softly with leider (unfortunately) and say how long the problem has lasted with seit + dative: Die Heizung ist seit Montag kaputt. Ich hätte gern … is a polite way to ask for what you want. Ei sounds like English 'eye' and z like 'ts': HEI-tsung."
+      },
+      "phrases": [
+        { "t": "Ich habe ein Problem mit meiner Heizung.", "n": "I have a problem with my heating." },
+        { "t": "Die Heizung ist seit Montag kaputt.", "n": "The heating has been broken since Monday." },
+        { "t": "Ich habe letzte Woche einen Laptop bei Ihnen gekauft.", "n": "I bought a laptop from you last week." },
+        { "t": "Leider funktioniert er nicht richtig.", "n": "Unfortunately it doesn't work properly.", "note": "er = der Laptop" },
+        { "t": "Ich möchte mich beschweren.", "n": "I'd like to make a complaint." },
+        { "t": "Wann kann ein Techniker vorbeikommen?", "n": "When can a technician come by?" },
+        { "t": "Ich hätte gern mein Geld zurück.", "n": "I'd like my money back." },
+        { "t": "Ich warte schon seit einer Stunde.", "n": "I've been waiting for an hour already." }
+      ],
+      "dialogue": {
+        "title": "No heating",
+        "voice": "de-DE-KillianNeural",
+        "lines": [
+          { "who": "A", "name": "Herr Schmidt", "t": "Hausverwaltung Schmidt, guten Tag!", "n": "Schmidt property management, hello!" },
+          { "who": "you", "t": "Guten Tag! Ich habe ein Problem mit meiner Heizung.", "n": "Hello! I have a problem with my heating." },
+          { "who": "A", "name": "Herr Schmidt", "t": "Oh, was ist denn passiert?", "n": "Oh, what happened?" },
+          { "who": "you", "t": "Die Heizung ist seit Montag kaputt. Es ist sehr kalt in der Wohnung.", "n": "The heating has been broken since Monday. It's very cold in the flat." },
+          { "who": "A", "name": "Herr Schmidt", "t": "Das tut mir leid. Haben Sie die Heizung schon kontrolliert?", "n": "I'm sorry. Have you already checked the heating?" },
+          { "who": "you", "t": "Ja, aber sie funktioniert leider nicht. Wann kann ein Techniker vorbeikommen?", "n": "Yes, but unfortunately it doesn't work. When can a technician come by?" },
+          { "who": "A", "name": "Herr Schmidt", "t": "Ich glaube, dass ein Techniker morgen Vormittag kommen kann.", "n": "I think a technician can come tomorrow morning." },
+          { "who": "you", "t": "Gut, ich bin morgen zu Hause. Vielen Dank!", "n": "Good, I'll be at home tomorrow. Thank you very much!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you have a problem with your heating.", "t": ["Ich habe ein Problem mit meiner Heizung", "Ich habe ein Problem mit der Heizung"] },
+        { "n": "Say the heating has been broken since Monday.", "t": ["Die Heizung ist seit Montag kaputt"] },
+        { "n": "Ask when a technician can come by.", "t": ["Wann kann ein Techniker vorbeikommen", "Wann kann ein Techniker kommen"] },
+        { "n": "Say you'd like your money back.", "t": ["Ich hätte gern mein Geld zurück", "Ich möchte mein Geld zurück"] }
+      ]
+    }
+  ]
+}

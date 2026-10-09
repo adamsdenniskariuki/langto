@@ -55,6 +55,7 @@
         { "t": "Ich lerne Deutsch.", "n": "I'm learning German." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Small talk at a party",
         "lines": [
           { "who": "A", "name": "Mia", "t": "Woher kommst du?", "n": "Where are you from?" },

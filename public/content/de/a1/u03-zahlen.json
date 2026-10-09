@@ -60,6 +60,7 @@
         { "t": "Ich bin zwanzig Jahre alt.", "n": "I'm twenty years old." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Birthday party",
         "lines": [
           { "who": "A", "name": "Emma", "t": "Wie alt bist du?", "n": "How old are you?" },

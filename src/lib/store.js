@@ -31,6 +31,7 @@ export function defaultState() {
     streak: { count: 0, best: 0, last: null, freezes: 0 },
     speaking: { seconds: 0, sentences: 0, attempts: 0, dialogues: 0, prompts: 0, aces: 0 },
     lessons: {},
+    levelStarts: {},
     cards: {},
     reviews: 0,
     perfectLessons: 0,

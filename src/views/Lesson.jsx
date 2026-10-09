@@ -47,7 +47,7 @@ export function LessonView({ lessonId }) {
       </section>
     );
   }
-  if (!isUnlocked(course, done, lessonId)) {
+  if (!isUnlocked(course, done, lessonId, s.levelStarts?.[course.lang.code])) {
     return (
       <section class="card center">
         <h1>🔒 Locked</h1>
@@ -95,7 +95,9 @@ export function LessonView({ lessonId }) {
   };
 
   if (summary) {
-    const next = nextLessonId(course, s.lessons[course.lang.code]);
+    const doneNow = s.lessons[course.lang.code] || {};
+    const after = course.order[course.order.indexOf(lessonId) + 1];
+    const next = after && !doneNow[after]?.done ? after : nextLessonId(course, doneNow, s.levelStarts?.[course.lang.code]);
     const nextEntry = next && course.lessonIndex.get(next);
     return (
       <section class="card summary center">

@@ -23,6 +23,7 @@
         { "t": "Bis später!", "n": "See you later!" }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Morning in the stairwell",
         "lines": [
           { "who": "A", "name": "Frau Weber", "t": "Guten Morgen!", "n": "Good morning!" },
@@ -56,6 +57,7 @@
         { "t": "Und Ihnen?", "n": "And you? (formal)" }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Bumping into Lena",
         "lines": [
           { "who": "A", "name": "Lena", "t": "Hallo! Wie geht's?", "n": "Hi! How's it going?" },

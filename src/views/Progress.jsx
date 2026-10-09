@@ -14,7 +14,10 @@ export function Progress() {
   const days = lastNDays(14);
   const maxDay = Math.max(s.settings.dailyGoal, ...days.map((d) => s.xpLog[d] || 0));
   const sp = s.speaking;
-  const earned = BADGES.filter((b) => s.badges[b.id]).length;
+  const live = new Set(course.levels.filter((l) => !l.comingSoon).map((l) => l.id));
+  // Level badges appear once their level is available (or if already earned).
+  const badges = BADGES.filter((b) => !b.level || live.has(b.level) || s.badges[b.id]);
+  const earned = badges.filter((b) => s.badges[b.id]).length;
 
   return (
     <section class="page">
@@ -79,9 +82,9 @@ export function Progress() {
       </div>
 
       <div class="card">
-        <h2>🏆 Badges <span class="muted small">{earned}/{BADGES.length}</span></h2>
+        <h2>🏆 Badges <span class="muted small">{earned}/{badges.length}</span></h2>
         <ul class="badges">
-          {BADGES.map((b) => {
+          {badges.map((b) => {
             const got = s.badges[b.id];
             return (
               <li key={b.id} class={`badge ${got ? 'earned' : 'locked'}`} title={b.desc}>

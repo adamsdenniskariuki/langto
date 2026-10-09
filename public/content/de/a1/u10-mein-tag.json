@@ -21,6 +21,7 @@
         { "t": "Ich gehe um elf Uhr ins Bett.", "n": "I go to bed at eleven." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Early bird?",
         "lines": [
           { "who": "A", "name": "Julia", "t": "Wann stehst du auf?", "n": "When do you get up?" },

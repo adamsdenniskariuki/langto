@@ -22,6 +22,7 @@
         { "t": "Meine Eltern wohnen in Hamburg.", "n": "My parents live in Hamburg." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Looking at photos",
         "lines": [
           { "who": "A", "name": "Sara", "t": "Wer ist das?", "n": "Who is that?" },

@@ -22,6 +22,7 @@
         { "t": "Ohne Zucker.", "n": "Without sugar." }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "At the counter",
         "lines": [
           { "who": "A", "name": "Kellnerin", "t": "Guten Tag! Was möchten Sie?", "n": "Hello! What would you like?" },

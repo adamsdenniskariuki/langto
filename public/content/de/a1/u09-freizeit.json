@@ -22,6 +22,7 @@
         { "t": "Was ist dein Hobby?", "n": "What's your hobby?" }
       ],
       "dialogue": {
+        "voice": "de-DE-AmalaNeural",
         "title": "Getting to know each other",
         "lines": [
           { "who": "A", "name": "Nina", "t": "Was machst du gern?", "n": "What do you like doing?" },

@@ -1,0 +1,88 @@
+{
+  "id": "a2-u03",
+  "title": "Beim Arzt",
+  "subtitle": "Health & the body",
+  "icon": "🩺",
+  "lessons": [
+    {
+      "id": "a2-u03-l1",
+      "title": "What's wrong?",
+      "goal": "Say how you feel and describe where it hurts.",
+      "tip": {
+        "title": "tut weh & seit + present",
+        "body": "Say what hurts with wehtun: Mein Hals tut weh, Meine Füße tun weh. Many feelings use the dative mir: Mir ist schlecht, Mir ist kalt. For something that started in the past and is still going on, use seit with the present tense: Ich habe seit gestern Fieber. In Kopfschmerzen, say the 'ts' clearly: Kopf-schmer-tsen."
+      },
+      "phrases": [
+        { "t": "Ich fühle mich nicht gut.", "n": "I don't feel well." },
+        { "t": "Mir ist schlecht.", "n": "I feel sick.", "note": "Dative mir, no ich!" },
+        { "t": "Ich habe Kopfschmerzen.", "n": "I have a headache." },
+        { "t": "Mein Hals tut weh.", "n": "My throat hurts." },
+        { "t": "Mein Rücken tut weh.", "n": "My back hurts." },
+        { "t": "Ich habe seit gestern Fieber.", "n": "I've had a fever since yesterday." },
+        { "t": "Ich bin erkältet.", "n": "I have a cold." },
+        { "t": "Ich habe letzte Nacht schlecht geschlafen.", "n": "I slept badly last night." }
+      ],
+      "dialogue": {
+        "title": "You look tired",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Anna", "t": "Hallo! Du siehst müde aus. Was ist los?", "n": "Hi! You look tired. What's up?" },
+          { "who": "you", "t": "Ich fühle mich nicht gut. Ich habe letzte Nacht schlecht geschlafen.", "n": "I don't feel well. I slept badly last night." },
+          { "who": "A", "name": "Anna", "t": "Oh nein! Was hast du denn?", "n": "Oh no! What's wrong?" },
+          { "who": "you", "t": "Ich habe Kopfschmerzen und mein Hals tut weh.", "n": "I have a headache and my throat hurts." },
+          { "who": "A", "name": "Anna", "t": "Hast du auch Fieber?", "n": "Do you have a fever too?" },
+          { "who": "you", "t": "Ja, ich habe seit gestern Fieber.", "n": "Yes, I've had a fever since yesterday." },
+          { "who": "A", "name": "Anna", "t": "Dann musst du zum Arzt gehen!", "n": "Then you have to go to the doctor!" },
+          { "who": "you", "t": "Du hast recht. Ich gehe morgen zum Arzt.", "n": "You're right. I'll go to the doctor tomorrow." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you don't feel well.", "t": ["Ich fühle mich nicht gut", "Mir geht es nicht gut"] },
+        { "n": "Say you have a headache.", "t": ["Ich habe Kopfschmerzen"] },
+        { "n": "Say your throat hurts.", "t": ["Mein Hals tut weh", "Ich habe Halsschmerzen"] },
+        { "n": "Say you've had a fever since yesterday.", "t": ["Ich habe seit gestern Fieber"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l2",
+      "title": "At the doctor's",
+      "goal": "Describe your symptoms to a doctor and ask about medicine.",
+      "tip": {
+        "title": "weil: verb to the end",
+        "body": "weil (because) sends the conjugated verb to the end of its clause: Ich kann nicht schlafen, weil ich so stark huste. Use sollen to ask about instructions: Wie oft soll ich die Tabletten nehmen? Pronounce ich with a soft hiss, like a cat — not 'ick' and not 'ish'."
+      },
+      "phrases": [
+        { "t": "Ich habe Halsschmerzen und ich huste stark.", "n": "I have a sore throat and I'm coughing a lot." },
+        { "t": "Seit drei Tagen.", "n": "For three days.", "note": "seit + dative: Tagen" },
+        { "t": "Ich kann nicht gut schlafen, weil ich so stark huste.", "n": "I can't sleep well because I'm coughing so much." },
+        { "t": "Muss ich Tabletten nehmen?", "n": "Do I have to take tablets?" },
+        { "t": "Wie oft soll ich die Tabletten nehmen?", "n": "How often should I take the tablets?" },
+        { "t": "Ich bin allergisch gegen Penizillin.", "n": "I'm allergic to penicillin." },
+        { "t": "Kann ich eine Krankschreibung bekommen?", "n": "Can I get a sick note?", "note": "bekommen = to get, not 'become'" },
+        { "t": "Gute Besserung!", "n": "Get well soon!" }
+      ],
+      "dialogue": {
+        "title": "In the surgery",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Dr. Yilmaz", "t": "Guten Morgen! Was fehlt Ihnen denn?", "n": "Good morning! What seems to be the problem?" },
+          { "who": "you", "t": "Ich habe Halsschmerzen und ich huste stark.", "n": "I have a sore throat and I'm coughing a lot." },
+          { "who": "A", "name": "Dr. Yilmaz", "t": "Seit wann haben Sie die Beschwerden?", "n": "How long have you had the symptoms?" },
+          { "who": "you", "t": "Seit drei Tagen. Ich kann nicht gut schlafen, weil ich so stark huste.", "n": "For three days. I can't sleep well because I'm coughing so much." },
+          { "who": "A", "name": "Dr. Yilmaz", "t": "Haben Sie Allergien?", "n": "Do you have any allergies?" },
+          { "who": "you", "t": "Ja, ich bin allergisch gegen Penizillin.", "n": "Yes, I'm allergic to penicillin." },
+          { "who": "A", "name": "Dr. Yilmaz", "t": "Kein Problem. Ich verschreibe Ihnen einen Hustensaft.", "n": "No problem. I'll prescribe you a cough syrup." },
+          { "who": "you", "t": "Wie oft soll ich den Hustensaft nehmen?", "n": "How often should I take the cough syrup?" },
+          { "who": "A", "name": "Dr. Yilmaz", "t": "Dreimal am Tag. Und bleiben Sie zwei Tage zu Hause.", "n": "Three times a day. And stay at home for two days." },
+          { "who": "you", "t": "Kann ich eine Krankschreibung bekommen?", "n": "Can I get a sick note?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you can't sleep well because you're coughing so much.", "t": ["Ich kann nicht gut schlafen weil ich so stark huste", "Ich kann nicht schlafen weil ich so stark huste"] },
+        { "n": "Say you're allergic to penicillin.", "t": ["Ich bin allergisch gegen Penizillin"] },
+        { "n": "Ask how often you should take the tablets.", "t": ["Wie oft soll ich die Tabletten nehmen"] },
+        { "n": "Wish someone a speedy recovery.", "t": ["Gute Besserung"] }
+      ]
+    }
+  ]
+}

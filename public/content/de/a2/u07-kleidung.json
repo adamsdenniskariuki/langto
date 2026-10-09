@@ -1,0 +1,87 @@
+{
+  "id": "a2-u07",
+  "title": "Kleidung kaufen",
+  "subtitle": "Clothes shopping & comparisons",
+  "icon": "👕",
+  "lessons": [
+    {
+      "id": "a2-u07-l1",
+      "title": "In the clothes shop",
+      "goal": "Ask for clothes in a shop, try them on and say if they fit.",
+      "tip": {
+        "title": "passen, stehen, gefallen + dative",
+        "body": "Three verbs about clothes take the dative: passen (fit) — Die Jacke passt mir nicht; stehen (suit) — Das Hemd steht dir gut; gefallen (like) — Die Farbe gefällt mir. What you buy is accusative: Ich nehme den Pullover. For ö in Größe, say 'e' with rounded lips."
+      },
+      "phrases": [
+        { "t": "Ich suche eine Jacke.", "n": "I'm looking for a jacket." },
+        { "t": "Haben Sie das auch in Blau?", "n": "Do you have this in blue too?" },
+        { "t": "Kann ich das anprobieren?", "n": "Can I try this on?" },
+        { "t": "Wo sind die Umkleidekabinen?", "n": "Where are the changing rooms?" },
+        { "t": "Die Jacke passt mir nicht.", "n": "The jacket doesn't fit me." },
+        { "t": "Haben Sie die Jacke eine Nummer größer?", "n": "Do you have the jacket a size bigger?" },
+        { "t": "Das Hemd steht dir gut.", "n": "That shirt suits you." },
+        { "t": "Ich nehme den Pullover.", "n": "I'll take the jumper.", "note": "der → den (accusative)" }
+      ],
+      "dialogue": {
+        "title": "Finding a jacket",
+        "voice": "de-DE-LouisaNeural",
+        "lines": [
+          { "who": "A", "name": "Verkäuferin", "t": "Guten Tag! Kann ich Ihnen helfen?", "n": "Hello! Can I help you?" },
+          { "who": "you", "t": "Ja, gern. Ich suche eine Jacke.", "n": "Yes, please. I'm looking for a jacket." },
+          { "who": "A", "name": "Verkäuferin", "t": "Wie gefällt Ihnen diese Jacke hier?", "n": "How do you like this jacket here?" },
+          { "who": "you", "t": "Sie ist schön. Haben Sie die auch in Blau?", "n": "It's nice. Do you have it in blue too?" },
+          { "who": "A", "name": "Verkäuferin", "t": "Ja, hier, bitte. Welche Größe brauchen Sie?", "n": "Yes, here you are. What size do you need?" },
+          { "who": "you", "t": "Größe achtunddreißig. Kann ich sie anprobieren?", "n": "Size thirty-eight. Can I try it on?" },
+          { "who": "A", "name": "Verkäuferin", "t": "Natürlich. Die Umkleidekabinen sind dort hinten.", "n": "Of course. The changing rooms are over there at the back." },
+          { "who": "you", "t": "Hm, die Jacke passt mir nicht. Haben Sie sie eine Nummer größer?", "n": "Hmm, the jacket doesn't fit me. Do you have it a size bigger?" },
+          { "who": "A", "name": "Verkäuferin", "t": "Einen Moment, ich schaue mal nach.", "n": "One moment, I'll have a look." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're looking for a jacket.", "t": ["Ich suche eine Jacke"] },
+        { "n": "Ask if you can try it on.", "t": ["Kann ich das anprobieren", "Kann ich sie anprobieren"] },
+        { "n": "Say the jacket doesn't fit you.", "t": ["Die Jacke passt mir nicht", "Die Jacke passt nicht"] },
+        { "n": "Tell a friend the shirt suits them.", "t": ["Das Hemd steht dir gut"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l2",
+      "title": "Better, cheaper, the best",
+      "goal": "Compare clothes and say what you prefer.",
+      "tip": {
+        "title": "Comparative & superlative",
+        "body": "Comparative: add -er and use als: schöner als, günstiger als. Superlative: am schönsten or der/die/das schönste. Short words often take an umlaut: groß → größer, teuer → teurer. Irregular: gut, besser, am besten; gern, lieber, am liebsten. Don't swallow the -er: say schö-ner clearly."
+      },
+      "phrases": [
+        { "t": "Die blaue Jacke ist schöner als die schwarze.", "n": "The blue jacket is nicer than the black one." },
+        { "t": "Der Mantel ist mir zu teuer.", "n": "The coat is too expensive for me." },
+        { "t": "Haben Sie etwas Günstigeres?", "n": "Do you have anything cheaper?" },
+        { "t": "Diese Schuhe sind bequemer.", "n": "These shoes are more comfortable." },
+        { "t": "Das ist das schönste Kleid im Laden.", "n": "That's the most beautiful dress in the shop." },
+        { "t": "Die Hose ist genauso gut wie die Jeans.", "n": "The trousers are just as good as the jeans.", "note": "Equal: so … wie; unequal: …er als" },
+        { "t": "Am liebsten trage ich Turnschuhe.", "n": "I like wearing trainers best." },
+        { "t": "Kann ich das umtauschen?", "n": "Can I exchange this?" }
+      ],
+      "dialogue": {
+        "title": "Shopping with a friend",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          { "who": "A", "name": "Emma", "t": "Welche Jacke findest du besser, die blaue oder die schwarze?", "n": "Which jacket do you think is better, the blue one or the black one?" },
+          { "who": "you", "t": "Die blaue Jacke ist schöner als die schwarze.", "n": "The blue jacket is nicer than the black one." },
+          { "who": "A", "name": "Emma", "t": "Aber die schwarze ist günstiger.", "n": "But the black one is cheaper." },
+          { "who": "you", "t": "Stimmt. Und diese Schuhe sind bequemer.", "n": "True. And these shoes are more comfortable." },
+          { "who": "A", "name": "Emma", "t": "Ja, aber sie sind die teuersten im Laden!", "n": "Yes, but they're the most expensive in the shop!" },
+          { "who": "you", "t": "Hm, die Schuhe sind mir zu teuer.", "n": "Hmm, the shoes are too expensive for me." },
+          { "who": "A", "name": "Emma", "t": "Was trägst du denn am liebsten?", "n": "So what do you like wearing best?" },
+          { "who": "you", "t": "Am liebsten trage ich Turnschuhe.", "n": "I like wearing trainers best." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say the blue jacket is nicer than the black one.", "t": ["Die blaue Jacke ist schöner als die schwarze"] },
+        { "n": "Ask for something cheaper.", "t": ["Haben Sie etwas Günstigeres", "Haben Sie etwas Billigeres"] },
+        { "n": "Say the coat is too expensive for you.", "t": ["Der Mantel ist mir zu teuer", "Der Mantel ist zu teuer"] },
+        { "n": "Say you like wearing trainers best.", "t": ["Am liebsten trage ich Turnschuhe", "Ich trage am liebsten Turnschuhe"] }
+      ]
+    }
+  ]
+}
