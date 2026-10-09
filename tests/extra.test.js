@@ -103,6 +103,16 @@ describe('free speaking check', () => {
   it('does not match parts of words for non-stem targets', () => {
     expect(checkFree('Pizzeria', task).hits).toEqual([]);
     expect(checkFree('', task).score).toBe(0);
+  });  it('requires at least one topic-specific hit when commonWords are given', () => {
+    const lang = { code: 'de', commonWords: ['ich', 'habe', 'und', 'das'] };
+    const t = { minWords: 4, targets: [{ label: 'me', any: ['ich'] }, { label: 'have', any: ['habe'] }, { label: 'dog', any: ['hund'] }] };
+    const common = checkFree('ich habe das und das', t, lang);
+    expect(common.specific).toBe(0);
+    expect(common.score).toBeLessThan(FREE_PASS);
+    const ok = checkFree('ich habe einen Hund und das', t, lang);
+    expect(ok.specific).toBe(1);
+    expect(ok.score).toBeGreaterThanOrEqual(FREE_PASS);
+    expect(checkFree('ich habe das und das', t, 'de').score).toBeGreaterThanOrEqual(FREE_PASS);
   });
 });
 

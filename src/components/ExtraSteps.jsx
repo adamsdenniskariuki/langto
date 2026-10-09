@@ -437,7 +437,7 @@ export function FreeStep({ step, done }) {
     ref.current = l;
     try {
       const r = await l.promise;
-      const c = checkFree(r.transcript, task, course.lang.code);
+      const c = checkFree(r.transcript, task, course.lang);
       setText(r.transcript);
       setCheck({ ...c, seconds: r.seconds });
       sfx(c.score >= FREE_PASS ? 'good' : 'bad');

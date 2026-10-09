@@ -101,6 +101,8 @@ function checkLesson(l, w, unit) {
     if (!Array.isArray(f.targets) || !f.targets.length) fail(w, `free task ${i}: needs targets`);
     for (const [j, t] of (f.targets || []).entries()) if (!str(t.label) || !Array.isArray(t.any) || !t.any.length || !t.any.every(str)) fail(w, `free task ${i} target ${j} needs label and any[]`);
     if (!str(f.model)) fail(w, `free task ${i} needs a model answer`);
+    if (!(f.targets || []).some((t) => (t.any || []).some((a) => !commonWords.has(String(a).trim().toLowerCase()))))
+      fail(w, `free task ${i}: needs at least one topic-specific target word (not only commonWords)`);
   }
   for (const [i, pr] of (l.pairs || []).entries()) {
     if (!tn(pr.a) || !tn(pr.b)) fail(w, `pair ${i}: a and b need t and n`);
@@ -118,10 +120,12 @@ function checkLesson(l, w, unit) {
   } else if (kind !== 'test' && !hasSteps) fail(w, 'lesson has no content');
 }
 
+let commonWords = new Set();
 const langs = read('content/languages.json') || [];
 let lessonCount = 0;
 for (const lang of langs) {
   const where = `languages.json[${lang.code}]`;
+  commonWords = new Set((lang.commonWords || []).map((x) => String(x).toLowerCase()));
   for (const k of ['code', 'name', 'native', 'flag', 'speech', 'course']) if (!str(lang[k])) fail(where, `missing "${k}"`);
   const course = read(lang.course);
   if (!course) continue;
