@@ -13,34 +13,119 @@
         "body": "Hard demands sound rude in German negotiations; Konjunktiv II softens them: Wären Sie bereit …? Könnten wir uns auf … einigen? Conditions use vorausgesetzt, dass or unter der Bedingung, dass – the verb goes to the end. Keep your tone calm and even; a slight rise at the end of an offer keeps the door open."
       },
       "phrases": [
-        { "t": "Wären Sie bereit, uns beim Preis etwas entgegenzukommen?", "n": "Would you be willing to meet us halfway on the price?", "note": "entgegenkommen = to accommodate" },
-        { "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.", "n": "Unfortunately, that's not quite what we had in mind." },
-        { "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.", "n": "We could agree, provided that delivery is on time." },
-        { "t": "Was wäre, wenn wir eine größere Menge bestellen würden?", "n": "What if we ordered a larger quantity?" },
-        { "t": "Da sind uns leider die Hände gebunden.", "n": "Unfortunately our hands are tied there." },
-        { "t": "Das ist unser letztes Angebot.", "n": "That's our final offer." },
-        { "t": "Ich müsste das erst mit meiner Chefin absprechen.", "n": "I'd have to clear that with my boss first." },
-        { "t": "Unter dieser Bedingung wären wir einverstanden.", "n": "On that condition, we'd agree." }
+        {
+          "t": "Wären Sie bereit, uns beim Preis etwas entgegenzukommen?",
+          "n": "Would you be willing to meet us halfway on the price?",
+          "note": "entgegenkommen = to accommodate"
+        },
+        {
+          "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.",
+          "n": "Unfortunately, that's not quite what we had in mind."
+        },
+        {
+          "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.",
+          "n": "We could agree, provided that delivery is on time."
+        },
+        {
+          "t": "Was wäre, wenn wir eine größere Menge bestellen würden?",
+          "n": "What if we ordered a larger quantity?"
+        },
+        {
+          "t": "Da sind uns leider die Hände gebunden.",
+          "n": "Unfortunately our hands are tied there."
+        },
+        {
+          "t": "Das ist unser letztes Angebot.",
+          "n": "That's our final offer."
+        },
+        {
+          "t": "Ich müsste das erst mit meiner Chefin absprechen.",
+          "n": "I'd have to clear that with my boss first."
+        },
+        {
+          "t": "Unter dieser Bedingung wären wir einverstanden.",
+          "n": "On that condition, we'd agree."
+        }
       ],
       "dialogue": {
         "title": "Talking to a supplier",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Wir können Ihnen das Material für achtzehn Euro pro Stück anbieten.", "n": "We can offer you the material for eighteen euros per item." },
-          { "who": "you", "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.", "n": "Unfortunately, that's not quite what we had in mind." },
-          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Woran hatten Sie denn gedacht?", "n": "What did you have in mind then?" },
-          { "who": "you", "t": "Was wäre, wenn wir eine größere Menge bestellen würden? Sagen wir, tausend Stück.", "n": "What if we ordered a larger quantity? Let's say a thousand items." },
-          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Dann könnten wir auf sechzehn Euro runtergehen. Bei Zahlung innerhalb von zehn Tagen.", "n": "Then we could go down to sixteen euros. With payment within ten days." },
-          { "who": "you", "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.", "n": "We could agree, provided that delivery is on time." },
-          { "who": "A", "name": "Lieferantin Frau Krüger", "t": "Das garantieren wir Ihnen. Haben wir einen Deal?", "n": "We guarantee that. Do we have a deal?" },
-          { "who": "you", "t": "Ich müsste das erst mit meiner Chefin absprechen. Aber unter dieser Bedingung wären wir einverstanden.", "n": "I'd have to clear that with my boss first. But on that condition, we'd agree." }
+          {
+            "who": "A",
+            "name": "Lieferantin Frau Krüger",
+            "t": "Wir können Ihnen das Material für achtzehn Euro pro Stück anbieten.",
+            "n": "We can offer you the material for eighteen euros per item."
+          },
+          {
+            "who": "you",
+            "t": "Das ist leider nicht ganz das, was wir uns vorgestellt haben.",
+            "n": "Unfortunately, that's not quite what we had in mind."
+          },
+          {
+            "who": "A",
+            "name": "Lieferantin Frau Krüger",
+            "t": "Woran hatten Sie denn gedacht?",
+            "n": "What did you have in mind then?"
+          },
+          {
+            "who": "you",
+            "t": "Was wäre, wenn wir eine größere Menge bestellen würden? Sagen wir, tausend Stück.",
+            "n": "What if we ordered a larger quantity? Let's say a thousand items."
+          },
+          {
+            "who": "A",
+            "name": "Lieferantin Frau Krüger",
+            "t": "Dann könnten wir auf sechzehn Euro runtergehen. Bei Zahlung innerhalb von zehn Tagen.",
+            "n": "Then we could go down to sixteen euros. With payment within ten days."
+          },
+          {
+            "who": "you",
+            "t": "Wir könnten zustimmen, vorausgesetzt, dass die Lieferung pünktlich erfolgt.",
+            "n": "We could agree, provided that delivery is on time."
+          },
+          {
+            "who": "A",
+            "name": "Lieferantin Frau Krüger",
+            "t": "Das garantieren wir Ihnen. Haben wir einen Deal?",
+            "n": "We guarantee that. Do we have a deal?"
+          },
+          {
+            "who": "you",
+            "t": "Ich müsste das erst mit meiner Chefin absprechen. Aber unter dieser Bedingung wären wir einverstanden.",
+            "n": "I'd have to clear that with my boss first. But on that condition, we'd agree."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask if they'd be willing to meet you halfway on the price.", "t": ["Wären Sie bereit, uns beim Preis etwas entgegenzukommen", "Wären Sie bereit, uns beim Preis entgegenzukommen"] },
-        { "n": "Say your hands are tied.", "t": ["Da sind uns leider die Hände gebunden", "Uns sind leider die Hände gebunden"] },
-        { "n": "Say you'd have to clear it with your boss first.", "t": ["Ich müsste das erst mit meiner Chefin absprechen", "Ich müsste das erst mit meinem Chef absprechen"] },
-        { "n": "Say that on that condition you'd agree.", "t": ["Unter dieser Bedingung wären wir einverstanden", "Unter dieser Bedingung wäre ich einverstanden"] }
+        {
+          "n": "Ask if they'd be willing to meet you halfway on the price.",
+          "t": [
+            "Wären Sie bereit, uns beim Preis etwas entgegenzukommen",
+            "Wären Sie bereit, uns beim Preis entgegenzukommen"
+          ]
+        },
+        {
+          "n": "Say your hands are tied.",
+          "t": [
+            "Da sind uns leider die Hände gebunden",
+            "Uns sind leider die Hände gebunden"
+          ]
+        },
+        {
+          "n": "Say you'd have to clear it with your boss first.",
+          "t": [
+            "Ich müsste das erst mit meiner Chefin absprechen",
+            "Ich müsste das erst mit meinem Chef absprechen"
+          ]
+        },
+        {
+          "n": "Say that on that condition you'd agree.",
+          "t": [
+            "Unter dieser Bedingung wären wir einverstanden",
+            "Unter dieser Bedingung wäre ich einverstanden"
+          ]
+        }
       ]
     },
     {
@@ -52,34 +137,657 @@
         "body": "Obwohl starts a subordinate clause (verb at the end): Obwohl ich lieber ans Meer fahren würde, … Dennoch and trotzdem take position 1 and are followed by the verb: Dennoch bin ich einverstanden. To sound cooperative, use wir instead of ich and keep a friendly, slightly rising tone – Wie wär's, wenn …? invites the other person in."
       },
       "phrases": [
-        { "t": "Wie wär's, wenn wir uns in der Mitte treffen?", "n": "How about we meet in the middle?" },
-        { "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.", "n": "Although I'd rather go to the seaside, I'm open to the mountains." },
-        { "t": "Ich kann dir da ein Stück entgegenkommen.", "n": "I can meet you partway on that." },
-        { "t": "Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.", "n": "Nevertheless, it's important to me that we have enough time to relax." },
-        { "t": "Damit kann ich leben.", "n": "I can live with that." },
-        { "t": "Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind.", "n": "Let's find a compromise we're both happy with." },
-        { "t": "Dieses Jahr machen wir es so, und nächstes Jahr entscheidest du.", "n": "This year we'll do it this way, and next year you decide." },
-        { "t": "Abgemacht!", "n": "Deal!" }
+        {
+          "t": "Wie wär's, wenn wir uns in der Mitte treffen?",
+          "n": "How about we meet in the middle?"
+        },
+        {
+          "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.",
+          "n": "Although I'd rather go to the seaside, I'm open to the mountains."
+        },
+        {
+          "t": "Ich kann dir da ein Stück entgegenkommen.",
+          "n": "I can meet you partway on that."
+        },
+        {
+          "t": "Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.",
+          "n": "Nevertheless, it's important to me that we have enough time to relax."
+        },
+        {
+          "t": "Damit kann ich leben.",
+          "n": "I can live with that."
+        },
+        {
+          "t": "Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind.",
+          "n": "Let's find a compromise we're both happy with."
+        },
+        {
+          "t": "Dieses Jahr machen wir es so, und nächstes Jahr entscheidest du.",
+          "n": "This year we'll do it this way, and next year you decide."
+        },
+        {
+          "t": "Abgemacht!",
+          "n": "Deal!"
+        }
       ],
       "dialogue": {
         "title": "Planning the holiday",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Jonas", "t": "Ich will dieses Jahr unbedingt wandern gehen. Zwei Wochen in den Alpen!", "n": "This year I really want to go hiking. Two weeks in the Alps!" },
-          { "who": "you", "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.", "n": "Although I'd rather go to the seaside, I'm open to the mountains." },
-          { "who": "A", "name": "Jonas", "t": "Echt? Ich dachte, du hasst Wandern.", "n": "Really? I thought you hated hiking." },
-          { "who": "you", "t": "Ich kann dir da ein Stück entgegenkommen. Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.", "n": "I can meet you partway on that. Nevertheless, it's important to me that we have enough time to relax." },
-          { "who": "A", "name": "Jonas", "t": "Okay. Eine Woche Berge, eine Woche See?", "n": "Okay. One week of mountains, one week by a lake?" },
-          { "who": "you", "t": "Damit kann ich leben. Dieses Jahr machen wir es so, und nächstes Jahr entscheide ich.", "n": "I can live with that. This year we'll do it this way, and next year I decide." },
-          { "who": "A", "name": "Jonas", "t": "Klingt fair. Abgemacht?", "n": "Sounds fair. Deal?" },
-          { "who": "you", "t": "Abgemacht!", "n": "Deal!" }
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Ich will dieses Jahr unbedingt wandern gehen. Zwei Wochen in den Alpen!",
+            "n": "This year I really want to go hiking. Two weeks in the Alps!"
+          },
+          {
+            "who": "you",
+            "t": "Obwohl ich lieber ans Meer fahren würde, bin ich offen für die Berge.",
+            "n": "Although I'd rather go to the seaside, I'm open to the mountains."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Echt? Ich dachte, du hasst Wandern.",
+            "n": "Really? I thought you hated hiking."
+          },
+          {
+            "who": "you",
+            "t": "Ich kann dir da ein Stück entgegenkommen. Dennoch ist mir wichtig, dass wir genug Zeit zum Entspannen haben.",
+            "n": "I can meet you partway on that. Nevertheless, it's important to me that we have enough time to relax."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Okay. Eine Woche Berge, eine Woche See?",
+            "n": "Okay. One week of mountains, one week by a lake?"
+          },
+          {
+            "who": "you",
+            "t": "Damit kann ich leben. Dieses Jahr machen wir es so, und nächstes Jahr entscheide ich.",
+            "n": "I can live with that. This year we'll do it this way, and next year I decide."
+          },
+          {
+            "who": "A",
+            "name": "Jonas",
+            "t": "Klingt fair. Abgemacht?",
+            "n": "Sounds fair. Deal?"
+          },
+          {
+            "who": "you",
+            "t": "Abgemacht!",
+            "n": "Deal!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Suggest meeting in the middle.", "t": ["Wie wär's, wenn wir uns in der Mitte treffen", "Wie wäre es, wenn wir uns in der Mitte treffen"] },
-        { "n": "Say you can live with that.", "t": ["Damit kann ich leben"] },
-        { "n": "Suggest finding a compromise you're both happy with.", "t": ["Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind", "Lass uns einen Kompromiss finden"] }
+        {
+          "n": "Suggest meeting in the middle.",
+          "t": [
+            "Wie wär's, wenn wir uns in der Mitte treffen",
+            "Wie wäre es, wenn wir uns in der Mitte treffen"
+          ]
+        },
+        {
+          "n": "Say you can live with that.",
+          "t": [
+            "Damit kann ich leben"
+          ]
+        },
+        {
+          "n": "Suggest finding a compromise you're both happy with.",
+          "t": [
+            "Lass uns einen Kompromiss finden, mit dem wir beide zufrieden sind",
+            "Lass uns einen Kompromiss finden"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u03-l3",
+      "title": "Asking for a pay rise",
+      "goal": "Argue for a higher salary calmly and convincingly.",
+      "tip": {
+        "title": "Arguing with achievements",
+        "body": "In salary talks, facts beat feelings: name concrete results (Seit ich das Projekt leite, …) and a clear figure. Put your request in Konjunktiv II – Ich würde mir eine Gehaltserhöhung um acht Prozent wünschen – it sounds confident but polite."
+      },
+      "phrases": [
+        {
+          "t": "Ich würde gern mit Ihnen über mein Gehalt sprechen.",
+          "n": "I'd like to talk to you about my salary."
+        },
+        {
+          "t": "Seit ich das Projekt leite, sind die Kosten deutlich gesunken.",
+          "n": "Since I've been leading the project, costs have fallen significantly."
+        },
+        {
+          "t": "Ich habe zusätzliche Aufgaben übernommen.",
+          "n": "I've taken on additional responsibilities."
+        },
+        {
+          "t": "Ich würde mir eine Gehaltserhöhung um acht Prozent wünschen.",
+          "n": "I'd like a pay rise of eight percent."
+        },
+        {
+          "t": "Wäre auch ein zusätzlicher Urlaubstag denkbar?",
+          "n": "Would an extra day of holiday also be possible?"
+        }
+      ],
+      "dialogue": {
+        "title": "Talking to the boss",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Frau Hoffmann",
+            "t": "Sie wollten mich sprechen? Worum geht es denn?",
+            "n": "You wanted to see me? What's it about?"
+          },
+          {
+            "who": "you",
+            "t": "Ich würde gern mit Ihnen über mein Gehalt sprechen. Ich habe zusätzliche Aufgaben übernommen.",
+            "n": "I'd like to talk to you about my salary. I've taken on additional responsibilities."
+          },
+          {
+            "who": "A",
+            "name": "Frau Hoffmann",
+            "t": "Das stimmt. Woran hatten Sie gedacht?",
+            "n": "That's true. What did you have in mind?"
+          },
+          {
+            "who": "you",
+            "t": "Ich würde mir eine Gehaltserhöhung um acht Prozent wünschen.",
+            "n": "I'd like a pay rise of eight percent."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to talk to your boss about your salary.",
+          "t": [
+            "Ich würde gern mit Ihnen über mein Gehalt sprechen",
+            "Ich würde gern über mein Gehalt sprechen"
+          ]
+        },
+        {
+          "n": "Say you've taken on additional responsibilities.",
+          "t": [
+            "Ich habe zusätzliche Aufgaben übernommen"
+          ]
+        },
+        {
+          "n": "Ask whether an extra day of holiday would also be possible.",
+          "t": [
+            "Wäre auch ein zusätzlicher Urlaubstag denkbar",
+            "Wäre ein zusätzlicher Urlaubstag denkbar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l4",
+      "kind": "grammar",
+      "title": "Konjunktiv II in the past",
+      "goal": "Talk about missed chances: Wir hätten früher bestellen sollen.",
+      "tip": {
+        "title": "hätte / wäre + Partizip II",
+        "body": "To talk about what could have happened, use hätte or wäre + Partizip II: Wenn Sie früher bestellt hätten, wäre es günstiger gewesen. With modal verbs you get a double infinitive at the end: Ich hätte mehr verlangen sollen. In negotiations this lets you point out missed chances without blaming anyone too directly."
+      },
+      "phrases": [
+        {
+          "t": "Ich hätte mehr verlangen sollen.",
+          "n": "I should have asked for more."
+        },
+        {
+          "t": "Wenn Sie früher bestellt hätten, wäre es günstiger gewesen.",
+          "n": "If you had ordered earlier, it would have been cheaper."
+        },
+        {
+          "t": "Wir hätten uns das Angebot genauer ansehen sollen.",
+          "n": "We should have looked at the offer more closely."
+        },
+        {
+          "t": "Ohne Ihre Hilfe wäre der Vertrag nicht zustande gekommen.",
+          "n": "Without your help the contract wouldn't have come about."
+        },
+        {
+          "t": "Das hätten Sie mir früher sagen können.",
+          "n": "You could have told me that earlier."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the modal verb",
+          "base": {
+            "t": "Ich hätte mehr verlangen sollen.",
+            "n": "I should have asked for more."
+          },
+          "items": [
+            {
+              "cue": "können",
+              "t": "Ich hätte mehr verlangen können.",
+              "n": "I could have asked for more."
+            },
+            {
+              "cue": "wir · müssen",
+              "t": "Wir hätten mehr verlangen müssen.",
+              "n": "We would have had to ask for more."
+            },
+            {
+              "cue": "Sie · dürfen",
+              "t": "Sie hätten mehr verlangen dürfen.",
+              "n": "You would have been allowed to ask for more."
+            }
+          ]
+        },
+        {
+          "title": "Swap present → past",
+          "base": {
+            "t": "Wenn Sie früher bestellen würden, wäre es günstiger.",
+            "n": "If you ordered earlier, it would be cheaper."
+          },
+          "items": [
+            {
+              "cue": "Vergangenheit",
+              "t": "Wenn Sie früher bestellt hätten, wäre es günstiger gewesen.",
+              "n": "If you had ordered earlier, it would have been cheaper."
+            },
+            {
+              "cue": "ich · fragen",
+              "t": "Wenn ich früher gefragt hätte, wäre es günstiger gewesen.",
+              "n": "If I had asked earlier, it would have been cheaper."
+            },
+            {
+              "cue": "wir · zahlen · schneller gehen",
+              "t": "Wenn wir früher gezahlt hätten, wäre es schneller gegangen.",
+              "n": "If we had paid earlier, it would have gone faster."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you should have asked for more.",
+          "t": [
+            "Ich hätte mehr verlangen sollen"
+          ]
+        },
+        {
+          "n": "Tell someone they could have told you that earlier.",
+          "t": [
+            "Das hätten Sie mir früher sagen können",
+            "Das hättest du mir früher sagen können"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l5",
+      "kind": "listening",
+      "title": "At the flea market",
+      "goal": "Follow a haggling conversation at natural speed.",
+      "phrases": [
+        {
+          "t": "Was wollen Sie dafür haben?",
+          "n": "What do you want for it?"
+        },
+        {
+          "t": "Das ist mir ein bisschen zu teuer.",
+          "n": "That's a bit too expensive for me."
+        },
+        {
+          "t": "Ich würde Ihnen dreißig geben.",
+          "n": "I'd give you thirty."
+        },
+        {
+          "t": "Machen wir fünfunddreißig?",
+          "n": "Shall we say thirty-five?"
+        }
+      ],
+      "story": {
+        "title": "The old lamp",
+        "intro": "At a flea market in Vienna, Mia haggles with a seller over an old lamp.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Mia",
+            "t": "Die Lampe ist ja schön. Was wollen Sie dafür haben?",
+            "n": "That lamp is lovely. What do you want for it?"
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Fünfzig Euro. Die ist aus den Sechzigerjahren, ein echtes Original.",
+            "n": "Fifty euros. It's from the sixties, a real original."
+          },
+          {
+            "name": "Mia",
+            "t": "Das ist mir ein bisschen zu teuer. Das Kabel müsste ja auch erneuert werden.",
+            "n": "That's a bit too expensive for me. The cable would need replacing, too."
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Na gut, für Sie vierzig.",
+            "n": "All right, forty for you."
+          },
+          {
+            "name": "Mia",
+            "t": "Ich würde Ihnen dreißig geben.",
+            "n": "I'd give you thirty."
+          },
+          {
+            "name": "Herr Huber",
+            "voice": "de-AT-JonasNeural",
+            "t": "Machen wir fünfunddreißig, und ich lege die Glühbirne dazu.",
+            "n": "Let's say thirty-five, and I'll throw in the bulb."
+          },
+          {
+            "name": "Mia",
+            "t": "Einverstanden, abgemacht!",
+            "n": "Agreed, it's a deal!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Aus welcher Zeit ist die Lampe?",
+            "n": "What era is the lamp from?",
+            "t": [
+              "Aus den Sechzigerjahren",
+              "Aus den Sechzigern",
+              "Sechzigerjahre"
+            ]
+          },
+          {
+            "q": "Was müsste erneuert werden?",
+            "n": "What would need replacing?",
+            "t": [
+              "Das Kabel",
+              "Das Kabel müsste erneuert werden"
+            ]
+          },
+          {
+            "q": "Wie viel zahlt Mia am Ende?",
+            "n": "How much does Mia pay in the end?",
+            "t": [
+              "Fünfunddreißig Euro",
+              "35 Euro",
+              "Fünfunddreißig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u03-l6",
+      "kind": "roleplay",
+      "title": "At the garage",
+      "goal": "Challenge a bill and negotiate a fair solution — your choices decide the price.",
+      "phrases": [
+        {
+          "t": "Die Rechnung ist deutlich höher als der Kostenvoranschlag.",
+          "n": "The bill is much higher than the estimate."
+        },
+        {
+          "t": "Warum wurde ich nicht vorher informiert?",
+          "n": "Why wasn't I informed beforehand?"
+        },
+        {
+          "t": "Könnten Sie mir die Positionen einzeln erklären?",
+          "n": "Could you explain the items one by one?"
+        },
+        {
+          "t": "Ich schlage vor, dass wir uns die Differenz teilen.",
+          "n": "I suggest we split the difference."
+        }
+      ],
+      "branch": {
+        "title": "The unexpected bill",
+        "scene": "You're picking up your car after a service. The estimate was 400 euros — but the bill says 580.",
+        "name": "Herr Schulze (Werkstatt)",
+        "voice": "de-DE-ConradNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "So, Ihr Wagen ist fertig. Das macht dann fünfhundertachtzig Euro.",
+            "n": "Right, your car's ready. That comes to 580 euros.",
+            "choices": [
+              {
+                "t": "Moment, die Rechnung ist deutlich höher als der Kostenvoranschlag.",
+                "n": "Hang on, the bill is much higher than the estimate.",
+                "next": "why"
+              },
+              {
+                "t": "Was? Das ist ja Betrug! Ich zahle gar nichts.",
+                "n": "What? That's fraud! I'm not paying anything.",
+                "next": "bad"
+              }
+            ]
+          },
+          "why": {
+            "t": "Ja, wir mussten zusätzlich die Bremsscheiben wechseln. Die waren völlig abgefahren.",
+            "n": "Yes, we also had to replace the brake discs. They were completely worn.",
+            "choices": [
+              {
+                "t": "Warum wurde ich nicht vorher informiert?",
+                "n": "Why wasn't I informed beforehand?",
+                "next": "sorry"
+              },
+              {
+                "t": "Könnten Sie mir die Positionen einzeln erklären?",
+                "n": "Could you explain the items one by one?",
+                "next": "items"
+              }
+            ]
+          },
+          "items": {
+            "t": "Gern. Vierhundert für die Inspektion, wie besprochen, und hundertachtzig für die Bremsscheiben.",
+            "n": "Sure. Four hundred for the service, as agreed, and a hundred and eighty for the brake discs.",
+            "choices": [
+              {
+                "t": "Verstehe. Aber das hätten Sie mir vorher sagen müssen.",
+                "n": "I see. But you should have told me beforehand.",
+                "next": "sorry"
+              },
+              {
+                "t": "Ach so, dann ist ja alles klar.",
+                "n": "Oh I see, then everything's clear.",
+                "next": "pay"
+              }
+            ]
+          },
+          "sorry": {
+            "t": "Da haben Sie recht. Mein Kollege hätte Sie anrufen sollen. Was schlagen Sie vor?",
+            "n": "You have a point. My colleague should have called you. What do you suggest?",
+            "choices": [
+              {
+                "t": "Ich schlage vor, dass wir uns die Differenz teilen.",
+                "n": "I suggest we split the difference.",
+                "next": "deal"
+              },
+              {
+                "t": "Ich zahle nur den Kostenvoranschlag, sonst schreibe ich eine schlechte Bewertung.",
+                "n": "I'll only pay the estimate, or else I'll write a bad review.",
+                "next": "small"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Also neunzig Euro weniger … Gut, das ist fair. Dann macht das vierhundertneunzig Euro.",
+            "n": "So ninety euros less … OK, that's fair. Then that comes to 490 euros.",
+            "end": "good",
+            "outcome": "You stayed calm, pointed out the missing phone call and split the extra cost."
+          },
+          "small": {
+            "t": "Drohungen helfen uns beiden nicht. Zwanzig Euro Nachlass, mehr geht nicht.",
+            "n": "Threats don't help either of us. Twenty euros off, that's the most I can do.",
+            "end": "good",
+            "outcome": "You got a small discount — but a calm compromise would have saved you more."
+          },
+          "pay": {
+            "t": "Genau. Zahlen Sie bar oder mit Karte?",
+            "n": "Exactly. Cash or card?",
+            "end": "good",
+            "outcome": "You paid in full — fair enough, but you could have asked why nobody called you first."
+          },
+          "bad": {
+            "t": "So nicht. Solange die Rechnung nicht bezahlt ist, bleibt das Auto hier.",
+            "n": "Not like that. As long as the bill isn't paid, the car stays here.",
+            "end": "bad",
+            "outcome": "Accusing the garage got you nowhere — ask for an explanation first."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask why you weren't informed beforehand.",
+          "t": [
+            "Warum wurde ich nicht vorher informiert"
+          ]
+        },
+        {
+          "n": "Suggest splitting the difference.",
+          "t": [
+            "Ich schlage vor, dass wir uns die Differenz teilen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l7",
+      "kind": "speaking",
+      "title": "Make your case",
+      "goal": "Negotiate and reflect on deals freely.",
+      "culture": {
+        "title": "Feste Preise, klare Absprachen",
+        "body": "Haggling is unusual in German-speaking shops – prices are fixed, though you can ask for a Rabatt on big purchases, at the flea market or when buying a used car. For repairs, ask for a Kostenvoranschlag (estimate) first; the workshop should check with you before going well over it. Agreements are taken seriously: once you've said Abgemacht, people expect you to stick to it.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Mein Vorschlag wäre folgender.",
+          "n": "My proposal would be the following."
+        },
+        {
+          "t": "Im Gegenzug wäre ich bereit, mehr Verantwortung zu übernehmen.",
+          "n": "In return, I'd be willing to take on more responsibility."
+        },
+        {
+          "t": "Rückblickend hätte ich anders verhandelt.",
+          "n": "Looking back, I would have negotiated differently."
+        }
+      ],
+      "free": [
+        {
+          "n": "Ask your boss for a pay rise or an extra day of holiday. Mention your achievements, name a figure and offer something in return.",
+          "hint": "Ich würde gern über … sprechen. Seit ich … Ich würde mir … wünschen. Im Gegenzug wäre ich bereit …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a polite opening",
+              "any": [
+                "ich würde gern",
+                "ich möchte",
+                "sprechen"
+              ]
+            },
+            {
+              "label": "your achievements",
+              "any": [
+                "seit ich",
+                "übernommen",
+                "erfolg*",
+                "projekt*",
+                "geschafft",
+                "erreicht"
+              ]
+            },
+            {
+              "label": "a concrete request",
+              "any": [
+                "prozent",
+                "gehaltserhöhung",
+                "euro",
+                "urlaubstag",
+                "mehr gehalt"
+              ]
+            },
+            {
+              "label": "something in return",
+              "any": [
+                "im gegenzug",
+                "dafür",
+                "bereit",
+                "verantwortung"
+              ]
+            }
+          ],
+          "model": "Ich würde gern mit Ihnen über mein Gehalt sprechen. Seit ich das Team leite, sind die Kosten deutlich gesunken. Ich würde mir eine Erhöhung um acht Prozent wünschen. Im Gegenzug wäre ich bereit, mehr Verantwortung zu übernehmen."
+        },
+        {
+          "n": "Tell a friend about a deal or purchase that didn't go well. What happened, and what should you have done differently?",
+          "hint": "Ich habe … gekauft. Rückblickend hätte ich … sollen. Wenn ich … hätte, wäre …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "what happened",
+              "any": [
+                "gekauft",
+                "verhandelt",
+                "bestellt",
+                "bezahlt",
+                "gezahlt",
+                "habe"
+              ]
+            },
+            {
+              "label": "a regret",
+              "any": [
+                "hätte",
+                "rückblickend",
+                "im nachhinein",
+                "sollen"
+              ]
+            },
+            {
+              "label": "a past condition",
+              "any": [
+                "wenn ich",
+                "wenn wir",
+                "wäre",
+                "gewesen"
+              ]
+            }
+          ],
+          "model": "Letztes Jahr habe ich ein gebrauchtes Auto gekauft. Rückblickend hätte ich viel mehr verhandeln sollen. Wenn ich mir die Bremsen genauer angesehen hätte, wäre es billiger gewesen."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that in return you'd be willing to take on more responsibility.",
+          "t": [
+            "Im Gegenzug wäre ich bereit, mehr Verantwortung zu übernehmen"
+          ]
+        },
+        {
+          "n": "Say that looking back you would have negotiated differently.",
+          "t": [
+            "Rückblickend hätte ich anders verhandelt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Verhandeln",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

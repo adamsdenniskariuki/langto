@@ -13,33 +13,113 @@
         "body": "Turning verbs into nouns sounds more precise: ausreichend schlafen → ausreichender Schlaf, sich ernähren → die Ernährung. Use it sparingly in speech – one noun phrase per sentence is enough. When giving advice, soften it with an Es wäre vielleicht gut, wenn … and a warm, rising tone instead of a commanding Du musst …"
       },
       "phrases": [
-        { "t": "Ausreichender Schlaf ist mindestens genauso wichtig wie Sport.", "n": "Getting enough sleep is at least as important as exercise." },
-        { "t": "Seit ich mich bewusster ernähre, habe ich viel mehr Energie.", "n": "Since I've been eating more consciously, I've had much more energy." },
-        { "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.", "n": "It might be good if you took things a bit easier.", "note": "kürzertreten = to slow down" },
-        { "t": "Der ständige Stress geht mir allmählich an die Substanz.", "n": "The constant stress is gradually wearing me down." },
-        { "t": "Ich versuche, regelmäßig Pausen einzulegen.", "n": "I try to take regular breaks." },
-        { "t": "Das muss jeder für sich selbst entscheiden.", "n": "Everyone has to decide that for themselves." },
-        { "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.", "n": "I don't want to interfere, but I'm worried.", "note": "reinreden = to meddle" },
-        { "t": "Kleine Veränderungen im Alltag bewirken oft am meisten.", "n": "Small changes in everyday life often have the biggest effect." }
+        {
+          "t": "Ausreichender Schlaf ist mindestens genauso wichtig wie Sport.",
+          "n": "Getting enough sleep is at least as important as exercise."
+        },
+        {
+          "t": "Seit ich mich bewusster ernähre, habe ich viel mehr Energie.",
+          "n": "Since I've been eating more consciously, I've had much more energy."
+        },
+        {
+          "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.",
+          "n": "It might be good if you took things a bit easier.",
+          "note": "kürzertreten = to slow down"
+        },
+        {
+          "t": "Der ständige Stress geht mir allmählich an die Substanz.",
+          "n": "The constant stress is gradually wearing me down."
+        },
+        {
+          "t": "Ich versuche, regelmäßig Pausen einzulegen.",
+          "n": "I try to take regular breaks."
+        },
+        {
+          "t": "Das muss jeder für sich selbst entscheiden.",
+          "n": "Everyone has to decide that for themselves."
+        },
+        {
+          "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.",
+          "n": "I don't want to interfere, but I'm worried.",
+          "note": "reinreden = to meddle"
+        },
+        {
+          "t": "Kleine Veränderungen im Alltag bewirken oft am meisten.",
+          "n": "Small changes in everyday life often have the biggest effect."
+        }
       ],
       "dialogue": {
         "title": "A friend under pressure",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Anna", "t": "Ich bin total erschöpft. Ich arbeite jeden Abend bis zehn.", "n": "I'm completely exhausted. I work until ten every evening." },
-          { "who": "you", "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.", "n": "I don't want to interfere, but I'm worried." },
-          { "who": "A", "name": "Anna", "t": "Ja, ich weiß. Der ständige Stress geht mir allmählich an die Substanz.", "n": "Yes, I know. The constant stress is gradually wearing me down." },
-          { "who": "you", "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.", "n": "It might be good if you took things a bit easier." },
-          { "who": "A", "name": "Anna", "t": "Leichter gesagt als getan. Was machst du denn?", "n": "Easier said than done. What do you do?" },
-          { "who": "you", "t": "Ich versuche, regelmäßig Pausen einzulegen. Und ausreichender Schlaf ist mindestens genauso wichtig wie Sport.", "n": "I try to take regular breaks. And getting enough sleep is at least as important as exercise." },
-          { "who": "A", "name": "Anna", "t": "Hm. Vielleicht fange ich einfach mit dem Schlafen an.", "n": "Hmm. Maybe I'll just start with the sleeping." },
-          { "who": "you", "t": "Gute Idee. Kleine Veränderungen im Alltag bewirken oft am meisten.", "n": "Good idea. Small changes in everyday life often have the biggest effect." }
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Ich bin total erschöpft. Ich arbeite jeden Abend bis zehn.",
+            "n": "I'm completely exhausted. I work until ten every evening."
+          },
+          {
+            "who": "you",
+            "t": "Ich will dir nicht reinreden, aber ich mache mir Sorgen.",
+            "n": "I don't want to interfere, but I'm worried."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Ja, ich weiß. Der ständige Stress geht mir allmählich an die Substanz.",
+            "n": "Yes, I know. The constant stress is gradually wearing me down."
+          },
+          {
+            "who": "you",
+            "t": "Es wäre vielleicht gut, wenn du mal kürzertreten würdest.",
+            "n": "It might be good if you took things a bit easier."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Leichter gesagt als getan. Was machst du denn?",
+            "n": "Easier said than done. What do you do?"
+          },
+          {
+            "who": "you",
+            "t": "Ich versuche, regelmäßig Pausen einzulegen. Und ausreichender Schlaf ist mindestens genauso wichtig wie Sport.",
+            "n": "I try to take regular breaks. And getting enough sleep is at least as important as exercise."
+          },
+          {
+            "who": "A",
+            "name": "Anna",
+            "t": "Hm. Vielleicht fange ich einfach mit dem Schlafen an.",
+            "n": "Hmm. Maybe I'll just start with the sleeping."
+          },
+          {
+            "who": "you",
+            "t": "Gute Idee. Kleine Veränderungen im Alltag bewirken oft am meisten.",
+            "n": "Good idea. Small changes in everyday life often have the biggest effect."
+          }
         ]
       },
       "prompts": [
-        { "n": "Gently suggest a friend should take things easier.", "t": ["Es wäre vielleicht gut, wenn du mal kürzertreten würdest", "Es wäre gut, wenn du kürzertreten würdest"] },
-        { "n": "Say since you've been eating more consciously, you've had more energy.", "t": ["Seit ich mich bewusster ernähre, habe ich viel mehr Energie", "Seit ich mich bewusster ernähre, habe ich mehr Energie"] },
-        { "n": "Say everyone has to decide that for themselves.", "t": ["Das muss jeder für sich selbst entscheiden", "Das muss jeder selbst entscheiden"] }
+        {
+          "n": "Gently suggest a friend should take things easier.",
+          "t": [
+            "Es wäre vielleicht gut, wenn du mal kürzertreten würdest",
+            "Es wäre gut, wenn du kürzertreten würdest"
+          ]
+        },
+        {
+          "n": "Say since you've been eating more consciously, you've had more energy.",
+          "t": [
+            "Seit ich mich bewusster ernähre, habe ich viel mehr Energie",
+            "Seit ich mich bewusster ernähre, habe ich mehr Energie"
+          ]
+        },
+        {
+          "n": "Say everyone has to decide that for themselves.",
+          "t": [
+            "Das muss jeder für sich selbst entscheiden",
+            "Das muss jeder selbst entscheiden"
+          ]
+        }
       ]
     },
     {
@@ -51,35 +131,670 @@
         "body": "For unreal past situations use hätte/wäre + Partizip II: Ich hätte früher zum Arzt gehen sollen. Wenn ich mich aufgewärmt hätte, wäre das nicht passiert. With modal verbs, the double infinitive goes at the end: hätte … gehen sollen. Stress hätte or wäre – that's where the regret sits."
       },
       "phrases": [
-        { "t": "Ich hätte viel früher zum Arzt gehen sollen.", "n": "I should have gone to the doctor much earlier." },
-        { "t": "Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.", "n": "If I had warmed up beforehand, that wouldn't have happened." },
-        { "t": "An deiner Stelle hätte ich mir eine zweite Meinung eingeholt.", "n": "In your place, I would have got a second opinion." },
-        { "t": "Im Nachhinein ist man immer schlauer.", "n": "Hindsight is always twenty-twenty." },
-        { "t": "Hätte ich bloß nicht so lange gewartet!", "n": "If only I hadn't waited so long!" },
-        { "t": "Das hättest du doch nicht wissen können.", "n": "You couldn't have known that." },
-        { "t": "Mach dir keine Vorwürfe.", "n": "Don't blame yourself." },
-        { "t": "Zum Glück ist es nicht schlimmer gekommen.", "n": "Luckily it didn't turn out worse." }
+        {
+          "t": "Ich hätte viel früher zum Arzt gehen sollen.",
+          "n": "I should have gone to the doctor much earlier."
+        },
+        {
+          "t": "Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.",
+          "n": "If I had warmed up beforehand, that wouldn't have happened."
+        },
+        {
+          "t": "An deiner Stelle hätte ich mir eine zweite Meinung eingeholt.",
+          "n": "In your place, I would have got a second opinion."
+        },
+        {
+          "t": "Im Nachhinein ist man immer schlauer.",
+          "n": "Hindsight is always twenty-twenty."
+        },
+        {
+          "t": "Hätte ich bloß nicht so lange gewartet!",
+          "n": "If only I hadn't waited so long!"
+        },
+        {
+          "t": "Das hättest du doch nicht wissen können.",
+          "n": "You couldn't have known that."
+        },
+        {
+          "t": "Mach dir keine Vorwürfe.",
+          "n": "Don't blame yourself."
+        },
+        {
+          "t": "Zum Glück ist es nicht schlimmer gekommen.",
+          "n": "Luckily it didn't turn out worse."
+        }
       ],
       "dialogue": {
         "title": "After the injury",
         "voice": "de-DE-ConradNeural",
         "lines": [
-          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "So, wie geht's dem Knie? Erzählen Sie mal, wie das passiert ist.", "n": "So, how's the knee? Tell me how it happened." },
-          { "who": "you", "t": "Beim Joggen. Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.", "n": "While jogging. If I had warmed up beforehand, that wouldn't have happened." },
-          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Und wann waren Sie damit beim Arzt?", "n": "And when did you see a doctor about it?" },
-          { "who": "you", "t": "Erst nach drei Wochen. Ich hätte viel früher zum Arzt gehen sollen.", "n": "Only after three weeks. I should have gone to the doctor much earlier." },
-          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Tja, das wäre besser gewesen. Aber die Bänder sind zum Glück heil.", "n": "Well, that would have been better. But luckily the ligaments are intact." },
-          { "who": "you", "t": "Zum Glück ist es nicht schlimmer gekommen. Hätte ich bloß nicht so lange gewartet!", "n": "Luckily it didn't turn out worse. If only I hadn't waited so long!" },
-          { "who": "A", "name": "Physiotherapeut Herr Lang", "t": "Machen Sie sich keine Vorwürfe. In sechs Wochen laufen Sie wieder.", "n": "Don't blame yourself. You'll be running again in six weeks." },
-          { "who": "you", "t": "Na ja, im Nachhinein ist man immer schlauer.", "n": "Well, hindsight is always twenty-twenty." }
+          {
+            "who": "A",
+            "name": "Physiotherapeut Herr Lang",
+            "t": "So, wie geht's dem Knie? Erzählen Sie mal, wie das passiert ist.",
+            "n": "So, how's the knee? Tell me how it happened."
+          },
+          {
+            "who": "you",
+            "t": "Beim Joggen. Wenn ich mich vorher aufgewärmt hätte, wäre das nicht passiert.",
+            "n": "While jogging. If I had warmed up beforehand, that wouldn't have happened."
+          },
+          {
+            "who": "A",
+            "name": "Physiotherapeut Herr Lang",
+            "t": "Und wann waren Sie damit beim Arzt?",
+            "n": "And when did you see a doctor about it?"
+          },
+          {
+            "who": "you",
+            "t": "Erst nach drei Wochen. Ich hätte viel früher zum Arzt gehen sollen.",
+            "n": "Only after three weeks. I should have gone to the doctor much earlier."
+          },
+          {
+            "who": "A",
+            "name": "Physiotherapeut Herr Lang",
+            "t": "Tja, das wäre besser gewesen. Aber die Bänder sind zum Glück heil.",
+            "n": "Well, that would have been better. But luckily the ligaments are intact."
+          },
+          {
+            "who": "you",
+            "t": "Zum Glück ist es nicht schlimmer gekommen. Hätte ich bloß nicht so lange gewartet!",
+            "n": "Luckily it didn't turn out worse. If only I hadn't waited so long!"
+          },
+          {
+            "who": "A",
+            "name": "Physiotherapeut Herr Lang",
+            "t": "Machen Sie sich keine Vorwürfe. In sechs Wochen laufen Sie wieder.",
+            "n": "Don't blame yourself. You'll be running again in six weeks."
+          },
+          {
+            "who": "you",
+            "t": "Na ja, im Nachhinein ist man immer schlauer.",
+            "n": "Well, hindsight is always twenty-twenty."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you should have gone to the doctor much earlier.", "t": ["Ich hätte viel früher zum Arzt gehen sollen", "Ich hätte früher zum Arzt gehen sollen"] },
-        { "n": "Advise in hindsight: in your place, you would have got a second opinion.", "t": ["An deiner Stelle hätte ich mir eine zweite Meinung eingeholt", "An Ihrer Stelle hätte ich mir eine zweite Meinung eingeholt"] },
-        { "n": "Reassure a friend: they couldn't have known that.", "t": ["Das hättest du doch nicht wissen können", "Das hättest du nicht wissen können"] },
-        { "n": "Tell a friend not to blame themselves.", "t": ["Mach dir keine Vorwürfe"] }
+        {
+          "n": "Say you should have gone to the doctor much earlier.",
+          "t": [
+            "Ich hätte viel früher zum Arzt gehen sollen",
+            "Ich hätte früher zum Arzt gehen sollen"
+          ]
+        },
+        {
+          "n": "Advise in hindsight: in your place, you would have got a second opinion.",
+          "t": [
+            "An deiner Stelle hätte ich mir eine zweite Meinung eingeholt",
+            "An Ihrer Stelle hätte ich mir eine zweite Meinung eingeholt"
+          ]
+        },
+        {
+          "n": "Reassure a friend: they couldn't have known that.",
+          "t": [
+            "Das hättest du doch nicht wissen können",
+            "Das hättest du nicht wissen können"
+          ]
+        },
+        {
+          "n": "Tell a friend not to blame themselves.",
+          "t": [
+            "Mach dir keine Vorwürfe"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u06-l3",
+      "title": "Back at the doctor's",
+      "goal": "Describe symptoms precisely at a follow-up appointment.",
+      "phrases": [
+        {
+          "t": "Die Beschwerden haben sich leider nicht gebessert.",
+          "n": "Unfortunately the symptoms haven't improved."
+        },
+        {
+          "t": "Seit einer Woche habe ich stechende Schmerzen im Rücken.",
+          "n": "I've had stabbing pains in my back for a week."
+        },
+        {
+          "t": "Die Tabletten vertrage ich nicht so gut.",
+          "n": "The tablets don't agree with me very well."
+        },
+        {
+          "t": "Muss ich mit Nebenwirkungen rechnen?",
+          "n": "Should I expect side effects?"
+        },
+        {
+          "t": "Könnten Sie mich bitte für ein paar Tage krankschreiben?",
+          "n": "Could you sign me off sick for a few days, please?"
+        }
+      ],
+      "dialogue": {
+        "title": "The follow-up appointment",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Dr. Becker",
+            "t": "Und, wie geht es Ihnen seit unserem letzten Termin?",
+            "n": "So, how have you been since our last appointment?"
+          },
+          {
+            "who": "you",
+            "t": "Die Beschwerden haben sich leider nicht gebessert.",
+            "n": "Unfortunately the symptoms haven't improved."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Becker",
+            "t": "Haben Sie die Tabletten regelmäßig genommen?",
+            "n": "Have you been taking the tablets regularly?"
+          },
+          {
+            "who": "you",
+            "t": "Ja, aber ich vertrage sie nicht so gut. Muss ich mit Nebenwirkungen rechnen?",
+            "n": "Yes, but they don't agree with me. Should I expect side effects?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell the doctor your symptoms haven't improved.",
+          "t": [
+            "Die Beschwerden haben sich leider nicht gebessert",
+            "Die Beschwerden haben sich nicht gebessert"
+          ]
+        },
+        {
+          "n": "Ask the doctor to sign you off sick for a few days.",
+          "t": [
+            "Könnten Sie mich bitte für ein paar Tage krankschreiben",
+            "Könnten Sie mich bitte krankschreiben"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l4",
+      "kind": "grammar",
+      "title": "Je … desto: the more, the better",
+      "goal": "Link cause and effect with je … desto / umso.",
+      "tip": {
+        "title": "Two comparatives, two word orders",
+        "body": "Je + comparative starts a subordinate clause, so its verb goes to the end: Je mehr ich mich bewege … The second half starts with desto or umso + comparative, and the verb follows immediately: … desto besser schlafe ich. In short sayings you can drop the second verb: Je früher, desto besser."
+      },
+      "phrases": [
+        {
+          "t": "Je mehr ich mich bewege, desto besser schlafe ich.",
+          "n": "The more I move, the better I sleep."
+        },
+        {
+          "t": "Je später ich esse, desto schlechter schlafe ich.",
+          "n": "The later I eat, the worse I sleep."
+        },
+        {
+          "t": "Je früher man zum Arzt geht, desto besser.",
+          "n": "The earlier you go to the doctor, the better."
+        },
+        {
+          "t": "Je weniger Zucker ich esse, umso fitter fühle ich mich.",
+          "n": "The less sugar I eat, the fitter I feel."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the cause",
+          "base": {
+            "t": "Je mehr ich mich bewege, desto besser schlafe ich.",
+            "n": "The more I move, the better I sleep."
+          },
+          "items": [
+            {
+              "cue": "mehr Sport treiben",
+              "t": "Je mehr Sport ich treibe, desto besser schlafe ich.",
+              "n": "The more sport I do, the better I sleep."
+            },
+            {
+              "cue": "weniger Kaffee trinken",
+              "t": "Je weniger Kaffee ich trinke, desto besser schlafe ich.",
+              "n": "The less coffee I drink, the better I sleep."
+            },
+            {
+              "cue": "früher ins Bett gehen",
+              "t": "Je früher ich ins Bett gehe, desto besser schlafe ich.",
+              "n": "The earlier I go to bed, the better I sleep."
+            }
+          ]
+        },
+        {
+          "title": "Swap the effect",
+          "base": {
+            "t": "Je länger ich arbeite, desto müder werde ich.",
+            "n": "The longer I work, the more tired I get."
+          },
+          "items": [
+            {
+              "cue": "gestresster",
+              "t": "Je länger ich arbeite, desto gestresster werde ich.",
+              "n": "The longer I work, the more stressed I get."
+            },
+            {
+              "cue": "unkonzentrierter",
+              "t": "Je länger ich arbeite, desto unkonzentrierter werde ich.",
+              "n": "The longer I work, the less focused I get."
+            },
+            {
+              "cue": "umso · gereizter",
+              "t": "Je länger ich arbeite, umso gereizter werde ich.",
+              "n": "The longer I work, the more irritable I get."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the earlier you go to the doctor, the better.",
+          "t": [
+            "Je früher man zum Arzt geht, desto besser",
+            "Je früher man zum Arzt geht, umso besser"
+          ]
+        },
+        {
+          "n": "Say the more you move, the better you sleep.",
+          "t": [
+            "Je mehr ich mich bewege, desto besser schlafe ich",
+            "Je mehr ich mich bewege, umso besser schlafe ich"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l5",
+      "kind": "listening",
+      "title": "Cycling to work",
+      "goal": "Follow a colleague's story about changing his habits.",
+      "phrases": [
+        {
+          "t": "Du siehst richtig erholt aus!",
+          "n": "You look really well rested!"
+        },
+        {
+          "t": "Was ist dein Geheimnis?",
+          "n": "What's your secret?"
+        },
+        {
+          "t": "Es fällt mir immer leichter.",
+          "n": "It's getting easier and easier for me."
+        },
+        {
+          "t": "Ich habe sechs Kilo abgenommen.",
+          "n": "I've lost six kilos."
+        }
+      ],
+      "story": {
+        "title": "Markus's secret",
+        "intro": "Sabine notices that her colleague Markus looks much fitter and asks him why.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Sabine",
+            "t": "Markus, du siehst richtig erholt aus! Was ist dein Geheimnis?",
+            "n": "Markus, you look really well rested! What's your secret?"
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ich fahre seit drei Monaten mit dem Fahrrad zur Arbeit. Das sind jeden Tag zwölf Kilometer.",
+            "n": "I've been cycling to work for three months. That's twelve kilometres every day."
+          },
+          {
+            "name": "Sabine",
+            "t": "Zwölf Kilometer? Ist das nicht furchtbar anstrengend?",
+            "n": "Twelve kilometres? Isn't that terribly exhausting?"
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Am Anfang schon. Aber je länger ich fahre, desto leichter fällt es mir.",
+            "n": "At first, yes. But the longer I do it, the easier it gets."
+          },
+          {
+            "name": "Sabine",
+            "t": "Und was machst du bei Regen?",
+            "n": "And what do you do when it rains?"
+          },
+          {
+            "name": "Markus",
+            "voice": "de-DE-ConradNeural",
+            "t": "Dann nehme ich die S-Bahn, ich will mich ja nicht quälen. Aber ich schlafe viel besser und habe sechs Kilo abgenommen.",
+            "n": "Then I take the S-Bahn — I don't want to torture myself. But I sleep much better and I've lost six kilos."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie kommt Markus zur Arbeit?",
+            "n": "How does Markus get to work?",
+            "t": [
+              "Mit dem Fahrrad",
+              "Er fährt mit dem Fahrrad"
+            ]
+          },
+          {
+            "q": "Was macht er bei Regen?",
+            "n": "What does he do when it rains?",
+            "t": [
+              "Er nimmt die S-Bahn",
+              "Die S-Bahn"
+            ]
+          },
+          {
+            "q": "Wie viel hat er abgenommen?",
+            "n": "How much weight has he lost?",
+            "t": [
+              "Sechs Kilo",
+              "Er hat sechs Kilo abgenommen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u06-l6",
+      "kind": "roleplay",
+      "title": "Cancelling the gym contract",
+      "goal": "Cancel a contract and use your rights — politely but firmly.",
+      "phrases": [
+        {
+          "t": "Ich möchte meinen Vertrag kündigen.",
+          "n": "I'd like to cancel my contract."
+        },
+        {
+          "t": "Gibt es da keine Ausnahme?",
+          "n": "Isn't there an exception?"
+        },
+        {
+          "t": "Ich darf vorerst keinen Sport machen.",
+          "n": "I'm not allowed to do any sport for the time being."
+        },
+        {
+          "t": "Könnten Sie mir die Kündigung bitte schriftlich bestätigen?",
+          "n": "Could you confirm the cancellation in writing, please?"
+        }
+      ],
+      "branch": {
+        "title": "At the gym reception",
+        "scene": "You've injured your knee and want to get out of your gym contract.",
+        "name": "Studio-Mitarbeiterin",
+        "voice": "de-DE-KatjaNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Hallo! Wie kann ich Ihnen helfen?",
+            "n": "Hello! How can I help you?",
+            "choices": [
+              {
+                "t": "Ich möchte meinen Vertrag kündigen.",
+                "n": "I'd like to cancel my contract.",
+                "next": "why"
+              },
+              {
+                "t": "Ich will hier raus, Ihr Studio ist eine Katastrophe!",
+                "n": "I want out, your gym is a disaster!",
+                "next": "bad"
+              }
+            ]
+          },
+          "why": {
+            "t": "Schade! Darf ich fragen, warum?",
+            "n": "What a shame! May I ask why?",
+            "choices": [
+              {
+                "t": "Ich habe mir das Knie verletzt und darf vorerst keinen Sport machen.",
+                "n": "I've injured my knee and I'm not allowed to do any sport for the time being.",
+                "next": "health"
+              },
+              {
+                "t": "Ich habe einfach keine Lust mehr.",
+                "n": "I just don't feel like it any more.",
+                "next": "term"
+              }
+            ]
+          },
+          "term": {
+            "t": "Verstehe. Die Kündigungsfrist beträgt allerdings drei Monate.",
+            "n": "I see. The notice period is three months, though.",
+            "choices": [
+              {
+                "t": "Okay, das ist in Ordnung.",
+                "n": "OK, that's fine.",
+                "next": "late"
+              },
+              {
+                "t": "Ich habe mich aber auch am Knie verletzt. Gibt es da keine Ausnahme?",
+                "n": "But I've also injured my knee. Isn't there an exception?",
+                "next": "health"
+              }
+            ]
+          },
+          "health": {
+            "t": "Dann haben Sie ein Sonderkündigungsrecht. Dafür bräuchten wir ein ärztliches Attest.",
+            "n": "Then you have a special right to cancel. For that we'd need a doctor's certificate.",
+            "choices": [
+              {
+                "t": "Das Attest habe ich dabei. Könnten Sie mir die Kündigung bitte schriftlich bestätigen?",
+                "n": "I've got the certificate with me. Could you confirm the cancellation in writing, please?",
+                "next": "now"
+              },
+              {
+                "t": "Was für ein Attest? Können Sie das bitte erklären?",
+                "n": "What kind of certificate? Can you explain, please?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Eine Bescheinigung vom Arzt, dass Sie nicht trainieren dürfen.",
+            "n": "A note from your doctor saying you're not allowed to train.",
+            "choices": [
+              {
+                "t": "Ach so. Die bringe ich morgen vorbei.",
+                "n": "Oh, I see. I'll bring it in tomorrow.",
+                "next": "now"
+              }
+            ]
+          },
+          "now": {
+            "t": "Perfekt. Dann endet Ihr Vertrag zum Monatsende. Gute Besserung!",
+            "n": "Perfect. Then your contract ends at the end of the month. Get well soon!",
+            "end": "good",
+            "outcome": "You used your special right to cancel — the contract ends this month."
+          },
+          "late": {
+            "t": "Gut, dann endet Ihr Vertrag in drei Monaten. Sie bekommen eine Bestätigung per E-Mail.",
+            "n": "Good, then your contract ends in three months. You'll get a confirmation by email.",
+            "end": "good",
+            "outcome": "Contract cancelled with the normal notice period."
+          },
+          "bad": {
+            "t": "Mit diesem Ton kommen wir nicht weiter. Bitte wenden Sie sich schriftlich an uns.",
+            "n": "We won't get anywhere with that tone. Please contact us in writing.",
+            "end": "bad",
+            "outcome": "Your outburst got you nowhere — state your request calmly."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to cancel your contract.",
+          "t": [
+            "Ich möchte meinen Vertrag kündigen"
+          ]
+        },
+        {
+          "n": "Ask them to confirm the cancellation in writing.",
+          "t": [
+            "Könnten Sie mir die Kündigung bitte schriftlich bestätigen",
+            "Können Sie mir das bitte schriftlich bestätigen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l7",
+      "kind": "speaking",
+      "title": "Your lifestyle",
+      "goal": "Talk freely about your health habits and give tactful advice.",
+      "culture": {
+        "title": "Krankschreibung and Kur",
+        "body": "If you're ill in Germany, you need a doctor's sick note (Krankschreibung, now sent electronically to employers) by the fourth day off at the latest — some employers want it from day one. Doctors can also prescribe a Kur or Reha: several weeks in a spa town, often with Bad in its name like Bad Kissingen, largely paid for by insurance. Austria has a similar Kur tradition.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich achte sehr darauf, was ich esse.",
+          "n": "I pay close attention to what I eat."
+        },
+        {
+          "t": "Mir tut es gut, abends spazieren zu gehen.",
+          "n": "Going for a walk in the evening does me good."
+        },
+        {
+          "t": "Früher habe ich kaum Sport gemacht, heute gehe ich zweimal die Woche schwimmen.",
+          "n": "I used to hardly do any sport; now I go swimming twice a week."
+        },
+        {
+          "t": "Ich müsste eigentlich mehr schlafen.",
+          "n": "I really ought to sleep more."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your lifestyle: what you do for your health and what you'd like to change.",
+          "hint": "Ich achte darauf …, Mir tut es gut …, Früher … heute …, Eigentlich müsste ich …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "exercise",
+              "any": [
+                "sport",
+                "bewegung",
+                "beweg*",
+                "jogg*",
+                "lauf*",
+                "schwimm*",
+                "fahrrad",
+                "rad",
+                "spazier*",
+                "yoga",
+                "fitness*",
+                "trainier*"
+              ]
+            },
+            {
+              "label": "food",
+              "any": [
+                "ernähr*",
+                "ess*",
+                "gemüse",
+                "obst",
+                "zucker",
+                "koch*"
+              ]
+            },
+            {
+              "label": "sleep or stress",
+              "any": [
+                "schlaf*",
+                "stress*",
+                "pause*",
+                "entspann*",
+                "erhol*"
+              ]
+            },
+            {
+              "label": "what you'd change",
+              "any": [
+                "müsste",
+                "sollte",
+                "würde",
+                "wäre",
+                "hätte",
+                "möchte",
+                "will"
+              ]
+            }
+          ],
+          "model": "Ich achte sehr darauf, was ich esse, und koche fast jeden Abend frisch. Mir tut es gut, abends spazieren zu gehen. Eigentlich müsste ich mehr schlafen, denn der Stress im Job geht mir an die Substanz."
+        },
+        {
+          "n": "A friend wants to get fitter. Give tactful advice using je … desto and Konjunktiv II.",
+          "hint": "An deiner Stelle würde ich …, Es wäre gut, wenn …, Je regelmäßiger …, desto …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "tactful advice",
+              "any": [
+                "es wäre",
+                "an deiner stelle",
+                "du könntest",
+                "du solltest",
+                "wie wäre es",
+                "vielleicht"
+              ]
+            },
+            {
+              "label": "je … desto",
+              "any": [
+                "je",
+                "desto",
+                "umso"
+              ]
+            },
+            {
+              "label": "a concrete habit",
+              "any": [
+                "sport",
+                "beweg*",
+                "jogg*",
+                "schwimm*",
+                "fahrrad",
+                "spazier*",
+                "schlaf*",
+                "ernähr*",
+                "ess*",
+                "bett"
+              ]
+            }
+          ],
+          "model": "An deiner Stelle würde ich klein anfangen, zum Beispiel mit dem Fahrrad zur Arbeit. Je regelmäßiger du dich bewegst, desto leichter fällt es dir. Und es wäre gut, wenn du früher ins Bett gehen würdest."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you really ought to sleep more.",
+          "t": [
+            "Ich müsste eigentlich mehr schlafen"
+          ]
+        },
+        {
+          "n": "Say going for a walk in the evening does you good.",
+          "t": [
+            "Mir tut es gut, abends spazieren zu gehen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Gesundheit und Lebensstil",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

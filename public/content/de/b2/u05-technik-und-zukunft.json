@@ -13,34 +13,117 @@
         "body": "Futur I (werden + Infinitiv) makes predictions: In zwanzig Jahren werden Autos selbst fahren. Futur II (werden + Partizip II + haben/sein) says what will be done by a certain point: Bis 2040 werden wir die Energiewende geschafft haben. Grade your certainty with höchstwahrscheinlich, vermutlich, vielleicht – and stress that word so listeners catch how sure you are."
       },
       "phrases": [
-        { "t": "In zwanzig Jahren werden die meisten Autos wahrscheinlich selbst fahren.", "n": "In twenty years, most cars will probably drive themselves." },
-        { "t": "Bis 2040 werden wir hoffentlich die Energiewende geschafft haben.", "n": "By 2040, we will hopefully have completed the energy transition." },
-        { "t": "Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird.", "n": "I assume that artificial intelligence will change many jobs." },
-        { "t": "Es ist durchaus denkbar, dass wir bald auf dem Mars landen.", "n": "It's entirely conceivable that we'll soon land on Mars." },
-        { "t": "Das halte ich für ziemlich unwahrscheinlich.", "n": "I think that's pretty unlikely." },
-        { "t": "Wer weiß, vielleicht wird es ganz anders kommen.", "n": "Who knows, maybe things will turn out completely differently." },
-        { "t": "Ich bin mir da nicht so sicher, ehrlich gesagt.", "n": "I'm not so sure about that, to be honest." },
-        { "t": "Bis dahin fließt noch viel Wasser den Rhein hinunter.", "n": "A lot of water will flow under the bridge before then.", "note": "idiom: lots will happen first" }
+        {
+          "t": "In zwanzig Jahren werden die meisten Autos wahrscheinlich selbst fahren.",
+          "n": "In twenty years, most cars will probably drive themselves."
+        },
+        {
+          "t": "Bis 2040 werden wir hoffentlich die Energiewende geschafft haben.",
+          "n": "By 2040, we will hopefully have completed the energy transition."
+        },
+        {
+          "t": "Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird.",
+          "n": "I assume that artificial intelligence will change many jobs."
+        },
+        {
+          "t": "Es ist durchaus denkbar, dass wir bald auf dem Mars landen.",
+          "n": "It's entirely conceivable that we'll soon land on Mars."
+        },
+        {
+          "t": "Das halte ich für ziemlich unwahrscheinlich.",
+          "n": "I think that's pretty unlikely."
+        },
+        {
+          "t": "Wer weiß, vielleicht wird es ganz anders kommen.",
+          "n": "Who knows, maybe things will turn out completely differently."
+        },
+        {
+          "t": "Ich bin mir da nicht so sicher, ehrlich gesagt.",
+          "n": "I'm not so sure about that, to be honest."
+        },
+        {
+          "t": "Bis dahin fließt noch viel Wasser den Rhein hinunter.",
+          "n": "A lot of water will flow under the bridge before then.",
+          "note": "idiom: lots will happen first"
+        }
       ],
       "dialogue": {
         "title": "A glimpse into 2050",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Dr. Lena Hoffmann", "t": "Wie, glauben Sie, wird unser Alltag im Jahr 2050 aussehen?", "n": "What do you think our everyday life will look like in 2050?" },
-          { "who": "you", "t": "Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird.", "n": "I assume that artificial intelligence will change many jobs." },
-          { "who": "A", "name": "Dr. Lena Hoffmann", "t": "Und der Verkehr? Werden wir noch selbst Auto fahren?", "n": "And transport? Will we still drive cars ourselves?" },
-          { "who": "you", "t": "In zwanzig Jahren werden die meisten Autos wahrscheinlich selbst fahren.", "n": "In twenty years, most cars will probably drive themselves." },
-          { "who": "A", "name": "Dr. Lena Hoffmann", "t": "Manche sagen, wir werden dann schon Kolonien auf dem Mars haben.", "n": "Some say we'll already have colonies on Mars by then." },
-          { "who": "you", "t": "Das halte ich für ziemlich unwahrscheinlich. Bis dahin fließt noch viel Wasser den Rhein hinunter.", "n": "I think that's pretty unlikely. A lot of water will flow under the bridge before then." },
-          { "who": "A", "name": "Dr. Lena Hoffmann", "t": "Und beim Klima? Sind Sie optimistisch?", "n": "And the climate? Are you optimistic?" },
-          { "who": "you", "t": "Bis 2040 werden wir hoffentlich die Energiewende geschafft haben.", "n": "By 2040, we will hopefully have completed the energy transition." }
+          {
+            "who": "A",
+            "name": "Dr. Lena Hoffmann",
+            "t": "Wie, glauben Sie, wird unser Alltag im Jahr 2050 aussehen?",
+            "n": "What do you think our everyday life will look like in 2050?"
+          },
+          {
+            "who": "you",
+            "t": "Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird.",
+            "n": "I assume that artificial intelligence will change many jobs."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lena Hoffmann",
+            "t": "Und der Verkehr? Werden wir noch selbst Auto fahren?",
+            "n": "And transport? Will we still drive cars ourselves?"
+          },
+          {
+            "who": "you",
+            "t": "In zwanzig Jahren werden die meisten Autos wahrscheinlich selbst fahren.",
+            "n": "In twenty years, most cars will probably drive themselves."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lena Hoffmann",
+            "t": "Manche sagen, wir werden dann schon Kolonien auf dem Mars haben.",
+            "n": "Some say we'll already have colonies on Mars by then."
+          },
+          {
+            "who": "you",
+            "t": "Das halte ich für ziemlich unwahrscheinlich. Bis dahin fließt noch viel Wasser den Rhein hinunter.",
+            "n": "I think that's pretty unlikely. A lot of water will flow under the bridge before then."
+          },
+          {
+            "who": "A",
+            "name": "Dr. Lena Hoffmann",
+            "t": "Und beim Klima? Sind Sie optimistisch?",
+            "n": "And the climate? Are you optimistic?"
+          },
+          {
+            "who": "you",
+            "t": "Bis 2040 werden wir hoffentlich die Energiewende geschafft haben.",
+            "n": "By 2040, we will hopefully have completed the energy transition."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you think that's pretty unlikely.", "t": ["Das halte ich für ziemlich unwahrscheinlich", "Das halte ich für unwahrscheinlich"] },
-        { "n": "Say it's entirely conceivable that we'll soon land on Mars.", "t": ["Es ist durchaus denkbar, dass wir bald auf dem Mars landen"] },
-        { "n": "Say you assume AI will change many jobs.", "t": ["Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird"] },
-        { "n": "Say who knows, maybe things will turn out completely differently.", "t": ["Wer weiß, vielleicht wird es ganz anders kommen", "Vielleicht wird es ganz anders kommen"] }
+        {
+          "n": "Say you think that's pretty unlikely.",
+          "t": [
+            "Das halte ich für ziemlich unwahrscheinlich",
+            "Das halte ich für unwahrscheinlich"
+          ]
+        },
+        {
+          "n": "Say it's entirely conceivable that we'll soon land on Mars.",
+          "t": [
+            "Es ist durchaus denkbar, dass wir bald auf dem Mars landen"
+          ]
+        },
+        {
+          "n": "Say you assume AI will change many jobs.",
+          "t": [
+            "Ich gehe davon aus, dass künstliche Intelligenz viele Jobs verändern wird"
+          ]
+        },
+        {
+          "n": "Say who knows, maybe things will turn out completely differently.",
+          "t": [
+            "Wer weiß, vielleicht wird es ganz anders kommen",
+            "Vielleicht wird es ganz anders kommen"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +135,682 @@
         "body": "Werden + Infinitiv can also express a guess about now: Er wird wohl noch im Büro sein. With Futur II you guess about the past: Sie wird das Update vergessen haben. Hedges like meines Wissens, soweit ich weiß or tendenziell make strong claims sound reasonable. Say them a little faster and lower – they are background, not the main message."
       },
       "phrases": [
-        { "t": "Soweit ich weiß, werden unsere Daten dabei nicht gespeichert.", "n": "As far as I know, our data isn't stored in the process." },
-        { "t": "Das birgt natürlich auch gewisse Risiken.", "n": "Of course that also carries certain risks." },
-        { "t": "Der Datenschutz ist dabei ein entscheidender Faktor.", "n": "Data protection is a decisive factor here." },
-        { "t": "Er wird das Update wohl vergessen haben.", "n": "He'll probably have forgotten the update." },
-        { "t": "Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist.", "n": "I wouldn't go so far as to say that it's dangerous." },
-        { "t": "Tendenziell profitieren eher jüngere Menschen davon.", "n": "It tends to be younger people who benefit from it." },
-        { "t": "Man muss die Entwicklung kritisch begleiten.", "n": "We have to keep a critical eye on the development." },
-        { "t": "Ohne Smartphone wäre mein Alltag kaum noch vorstellbar.", "n": "My everyday life would be almost unimaginable without a smartphone." }
+        {
+          "t": "Soweit ich weiß, werden unsere Daten dabei nicht gespeichert.",
+          "n": "As far as I know, our data isn't stored in the process."
+        },
+        {
+          "t": "Das birgt natürlich auch gewisse Risiken.",
+          "n": "Of course that also carries certain risks."
+        },
+        {
+          "t": "Der Datenschutz ist dabei ein entscheidender Faktor.",
+          "n": "Data protection is a decisive factor here."
+        },
+        {
+          "t": "Er wird das Update wohl vergessen haben.",
+          "n": "He'll probably have forgotten the update."
+        },
+        {
+          "t": "Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist.",
+          "n": "I wouldn't go so far as to say that it's dangerous."
+        },
+        {
+          "t": "Tendenziell profitieren eher jüngere Menschen davon.",
+          "n": "It tends to be younger people who benefit from it."
+        },
+        {
+          "t": "Man muss die Entwicklung kritisch begleiten.",
+          "n": "We have to keep a critical eye on the development."
+        },
+        {
+          "t": "Ohne Smartphone wäre mein Alltag kaum noch vorstellbar.",
+          "n": "My everyday life would be almost unimaginable without a smartphone."
+        }
       ],
       "dialogue": {
         "title": "Smart home – smart idea?",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Kollege Daniel", "t": "Ich hab mir jetzt einen Sprachassistenten fürs Wohnzimmer gekauft. Total praktisch!", "n": "I've bought myself a voice assistant for the living room. Totally practical!" },
-          { "who": "you", "t": "Klingt gut. Das birgt natürlich auch gewisse Risiken.", "n": "Sounds good. Of course that also carries certain risks." },
-          { "who": "A", "name": "Kollege Daniel", "t": "Du meinst, der hört die ganze Zeit mit?", "n": "You mean it's listening all the time?" },
-          { "who": "you", "t": "Soweit ich weiß, werden die Daten nicht gespeichert. Aber der Datenschutz ist dabei ein entscheidender Faktor.", "n": "As far as I know, the data isn't stored. But data protection is a decisive factor here." },
-          { "who": "A", "name": "Kollege Daniel", "t": "Gestern hat er übrigens plötzlich nicht mehr funktioniert.", "n": "By the way, it suddenly stopped working yesterday." },
-          { "who": "you", "t": "Du wirst das Update wohl vergessen haben.", "n": "You'll probably have forgotten the update." },
-          { "who": "A", "name": "Kollege Daniel", "t": "Haha, kann sein. Findest du die Dinger gefährlich?", "n": "Haha, could be. Do you think these things are dangerous?" },
-          { "who": "you", "t": "Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist. Man muss die Entwicklung kritisch begleiten.", "n": "I wouldn't go so far as to say it's dangerous. We have to keep a critical eye on the development." }
+          {
+            "who": "A",
+            "name": "Kollege Daniel",
+            "t": "Ich hab mir jetzt einen Sprachassistenten fürs Wohnzimmer gekauft. Total praktisch!",
+            "n": "I've bought myself a voice assistant for the living room. Totally practical!"
+          },
+          {
+            "who": "you",
+            "t": "Klingt gut. Das birgt natürlich auch gewisse Risiken.",
+            "n": "Sounds good. Of course that also carries certain risks."
+          },
+          {
+            "who": "A",
+            "name": "Kollege Daniel",
+            "t": "Du meinst, der hört die ganze Zeit mit?",
+            "n": "You mean it's listening all the time?"
+          },
+          {
+            "who": "you",
+            "t": "Soweit ich weiß, werden die Daten nicht gespeichert. Aber der Datenschutz ist dabei ein entscheidender Faktor.",
+            "n": "As far as I know, the data isn't stored. But data protection is a decisive factor here."
+          },
+          {
+            "who": "A",
+            "name": "Kollege Daniel",
+            "t": "Gestern hat er übrigens plötzlich nicht mehr funktioniert.",
+            "n": "By the way, it suddenly stopped working yesterday."
+          },
+          {
+            "who": "you",
+            "t": "Du wirst das Update wohl vergessen haben.",
+            "n": "You'll probably have forgotten the update."
+          },
+          {
+            "who": "A",
+            "name": "Kollege Daniel",
+            "t": "Haha, kann sein. Findest du die Dinger gefährlich?",
+            "n": "Haha, could be. Do you think these things are dangerous?"
+          },
+          {
+            "who": "you",
+            "t": "Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist. Man muss die Entwicklung kritisch begleiten.",
+            "n": "I wouldn't go so far as to say it's dangerous. We have to keep a critical eye on the development."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say you wouldn't go so far as to say that it's dangerous.", "t": ["Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist"] },
-        { "n": "Guess about the past: he'll probably have forgotten the update.", "t": ["Er wird das Update wohl vergessen haben", "Er wird das Update vergessen haben"] },
-        { "n": "Say that also carries certain risks.", "t": ["Das birgt natürlich auch gewisse Risiken", "Das birgt auch gewisse Risiken"] },
-        { "n": "Say your everyday life would be almost unimaginable without a smartphone.", "t": ["Ohne Smartphone wäre mein Alltag kaum noch vorstellbar", "Ohne Smartphone wäre mein Alltag kaum vorstellbar"] }
+        {
+          "n": "Say you wouldn't go so far as to say that it's dangerous.",
+          "t": [
+            "Ich würde nicht so weit gehen zu sagen, dass das gefährlich ist"
+          ]
+        },
+        {
+          "n": "Guess about the past: he'll probably have forgotten the update.",
+          "t": [
+            "Er wird das Update wohl vergessen haben",
+            "Er wird das Update vergessen haben"
+          ]
+        },
+        {
+          "n": "Say that also carries certain risks.",
+          "t": [
+            "Das birgt natürlich auch gewisse Risiken",
+            "Das birgt auch gewisse Risiken"
+          ]
+        },
+        {
+          "n": "Say your everyday life would be almost unimaginable without a smartphone.",
+          "t": [
+            "Ohne Smartphone wäre mein Alltag kaum noch vorstellbar",
+            "Ohne Smartphone wäre mein Alltag kaum vorstellbar"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u05-l3",
+      "title": "Life online",
+      "goal": "Talk about screen time, apps and digital habits.",
+      "tip": {
+        "title": "Talking about habits",
+        "body": "Describe digital habits with ständig, regelmäßig and kaum. Ohne + accusative sets up a contrast: Ohne WLAN bin ich aufgeschmissen."
+      },
+      "phrases": [
+        {
+          "t": "Ich verbringe viel zu viel Zeit am Bildschirm.",
+          "n": "I spend far too much time in front of screens."
+        },
+        {
+          "t": "Die App wird ständig aktualisiert, aber kaum verbessert.",
+          "n": "The app is constantly updated but hardly improved."
+        },
+        {
+          "t": "Ohne WLAN bin ich im Homeoffice aufgeschmissen.",
+          "n": "Without Wi-Fi I'm stuck when working from home.",
+          "note": "aufgeschmissen = helpless, stuck"
+        },
+        {
+          "t": "Ich habe die Benachrichtigungen ausgeschaltet.",
+          "n": "I've switched off the notifications."
+        },
+        {
+          "t": "Man sollte regelmäßig eine digitale Auszeit nehmen.",
+          "n": "You should take a regular digital break."
+        }
+      ],
+      "dialogue": {
+        "title": "Phone again?",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Du schaust ja schon wieder aufs Handy!",
+            "n": "You're looking at your phone again!"
+          },
+          {
+            "who": "you",
+            "t": "Ich weiß, ich verbringe viel zu viel Zeit am Bildschirm.",
+            "n": "I know, I spend far too much time in front of screens."
+          },
+          {
+            "who": "A",
+            "name": "Julia",
+            "t": "Probier doch mal eine digitale Auszeit am Wochenende.",
+            "n": "Why not try a digital break at the weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Gute Idee. Die Benachrichtigungen habe ich schon ausgeschaltet.",
+            "n": "Good idea. I've already switched off the notifications."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Admit you spend far too much time in front of screens.",
+          "t": [
+            "Ich verbringe viel zu viel Zeit am Bildschirm",
+            "Ich verbringe zu viel Zeit am Bildschirm"
+          ]
+        },
+        {
+          "n": "Say you've switched off the notifications.",
+          "t": [
+            "Ich habe die Benachrichtigungen ausgeschaltet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l4",
+      "kind": "grammar",
+      "title": "The passive: what gets done",
+      "goal": "Describe technical processes with the passive.",
+      "tip": {
+        "title": "Passive: werden + Partizip II",
+        "body": "When the action matters more than who does it, use werden + Partizip II: Die Daten werden verschlüsselt. In the past it's wurden, in the Perfekt sind … worden, and with a modal verb the infinitive becomes Partizip II + werden: Die App muss aktualisiert werden. If you need the doer, add von + dative."
+      },
+      "phrases": [
+        {
+          "t": "Die Daten werden automatisch verschlüsselt.",
+          "n": "The data is encrypted automatically."
+        },
+        {
+          "t": "Das Gerät wurde in Deutschland entwickelt.",
+          "n": "The device was developed in Germany."
+        },
+        {
+          "t": "Die Software muss regelmäßig aktualisiert werden.",
+          "n": "The software has to be updated regularly."
+        },
+        {
+          "t": "Viele Aufgaben werden bald von Robotern übernommen.",
+          "n": "Many tasks will soon be taken over by robots."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the tense",
+          "base": {
+            "t": "Die Daten werden gespeichert.",
+            "n": "The data is stored."
+          },
+          "items": [
+            {
+              "cue": "Präteritum",
+              "t": "Die Daten wurden gespeichert.",
+              "n": "The data was stored."
+            },
+            {
+              "cue": "müssen",
+              "t": "Die Daten müssen gespeichert werden.",
+              "n": "The data has to be stored."
+            },
+            {
+              "cue": "Perfekt",
+              "t": "Die Daten sind gespeichert worden.",
+              "n": "The data has been stored."
+            }
+          ]
+        },
+        {
+          "title": "Swap the subject",
+          "base": {
+            "t": "Die Software wird regelmäßig aktualisiert.",
+            "n": "The software is updated regularly."
+          },
+          "items": [
+            {
+              "cue": "die Apps",
+              "t": "Die Apps werden regelmäßig aktualisiert.",
+              "n": "The apps are updated regularly."
+            },
+            {
+              "cue": "das Passwort · geändert",
+              "t": "Das Passwort wird regelmäßig geändert.",
+              "n": "The password is changed regularly."
+            },
+            {
+              "cue": "die Geräte · gewartet",
+              "t": "Die Geräte werden regelmäßig gewartet.",
+              "n": "The devices are serviced regularly."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the device was developed in Germany.",
+          "t": [
+            "Das Gerät wurde in Deutschland entwickelt"
+          ]
+        },
+        {
+          "n": "Say the software has to be updated regularly.",
+          "t": [
+            "Die Software muss regelmäßig aktualisiert werden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l5",
+      "kind": "listening",
+      "title": "Robots in care homes",
+      "goal": "Follow a radio interview about new technology.",
+      "phrases": [
+        {
+          "t": "Wie sieht das konkret aus?",
+          "n": "What does that look like in practice?"
+        },
+        {
+          "t": "Ganz im Gegenteil.",
+          "n": "Quite the opposite."
+        },
+        {
+          "t": "Die Pflegekräfte werden entlastet.",
+          "n": "The carers are relieved of some work."
+        },
+        {
+          "t": "Anfangs waren viele skeptisch.",
+          "n": "At first many were sceptical."
+        }
+      ],
+      "story": {
+        "title": "Robots that care",
+        "intro": "A radio host interviews an engineer whose company builds robots for care homes.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Julia",
+            "t": "Herr Brandt, Ihre Firma entwickelt Roboter für Pflegeheime. Wie sieht das konkret aus?",
+            "n": "Mr Brandt, your company develops robots for care homes. What does that look like in practice?"
+          },
+          {
+            "name": "Herr Brandt",
+            "voice": "de-DE-ConradNeural",
+            "t": "Unsere Roboter bringen Wasser, erinnern an Medikamente und machen Gedächtnisspiele mit den Bewohnern.",
+            "n": "Our robots bring water, give medication reminders and play memory games with the residents."
+          },
+          {
+            "name": "Julia",
+            "t": "Werden Pflegekräfte dadurch bald überflüssig?",
+            "n": "Will carers soon become superfluous as a result?"
+          },
+          {
+            "name": "Herr Brandt",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ganz im Gegenteil. Die Pflegekräfte werden entlastet und haben mehr Zeit für Gespräche.",
+            "n": "Quite the opposite. The carers are relieved and have more time for conversations."
+          },
+          {
+            "name": "Julia",
+            "t": "Und wie reagieren die älteren Menschen?",
+            "n": "And how do the elderly react?"
+          },
+          {
+            "name": "Herr Brandt",
+            "voice": "de-DE-ConradNeural",
+            "t": "Anfangs waren viele skeptisch. Aber nach ein paar Wochen wollen die meisten ihren Roboter nicht mehr hergeben.",
+            "n": "At first many were sceptical. But after a few weeks most don't want to give their robot back."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wo werden die Roboter eingesetzt?",
+            "n": "Where are the robots used?",
+            "t": [
+              "In Pflegeheimen",
+              "Im Pflegeheim"
+            ]
+          },
+          {
+            "q": "Werden die Pflegekräfte überflüssig?",
+            "n": "Do the carers become superfluous?",
+            "t": [
+              "Nein, sie werden entlastet",
+              "Nein"
+            ]
+          },
+          {
+            "q": "Wie haben die älteren Menschen anfangs reagiert?",
+            "n": "How did the elderly react at first?",
+            "t": [
+              "Skeptisch",
+              "Sie waren skeptisch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u05-l6",
+      "kind": "roleplay",
+      "title": "A warranty claim",
+      "goal": "Get your broken laptop repaired — stay factual and negotiate.",
+      "phrases": [
+        {
+          "t": "Das Gerät ist noch innerhalb der Garantie.",
+          "n": "The device is still under warranty."
+        },
+        {
+          "t": "Gäbe es eine andere Lösung?",
+          "n": "Would there be another solution?"
+        },
+        {
+          "t": "Ich brauche den Laptop dringend für die Arbeit.",
+          "n": "I urgently need the laptop for work."
+        },
+        {
+          "t": "Haben Sie den Kassenbon dabei?",
+          "n": "Do you have the receipt with you?"
+        }
+      ],
+      "branch": {
+        "title": "At the electronics shop",
+        "scene": "Your three-month-old laptop won't switch on. You go back to the shop's service desk.",
+        "name": "Verkäufer",
+        "voice": "de-DE-ConradNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Guten Tag, was kann ich für Sie tun?",
+            "n": "Hello, what can I do for you?",
+            "choices": [
+              {
+                "t": "Mein Laptop, den ich vor drei Monaten hier gekauft habe, geht nicht mehr an.",
+                "n": "My laptop, which I bought here three months ago, won't switch on any more.",
+                "next": "receipt"
+              },
+              {
+                "t": "Ihr Laptop ist Schrott. Ich will sofort mein Geld zurück!",
+                "n": "Your laptop is junk. I want my money back right now!",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Bitte bleiben Sie sachlich. Was genau ist denn das Problem?",
+            "n": "Please stay calm and factual. What exactly is the problem?",
+            "choices": [
+              {
+                "t": "Entschuldigung. Der Laptop geht seit gestern nicht mehr an.",
+                "n": "Sorry. The laptop hasn't switched on since yesterday.",
+                "next": "receipt"
+              },
+              {
+                "t": "Das sehen Sie doch selbst!",
+                "n": "You can see that for yourself!",
+                "next": "bad"
+              }
+            ]
+          },
+          "receipt": {
+            "t": "Das tut mir leid. Haben Sie den Kassenbon dabei?",
+            "n": "I'm sorry. Do you have the receipt with you?",
+            "choices": [
+              {
+                "t": "Ja, hier bitte. Das Gerät ist noch innerhalb der Garantie.",
+                "n": "Yes, here you go. The device is still under warranty.",
+                "next": "check"
+              },
+              {
+                "t": "Wie bitte? Was brauchen Sie?",
+                "n": "Pardon? What do you need?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Den Kassenbon, also den Kaufbeleg.",
+            "n": "The receipt, I mean the proof of purchase.",
+            "choices": [
+              {
+                "t": "Ach so, ja, hier ist er.",
+                "n": "Oh, I see, yes, here it is.",
+                "next": "check"
+              }
+            ]
+          },
+          "check": {
+            "t": "Gut. Wir müssten das Gerät einschicken. Das dauert etwa drei Wochen.",
+            "n": "Good. We'd have to send the device off. That takes about three weeks.",
+            "choices": [
+              {
+                "t": "Drei Wochen? Ich brauche den Laptop dringend für die Arbeit. Gäbe es eine andere Lösung?",
+                "n": "Three weeks? I urgently need the laptop for work. Would there be another solution?",
+                "next": "loan"
+              },
+              {
+                "t": "In Ordnung, dann schicken Sie ihn bitte ein.",
+                "n": "All right, then please send it off.",
+                "next": "send"
+              }
+            ]
+          },
+          "loan": {
+            "t": "Ich verstehe. Dann gebe ich Ihnen solange kostenlos ein Leihgerät mit.",
+            "n": "I understand. Then I'll give you a free loan device in the meantime.",
+            "end": "good",
+            "outcome": "You negotiated a free loan laptop while yours is repaired."
+          },
+          "send": {
+            "t": "Gut. Sie bekommen eine Nachricht, sobald er repariert ist.",
+            "n": "Good. You'll get a message as soon as it's repaired.",
+            "end": "good",
+            "outcome": "Your laptop is sent off for a free warranty repair."
+          },
+          "bad": {
+            "t": "So kann ich Ihnen leider nicht helfen. Schönen Tag noch.",
+            "n": "I'm afraid I can't help you like this. Have a nice day.",
+            "end": "bad",
+            "outcome": "You lost your temper and got nowhere — stay factual and mention the warranty."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say the device is still under warranty.",
+          "t": [
+            "Das Gerät ist noch innerhalb der Garantie"
+          ]
+        },
+        {
+          "n": "Politely ask if there would be another solution.",
+          "t": [
+            "Gäbe es eine andere Lösung",
+            "Gibt es eine andere Lösung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l7",
+      "kind": "speaking",
+      "title": "Your view of the future",
+      "goal": "Speculate about the future and weigh up a technology for over a minute.",
+      "culture": {
+        "title": "Datenschutz is serious business",
+        "body": "Many Germans are notably cautious with personal data, partly because of their experience with state surveillance in the 20th century. When Google Street View launched in 2010, hundreds of thousands of households asked for their homes to be blurred. Cash is still popular too — the saying Nur Bares ist Wahres (only cash is real) is still heard, although card payments are catching up.",
+        "regions": [
+          "DE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich bin fest davon überzeugt, dass sich das durchsetzen wird.",
+          "n": "I'm firmly convinced that it will catch on."
+        },
+        {
+          "t": "Einerseits ist das praktisch, andererseits birgt es Risiken.",
+          "n": "On the one hand it's practical, on the other it carries risks."
+        },
+        {
+          "t": "Unterm Strich überwiegen die Vorteile.",
+          "n": "On balance, the advantages outweigh the disadvantages."
+        },
+        {
+          "t": "Ob das klappt, wird sich zeigen.",
+          "n": "Time will tell whether it works."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe how you think everyday life will look in 2050: work, transport and homes.",
+          "hint": "Use Futur I and hedges: In dreißig Jahren werden …, vermutlich …, Ich gehe davon aus, dass …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "future with werden",
+              "any": [
+                "werden",
+                "wird",
+                "werde",
+                "wirst",
+                "werdet"
+              ]
+            },
+            {
+              "label": "degree of certainty",
+              "any": [
+                "wahrscheinlich",
+                "vermutlich",
+                "vielleicht",
+                "höchstwahrscheinlich",
+                "bestimmt",
+                "sicher",
+                "ich gehe davon aus",
+                "wohl",
+                "denkbar"
+              ]
+            },
+            {
+              "label": "work",
+              "any": [
+                "arbeit*",
+                "job*",
+                "beruf*",
+                "homeoffice",
+                "büro*"
+              ]
+            },
+            {
+              "label": "transport",
+              "any": [
+                "auto*",
+                "verkehr",
+                "fahr*",
+                "zug",
+                "züge",
+                "bahn",
+                "flug*",
+                "flieg*"
+              ]
+            }
+          ],
+          "model": "In dreißig Jahren werden die meisten Autos vermutlich selbst fahren. Ich gehe davon aus, dass wir viel öfter im Homeoffice arbeiten werden, weil Roboter einfache Aufgaben übernehmen. Ob wir dann glücklicher sind, wird sich zeigen."
+        },
+        {
+          "n": "Weigh up one technology (AI, smart home, self-driving cars …): name a benefit, a risk and your conclusion.",
+          "hint": "Einerseits … andererseits …, Das birgt Risiken, Der Datenschutz …, Unterm Strich …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a contrast",
+              "any": [
+                "einerseits",
+                "andererseits",
+                "auf der einen seite",
+                "auf der anderen seite",
+                "allerdings",
+                "jedoch",
+                "aber"
+              ]
+            },
+            {
+              "label": "a benefit",
+              "any": [
+                "vorteil*",
+                "praktisch",
+                "hilf*",
+                "erleichter*",
+                "spart",
+                "sparen",
+                "nützlich"
+              ]
+            },
+            {
+              "label": "a risk",
+              "any": [
+                "risik*",
+                "nachteil*",
+                "gefahr*",
+                "gefährlich",
+                "datenschutz",
+                "problem*"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "unterm strich",
+                "insgesamt",
+                "alles in allem",
+                "meiner meinung nach",
+                "ich finde",
+                "deshalb",
+                "fazit"
+              ]
+            }
+          ],
+          "model": "Einerseits ist ein Smart Home sehr praktisch, weil es Energie spart. Andererseits birgt es Risiken, vor allem beim Datenschutz. Unterm Strich finde ich es sinnvoll, wenn man die Einstellungen kritisch prüft."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're firmly convinced it will catch on.",
+          "t": [
+            "Ich bin fest davon überzeugt, dass sich das durchsetzen wird",
+            "Ich bin überzeugt, dass sich das durchsetzen wird"
+          ]
+        },
+        {
+          "n": "Say that on balance the advantages outweigh the disadvantages.",
+          "t": [
+            "Unterm Strich überwiegen die Vorteile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Technik und Zukunft",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

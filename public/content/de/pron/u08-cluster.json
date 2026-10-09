@@ -1,0 +1,215 @@
+{
+  "id": "pron-u08",
+  "level": "B2",
+  "title": "Konsonanten & Knacklaut",
+  "subtitle": "Clusters, ng/nk, glottal stop",
+  "icon": "🧱",
+  "lessons": [
+    {
+      "id": "pron-u08-l1",
+      "kind": "pron",
+      "title": "Consonant clusters",
+      "goal": "Get through long consonant groups.",
+      "tip": {
+        "title": "No extra vowels",
+        "body": "German stacks consonants: Herbst, Pfund, schimpfst. Don't insert a vowel between them. ng is one sound, as in \"singer\" (no g after it); nk is \"ng\" plus k, as in \"sink\"."
+      },
+      "phrases": [
+        {
+          "t": "Im Herbst ist es kühl.",
+          "n": "It's cool in autumn."
+        },
+        {
+          "t": "Ein Pfund Pflaumen, bitte.",
+          "n": "A pound of plums, please."
+        },
+        {
+          "t": "Du schimpfst zu viel.",
+          "n": "You complain too much."
+        },
+        {
+          "t": "Sie springt ins Wasser.",
+          "n": "She jumps into the water."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ng / nk",
+          "a": {
+            "t": "singen",
+            "n": "to sing"
+          },
+          "b": {
+            "t": "sinken",
+            "n": "to sink"
+          }
+        },
+        {
+          "sound": "ng / nk",
+          "a": {
+            "t": "Engel",
+            "n": "angel"
+          },
+          "b": {
+            "t": "Enkel",
+            "n": "grandchild"
+          }
+        },
+        {
+          "sound": "ng / nk",
+          "a": {
+            "t": "sang",
+            "n": "sang"
+          },
+          "b": {
+            "t": "sank",
+            "n": "sank"
+          }
+        },
+        {
+          "sound": "str / st",
+          "a": {
+            "t": "Strumpf",
+            "n": "stocking"
+          },
+          "b": {
+            "t": "Stumpf",
+            "n": "stump"
+          }
+        },
+        {
+          "sound": "schm / sch",
+          "a": {
+            "t": "Schmerz",
+            "n": "pain"
+          },
+          "b": {
+            "t": "Scherz",
+            "n": "joke"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Im Herbst ist es kühl.",
+          "n": "It's cool in autumn.",
+          "mark": "Im *Herbst* ist es *kühl*."
+        },
+        {
+          "t": "Ein Pfund Pflaumen, bitte.",
+          "n": "A pound of plums, please.",
+          "mark": "Ein *Pfund* *Pflau*men, *bit*te."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"in autumn\".",
+          "t": [
+            "im Herbst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u08-l2",
+      "kind": "pron",
+      "title": "The glottal stop",
+      "goal": "Start vowels with a clean break.",
+      "tip": {
+        "title": "A tiny catch in the throat",
+        "body": "German words and word parts that begin with a vowel start with a glottal stop — the catch in English \"uh-oh\". So \"vereisen\" is ver|eisen, not \"verreisen\". Don't link the previous consonant to the vowel as English does."
+      },
+      "phrases": [
+        {
+          "t": "Am Abend esse ich Eis.",
+          "n": "In the evening I eat ice cream."
+        },
+        {
+          "t": "Er hat alles erklärt.",
+          "n": "He explained everything."
+        },
+        {
+          "t": "Bitte beantworten Sie die Frage.",
+          "n": "Please answer the question."
+        },
+        {
+          "t": "Die Straße ist vereist.",
+          "n": "The road is icy."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "ver|ei / verr",
+          "a": {
+            "t": "vereisen",
+            "n": "to ice over"
+          },
+          "b": {
+            "t": "verreisen",
+            "n": "to go travelling"
+          }
+        },
+        {
+          "sound": "| / r",
+          "a": {
+            "t": "Ich esse Eis.",
+            "n": "I eat ice cream."
+          },
+          "b": {
+            "t": "Ich esse Reis.",
+            "n": "I eat rice."
+          }
+        },
+        {
+          "sound": "| / s",
+          "a": {
+            "t": "Er aß.",
+            "n": "He ate."
+          },
+          "b": {
+            "t": "Er saß.",
+            "n": "He sat."
+          }
+        },
+        {
+          "sound": "| / h",
+          "a": {
+            "t": "Er ist alt.",
+            "n": "He is old."
+          },
+          "b": {
+            "t": "Er ist halt.",
+            "n": "He just is (that way)."
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Am Abend esse ich Eis.",
+          "n": "In the evening I eat ice cream.",
+          "mark": "Am *A*bend esse ich *Eis*."
+        },
+        {
+          "t": "Er hat alles erklärt.",
+          "n": "He explained everything.",
+          "mark": "Er hat *al*les er*klärt*."
+        },
+        {
+          "t": "Die Straße ist vereist.",
+          "n": "The road is icy.",
+          "mark": "Die Straße ist ver*eist*.",
+          "note": "Clean break before -eist: ver|eist."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you eat ice cream in the evening.",
+          "t": [
+            "Am Abend esse ich Eis",
+            "Abends esse ich Eis"
+          ]
+        }
+      ]
+    }
+  ]
+}

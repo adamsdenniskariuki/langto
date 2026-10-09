@@ -13,34 +13,118 @@
         "body": "Idioms are fixed chunks: you can conjugate the verb, but don't swap the nouns. Ich verstehe nur Bahnhof means I don't understand a thing – not something about stations! Learn each idiom as one melody and say it smoothly without pauses; hesitating in the middle makes it sound translated."
       },
       "phrases": [
-        { "t": "Ehrlich gesagt verstehe ich nur Bahnhof.", "n": "To be honest, it's all Greek to me." },
-        { "t": "Da hast du den Nagel auf den Kopf getroffen.", "n": "You've hit the nail on the head there." },
-        { "t": "Das ist nicht mein Bier.", "n": "That's not my problem." },
-        { "t": "Ich drücke dir die Daumen!", "n": "I'll keep my fingers crossed for you!" },
-        { "t": "Jetzt mal Butter bei die Fische: Was ist passiert?", "n": "Come on, out with it: what happened?", "note": "colloquial, intentionally ungrammatical" },
-        { "t": "Da ist mir echt ein Stein vom Herzen gefallen.", "n": "That was a real weight off my mind." },
-        { "t": "Er hat mal wieder die beleidigte Leberwurst gespielt.", "n": "He sulked like a child yet again." },
-        { "t": "Das ist doch ein Katzensprung von hier.", "n": "That's just a stone's throw from here." }
+        {
+          "t": "Ehrlich gesagt verstehe ich nur Bahnhof.",
+          "n": "To be honest, it's all Greek to me."
+        },
+        {
+          "t": "Da hast du den Nagel auf den Kopf getroffen.",
+          "n": "You've hit the nail on the head there."
+        },
+        {
+          "t": "Das ist nicht mein Bier.",
+          "n": "That's not my problem."
+        },
+        {
+          "t": "Ich drücke dir die Daumen!",
+          "n": "I'll keep my fingers crossed for you!"
+        },
+        {
+          "t": "Jetzt mal Butter bei die Fische: Was ist passiert?",
+          "n": "Come on, out with it: what happened?",
+          "note": "colloquial, intentionally ungrammatical"
+        },
+        {
+          "t": "Da ist mir echt ein Stein vom Herzen gefallen.",
+          "n": "That was a real weight off my mind."
+        },
+        {
+          "t": "Er hat mal wieder die beleidigte Leberwurst gespielt.",
+          "n": "He sulked like a child yet again."
+        },
+        {
+          "t": "Das ist doch ein Katzensprung von hier.",
+          "n": "That's just a stone's throw from here."
+        }
       ],
       "dialogue": {
         "title": "Catching up with a friend",
         "voice": "de-DE-AmalaNeural",
         "lines": [
-          { "who": "A", "name": "Mia", "t": "Na, wie war das Vorstellungsgespräch? Erzähl!", "n": "So, how was the job interview? Tell me!" },
-          { "who": "you", "t": "Puh. Bei den technischen Fragen habe ich ehrlich gesagt nur Bahnhof verstanden.", "n": "Phew. To be honest, the technical questions were all Greek to me." },
-          { "who": "A", "name": "Mia", "t": "Oh nein! Und? Jetzt mal Butter bei die Fische: Hast du die Stelle?", "n": "Oh no! And? Come on, out with it: did you get the job?" },
-          { "who": "you", "t": "Ja! Sie haben heute Morgen angerufen. Da ist mir echt ein Stein vom Herzen gefallen.", "n": "Yes! They called this morning. That was a real weight off my mind." },
-          { "who": "A", "name": "Mia", "t": "Glückwunsch! Und wo ist das Büro?", "n": "Congratulations! And where's the office?" },
-          { "who": "you", "t": "In der Altstadt. Das ist doch ein Katzensprung von hier.", "n": "In the old town. That's just a stone's throw from here." },
-          { "who": "A", "name": "Mia", "t": "Perfekt! Mein Bruder hat übrigens auch eine Bewerbung laufen.", "n": "Perfect! My brother's got an application running too, by the way." },
-          { "who": "you", "t": "Dann drücke ich ihm die Daumen!", "n": "Then I'll keep my fingers crossed for him!" }
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Na, wie war das Vorstellungsgespräch? Erzähl!",
+            "n": "So, how was the job interview? Tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Puh. Bei den technischen Fragen habe ich ehrlich gesagt nur Bahnhof verstanden.",
+            "n": "Phew. To be honest, the technical questions were all Greek to me."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Oh nein! Und? Jetzt mal Butter bei die Fische: Hast du die Stelle?",
+            "n": "Oh no! And? Come on, out with it: did you get the job?"
+          },
+          {
+            "who": "you",
+            "t": "Ja! Sie haben heute Morgen angerufen. Da ist mir echt ein Stein vom Herzen gefallen.",
+            "n": "Yes! They called this morning. That was a real weight off my mind."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Glückwunsch! Und wo ist das Büro?",
+            "n": "Congratulations! And where's the office?"
+          },
+          {
+            "who": "you",
+            "t": "In der Altstadt. Das ist doch ein Katzensprung von hier.",
+            "n": "In the old town. That's just a stone's throw from here."
+          },
+          {
+            "who": "A",
+            "name": "Mia",
+            "t": "Perfekt! Mein Bruder hat übrigens auch eine Bewerbung laufen.",
+            "n": "Perfect! My brother's got an application running too, by the way."
+          },
+          {
+            "who": "you",
+            "t": "Dann drücke ich ihm die Daumen!",
+            "n": "Then I'll keep my fingers crossed for him!"
+          }
         ]
       },
       "prompts": [
-        { "n": "Tell someone they've hit the nail on the head.", "t": ["Da hast du den Nagel auf den Kopf getroffen", "Du hast den Nagel auf den Kopf getroffen"] },
-        { "n": "Say you'll keep your fingers crossed for a friend.", "t": ["Ich drücke dir die Daumen"] },
-        { "n": "Say you don't understand a thing, using the idiom.", "t": ["Ich verstehe nur Bahnhof", "Ehrlich gesagt verstehe ich nur Bahnhof"] },
-        { "n": "Say it was a real weight off your mind.", "t": ["Da ist mir echt ein Stein vom Herzen gefallen", "Da ist mir ein Stein vom Herzen gefallen"] }
+        {
+          "n": "Tell someone they've hit the nail on the head.",
+          "t": [
+            "Da hast du den Nagel auf den Kopf getroffen",
+            "Du hast den Nagel auf den Kopf getroffen"
+          ]
+        },
+        {
+          "n": "Say you'll keep your fingers crossed for a friend.",
+          "t": [
+            "Ich drücke dir die Daumen"
+          ]
+        },
+        {
+          "n": "Say you don't understand a thing, using the idiom.",
+          "t": [
+            "Ich verstehe nur Bahnhof",
+            "Ehrlich gesagt verstehe ich nur Bahnhof"
+          ]
+        },
+        {
+          "n": "Say it was a real weight off your mind.",
+          "t": [
+            "Da ist mir echt ein Stein vom Herzen gefallen",
+            "Da ist mir ein Stein vom Herzen gefallen"
+          ]
+        }
       ]
     },
     {
@@ -52,37 +136,717 @@
         "body": "Natural speech is full of particles – halt, eben, ja, mal – and fillers like Wie soll ich sagen … that buy you thinking time. Use Apropos … or Übrigens … to switch topics smoothly. To check understanding, paraphrase: Du meinst also, dass …? End with a short summary and a warm falling tone: Na ja, so ist das halt."
       },
       "phrases": [
-        { "t": "Wie soll ich sagen, das ist eine lange Geschichte.", "n": "How should I put it, it's a long story." },
-        { "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?", "n": "Speaking of holidays, have you actually been to Vienna yet?" },
-        { "t": "Du meinst also, dass er einfach keine Lust mehr hatte?", "n": "So you mean he simply didn't feel like it anymore?" },
-        { "t": "Na ja, so ist das halt.", "n": "Oh well, that's just the way it is." },
-        { "t": "Ich will jetzt nicht vom Thema ablenken, aber das erinnert mich an etwas.", "n": "I don't want to change the subject, but that reminds me of something." },
-        { "t": "Wo war ich stehen geblieben?", "n": "Where was I?" },
-        { "t": "Kurz gesagt: Es hat sich am Ende alles gelohnt.", "n": "In short: in the end it was all worth it." },
-        { "t": "Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter.", "n": "I really have to go now, let's carry on chatting next week." }
+        {
+          "t": "Wie soll ich sagen, das ist eine lange Geschichte.",
+          "n": "How should I put it, it's a long story."
+        },
+        {
+          "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?",
+          "n": "Speaking of holidays, have you actually been to Vienna yet?"
+        },
+        {
+          "t": "Du meinst also, dass er einfach keine Lust mehr hatte?",
+          "n": "So you mean he simply didn't feel like it anymore?"
+        },
+        {
+          "t": "Na ja, so ist das halt.",
+          "n": "Oh well, that's just the way it is."
+        },
+        {
+          "t": "Ich will jetzt nicht vom Thema ablenken, aber das erinnert mich an etwas.",
+          "n": "I don't want to change the subject, but that reminds me of something."
+        },
+        {
+          "t": "Wo war ich stehen geblieben?",
+          "n": "Where was I?"
+        },
+        {
+          "t": "Kurz gesagt: Es hat sich am Ende alles gelohnt.",
+          "n": "In short: in the end it was all worth it."
+        },
+        {
+          "t": "Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter.",
+          "n": "I really have to go now, let's carry on chatting next week."
+        }
       ],
       "dialogue": {
         "title": "At a friend's barbecue",
         "voice": "de-DE-KillianNeural",
         "lines": [
-          { "who": "A", "name": "Felix", "t": "Sag mal, warum bist du eigentlich nicht mehr in der Band?", "n": "Tell me, why aren't you in the band anymore?" },
-          { "who": "you", "t": "Wie soll ich sagen, das ist eine lange Geschichte. Unser Sänger ist plötzlich ausgestiegen.", "n": "How should I put it, it's a long story. Our singer suddenly quit." },
-          { "who": "A", "name": "Felix", "t": "Tja, manche haben halt irgendwann keine Lust mehr.", "n": "Well, some people just lose interest at some point." },
-          { "who": "you", "t": "Du meinst also, dass er einfach keine Lust mehr hatte? Nee, er ist nach Österreich gezogen.", "n": "So you mean he simply didn't feel like it anymore? Nah, he moved to Austria." },
-          { "who": "A", "name": "Felix", "t": "Nach Österreich? Wir fahren im Sommer nach Salzburg!", "n": "To Austria? We're going to Salzburg in the summer!" },
-          { "who": "you", "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?", "n": "Speaking of holidays, have you actually been to Vienna yet?" },
-          { "who": "A", "name": "Felix", "t": "Ja, letztes Jahr. Tolle Stadt! Aber erzähl weiter.", "n": "Yes, last year. Great city! But go on." },
-          { "who": "you", "t": "Wo war ich stehen geblieben?", "n": "Where was I?" },
-          { "who": "A", "name": "Felix", "t": "Bei eurem Sänger. Und jetzt? Keine Band mehr?", "n": "You were talking about your singer. And now? No more band?" },
-          { "who": "you", "t": "Na ja, so ist das halt. Kurz gesagt: Es hat sich am Ende alles gelohnt.", "n": "Oh well, that's just the way it is. In short: in the end it was all worth it." }
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Sag mal, warum bist du eigentlich nicht mehr in der Band?",
+            "n": "Tell me, why aren't you in the band anymore?"
+          },
+          {
+            "who": "you",
+            "t": "Wie soll ich sagen, das ist eine lange Geschichte. Unser Sänger ist plötzlich ausgestiegen.",
+            "n": "How should I put it, it's a long story. Our singer suddenly quit."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Tja, manche haben halt irgendwann keine Lust mehr.",
+            "n": "Well, some people just lose interest at some point."
+          },
+          {
+            "who": "you",
+            "t": "Du meinst also, dass er einfach keine Lust mehr hatte? Nee, er ist nach Österreich gezogen.",
+            "n": "So you mean he simply didn't feel like it anymore? Nah, he moved to Austria."
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Nach Österreich? Wir fahren im Sommer nach Salzburg!",
+            "n": "To Austria? We're going to Salzburg in the summer!"
+          },
+          {
+            "who": "you",
+            "t": "Apropos Urlaub, wart ihr eigentlich schon in Wien?",
+            "n": "Speaking of holidays, have you actually been to Vienna yet?"
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Ja, letztes Jahr. Tolle Stadt! Aber erzähl weiter.",
+            "n": "Yes, last year. Great city! But go on."
+          },
+          {
+            "who": "you",
+            "t": "Wo war ich stehen geblieben?",
+            "n": "Where was I?"
+          },
+          {
+            "who": "A",
+            "name": "Felix",
+            "t": "Bei eurem Sänger. Und jetzt? Keine Band mehr?",
+            "n": "You were talking about your singer. And now? No more band?"
+          },
+          {
+            "who": "you",
+            "t": "Na ja, so ist das halt. Kurz gesagt: Es hat sich am Ende alles gelohnt.",
+            "n": "Oh well, that's just the way it is. In short: in the end it was all worth it."
+          }
         ]
       },
       "prompts": [
-        { "n": "Buy time: say 'how should I put it, it's a long story'.", "t": ["Wie soll ich sagen, das ist eine lange Geschichte"] },
-        { "n": "After a digression, ask where you were.", "t": ["Wo war ich stehen geblieben", "Wo war ich"] },
-        { "n": "Wrap up: in short, it was all worth it in the end.", "t": ["Kurz gesagt: Es hat sich am Ende alles gelohnt", "Kurz gesagt, es hat sich am Ende alles gelohnt", "Es hat sich am Ende alles gelohnt"] },
-        { "n": "Say you really have to go and you'll carry on chatting next week.", "t": ["Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter", "Ich muss jetzt echt los, wir quatschen nächste Woche weiter"] }
+        {
+          "n": "Buy time: say 'how should I put it, it's a long story'.",
+          "t": [
+            "Wie soll ich sagen, das ist eine lange Geschichte"
+          ]
+        },
+        {
+          "n": "After a digression, ask where you were.",
+          "t": [
+            "Wo war ich stehen geblieben",
+            "Wo war ich"
+          ]
+        },
+        {
+          "n": "Wrap up: in short, it was all worth it in the end.",
+          "t": [
+            "Kurz gesagt: Es hat sich am Ende alles gelohnt",
+            "Kurz gesagt, es hat sich am Ende alles gelohnt",
+            "Es hat sich am Ende alles gelohnt"
+          ]
+        },
+        {
+          "n": "Say you really have to go and you'll carry on chatting next week.",
+          "t": [
+            "Jetzt muss ich aber echt los, wir quatschen nächste Woche weiter",
+            "Ich muss jetzt echt los, wir quatschen nächste Woche weiter"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u08-l3",
+      "title": "Idioms for work and stress",
+      "goal": "Describe workload and pressure with everyday idioms.",
+      "phrases": [
+        {
+          "t": "Ich habe gerade viel um die Ohren.",
+          "n": "I've got a lot on my plate at the moment."
+        },
+        {
+          "t": "Wir sitzen alle im selben Boot.",
+          "n": "We're all in the same boat."
+        },
+        {
+          "t": "Da müssen wir jetzt in den sauren Apfel beißen.",
+          "n": "We'll just have to bite the bullet now."
+        },
+        {
+          "t": "Ich bin mit meinem Latein am Ende.",
+          "n": "I'm at my wits' end."
+        },
+        {
+          "t": "Das ist doch ein Kinderspiel!",
+          "n": "That's child's play!"
+        }
+      ],
+      "dialogue": {
+        "title": "A new project",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sarah",
+            "t": "Hast du kurz Zeit für das neue Projekt?",
+            "n": "Have you got a moment for the new project?"
+          },
+          {
+            "who": "you",
+            "t": "Ehrlich gesagt habe ich gerade viel um die Ohren.",
+            "n": "To be honest, I've got a lot on my plate at the moment."
+          },
+          {
+            "who": "A",
+            "name": "Sarah",
+            "t": "Ich auch. Aber die Deadline ist am Freitag.",
+            "n": "Me too. But the deadline is on Friday."
+          },
+          {
+            "who": "you",
+            "t": "Na gut, wir sitzen ja alle im selben Boot.",
+            "n": "Oh well, we're all in the same boat."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you've got a lot on your plate at the moment.",
+          "t": [
+            "Ich habe gerade viel um die Ohren",
+            "Ich habe viel um die Ohren"
+          ]
+        },
+        {
+          "n": "Say you're at your wits' end.",
+          "t": [
+            "Ich bin mit meinem Latein am Ende"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l4",
+      "kind": "grammar",
+      "title": "As if: als ob + Konjunktiv II",
+      "goal": "Describe how people act and seem with als ob / als.",
+      "tip": {
+        "title": "Unreal comparisons",
+        "body": "After so tun, aussehen or es kommt mir vor, an unreal comparison uses Konjunktiv II: Er tut so, als ob er nichts wüsste. With als ob the verb goes to the end; with als alone it comes straight after als: Er tut so, als wüsste er nichts. For the past, use hätte/wäre + Partizip II: als hätte er nicht geschlafen."
+      },
+      "phrases": [
+        {
+          "t": "Er tut so, als ob er nichts davon wüsste.",
+          "n": "He acts as if he knew nothing about it."
+        },
+        {
+          "t": "Sie tut so, als hätte sie die Weisheit mit Löffeln gegessen.",
+          "n": "She acts as if she knows it all.",
+          "note": "idiom: literally 'eaten wisdom with spoons'"
+        },
+        {
+          "t": "Du siehst aus, als hättest du nicht geschlafen.",
+          "n": "You look as if you hadn't slept."
+        },
+        {
+          "t": "Es kommt mir vor, als wäre es gestern gewesen.",
+          "n": "It feels as if it were yesterday."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap als ob ↔ als",
+          "base": {
+            "t": "Er tut so, als ob er nichts wüsste.",
+            "n": "He acts as if he knew nothing."
+          },
+          "items": [
+            {
+              "cue": "als",
+              "t": "Er tut so, als wüsste er nichts.",
+              "n": "He acts as if he knew nothing."
+            },
+            {
+              "cue": "als ob · keine Zeit haben",
+              "t": "Er tut so, als ob er keine Zeit hätte.",
+              "n": "He acts as if he had no time."
+            },
+            {
+              "cue": "als · krank sein",
+              "t": "Er tut so, als wäre er krank.",
+              "n": "He acts as if he were ill."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Du siehst aus, als hättest du nicht geschlafen.",
+            "n": "You look as if you hadn't slept."
+          },
+          "items": [
+            {
+              "cue": "er",
+              "t": "Er sieht aus, als hätte er nicht geschlafen.",
+              "n": "He looks as if he hadn't slept."
+            },
+            {
+              "cue": "ihr",
+              "t": "Ihr seht aus, als hättet ihr nicht geschlafen.",
+              "n": "You all look as if you hadn't slept."
+            },
+            {
+              "cue": "Sie",
+              "t": "Sie sehen aus, als hätten Sie nicht geschlafen.",
+              "n": "You look as if you hadn't slept. (formal)"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say he acts as if he knew nothing about it.",
+          "t": [
+            "Er tut so, als ob er nichts davon wüsste",
+            "Er tut so, als wüsste er nichts davon"
+          ]
+        },
+        {
+          "n": "Say it feels as if it were yesterday.",
+          "t": [
+            "Es kommt mir vor, als wäre es gestern gewesen",
+            "Es kommt mir vor, als ob es gestern gewesen wäre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l5",
+      "kind": "listening",
+      "title": "A chaotic move in Vienna",
+      "goal": "Follow a casual Austrian chat full of idioms.",
+      "phrases": [
+        {
+          "t": "Frag nicht.",
+          "n": "Don't ask."
+        },
+        {
+          "t": "Glück im Unglück!",
+          "n": "A blessing in disguise! / Lucky in the circumstances!"
+        },
+        {
+          "t": "Er hat mir seinen Anhänger geliehen.",
+          "n": "He lent me his trailer."
+        },
+        {
+          "t": "Fast alles ist erledigt.",
+          "n": "Almost everything is done."
+        }
+      ],
+      "story": {
+        "title": "Moving day",
+        "intro": "Ingrid asks her friend Jonas how his move to a new flat went.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Ingrid",
+            "voice": "de-AT-IngridNeural",
+            "t": "Na, Jonas, wie war der Umzug? Du schaust aus, als hättest du seit Tagen nicht geschlafen.",
+            "n": "So, Jonas, how was the move? You look as if you hadn't slept for days."
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Frag nicht. Der Transporter ist einfach nicht gekommen, und ich war echt mit meinem Latein am Ende.",
+            "n": "Don't ask. The van just didn't turn up, and I was really at my wits' end."
+          },
+          {
+            "name": "Ingrid",
+            "voice": "de-AT-IngridNeural",
+            "t": "Oje! Und dann?",
+            "n": "Oh dear! And then?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Mein Nachbar hat mir seinen Anhänger geliehen. Da ist mir ein Stein vom Herzen gefallen.",
+            "n": "My neighbour lent me his trailer. That was a weight off my mind."
+          },
+          {
+            "name": "Ingrid",
+            "voice": "de-AT-IngridNeural",
+            "t": "Glück im Unglück! Und jetzt ist alles erledigt?",
+            "n": "Lucky in the circumstances! And is everything done now?"
+          },
+          {
+            "name": "Jonas",
+            "voice": "de-AT-JonasNeural",
+            "t": "Fast. Die Küche fehlt noch, aber das ist ein Kinderspiel.",
+            "n": "Almost. The kitchen is still missing, but that's child's play."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Was ist nicht gekommen?",
+            "n": "What didn't turn up?",
+            "t": [
+              "Der Transporter",
+              "Der Transporter ist nicht gekommen"
+            ]
+          },
+          {
+            "q": "Wer hat Jonas geholfen?",
+            "n": "Who helped Jonas?",
+            "t": [
+              "Sein Nachbar",
+              "Der Nachbar"
+            ]
+          },
+          {
+            "q": "Was fehlt noch?",
+            "n": "What is still missing?",
+            "t": [
+              "Die Küche",
+              "Die Küche fehlt noch"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u08-l6",
+      "kind": "roleplay",
+      "title": "Talking to your boss about workload",
+      "goal": "Raise a problem directly and negotiate a fair solution.",
+      "phrases": [
+        {
+          "t": "Mir wächst die Arbeit über den Kopf.",
+          "n": "The work is getting on top of me."
+        },
+        {
+          "t": "Ich möchte nicht um den heißen Brei herumreden.",
+          "n": "I don't want to beat about the bush."
+        },
+        {
+          "t": "Könnten wir die Aufgaben anders verteilen?",
+          "n": "Could we distribute the tasks differently?"
+        },
+        {
+          "t": "Das klingt nach einem fairen Kompromiss.",
+          "n": "That sounds like a fair compromise."
+        }
+      ],
+      "branch": {
+        "title": "In the boss's office",
+        "scene": "You've been doing two people's jobs for weeks. You've asked your boss, Herr Wagner, for a quick chat.",
+        "name": "Herr Wagner",
+        "voice": "de-DE-ConradNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Sie wollten mich sprechen? Worum geht's?",
+            "n": "You wanted to talk to me? What's it about?",
+            "choices": [
+              {
+                "t": "Ich möchte nicht um den heißen Brei herumreden: Mir wächst die Arbeit über den Kopf.",
+                "n": "I don't want to beat about the bush: the work is getting on top of me.",
+                "next": "listen"
+              },
+              {
+                "t": "Ach, nichts Wichtiges. Ich wollte nur mal Hallo sagen.",
+                "n": "Oh, nothing important. I just wanted to say hello.",
+                "next": "nothing"
+              }
+            ]
+          },
+          "nothing": {
+            "t": "Na gut … Ich hätte da übrigens noch ein neues Projekt für Sie.",
+            "n": "Well … By the way, I've got a new project for you.",
+            "choices": [
+              {
+                "t": "Ehrlich gesagt ist genau das das Problem: Ich habe zu viel um die Ohren.",
+                "n": "To be honest, that's exactly the problem: I've got too much on my plate.",
+                "next": "listen"
+              },
+              {
+                "t": "Kein Problem, das schaffe ich schon irgendwie.",
+                "n": "No problem, I'll manage somehow.",
+                "next": "bad"
+              }
+            ]
+          },
+          "listen": {
+            "t": "Oh, das wusste ich nicht. Woran liegt es denn?",
+            "n": "Oh, I didn't know that. What's the reason?",
+            "choices": [
+              {
+                "t": "Seit Frau Kaya in Elternzeit ist, mache ich ihre Aufgaben mit.",
+                "n": "Since Ms Kaya went on parental leave, I've been doing her tasks as well.",
+                "next": "offer"
+              },
+              {
+                "t": "Wie bitte? Könnten Sie die Frage wiederholen?",
+                "n": "Pardon? Could you repeat the question?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Ich meine: Was ist der Grund für die viele Arbeit?",
+            "n": "I mean: what's the reason for all the work?",
+            "choices": [
+              {
+                "t": "Seit Frau Kaya in Elternzeit ist, mache ich ihre Aufgaben mit.",
+                "n": "Since Ms Kaya went on parental leave, I've been doing her tasks as well.",
+                "next": "offer"
+              }
+            ]
+          },
+          "offer": {
+            "t": "Verstehe. Könnten Sie das neue Projekt trotzdem noch übernehmen?",
+            "n": "I see. Could you still take on the new project anyway?",
+            "choices": [
+              {
+                "t": "Nur wenn wir die Aufgaben anders verteilen. Könnte Herr Lang das Reporting übernehmen?",
+                "n": "Only if we distribute the tasks differently. Could Mr Lang take over the reporting?",
+                "next": "good"
+              },
+              {
+                "t": "Nein, auf keinen Fall. Das ist nicht mein Bier.",
+                "n": "No, no way. That's not my problem.",
+                "next": "tension"
+              }
+            ]
+          },
+          "tension": {
+            "t": "Hm, so einfach ist das nicht. Haben Sie einen Vorschlag?",
+            "n": "Hmm, it's not that simple. Do you have a suggestion?",
+            "choices": [
+              {
+                "t": "Entschuldigung. Wenn jemand das Reporting übernimmt, schaffe ich das Projekt.",
+                "n": "Sorry. If someone takes over the reporting, I can manage the project.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Das klingt nach einem fairen Kompromiss. Ich spreche morgen mit Herrn Lang.",
+            "n": "That sounds like a fair compromise. I'll talk to Mr Lang tomorrow.",
+            "end": "good",
+            "outcome": "Your workload gets redistributed and you kept a good relationship with your boss."
+          },
+          "bad": {
+            "t": "Prima, dann schicke ich Ihnen die Unterlagen gleich.",
+            "n": "Great, then I'll send you the documents right away.",
+            "end": "bad",
+            "outcome": "You took on even more work — next time, raise the problem directly."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say the work is getting on top of you (idiom).",
+          "t": [
+            "Mir wächst die Arbeit über den Kopf"
+          ]
+        },
+        {
+          "n": "Say you don't want to beat about the bush.",
+          "t": [
+            "Ich möchte nicht um den heißen Brei herumreden",
+            "Ich will nicht um den heißen Brei herumreden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l7",
+      "kind": "speaking",
+      "title": "Tell it with idioms",
+      "goal": "Tell a story and describe people colourfully, using idioms.",
+      "culture": {
+        "title": "Schwein gehabt!",
+        "body": "Pigs mean luck in German-speaking culture: Schwein gehabt! means 'that was lucky', and at New Year people give each other little marzipan pigs as good-luck charms. Idioms also vary by region — where Germans say Das ist mir Wurst (I couldn't care less), Austrians might say Das ist mir blunzn, after their blood sausage.",
+        "regions": [
+          "DE",
+          "AT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Das ging total in die Hose.",
+          "n": "That went completely wrong.",
+          "note": "colloquial"
+        },
+        {
+          "t": "Da habe ich echt Schwein gehabt.",
+          "n": "I was really lucky there."
+        },
+        {
+          "t": "Ende gut, alles gut.",
+          "n": "All's well that ends well."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a short story about something that went wrong (a trip, a move, an exam) and how it ended. Use at least two idioms.",
+          "hint": "Zuerst … dann …; Das ging in die Hose; Ich war mit meinem Latein am Ende; Schwein gehabt; Ende gut, alles gut.",
+          "seconds": 90,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "an idiom",
+              "any": [
+                "in die hose",
+                "schwein gehabt",
+                "ende gut",
+                "latein",
+                "stein vom herzen",
+                "kinderspiel",
+                "um die ohren",
+                "bahnhof",
+                "daumen",
+                "katzensprung",
+                "sauren apfel",
+                "selben boot",
+                "glück im unglück",
+                "über den kopf"
+              ]
+            },
+            {
+              "label": "past tense",
+              "any": [
+                "war",
+                "waren",
+                "hatte",
+                "hatten",
+                "habe",
+                "haben",
+                "ist",
+                "sind",
+                "wurde"
+              ]
+            },
+            {
+              "label": "sequencing",
+              "any": [
+                "zuerst",
+                "dann",
+                "danach",
+                "plötzlich",
+                "schließlich",
+                "zum schluss"
+              ]
+            },
+            {
+              "label": "how it ended",
+              "any": [
+                "am ende",
+                "zum glück",
+                "glücklicherweise",
+                "ende gut",
+                "gut gegangen",
+                "geklappt"
+              ]
+            }
+          ],
+          "model": "Letzten Sommer ist unser Urlaub total in die Hose gegangen: Zuerst wurde der Flug gestrichen, dann war das Hotel ausgebucht. Ich war mit meinem Latein am Ende. Aber dann haben wir Schwein gehabt und ein tolles Ferienhaus gefunden – Ende gut, alles gut."
+        },
+        {
+          "n": "Describe someone you know (no names) with als ob / als and an idiom: how do they behave?",
+          "hint": "Er/Sie tut so, als ob …; als hätte er …; spielt die beleidigte Leberwurst; die Weisheit mit Löffeln gegessen",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "als ob / als",
+              "any": [
+                "als ob",
+                "als wenn",
+                "als hätte",
+                "als wäre",
+                "als würde",
+                "als wüsste",
+                "als könnte"
+              ]
+            },
+            {
+              "label": "Konjunktiv II",
+              "any": [
+                "hätte*",
+                "wäre*",
+                "würde*",
+                "wüsste*",
+                "könnte*"
+              ]
+            },
+            {
+              "label": "behaviour",
+              "any": [
+                "tut so",
+                "verhält sich",
+                "benimmt sich",
+                "wirkt",
+                "sieht aus",
+                "redet",
+                "spielt"
+              ]
+            },
+            {
+              "label": "an idiom",
+              "any": [
+                "weisheit mit löffeln",
+                "leberwurst",
+                "nicht mein bier",
+                "nagel auf den kopf",
+                "um den heißen brei",
+                "um die ohren",
+                "bahnhof",
+                "über den kopf"
+              ]
+            }
+          ],
+          "model": "Mein Kollege tut immer so, als hätte er die Weisheit mit Löffeln gegessen. In Meetings redet er, als wüsste er alles. Aber wenn es ernst wird, spielt er die beleidigte Leberwurst."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you were really lucky there (idiom with a pig).",
+          "t": [
+            "Da habe ich echt Schwein gehabt",
+            "Da habe ich Schwein gehabt",
+            "Schwein gehabt"
+          ]
+        },
+        {
+          "n": "Say all's well that ends well.",
+          "t": [
+            "Ende gut, alles gut"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Redewendungen",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b2-test",
+      "kind": "test",
+      "title": "B2 speaking test",
+      "goal": "Pass to earn your B2 badge and unlock C1.",
+      "tip": {
+        "title": "What to expect",
+        "body": "Sentences come from all eight B2 units, shown in English only. Say them in German from memory — watch the verb position in passive, Konjunktiv II and je … desto sentences, and keep idioms word for word."
+      }
     }
   ]
 }

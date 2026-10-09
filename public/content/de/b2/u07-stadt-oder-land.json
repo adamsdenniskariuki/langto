@@ -13,34 +13,118 @@
         "body": "A participle can describe a noun like an adjective: eine renovierte Wohnung, die steigenden Mieten, ein gut angebundenes Viertel. In speech, keep it short – one or two words before the noun. At a viewing, combine questions with Mich würde noch interessieren, ob … – it sounds polite and makes the landlord give details."
       },
       "phrases": [
-        { "t": "Die ständig steigenden Mieten sind in Großstädten ein riesiges Problem.", "n": "Constantly rising rents are a huge problem in big cities." },
-        { "t": "Wir suchen eine Dreizimmerwohnung in einem gut angebundenen Viertel.", "n": "We're looking for a three-room flat in a well-connected neighbourhood." },
-        { "t": "Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind.", "n": "I'd also like to know whether the utility costs are already included." },
-        { "t": "Ist die Wohnung frisch renoviert?", "n": "Has the flat been freshly renovated?" },
-        { "t": "Ab wann wäre die Wohnung denn frei?", "n": "From when would the flat be available?" },
-        { "t": "Auf eine Wohnung kommen oft hundert Bewerber.", "n": "There are often a hundred applicants for one flat." },
-        { "t": "Ein Balkon wäre schön, ist aber kein Muss.", "n": "A balcony would be nice, but it's not a must." },
-        { "t": "Wir würden die Wohnung sehr gern nehmen.", "n": "We'd very much like to take the flat." }
+        {
+          "t": "Die ständig steigenden Mieten sind in Großstädten ein riesiges Problem.",
+          "n": "Constantly rising rents are a huge problem in big cities."
+        },
+        {
+          "t": "Wir suchen eine Dreizimmerwohnung in einem gut angebundenen Viertel.",
+          "n": "We're looking for a three-room flat in a well-connected neighbourhood."
+        },
+        {
+          "t": "Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind.",
+          "n": "I'd also like to know whether the utility costs are already included."
+        },
+        {
+          "t": "Ist die Wohnung frisch renoviert?",
+          "n": "Has the flat been freshly renovated?"
+        },
+        {
+          "t": "Ab wann wäre die Wohnung denn frei?",
+          "n": "From when would the flat be available?"
+        },
+        {
+          "t": "Auf eine Wohnung kommen oft hundert Bewerber.",
+          "n": "There are often a hundred applicants for one flat."
+        },
+        {
+          "t": "Ein Balkon wäre schön, ist aber kein Muss.",
+          "n": "A balcony would be nice, but it's not a must."
+        },
+        {
+          "t": "Wir würden die Wohnung sehr gern nehmen.",
+          "n": "We'd very much like to take the flat."
+        }
       ],
       "dialogue": {
         "title": "The flat viewing",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Vermieterin Frau Schulz", "t": "Herzlich willkommen. Das ist das Wohnzimmer, mit Blick auf den Park.", "n": "Welcome. This is the living room, with a view of the park." },
-          { "who": "you", "t": "Sehr schön hell! Ist die Wohnung frisch renoviert?", "n": "Lovely and bright! Has the flat been freshly renovated?" },
-          { "who": "A", "name": "Vermieterin Frau Schulz", "t": "Ja, Küche und Bad sind ganz neu. Die Kaltmiete beträgt neunhundert Euro.", "n": "Yes, the kitchen and bathroom are brand new. The basic rent is nine hundred euros." },
-          { "who": "you", "t": "Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind.", "n": "I'd also like to know whether the utility costs are already included." },
-          { "who": "A", "name": "Vermieterin Frau Schulz", "t": "Nein, dazu kommen noch etwa zweihundert Euro.", "n": "No, there's about two hundred euros on top." },
-          { "who": "you", "t": "Verstehe. Ab wann wäre die Wohnung denn frei?", "n": "I see. From when would the flat be available?" },
-          { "who": "A", "name": "Vermieterin Frau Schulz", "t": "Ab dem ersten November. Aber es gibt schon viele Interessenten.", "n": "From the first of November. But there are already a lot of interested people." },
-          { "who": "you", "t": "Wir würden die Wohnung sehr gern nehmen. Die Unterlagen habe ich dabei.", "n": "We'd very much like to take the flat. I've got the documents with me." }
+          {
+            "who": "A",
+            "name": "Vermieterin Frau Schulz",
+            "t": "Herzlich willkommen. Das ist das Wohnzimmer, mit Blick auf den Park.",
+            "n": "Welcome. This is the living room, with a view of the park."
+          },
+          {
+            "who": "you",
+            "t": "Sehr schön hell! Ist die Wohnung frisch renoviert?",
+            "n": "Lovely and bright! Has the flat been freshly renovated?"
+          },
+          {
+            "who": "A",
+            "name": "Vermieterin Frau Schulz",
+            "t": "Ja, Küche und Bad sind ganz neu. Die Kaltmiete beträgt neunhundert Euro.",
+            "n": "Yes, the kitchen and bathroom are brand new. The basic rent is nine hundred euros."
+          },
+          {
+            "who": "you",
+            "t": "Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind.",
+            "n": "I'd also like to know whether the utility costs are already included."
+          },
+          {
+            "who": "A",
+            "name": "Vermieterin Frau Schulz",
+            "t": "Nein, dazu kommen noch etwa zweihundert Euro.",
+            "n": "No, there's about two hundred euros on top."
+          },
+          {
+            "who": "you",
+            "t": "Verstehe. Ab wann wäre die Wohnung denn frei?",
+            "n": "I see. From when would the flat be available?"
+          },
+          {
+            "who": "A",
+            "name": "Vermieterin Frau Schulz",
+            "t": "Ab dem ersten November. Aber es gibt schon viele Interessenten.",
+            "n": "From the first of November. But there are already a lot of interested people."
+          },
+          {
+            "who": "you",
+            "t": "Wir würden die Wohnung sehr gern nehmen. Die Unterlagen habe ich dabei.",
+            "n": "We'd very much like to take the flat. I've got the documents with me."
+          }
         ]
       },
       "prompts": [
-        { "n": "Ask whether the utility costs are already included.", "t": ["Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind", "Sind die Nebenkosten schon enthalten"] },
-        { "n": "Ask from when the flat would be available.", "t": ["Ab wann wäre die Wohnung denn frei", "Ab wann wäre die Wohnung frei", "Ab wann ist die Wohnung frei"] },
-        { "n": "Say a balcony would be nice but isn't a must.", "t": ["Ein Balkon wäre schön, ist aber kein Muss"] },
-        { "n": "Say constantly rising rents are a huge problem in big cities.", "t": ["Die ständig steigenden Mieten sind in Großstädten ein riesiges Problem", "Die steigenden Mieten sind in Großstädten ein riesiges Problem"] }
+        {
+          "n": "Ask whether the utility costs are already included.",
+          "t": [
+            "Mich würde noch interessieren, ob die Nebenkosten schon enthalten sind",
+            "Sind die Nebenkosten schon enthalten"
+          ]
+        },
+        {
+          "n": "Ask from when the flat would be available.",
+          "t": [
+            "Ab wann wäre die Wohnung denn frei",
+            "Ab wann wäre die Wohnung frei",
+            "Ab wann ist die Wohnung frei"
+          ]
+        },
+        {
+          "n": "Say a balcony would be nice but isn't a must.",
+          "t": [
+            "Ein Balkon wäre schön, ist aber kein Muss"
+          ]
+        },
+        {
+          "n": "Say constantly rising rents are a huge problem in big cities.",
+          "t": [
+            "Die ständig steigenden Mieten sind in Großstädten ein riesiges Problem",
+            "Die steigenden Mieten sind in Großstädten ein riesiges Problem"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +136,673 @@
         "body": "Während contrasts two situations (verb at the end): Während man in der Stadt alles zu Fuß erreicht, braucht man auf dem Land ein Auto. Statt zu / anstatt zu offers alternatives: Statt zu pendeln, könnte ich im Homeoffice arbeiten. To sound natural, pick up your partner's words before you answer: Ruhig, ja – aber auch langweilig."
       },
       "phrases": [
-        { "t": "Während man in der Stadt alles zu Fuß erreicht, braucht man auf dem Land ein Auto.", "n": "Whereas in the city you can reach everything on foot, in the country you need a car." },
-        { "t": "Auf dem Land hätten die Kinder viel mehr Platz zum Spielen.", "n": "In the countryside, the children would have much more space to play." },
-        { "t": "Mir würde das kulturelle Angebot total fehlen.", "n": "I'd really miss the cultural scene." },
-        { "t": "Statt jeden Tag zu pendeln, könnte ich öfter im Homeoffice arbeiten.", "n": "Instead of commuting every day, I could work from home more often." },
-        { "t": "Ruhig, ja – aber auf Dauer wäre mir das zu langweilig.", "n": "Quiet, yes – but in the long run it would be too boring for me." },
-        { "t": "Das Gemeinschaftsgefühl im Dorf ist nicht zu unterschätzen.", "n": "The sense of community in a village shouldn't be underestimated." },
-        { "t": "Wenn ich ehrlich bin, reizt mich die Idee schon.", "n": "If I'm honest, the idea does appeal to me." },
-        { "t": "Vielleicht wäre ein Vorort ein guter Mittelweg.", "n": "Maybe a suburb would be a good middle ground." }
+        {
+          "t": "Während man in der Stadt alles zu Fuß erreicht, braucht man auf dem Land ein Auto.",
+          "n": "Whereas in the city you can reach everything on foot, in the country you need a car."
+        },
+        {
+          "t": "Auf dem Land hätten die Kinder viel mehr Platz zum Spielen.",
+          "n": "In the countryside, the children would have much more space to play."
+        },
+        {
+          "t": "Mir würde das kulturelle Angebot total fehlen.",
+          "n": "I'd really miss the cultural scene."
+        },
+        {
+          "t": "Statt jeden Tag zu pendeln, könnte ich öfter im Homeoffice arbeiten.",
+          "n": "Instead of commuting every day, I could work from home more often."
+        },
+        {
+          "t": "Ruhig, ja – aber auf Dauer wäre mir das zu langweilig.",
+          "n": "Quiet, yes – but in the long run it would be too boring for me."
+        },
+        {
+          "t": "Das Gemeinschaftsgefühl im Dorf ist nicht zu unterschätzen.",
+          "n": "The sense of community in a village shouldn't be underestimated."
+        },
+        {
+          "t": "Wenn ich ehrlich bin, reizt mich die Idee schon.",
+          "n": "If I'm honest, the idea does appeal to me."
+        },
+        {
+          "t": "Vielleicht wäre ein Vorort ein guter Mittelweg.",
+          "n": "Maybe a suburb would be a good middle ground."
+        }
       ],
       "dialogue": {
         "title": "Should we move out of the city?",
         "voice": "de-DE-ConradNeural",
         "lines": [
-          { "who": "A", "name": "Stefan", "t": "Was hältst du davon, wenn wir aufs Land ziehen? Die Mieten hier sind ja Wahnsinn.", "n": "What do you think about us moving to the countryside? The rents here are insane." },
-          { "who": "you", "t": "Wenn ich ehrlich bin, reizt mich die Idee schon. Auf dem Land hätten die Kinder viel mehr Platz zum Spielen.", "n": "If I'm honest, the idea does appeal to me. In the countryside, the children would have much more space to play." },
-          { "who": "A", "name": "Stefan", "t": "Eben! Und es ist so schön ruhig.", "n": "Exactly! And it's so nice and quiet." },
-          { "who": "you", "t": "Ruhig, ja – aber auf Dauer wäre mir das zu langweilig. Mir würde das kulturelle Angebot total fehlen.", "n": "Quiet, yes – but in the long run it would be too boring for me. I'd really miss the cultural scene." },
-          { "who": "A", "name": "Stefan", "t": "Und die Arbeit? Du müsstest jeden Tag eine Stunde fahren.", "n": "And work? You'd have to drive an hour every day." },
-          { "who": "you", "t": "Statt jeden Tag zu pendeln, könnte ich öfter im Homeoffice arbeiten.", "n": "Instead of commuting every day, I could work from home more often." },
-          { "who": "A", "name": "Stefan", "t": "Hm. Also, was schlägst du vor?", "n": "Hmm. So what do you suggest?" },
-          { "who": "you", "t": "Vielleicht wäre ein Vorort ein guter Mittelweg.", "n": "Maybe a suburb would be a good middle ground." }
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Was hältst du davon, wenn wir aufs Land ziehen? Die Mieten hier sind ja Wahnsinn.",
+            "n": "What do you think about us moving to the countryside? The rents here are insane."
+          },
+          {
+            "who": "you",
+            "t": "Wenn ich ehrlich bin, reizt mich die Idee schon. Auf dem Land hätten die Kinder viel mehr Platz zum Spielen.",
+            "n": "If I'm honest, the idea does appeal to me. In the countryside, the children would have much more space to play."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Eben! Und es ist so schön ruhig.",
+            "n": "Exactly! And it's so nice and quiet."
+          },
+          {
+            "who": "you",
+            "t": "Ruhig, ja – aber auf Dauer wäre mir das zu langweilig. Mir würde das kulturelle Angebot total fehlen.",
+            "n": "Quiet, yes – but in the long run it would be too boring for me. I'd really miss the cultural scene."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Und die Arbeit? Du müsstest jeden Tag eine Stunde fahren.",
+            "n": "And work? You'd have to drive an hour every day."
+          },
+          {
+            "who": "you",
+            "t": "Statt jeden Tag zu pendeln, könnte ich öfter im Homeoffice arbeiten.",
+            "n": "Instead of commuting every day, I could work from home more often."
+          },
+          {
+            "who": "A",
+            "name": "Stefan",
+            "t": "Hm. Also, was schlägst du vor?",
+            "n": "Hmm. So what do you suggest?"
+          },
+          {
+            "who": "you",
+            "t": "Vielleicht wäre ein Vorort ein guter Mittelweg.",
+            "n": "Maybe a suburb would be a good middle ground."
+          }
         ]
       },
       "prompts": [
-        { "n": "Contrast: in the city you reach everything on foot, in the country you need a car.", "t": ["Während man in der Stadt alles zu Fuß erreicht, braucht man auf dem Land ein Auto"] },
-        { "n": "Say you'd really miss the cultural scene.", "t": ["Mir würde das kulturelle Angebot total fehlen", "Mir würde das kulturelle Angebot fehlen"] },
-        { "n": "Suggest a suburb as a good middle ground.", "t": ["Vielleicht wäre ein Vorort ein guter Mittelweg", "Ein Vorort wäre ein guter Mittelweg"] },
-        { "n": "Say the sense of community in a village shouldn't be underestimated.", "t": ["Das Gemeinschaftsgefühl im Dorf ist nicht zu unterschätzen"] }
+        {
+          "n": "Contrast: in the city you reach everything on foot, in the country you need a car.",
+          "t": [
+            "Während man in der Stadt alles zu Fuß erreicht, braucht man auf dem Land ein Auto"
+          ]
+        },
+        {
+          "n": "Say you'd really miss the cultural scene.",
+          "t": [
+            "Mir würde das kulturelle Angebot total fehlen",
+            "Mir würde das kulturelle Angebot fehlen"
+          ]
+        },
+        {
+          "n": "Suggest a suburb as a good middle ground.",
+          "t": [
+            "Vielleicht wäre ein Vorort ein guter Mittelweg",
+            "Ein Vorort wäre ein guter Mittelweg"
+          ]
+        },
+        {
+          "n": "Say the sense of community in a village shouldn't be underestimated.",
+          "t": [
+            "Das Gemeinschaftsgefühl im Dorf ist nicht zu unterschätzen"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u07-l3",
+      "title": "Getting on with the neighbours",
+      "goal": "Handle house rules and small conflicts with neighbours.",
+      "phrases": [
+        {
+          "t": "Laut Hausordnung gilt ab 22 Uhr Nachtruhe.",
+          "n": "According to the house rules, quiet hours start at 10 pm."
+        },
+        {
+          "t": "Könnten Sie die Musik bitte etwas leiser machen?",
+          "n": "Could you turn the music down a bit, please?"
+        },
+        {
+          "t": "Im Treppenhaus dürfen keine Fahrräder stehen.",
+          "n": "Bikes aren't allowed in the stairwell."
+        },
+        {
+          "t": "Wenn Sie ein Paket für mich annehmen könnten, wäre das super.",
+          "n": "If you could accept a parcel for me, that would be great."
+        },
+        {
+          "t": "Das kommt nicht wieder vor.",
+          "n": "It won't happen again."
+        }
+      ],
+      "dialogue": {
+        "title": "A knock at the door",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Herr Krüger",
+            "t": "Entschuldigen Sie, gestern Abend war es bei Ihnen ziemlich laut.",
+            "n": "Excuse me, it was rather loud at your place last night."
+          },
+          {
+            "who": "you",
+            "t": "Oh, das tut mir leid. Wir hatten Besuch.",
+            "n": "Oh, I'm sorry. We had guests."
+          },
+          {
+            "who": "A",
+            "name": "Herr Krüger",
+            "t": "Laut Hausordnung gilt ab 22 Uhr Nachtruhe.",
+            "n": "According to the house rules, quiet hours start at 10 pm."
+          },
+          {
+            "who": "you",
+            "t": "Sie haben recht. Das kommt nicht wieder vor.",
+            "n": "You're right. It won't happen again."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Politely ask a neighbour to turn the music down a bit.",
+          "t": [
+            "Könnten Sie die Musik bitte etwas leiser machen",
+            "Könnten Sie die Musik bitte leiser machen"
+          ]
+        },
+        {
+          "n": "Promise it won't happen again.",
+          "t": [
+            "Das kommt nicht wieder vor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l4",
+      "kind": "grammar",
+      "title": "Packing information before the noun",
+      "goal": "Use extended participle attributes to describe places.",
+      "tip": {
+        "title": "Erweiterte Partizipialattribute",
+        "body": "A whole relative clause can be packed in front of a noun: die Wohnung, die vor kurzem renoviert wurde → die vor kurzem renovierte Wohnung. Partizip I (-end) is active and ongoing (die steigenden Preise), Partizip II is passive or completed (das renovierte Haus). Extra details go between the article and the participle, and the participle takes normal adjective endings."
+      },
+      "phrases": [
+        {
+          "t": "Die vor kurzem renovierte Wohnung liegt im dritten Stock.",
+          "n": "The recently renovated flat is on the third floor."
+        },
+        {
+          "t": "Das am Stadtrand gelegene Haus hat einen großen Garten.",
+          "n": "The house on the edge of town has a big garden."
+        },
+        {
+          "t": "Die immer weiter steigenden Preise machen vielen Familien Sorgen.",
+          "n": "The ever-rising prices worry many families."
+        },
+        {
+          "t": "Wir haben uns für das ruhig gelegene Dorf entschieden.",
+          "n": "We decided on the quietly located village."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the noun",
+          "base": {
+            "t": "Die renovierte Wohnung ist teuer.",
+            "n": "The renovated flat is expensive."
+          },
+          "items": [
+            {
+              "cue": "das Haus",
+              "t": "Das renovierte Haus ist teuer.",
+              "n": "The renovated house is expensive."
+            },
+            {
+              "cue": "die Häuser",
+              "t": "Die renovierten Häuser sind teuer.",
+              "n": "The renovated houses are expensive."
+            },
+            {
+              "cue": "vor kurzem",
+              "t": "Die vor kurzem renovierte Wohnung ist teuer.",
+              "n": "The recently renovated flat is expensive."
+            }
+          ]
+        },
+        {
+          "title": "Swap the participle",
+          "base": {
+            "t": "Wir suchen eine ruhig gelegene Wohnung.",
+            "n": "We're looking for a quietly located flat."
+          },
+          "items": [
+            {
+              "cue": "gut angebunden",
+              "t": "Wir suchen eine gut angebundene Wohnung.",
+              "n": "We're looking for a well-connected flat."
+            },
+            {
+              "cue": "möbliert",
+              "t": "Wir suchen eine möblierte Wohnung.",
+              "n": "We're looking for a furnished flat."
+            },
+            {
+              "cue": "ein Haus · ruhig gelegen",
+              "t": "Wir suchen ein ruhig gelegenes Haus.",
+              "n": "We're looking for a quietly located house."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the house on the edge of town has a big garden.",
+          "t": [
+            "Das am Stadtrand gelegene Haus hat einen großen Garten"
+          ]
+        },
+        {
+          "n": "Say you're looking for a quietly located flat.",
+          "t": [
+            "Wir suchen eine ruhig gelegene Wohnung",
+            "Ich suche eine ruhig gelegene Wohnung"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l5",
+      "kind": "listening",
+      "title": "From Zurich to the village",
+      "goal": "Follow a Swiss conversation about moving to the countryside.",
+      "phrases": [
+        {
+          "t": "Bereust du es?",
+          "n": "Do you regret it?"
+        },
+        {
+          "t": "Überhaupt nicht.",
+          "n": "Not at all."
+        },
+        {
+          "t": "Wir zahlen nur die Hälfte der Miete.",
+          "n": "We only pay half the rent."
+        },
+        {
+          "t": "Die Nachbarn sind unglaublich hilfsbereit.",
+          "n": "The neighbours are incredibly helpful."
+        }
+      ],
+      "story": {
+        "title": "Lena's farmhouse",
+        "intro": "Jan asks his friend Lena how life has been since she moved from Zurich to a village.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Lena, ihr seid letztes Jahr von Zürich aufs Land gezogen. Bereust du es?",
+            "n": "Lena, you moved from Zurich to the countryside last year. Do you regret it?"
+          },
+          {
+            "name": "Lena",
+            "voice": "de-CH-LeniNeural",
+            "t": "Überhaupt nicht. Wir haben jetzt ein altes Bauernhaus mit großem Garten und zahlen nur die Hälfte der Miete.",
+            "n": "Not at all. We now have an old farmhouse with a big garden and only pay half the rent."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Und wie kommst du zur Arbeit?",
+            "n": "And how do you get to work?"
+          },
+          {
+            "name": "Lena",
+            "voice": "de-CH-LeniNeural",
+            "t": "Drei Tage arbeite ich im Homeoffice. An den anderen Tagen fahre ich eine Stunde mit dem Zug.",
+            "n": "I work from home three days a week. On the other days I take the train for an hour."
+          },
+          {
+            "name": "Jan",
+            "voice": "de-CH-JanNeural",
+            "t": "Fehlt dir die Stadt denn gar nicht?",
+            "n": "Don't you miss the city at all?"
+          },
+          {
+            "name": "Lena",
+            "voice": "de-CH-LeniNeural",
+            "t": "Manchmal schon, vor allem die Kinos und Restaurants. Aber die Nachbarn sind unglaublich hilfsbereit.",
+            "n": "Sometimes, yes, especially the cinemas and restaurants. But the neighbours are incredibly helpful."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wo wohnt Lena jetzt?",
+            "n": "Where does Lena live now?",
+            "t": [
+              "In einem alten Bauernhaus",
+              "Auf dem Land",
+              "In einem Bauernhaus"
+            ]
+          },
+          {
+            "q": "Wie viele Tage arbeitet sie im Homeoffice?",
+            "n": "How many days does she work from home?",
+            "t": [
+              "Drei Tage",
+              "Drei"
+            ]
+          },
+          {
+            "q": "Was fehlt ihr manchmal?",
+            "n": "What does she sometimes miss?",
+            "t": [
+              "Die Kinos und Restaurants",
+              "Kinos und Restaurants",
+              "Die Stadt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u07-l6",
+      "kind": "roleplay",
+      "title": "At the car repair shop",
+      "goal": "Explain a car problem, ask about costs and negotiate the price.",
+      "phrases": [
+        {
+          "t": "Seit gestern macht der Motor komische Geräusche.",
+          "n": "The engine has been making strange noises since yesterday."
+        },
+        {
+          "t": "Mit welchen Kosten muss ich rechnen?",
+          "n": "What costs should I expect?"
+        },
+        {
+          "t": "Könnten Sie mir vorher einen Kostenvoranschlag machen?",
+          "n": "Could you give me a cost estimate beforehand?"
+        },
+        {
+          "t": "Bis wann wäre das Auto fertig?",
+          "n": "When would the car be ready?"
+        }
+      ],
+      "branch": {
+        "title": "In the garage",
+        "scene": "You live in the countryside and depend on your car. It's making strange noises, so you take it to the local garage.",
+        "name": "Mechaniker",
+        "voice": "de-DE-ConradNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Morgen! Was fehlt Ihrem Wagen denn?",
+            "n": "Morning! So what's wrong with your car?",
+            "choices": [
+              {
+                "t": "Seit gestern macht der Motor komische Geräusche.",
+                "n": "The engine has been making strange noises since yesterday.",
+                "next": "look"
+              },
+              {
+                "t": "Keine Ahnung. Machen Sie einfach alles, was nötig ist.",
+                "n": "No idea. Just do whatever's necessary.",
+                "next": "blank"
+              }
+            ]
+          },
+          "blank": {
+            "t": "Alles? Das kann teuer werden. Wollen Sie wirklich keinen Kostenvoranschlag?",
+            "n": "Everything? That could get expensive. Do you really not want a cost estimate?",
+            "choices": [
+              {
+                "t": "Doch, bitte machen Sie mir vorher einen Kostenvoranschlag.",
+                "n": "Yes, please give me a cost estimate beforehand.",
+                "next": "quote"
+              },
+              {
+                "t": "Egal, Hauptsache schnell.",
+                "n": "Whatever, as long as it's quick.",
+                "next": "bad"
+              }
+            ]
+          },
+          "look": {
+            "t": "Hm, das klingt nach der Kupplung. Das müsste ich mir genauer anschauen.",
+            "n": "Hmm, that sounds like the clutch. I'd have to take a closer look.",
+            "choices": [
+              {
+                "t": "Mit welchen Kosten muss ich rechnen?",
+                "n": "What costs should I expect?",
+                "next": "quote"
+              },
+              {
+                "t": "Wie bitte? Was ist mit der Kupplung?",
+                "n": "Pardon? What about the clutch?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Die Kupplung ist wahrscheinlich verschlissen, also abgenutzt. Das passiert nach vielen Kilometern.",
+            "n": "The clutch is probably worn out. That happens after a lot of kilometres.",
+            "choices": [
+              {
+                "t": "Verstehe. Mit welchen Kosten muss ich rechnen?",
+                "n": "I see. What costs should I expect?",
+                "next": "quote"
+              }
+            ]
+          },
+          "quote": {
+            "t": "Ungefähr achthundert Euro, inklusive Material und Arbeit.",
+            "n": "About eight hundred euros, including parts and labour.",
+            "choices": [
+              {
+                "t": "Das ist ziemlich viel. Wäre ein Austauschteil günstiger?",
+                "n": "That's quite a lot. Would a reconditioned part be cheaper?",
+                "next": "deal"
+              },
+              {
+                "t": "In Ordnung. Bis wann wäre das Auto fertig?",
+                "n": "All right. When would the car be ready?",
+                "next": "ok"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Mit einem Austauschteil käme ich auf sechshundert Euro. Fertig wäre es bis Donnerstag.",
+            "n": "With a reconditioned part it would come to six hundred euros. It would be ready by Thursday.",
+            "end": "good",
+            "outcome": "You negotiated the price down to €600 with a reconditioned part."
+          },
+          "ok": {
+            "t": "Bis Donnerstagnachmittag. Ich rufe Sie an, sobald er fertig ist.",
+            "n": "By Thursday afternoon. I'll call you as soon as it's ready.",
+            "end": "good",
+            "outcome": "Repair booked for €800, ready on Thursday."
+          },
+          "bad": {
+            "t": "Ohne klaren Auftrag fange ich nicht an. Überlegen Sie es sich noch mal.",
+            "n": "I won't start without a clear order. Think it over again.",
+            "end": "bad",
+            "outcome": "Without describing the problem or agreeing a price, nothing got done."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask what costs you should expect.",
+          "t": [
+            "Mit welchen Kosten muss ich rechnen"
+          ]
+        },
+        {
+          "n": "Ask for a cost estimate beforehand.",
+          "t": [
+            "Könnten Sie mir vorher einen Kostenvoranschlag machen",
+            "Können Sie mir einen Kostenvoranschlag machen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l7",
+      "kind": "speaking",
+      "title": "Where would you like to live?",
+      "goal": "Describe your ideal home and compare city and country life.",
+      "culture": {
+        "title": "A nation of renters",
+        "body": "Renting is the norm in German-speaking countries: only around half of Germans own their home, and in Switzerland even fewer. Vienna is famous for its Gemeindebau — council and cooperative flats in which roughly half the city's population lives at moderate rents. In Zurich, housing cooperatives (Genossenschaften) offer affordable flats, but waiting lists can be years long.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Für mich käme nur eine Stadt mit guter Infrastruktur infrage.",
+          "n": "Only a town with good infrastructure would be an option for me."
+        },
+        {
+          "t": "Ein entscheidender Vorteil ist die Nähe zur Natur.",
+          "n": "A decisive advantage is being close to nature."
+        },
+        {
+          "t": "Auf lange Sicht würde ich gern ein eigenes Haus haben.",
+          "n": "In the long run I'd like to have my own house."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your ideal place to live — city, suburb or countryside — and give reasons.",
+          "hint": "Ich würde am liebsten … wohnen, weil …; Ein entscheidender Vorteil ist …; … wäre ideal.",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a type of place",
+              "any": [
+                "stadt",
+                "land",
+                "dorf",
+                "vorort",
+                "großstadt",
+                "kleinstadt",
+                "stadtrand"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "weil",
+                "da",
+                "denn",
+                "deshalb",
+                "darum",
+                "deswegen"
+              ]
+            },
+            {
+              "label": "your home",
+              "any": [
+                "wohnung",
+                "haus",
+                "garten",
+                "balkon",
+                "miete*",
+                "zimmer"
+              ]
+            },
+            {
+              "label": "Konjunktiv II",
+              "any": [
+                "würde",
+                "wäre",
+                "hätte",
+                "könnte",
+                "möchte",
+                "käme"
+              ]
+            }
+          ],
+          "model": "Ich würde am liebsten in einem Vorort wohnen, weil man dort Ruhe hat und trotzdem schnell in der Stadt ist. Ein kleines Haus mit Garten wäre ideal. Ein entscheidender Vorteil ist für mich die Nähe zur Natur."
+        },
+        {
+          "n": "Compare life in the city and in the countryside, using während and statt … zu.",
+          "hint": "Während man in der Stadt …, …; Statt … zu …; Dafür braucht man …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a contrast",
+              "any": [
+                "während",
+                "im gegensatz",
+                "dagegen",
+                "wohingegen",
+                "jedoch",
+                "aber"
+              ]
+            },
+            {
+              "label": "city life",
+              "any": [
+                "stadt",
+                "großstadt",
+                "kultur*",
+                "kino*",
+                "restaurant*",
+                "verkehr"
+              ]
+            },
+            {
+              "label": "country life",
+              "any": [
+                "land",
+                "dorf",
+                "natur",
+                "ruhe",
+                "ruhig",
+                "garten"
+              ]
+            },
+            {
+              "label": "an alternative",
+              "any": [
+                "statt",
+                "anstatt",
+                "stattdessen",
+                "dafür"
+              ]
+            }
+          ],
+          "model": "Während man in der Stadt ein riesiges kulturelles Angebot hat, genießt man auf dem Land Ruhe und Natur. Statt in einer kleinen Wohnung zu leben, hätte man dort ein ganzes Haus. Dafür braucht man aber fast immer ein Auto."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say a decisive advantage is being close to nature.",
+          "t": [
+            "Ein entscheidender Vorteil ist die Nähe zur Natur"
+          ]
+        },
+        {
+          "n": "Say in the long run you'd like to have your own house.",
+          "t": [
+            "Auf lange Sicht würde ich gern ein eigenes Haus haben",
+            "Auf lange Sicht hätte ich gern ein eigenes Haus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Stadt oder Land?",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

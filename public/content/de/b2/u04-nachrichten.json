@@ -13,34 +13,118 @@
         "body": "In news, the action matters more than who did it: Das Gesetz wurde gestern beschlossen. Present: wird gebaut, past: wurde gebaut, perfect: ist gebaut worden. Name the actor with von if needed. In conversation, open with Hast du mitbekommen, dass …? – it's a natural way to bring up a news topic."
       },
       "phrases": [
-        { "t": "Hast du schon mitbekommen, dass die Mieten wieder erhöht werden?", "n": "Have you heard that rents are going up again?", "note": "mitbekommen = to catch, to hear about" },
-        { "t": "Das neue Gesetz wurde gestern im Bundestag beschlossen.", "n": "The new law was passed in the Bundestag yesterday." },
-        { "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.", "n": "According to a recent survey, most citizens are against it." },
-        { "t": "In unserer Stadt wird endlich eine neue Schule gebaut.", "n": "A new school is finally being built in our town." },
-        { "t": "Darüber wird gerade überall heftig diskutiert.", "n": "It's being hotly debated everywhere right now." },
-        { "t": "Das Thema wird in den Medien total aufgebauscht.", "n": "The topic is being totally blown out of proportion in the media." },
-        { "t": "Man sollte nicht alles glauben, was in den sozialen Medien steht.", "n": "You shouldn't believe everything you read on social media." },
-        { "t": "Mich würde interessieren, wie du das siehst.", "n": "I'd be interested to know how you see it." }
+        {
+          "t": "Hast du schon mitbekommen, dass die Mieten wieder erhöht werden?",
+          "n": "Have you heard that rents are going up again?",
+          "note": "mitbekommen = to catch, to hear about"
+        },
+        {
+          "t": "Das neue Gesetz wurde gestern im Bundestag beschlossen.",
+          "n": "The new law was passed in the Bundestag yesterday."
+        },
+        {
+          "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.",
+          "n": "According to a recent survey, most citizens are against it."
+        },
+        {
+          "t": "In unserer Stadt wird endlich eine neue Schule gebaut.",
+          "n": "A new school is finally being built in our town."
+        },
+        {
+          "t": "Darüber wird gerade überall heftig diskutiert.",
+          "n": "It's being hotly debated everywhere right now."
+        },
+        {
+          "t": "Das Thema wird in den Medien total aufgebauscht.",
+          "n": "The topic is being totally blown out of proportion in the media."
+        },
+        {
+          "t": "Man sollte nicht alles glauben, was in den sozialen Medien steht.",
+          "n": "You shouldn't believe everything you read on social media."
+        },
+        {
+          "t": "Mich würde interessieren, wie du das siehst.",
+          "n": "I'd be interested to know how you see it."
+        }
       ],
       "dialogue": {
         "title": "Over lunch",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Sabine", "t": "Hast du heute schon Nachrichten gehört?", "n": "Have you listened to the news today?" },
-          { "who": "you", "t": "Ja. Das neue Gesetz wurde gestern im Bundestag beschlossen.", "n": "Yes. The new law was passed in the Bundestag yesterday." },
-          { "who": "A", "name": "Sabine", "t": "Ach, das mit dem Tempolimit? Endlich!", "n": "Oh, the speed limit thing? Finally!" },
-          { "who": "you", "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.", "n": "According to a recent survey, most citizens are against it." },
-          { "who": "A", "name": "Sabine", "t": "Wirklich? In meinem Umfeld sind alle dafür.", "n": "Really? Everyone around me is in favour." },
-          { "who": "you", "t": "Darüber wird gerade überall heftig diskutiert. Mich würde interessieren, wie du das siehst.", "n": "It's being hotly debated everywhere right now. I'd be interested to know how you see it." },
-          { "who": "A", "name": "Sabine", "t": "Ich finde, es rettet Leben. Aber im Netz gibt es so viel Panikmache.", "n": "I think it saves lives. But there's so much scaremongering online." },
-          { "who": "you", "t": "Stimmt. Man sollte nicht alles glauben, was in den sozialen Medien steht.", "n": "True. You shouldn't believe everything you read on social media." }
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Hast du heute schon Nachrichten gehört?",
+            "n": "Have you listened to the news today?"
+          },
+          {
+            "who": "you",
+            "t": "Ja. Das neue Gesetz wurde gestern im Bundestag beschlossen.",
+            "n": "Yes. The new law was passed in the Bundestag yesterday."
+          },
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Ach, das mit dem Tempolimit? Endlich!",
+            "n": "Oh, the speed limit thing? Finally!"
+          },
+          {
+            "who": "you",
+            "t": "Laut einer aktuellen Umfrage sind die meisten Bürger dagegen.",
+            "n": "According to a recent survey, most citizens are against it."
+          },
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Wirklich? In meinem Umfeld sind alle dafür.",
+            "n": "Really? Everyone around me is in favour."
+          },
+          {
+            "who": "you",
+            "t": "Darüber wird gerade überall heftig diskutiert. Mich würde interessieren, wie du das siehst.",
+            "n": "It's being hotly debated everywhere right now. I'd be interested to know how you see it."
+          },
+          {
+            "who": "A",
+            "name": "Sabine",
+            "t": "Ich finde, es rettet Leben. Aber im Netz gibt es so viel Panikmache.",
+            "n": "I think it saves lives. But there's so much scaremongering online."
+          },
+          {
+            "who": "you",
+            "t": "Stimmt. Man sollte nicht alles glauben, was in den sozialen Medien steht.",
+            "n": "True. You shouldn't believe everything you read on social media."
+          }
         ]
       },
       "prompts": [
-        { "n": "Say a new school is finally being built in your town.", "t": ["In unserer Stadt wird endlich eine neue Schule gebaut"] },
-        { "n": "Say the new law was passed yesterday.", "t": ["Das neue Gesetz wurde gestern beschlossen", "Das neue Gesetz wurde gestern im Bundestag beschlossen"] },
-        { "n": "Ask for someone's view: say you'd be interested to know how they see it.", "t": ["Mich würde interessieren, wie du das siehst", "Mich würde interessieren, wie Sie das sehen"] },
-        { "n": "Say the topic is being blown out of proportion in the media.", "t": ["Das Thema wird in den Medien total aufgebauscht", "Das Thema wird in den Medien aufgebauscht"] }
+        {
+          "n": "Say a new school is finally being built in your town.",
+          "t": [
+            "In unserer Stadt wird endlich eine neue Schule gebaut"
+          ]
+        },
+        {
+          "n": "Say the new law was passed yesterday.",
+          "t": [
+            "Das neue Gesetz wurde gestern beschlossen",
+            "Das neue Gesetz wurde gestern im Bundestag beschlossen"
+          ]
+        },
+        {
+          "n": "Ask for someone's view: say you'd be interested to know how they see it.",
+          "t": [
+            "Mich würde interessieren, wie du das siehst",
+            "Mich würde interessieren, wie Sie das sehen"
+          ]
+        },
+        {
+          "n": "Say the topic is being blown out of proportion in the media.",
+          "t": [
+            "Das Thema wird in den Medien total aufgebauscht",
+            "Das Thema wird in den Medien aufgebauscht"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +136,676 @@
         "body": "To report without taking sides, use Konjunktiv I: Sie sagt, sie sei dafür. Er meint, das Projekt habe Vorteile. In everyday speech it's mostly sei and habe; otherwise people often use Konjunktiv II or just dass + indicative. Phrases like angeblich or Es heißt, … also signal distance – say them with a slightly sceptical tone."
       },
       "phrases": [
-        { "t": "Die Ministerin sagte, die Lage sei unter Kontrolle.", "n": "The minister said the situation was under control." },
-        { "t": "Er behauptet, er habe davon nichts gewusst.", "n": "He claims he knew nothing about it." },
-        { "t": "Angeblich sollen die Steuern im nächsten Jahr sinken.", "n": "Supposedly, taxes are set to fall next year.", "note": "sollen here = reportedly" },
-        { "t": "Es heißt, die Verhandlungen seien gescheitert.", "n": "It's said the negotiations have failed." },
-        { "t": "Experten zufolge wird sich die Situation bald verbessern.", "n": "According to experts, the situation will soon improve.", "note": "zufolge follows the noun" },
-        { "t": "Ob das wirklich stimmt, bleibt abzuwarten.", "n": "Whether that's really true remains to be seen." },
-        { "t": "Ich gebe nur wieder, was in der Zeitung stand.", "n": "I'm only repeating what was in the paper." },
-        { "t": "Da bin ich ehrlich gesagt etwas skeptisch.", "n": "To be honest, I'm a bit sceptical about that." }
+        {
+          "t": "Die Ministerin sagte, die Lage sei unter Kontrolle.",
+          "n": "The minister said the situation was under control."
+        },
+        {
+          "t": "Er behauptet, er habe davon nichts gewusst.",
+          "n": "He claims he knew nothing about it."
+        },
+        {
+          "t": "Angeblich sollen die Steuern im nächsten Jahr sinken.",
+          "n": "Supposedly, taxes are set to fall next year.",
+          "note": "sollen here = reportedly"
+        },
+        {
+          "t": "Es heißt, die Verhandlungen seien gescheitert.",
+          "n": "It's said the negotiations have failed."
+        },
+        {
+          "t": "Experten zufolge wird sich die Situation bald verbessern.",
+          "n": "According to experts, the situation will soon improve.",
+          "note": "zufolge follows the noun"
+        },
+        {
+          "t": "Ob das wirklich stimmt, bleibt abzuwarten.",
+          "n": "Whether that's really true remains to be seen."
+        },
+        {
+          "t": "Ich gebe nur wieder, was in der Zeitung stand.",
+          "n": "I'm only repeating what was in the paper."
+        },
+        {
+          "t": "Da bin ich ehrlich gesagt etwas skeptisch.",
+          "n": "To be honest, I'm a bit sceptical about that."
+        }
       ],
       "dialogue": {
         "title": "Discussing a political scandal",
         "voice": "de-DE-ConradNeural",
         "lines": [
-          { "who": "A", "name": "Thomas", "t": "Hast du gelesen? Der Bürgermeister soll Gelder veruntreut haben.", "n": "Have you read it? The mayor is supposed to have embezzled funds." },
-          { "who": "you", "t": "Ja, aber er behauptet, er habe davon nichts gewusst.", "n": "Yes, but he claims he knew nothing about it." },
-          { "who": "A", "name": "Thomas", "t": "Das glaubt ihm doch keiner! Was sagt denn die Partei dazu?", "n": "Nobody believes that! What does his party say?" },
-          { "who": "you", "t": "Die Parteichefin sagte, die Lage sei unter Kontrolle. Ich gebe nur wieder, was in der Zeitung stand.", "n": "The party leader said the situation was under control. I'm only repeating what was in the paper." },
-          { "who": "A", "name": "Thomas", "t": "Und tritt er jetzt zurück?", "n": "And is he resigning now?" },
-          { "who": "you", "t": "Es heißt, er wolle im Amt bleiben. Ob das wirklich stimmt, bleibt abzuwarten.", "n": "It's said he wants to stay in office. Whether that's really true remains to be seen." },
-          { "who": "A", "name": "Thomas", "t": "Ich wette, nächste Woche ist er weg.", "n": "I bet he'll be gone next week." },
-          { "who": "you", "t": "Da bin ich ehrlich gesagt etwas skeptisch.", "n": "To be honest, I'm a bit sceptical about that." }
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Hast du gelesen? Der Bürgermeister soll Gelder veruntreut haben.",
+            "n": "Have you read it? The mayor is supposed to have embezzled funds."
+          },
+          {
+            "who": "you",
+            "t": "Ja, aber er behauptet, er habe davon nichts gewusst.",
+            "n": "Yes, but he claims he knew nothing about it."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Das glaubt ihm doch keiner! Was sagt denn die Partei dazu?",
+            "n": "Nobody believes that! What does his party say?"
+          },
+          {
+            "who": "you",
+            "t": "Die Parteichefin sagte, die Lage sei unter Kontrolle. Ich gebe nur wieder, was in der Zeitung stand.",
+            "n": "The party leader said the situation was under control. I'm only repeating what was in the paper."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Und tritt er jetzt zurück?",
+            "n": "And is he resigning now?"
+          },
+          {
+            "who": "you",
+            "t": "Es heißt, er wolle im Amt bleiben. Ob das wirklich stimmt, bleibt abzuwarten.",
+            "n": "It's said he wants to stay in office. Whether that's really true remains to be seen."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Ich wette, nächste Woche ist er weg.",
+            "n": "I bet he'll be gone next week."
+          },
+          {
+            "who": "you",
+            "t": "Da bin ich ehrlich gesagt etwas skeptisch.",
+            "n": "To be honest, I'm a bit sceptical about that."
+          }
         ]
       },
       "prompts": [
-        { "n": "Report neutrally: the minister said the situation was under control.", "t": ["Die Ministerin sagte, die Lage sei unter Kontrolle", "Der Minister sagte, die Lage sei unter Kontrolle"] },
-        { "n": "Say it's said the negotiations have failed.", "t": ["Es heißt, die Verhandlungen seien gescheitert"] },
-        { "n": "Say whether that's really true remains to be seen.", "t": ["Ob das wirklich stimmt, bleibt abzuwarten", "Ob das stimmt, bleibt abzuwarten"] },
-        { "n": "Say you're only repeating what was in the paper.", "t": ["Ich gebe nur wieder, was in der Zeitung stand"] }
+        {
+          "n": "Report neutrally: the minister said the situation was under control.",
+          "t": [
+            "Die Ministerin sagte, die Lage sei unter Kontrolle",
+            "Der Minister sagte, die Lage sei unter Kontrolle"
+          ]
+        },
+        {
+          "n": "Say it's said the negotiations have failed.",
+          "t": [
+            "Es heißt, die Verhandlungen seien gescheitert"
+          ]
+        },
+        {
+          "n": "Say whether that's really true remains to be seen.",
+          "t": [
+            "Ob das wirklich stimmt, bleibt abzuwarten",
+            "Ob das stimmt, bleibt abzuwarten"
+          ]
+        },
+        {
+          "n": "Say you're only repeating what was in the paper.",
+          "t": [
+            "Ich gebe nur wieder, was in der Zeitung stand"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u04-l3",
+      "title": "How do you get your news?",
+      "goal": "Talk about your media habits and judge sources critically.",
+      "tip": {
+        "title": "Asking about the source",
+        "body": "To sound critical rather than gullible, ask about the source: Woher stammt diese Information? Describe your habits with Ich informiere mich hauptsächlich über … and rate a source as seriös or unseriös. Reißerisch describes a sensationalist headline."
+      },
+      "phrases": [
+        {
+          "t": "Ich informiere mich hauptsächlich über Podcasts und Apps.",
+          "n": "I mainly get my news from podcasts and apps."
+        },
+        {
+          "t": "Die Schlagzeile ist ziemlich reißerisch.",
+          "n": "The headline is pretty sensationalist."
+        },
+        {
+          "t": "Woher stammt diese Information eigentlich?",
+          "n": "Where does this information actually come from?"
+        },
+        {
+          "t": "Die Quelle wirkt nicht besonders seriös.",
+          "n": "The source doesn't seem very reputable."
+        },
+        {
+          "t": "Ich lese meistens nur die Überschriften.",
+          "n": "I mostly only read the headlines."
+        }
+      ],
+      "dialogue": {
+        "title": "A forwarded message",
+        "voice": "de-DE-KatjaNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Hast du das gesehen? Ab nächstem Jahr soll das Bargeld abgeschafft werden!",
+            "n": "Have you seen this? Cash is supposedly being abolished from next year!"
+          },
+          {
+            "who": "you",
+            "t": "Die Schlagzeile ist ziemlich reißerisch. Woher stammt diese Information eigentlich?",
+            "n": "The headline is pretty sensationalist. Where does this information actually come from?"
+          },
+          {
+            "who": "A",
+            "name": "Nina",
+            "t": "Das hat mir jemand weitergeleitet. Von irgendeiner Website.",
+            "n": "Someone forwarded it to me. From some website."
+          },
+          {
+            "who": "you",
+            "t": "Die Quelle wirkt nicht besonders seriös. Ich würde das erst mal überprüfen.",
+            "n": "The source doesn't seem very reputable. I'd check that first."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you mainly get your news from podcasts and apps.",
+          "t": [
+            "Ich informiere mich hauptsächlich über Podcasts und Apps"
+          ]
+        },
+        {
+          "n": "Ask where this information actually comes from.",
+          "t": [
+            "Woher stammt diese Information eigentlich",
+            "Woher stammt diese Information"
+          ]
+        },
+        {
+          "n": "Say the source doesn't seem very reputable.",
+          "t": [
+            "Die Quelle wirkt nicht besonders seriös",
+            "Die Quelle wirkt nicht seriös"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l4",
+      "kind": "grammar",
+      "title": "Nominal style in the news",
+      "goal": "Turn verbs into nouns like a news headline: erhöhen → die Erhöhung.",
+      "tip": {
+        "title": "Verbs become nouns",
+        "body": "News language packs information into nouns: Die Steuern werden erhöht becomes die Erhöhung der Steuern. Many verbs form feminine nouns with -ung, and the object follows in the genitive. Prepositions like nach, wegen and trotz then link the noun to the sentence: Wegen des Streiks fallen viele Züge aus."
+      },
+      "phrases": [
+        {
+          "t": "Die Regierung plant eine Erhöhung der Steuern.",
+          "n": "The government is planning a tax increase."
+        },
+        {
+          "t": "Nach der Wahl wurde eine neue Koalition gebildet.",
+          "n": "After the election a new coalition was formed."
+        },
+        {
+          "t": "Wegen des Streiks fallen heute viele Züge aus.",
+          "n": "Because of the strike, many trains are cancelled today."
+        },
+        {
+          "t": "Trotz der Kritik hält die Ministerin an ihrem Plan fest.",
+          "n": "Despite the criticism, the minister is sticking to her plan."
+        },
+        {
+          "t": "Die Eröffnung des neuen Bahnhofs wurde verschoben.",
+          "n": "The opening of the new station has been postponed."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap verb → noun",
+          "base": {
+            "t": "Die Steuern werden erhöht.",
+            "n": "Taxes are being raised."
+          },
+          "items": [
+            {
+              "cue": "Die Regierung plant … · Erhöhung",
+              "t": "Die Regierung plant eine Erhöhung der Steuern.",
+              "n": "The government is planning a tax increase."
+            },
+            {
+              "cue": "die Mieten · Senkung",
+              "t": "Die Regierung plant eine Senkung der Mieten.",
+              "n": "The government is planning a reduction in rents."
+            },
+            {
+              "cue": "das Gesetz · Änderung",
+              "t": "Die Regierung plant eine Änderung des Gesetzes.",
+              "n": "The government is planning a change to the law."
+            }
+          ]
+        },
+        {
+          "title": "Swap the cause",
+          "base": {
+            "t": "Wegen des Streiks fallen heute viele Züge aus.",
+            "n": "Because of the strike, many trains are cancelled today."
+          },
+          "items": [
+            {
+              "cue": "das Unwetter",
+              "t": "Wegen des Unwetters fallen heute viele Züge aus.",
+              "n": "Because of the storm, many trains are cancelled today."
+            },
+            {
+              "cue": "die Bauarbeiten",
+              "t": "Wegen der Bauarbeiten fallen heute viele Züge aus.",
+              "n": "Because of the construction work, many trains are cancelled today."
+            },
+            {
+              "cue": "trotz · fahren",
+              "t": "Trotz des Streiks fahren heute viele Züge.",
+              "n": "Despite the strike, many trains are running today."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that because of the strike many trains are cancelled today.",
+          "t": [
+            "Wegen des Streiks fallen heute viele Züge aus"
+          ]
+        },
+        {
+          "n": "Say the opening of the new station has been postponed.",
+          "t": [
+            "Die Eröffnung des neuen Bahnhofs wurde verschoben",
+            "Die Eröffnung des Bahnhofs wurde verschoben"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l5",
+      "kind": "listening",
+      "title": "The evening news",
+      "goal": "Understand a short radio news bulletin.",
+      "phrases": [
+        {
+          "t": "Die Vorlage wurde angenommen.",
+          "n": "The proposal was accepted."
+        },
+        {
+          "t": "Die Regierung zeigt sich zufrieden.",
+          "n": "The government is satisfied."
+        },
+        {
+          "t": "Kritiker befürchten eine Erhöhung der Preise.",
+          "n": "Critics fear a price increase."
+        },
+        {
+          "t": "Und nun zum Wetter.",
+          "n": "And now for the weather."
+        }
+      ],
+      "story": {
+        "title": "News from Swiss radio",
+        "intro": "A short evening news bulletin on Swiss radio, with a reporter in Bern.",
+        "voice": "de-CH-LeniNeural",
+        "lines": [
+          {
+            "name": "Sprecherin",
+            "t": "Guten Abend. Die Stimmberechtigten haben heute über den Ausbau der Bahn abgestimmt.",
+            "n": "Good evening. Voters cast their ballots today on expanding the railway."
+          },
+          {
+            "name": "Sprecherin",
+            "t": "Die Vorlage wurde mit achtundfünfzig Prozent angenommen.",
+            "n": "The proposal was accepted with fifty-eight percent."
+          },
+          {
+            "name": "Reporter",
+            "voice": "de-CH-JanNeural",
+            "t": "Hier in Bern zeigt sich die Regierung zufrieden. Der Verkehrsminister sagte, das sei ein wichtiges Signal für den Klimaschutz.",
+            "n": "Here in Bern the government is satisfied. The transport minister said this was an important signal for climate protection."
+          },
+          {
+            "name": "Reporter",
+            "voice": "de-CH-JanNeural",
+            "t": "Kritiker befürchten dagegen eine Erhöhung der Ticketpreise.",
+            "n": "Critics, on the other hand, fear a rise in ticket prices."
+          },
+          {
+            "name": "Sprecherin",
+            "t": "Und nun zum Wetter: Morgen wird es sonnig, im Tessin bis zu fünfundzwanzig Grad.",
+            "n": "And now for the weather: tomorrow will be sunny, up to twenty-five degrees in Ticino."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Worüber wurde abgestimmt?",
+            "n": "What was the vote about?",
+            "t": [
+              "Über den Ausbau der Bahn",
+              "Den Ausbau der Bahn",
+              "Die Bahn"
+            ]
+          },
+          {
+            "q": "Was befürchten die Kritiker?",
+            "n": "What do the critics fear?",
+            "t": [
+              "Eine Erhöhung der Ticketpreise",
+              "Höhere Ticketpreise",
+              "Dass die Tickets teurer werden"
+            ]
+          },
+          {
+            "q": "Wie wird das Wetter morgen?",
+            "n": "What will the weather be like tomorrow?",
+            "t": [
+              "Sonnig",
+              "Es wird sonnig"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u04-l6",
+      "kind": "roleplay",
+      "title": "A street interview",
+      "goal": "Give your opinion to a reporter — your choices shape the interview.",
+      "phrases": [
+        {
+          "t": "Davon habe ich in der Zeitung gelesen.",
+          "n": "I read about that in the paper."
+        },
+        {
+          "t": "Ehrlich gesagt bin ich darüber nicht gut informiert.",
+          "n": "To be honest, I'm not well informed about it."
+        },
+        {
+          "t": "Die Schließung würde vor allem Familien treffen.",
+          "n": "The closure would hit families above all."
+        },
+        {
+          "t": "Ich möchte nicht namentlich genannt werden.",
+          "n": "I'd rather not be named."
+        }
+      ],
+      "branch": {
+        "title": "Vox pop",
+        "scene": "A reporter from the local TV station stops you in the street to ask about the city's plan to close the library on Saturdays.",
+        "name": "Frau Lang (Reporterin)",
+        "voice": "de-DE-KatjaNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Entschuldigung, haben Sie kurz Zeit? Ich bin vom Stadtfernsehen. Was halten Sie von der Schließung der Bibliothek am Samstag?",
+            "n": "Excuse me, have you got a moment? I'm from the local TV station. What do you think of closing the library on Saturdays?",
+            "choices": [
+              {
+                "t": "Davon habe ich in der Zeitung gelesen. Ich halte das für einen Fehler.",
+                "n": "I read about that in the paper. I think it is a mistake.",
+                "next": "why"
+              },
+              {
+                "t": "Ehrlich gesagt bin ich darüber nicht gut informiert. Worum geht es genau?",
+                "n": "To be honest, I'm not well informed about it. What exactly is it about?",
+                "next": "info"
+              }
+            ]
+          },
+          "info": {
+            "t": "Die Stadt muss sparen. Deshalb soll die Bibliothek samstags geschlossen werden. Das spart rund fünfzigtausend Euro im Jahr.",
+            "n": "The city has to save money, so the library is to be closed on Saturdays. That saves around 50,000 euros a year.",
+            "choices": [
+              {
+                "t": "Verstehe. Aber gerade am Samstag haben Familien Zeit.",
+                "n": "I see. But Saturday is exactly when families have time.",
+                "next": "why"
+              },
+              {
+                "t": "Dann ist das wohl vernünftig. Sparen muss man ja.",
+                "n": "Then it is probably sensible. Savings have to be made.",
+                "next": "agree"
+              }
+            ]
+          },
+          "why": {
+            "t": "Warum genau? Die Stadt sagt, samstags kämen nur wenige Besucher.",
+            "n": "Why exactly? The city says only a few visitors come on Saturdays.",
+            "choices": [
+              {
+                "t": "Das stimmt nicht. Die Schließung würde vor allem Familien treffen.",
+                "n": "That's not true. The closure would hit families above all.",
+                "next": "name"
+              },
+              {
+                "t": "Na ja, keine Ahnung. Ist mir eigentlich egal.",
+                "n": "Well, no idea. I don't really care.",
+                "next": "bad"
+              }
+            ]
+          },
+          "agree": {
+            "t": "Interessant, Sie sind die erste Person, die das so sieht. Darf ich Ihren Namen nennen?",
+            "n": "Interesting, you're the first person who sees it that way. May I use your name?",
+            "choices": [
+              {
+                "t": "Ja, gern. Ich heiße Alex Becker.",
+                "n": "Yes, sure. My name is Alex Becker.",
+                "next": "aired"
+              },
+              {
+                "t": "Ich möchte nicht namentlich genannt werden.",
+                "n": "I'd rather not be named.",
+                "next": "anon"
+              }
+            ]
+          },
+          "name": {
+            "t": "Ein starkes Argument. Darf ich Ihren Namen im Beitrag nennen?",
+            "n": "A strong argument. May I mention your name in the report?",
+            "choices": [
+              {
+                "t": "Ja, gern. Ich heiße Alex Becker.",
+                "n": "Yes, sure. My name is Alex Becker.",
+                "next": "aired"
+              },
+              {
+                "t": "Ich möchte nicht namentlich genannt werden.",
+                "n": "I'd rather not be named.",
+                "next": "anon"
+              }
+            ]
+          },
+          "aired": {
+            "t": "Vielen Dank! Der Beitrag läuft heute Abend um sieben.",
+            "n": "Thank you very much! The report airs tonight at seven.",
+            "end": "good",
+            "outcome": "You gave a clear opinion on camera — you'll be on tonight's local news."
+          },
+          "anon": {
+            "t": "Kein Problem, dann bleiben Sie anonym. Vielen Dank für Ihre Meinung!",
+            "n": "No problem, you'll stay anonymous. Thanks for your opinion!",
+            "end": "good",
+            "outcome": "You shared your view and kept your name out of it."
+          },
+          "bad": {
+            "t": "Ah … okay. Dann frage ich mal jemand anderen.",
+            "n": "Ah … okay. Then I'll ask someone else.",
+            "end": "bad",
+            "outcome": "Without an opinion there's no interview — say what you think and why."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say that to be honest you're not well informed about it.",
+          "t": [
+            "Ehrlich gesagt bin ich darüber nicht gut informiert",
+            "Ich bin darüber nicht gut informiert"
+          ]
+        },
+        {
+          "n": "Tell a reporter you'd rather not be named.",
+          "t": [
+            "Ich möchte nicht namentlich genannt werden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l7",
+      "kind": "speaking",
+      "title": "Tell the news",
+      "goal": "Report a news story and discuss your media habits freely.",
+      "culture": {
+        "title": "Tagesschau, ORF, SRF",
+        "body": "Germany, Austria and Switzerland all have strong public broadcasters – ARD and ZDF, ORF, and SRF – financed largely by a household fee (in Germany the Rundfunkbeitrag). For many Germans, the 8 pm Tagesschau is still a daily ritual. In Switzerland, the news regularly covers Volksabstimmungen, the national votes held several times a year.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ich habe neulich einen interessanten Artikel gelesen.",
+          "n": "I recently read an interesting article."
+        },
+        {
+          "t": "Dem Bericht zufolge wurde das Projekt gestoppt.",
+          "n": "According to the report, the project has been stopped."
+        },
+        {
+          "t": "Was mich daran besonders beschäftigt, ist die Frage der Kosten.",
+          "n": "What concerns me most about it is the question of costs."
+        }
+      ],
+      "free": [
+        {
+          "n": "Report a news story you heard recently: what happened, who said what, and your own view.",
+          "hint": "Ich habe neulich gelesen, dass … Das wurde … Die Ministerin sagte, … sei … Ich finde …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "the source",
+              "any": [
+                "gelesen",
+                "gehört",
+                "gesehen",
+                "laut",
+                "zufolge",
+                "zeitung",
+                "nachrichten",
+                "artikel"
+              ]
+            },
+            {
+              "label": "what happened (passive)",
+              "any": [
+                "wurde",
+                "wurden",
+                "wird",
+                "worden"
+              ]
+            },
+            {
+              "label": "reported speech",
+              "any": [
+                "sagte",
+                "sagt",
+                "behauptet",
+                "sei",
+                "habe",
+                "es heißt",
+                "angeblich"
+              ]
+            },
+            {
+              "label": "your opinion",
+              "any": [
+                "ich finde",
+                "meiner meinung nach",
+                "ich halte",
+                "skeptisch",
+                "für mich",
+                "ich denke"
+              ]
+            }
+          ],
+          "model": "Ich habe neulich gelesen, dass in unserer Stadt eine neue Schule gebaut wird. Die Bürgermeisterin sagte, das Projekt sei dringend nötig. Ich finde das gut, aber die Kosten sind ziemlich hoch."
+        },
+        {
+          "n": "Where do you get your news, and how do you check whether a source is trustworthy?",
+          "hint": "Ich informiere mich hauptsächlich über … Die Quelle wirkt … Ich überprüfe / vergleiche …",
+          "seconds": 60,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "your media",
+              "any": [
+                "informiere mich",
+                "zeitung",
+                "podcast*",
+                "app*",
+                "fernsehen",
+                "radio",
+                "soziale medien",
+                "nachrichten"
+              ]
+            },
+            {
+              "label": "judging sources",
+              "any": [
+                "quelle*",
+                "seriös",
+                "unseriös",
+                "vertrau*",
+                "glaubwürdig"
+              ]
+            },
+            {
+              "label": "checking facts",
+              "any": [
+                "überprüf*",
+                "prüf*",
+                "vergleich*",
+                "nachschauen",
+                "recherch*"
+              ]
+            }
+          ],
+          "model": "Ich informiere mich hauptsächlich über Podcasts und die Tagesschau-App. Wenn eine Schlagzeile reißerisch klingt, überprüfe ich die Quelle. Dann vergleiche ich mehrere seriöse Medien."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that according to the report, the project has been stopped.",
+          "t": [
+            "Dem Bericht zufolge wurde das Projekt gestoppt"
+          ]
+        },
+        {
+          "n": "Say you recently read an interesting article.",
+          "t": [
+            "Ich habe neulich einen interessanten Artikel gelesen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Nachrichten und Gesellschaft",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }

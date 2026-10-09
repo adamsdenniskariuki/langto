@@ -13,34 +13,117 @@
         "body": "Words like außerdem, deshalb and folglich sit in position 1 and push the verb into position 2: Deshalb schlage ich vor … Use them to signal where your contribution is going. In meetings, a short summary sounds very competent: Fassen wir kurz zusammen. Say it slowly and clearly – it signals that you are steering the conversation."
       },
       "phrases": [
-        { "t": "Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen.", "n": "Let's get straight to the first item on the agenda." },
-        { "t": "Wie sieht es bei euch im Team aus?", "n": "How are things looking in your team?" },
-        { "t": "Außerdem sollten wir das Budget im Blick behalten.", "n": "We should also keep an eye on the budget." },
-        { "t": "Deshalb schlage ich vor, dass wir den Termin verschieben.", "n": "That's why I suggest we postpone the deadline." },
-        { "t": "Könntest du das noch etwas genauer erklären?", "n": "Could you explain that in a bit more detail?" },
-        { "t": "Das sollten wir lieber in einem separaten Termin besprechen.", "n": "We'd better discuss that in a separate meeting." },
-        { "t": "Fassen wir kurz zusammen: Wir starten erst im März.", "n": "Let's briefly sum up: we won't start until March." },
-        { "t": "Wer kümmert sich bis Freitag darum?", "n": "Who will take care of it by Friday?" }
+        {
+          "t": "Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen.",
+          "n": "Let's get straight to the first item on the agenda."
+        },
+        {
+          "t": "Wie sieht es bei euch im Team aus?",
+          "n": "How are things looking in your team?"
+        },
+        {
+          "t": "Außerdem sollten wir das Budget im Blick behalten.",
+          "n": "We should also keep an eye on the budget."
+        },
+        {
+          "t": "Deshalb schlage ich vor, dass wir den Termin verschieben.",
+          "n": "That's why I suggest we postpone the deadline."
+        },
+        {
+          "t": "Könntest du das noch etwas genauer erklären?",
+          "n": "Could you explain that in a bit more detail?"
+        },
+        {
+          "t": "Das sollten wir lieber in einem separaten Termin besprechen.",
+          "n": "We'd better discuss that in a separate meeting."
+        },
+        {
+          "t": "Fassen wir kurz zusammen: Wir starten erst im März.",
+          "n": "Let's briefly sum up: we won't start until March."
+        },
+        {
+          "t": "Wer kümmert sich bis Freitag darum?",
+          "n": "Who will take care of it by Friday?"
+        }
       ],
       "dialogue": {
         "title": "The weekly team meeting",
         "voice": "de-DE-LouisaNeural",
         "lines": [
-          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Guten Morgen zusammen. Möchten Sie heute die Moderation übernehmen?", "n": "Good morning, everyone. Would you like to chair the meeting today?" },
-          { "who": "you", "t": "Gern. Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen: dem Projektstart.", "n": "Sure. Let's get straight to the first item on the agenda: the project launch." },
-          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Die Entwicklung ist leider noch nicht fertig. Uns fehlen zwei Wochen.", "n": "Unfortunately development isn't finished yet. We're two weeks short." },
-          { "who": "you", "t": "Verstehe. Deshalb schlage ich vor, dass wir den Termin verschieben.", "n": "I see. That's why I suggest we postpone the deadline." },
-          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Einverstanden. Und was ist mit den Zusatzkosten?", "n": "Agreed. And what about the extra costs?" },
-          { "who": "you", "t": "Das sollten wir lieber in einem separaten Termin besprechen.", "n": "We'd better discuss that in a separate meeting." },
-          { "who": "A", "name": "Teamleiterin Frau Weber", "t": "Gut. Können Sie das Ergebnis noch einmal festhalten?", "n": "Fine. Could you record the outcome once more?" },
-          { "who": "you", "t": "Fassen wir kurz zusammen: Wir starten erst im März. Wer kümmert sich bis Freitag darum?", "n": "Let's briefly sum up: we won't start until March. Who will take care of it by Friday?" }
+          {
+            "who": "A",
+            "name": "Teamleiterin Frau Weber",
+            "t": "Guten Morgen zusammen. Möchten Sie heute die Moderation übernehmen?",
+            "n": "Good morning, everyone. Would you like to chair the meeting today?"
+          },
+          {
+            "who": "you",
+            "t": "Gern. Lasst uns gleich zum ersten Punkt auf der Tagesordnung kommen: dem Projektstart.",
+            "n": "Sure. Let's get straight to the first item on the agenda: the project launch."
+          },
+          {
+            "who": "A",
+            "name": "Teamleiterin Frau Weber",
+            "t": "Die Entwicklung ist leider noch nicht fertig. Uns fehlen zwei Wochen.",
+            "n": "Unfortunately development isn't finished yet. We're two weeks short."
+          },
+          {
+            "who": "you",
+            "t": "Verstehe. Deshalb schlage ich vor, dass wir den Termin verschieben.",
+            "n": "I see. That's why I suggest we postpone the deadline."
+          },
+          {
+            "who": "A",
+            "name": "Teamleiterin Frau Weber",
+            "t": "Einverstanden. Und was ist mit den Zusatzkosten?",
+            "n": "Agreed. And what about the extra costs?"
+          },
+          {
+            "who": "you",
+            "t": "Das sollten wir lieber in einem separaten Termin besprechen.",
+            "n": "We'd better discuss that in a separate meeting."
+          },
+          {
+            "who": "A",
+            "name": "Teamleiterin Frau Weber",
+            "t": "Gut. Können Sie das Ergebnis noch einmal festhalten?",
+            "n": "Fine. Could you record the outcome once more?"
+          },
+          {
+            "who": "you",
+            "t": "Fassen wir kurz zusammen: Wir starten erst im März. Wer kümmert sich bis Freitag darum?",
+            "n": "Let's briefly sum up: we won't start until March. Who will take care of it by Friday?"
+          }
         ]
       },
       "prompts": [
-        { "n": "Suggest postponing the deadline, starting with 'That's why'.", "t": ["Deshalb schlage ich vor, dass wir den Termin verschieben"] },
-        { "n": "Ask a colleague to explain something in more detail.", "t": ["Könntest du das noch etwas genauer erklären", "Könnten Sie das noch etwas genauer erklären", "Könntest du das genauer erklären"] },
-        { "n": "Ask who will take care of it by Friday.", "t": ["Wer kümmert sich bis Freitag darum"] },
-        { "n": "Suggest discussing it in a separate meeting.", "t": ["Das sollten wir lieber in einem separaten Termin besprechen", "Das sollten wir in einem separaten Termin besprechen"] }
+        {
+          "n": "Suggest postponing the deadline, starting with 'That's why'.",
+          "t": [
+            "Deshalb schlage ich vor, dass wir den Termin verschieben"
+          ]
+        },
+        {
+          "n": "Ask a colleague to explain something in more detail.",
+          "t": [
+            "Könntest du das noch etwas genauer erklären",
+            "Könnten Sie das noch etwas genauer erklären",
+            "Könntest du das genauer erklären"
+          ]
+        },
+        {
+          "n": "Ask who will take care of it by Friday.",
+          "t": [
+            "Wer kümmert sich bis Freitag darum"
+          ]
+        },
+        {
+          "n": "Suggest discussing it in a separate meeting.",
+          "t": [
+            "Das sollten wir lieber in einem separaten Termin besprechen",
+            "Das sollten wir in einem separaten Termin besprechen"
+          ]
+        }
       ]
     },
     {
@@ -52,35 +135,673 @@
         "body": "Use steigen/sinken um (by) and auf (to): Der Umsatz ist um zehn Prozent auf zwei Millionen gestiegen. Nouns like die Steigerung or der Rückgang make your talk sound more professional. When presenting, slow down before numbers and stress them – listeners need a moment to process figures."
       },
       "phrases": [
-        { "t": "Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.", "n": "Today I'd like to present the most important results to you." },
-        { "t": "Wie Sie auf dieser Folie sehen, ist der Umsatz deutlich gestiegen.", "n": "As you can see on this slide, sales have risen significantly." },
-        { "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.", "n": "Compared with last year, we're seeing an increase of twelve percent." },
-        { "t": "Die Kosten sind dagegen leicht gesunken.", "n": "Costs, on the other hand, have fallen slightly." },
-        { "t": "Das liegt vor allem an der neuen Marketingstrategie.", "n": "That's mainly due to the new marketing strategy." },
-        { "t": "Folglich können wir im nächsten Quartal mehr investieren.", "n": "Consequently, we can invest more next quarter." },
-        { "t": "Damit komme ich zum Schluss.", "n": "That brings me to the end." },
-        { "t": "Gute Frage – darauf komme ich gleich noch zurück.", "n": "Good question – I'll come back to that in a moment." }
+        {
+          "t": "Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.",
+          "n": "Today I'd like to present the most important results to you."
+        },
+        {
+          "t": "Wie Sie auf dieser Folie sehen, ist der Umsatz deutlich gestiegen.",
+          "n": "As you can see on this slide, sales have risen significantly."
+        },
+        {
+          "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.",
+          "n": "Compared with last year, we're seeing an increase of twelve percent."
+        },
+        {
+          "t": "Die Kosten sind dagegen leicht gesunken.",
+          "n": "Costs, on the other hand, have fallen slightly."
+        },
+        {
+          "t": "Das liegt vor allem an der neuen Marketingstrategie.",
+          "n": "That's mainly due to the new marketing strategy."
+        },
+        {
+          "t": "Folglich können wir im nächsten Quartal mehr investieren.",
+          "n": "Consequently, we can invest more next quarter."
+        },
+        {
+          "t": "Damit komme ich zum Schluss.",
+          "n": "That brings me to the end."
+        },
+        {
+          "t": "Gute Frage – darauf komme ich gleich noch zurück.",
+          "n": "Good question – I'll come back to that in a moment."
+        }
       ],
       "dialogue": {
         "title": "The quarterly report",
         "voice": "de-DE-ConradNeural",
         "lines": [
-          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "So, wir sind gespannt. Bitte, Sie haben das Wort.", "n": "Right, we're curious. Please, the floor is yours." },
-          { "who": "you", "t": "Vielen Dank. Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.", "n": "Thank you. Today I'd like to present the most important results to you." },
-          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Wie lief denn das Quartal insgesamt?", "n": "So how did the quarter go overall?" },
-          { "who": "you", "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.", "n": "Compared with last year, we're seeing an increase of twelve percent." },
-          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Beeindruckend. Woran liegt das?", "n": "Impressive. What's the reason for that?" },
-          { "who": "you", "t": "Das liegt vor allem an der neuen Marketingstrategie.", "n": "That's mainly due to the new marketing strategy." },
-          { "who": "A", "name": "Abteilungsleiter Herr Brandt", "t": "Und was bedeutet das für unser Budget im Herbst?", "n": "And what does that mean for our budget in the autumn?" },
-          { "who": "you", "t": "Gute Frage – darauf komme ich gleich noch zurück. Folglich können wir mehr investieren.", "n": "Good question – I'll come back to that in a moment. Consequently, we can invest more." }
+          {
+            "who": "A",
+            "name": "Abteilungsleiter Herr Brandt",
+            "t": "So, wir sind gespannt. Bitte, Sie haben das Wort.",
+            "n": "Right, we're curious. Please, the floor is yours."
+          },
+          {
+            "who": "you",
+            "t": "Vielen Dank. Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen.",
+            "n": "Thank you. Today I'd like to present the most important results to you."
+          },
+          {
+            "who": "A",
+            "name": "Abteilungsleiter Herr Brandt",
+            "t": "Wie lief denn das Quartal insgesamt?",
+            "n": "So how did the quarter go overall?"
+          },
+          {
+            "who": "you",
+            "t": "Im Vergleich zum Vorjahr verzeichnen wir eine Steigerung um zwölf Prozent.",
+            "n": "Compared with last year, we're seeing an increase of twelve percent."
+          },
+          {
+            "who": "A",
+            "name": "Abteilungsleiter Herr Brandt",
+            "t": "Beeindruckend. Woran liegt das?",
+            "n": "Impressive. What's the reason for that?"
+          },
+          {
+            "who": "you",
+            "t": "Das liegt vor allem an der neuen Marketingstrategie.",
+            "n": "That's mainly due to the new marketing strategy."
+          },
+          {
+            "who": "A",
+            "name": "Abteilungsleiter Herr Brandt",
+            "t": "Und was bedeutet das für unser Budget im Herbst?",
+            "n": "And what does that mean for our budget in the autumn?"
+          },
+          {
+            "who": "you",
+            "t": "Gute Frage – darauf komme ich gleich noch zurück. Folglich können wir mehr investieren.",
+            "n": "Good question – I'll come back to that in a moment. Consequently, we can invest more."
+          }
         ]
       },
       "prompts": [
-        { "n": "Open your presentation: say you'd like to present the most important results.", "t": ["Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen", "Ich möchte Ihnen die wichtigsten Ergebnisse vorstellen"] },
-        { "n": "Say costs have fallen slightly.", "t": ["Die Kosten sind leicht gesunken", "Die Kosten sind dagegen leicht gesunken"] },
-        { "n": "Signal that you are coming to the end.", "t": ["Damit komme ich zum Schluss"] },
-        { "n": "Say it's mainly due to the new marketing strategy.", "t": ["Das liegt vor allem an der neuen Marketingstrategie"] }
+        {
+          "n": "Open your presentation: say you'd like to present the most important results.",
+          "t": [
+            "Ich möchte Ihnen heute die wichtigsten Ergebnisse vorstellen",
+            "Ich möchte Ihnen die wichtigsten Ergebnisse vorstellen"
+          ]
+        },
+        {
+          "n": "Say costs have fallen slightly.",
+          "t": [
+            "Die Kosten sind leicht gesunken",
+            "Die Kosten sind dagegen leicht gesunken"
+          ]
+        },
+        {
+          "n": "Signal that you are coming to the end.",
+          "t": [
+            "Damit komme ich zum Schluss"
+          ]
+        },
+        {
+          "n": "Say it's mainly due to the new marketing strategy.",
+          "t": [
+            "Das liegt vor allem an der neuen Marketingstrategie"
+          ]
+        }
       ]
+    },
+    {
+      "id": "b2-u02-l3",
+      "title": "Video calls",
+      "goal": "Handle online meetings and technical hiccups smoothly.",
+      "tip": {
+        "title": "Polite requests in video calls",
+        "body": "Online, short polite requests keep things moving: Kannst du kurz deinen Bildschirm teilen? Du bist noch stummgeschaltet is a friendly hint that someone's microphone is off. If the line breaks up, ask Könntest du das bitte wiederholen? rather than a blunt Was?"
+      },
+      "phrases": [
+        {
+          "t": "Ich glaube, du bist noch stummgeschaltet.",
+          "n": "I think you're still on mute."
+        },
+        {
+          "t": "Kannst du kurz deinen Bildschirm teilen?",
+          "n": "Can you share your screen for a moment?"
+        },
+        {
+          "t": "Meine Verbindung ist gerade etwas instabil.",
+          "n": "My connection is a bit unstable right now."
+        },
+        {
+          "t": "Du warst kurz weg. Könntest du das bitte wiederholen?",
+          "n": "You dropped out for a moment. Could you repeat that, please?"
+        },
+        {
+          "t": "Ich schalte meine Kamera kurz aus.",
+          "n": "I'll turn my camera off for a moment."
+        }
+      ],
+      "dialogue": {
+        "title": "Online stand-up",
+        "voice": "de-DE-ConradNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Leon",
+            "t": "Hallo? Hört ihr mich? … Hallo?",
+            "n": "Hello? Can you hear me? … Hello?"
+          },
+          {
+            "who": "you",
+            "t": "Jetzt ja. Ich glaube, du warst noch stummgeschaltet.",
+            "n": "We can now. I think you were still on mute."
+          },
+          {
+            "who": "A",
+            "name": "Leon",
+            "t": "Oh, sorry! Ich zeige euch gleich die neuen Zahlen.",
+            "n": "Oh, sorry! I'll show you the new figures in a moment."
+          },
+          {
+            "who": "you",
+            "t": "Super. Kannst du kurz deinen Bildschirm teilen?",
+            "n": "Great. Can you share your screen for a moment?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a colleague they're still on mute.",
+          "t": [
+            "Ich glaube, du bist noch stummgeschaltet",
+            "Du bist noch stummgeschaltet",
+            "Sie sind noch stummgeschaltet"
+          ]
+        },
+        {
+          "n": "Say your connection is a bit unstable right now.",
+          "t": [
+            "Meine Verbindung ist gerade etwas instabil",
+            "Meine Verbindung ist instabil"
+          ]
+        },
+        {
+          "n": "Ask a colleague to repeat what they said.",
+          "t": [
+            "Könntest du das bitte wiederholen",
+            "Könnten Sie das bitte wiederholen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l4",
+      "kind": "grammar",
+      "title": "Passive with modal verbs",
+      "goal": "Say what must or can be done: Das muss erledigt werden.",
+      "tip": {
+        "title": "Modal + Partizip II + werden",
+        "body": "In meetings you often talk about tasks, not people: Der Bericht muss bis Freitag fertiggestellt werden. The modal verb takes position 2, and the Partizip II plus werden goes to the very end. In a dass-clause the modal moves last: …, dass das Budget erhöht werden muss."
+      },
+      "phrases": [
+        {
+          "t": "Der Bericht muss bis Freitag fertiggestellt werden.",
+          "n": "The report has to be finished by Friday."
+        },
+        {
+          "t": "Das Problem kann schnell gelöst werden.",
+          "n": "The problem can be solved quickly."
+        },
+        {
+          "t": "Die Präsentation sollte noch einmal überarbeitet werden.",
+          "n": "The presentation should be revised once more."
+        },
+        {
+          "t": "Der Termin darf nicht verschoben werden.",
+          "n": "The deadline must not be postponed."
+        },
+        {
+          "t": "Ich finde, dass das Budget erhöht werden muss.",
+          "n": "I think the budget needs to be increased."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the modal verb",
+          "base": {
+            "t": "Der Bericht muss bis Freitag fertiggestellt werden.",
+            "n": "The report has to be finished by Friday."
+          },
+          "items": [
+            {
+              "cue": "sollen",
+              "t": "Der Bericht soll bis Freitag fertiggestellt werden.",
+              "n": "The report is to be finished by Friday."
+            },
+            {
+              "cue": "können",
+              "t": "Der Bericht kann bis Freitag fertiggestellt werden.",
+              "n": "The report can be finished by Friday."
+            },
+            {
+              "cue": "Ich glaube, dass …",
+              "t": "Ich glaube, dass der Bericht bis Freitag fertiggestellt werden muss.",
+              "n": "I believe the report has to be finished by Friday."
+            }
+          ]
+        },
+        {
+          "title": "Swap active → passive",
+          "base": {
+            "t": "Wir müssen das Problem lösen.",
+            "n": "We have to solve the problem."
+          },
+          "items": [
+            {
+              "cue": "Passiv",
+              "t": "Das Problem muss gelöst werden.",
+              "n": "The problem has to be solved."
+            },
+            {
+              "cue": "der Termin · verschieben",
+              "t": "Der Termin muss verschoben werden.",
+              "n": "The deadline has to be postponed."
+            },
+            {
+              "cue": "die Kunden · informieren",
+              "t": "Die Kunden müssen informiert werden.",
+              "n": "The customers have to be informed."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the problem can be solved quickly.",
+          "t": [
+            "Das Problem kann schnell gelöst werden"
+          ]
+        },
+        {
+          "n": "Say the deadline must not be postponed.",
+          "t": [
+            "Der Termin darf nicht verschoben werden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l5",
+      "kind": "listening",
+      "title": "Behind schedule",
+      "goal": "Follow a status update in a work meeting.",
+      "phrases": [
+        {
+          "t": "Wir liegen etwas hinter dem Zeitplan.",
+          "n": "We're a bit behind schedule."
+        },
+        {
+          "t": "Woran liegt das genau?",
+          "n": "What exactly is the reason for that?"
+        },
+        {
+          "t": "Das muss mit dem Kunden geklärt werden.",
+          "n": "That needs to be clarified with the client."
+        },
+        {
+          "t": "Ich nehme das ins Protokoll auf.",
+          "n": "I'll put that in the minutes."
+        }
+      ],
+      "story": {
+        "title": "The app project",
+        "intro": "In a short meeting, project manager Katrin and developer Stefan discuss a delay.",
+        "voice": "de-DE-AmalaNeural",
+        "lines": [
+          {
+            "name": "Katrin",
+            "t": "Stefan, wie ist der aktuelle Stand bei der neuen App?",
+            "n": "Stefan, what's the current status of the new app?"
+          },
+          {
+            "name": "Stefan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Ehrlich gesagt liegen wir etwas hinter dem Zeitplan. Uns fehlt ungefähr eine Woche.",
+            "n": "To be honest, we're a bit behind schedule. We're about a week short."
+          },
+          {
+            "name": "Katrin",
+            "t": "Woran liegt das genau?",
+            "n": "What exactly is the reason for that?"
+          },
+          {
+            "name": "Stefan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Zwei Kollegen waren krank, und der Kunde hat neue Wünsche geäußert.",
+            "n": "Two colleagues were ill, and the client has asked for new features."
+          },
+          {
+            "name": "Katrin",
+            "t": "Verstehe. Die neuen Wünsche müssen mit dem Kunden geklärt werden. Darum kümmere ich mich.",
+            "n": "I see. The new requests need to be clarified with the client. I'll take care of that."
+          },
+          {
+            "name": "Stefan",
+            "voice": "de-DE-ConradNeural",
+            "t": "Danke. Dann könnten wir den Test auf den zwölften verschieben.",
+            "n": "Thanks. Then we could move the test to the twelfth."
+          },
+          {
+            "name": "Katrin",
+            "t": "Einverstanden. Ich nehme das ins Protokoll auf.",
+            "n": "Agreed. I'll put that in the minutes."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Wie viel Zeit fehlt dem Team?",
+            "n": "How much time is the team short?",
+            "t": [
+              "Eine Woche",
+              "Ungefähr eine Woche",
+              "Dem Team fehlt eine Woche"
+            ]
+          },
+          {
+            "q": "Warum liegt das Team hinter dem Zeitplan?",
+            "n": "Why is the team behind schedule?",
+            "t": [
+              "Zwei Kollegen waren krank",
+              "Der Kunde hat neue Wünsche",
+              "Kollegen waren krank"
+            ]
+          },
+          {
+            "q": "Worum kümmert sich Katrin?",
+            "n": "What will Katrin take care of?",
+            "t": [
+              "Um die neuen Wünsche",
+              "Um den Kunden",
+              "Sie klärt die Wünsche mit dem Kunden"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u02-l6",
+      "kind": "roleplay",
+      "title": "Keeping the meeting on track",
+      "goal": "Chair a meeting and steer it back to the agenda — your choices decide the outcome.",
+      "phrases": [
+        {
+          "t": "Das gehört eigentlich nicht zu unserem Thema.",
+          "n": "That doesn't really belong to our topic."
+        },
+        {
+          "t": "Lassen Sie uns zur Tagesordnung zurückkehren.",
+          "n": "Let's get back to the agenda."
+        },
+        {
+          "t": "Können wir das für später notieren?",
+          "n": "Can we note that down for later?"
+        },
+        {
+          "t": "Wer übernimmt diese Aufgabe?",
+          "n": "Who will take on this task?"
+        }
+      ],
+      "branch": {
+        "title": "The drifting colleague",
+        "scene": "You're chairing a team meeting. Your colleague Herr Lorenz keeps drifting away from the agenda.",
+        "name": "Herr Lorenz (Kollege)",
+        "voice": "de-DE-ConradNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Bevor wir anfangen: Hat eigentlich jemand die Kaffeemaschine repariert? Die ist schon wieder kaputt.",
+            "n": "Before we start: has anyone actually fixed the coffee machine? It's broken again.",
+            "choices": [
+              {
+                "t": "Das gehört eigentlich nicht zu unserem Thema. Können wir das für später notieren?",
+                "n": "That doesn't really belong to our topic. Can we note it down for later?",
+                "next": "agenda"
+              },
+              {
+                "t": "Ach, die Kaffeemaschine! Erzählen Sie mal.",
+                "n": "Oh, the coffee machine! Tell me.",
+                "next": "drift"
+              }
+            ]
+          },
+          "drift": {
+            "t": "Also, letzte Woche hat Frau Kaiser versucht, sie selbst zu reparieren, und dann …",
+            "n": "Well, last week Ms Kaiser tried to fix it herself, and then …",
+            "choices": [
+              {
+                "t": "Entschuldigung, lassen Sie uns zur Tagesordnung zurückkehren.",
+                "n": "Sorry, let's get back to the agenda.",
+                "next": "agenda"
+              },
+              {
+                "t": "Wirklich? Und was ist dann passiert?",
+                "n": "Really? And what happened then?",
+                "next": "late"
+              }
+            ]
+          },
+          "late": {
+            "t": "… und plötzlich war die halbe Stunde vorbei. Oh, wir müssen ja Schluss machen!",
+            "n": "… and suddenly the half hour was over. Oh, we have to finish!",
+            "end": "bad",
+            "outcome": "The meeting ran out of time without a single decision — steer it back to the agenda."
+          },
+          "agenda": {
+            "t": "Ja, gut. Also, Punkt eins: die Kundenumfrage. Ehrlich gesagt sind die Ergebnisse schwer zu verstehen.",
+            "n": "Yes, all right. So, item one: the customer survey. To be honest, the results are hard to understand.",
+            "choices": [
+              {
+                "t": "Könnten Sie das genauer erklären? Was ist denn unklar?",
+                "n": "Could you explain that in more detail? What's unclear?",
+                "next": "explain"
+              },
+              {
+                "t": "Dann muss die Auswertung überarbeitet werden. Wer übernimmt diese Aufgabe?",
+                "n": "Then the analysis needs to be revised. Who will take on this task?",
+                "next": "task"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Die Zahlen widersprechen sich. Laut Umfrage sind die Kunden zufrieden, aber die Beschwerden steigen.",
+            "n": "The figures contradict each other. According to the survey customers are satisfied, but complaints are rising.",
+            "choices": [
+              {
+                "t": "Dann muss die Auswertung überarbeitet werden. Wer übernimmt diese Aufgabe?",
+                "n": "Then the analysis needs to be revised. Who will take on this task?",
+                "next": "task"
+              },
+              {
+                "t": "Interessant. Das sollten wir in einem separaten Termin besprechen.",
+                "n": "Interesting. We should discuss that in a separate meeting.",
+                "next": "later"
+              }
+            ]
+          },
+          "task": {
+            "t": "Das mache ich. Bis Mittwoch sollte das erledigt sein.",
+            "n": "I'll do it. It should be done by Wednesday.",
+            "end": "good",
+            "outcome": "You kept the meeting focused and assigned a clear task with a deadline."
+          },
+          "later": {
+            "t": "Einverstanden. Ich bereite für den Termin eine kurze Analyse vor.",
+            "n": "Agreed. I'll prepare a short analysis for that meeting.",
+            "end": "good",
+            "outcome": "You moved the deep dive to its own meeting and kept this one on schedule."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Steer the meeting back: say let's get back to the agenda.",
+          "t": [
+            "Lassen Sie uns zur Tagesordnung zurückkehren",
+            "Lasst uns zur Tagesordnung zurückkehren"
+          ]
+        },
+        {
+          "n": "Ask who will take on this task.",
+          "t": [
+            "Wer übernimmt diese Aufgabe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l7",
+      "kind": "speaking",
+      "title": "Report from the meeting",
+      "goal": "Summarise decisions and present results freely.",
+      "culture": {
+        "title": "Pünktlich und protokolliert",
+        "body": "In German-speaking workplaces, meetings usually start exactly on time – turning up five minutes late without a message gets noticed. An agenda (Tagesordnung) is often sent in advance, and someone takes the minutes (Protokoll), which are circulated afterwards as the record of what was agreed. In Austria, academic titles such as Frau Magister or Herr Doktor are still often used in formal meetings.",
+        "regions": [
+          "DE",
+          "AT",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Folgende Punkte wurden beschlossen.",
+          "n": "The following points were agreed."
+        },
+        {
+          "t": "Offen bleibt noch die Frage des Budgets.",
+          "n": "The question of the budget is still open."
+        },
+        {
+          "t": "Bis zum nächsten Treffen soll das erledigt werden.",
+          "n": "That is to be done by the next meeting."
+        }
+      ],
+      "free": [
+        {
+          "n": "Summarise a recent team meeting for a colleague who missed it: what was decided, what's still open and who does what by when.",
+          "hint": "Folgende Punkte wurden beschlossen … Offen bleibt noch … X kümmert sich bis … um …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a decision",
+              "any": [
+                "beschlossen",
+                "entschieden",
+                "vereinbart",
+                "geeinigt",
+                "einigt*"
+              ]
+            },
+            {
+              "label": "something still open",
+              "any": [
+                "offen",
+                "noch nicht",
+                "unklar",
+                "geklärt werden"
+              ]
+            },
+            {
+              "label": "who does what",
+              "any": [
+                "kümmert sich",
+                "übernimmt",
+                "zuständig",
+                "verantwortlich",
+                "macht"
+              ]
+            },
+            {
+              "label": "a deadline",
+              "any": [
+                "bis",
+                "nächste woche",
+                "freitag",
+                "montag",
+                "termin"
+              ]
+            }
+          ],
+          "model": "Folgende Punkte wurden beschlossen: Wir starten das Projekt erst im März. Offen bleibt noch die Frage des Budgets. Herr Lorenz kümmert sich bis Freitag um die Kundenumfrage."
+        },
+        {
+          "n": "Present the results of a project or your last quarter at work: figures, reasons and next steps.",
+          "hint": "Ich möchte Ihnen … vorstellen. Der Umsatz ist um … gestiegen. Das liegt an … Folglich … Damit komme ich zum Schluss.",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "an opening",
+              "any": [
+                "vorstellen",
+                "präsentieren",
+                "ich möchte"
+              ]
+            },
+            {
+              "label": "a figure or change",
+              "any": [
+                "prozent",
+                "gestiegen",
+                "gesunken",
+                "steigerung",
+                "rückgang",
+                "gewachsen"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "liegt an",
+                "liegt vor allem",
+                "weil",
+                "wegen",
+                "grund"
+              ]
+            },
+            {
+              "label": "next steps or conclusion",
+              "any": [
+                "folglich",
+                "deshalb",
+                "nächste*",
+                "zum schluss",
+                "in zukunft",
+                "planen"
+              ]
+            }
+          ],
+          "model": "Ich möchte Ihnen heute die Ergebnisse unseres Projekts vorstellen. Die Kosten sind um acht Prozent gesunken. Das liegt vor allem an den neuen Prozessen. Folglich können wir im nächsten Jahr mehr investieren."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the question of the budget is still open.",
+          "t": [
+            "Offen bleibt noch die Frage des Budgets",
+            "Die Frage des Budgets ist noch offen"
+          ]
+        },
+        {
+          "n": "Say the following points were agreed.",
+          "t": [
+            "Folgende Punkte wurden beschlossen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Im Meeting",
+      "goal": "Say the unit's phrases from memory."
     }
   ]
 }
