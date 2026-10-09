@@ -39,6 +39,8 @@ npm run audio      # (optional) pre-generate lesson audio, see below
 
 - **Filenames are content hashes** of voice + text + format. Existing files are skipped, so only new or changed lines are synthesised. CI keeps `public/audio` in the Actions cache between runs.
 - **Voices** come from `tts` in `public/content/languages.json`: `default` speaks phrases and your lines, and `partner` speaks the other person in dialogues. You can override a voice per dialogue with `"voice"` on the dialogue, or per line with `"voice"` on the line.
+- **Narrator voices**: `tts.narrators` (e.g. `[{ "id": "female", "label": "Female", "voice": "de-DE-KatjaNeural" }, { "id": "male", … }]`) lists the voices learners can choose in Settings → Voice & speech. Narrated lines (vocabulary, repeat, drills, prompts, review, checkpoints, pronunciation) are generated in every narrator voice and listed in `narration.json`. Dialogue, role-play and story characters keep their own voice. If a clip is missing, the app tries the other narrator, then the device voice. "Download audio for offline" fetches only the chosen narrator plus the character voices.
+- **Free-tier budget**: each run stays under `AZURE_SPEECH_MONTHLY_CHARS` (default 500000, with a 5% margin). Usage is tracked in `public/audio/usage.json`. Lines over budget are skipped and picked up by later runs, so the build never fails because of quota.
 - **No keys means no failure.** Without credentials the script just indexes any MP3s already present and exits successfully. The app then uses the browser voice.
 
 ### Set it up

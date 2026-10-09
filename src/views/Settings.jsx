@@ -3,6 +3,7 @@ import { useCourse } from '../components/context.js';
 import { exportData, parseImport, replaceState, resetAll, toast, update, useStore } from '../lib/store.js';
 import { FONTS, THEMES } from '../lib/appearance.js';
 import { listen, prefetchAudio, recognitionErrorMessage, say, support, voicesFor } from '../lib/speech.js';
+import { narrators, narratorVoice } from '../lib/tts-keys.js';
 import { ensureMicPermission, MIC_STATE_LABEL, micErrorCode, micPermissionState, micSupported, unblockSteps, watchMicPermission } from '../lib/mic.js';
 import { navigate } from '../router.js';
 
@@ -93,11 +94,43 @@ export function MicTest() {
     </div>
   );
 }
-function OfflineAudio({ code }) {
+function NarratorPicker({ lang, st }) {
+  const list = narrators(lang);
+  if (list.length < 2) return null;
+  const current = list.find((n) => n.voice === narratorVoice(lang, st.narrator))?.id;
+  const sample = lang.voiceSample || lang.micPhrase || 'Hello!';
+  return (
+    <div class="field" role="radiogroup" aria-label="Narrator voice">
+      Narrator voice
+      <div class="narrators">
+        {list.map((n) => (
+          <div key={n.id} class={`narrator ${current === n.id ? 'active' : ''}`}>
+            <label>
+              <input type="radio" name="narrator" value={n.id} checked={current === n.id} onChange={() => set('narrator', n.id)} />
+              <strong>{n.label}</strong>
+            </label>
+            <button
+              type="button"
+              class="btn-icon"
+              aria-label={`Preview ${n.label} narrator`}
+              title="Preview"
+              onClick={() => say(sample, { course: lang, rate: st.rate, voiceURI: st.voiceURI, narrator: n.id })}
+            >
+              ▶
+            </button>
+          </div>
+        ))}
+      </div>
+      <span class="small muted">Reads vocabulary, drills, prompts and reviews. Dialogues and stories keep their own character voices.</span>
+    </div>
+  );
+}
+
+function OfflineAudio({ code, narrator }) {
   const [status, setStatus] = useState(null);
   const run = async () => {
     setStatus({ done: 0, total: 0 });
-    const total = await prefetchAudio(code, (done, n) => setStatus({ done, total: n }));
+    const total = await prefetchAudio(code, (done, n) => setStatus({ done, total: n }), narrator);
     setStatus({ finished: true, total });
     toast(total ? `${total} audio clips saved for offline use.` : 'No recorded audio available yet.', total ? '📦' : 'ℹ️');
   };
@@ -199,16 +232,14 @@ export function Settings() {
           Speaking speed: <strong>{st.rate.toFixed(2)}×</strong>
           <input type="range" min="0.5" max="1.3" step="0.05" value={st.rate} onInput={(e) => set('rate', Number(e.currentTarget.value))} />
         </label>
+        <NarratorPicker lang={course.lang} st={st} />
         <div class="row gap wrap">
-          <button type="button" class="btn ghost" onClick={() => say(course.lang.voiceSample || 'Hello!', { course: course.lang, rate: st.rate, voiceURI: st.voiceURI })}>
-            ▶ Test voice
-          </button>
-          <OfflineAudio code={course.lang.code} />
+          <OfflineAudio code={course.lang.code} narrator={narratorVoice(course.lang, st.narrator)} />
         </div>
         {support.tts ? (
           <>
             <label class="field">
-              Fallback device voice ({course.lang.name})
+              Device voice ({course.lang.name}) — only used if a recording is missing
               <select value={st.voiceURI} onChange={(e) => set('voiceURI', e.currentTarget.value)}>
                 <option value="">Automatic</option>
                 {voices.map((v) => (

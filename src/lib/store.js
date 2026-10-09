@@ -13,6 +13,7 @@ export const DEFAULT_SETTINGS = {
   fontScale: 1,
   rate: 0.9,
   voiceURI: '',
+  narrator: '', // narrator voice id from languages.json tts.narrators; '' = course default
   dailyGoal: 20,
   showTranslations: true,
   autoPlay: true,

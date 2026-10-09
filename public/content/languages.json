@@ -7,7 +7,11 @@
     "speech": "de-DE",
     "tts": {
       "default": "de-DE-KatjaNeural",
-      "partner": "de-DE-ConradNeural"
+      "partner": "de-DE-ConradNeural",
+      "narrators": [
+        { "id": "female", "label": "Female", "voice": "de-DE-KatjaNeural" },
+        { "id": "male", "label": "Male", "voice": "de-DE-ConradNeural" }
+      ]
     },
     "course": "content/de/course.json",
     "greetings": {

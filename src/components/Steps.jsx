@@ -268,7 +268,7 @@ export function DialogueStep({ step, done }) {
                 <p class="target muted">Say: “{l.n}”</p>
               ) : (
                 <p class="target" lang={course.lang.code}>
-                  {l.t} <PlayButton text={l.t} slow={false} role={mine ? undefined : 'partner'} voice={l.voice || (mine ? undefined : dialogue.voice)} />
+                  {l.t} <PlayButton text={l.t} slow={false} role={mine ? undefined : 'partner'} voice={l.voice || (mine ? undefined : dialogue.voice)} character />
                 </p>
               )}
               {(s.settings.showTranslations || (mine && current)) && !(mine && current && hideText) && <p class="native small">{l.n}</p>}

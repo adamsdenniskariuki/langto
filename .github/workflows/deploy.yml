@@ -33,7 +33,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: public/audio
-          key: audio-${{ hashFiles('public/content/**') }}
+          key: audio-${{ hashFiles('public/content/**') }}-${{ github.run_id }}
           restore-keys: audio-
 
       - name: Generate lesson audio (Azure Speech)

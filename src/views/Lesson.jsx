@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { useCourse } from '../components/context.js';
 import { BuildStep, ChoiceStep, DialogueStep, LearnStep, PromptStep, TipStep } from '../components/Steps.jsx';
 import { BranchStep, CultureStep, DrillStep, FreeStep, PairStep, QuestionStep, RecallStep, StoryStep, StressStep } from '../components/ExtraSteps.jsx';
@@ -122,11 +122,11 @@ function LessonRun({ lessonId, retry }) {
     }
   };
 
-  const quit = () => {
-    if (confirm('Leave this lesson? Your progress in this lesson will be lost (XP you earned stays).')) {
-      stopSpeaking();
-      navigate('#/');
-    }
+  const [leaving, setLeaving] = useState(false);
+  const quit = () => setLeaving(true);
+  const leave = () => {
+    stopSpeaking();
+    navigate('#/');
   };
 
   if (summary) {
@@ -198,6 +198,31 @@ function LessonRun({ lessonId, retry }) {
       </div>
       {step.retry && <p class="retry-note">🔁 Let's try this one again</p>}
       <Comp key={pos} step={step} done={onDone} />
+      {leaving && <LeaveDialog xp={tally.xp} onStay={() => setLeaving(false)} onLeave={leave} />}
     </section>
+  );
+}
+
+export function leaveMessage(xp) {
+  const keep = xp > 0 ? `You'll keep the ${xp} XP you've earned, but the lesson` : 'The lesson';
+  return `${keep} won't count as complete — you'll start it from the beginning next time.`;
+}
+
+function LeaveDialog({ xp, onStay, onLeave }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    const d = ref.current;
+    if (d?.showModal && !d.open) d.showModal();
+    return () => d?.open && d.close();
+  }, []);
+  return (
+    <dialog ref={ref} class="confirm-dialog card" aria-labelledby="leave-title" aria-describedby="leave-desc" onCancel={(e) => { e.preventDefault(); onStay(); }}>
+      <h2 id="leave-title">Leave this lesson?</h2>
+      <p id="leave-desc">{leaveMessage(xp)}</p>
+      <div class="row gap wrap end">
+        <button type="button" class="btn ghost" onClick={onLeave}>Leave</button>
+        <button type="button" class="btn primary" onClick={onStay} autofocus>Keep going</button>
+      </div>
+    </dialog>
   );
 }

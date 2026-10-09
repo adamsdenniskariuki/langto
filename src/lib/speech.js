@@ -1,5 +1,6 @@
 // Web Speech API wrappers: text-to-speech, speech recognition and self-recording.
-import { audioKey, voiceFor } from './tts-keys.js';
+import { audioKey, voiceCandidates } from './tts-keys.js';
+import { getState } from './store.js';
 import { ensureMicPermission, forgetMicPermission, micErrorCode, micErrorMessage } from './mic.js';
 
 const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
@@ -34,11 +35,13 @@ export function loadAudioManifest(code) {
 /** URL of the pre-generated clip for this text, or null. */
 export async function audioUrlFor(lang, text, opts = {}) {
   if (!lang?.code || typeof fetch === 'undefined') return null;
-  const voice = voiceFor(lang, opts);
-  if (!voice) return null;
   const { files = {} } = await loadAudioManifest(lang.code);
-  const file = files[audioKey(voice, text)];
-  return file ? `${BASE}audio/${lang.code}/${file}` : null;
+  // Narrated lines: the chosen narrator first, then any other narrator voice that has a clip.
+  for (const voice of voiceCandidates(lang, opts)) {
+    const file = files[audioKey(voice, text)];
+    if (file) return `${BASE}audio/${lang.code}/${file}`;
+  }
+  return null;
 }
 
 // Fetch as a blob (no Range requests) so the service worker can cache clips for offline use.
@@ -68,10 +71,17 @@ async function playClip(url, rate) {
   });
 }
 
-/** Cache every clip for a language (used by Settings → "Download audio for offline"). */
-export async function prefetchAudio(code, onProgress) {
+/**
+ * Cache clips for a language (Settings → "Download audio for offline"): character voices plus only the
+ * chosen narrator's narration (narration.json lists narration-only clips per voice).
+ */
+export async function prefetchAudio(code, onProgress, narrator = '') {
   const { files = {} } = await loadAudioManifest(code);
-  const urls = [...new Set(Object.values(files))].map((f) => `${BASE}audio/${code}/${f}`);
+  const narration = await fetch(`${BASE}audio/${code}/narration.json`)
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
+  const skip = new Set(Object.entries(narration).flatMap(([voice, list]) => (voice === narrator ? [] : list)));
+  const urls = [...new Set(Object.values(files))].filter((f) => !skip.has(f)).map((f) => `${BASE}audio/${code}/${f}`);
   let done = 0;
   const queue = [...urls];
   await Promise.all(
@@ -95,12 +105,14 @@ export function stopAudio() {
 
 /**
  * Speak `text`: pre-generated neural audio when available, otherwise the browser's Web Speech voice.
- * `course` is the course language object ({ code, speech, tts }); `role: 'partner'` / `voice` pick the speaker.
+ * `course` is the course language object ({ code, speech, tts }); `role: 'partner'` / `voice` / `character` mark a
+ * dialogue or story character; other lines are narrated in the learner's chosen narrator voice (`narrator` id).
  */
-export async function say(text, { course, rate = 0.9, voiceURI = '', role, voice } = {}) {
+export async function say(text, { course, rate = 0.9, voiceURI = '', role, voice, character, narrator } = {}) {
   stopSpeaking();
   try {
-    const url = await audioUrlFor(course, text, { role, voice });
+    if (narrator === undefined) narrator = getState().settings?.narrator || '';
+    const url = await audioUrlFor(course, text, { role, voice, character, narrator });
     if (url) return await playClip(url, rate);
   } catch {
     /* fall through to Web Speech */

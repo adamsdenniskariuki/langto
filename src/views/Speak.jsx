@@ -162,7 +162,7 @@ function swapRoles(dialogue, lang) {
     title: `${dialogue.title} (roles swapped)`,
     lines: dialogue.lines.map((l) =>
       l.who === 'you'
-        ? { ...l, who: 'A', name: 'Partner', voice: voiceFor(lang, { voice: l.voice }) }
+        ? { ...l, who: 'A', name: 'Partner', voice: voiceFor(lang, { voice: l.voice, character: true }) }
         : { ...l, who: 'you', name: partner, voice: voiceFor(lang, { voice: l.voice || dialogue.voice, role: 'partner' }) }
     ),
   };

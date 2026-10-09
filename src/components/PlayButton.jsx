@@ -4,13 +4,13 @@ import { useStore } from '../lib/store.js';
 import { useCourse } from './context.js';
 
 /** Play a phrase with the target-language voice. Includes a slow "turtle" button. */
-export function PlayButton({ text, role, voice, big = false, slow = true, label = 'Listen' }) {
+export function PlayButton({ text, role, voice, character, big = false, slow = true, label = 'Listen' }) {
   const s = useStore();
   const course = useCourse();
   const [playing, setPlaying] = useState(false);
   const play = async (rate) => {
     setPlaying(true);
-    await say(text, { course: course.lang, rate, voiceURI: s.settings.voiceURI, role, voice });
+    await say(text, { course: course.lang, rate, voiceURI: s.settings.voiceURI, role, voice, character });
     setPlaying(false);
   };
   return (

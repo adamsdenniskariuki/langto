@@ -193,7 +193,7 @@ export function StoryStep({ step, done }) {
       if (token !== run.current) return;
       setIdx(i);
       const l = story.lines[i];
-      await say(l.t, { rate: story.rate || 1, voice: l.voice || story.voice, role: l.voice || story.voice ? undefined : l.role });
+      await say(l.t, { rate: story.rate || 1, voice: l.voice || story.voice, role: l.voice || story.voice ? undefined : l.role, character: true });
       await new Promise((r) => setTimeout(r, 250));
     }
     if (token === run.current) {
@@ -236,7 +236,7 @@ export function StoryStep({ step, done }) {
             {l.name && <span class="who">{l.name}</span>}
             {transcript ? (
               <>
-                <p class="target" lang={course.lang.code}>{l.t} <PlayButton text={l.t} slow voice={l.voice || story.voice} role={l.voice || story.voice ? undefined : l.role} /></p>
+                <p class="target" lang={course.lang.code}>{l.t} <PlayButton text={l.t} slow voice={l.voice || story.voice} role={l.voice || story.voice ? undefined : l.role} character /></p>
                 {s.settings.showTranslations && <p class="native small">{l.n}</p>}
               </>
             ) : (
