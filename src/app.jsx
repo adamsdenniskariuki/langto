@@ -11,7 +11,7 @@ import { Review } from './views/Review.jsx';
 import { Speak } from './views/Speak.jsx';
 import { Progress } from './views/Progress.jsx';
 import { Settings } from './views/Settings.jsx';
-import { Onboarding } from './views/Onboarding.jsx';
+import { Onboarding, welcomeReturn } from './views/Onboarding.jsx';
 
 const NAV = [
   { name: 'home', href: '#/', icon: '🗺️', label: 'Learn' },
@@ -96,6 +96,7 @@ export function App() {
   const inLesson = route.name === 'lesson';
   let view;
   if (!s.onboarded) view = <Onboarding />;
+  else if (route.name === 'welcome') view = <Onboarding replay returnTo={welcomeReturn(route.params[0])} />;
   else if (route.name === 'lesson' && course.lessonIndex.has(route.params[0])) view = <LessonView key={route.params[0]} lessonId={route.params[0]} />;
   else if (route.name === 'review') view = <Review />;
   else if (route.name === 'speak') view = <Speak tab={route.params[0]} />;
@@ -103,7 +104,7 @@ export function App() {
   else if (route.name === 'settings') view = <Settings />;
   else view = <Home />;
 
-  const chrome = s.onboarded && !inLesson;
+  const chrome = s.onboarded && !inLesson && route.name !== 'welcome';
   return (
     <CourseContext.Provider value={course}>
       {chrome && <TopBar />}

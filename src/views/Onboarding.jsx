@@ -7,7 +7,17 @@ import { navigate } from '../router.js';
 import { RotatingGreeting } from '../components/RotatingGreeting.jsx';
 import { Flag } from '../components/Flag.jsx';
 
-export function Onboarding() {
+// Replaying the tour (#/welcome) only edits the same settings as the Settings screen. It never
+// touches progress or `onboarded`, so reloading or closing mid-tour just returns to the app.
+export function welcomeReturn(from) {
+  return from === 'settings' ? '#/settings' : '#/';
+}
+
+export function finishOnboarding(d, replay) {
+  if (!replay) d.onboarded = true;
+}
+
+export function Onboarding({ replay = false, returnTo = '#/' } = {}) {
   const s = useStore();
   const [step, setStep] = useState(0);
   const [langs, setLangs] = useState([]);
@@ -16,14 +26,15 @@ export function Onboarding() {
   }, []);
 
   const finish = () => {
-    update((d) => {
-      d.onboarded = true;
-    });
-    navigate('#/');
+    if (!replay) update((d) => finishOnboarding(d, replay));
+    navigate(replay ? returnTo : '#/');
   };
 
   return (
-    <section class="onboarding card">
+    <section class="onboarding card" aria-label={replay ? 'Welcome tour' : undefined}>
+      {replay && (
+        <a class="btn-icon close-tour" href={returnTo} aria-label="Close welcome tour">✕</a>
+      )}
       <div class="dots" aria-hidden="true">
         {[0, 1, 2, 3].map((i) => <span key={i} class={i === step ? 'on' : ''} />)}
       </div>
@@ -104,7 +115,7 @@ export function Onboarding() {
           <MicTest />
           <p class="muted small">Tip: use headphones and a quiet spot. Can't talk right now? Every speaking exercise can be skipped.</p>
           <div class="row gap center">
-            <button type="button" class="btn primary big" onClick={finish}>Start learning →</button>
+            <button type="button" class="btn primary big" onClick={finish}>{replay ? 'Done' : 'Start learning →'}</button>
           </div>
         </div>
       )}

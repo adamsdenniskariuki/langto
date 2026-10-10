@@ -268,6 +268,7 @@ export function Settings() {
         </div>
         <label class="toggle"><input type="checkbox" checked={st.showTranslations} onChange={(e) => set('showTranslations', e.currentTarget.checked)} /> Show English translations</label>
         <label class="toggle"><input type="checkbox" checked={st.sounds} onChange={(e) => set('sounds', e.currentTarget.checked)} /> Sound effects</label>
+        <div class="row gap wrap"><a class="btn ghost" href="#/welcome/settings">👋 Replay welcome tour</a><span class="muted small">Your progress, XP and badges stay as they are.</span></div>
       </fieldset>
 
       <fieldset class="card">

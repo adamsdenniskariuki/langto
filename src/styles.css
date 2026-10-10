@@ -796,3 +796,4 @@ a.node:hover { transform: translateY(-2px); }
 .confirm-dialog .end { justify-content: flex-end; }
 .confirm-dialog .row { flex-wrap: wrap; }
 .confirm-dialog[open] { position: fixed; inset: 0; margin: auto; height: fit-content; width: 100%; box-sizing: border-box; }
+.close-tour { position: absolute; top: 0.75rem; right: 0.75rem; display: inline-grid; place-items: center; text-decoration: none; color: var(--text); }
