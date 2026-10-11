@@ -1,0 +1,71 @@
+{
+  "lang": "fr",
+  "title": "Speak French",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Beginner",
+      "description": "Greet people, introduce yourself, order at a café, shop, find your way and talk about your day.",
+      "units": [
+        "a1/u01-bonjour.json",
+        "a1/u02-je-suis.json",
+        "a1/u03-nombres.json",
+        "a1/u04-cafe.json",
+        "a1/u05-famille.json",
+        "a1/u06-heure.json",
+        "a1/u07-courses.json",
+        "a1/u08-ville.json",
+        "a1/u09-loisirs.json",
+        "a1/u10-ma-journee.json"
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "Elementary",
+      "description": "Talk about the past, travel, health, home, work and plans; handle phone calls and complaints.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "B1",
+      "title": "Intermediate",
+      "description": "Give opinions, tell stories, talk about feelings, work, media and the francophone world.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "B2",
+      "title": "Upper intermediate",
+      "description": "Debate, negotiate, run meetings, follow the news and use idioms naturally.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "C1",
+      "title": "Advanced",
+      "description": "Switch register, master spoken French, persuade, present and handle delicate conversations.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "C2",
+      "title": "Mastery",
+      "description": "Speak with precision, irony and wit, and navigate French from Québec to Dakar.",
+      "comingSoon": true,
+      "units": []
+    }
+  ],
+  "tracks": [
+    {
+      "id": "pron",
+      "title": "Pronunciation",
+      "description": "Train the sounds English speakers find hard: u vs ou, nasal vowels, the French r, silent letters, liaison, é/è, eu, rhythm and intonation. New units unlock as you reach each level.",
+      "badge": "É",
+      "units": [
+        "pron/u01-u-ou.json",
+        "pron/u02-nasales.json",
+        "pron/u03-r.json"
+      ]
+    }
+  ]
+}

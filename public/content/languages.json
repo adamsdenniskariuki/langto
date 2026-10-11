@@ -144,9 +144,9 @@
     },
     "course": "content/fr/course.json",
     "greetings": {
-      "morning": "Bonjour",
-      "day": "Bonjour",
-      "evening": "Bonsoir"
+      "morning": "Bonjour\u00a0!",
+      "day": "Bonjour\u00a0!",
+      "evening": "Bonsoir\u00a0!"
     },
     "voiceSample": "Bonjour ! Je suis ta voix. Amuse-toi bien en apprenant le français !",
     "micPhrase": "Bonjour, comment ça va ?",

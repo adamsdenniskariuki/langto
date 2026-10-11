@@ -1,0 +1,847 @@
+{
+  "id": "u05",
+  "title": "La famille",
+  "subtitle": "Family & people",
+  "icon": "👨‍👩‍👧",
+  "lessons": [
+    {
+      "id": "u05-l1",
+      "title": "My family",
+      "goal": "Introduce your family members.",
+      "tip": {
+        "title": "mon, ma or mes?",
+        "body": "Use mon with masculine words (mon père, mon frère), ma with feminine words (ma mère, ma sœur) and mes for any plural (mes parents). Voici means \"here is / this is\" when you show someone. Pronunciation: the final -s of mes and the final -e of mère, père, frère are silent (but the r is pronounced), and these three words rhyme."
+      },
+      "phrases": [
+        {
+          "t": "Voici ma mère.",
+          "n": "This is my mother."
+        },
+        {
+          "t": "Voici mon père.",
+          "n": "This is my father."
+        },
+        {
+          "t": "J'ai un frère.",
+          "n": "I have a brother."
+        },
+        {
+          "t": "J'ai une sœur.",
+          "n": "I have a sister.",
+          "note": "œu sounds like the vowel in English \"her\", with rounded lips."
+        },
+        {
+          "t": "Tu as des frères et sœurs ?",
+          "n": "Do you have brothers and sisters?"
+        },
+        {
+          "t": "Je suis fils unique.",
+          "n": "I'm an only child. (said by a man/boy)",
+          "note": "A woman or girl says: Je suis fille unique. The l in fils is silent: [fis]."
+        },
+        {
+          "t": "Mes parents habitent à Lyon.",
+          "n": "My parents live in Lyon."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "Looking at photos",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "C'est qui, sur la photo ?",
+            "n": "Who's that in the photo?"
+          },
+          {
+            "who": "you",
+            "t": "C'est ma mère.",
+            "n": "That's my mother."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Tu as des frères et sœurs ?",
+            "n": "Do you have brothers and sisters?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, j'ai un frère.",
+            "n": "Yes, I have a brother."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Moi, je suis fille unique.",
+            "n": "Me, I'm an only child."
+          },
+          {
+            "who": "you",
+            "t": "Et tes parents habitent où ?",
+            "n": "And where do your parents live?"
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Mes parents habitent à Lyon.",
+            "n": "My parents live in Lyon."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Point to a photo: \"This is my father.\"",
+          "t": [
+            "Voici mon père",
+            "C'est mon père"
+          ]
+        },
+        {
+          "n": "Ask a friend if they have brothers and sisters.",
+          "t": [
+            "Tu as des frères et sœurs",
+            "Est-ce que tu as des frères et sœurs",
+            "As-tu des frères et sœurs",
+            "Vous avez des frères et sœurs"
+          ]
+        },
+        {
+          "n": "Say you have a sister.",
+          "t": [
+            "J'ai une sœur",
+            "J'ai une sœur moi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l2",
+      "title": "Describing people",
+      "goal": "Say what people are like.",
+      "tip": {
+        "title": "grand, grande — hear the ending",
+        "body": "Adjectives agree with the person: il est grand, elle est grande. Often the feminine -e makes a silent consonant come alive: grand [gʁɑ̃] → grande [gʁɑ̃d], petit → petite (you hear the t). Adjectives that already end in -e don't change: drôle, timide. Sympa doesn't change either. il = he, elle = she."
+      },
+      "phrases": [
+        {
+          "t": "Mon frère est grand.",
+          "n": "My brother is tall."
+        },
+        {
+          "t": "Ma sœur est très drôle.",
+          "n": "My sister is very funny."
+        },
+        {
+          "t": "Il a dix ans.",
+          "n": "He's ten years old.",
+          "note": "French uses avoir for age: literally \"he has ten years\"."
+        },
+        {
+          "t": "Elle s'appelle Léa.",
+          "n": "Her name is Léa."
+        },
+        {
+          "t": "Mon père est très gentil.",
+          "n": "My father is very kind."
+        },
+        {
+          "t": "Elle a les yeux bleus.",
+          "n": "She has blue eyes.",
+          "note": "les yeux is said with a liaison: [le-zyø]."
+        },
+        {
+          "t": "J'ai deux enfants.",
+          "n": "I have two children.",
+          "note": "Liaison: deux_enfants [dø-zɑ̃fɑ̃]."
+        },
+        {
+          "t": "On est une petite famille.",
+          "n": "We're a small family.",
+          "note": "In everyday speech on usually means \"we\"."
+        }
+      ],
+      "dialogue": {
+        "title": "Tell me about them",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Comment s'appelle ta sœur ?",
+            "n": "What's your sister's name?"
+          },
+          {
+            "who": "you",
+            "t": "Elle s'appelle Léa. Elle est très drôle.",
+            "n": "Her name is Léa. She's very funny."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Et ton frère ?",
+            "n": "And your brother?"
+          },
+          {
+            "who": "you",
+            "t": "Il a dix ans. Il est grand pour son âge.",
+            "n": "He's ten. He's tall for his age."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Vous êtes une grande famille !",
+            "n": "You're a big family!"
+          },
+          {
+            "who": "you",
+            "t": "Non, on est une petite famille.",
+            "n": "No, we're a small family."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say your father is very kind.",
+          "t": [
+            "Mon père est très gentil",
+            "Mon père est gentil"
+          ]
+        },
+        {
+          "n": "Say you have two children.",
+          "t": [
+            "J'ai deux enfants"
+          ]
+        },
+        {
+          "n": "Say her name is Léa.",
+          "t": [
+            "Elle s'appelle Léa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l3",
+      "title": "Grandparents, relatives & pets",
+      "goal": "Talk about grandparents, the wider family and pets.",
+      "tip": {
+        "title": "Papi, mamie — c'est or ce sont?",
+        "body": "Grand-père and grand-mère are the standard words; at home children say papi (or papy) and mamie. Les grands-parents = grandparents. For one person say C'est …, for several people Ce sont … (in casual speech many people also say C'est mes grands-parents). Pets: un chien (dog), un chat (cat) — the final -n and -t are silent."
+      },
+      "phrases": [
+        {
+          "t": "Ce sont mes grands-parents.",
+          "n": "These are my grandparents."
+        },
+        {
+          "t": "Ma grand-mère a quatre-vingts ans.",
+          "n": "My grandmother is eighty."
+        },
+        {
+          "t": "Mon grand-père s'appelle Jacques.",
+          "n": "My grandfather is called Jacques."
+        },
+        {
+          "t": "Mon oncle et ma tante habitent à Bruxelles.",
+          "n": "My uncle and my aunt live in Brussels.",
+          "note": "Liaison: mon_oncle sounds like [mɔ̃-nɔ̃kl]."
+        },
+        {
+          "t": "Mes cousins sont sympas.",
+          "n": "My cousins are nice."
+        },
+        {
+          "t": "J'ai un chien.",
+          "n": "I have a dog."
+        },
+        {
+          "t": "On a un chat.",
+          "n": "We have a cat."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "More photos",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "C'est ta grand-mère ?",
+            "n": "Is that your grandmother?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, c'est ma mamie. Elle a quatre-vingts ans.",
+            "n": "Yes, that's my grandma. She's eighty."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Elle a l'air très gentille. Et le chien ?",
+            "n": "She looks very kind. And the dog?"
+          },
+          {
+            "who": "you",
+            "t": "C'est mon chien, Filou.",
+            "n": "That's my dog, Filou."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Il est mignon ! Nous, on a un chat.",
+            "n": "He's cute! We have a cat."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say these are your grandparents.",
+          "t": [
+            "Ce sont mes grands-parents",
+            "C'est mes grands-parents",
+            "Voici mes grands-parents"
+          ]
+        },
+        {
+          "n": "Say you have a dog.",
+          "t": [
+            "J'ai un chien"
+          ]
+        },
+        {
+          "n": "Ask a friend if that is their grandmother.",
+          "t": [
+            "C'est ta grand-mère",
+            "Est-ce que c'est ta grand-mère",
+            "C'est ta mamie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l4",
+      "kind": "grammar",
+      "title": "mon, ton, son, votre",
+      "goal": "Say my, your, his and her with the right form.",
+      "tip": {
+        "title": "Possessives agree with the thing owned",
+        "body": "my: mon / ma / mes · your (tu): ton / ta / tes · his or her: son / sa / ses · your (vous): votre / vos. The form depends on the noun, not on the owner: son père can mean his father or her father; sa mère is his or her mother. Before a feminine word starting with a vowel sound, use mon/ton/son to avoid a clash: mon amie, ton école. In the plural, liaison is heard: mes_amis, ses_enfants, vos_enfants. Use ton/ta/tes with a friend, votre/vos with someone you say vous to."
+      },
+      "phrases": [
+        {
+          "t": "Comment s'appelle ton frère ?",
+          "n": "What's your brother's name?"
+        },
+        {
+          "t": "Comment s'appelle votre fille ?",
+          "n": "What's your daughter's name? (formal)"
+        },
+        {
+          "t": "Ma fille s'appelle Inès.",
+          "n": "My daughter's name is Inès."
+        },
+        {
+          "t": "Son père est sympa.",
+          "n": "His father is nice. / Her father is nice."
+        },
+        {
+          "t": "Ce sont tes parents ?",
+          "n": "Are those your parents?"
+        },
+        {
+          "t": "C'est mon amie Julie.",
+          "n": "This is my friend Julie.",
+          "note": "mon, not ma, before a vowel: mon_amie."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the family member",
+          "base": {
+            "t": "Voici mon frère.",
+            "n": "This is my brother."
+          },
+          "items": [
+            {
+              "cue": "sœur",
+              "t": "Voici ma sœur.",
+              "n": "This is my sister."
+            },
+            {
+              "cue": "parents",
+              "t": "Voici mes parents.",
+              "n": "These are my parents."
+            },
+            {
+              "cue": "amie",
+              "t": "Voici mon amie.",
+              "n": "This is my (female) friend."
+            },
+            {
+              "cue": "enfants",
+              "t": "Voici mes enfants.",
+              "n": "These are my children."
+            }
+          ]
+        },
+        {
+          "title": "Swap my → your",
+          "base": {
+            "t": "Ma mère s'appelle Anne.",
+            "n": "My mother's name is Anne."
+          },
+          "items": [
+            {
+              "cue": "tu ?",
+              "t": "Comment s'appelle ta mère ?",
+              "n": "What's your mother's name?"
+            },
+            {
+              "cue": "vous ?",
+              "t": "Comment s'appelle votre mère ?",
+              "n": "What's your mother's name? (formal)"
+            },
+            {
+              "cue": "père · tu ?",
+              "t": "Comment s'appelle ton père ?",
+              "n": "What's your father's name?"
+            }
+          ]
+        },
+        {
+          "title": "His or her: son, sa, ses",
+          "base": {
+            "t": "Son frère s'appelle Paul.",
+            "n": "His/Her brother's name is Paul."
+          },
+          "items": [
+            {
+              "cue": "sœur · Lucie",
+              "t": "Sa sœur s'appelle Lucie.",
+              "n": "His/Her sister's name is Lucie."
+            },
+            {
+              "cue": "chien · Rex",
+              "t": "Son chien s'appelle Rex.",
+              "n": "His/Her dog's name is Rex."
+            },
+            {
+              "cue": "parents · Marc et Anne",
+              "t": "Ses parents s'appellent Marc et Anne.",
+              "n": "His/Her parents are called Marc and Anne."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend what their brother's name is.",
+          "t": [
+            "Comment s'appelle ton frère",
+            "Ton frère s'appelle comment",
+            "Il s'appelle comment ton frère"
+          ]
+        },
+        {
+          "n": "Ask a colleague (formal) what her daughter's name is.",
+          "t": [
+            "Comment s'appelle votre fille",
+            "Votre fille s'appelle comment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l5",
+      "kind": "listening",
+      "title": "The family photo",
+      "goal": "Follow a chat about family members.",
+      "phrases": [
+        {
+          "t": "C'est ta famille ?",
+          "n": "Is that your family?"
+        },
+        {
+          "t": "Et lui, c'est qui ?",
+          "n": "And who's he?"
+        },
+        {
+          "t": "Elle a quel âge ?",
+          "n": "How old is she?"
+        },
+        {
+          "t": "Il est étudiant.",
+          "n": "He's a student."
+        }
+      ],
+      "story": {
+        "title": "Camille's family",
+        "intro": "Hugo looks at a family photo on Camille's phone.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "C'est ta famille ?",
+            "n": "Is that your family?"
+          },
+          {
+            "name": "Camille",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Oui ! Ce sont mes parents, et là, c'est ma petite sœur, Zoé.",
+            "n": "Yes! These are my parents, and there, that's my little sister, Zoé."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Elle a quel âge ?",
+            "n": "How old is she?"
+          },
+          {
+            "name": "Camille",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Elle a douze ans. Elle est très drôle.",
+            "n": "She's twelve. She's very funny."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Et lui, c'est qui ? Ton frère ?",
+            "n": "And who's he? Your brother?"
+          },
+          {
+            "name": "Camille",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Non, c'est mon cousin Mathis. Il est étudiant à Genève.",
+            "n": "No, that's my cousin Mathis. He's a student in Geneva."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Et la dame avec le chat ?",
+            "n": "And the lady with the cat?"
+          },
+          {
+            "name": "Camille",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "C'est ma grand-mère. Elle habite à Marseille, avec son chat Minou.",
+            "n": "That's my grandmother. She lives in Marseille, with her cat Minou."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment s'appelle la sœur de Camille ?",
+            "n": "What is Camille's sister's name?",
+            "t": [
+              "Zoé",
+              "Elle s'appelle Zoé",
+              "Sa sœur s'appelle Zoé"
+            ]
+          },
+          {
+            "q": "Zoé a quel âge ?",
+            "n": "How old is Zoé?",
+            "t": [
+              "Douze ans",
+              "Elle a douze ans",
+              "Douze"
+            ]
+          },
+          {
+            "q": "Qui est Mathis ?",
+            "n": "Who is Mathis?",
+            "t": [
+              "Son cousin",
+              "C'est son cousin",
+              "Le cousin de Camille",
+              "C'est le cousin de Camille",
+              "Un cousin"
+            ]
+          },
+          {
+            "q": "Où habite la grand-mère ?",
+            "n": "Where does the grandmother live?",
+            "t": [
+              "À Marseille",
+              "Marseille",
+              "Elle habite à Marseille"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u05-l6",
+      "kind": "roleplay",
+      "title": "Meeting a friend's mother",
+      "goal": "Make a polite first impression — vous or tu?",
+      "phrases": [
+        {
+          "t": "Bonjour, madame Lefèvre !",
+          "n": "Hello, Mrs Lefèvre!"
+        },
+        {
+          "t": "Vous avez des frères et sœurs ?",
+          "n": "Do you have brothers and sisters? (formal)"
+        },
+        {
+          "t": "Comment s'appelle votre sœur ?",
+          "n": "What's your sister's name? (formal)"
+        },
+        {
+          "t": "Manon a deux frères.",
+          "n": "Manon has two brothers."
+        }
+      ],
+      "branch": {
+        "title": "At Manon's home",
+        "scene": "Your friend Manon opens the door — and her mother comes to say hello.",
+        "name": "Madame Lefèvre",
+        "voice": "fr-FR-BrigitteNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Je suis la mère de Manon. Bienvenue !",
+            "n": "Hello! I'm Manon's mother. Welcome!",
+            "choices": [
+              {
+                "t": "Bonjour, madame ! Enchanté.",
+                "n": "Hello, madam! Pleased to meet you.",
+                "next": "polite"
+              },
+              {
+                "t": "Salut ! Tu t'appelles comment ?",
+                "n": "Hi! What's your name? (informal)",
+                "next": "tu"
+              }
+            ]
+          },
+          "tu": {
+            "t": "Euh… Je suis madame Lefèvre.",
+            "n": "Er… I'm Mrs Lefèvre.",
+            "choices": [
+              {
+                "t": "Pardon ! Enchanté, madame Lefèvre.",
+                "n": "Sorry! Pleased to meet you, Mrs Lefèvre.",
+                "next": "polite"
+              },
+              {
+                "t": "OK. Salut !",
+                "n": "OK. Bye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "polite": {
+            "t": "Enchantée ! Vous avez des frères et sœurs ?",
+            "n": "Pleased to meet you! Do you have brothers and sisters?",
+            "choices": [
+              {
+                "t": "Oui, j'ai une sœur.",
+                "n": "Yes, I have a sister.",
+                "next": "sister"
+              },
+              {
+                "t": "Non, je suis enfant unique.",
+                "n": "No, I'm an only child.",
+                "next": "only"
+              }
+            ]
+          },
+          "sister": {
+            "t": "Ah, c'est bien ! Comment s'appelle votre sœur ?",
+            "n": "Oh, that's nice! What's your sister's name?",
+            "choices": [
+              {
+                "t": "Elle s'appelle Emma. Elle a douze ans.",
+                "n": "Her name is Emma. She's twelve.",
+                "next": "dog"
+              }
+            ]
+          },
+          "only": {
+            "t": "Ah bon ? Manon a deux frères — c'est très bruyant ici !",
+            "n": "Really? Manon has two brothers — it's very noisy here!",
+            "choices": [
+              {
+                "t": "Ils s'appellent comment ?",
+                "n": "What are their names?",
+                "next": "brothers"
+              }
+            ]
+          },
+          "brothers": {
+            "t": "Louis et Gabriel. Et voici notre chien, Caramel !",
+            "n": "Louis and Gabriel. And here's our dog, Caramel!",
+            "choices": [
+              {
+                "t": "Oh, il est mignon !",
+                "n": "Oh, he's cute!",
+                "next": "table"
+              }
+            ]
+          },
+          "dog": {
+            "t": "Oh, attention, voici notre chien, Caramel !",
+            "n": "Oh, careful, here's our dog, Caramel!",
+            "choices": [
+              {
+                "t": "Il est mignon ! J'aime beaucoup les chiens.",
+                "n": "He's cute! I really like dogs.",
+                "next": "table"
+              }
+            ]
+          },
+          "table": {
+            "t": "Venez, on passe à table ! Et vous pouvez m'appeler Sophie.",
+            "n": "Come, let's sit down to eat! And you can call me Sophie.",
+            "end": "good",
+            "outcome": "You made a polite first impression and got invited to the table."
+          },
+          "bye": {
+            "t": "Euh… au revoir ?",
+            "n": "Er… goodbye?",
+            "end": "bad",
+            "outcome": "Use vous and madame with a friend's parents — try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Greet your friend's mother, Mrs Lefèvre, politely.",
+          "t": [
+            "Bonjour madame Lefèvre",
+            "Bonjour madame",
+            "Enchanté madame Lefèvre",
+            "Enchantée madame Lefèvre"
+          ]
+        },
+        {
+          "n": "Ask her (formal) if she has brothers and sisters.",
+          "t": [
+            "Vous avez des frères et sœurs",
+            "Est-ce que vous avez des frères et sœurs",
+            "Avez-vous des frères et sœurs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-l7",
+      "kind": "speaking",
+      "title": "My family",
+      "goal": "Describe your family freely for 30 seconds.",
+      "culture": {
+        "title": "Le repas du dimanche",
+        "body": "In many French families the Sunday lunch is a tradition: grandparents, parents and children gather around the table, often for a long meal that can stretch well into the afternoon. Within the family people generally use tu, including with parents and grandparents. Watch out for meal names: in France le déjeuner is lunch and le dîner is the evening meal, but in Belgium, Switzerland and Québec people usually say le déjeuner for breakfast, le dîner for lunch and le souper for the evening meal.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "J'ai une grande famille.",
+          "n": "I have a big family."
+        },
+        {
+          "t": "Ma mère s'appelle Anne.",
+          "n": "My mother's name is Anne."
+        },
+        {
+          "t": "Mon frère habite à Montréal.",
+          "n": "My brother lives in Montreal."
+        },
+        {
+          "t": "Le dimanche, je déjeune chez mes grands-parents.",
+          "n": "On Sundays I have lunch at my grandparents' place.",
+          "note": "le dimanche = on Sundays (every Sunday)."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your family: who they are, their names, ages and where they live.",
+          "hint": "Ma mère s'appelle … · Mon frère a … ans. · Il habite à …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "family members",
+              "any": [
+                "mère",
+                "père",
+                "frère*",
+                "sœur*",
+                "soeur*",
+                "parents",
+                "grand-mère",
+                "grand-père",
+                "grands-parents",
+                "mamie",
+                "papi",
+                "enfant*",
+                "fils",
+                "fille*",
+                "oncle",
+                "tante",
+                "cousin*",
+                "famille"
+              ]
+            },
+            {
+              "label": "names",
+              "any": [
+                "s'appelle",
+                "s'appellent",
+                "appelle",
+                "nom"
+              ]
+            },
+            {
+              "label": "ages",
+              "any": [
+                "ans",
+                "âge"
+              ]
+            },
+            {
+              "label": "where they live",
+              "any": [
+                "habite",
+                "habitent",
+                "habites",
+                "vit",
+                "vivent"
+              ]
+            }
+          ],
+          "model": "J'ai une petite famille. Ma mère s'appelle Anne, elle a soixante ans. Mon frère Paul a trente ans et il habite à Montréal."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have a big family.",
+          "t": [
+            "J'ai une grande famille"
+          ]
+        },
+        {
+          "n": "Say your brother lives in Montreal.",
+          "t": [
+            "Mon frère habite à Montréal",
+            "Mon frère vit à Montréal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La famille",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

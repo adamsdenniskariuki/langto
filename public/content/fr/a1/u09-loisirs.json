@@ -1,0 +1,867 @@
+{
+  "id": "u09",
+  "title": "Les loisirs",
+  "subtitle": "Hobbies, sports & making plans",
+  "icon": "⚽",
+  "lessons": [
+    {
+      "id": "u09-l1",
+      "title": "What do you like doing?",
+      "goal": "Talk about your hobbies.",
+      "tip": {
+        "title": "aimer + infinitive",
+        "body": "To say what you like doing, use aimer + the infinitive: J'aime lire (I like reading). Je + aime becomes J'aime — the e drops before a vowel. In the negative, ne… pas wraps around the conjugated verb: Je n'aime pas danser. In speech many people drop the ne: J'aime pas danser."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que tu aimes faire ?",
+          "n": "What do you like doing?"
+        },
+        {
+          "t": "J'aime lire.",
+          "n": "I like reading."
+        },
+        {
+          "t": "J'aime écouter de la musique.",
+          "n": "I like listening to music."
+        },
+        {
+          "t": "J'adore cuisiner.",
+          "n": "I love cooking."
+        },
+        {
+          "t": "J'aime aller au cinéma.",
+          "n": "I like going to the cinema."
+        },
+        {
+          "t": "Je n'aime pas danser.",
+          "n": "I don't like dancing."
+        },
+        {
+          "t": "C'est quoi, ton passe-temps préféré ?",
+          "n": "What's your favourite hobby?",
+          "note": "Spoken, friendly. More formal: Quel est ton passe-temps préféré ?"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "Getting to know each other",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Qu'est-ce que tu aimes faire ?",
+            "n": "What do you like doing?"
+          },
+          {
+            "who": "you",
+            "t": "J'aime lire et j'adore cuisiner.",
+            "n": "I like reading and I love cooking."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Super ! Moi, j'aime écouter de la musique.",
+            "n": "Great! I like listening to music."
+          },
+          {
+            "who": "you",
+            "t": "C'est quoi, ton passe-temps préféré ?",
+            "n": "What's your favourite hobby?"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "J'aime aller au cinéma. Mais je n'aime pas danser !",
+            "n": "I like going to the cinema. But I don't like dancing!"
+          },
+          {
+            "who": "you",
+            "t": "Moi non plus !",
+            "n": "Me neither!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend what they like doing.",
+          "t": [
+            "Qu'est-ce que tu aimes faire",
+            "Tu aimes faire quoi",
+            "C'est quoi ton passe-temps préféré",
+            "Quel est ton passe-temps préféré"
+          ]
+        },
+        {
+          "n": "Say you like listening to music.",
+          "t": [
+            "J'aime écouter de la musique",
+            "J'adore écouter de la musique"
+          ]
+        },
+        {
+          "n": "Say you don't like dancing.",
+          "t": [
+            "Je n'aime pas danser",
+            "J'aime pas danser"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l2",
+      "title": "Let's meet!",
+      "goal": "Suggest plans, accept and decline.",
+      "tip": {
+        "title": "On y va ?",
+        "body": "In everyday French, on (literally \"one\") usually means \"we\": On va au cinéma ? = Shall we go to the cinema? Just raise your voice at the end to make it a suggestion. To decline politely: Désolé, je ne peux pas (a woman writes désolée — it sounds the same)."
+      },
+      "phrases": [
+        {
+          "t": "Tu es libre samedi ?",
+          "n": "Are you free on Saturday?"
+        },
+        {
+          "t": "On va au cinéma ?",
+          "n": "Shall we go to the cinema?"
+        },
+        {
+          "t": "Bonne idée !",
+          "n": "Good idea!"
+        },
+        {
+          "t": "Avec plaisir !",
+          "n": "With pleasure! / I'd love to!"
+        },
+        {
+          "t": "Désolé, je ne peux pas.",
+          "n": "Sorry, I can't.",
+          "note": "A woman writes désolée; the pronunciation is the same."
+        },
+        {
+          "t": "On se retrouve à sept heures ?",
+          "n": "Shall we meet at seven?"
+        },
+        {
+          "t": "À samedi !",
+          "n": "See you Saturday!"
+        }
+      ],
+      "dialogue": {
+        "title": "Weekend plans",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Salut ! Tu es libre samedi ?",
+            "n": "Hi! Are you free on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Oui ! On va au cinéma ?",
+            "n": "Yes! Shall we go to the cinema?"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Bonne idée ! On se retrouve à sept heures ?",
+            "n": "Good idea! Shall we meet at seven?"
+          },
+          {
+            "who": "you",
+            "t": "Avec plaisir. Devant le cinéma ?",
+            "n": "I'd love to. In front of the cinema?"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "D'accord. À samedi !",
+            "n": "OK. See you Saturday!"
+          },
+          {
+            "who": "you",
+            "t": "À samedi !",
+            "n": "See you Saturday!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend if they're free on Sunday.",
+          "t": [
+            "Tu es libre dimanche",
+            "Est-ce que tu es libre dimanche",
+            "T'es libre dimanche",
+            "Vous êtes libre dimanche"
+          ]
+        },
+        {
+          "n": "Suggest going to the cinema.",
+          "t": [
+            "On va au cinéma",
+            "On va au ciné",
+            "Tu veux aller au cinéma",
+            "Allons au cinéma"
+          ]
+        },
+        {
+          "n": "Politely say you can't.",
+          "t": [
+            "Désolé je ne peux pas",
+            "Désolée je ne peux pas",
+            "Désolé je peux pas",
+            "Je suis désolé je ne peux pas",
+            "Je ne peux pas désolé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l3",
+      "title": "Sport & more",
+      "goal": "Say what you do and how often.",
+      "tip": {
+        "title": "Combien de fois ?",
+        "body": "Answer Tu fais ça souvent ? (Do you do that often?) with une fois, deux fois, trois fois par semaine — once, twice, three times a week — or souvent (often), de temps en temps (from time to time), le week-end (at weekends). Note: le samedi means \"on Saturdays\", samedi alone means \"this Saturday\"."
+      },
+      "phrases": [
+        {
+          "t": "Je fais du vélo.",
+          "n": "I go cycling."
+        },
+        {
+          "t": "Je fais de la natation.",
+          "n": "I go swimming. / I do swimming."
+        },
+        {
+          "t": "Je joue de la guitare.",
+          "n": "I play the guitar."
+        },
+        {
+          "t": "Le week-end, je fais de la randonnée.",
+          "n": "At weekends I go hiking.",
+          "note": "In Québec you'll often hear la fin de semaine for the weekend."
+        },
+        {
+          "t": "Tu joues au foot souvent ?",
+          "n": "Do you play football often?"
+        },
+        {
+          "t": "Deux fois par semaine.",
+          "n": "Twice a week."
+        },
+        {
+          "t": "Je cours le matin.",
+          "n": "I run in the mornings."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "After class",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Tu fais du sport ?",
+            "n": "Do you do any sport?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je fais du vélo. Et le week-end, je fais de la randonnée.",
+            "n": "Yes, I go cycling. And at weekends I go hiking."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Génial ! Tu joues au foot aussi ?",
+            "n": "Great! Do you play football too?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, deux fois par semaine. Et toi ?",
+            "n": "Yes, twice a week. And you?"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Moi, je cours le matin et je joue de la guitare le soir.",
+            "n": "I run in the mornings and play the guitar in the evenings."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you go cycling.",
+          "t": [
+            "Je fais du vélo"
+          ]
+        },
+        {
+          "n": "Ask a friend if they play football often.",
+          "t": [
+            "Tu joues au foot souvent",
+            "Tu joues souvent au foot",
+            "Tu joues souvent au football",
+            "Est-ce que tu joues souvent au foot"
+          ]
+        },
+        {
+          "n": "Say you go hiking at weekends.",
+          "t": [
+            "Le week-end je fais de la randonnée",
+            "Je fais de la randonnée le week-end",
+            "La fin de semaine je fais de la randonnée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l4",
+      "kind": "grammar",
+      "title": "aimer, faire & jouer",
+      "goal": "Say what you like and which sports you do.",
+      "tip": {
+        "title": "Like it? Use le / la. Do it? Use du / de la.",
+        "body": "aimer, adorer, préférer and détester take an infinitive (J'adore nager) or a noun with le / la / les for things in general: J'aime le sport, je déteste le foot. For sports and activities use faire de: je fais du judo, de la danse, de l'escalade. jouer à is for games and ball sports (je joue au tennis, aux cartes) and jouer de is for instruments (je joue du piano, de la guitare). After ne… pas, du / de la become de: je ne fais pas de sport. Remember à + le = au, de + le = du."
+      },
+      "phrases": [
+        {
+          "t": "J'adore le cinéma.",
+          "n": "I love the cinema."
+        },
+        {
+          "t": "Je déteste courir.",
+          "n": "I hate running."
+        },
+        {
+          "t": "Je préfère la natation.",
+          "n": "I prefer swimming."
+        },
+        {
+          "t": "Je fais de la danse.",
+          "n": "I do dancing. / I dance."
+        },
+        {
+          "t": "Je joue au tennis et du piano.",
+          "n": "I play tennis and the piano."
+        },
+        {
+          "t": "Je ne fais pas de sport.",
+          "n": "I don't do any sport."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap aimer → adorer / détester",
+          "base": {
+            "t": "J'aime lire.",
+            "n": "I like reading."
+          },
+          "items": [
+            {
+              "cue": "adorer",
+              "t": "J'adore lire.",
+              "n": "I love reading."
+            },
+            {
+              "cue": "détester · courir",
+              "t": "Je déteste courir.",
+              "n": "I hate running."
+            },
+            {
+              "cue": "tu · nager ?",
+              "t": "Tu aimes nager ?",
+              "n": "Do you like swimming?"
+            },
+            {
+              "cue": "ne… pas",
+              "t": "Je n'aime pas lire.",
+              "n": "I don't like reading."
+            }
+          ]
+        },
+        {
+          "title": "faire du / de la / de l'",
+          "base": {
+            "t": "Je fais du vélo.",
+            "n": "I go cycling."
+          },
+          "items": [
+            {
+              "cue": "la natation",
+              "t": "Je fais de la natation.",
+              "n": "I go swimming."
+            },
+            {
+              "cue": "l'escalade",
+              "t": "Je fais de l'escalade.",
+              "n": "I go climbing."
+            },
+            {
+              "cue": "nous · le yoga",
+              "t": "Nous faisons du yoga.",
+              "n": "We do yoga."
+            },
+            {
+              "cue": "ne… pas",
+              "t": "Je ne fais pas de vélo.",
+              "n": "I don't go cycling."
+            }
+          ]
+        },
+        {
+          "title": "jouer à or jouer de?",
+          "base": {
+            "t": "Je joue au tennis.",
+            "n": "I play tennis."
+          },
+          "items": [
+            {
+              "cue": "les cartes",
+              "t": "Je joue aux cartes.",
+              "n": "I play cards."
+            },
+            {
+              "cue": "le piano",
+              "t": "Je joue du piano.",
+              "n": "I play the piano."
+            },
+            {
+              "cue": "la guitare",
+              "t": "Je joue de la guitare.",
+              "n": "I play the guitar."
+            },
+            {
+              "cue": "il · le foot",
+              "t": "Il joue au foot.",
+              "n": "He plays football."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you like tennis, but you prefer swimming.",
+          "t": [
+            "J'aime le tennis mais je préfère la natation",
+            "J'aime le tennis mais je préfère nager",
+            "J'aime jouer au tennis mais je préfère nager"
+          ]
+        },
+        {
+          "n": "Ask a friend if they play the piano.",
+          "t": [
+            "Tu joues du piano",
+            "Est-ce que tu joues du piano",
+            "Joues-tu du piano",
+            "Vous jouez du piano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l5",
+      "kind": "listening",
+      "title": "Football or swimming?",
+      "goal": "Understand two friends planning their weekend.",
+      "phrases": [
+        {
+          "t": "Je suis dans un club.",
+          "n": "I'm in a club."
+        },
+        {
+          "t": "Tu viens avec moi ?",
+          "n": "Are you coming with me?"
+        },
+        {
+          "t": "Je vais à la piscine.",
+          "n": "I'm going to the swimming pool."
+        },
+        {
+          "t": "Tu nages bien ?",
+          "n": "Can you swim well? / Do you swim well?"
+        }
+      ],
+      "story": {
+        "title": "Chloé and Thomas",
+        "intro": "Chloé asks Thomas about his weekend.",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "name": "Chloé",
+            "t": "Thomas, qu'est-ce que tu fais samedi ?",
+            "n": "Thomas, what are you doing on Saturday?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Samedi, je joue au foot. Je suis dans un club.",
+            "n": "On Saturday I'm playing football. I'm in a club."
+          },
+          {
+            "name": "Chloé",
+            "t": "Ah bon ? Moi, je n'aime pas le foot. Je préfère la natation.",
+            "n": "Really? I don't like football. I prefer swimming."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Tu nages bien ?",
+            "n": "Do you swim well?"
+          },
+          {
+            "name": "Chloé",
+            "t": "Oui ! Je nage trois fois par semaine. Dimanche, je vais à la piscine. Tu viens avec moi ?",
+            "n": "Yes! I swim three times a week. On Sunday I'm going to the pool. Are you coming with me?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Avec plaisir ! À quelle heure ?",
+            "n": "I'd love to! At what time?"
+          },
+          {
+            "name": "Chloé",
+            "t": "À dix heures. Et après, on mange une crêpe ?",
+            "n": "At ten o'clock. And afterwards, shall we have a crêpe?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Bonne idée ! À dimanche !",
+            "n": "Good idea! See you Sunday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce que Thomas fait samedi ?",
+            "n": "What does Thomas do on Saturday?",
+            "t": [
+              "Il joue au foot",
+              "Il joue au football",
+              "Du foot",
+              "Le foot",
+              "Il joue au foot dans un club"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Chloé préfère ?",
+            "n": "What does Chloé prefer?",
+            "t": [
+              "La natation",
+              "Elle préfère la natation",
+              "Nager",
+              "Elle préfère nager"
+            ]
+          },
+          {
+            "q": "Chloé nage combien de fois par semaine ?",
+            "n": "How many times a week does Chloé swim?",
+            "t": [
+              "Trois fois",
+              "Trois fois par semaine",
+              "Elle nage trois fois par semaine"
+            ]
+          },
+          {
+            "q": "Quand est-ce qu'ils vont à la piscine ?",
+            "n": "When are they going to the pool?",
+            "t": [
+              "Dimanche à dix heures",
+              "Dimanche",
+              "À dix heures",
+              "Ils vont à la piscine dimanche à dix heures"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u09-l6",
+      "kind": "roleplay",
+      "title": "Inviting a friend",
+      "goal": "Invite Hugo out and agree on a time.",
+      "phrases": [
+        {
+          "t": "On va au concert ?",
+          "n": "Shall we go to a concert?"
+        },
+        {
+          "t": "On se retrouve quand ?",
+          "n": "When shall we meet?"
+        },
+        {
+          "t": "Tu peux à sept heures ?",
+          "n": "Can you make it at seven?"
+        },
+        {
+          "t": "Tu m'entends ?",
+          "n": "Can you hear me?"
+        }
+      ],
+      "branch": {
+        "title": "Phone call with Hugo",
+        "scene": "You call your friend Hugo to make plans for Friday evening.",
+        "name": "Hugo",
+        "voice": "fr-FR-YvesNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Allô ? Salut ! Ça va ?",
+            "n": "Hello? Hi! How are you?",
+            "choices": [
+              {
+                "t": "Ça va bien ! Tu es libre vendredi ?",
+                "n": "I'm fine! Are you free on Friday?",
+                "next": "free"
+              },
+              {
+                "t": "Allô ? Hugo ? Tu m'entends ?",
+                "n": "Hello? Hugo? Can you hear me?",
+                "next": "line"
+              }
+            ]
+          },
+          "line": {
+            "t": "Oui, maintenant je t'entends. Quoi de neuf ?",
+            "n": "Yes, now I can hear you. What's new?",
+            "choices": [
+              {
+                "t": "Tu es libre vendredi soir ?",
+                "n": "Are you free on Friday evening?",
+                "next": "free"
+              }
+            ]
+          },
+          "free": {
+            "t": "Vendredi ? Oui, pourquoi ?",
+            "n": "Friday? Yes, why?",
+            "choices": [
+              {
+                "t": "On va au concert ?",
+                "n": "Shall we go to a concert?",
+                "next": "concert"
+              },
+              {
+                "t": "On joue au foot ?",
+                "n": "Shall we play football?",
+                "next": "football"
+              }
+            ]
+          },
+          "football": {
+            "t": "Bof, je n'aime pas trop le foot. Je préfère aller au concert.",
+            "n": "Meh, I don't really like football. I'd rather go to a concert.",
+            "choices": [
+              {
+                "t": "D'accord, on va au concert !",
+                "n": "OK, let's go to the concert!",
+                "next": "concert"
+              },
+              {
+                "t": "Non, c'est le foot ou rien !",
+                "n": "No, it's football or nothing!",
+                "next": "nothing"
+              }
+            ]
+          },
+          "concert": {
+            "t": "Super idée ! On se retrouve quand ?",
+            "n": "Great idea! When shall we meet?",
+            "choices": [
+              {
+                "t": "À sept heures et demie devant la gare ?",
+                "n": "At half past seven in front of the station?",
+                "next": "deal"
+              },
+              {
+                "t": "Tu peux à sept heures ?",
+                "n": "Can you make it at seven?",
+                "next": "late"
+              }
+            ]
+          },
+          "late": {
+            "t": "À sept heures, je ne peux pas. Je travaille jusqu'à sept heures. Sept heures et demie, ça va ?",
+            "n": "I can't at seven. I work until seven. Is half past seven OK?",
+            "choices": [
+              {
+                "t": "Oui, sept heures et demie, ça marche. Devant la gare ?",
+                "n": "Yes, half past seven works. In front of the station?",
+                "next": "deal"
+              },
+              {
+                "t": "Non, sept heures ou rien !",
+                "n": "No, seven or nothing!",
+                "next": "nothing"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Parfait ! Sept heures et demie devant la gare. À vendredi !",
+            "n": "Perfect! Half past seven in front of the station. See you Friday!",
+            "end": "good",
+            "outcome": "You and Hugo are going to a concert on Friday."
+          },
+          "nothing": {
+            "t": "Ah… Alors non, désolé. Salut !",
+            "n": "Oh… Then no, sorry. Bye!",
+            "end": "bad",
+            "outcome": "Too pushy — try again and find a plan you both like."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Invite a friend to a concert.",
+          "t": [
+            "On va au concert",
+            "Tu viens au concert avec moi",
+            "Tu veux aller au concert",
+            "Allons au concert"
+          ]
+        },
+        {
+          "n": "Ask when you'll meet.",
+          "t": [
+            "On se retrouve quand",
+            "Quand est-ce qu'on se retrouve",
+            "On se retrouve à quelle heure",
+            "On se voit quand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-l7",
+      "kind": "speaking",
+      "title": "My free time",
+      "goal": "Talk about your hobbies for 30 seconds.",
+      "culture": {
+        "title": "Pétanque, the Tour & hockey",
+        "body": "In France, pétanque comes from the south: players throw metal balls (boules) as close as possible to a small wooden ball, the cochonnet, often in a village square on a summer evening. Every July the Tour de France cycling race crosses the country, traditionally finishing in Paris (in 2024 it ended in Nice because of the Paris Olympics), and crowds line the roads shouting Allez ! Cycling is also hugely popular in Belgium, and in Switzerland many people ski and hike. In Québec, hockey is the passion: children play on outdoor rinks in winter, and fans follow the Montréal Canadiens.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "On joue à la pétanque ?",
+          "n": "Shall we play pétanque?"
+        },
+        {
+          "t": "Tu regardes le Tour de France ?",
+          "n": "Do you watch the Tour de France?"
+        },
+        {
+          "t": "J'adore regarder le hockey.",
+          "n": "I love watching hockey."
+        },
+        {
+          "t": "C'est génial !",
+          "n": "It's great!"
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your hobbies: what you like, what you don't like, and which sports or instruments you play.",
+          "hint": "J'aime / J'adore … · Je n'aime pas … · Je fais du / de la … · Je joue au / du … · deux fois par semaine",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "aimer / adorer / préférer / détester",
+              "any": [
+                "aime",
+                "adore",
+                "préfère",
+                "déteste",
+                "aimes",
+                "adores"
+              ]
+            },
+            {
+              "label": "faire du / jouer à",
+              "any": [
+                "fais",
+                "fait",
+                "joue",
+                "jouer",
+                "faire"
+              ]
+            },
+            {
+              "label": "a hobby or sport",
+              "any": [
+                "foot",
+                "football",
+                "tennis",
+                "natation",
+                "nage*",
+                "vélo",
+                "randonnée",
+                "lire",
+                "musique",
+                "cuisine*",
+                "danse*",
+                "cinéma",
+                "guitare",
+                "piano",
+                "cours",
+                "courir",
+                "yoga",
+                "escalade",
+                "pétanque",
+                "hockey",
+                "ski",
+                "sport"
+              ]
+            },
+            {
+              "label": "how often",
+              "any": [
+                "fois",
+                "souvent",
+                "week-end",
+                "weekend",
+                "temps en temps",
+                "jamais",
+                "matin",
+                "soir"
+              ]
+            }
+          ],
+          "model": "J'adore le sport. Je fais du vélo deux fois par semaine et je joue au tennis le week-end. J'aime aussi lire, mais je n'aime pas danser."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Suggest a game of pétanque.",
+          "t": [
+            "On joue à la pétanque",
+            "On fait une pétanque",
+            "Tu veux jouer à la pétanque",
+            "Allons jouer à la pétanque"
+          ]
+        },
+        {
+          "n": "Say it's great!",
+          "t": [
+            "C'est génial",
+            "C'est super",
+            "C'est trop bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les loisirs",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

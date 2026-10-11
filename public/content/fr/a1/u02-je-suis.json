@@ -1,0 +1,878 @@
+{
+  "id": "u02",
+  "title": "Je me présente",
+  "subtitle": "Introducing yourself",
+  "icon": "🙋",
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "Nationalities",
+      "goal": "Say your nationality and ask about someone else's.",
+      "tip": {
+        "title": "Hear the feminine",
+        "body": "Nationalities have a masculine and a feminine form. Often you just add -e: anglais → anglaise, américain → américaine. Listen for it: the final consonant is silent in the masculine (anglais = \"ong-lay\") but pronounced in the feminine (anglaise = \"ong-lez\"). Words already ending in -e stay the same: belge, suisse, russe. Unlike English, nationalities are written with a small letter: je suis français."
+      },
+      "phrases": [
+        {
+          "t": "Je suis anglais.",
+          "n": "I'm English. (man)"
+        },
+        {
+          "t": "Je suis anglaise.",
+          "n": "I'm English. (woman)"
+        },
+        {
+          "t": "Je suis américain.",
+          "n": "I'm American. (man)",
+          "note": "Feminine: américaine — the nasal -ain opens to \"-ène\"."
+        },
+        {
+          "t": "Je suis canadienne.",
+          "n": "I'm Canadian. (woman)",
+          "note": "Masculine: canadien."
+        },
+        {
+          "t": "Tu es français ?",
+          "n": "Are you French? (to a man, informal)"
+        },
+        {
+          "t": "Oui, je suis française.",
+          "n": "Yes, I'm French. (woman)"
+        },
+        {
+          "t": "Vous êtes de quelle nationalité ?",
+          "n": "What nationality are you? (formal)"
+        },
+        {
+          "t": "Je suis britannique.",
+          "n": "I'm British.",
+          "note": "Same form for men and women."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JosephineNeural",
+        "title": "At the language café",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Salut ! Tu es américain ?",
+            "n": "Hi! Are you American?"
+          },
+          {
+            "who": "you",
+            "t": "Non, je suis anglais. Et toi, tu es française ?",
+            "n": "No, I'm English. And you, are you French?"
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Non, moi, je suis belge !",
+            "n": "No, I'm Belgian!"
+          },
+          {
+            "who": "you",
+            "t": "Ah, super ! Enchanté !",
+            "n": "Oh, great! Nice to meet you!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say your nationality.",
+          "t": [
+            "Je suis …",
+            "Je suis anglais",
+            "Je suis anglaise",
+            "Je suis américain",
+            "Je suis américaine"
+          ]
+        },
+        {
+          "n": "Ask a man if he is French (informal).",
+          "t": [
+            "Tu es français",
+            "Est-ce que tu es français",
+            "Es-tu français"
+          ]
+        },
+        {
+          "n": "Ask a stranger politely what nationality she is.",
+          "t": [
+            "Vous êtes de quelle nationalité",
+            "Quelle est votre nationalité",
+            "De quelle nationalité êtes-vous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "Countries and cities",
+      "goal": "Say where you're from and where you live.",
+      "tip": {
+        "title": "en, au, aux — or à",
+        "body": "Countries have a gender. Feminine countries (most end in -e: la France, l'Angleterre, la Belgique, la Suisse) take en: j'habite en France. Masculine countries take au: au Canada, au Japon, au Sénégal. Plural countries take aux: aux États-Unis (the x links to the vowel: \"o-zay-ta-zu-nee\"). Cities just take à: à Paris, à Montréal. To say where you come from, use de/d': je viens de Londres, d'Angleterre, du Canada, des États-Unis."
+      },
+      "phrases": [
+        {
+          "t": "Tu viens d'où ?",
+          "n": "Where are you from? (informal)"
+        },
+        {
+          "t": "Vous venez d'où ?",
+          "n": "Where are you from? (formal)"
+        },
+        {
+          "t": "Je viens d'Angleterre.",
+          "n": "I'm from England."
+        },
+        {
+          "t": "Je viens des États-Unis.",
+          "n": "I'm from the United States."
+        },
+        {
+          "t": "Tu habites où ?",
+          "n": "Where do you live? (informal)"
+        },
+        {
+          "t": "J'habite en France.",
+          "n": "I live in France."
+        },
+        {
+          "t": "J'habite au Canada.",
+          "n": "I live in Canada."
+        },
+        {
+          "t": "J'habite à Montréal.",
+          "n": "I live in Montreal."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CelesteNeural",
+        "title": "Small talk at a party",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Tu viens d'où ?",
+            "n": "Where are you from?"
+          },
+          {
+            "who": "you",
+            "t": "Je viens d'Angleterre, de Manchester.",
+            "n": "I'm from England, from Manchester."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Et tu habites où, maintenant ?",
+            "n": "And where do you live now?"
+          },
+          {
+            "who": "you",
+            "t": "J'habite à Paris. J'apprends le français.",
+            "n": "I live in Paris. I'm learning French."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Génial ! Tu parles très bien !",
+            "n": "Brilliant! You speak very well!"
+          },
+          {
+            "who": "you",
+            "t": "Merci, c'est gentil !",
+            "n": "Thanks, that's kind!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say which country you come from.",
+          "t": [
+            "Je viens …",
+            "Je viens d'Angleterre",
+            "Je viens des États-Unis",
+            "Je viens du Canada"
+          ]
+        },
+        {
+          "n": "Say which city you live in.",
+          "t": [
+            "J'habite à …"
+          ]
+        },
+        {
+          "n": "Tell someone you live in the United States.",
+          "t": [
+            "J'habite aux États-Unis",
+            "Je vis aux États-Unis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Languages & survival phrases",
+      "goal": "Talk about languages and keep going when you don't understand.",
+      "tip": {
+        "title": "Your secret weapon",
+        "body": "Language names are masculine and lower-case: le français, l'anglais, l'espagnol. After parler you can drop le: je parle anglais. These survival phrases keep any conversation alive — people are happy to repeat. Pronunciation: comprends ends in a nasal vowel; the d and s are silent."
+      },
+      "phrases": [
+        {
+          "t": "Vous parlez anglais ?",
+          "n": "Do you speak English? (formal)"
+        },
+        {
+          "t": "Je parle un peu français.",
+          "n": "I speak a little French."
+        },
+        {
+          "t": "J'apprends le français.",
+          "n": "I'm learning French."
+        },
+        {
+          "t": "Je ne comprends pas.",
+          "n": "I don't understand.",
+          "note": "In casual speech: Je comprends pas."
+        },
+        {
+          "t": "Vous pouvez répéter, s'il vous plaît ?",
+          "n": "Can you repeat that, please?"
+        },
+        {
+          "t": "Qu'est-ce que ça veut dire ?",
+          "n": "What does that mean?"
+        },
+        {
+          "t": "Comment on dit ça en français ?",
+          "n": "How do you say that in French?"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-AlainNeural",
+        "title": "Asking for help at the bakery",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Le boulanger",
+            "t": "Vous voulez un sac ?",
+            "n": "Do you want a bag?"
+          },
+          {
+            "who": "you",
+            "t": "Pardon ? Vous pouvez répéter, s'il vous plaît ?",
+            "n": "Sorry? Can you repeat that, please?"
+          },
+          {
+            "who": "A",
+            "name": "Le boulanger",
+            "t": "Un sac ?",
+            "n": "A bag?"
+          },
+          {
+            "who": "you",
+            "t": "Qu'est-ce que ça veut dire ?",
+            "n": "What does that mean?"
+          },
+          {
+            "who": "A",
+            "name": "Le boulanger",
+            "t": "A bag ! Vous parlez anglais ?",
+            "n": "A bag! Do you speak English?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais j'apprends le français ! Non, merci.",
+            "n": "Yes, but I'm learning French! No, thank you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask the waiter if he speaks English.",
+          "t": [
+            "Vous parlez anglais",
+            "Est-ce que vous parlez anglais",
+            "Parlez-vous anglais"
+          ]
+        },
+        {
+          "n": "Say you don't understand.",
+          "t": [
+            "Je ne comprends pas",
+            "Je comprends pas",
+            "Désolé je ne comprends pas",
+            "Désolée je ne comprends pas"
+          ]
+        },
+        {
+          "n": "Say you speak a little French.",
+          "t": [
+            "Je parle un peu français",
+            "Je parle un peu le français",
+            "Un peu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l4",
+      "kind": "grammar",
+      "title": "être, adjectives & jobs",
+      "goal": "Use être with all persons and make adjectives agree.",
+      "tip": {
+        "title": "être is irregular — and the adjective agrees",
+        "body": "être (to be): je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Es and est sound the same (\"ay\"). Adjectives agree with the person: add -e for a woman (grand → grande), -s for plural (ils sont anglais stays the same because it already ends in s). Some endings change more: -ien → -ienne, -eur → -euse. For jobs, French drops the article: je suis étudiant (not \"un étudiant\"). On is very common in speech and means \"we\": on est canadiens."
+      },
+      "phrases": [
+        {
+          "t": "Je suis étudiant.",
+          "n": "I'm a student. (man)"
+        },
+        {
+          "t": "Elle est étudiante.",
+          "n": "She's a student."
+        },
+        {
+          "t": "Il est infirmier.",
+          "n": "He's a nurse.",
+          "note": "Feminine: infirmière."
+        },
+        {
+          "t": "Nous sommes canadiens.",
+          "n": "We're Canadian."
+        },
+        {
+          "t": "Vous êtes professeur ?",
+          "n": "Are you a teacher?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person (être)",
+          "base": {
+            "t": "Je suis anglais.",
+            "n": "I'm English."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Tu es anglais.",
+              "n": "You're English."
+            },
+            {
+              "cue": "il",
+              "t": "Il est anglais.",
+              "n": "He's English."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous sommes anglais.",
+              "n": "We're English."
+            },
+            {
+              "cue": "vous",
+              "t": "Vous êtes anglais.",
+              "n": "You're English."
+            }
+          ]
+        },
+        {
+          "title": "Make it feminine",
+          "base": {
+            "t": "Il est américain.",
+            "n": "He's American."
+          },
+          "items": [
+            {
+              "cue": "elle",
+              "t": "Elle est américaine.",
+              "n": "She's American."
+            },
+            {
+              "cue": "elle · canadien",
+              "t": "Elle est canadienne.",
+              "n": "She's Canadian."
+            },
+            {
+              "cue": "elle · serveur",
+              "t": "Elle est serveuse.",
+              "n": "She's a waitress."
+            },
+            {
+              "cue": "elle · suisse",
+              "t": "Elle est suisse.",
+              "n": "She's Swiss."
+            }
+          ]
+        },
+        {
+          "title": "Say the job",
+          "base": {
+            "t": "Je suis médecin.",
+            "n": "I'm a doctor."
+          },
+          "items": [
+            {
+              "cue": "ingénieur",
+              "t": "Je suis ingénieur.",
+              "n": "I'm an engineer."
+            },
+            {
+              "cue": "elle · avocat",
+              "t": "Elle est avocate.",
+              "n": "She's a lawyer."
+            },
+            {
+              "cue": "ils · étudiant",
+              "t": "Ils sont étudiants.",
+              "n": "They're students."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say your friend Marie is Canadian.",
+          "t": [
+            "Marie est canadienne",
+            "Elle est canadienne"
+          ]
+        },
+        {
+          "n": "Say you are a student.",
+          "t": [
+            "Je suis étudiant",
+            "Je suis étudiante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l5",
+      "kind": "listening",
+      "title": "First French class",
+      "goal": "Understand short introductions at normal speed.",
+      "phrases": [
+        {
+          "t": "Je suis de Dakar.",
+          "n": "I'm from Dakar."
+        },
+        {
+          "t": "Qu'est-ce que vous faites dans la vie ?",
+          "n": "What do you do for a living?"
+        },
+        {
+          "t": "Je travaille dans un hôpital.",
+          "n": "I work in a hospital."
+        },
+        {
+          "t": "Je parle aussi wolof.",
+          "n": "I also speak Wolof."
+        }
+      ],
+      "story": {
+        "title": "Madame Laurent's new students",
+        "intro": "A teacher at a language school in Paris meets two new students on the first day.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Madame Laurent",
+            "t": "Bonjour à tous ! Je suis Madame Laurent, votre professeure. Vous êtes nouveaux ?",
+            "n": "Hello, everyone! I'm Madame Laurent, your teacher. Are you new?"
+          },
+          {
+            "name": "Awa",
+            "voice": "fr-FR-CoralieNeural",
+            "t": "Oui. Je m'appelle Awa. Je suis sénégalaise, je suis de Dakar.",
+            "n": "Yes. My name is Awa. I'm Senegalese, I'm from Dakar."
+          },
+          {
+            "name": "Madame Laurent",
+            "t": "Bienvenue, Awa ! Qu'est-ce que vous faites dans la vie ?",
+            "n": "Welcome, Awa! What do you do for a living?"
+          },
+          {
+            "name": "Awa",
+            "voice": "fr-FR-CoralieNeural",
+            "t": "Je suis infirmière. Je travaille dans un hôpital à Paris.",
+            "n": "I'm a nurse. I work in a hospital in Paris."
+          },
+          {
+            "name": "Madame Laurent",
+            "t": "Et vous, monsieur ? Vous venez d'où ?",
+            "n": "And you, sir? Where are you from?"
+          },
+          {
+            "name": "Tom",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Je m'appelle Tom. Je viens des États-Unis, de Boston. Je suis ingénieur.",
+            "n": "My name is Tom. I'm from the United States, from Boston. I'm an engineer."
+          },
+          {
+            "name": "Madame Laurent",
+            "t": "Très bien. Et vous parlez quelles langues ?",
+            "n": "Very good. And which languages do you speak?"
+          },
+          {
+            "name": "Tom",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Je parle anglais et un peu espagnol. J'apprends le français !",
+            "n": "I speak English and a little Spanish. I'm learning French!"
+          },
+          {
+            "name": "Awa",
+            "voice": "fr-FR-CoralieNeural",
+            "t": "Moi, je parle français, bien sûr, et aussi wolof. Mais j'apprends l'anglais !",
+            "n": "I speak French, of course, and Wolof too. But I'm learning English!"
+          },
+          {
+            "name": "Madame Laurent",
+            "t": "Ah, Awa, ici, c'est un cours de français. Le cours d'anglais, c'est dans la salle deux !",
+            "n": "Ah, Awa, this is a French class. The English class is in room two!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "D'où vient Awa ?",
+            "n": "Where is Awa from?",
+            "t": [
+              "De Dakar",
+              "Du Sénégal",
+              "Elle vient de Dakar",
+              "Elle est de Dakar",
+              "Elle est sénégalaise",
+              "Dakar"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'Awa fait dans la vie ?",
+            "n": "What does Awa do for a living?",
+            "t": [
+              "Elle est infirmière",
+              "Infirmière",
+              "Elle travaille dans un hôpital"
+            ]
+          },
+          {
+            "q": "Tom est de quelle nationalité ?",
+            "n": "What nationality is Tom?",
+            "t": [
+              "Américain",
+              "Il est américain",
+              "Il vient des États-Unis",
+              "Des États-Unis"
+            ]
+          },
+          {
+            "q": "Quelles langues parle Tom ?",
+            "n": "Which languages does Tom speak?",
+            "t": [
+              "Anglais et espagnol",
+              "L'anglais et un peu l'espagnol",
+              "Il parle anglais et un peu espagnol",
+              "Anglais et un peu espagnol"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u02-l6",
+      "kind": "roleplay",
+      "title": "Signing up at the university",
+      "goal": "Give your details at the international office.",
+      "phrases": [
+        {
+          "t": "Votre nom, s'il vous plaît ?",
+          "n": "Your surname, please?"
+        },
+        {
+          "t": "Et votre prénom ?",
+          "n": "And your first name?"
+        },
+        {
+          "t": "Ça s'écrit comment ?",
+          "n": "How do you spell that?"
+        },
+        {
+          "t": "Vous parlez bien français !",
+          "n": "You speak French well!"
+        }
+      ],
+      "branch": {
+        "title": "At the international office",
+        "scene": "You're an exchange student registering at a university in Bordeaux.",
+        "name": "Le secrétaire",
+        "voice": "fr-FR-JeromeNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Vous êtes étudiant en échange ?",
+            "n": "Hello! Are you an exchange student?",
+            "choices": [
+              {
+                "t": "Oui, je suis étudiant en échange.",
+                "n": "Yes, I'm an exchange student.",
+                "next": "name"
+              },
+              {
+                "t": "Je ne comprends pas.",
+                "n": "I don't understand.",
+                "next": "slow"
+              }
+            ]
+          },
+          "slow": {
+            "t": "Pas de problème. Vous êtes étudiant ici ?",
+            "n": "No problem. Are you a student here?",
+            "choices": [
+              {
+                "t": "Oui, je suis étudiant.",
+                "n": "Yes, I'm a student.",
+                "next": "name"
+              },
+              {
+                "t": "Non, au revoir !",
+                "n": "No, goodbye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "name": {
+            "t": "Très bien. Votre nom, s'il vous plaît ?",
+            "n": "Very good. Your surname, please?",
+            "choices": [
+              {
+                "t": "Mon nom, c'est Brown.",
+                "n": "My surname is Brown.",
+                "next": "from"
+              },
+              {
+                "t": "Brown. Et mon prénom, c'est Alex.",
+                "n": "Brown. And my first name is Alex.",
+                "next": "from"
+              }
+            ]
+          },
+          "from": {
+            "t": "Merci. Vous êtes de quelle nationalité ?",
+            "n": "Thanks. What nationality are you?",
+            "choices": [
+              {
+                "t": "Je suis anglais. Je viens de Londres.",
+                "n": "I'm English. I'm from London.",
+                "next": "lang"
+              },
+              {
+                "t": "Je suis canadien. Et vous ?",
+                "n": "I'm Canadian. And you?",
+                "next": "chat"
+              }
+            ]
+          },
+          "chat": {
+            "t": "Moi, je suis français, mais ma femme est québécoise ! Vous parlez bien français !",
+            "n": "I'm French, but my wife is from Québec! You speak French well!",
+            "choices": [
+              {
+                "t": "Merci ! J'apprends le français.",
+                "n": "Thanks! I'm learning French.",
+                "next": "lang"
+              }
+            ]
+          },
+          "lang": {
+            "t": "Et vous parlez quelles langues ?",
+            "n": "And which languages do you speak?",
+            "choices": [
+              {
+                "t": "Je parle anglais et un peu français.",
+                "n": "I speak English and a little French.",
+                "next": "card"
+              },
+              {
+                "t": "Je suis ingénieur.",
+                "n": "I'm an engineer.",
+                "next": "confused"
+              }
+            ]
+          },
+          "confused": {
+            "t": "Euh … ingénieur ? Non, quelles langues : anglais, espagnol … ?",
+            "n": "Er … engineer? No, which languages: English, Spanish …?",
+            "choices": [
+              {
+                "t": "Ah, pardon ! Je parle anglais.",
+                "n": "Oh, sorry! I speak English.",
+                "next": "card"
+              }
+            ]
+          },
+          "card": {
+            "t": "Parfait. Voilà votre carte d'étudiant. Bienvenue à Bordeaux !",
+            "n": "Perfect. Here's your student card. Welcome to Bordeaux!",
+            "end": "good",
+            "outcome": "You registered and got your student card."
+          },
+          "bye": {
+            "t": "Euh … et votre inscription ?",
+            "n": "Er … and your registration?",
+            "end": "bad",
+            "outcome": "You left without registering — try again and give your details."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the secretary your first name.",
+          "t": [
+            "Mon prénom c'est …",
+            "Mon prénom est …",
+            "Je m'appelle …"
+          ]
+        },
+        {
+          "n": "Ask the secretary how to spell a word.",
+          "t": [
+            "Ça s'écrit comment",
+            "Comment ça s'écrit",
+            "Comment est-ce que ça s'écrit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-l7",
+      "kind": "speaking",
+      "title": "All about me",
+      "goal": "Introduce yourself freely for 30 seconds.",
+      "culture": {
+        "title": "French around the world",
+        "body": "French is spoken on every continent. In Europe it's an official language in France, Belgium, Switzerland, Luxembourg and Monaco. In North America it's spoken mainly in Québec, but also in New Brunswick (officially bilingual) and other parts of Canada, where French and English are the two official languages at the federal level. In Africa many countries use French, often alongside local languages — for example Senegal (where Wolof is widely spoken), Côte d'Ivoire and the Democratic Republic of the Congo. It's also spoken in Haiti and in overseas places such as Martinique, Guadeloupe and Réunion. The adjectives for people from French-speaking places are worth knowing: belge, suisse, québécois(e), sénégalais(e), ivoirien(ne).",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "LU",
+          "CA",
+          "SN",
+          "CI",
+          "HT"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis belge.",
+          "n": "I'm Belgian."
+        },
+        {
+          "t": "Elle est québécoise.",
+          "n": "She's from Québec."
+        },
+        {
+          "t": "Il vient de Suisse.",
+          "n": "He's from Switzerland."
+        },
+        {
+          "t": "Je suis ivoirien.",
+          "n": "I'm Ivorian. (man)",
+          "note": "Feminine: ivoirienne."
+        }
+      ],
+      "free": [
+        {
+          "n": "Introduce yourself: your name, nationality, where you live, your job and which languages you speak.",
+          "hint": "Je m'appelle …, Je suis …, J'habite à …, Je suis étudiant(e) / ingénieur …, Je parle …",
+          "seconds": 40,
+          "minWords": 14,
+          "targets": [
+            {
+              "label": "your name",
+              "any": [
+                "je m'appelle",
+                "m'appelle",
+                "mon nom",
+                "mon prénom",
+                "moi c'est"
+              ]
+            },
+            {
+              "label": "nationality or origin",
+              "any": [
+                "anglais",
+                "anglaise",
+                "américain*",
+                "canadien*",
+                "britannique",
+                "australien*",
+                "irlandais*",
+                "écossais*",
+                "je viens",
+                "viens d"
+              ]
+            },
+            {
+              "label": "where you live",
+              "any": [
+                "j'habite",
+                "habite",
+                "je vis"
+              ]
+            },
+            {
+              "label": "your job",
+              "any": [
+                "étudiant*",
+                "ingénieur*",
+                "professeur*",
+                "médecin",
+                "infirmi*",
+                "avocat*",
+                "travaille"
+              ]
+            },
+            {
+              "label": "languages",
+              "any": [
+                "je parle",
+                "parle",
+                "j'apprends",
+                "apprends",
+                "français",
+                "anglais"
+              ]
+            }
+          ],
+          "model": "Bonjour ! Je m'appelle Sam. Je suis canadienne, je viens de Toronto, mais j'habite à Lyon. Je suis étudiante. Je parle anglais et j'apprends le français."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you live in Belgium.",
+          "t": [
+            "J'habite en Belgique",
+            "Je vis en Belgique"
+          ]
+        },
+        {
+          "n": "Say you speak English and a little French.",
+          "t": [
+            "Je parle anglais et un peu français",
+            "Je parle anglais et un peu le français",
+            "Je parle l'anglais et un peu le français"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Je me présente",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
