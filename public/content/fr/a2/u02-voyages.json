@@ -1,0 +1,939 @@
+{
+  "id": "a2-u02",
+  "title": "En voyage",
+  "subtitle": "Train, hotel & airport",
+  "icon": "🚆",
+  "lessons": [
+    {
+      "id": "a2-u02-l1",
+      "title": "At the train station",
+      "goal": "Buy a ticket and ask about trains, platforms and connections.",
+      "tip": {
+        "title": "Aller simple, aller-retour",
+        "body": "A one-way ticket is un aller simple, a return is un aller-retour. Use pour with the destination: un billet pour Lyon. Timetables use the 24-hour clock: le train de dix-sept heures dix. Departure boards show the voie (track); people also say le quai (platform). Pronunciation: aller sounds like 'a-lay' (silent r), billet like 'bee-yay', and quai like English 'kay'."
+      },
+      "phrases": [
+        {
+          "t": "Un aller-retour pour Lyon, s'il vous plaît.",
+          "n": "A return ticket to Lyon, please."
+        },
+        {
+          "t": "Un aller simple, s'il vous plaît.",
+          "n": "A one-way ticket, please."
+        },
+        {
+          "t": "À quelle heure part le prochain train pour Lyon ?",
+          "n": "What time does the next train to Lyon leave?",
+          "note": "partir → il part"
+        },
+        {
+          "t": "Le train part de quelle voie ?",
+          "n": "Which track does the train leave from?"
+        },
+        {
+          "t": "Est-ce que je dois changer de train ?",
+          "n": "Do I have to change trains?",
+          "note": "a connection = une correspondance"
+        },
+        {
+          "t": "Le train a vingt minutes de retard.",
+          "n": "The train is twenty minutes late.",
+          "note": "en retard = late; à l'heure = on time"
+        },
+        {
+          "t": "Je voudrais une place côté fenêtre.",
+          "n": "I'd like a window seat.",
+          "note": "aisle seat = côté couloir"
+        },
+        {
+          "t": "Excusez-moi, cette place est libre ?",
+          "n": "Excuse me, is this seat free?"
+        }
+      ],
+      "dialogue": {
+        "title": "At the ticket office",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Guichetière",
+            "t": "Bonjour ! Qu'est-ce que je peux faire pour vous ?",
+            "n": "Hello! What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour ! Un billet pour Lyon, s'il vous plaît.",
+            "n": "Hello! A ticket to Lyon, please."
+          },
+          {
+            "who": "A",
+            "name": "Guichetière",
+            "t": "Un aller simple ou un aller-retour ?",
+            "n": "One way or return?"
+          },
+          {
+            "who": "you",
+            "t": "Un aller-retour, s'il vous plaît. Est-ce que je dois changer de train ?",
+            "n": "A return, please. Do I have to change trains?"
+          },
+          {
+            "who": "A",
+            "name": "Guichetière",
+            "t": "Non, c'est un TGV direct. Il part à dix heures quinze.",
+            "n": "No, it's a direct TGV. It leaves at ten fifteen."
+          },
+          {
+            "who": "you",
+            "t": "Parfait. Je voudrais une place côté fenêtre, si possible.",
+            "n": "Perfect. I'd like a window seat, if possible."
+          },
+          {
+            "who": "A",
+            "name": "Guichetière",
+            "t": "Voilà : voiture douze, place quarante-trois. La voie est affichée vingt minutes avant le départ.",
+            "n": "Here you are: coach twelve, seat forty-three. The track is shown twenty minutes before departure."
+          },
+          {
+            "who": "you",
+            "t": "Merci beaucoup ! Bonne journée !",
+            "n": "Thank you very much! Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Buy a return ticket to Lyon.",
+          "t": [
+            "Un aller-retour pour Lyon s'il vous plaît",
+            "Un aller-retour pour Lyon",
+            "Je voudrais un aller-retour pour Lyon"
+          ]
+        },
+        {
+          "n": "Ask if you have to change trains.",
+          "t": [
+            "Est-ce que je dois changer de train",
+            "Je dois changer de train",
+            "Est-ce qu'il y a une correspondance",
+            "Il faut changer de train"
+          ]
+        },
+        {
+          "n": "Ask what time the next train to Lyon leaves.",
+          "t": [
+            "À quelle heure part le prochain train pour Lyon",
+            "Le prochain train pour Lyon part à quelle heure",
+            "Quand part le prochain train pour Lyon"
+          ]
+        },
+        {
+          "n": "Ask if this seat is free.",
+          "t": [
+            "Cette place est libre",
+            "Est-ce que cette place est libre",
+            "Excusez-moi cette place est libre",
+            "C'est libre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l2",
+      "title": "Hotel requests & problems",
+      "goal": "Ask for things at a hotel and explain a problem with your room.",
+      "tip": {
+        "title": "Polite requests: Je pourrais … ? Vous pourriez … ?",
+        "body": "Je pourrais avoir … ? (Could I have …?) and Vous pourriez … ? (Could you …?) are softer than je veux, which sounds rude in a hotel. To report a problem, use ne … pas: La clim ne marche pas. Pronunciation: in chambre and serviette the e is silent at the end, and in France wifi is often said 'wee-fee'."
+      },
+      "phrases": [
+        {
+          "t": "Je pourrais avoir une serviette en plus ?",
+          "n": "Could I have an extra towel?"
+        },
+        {
+          "t": "La climatisation ne marche pas.",
+          "n": "The air conditioning isn't working.",
+          "note": "Often shortened to la clim"
+        },
+        {
+          "t": "Il y a trop de bruit dans ma chambre.",
+          "n": "There's too much noise in my room."
+        },
+        {
+          "t": "Est-ce que je pourrais changer de chambre ?",
+          "n": "Could I change rooms?"
+        },
+        {
+          "t": "Quel est le code du wifi ?",
+          "n": "What's the Wi-Fi password?"
+        },
+        {
+          "t": "Je peux laisser mes bagages ici ?",
+          "n": "Can I leave my luggage here?",
+          "note": "bagages is usually plural"
+        },
+        {
+          "t": "À quelle heure faut-il libérer la chambre ?",
+          "n": "What time do we have to check out?",
+          "note": "libérer la chambre = vacate the room"
+        },
+        {
+          "t": "Vous pourriez m'appeler un taxi ?",
+          "n": "Could you call me a taxi?"
+        }
+      ],
+      "dialogue": {
+        "title": "At reception",
+        "voice": "fr-FR-AlainNeural",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonsoir, excusez-moi. J'ai un petit problème.",
+            "n": "Good evening, excuse me. I have a little problem."
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Bonsoir ! Je vous écoute.",
+            "n": "Good evening! Go ahead."
+          },
+          {
+            "who": "you",
+            "t": "La climatisation ne marche pas, et il y a trop de bruit dans ma chambre.",
+            "n": "The air conditioning isn't working, and there's too much noise in my room."
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Oh, je suis désolé. Vous êtes dans quelle chambre ?",
+            "n": "Oh, I'm sorry. Which room are you in?"
+          },
+          {
+            "who": "you",
+            "t": "La chambre cent quatre. Est-ce que je pourrais changer de chambre ?",
+            "n": "Room one hundred and four. Could I change rooms?"
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Bien sûr. Voici la clé de la chambre trois cent dix. Elle donne sur le jardin, c'est très calme.",
+            "n": "Of course. Here's the key to room three hundred and ten. It overlooks the garden — it's very quiet."
+          },
+          {
+            "who": "you",
+            "t": "Merci beaucoup ! Je pourrais aussi avoir une serviette en plus ?",
+            "n": "Thank you very much! Could I also have an extra towel?"
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Pas de problème, je vous l'apporte tout de suite. Bonne soirée !",
+            "n": "No problem, I'll bring it to you right away. Have a good evening!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say the air conditioning isn't working.",
+          "t": [
+            "La climatisation ne marche pas",
+            "La clim ne marche pas",
+            "La climatisation ne fonctionne pas",
+            "La clim marche pas"
+          ]
+        },
+        {
+          "n": "Ask if you could change rooms.",
+          "t": [
+            "Est-ce que je pourrais changer de chambre",
+            "Je pourrais changer de chambre",
+            "Est-ce que je peux changer de chambre",
+            "Je peux changer de chambre"
+          ]
+        },
+        {
+          "n": "Ask if you can leave your luggage here.",
+          "t": [
+            "Je peux laisser mes bagages ici",
+            "Est-ce que je peux laisser mes bagages ici",
+            "Je pourrais laisser mes bagages ici",
+            "Puis-je laisser mes bagages ici"
+          ]
+        },
+        {
+          "n": "Ask for the Wi-Fi password.",
+          "t": [
+            "Quel est le code du wifi",
+            "C'est quoi le code du wifi",
+            "Quel est le mot de passe du wifi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l3",
+      "title": "At the airport",
+      "goal": "Check in, find your gate and ask for help at the airport.",
+      "tip": {
+        "title": "Asking for help politely",
+        "body": "Start with Excusez-moi or Pardon, madame / monsieur — then ask. Vous pouvez m'aider ? is fine; Vous pourriez m'aider ? is even more polite. Key airport words: l'enregistrement (check-in), la porte (gate), l'embarquement (boarding), un vol (a flight), un bagage à main (hand luggage). Aéroport has four syllables: a-é-ro-port, with a silent t."
+      },
+      "phrases": [
+        {
+          "t": "Excusez-moi, vous pourriez m'aider ?",
+          "n": "Excuse me, could you help me?"
+        },
+        {
+          "t": "Où est l'enregistrement du vol pour Montréal ?",
+          "n": "Where is check-in for the Montreal flight?"
+        },
+        {
+          "t": "Je voudrais enregistrer cette valise.",
+          "n": "I'd like to check in this suitcase."
+        },
+        {
+          "t": "J'ai seulement un bagage à main.",
+          "n": "I only have hand luggage."
+        },
+        {
+          "t": "L'embarquement commence à quelle heure ?",
+          "n": "What time does boarding start?"
+        },
+        {
+          "t": "Le vol est retardé d'une heure.",
+          "n": "The flight is delayed by an hour.",
+          "note": "cancelled = annulé"
+        },
+        {
+          "t": "Je cherche la porte vingt-deux.",
+          "n": "I'm looking for gate twenty-two.",
+          "note": "chercher = to look for (no word for 'for')"
+        }
+      ],
+      "dialogue": {
+        "title": "At the check-in desk",
+        "voice": "fr-FR-YvetteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hôtesse",
+            "t": "Bonjour ! Votre passeport, s'il vous plaît.",
+            "n": "Hello! Your passport, please."
+          },
+          {
+            "who": "you",
+            "t": "Voilà. Je voudrais enregistrer cette valise.",
+            "n": "Here you are. I'd like to check in this suitcase."
+          },
+          {
+            "who": "A",
+            "name": "Hôtesse",
+            "t": "Très bien. Vous avez aussi un bagage à main ?",
+            "n": "Very good. Do you also have hand luggage?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, ce petit sac. L'embarquement commence à quelle heure ?",
+            "n": "Yes, this small bag. What time does boarding start?"
+          },
+          {
+            "who": "A",
+            "name": "Hôtesse",
+            "t": "À quatorze heures trente, porte vingt-deux. Attention, le vol est retardé d'une heure.",
+            "n": "At 2:30 p.m., gate twenty-two. Please note, the flight is delayed by an hour."
+          },
+          {
+            "who": "you",
+            "t": "Ah, d'accord. Merci, bonne journée !",
+            "n": "Oh, okay. Thanks, have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask someone politely if they could help you.",
+          "t": [
+            "Excusez-moi vous pourriez m'aider",
+            "Vous pourriez m'aider",
+            "Vous pouvez m'aider",
+            "Pourriez-vous m'aider"
+          ]
+        },
+        {
+          "n": "Say you'd like to check in this suitcase.",
+          "t": [
+            "Je voudrais enregistrer cette valise",
+            "Je voudrais enregistrer ma valise"
+          ]
+        },
+        {
+          "n": "Say you're looking for gate twenty-two.",
+          "t": [
+            "Je cherche la porte vingt-deux",
+            "Où est la porte vingt-deux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l4",
+      "kind": "grammar",
+      "title": "Je vais partir en Suisse",
+      "goal": "Talk about travel plans with the futur proche and the right preposition for places.",
+      "tip": {
+        "title": "Futur proche + à / en / au / aux",
+        "body": "For plans, use aller + infinitive: je vais partir, on va prendre le TGV. Places: à + city (à Genève, à Bruxelles); en + feminine countries — most ending in -e — and countries starting with a vowel (en France, en Belgique, en Iran); au + masculine countries (au Canada, au Sénégal, au Mexique); aux + plural (aux États-Unis). Note au Québec (the province) but à Québec (the city). Make the liaison in aux‿États-Unis and en‿Italie."
+      },
+      "phrases": [
+        {
+          "t": "Je vais partir en Suisse.",
+          "n": "I'm going to go to Switzerland."
+        },
+        {
+          "t": "On va prendre le TGV.",
+          "n": "We're going to take the TGV.",
+          "note": "TGV = train à grande vitesse"
+        },
+        {
+          "t": "Nous allons passer une semaine au Québec.",
+          "n": "We're going to spend a week in Quebec.",
+          "note": "au Québec = the province; à Québec = the city"
+        },
+        {
+          "t": "Ils vont voyager aux États-Unis.",
+          "n": "They're going to travel in the United States."
+        },
+        {
+          "t": "Tu vas rester combien de temps à Bruxelles ?",
+          "n": "How long are you going to stay in Brussels?"
+        },
+        {
+          "t": "Elle revient du Sénégal.",
+          "n": "She's coming back from Senegal.",
+          "note": "from: de France, du Canada, des États-Unis"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the destination",
+          "base": {
+            "t": "Cet été, je vais voyager en Belgique.",
+            "n": "This summer I'm going to travel in Belgium."
+          },
+          "items": [
+            {
+              "cue": "le Canada",
+              "t": "Cet été, je vais voyager au Canada.",
+              "n": "This summer I'm going to travel in Canada."
+            },
+            {
+              "cue": "les États-Unis",
+              "t": "Cet été, je vais voyager aux États-Unis.",
+              "n": "This summer I'm going to travel in the United States."
+            },
+            {
+              "cue": "l'Italie",
+              "t": "Cet été, je vais voyager en Italie.",
+              "n": "This summer I'm going to travel in Italy."
+            },
+            {
+              "cue": "Genève",
+              "t": "Cet été, je vais voyager à Genève.",
+              "n": "This summer I'm going to travel to Geneva."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person and the plan",
+          "base": {
+            "t": "Demain, je vais prendre le train.",
+            "n": "Tomorrow I'm going to take the train."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Demain, nous allons prendre le train.",
+              "n": "Tomorrow we're going to take the train."
+            },
+            {
+              "cue": "elle · réserver un hôtel",
+              "t": "Demain, elle va réserver un hôtel.",
+              "n": "Tomorrow she's going to book a hotel."
+            },
+            {
+              "cue": "ils · partir au Maroc",
+              "t": "Demain, ils vont partir au Maroc.",
+              "n": "Tomorrow they're going to leave for Morocco."
+            },
+            {
+              "cue": "tu ?",
+              "t": "Demain, tu vas prendre le train ?",
+              "n": "Are you going to take the train tomorrow?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're going to go to Switzerland.",
+          "t": [
+            "Je vais partir en Suisse",
+            "Je vais aller en Suisse",
+            "Je vais voyager en Suisse"
+          ]
+        },
+        {
+          "n": "Say we're going to spend a week in Quebec.",
+          "t": [
+            "Nous allons passer une semaine au Québec",
+            "On va passer une semaine au Québec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l5",
+      "kind": "listening",
+      "title": "Delay at the Gare de Lyon",
+      "goal": "Follow a couple and a station announcement about a delayed TGV.",
+      "phrases": [
+        {
+          "t": "Notre train a du retard.",
+          "n": "Our train is delayed."
+        },
+        {
+          "t": "Regarde le panneau !",
+          "n": "Look at the departure board!"
+        },
+        {
+          "t": "On va rater le dîner.",
+          "n": "We're going to miss dinner.",
+          "note": "rater = to miss (a train, a meal, an exam)"
+        },
+        {
+          "t": "Pas de panique !",
+          "n": "Don't panic!"
+        }
+      ],
+      "story": {
+        "title": "Paris to Marseille",
+        "intro": "Léa and Karim are waiting at the Gare de Lyon in Paris for their TGV to Marseille.",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Karim, regarde le panneau ! Notre TGV pour Marseille a quarante minutes de retard.",
+            "n": "Karim, look at the board! Our TGV to Marseille is forty minutes late."
+          },
+          {
+            "name": "Karim",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Ce n'est pas vrai ! On va rater le dîner chez ta sœur.",
+            "n": "You're kidding! We're going to miss dinner at your sister's."
+          },
+          {
+            "name": "Annonce",
+            "voice": "fr-FR-BrigitteNeural",
+            "t": "Mesdames et messieurs, le TGV à destination de Marseille Saint-Charles partira de la voie onze, avec un retard d'environ quarante minutes.",
+            "n": "Ladies and gentlemen, the TGV to Marseille Saint-Charles will leave from track eleven, with a delay of about forty minutes."
+          },
+          {
+            "name": "Karim",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Voie onze ? Mais c'est à l'autre bout de la gare !",
+            "n": "Track eleven? But that's at the other end of the station!"
+          },
+          {
+            "name": "Léa",
+            "t": "Pas de panique. On a le temps. Je vais appeler ma sœur.",
+            "n": "Don't panic. We have time. I'm going to call my sister."
+          },
+          {
+            "name": "Karim",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "D'accord. Moi, je vais acheter des sandwichs et deux cafés.",
+            "n": "Okay. I'm going to buy some sandwiches and two coffees."
+          },
+          {
+            "name": "Léa",
+            "t": "Bonne idée. Prends aussi une bouteille d'eau, s'il te plaît.",
+            "n": "Good idea. Get a bottle of water too, please."
+          },
+          {
+            "name": "Karim",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Ça marche. Rendez-vous devant la voie onze dans dix minutes !",
+            "n": "Sure. See you in front of track eleven in ten minutes!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Où vont Léa et Karim ?",
+            "n": "Where are Léa and Karim going?",
+            "t": [
+              "À Marseille",
+              "Marseille",
+              "Ils vont à Marseille",
+              "Chez sa sœur"
+            ]
+          },
+          {
+            "q": "Combien de minutes de retard a le train ?",
+            "n": "How many minutes late is the train?",
+            "t": [
+              "Quarante minutes",
+              "Quarante",
+              "Il a quarante minutes de retard"
+            ]
+          },
+          {
+            "q": "De quelle voie part le train ?",
+            "n": "Which track does the train leave from?",
+            "t": [
+              "De la voie onze",
+              "Voie onze",
+              "La voie onze",
+              "Onze"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Karim va acheter ?",
+            "n": "What is Karim going to buy?",
+            "t": [
+              "Des sandwichs et deux cafés",
+              "Des sandwichs et des cafés",
+              "Des sandwichs",
+              "Deux cafés",
+              "Il va acheter des sandwichs et deux cafés"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u02-l6",
+      "kind": "roleplay",
+      "title": "Lost luggage in Montreal",
+      "goal": "Report a missing suitcase at the airport — your choices steer the conversation.",
+      "phrases": [
+        {
+          "t": "Ma valise n'est pas arrivée.",
+          "n": "My suitcase hasn't arrived."
+        },
+        {
+          "t": "C'est une grande valise rouge.",
+          "n": "It's a big red suitcase.",
+          "note": "grande goes before, rouge after the noun"
+        },
+        {
+          "t": "Qu'est-ce que je dois faire ?",
+          "n": "What should I do?"
+        },
+        {
+          "t": "Vous pouvez répéter, s'il vous plaît ?",
+          "n": "Could you repeat that, please?"
+        }
+      ],
+      "branch": {
+        "title": "At the baggage desk",
+        "scene": "You've just landed at Montréal-Trudeau airport from Paris. Your suitcase didn't come out on the carousel, so you go to the baggage desk.",
+        "name": "Agente",
+        "voice": "fr-CA-SylvieNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bonjour ! Comment est-ce que je peux vous aider ?",
+            "n": "Hello! How can I help you?",
+            "choices": [
+              {
+                "t": "Bonjour, ma valise n'est pas arrivée.",
+                "n": "Hello, my suitcase hasn't arrived.",
+                "next": "flight"
+              },
+              {
+                "t": "C'est n'importe quoi ! Vous avez perdu ma valise !",
+                "n": "This is ridiculous! You've lost my suitcase!",
+                "next": "calm"
+              }
+            ]
+          },
+          "calm": {
+            "t": "Je comprends, mais restez poli, s'il vous plaît. Je vais vous aider.",
+            "n": "I understand, but please stay polite. I'm going to help you.",
+            "choices": [
+              {
+                "t": "Excusez-moi. Ma valise n'est pas arrivée.",
+                "n": "Sorry. My suitcase hasn't arrived.",
+                "next": "flight"
+              },
+              {
+                "t": "Laissez tomber, je m'en vais.",
+                "n": "Forget it, I'm leaving.",
+                "next": "bad"
+              }
+            ]
+          },
+          "flight": {
+            "t": "Je suis désolée. Vous avez pris quel vol ?",
+            "n": "I'm sorry. Which flight did you take?",
+            "choices": [
+              {
+                "t": "Le vol de Paris. Il est arrivé à quinze heures.",
+                "n": "The flight from Paris. It arrived at 3 p.m.",
+                "next": "describe"
+              }
+            ]
+          },
+          "describe": {
+            "t": "D'accord. Elle ressemble à quoi, votre valise ?",
+            "n": "Okay. What does your suitcase look like?",
+            "choices": [
+              {
+                "t": "Pardon, vous pouvez répéter, s'il vous plaît ?",
+                "n": "Sorry, could you repeat that, please?",
+                "next": "repeat"
+              },
+              {
+                "t": "C'est une grande valise rouge avec mon nom dessus.",
+                "n": "It's a big red suitcase with my name on it.",
+                "next": "deliver"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Bien sûr. Comment est votre valise ? Elle est de quelle couleur ?",
+            "n": "Of course. What is your suitcase like? What colour is it?",
+            "choices": [
+              {
+                "t": "Elle est rouge, et elle est grande.",
+                "n": "It's red, and it's big.",
+                "next": "deliver"
+              }
+            ]
+          },
+          "deliver": {
+            "t": "Parfait. Elle va sûrement arriver avec le prochain vol. On peut la livrer à votre hôtel.",
+            "n": "Perfect. It will probably arrive on the next flight. We can deliver it to your hotel.",
+            "choices": [
+              {
+                "t": "Super, merci beaucoup ! Voici l'adresse de mon hôtel.",
+                "n": "Great, thank you very much! Here's my hotel's address.",
+                "next": "good"
+              },
+              {
+                "t": "Et en attendant ? Qu'est-ce que je dois faire ?",
+                "n": "And in the meantime? What should I do?",
+                "next": "kit"
+              }
+            ]
+          },
+          "good": {
+            "t": "Merci. On va vous appeler demain. Bonne fin de semaine à Montréal !",
+            "n": "Thank you. We'll call you tomorrow. Have a good weekend in Montreal!",
+            "end": "good",
+            "outcome": "Your suitcase will be delivered to your hotel. Note the Québec 'fin de semaine' for weekend."
+          },
+          "kit": {
+            "t": "Voici une petite trousse avec une brosse à dents et un t-shirt. Gardez vos reçus si vous achetez autre chose.",
+            "n": "Here's a small kit with a toothbrush and a T-shirt. Keep your receipts if you buy anything else.",
+            "end": "good",
+            "outcome": "Claim filed, overnight kit in hand — and you know to keep your receipts."
+          },
+          "bad": {
+            "t": "Comme vous voulez. Bonne journée.",
+            "n": "As you like. Have a nice day.",
+            "end": "bad",
+            "outcome": "You left without filing a claim. Stay calm and explain the problem."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say your suitcase hasn't arrived.",
+          "t": [
+            "Ma valise n'est pas arrivée",
+            "Ma valise est pas arrivée"
+          ]
+        },
+        {
+          "n": "Ask what you should do.",
+          "t": [
+            "Qu'est-ce que je dois faire",
+            "Je dois faire quoi",
+            "Que dois-je faire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-l7",
+      "kind": "speaking",
+      "title": "Tell us about a trip",
+      "goal": "Describe a past trip for 40 seconds, then your next one.",
+      "culture": {
+        "title": "TGV, CFF, SNCB and VIA Rail",
+        "body": "France's high-speed TGV, run by SNCF, links Paris with cities like Lyon, Marseille and Bordeaux; booking early is usually much cheaper, and Ouigo is its low-cost brand. Paper tickets used to need stamping (composter) in a yellow machine before boarding — with e-tickets this is rarely needed now. In Switzerland the trains of the CFF (SBB in German) are known for punctuality, and in Belgium the network is run by the SNCB. In Canada distances are huge: VIA Rail links Québec City and Montréal, but many people drive or fly.",
+        "regions": [
+          "FR",
+          "CH",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "L'été dernier, je suis allé en Belgique.",
+          "n": "Last summer I went to Belgium."
+        },
+        {
+          "t": "J'ai dormi dans un petit hôtel.",
+          "n": "I slept in a small hotel."
+        },
+        {
+          "t": "Le train était à l'heure !",
+          "n": "The train was on time!"
+        },
+        {
+          "t": "L'année prochaine, je vais aller au Québec.",
+          "n": "Next year I'm going to go to Quebec."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell us about a trip: where you went, how you travelled, where you stayed and what you did.",
+          "hint": "Je suis allé(e) en/au/à …, J'ai pris le train/l'avion, J'ai dormi dans un hôtel/chez …, J'ai visité …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "where you went",
+              "any": [
+                "allé*",
+                "parti*",
+                "voyagé",
+                "visité",
+                "france",
+                "belgique",
+                "suisse",
+                "canada",
+                "québec",
+                "italie",
+                "espagne"
+              ]
+            },
+            {
+              "label": "how you travelled",
+              "any": [
+                "train",
+                "tgv",
+                "avion",
+                "voiture",
+                "bus",
+                "car",
+                "vélo",
+                "bateau"
+              ]
+            },
+            {
+              "label": "where you stayed",
+              "any": [
+                "hôtel",
+                "camping",
+                "auberge",
+                "dormi",
+                "logé*",
+                "chez"
+              ]
+            },
+            {
+              "label": "what you did",
+              "any": [
+                "vu",
+                "visité",
+                "mangé",
+                "fait",
+                "goûté",
+                "nagé",
+                "marché",
+                "musée*",
+                "plage"
+              ]
+            }
+          ],
+          "model": "L'été dernier, je suis allé en Suisse. J'ai pris le train de Paris à Genève. J'ai dormi dans un petit hôtel au bord du lac. J'ai visité la vieille ville et j'ai mangé une fondue."
+        },
+        {
+          "n": "Now describe your next trip: where you're going to go and what you're going to do.",
+          "hint": "Use the futur proche: Je vais aller au/en/à …, Je vais prendre …, On va visiter …",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "futur proche",
+              "any": [
+                "vais",
+                "va",
+                "allons",
+                "vont"
+              ]
+            },
+            {
+              "label": "a destination",
+              "any": [
+                "france",
+                "belgique",
+                "suisse",
+                "canada",
+                "québec",
+                "sénégal",
+                "maroc",
+                "italie",
+                "espagne",
+                "états-unis",
+                "paris",
+                "montréal",
+                "genève",
+                "bruxelles"
+              ]
+            },
+            {
+              "label": "a travel activity",
+              "any": [
+                "visiter",
+                "voyager",
+                "prendre",
+                "réserver",
+                "rester",
+                "partir",
+                "découvrir"
+              ]
+            }
+          ],
+          "model": "L'année prochaine, je vais aller au Québec. Je vais prendre l'avion pour Montréal, puis je vais visiter la ville de Québec."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you slept in a small hotel.",
+          "t": [
+            "J'ai dormi dans un petit hôtel"
+          ]
+        },
+        {
+          "n": "Say you're going to go to Quebec next year.",
+          "t": [
+            "L'année prochaine je vais aller au Québec",
+            "Je vais aller au Québec l'année prochaine",
+            "L'année prochaine je vais au Québec"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En voyage",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

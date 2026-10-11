@@ -1,0 +1,246 @@
+{
+  "id": "pron-u05",
+  "level": "A2",
+  "title": "Liaison et élision",
+  "subtitle": "linking words together",
+  "icon": "🔗",
+  "lessons": [
+    {
+      "id": "pron-u05-l1",
+      "kind": "pron",
+      "title": "Liaison",
+      "goal": "Make the obligatory liaisons: les_amis, vous_avez.",
+      "tip": {
+        "title": "A silent letter wakes up before a vowel",
+        "body": "In liaison, a normally silent final consonant is pronounced at the start of the next word if it begins with a vowel or h muet. It is obligatory after determiners (les_amis, un_ami, mon_ami, deux_enfants), between a pronoun and its verb (vous_avez, ils_ont, on_a) and after short words like très, chez, en. s and x sound \"z\", d sounds \"t\" (un grand_homme), n stays n. This liaison can change meaning: ils sont (\"s\") vs ils_ont (\"z\")."
+      },
+      "phrases": [
+        {
+          "t": "Vous avez des enfants ?",
+          "n": "Do you have children?",
+          "note": "Two liaisons: \"vou-z-avez dé-z-enfants\"."
+        },
+        {
+          "t": "Ils ont trois enfants.",
+          "n": "They have three children."
+        },
+        {
+          "t": "Il est deux heures.",
+          "n": "It's two o'clock."
+        },
+        {
+          "t": "C'est un grand homme.",
+          "n": "He's a great man.",
+          "note": "d links as t: \"gran-t-homme\"."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "ils sont",
+            "n": "they are"
+          },
+          "b": {
+            "t": "ils ont",
+            "n": "they have"
+          }
+        },
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "elles sont",
+            "n": "they (f) are"
+          },
+          "b": {
+            "t": "elles ont",
+            "n": "they (f) have"
+          }
+        },
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "nous savons",
+            "n": "we know"
+          },
+          "b": {
+            "t": "nous avons",
+            "n": "we have"
+          }
+        },
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "vous savez",
+            "n": "you know"
+          },
+          "b": {
+            "t": "vous avez",
+            "n": "you have"
+          }
+        },
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "deux sœurs",
+            "n": "two sisters"
+          },
+          "b": {
+            "t": "deux heures",
+            "n": "two hours; two o'clock"
+          }
+        },
+        {
+          "sound": "s / z",
+          "a": {
+            "t": "trois cents",
+            "n": "three hundred"
+          },
+          "b": {
+            "t": "trois ans",
+            "n": "three years"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Vous avez des enfants ?",
+          "n": "Do you have children?",
+          "mark": "Vous avez des en*fants* ?"
+        },
+        {
+          "t": "Ils ont trois enfants.",
+          "n": "They have three children.",
+          "mark": "Ils ont trois en*fants*."
+        },
+        {
+          "t": "Il est deux heures.",
+          "n": "It's two o'clock.",
+          "mark": "Il est deux *heures*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask politely: \"Do you have children?\"",
+          "t": [
+            "Vous avez des enfants",
+            "Avez-vous des enfants",
+            "Est-ce que vous avez des enfants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u05-l2",
+      "kind": "pron",
+      "title": "Élision and no-go liaisons",
+      "goal": "Drop the vowel in l'ami, j'aime — and know when not to link.",
+      "tip": {
+        "title": "Drop the e (or a) before a vowel",
+        "body": "Small words ending in e — le, je, me, te, se, ne, de, que, ce — lose their vowel before a vowel or h muet, and you write an apostrophe: l'ami, j'aime, qu'il, c'est. la does the same (l'eau), and si only before il/ils (s'il). Never make a liaison after et (un garçon et | une fille), before an h aspiré (les | haricots) or after a singular noun (un étudiant | anglais)."
+      },
+      "phrases": [
+        {
+          "t": "J'aime l'été.",
+          "n": "I love summer."
+        },
+        {
+          "t": "Qu'est-ce qu'il dit ?",
+          "n": "What is he saying?"
+        },
+        {
+          "t": "Un garçon et une fille.",
+          "n": "A boy and a girl.",
+          "note": "No liaison after \"et\": the t is never pronounced."
+        },
+        {
+          "t": "S'il vous plaît.",
+          "n": "Please."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "élision / none",
+          "a": {
+            "t": "l'été",
+            "n": "summer"
+          },
+          "b": {
+            "t": "le thé",
+            "n": "tea"
+          }
+        },
+        {
+          "sound": "élision / none",
+          "a": {
+            "t": "l'une",
+            "n": "one (of them, f)"
+          },
+          "b": {
+            "t": "la une",
+            "n": "the front page"
+          }
+        },
+        {
+          "sound": "élision / none",
+          "a": {
+            "t": "l'auteur",
+            "n": "the author"
+          },
+          "b": {
+            "t": "la hauteur",
+            "n": "the height"
+          }
+        },
+        {
+          "sound": "et (silent t) / t",
+          "a": {
+            "t": "et on",
+            "n": "and we"
+          },
+          "b": {
+            "t": "et ton",
+            "n": "and your"
+          }
+        },
+        {
+          "sound": "h aspiré / liaison",
+          "a": {
+            "t": "les hêtres",
+            "n": "the beech trees"
+          },
+          "b": {
+            "t": "les êtres",
+            "n": "the beings"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "J'aime l'été.",
+          "n": "I love summer.",
+          "mark": "J'aime l'é*té*."
+        },
+        {
+          "t": "Qu'est-ce qu'il dit ?",
+          "n": "What is he saying?",
+          "mark": "Qu'est-ce qu'il *dit* ?"
+        },
+        {
+          "t": "Un garçon et une fille.",
+          "n": "A boy and a girl.",
+          "mark": "Un gar*çon* et une *fille*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"I love summer.\"",
+          "t": [
+            "J'aime l'été",
+            "J'adore l'été"
+          ]
+        }
+      ]
+    }
+  ]
+}

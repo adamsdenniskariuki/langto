@@ -1,0 +1,900 @@
+{
+  "id": "a2-u01",
+  "title": "Le week-end dernier",
+  "subtitle": "Talking about the past",
+  "icon": "⏪",
+  "lessons": [
+    {
+      "id": "a2-u01-l1",
+      "title": "What did you do?",
+      "goal": "Say what you did at the weekend using the passé composé with avoir.",
+      "tip": {
+        "title": "Passé composé: avoir + past participle",
+        "body": "To talk about finished actions in the past, spoken French uses the passé composé: a present form of avoir + the past participle. -er verbs end in -é: j'ai mangé, on a regardé. Many everyday verbs are irregular: faire → fait, voir → vu, lire → lu, prendre → pris, boire → bu. Mangé sounds exactly like manger — context tells them apart. Always elide je before ai: j'ai, never « je ai »."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que tu as fait ce week-end ?",
+          "n": "What did you do at the weekend?",
+          "note": "faire → fait"
+        },
+        {
+          "t": "J'ai fait la grasse matinée.",
+          "n": "I had a lie-in.",
+          "note": "Literally: I made the fat morning."
+        },
+        {
+          "t": "J'ai vu des amis.",
+          "n": "I saw some friends.",
+          "note": "voir → vu"
+        },
+        {
+          "t": "On a mangé au restaurant.",
+          "n": "We ate at a restaurant.",
+          "note": "In speech, on usually means 'we'."
+        },
+        {
+          "t": "Samedi soir, j'ai regardé un film.",
+          "n": "On Saturday evening I watched a film.",
+          "note": "No word for 'on' before days: samedi = on Saturday"
+        },
+        {
+          "t": "J'ai lu un bon livre.",
+          "n": "I read a good book.",
+          "note": "lire → lu"
+        },
+        {
+          "t": "Dimanche, j'ai fait le ménage.",
+          "n": "On Sunday I did the housework."
+        },
+        {
+          "t": "C'était super !",
+          "n": "It was great!",
+          "note": "c'était = it was — learn it as a set phrase for now."
+        }
+      ],
+      "dialogue": {
+        "title": "Monday morning chat",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Salut ! Ça s'est bien passé, ton week-end ?",
+            "n": "Hi! Did your weekend go well?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, très bien, merci ! J'ai fait la grasse matinée.",
+            "n": "Yes, very well, thanks! I had a lie-in."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Tu as de la chance ! Et après, qu'est-ce que tu as fait ?",
+            "n": "Lucky you! And afterwards, what did you do?"
+          },
+          {
+            "who": "you",
+            "t": "J'ai vu des amis. On a mangé au restaurant.",
+            "n": "I saw some friends. We ate at a restaurant."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Sympa ! Vous avez mangé quoi ?",
+            "n": "Nice! What did you eat?"
+          },
+          {
+            "who": "you",
+            "t": "On a mangé une raclette. C'était super !",
+            "n": "We had raclette. It was great!"
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Miam ! Moi, samedi, j'ai travaillé toute la journée.",
+            "n": "Yum! Me, I worked all day on Saturday."
+          },
+          {
+            "who": "you",
+            "t": "Oh, dommage ! Et qu'est-ce que tu as fait dimanche ?",
+            "n": "Oh, too bad! And what did you do on Sunday?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you had a lie-in.",
+          "t": [
+            "J'ai fait la grasse matinée"
+          ]
+        },
+        {
+          "n": "Say you saw some friends.",
+          "t": [
+            "J'ai vu des amis",
+            "J'ai vu mes amis",
+            "J'ai vu des copains"
+          ]
+        },
+        {
+          "n": "Ask a friend what they did at the weekend.",
+          "t": [
+            "Qu'est-ce que tu as fait ce week-end",
+            "Qu'est-ce que tu as fait le week-end dernier",
+            "Tu as fait quoi ce week-end",
+            "Qu'as-tu fait ce week-end"
+          ]
+        },
+        {
+          "n": "Say it was great.",
+          "t": [
+            "C'était super",
+            "C'était génial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-l2",
+      "title": "Where did you go?",
+      "goal": "Talk about going out and coming back using the passé composé with être.",
+      "tip": {
+        "title": "Passé composé with être",
+        "body": "A small group of verbs — mostly about movement or change, like aller, partir, sortir, rester, rentrer, arriver — use être instead of avoir: je suis allé, tu es parti. The participle then agrees with the subject like an adjective: il est allé, elle est allée, ils sont allés, elles sont allées. You usually can't hear the difference (allé = allée), so don't worry when speaking. Make the liaison: je suis‿allé sounds like 'je sui-za-lé'."
+      },
+      "phrases": [
+        {
+          "t": "Je suis allé à la mer.",
+          "n": "I went to the seaside.",
+          "note": "A woman writes allée — it sounds the same."
+        },
+        {
+          "t": "On est partis vendredi soir.",
+          "n": "We left on Friday evening.",
+          "note": "When on means 'we', the participle often takes a plural -s in writing."
+        },
+        {
+          "t": "Je suis resté à la maison dimanche.",
+          "n": "I stayed at home on Sunday."
+        },
+        {
+          "t": "Je suis sorti avec des collègues.",
+          "n": "I went out with some colleagues."
+        },
+        {
+          "t": "Tu es allé où ?",
+          "n": "Where did you go?",
+          "note": "Casual style: question word at the end."
+        },
+        {
+          "t": "Tu es rentré quand ?",
+          "n": "When did you get back?",
+          "note": "rentrer = to come back home"
+        },
+        {
+          "t": "Je suis rentré tard.",
+          "n": "I got home late."
+        },
+        {
+          "t": "Qu'est-ce qui s'est passé ?",
+          "n": "What happened?"
+        }
+      ],
+      "dialogue": {
+        "title": "Back from the coast",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Salut ! Tu es parti ce week-end ?",
+            "n": "Hi! Did you go away this weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je suis allé à la mer, à Biarritz.",
+            "n": "Yes, I went to the seaside, to Biarritz."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Génial ! Tu es parti quand ?",
+            "n": "Great! When did you leave?"
+          },
+          {
+            "who": "you",
+            "t": "On est partis vendredi soir, en voiture.",
+            "n": "We left on Friday evening, by car."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Et qu'est-ce que vous avez fait là-bas ?",
+            "n": "And what did you do there?"
+          },
+          {
+            "who": "you",
+            "t": "On est allés à la plage et on a fait du surf.",
+            "n": "We went to the beach and went surfing."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Trop bien ! Et tu es rentré quand ?",
+            "n": "So cool! And when did you get back?"
+          },
+          {
+            "who": "you",
+            "t": "Hier soir. Je suis rentré tard, je suis crevé !",
+            "n": "Last night. I got home late, I'm exhausted!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you went to the seaside.",
+          "t": [
+            "Je suis allé à la mer",
+            "Je suis allée à la mer"
+          ]
+        },
+        {
+          "n": "Say you stayed at home on Sunday.",
+          "t": [
+            "Je suis resté à la maison dimanche",
+            "Je suis restée à la maison dimanche",
+            "Dimanche je suis resté à la maison",
+            "Dimanche je suis restée à la maison",
+            "Je suis resté chez moi dimanche"
+          ]
+        },
+        {
+          "n": "Ask a friend when they got back.",
+          "t": [
+            "Tu es rentré quand",
+            "Tu es rentrée quand",
+            "Quand est-ce que tu es rentré",
+            "Quand est-ce que tu es rentrée",
+            "Quand es-tu rentré"
+          ]
+        },
+        {
+          "n": "Ask what happened.",
+          "t": [
+            "Qu'est-ce qui s'est passé",
+            "Il s'est passé quoi",
+            "Qu'est-ce qui est arrivé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-l3",
+      "title": "Yesterday & last holiday",
+      "goal": "Talk about yesterday and your last holiday, and say what you didn't do.",
+      "tip": {
+        "title": "Negation and time words",
+        "body": "In the passé composé, ne … pas wraps around the helper verb: Je n'ai pas eu le temps. Je ne suis pas sorti. Useful time words: hier (yesterday), avant-hier, la semaine dernière, l'été dernier, il y a trois jours (three days ago). The participle of avoir is eu — pronounced like the French letter u, not 'yoo' and not 'ee-oo'."
+      },
+      "phrases": [
+        {
+          "t": "Hier, j'ai travaillé jusqu'à dix-huit heures.",
+          "n": "Yesterday I worked until 6 p.m."
+        },
+        {
+          "t": "Ensuite, j'ai appelé ma mère.",
+          "n": "Then I called my mother."
+        },
+        {
+          "t": "Tu as passé de bonnes vacances ?",
+          "n": "Did you have a good holiday?",
+          "note": "vacances is always plural"
+        },
+        {
+          "t": "J'ai passé deux semaines en Bretagne.",
+          "n": "I spent two weeks in Brittany."
+        },
+        {
+          "t": "Il a fait beau tout le temps.",
+          "n": "The weather was nice the whole time."
+        },
+        {
+          "t": "Je suis rentré il y a trois jours.",
+          "n": "I got back three days ago.",
+          "note": "il y a + time = ago"
+        },
+        {
+          "t": "Je n'ai pas eu le temps.",
+          "n": "I didn't have time.",
+          "note": "avoir → eu"
+        }
+      ],
+      "dialogue": {
+        "title": "Back at work",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Te revoilà ! Tu as passé de bonnes vacances ?",
+            "n": "You're back! Did you have a good holiday?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, super ! J'ai passé deux semaines en Bretagne.",
+            "n": "Yes, great! I spent two weeks in Brittany."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Et il a fait beau ? En Bretagne, il pleut souvent !",
+            "n": "And was the weather nice? It often rains in Brittany!"
+          },
+          {
+            "who": "you",
+            "t": "Oui, il a fait beau tout le temps !",
+            "n": "Yes, the weather was nice the whole time!"
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Et tu m'as envoyé une carte postale ?",
+            "n": "And did you send me a postcard?"
+          },
+          {
+            "who": "you",
+            "t": "Euh… non, désolé. Je n'ai pas eu le temps !",
+            "n": "Er… no, sorry. I didn't have time!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you worked until 6 p.m. yesterday.",
+          "t": [
+            "Hier j'ai travaillé jusqu'à dix-huit heures",
+            "J'ai travaillé jusqu'à dix-huit heures hier",
+            "Hier j'ai travaillé jusqu'à six heures"
+          ]
+        },
+        {
+          "n": "Ask a friend if they had a good holiday.",
+          "t": [
+            "Tu as passé de bonnes vacances",
+            "Est-ce que tu as passé de bonnes vacances",
+            "As-tu passé de bonnes vacances",
+            "Vous avez passé de bonnes vacances"
+          ]
+        },
+        {
+          "n": "Say you didn't have time.",
+          "t": [
+            "Je n'ai pas eu le temps",
+            "J'ai pas eu le temps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-l4",
+      "kind": "grammar",
+      "title": "Avoir or être?",
+      "goal": "Choose the right helper verb in the passé composé and make the participle agree.",
+      "tip": {
+        "title": "DR MRS VANDERTRAMP",
+        "body": "Most verbs use avoir. A small group uses être — English speakers remember them as DR MRS VANDERTRAMP: devenir, revenir, monter, rester, sortir, venir, aller, naître, descendre, entrer, rentrer, tomber, retourner, arriver, mourir, partir, passer. All reflexive verbs use être too: je me suis levé. With être the participle agrees with the subject (+e for feminine, +s for plural). Careful: when passer, sortir or monter have a direct object they take avoir — j'ai passé deux semaines, j'ai sorti la poubelle."
+      },
+      "phrases": [
+        {
+          "t": "J'ai mangé une crêpe.",
+          "n": "I ate a crêpe."
+        },
+        {
+          "t": "Nous sommes allés à Lyon.",
+          "n": "We went to Lyon."
+        },
+        {
+          "t": "Elle est restée à la maison.",
+          "n": "She stayed at home.",
+          "note": "être → agreement: restée"
+        },
+        {
+          "t": "Tu as bien dormi ?",
+          "n": "Did you sleep well?"
+        },
+        {
+          "t": "Je me suis levé tôt.",
+          "n": "I got up early.",
+          "note": "Reflexive verb → être"
+        },
+        {
+          "t": "Mes parents sont nés au Québec.",
+          "n": "My parents were born in Quebec.",
+          "note": "naître → né"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the activity (avoir)",
+          "base": {
+            "t": "Samedi, j'ai travaillé.",
+            "n": "On Saturday I worked."
+          },
+          "items": [
+            {
+              "cue": "manger une pizza",
+              "t": "Samedi, j'ai mangé une pizza.",
+              "n": "On Saturday I ate a pizza."
+            },
+            {
+              "cue": "voir des amis",
+              "t": "Samedi, j'ai vu des amis.",
+              "n": "On Saturday I saw some friends."
+            },
+            {
+              "cue": "faire du vélo",
+              "t": "Samedi, j'ai fait du vélo.",
+              "n": "On Saturday I went cycling."
+            },
+            {
+              "cue": "prendre le train",
+              "t": "Samedi, j'ai pris le train.",
+              "n": "On Saturday I took the train."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person (être + agreement)",
+          "base": {
+            "t": "Je suis allé à Paris.",
+            "n": "I went to Paris."
+          },
+          "items": [
+            {
+              "cue": "elle",
+              "t": "Elle est allée à Paris.",
+              "n": "She went to Paris."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous sommes allés à Paris.",
+              "n": "We went to Paris."
+            },
+            {
+              "cue": "elles",
+              "t": "Elles sont allées à Paris.",
+              "n": "They (f.) went to Paris."
+            },
+            {
+              "cue": "tu ?",
+              "t": "Tu es allé à Paris ?",
+              "n": "Did you go to Paris?"
+            }
+          ]
+        },
+        {
+          "title": "Make it negative",
+          "base": {
+            "t": "Je n'ai pas vu le film.",
+            "n": "I didn't see the film."
+          },
+          "items": [
+            {
+              "cue": "sortir",
+              "t": "Je ne suis pas sorti.",
+              "n": "I didn't go out."
+            },
+            {
+              "cue": "manger",
+              "t": "Je n'ai pas mangé.",
+              "n": "I didn't eat."
+            },
+            {
+              "cue": "se lever tôt",
+              "t": "Je ne me suis pas levé tôt.",
+              "n": "I didn't get up early."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say we went to Lyon.",
+          "t": [
+            "Nous sommes allés à Lyon",
+            "On est allés à Lyon",
+            "On est allé à Lyon"
+          ]
+        },
+        {
+          "n": "Ask a friend if they slept well.",
+          "t": [
+            "Tu as bien dormi",
+            "Est-ce que tu as bien dormi",
+            "As-tu bien dormi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-l5",
+      "kind": "listening",
+      "title": "A long weekend",
+      "goal": "Follow two colleagues in Bordeaux talking about their long weekend.",
+      "phrases": [
+        {
+          "t": "J'ai fait le pont.",
+          "n": "I took the extra day off.",
+          "note": "Bridging a public holiday and the weekend"
+        },
+        {
+          "t": "On a fait une randonnée.",
+          "n": "We went hiking."
+        },
+        {
+          "t": "Il a plu toute la journée.",
+          "n": "It rained all day.",
+          "note": "pleuvoir → plu"
+        },
+        {
+          "t": "J'étais crevée !",
+          "n": "I was exhausted!",
+          "note": "Informal. crevé (m.) / crevée (f.)"
+        }
+      ],
+      "story": {
+        "title": "After the Ascension weekend",
+        "intro": "Sophie and Julien, two colleagues in Bordeaux, chat on Monday morning after a long weekend.",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "name": "Sophie",
+            "t": "Salut, Julien ! Alors, ce long week-end ?",
+            "n": "Hi, Julien! So, how was the long weekend?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Génial ! Jeudi, c'était l'Ascension, alors j'ai fait le pont. Je suis parti quatre jours dans les Pyrénées.",
+            "n": "Great! Thursday was Ascension Day, so I took Friday off. I went to the Pyrenees for four days."
+          },
+          {
+            "name": "Sophie",
+            "t": "Quatre jours ! Qu'est-ce que tu as fait là-bas ?",
+            "n": "Four days! What did you do there?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "On a fait une randonnée tous les jours. Samedi, on est montés jusqu'à un lac magnifique.",
+            "n": "We went hiking every day. On Saturday we climbed up to a beautiful lake."
+          },
+          {
+            "name": "Sophie",
+            "t": "Et il a fait beau ?",
+            "n": "And was the weather nice?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Oui, sauf dimanche : il a plu toute la journée. Alors on a joué aux cartes au refuge.",
+            "n": "Yes, except Sunday: it rained all day. So we played cards at the mountain hut."
+          },
+          {
+            "name": "Sophie",
+            "t": "Moi, je ne suis pas partie. J'ai repeint ma cuisine. J'étais crevée !",
+            "n": "I didn't go away. I repainted my kitchen. I was exhausted!"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Bravo ! Et elle est de quelle couleur, ta cuisine, maintenant ?",
+            "n": "Well done! And what colour is your kitchen now?"
+          },
+          {
+            "name": "Sophie",
+            "t": "Jaune ! Viens la voir un soir.",
+            "n": "Yellow! Come and see it one evening."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Combien de jours est-ce que Julien est parti ?",
+            "n": "How many days did Julien go away for?",
+            "t": [
+              "Quatre jours",
+              "Quatre",
+              "Il est parti quatre jours"
+            ]
+          },
+          {
+            "q": "Où est-ce qu'il est allé ?",
+            "n": "Where did he go?",
+            "t": [
+              "Dans les Pyrénées",
+              "Les Pyrénées",
+              "Pyrénées",
+              "À la montagne"
+            ]
+          },
+          {
+            "q": "Quel temps a-t-il fait dimanche ?",
+            "n": "What was the weather like on Sunday?",
+            "t": [
+              "Il a plu",
+              "Il a plu toute la journée",
+              "Il a fait mauvais",
+              "La pluie"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Sophie a fait ?",
+            "n": "What did Sophie do?",
+            "t": [
+              "Elle a repeint sa cuisine",
+              "Elle a peint sa cuisine",
+              "Repeint sa cuisine",
+              "Sa cuisine"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u01-l6",
+      "kind": "roleplay",
+      "title": "Monday small talk",
+      "goal": "Tell a colleague about your weekend — your choices steer the chat.",
+      "phrases": [
+        {
+          "t": "Alors, ce week-end ?",
+          "n": "So, how was the weekend?"
+        },
+        {
+          "t": "Rien de spécial.",
+          "n": "Nothing special."
+        },
+        {
+          "t": "J'ai visité un musée.",
+          "n": "I visited a museum.",
+          "note": "visiter is for places; for people use rendre visite à."
+        },
+        {
+          "t": "Raconte !",
+          "n": "Tell me!"
+        }
+      ],
+      "branch": {
+        "title": "At the coffee machine",
+        "scene": "Monday morning. Your colleague Thomas joins you at the coffee machine.",
+        "name": "Thomas",
+        "voice": "fr-FR-YvesNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Salut ! Alors, ce week-end ?",
+            "n": "Hi! So, how was the weekend?",
+            "choices": [
+              {
+                "t": "Super ! Je suis allé à Marseille.",
+                "n": "Great! I went to Marseille.",
+                "next": "marseille"
+              },
+              {
+                "t": "Rien de spécial. Je suis resté chez moi.",
+                "n": "Nothing special. I stayed at home.",
+                "next": "home"
+              }
+            ]
+          },
+          "marseille": {
+            "t": "Génial ! Qu'est-ce que tu as fait à Marseille ?",
+            "n": "Great! What did you do in Marseille?",
+            "choices": [
+              {
+                "t": "J'ai visité un musée et j'ai mangé une bouillabaisse.",
+                "n": "I visited a museum and ate a bouillabaisse.",
+                "next": "fun"
+              },
+              {
+                "t": "Pardon ?",
+                "n": "Sorry?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Tu as fait quoi, à Marseille ? Raconte !",
+            "n": "What did you do in Marseille? Tell me!",
+            "choices": [
+              {
+                "t": "J'ai vu des amis et on est allés à la plage.",
+                "n": "I saw some friends and we went to the beach.",
+                "next": "fun"
+              }
+            ]
+          },
+          "home": {
+            "t": "C'est bien aussi. Et tu as fait quoi ?",
+            "n": "That's nice too. And what did you do?",
+            "choices": [
+              {
+                "t": "J'ai lu un livre et j'ai fait la cuisine.",
+                "n": "I read a book and did some cooking.",
+                "next": "cosy"
+              },
+              {
+                "t": "Ça ne te regarde pas.",
+                "n": "That's none of your business.",
+                "next": "bad"
+              }
+            ]
+          },
+          "fun": {
+            "t": "Ça a l'air génial ! Tu me racontes tout à midi ?",
+            "n": "Sounds great! Will you tell me everything at lunch?",
+            "end": "good",
+            "outcome": "You shared your weekend and made a lunch date."
+          },
+          "cosy": {
+            "t": "Tranquille ! Moi non plus, je n'ai rien fait de spécial.",
+            "n": "Relaxing! I didn't do anything special either.",
+            "end": "good",
+            "outcome": "You had a friendly Monday chat."
+          },
+          "bad": {
+            "t": "Ah… d'accord. Pardon d'avoir demandé.",
+            "n": "Oh… okay. Sorry I asked.",
+            "end": "bad",
+            "outcome": "Too blunt — chatting about the weekend is normal small talk. Try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask a colleague how their weekend was.",
+          "t": [
+            "Alors ce week-end",
+            "Tu as passé un bon week-end",
+            "Ça s'est bien passé ton week-end",
+            "C'était comment ton week-end",
+            "Comment s'est passé ton week-end",
+            "Vous avez passé un bon week-end"
+          ]
+        },
+        {
+          "n": "Say you visited a museum.",
+          "t": [
+            "J'ai visité un musée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-l7",
+      "kind": "speaking",
+      "title": "Your last weekend",
+      "goal": "Talk about your weekend for 40 seconds.",
+      "culture": {
+        "title": "Week-ends, ponts and la fin de semaine",
+        "body": "When a French public holiday falls on a Thursday or a Tuesday, many people faire le pont — take the Friday or Monday off to make a four-day weekend. May is famous for this: le 1er mai, le 8 mai and Ascension Thursday can all create ponts. In France, Belgium and Switzerland people say le week-end; in Québec you'll mostly hear la fin de semaine, and « Bonne fin de semaine ! » is the usual Friday goodbye.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "D'abord, j'ai pris un long petit-déjeuner.",
+          "n": "First I had a long breakfast."
+        },
+        {
+          "t": "Ensuite, je suis allé en ville.",
+          "n": "Then I went into town."
+        },
+        {
+          "t": "Le soir, j'étais très fatigué.",
+          "n": "In the evening I was very tired."
+        },
+        {
+          "t": "Bref, c'était un bon week-end.",
+          "n": "In short, it was a good weekend."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your last weekend: what you did, where you went and how it was.",
+          "hint": "Use D'abord … ensuite …, J'ai fait/vu/mangé …, Je suis allé(e)/sorti(e)/resté(e) …, C'était …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "a time word",
+              "any": [
+                "samedi",
+                "dimanche",
+                "vendredi",
+                "week-end",
+                "soir",
+                "matin",
+                "hier",
+                "d'abord",
+                "ensuite",
+                "après"
+              ]
+            },
+            {
+              "label": "passé composé with avoir",
+              "any": [
+                "fait",
+                "vu",
+                "mangé",
+                "regardé",
+                "lu",
+                "pris",
+                "visité",
+                "joué",
+                "dormi",
+                "travaillé"
+              ]
+            },
+            {
+              "label": "passé composé with être",
+              "any": [
+                "allé*",
+                "parti*",
+                "sorti*",
+                "resté*",
+                "rentré*",
+                "arrivé*",
+                "levé*"
+              ]
+            },
+            {
+              "label": "how it was",
+              "any": [
+                "c'était",
+                "super",
+                "génial",
+                "sympa",
+                "reposant",
+                "ennuyeux",
+                "fatigué*",
+                "bien"
+              ]
+            }
+          ],
+          "model": "Samedi, j'ai fait la grasse matinée. Ensuite, je suis allé en ville et j'ai vu des amis. Dimanche, je suis resté à la maison. C'était très reposant."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you went into town.",
+          "t": [
+            "Je suis allé en ville",
+            "Je suis allée en ville",
+            "Ensuite je suis allé en ville"
+          ]
+        },
+        {
+          "n": "Say you were very tired in the evening.",
+          "t": [
+            "Le soir j'étais très fatigué",
+            "Le soir j'étais très fatiguée",
+            "J'étais très fatigué le soir",
+            "J'étais très fatiguée le soir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Le week-end dernier",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -23,8 +23,16 @@
       "id": "A2",
       "title": "Elementary",
       "description": "Talk about the past, travel, health, home, work and plans; handle phone calls and complaints.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "a2/u01-passe-compose.json",
+        "a2/u02-voyages.json",
+        "a2/u03-sante.json",
+        "a2/u04-logement.json",
+        "a2/u05-travail.json",
+        "a2/u06-projets.json",
+        "a2/u07-vetements.json",
+        "a2/u08-telephone.json"
+      ]
     },
     {
       "id": "B1",
@@ -64,7 +72,9 @@
       "units": [
         "pron/u01-u-ou.json",
         "pron/u02-nasales.json",
-        "pron/u03-r.json"
+        "pron/u03-r.json",
+        "pron/u04-lettres-muettes.json",
+        "pron/u05-liaison.json"
       ]
     }
   ]

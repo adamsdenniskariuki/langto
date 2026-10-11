@@ -1,0 +1,258 @@
+{
+  "id": "pron-u04",
+  "level": "A2",
+  "title": "Les lettres muettes",
+  "subtitle": "silent letters and the h",
+  "icon": "🤫",
+  "lessons": [
+    {
+      "id": "pron-u04-l1",
+      "kind": "pron",
+      "title": "Silent final consonants",
+      "goal": "Know which final letters to skip — and which to say.",
+      "tip": {
+        "title": "Most final consonants are silent — be CaReFuL",
+        "body": "At the end of a word, most consonants are silent: petit, grand, trop, vous, froid. The usual exceptions are C, R, F and L (think \"careful\"): sac, mer, neuf, sel — though -er in infinitives and many nouns sounds like \"é\" (parler, le boulanger). A final e is silent too, but it makes the consonant before it heard: petit (\"p'ti\") vs petite (\"p'tit\"). That's how you hear masculine vs feminine."
+      },
+      "phrases": [
+        {
+          "t": "Il est petit.",
+          "n": "He's small."
+        },
+        {
+          "t": "Elle est petite.",
+          "n": "She's small.",
+          "note": "The t is now pronounced."
+        },
+        {
+          "t": "Il fait froid.",
+          "n": "It's cold.",
+          "note": "The d is silent."
+        },
+        {
+          "t": "Le chef a un sac.",
+          "n": "The chef has a bag.",
+          "note": "f and c are pronounced (CaReFuL)."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "petit",
+            "n": "small (m)"
+          },
+          "b": {
+            "t": "petite",
+            "n": "small (f)"
+          }
+        },
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "grand",
+            "n": "tall (m)"
+          },
+          "b": {
+            "t": "grande",
+            "n": "tall (f)"
+          }
+        },
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "vert",
+            "n": "green (m)"
+          },
+          "b": {
+            "t": "verte",
+            "n": "green (f)"
+          }
+        },
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "gris",
+            "n": "grey (m)"
+          },
+          "b": {
+            "t": "grise",
+            "n": "grey (f)"
+          }
+        },
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "chaud",
+            "n": "hot (m)"
+          },
+          "b": {
+            "t": "chaude",
+            "n": "hot (f)"
+          }
+        },
+        {
+          "sound": "silent / pronounced",
+          "a": {
+            "t": "français",
+            "n": "French (m)"
+          },
+          "b": {
+            "t": "française",
+            "n": "French (f)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Il est petit.",
+          "n": "He's small.",
+          "mark": "Il est pe*tit*."
+        },
+        {
+          "t": "Elle est petite.",
+          "n": "She's small.",
+          "mark": "Elle est pe*tite*."
+        },
+        {
+          "t": "Il fait froid.",
+          "n": "It's cold.",
+          "mark": "Il fait *froid*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"It's cold.\"",
+          "t": [
+            "Il fait froid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u04-l2",
+      "kind": "pron",
+      "title": "Silent -ent and the h",
+      "goal": "Skip -ent in verbs and handle h muet and h aspiré.",
+      "tip": {
+        "title": "-ent is silent in verbs; h is never pronounced",
+        "body": "The verb ending -ent is silent: ils parlent sounds exactly like il parle. (Not in other words: souvent, le vent.) With -er verbs you hear the plural only when the verb starts with a vowel, through the z of the liaison: ils_aiment. The letter h is never pronounced. Most h's are \"mute\" and behave like a vowel: l'homme, les_hommes. Some (h aspiré, often in words of Germanic origin) block élision and liaison: le héros, les | haricots — no z."
+      },
+      "phrases": [
+        {
+          "t": "Ils parlent vite.",
+          "n": "They speak fast.",
+          "note": "-ent is silent: sounds like \"il parle vite\"."
+        },
+        {
+          "t": "Ils habitent à Lyon.",
+          "n": "They live in Lyon.",
+          "note": "h muet: liaison \"il-z-abit\"."
+        },
+        {
+          "t": "J'aime les haricots.",
+          "n": "I like green beans.",
+          "note": "h aspiré: no liaison, no élision."
+        },
+        {
+          "t": "C'est l'heure !",
+          "n": "It's time!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "no liaison / liaison",
+          "a": {
+            "t": "il aime",
+            "n": "he likes"
+          },
+          "b": {
+            "t": "ils aiment",
+            "n": "they like"
+          }
+        },
+        {
+          "sound": "no liaison / liaison",
+          "a": {
+            "t": "elle écoute",
+            "n": "she listens"
+          },
+          "b": {
+            "t": "elles écoutent",
+            "n": "they listen"
+          }
+        },
+        {
+          "sound": "no liaison / liaison",
+          "a": {
+            "t": "il arrive",
+            "n": "he arrives"
+          },
+          "b": {
+            "t": "ils arrivent",
+            "n": "they arrive"
+          }
+        },
+        {
+          "sound": "z / h aspiré",
+          "a": {
+            "t": "les zéros",
+            "n": "the zeros"
+          },
+          "b": {
+            "t": "les héros",
+            "n": "the heroes"
+          }
+        },
+        {
+          "sound": "z / h aspiré",
+          "a": {
+            "t": "les auteurs",
+            "n": "the authors"
+          },
+          "b": {
+            "t": "les hauteurs",
+            "n": "the heights"
+          }
+        },
+        {
+          "sound": "élision / h aspiré",
+          "a": {
+            "t": "l'eau",
+            "n": "the water"
+          },
+          "b": {
+            "t": "le haut",
+            "n": "the top"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ils parlent vite.",
+          "n": "They speak fast.",
+          "mark": "Ils parlent *vite*."
+        },
+        {
+          "t": "Ils habitent à Lyon.",
+          "n": "They live in Lyon.",
+          "mark": "Ils habitent à Ly*on*."
+        },
+        {
+          "t": "J'aime les haricots.",
+          "n": "I like green beans.",
+          "mark": "J'aime les hari*cots*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"They speak French.\"",
+          "t": [
+            "Ils parlent français",
+            "Elles parlent français"
+          ]
+        }
+      ]
+    }
+  ]
+}

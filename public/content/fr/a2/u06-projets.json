@@ -1,0 +1,921 @@
+{
+  "id": "a2-u06",
+  "title": "Les projets",
+  "subtitle": "Plans, invitations & the future",
+  "icon": "🗓️",
+  "lessons": [
+    {
+      "id": "a2-u06-l1",
+      "title": "Making plans",
+      "goal": "Suggest activities, make plans and talk about the future.",
+      "tip": {
+        "title": "Suggesting with on",
+        "body": "In everyday French, on usually means 'we': On se retrouve où ? (where shall we meet?). To suggest something, use On pourrait + infinitive (we could …) or, with friends, Ça te dit de + infinitive ? (do you fancy …?). For plans that depend on something, use si + present: S'il fait beau, on ira au parc. si becomes s' only before il and ils. Pronunciation: on_ira has a liaison — 'on-ni-ra'."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que tu fais samedi ?",
+          "n": "What are you doing on Saturday?"
+        },
+        {
+          "t": "Ça te dit d'aller au cinéma ?",
+          "n": "Do you fancy going to the cinema?",
+          "note": "Informal; formal: Ça vous dirait de … ?"
+        },
+        {
+          "t": "L'année prochaine, j'irai en Espagne.",
+          "n": "Next year I'll go to Spain.",
+          "note": "irai = future of aller"
+        },
+        {
+          "t": "Demain, il va pleuvoir.",
+          "n": "It's going to rain tomorrow."
+        },
+        {
+          "t": "On pourrait faire un barbecue.",
+          "n": "We could have a barbecue."
+        },
+        {
+          "t": "On se retrouve à dix-neuf heures ?",
+          "n": "Shall we meet at seven pm?"
+        },
+        {
+          "t": "On se retrouve où ?",
+          "n": "Where shall we meet?"
+        },
+        {
+          "t": "S'il fait beau, on ira au parc.",
+          "n": "If the weather's nice, we'll go to the park."
+        }
+      ],
+      "dialogue": {
+        "title": "Plans for the weekend",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Salut ! Qu'est-ce que tu fais samedi ?",
+            "n": "Hi! What are you doing on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Rien de spécial. On pourrait faire un barbecue ?",
+            "n": "Nothing special. We could have a barbecue?"
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Bonne idée, mais la météo dit que demain, il va pleuvoir.",
+            "n": "Good idea, but the forecast says it's going to rain tomorrow."
+          },
+          {
+            "who": "you",
+            "t": "Et samedi ? S'il fait beau, on ira au parc.",
+            "n": "And on Saturday? If the weather's nice, we'll go to the park."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Et s'il pleut ?",
+            "n": "And if it rains?"
+          },
+          {
+            "who": "you",
+            "t": "Alors, ça te dit d'aller au cinéma ?",
+            "n": "Then do you fancy going to the cinema?"
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Oui, parfait ! On se retrouve où ?",
+            "n": "Yes, perfect! Where shall we meet?"
+          },
+          {
+            "who": "you",
+            "t": "Devant le cinéma. On se retrouve à dix-neuf heures ?",
+            "n": "In front of the cinema. Shall we meet at seven pm?"
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "D'accord, à samedi !",
+            "n": "OK, see you on Saturday!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend what they're doing on Saturday.",
+          "t": [
+            "Qu'est-ce que tu fais samedi",
+            "Tu fais quoi samedi",
+            "Que fais-tu samedi"
+          ]
+        },
+        {
+          "n": "Ask a friend if they fancy going to the cinema.",
+          "t": [
+            "Ça te dit d'aller au cinéma",
+            "Tu veux aller au cinéma",
+            "Ça te dirait d'aller au cinéma",
+            "Ça vous dit d'aller au cinéma"
+          ]
+        },
+        {
+          "n": "Suggest meeting at seven pm.",
+          "t": [
+            "On se retrouve à dix-neuf heures",
+            "On se retrouve à sept heures",
+            "On se voit à dix-neuf heures",
+            "On se retrouve à sept heures du soir"
+          ]
+        },
+        {
+          "n": "Say that if the weather's nice, you'll (we'll) go to the park.",
+          "t": [
+            "S'il fait beau on ira au parc",
+            "S'il fait beau on va aller au parc",
+            "S'il fait beau nous irons au parc",
+            "S'il fait beau on va au parc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l2",
+      "title": "Accepting and declining",
+      "goal": "Invite someone, accept or decline an invitation and give a reason.",
+      "tip": {
+        "title": "Yes, no and why",
+        "body": "To accept: Avec plaisir ! or Volontiers ! (gladly). To decline politely, apologise and give a reason with parce que or just a comma: Désolé, je ne peux pas, je dois travailler. Women write désolée — it sounds the same. In speech the ne often disappears: J'peux pas. In volontiers the final rs is silent: 'vo-lon-tyé'."
+      },
+      "phrases": [
+        {
+          "t": "Je t'invite à mon anniversaire samedi soir.",
+          "n": "I'm inviting you to my birthday party on Saturday evening."
+        },
+        {
+          "t": "Merci pour l'invitation !",
+          "n": "Thanks for the invitation!"
+        },
+        {
+          "t": "Avec plaisir, je viendrai !",
+          "n": "With pleasure, I'll come!",
+          "note": "viendrai = future of venir"
+        },
+        {
+          "t": "Désolé, je ne peux pas, je dois travailler.",
+          "n": "Sorry, I can't, I have to work.",
+          "note": "Female speaker: désolée"
+        },
+        {
+          "t": "Dommage, une autre fois peut-être.",
+          "n": "Shame, maybe another time."
+        },
+        {
+          "t": "Je peux apporter quelque chose ?",
+          "n": "Can I bring something?"
+        },
+        {
+          "t": "J'apporte le dessert.",
+          "n": "I'll bring dessert."
+        },
+        {
+          "t": "Je pense que j'arriverai un peu en retard.",
+          "n": "I think I'll arrive a bit late."
+        }
+      ],
+      "dialogue": {
+        "title": "A birthday invitation",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Coucou ! Je t'invite à mon anniversaire samedi soir. Tu es libre ?",
+            "n": "Hi! I'm inviting you to my birthday party on Saturday evening. Are you free?"
+          },
+          {
+            "who": "you",
+            "t": "Merci pour l'invitation ! Avec plaisir, je viendrai !",
+            "n": "Thanks for the invitation! With pleasure, I'll come!"
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Génial ! Ça commence à vingt heures, chez moi.",
+            "n": "Great! It starts at eight pm, at my place."
+          },
+          {
+            "who": "you",
+            "t": "Je peux apporter quelque chose ?",
+            "n": "Can I bring something?"
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Si tu veux, un dessert ou une boisson.",
+            "n": "If you like, a dessert or a drink."
+          },
+          {
+            "who": "you",
+            "t": "J'apporte le dessert. Mais je pense que j'arriverai un peu en retard.",
+            "n": "I'll bring dessert. But I think I'll arrive a bit late."
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Pas de souci. Tu crois que Paul pourra venir ?",
+            "n": "No worries. Do you think Paul will be able to come?"
+          },
+          {
+            "who": "you",
+            "t": "Non, il m'a dit : « Désolé, je ne peux pas, je dois travailler. »",
+            "n": "No, he told me: 'Sorry, I can't, I have to work.'"
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Dommage, une autre fois peut-être. À samedi !",
+            "n": "Shame, maybe another time. See you on Saturday!"
+          },
+          {
+            "who": "you",
+            "t": "À samedi, et merci encore !",
+            "n": "See you on Saturday, and thanks again!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Thank someone for the invitation.",
+          "t": [
+            "Merci pour l'invitation",
+            "Merci beaucoup pour l'invitation",
+            "Merci de l'invitation"
+          ]
+        },
+        {
+          "n": "Decline: say sorry, you can't, you have to work.",
+          "t": [
+            "Désolé je ne peux pas je dois travailler",
+            "Désolée je ne peux pas je dois travailler",
+            "Désolé je peux pas je dois travailler",
+            "Désolée je peux pas je dois travailler",
+            "Désolé je ne peux pas parce que je dois travailler"
+          ]
+        },
+        {
+          "n": "Ask if you can bring something.",
+          "t": [
+            "Je peux apporter quelque chose",
+            "Est-ce que je peux apporter quelque chose",
+            "Je peux amener quelque chose",
+            "Puis-je apporter quelque chose"
+          ]
+        },
+        {
+          "n": "Say you think you'll arrive a bit late.",
+          "t": [
+            "Je pense que j'arriverai un peu en retard",
+            "Je pense que je vais arriver un peu en retard",
+            "Je crois que j'arriverai un peu en retard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l3",
+      "title": "Planning a trip",
+      "goal": "Talk about where, how and how long you will travel.",
+      "tip": {
+        "title": "huit jours, quinze jours",
+        "body": "French people often say huit jours for a week and quinze jours for two weeks — it counts both end days. partir means to leave or go away (Cet été, on part en Bretagne), rester means to stay, not 'to rest'. y replaces a place already mentioned: On y va en train ? (Shall we go there by train?). Pronunciation: the t of huit is silent before a consonant (huit jours = 'ui jour') but heard before a vowel (huit heures)."
+      },
+      "phrases": [
+        {
+          "t": "Cet été, on part en Bretagne.",
+          "n": "This summer we're going away to Brittany."
+        },
+        {
+          "t": "J'ai déjà réservé un gîte.",
+          "n": "I've already booked a holiday cottage.",
+          "note": "gîte = self-catering cottage, often in the countryside"
+        },
+        {
+          "t": "Vous partez combien de temps ?",
+          "n": "How long are you going away for?"
+        },
+        {
+          "t": "On reste huit jours.",
+          "n": "We're staying a week."
+        },
+        {
+          "t": "On y va en train ou en voiture ?",
+          "n": "Shall we go there by train or by car?"
+        },
+        {
+          "t": "On louera des vélos sur place.",
+          "n": "We'll rent bikes when we're there."
+        }
+      ],
+      "dialogue": {
+        "title": "Summer in Brittany",
+        "voice": "fr-FR-YvesNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Marc",
+            "t": "Tu as des projets pour les vacances ?",
+            "n": "Do you have any plans for the holidays?"
+          },
+          {
+            "who": "you",
+            "t": "Oui ! Cet été, on part en Bretagne. J'ai déjà réservé un gîte.",
+            "n": "Yes! This summer we're going to Brittany. I've already booked a cottage."
+          },
+          {
+            "who": "A",
+            "name": "Marc",
+            "t": "Super ! Vous partez combien de temps ?",
+            "n": "Great! How long are you going for?"
+          },
+          {
+            "who": "you",
+            "t": "On reste huit jours. On louera des vélos sur place.",
+            "n": "We're staying a week. We'll rent bikes when we're there."
+          },
+          {
+            "who": "A",
+            "name": "Marc",
+            "t": "Et vous y allez comment ?",
+            "n": "And how are you getting there?"
+          },
+          {
+            "who": "you",
+            "t": "Je ne sais pas encore. On y va en train ou en voiture, à ton avis ?",
+            "n": "I don't know yet. Should we go by train or by car, in your opinion?"
+          },
+          {
+            "who": "A",
+            "name": "Marc",
+            "t": "En train, c'est plus reposant. Bonnes vacances !",
+            "n": "By train, it's more relaxing. Have a good holiday!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you've already booked a holiday cottage.",
+          "t": [
+            "J'ai déjà réservé un gîte"
+          ]
+        },
+        {
+          "n": "Ask friends (vous) how long they are going away for.",
+          "t": [
+            "Vous partez combien de temps",
+            "Combien de temps partez-vous",
+            "Combien de temps est-ce que vous partez"
+          ]
+        },
+        {
+          "n": "Say you're (we're) staying a week.",
+          "t": [
+            "On reste huit jours",
+            "On reste une semaine",
+            "Nous restons une semaine",
+            "Nous restons huit jours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l4",
+      "kind": "grammar",
+      "title": "The simple future",
+      "goal": "Use the futur simple for plans, predictions and promises.",
+      "tip": {
+        "title": "Infinitive + -ai, -as, -a, -ons, -ez, -ont",
+        "body": "Take the infinitive and add the endings: je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront. -re verbs drop the final e: prendre → je prendrai. Some key verbs have an irregular stem: être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, venir → je viendrai, pouvoir → je pourrai, voir → je verrai. Every stem ends in r. Use the futur proche (je vais partir) for near, certain plans and the futur simple for further plans, predictions and promises. Unlike English, French uses the future after quand: Quand j'aurai le temps … . Si + present → future: S'il pleut, je resterai à la maison. Pronunciation: the je ending -ai sounds like 'é', and the e in parlerai is often swallowed: 'parl'ré'."
+      },
+      "phrases": [
+        {
+          "t": "Demain, je travaillerai à la maison.",
+          "n": "Tomorrow I'll work at home."
+        },
+        {
+          "t": "L'été prochain, nous visiterons le Québec.",
+          "n": "Next summer we'll visit Québec."
+        },
+        {
+          "t": "Tu seras là samedi ?",
+          "n": "Will you be there on Saturday?"
+        },
+        {
+          "t": "Il fera beau ce week-end.",
+          "n": "The weather will be nice this weekend."
+        },
+        {
+          "t": "Quand j'aurai le temps, je viendrai te voir.",
+          "n": "When I have time, I'll come and see you.",
+          "note": "Future after quand — English uses the present"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Je partirai en vacances en juillet.",
+            "n": "I'll go on holiday in July."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Nous partirons en vacances en juillet.",
+              "n": "We'll go on holiday in July."
+            },
+            {
+              "cue": "vous",
+              "t": "Vous partirez en vacances en juillet.",
+              "n": "You'll go on holiday in July."
+            },
+            {
+              "cue": "tu",
+              "t": "Tu partiras en vacances en juillet.",
+              "n": "You'll go on holiday in July."
+            },
+            {
+              "cue": "mes parents",
+              "t": "Mes parents partiront en vacances en juillet.",
+              "n": "My parents will go on holiday in July."
+            }
+          ]
+        },
+        {
+          "title": "Irregular stems",
+          "base": {
+            "t": "Demain, je serai au bureau.",
+            "n": "Tomorrow I'll be at the office."
+          },
+          "items": [
+            {
+              "cue": "avoir · une réunion",
+              "t": "Demain, j'aurai une réunion.",
+              "n": "Tomorrow I'll have a meeting."
+            },
+            {
+              "cue": "faire · les courses",
+              "t": "Demain, je ferai les courses.",
+              "n": "Tomorrow I'll do the shopping."
+            },
+            {
+              "cue": "aller · à la plage",
+              "t": "Demain, j'irai à la plage.",
+              "n": "Tomorrow I'll go to the beach."
+            },
+            {
+              "cue": "venir · chez toi",
+              "t": "Demain, je viendrai chez toi.",
+              "n": "Tomorrow I'll come to your place."
+            }
+          ]
+        },
+        {
+          "title": "si + present → future",
+          "base": {
+            "t": "S'il fait beau, nous irons à la plage.",
+            "n": "If the weather's nice, we'll go to the beach."
+          },
+          "items": [
+            {
+              "cue": "il pleut · rester à la maison",
+              "t": "S'il pleut, nous resterons à la maison.",
+              "n": "If it rains, we'll stay at home."
+            },
+            {
+              "cue": "nous avons le temps · visiter le musée",
+              "t": "Si nous avons le temps, nous visiterons le musée.",
+              "n": "If we have time, we'll visit the museum."
+            },
+            {
+              "cue": "nous sommes fatigués · rentrer tôt",
+              "t": "Si nous sommes fatigués, nous rentrerons tôt.",
+              "n": "If we're tired, we'll go home early."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that next summer you (we) will visit Québec.",
+          "t": [
+            "L'été prochain nous visiterons le Québec",
+            "L'été prochain on visitera le Québec",
+            "L'été prochain nous allons visiter le Québec",
+            "L'été prochain je visiterai le Québec"
+          ]
+        },
+        {
+          "n": "Say that when you have time, you'll come and see me.",
+          "t": [
+            "Quand j'aurai le temps je viendrai te voir",
+            "Quand j'aurai le temps je viendrai vous voir",
+            "Quand j'aurai du temps je viendrai te voir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l5",
+      "kind": "listening",
+      "title": "A long weekend in Annecy",
+      "goal": "Understand someone describing their travel plans.",
+      "phrases": [
+        {
+          "t": "Tu fais quoi pour le pont ?",
+          "n": "What are you doing for the long weekend?",
+          "note": "le pont = bridge between a public holiday and the weekend"
+        },
+        {
+          "t": "En train, c'est plus pratique.",
+          "n": "By train, it's more convenient."
+        },
+        {
+          "t": "On a réservé une chambre d'hôtes.",
+          "n": "We've booked a B&B.",
+          "note": "chambre d'hôtes = bed and breakfast"
+        },
+        {
+          "t": "S'il fait beau, on fera une randonnée.",
+          "n": "If the weather's nice, we'll go hiking."
+        }
+      ],
+      "story": {
+        "title": "Off to Annecy",
+        "intro": "Before the Ascension long weekend, Inès asks her colleague Hugo about his plans.",
+        "voice": "fr-FR-JacquelineNeural",
+        "lines": [
+          {
+            "name": "Inès",
+            "t": "Hugo, tu fais quoi pour le pont de l'Ascension ?",
+            "n": "Hugo, what are you doing for the Ascension long weekend?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "On part à Annecy avec Clara ! On prendra le train jeudi matin.",
+            "n": "We're going to Annecy with Clara! We'll take the train on Thursday morning."
+          },
+          {
+            "name": "Inès",
+            "t": "En train ? Pas en voiture ?",
+            "n": "By train? Not by car?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Non, en train, c'est plus pratique. Et pendant les ponts, il y a toujours des bouchons sur l'autoroute.",
+            "n": "No, by train it's more convenient. And on long weekends there are always traffic jams on the motorway."
+          },
+          {
+            "name": "Inès",
+            "t": "Et vous dormirez où ?",
+            "n": "And where will you sleep?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "On a réservé une chambre d'hôtes près du lac.",
+            "n": "We've booked a B&B near the lake."
+          },
+          {
+            "name": "Inès",
+            "t": "Super ! Qu'est-ce que vous ferez là-bas ?",
+            "n": "Great! What will you do there?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "S'il fait beau, on fera une randonnée en montagne. S'il pleut, on visitera la vieille ville.",
+            "n": "If the weather's nice, we'll go hiking in the mountains. If it rains, we'll visit the old town."
+          },
+          {
+            "name": "Inès",
+            "t": "Et vous rentrerez quand ?",
+            "n": "And when will you come back?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Dimanche soir. Lundi, je travaille !",
+            "n": "On Sunday evening. On Monday I'm working!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Où est-ce que Hugo part ?",
+            "n": "Where is Hugo going?",
+            "t": [
+              "À Annecy",
+              "Annecy",
+              "Il part à Annecy"
+            ]
+          },
+          {
+            "q": "Comment est-ce qu'ils voyageront ?",
+            "n": "How will they travel?",
+            "t": [
+              "En train",
+              "Le train",
+              "Ils prendront le train",
+              "Ils voyageront en train"
+            ]
+          },
+          {
+            "q": "Où est-ce qu'ils dormiront ?",
+            "n": "Where will they sleep?",
+            "t": [
+              "Dans une chambre d'hôtes",
+              "Une chambre d'hôtes",
+              "Près du lac",
+              "Dans une chambre d'hôtes près du lac"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'ils feront s'il fait beau ?",
+            "n": "What will they do if the weather's nice?",
+            "t": [
+              "Une randonnée",
+              "Une randonnée en montagne",
+              "Ils feront une randonnée",
+              "Ils feront une randonnée en montagne"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u06-l6",
+      "kind": "roleplay",
+      "title": "Planning a trip together",
+      "goal": "Agree on a destination, transport and dates with a friend.",
+      "phrases": [
+        {
+          "t": "Tu as envie d'aller où ?",
+          "n": "Where do you feel like going?"
+        },
+        {
+          "t": "Plutôt à la montagne.",
+          "n": "The mountains, rather."
+        },
+        {
+          "t": "En juillet, j'ai deux semaines de congé.",
+          "n": "In July I have two weeks off."
+        },
+        {
+          "t": "Je te tiens au courant.",
+          "n": "I'll keep you posted."
+        }
+      ],
+      "branch": {
+        "title": "Summer plans",
+        "scene": "Your friend Lucas calls you to plan a summer holiday together.",
+        "name": "Lucas",
+        "voice": "fr-FR-JeromeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Alors, cet été, on part ensemble ? Tu as envie d'aller où ?",
+            "n": "So, shall we go away together this summer? Where do you feel like going?",
+            "choices": [
+              {
+                "t": "Plutôt à la montagne. J'adore la randonnée.",
+                "n": "The mountains, rather. I love hiking.",
+                "next": "where"
+              },
+              {
+                "t": "Pardon, tu peux répéter ?",
+                "n": "Sorry, can you say that again?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Pour les vacances, tu préfères la mer ou la montagne ?",
+            "n": "For the holidays, do you prefer the sea or the mountains?",
+            "choices": [
+              {
+                "t": "Ah ! Plutôt à la montagne.",
+                "n": "Oh! The mountains, rather.",
+                "next": "where"
+              }
+            ]
+          },
+          "where": {
+            "t": "Super, les Alpes, alors ! On y va en train ou en voiture ?",
+            "n": "Great, the Alps then! Shall we go by train or by car?",
+            "choices": [
+              {
+                "t": "En train, c'est plus pratique.",
+                "n": "By train, it's more convenient.",
+                "next": "when"
+              },
+              {
+                "t": "En voiture. Comme ça, on sera libres.",
+                "n": "By car. That way we'll be free.",
+                "next": "when"
+              }
+            ]
+          },
+          "when": {
+            "t": "D'accord. Et quand est-ce que tu seras libre ?",
+            "n": "OK. And when will you be free?",
+            "choices": [
+              {
+                "t": "En juillet, j'ai deux semaines de congé.",
+                "n": "In July I have two weeks off.",
+                "next": "good"
+              },
+              {
+                "t": "Je ne sais pas encore. Je te tiens au courant.",
+                "n": "I don't know yet. I'll keep you posted.",
+                "next": "later"
+              },
+              {
+                "t": "Bof, partir avec toi, ça ne m'intéresse pas.",
+                "n": "Meh, going away with you doesn't interest me.",
+                "next": "bad"
+              }
+            ]
+          },
+          "later": {
+            "t": "Pas de problème. Tu me diras avant la fin du mois ?",
+            "n": "No problem. Will you tell me before the end of the month?",
+            "choices": [
+              {
+                "t": "Oui, promis, je te le dirai vendredi.",
+                "n": "Yes, promise, I'll tell you on Friday.",
+                "next": "promise"
+              }
+            ]
+          },
+          "good": {
+            "t": "Parfait ! Je réserve un gîte pour la deuxième semaine de juillet.",
+            "n": "Perfect! I'll book a cottage for the second week of July.",
+            "end": "good",
+            "outcome": "You agreed on the mountains, the transport and the dates. The trip is on!"
+          },
+          "promise": {
+            "t": "Génial. J'attends ta réponse vendredi, alors !",
+            "n": "Great. I'll wait for your answer on Friday, then!",
+            "end": "good",
+            "outcome": "The plan is almost ready — you just need to confirm your dates."
+          },
+          "bad": {
+            "t": "Ah bon… Bon, je partirai avec quelqu'un d'autre.",
+            "n": "Oh really… Well, I'll go with someone else.",
+            "end": "bad",
+            "outcome": "That hurt your friend's feelings. A polite 'I'm not sure yet' works better. Try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say that in July you have two weeks off.",
+          "t": [
+            "En juillet j'ai deux semaines de congé",
+            "En juillet j'ai deux semaines de vacances",
+            "J'ai deux semaines de congé en juillet"
+          ]
+        },
+        {
+          "n": "Tell a friend you'll keep them posted.",
+          "t": [
+            "Je te tiens au courant",
+            "Je vous tiens au courant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-l7",
+      "kind": "speaking",
+      "title": "Your next holiday",
+      "goal": "Talk about your plans for 40 seconds.",
+      "culture": {
+        "title": "Juillet, août and la rentrée",
+        "body": "Many people in France take their main holiday in July or August, often two or three weeks in a row. People joke about juillettistes (July holidaymakers) and aoûtiens (August holidaymakers), and the big departure weekends bring famous traffic jams. Around 15 August (a public holiday) Paris feels quieter and some small shops close. Then comes la rentrée in early September: children go back to school, people return to work and new projects, clubs and courses start. In Québec, many workers take the construction holiday (les vacances de la construction), traditionally the last two weeks of July.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "L'été prochain, j'irai en Italie.",
+          "n": "Next summer I'll go to Italy."
+        },
+        {
+          "t": "Je prendrai mes congés en août.",
+          "n": "I'll take my holiday in August."
+        },
+        {
+          "t": "J'ai hâte d'y être !",
+          "n": "I can't wait to be there!"
+        },
+        {
+          "t": "À la rentrée, je m'inscrirai à un cours de danse.",
+          "n": "In September I'll sign up for a dance class.",
+          "note": "la rentrée = back to school/work after summer"
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your next holiday or your plans for after the summer: where, when, how and what you'll do.",
+          "hint": "L'été prochain, j'irai …, Je partirai en …, Je resterai …, On fera …, S'il fait beau …, J'ai hâte !",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "where you'll go",
+              "any": [
+                "irai",
+                "partirai",
+                "partirons",
+                "irons",
+                "vacances",
+                "voyage*",
+                "mer",
+                "montagne",
+                "plage"
+              ]
+            },
+            {
+              "label": "when",
+              "any": [
+                "été",
+                "juillet",
+                "août",
+                "prochain*",
+                "semaine*",
+                "rentrée",
+                "week-end"
+              ]
+            },
+            {
+              "label": "an activity in the future",
+              "any": [
+                "ferai",
+                "ferons",
+                "visiterai",
+                "visiterons",
+                "resterai",
+                "resterons",
+                "prendrai",
+                "louerai",
+                "randonnée"
+              ]
+            },
+            {
+              "label": "how you feel about it",
+              "any": [
+                "hâte",
+                "content*",
+                "super",
+                "génial",
+                "j'adore",
+                "envie"
+              ]
+            }
+          ],
+          "model": "L'été prochain, je partirai deux semaines en Italie avec ma famille. On prendra le train jusqu'à Milan, puis on louera une voiture. S'il fait beau, on ira à la plage et on visitera Florence. J'ai hâte d'y être !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'll take your holiday in August.",
+          "t": [
+            "Je prendrai mes congés en août",
+            "Je prendrai mes vacances en août",
+            "Je vais prendre mes congés en août"
+          ]
+        },
+        {
+          "n": "Say you can't wait to be there.",
+          "t": [
+            "J'ai hâte d'y être",
+            "J'ai hâte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les projets",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

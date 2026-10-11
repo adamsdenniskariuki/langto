@@ -1,0 +1,861 @@
+{
+  "id": "a2-u03",
+  "title": "La santé",
+  "subtitle": "Health & the body",
+  "icon": "🩺",
+  "lessons": [
+    {
+      "id": "a2-u03-l1",
+      "title": "What's wrong?",
+      "goal": "Say how you feel and describe where it hurts.",
+      "tip": {
+        "title": "avoir mal à & depuis + present",
+        "body": "French says 'I have pain at': J'ai mal à la tête (I have a headache), J'ai mal à la gorge (my throat hurts). Use the body part with le/la, not mon/ma. For something that started in the past and is still going on, use depuis with the present tense: J'ai de la fièvre depuis hier (I've had a fever since yesterday) — not the passé composé. Pronounce mal with a clear French a, and in enrhumé the h is silent: an-ru-mé."
+      },
+      "phrases": [
+        {
+          "t": "Je ne me sens pas bien.",
+          "n": "I don't feel well.",
+          "note": "se sentir = to feel"
+        },
+        {
+          "t": "J'ai mal à la tête.",
+          "n": "I have a headache."
+        },
+        {
+          "t": "J'ai mal à la gorge.",
+          "n": "I have a sore throat."
+        },
+        {
+          "t": "J'ai mal au dos.",
+          "n": "My back hurts.",
+          "note": "à + le = au"
+        },
+        {
+          "t": "J'ai de la fièvre depuis hier.",
+          "n": "I've had a fever since yesterday.",
+          "note": "depuis + present tense"
+        },
+        {
+          "t": "Je suis enrhumé.",
+          "n": "I have a cold.",
+          "note": "A woman says enrhumée — same sound."
+        },
+        {
+          "t": "J'ai mal dormi cette nuit.",
+          "n": "I slept badly last night."
+        },
+        {
+          "t": "Je suis crevé.",
+          "n": "I'm exhausted.",
+          "note": "Informal; crevée for a woman."
+        }
+      ],
+      "dialogue": {
+        "title": "You look tired",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Salut ! Tu as l'air fatigué. Qu'est-ce qui se passe ?",
+            "n": "Hi! You look tired. What's going on?"
+          },
+          {
+            "who": "you",
+            "t": "Je ne me sens pas bien. J'ai mal dormi cette nuit.",
+            "n": "I don't feel well. I slept badly last night."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Oh non ! Qu'est-ce que tu as ?",
+            "n": "Oh no! What's wrong with you?"
+          },
+          {
+            "who": "you",
+            "t": "J'ai mal à la tête et j'ai mal à la gorge.",
+            "n": "I have a headache and a sore throat."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Tu as de la fièvre aussi ?",
+            "n": "Do you have a fever too?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, j'ai de la fièvre depuis hier.",
+            "n": "Yes, I've had a fever since yesterday."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Alors il faut aller chez le médecin !",
+            "n": "Then you have to go to the doctor!"
+          },
+          {
+            "who": "you",
+            "t": "Tu as raison. Je vais chez le médecin demain.",
+            "n": "You're right. I'm going to the doctor tomorrow."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you don't feel well.",
+          "t": [
+            "Je ne me sens pas bien",
+            "Je me sens pas bien",
+            "Ça ne va pas",
+            "Ça va pas"
+          ]
+        },
+        {
+          "n": "Say you have a headache.",
+          "t": [
+            "J'ai mal à la tête"
+          ]
+        },
+        {
+          "n": "Say you have a sore throat.",
+          "t": [
+            "J'ai mal à la gorge"
+          ]
+        },
+        {
+          "n": "Say you've had a fever since yesterday.",
+          "t": [
+            "J'ai de la fièvre depuis hier",
+            "J'ai de la fièvre depuis hier soir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l2",
+      "title": "At the doctor's",
+      "goal": "Describe your symptoms to a doctor and ask about medicine.",
+      "tip": {
+        "title": "parce que & devoir",
+        "body": "parce que (because) works like English — no change of word order: Je dors mal parce que je tousse beaucoup. Before a vowel it becomes parce qu': parce qu'il fait froid. To ask about instructions, use devoir: Je dois prendre des médicaments ? Combien de fois par jour ? Tousser (to cough) has a hard s sound [s]; don't confuse it with tout (all). The doctor is le médecin (or docteur when you address them: Bonjour, docteur)."
+      },
+      "phrases": [
+        {
+          "t": "J'ai mal à la gorge et je tousse beaucoup.",
+          "n": "I have a sore throat and I'm coughing a lot."
+        },
+        {
+          "t": "Depuis trois jours.",
+          "n": "For three days.",
+          "note": "depuis = for/since"
+        },
+        {
+          "t": "Je dors mal parce que je tousse.",
+          "n": "I sleep badly because I'm coughing."
+        },
+        {
+          "t": "Est-ce que je dois prendre des médicaments ?",
+          "n": "Do I have to take medicine?"
+        },
+        {
+          "t": "Combien de fois par jour ?",
+          "n": "How many times a day?"
+        },
+        {
+          "t": "Je suis allergique à la pénicilline.",
+          "n": "I'm allergic to penicillin."
+        },
+        {
+          "t": "Vous pouvez me faire un arrêt de travail ?",
+          "n": "Can you give me a sick note?",
+          "note": "arrêt de travail = time off work for illness"
+        },
+        {
+          "t": "Bon rétablissement !",
+          "n": "Get well soon!"
+        }
+      ],
+      "dialogue": {
+        "title": "In the surgery",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Docteure Lefèvre",
+            "t": "Bonjour ! Qu'est-ce qui vous amène ?",
+            "n": "Hello! What brings you here?"
+          },
+          {
+            "who": "you",
+            "t": "J'ai mal à la gorge et je tousse beaucoup.",
+            "n": "I have a sore throat and I'm coughing a lot."
+          },
+          {
+            "who": "A",
+            "name": "Docteure Lefèvre",
+            "t": "Depuis combien de temps ?",
+            "n": "For how long?"
+          },
+          {
+            "who": "you",
+            "t": "Depuis trois jours. Je dors mal parce que je tousse.",
+            "n": "For three days. I sleep badly because I'm coughing."
+          },
+          {
+            "who": "A",
+            "name": "Docteure Lefèvre",
+            "t": "Vous avez des allergies ?",
+            "n": "Do you have any allergies?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je suis allergique à la pénicilline.",
+            "n": "Yes, I'm allergic to penicillin."
+          },
+          {
+            "who": "A",
+            "name": "Docteure Lefèvre",
+            "t": "D'accord. Je vous prescris un sirop pour la toux.",
+            "n": "OK. I'll prescribe you a cough syrup."
+          },
+          {
+            "who": "you",
+            "t": "Combien de fois par jour ?",
+            "n": "How many times a day?"
+          },
+          {
+            "who": "A",
+            "name": "Docteure Lefèvre",
+            "t": "Trois fois par jour. Et restez deux jours à la maison.",
+            "n": "Three times a day. And stay at home for two days."
+          },
+          {
+            "who": "you",
+            "t": "Vous pouvez me faire un arrêt de travail ?",
+            "n": "Can you give me a sick note?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you sleep badly because you're coughing.",
+          "t": [
+            "Je dors mal parce que je tousse",
+            "Je dors mal parce que je tousse beaucoup"
+          ]
+        },
+        {
+          "n": "Say you're allergic to penicillin.",
+          "t": [
+            "Je suis allergique à la pénicilline"
+          ]
+        },
+        {
+          "n": "Ask if you have to take medicine.",
+          "t": [
+            "Est-ce que je dois prendre des médicaments",
+            "Je dois prendre des médicaments",
+            "Dois-je prendre des médicaments"
+          ]
+        },
+        {
+          "n": "Wish someone a speedy recovery.",
+          "t": [
+            "Bon rétablissement",
+            "Soigne-toi bien",
+            "Soignez-vous bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l3",
+      "title": "At the pharmacy",
+      "goal": "Ask for medicine and name more body parts.",
+      "tip": {
+        "title": "Look for the green cross",
+        "body": "French pharmacies are marked by a lit-up green cross. In France, even common medicines like paracetamol (le Doliprane is a well-known brand) are sold in pharmacies, not in supermarkets, and pharmacists give a lot of advice. At night and on Sundays a pharmacie de garde (duty pharmacy) is open — the address is usually posted on the door of the others. Note the plural: J'ai mal aux dents (à + les = aux), with a liaison z: aux_yeux sounds 'o-zyeu'."
+      },
+      "phrases": [
+        {
+          "t": "Où est la pharmacie la plus proche ?",
+          "n": "Where's the nearest pharmacy?"
+        },
+        {
+          "t": "Vous avez quelque chose contre le mal de tête ?",
+          "n": "Do you have something for a headache?",
+          "note": "contre = against"
+        },
+        {
+          "t": "Est-ce qu'il faut une ordonnance ?",
+          "n": "Do I need a prescription?"
+        },
+        {
+          "t": "J'ai mal au ventre.",
+          "n": "I have a stomach ache."
+        },
+        {
+          "t": "J'ai mal aux dents.",
+          "n": "I have toothache."
+        },
+        {
+          "t": "Prenez un comprimé après le repas.",
+          "n": "Take one tablet after meals."
+        }
+      ],
+      "dialogue": {
+        "title": "At the pharmacy",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Pharmacienne",
+            "t": "Bonjour ! Qu'est-ce que je peux faire pour vous ?",
+            "n": "Hello! What can I do for you?"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour. Vous avez quelque chose contre le mal de tête ?",
+            "n": "Hello. Do you have something for a headache?"
+          },
+          {
+            "who": "A",
+            "name": "Pharmacienne",
+            "t": "Oui, voilà du paracétamol. Prenez un comprimé après le repas.",
+            "n": "Yes, here's some paracetamol. Take one tablet after meals."
+          },
+          {
+            "who": "you",
+            "t": "Merci. Est-ce qu'il faut une ordonnance ?",
+            "n": "Thank you. Do I need a prescription?"
+          },
+          {
+            "who": "A",
+            "name": "Pharmacienne",
+            "t": "Non, pas pour ça. Mais pas plus de trois comprimés par jour.",
+            "n": "No, not for this. But no more than three tablets a day."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. Merci beaucoup, au revoir !",
+            "n": "OK. Thanks a lot, goodbye!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask for something for a headache.",
+          "t": [
+            "Vous avez quelque chose contre le mal de tête",
+            "Avez-vous quelque chose contre le mal de tête",
+            "Est-ce que vous avez quelque chose contre le mal de tête"
+          ]
+        },
+        {
+          "n": "Ask if you need a prescription.",
+          "t": [
+            "Est-ce qu'il faut une ordonnance",
+            "Il faut une ordonnance",
+            "Faut-il une ordonnance"
+          ]
+        },
+        {
+          "n": "Say you have a stomach ache.",
+          "t": [
+            "J'ai mal au ventre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l4",
+      "kind": "grammar",
+      "title": "Avoir mal à & the imperative",
+      "goal": "Say where it hurts and understand the doctor's instructions.",
+      "tip": {
+        "title": "au / à la / à l' / aux and giving orders",
+        "body": "à combines with le and les: à + le = au (J'ai mal au dos), à + les = aux (J'ai mal aux pieds); à la and à l' stay as they are (à la jambe, à l'oreille). The imperative is the present tense without the subject: vous prenez → Prenez !, nous buvons → Buvons ! For tu, -er verbs drop the final s: tu restes → Reste ! (most other verbs keep it: Prends ! Bois !). Negative: Ne buvez pas d'alcool. Reflexive verbs put the pronoun after: Reposez-vous ! Repose-toi !"
+      },
+      "phrases": [
+        {
+          "t": "Buvez beaucoup d'eau.",
+          "n": "Drink lots of water."
+        },
+        {
+          "t": "Restez au lit pendant trois jours.",
+          "n": "Stay in bed for three days."
+        },
+        {
+          "t": "Ne faites pas de sport cette semaine.",
+          "n": "Don't do any sport this week."
+        },
+        {
+          "t": "Prenez ce sirop trois fois par jour.",
+          "n": "Take this syrup three times a day."
+        },
+        {
+          "t": "Repose-toi bien !",
+          "n": "Get plenty of rest!",
+          "note": "tu form of se reposer"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the body part",
+          "base": {
+            "t": "J'ai mal à la tête.",
+            "n": "I have a headache."
+          },
+          "items": [
+            {
+              "cue": "le dos",
+              "t": "J'ai mal au dos.",
+              "n": "My back hurts."
+            },
+            {
+              "cue": "les yeux",
+              "t": "J'ai mal aux yeux.",
+              "n": "My eyes hurt."
+            },
+            {
+              "cue": "l'oreille",
+              "t": "J'ai mal à l'oreille.",
+              "n": "I have earache."
+            },
+            {
+              "cue": "il · la jambe",
+              "t": "Il a mal à la jambe.",
+              "n": "His leg hurts."
+            }
+          ]
+        },
+        {
+          "title": "Give the order",
+          "base": {
+            "t": "Restez à la maison.",
+            "n": "Stay at home."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Reste à la maison.",
+              "n": "Stay at home."
+            },
+            {
+              "cue": "boire de l'eau",
+              "t": "Buvez de l'eau.",
+              "n": "Drink water."
+            },
+            {
+              "cue": "tu · boire de l'eau",
+              "t": "Bois de l'eau.",
+              "n": "Drink water."
+            },
+            {
+              "cue": "négatif · sortir",
+              "t": "Ne sortez pas.",
+              "n": "Don't go out."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say your eyes hurt.",
+          "t": [
+            "J'ai mal aux yeux"
+          ]
+        },
+        {
+          "n": "Tell a friend to drink lots of water.",
+          "t": [
+            "Bois beaucoup d'eau",
+            "Bois de l'eau"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l5",
+      "kind": "listening",
+      "title": "A bike accident",
+      "goal": "Follow a friend telling you about an injury.",
+      "phrases": [
+        {
+          "t": "Je suis tombé de vélo.",
+          "n": "I fell off my bike.",
+          "note": "tomber takes être; tombée for a woman"
+        },
+        {
+          "t": "Ma cheville a gonflé.",
+          "n": "My ankle swelled up."
+        },
+        {
+          "t": "Ce n'est pas cassé.",
+          "n": "It's not broken."
+        },
+        {
+          "t": "Je suis désolée pour toi !",
+          "n": "I'm so sorry for you!"
+        }
+      ],
+      "story": {
+        "title": "On crutches",
+        "intro": "Lucie meets her friend Thomas, who is walking on crutches.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Lucie",
+            "t": "Thomas ! Pourquoi tu as des béquilles ? Qu'est-ce qui s'est passé ?",
+            "n": "Thomas! Why are you on crutches? What happened?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Je suis tombé de vélo dimanche. Il pleuvait et la route était glissante.",
+            "n": "I fell off my bike on Sunday. It was raining and the road was slippery."
+          },
+          {
+            "name": "Lucie",
+            "t": "Oh là là ! Tu as très mal ?",
+            "n": "Oh dear! Does it hurt a lot?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Oui, ma cheville a gonflé. Je suis allé aux urgences.",
+            "n": "Yes, my ankle swelled up. I went to A&E."
+          },
+          {
+            "name": "Lucie",
+            "t": "Et qu'est-ce que le médecin a dit ?",
+            "n": "And what did the doctor say?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Ce n'est pas cassé, c'est une entorse. Mais je ne dois pas faire de sport pendant trois semaines.",
+            "n": "It's not broken, it's a sprain. But I mustn't do any sport for three weeks."
+          },
+          {
+            "name": "Lucie",
+            "t": "Trois semaines ! Et pour le travail ?",
+            "n": "Three weeks! And what about work?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "J'ai un arrêt de travail jusqu'à vendredi.",
+            "n": "I'm signed off work until Friday."
+          },
+          {
+            "name": "Lucie",
+            "t": "Je suis désolée pour toi ! Repose-toi bien !",
+            "n": "I'm so sorry for you! Get plenty of rest!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quand est-ce que Thomas est tombé ?",
+            "n": "When did Thomas fall?",
+            "t": [
+              "Dimanche",
+              "Il est tombé dimanche",
+              "Dimanche à vélo"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il a à la cheville ?",
+            "n": "What's wrong with his ankle?",
+            "t": [
+              "Une entorse",
+              "C'est une entorse",
+              "Elle a gonflé",
+              "Elle est gonflée"
+            ]
+          },
+          {
+            "q": "Pendant combien de temps est-ce qu'il ne doit pas faire de sport ?",
+            "n": "For how long mustn't he do sport?",
+            "t": [
+              "Trois semaines",
+              "Pendant trois semaines"
+            ]
+          },
+          {
+            "q": "Jusqu'à quand est-ce qu'il a un arrêt de travail ?",
+            "n": "Until when is he signed off work?",
+            "t": [
+              "Jusqu'à vendredi",
+              "Vendredi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u03-l6",
+      "kind": "roleplay",
+      "title": "Booking a doctor's appointment",
+      "goal": "Phone the surgery and get an appointment.",
+      "phrases": [
+        {
+          "t": "Je voudrais prendre rendez-vous.",
+          "n": "I'd like to make an appointment."
+        },
+        {
+          "t": "Ce n'est pas urgent.",
+          "n": "It's not urgent."
+        },
+        {
+          "t": "Ça me va très bien.",
+          "n": "That suits me very well."
+        },
+        {
+          "t": "Je suis libre l'après-midi.",
+          "n": "I'm free in the afternoon."
+        }
+      ],
+      "branch": {
+        "title": "On the phone",
+        "scene": "You're not well and call Dr Martin's surgery (le cabinet médical) to get an appointment.",
+        "name": "Secrétaire",
+        "voice": "fr-FR-CelesteNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Cabinet du docteur Martin, bonjour !",
+            "n": "Dr Martin's surgery, hello!",
+            "choices": [
+              {
+                "t": "Bonjour ! Je voudrais prendre rendez-vous.",
+                "n": "Hello! I'd like to make an appointment.",
+                "next": "reason"
+              },
+              {
+                "t": "Pardon ? Vous pouvez répéter ?",
+                "n": "Sorry? Can you repeat?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ici le cabinet du docteur Martin. Qu'est-ce que je peux faire pour vous ?",
+            "n": "This is Dr Martin's surgery. What can I do for you?",
+            "choices": [
+              {
+                "t": "Je voudrais prendre rendez-vous, s'il vous plaît.",
+                "n": "I'd like to make an appointment, please.",
+                "next": "reason"
+              }
+            ]
+          },
+          "reason": {
+            "t": "C'est pour quoi ?",
+            "n": "What is it for?",
+            "choices": [
+              {
+                "t": "J'ai de la fièvre depuis trois jours.",
+                "n": "I've had a fever for three days.",
+                "next": "today"
+              },
+              {
+                "t": "J'ai un peu mal au dos. Ce n'est pas urgent.",
+                "n": "My back hurts a bit. It's not urgent.",
+                "next": "later"
+              }
+            ]
+          },
+          "today": {
+            "t": "Alors venez aujourd'hui à onze heures. N'oubliez pas votre carte Vitale.",
+            "n": "Then come today at eleven. Don't forget your carte Vitale (health card).",
+            "choices": [
+              {
+                "t": "D'accord, je viens à onze heures. Merci !",
+                "n": "OK, I'll come at eleven. Thank you!",
+                "next": "goodToday"
+              }
+            ]
+          },
+          "later": {
+            "t": "J'ai un rendez-vous mardi à neuf heures. Ça vous va ?",
+            "n": "I have an appointment on Tuesday at nine. Does that suit you?",
+            "choices": [
+              {
+                "t": "Oui, ça me va très bien.",
+                "n": "Yes, that suits me very well.",
+                "next": "goodLater"
+              },
+              {
+                "t": "Non, je travaille le matin. Je suis libre l'après-midi.",
+                "n": "No, I work in the mornings. I'm free in the afternoon.",
+                "next": "thursday"
+              }
+            ]
+          },
+          "thursday": {
+            "t": "Jeudi à seize heures, alors ?",
+            "n": "Thursday at four p.m., then?",
+            "choices": [
+              {
+                "t": "Oui, jeudi, c'est parfait.",
+                "n": "Yes, Thursday is perfect.",
+                "next": "goodLater"
+              },
+              {
+                "t": "Non, ça ne va pas. Je rappellerai.",
+                "n": "No, that doesn't work. I'll call back.",
+                "next": "bad"
+              }
+            ]
+          },
+          "goodToday": {
+            "t": "À tout à l'heure. Bon rétablissement !",
+            "n": "See you later. Get well soon!",
+            "end": "good",
+            "outcome": "You got an appointment for today."
+          },
+          "goodLater": {
+            "t": "Très bien, c'est noté. Au revoir !",
+            "n": "Very good, it's booked. Goodbye!",
+            "end": "good",
+            "outcome": "You booked an appointment that fits your week."
+          },
+          "bad": {
+            "t": "D'accord, mais l'agenda est presque plein. Au revoir.",
+            "n": "OK, but the diary is almost full. Goodbye.",
+            "end": "bad",
+            "outcome": "You hung up without an appointment — and the slots are going fast."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to make an appointment.",
+          "t": [
+            "Je voudrais prendre rendez-vous",
+            "Je voudrais un rendez-vous",
+            "J'aimerais prendre rendez-vous"
+          ]
+        },
+        {
+          "n": "Say it's not urgent.",
+          "t": [
+            "Ce n'est pas urgent",
+            "C'est pas urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-l7",
+      "kind": "speaking",
+      "title": "Off sick",
+      "goal": "Explain your illness and the doctor's advice for 40 seconds.",
+      "culture": {
+        "title": "Carte Vitale, médecin traitant & emergency numbers",
+        "body": "In France you show your carte Vitale (health insurance card) at the doctor's and the pharmacy, and most adults declare a regular GP, the médecin traitant, to get better reimbursement. In an emergency, dial 15 for the SAMU (medical emergencies) in France, or 112, the European emergency number that also works in Belgium and in Switzerland. In Switzerland the ambulance number is 144; in Québec and the rest of Canada it's 911, and Québec also has Info-Santé on 811 for health advice. In Québec you may also hear 'je file pas' for I don't feel well.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis malade depuis lundi.",
+          "n": "I've been ill since Monday."
+        },
+        {
+          "t": "Le médecin dit que je dois me reposer.",
+          "n": "The doctor says I have to rest."
+        },
+        {
+          "t": "Je ne peux pas encore travailler.",
+          "n": "I can't work yet."
+        },
+        {
+          "t": "Je reviens au bureau la semaine prochaine.",
+          "n": "I'll be back at the office next week."
+        }
+      ],
+      "free": [
+        {
+          "n": "You're off sick. Tell a colleague what's wrong, since when, and what the doctor says you must or mustn't do.",
+          "hint": "J'ai mal à … / J'ai de la fièvre depuis …, Le médecin dit que je dois …, Je ne dois pas …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "a symptom",
+              "any": [
+                "mal",
+                "fièvre",
+                "tousse",
+                "enrhumé*",
+                "grippe",
+                "malade",
+                "toux"
+              ]
+            },
+            {
+              "label": "since when",
+              "any": [
+                "depuis",
+                "hier",
+                "jours",
+                "semaine"
+              ]
+            },
+            {
+              "label": "what you must do",
+              "any": [
+                "dois",
+                "doit",
+                "faut",
+                "repose*",
+                "rester",
+                "prendre",
+                "boire"
+              ]
+            },
+            {
+              "label": "the doctor",
+              "any": [
+                "médecin",
+                "docteur",
+                "docteure",
+                "cabinet",
+                "ordonnance"
+              ]
+            }
+          ],
+          "model": "Je suis malade. J'ai de la fièvre et mal à la gorge depuis lundi. Le médecin dit que je dois rester au lit et boire beaucoup d'eau. Je ne dois pas venir au bureau cette semaine."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you've been ill since Monday.",
+          "t": [
+            "Je suis malade depuis lundi"
+          ]
+        },
+        {
+          "n": "Say the doctor says you have to rest.",
+          "t": [
+            "Le médecin dit que je dois me reposer",
+            "Le docteur dit que je dois me reposer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La santé",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
