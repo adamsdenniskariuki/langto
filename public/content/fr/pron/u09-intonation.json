@@ -1,0 +1,238 @@
+{
+  "id": "pron-u09",
+  "level": "C1",
+  "title": "L'intonation",
+  "subtitle": "questions, continuation, emphasis",
+  "icon": "🎵",
+  "lessons": [
+    {
+      "id": "pron-u09-l1",
+      "kind": "pron",
+      "title": "Questions and continuation",
+      "goal": "Rise for yes/no, fall for statements, rise to keep going.",
+      "tip": {
+        "title": "The melody does the grammar",
+        "body": "In everyday French a statement becomes a yes/no question just by rising sharply at the end: Tu viens. ↘ / Tu viens ? ↗. Questions with a question word at the start (Où est-ce que vous habitez ?) usually start high and fall. Inside a long sentence or a list, every non-final group rises slightly (the continuation rise) to signal \"more is coming\"; only the final group falls."
+      },
+      "phrases": [
+        {
+          "t": "Tu viens ce soir ?",
+          "n": "Are you coming tonight?"
+        },
+        {
+          "t": "Où est-ce que vous habitez ?",
+          "n": "Where do you live?"
+        },
+        {
+          "t": "Du pain, du fromage et du vin.",
+          "n": "Bread, cheese and wine."
+        },
+        {
+          "t": "Quand j'ai fini, je t'appelle.",
+          "n": "When I've finished, I'll call you."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Tu viens.",
+            "n": "You're coming."
+          },
+          "b": {
+            "t": "Tu viens ?",
+            "n": "Are you coming?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "C'est fini.",
+            "n": "It's over."
+          },
+          "b": {
+            "t": "C'est fini ?",
+            "n": "Is it over?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Il pleut.",
+            "n": "It's raining."
+          },
+          "b": {
+            "t": "Il pleut ?",
+            "n": "Is it raining?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Vous êtes prête.",
+            "n": "You're ready."
+          },
+          "b": {
+            "t": "Vous êtes prête ?",
+            "n": "Are you ready?"
+          }
+        },
+        {
+          "sound": "↘ / ↗",
+          "a": {
+            "t": "Elle part demain.",
+            "n": "She's leaving tomorrow."
+          },
+          "b": {
+            "t": "Elle part demain ?",
+            "n": "Is she leaving tomorrow?"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Tu viens ce soir ?",
+          "n": "Are you coming tonight?",
+          "mark": "Tu viens ce *soir* ?",
+          "note": "Rise sharply on \"soir\"."
+        },
+        {
+          "t": "Du pain, du fromage et du vin.",
+          "n": "Bread, cheese and wine.",
+          "mark": "Du *pain*, du fro*mage* et du *vin*.",
+          "note": "Rise on \"pain\" and \"fromage\", fall on \"vin\"."
+        },
+        {
+          "t": "Quand j'ai fini, je t'appelle.",
+          "n": "When I've finished, I'll call you.",
+          "mark": "Quand j'ai fi*ni*, je t'ap*pelle*.",
+          "note": "Rise on \"fini\", fall on \"appelle\"."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend \"Are you coming tonight?\"",
+          "t": [
+            "Tu viens ce soir",
+            "Est-ce que tu viens ce soir",
+            "Viens-tu ce soir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u09-l2",
+      "kind": "pron",
+      "title": "Emphasis and attitude",
+      "goal": "Add emphatic stress and hear irony.",
+      "tip": {
+        "title": "Emphatic stress goes to the front",
+        "body": "To show strong feeling, French adds an extra, emphatic stress (accent d'insistance) near the start of a word, often lengthening its first consonant: C'est MA-gnifique ! In words beginning with a vowel it falls either on that first vowel (C'est IN-croyable ! C'est AB-solument magnifique !) or on the next syllable, with a lengthened consonant (in-CROY-able). The normal final stress stays. To highlight who or what, French prefers structure over voice alone: C'est moi qui paie. Irony is carried by melody: génial said flat, low and drawn out means the opposite."
+      },
+      "phrases": [
+        {
+          "t": "C'est incroyable !",
+          "n": "That's incredible!"
+        },
+        {
+          "t": "C'est absolument magnifique !",
+          "n": "It's absolutely magnificent!"
+        },
+        {
+          "t": "C'est moi qui paie.",
+          "n": "I'm paying. (It's me who's paying.)"
+        },
+        {
+          "t": "Ah, merci, c'est vraiment gentil.",
+          "n": "Oh, thanks, that's really kind."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "C'est génial !",
+            "n": "That's great!"
+          },
+          "b": {
+            "t": "Ah, génial…",
+            "n": "Oh, great… (ironic)"
+          }
+        },
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "Super !",
+            "n": "Super!"
+          },
+          "b": {
+            "t": "Super…",
+            "n": "Oh, super… (ironic)"
+          }
+        },
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "Bravo !",
+            "n": "Well done!"
+          },
+          "b": {
+            "t": "Bravo…",
+            "n": "Well done… (ironic)"
+          }
+        },
+        {
+          "sound": "genuine / ironic",
+          "a": {
+            "t": "Charmant !",
+            "n": "Charming!"
+          },
+          "b": {
+            "t": "Charmant…",
+            "n": "Charming… (ironic)"
+          }
+        },
+        {
+          "sound": "neutral / contrast",
+          "a": {
+            "t": "J'ai dit mardi.",
+            "n": "I said Tuesday."
+          },
+          "b": {
+            "t": "C'est mardi que j'ai dit.",
+            "n": "It's Tuesday I said."
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "C'est incroyable !",
+          "n": "That's incredible!",
+          "mark": "C'est *in*croy*able* !",
+          "note": "Emphatic stress on \"in-\", normal final stress on \"-able\"."
+        },
+        {
+          "t": "C'est absolument magnifique !",
+          "n": "It's absolutely magnificent!",
+          "mark": "C'est *ab*solument magni*fique* !",
+          "note": "Emphatic stress on \"ab-\", final stress on \"-fique\"."
+        },
+        {
+          "t": "C'est moi qui paie.",
+          "n": "I'm paying.",
+          "mark": "C'est *moi* qui *paie*.",
+          "note": "Contrast: \"moi\" is highlighted by the structure and the voice."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "React with enthusiasm: \"That's incredible!\"",
+          "t": [
+            "C'est incroyable",
+            "Incroyable"
+          ]
+        }
+      ]
+    }
+  ]
+}

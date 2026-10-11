@@ -1,0 +1,846 @@
+{
+  "id": "c1-u06",
+  "title": "Diplomatie",
+  "subtitle": "Tact, polite refusals & conflict",
+  "icon": "🕊️",
+  "lessons": [
+    {
+      "id": "c1-u06-l1",
+      "title": "Delicate feedback",
+      "goal": "Raise a sensitive issue with a colleague constructively, without causing offence.",
+      "tip": {
+        "title": "Soft on the person, clear on the issue",
+        "body": "Start with genuine appreciation, describe facts rather than judging (Je remarque que…), then ask for the other person's view. The conditional softens a request: Serait-il envisageable de… ? Loin de moi l'idée de… (far be it from me to…) removes any sense of reproach. Pronunciation: in envisageable the silent e after g keeps it soft before a (an-vi-za-jabl'). Speak a little slower and lower than usual — tone matters as much as words."
+      },
+      "phrases": [
+        {
+          "t": "J'apprécie beaucoup votre investissement, c'est pourquoi je tiens à vous en parler franchement.",
+          "n": "I really appreciate your commitment, which is why I want to talk to you about it frankly."
+        },
+        {
+          "t": "Je remarque que les délais ont un peu glissé ces derniers temps.",
+          "n": "I've noticed that deadlines have slipped a little recently."
+        },
+        {
+          "t": "Serait-il envisageable d'envoyer les rapports un peu plus tôt ?",
+          "n": "Would it be possible to send the reports a little earlier?"
+        },
+        {
+          "t": "Loin de moi l'idée de vous faire des reproches.",
+          "n": "I'm certainly not trying to blame you.",
+          "note": "Literally: far be it from me to reproach you."
+        },
+        {
+          "t": "Comment voyez-vous les choses de votre côté ?",
+          "n": "How do you see things from your side?"
+        },
+        {
+          "t": "De quoi auriez-vous besoin pour que cela se passe mieux ?",
+          "n": "What would you need for things to go better?",
+          "note": "pour que + subjunctive (se passe)"
+        },
+        {
+          "t": "J'aurais aimé être prévenu un peu plus tôt.",
+          "n": "I would have liked to be told a little earlier.",
+          "note": "Conditionnel passé softens criticism of the past; a woman says prévenue."
+        },
+        {
+          "t": "Dans l'ensemble, je suis très satisfait de votre travail.",
+          "n": "Overall, I'm very happy with your work.",
+          "note": "A woman says satisfaite."
+        }
+      ],
+      "dialogue": {
+        "title": "A feedback conversation",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Vous vouliez me voir ? Il y a un souci ?",
+            "n": "You wanted to see me? Is there a problem?"
+          },
+          {
+            "who": "you",
+            "t": "Non, rassurez-vous. J'apprécie beaucoup votre investissement, c'est pourquoi je tiens à vous en parler franchement.",
+            "n": "No, don't worry. I really appreciate your commitment, which is why I want to talk to you about it frankly."
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "D'accord… De quoi s'agit-il ?",
+            "n": "OK… What's it about?"
+          },
+          {
+            "who": "you",
+            "t": "Je remarque que les délais ont un peu glissé ces derniers temps. Comment voyez-vous les choses de votre côté ?",
+            "n": "I've noticed that deadlines have slipped a little recently. How do you see things from your side?"
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "C'est vrai, malheureusement. J'ai trois dossiers en même temps et j'ai du mal à suivre.",
+            "n": "Unfortunately that's true. I've got three projects at once and I'm struggling to keep up."
+          },
+          {
+            "who": "you",
+            "t": "Loin de moi l'idée de vous faire des reproches. De quoi auriez-vous besoin pour que cela se passe mieux ?",
+            "n": "I'm certainly not trying to blame you. What would you need for things to go better?"
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "On pourrait peut-être fixer les priorités ensemble ? Je saurais par quoi commencer.",
+            "n": "Maybe we could set the priorities together? I'd know where to start."
+          },
+          {
+            "who": "you",
+            "t": "Bonne idée, faisons comme ça. Dans l'ensemble, je suis très satisfait de votre travail.",
+            "n": "Good idea, let's do that. Overall, I'm very happy with your work."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Make it clear you're not trying to blame the person.",
+          "t": [
+            "Loin de moi l'idée de vous faire des reproches",
+            "Loin de moi l'idée de te faire des reproches",
+            "Ce n'est pas un reproche"
+          ]
+        },
+        {
+          "n": "Tactfully ask whether the reports could be sent a little earlier.",
+          "t": [
+            "Serait-il envisageable d'envoyer les rapports un peu plus tôt",
+            "Serait-il possible d'envoyer les rapports un peu plus tôt",
+            "Pourriez-vous envoyer les rapports un peu plus tôt"
+          ]
+        },
+        {
+          "n": "Ask what they would need for things to go better.",
+          "t": [
+            "De quoi auriez-vous besoin pour que cela se passe mieux",
+            "De quoi auriez-vous besoin pour que ça se passe mieux",
+            "De quoi aurais-tu besoin pour que ça se passe mieux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-l2",
+      "title": "Defusing a conflict",
+      "goal": "Calm a heated situation and negotiate a fair compromise.",
+      "tip": {
+        "title": "Calm voice, common ground",
+        "body": "First acknowledge the other person's feelings (Je comprends tout à fait votre agacement), then separate the person from the problem. Et si on + imparfait makes a gentle suggestion: Et si on coupait la poire en deux ? (shall we split the difference?). Sous réserve de votre accord means 'subject to your agreement'. Pronunciation: the œu in manœuvre sounds like the vowel in sœur. Consciously lower your pitch and pace — a calm voice de-escalates better than any argument."
+      },
+      "phrases": [
+        {
+          "t": "Je comprends tout à fait votre agacement.",
+          "n": "I fully understand your irritation."
+        },
+        {
+          "t": "Il ne s'agit pas de savoir qui est en tort, mais de trouver une solution.",
+          "n": "It's not about who's in the wrong, it's about finding a solution."
+        },
+        {
+          "t": "Il y a sans doute eu un malentendu.",
+          "n": "There has probably been a misunderstanding."
+        },
+        {
+          "t": "Quelle marge de manœuvre voyez-vous ?",
+          "n": "How much room for manoeuvre do you see?"
+        },
+        {
+          "t": "Et si on coupait la poire en deux ?",
+          "n": "What if we split the difference?",
+          "note": "Literally: cut the pear in two."
+        },
+        {
+          "t": "Sous réserve de votre accord, mettons cela par écrit.",
+          "n": "Subject to your agreement, let's put that in writing."
+        }
+      ],
+      "dialogue": {
+        "title": "Trouble with a neighbour in Liège",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Dubois",
+            "t": "Il faut que je vous le dise : vos travaux tous les samedis dès sept heures, ce n'est plus possible !",
+            "n": "I have to tell you: your building work every Saturday from seven o'clock just can't go on!"
+          },
+          {
+            "who": "you",
+            "t": "Je comprends tout à fait votre agacement. Il y a sans doute eu un malentendu.",
+            "n": "I fully understand your irritation. There has probably been a misunderstanding."
+          },
+          {
+            "who": "A",
+            "name": "Madame Dubois",
+            "t": "Un malentendu ? Je vous ai déjà laissé deux mots dans votre boîte aux lettres !",
+            "n": "A misunderstanding? I've already left two notes in your letterbox!"
+          },
+          {
+            "who": "you",
+            "t": "Je ne les ai malheureusement jamais reçus. Il ne s'agit pas de savoir qui est en tort, mais de trouver une solution.",
+            "n": "Unfortunately I never received them. It's not about who's in the wrong, it's about finding a solution."
+          },
+          {
+            "who": "A",
+            "name": "Madame Dubois",
+            "t": "Bon. Mais ça ne peut pas continuer comme ça. J'ai besoin de calme, au moins le week-end.",
+            "n": "All right. But it can't go on like this. I need some peace and quiet, at least at the weekend."
+          },
+          {
+            "who": "you",
+            "t": "Et si on coupait la poire en deux ? Le samedi pas avant dix heures, et jamais le dimanche.",
+            "n": "What if we split the difference? Saturdays not before ten, and never on Sundays."
+          },
+          {
+            "who": "A",
+            "name": "Madame Dubois",
+            "t": "Hum, ça me conviendrait. Mais seulement si c'est vraiment respecté.",
+            "n": "Hmm, that would suit me. But only if it's really kept to."
+          },
+          {
+            "who": "you",
+            "t": "Sous réserve de votre accord, mettons cela par écrit.",
+            "n": "Subject to your agreement, let's put that in writing."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Show that you fully understand their irritation.",
+          "t": [
+            "Je comprends tout à fait votre agacement",
+            "Je comprends votre agacement",
+            "Je comprends tout à fait ton agacement"
+          ]
+        },
+        {
+          "n": "Suggest splitting the difference.",
+          "t": [
+            "Et si on coupait la poire en deux",
+            "Coupons la poire en deux",
+            "On pourrait couper la poire en deux"
+          ]
+        },
+        {
+          "n": "Say it's not about who's in the wrong but about finding a solution.",
+          "t": [
+            "Il ne s'agit pas de savoir qui est en tort, mais de trouver une solution",
+            "Il ne s'agit pas de savoir qui a tort, mais de trouver une solution",
+            "L'important, c'est de trouver une solution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-l3",
+      "title": "Saying no gracefully",
+      "goal": "Turn down a request without burning bridges and offer an alternative.",
+      "tip": {
+        "title": "Never a bare non",
+        "body": "A professional refusal is wrapped: regret (Je crains que… + subjunctive), a reason, then an open door (Puis-je vous faire une contre-proposition ?). Puis-je is the formal inverted form of je peux. Ce n'est pas l'envie qui me manque, mais… ('it's not that I don't want to, but…') softens a personal no. Québécois partners often come straight to the point — answer just as clearly, but keep the warmth."
+      },
+      "phrases": [
+        {
+          "t": "Je crains que ce ne soit pas réalisable dans ces délais.",
+          "n": "I'm afraid that won't be feasible within that timeframe.",
+          "note": "craindre que + subjunctive"
+        },
+        {
+          "t": "Puis-je vous faire une contre-proposition ?",
+          "n": "May I make you a counter-proposal?"
+        },
+        {
+          "t": "Il faudrait d'abord que j'en parle à mon équipe.",
+          "n": "I'd have to discuss it with my team first."
+        },
+        {
+          "t": "Je comprends votre demande, mais nous avons malheureusement les mains liées.",
+          "n": "I understand your request, but unfortunately our hands are tied."
+        },
+        {
+          "t": "Ce n'est pas l'envie qui me manque, mais je suis déjà débordé cette semaine.",
+          "n": "It's not that I don't want to, but I'm already swamped this week.",
+          "note": "A woman says débordée."
+        }
+      ],
+      "dialogue": {
+        "title": "A request from a Québec client",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Tremblay",
+            "t": "Je vais être franche avec vous : on aurait besoin de la livraison deux semaines plus tôt. C'est faisable ?",
+            "n": "I'll be frank with you: we'd need the delivery two weeks earlier. Is that doable?"
+          },
+          {
+            "who": "you",
+            "t": "Je crains que ce ne soit pas réalisable dans ces délais. Puis-je vous faire une contre-proposition ?",
+            "n": "I'm afraid that won't be feasible within that timeframe. May I make you a counter-proposal?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Tremblay",
+            "t": "Oui, allez-y, je vous écoute.",
+            "n": "Yes, go ahead, I'm listening."
+          },
+          {
+            "who": "you",
+            "t": "Nous pourrions livrer une partie à l'avance. Mais il faudrait d'abord que j'en parle à mon équipe.",
+            "n": "We could deliver part of it in advance. But I'd have to discuss it with my team first."
+          },
+          {
+            "who": "A",
+            "name": "Madame Tremblay",
+            "t": "Parfait. Pouvez-vous me revenir là-dessus d'ici vendredi ?",
+            "n": "Perfect. Can you get back to me on that by Friday?",
+            "note": "revenir à quelqu'un (to get back to someone) is common in Québec; it is modelled on English and often avoided in France, where people say vous me tiendrez au courant or vous me redonnerez des nouvelles."
+          },
+          {
+            "who": "you",
+            "t": "Sans faute. Je vous écris dès que j'ai la réponse de l'équipe.",
+            "n": "Without fail. I'll write to you as soon as I have the team's answer."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you're afraid it won't be feasible within that timeframe.",
+          "t": [
+            "Je crains que ce ne soit pas réalisable dans ces délais",
+            "Je crains que ce ne soit pas réalisable",
+            "J'ai peur que ce ne soit pas réalisable dans ces délais"
+          ]
+        },
+        {
+          "n": "Ask whether you may make a counter-proposal.",
+          "t": [
+            "Puis-je vous faire une contre-proposition",
+            "Est-ce que je peux vous faire une contre-proposition",
+            "Je peux vous faire une contre-proposition"
+          ]
+        },
+        {
+          "n": "Say you'd have to discuss it with your team first.",
+          "t": [
+            "Il faudrait d'abord que j'en parle à mon équipe",
+            "Je dois d'abord en parler à mon équipe",
+            "Il faut d'abord que j'en parle à mon équipe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-l4",
+      "kind": "grammar",
+      "title": "Polite conditional & wishes",
+      "goal": "Soften requests with the conditional and express wishes with the subjunctive.",
+      "tip": {
+        "title": "Softening and wishing",
+        "body": "The conditional of vouloir, pouvoir, devoir, falloir and aimer turns an order into a request: je voudrais, pourriez-vous, vous devriez, il faudrait. Add peut-être or un peu for extra softness. Wishes about someone else take the subjunctive: j'aimerais que vous preniez…, je souhaite que chacun y trouve son compte, pourvu que ça marche ! Careful: espérer que takes the indicative (J'espère que vous allez bien). Pronunciation: je voudrais ends in an open è sound; many speakers no longer distinguish it from the future je voudrai."
+      },
+      "phrases": [
+        {
+          "t": "Je voudrais vous demander un petit service.",
+          "n": "I'd like to ask you a small favour."
+        },
+        {
+          "t": "Il faudrait peut-être revoir le calendrier.",
+          "n": "Perhaps we should review the schedule."
+        },
+        {
+          "t": "Auriez-vous l'amabilité de me rappeler ?",
+          "n": "Would you be kind enough to call me back?"
+        },
+        {
+          "t": "J'aimerais que vous preniez le temps d'en parler avec lui.",
+          "n": "I'd like you to take the time to talk to him about it."
+        },
+        {
+          "t": "Je souhaite que chacun y trouve son compte.",
+          "n": "I hope everyone gets something out of it.",
+          "note": "souhaiter que + subjunctive; espérer que + indicative"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Soften the request",
+          "base": {
+            "t": "Pourriez-vous m'envoyer le rapport d'ici vendredi ?",
+            "n": "Could you send me the report by Friday?"
+          },
+          "items": [
+            {
+              "cue": "serait-il possible",
+              "t": "Serait-il possible de m'envoyer le rapport d'ici vendredi ?",
+              "n": "Would it be possible to send me the report by Friday?"
+            },
+            {
+              "cue": "auriez-vous l'amabilité",
+              "t": "Auriez-vous l'amabilité de m'envoyer le rapport d'ici vendredi ?",
+              "n": "Would you be kind enough to send me the report by Friday?"
+            },
+            {
+              "cue": "je vous serais reconnaissant",
+              "t": "Je vous serais reconnaissant de m'envoyer le rapport d'ici vendredi.",
+              "n": "I'd be grateful if you could send me the report by Friday."
+            }
+          ]
+        },
+        {
+          "title": "Express a wish (subjunctive)",
+          "base": {
+            "t": "J'aimerais que vous soyez présent à la réunion.",
+            "n": "I'd like you to be at the meeting."
+          },
+          "items": [
+            {
+              "cue": "faire · un effort",
+              "t": "J'aimerais que vous fassiez un effort.",
+              "n": "I'd like you to make an effort."
+            },
+            {
+              "cue": "pouvoir · venir plus tôt",
+              "t": "J'aimerais que vous puissiez venir plus tôt.",
+              "n": "I'd like you to be able to come earlier."
+            },
+            {
+              "cue": "savoir · que je vous soutiens",
+              "t": "J'aimerais que vous sachiez que je vous soutiens.",
+              "n": "I'd like you to know that I support you."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask, very politely, whether the person would be kind enough to call you back.",
+          "t": [
+            "Auriez-vous l'amabilité de me rappeler",
+            "Pourriez-vous me rappeler",
+            "Est-ce que vous pourriez me rappeler"
+          ]
+        },
+        {
+          "n": "Say you'd like the person to take the time to talk to him about it.",
+          "t": [
+            "J'aimerais que vous preniez le temps d'en parler avec lui",
+            "J'aimerais que tu prennes le temps d'en parler avec lui",
+            "Je voudrais que vous preniez le temps d'en parler avec lui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-l5",
+      "kind": "listening",
+      "title": "A mediation in Geneva",
+      "goal": "Follow a mediator reporting one person's view to another.",
+      "phrases": [
+        {
+          "t": "Elle se sent tenue à l'écart des décisions.",
+          "n": "She feels left out of decisions."
+        },
+        {
+          "t": "Elle ne le conteste pas.",
+          "n": "She doesn't dispute that."
+        },
+        {
+          "t": "Il serait utile de lui expliquer vos raisons.",
+          "n": "It would help to explain your reasons to her."
+        },
+        {
+          "t": "Je propose une rencontre à trois.",
+          "n": "I suggest a three-way meeting."
+        }
+      ],
+      "story": {
+        "title": "Entre deux collègues",
+        "intro": "A mediator in Geneva passes on a team member's complaint to her manager, Monsieur Bertholet.",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "name": "Madame Joliat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Monsieur Bertholet, j'ai rencontré votre collaboratrice hier. Elle dit qu'elle se sent tenue à l'écart des décisions.",
+            "n": "Mr Bertholet, I met your colleague yesterday. She says she feels left out of decisions."
+          },
+          {
+            "name": "Monsieur Bertholet",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Tenue à l'écart ? Mais je l'invite à toutes les réunions !",
+            "n": "Left out? But I invite her to every meeting!"
+          },
+          {
+            "name": "Madame Joliat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Elle ne le conteste pas. Ce qui la gêne, c'est que ses propositions ne sont jamais retenues.",
+            "n": "She doesn't dispute that. What bothers her is that her suggestions are never taken up."
+          },
+          {
+            "name": "Monsieur Bertholet",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Hum. Pour être honnête, la plupart de ses propositions étaient tout simplement trop chères.",
+            "n": "Hmm. To be honest, most of her suggestions were simply too expensive."
+          },
+          {
+            "name": "Madame Joliat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Dans ce cas, il serait utile de lui expliquer vos raisons, plutôt que de garder le silence.",
+            "n": "In that case, it would help to explain your reasons to her rather than saying nothing."
+          },
+          {
+            "name": "Monsieur Bertholet",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Vous avez sans doute raison. Je pourrais lui proposer de revoir le budget ensemble.",
+            "n": "You're probably right. I could offer to go through the budget with her."
+          },
+          {
+            "name": "Madame Joliat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Voilà un bon début. Je propose une rencontre à trois jeudi matin.",
+            "n": "That's a good start. I suggest a three-way meeting on Thursday morning."
+          },
+          {
+            "name": "Monsieur Bertholet",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Entendu. Pourvu qu'elle accepte !",
+            "n": "Agreed. Let's hope she accepts!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment se sent la collaboratrice ?",
+            "n": "How does the colleague feel?",
+            "t": [
+              "Tenue à l'écart",
+              "Elle se sent tenue à l'écart",
+              "Tenue à l'écart des décisions"
+            ]
+          },
+          {
+            "q": "Pourquoi ses propositions n'ont-elles pas été retenues ?",
+            "n": "Why weren't her suggestions taken up?",
+            "t": [
+              "Elles étaient trop chères",
+              "Trop chères",
+              "Parce qu'elles étaient trop chères"
+            ]
+          },
+          {
+            "q": "Quand aura lieu la rencontre à trois ?",
+            "n": "When will the three-way meeting take place?",
+            "t": [
+              "Jeudi matin",
+              "Jeudi",
+              "Le jeudi matin"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u06-l6",
+      "kind": "roleplay",
+      "title": "A partner in Montréal",
+      "goal": "Save a cultural partnership through diplomatic negotiation.",
+      "phrases": [
+        {
+          "t": "Est-ce que je peux te demander ce qui motive cette décision ?",
+          "n": "Can I ask what's behind this decision?"
+        },
+        {
+          "t": "Pardon, je me suis mal exprimé.",
+          "n": "Sorry, I didn't put that well.",
+          "note": "A woman writes exprimée — same sound."
+        },
+        {
+          "t": "Serait-il envisageable d'étaler la baisse sur deux ans ?",
+          "n": "Would it be possible to spread the cut over two years?"
+        },
+        {
+          "t": "Je suis convaincu que nous trouverons une solution.",
+          "n": "I'm convinced we'll find a solution.",
+          "note": "A woman says convaincue."
+        }
+      ],
+      "branch": {
+        "title": "Bad news from the festival",
+        "scene": "You coordinate a French–Québec cultural exchange. Your partner from a Montréal festival, who uses tu with you, comes straight to the point with bad news.",
+        "name": "Marc-André (festival partner)",
+        "voice": "fr-CA-AntoineNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Je vais être direct avec toi : on doit couper notre contribution au programme d'échange de moitié cette année.",
+            "n": "I'll be straight with you: we have to cut our contribution to the exchange programme by half this year.",
+            "choices": [
+              {
+                "t": "Je comprends ta situation. Est-ce que je peux te demander ce qui motive cette décision ?",
+                "n": "I understand your situation. Can I ask what's behind this decision?",
+                "next": "reason"
+              },
+              {
+                "t": "C'est inacceptable ! On ne traite pas ses partenaires comme ça.",
+                "n": "That's unacceptable! That's no way to treat your partners.",
+                "next": "angry"
+              }
+            ]
+          },
+          "angry": {
+            "t": "Hé, du calme. C'est pas moi qui ai décidé ça tout seul.",
+            "n": "Hey, calm down. I didn't decide this on my own.",
+            "choices": [
+              {
+                "t": "Pardon, je me suis mal exprimé. Qu'est-ce qui motive cette décision ?",
+                "n": "Sorry, I didn't put that well. What's behind this decision?",
+                "next": "reason"
+              },
+              {
+                "t": "Dans ce cas, autant mettre fin au partenariat tout de suite.",
+                "n": "In that case, we might as well end the partnership right now.",
+                "next": "bad"
+              }
+            ]
+          },
+          "reason": {
+            "t": "Nos subventions ont baissé, et notre conseil d'administration juge l'échange moins prioritaire.",
+            "n": "Our grants have gone down, and our board considers the exchange less of a priority.",
+            "choices": [
+              {
+                "t": "Serait-il envisageable d'étaler la baisse sur deux ans ?",
+                "n": "Would it be possible to spread the cut over two years?",
+                "next": "counter"
+              },
+              {
+                "t": "Alors montrons-leur ce que l'échange apporte. Je pourrais te fournir des chiffres.",
+                "n": "Then let's show them what the exchange achieves. I could give you some figures.",
+                "next": "data"
+              }
+            ]
+          },
+          "data": {
+            "t": "Ça, ça pourrait vraiment aider. Un court bilan avec le nombre de participants, ce serait idéal.",
+            "n": "Now that could really help. A short report with the number of participants would be ideal.",
+            "choices": [
+              {
+                "t": "Je te l'envoie d'ici la fin du mois.",
+                "n": "I'll send it to you by the end of the month.",
+                "next": "good"
+              },
+              {
+                "t": "Sous réserve de ton accord, on met tout ça par écrit.",
+                "n": "Subject to your agreement, let's put all that in writing.",
+                "next": "good"
+              }
+            ]
+          },
+          "counter": {
+            "t": "Une baisse progressive… Il faudrait que j'en parle au conseil, mais je pense que c'est jouable.",
+            "n": "A gradual cut… I'd have to discuss it with the board, but I think it's doable.",
+            "choices": [
+              {
+                "t": "Parfait. Je te prépare une proposition chiffrée.",
+                "n": "Perfect. I'll prepare a costed proposal for you.",
+                "next": "good"
+              },
+              {
+                "t": "En échange, nous pourrions prendre en charge une partie des frais de voyage.",
+                "n": "In return, we could cover part of the travel costs.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Avec ça, j'ai du concret à présenter au conseil. Je suis convaincu qu'on va trouver une solution.",
+            "n": "With that, I've got something concrete to show the board. I'm convinced we'll find a solution.",
+            "end": "good",
+            "outcome": "You stayed calm, asked what was behind the decision and saved the partnership with a diplomatic counter-proposal."
+          },
+          "bad": {
+            "t": "Je regrette que ça finisse comme ça. On en reste là pour aujourd'hui.",
+            "n": "I'm sorry it ends like this. Let's leave it there for today.",
+            "end": "bad",
+            "outcome": "You escalated instead of exploring options. Directness is not hostility — ask what's behind the decision."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Apologise for not putting something well.",
+          "t": [
+            "Pardon, je me suis mal exprimé",
+            "Excusez-moi, je me suis mal exprimé",
+            "Pardon, je me suis mal exprimée"
+          ]
+        },
+        {
+          "n": "Ask (using tu) what's behind the decision.",
+          "t": [
+            "Est-ce que je peux te demander ce qui motive cette décision",
+            "Qu'est-ce qui motive cette décision",
+            "Je peux te demander ce qui motive cette décision"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-l7",
+      "kind": "speaking",
+      "title": "Tact in your own words",
+      "goal": "Give tactful feedback and refuse a request diplomatically, speaking freely.",
+      "culture": {
+        "title": "Compromise, consensus and straight talk",
+        "body": "Belgians speak of the compromis à la belge: carefully balanced arrangements that let different linguistic communities and parties each save face. Swiss political culture is built on consensus: the Federal Council is a collegial body of seven members from several parties, and its decisions are defended jointly. Québécois are often described as more direct and less hierarchical than the French — tutoiement comes quickly and people get to the point, but warmly. In France, criticism is often wrapped in elaborate politeness, so learn to read between the lines.",
+        "regions": [
+          "BE",
+          "CH",
+          "CA",
+          "FR"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Si je puis me permettre, je vois les choses un peu différemment.",
+          "n": "If I may, I see things a little differently.",
+          "note": "puis-je / si je puis = formal forms of pouvoir"
+        },
+        {
+          "t": "Sauf votre respect, cela me paraît un peu court.",
+          "n": "With all due respect, that seems a little thin to me."
+        },
+        {
+          "t": "Que diriez-vous de reporter ce point à la prochaine réunion ?",
+          "n": "How about postponing this item to the next meeting?"
+        },
+        {
+          "t": "Je prends vos inquiétudes très au sérieux.",
+          "n": "I take your concerns very seriously."
+        }
+      ],
+      "free": [
+        {
+          "n": "Give a colleague tactful feedback about a problem (e.g. missed deadlines): show appreciation, describe what you've noticed, ask for their view and make a soft proposal.",
+          "hint": "J'apprécie beaucoup … · Je remarque que … · Comment voyez-vous les choses ? · Serait-il envisageable de … ?",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "appreciation",
+              "any": [
+                "apprécie",
+                "investissement",
+                "satisfait*",
+                "bon travail",
+                "merci pour"
+              ]
+            },
+            {
+              "label": "describe what you noticed",
+              "any": [
+                "remarqué",
+                "remarque",
+                "constaté",
+                "constate",
+                "j'ai l'impression"
+              ]
+            },
+            {
+              "label": "ask for their view",
+              "any": [
+                "comment voyez-vous",
+                "qu'en pensez-vous",
+                "de votre côté",
+                "votre avis",
+                "comment tu vois"
+              ]
+            },
+            {
+              "label": "a soft proposal",
+              "any": [
+                "serait-il",
+                "envisageable",
+                "pourrions",
+                "pourrait",
+                "propose*"
+              ]
+            }
+          ],
+          "model": "J'apprécie beaucoup votre investissement, et dans l'ensemble je suis très satisfait de votre travail. Je remarque cependant que les rapports arrivent un peu en retard ces derniers temps. Comment voyez-vous les choses de votre côté ? Serait-il envisageable de fixer les priorités ensemble chaque lundi ?"
+        },
+        {
+          "n": "A partner asks you to take on an extra project you can't handle. Refuse diplomatically: express regret, give a reason and offer an alternative.",
+          "hint": "Je crains que … · Ce n'est pas l'envie qui me manque, mais … · Puis-je vous faire une contre-proposition ?",
+          "seconds": 60,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "regret",
+              "any": [
+                "crains",
+                "malheureusement",
+                "désolé*",
+                "regrette",
+                "navré*"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "parce que",
+                "car",
+                "délais",
+                "débordé*",
+                "mains liées",
+                "équipe"
+              ]
+            },
+            {
+              "label": "an alternative",
+              "any": [
+                "contre-proposition",
+                "propose*",
+                "pourrions",
+                "pourrait",
+                "en revanche"
+              ]
+            }
+          ],
+          "model": "Merci d'avoir pensé à moi. Ce n'est pas l'envie qui me manque, mais je crains que ce ne soit pas réalisable ce mois-ci : mon équipe est déjà débordée. Puis-je vous faire une contre-proposition ? Nous pourrions commencer le projet en septembre, ou je pourrais vous recommander une collègue."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that, if you may, you see things a little differently.",
+          "t": [
+            "Si je puis me permettre, je vois les choses un peu différemment",
+            "Si je peux me permettre, je vois les choses un peu différemment",
+            "Je vois les choses un peu différemment"
+          ]
+        },
+        {
+          "n": "Assure someone that you take their concerns very seriously.",
+          "t": [
+            "Je prends vos inquiétudes très au sérieux",
+            "Je prends vos inquiétudes au sérieux",
+            "Je prends tes inquiétudes très au sérieux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Diplomatie",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

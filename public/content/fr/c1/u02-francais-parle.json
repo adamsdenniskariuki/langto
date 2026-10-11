@@ -1,0 +1,878 @@
+{
+  "id": "c1-u02",
+  "title": "Le français parlé",
+  "subtitle": "Spoken French: fillers, contractions, dislocation & verlan",
+  "icon": "🗣️",
+  "lessons": [
+    {
+      "id": "c1-u02-l1",
+      "title": "Fillers and discourse markers",
+      "goal": "Use bon, ben, du coup, en fait, quoi, genre, enfin, bref and tu vois like a native speaker.",
+      "tip": {
+        "title": "The glue of spoken French",
+        "body": "Real conversations are full of small words that structure speech: bon / ben (well…), en fait (actually), du coup (so, as a result), genre (like), enfin (I mean — correcting yourself), bref (anyway, to cut a long story short), tu vois (you see), and quoi at the end of a sentence to wrap up (c'était bien, quoi). They make you sound fluent — but don't use them in formal writing. Ben is pronounced like « bin », a nasal sound; du coup has a silent p."
+      },
+      "phrases": [
+        {
+          "t": "Bon, ben, on y va ?",
+          "n": "Right, well, shall we go?"
+        },
+        {
+          "t": "En fait, je crois que je me suis trompé de jour.",
+          "n": "Actually, I think I got the day wrong."
+        },
+        {
+          "t": "Du coup, on a raté le dernier métro.",
+          "n": "So we missed the last metro.",
+          "note": "du coup = so, as a result. Hugely frequent; purists frown on it."
+        },
+        {
+          "t": "C'était trop bien, quoi.",
+          "n": "It was really great, you know.",
+          "note": "quoi at the end rounds off the sentence."
+        },
+        {
+          "t": "Il était genre super énervé.",
+          "n": "He was, like, really annoyed.",
+          "note": "genre = like; very casual, mainly younger speakers."
+        },
+        {
+          "t": "Enfin, je veux dire, c'est pas si grave.",
+          "n": "I mean, it's not that serious."
+        },
+        {
+          "t": "Bref, on s'est bien amusés.",
+          "n": "Anyway, we had a great time."
+        },
+        {
+          "t": "Tu vois ce que je veux dire ?",
+          "n": "Do you see what I mean?"
+        }
+      ],
+      "dialogue": {
+        "title": "The night out",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Alors, cette soirée chez Sarah, c'était comment ?",
+            "n": "So, how was the party at Sarah's?"
+          },
+          {
+            "who": "you",
+            "t": "C'était trop bien, quoi. Mais en fait, on est partis super tard.",
+            "n": "It was really great, you know. But actually, we left really late."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Ah bon ? Vous êtes rentrés comment ?",
+            "n": "Really? How did you get home?"
+          },
+          {
+            "who": "you",
+            "t": "Ben, du coup, on a raté le dernier métro. On a dû marcher une heure.",
+            "n": "Well, so we missed the last metro. We had to walk for an hour."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Une heure ! Et Thomas, il a dit quoi ?",
+            "n": "An hour! And what did Thomas say?"
+          },
+          {
+            "who": "you",
+            "t": "Il était genre super énervé au début. Enfin, je veux dire, ça allait. Bref, on s'est bien amusés.",
+            "n": "He was, like, really annoyed at first. I mean, it was fine. Anyway, we had a great time."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that, as a result, you missed the last metro.",
+          "t": [
+            "Du coup, on a raté le dernier métro",
+            "Du coup, j'ai raté le dernier métro",
+            "Du coup, nous avons raté le dernier métro"
+          ]
+        },
+        {
+          "n": "Wrap up a story: anyway, you had a great time.",
+          "t": [
+            "Bref, on s'est bien amusés",
+            "Bref, on s'est bien amusé",
+            "Bref, nous nous sommes bien amusés"
+          ]
+        },
+        {
+          "n": "Ask your friend if they see what you mean.",
+          "t": [
+            "Tu vois ce que je veux dire",
+            "Tu vois ce que je veux dire, quoi",
+            "Vous voyez ce que je veux dire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l2",
+      "title": "How people really pronounce it",
+      "goal": "Understand and use the everyday contractions of spoken French: t'es, y a, chais pas, chuis, faut.",
+      "tip": {
+        "title": "Swallowed sounds",
+        "body": "In relaxed speech, French squeezes words together. Tu es → t'es, tu as → t'as, il y a → y a, il faut → faut, je suis → « chuis », je sais pas → « chais pas » (the j and s merge into a ch sound), il before a consonant often sounds like « i » (i' vient). You don't have to talk like this, but you do need to understand it. In writing these forms only appear in text messages, comics and dialogue."
+      },
+      "phrases": [
+        {
+          "t": "T'es où, là ?",
+          "n": "Where are you right now?",
+          "note": "t'es = tu es"
+        },
+        {
+          "t": "Y a personne à la maison.",
+          "n": "There's nobody at home.",
+          "note": "y a = il y a"
+        },
+        {
+          "t": "Chais pas, faut voir.",
+          "n": "Dunno, we'll see.",
+          "note": "Spoken form of je (ne) sais pas, il faut voir."
+        },
+        {
+          "t": "Chuis à la bourre, désolé.",
+          "n": "I'm running late, sorry.",
+          "note": "chuis = je suis; être à la bourre = to be late (familier)."
+        },
+        {
+          "t": "T'as vu l'heure ?",
+          "n": "Have you seen the time?"
+        },
+        {
+          "t": "Faut qu'on parle.",
+          "n": "We need to talk.",
+          "note": "faut que = il faut que + subjunctive."
+        },
+        {
+          "t": "I' vient pas ce soir.",
+          "n": "He's not coming tonight.",
+          "note": "Written il, pronounced « i » before a consonant."
+        },
+        {
+          "t": "P'têt bien qu'oui, p'têt bien qu'non.",
+          "n": "Maybe yes, maybe no.",
+          "note": "p'têt = peut-être; a jokey, non-committal answer — the proverbial réponse de Normand."
+        }
+      ],
+      "dialogue": {
+        "title": "Late again",
+        "voice": "fr-FR-RemyMultilingualNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Allô ? T'es où, là ? Le film commence dans dix minutes !",
+            "n": "Hello? Where are you right now? The film starts in ten minutes!"
+          },
+          {
+            "who": "you",
+            "t": "Chuis à la bourre, désolé. Y a un monde fou dans le métro.",
+            "n": "I'm running late, sorry. There's a huge crowd in the metro."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "T'as vu l'heure ? Tu arrives quand, alors ?",
+            "n": "Have you seen the time? So when are you getting here?"
+          },
+          {
+            "who": "you",
+            "t": "Chais pas, faut voir. Un quart d'heure, p'têt. Et Karim ?",
+            "n": "Dunno, we'll see. A quarter of an hour, maybe. And Karim?"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "I' vient pas ce soir, il est malade. Bon, j'achète les billets.",
+            "n": "He's not coming tonight, he's ill. Right, I'll buy the tickets."
+          },
+          {
+            "who": "you",
+            "t": "Merci, t'es un ange ! Je te rembourse en arrivant.",
+            "n": "Thanks, you're an angel! I'll pay you back when I get there."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Casually ask a friend where they are right now.",
+          "t": [
+            "T'es où, là",
+            "T'es où",
+            "Tu es où",
+            "Où es-tu"
+          ]
+        },
+        {
+          "n": "Casually say you're running late.",
+          "t": [
+            "Chuis à la bourre",
+            "Je suis à la bourre",
+            "J'suis à la bourre",
+            "Je suis en retard"
+          ]
+        },
+        {
+          "n": "Say casually: dunno, we'll see.",
+          "t": [
+            "Chais pas, faut voir",
+            "Je sais pas, faut voir",
+            "J'sais pas, faut voir",
+            "Je ne sais pas, il faut voir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l3",
+      "title": "Reacting like a native",
+      "goal": "React naturally in conversation, and recognise a few Québec equivalents.",
+      "tip": {
+        "title": "Short, punchy reactions",
+        "body": "Spoken French loves one-word reactions. Grave ! (totally!, among young people), Carrément ! (absolutely!), Sans blague ? (no kidding?), T'inquiète ! (don't worry — short for ne t'inquiète pas), Ça marche ! (OK, deal). Québec has its own set: C'est correct (it's fine), pantoute (not at all), Ben voyons ! (come on!), and là at the end of a sentence for emphasis. In Québec, tu often sounds like « tsu » and dire like « dzire »."
+      },
+      "phrases": [
+        {
+          "t": "Grave !",
+          "n": "Totally!",
+          "note": "Young, very casual."
+        },
+        {
+          "t": "Carrément !",
+          "n": "Absolutely!"
+        },
+        {
+          "t": "Sans blague ?",
+          "n": "No kidding?"
+        },
+        {
+          "t": "T'inquiète, je gère.",
+          "n": "Don't worry, I've got it under control.",
+          "note": "gérer = to manage; je gère = I've got this."
+        },
+        {
+          "t": "Ça marche, à plus !",
+          "n": "Deal, see you!",
+          "note": "à plus (sounds « a pluss ») = see you later."
+        },
+        {
+          "t": "Ça m'étonnerait.",
+          "n": "I doubt it.",
+          "note": "Literally 'that would surprise me'."
+        },
+        {
+          "t": "C'est correct, là.",
+          "n": "It's fine, really.",
+          "note": "Québec: c'est correct = it's OK."
+        },
+        {
+          "t": "Ça me dérange pas pantoute.",
+          "n": "It doesn't bother me at all.",
+          "note": "Québec: pantoute = pas du tout."
+        }
+      ],
+      "dialogue": {
+        "title": "A Montréal friend in Paris",
+        "voice": "fr-CA-JeanNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Salut ! J'ai trouvé un billet pas cher pour Paris, j'arrive vendredi !",
+            "n": "Hi! I found a cheap ticket to Paris, I'm arriving on Friday!"
+          },
+          {
+            "who": "you",
+            "t": "Sans blague ? Trop bien ! Tu veux dormir chez moi ?",
+            "n": "No kidding? Brilliant! Do you want to stay at my place?"
+          },
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Si ça te dérange pas. Je peux dormir sur le divan, c'est correct, là.",
+            "n": "If you don't mind. I can sleep on the couch, it's fine, really."
+          },
+          {
+            "who": "you",
+            "t": "Carrément ! Ça me dérange pas du tout. T'inquiète, je gère.",
+            "n": "Absolutely! It doesn't bother me at all. Don't worry, I've got it under control."
+          },
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Ha ! Nous autres, on dirait « ça me dérange pas pantoute ». Pis, il va faire beau ?",
+            "n": "Ha! Back home we'd say \"ça me dérange pas pantoute\". And is the weather going to be nice?"
+          },
+          {
+            "who": "you",
+            "t": "Ça m'étonnerait, il pleut depuis une semaine. Bon, ça marche, à vendredi !",
+            "n": "I doubt it, it's been raining for a week. Right, deal, see you Friday!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "React with surprise: no kidding?",
+          "t": [
+            "Sans blague",
+            "Sans déconner",
+            "C'est pas vrai"
+          ]
+        },
+        {
+          "n": "Reassure a friend casually: don't worry, you've got it under control.",
+          "t": [
+            "T'inquiète, je gère",
+            "T'inquiète pas, je gère",
+            "Ne t'inquiète pas, je gère"
+          ]
+        },
+        {
+          "n": "Say, Québec style, that it doesn't bother you at all.",
+          "t": [
+            "Ça me dérange pas pantoute",
+            "Ça me dérange pantoute",
+            "Ça ne me dérange pas pantoute"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l4",
+      "kind": "grammar",
+      "title": "Spoken negation and dislocation",
+      "goal": "Drop ne in casual speech and put the topic first (or last) with dislocation.",
+      "tip": {
+        "title": "Ne disappears, the topic moves",
+        "body": "In everyday speech almost everyone drops ne: je sais pas, c'est pas grave, y a plus de pain — but keep it in writing and formal speech. Spoken French also likes to announce the topic first and then repeat it with a pronoun: Moi, je préfère le thé. Le fromage, j'adore ça. Mon frère, il habite à Lyon. Or the topic comes at the end: Il est génial, ce film. This is called dislocation. Mark the topic with a slight rise and a short pause: « Le fromage↗, j'adore ça↘ »."
+      },
+      "phrases": [
+        {
+          "t": "J'ai jamais vu ça.",
+          "n": "I've never seen that."
+        },
+        {
+          "t": "Y a plus de café.",
+          "n": "There's no more coffee."
+        },
+        {
+          "t": "Moi, je trouve que t'as raison.",
+          "n": "Me, I think you're right."
+        },
+        {
+          "t": "Ça, c'est une bonne idée.",
+          "n": "Now that's a good idea."
+        },
+        {
+          "t": "Il est génial, ce film.",
+          "n": "It's brilliant, this film."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Written negation → spoken negation",
+          "base": {
+            "t": "Je ne sais pas.",
+            "n": "I don't know."
+          },
+          "items": [
+            {
+              "cue": "Ce n'est pas grave.",
+              "t": "C'est pas grave.",
+              "n": "It doesn't matter."
+            },
+            {
+              "cue": "Il n'y a plus de pain.",
+              "t": "Y a plus de pain.",
+              "n": "There's no more bread."
+            },
+            {
+              "cue": "Je n'ai jamais vu ça.",
+              "t": "J'ai jamais vu ça.",
+              "n": "I've never seen that."
+            },
+            {
+              "cue": "Ne t'inquiète pas.",
+              "t": "T'inquiète pas.",
+              "n": "Don't worry."
+            }
+          ]
+        },
+        {
+          "title": "Neutral sentence → dislocation",
+          "base": {
+            "t": "J'adore le fromage.",
+            "n": "I love cheese."
+          },
+          "items": [
+            {
+              "cue": "topic first · ça",
+              "t": "Le fromage, j'adore ça.",
+              "n": "Cheese — I love it."
+            },
+            {
+              "cue": "moi · je préfère le thé",
+              "t": "Moi, je préfère le thé.",
+              "n": "Me, I prefer tea."
+            },
+            {
+              "cue": "ton frère · il habite où",
+              "t": "Ton frère, il habite où ?",
+              "n": "Your brother — where does he live?"
+            },
+            {
+              "cue": "topic last · ce film est génial",
+              "t": "Il est génial, ce film.",
+              "n": "It's brilliant, this film."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say casually, without ne, that there's no more coffee.",
+          "t": [
+            "Y a plus de café",
+            "Il y a plus de café"
+          ]
+        },
+        {
+          "n": "Put the topic first: cheese — you love it.",
+          "t": [
+            "Le fromage, j'adore ça",
+            "Le fromage, moi, j'adore ça",
+            "Moi, le fromage, j'adore ça"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l5",
+      "kind": "listening",
+      "title": "A call to Brussels",
+      "goal": "Follow a fast, casual phone conversation between a Parisian and a Brussels friend.",
+      "phrases": [
+        {
+          "t": "Je t'ai laissé un vocal.",
+          "n": "I left you a voice message.",
+          "note": "un vocal = un message vocal."
+        },
+        {
+          "t": "Ça m'est complètement sorti de la tête.",
+          "n": "It completely slipped my mind."
+        },
+        {
+          "t": "Je te raconte pas !",
+          "n": "You wouldn't believe it!",
+          "note": "Literally 'I won't tell you' — said before telling everything."
+        },
+        {
+          "t": "Ça tombe mal.",
+          "n": "That's bad timing."
+        }
+      ],
+      "story": {
+        "title": "Le concert à Bruxelles",
+        "intro": "Inès in Paris calls her friend Thomas in Brussels about a concert this weekend.",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "name": "Inès",
+            "t": "Allô, Thomas ? T'as pas écouté mon vocal ou quoi ?",
+            "n": "Hello, Thomas? Didn't you listen to my voice message or what?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Ah, désolé, mon GSM était déchargé. Ça m'est complètement sorti de la tête. C'était quoi ?",
+            "n": "Oh, sorry, my mobile (GSM, in Belgium) was dead. It completely slipped my mind. What was it?"
+          },
+          {
+            "name": "Inès",
+            "t": "Ben, le concert de samedi à Bruxelles ! Du coup, je viens en train. Tu peux m'héberger ?",
+            "n": "Well, the concert on Saturday in Brussels! So I'm coming by train. Can you put me up?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Samedi ? Ah, ça tombe mal. Ma sœur loge chez moi tout le week-end, je ne sais pas t'héberger.",
+            "n": "Saturday? Oh, that's bad timing. My sister is staying with me all weekend, I can't put you up."
+          },
+          {
+            "name": "Inès",
+            "t": "Tu « sais » pas ? Ah oui, c'est vrai, chez vous, « savoir », ça peut vouloir dire « pouvoir ».",
+            "n": "You \"don't know how\"? Oh right, where you are, savoir can mean pouvoir."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Exactement. Mais attends une fois, mon collègue a un canapé. Je lui demande.",
+            "n": "Exactly. But hang on, my colleague has a sofa. I'll ask him. (attends une fois: typically Belgian)"
+          },
+          {
+            "name": "Inès",
+            "t": "Génial ! Et sinon, le concert, ça commence à quelle heure ?",
+            "n": "Great! And otherwise, the concert — what time does it start?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Vingt heures. Mais faut être là tôt, y a toujours une file pas possible.",
+            "n": "Eight p.m. But you need to get there early, there's always a crazy queue (une file)."
+          },
+          {
+            "name": "Inès",
+            "t": "La dernière fois, je te raconte pas ! On a attendu deux heures sous la pluie.",
+            "n": "Last time, you wouldn't believe it! We waited two hours in the rain."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Bon, bref, je t'envoie un message pour le canapé. À samedi !",
+            "n": "Right, anyway, I'll text you about the sofa. See you Saturday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Pourquoi Thomas n'a-t-il pas écouté le message ?",
+            "n": "Why didn't Thomas listen to the message?",
+            "t": [
+              "Son GSM était déchargé",
+              "Parce que son GSM était déchargé",
+              "Son portable était déchargé",
+              "Ça lui est sorti de la tête"
+            ]
+          },
+          {
+            "q": "Pourquoi Thomas ne peut-il pas héberger Inès ?",
+            "n": "Why can't Thomas put Inès up?",
+            "t": [
+              "Sa sœur loge chez lui",
+              "Parce que sa sœur loge chez lui",
+              "À cause de sa sœur"
+            ]
+          },
+          {
+            "q": "Chez qui Inès va-t-elle peut-être dormir ?",
+            "n": "At whose place might Inès sleep?",
+            "t": [
+              "Chez le collègue de Thomas",
+              "Chez son collègue",
+              "Sur le canapé du collègue"
+            ]
+          },
+          {
+            "q": "À quelle heure commence le concert ?",
+            "n": "What time does the concert start?",
+            "t": [
+              "À vingt heures",
+              "Vingt heures",
+              "À huit heures du soir"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u02-l6",
+      "kind": "roleplay",
+      "title": "The flatshare interview",
+      "goal": "Find the right relaxed tone in a flatshare interview — your choices steer the outcome.",
+      "phrases": [
+        {
+          "t": "Franchement, je suis assez cool comme coloc.",
+          "n": "Honestly, I'm a pretty easy-going flatmate.",
+          "note": "coloc = colocataire (flatmate) or colocation (flatshare)."
+        },
+        {
+          "t": "Le ménage, ça me dérange pas, on peut faire un planning.",
+          "n": "Cleaning doesn't bother me, we can do a rota."
+        },
+        {
+          "t": "Moi, je bosse beaucoup, du coup je suis pas souvent là.",
+          "n": "I work a lot, so I'm not often around.",
+          "note": "bosser = travailler (familier)."
+        },
+        {
+          "t": "Ça me va tout à fait.",
+          "n": "That suits me perfectly."
+        }
+      ],
+      "branch": {
+        "title": "Entretien de coloc à Lyon",
+        "scene": "You're visiting a room in a flatshare in Lyon. Maxime, one of the flatmates, chats with you in a relaxed way to see if you'd fit in.",
+        "name": "Maxime",
+        "voice": "fr-FR-JeromeNeural",
+        "start": "greet",
+        "nodes": {
+          "greet": {
+            "t": "Salut ! Entre, entre. Alors, tu cherches une chambre depuis longtemps ?",
+            "n": "Hi! Come in, come in. So, have you been looking for a room for long?",
+            "choices": [
+              {
+                "t": "Salut ! Ouais, ça fait trois semaines, c'est un peu galère.",
+                "n": "Hi! Yeah, it's been three weeks, it's a bit of a pain.",
+                "next": "about"
+              },
+              {
+                "t": "Bonjour Monsieur. Je me permets de vous présenter ma candidature.",
+                "n": "Good afternoon, sir. Allow me to present my application.",
+                "next": "stiff"
+              }
+            ]
+          },
+          "stiff": {
+            "t": "Ha ha, « Monsieur » ? Détends-toi, on se tutoie ici, hein !",
+            "n": "Ha ha, \"sir\"? Relax, we say tu here, OK!",
+            "choices": [
+              {
+                "t": "Ah, pardon, d'accord ! Bon, ben, je cherche depuis trois semaines.",
+                "n": "Oh, sorry, OK! Well, I've been looking for three weeks.",
+                "next": "about"
+              }
+            ]
+          },
+          "about": {
+            "t": "Je vois. Et toi, t'es plutôt comment comme coloc ?",
+            "n": "I see. And what are you like as a flatmate?",
+            "choices": [
+              {
+                "t": "Franchement, je suis assez cool comme coloc. Moi, je bosse beaucoup, du coup je suis pas souvent là.",
+                "n": "Honestly, I'm a pretty easy-going flatmate. I work a lot, so I'm not often around.",
+                "next": "chores"
+              },
+              {
+                "t": "Je fais ce que je veux, c'est mon problème.",
+                "n": "I do what I want, that's my business.",
+                "next": "bad"
+              }
+            ]
+          },
+          "chores": {
+            "t": "OK. Et le ménage ? Parce que le dernier coloc, il faisait jamais rien.",
+            "n": "OK. And the cleaning? Because the last flatmate never did anything.",
+            "choices": [
+              {
+                "t": "Le ménage, ça me dérange pas, on peut faire un planning.",
+                "n": "Cleaning doesn't bother me, we can do a rota.",
+                "next": "party"
+              },
+              {
+                "t": "Le ménage ? Chais pas, c'est pas trop mon truc.",
+                "n": "Cleaning? Dunno, it's not really my thing.",
+                "next": "doubt"
+              }
+            ]
+          },
+          "doubt": {
+            "t": "Hmm. Ça, c'est un peu un problème pour nous, tu vois.",
+            "n": "Hmm. That's a bit of a problem for us, you see.",
+            "choices": [
+              {
+                "t": "Non mais je rigole ! T'inquiète, je ferai ma part.",
+                "n": "No, I'm joking! Don't worry, I'll do my share.",
+                "next": "party"
+              },
+              {
+                "t": "Bof, vous avez qu'à engager quelqu'un.",
+                "n": "Meh, you can just hire someone.",
+                "next": "bad"
+              }
+            ]
+          },
+          "party": {
+            "t": "Parfait. Dernière chose : on fait une soirée le premier vendredi du mois. Ça te dérange ?",
+            "n": "Perfect. Last thing: we have a party on the first Friday of the month. Does that bother you?",
+            "choices": [
+              {
+                "t": "Pas du tout ! Ça me va tout à fait, je ramènerai des bières.",
+                "n": "Not at all! That suits me perfectly, I'll bring some beers.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Trop bien. Bon, je dois en parler aux autres, mais franchement, c'est bien parti !",
+            "n": "Great. Right, I have to talk to the others, but honestly, it's looking good!",
+            "end": "good",
+            "outcome": "You struck a relaxed, friendly tone and made a great impression."
+          },
+          "bad": {
+            "t": "OK… Bon, je crois que ça va pas le faire. Bonne chance pour ta recherche.",
+            "n": "OK… Right, I don't think this is going to work. Good luck with your search.",
+            "end": "bad",
+            "outcome": "Casual is good, but rude is not — try a friendlier, more cooperative tone."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Casually say you work a lot, so you're not often around.",
+          "t": [
+            "Moi, je bosse beaucoup, du coup je suis pas souvent là",
+            "Je bosse beaucoup, du coup je suis pas souvent là",
+            "Je travaille beaucoup, du coup je ne suis pas souvent là"
+          ]
+        },
+        {
+          "n": "Say cleaning doesn't bother you and suggest a rota.",
+          "t": [
+            "Le ménage, ça me dérange pas, on peut faire un planning",
+            "Le ménage, ça ne me dérange pas, on peut faire un planning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-l7",
+      "kind": "speaking",
+      "title": "Talking casually",
+      "goal": "Tell an anecdote in natural spoken French and talk about the gap between written and spoken French.",
+      "culture": {
+        "title": "Verlan: speaking backwards",
+        "body": "Verlan swaps the syllables of a word — the name itself comes from l'envers (the reverse). It started as street and youth slang in France, and some words are now understood by almost everyone: meuf (femme, woman), relou (lourd, annoying), chelou (louche, dodgy or weird), ouf (fou, crazy — c'est ouf !), vénère (énervé, angry). Renaud's 1977 song Laisse béton (laisse tomber) is often credited with helping to popularise it. Some words have even been re-verlanised: meuf sometimes becomes feumeu. Verlan is very informal — fine with friends, out of place at work.",
+        "regions": [
+          "FR"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "C'est ouf, ce que tu me racontes !",
+          "n": "What you're telling me is crazy!",
+          "note": "ouf = fou in verlan."
+        },
+        {
+          "t": "Il est relou, ce mec.",
+          "n": "That guy is so annoying.",
+          "note": "relou = lourd in verlan."
+        },
+        {
+          "t": "C'est un peu chelou, non ?",
+          "n": "That's a bit weird, isn't it?",
+          "note": "chelou = louche in verlan."
+        },
+        {
+          "t": "À l'écrit, je ne le dirais jamais comme ça.",
+          "n": "In writing, I'd never put it like that."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a friend a short, funny anecdote from your week in casual spoken French, using fillers and discourse markers.",
+          "hint": "Use: Bon, alors… / En fait… / Du coup… / Genre… / Bref… / …quoi.",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "discourse markers",
+              "any": [
+                "du coup",
+                "en fait",
+                "genre",
+                "bref",
+                "tu vois",
+                "enfin"
+              ]
+            },
+            {
+              "label": "telling what happened",
+              "any": [
+                "j'ai",
+                "on a",
+                "il a",
+                "elle a",
+                "je suis",
+                "on est"
+              ]
+            },
+            {
+              "label": "a reaction",
+              "any": [
+                "trop",
+                "ouf",
+                "grave",
+                "chelou",
+                "relou",
+                "dingue",
+                "incroyable"
+              ]
+            }
+          ],
+          "model": "Bon, alors, je te raconte pas ma semaine. En fait, lundi, j'ai pris le mauvais train, genre complètement dans l'autre sens. Du coup, je suis arrivé à Lille au lieu de Rouen ! C'était trop chelou. Le contrôleur était un peu relou, mais bref, j'ai fini par arriver, quoi."
+        },
+        {
+          "n": "Explain to another learner how spoken French differs from written French, with examples.",
+          "hint": "À l'écrit, on dit… / À l'oral, par contre… / Par exemple… / On laisse tomber le ne…",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "written vs spoken",
+              "any": [
+                "à l'écrit",
+                "à l'oral",
+                "écrit",
+                "oral",
+                "parlé",
+                "familier"
+              ]
+            },
+            {
+              "label": "the dropped ne",
+              "any": [
+                "le ne",
+                "négation",
+                "je sais pas",
+                "c'est pas",
+                "chais pas"
+              ]
+            },
+            {
+              "label": "an example",
+              "any": [
+                "par exemple",
+                "comme",
+                "on dit",
+                "on entend"
+              ]
+            }
+          ],
+          "model": "À l'écrit, on fait des phrases complètes avec la négation entière : je ne sais pas. À l'oral, par contre, on laisse presque toujours tomber le ne, et on contracte tout : chais pas, t'es où, y a personne. Par exemple, on dit aussi « moi, je » ou « le fromage, j'adore ça ». À l'écrit, je ne le dirais jamais comme ça."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Using verlan, say that what your friend is telling you is crazy.",
+          "t": [
+            "C'est ouf, ce que tu me racontes",
+            "C'est ouf",
+            "C'est ouf ce que tu racontes"
+          ]
+        },
+        {
+          "n": "Say that in writing you'd never put it like that.",
+          "t": [
+            "À l'écrit, je ne le dirais jamais comme ça",
+            "À l'écrit, je le dirais jamais comme ça"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Le français parlé",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

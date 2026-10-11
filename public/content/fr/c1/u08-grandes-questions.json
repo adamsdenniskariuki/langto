@@ -1,0 +1,781 @@
+{
+  "id": "c1-u08",
+  "title": "Les grandes questions",
+  "subtitle": "Philosophy, society, identity & laïcité",
+  "icon": "🧠",
+  "lessons": [
+    {
+      "id": "c1-u08-l1",
+      "title": "Thinking out loud at a café philo",
+      "goal": "Discuss an abstract question precisely: define the terms, question the framing and conclude carefully.",
+      "tip": {
+        "title": "Define before you argue",
+        "body": "French debating style starts by examining the question itself: Tout dépend de ce qu'on entend par … and Encore faut-il s'entendre sur les termes (encore at the start of a sentence triggers inversion). Challenge a bad framing with C'est un faux dilemme, and avoid dogmatism with Je me garderai bien de trancher. Pronunciation: in faut-il and peut-on, the final t is linked to the pronoun — [fo-til], [pø-tɔ̃]."
+      },
+      "phrases": [
+        {
+          "t": "Tout dépend de ce qu'on entend par liberté.",
+          "n": "It all depends on what we mean by freedom."
+        },
+        {
+          "t": "Encore faut-il s'entendre sur les termes.",
+          "n": "But first we'd have to agree on the terms.",
+          "note": "Encore + inversion = formal 'still, one must first…'."
+        },
+        {
+          "t": "La question mérite d'être posée.",
+          "n": "The question deserves to be asked."
+        },
+        {
+          "t": "Le bonheur ne se réduit pas à la réussite matérielle.",
+          "n": "Happiness can't be reduced to material success."
+        },
+        {
+          "t": "Peut-on être libre sans être responsable ?",
+          "n": "Can one be free without being responsible?"
+        },
+        {
+          "t": "C'est un faux dilemme.",
+          "n": "That's a false dilemma."
+        },
+        {
+          "t": "Je me garderai bien de trancher.",
+          "n": "I'll take care not to settle the matter."
+        },
+        {
+          "t": "En dernière analyse, c'est une question de valeurs.",
+          "n": "In the final analysis, it's a question of values."
+        }
+      ],
+      "dialogue": {
+        "title": "Café philo in Paris",
+        "voice": "fr-FR-YvesNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Bernard",
+            "t": "Bienvenue au café philo ! Le sujet de ce soir : peut-on être heureux sans être libre ? Qui se lance ?",
+            "n": "Welcome to the café philo! Tonight's topic: can one be happy without being free? Who wants to start?"
+          },
+          {
+            "who": "you",
+            "t": "Tout dépend de ce qu'on entend par liberté. Encore faut-il s'entendre sur les termes.",
+            "n": "It all depends on what we mean by freedom. But first we'd have to agree on the terms."
+          },
+          {
+            "who": "A",
+            "name": "Bernard",
+            "t": "Bien vu. Disons : la liberté de choisir sa vie. Un prisonnier peut-il être heureux ?",
+            "n": "Good point. Let's say: the freedom to choose one's life. Can a prisoner be happy?"
+          },
+          {
+            "who": "you",
+            "t": "La question mérite d'être posée. Certains disent avoir trouvé une forme de paix intérieure, même en prison.",
+            "n": "The question deserves to be asked. Some people say they found a kind of inner peace, even in prison."
+          },
+          {
+            "who": "A",
+            "name": "Bernard",
+            "t": "Alors, liberté ou bonheur : faut-il choisir ?",
+            "n": "So, freedom or happiness: do we have to choose?"
+          },
+          {
+            "who": "you",
+            "t": "C'est un faux dilemme. En dernière analyse, c'est une question de valeurs, et je me garderai bien de trancher pour les autres.",
+            "n": "That's a false dilemma. In the final analysis, it's a question of values, and I'll take care not to decide for other people."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say it all depends on what we mean by freedom.",
+          "t": [
+            "Tout dépend de ce qu'on entend par liberté",
+            "Tout dépend de ce que l'on entend par liberté",
+            "Ça dépend de ce qu'on entend par liberté"
+          ]
+        },
+        {
+          "n": "Point out that it's a false dilemma.",
+          "t": [
+            "C'est un faux dilemme",
+            "Il s'agit d'un faux dilemme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l2",
+      "title": "Identity and belonging",
+      "goal": "Talk about multiple identities, roots and belonging with nuance and tact.",
+      "tip": {
+        "title": "Words for who we are",
+        "body": "Useful nouns: l'appartenance (belonging), les racines (roots), le pays d'adoption, les origines. Avoid boxes: à la fois … et … (both … and …) and on peut tout à fait … let you describe plural identities. After refuser que or ne pas aimer que, use the subjunctive: Je refuse qu'on me réduise à … Pronunciation: tout à fait links with a t — [tu-ta-fɛ]."
+      },
+      "phrases": [
+        {
+          "t": "On peut tout à fait avoir plusieurs appartenances.",
+          "n": "You can perfectly well belong to several groups."
+        },
+        {
+          "t": "Je me sens à la fois d'ici et d'ailleurs.",
+          "n": "I feel I'm both from here and from elsewhere."
+        },
+        {
+          "t": "L'identité n'est pas figée, elle se construit.",
+          "n": "Identity isn't fixed; it's built over time."
+        },
+        {
+          "t": "Le sentiment d'appartenance passe souvent par la langue.",
+          "n": "The sense of belonging often comes through language."
+        },
+        {
+          "t": "On n'a pas à choisir entre ses racines et son pays d'adoption.",
+          "n": "You don't have to choose between your roots and your adopted country."
+        },
+        {
+          "t": "Je refuse qu'on me réduise à mes origines.",
+          "n": "I refuse to be reduced to my origins.",
+          "note": "refuser que + subjunctive."
+        }
+      ],
+      "dialogue": {
+        "title": "A Bruxelloise on identity",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "On me demande souvent si je me sens belge, marocaine ou bruxelloise. Comme s'il fallait choisir !",
+            "n": "People often ask me whether I feel Belgian, Moroccan or from Brussels. As if you had to choose!"
+          },
+          {
+            "who": "you",
+            "t": "On peut tout à fait avoir plusieurs appartenances. Moi aussi, je me sens à la fois d'ici et d'ailleurs.",
+            "n": "You can perfectly well belong to several groups. I also feel I'm both from here and from elsewhere."
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Exactement. Et à Bruxelles, en plus, on jongle tous les jours entre le français et le néerlandais.",
+            "n": "Exactly. And in Brussels, on top of that, we juggle French and Dutch every day."
+          },
+          {
+            "who": "you",
+            "t": "Le sentiment d'appartenance passe souvent par la langue. Et puis, l'identité n'est pas figée, elle se construit.",
+            "n": "The sense of belonging often comes through language. And besides, identity isn't fixed; it's built over time."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you feel you're both from here and from elsewhere.",
+          "t": [
+            "Je me sens à la fois d'ici et d'ailleurs",
+            "Je me sens d'ici et d'ailleurs"
+          ]
+        },
+        {
+          "n": "Say identity isn't fixed, it's built over time.",
+          "t": [
+            "L'identité n'est pas figée, elle se construit",
+            "L'identité n'est pas figée",
+            "L'identité, ça se construit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l3",
+      "title": "Explaining laïcité neutrally",
+      "goal": "Explain a sensitive societal principle factually and present the different views without taking sides.",
+      "tip": {
+        "title": "Present a debate, not a verdict",
+        "body": "On sensitive topics, separate facts from opinions. State facts with neutral verbs: repose sur, garantit, prévoit. Attribute opinions to others: pour les uns … pour les autres …, selon ses partisans / ses critiques, les avis divergent. Avoid loaded adjectives. Pronunciation: the tréma in laïcité splits the vowels — la-i-ci-té, four syllables, never 'lay-city'."
+      },
+      "phrases": [
+        {
+          "t": "La laïcité repose sur la séparation des Églises et de l'État.",
+          "n": "Secularism rests on the separation of churches and state."
+        },
+        {
+          "t": "La loi de mille neuf cent cinq garantit la liberté de conscience.",
+          "n": "The 1905 law guarantees freedom of conscience."
+        },
+        {
+          "t": "L'État ne reconnaît ni ne subventionne aucun culte.",
+          "n": "The state neither recognises nor subsidises any religion."
+        },
+        {
+          "t": "En principe, la neutralité s'impose à l'État et à ses agents, pas aux citoyens.",
+          "n": "In principle, neutrality is required of the state and its employees, not of citizens."
+        },
+        {
+          "t": "Pour les uns, c'est une garantie de liberté ; pour les autres, une source de tensions.",
+          "n": "For some it's a guarantee of freedom; for others, a source of tension."
+        },
+        {
+          "t": "Le débat porte surtout sur son application.",
+          "n": "The debate is mainly about how it's applied."
+        },
+        {
+          "t": "Le modèle varie beaucoup d'un pays à l'autre.",
+          "n": "The model varies a lot from one country to another."
+        }
+      ],
+      "dialogue": {
+        "title": "A Montréal colleague asks",
+        "voice": "fr-CA-JeanNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Jean",
+            "t": "Toi qui as vécu en France, tu pourrais m'expliquer la laïcité ? Ici aussi, on en jase beaucoup depuis la loi de deux mille dix-neuf.",
+            "n": "You've lived in France — could you explain laïcité to me? People here talk about it a lot too, since the 2019 law.",
+            "note": "jaser = to chat (Québec)."
+          },
+          {
+            "who": "you",
+            "t": "Bien sûr. La laïcité repose sur la séparation des Églises et de l'État. La loi de mille neuf cent cinq garantit la liberté de conscience.",
+            "n": "Of course. Secularism rests on the separation of churches and state. The 1905 law guarantees freedom of conscience."
+          },
+          {
+            "who": "A",
+            "name": "Jean",
+            "t": "Donc l'État est neutre. Mais est-ce que ça s'applique à tout le monde ?",
+            "n": "So the state is neutral. But does that apply to everyone?"
+          },
+          {
+            "who": "you",
+            "t": "En principe, la neutralité s'impose à l'État et à ses agents, pas aux citoyens. Le débat porte surtout sur son application.",
+            "n": "In principle, neutrality is required of the state and its employees, not of citizens. The debate is mainly about how it's applied."
+          },
+          {
+            "who": "A",
+            "name": "Jean",
+            "t": "Et les gens sont d'accord là-dessus, en France ?",
+            "n": "And do people in France agree on that?"
+          },
+          {
+            "who": "you",
+            "t": "Les avis divergent. Pour les uns, c'est une garantie de liberté ; pour les autres, une source de tensions. Et le modèle varie beaucoup d'un pays à l'autre.",
+            "n": "Opinions differ. For some it's a guarantee of freedom; for others, a source of tension. And the model varies a lot from one country to another."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say secularism rests on the separation of churches and state.",
+          "t": [
+            "La laïcité repose sur la séparation des Églises et de l'État",
+            "La laïcité, c'est la séparation des Églises et de l'État",
+            "La laïcité repose sur la séparation de l'Église et de l'État"
+          ]
+        },
+        {
+          "n": "Present both sides: for some it's a guarantee of freedom, for others a source of tension.",
+          "t": [
+            "Pour les uns, c'est une garantie de liberté ; pour les autres, une source de tensions",
+            "Pour les uns, c'est une garantie de liberté, pour les autres, c'est une source de tensions",
+            "Pour certains, c'est une garantie de liberté, pour d'autres, une source de tensions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l4",
+      "kind": "grammar",
+      "title": "Abstract nominalisation",
+      "goal": "Turn verbs and adjectives into nouns to sound precise and formal.",
+      "tip": {
+        "title": "Say it with a noun",
+        "body": "Formal French prefers nouns where English often uses verbs: les prix augmentent → l'augmentation des prix ; on refuse de débattre → le refus de débattre. Verb nouns often end in -tion, -ment, -ée or have no ending (la hausse, le recul). Adjectives become nouns in -té, -ité, -esse, -ice: libre → la liberté, juste → la justice. Gender clues: -tion and abstract -té nouns are feminine, -ment is masculine. Pronunciation: -tion is [sjɔ̃], never 'shun' — but after s it is [tjɔ̃]: question."
+      },
+      "phrases": [
+        {
+          "t": "La mondialisation a entraîné une uniformisation des modes de vie.",
+          "n": "Globalisation has led to a standardisation of lifestyles."
+        },
+        {
+          "t": "L'allongement de l'espérance de vie soulève de nouvelles questions.",
+          "n": "Longer life expectancy raises new questions."
+        },
+        {
+          "t": "Le refus de débattre est déjà une prise de position.",
+          "n": "Refusing to debate is already taking a stand."
+        },
+        {
+          "t": "La défense du français reste une priorité au Québec.",
+          "n": "Defending French remains a priority in Québec."
+        },
+        {
+          "t": "La montée des inégalités inquiète une grande partie de la population.",
+          "n": "The rise in inequality worries a large part of the population."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Verb → noun",
+          "base": {
+            "t": "La hausse des prix inquiète les citoyens.",
+            "n": "The rise in prices worries citizens."
+          },
+          "items": [
+            {
+              "cue": "le chômage · augmenter",
+              "t": "L'augmentation du chômage inquiète les citoyens.",
+              "n": "The increase in unemployment worries citizens."
+            },
+            {
+              "cue": "les services publics · disparaître",
+              "t": "La disparition des services publics inquiète les citoyens.",
+              "n": "The disappearance of public services worries citizens."
+            },
+            {
+              "cue": "les langues régionales · reculer",
+              "t": "Le recul des langues régionales inquiète les citoyens.",
+              "n": "The decline of regional languages worries citizens."
+            }
+          ]
+        },
+        {
+          "title": "Adjective → noun",
+          "base": {
+            "t": "La liberté est au cœur du débat.",
+            "n": "Freedom is at the heart of the debate."
+          },
+          "items": [
+            {
+              "cue": "égal",
+              "t": "L'égalité est au cœur du débat.",
+              "n": "Equality is at the heart of the debate."
+            },
+            {
+              "cue": "neutre",
+              "t": "La neutralité est au cœur du débat.",
+              "n": "Neutrality is at the heart of the debate."
+            },
+            {
+              "cue": "responsable",
+              "t": "La responsabilité est au cœur du débat.",
+              "n": "Responsibility is at the heart of the debate."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the rise in inequality worries a large part of the population.",
+          "t": [
+            "La montée des inégalités inquiète une grande partie de la population",
+            "La hausse des inégalités inquiète une grande partie de la population"
+          ]
+        },
+        {
+          "n": "Use a noun: say refusing to debate is already taking a stand.",
+          "t": [
+            "Le refus de débattre est déjà une prise de position",
+            "Le refus de débattre, c'est déjà une prise de position"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l5",
+      "kind": "listening",
+      "title": "Radio debate: does language make identity?",
+      "goal": "Follow a Swiss radio debate with a Québécois linguist and a Senegalese novelist.",
+      "phrases": [
+        {
+          "t": "La langue fait-elle l'identité ?",
+          "n": "Does language make identity?"
+        },
+        {
+          "t": "C'est une question de survie culturelle.",
+          "n": "It's a matter of cultural survival."
+        },
+        {
+          "t": "Une langue reçue, mais que nous avons faite nôtre.",
+          "n": "A language we inherited, but have made our own."
+        },
+        {
+          "t": "Une langue peut fonder une identité sans l'enfermer.",
+          "n": "A language can found an identity without locking it in."
+        }
+      ],
+      "story": {
+        "title": "La langue fait-elle l'identité ?",
+        "intro": "On a Swiss radio programme, host Fabrice talks with Thierry, a linguist from Montréal, and Awa, a novelist from Dakar.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Bonsoir et bienvenue. Ce soir, une grande question : la langue fait-elle l'identité ? J'accueille Thierry, linguiste à Montréal, et Awa, romancière dakaroise.",
+            "n": "Good evening and welcome. Tonight, a big question: does language make identity? I'm joined by Thierry, a linguist in Montréal, and Awa, a novelist from Dakar."
+          },
+          {
+            "name": "Thierry",
+            "voice": "fr-CA-ThierryNeural",
+            "t": "Au Québec, la réponse semble évidente. Depuis l'adoption de la Charte de la langue française, en mille neuf cent soixante-dix-sept, le français est au cœur de l'identité québécoise. Sur un continent très majoritairement anglophone, beaucoup de Québécois voient dans sa protection une question de survie culturelle.",
+            "n": "In Québec, the answer seems obvious. Since the Charter of the French Language was adopted in 1977, French has been at the heart of Québec identity. On an overwhelmingly English-speaking continent, many Quebecers see protecting it as a matter of cultural survival."
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Awa, au Sénégal, le rapport à la langue est-il le même ?",
+            "n": "Awa, in Senegal, is the relationship with language the same?"
+          },
+          {
+            "name": "Awa",
+            "voice": "fr-FR-JosephineNeural",
+            "t": "C'est plus complexe. Le français est la langue officielle, celle de l'école et de l'administration, mais dans les rues de Dakar, c'est le wolof qu'on entend partout.",
+            "n": "It's more complex. French is the official language, the language of school and administration, but in the streets of Dakar it's Wolof you hear everywhere."
+          },
+          {
+            "name": "Awa",
+            "voice": "fr-FR-JosephineNeural",
+            "t": "Pour ma génération, le français est une langue reçue, mais que nous avons faite nôtre. Il appartient à tous ceux qui le parlent.",
+            "n": "For my generation, French is a language we inherited, but have made our own. It belongs to everyone who speaks it."
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Chez nous, en Suisse, avec quatre langues nationales, on dit volontiers que c'est la diversité qui fait l'identité.",
+            "n": "Here in Switzerland, with four national languages, people like to say that it's diversity that makes identity."
+          },
+          {
+            "name": "Thierry",
+            "voice": "fr-CA-ThierryNeural",
+            "t": "Voilà peut-être la vraie leçon : une langue peut fonder une identité sans l'enfermer.",
+            "n": "Perhaps that's the real lesson: a language can found an identity without locking it in."
+          }
+        ],
+        "questions": [
+          {
+            "q": "En quelle année la Charte de la langue française a-t-elle été adoptée ?",
+            "n": "In what year was the Charter of the French Language adopted?",
+            "t": [
+              "En mille neuf cent soixante-dix-sept",
+              "Mille neuf cent soixante-dix-sept",
+              "En dix-neuf cent soixante-dix-sept"
+            ]
+          },
+          {
+            "q": "Quelle langue entend-on partout dans les rues de Dakar ?",
+            "n": "Which language do you hear everywhere in the streets of Dakar?",
+            "t": [
+              "Le wolof",
+              "Wolof",
+              "On entend le wolof"
+            ]
+          },
+          {
+            "q": "Selon Awa, à qui appartient le français ?",
+            "n": "According to Awa, who does French belong to?",
+            "t": [
+              "À tous ceux qui le parlent",
+              "À ceux qui le parlent",
+              "Il appartient à tous ceux qui le parlent"
+            ]
+          },
+          {
+            "q": "Combien de langues nationales la Suisse compte-t-elle ?",
+            "n": "How many national languages does Switzerland have?",
+            "t": [
+              "Quatre",
+              "Quatre langues",
+              "Elle en compte quatre"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u08-l6",
+      "kind": "roleplay",
+      "title": "Public debate: citizens of the world?",
+      "goal": "Defend a nuanced position in a public debate, correct yourself gracefully and conclude.",
+      "phrases": [
+        {
+          "t": "Je suis allé un peu vite.",
+          "n": "I went a bit too fast."
+        },
+        {
+          "t": "C'est plus compliqué qu'il n'y paraît.",
+          "n": "It's more complicated than it seems.",
+          "note": "Formal 'ne explétif' — not a negation; it can be dropped."
+        },
+        {
+          "t": "Je nuancerais ce propos.",
+          "n": "I'd qualify that statement."
+        },
+        {
+          "t": "La mondialisation la transforme plus qu'elle ne la détruit.",
+          "n": "Globalisation transforms it more than it destroys it."
+        }
+      ],
+      "branch": {
+        "title": "Débat public à Montréal",
+        "scene": "You're on stage at a public debate in Montréal on the question: can one be a citizen of the world? The moderator turns to you.",
+        "name": "Geneviève (animatrice)",
+        "voice": "fr-CA-SylvieNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bonsoir et bienvenue. Notre question : peut-on vraiment être citoyen du monde ? Vous avez la parole.",
+            "n": "Good evening and welcome. Our question: can one really be a citizen of the world? The floor is yours.",
+            "choices": [
+              {
+                "t": "Tout dépend de ce qu'on entend par citoyen. Si c'est avoir des droits et des devoirs, c'est plus compliqué qu'il n'y paraît.",
+                "n": "It all depends on what we mean by citizen. If it means having rights and duties, it's more complicated than it seems.",
+                "next": "define"
+              },
+              {
+                "t": "Évidemment ! Les frontières, c'est dépassé, point final.",
+                "n": "Obviously! Borders are outdated, full stop.",
+                "next": "harsh"
+              }
+            ]
+          },
+          "harsh": {
+            "t": "Une affirmation bien tranchée. Pourtant, on vote encore dans un pays précis, non ?",
+            "n": "A very clear-cut claim. Yet we still vote in one specific country, don't we?",
+            "choices": [
+              {
+                "t": "Vous avez raison, je suis allé un peu vite. Encore faut-il s'entendre sur les termes.",
+                "n": "You're right, I went a bit too fast. First we'd have to agree on the terms.",
+                "next": "define"
+              },
+              {
+                "t": "Ça ne change rien, c'est mon avis et c'est tout.",
+                "n": "That changes nothing, it's my opinion and that's that.",
+                "next": "bad"
+              }
+            ]
+          },
+          "define": {
+            "t": "Précisez, alors : qu'est-ce qui nous rattache à un lieu ?",
+            "n": "Be more specific, then: what ties us to a place?",
+            "choices": [
+              {
+                "t": "Le sentiment d'appartenance passe par la langue, l'histoire, les liens. Mais on peut tout à fait avoir plusieurs appartenances.",
+                "n": "The sense of belonging comes through language, history and relationships. But you can perfectly well belong to several places.",
+                "next": "plural"
+              }
+            ]
+          },
+          "plural": {
+            "t": "Un intervenant affirmait tantôt que l'identité nationale se perd avec la mondialisation. Que lui répondez-vous ?",
+            "n": "A speaker claimed earlier that national identity is being lost through globalisation. What do you say to him?",
+            "choices": [
+              {
+                "t": "Je nuancerais ce propos : l'identité n'est pas figée, elle se construit. La mondialisation la transforme plus qu'elle ne la détruit.",
+                "n": "I'd qualify that: identity isn't fixed, it's built over time. Globalisation transforms it more than it destroys it.",
+                "next": "good"
+              },
+              {
+                "t": "Bof, peut-être qu'il a raison, je ne sais pas trop.",
+                "n": "Meh, maybe he's right, I don't really know.",
+                "next": "weak"
+              }
+            ]
+          },
+          "weak": {
+            "t": "Votre position reste un peu floue. Voulez-vous conclure ?",
+            "n": "Your position remains a little vague. Would you like to conclude?",
+            "choices": [
+              {
+                "t": "Oui : en dernière analyse, être citoyen du monde, c'est une question de valeurs plus que de passeport.",
+                "n": "Yes: in the final analysis, being a citizen of the world is a question of values rather than passports.",
+                "next": "good"
+              },
+              {
+                "t": "Non, ça ira, merci.",
+                "n": "No, that's fine, thanks.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Une intervention claire et nuancée. Merci beaucoup !",
+            "n": "A clear and nuanced contribution. Thank you very much!",
+            "end": "good",
+            "outcome": "You defined your terms, corrected yourself gracefully and argued with nuance — the audience applauds."
+          },
+          "bad": {
+            "t": "Très bien… Je donne la parole à l'intervenante suivante.",
+            "n": "Very well… I'll give the floor to the next speaker.",
+            "end": "bad",
+            "outcome": "You lost the room — define your terms, qualify your claims and stay engaged."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say it's more complicated than it seems.",
+          "t": [
+            "C'est plus compliqué qu'il n'y paraît",
+            "C'est plus compliqué qu'il y paraît",
+            "C'est plus compliqué que ça en a l'air"
+          ]
+        },
+        {
+          "n": "Politely say you'd qualify that statement.",
+          "t": [
+            "Je nuancerais ce propos",
+            "Je nuancerais ce que vous dites",
+            "Je voudrais nuancer ce propos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-l7",
+      "kind": "speaking",
+      "title": "Your take on the big questions",
+      "goal": "Argue a nuanced position on an abstract question and explain a societal principle neutrally.",
+      "culture": {
+        "title": "Philosophy for everyone",
+        "body": "In France, every pupil in the final year of the general and technological lycée (terminale) studies philosophy, and the four-hour bac philosophy paper traditionally opens the written exams. Its questions (Peut-on …? Faut-il …?) are discussed on the radio and in newspapers the same day. In Québec, philosophy courses are part of the compulsory general education at cégep. Defining the terms, weighing arguments and concluding without dogmatism is widely seen as a civic skill.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Il convient d'abord de définir les termes.",
+          "n": "First we should define the terms."
+        },
+        {
+          "t": "On pourrait objecter que la langue évolue sans cesse.",
+          "n": "One could object that language is constantly changing."
+        },
+        {
+          "t": "Sans prétendre trancher, je dirais que les deux se complètent.",
+          "n": "Without claiming to settle it, I'd say the two complement each other."
+        },
+        {
+          "t": "Reste à savoir si c'est souhaitable.",
+          "n": "It remains to be seen whether that's desirable."
+        }
+      ],
+      "free": [
+        {
+          "n": "Does language make identity? Define your terms, weigh at least one objection and conclude with nuance. Try to use abstract nouns.",
+          "hint": "Il convient de définir … · Tout dépend de ce qu'on entend par … · On pourrait objecter que … · En dernière analyse …",
+          "seconds": 100,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "defining the terms",
+              "any": [
+                "entend par",
+                "définir",
+                "termes",
+                "notion"
+              ]
+            },
+            {
+              "label": "language and identity",
+              "any": [
+                "langue",
+                "identité",
+                "appartenance",
+                "racines"
+              ]
+            },
+            {
+              "label": "an objection",
+              "any": [
+                "objecter",
+                "pourtant",
+                "cependant",
+                "en revanche"
+              ]
+            },
+            {
+              "label": "a nuanced conclusion",
+              "any": [
+                "en dernière analyse",
+                "en somme",
+                "en définitive",
+                "sans prétendre"
+              ]
+            }
+          ],
+          "model": "Il convient d'abord de définir les termes : par identité, j'entends le sentiment d'appartenance à un groupe. La langue y joue un rôle central, car elle transmet une culture et une façon de voir le monde. On pourrait objecter qu'on peut partager une langue sans partager une identité, comme le montre la francophonie. En dernière analyse, je dirais que la langue fonde l'identité sans l'enfermer."
+        },
+        {
+          "n": "Explain to a foreign friend a principle that shapes society in your country (e.g. secularism, federalism, direct democracy, neutrality). Stay neutral: give the facts, then the different views.",
+          "hint": "… repose sur … · La loi garantit … · Pour les uns … pour les autres … · Les avis divergent · Le débat porte sur …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "the facts",
+              "any": [
+                "repose sur",
+                "principe",
+                "garantit",
+                "loi"
+              ]
+            },
+            {
+              "label": "different views",
+              "any": [
+                "pour les uns",
+                "pour les autres",
+                "certains",
+                "d'autres"
+              ]
+            },
+            {
+              "label": "the debate",
+              "any": [
+                "débat",
+                "critique*",
+                "partisans",
+                "divergent"
+              ]
+            }
+          ],
+          "model": "En France, la laïcité repose sur la loi de mille neuf cent cinq, qui sépare les Églises et l'État. Ce principe garantit la liberté de conscience et impose la neutralité à l'État. Pour les uns, c'est une protection de la liberté de chacun ; pour les autres, son application est parfois trop stricte. Le débat porte surtout sur son application, et les avis divergent."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say: without claiming to settle it, you'd say the two complement each other.",
+          "t": [
+            "Sans prétendre trancher, je dirais que les deux se complètent",
+            "Sans vouloir trancher, je dirais que les deux se complètent"
+          ]
+        },
+        {
+          "n": "Say it remains to be seen whether that's desirable.",
+          "t": [
+            "Reste à savoir si c'est souhaitable",
+            "Il reste à savoir si c'est souhaitable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les grandes questions",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "c1-test",
+      "kind": "test",
+      "title": "C1 speaking test",
+      "goal": "Pass to earn your C1 badge and unlock C2.",
+      "tip": {
+        "title": "What the test checks",
+        "body": "You will present, criticise diplomatically, tell a story and take a stance on abstract questions. Use precise connectors, the subjunctive, mise en relief and a clear structure — and switch register when needed. Fluency and nuance matter more than perfection."
+      }
+    }
+  ]
+}
