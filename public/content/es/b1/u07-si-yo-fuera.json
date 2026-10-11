@@ -1,0 +1,302 @@
+{
+  "id": "b1-u07",
+  "title": "Si yo fuera…",
+  "subtitle": "Hypotheticals, wishes & advice",
+  "icon": "💭",
+  "lessons": [
+    {
+      "id": "b1-u07-l1",
+      "title": "If I won the lottery",
+      "goal": "Imagine unlikely situations and say what you would do.",
+      "tip": {
+        "title": "si tuviera…, viajaría…",
+        "body": "For situations that are unreal or unlikely, Spanish uses si + imperfect subjunctive, then the conditional: Si tuviera más tiempo, viajaría más (If I had more time, I'd travel more). The conditional is easy: add -ía to the whole infinitive (viajar → viajaría, dejar → dejaría, ser → sería). A few verbs change their stem, just like in the future: hacer → haría, tener → tendría, poder → podría, salir → saldría. Never put the conditional right after si. To win the lottery, Spanish speakers say me tocó la lotería (literally, the lottery touched me) or gané la lotería."
+      },
+      "phrases": [
+        { "t": "Si me tocara la lotería, dejaría de trabajar.", "n": "If I won the lottery, I'd stop working.", "note": "tocar: the prize 'touches' you. Also: si ganara la lotería." },
+        { "t": "Si tuviera más tiempo, viajaría más.", "n": "If I had more time, I would travel more." },
+        { "t": "Si fuera rico, me compraría una casa en la playa.", "n": "If I were rich, I'd buy myself a house on the beach.", "note": "A woman says rica." },
+        { "t": "¿Qué harías si te tocara la lotería?", "n": "What would you do if you won the lottery?" },
+        { "t": "Me encantaría vivir en el extranjero.", "n": "I'd love to live abroad." },
+        { "t": "Ojalá tuviera más vacaciones.", "n": "I wish I had more holidays.", "note": "ojalá + imperfect subjunctive: a wish that is unlikely right now." },
+        { "t": "¡Sería un sueño!", "n": "It would be a dream!" },
+        { "t": "Lo primero que haría es ayudar a mi familia.", "n": "The first thing I'd do is help my family." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Christmas lottery dreams",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "¿Has comprado lotería de Navidad este año?", "n": "Have you bought a Christmas lottery ticket this year?" },
+          { "who": "you", "t": "Sí, he comprado un décimo con los compañeros del trabajo. ¿Y tú?", "n": "Yes, I've bought a share of a ticket with my colleagues from work. And you?" },
+          { "who": "A", "name": "Carmen", "t": "¡Yo también! Oye, ¿qué harías si te tocara el Gordo?", "n": "Me too! Hey, what would you do if you won the Gordo?" },
+          { "who": "you", "t": "Lo primero que haría es ayudar a mi familia. Y luego viajaría por todo el mundo.", "n": "The first thing I'd do is help my family. And then I'd travel all over the world." },
+          { "who": "A", "name": "Carmen", "t": "¿Y dejarías de trabajar? Yo me iría mañana mismo de la oficina.", "n": "And would you stop working? I'd leave the office tomorrow." },
+          { "who": "you", "t": "No sé… Si tuviera tanto dinero, creo que trabajaría menos. ¡Sería un sueño!", "n": "I don't know… If I had that much money, I think I'd work less. It would be a dream!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that if you had more time, you would travel more.", "t": ["Si tuviera más tiempo, viajaría más", "Viajaría más si tuviera más tiempo", "Si tuviera más tiempo, viajaría mucho más"] },
+        { "n": "Ask a friend what they would do if they won the lottery.", "t": ["Qué harías si te tocara la lotería", "Qué harías si ganaras la lotería", "Qué harías si te tocara el Gordo"] },
+        { "n": "Say you wish you had more holidays.", "t": ["Ojalá tuviera más vacaciones", "Ojalá tuviera más días libres"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l2",
+      "title": "If I were you…",
+      "goal": "Give a friend advice and suggestions.",
+      "tip": {
+        "title": "Si yo fuera tú, …",
+        "body": "To give advice, put yourself in the other person's place and use the conditional: Si yo fuera tú, hablaría con él. Shorter versions: Yo en tu lugar… or En tu lugar… (understood everywhere) and Yo que tú…, which is very common in Spain. Deberías or tendrías que + infinitive means you should, and sounds softer than debes. ¿Por qué no…? + present is a friendly suggestion: ¿Por qué no lo hablas con él? And te recomiendo que is followed by the present subjunctive: Te recomiendo que descanses. In Mexico you'll hear ahorita (right now) and enojarse (to get angry; Spain: enfadarse)."
+      },
+      "phrases": [
+        { "t": "Si yo fuera tú, hablaría con tu jefe.", "n": "If I were you, I'd talk to your boss." },
+        { "t": "Yo que tú, me lo pensaría.", "n": "If I were you, I'd think it over.", "note": "Very common in Spain. Everywhere: yo en tu lugar." },
+        { "t": "En tu lugar, yo buscaría otro trabajo.", "n": "In your place, I'd look for another job." },
+        { "t": "Deberías descansar más.", "n": "You should rest more." },
+        { "t": "¿Por qué no le pides ayuda a alguien?", "n": "Why don't you ask someone for help?" },
+        { "t": "Te recomiendo que lo hables con calma.", "n": "I recommend you talk it through calmly." },
+        { "t": "¿Qué harías tú en mi lugar?", "n": "What would you do in my place?" },
+        { "t": "No te preocupes, todo va a salir bien.", "n": "Don't worry, everything's going to be fine." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "A friend who needs advice",
+        "lines": [
+          { "who": "A", "name": "Emilio", "t": "Estoy agotado. Mi jefe me manda trabajo todos los fines de semana. ¿Qué harías tú en mi lugar?", "n": "I'm exhausted. My boss sends me work every weekend. What would you do in my place?" },
+          { "who": "you", "t": "Si yo fuera tú, hablaría con él. No es normal trabajar todos los fines de semana.", "n": "If I were you, I'd talk to him. It's not normal to work every weekend." },
+          { "who": "A", "name": "Emilio", "t": "Ya, pero me da miedo. ¿Y si se enoja?", "n": "I know, but I'm scared. What if he gets angry?" },
+          { "who": "you", "t": "En tu lugar, yo se lo explicaría con calma. Además, deberías descansar más.", "n": "In your place, I'd explain it to him calmly. And you should rest more." },
+          { "who": "A", "name": "Emilio", "t": "Tienes razón. Si pudiera, me tomaría unas vacaciones ahorita mismo.", "n": "You're right. If I could, I'd take a holiday right now." },
+          { "who": "you", "t": "¿Por qué no lo hablas con él esta semana? No te preocupes, todo va a salir bien.", "n": "Why don't you talk to him about it this week? Don't worry, everything's going to be fine." }
+        ]
+      },
+      "prompts": [
+        { "n": "Advise a friend: if you were them, you'd talk to their boss.", "t": ["Si yo fuera tú, hablaría con tu jefe", "Si fuera tú, hablaría con tu jefe", "Yo que tú, hablaría con tu jefe", "Yo en tu lugar hablaría con tu jefe"] },
+        { "n": "Tell a friend they should rest more.", "t": ["Deberías descansar más", "Tendrías que descansar más"] },
+        { "n": "Ask a friend what they would do in your place.", "t": ["Qué harías tú en mi lugar", "Qué harías en mi lugar", "Qué harías si fueras yo"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l3",
+      "title": "My dream life",
+      "goal": "Talk about wishes and the life you would like to have.",
+      "tip": {
+        "title": "Me encantaría… / Ojalá pudiera…",
+        "body": "For wishes you can realistically pursue, use me gustaría or me encantaría + infinitive: Me encantaría aprender a bailar tango. For wishes about the present that feel out of reach, use ojalá + imperfect subjunctive: Ojalá pudiera trabajar desde casa (I wish I could work from home). In Argentina people use vos instead of tú, and che to get a friend's attention: vos sabés, vos querés, vos tenés. In the conditional and the imperfect subjunctive the vos forms are the same as tú: ¿Y vos qué harías? Si pudieras…"
+      },
+      "phrases": [
+        { "t": "Me gustaría vivir en otro país.", "n": "I'd like to live in another country." },
+        { "t": "Si pudiera elegir, viviría cerca del mar.", "n": "If I could choose, I'd live near the sea." },
+        { "t": "Ojalá pudiera trabajar desde casa.", "n": "I wish I could work from home." },
+        { "t": "Ojalá hablara mejor español.", "n": "I wish I spoke better Spanish." },
+        { "t": "Me encantaría aprender a bailar tango.", "n": "I'd love to learn to dance tango." },
+        { "t": "Si no tuviera que trabajar, pasaría más tiempo con mis amigos.", "n": "If I didn't have to work, I'd spend more time with my friends." },
+        { "t": "¿Y vos qué harías?", "n": "And what would you do?", "note": "Argentina (voseo). Elsewhere: ¿Y tú qué harías?" },
+        { "t": "¡Qué lindo sería!", "n": "How lovely that would be!", "note": "lindo is very common in Latin America; in Spain: ¡Qué bonito sería!" }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Anywhere in the world",
+        "lines": [
+          { "who": "A", "name": "Tomás", "t": "Che, si pudieras vivir en cualquier lugar del mundo, ¿dónde vivirías?", "n": "Hey, if you could live anywhere in the world, where would you live?" },
+          { "who": "you", "t": "Si pudiera elegir, viviría en un pueblo cerca del mar. ¿Y tú?", "n": "If I could choose, I'd live in a village near the sea. And you?" },
+          { "who": "A", "name": "Tomás", "t": "Yo me quedaría en Buenos Aires, pero me encantaría pasar un año en Europa. ¿Y qué harías vos en ese pueblo?", "n": "I'd stay in Buenos Aires, but I'd love to spend a year in Europe. And what would you do in that village?" },
+          { "who": "you", "t": "Trabajaría desde casa y aprendería a hacer surf. ¡Qué lindo sería!", "n": "I'd work from home and learn to surf. How lovely that would be!" },
+          { "who": "A", "name": "Tomás", "t": "¡Sería genial! ¿Pero no extrañarías la ciudad?", "n": "That would be great! But wouldn't you miss the city?" },
+          { "who": "you", "t": "Un poco, pero ojalá pudiera hacerlo. Si no tuviera que trabajar, me iría mañana.", "n": "A bit, but I wish I could do it. If I didn't have to work, I'd go tomorrow." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that if you could choose, you would live near the sea.", "t": ["Si pudiera elegir, viviría cerca del mar", "Si pudiera elegir, viviría junto al mar", "Viviría cerca del mar si pudiera elegir"] },
+        { "n": "Say you wish you could work from home.", "t": ["Ojalá pudiera trabajar desde casa", "Me gustaría trabajar desde casa", "Me encantaría trabajar desde casa"] },
+        { "n": "Say you'd love to learn to dance tango.", "t": ["Me encantaría aprender a bailar tango", "Me gustaría aprender a bailar tango", "Me encantaría aprender tango"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l4",
+      "kind": "grammar",
+      "title": "The imperfect subjunctive",
+      "goal": "Form tuviera, fuera, pudiera, hiciera and estuviera, and use them after si.",
+      "tip": {
+        "title": "From ellos in the past to -ra",
+        "body": "Take the ellos form of the indefinido, remove -ron and add -ra: tuvieron → tuviera, fueron → fuera, pudieron → pudiera, hicieron → hiciera, estuvieron → estuviera, hablaron → hablara. Endings: tuviera, tuvieras, tuviera, tuviéramos, tuvieran (vosotros: tuvierais, Spain only). Fuera is the form of both ser and ir. There is a second set ending in -se (tuviese, fuese) with the same meaning; you will hear it mainly in Spain and read it in writing, but the -ra forms are fine everywhere. The si-clause can go first or second: Si pudiera, te ayudaría = Te ayudaría si pudiera."
+      },
+      "phrases": [
+        { "t": "Si tuviera coche, te llevaría al aeropuerto.", "n": "If I had a car, I'd take you to the airport.", "note": "Latin America: carro (Mexico, Colombia) or auto (Argentina)." },
+        { "t": "Si estuviéramos de vacaciones, nos levantaríamos tarde.", "n": "If we were on holiday, we'd get up late." },
+        { "t": "Si hiciera buen tiempo, comeríamos en la terraza.", "n": "If the weather were nice, we'd eat on the terrace." },
+        { "t": "Si pudieras cambiar algo, ¿qué cambiarías?", "n": "If you could change something, what would you change?" },
+        { "t": "Si fuese más joven, estudiaría medicina.", "n": "If I were younger, I'd study medicine.", "note": "fuese = fuera. The -se forms are heard mainly in Spain and in writing." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": { "t": "Si tuviera tiempo, iría contigo.", "n": "If I had time, I'd go with you." },
+          "items": [
+            { "cue": "nosotros", "t": "Si tuviéramos tiempo, iríamos contigo.", "n": "If we had time, we'd go with you." },
+            { "cue": "tú?", "t": "Si tuvieras tiempo, ¿irías conmigo?", "n": "If you had time, would you go with me?" },
+            { "cue": "ella", "t": "Si ella tuviera tiempo, iría contigo.", "n": "If she had time, she'd go with you." },
+            { "cue": "mis padres", "t": "Si mis padres tuvieran tiempo, irían contigo.", "n": "If my parents had time, they'd go with you." }
+          ]
+        },
+        {
+          "title": "Swap the condition",
+          "base": { "t": "Si tuviera dinero, viajaría.", "n": "If I had money, I'd travel." },
+          "items": [
+            { "cue": "poder · ayudarte", "t": "Si pudiera, te ayudaría.", "n": "If I could, I'd help you." },
+            { "cue": "hacer sol · ir a la playa", "t": "Si hiciera sol, iría a la playa.", "n": "If it were sunny, I'd go to the beach." },
+            { "cue": "estar en Madrid · visitarte", "t": "Si estuviera en Madrid, te visitaría.", "n": "If I were in Madrid, I'd visit you." },
+            { "cue": "ser tú · aceptar", "t": "Si fuera tú, aceptaría.", "n": "If I were you, I'd accept." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say that if the weather were nice, you'd eat on the terrace (we).", "t": ["Si hiciera buen tiempo, comeríamos en la terraza", "Si hiciera buen tiempo, comeríamos afuera", "Si hiciera buen tiempo, comeríamos fuera"] },
+        { "n": "Ask a friend what they would change if they could change something.", "t": ["Si pudieras cambiar algo, qué cambiarías", "Qué cambiarías si pudieras cambiar algo"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l5",
+      "kind": "listening",
+      "title": "The morning of El Gordo",
+      "goal": "Follow two colleagues dreaming during Spain's Christmas lottery draw.",
+      "phrases": [
+        { "t": "¿Qué harías si nos tocara el Gordo?", "n": "What would you do if we won the Gordo?" },
+        { "t": "Lo primero que haría sería pagar la hipoteca.", "n": "The first thing I'd do would be to pay off the mortgage." },
+        { "t": "Yo no dejaría de trabajar.", "n": "I wouldn't stop working." },
+        { "t": "Bueno, lo importante es la salud.", "n": "Oh well, health is what matters.", "note": "What people in Spain famously say on 22 December when their number doesn't win." }
+      ],
+      "story": {
+        "title": "Lotería en la oficina",
+        "intro": "On the morning of 22 December, Elena and Javier follow the Christmas lottery draw at their office in Madrid.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Elena", "t": "Javier, ¿lo oyes? Los niños de San Ildefonso ya están cantando los números.", "n": "Javier, can you hear it? The San Ildefonso children are already singing the numbers." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Sí, lo tengo puesto en el móvil. ¿Tienes tú el décimo de la oficina?", "n": "Yes, I've got it on my phone. Have you got the office ticket?" },
+          { "name": "Elena", "t": "Aquí está. Oye, si nos tocara el Gordo, ¿qué harías?", "n": "Here it is. Hey, if we won the Gordo, what would you do?" },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Uf, lo primero que haría sería pagar la hipoteca. Y luego me iría a Japón con mi mujer.", "n": "Phew, the first thing I'd do would be to pay off the mortgage. And then I'd go to Japan with my wife." },
+          { "name": "Elena", "t": "Pues yo no dejaría de trabajar, ¿eh? Pero me compraría una casita en Asturias, cerca del mar.", "n": "Well, I wouldn't stop working, you know. But I'd buy a little house in Asturias, near the sea." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "¡Escucha! ¡Acaban de cantar el Gordo! ¿Es el nuestro?", "n": "Listen! They've just sung the Gordo! Is it ours?" },
+          { "name": "Elena", "t": "No… El nuestro termina en tres. Bueno, lo importante es la salud.", "n": "No… Ours ends in a three. Oh well, health is what matters." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "¡Eso! Y el año que viene compramos otro décimo.", "n": "Exactly! And next year we'll buy another ticket." }
+        ],
+        "questions": [
+          { "q": "¿Quiénes cantan los números?", "n": "Who sings the numbers?", "t": ["Los niños de San Ildefonso", "Los niños", "Unos niños"] },
+          { "q": "¿Adónde se iría Javier?", "n": "Where would Javier go?", "t": ["A Japón", "Se iría a Japón", "A Japón con su mujer"] },
+          { "q": "¿Qué se compraría Elena?", "n": "What would Elena buy herself?", "t": ["Una casita en Asturias", "Una casa en Asturias", "Una casita", "Una casa"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u07-l6",
+      "kind": "roleplay",
+      "title": "Should I stay or should I go?",
+      "goal": "Help a friend weigh up a big decision and give advice.",
+      "phrases": [
+        { "t": "¿Vos qué harías?", "n": "What would you do?", "note": "Argentina (voseo). Elsewhere: ¿Tú qué harías?" },
+        { "t": "Es una gran oportunidad.", "n": "It's a great opportunity." },
+        { "t": "Me da miedo equivocarme.", "n": "I'm scared of making a mistake." },
+        { "t": "Si no lo intento, me voy a arrepentir.", "n": "If I don't try, I'll regret it." }
+      ],
+      "branch": {
+        "title": "A job in Madrid",
+        "scene": "Your Argentine friend Sofía has been offered a job in Madrid, but she isn't sure whether to leave Buenos Aires. She calls you for advice.",
+        "name": "Sofía",
+        "voice": "es-AR-ElenaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Che, necesito un consejo. Me ofrecieron un trabajo en Madrid. ¿Vos qué harías?", "n": "Hey, I need some advice. I've been offered a job in Madrid. What would you do?",
+            "choices": [
+              { "t": "Si yo fuera tú, lo aceptaría. ¡Es una gran oportunidad!", "n": "If I were you, I'd accept it. It's a great opportunity!", "next": "doubts" },
+              { "t": "Depende. ¿Qué es lo que más te preocupa?", "n": "It depends. What worries you most?", "next": "worry" }
+            ]
+          },
+          "worry": {
+            "t": "Mi familia, sobre todo. Si me fuera, extrañaría muchísimo a mis viejos.", "n": "My family, above all. If I left, I'd miss my folks (my parents) terribly.",
+            "choices": [
+              { "t": "Te entiendo. Pero con las videollamadas estarías cerca de ellos.", "n": "I understand. But with video calls you'd be close to them.", "next": "money" },
+              { "t": "Pues no lo pienses más y quédate en Buenos Aires.", "n": "Then don't think about it any more and stay in Buenos Aires.", "next": "bad" }
+            ]
+          },
+          "doubts": {
+            "t": "Sí, pero me da miedo. ¿Y si no encuentro dónde vivir allá?", "n": "Yes, but I'm scared. What if I can't find anywhere to live there?",
+            "choices": [
+              { "t": "Yo en tu lugar le preguntaría a la empresa si te puede ayudar.", "n": "In your place, I'd ask the company if they can help you.", "next": "money" },
+              { "t": "Bueno, eso no es mi problema.", "n": "Well, that's not my problem.", "next": "bad" }
+            ]
+          },
+          "money": {
+            "t": "Buena idea. El sueldo es bueno, pero Madrid es cara. ¿Te parece que me alcanzaría?", "n": "Good idea. The salary is good, but Madrid is expensive. Do you think it would be enough for me?",
+            "choices": [
+              { "t": "Si compartieras piso al principio, ahorrarías bastante.", "n": "If you shared a flat at first, you'd save quite a lot.", "next": "decide" },
+              { "t": "Si yo fuera tú, pediría un sueldo un poco más alto.", "n": "If I were you, I'd ask for a slightly higher salary.", "next": "decide" }
+            ]
+          },
+          "decide": {
+            "t": "Tenés razón. Si no lo intento, me voy a arrepentir. ¿Me vendrías a visitar?", "n": "You're right. If I don't try, I'll regret it. Would you come and visit me?",
+            "choices": [
+              { "t": "¡Claro! Iría a verte en cuanto pudiera.", "n": "Of course! I'd come and see you as soon as I could.", "next": "good" },
+              { "t": "¡Por supuesto! Y te llamaría todas las semanas.", "n": "Of course! And I'd call you every week.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "¡Sos un sol! Mañana mismo les digo que sí.", "n": "You're a star! I'll tell them yes first thing tomorrow.",
+            "end": "good", "outcome": "You helped Sofía think through the offer with clear, kind advice, and she's going to Madrid."
+          },
+          "bad": {
+            "t": "Ah… bueno. Mejor lo hablo con otra persona.", "n": "Oh… OK. I'd better talk it over with someone else.",
+            "end": "bad", "outcome": "Sofía wanted help thinking it through. Show you understand, then give advice: Si yo fuera tú… / Yo en tu lugar…"
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell a friend it's a great opportunity.", "t": ["Es una gran oportunidad", "Es una oportunidad muy buena", "Es una muy buena oportunidad"] },
+        { "n": "Advise a friend: if you were them, you'd accept it (the job).", "t": ["Si yo fuera tú, lo aceptaría", "Si fuera tú, lo aceptaría", "Yo que tú, lo aceptaría", "Yo en tu lugar lo aceptaría"] }
+      ]
+    },
+    {
+      "id": "b1-u07-l7",
+      "kind": "speaking",
+      "title": "If I won El Gordo",
+      "goal": "Imagine winning the lottery and talk about it for about 70 seconds.",
+      "culture": {
+        "title": "El Gordo de Navidad",
+        "body": "Spain's Christmas lottery, the Sorteo Extraordinario de Navidad, is drawn every year on 22 December, and its top prize is nicknamed El Gordo (the fat one). Whole tickets are expensive, so most people buy a décimo, a tenth of a ticket, and colleagues, friends, families and even the local bar often share the same number. On the morning of the draw, pupils from Madrid's Colegio de San Ildefonso sing out the winning numbers and prizes for hours, and much of the country follows it on TV or radio. Those who win nothing console each other with a famous line: lo importante es la salud.",
+        "regions": ["ES"]
+      },
+      "phrases": [
+        { "t": "Si me tocara el Gordo, me tomaría un año libre.", "n": "If I won the Gordo, I'd take a year off." },
+        { "t": "Compartiría el premio con mi familia.", "n": "I'd share the prize with my family." },
+        { "t": "Donaría una parte a una ONG.", "n": "I'd donate part of it to a charity.", "note": "ONG (organización no gubernamental): NGO, charity." },
+        { "t": "No cambiaría mi vida demasiado.", "n": "I wouldn't change my life too much." }
+      ],
+      "free": [
+        {
+          "n": "Imagine you won a big lottery prize. Say what you would do first, what you would buy or change, who you would help, what you would NOT change, and why.",
+          "hint": "Use Si me tocara la lotería…, Lo primero que haría sería…, Me compraría…, Viajaría a…, Ayudaría a…, Donaría…, No dejaría de… porque…",
+          "seconds": 70,
+          "minWords": 30,
+          "targets": [
+            { "label": "si + imperfect subjunctive", "any": ["si me tocara", "si ganara", "si tuviera", "tocara", "ganara", "tuviera", "pudiera", "fuera"] },
+            { "label": "what you would do (conditional)", "any": ["haría", "compraría", "viajaría", "pagaría", "me iría", "viviría", "dejaría", "me tomaría", "sería"] },
+            { "label": "money & prizes", "any": ["lotería", "premio", "dinero", "gordo", "millones", "décimo"] },
+            { "label": "people you'd help", "any": ["ayudaría", "compartiría", "donaría", "familia", "padres", "amigos", "ong"] },
+            { "label": "a reason", "any": ["porque", "por eso", "ya que", "así"] }
+          ],
+          "model": "Si me tocara el Gordo, lo primero que haría sería pagar la casa de mis padres. Luego me compraría un piso pequeño cerca del mar y viajaría por América Latina durante un año. También donaría una parte del premio a una ONG, porque hay mucha gente que lo necesita. Pero no dejaría de trabajar, porque me gusta mi trabajo y en casa me aburriría."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you would share the prize with your family.", "t": ["Compartiría el premio con mi familia", "Compartiría el dinero con mi familia"] },
+        { "n": "Say you would donate part of it to a charity (ONG).", "t": ["Donaría una parte a una ONG", "Daría una parte a una ONG", "Donaría una parte del premio a una ONG"] }
+      ]
+    },
+    {
+      "id": "b1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Si yo fuera…",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

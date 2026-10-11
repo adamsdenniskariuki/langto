@@ -1,0 +1,74 @@
+{
+  "id": "pron-u07",
+  "level": "B1",
+  "title": "La entonación",
+  "subtitle": "Questions, exclamations & rhythm",
+  "icon": "🎵",
+  "lessons": [
+    {
+      "id": "pron-u07-l1",
+      "kind": "pron",
+      "title": "Statement or question?",
+      "goal": "Turn a statement into a yes/no question with your voice alone, and let wh-questions fall.",
+      "tip": {
+        "title": "The melody does the work",
+        "body": "Spanish often uses the same words for a statement and a yes/no question: \"Tienes frío\" (you're cold) and \"¿Tienes frío?\" (are you cold?). The only difference is the melody, which writing shows with ¿…?. In a statement the voice falls at the end. In a yes/no question it rises from the last stressed syllable: \"¿Tienes FRÍ-o↗?\". Questions with qué, dónde, cuándo, cómo or quién usually start high on the question word and fall at the end, like statements. A rise on a wh-question sounds softer and friendlier, or means you didn't catch something: \"¿Cómo↗?\" (Sorry?)."
+      },
+      "phrases": [
+        { "t": "¿Tienes hambre?", "n": "Are you hungry?" },
+        { "t": "¿Vienes con nosotros?", "n": "Are you coming with us?" },
+        { "t": "¿A qué hora abre?", "n": "What time does it open?" },
+        { "t": "¿Dónde está la estación?", "n": "Where is the station?" }
+      ],
+      "pairs": [
+        { "sound": "↘ / ↗", "a": { "t": "Tienes frío.", "n": "You're cold." }, "b": { "t": "¿Tienes frío?", "n": "Are you cold?" } },
+        { "sound": "↘ / ↗", "a": { "t": "Viene mañana.", "n": "She's coming tomorrow." }, "b": { "t": "¿Viene mañana?", "n": "Is she coming tomorrow?" } },
+        { "sound": "↘ / ↗", "a": { "t": "Está cerrado.", "n": "It's closed." }, "b": { "t": "¿Está cerrado?", "n": "Is it closed?" } },
+        { "sound": "↘ / ↗", "a": { "t": "Hay pan.", "n": "There's bread." }, "b": { "t": "¿Hay pan?", "n": "Is there any bread?" } },
+        { "sound": "↘ / ↗", "a": { "t": "Es tu hermano.", "n": "He's your brother." }, "b": { "t": "¿Es tu hermano?", "n": "Is he your brother?" } },
+        { "sound": "↘ / ↗", "a": { "t": "Habla inglés.", "n": "She speaks English." }, "b": { "t": "¿Habla inglés?", "n": "Does she speak English? / Do you speak English?" } }
+      ],
+      "stress": [
+        { "t": "¿Tienes frío?", "n": "Are you cold?", "mark": "¿*Tie*nes *frí*o?", "note": "Yes/no question: the voice rises from frí- to the end." },
+        { "t": "Viene mañana.", "n": "She's coming tomorrow.", "mark": "*Vie*ne ma*ña*na.", "note": "Statement: the voice falls after ma-ÑA-na." },
+        { "t": "¿A qué hora abre?", "n": "What time does it open?", "mark": "¿A *qué* *ho*ra *a*bre?", "note": "Wh-question: start high on qué, then fall." }
+      ],
+      "prompts": [
+        { "n": "Ask a friend if they're cold.", "t": ["Tienes frío"] }
+      ]
+    },
+    {
+      "id": "pron-u07-l2",
+      "kind": "pron",
+      "title": "Exclamations and rhythm",
+      "goal": "Sound surprised, enthusiastic or polite, and give every syllable its time.",
+      "tip": {
+        "title": "Even syllables, big melody",
+        "body": "Exclamations with qué or cuánto start high and fall steeply: \"¡Qué día!\" (what a day!). The same words with a question melody ask something: \"¿Qué día?\" (what day?). Surprise is a big rise, often on one word: \"¿Mañana?\" For politeness, soften with a gentle rise and por favor rather than a flat command. Spanish rhythm is syllable-timed: each syllable takes roughly the same time, stressed or not. English squashes unstressed syllables (\"choc'late\", \"int'resting\"); Spanish doesn't. Say ne-ce-si-to with four clear syllables and full vowels, and don't swallow little words like me, de, un, por."
+      },
+      "phrases": [
+        { "t": "¡Qué sorpresa!", "n": "What a surprise!" },
+        { "t": "¿De verdad?", "n": "Really?" },
+        { "t": "¡Qué bien!", "n": "Great!" },
+        { "t": "¿Me puede ayudar, por favor?", "n": "Could you help me, please?" }
+      ],
+      "pairs": [
+        { "sound": "! / ?", "a": { "t": "¡Qué día!", "n": "What a day!" }, "b": { "t": "¿Qué día?", "n": "What day?" } },
+        { "sound": "! / ?", "a": { "t": "¡Cuánta gente!", "n": "So many people!" }, "b": { "t": "¿Cuánta gente?", "n": "How many people?" } },
+        { "sound": "! / ?", "a": { "t": "¡Cómo corre!", "n": "Look how fast he runs!" }, "b": { "t": "¿Cómo corre?", "n": "How does he run?" } },
+        { "sound": "! / ?", "a": { "t": "¡Ya está!", "n": "Done! / That's it!" }, "b": { "t": "¿Ya está?", "n": "Is that it? / Done already?" } },
+        { "sound": "! / ?", "a": { "t": "¡Mañana!", "n": "Tomorrow!" }, "b": { "t": "¿Mañana?", "n": "Tomorrow?" } },
+        { "sound": "! / ?", "a": { "t": "¡Llueve!", "n": "It's raining!" }, "b": { "t": "¿Llueve?", "n": "Is it raining?" } }
+      ],
+      "stress": [
+        { "t": "¡Qué sorpresa!", "n": "What a surprise!", "mark": "¡*Qué* sor*pre*sa!", "note": "Start high on qué and fall." },
+        { "t": "¿De verdad?", "n": "Really?", "mark": "¿De ver*dad*?", "note": "Surprise: a big rise on -dad." },
+        { "t": "Me gustaría un café, por favor.", "n": "I'd like a coffee, please.", "mark": "Me gusta*rí*a un ca*fé*, por fa*vor*.", "note": "Give me, un and por their full time; don't swallow them." },
+        { "t": "Necesito estudiar mucho.", "n": "I need to study a lot.", "mark": "Nece*si*to estu*diar* *mu*cho.", "note": "Syllable-timed: ne-ce-si-to-es-tu-diar-mu-cho, each syllable about the same length." }
+      ],
+      "prompts": [
+        { "n": "Exclaim \"What a day!\".", "t": ["Qué día"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "b1-u04",
+  "title": "Mi carrera",
+  "subtitle": "Career, studies & ambitions",
+  "icon": "🎓",
+  "lessons": [
+    {
+      "id": "b1-u04-l1",
+      "title": "Studies and career path",
+      "goal": "Talk about what you studied and how your career has developed.",
+      "tip": {
+        "title": "carrera, máster, prácticas",
+        "body": "Careful with a false friend: la carrera usually means your university degree course (hice la carrera de Derecho = I did a law degree), although it can also mean your career. A master's is un máster in Spain and usually una maestría in Latin America; an internship is unas prácticas in Spain and una pasantía in much of Latin America. For something that started in the past and is still going on, use llevar + time + -ando / -iendo: llevo cuatro años trabajando aquí (I've been working here for four years)."
+      },
+      "phrases": [
+        { "t": "Estudié Administración de Empresas en la universidad.", "n": "I studied Business Administration at university." },
+        { "t": "Hice la carrera de Derecho en Bogotá.", "n": "I did a law degree in Bogotá.", "note": "la carrera = your university degree course" },
+        { "t": "Me gradué hace cinco años.", "n": "I graduated five years ago.", "note": "Spain also: terminé la carrera. Argentina: me recibí." },
+        { "t": "Hice unas prácticas en una empresa de marketing.", "n": "I did an internship at a marketing company.", "note": "Much of Latin America: una pasantía" },
+        { "t": "Luego hice un máster en Finanzas.", "n": "Then I did a master's in Finance.", "note": "Latin America usually: una maestría" },
+        { "t": "Llevo cuatro años trabajando en el sector turístico.", "n": "I've been working in tourism for four years." },
+        { "t": "Cambié de trabajo el año pasado.", "n": "I changed jobs last year." },
+        { "t": "Siempre me ha interesado la tecnología.", "n": "I've always been interested in technology." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "A networking event in Medellín",
+        "lines": [
+          { "who": "A", "name": "Andrés", "t": "Mucho gusto. Y usted, ¿qué estudió?", "n": "Nice to meet you. And what did you study?" },
+          { "who": "you", "t": "Estudié Administración de Empresas. Luego hice una maestría en Finanzas.", "n": "I studied Business Administration. Then I did a master's in Finance." },
+          { "who": "A", "name": "Andrés", "t": "¡Qué bien! ¿Y cuánto tiempo lleva trabajando?", "n": "Great! And how long have you been working?" },
+          { "who": "you", "t": "Llevo cuatro años trabajando en el sector turístico, pero siempre me ha interesado la tecnología.", "n": "I've been working in tourism for four years, but I've always been interested in technology." },
+          { "who": "A", "name": "Andrés", "t": "Pues aquí en Medellín hay muchas empresas de tecnología. ¿Hizo prácticas durante la carrera?", "n": "Well, here in Medellín there are lots of tech companies. Did you do an internship during your degree?" },
+          { "who": "you", "t": "Sí, hice una pasantía en una empresa de marketing. Fue una experiencia muy buena.", "n": "Yes, I did an internship at a marketing company. It was a very good experience." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you studied Business Administration at university.", "t": ["Estudié Administración de Empresas en la universidad", "Estudié Administración de Empresas"] },
+        { "n": "Say you've been working in tourism for four years.", "t": ["Llevo cuatro años trabajando en el sector turístico", "Llevo cuatro años trabajando en turismo", "Trabajo en el sector turístico desde hace cuatro años"] },
+        { "n": "Say you did an internship at a marketing company.", "t": ["Hice unas prácticas en una empresa de marketing", "Hice prácticas en una empresa de marketing", "Hice una pasantía en una empresa de marketing"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l2",
+      "title": "Your CV and skills",
+      "goal": "Describe your skills and strengths for a CV or an interview.",
+      "tip": {
+        "title": "se me da bien",
+        "body": "To say you're good at something, Spanish uses se me da bien, which works like me gusta: se me da bien escribir, se me dan bien los idiomas (plural noun, plural verb). Other useful patterns: tengo facilidad para + infinitive (I have a knack for), domino + a tool or language (I'm fluent in / I've mastered). A handy trick for adjectives: soy una persona muy organizada works for everyone, because persona is feminine. Your CV is el currículum (or currículo, el CV); in Colombia you'll mostly hear la hoja de vida."
+      },
+      "phrases": [
+        { "t": "Se me dan bien los idiomas.", "n": "I'm good at languages.", "note": "se me da bien + singular, se me dan bien + plural" },
+        { "t": "Se me da bien trabajar en equipo.", "n": "I'm good at working in a team." },
+        { "t": "Tengo un nivel alto de inglés.", "n": "I have a high level of English." },
+        { "t": "Domino Excel y varias herramientas digitales.", "n": "I'm very good at Excel and several digital tools." },
+        { "t": "Tengo facilidad para resolver problemas.", "n": "I have a knack for solving problems." },
+        { "t": "Soy una persona muy organizada.", "n": "I'm a very organised person.", "note": "organizada agrees with persona, so everyone says it." },
+        { "t": "Necesito actualizar mi currículum.", "n": "I need to update my CV.", "note": "Colombia: la hoja de vida" },
+        { "t": "Te envío mi hoja de vida por correo.", "n": "I'll send you my CV by email.", "note": "Colombia and some other Latin American countries" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Lucía checks your CV in Seville",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "A ver tu currículum… Está bien, pero falta algo. ¿Qué se te da bien?", "n": "Let's see your CV… It's fine, but something's missing. What are you good at?" },
+          { "who": "you", "t": "Se me dan bien los idiomas. Tengo un nivel alto de inglés y algo de francés.", "n": "I'm good at languages. I have a high level of English and some French." },
+          { "who": "A", "name": "Lucía", "t": "Eso ponlo arriba, que es importante. ¿Y con el ordenador qué tal?", "n": "Put that at the top, it's important. And how are you with computers?" },
+          { "who": "you", "t": "Domino Excel y varias herramientas digitales.", "n": "I'm very good at Excel and several digital tools." },
+          { "who": "A", "name": "Lucía", "t": "Perfecto. ¿Y cómo te describirías en una frase?", "n": "Perfect. And how would you describe yourself in one sentence?" },
+          { "who": "you", "t": "Soy una persona muy organizada y tengo facilidad para resolver problemas.", "n": "I'm a very organised person and I have a knack for solving problems." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're good at languages.", "t": ["Se me dan bien los idiomas"] },
+        { "n": "Say you're a very organised person.", "t": ["Soy una persona muy organizada"] },
+        { "n": "Say you need to update your CV.", "t": ["Necesito actualizar mi currículum", "Necesito actualizar mi currículo", "Necesito actualizar mi CV", "Necesito actualizar mi hoja de vida"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l3",
+      "title": "Ambitions and dreams",
+      "goal": "Talk about your plans and where you see yourself in the future.",
+      "tip": {
+        "title": "voy a or trabajaré?",
+        "body": "You already know voy a + infinitive for plans. The simple future (trabajaré, viviré, tendré) is used for predictions, promises and longer-term goals, and it often sounds a little more serious or certain: algún día viviré en Buenos Aires. For the moment something will happen, use cuando + present subjunctive, never the future: cuando termine la carrera (when I finish my degree), cuando tenga más experiencia (when I have more experience)."
+      },
+      "phrases": [
+        { "t": "Cuando termine la carrera, buscaré trabajo en el extranjero.", "n": "When I finish my degree, I'll look for work abroad." },
+        { "t": "Dentro de cinco años tendré mi propia empresa.", "n": "In five years I'll have my own company." },
+        { "t": "Me gustaría trabajar en una ONG.", "n": "I'd like to work for an NGO.", "note": "ONG is said o-ene-ge." },
+        { "t": "Mi sueño es ser periodista.", "n": "My dream is to be a journalist." },
+        { "t": "Algún día viviré en Buenos Aires.", "n": "One day I'll live in Buenos Aires." },
+        { "t": "Cuando tenga más experiencia, pediré un aumento.", "n": "When I have more experience, I'll ask for a raise." },
+        { "t": "No sé qué haré el año que viene.", "n": "I don't know what I'll do next year." },
+        { "t": "Primero quiero ahorrar un poco de dinero.", "n": "First I want to save a bit of money." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Valentina asks about your plans in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Valentina", "t": "¿Y vos qué pensás hacer cuando termines la maestría?", "n": "And what are you thinking of doing when you finish your master's?" },
+          { "who": "you", "t": "Cuando termine la maestría, buscaré trabajo en el extranjero.", "n": "When I finish my master's, I'll look for work abroad." },
+          { "who": "A", "name": "Valentina", "t": "¡Qué bueno! ¿Y dónde te gustaría vivir?", "n": "Great! And where would you like to live?" },
+          { "who": "you", "t": "Aquí, en Buenos Aires. Algún día viviré en esta ciudad, seguro.", "n": "Here, in Buenos Aires. One day I'll live in this city, for sure." },
+          { "who": "A", "name": "Valentina", "t": "Ja, ja. ¿Y dentro de diez años? ¿Cómo te imaginás?", "n": "Ha ha. And in ten years? How do you picture yourself?" },
+          { "who": "you", "t": "Dentro de diez años tendré mi propia empresa. Pero primero quiero ahorrar un poco de dinero.", "n": "In ten years I'll have my own company. But first I want to save a bit of money." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that when you finish your degree, you'll look for work abroad.", "t": ["Cuando termine la carrera, buscaré trabajo en el extranjero", "Cuando termine la carrera buscaré trabajo en el extranjero", "Buscaré trabajo en el extranjero cuando termine la carrera"] },
+        { "n": "Say that in five years you'll have your own company.", "t": ["Dentro de cinco años tendré mi propia empresa", "En cinco años tendré mi propia empresa"] },
+        { "n": "Say your dream is to be a journalist.", "t": ["Mi sueño es ser periodista"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l4",
+      "kind": "grammar",
+      "title": "The future & cuando + subjunctive",
+      "goal": "Form the simple future and talk about when things will happen.",
+      "tip": {
+        "title": "-é, -ás, -á… and cuando + subjunctive",
+        "body": "The simple future adds the same endings to the whole infinitive for all verbs: trabajar → trabajaré, trabajarás, trabajará, trabajaremos, trabajaréis, trabajarán. A few common verbs use a short stem: tener → tendré, poder → podré, hacer → haré, salir → saldré, decir → diré, venir → vendré, saber → sabré, querer → querré. When cuando refers to the future, the verb after it goes into the present subjunctive: cuando pueda, te llamaré (when I can, I'll call you), not cuando podré. For habits, cuando takes the normal present: cuando puedo, voy al gimnasio."
+      },
+      "phrases": [
+        { "t": "El año que viene trabajaré en Madrid.", "n": "Next year I'll work in Madrid." },
+        { "t": "Tendremos una reunión con la directora.", "n": "We'll have a meeting with the director." },
+        { "t": "No podré ir a la entrevista el lunes.", "n": "I won't be able to go to the interview on Monday." },
+        { "t": "Te diré algo mañana.", "n": "I'll let you know tomorrow." },
+        { "t": "Cuando pueda, te llamaré.", "n": "When I can, I'll call you." }
+      ],
+      "drills": [
+        {
+          "title": "Regular and irregular futures",
+          "base": { "t": "Mañana trabajaré desde casa.", "n": "Tomorrow I'll work from home." },
+          "items": [
+            { "cue": "nosotros", "t": "Mañana trabajaremos desde casa.", "n": "Tomorrow we'll work from home." },
+            { "cue": "salir temprano", "t": "Mañana saldré temprano.", "n": "Tomorrow I'll leave early." },
+            { "cue": "ella · tener una entrevista", "t": "Mañana tendrá una entrevista.", "n": "Tomorrow she'll have an interview." },
+            { "cue": "ustedes · hacer el examen", "t": "Mañana harán el examen.", "n": "Tomorrow you'll (all) take the exam." }
+          ]
+        },
+        {
+          "title": "cuando + subjunctive",
+          "base": { "t": "Cuando termine el curso, buscaré trabajo.", "n": "When I finish the course, I'll look for work." },
+          "items": [
+            { "cue": "tener tiempo · viajar", "t": "Cuando tenga tiempo, viajaré.", "n": "When I have time, I'll travel." },
+            { "cue": "poder · llamarte", "t": "Cuando pueda, te llamaré.", "n": "When I can, I'll call you." },
+            { "cue": "saber algo · decírtelo", "t": "Cuando sepa algo, te lo diré.", "n": "When I know something, I'll tell you." },
+            { "cue": "ella · terminar la carrera · trabajar en un hospital", "t": "Cuando termine la carrera, trabajará en un hospital.", "n": "When she finishes her degree, she'll work in a hospital." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you'll call when you can.", "t": ["Te llamaré cuando pueda", "Cuando pueda, te llamaré", "Cuando pueda te llamaré"] },
+        { "n": "Say you won't be able to go to the interview on Monday.", "t": ["No podré ir a la entrevista el lunes", "El lunes no podré ir a la entrevista"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l5",
+      "kind": "listening",
+      "title": "A call from Bogotá",
+      "goal": "Follow a phone call inviting a candidate to an interview.",
+      "phrases": [
+        { "t": "Hemos revisado su hoja de vida.", "n": "We've looked at your CV." },
+        { "t": "Queremos invitarle a una entrevista.", "n": "We'd like to invite you to an interview." },
+        { "t": "¿Le queda bien el jueves?", "n": "Does Thursday suit you?" },
+        { "t": "Le enviaré los detalles por correo.", "n": "I'll send you the details by email." }
+      ],
+      "story": {
+        "title": "The invitation",
+        "intro": "Natalia, from HR at a tech company in Bogotá, calls Javier, a Mexican engineer who applied for a job.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Natalia", "t": "Buenos días, ¿hablo con Javier Morales? Le habla Natalia Rojas, de Recursos Humanos de Andina Tech.", "n": "Good morning, am I speaking to Javier Morales? This is Natalia Rojas, from HR at Andina Tech." },
+          { "name": "Javier", "voice": "es-MX-JorgeNeural", "t": "Sí, con él habla. Buenos días.", "n": "Yes, speaking. Good morning." },
+          { "name": "Natalia", "t": "Hemos revisado su hoja de vida y queremos invitarle a una entrevista para el puesto de ingeniero de software.", "n": "We've looked at your CV and we'd like to invite you to an interview for the software engineer position." },
+          { "name": "Javier", "voice": "es-MX-JorgeNeural", "t": "¡Qué buena noticia! Muchas gracias. ¿Cuándo sería?", "n": "What good news! Thank you very much. When would it be?" },
+          { "name": "Natalia", "t": "¿Le queda bien el jueves a las diez de la mañana? Será por videollamada, con la jefa del equipo.", "n": "Does Thursday at ten in the morning suit you? It'll be by video call, with the team lead." },
+          { "name": "Javier", "voice": "es-MX-JorgeNeural", "t": "El jueves por la mañana no podré, tengo un examen. ¿Podría ser por la tarde?", "n": "I won't be able to on Thursday morning, I have an exam. Could it be in the afternoon?" },
+          { "name": "Natalia", "t": "Claro que sí. Entonces el jueves a las tres. Cuando confirme la hora con ella, le enviaré los detalles por correo.", "n": "Of course. Thursday at three, then. When I confirm the time with her, I'll send you the details by email." },
+          { "name": "Javier", "voice": "es-MX-JorgeNeural", "t": "Perfecto. Estaré pendiente. Muchas gracias, Natalia.", "n": "Perfect. I'll keep an eye out. Thank you very much, Natalia." }
+        ],
+        "questions": [
+          { "q": "¿Para qué puesto es la entrevista?", "n": "What position is the interview for?", "t": ["Ingeniero de software", "Para ingeniero de software", "Para el puesto de ingeniero de software"] },
+          { "q": "¿Por qué no puede Javier el jueves por la mañana?", "n": "Why can't Javier make Thursday morning?", "t": ["Porque tiene un examen", "Tiene un examen", "Un examen"] },
+          { "q": "¿A qué hora será la entrevista?", "n": "What time will the interview be?", "t": ["A las tres", "El jueves a las tres", "A las tres de la tarde"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u04-l6",
+      "kind": "roleplay",
+      "title": "Interview at a start-up in Buenos Aires",
+      "goal": "Present your career and ambitions convincingly in an interview.",
+      "phrases": [
+        { "t": "Gracias por recibirme.", "n": "Thank you for seeing me." },
+        { "t": "Cuando tenga más experiencia, podré liderar un equipo.", "n": "When I have more experience, I'll be able to lead a team." },
+        { "t": "Me gustaría crecer dentro de la empresa.", "n": "I'd like to grow within the company." },
+        { "t": "¿Cuándo sabré algo del proceso?", "n": "When will I hear about the process?" }
+      ],
+      "branch": {
+        "title": "Interview with Martín",
+        "scene": "You're at an interview for a marketing job at a start-up in Buenos Aires. Martín, the founder, uses vos with you, as many people in Argentina do: contame = cuéntame, sentate = siéntate, tenés = tienes.",
+        "name": "Martín",
+        "voice": "es-AR-TomasNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Hola! Gracias por venir. Sentate, por favor. Contame un poco sobre tu carrera.", "n": "Hi! Thanks for coming. Have a seat, please. Tell me a bit about your career.",
+            "choices": [
+              { "t": "Gracias por recibirme. Estudié Administración de Empresas y llevo cuatro años trabajando en marketing.", "n": "Thank you for seeing me. I studied Business Administration and I've been working in marketing for four years.", "next": "skills" },
+              { "t": "Bueno, está todo en mi currículum.", "n": "Well, it's all in my CV.", "next": "cv" }
+            ]
+          },
+          "cv": {
+            "t": "Sí, lo leí, pero prefiero que me lo cuentes vos. ¿Qué es lo que mejor se te da?", "n": "Yes, I read it, but I'd rather hear it from you. What are you best at?",
+            "choices": [
+              { "t": "Perdón. Se me da bien trabajar en equipo y tengo facilidad para resolver problemas.", "n": "Sorry. I'm good at working in a team and I have a knack for solving problems.", "next": "future" },
+              { "t": "No sé, de todo un poco.", "n": "I don't know, a bit of everything.", "next": "bad" }
+            ]
+          },
+          "skills": {
+            "t": "Interesante. ¿Y cuál dirías que es tu punto fuerte?", "n": "Interesting. And what would you say is your strong point?",
+            "choices": [
+              { "t": "Se me da bien trabajar en equipo y tengo facilidad para resolver problemas.", "n": "I'm good at working in a team and I have a knack for solving problems.", "next": "future" },
+              { "t": "Soy una persona muy organizada. Nunca se me olvida una fecha de entrega.", "n": "I'm a very organised person. I never forget a deadline.", "next": "future" }
+            ]
+          },
+          "future": {
+            "t": "Bárbaro. ¿Y dónde te ves dentro de cinco años?", "n": "Great. And where do you see yourself in five years?",
+            "choices": [
+              { "t": "Me gustaría crecer dentro de la empresa. Cuando tenga más experiencia, podré liderar un equipo.", "n": "I'd like to grow within the company. When I have more experience, I'll be able to lead a team.", "next": "questions" },
+              { "t": "Dentro de cinco años tendré mi propia empresa y seré su competencia.", "n": "In five years I'll have my own company and I'll be your competition.", "next": "rival" }
+            ]
+          },
+          "rival": {
+            "t": "Ja, ja… Bueno, ambición no te falta, eso está claro. ¿Y mientras tanto?", "n": "Ha ha… Well, you're not short of ambition, that's clear. And in the meantime?",
+            "choices": [
+              { "t": "Mientras tanto, quiero aprender mucho con ustedes y aportar mis ideas.", "n": "In the meantime, I want to learn a lot with you and contribute my ideas.", "next": "questions" },
+              { "t": "Mientras tanto, solo necesito el sueldo.", "n": "In the meantime, I just need the salary.", "next": "bad" }
+            ]
+          },
+          "questions": {
+            "t": "Perfecto. ¿Tenés alguna pregunta para nosotros?", "n": "Perfect. Do you have any questions for us?",
+            "choices": [
+              { "t": "Sí. ¿Cuándo sabré algo del proceso?", "n": "Yes. When will I hear about the process?", "next": "good" },
+              { "t": "Sí. ¿Habrá posibilidades de formación?", "n": "Yes. Will there be training opportunities?", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Buena pregunta. Cuando hablemos con los otros candidatos, te escribiré. ¡Fue un gusto!", "n": "Good question. When we've talked to the other candidates, I'll write to you. It was a pleasure!",
+            "end": "good", "outcome": "You explained your experience, your strengths and your ambitions clearly and made a strong impression."
+          },
+          "bad": {
+            "t": "Bueno… gracias por venir. Cualquier cosa, te avisamos.", "n": "Well… thanks for coming. We'll let you know if anything comes up.",
+            "end": "bad", "outcome": "Vague or cynical answers lost you the job. Talk about concrete skills and how you want to grow."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say that when you have more experience, you'll be able to lead a team.", "t": ["Cuando tenga más experiencia, podré liderar un equipo", "Cuando tenga más experiencia podré liderar un equipo", "Podré liderar un equipo cuando tenga más experiencia"] },
+        { "n": "Ask when you'll hear about the process.", "t": ["Cuándo sabré algo del proceso", "Cuándo sabré algo", "Cuándo tendré noticias"] }
+      ]
+    },
+    {
+      "id": "b1-u04-l7",
+      "kind": "speaking",
+      "title": "Where will you be in ten years?",
+      "goal": "Talk for 90 seconds about your career, strengths and future plans.",
+      "culture": {
+        "title": "usted among friends in Colombia",
+        "body": "In Colombia, usted isn't only for strangers and bosses. In some regions, for example around Bogotá and in Antioquia, many people use usted with friends, partners and even their children, and it can sound warm rather than distant. In Medellín you'll also hear vos among friends, while tú is common in other parts of the country and in much of the Spanish-speaking world. Habits vary from family to family, so follow the lead of the people you're talking to.",
+        "regions": ["CO"]
+      },
+      "phrases": [
+        { "t": "Dentro de diez años me veo trabajando en el extranjero.", "n": "In ten years I see myself working abroad." },
+        { "t": "Espero tener más tiempo para mi familia.", "n": "I hope to have more time for my family." },
+        { "t": "Cuando ahorre suficiente dinero, abriré mi propio negocio.", "n": "When I've saved enough money, I'll open my own business." },
+        { "t": "Para mí, lo más importante es hacer algo que me guste.", "n": "For me, the most important thing is doing something I enjoy." }
+      ],
+      "free": [
+        {
+          "n": "Talk about your career: what you studied or do now, your strengths, and where you see yourself in ten years. Use the future and at least one cuando + subjunctive.",
+          "hint": "Estudié … / Llevo … años trabajando en … Se me da bien … Tengo facilidad para … Dentro de diez años trabajaré / tendré … Cuando termine / tenga / ahorre …, …",
+          "seconds": 90,
+          "minWords": 35,
+          "targets": [
+            { "label": "your studies or job", "any": ["estudié", "carrera", "trabajando", "trabajo", "universidad", "máster", "maestría", "empresa"] },
+            { "label": "a strength", "any": ["se me da bien", "se me dan bien", "facilidad", "organizada", "domino", "nivel"] },
+            { "label": "the simple future", "any": ["trabajaré", "tendré", "podré", "haré", "viviré", "seré", "estaré", "buscaré", "abriré", "saldré", "diré"] },
+            { "label": "cuando + subjunctive", "any": ["cuando termine", "cuando tenga", "cuando pueda", "cuando sea", "cuando ahorre", "cuando sepa", "cuando consiga"] }
+          ],
+          "model": "Estudié Periodismo en la universidad y ahora llevo tres años trabajando en una empresa de comunicación. Se me da bien escribir y tengo facilidad para hablar con la gente. Dentro de diez años me veo trabajando en el extranjero, quizás en México o en Colombia. Cuando tenga más experiencia, buscaré un puesto de más responsabilidad, y cuando ahorre suficiente dinero, abriré mi propia agencia. Para mí, lo más importante es hacer algo que me guste."
+        }
+      ],
+      "prompts": [
+        { "n": "Say that in ten years you see yourself working abroad.", "t": ["Dentro de diez años me veo trabajando en el extranjero", "En diez años me veo trabajando en el extranjero"] },
+        { "n": "Say that for you, the most important thing is doing something you enjoy.", "t": ["Para mí, lo más importante es hacer algo que me guste", "Para mí lo más importante es hacer algo que me guste", "Lo más importante es hacer algo que me guste"] }
+      ]
+    },
+    {
+      "id": "b1-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Mi carrera",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

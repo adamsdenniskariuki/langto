@@ -1,0 +1,75 @@
+{
+  "id": "pron-u06",
+  "level": "B1",
+  "title": "El acento y la tilde",
+  "subtitle": "Word stress & written accents",
+  "icon": "✍️",
+  "lessons": [
+    {
+      "id": "pron-u06-l1",
+      "kind": "pron",
+      "title": "Where the stress falls",
+      "goal": "Find the stressed syllable of any word from its spelling, and hear when stress changes the meaning.",
+      "tip": {
+        "title": "Two rules and a tilde",
+        "body": "Spanish stress is predictable from spelling. Words ending in a vowel, n or s stress the second-to-last syllable: casa, hablan, martes. Words ending in any other consonant stress the last syllable: hablar, ciudad, español. When a word breaks these rules, a written accent (tilde) marks the stressed vowel: café, canción, árbol, música. Stress can change meaning: término (end, term), termino (I finish), terminó (he/she finished); hablo (I speak), habló (he/she spoke). Make the stressed syllable a little longer and higher, but keep every unstressed vowel full and clear: don't reduce them to the \"uh\" of English \"banana\". Papá is \"pa-PÁ\", not \"PUH-pa\"."
+      },
+      "phrases": [
+        { "t": "Mi papá come papas.", "n": "My dad eats potatoes.", "note": "Papa is potato in Latin America and the Canary Islands; in mainland Spain it's patata. El papa is the Pope." },
+        { "t": "Termino a las cinco.", "n": "I finish at five." },
+        { "t": "El público aplaudió.", "n": "The audience applauded." },
+        { "t": "¡Ánimo!", "n": "Come on! / Cheer up!", "note": "Animo, without the tilde, means \"I encourage\"." }
+      ],
+      "pairs": [
+        { "sound": "PA-pa / pa-PÁ", "a": { "t": "papa", "n": "potato (Latin America); pope" }, "b": { "t": "papá", "n": "dad" } },
+        { "sound": "TÉR-mi-no / ter-MI-no", "a": { "t": "término", "n": "end; term" }, "b": { "t": "termino", "n": "I finish" } },
+        { "sound": "ter-MI-no / ter-mi-NÓ", "a": { "t": "termino", "n": "I finish" }, "b": { "t": "terminó", "n": "he/she finished" } },
+        { "sound": "PÚ-bli-co / pu-BLI-co", "a": { "t": "público", "n": "public; audience" }, "b": { "t": "publico", "n": "I publish" } },
+        { "sound": "SÁ-ba-na / sa-BA-na", "a": { "t": "sábana", "n": "bed sheet" }, "b": { "t": "sabana", "n": "savanna" } },
+        { "sound": "HA-blo / ha-BLÓ", "a": { "t": "hablo", "n": "I speak" }, "b": { "t": "habló", "n": "he/she spoke" } }
+      ],
+      "stress": [
+        { "t": "Mi papá come papas.", "n": "My dad eats potatoes.", "mark": "Mi pa*pá* *co*me *pa*pas.", "note": "Papá breaks the vowel rule, so it needs a tilde; papas follows it." },
+        { "t": "El público aplaudió.", "n": "The audience applauded.", "mark": "El *pú*blico aplau*dió*.", "note": "Público stresses the third-to-last syllable: words like this always carry a tilde." },
+        { "t": "Hoy canto yo; ayer cantó ella.", "n": "Today I sing; yesterday she sang.", "mark": "*Hoy* *can*to *yo*; a*yer* can*tó* *e*lla.", "note": "Canto (I sing) vs cantó (she sang): only the stress tells them apart." },
+        { "t": "Termino el trabajo a las cinco.", "n": "I finish work at five.", "mark": "Ter*mi*no el tra*ba*jo a las *cin*co." }
+      ],
+      "prompts": [
+        { "n": "Say \"I spoke with my dad\".", "t": ["Hablé con mi papá", "Hablé con mi padre"] }
+      ]
+    },
+    {
+      "id": "pron-u06-l2",
+      "kind": "pron",
+      "title": "Tú or tu? Qué or que?",
+      "goal": "Stress tú, él, mí, sí, más and question words; keep tu, el, mi, si and que light.",
+      "tip": {
+        "title": "The tilde shows the stressed twin",
+        "body": "Some short words come in pairs: one is stressed and carries a tilde, the other is unstressed and leans on the next word. Tú (you), él (he), mí (me), sí (yes), más (more), té (tea) are stressed; tu (your), el (the), mi (my), si (if), mas (but, only in literary writing), te (you, object) are not. Say \"tu casa\" as one word, \"tucasa\", but give tú its own beat: \"¿Y tú?\". Question words are stressed too: qué, cómo, cuándo, dónde, quién, also inside a sentence (\"No sé qué quiere\"). Que, como, cuando and donde without a tilde are linking words and stay light. In English you might stress \"if\" or \"that\" for emphasis; in Spanish, keep si and que unstressed."
+      },
+      "phrases": [
+        { "t": "Él dice que sí.", "n": "He says yes." },
+        { "t": "¿Cómo está? Como siempre.", "n": "How is he? Same as always." },
+        { "t": "¿Quieres más? No, gracias.", "n": "Do you want more? No, thanks." },
+        { "t": "No sé qué quiere.", "n": "I don't know what she wants." }
+      ],
+      "pairs": [
+        { "sound": "tú / tu", "a": { "t": "Tú cocinas.", "n": "You cook." }, "b": { "t": "Tu cocina.", "n": "Your kitchen." } },
+        { "sound": "él / el", "a": { "t": "Él trabaja.", "n": "He works." }, "b": { "t": "El trabajo.", "n": "The work." } },
+        { "sound": "mí / mi", "a": { "t": "Para mí, té.", "n": "Tea for me." }, "b": { "t": "Para mi té.", "n": "For my tea." } },
+        { "sound": "sí / si", "a": { "t": "Sí, quiere.", "n": "Yes, she wants to." }, "b": { "t": "Si quiere.", "n": "If you like." } },
+        { "sound": "qué / que", "a": { "t": "Dice qué quiere.", "n": "She says what she wants." }, "b": { "t": "Dice que quiere.", "n": "She says she wants to." } },
+        { "sound": "esta / está", "a": { "t": "esta", "n": "this (feminine)" }, "b": { "t": "está", "n": "is (estar)" } }
+      ],
+      "stress": [
+        { "t": "¿Tú tienes tu libro?", "n": "Do you have your book?", "mark": "¿*Tú* *tie*nes tu *li*bro?", "note": "Tú gets a beat; tu runs into libro." },
+        { "t": "Él tiene el coche.", "n": "He has the car.", "mark": "*Él* *tie*ne el *co*che." },
+        { "t": "¿Cómo está? Como siempre.", "n": "How is he? Same as always.", "mark": "¿*Có*mo es*tá*? Como *siem*pre.", "note": "Cómo asks a question and is stressed; como (as, like) is light." },
+        { "t": "¿Quieres más? No, gracias.", "n": "Do you want more? No, thanks.", "mark": "¿*Quie*res *más*? *No*, *gra*cias." }
+      ],
+      "prompts": [
+        { "n": "Say \"He says yes\".", "t": ["Él dice que sí", "Dice que sí"] }
+      ]
+    }
+  ]
+}

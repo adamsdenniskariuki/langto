@@ -1,0 +1,301 @@
+{
+  "id": "b1-u02",
+  "title": "Contar historias",
+  "subtitle": "Telling stories about the past",
+  "icon": "📖",
+  "lessons": [
+    {
+      "id": "b1-u02-l1",
+      "title": "Setting the scene",
+      "goal": "Describe the time, place and situation at the start of a story.",
+      "tip": {
+        "title": "The imperfect paints the picture",
+        "body": "A good story starts with the scene, and the scene is in the imperfect: the time (Eran las once de la noche), the weather (Hacía frío, Llovía), what was there (Había mucha gente) and what people were doing (Yo estaba en el metro, Todos dormían). The time uses ser: Era la una, Eran las diez. Nothing \"happens\" in these sentences. They are the background for the events you'll tell next, in the indefinido."
+      },
+      "phrases": [
+        { "t": "Era un viernes por la noche.", "n": "It was a Friday night." },
+        { "t": "Eran las once y media.", "n": "It was half past eleven.", "note": "Era la una, but eran las dos, las tres…" },
+        { "t": "Hacía muchísimo frío.", "n": "It was really cold." },
+        { "t": "Llovía a cántaros.", "n": "It was pouring with rain.", "note": "Literally \"it was raining by the jugful\"." },
+        { "t": "Había mucha gente en la calle.", "n": "There were lots of people in the street.", "note": "Había never changes: había un chico, había muchos chicos." },
+        { "t": "Yo estaba en el metro, volviendo a casa.", "n": "I was on the metro, on my way home." },
+        { "t": "Todo estaba muy tranquilo.", "n": "Everything was very quiet." },
+        { "t": "Estábamos de vacaciones en Cartagena.", "n": "We were on holiday in Cartagena.", "note": "Cartagena de Indias is on Colombia's Caribbean coast; there's also a Cartagena in Spain." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "A strange night",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "Oye, ¿qué te pasó el viernes? Nos dijiste que venías a la fiesta.", "n": "Hey, what happened to you on Friday? You told us you were coming to the party." },
+          { "who": "you", "t": "Es una historia larga. Eran las once y yo estaba en el metro, volviendo del trabajo.", "n": "It's a long story. It was eleven o'clock and I was on the metro, coming back from work." },
+          { "who": "A", "name": "Mariana", "t": "¿A las once? ¿Y había mucha gente?", "n": "At eleven? And were there lots of people?" },
+          { "who": "you", "t": "No, casi nadie. Todo estaba muy tranquilo, y afuera llovía a cántaros.", "n": "No, hardly anyone. Everything was very quiet, and outside it was pouring with rain." },
+          { "who": "A", "name": "Mariana", "t": "Ay, qué miedo. ¿Y entonces?", "n": "Oh, how scary. And then?" },
+          { "who": "you", "t": "Espera, que te lo cuento todo con un café.", "n": "Hold on, I'll tell you everything over a coffee." }
+        ]
+      },
+      "prompts": [
+        { "n": "Start a story: say it was a Friday night.", "t": ["Era un viernes por la noche", "Era viernes por la noche"] },
+        { "n": "Say it was raining and very cold.", "t": ["Llovía y hacía mucho frío", "Estaba lloviendo y hacía mucho frío", "Llovía y hacía muchísimo frío"] },
+        { "n": "Say there were lots of people in the street.", "t": ["Había mucha gente en la calle", "En la calle había mucha gente"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l2",
+      "title": "What happened next",
+      "goal": "Move a story forward with connectors and the indefinido.",
+      "tip": {
+        "title": "Connectors keep the story moving",
+        "body": "Once the scene is set, tell the events in the indefinido and link them with connectors: primero, luego / después, entonces (then, so), de repente / de pronto (suddenly), en ese momento (at that moment), al final (in the end). Mientras (while) usually goes with the imperfect: Mientras esperaba el autobús, empezó a llover. Por suerte (luckily) and por desgracia (unfortunately) tell your listener how to feel about what comes next."
+      },
+      "phrases": [
+        { "t": "De repente se apagaron las luces.", "n": "Suddenly the lights went out.", "note": "De pronto means the same." },
+        { "t": "Entonces oí un ruido muy raro.", "n": "Then I heard a very strange noise." },
+        { "t": "En ese momento sonó mi móvil.", "n": "At that moment my phone rang.", "note": "Latin America: mi celular." },
+        { "t": "Mientras esperaba el autobús, empezó a llover.", "n": "While I was waiting for the bus, it started to rain.", "note": "Mexico: el camión. Argentina: el colectivo." },
+        { "t": "Por suerte, alguien me ayudó.", "n": "Luckily, someone helped me." },
+        { "t": "Por desgracia, perdí el último tren.", "n": "Unfortunately, I missed the last train." },
+        { "t": "Primero fui a la estación y luego volví al hotel.", "n": "First I went to the station and then I went back to the hotel." },
+        { "t": "Al final llegué a casa a las tres.", "n": "In the end I got home at three." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "The lost wallet",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¿Qué tal el viaje a Sevilla? Me han dicho que tuviste un problema.", "n": "How was the trip to Seville? I heard you had a problem." },
+          { "who": "you", "t": "Sí. Mientras esperaba el tren, me di cuenta de que no tenía la cartera.", "n": "Yes. While I was waiting for the train, I realised I didn't have my wallet." },
+          { "who": "A", "name": "Diego", "t": "¡No me digas! ¿Y qué hiciste?", "n": "No way! And what did you do?" },
+          { "who": "you", "t": "Primero volví al hotel, pero no estaba allí. Entonces llamé a la policía.", "n": "First I went back to the hotel, but it wasn't there. Then I called the police." },
+          { "who": "A", "name": "Diego", "t": "¿Y la encontraste?", "n": "And did you find it?" },
+          { "who": "you", "t": "Sí. Por suerte, una señora la encontró en la cafetería. Al final perdí el tren, pero recuperé la cartera.", "n": "Yes. Luckily, a woman found it in the café. In the end I missed the train, but I got my wallet back." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that suddenly the lights went out.", "t": ["De repente se apagaron las luces", "De pronto se apagaron las luces"] },
+        { "n": "Say that while you were waiting for the bus, it started to rain.", "t": ["Mientras esperaba el autobús, empezó a llover", "Mientras esperaba el camión, empezó a llover", "Mientras esperaba el colectivo, empezó a llover", "Mientras esperaba el bus, empezó a llover"] },
+        { "n": "Say that in the end you got home at three.", "t": ["Al final llegué a casa a las tres", "Al final llegué a las tres"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l3",
+      "title": "Reacting to a story",
+      "goal": "Show interest, react and ask for more while someone tells a story.",
+      "tip": {
+        "title": "Be a good listener",
+        "body": "Spanish speakers expect listeners to react, and silence can sound like you're not interested. Ask for more with ¿Y qué pasó? or ¿Y luego?, show surprise with ¿En serio? or ¡No me digas!, and react with ¡Qué susto! (what a fright), ¡Qué mala suerte! or ¡Qué vergüenza! (how embarrassing). In Argentina you'll hear voseo forms like contame (tell me), mirá (look) and ¿sabés? (do you know?). The tú forms are cuéntame, mira and ¿sabes?"
+      },
+      "phrases": [
+        { "t": "¿Y qué pasó?", "n": "And what happened?" },
+        { "t": "¡No me digas!", "n": "No way! / You don't say!" },
+        { "t": "¿En serio?", "n": "Seriously?" },
+        { "t": "¡Qué susto!", "n": "What a fright!" },
+        { "t": "¡Qué mala suerte!", "n": "What bad luck!" },
+        { "t": "¡Qué vergüenza!", "n": "How embarrassing!", "note": "In Mexico and Colombia, ¡Qué pena! often means this too; elsewhere it usually means \"what a shame\"." },
+        { "t": "Cuéntame, ¿qué te pasó?", "n": "Tell me, what happened to you?", "note": "Argentina (voseo): Contame." },
+        { "t": "¡Mirá vos!", "n": "Well, look at that!", "note": "Argentine voseo. Elsewhere: ¡Mira tú!" }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Asleep on the bus",
+        "lines": [
+          { "who": "A", "name": "Florencia", "t": "¿Sabés lo que me pasó ayer? No lo vas a creer.", "n": "Do you know what happened to me yesterday? You won't believe it." },
+          { "who": "you", "t": "No, ¿qué te pasó? Cuéntame.", "n": "No, what happened to you? Tell me." },
+          { "who": "A", "name": "Florencia", "t": "Bueno, eran las ocho y yo iba al trabajo en colectivo. Estaba muy cansada y me dormí.", "n": "Well, it was eight o'clock and I was going to work by bus. I was really tired and I fell asleep." },
+          { "who": "you", "t": "¡No me digas! ¿Y qué pasó?", "n": "No way! And what happened?" },
+          { "who": "A", "name": "Florencia", "t": "Me desperté en la última parada, ¡en otra ciudad! Y vos sabés que yo nunca llego tarde.", "n": "I woke up at the last stop, in another town! And you know I'm never late." },
+          { "who": "you", "t": "¡Qué mala suerte! ¿Y qué le dijiste a tu jefe?", "n": "What bad luck! And what did you tell your boss?" }
+        ]
+      },
+      "prompts": [
+        { "n": "A friend tells you something surprising. Say \"No way!\"", "t": ["No me digas", "En serio", "No puede ser"] },
+        { "n": "Ask your friend what happened next.", "t": ["Y qué pasó", "Y luego", "Y qué pasó después", "Y después qué pasó"] },
+        { "n": "React to a friend's scary story: what a fright!", "t": ["Qué susto", "Qué miedo"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l4",
+      "kind": "grammar",
+      "title": "Was doing… when…",
+      "goal": "Contrast an action in progress (estaba + gerund) with an event that interrupts it.",
+      "tip": {
+        "title": "estaba + -ando / -iendo",
+        "body": "At A2 you met the contrast between the imperfect (background) and the indefinido (events). For an action that was in progress when something happened, Spanish often uses estaba + gerund, just like English \"was …ing\": Estaba cocinando cuando sonó el teléfono. Estaba changes for the person (estaba, estabas, estábamos, estaban); the gerund never changes. The interrupting event is in the indefinido. The simple imperfect works too, especially after mientras: Mientras cocinaba, sonó el teléfono."
+      },
+      "phrases": [
+        { "t": "Estaba cocinando cuando sonó el teléfono.", "n": "I was cooking when the phone rang." },
+        { "t": "Estábamos cenando cuando llegó mi hermano.", "n": "We were having dinner when my brother arrived." },
+        { "t": "¿Qué estabas haciendo cuando te llamé?", "n": "What were you doing when I called you?" },
+        { "t": "Mientras dormía, alguien entró en la casa.", "n": "While I was sleeping, someone came into the house.", "note": "Latin America often: entró a la casa." },
+        { "t": "Hacía sol cuando salimos, pero luego empezó a llover.", "n": "It was sunny when we went out, but then it started to rain." }
+      ],
+      "drills": [
+        {
+          "title": "Who was doing what?",
+          "base": { "t": "Estaba cocinando cuando sonó el teléfono.", "n": "I was cooking when the phone rang." },
+          "items": [
+            { "cue": "leer", "t": "Estaba leyendo cuando sonó el teléfono.", "n": "I was reading when the phone rang." },
+            { "cue": "nosotros · cenar", "t": "Estábamos cenando cuando sonó el teléfono.", "n": "We were having dinner when the phone rang." },
+            { "cue": "mi hermana · dormir", "t": "Mi hermana estaba durmiendo cuando sonó el teléfono.", "n": "My sister was sleeping when the phone rang." },
+            { "cue": "tú? · trabajar", "t": "¿Estabas trabajando cuando sonó el teléfono?", "n": "Were you working when the phone rang?" }
+          ]
+        },
+        {
+          "title": "Background and event",
+          "base": { "t": "Llovía cuando salimos de casa.", "n": "It was raining when we left the house." },
+          "items": [
+            { "cue": "hacer frío", "t": "Hacía frío cuando salimos de casa.", "n": "It was cold when we left the house." },
+            { "cue": "ser las ocho", "t": "Eran las ocho cuando salimos de casa.", "n": "It was eight o'clock when we left the house." },
+            { "cue": "haber mucho tráfico", "t": "Había mucho tráfico cuando salimos de casa.", "n": "There was a lot of traffic when we left the house." },
+            { "cue": "llegar a la estación", "t": "Llovía cuando llegamos a la estación.", "n": "It was raining when we arrived at the station." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you were cooking when the phone rang.", "t": ["Estaba cocinando cuando sonó el teléfono", "Cocinaba cuando sonó el teléfono"] },
+        { "n": "Ask a friend what they were doing when you called.", "t": ["Qué estabas haciendo cuando te llamé", "Qué hacías cuando te llamé"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l5",
+      "kind": "listening",
+      "title": "An asado in Mendoza",
+      "goal": "Follow an Argentine friend's story about a party that went wrong.",
+      "phrases": [
+        { "t": "¿Sabés lo que me pasó el sábado?", "n": "Do you know what happened to me on Saturday?", "note": "Argentine voseo: sabés = sabes." },
+        { "t": "Estábamos todos en el jardín.", "n": "We were all in the garden." },
+        { "t": "De repente se cortó la luz.", "n": "Suddenly the power went out." },
+        { "t": "Al final pedimos pizza.", "n": "In the end we ordered pizza." }
+      ],
+      "story": {
+        "title": "Pancho and the asado",
+        "intro": "Tomás, from Argentina, tells his Colombian friend Laura about his uncle's birthday asado (barbecue) in Mendoza.",
+        "voice": "es-AR-TomasNeural",
+        "lines": [
+          { "name": "Tomás", "t": "Laura, ¿sabés lo que me pasó el sábado en la casa de mi tío?", "n": "Laura, do you know what happened to me on Saturday at my uncle's house?" },
+          { "name": "Laura", "voice": "es-CO-SalomeNeural", "t": "No, cuéntame. ¿No era el asado de cumpleaños de tu tío?", "n": "No, tell me. Wasn't it your uncle's birthday asado?" },
+          { "name": "Tomás", "t": "Sí. Era una noche preciosa, hacía calor y estábamos todos en el jardín. Mi tío estaba haciendo la carne en la parrilla.", "n": "Yes. It was a beautiful night, it was warm and we were all in the garden. My uncle was cooking the meat on the grill." },
+          { "name": "Laura", "voice": "es-CO-SalomeNeural", "t": "¡Qué rico! ¿Y qué pasó?", "n": "Yum! And what happened?" },
+          { "name": "Tomás", "t": "De repente se cortó la luz y no se veía nada. Mientras buscábamos linternas, oímos un ruido al lado de la parrilla.", "n": "Suddenly the power went out and you couldn't see a thing. While we were looking for torches, we heard a noise next to the grill." },
+          { "name": "Laura", "voice": "es-CO-SalomeNeural", "t": "¡Qué susto! ¿Era un ladrón?", "n": "What a fright! Was it a thief?" },
+          { "name": "Tomás", "t": "¡No! Era Pancho, el perro de mi tío, con la mitad de la carne en la boca. Al final pedimos pizza. ¡No sabés cómo nos reímos!", "n": "No! It was Pancho, my uncle's dog, with half the meat in his mouth. In the end we ordered pizza. You have no idea how much we laughed!" },
+          { "name": "Laura", "voice": "es-CO-SalomeNeural", "t": "¡No te creo! Pobrecito tu tío… ¡pero qué buena historia!", "n": "I don't believe it! Your poor uncle… but what a great story!" }
+        ],
+        "questions": [
+          { "q": "¿Dónde estaban todos cuando se cortó la luz?", "n": "Where was everyone when the power went out?", "t": ["En el jardín", "Estaban en el jardín"] },
+          { "q": "¿Quién se llevó la carne?", "n": "Who took the meat?", "t": ["Pancho", "El perro", "El perro de su tío", "Pancho, el perro"] },
+          { "q": "¿Qué comieron al final?", "n": "What did they eat in the end?", "t": ["Pizza", "Comieron pizza", "Pidieron pizza"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u02-l6",
+      "kind": "roleplay",
+      "title": "Reporting a theft",
+      "goal": "Report a theft by describing what happened clearly and in order.",
+      "phrases": [
+        { "t": "Me robaron la mochila.", "n": "My backpack was stolen.", "note": "Spain often: Me han robado la mochila." },
+        { "t": "Iba en el metro hacia el trabajo.", "n": "I was on the metro on my way to work." },
+        { "t": "Era un hombre alto que llevaba una gorra roja.", "n": "It was a tall man wearing a red cap." },
+        { "t": "No me di cuenta hasta que bajé.", "n": "I didn't notice until I got off." }
+      ],
+      "branch": {
+        "title": "At the police office",
+        "scene": "You're in Mexico City. Someone took your backpack on the metro this morning, and you go to a police office to report it.",
+        "name": "Agente Ramírez",
+        "voice": "es-MX-LibertoNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenas tardes. Siéntese, por favor. ¿En qué le puedo ayudar?", "n": "Good afternoon. Please sit down. How can I help you?",
+            "choices": [
+              { "t": "Buenas tardes. Me robaron la mochila en el metro.", "n": "Good afternoon. My backpack was stolen on the metro.", "next": "when" },
+              { "t": "¡Quiero mi mochila ahora mismo!", "n": "I want my backpack right now!", "next": "calm" }
+            ]
+          },
+          "calm": {
+            "t": "Calma, por favor. Así no le puedo ayudar. Cuénteme qué pasó desde el principio.", "n": "Calm down, please. I can't help you like this. Tell me what happened from the beginning.",
+            "choices": [
+              { "t": "Perdone. Me robaron la mochila en el metro esta mañana.", "n": "Sorry. My backpack was stolen on the metro this morning.", "next": "when" },
+              { "t": "No tengo tiempo para explicar nada.", "n": "I don't have time to explain anything.", "next": "bad" }
+            ]
+          },
+          "when": {
+            "t": "Lo siento mucho. ¿Dónde estaba exactamente y qué estaba haciendo?", "n": "I'm very sorry. Where exactly were you and what were you doing?",
+            "choices": [
+              { "t": "Iba en el metro hacia el trabajo. Había mucha gente y estaba escuchando música.", "n": "I was on the metro on my way to work. There were lots of people and I was listening to music.", "next": "noticed" },
+              { "t": "No sé, en algún lugar del centro.", "n": "I don't know, somewhere in the centre.", "next": "vague" }
+            ]
+          },
+          "vague": {
+            "t": "Necesito más detalles. ¿Qué línea era? ¿A qué hora?", "n": "I need more details. Which line was it? At what time?",
+            "choices": [
+              { "t": "Era la línea 1, a eso de las ocho. Iba al trabajo.", "n": "It was line 1, at about eight. I was going to work.", "next": "noticed" },
+              { "t": "Ni idea. ¿No pueden revisar todas las cámaras?", "n": "No idea. Can't you check all the cameras?", "next": "bad" }
+            ]
+          },
+          "noticed": {
+            "t": "¿Y cuándo se dio cuenta? ¿Vio a la persona?", "n": "And when did you notice? Did you see the person?",
+            "choices": [
+              { "t": "No me di cuenta hasta que bajé. Pero antes vi a un hombre alto que llevaba una gorra roja.", "n": "I didn't notice until I got off. But before that I saw a tall man wearing a red cap.", "next": "good" },
+              { "t": "Bueno, había un hombre… normal, no sé.", "n": "Well, there was a man… normal, I don't know.", "next": "vague" }
+            ]
+          },
+          "good": {
+            "t": "Muy bien, con esta información puedo levantar la denuncia. Aquí tiene su copia.", "n": "Very good, with this information I can file the report. Here's your copy.",
+            "end": "good", "outcome": "You described the scene and the events in order, so the officer could file your report."
+          },
+          "bad": {
+            "t": "Entonces no puedo hacer mucho. Si recuerda algo más, vuelva otro día.", "n": "Then I can't do much. If you remember anything else, come back another day.",
+            "end": "bad", "outcome": "Without a calm, clear account, the officer couldn't help. Tell it in order: where you were, what happened and what you saw."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say your backpack was stolen on the metro.", "t": ["Me robaron la mochila en el metro", "Me han robado la mochila en el metro"] },
+        { "n": "Say you didn't notice until you got off.", "t": ["No me di cuenta hasta que bajé", "No me di cuenta hasta que me bajé"] }
+      ]
+    },
+    {
+      "id": "b1-u02-l7",
+      "kind": "speaking",
+      "title": "Tell a story",
+      "goal": "Tell a short story about something unexpected that happened to you.",
+      "culture": {
+        "title": "Vos sos, vos tenés: voseo",
+        "body": "In Argentina and Uruguay, vos replaces tú in everyday speech, with its own present-tense forms and commands: vos sos (tú eres), vos tenés (tú tienes), ¿vos qué pensás?, mirá, contame. Voseo is also widespread in Paraguay and much of Central America, and you can hear it in parts of Colombia, Chile and other areas, sometimes with different verb forms or only in certain settings. Speakers who use vos understand tú perfectly, so you can keep using tú. Recognising vos forms, though, will help you follow conversations, films and songs from the Río de la Plata.",
+        "regions": ["AR", "UY", "PY", "CO", "CL"]
+      },
+      "phrases": [
+        { "t": "Te voy a contar algo que me pasó una vez.", "n": "I'm going to tell you something that happened to me once." },
+        { "t": "Nunca me voy a olvidar de ese día.", "n": "I'll never forget that day." },
+        { "t": "Vos sos de Buenos Aires, ¿no?", "n": "You're from Buenos Aires, right?", "note": "Voseo: vos sos = tú eres." },
+        { "t": "¿Vos tenés tiempo mañana?", "n": "Do you have time tomorrow?", "note": "Voseo: vos tenés = tú tienes." }
+      ],
+      "free": [
+        {
+          "n": "Tell a story about something unexpected that happened to you (or invent one): set the scene, tell what happened in order and say how it ended.",
+          "hint": "Una vez … / Era … Hacía … Estaba + -ando … cuando … / De repente … Entonces … Mientras … / Por suerte … Al final … / Nunca me voy a olvidar …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "the scene (imperfect)", "any": ["hacía", "había", "estaba", "estábamos", "llovía", "eran las", "era un", "era una"] },
+            { "label": "a connector", "any": ["de repente", "de pronto", "entonces", "luego", "después", "en ese momento", "mientras"] },
+            { "label": "an event (indefinido)", "any": ["fui", "vi", "oí", "llamé", "llegó", "pasó", "empezó", "encontré", "perdí", "volví"] },
+            { "label": "the ending", "any": ["al final", "por suerte", "por fin", "nunca me voy a olvidar", "por desgracia"] }
+          ],
+          "model": "Una vez, hace dos años, estaba de vacaciones en Barcelona. Era un domingo por la mañana y hacía mucho sol. Estaba tomando un café en una terraza cuando, de repente, vi que no tenía mi pasaporte. Entonces volví al hotel corriendo, pero no estaba allí. Al final, un camarero me llamó: ¡el pasaporte estaba en la cafetería! Nunca me voy a olvidar de ese día."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you're going to tell them something that happened to you once.", "t": ["Te voy a contar algo que me pasó una vez", "Te voy a contar algo que me pasó"] },
+        { "n": "Ask an Argentine friend if they're from Buenos Aires (tú or vos).", "t": ["Eres de Buenos Aires", "Tú eres de Buenos Aires", "Vos sos de Buenos Aires", "Sos de Buenos Aires"] }
+      ]
+    },
+    {
+      "id": "b1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Contar historias",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

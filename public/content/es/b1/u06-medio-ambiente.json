@@ -1,0 +1,301 @@
+{
+  "id": "b1-u06",
+  "title": "El medio ambiente",
+  "subtitle": "Environment, habits & suggestions",
+  "icon": "🌱",
+  "lessons": [
+    {
+      "id": "b1-u06-l1",
+      "title": "Recycling at home",
+      "goal": "Talk about separating rubbish and ask how recycling works.",
+      "tip": {
+        "title": "Where does it go?",
+        "body": "Rubbish is la basura, and to throw something away is tirar. In most Spanish towns there are colour-coded street containers: amarillo for plastic, cans and cartons, azul for paper and cardboard, verde for glass, and often marrón for food waste, though details vary from town to town. The bin in your kitchen has different names: el cubo de la basura (Spain), el bote de basura (Mexico), la caneca (Colombia), el tacho (Argentina). To ask about the rules, use impersonal se: ¿Dónde se tira el vidrio?"
+      },
+      "phrases": [
+        { "t": "En casa separamos la basura.", "n": "At home we separate our rubbish." },
+        { "t": "El plástico va al contenedor amarillo.", "n": "Plastic goes in the yellow container.", "note": "Spain. Colours vary by country and town." },
+        { "t": "¿Dónde se tira el vidrio?", "n": "Where does glass go?" },
+        { "t": "Intento no usar bolsas de plástico.", "n": "I try not to use plastic bags." },
+        { "t": "Llevo mi propia botella de agua.", "n": "I carry my own water bottle." },
+        { "t": "Reutilizo los frascos de vidrio.", "n": "I reuse glass jars.", "note": "Spain also: los botes de cristal" },
+        { "t": "Tiramos demasiada comida.", "n": "We throw away too much food." },
+        { "t": "Hay que lavar los envases antes de reciclarlos.", "n": "You have to rinse containers before recycling them." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Your new flatmate Elena, Madrid",
+        "lines": [
+          { "who": "A", "name": "Elena", "t": "Oye, en este piso separamos la basura, ¿vale?", "n": "Hey, in this flat we separate the rubbish, OK?" },
+          { "who": "you", "t": "Claro. ¿Dónde se tira el vidrio?", "n": "Of course. Where does glass go?" },
+          { "who": "A", "name": "Elena", "t": "En el contenedor verde de la esquina. Y el plástico y las latas van al amarillo.", "n": "In the green container on the corner. And plastic and cans go in the yellow one." },
+          { "who": "you", "t": "¿Y el papel? Tengo muchas cajas de la mudanza.", "n": "And paper? I have lots of boxes from the move." },
+          { "who": "A", "name": "Elena", "t": "Al azul. Pero dobla las cajas, que si no, no caben.", "n": "In the blue one. But fold the boxes, otherwise they don't fit." },
+          { "who": "you", "t": "Perfecto. Yo también intento no usar bolsas de plástico.", "n": "Perfect. I also try not to use plastic bags." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask where glass goes.", "t": ["Dónde se tira el vidrio", "Dónde va el vidrio", "Dónde se recicla el vidrio"] },
+        { "n": "Say you try not to use plastic bags.", "t": ["Intento no usar bolsas de plástico", "Intento no usar bolsas de plástico nunca"] },
+        { "n": "Say you carry your own water bottle.", "t": ["Llevo mi propia botella de agua", "Llevo mi botella de agua"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l2",
+      "title": "Climate and extreme weather",
+      "goal": "Discuss climate problems and agree or disagree politely.",
+      "tip": {
+        "title": "Agreeing and disagreeing",
+        "body": "Key words: el cambio climático, una ola de calor (heatwave), la sequía (drought), las inundaciones (floods), la contaminación (pollution). Me preocupa works like me gusta: me preocupa el clima, me preocupan las inundaciones. To agree: estoy de acuerdo (contigo), tienes razón. To disagree politely: no estoy de acuerdo, yo lo veo de otra manera. Note estar de acuerdo, never ser de acuerdo."
+      },
+      "phrases": [
+        { "t": "Me preocupa mucho el cambio climático.", "n": "Climate change worries me a lot." },
+        { "t": "Cada verano hay más olas de calor.", "n": "Every summer there are more heatwaves." },
+        { "t": "En mi región hay sequía desde hace meses.", "n": "There's been a drought in my region for months." },
+        { "t": "Las inundaciones causaron muchos daños.", "n": "The floods caused a lot of damage." },
+        { "t": "La contaminación del aire es un problema grave en las ciudades.", "n": "Air pollution is a serious problem in cities." },
+        { "t": "Estoy de acuerdo contigo.", "n": "I agree with you." },
+        { "t": "No estoy de acuerdo, yo lo veo de otra manera.", "n": "I don't agree, I see it differently." },
+        { "t": "Todos tenemos parte de responsabilidad.", "n": "We all share some of the responsibility." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "A hot afternoon in Monterrey",
+        "lines": [
+          { "who": "A", "name": "Emilio", "t": "¡Qué calor! Dicen que mañana vamos a llegar a cuarenta grados.", "n": "It's so hot! They say tomorrow we'll reach forty degrees." },
+          { "who": "you", "t": "Cada verano hay más olas de calor. Me preocupa mucho el cambio climático.", "n": "Every summer there are more heatwaves. Climate change worries me a lot." },
+          { "who": "A", "name": "Emilio", "t": "Bueno, aquí siempre ha hecho calor. Creo que la gente exagera.", "n": "Well, it's always been hot here. I think people exaggerate." },
+          { "who": "you", "t": "No estoy de acuerdo, yo lo veo de otra manera. También hay sequía en muchas zonas.", "n": "I don't agree, I see it differently. There's also drought in many areas." },
+          { "who": "A", "name": "Emilio", "t": "En eso tienes razón. El año pasado nos quedamos sin agua varios días.", "n": "You're right about that. Last year we were left without water for several days." },
+          { "who": "you", "t": "¿Ves? Por eso creo que todos tenemos parte de responsabilidad.", "n": "See? That's why I think we all share some of the responsibility." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say climate change worries you a lot.", "t": ["Me preocupa mucho el cambio climático", "El cambio climático me preocupa mucho"] },
+        { "n": "Say you agree with your friend.", "t": ["Estoy de acuerdo contigo", "Estoy de acuerdo", "Tienes razón"] },
+        { "n": "Say air pollution is a serious problem in cities.", "t": ["La contaminación del aire es un problema grave en las ciudades", "La contaminación es un problema grave en las ciudades"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l3",
+      "title": "Green habits",
+      "goal": "Describe what you do day to day to protect the environment.",
+      "tip": {
+        "title": "suelo, intento, he dejado de",
+        "body": "Three handy verbs for habits: soler + infinitive (suelo ir en bici = I usually cycle), intentar + infinitive (intento ahorrar agua = I try to save water) and dejar de + infinitive (he dejado de comprar agua embotellada = I've stopped buying bottled water). Cada vez más / menos means more and more / less and less: cada vez como menos carne. To switch lights on and off: encender / apagar in Spain, prender / apagar in much of Latin America."
+      },
+      "phrases": [
+        { "t": "Suelo ir al trabajo en bici.", "n": "I usually cycle to work." },
+        { "t": "He dejado de comprar agua embotellada.", "n": "I've stopped buying bottled water." },
+        { "t": "Cada vez como menos carne.", "n": "I eat less and less meat." },
+        { "t": "Apago las luces cuando salgo de una habitación.", "n": "I switch off the lights when I leave a room." },
+        { "t": "Me ducho en cinco minutos para ahorrar agua.", "n": "I shower in five minutes to save water." },
+        { "t": "Compro ropa de segunda mano.", "n": "I buy second-hand clothes." },
+        { "t": "Intento comprar productos locales y de temporada.", "n": "I try to buy local, seasonal products." },
+        { "t": "Desenchufo los aparatos que no uso.", "n": "I unplug the devices I'm not using." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Daniela's electricity bill, Bogotá",
+        "lines": [
+          { "who": "A", "name": "Daniela", "t": "Oiga, ¿y usted cómo hace para pagar tan poco de luz?", "n": "Hey, how do you manage to pay so little for electricity?" },
+          { "who": "you", "t": "Apago las luces cuando salgo de una habitación y desenchufo los aparatos que no uso.", "n": "I switch off the lights when I leave a room and I unplug the devices I'm not using." },
+          { "who": "A", "name": "Daniela", "t": "¡Qué disciplina! Yo dejo todo prendido.", "n": "What discipline! I leave everything on." },
+          { "who": "you", "t": "Y me ducho en cinco minutos para ahorrar agua.", "n": "And I shower in five minutes to save water." },
+          { "who": "A", "name": "Daniela", "t": "¿Cinco minutos? Yo no soy capaz. ¿Y qué más hace?", "n": "Five minutes? I couldn't do that. And what else do you do?" },
+          { "who": "you", "t": "Compro ropa de segunda mano y cada vez como menos carne.", "n": "I buy second-hand clothes and I eat less and less meat." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you usually cycle to work.", "t": ["Suelo ir al trabajo en bici", "Suelo ir al trabajo en bicicleta", "Normalmente voy al trabajo en bici"] },
+        { "n": "Say you've stopped buying bottled water.", "t": ["He dejado de comprar agua embotellada", "Dejé de comprar agua embotellada"] },
+        { "n": "Say you buy second-hand clothes.", "t": ["Compro ropa de segunda mano"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l4",
+      "kind": "grammar",
+      "title": "Advice with the conditional, se & hay que",
+      "goal": "Make suggestions and state general rules.",
+      "tip": {
+        "title": "deberíamos, se recicla, hay que",
+        "body": "The conditional adds -ía, -ías, -ía, -íamos, -íais, -ían to the whole infinitive: deberíamos (we should), podríamos (we could), sería mejor (it would be better). Verbs with an irregular future use the same stem: tendría, podría, haría, diría, saldría. For general rules, use impersonal se with the verb in the third person: aquí se recicla el papel, but aquí se reciclan las botellas (plural noun, plural verb). Hay que + infinitive means one has to: hay que ahorrar agua."
+      },
+      "phrases": [
+        { "t": "Deberíamos usar menos el coche.", "n": "We should use the car less.", "note": "Latin America: el carro (Mexico, Colombia) or el auto (Argentina)" },
+        { "t": "Podríamos organizar una limpieza de la playa.", "n": "We could organise a beach clean-up." },
+        { "t": "Sería mejor ir andando.", "n": "It would be better to walk.", "note": "Latin America: ir caminando" },
+        { "t": "En esta oficina se recicla todo.", "n": "In this office everything is recycled." },
+        { "t": "Hay que reducir el consumo de energía.", "n": "We need to reduce energy consumption." }
+      ],
+      "drills": [
+        {
+          "title": "Make a suggestion",
+          "base": { "t": "Deberíamos ahorrar agua.", "n": "We should save water." },
+          "items": [
+            { "cue": "tú", "t": "Deberías ahorrar agua.", "n": "You should save water." },
+            { "cue": "podríamos · plantar árboles", "t": "Podríamos plantar árboles.", "n": "We could plant trees." },
+            { "cue": "sería mejor · ir en bici", "t": "Sería mejor ir en bici.", "n": "It would be better to go by bike." },
+            { "cue": "ustedes · reciclar más", "t": "Deberían reciclar más.", "n": "You (all) should recycle more." }
+          ]
+        },
+        {
+          "title": "Rules with se and hay que",
+          "base": { "t": "Aquí se recicla el papel.", "n": "Paper is recycled here." },
+          "items": [
+            { "cue": "las botellas", "t": "Aquí se reciclan las botellas.", "n": "Bottles are recycled here." },
+            { "cue": "no · fumar", "t": "Aquí no se fuma.", "n": "No smoking here." },
+            { "cue": "hay que · separar la basura", "t": "Aquí hay que separar la basura.", "n": "Here you have to separate the rubbish." },
+            { "cue": "hay que · apagar las luces", "t": "Aquí hay que apagar las luces.", "n": "Here you have to switch off the lights." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Suggest that we should use the car less.", "t": ["Deberíamos usar menos el coche", "Deberíamos usar menos el carro", "Deberíamos usar menos el auto", "Deberíamos usar el coche menos"] },
+        { "n": "Say that in this office everything is recycled.", "t": ["En esta oficina se recicla todo", "Aquí se recicla todo"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l5",
+      "kind": "listening",
+      "title": "A radio interview about Colombia",
+      "goal": "Understand a radio interview about biodiversity and what we can do.",
+      "phrases": [
+        { "t": "Es uno de los países con más biodiversidad del mundo.", "n": "It's one of the most biodiverse countries in the world." },
+        { "t": "Cada año se pierden muchos bosques.", "n": "Every year a lot of forest is lost." },
+        { "t": "Deberíamos consumir de forma responsable.", "n": "We should consume responsibly." },
+        { "t": "El turismo responsable puede ayudar.", "n": "Responsible tourism can help." }
+      ],
+      "story": {
+        "title": "Colombia, a living treasure",
+        "intro": "A radio presenter in Madrid interviews Andrés, a Colombian biologist.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Presentadora", "t": "Hoy hablamos con Andrés Pardo, biólogo colombiano. Andrés, ¿por qué es tan especial Colombia?", "n": "Today we're talking to Andrés Pardo, a Colombian biologist. Andrés, why is Colombia so special?" },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Porque es uno de los países con más biodiversidad del mundo. Tenemos selva, montañas, desiertos y costas en dos océanos.", "n": "Because it's one of the most biodiverse countries in the world. We have rainforest, mountains, deserts and coasts on two oceans." },
+          { "name": "Presentadora", "t": "¿Y cuál es el mayor peligro para toda esa naturaleza?", "n": "And what's the biggest danger to all that nature?" },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "La deforestación. Cada año se pierden muchos bosques, sobre todo en la Amazonía.", "n": "Deforestation. Every year a lot of forest is lost, especially in the Amazon." },
+          { "name": "Presentadora", "t": "¿Qué podríamos hacer nosotros desde Europa?", "n": "What could we do from Europe?" },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Deberíamos consumir de forma responsable. Por ejemplo, sería importante preguntar de dónde viene el café o la madera que compramos.", "n": "We should consume responsibly. For example, it would be important to ask where the coffee or the wood we buy comes from." },
+          { "name": "Presentadora", "t": "¿Y el turismo? ¿Ayuda o hace daño?", "n": "And tourism? Does it help or do harm?" },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Depende. El turismo responsable puede ayudar, porque da trabajo a las comunidades locales y así se protege la naturaleza.", "n": "It depends. Responsible tourism can help, because it gives work to local communities and that way nature is protected." }
+        ],
+        "questions": [
+          { "q": "¿Cuál es el mayor peligro, según Andrés?", "n": "What is the biggest danger, according to Andrés?", "t": ["La deforestación", "Es la deforestación"] },
+          { "q": "¿Dónde se pierden más bosques?", "n": "Where is most forest lost?", "t": ["En la Amazonía", "En el Amazonas", "La Amazonía"] },
+          { "q": "¿Qué deberíamos preguntar, según Andrés?", "n": "What should we ask, according to Andrés?", "t": ["De dónde viene el café", "De dónde viene el café o la madera", "De dónde viene la madera", "De dónde vienen los productos"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u06-l6",
+      "kind": "roleplay",
+      "title": "A green building in Buenos Aires",
+      "goal": "Make and defend suggestions at a residents' meeting.",
+      "phrases": [
+        { "t": "Podríamos poner contenedores en el patio.", "n": "We could put recycling bins in the courtyard." },
+        { "t": "Sería mejor empezar poco a poco.", "n": "It would be better to start little by little." },
+        { "t": "Deberíamos compartir el gasto.", "n": "We should share the cost." },
+        { "t": "¿Por qué no lo probamos un mes?", "n": "Why don't we try it for a month?" }
+      ],
+      "branch": {
+        "title": "The residents' meeting",
+        "scene": "You live in an apartment building in Buenos Aires. Graciela, who runs the residents' meeting, wants ideas to reduce the building's rubbish. She uses vos (proponés = propones, mirá = mira); plata means money in much of Latin America.",
+        "name": "Graciela",
+        "voice": "es-AR-ElenaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bueno, gracias por venir. El edificio tira muchísima basura y no separamos nada. ¿Vos qué proponés?", "n": "Right, thanks for coming. The building throws away loads of rubbish and we don't separate anything. What do you suggest?",
+            "choices": [
+              { "t": "Podríamos poner contenedores en el patio para separar el plástico, el papel y el vidrio.", "n": "We could put bins in the courtyard to separate plastic, paper and glass.", "next": "cost" },
+              { "t": "La verdad, no creo que sea mi problema.", "n": "To be honest, I don't think it's my problem.", "next": "selfish" }
+            ]
+          },
+          "selfish": {
+            "t": "Mirá, es un problema de todos. Si no hacemos nada, va a ser peor para todos.", "n": "Look, it's everyone's problem. If we don't do anything, it'll be worse for all of us.",
+            "choices": [
+              { "t": "Tiene razón, perdone. Sería mejor empezar poco a poco, separando el plástico.", "n": "You're right, sorry. It would be better to start little by little, separating the plastic.", "next": "cost" },
+              { "t": "Que lo arreglen los que tiran más basura.", "n": "Let the people who throw away the most rubbish sort it out.", "next": "bad" }
+            ]
+          },
+          "cost": {
+            "t": "Buena idea. Pero los contenedores cuestan plata. ¿Cómo los pagamos?", "n": "Good idea. But bins cost money. How do we pay for them?",
+            "choices": [
+              { "t": "Podríamos pedir ayuda a la ciudad. En muchos barrios se hace así.", "n": "We could ask the city for help. That's how it's done in lots of neighbourhoods.", "next": "compost" },
+              { "t": "Deberíamos compartir el gasto entre todos los vecinos.", "n": "We should share the cost among all the residents.", "next": "compost" }
+            ]
+          },
+          "compost": {
+            "t": "Dale. ¿Y con los restos de comida qué hacemos?", "n": "OK. And what do we do with food scraps?",
+            "choices": [
+              { "t": "Sería genial hacer compost en la terraza para las plantas.", "n": "It would be great to make compost on the roof terrace for the plants.", "next": "good" },
+              { "t": "Hay que tirarlos con todo lo demás, no hay otra opción.", "n": "We have to throw them out with everything else, there's no other option.", "next": "lazy" }
+            ]
+          },
+          "lazy": {
+            "t": "Mmm… En el edificio de al lado hacen compost en la terraza. ¿No podríamos intentarlo?", "n": "Hmm… In the building next door they make compost on the roof terrace. Couldn't we try it?",
+            "choices": [
+              { "t": "Sí, claro. ¿Por qué no lo probamos un mes y vemos qué tal?", "n": "Yes, of course. Why don't we try it for a month and see how it goes?", "next": "good" },
+              { "t": "No, eso es demasiado trabajo. Que lo haga otro.", "n": "No, that's too much work. Let someone else do it.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "¡Bárbaro! Lo votamos el jueves. ¡Gracias por las ideas!", "n": "Brilliant! We'll vote on it on Thursday. Thanks for the ideas!",
+            "end": "good", "outcome": "Your practical suggestions with podríamos, deberíamos and sería won over the meeting."
+          },
+          "bad": {
+            "t": "Así no vamos a ningún lado. Lo dejamos para otra reunión.", "n": "We're getting nowhere like this. Let's leave it for another meeting.",
+            "end": "bad", "outcome": "Passing the problem on to others stalled the meeting. Offer suggestions with podríamos or sería mejor."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Suggest putting recycling bins in the courtyard.", "t": ["Podríamos poner contenedores en el patio", "Podríamos poner contenedores de reciclaje en el patio", "Deberíamos poner contenedores en el patio"] },
+        { "n": "Say it would be better to start little by little.", "t": ["Sería mejor empezar poco a poco"] }
+      ]
+    },
+    {
+      "id": "b1-u06-l7",
+      "kind": "speaking",
+      "title": "A greener city",
+      "goal": "Give your opinion and suggestions about the environment where you live, for 90 seconds.",
+      "culture": {
+        "title": "Megadiverse Mexico and Colombia",
+        "body": "Mexico and Colombia both belong to the small group of so-called megadiverse countries, which together are home to a large share of the planet's plant and animal species. Colombia is famous for its enormous variety of birds and orchids, and Mexico for its reptiles and its many kinds of cacti. Every autumn, millions of monarch butterflies fly from Canada and the United States to spend the winter in the mountain forests of central Mexico. Protecting these ecosystems is a major topic in both countries' news.",
+        "regions": ["MX", "CO"]
+      },
+      "phrases": [
+        { "t": "En mi ciudad deberían plantar más árboles.", "n": "In my city they should plant more trees." },
+        { "t": "Sería genial tener más carriles bici.", "n": "It would be great to have more bike lanes.", "note": "Latin America often: ciclovías" },
+        { "t": "Hay que mejorar el transporte público.", "n": "Public transport needs to be improved." },
+        { "t": "Lo más importante sería cambiar nuestros hábitos.", "n": "The most important thing would be to change our habits." }
+      ],
+      "free": [
+        {
+          "n": "Give your opinion on the environment where you live: one problem, what you already do about it, and at least two suggestions for your city or neighbourhood.",
+          "hint": "El mayor problema es … Yo ya … / Suelo … / He dejado de … Deberíamos … Podríamos … Sería mejor … Hay que …",
+          "seconds": 90,
+          "minWords": 35,
+          "targets": [
+            { "label": "a problem", "any": ["contaminación", "basura", "tráfico", "sequía", "calor", "plástico", "cambio climático", "ruido", "inundaciones"] },
+            { "label": "your own habits", "any": ["reciclo", "separo", "suelo", "intento", "bici", "ahorro", "apago", "he dejado"] },
+            { "label": "advice with the conditional", "any": ["deberíamos", "podríamos", "sería", "deberían", "debería", "podrían"] },
+            { "label": "a rule or need", "any": ["hay que", "se recicla", "se debería", "se puede", "se necesita", "se necesitan"] }
+          ],
+          "model": "En mi ciudad, el mayor problema es la contaminación del aire, porque hay demasiado tráfico. Yo ya hago algunas cosas: suelo ir al trabajo en bici, separo la basura y he dejado de comprar agua embotellada. Pero no es suficiente. Creo que deberíamos mejorar el transporte público y podríamos crear más zonas verdes en el centro. También sería mejor cerrar algunas calles a los coches los domingos. Hay que cambiar nuestros hábitos, y cuanto antes, mejor."
+        }
+      ],
+      "prompts": [
+        { "n": "Say public transport needs to be improved.", "t": ["Hay que mejorar el transporte público", "Se debería mejorar el transporte público", "Deberíamos mejorar el transporte público"] },
+        { "n": "Say it would be great to have more bike lanes.", "t": ["Sería genial tener más carriles bici", "Sería genial tener más ciclovías", "Sería genial tener más carriles para bicis"] }
+      ]
+    },
+    {
+      "id": "b1-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: El medio ambiente",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": "b1-u03",
+  "title": "Emociones",
+  "subtitle": "Feelings, comfort & congratulations",
+  "icon": "💛",
+  "lessons": [
+    {
+      "id": "b1-u03-l1",
+      "title": "How are you feeling?",
+      "goal": "Say how you feel and why.",
+      "tip": {
+        "title": "estar + feeling",
+        "body": "Feelings usually go with estar because they're states: Estoy contento (a man) / Estoy contenta (a woman). Many feeling words change like this: preocupado/a, nervioso/a, harto/a, enfadado/a (Spain) or enojado/a (Latin America). For forms that are the same for everyone, use estoy de buen humor / de mal humor, tengo miedo, me siento fatal / genial, or estoy triste and estoy feliz, which don't change. Add the reason with porque or por: Estoy nerviosa por el examen."
+      },
+      "phrases": [
+        { "t": "Estoy muy contento.", "n": "I'm very happy.", "note": "A woman says contenta." },
+        { "t": "Estoy un poco preocupada por el examen.", "n": "I'm a bit worried about the exam.", "note": "A man says preocupado." },
+        { "t": "Hoy estoy de buen humor.", "n": "I'm in a good mood today." },
+        { "t": "Me siento fatal.", "n": "I feel awful." },
+        { "t": "Tengo miedo de hablar en público.", "n": "I'm scared of speaking in public." },
+        { "t": "Estoy harto de esperar.", "n": "I'm fed up with waiting.", "note": "A woman says harta." },
+        { "t": "Estoy enfadado con mi hermano.", "n": "I'm angry with my brother.", "note": "A woman says enfadada. Latin America: enojado / enojada." },
+        { "t": "¿Qué te pasa? Te veo triste.", "n": "What's wrong? You look sad." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Before the interview",
+        "lines": [
+          { "who": "A", "name": "Fernanda", "t": "¿Qué te pasa? No te veo nada bien hoy.", "n": "What's wrong? You don't look well at all today." },
+          { "who": "you", "t": "Me siento fatal. Mañana tengo una entrevista de trabajo y tengo mucho miedo.", "n": "I feel awful. Tomorrow I have a job interview and I'm really scared." },
+          { "who": "A", "name": "Fernanda", "t": "¡Ay, pero eso es una buena noticia! ¿Por qué tienes miedo?", "n": "Oh, but that's good news! Why are you scared?" },
+          { "who": "you", "t": "Porque tengo miedo de hablar en público. Y hoy estoy de mal humor porque no dormí bien.", "n": "Because I'm scared of speaking in public. And today I'm in a bad mood because I didn't sleep well." },
+          { "who": "A", "name": "Fernanda", "t": "Mira, ¿por qué no practicamos un poco? Yo hago de jefa.", "n": "Look, why don't we practise a bit? I'll play the boss." },
+          { "who": "you", "t": "¡Gracias! Ya me siento un poco mejor.", "n": "Thanks! I already feel a bit better." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're in a good mood today.", "t": ["Hoy estoy de buen humor", "Estoy de buen humor"] },
+        { "n": "Say you're scared of speaking in public.", "t": ["Tengo miedo de hablar en público", "Me da miedo hablar en público"] },
+        { "n": "Your friend looks sad. Ask what's wrong.", "t": ["Qué te pasa", "Qué te pasa, te veo triste", "Te veo triste, qué te pasa"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l2",
+      "title": "Good news!",
+      "goal": "React to good news and congratulate someone.",
+      "tip": {
+        "title": "¡Felicidades! or ¡Enhorabuena!",
+        "body": "¡Felicidades! works everywhere: for birthdays, weddings and achievements. In Spain, ¡Enhorabuena! is especially common for achievements such as a new job, a baby or a passed exam. In much of Latin America you'll also hear ¡Felicitaciones! Share the joy with ¡Me alegro mucho por ti! or ¡Qué buena noticia!, and add ¡Te lo mereces! (you deserve it). For \"how cool!\" people say ¡Qué guay! in Spain, ¡Qué padre! in Mexico and ¡Qué chévere! in Colombia."
+      },
+      "phrases": [
+        { "t": "¡Felicidades!", "n": "Congratulations!" },
+        { "t": "¡Enhorabuena por el nuevo trabajo!", "n": "Congratulations on the new job!", "note": "Especially common in Spain." },
+        { "t": "¡Qué buena noticia!", "n": "What good news!" },
+        { "t": "¡Me alegro mucho por ti!", "n": "I'm really happy for you!", "note": "Formal: Me alegro mucho por usted." },
+        { "t": "¡Te lo mereces!", "n": "You deserve it!" },
+        { "t": "¡Qué emoción!", "n": "How exciting!" },
+        { "t": "¡Esto hay que celebrarlo!", "n": "We have to celebrate this!" },
+        { "t": "¡Qué chévere!", "n": "How cool!", "note": "Colombia and Venezuela. Mexico: ¡Qué padre! Spain: ¡Qué guay!" }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "The scholarship",
+        "lines": [
+          { "who": "A", "name": "Valentina", "t": "¡Tengo que contarte algo! Me dieron la beca para estudiar en Barcelona.", "n": "I have to tell you something! I got the scholarship to study in Barcelona." },
+          { "who": "you", "t": "¡No puede ser! ¡Qué buena noticia! ¡Felicidades!", "n": "No way! What good news! Congratulations!" },
+          { "who": "A", "name": "Valentina", "t": "Gracias. Todavía no me lo creo. Me voy en septiembre.", "n": "Thanks. I still can't believe it. I'm leaving in September." },
+          { "who": "you", "t": "¡Te lo mereces! Estudiaste muchísimo.", "n": "You deserve it! You studied so hard." },
+          { "who": "A", "name": "Valentina", "t": "Sí, pero también me da un poco de miedo irme tan lejos.", "n": "Yes, but I'm also a bit scared of going so far away." },
+          { "who": "you", "t": "Es normal. ¡Me alegro mucho por ti! Esto hay que celebrarlo. ¿Te invito a un café?", "n": "That's normal. I'm really happy for you! We have to celebrate this. Can I buy you a coffee?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Your friend got a new job. Congratulate them.", "t": ["Felicidades", "Muchas felicidades", "Enhorabuena", "Enhorabuena por el nuevo trabajo", "Felicidades por el nuevo trabajo", "Felicitaciones"] },
+        { "n": "Say you're really happy for them.", "t": ["Me alegro mucho por ti", "Me alegro mucho", "Me alegro por ti"] },
+        { "n": "Tell them they deserve it.", "t": ["Te lo mereces", "Te lo merecías", "Te lo has ganado"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l3",
+      "title": "Comfort and encouragement",
+      "goal": "Comfort someone who's had bad news and encourage them.",
+      "tip": {
+        "title": "Showing empathy",
+        "body": "When someone shares bad news, start by acknowledging it: Lo siento mucho, ¡Vaya! or ¡Qué lástima! (what a shame). Then show you understand: Te entiendo, Es normal sentirse así. Encourage them with ¡Ánimo! (chin up), No te preocupes or Todo va a salir bien, and offer help: Si necesitas algo, aquí estoy. Avoid No es para tanto (it's not a big deal): it can sound as if you don't care."
+      },
+      "phrases": [
+        { "t": "Lo siento mucho.", "n": "I'm so sorry." },
+        { "t": "¡Qué lástima!", "n": "What a shame!", "note": "¡Qué pena! also means this in most places." },
+        { "t": "Te entiendo perfectamente.", "n": "I completely understand." },
+        { "t": "¡Ánimo! Todo va a salir bien.", "n": "Chin up! Everything will be fine." },
+        { "t": "No te preocupes, ya encontrarás otro.", "n": "Don't worry, you'll find another one." },
+        { "t": "Si necesitas algo, aquí estoy.", "n": "If you need anything, I'm here." },
+        { "t": "¿Quieres hablar de ello?", "n": "Do you want to talk about it?" },
+        { "t": "Es normal sentirse así.", "n": "It's normal to feel like that." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Bad news",
+        "lines": [
+          { "who": "A", "name": "Sergio", "t": "Pues nada… al final no me dieron el trabajo.", "n": "Well… in the end I didn't get the job." },
+          { "who": "you", "t": "¡Vaya! Lo siento mucho. ¿Quieres hablar de ello?", "n": "Oh no! I'm so sorry. Do you want to talk about it?" },
+          { "who": "A", "name": "Sergio", "t": "Es que estaba seguro de que era para mí. Me siento fatal.", "n": "It's just that I was sure it was mine. I feel awful." },
+          { "who": "you", "t": "Te entiendo perfectamente. Es normal sentirse así.", "n": "I completely understand. It's normal to feel like that." },
+          { "who": "A", "name": "Sergio", "t": "No sé… a lo mejor no soy lo suficientemente bueno.", "n": "I don't know… maybe I'm not good enough." },
+          { "who": "you", "t": "¡Claro que lo eres! ¡Ánimo! Ya encontrarás otro trabajo. Y si necesitas algo, aquí estoy.", "n": "Of course you are! Chin up! You'll find another job. And if you need anything, I'm here." }
+        ]
+      },
+      "prompts": [
+        { "n": "A friend tells you some bad news. Say you're so sorry.", "t": ["Lo siento mucho", "Lo siento"] },
+        { "n": "Encourage them: chin up, everything will be fine.", "t": ["Ánimo, todo va a salir bien", "Todo va a salir bien", "Ánimo"] },
+        { "n": "Tell them that if they need anything, you're here.", "t": ["Si necesitas algo, aquí estoy", "Aquí estoy para lo que necesites"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l4",
+      "kind": "grammar",
+      "title": "Feelings + que + subjunctive",
+      "goal": "Use the subjunctive after expressions of feeling and wishing, and after ojalá.",
+      "tip": {
+        "title": "Me alegra que… / Espero que… / Ojalá…",
+        "body": "When you react to what someone else does, or hope for something, Spanish uses que + subjunctive: Me alegra que estés aquí (I'm glad you're here), Me molesta que haya tanto ruido, Espero que tengas suerte. If it's about yourself (same subject), use the infinitive instead: Espero verte pronto (I hope to see you) but Espero que vengas (I hope you come). Ojalá (I really hope / if only) is always followed by the subjunctive: ¡Ojalá haga sol mañana! You already know sea, esté, tenga, haya, pueda and vaya. For tú, add -s: estés, tengas, puedas, vayas."
+      },
+      "phrases": [
+        { "t": "Me alegra que estés aquí.", "n": "I'm glad you're here." },
+        { "t": "Me molesta que haya tanto ruido.", "n": "It bothers me that there's so much noise." },
+        { "t": "Espero que tengas mucha suerte.", "n": "I hope you have lots of luck." },
+        { "t": "¡Ojalá haga buen tiempo mañana!", "n": "I really hope the weather's nice tomorrow!" },
+        { "t": "Me da pena que te vayas.", "n": "I'm sad that you're leaving." }
+      ],
+      "drills": [
+        {
+          "title": "Change the feeling",
+          "base": { "t": "Me alegra que vengas a la fiesta.", "n": "I'm glad you're coming to the party." },
+          "items": [
+            { "cue": "espero", "t": "Espero que vengas a la fiesta.", "n": "I hope you come to the party." },
+            { "cue": "ojalá", "t": "Ojalá vengas a la fiesta.", "n": "I really hope you come to the party." },
+            { "cue": "me molesta · no", "t": "Me molesta que no vengas a la fiesta.", "n": "It bothers me that you're not coming to the party." },
+            { "cue": "me da pena · no", "t": "Me da pena que no vengas a la fiesta.", "n": "I'm sad that you're not coming to the party." }
+          ]
+        },
+        {
+          "title": "Who?",
+          "base": { "t": "Espero que tengas suerte.", "n": "I hope you're lucky." },
+          "items": [
+            { "cue": "usted", "t": "Espero que tenga suerte.", "n": "I hope you're lucky. (formal)" },
+            { "cue": "ustedes", "t": "Espero que tengan suerte.", "n": "I hope you're all lucky." },
+            { "cue": "nosotros", "t": "Espero que tengamos suerte.", "n": "I hope we're lucky." },
+            { "cue": "todo · salir bien", "t": "Espero que todo salga bien.", "n": "I hope everything goes well." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Tell a friend you're glad they're here.", "t": ["Me alegra que estés aquí", "Me alegro de que estés aquí", "Qué bien que estés aquí"] },
+        { "n": "Say you really hope the weather is nice tomorrow (use ojalá).", "t": ["Ojalá haga buen tiempo mañana", "Ojalá mañana haga buen tiempo", "Ojalá haga sol mañana"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l5",
+      "kind": "listening",
+      "title": "Mixed feelings",
+      "goal": "Follow two friends in Bogotá sharing happy and sad news.",
+      "phrases": [
+        { "t": "¿Nos tomamos un tintico?", "n": "Shall we have a little coffee?", "note": "In Colombia, un tinto is a small black coffee; tintico is the affectionate diminutive." },
+        { "t": "Me alegra mucho que te vaya tan bien.", "n": "I'm really glad things are going so well for you." },
+        { "t": "Me da pena que te vayas tan lejos.", "n": "I'm sad that you're going so far away." },
+        { "t": "Ojalá vengas a visitarme.", "n": "I really hope you come and visit me." }
+      ],
+      "story": {
+        "title": "Big news in Bogotá",
+        "intro": "Camila meets her friend Andrés in a café in Bogotá to tell him some big news.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Camila", "t": "¡Andrés! Qué alegría verte. ¿Nos tomamos un tintico?", "n": "Andrés! So good to see you. Shall we have a little coffee?" },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Claro. Te veo muy contenta. ¿Qué pasó?", "n": "Sure. You look really happy. What happened?" },
+          { "name": "Camila", "t": "¡Me aceptaron en una maestría en Madrid! Empiezo en septiembre.", "n": "I've been accepted onto a master's in Madrid! I start in September." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "¡No puede ser! ¡Felicitaciones! Me alegra mucho que te vaya tan bien.", "n": "No way! Congratulations! I'm really glad things are going so well for you." },
+          { "name": "Camila", "t": "Gracias. Pero también estoy un poco nerviosa. Nunca he vivido sola.", "n": "Thanks. But I'm also a bit nervous. I've never lived on my own." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Es normal. Y la verdad, me da pena que te vayas tan lejos.", "n": "That's normal. And to be honest, I'm sad that you're going so far away." },
+          { "name": "Camila", "t": "A mí también. Ojalá vengas a visitarme en diciembre.", "n": "Me too. I really hope you come and visit me in December." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "¡Hecho! Y espero que me lleves a comer churros con chocolate.", "n": "Deal! And I hope you'll take me for churros with hot chocolate." }
+        ],
+        "questions": [
+          { "q": "¿Adónde se va Camila?", "n": "Where is Camila going?", "t": ["A Madrid", "Se va a Madrid", "A España"] },
+          { "q": "¿Cuándo empieza la maestría?", "n": "When does the master's start?", "t": ["En septiembre", "Empieza en septiembre"] },
+          { "q": "¿Cuándo quiere Camila que Andrés la visite?", "n": "When does Camila want Andrés to visit her?", "t": ["En diciembre"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u03-l6",
+      "kind": "roleplay",
+      "title": "A friend in a bad mood",
+      "goal": "Comfort an Argentine friend who's had a terrible day.",
+      "phrases": [
+        { "t": "¿Qué te pasa? ¿Estás bien?", "n": "What's wrong? Are you OK?" },
+        { "t": "¡Qué injusto! Lo siento mucho.", "n": "How unfair! I'm so sorry." },
+        { "t": "Ojalá encuentres algo mejor pronto.", "n": "I hope you find something better soon." },
+        { "t": "Gracias, sos un sol.", "n": "Thanks, you're a sweetheart.", "note": "Argentine voseo: sos = eres. Elsewhere: eres un sol." }
+      ],
+      "branch": {
+        "title": "Lucía's bad day",
+        "scene": "You meet your friend Lucía from Buenos Aires for a coffee. She arrives late and looks upset.",
+        "name": "Lucía",
+        "voice": "es-AR-ElenaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Perdón por llegar tarde. Ay, qué día horrible…", "n": "Sorry I'm late. Oh, what a horrible day…",
+            "choices": [
+              { "t": "¿Qué te pasa? ¿Estás bien?", "n": "What's wrong? Are you OK?", "next": "tell" },
+              { "t": "Bueno, no pasa nada. ¿Pedimos?", "n": "Well, never mind. Shall we order?", "next": "ignore" }
+            ]
+          },
+          "ignore": {
+            "t": "Ah… sí, dale, pidamos.", "n": "Oh… yeah, OK, let's order.",
+            "choices": [
+              { "t": "Espera, te noto rara. ¿Qué te pasa?", "n": "Wait, you seem a bit off. What's wrong?", "next": "tell" },
+              { "t": "Yo quiero un café con leche. ¿Y tú?", "n": "I'd like a white coffee. And you?", "next": "bad" }
+            ]
+          },
+          "tell": {
+            "t": "¿Vos podés creer que me echaron del trabajo? Así, sin explicación.", "n": "Can you believe they fired me? Just like that, without any explanation.",
+            "choices": [
+              { "t": "¡Qué injusto! Lo siento mucho. ¿Quieres hablar de ello?", "n": "How unfair! I'm so sorry. Do you want to talk about it?", "next": "talk" },
+              { "t": "Bueno, no es para tanto. Hay muchos trabajos.", "n": "Well, it's not a big deal. There are lots of jobs.", "next": "hurt" }
+            ]
+          },
+          "hurt": {
+            "t": "¿Que no es para tanto? Para mí sí es para tanto…", "n": "Not a big deal? For me it IS a big deal…",
+            "choices": [
+              { "t": "Perdona, tienes razón. Es muy duro. Te entiendo.", "n": "Sorry, you're right. It's really hard. I understand.", "next": "talk" },
+              { "t": "Tampoco es para llorar, ¿no?", "n": "It's not something to cry about either, is it?", "next": "bad" }
+            ]
+          },
+          "talk": {
+            "t": "Es que me encantaba ese trabajo. Y ahora no sé qué voy a hacer.", "n": "It's just that I loved that job. And now I don't know what I'm going to do.",
+            "choices": [
+              { "t": "Es normal sentirse así. Ojalá encuentres algo mejor pronto. Si necesitas algo, aquí estoy.", "n": "It's normal to feel like that. I hope you find something better soon. If you need anything, I'm here.", "next": "good" },
+              { "t": "¡Ánimo! Mañana te ayudo a buscar ofertas, si quieres.", "n": "Chin up! Tomorrow I'll help you look for job offers, if you like.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Gracias, sos un sol. Ya me siento un poco mejor. ¿Pedimos unas medialunas?", "n": "Thanks, you're a sweetheart. I already feel a bit better. Shall we order some croissants?",
+            "end": "good", "outcome": "You noticed Lucía was upset, showed empathy and offered help. She feels better."
+          },
+          "bad": {
+            "t": "Mirá, mejor me voy a casa. No tengo ganas de hablar.", "n": "Look, I'd better go home. I don't feel like talking.",
+            "end": "bad", "outcome": "Lucía felt you didn't care. Ask ¿Qué te pasa? and show empathy with Lo siento mucho or Te entiendo."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Your friend was fired without explanation. Say how unfair it is and that you're so sorry.", "t": ["Qué injusto, lo siento mucho", "Lo siento mucho, qué injusto", "Qué injusto"] },
+        { "n": "Tell them you hope they find something better soon.", "t": ["Ojalá encuentres algo mejor pronto", "Espero que encuentres algo mejor pronto", "Ojalá encuentres algo mejor"] }
+      ]
+    },
+    {
+      "id": "b1-u03-l7",
+      "kind": "speaking",
+      "title": "Joys, worries and hopes",
+      "goal": "Talk for a minute about what makes you happy, what bothers you and what you hope for.",
+      "culture": {
+        "title": "Cafecito, momentito: diminutives",
+        "body": "Spanish speakers often add -ito / -ita to words to sound warm and friendly, not only to say that something is small: un cafecito, un momentito, mi abuelita. Diminutives are used all over the Spanish-speaking world, but they are especially frequent in everyday speech in Mexico and Colombia. In Colombia you'll also hear -ico after a t, as in tintico or un momentico. In Mexico, ahorita (from ahora) is famous because, depending on the context and tone, it can mean \"right now\" or \"in a little while\". Diminutives make you sound friendly, but in formal situations it's best to use them sparingly.",
+        "regions": ["MX", "CO"]
+      },
+      "phrases": [
+        { "t": "Me hace muy feliz pasar tiempo con mi familia.", "n": "Spending time with my family makes me very happy." },
+        { "t": "Me preocupa no tener tiempo para todo.", "n": "I'm worried about not having time for everything." },
+        { "t": "Me molesta que la gente llegue tarde.", "n": "It annoys me when people arrive late." },
+        { "t": "Espero que el año que viene sea mejor.", "n": "I hope next year is better." }
+      ],
+      "free": [
+        {
+          "n": "Talk about your feelings: what makes you happy, what worries or annoys you, and what you hope for the future. Give reasons.",
+          "hint": "Me hace feliz … / Me alegra que … / Me molesta que … / Me preocupa … / Espero que … / Ojalá … porque …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            { "label": "something that makes you happy", "any": ["me hace feliz", "me alegra", "me encanta", "feliz", "contento", "contenta", "me gusta"] },
+            { "label": "something that worries or annoys you", "any": ["me molesta", "me preocupa", "me da pena", "me pone nervioso", "me pone nerviosa", "me da miedo", "odio"] },
+            { "label": "a hope or wish", "any": ["espero que", "ojalá", "quiero que", "me gustaría"] },
+            { "label": "a reason", "any": ["porque", "ya que", "por eso"] }
+          ],
+          "model": "Me hace muy feliz pasar tiempo con mi familia y mis amigos, sobre todo los domingos, porque comemos juntos y hablamos mucho. También me alegra que mi hermana viva cerca de mí. Lo que me molesta es que la gente llegue tarde, y me preocupa no tener tiempo para todo. Espero que el año que viene sea más tranquilo. ¡Ojalá pueda viajar a Colombia!"
+        }
+      ],
+      "prompts": [
+        { "n": "Say spending time with your family makes you very happy.", "t": ["Me hace muy feliz pasar tiempo con mi familia", "Pasar tiempo con mi familia me hace muy feliz"] },
+        { "n": "Say you hope next year is better.", "t": ["Espero que el año que viene sea mejor", "Ojalá el año que viene sea mejor", "Espero que el próximo año sea mejor"] }
+      ]
+    },
+    {
+      "id": "b1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Emociones",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
