@@ -1,0 +1,301 @@
+{
+  "id": "c2-u01",
+  "title": "Matices",
+  "subtitle": "Nuance, register & precise word choice",
+  "icon": "🔍",
+  "lessons": [
+    {
+      "id": "c2-u01-l1",
+      "title": "The right word, not just a word",
+      "goal": "Distinguish near-synonyms out loud and correct imprecise wording diplomatically.",
+      "tip": {
+        "title": "Connotation is everything",
+        "body": "Near-synonyms carry a judgement: tacaño is an insult, ahorrador a compliment; desconfianza is hostile, escepticismo merely cautious. Al parecer means 'apparently, judging by what we know', while supuestamente adds a hint of doubt ('allegedly'). Matizar (to qualify, to add nuance) is a key C2 verb: Permíteme matizarlo. When you correct a word, stress the contrast: no es TACAÑA, es AHORRADORA. And note the subjunctive in No es que esté mal…: denying a reason or a description always takes the subjunctive."
+      },
+      "phrases": [
+        { "t": "No es que esté mal, pero no termina de convencerme.", "n": "It's not that it's wrong, but it doesn't quite convince me.", "note": "No es que + subjunctive: a diplomatic way to correct someone." },
+        { "t": "Yo hablaría más bien de escepticismo que de desconfianza.", "n": "I'd speak of scepticism rather than distrust." },
+        { "t": "No es tacaña, es ahorradora.", "n": "She isn't stingy, she's thrifty.", "note": "Same behaviour, opposite judgement. About a man: tacaño, ahorrador." },
+        { "t": "El problema solo está resuelto en apariencia.", "n": "The problem only seems to be solved." },
+        { "t": "Al parecer, nadie leyó el correo.", "n": "Apparently nobody read the email.", "note": "Spain often uses the perfect: nadie ha leído el correo." },
+        { "t": "Decir que está molesto es quedarse corto.", "n": "Saying he's annoyed is putting it mildly.", "note": "Quedarse corto = to understate, to fall short." },
+        { "t": "Permíteme que lo matice.", "n": "Let me qualify that.", "note": "Formal: Permítame que lo matice." },
+        { "t": "Más que de control, se trata de confianza.", "n": "It's less about control than about trust." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Editing the report",
+        "lines": [
+          { "who": "A", "name": "Marta", "t": "En el informe pone que los clientes desconfían de nosotros. ¿Lo dejamos así?", "n": "The report says the customers distrust us. Shall we leave it like that?" },
+          { "who": "you", "t": "Yo hablaría más bien de escepticismo que de desconfianza.", "n": "I'd speak of scepticism rather than distrust." },
+          { "who": "A", "name": "Marta", "t": "¿No es hilar demasiado fino? Al final viene a ser lo mismo.", "n": "Isn't that splitting hairs? In the end it comes down to the same thing." },
+          { "who": "you", "t": "No es que esté mal, pero no termina de convencerme. El escepticismo deja la puerta abierta.", "n": "It's not that it's wrong, but it doesn't quite convince me. Scepticism leaves the door open." },
+          { "who": "A", "name": "Marta", "t": "Vale, lo cambio. Y aquí dice que el problema de las entregas ya está resuelto. Por cierto, ¿cómo se lo ha tomado la dirección?", "n": "OK, I'll change it. And here it says the delivery problem has been solved. By the way, how has management taken it?" },
+          { "who": "you", "t": "El problema solo está resuelto en apariencia. Y decir que la dirección está molesta es quedarse corto.", "n": "The problem only seems to be solved. And saying management is annoyed is putting it mildly." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say she isn't stingy, she's thrifty.", "t": ["No es tacaña, es ahorradora", "No es tacaña, sino ahorradora"] },
+        { "n": "Say the problem only seems to be solved.", "t": ["El problema solo está resuelto en apariencia", "El problema solo parece resuelto", "El problema está resuelto solo en apariencia"] },
+        { "n": "Politely say it's not that it's wrong, but it doesn't quite convince you.", "t": ["No es que esté mal, pero no termina de convencerme", "No es que esté mal, pero no me termina de convencer", "No es que esté mal, pero no me convence del todo"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l2",
+      "title": "Same message, three registers",
+      "goal": "Shift the same message between formal, neutral and colloquial Spanish.",
+      "tip": {
+        "title": "Choose your register",
+        "body": "Spanish marks register through more than tú and usted. Formal Spanish uses longer, impersonal structures and set phrases: Le ruego que disculpe las molestias, Lamentamos comunicarle que…, Quedo a su disposición. Colloquial Spanish is short, direct and personal: Perdona el lío, Cualquier cosa, me dices. Requests climb in politeness from ¿Me echas una mano? to ¿Podría ayudarme? to ¿Sería tan amable de…? Notice that ruego que and sería tan amable de are followed by the subjunctive and the infinitive respectively. Mixing registers in one sentence sounds odd, so pick one level and stay there."
+      },
+      "phrases": [
+        { "t": "Le ruego que disculpe las molestias.", "n": "Please accept my apologies for the inconvenience.", "note": "Formal: rogar que + subjunctive." },
+        { "t": "Perdona el lío.", "n": "Sorry about the mess.", "note": "Colloquial. Latin America also: Perdón por el relajo (Mexico), el despelote (Argentina)." },
+        { "t": "Lamentamos comunicarle que su solicitud ha sido desestimada.", "n": "We regret to inform you that your application has been rejected.", "note": "Bureaucratic register." },
+        { "t": "Siento decírtelo, pero no te lo han dado.", "n": "Sorry to tell you, but you didn't get it.", "note": "Latin America usually: no te lo dieron." },
+        { "t": "¿Sería tan amable de indicarme la salida?", "n": "Would you be so kind as to show me the way out?" },
+        { "t": "¿Me echas una mano con esto?", "n": "Can you give me a hand with this?" },
+        { "t": "Quedo a su disposición para cualquier aclaración.", "n": "I remain at your disposal for any clarification.", "note": "Classic closing line in formal emails." },
+        { "t": "Cualquier cosa, me dices.", "n": "If you need anything, just let me know.", "note": "Also: Cualquier cosa, me avisas." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Too stiff for a colleague",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "Oye, ¿me ayudas con este correo? Es para un compañero nuevo y creo que me quedó demasiado formal.", "n": "Hey, can you help me with this email? It's for a new colleague and I think it came out too formal." },
+          { "who": "you", "t": "A ver… «Le ruego que disculpe las molestias». Para un compañero, mejor algo como «Perdona el lío».", "n": "Let's see… 'Please accept my apologies for the inconvenience'. For a colleague, something like 'Sorry about the mess' is better." },
+          { "who": "A", "name": "Carmen", "t": "Tienes razón. ¿Y el final? Puse «Quedo a su disposición para cualquier aclaración».", "n": "You're right. And the ending? I wrote 'I remain at your disposal for any clarification'." },
+          { "who": "you", "t": "Eso suena a carta del banco. Pon simplemente «Cualquier cosa, me dices».", "n": "That sounds like a letter from the bank. Just put 'If you need anything, just let me know'." },
+          { "who": "A", "name": "Carmen", "t": "Jaja, órale. ¿Y si le pido que revise el presupuesto?", "n": "Haha, OK. And if I ask him to check the budget?" },
+          { "who": "you", "t": "Nada de «¿Sería tan amable de…?». Basta con «¿Me echas una mano con el presupuesto?».", "n": "None of that 'Would you be so kind as to…?'. 'Can you give me a hand with the budget?' is enough." }
+        ]
+      },
+      "prompts": [
+        { "n": "Formally apologise for the inconvenience.", "t": ["Le ruego que disculpe las molestias", "Disculpe las molestias", "Perdone las molestias"] },
+        { "n": "Casually ask a colleague to give you a hand with this.", "t": ["Me echas una mano con esto", "Me ayudas con esto", "Me das una mano con esto"] },
+        { "n": "End a casual message: if they need anything, they should let you know.", "t": ["Cualquier cosa, me dices", "Cualquier cosa, me avisas", "Cualquier cosa me dices"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l3",
+      "title": "Shades of certainty",
+      "goal": "Hedge, doubt and rule things out with precisely graded expressions.",
+      "tip": {
+        "title": "Grade your certainty",
+        "body": "C2 speakers rarely say a bare sí or no. Todo apunta a que… is cautious agreement (indicative, because you lean towards believing it). Dudo mucho que… and No me consta que… express doubt and take the subjunctive and indicative respectively: dudar always triggers the subjunctive. No cabe duda de que… is near-certainty, and De eso, ni hablar shuts a claim down completely. Stress the key word: NI hablar, DUdo mucho."
+      },
+      "phrases": [
+        { "t": "Todo apunta a que tiene razón.", "n": "Everything suggests she's right." },
+        { "t": "Dudo mucho que eso sea suficiente.", "n": "I very much doubt that's enough.", "note": "Dudar que + subjunctive." },
+        { "t": "De eso, ni hablar.", "n": "That's out of the question." },
+        { "t": "No me consta que lo hayan aprobado.", "n": "I have no evidence that they approved it.", "note": "Formal and precise: no me consta = I can't confirm it." },
+        { "t": "No cabe duda de que es un riesgo.", "n": "There's no doubt that it's a risk." },
+        { "t": "La cosa no es tan sencilla.", "n": "It's not quite that simple." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Assessing a client in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Daniela", "t": "El cliente se nos va, eso es seguro. Ya lo decidieron.", "n": "The client is leaving us, that's for sure. They've already decided." },
+          { "who": "you", "t": "No me consta que lo hayan decidido. Todo apunta a que se quedan, al menos este año.", "n": "I have no evidence that they've decided. Everything suggests they're staying, at least this year." },
+          { "who": "A", "name": "Daniela", "t": "¿Y la subida de precios? Seguro que les molestó muchísimo.", "n": "And the price increase? It surely annoyed them a lot." },
+          { "who": "you", "t": "Dudo mucho que eso pese tanto. La cosa no es tan sencilla: lo que de verdad les preocupa son los plazos.", "n": "I very much doubt that carries so much weight. It's not that simple: what really worries them is the deadlines." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you very much doubt that's enough.", "t": ["Dudo mucho que eso sea suficiente", "Dudo mucho que sea suficiente", "Dudo que eso sea suficiente", "Dudo mucho que eso baste"] },
+        { "n": "Flatly reject a suggestion: it's out of the question.", "t": ["De eso, ni hablar", "Ni hablar", "De eso ni hablar"] },
+        { "n": "Say it's not quite that simple.", "t": ["La cosa no es tan sencilla", "No es tan sencillo", "La cosa no es tan simple", "No es tan simple"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l4",
+      "kind": "grammar",
+      "title": "Guesses, rumours and doubts",
+      "goal": "Use the future, conditional, deber de and the subjunctive to show how sure you are and whose claim it is.",
+      "tip": {
+        "title": "Tenses that judge",
+        "body": "Spanish tenses can express certainty instead of time. The future guesses about the present: Estará en casa = she's probably at home. The conditional guesses about the past: Serían las once = it must have been about eleven; Lo sabría = he probably knew. Deber de + infinitive marks a strong supposition: Debió de saberlo = he must have known (many speakers drop the de, which grammars treat as the obligation meaning, so keep it when you're guessing). In news reports, the conditional marks an unconfirmed claim: el ministro habría dimitido = the minister has reportedly resigned. Style guides criticise this use, but you'll hear it constantly. Finally, doubt and denial pull the verb into the subjunctive: No creo que haya dimitido, Es posible que haya dimitido."
+      },
+      "phrases": [
+        { "t": "Debió de saberlo desde el principio.", "n": "He must have known from the start.", "note": "Deber de = supposition." },
+        { "t": "A estas horas ya estará en casa.", "n": "She's probably home by now.", "note": "Future of probability." },
+        { "t": "Serían las once cuando llegó.", "n": "It must have been around eleven when he arrived.", "note": "Conditional = guess about the past." },
+        { "t": "Según fuentes del partido, el ministro habría dimitido.", "n": "According to party sources, the minister has reportedly resigned.", "note": "Journalistic conditional: unconfirmed." },
+        { "t": "No puede haberlo sabido.", "n": "He can't have known." }
+      ],
+      "drills": [
+        {
+          "title": "Grade the certainty",
+          "base": { "t": "Lo supo.", "n": "He knew." },
+          "items": [
+            { "cue": "deber de", "t": "Debió de saberlo.", "n": "He must have known." },
+            { "cue": "probable · condicional", "t": "Lo sabría.", "n": "He probably knew." },
+            { "cue": "imposible · no poder", "t": "No pudo saberlo.", "n": "He can't have known." },
+            { "cue": "seguro · sin duda", "t": "Sin duda lo supo.", "n": "He undoubtedly knew." }
+          ]
+        },
+        {
+          "title": "Whose claim is it?",
+          "base": { "t": "El ministro ha dimitido.", "n": "The minister has resigned." },
+          "items": [
+            { "cue": "según fuentes · condicional", "t": "Según algunas fuentes, el ministro habría dimitido.", "n": "According to some sources, the minister has reportedly resigned." },
+            { "cue": "probable · futuro", "t": "El ministro habrá dimitido.", "n": "The minister has probably resigned." },
+            { "cue": "no creo", "t": "No creo que el ministro haya dimitido.", "n": "I don't think the minister has resigned." },
+            { "cue": "es posible", "t": "Es posible que el ministro haya dimitido.", "n": "It's possible the minister has resigned." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Guess: she's probably home by now.", "t": ["A estas horas ya estará en casa", "Ya estará en casa", "Estará en casa"] },
+        { "n": "Say you're almost sure he must have known from the start.", "t": ["Debió de saberlo desde el principio", "Debió saberlo desde el principio", "Debe de haberlo sabido desde el principio", "Tuvo que saberlo desde el principio"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l5",
+      "kind": "listening",
+      "title": "Reading between the lines",
+      "goal": "Follow two colleagues in Madrid decoding the euphemisms in a company statement.",
+      "phrases": [
+        { "t": "Leído así, suena de maravilla.", "n": "Read like that, it sounds wonderful." },
+        { "t": "Hay que leer entre líneas.", "n": "You have to read between the lines." },
+        { "t": "Un ajuste de plantilla, o sea, despidos.", "n": "A workforce adjustment, in other words, redundancies.", "note": "Plantilla = staff, workforce (Spain). Latin America often: personal." },
+        { "t": "Es un eufemismo como una casa.", "n": "It's a whopping great euphemism.", "note": "Como una casa = huge (colloquial Spain)." }
+      ],
+      "story": {
+        "title": "El comunicado",
+        "intro": "Pilar and Andrés, who work in the same company in Madrid, read the official statement about the company's future.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Pilar", "t": "¿Has leído el comunicado de la dirección? Leído así, suena de maravilla: «una nueva etapa llena de oportunidades».", "n": "Have you read management's statement? Read like that, it sounds wonderful: 'a new stage full of opportunities'." },
+          { "name": "Andrés", "voice": "es-ES-DarioNeural", "t": "Ya, pero hay que leer entre líneas. Fíjate en el segundo párrafo: «procederemos a un ajuste de plantilla».", "n": "Sure, but you have to read between the lines. Look at the second paragraph: 'we will proceed with a workforce adjustment'." },
+          { "name": "Pilar", "t": "Un ajuste de plantilla, o sea, despidos. Es un eufemismo como una casa. ¿Y lo del «crecimiento negativo» del último trimestre?", "n": "A workforce adjustment, in other words, redundancies. It's a whopping great euphemism. And the bit about 'negative growth' in the last quarter?" },
+          { "name": "Andrés", "voice": "es-ES-DarioNeural", "t": "Pues que hemos perdido dinero, ni más ni menos. Nadie se atreve a decirlo con todas las letras.", "n": "Well, that we've lost money, no more, no less. Nobody dares to spell it out." },
+          { "name": "Pilar", "t": "Y aquí dicen que van a «optimizar los recursos» del departamento de atención al cliente. Me temo lo peor.", "n": "And here they say they're going to 'optimise the resources' of the customer service department. I fear the worst." },
+          { "name": "Andrés", "voice": "es-ES-DarioNeural", "t": "Yo no me alarmaría todavía. Al parecer, lo van a fusionar con ventas, no a cerrar. Al menos eso me han contado en el comité.", "n": "I wouldn't panic yet. Apparently they're going to merge it with sales, not close it. At least that's what I've been told on the works council." },
+          { "name": "Pilar", "t": "Ojalá tengas razón. De todas formas, el viernes hay asamblea y pienso preguntar sin rodeos qué significa cada palabra.", "n": "I hope you're right. In any case, there's a staff meeting on Friday and I'm going to ask straight out what every word means." },
+          { "name": "Andrés", "voice": "es-ES-DarioNeural", "t": "Me parece muy bien. Y ya puestos, pregunta cuántos puestos entran en ese famoso «ajuste».", "n": "Good idea. And while you're at it, ask how many jobs are included in this famous 'adjustment'." }
+        ],
+        "questions": [
+          { "q": "¿Qué significa «ajuste de plantilla», según Pilar?", "n": "What does 'ajuste de plantilla' mean, according to Pilar?", "t": ["Despidos", "Significa despidos", "Que va a haber despidos"] },
+          { "q": "¿Qué va a pasar con atención al cliente, al parecer?", "n": "What is apparently going to happen to customer service?", "t": ["Lo van a fusionar con ventas", "Se fusiona con ventas", "Fusionarlo con ventas", "Lo fusionan con ventas"] },
+          { "q": "¿Cuándo es la asamblea?", "n": "When is the staff meeting?", "t": ["El viernes", "Es el viernes"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u01-l6",
+      "kind": "roleplay",
+      "title": "Weighing every word",
+      "goal": "Correct a journalist's loaded wording without sounding defensive.",
+      "phrases": [
+        { "t": "Eso lo dice usted, no yo.", "n": "That's what you're saying, not me." },
+        { "t": "No quisiera dejar eso así.", "n": "I wouldn't want to let that stand." },
+        { "t": "Yo no hablaría de escándalo.", "n": "I wouldn't call it a scandal." },
+        { "t": "¿Qué quiere decir exactamente con eso?", "n": "What exactly do you mean by that?" }
+      ],
+      "branch": {
+        "title": "The press interview",
+        "scene": "You are the spokesperson for a phone company in Mexico City. A journalist interviews you live on the radio about wrong bills sent to thousands of customers.",
+        "name": "Periodista Laura Méndez",
+        "voice": "es-MX-DaliaNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Su empresa está en medio de un escándalo. ¿Cómo lo explica?", "n": "Your company is in the middle of a scandal. How do you explain it?",
+            "choices": [
+              { "t": "Yo no hablaría de escándalo. Hubo un error de facturación y lo estamos corrigiendo.", "n": "I wouldn't call it a scandal. There was a billing error and we're correcting it.", "next": "q2" },
+              { "t": "¿Qué quiere decir exactamente con eso?", "n": "What exactly do you mean by that?", "next": "clarify" }
+            ]
+          },
+          "clarify": {
+            "t": "Pues que miles de clientes recibieron recibos inflados. Algunos ya hablan de fraude.", "n": "Well, thousands of customers received inflated bills. Some are already talking about fraud.",
+            "choices": [
+              { "t": "No quisiera dejar eso así. Fue un fallo técnico, no un fraude, y lo podemos demostrar.", "n": "I wouldn't want to let that stand. It was a technical fault, not fraud, and we can prove it.", "next": "q2" },
+              { "t": "Sin comentarios.", "n": "No comment.", "next": "cold" }
+            ]
+          },
+          "q2": {
+            "t": "Entonces reconoce que engañaron a sus clientes.", "n": "So you admit that you deceived your customers.",
+            "choices": [
+              { "t": "Eso lo dice usted, no yo. No engañamos a nadie, pero sí informamos demasiado tarde.", "n": "That's what you're saying, not me. We didn't deceive anyone, but we did inform people too late.", "next": "q3" },
+              { "t": "¡Eso es una tontería! Usted no tiene ni idea de cómo funciona una empresa.", "n": "That's nonsense! You have no idea how a company works.", "next": "quote" }
+            ]
+          },
+          "q3": {
+            "t": "Una admisión interesante. ¿Y qué van a hacer por los afectados?", "n": "An interesting admission. And what are you going to do for those affected?",
+            "choices": [
+              { "t": "Todos los afectados recibirán un reembolso íntegro, sin necesidad de reclamarlo.", "n": "Everyone affected will receive a full refund, without having to claim it.", "next": "good" },
+              { "t": "Eso se decidirá en los próximos días, según cómo evolucione la situación.", "n": "That will be decided in the coming days, depending on how the situation develops.", "next": "vague" }
+            ]
+          },
+          "vague": {
+            "t": "Con todo respeto, eso suena bastante evasivo. ¿Me puede dar algo concreto?", "n": "With all due respect, that sounds rather evasive. Can you give me something concrete?",
+            "choices": [
+              { "t": "Tiene razón. En concreto: todos los afectados recibirán un reembolso íntegro antes de fin de mes.", "n": "You're right. Specifically: everyone affected will receive a full refund before the end of the month.", "next": "good" },
+              { "t": "Por ahora no puedo adelantar nada más.", "n": "I can't say anything more for now.", "next": "cold" }
+            ]
+          },
+          "good": {
+            "t": "Es una declaración clara. Muchas gracias por atendernos.", "n": "That's a clear statement. Thank you very much for talking to us.",
+            "end": "good", "outcome": "You calmly corrected the loaded wording and gave a concrete commitment."
+          },
+          "cold": {
+            "t": "Pues nuestros oyentes sacarán sus propias conclusiones.", "n": "Well, our listeners will draw their own conclusions.",
+            "end": "bad", "outcome": "Stonewalling made you look guilty. Correct the wording instead and offer something concrete."
+          },
+          "quote": {
+            "t": "Gracias, eso lo citaré textualmente.", "n": "Thank you, I'll quote that word for word.",
+            "end": "bad", "outcome": "You lost your temper on air, and the headline writes itself."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the journalist that's what they're saying, not you.", "t": ["Eso lo dice usted, no yo", "Eso lo dice usted"] },
+        { "n": "Say you wouldn't call it a scandal.", "t": ["Yo no hablaría de escándalo", "No hablaría de escándalo", "Yo no lo llamaría escándalo", "No lo llamaría escándalo"] }
+      ]
+    },
+    {
+      "id": "c2-u01-l7",
+      "kind": "speaking",
+      "title": "Splitting hairs, on purpose",
+      "goal": "Explain fine differences in meaning and register freely for 90 seconds.",
+      "culture": {
+        "title": "Tú, usted and everything in between",
+        "body": "How formal to be depends a lot on where you are. In Spain, tú is used widely, even with strangers in shops and with many colleagues and bosses, and usted is kept for older people or very formal settings. In Mexico, usted is more common with strangers, older people and in service situations, and politeness formulas such as ¿mande? or con permiso are part of everyday courtesy. In parts of Colombia and in Costa Rica, people may use usted even with friends and family, so it can sound warm rather than distant. When in doubt, start with usted and         let the other person offer tú.",
+                "regions": ["ES", "MX", "CO", "CR"]
+      },
+      "phrases": [
+        { "t": "La diferencia puede parecer mínima, pero es fundamental.", "n": "The difference may seem tiny, but it's fundamental." },
+        { "t": "En sentido estricto, no es un error sino un descuido.", "n": "Strictly speaking, it's not a mistake but an oversight." },
+        { "t": "Una palabra más acertada sería prudencia.", "n": "A more fitting word would be caution." },
+        { "t": "Con esto no quiero decir que todo estuviera mal.", "n": "By this I don't mean that everything was bad.", "note": "No quiero decir que + subjunctive." }
+      ],
+      "free": [
+        {
+          "n": "Explain the difference between two near-synonyms (for example tacaño/ahorrador or escepticismo/desconfianza), or between a formal and a colloquial way of saying the same thing, and say when you would use each.",
+          "hint": "Use: La diferencia puede parecer mínima, pero…; … suena más bien…, mientras que…; En sentido estricto…; Por ejemplo, si…; Una palabra más acertada sería…",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "a contrast", "any": ["mientras que", "en cambio", "sino", "por el contrario", "a diferencia de"] },
+            { "label": "connotation or register", "any": ["suena", "positivo", "positiva", "negativo", "negativa", "despectivo", "neutro", "formal", "coloquial", "connotación"] },
+            { "label": "an example", "any": ["por ejemplo", "pongamos", "si alguien", "si yo", "imagina"] },
+            { "label": "precise wording", "any": ["en sentido estricto", "más bien", "en realidad", "acertada", "acertado", "matiz", "matizar", "exactamente"] }
+          ],
+          "model": "La diferencia entre tacaño y ahorrador puede parecer mínima, pero es fundamental. Las dos palabras describen a alguien que gasta poco, mientras que tacaño suena claramente despectivo. Por ejemplo, si quiero elogiar a mi abuela, digo que es ahorradora; en cambio, de un jefe que nunca invita a nada diría más bien que es tacaño. En sentido estricto, describen lo mismo, pero el juicio es opuesto."
+        }
+      ],
+      "prompts": [
+        { "n": "Say the difference may seem tiny but it's fundamental.", "t": ["La diferencia puede parecer mínima, pero es fundamental", "La diferencia parece mínima, pero es fundamental"] },
+        { "n": "Clarify that by this you don't mean everything was bad.", "t": ["Con esto no quiero decir que todo estuviera mal", "No quiero decir que todo estuviera mal", "Con esto no quiero decir que todo estuviese mal"] }
+      ]
+    },
+    {
+      "id": "c2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Matices",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

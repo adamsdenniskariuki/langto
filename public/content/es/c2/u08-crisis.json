@@ -1,0 +1,325 @@
+{
+  "id": "c2-u08",
+  "title": "Bajo presión",
+  "subtitle": "Crisis: urgent calls, press statements & leading under pressure",
+  "icon": "🚨",
+  "lessons": [
+    {
+      "id": "c2-u08-l1",
+      "title": "The urgent call",
+      "goal": "Take an urgent call in a crisis: get the key facts fast, give clear instructions and set the next contact.",
+      "tip": {
+        "title": "Facts first, then instructions",
+        "body": "In the first minutes, ask short questions in a fixed order: people (¿Hay heridos?), extent (¿Qué está afectado?), status (¿Está controlado?). Repeat back what you hear with O sea, que… to avoid misunderstandings, give one instruction at a time and fix the next contact: Te llamo en diez minutos (in Mexico you'll also hear te marco). Que + subjunctive passes an order on to others: Que nadie vuelva a entrar. Speak more slowly than you feel like speaking; your calm is contagious."
+      },
+      "phrases": [
+        { "t": "Cuéntame exactamente qué ha pasado.", "n": "Tell me exactly what has happened.", "note": "Latin America: qué pasó." },
+        { "t": "¿Hay heridos?", "n": "Is anyone hurt?" },
+        { "t": "Lo primero es la seguridad de las personas.", "n": "People's safety comes first." },
+        { "t": "Que nadie vuelva a entrar en el edificio.", "n": "Nobody is to go back into the building.", "note": "Latin America often: entrar al edificio." },
+        { "t": "O sea, que el incendio ya está controlado.", "n": "So the fire is already under control." },
+        { "t": "Llama ya a emergencias.", "n": "Call the emergency services right now." },
+        { "t": "Te llamo en diez minutos con instrucciones.", "n": "I'll call you back in ten minutes with instructions.", "note": "Mexico also: te marco." },
+        { "t": "No hagas declaraciones a nadie todavía.", "n": "Don't make any statements to anyone yet." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "A night call from Monterrey",
+        "lines": [
+          { "who": "A", "name": "Raúl", "t": "Perdón que te marque a esta hora, pero hay un incendio en la bodega de Monterrey.", "n": "Sorry to call you at this hour, but there's a fire at the Monterrey warehouse." },
+          { "who": "you", "t": "Tranquilo, Raúl. Cuéntame exactamente qué pasó. ¿Hay heridos?", "n": "Easy, Raúl. Tell me exactly what happened. Is anyone hurt?" },
+          { "who": "A", "name": "Raúl", "t": "No, gracias a Dios. Evacuamos a todo el turno de noche, pero el humo está muy denso y algunos quieren volver por sus cosas.", "n": "No, thank God. We evacuated the whole night shift, but the smoke is very thick and some people want to go back for their things." },
+          { "who": "you", "t": "Lo primero es la seguridad de las personas. Que nadie vuelva a entrar al edificio.", "n": "People's safety comes first. Nobody is to go back into the building." },
+          { "who": "A", "name": "Raúl", "t": "Los bomberos dicen que en una hora lo tienen controlado. Ah, y acaba de llegar un periodista.", "n": "The firefighters say they'll have it under control within an hour. Oh, and a journalist has just arrived." },
+          { "who": "you", "t": "No hagas declaraciones a nadie todavía. Te llamo en diez minutos con instrucciones.", "n": "Don't make any statements to anyone yet. I'll call you back in ten minutes with instructions." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask whether anyone is hurt.", "t": ["Hay heridos", "Hay algún herido"] },
+        { "n": "Order that nobody go back into the building.", "t": ["Que nadie vuelva a entrar en el edificio", "Que nadie vuelva a entrar al edificio", "Que nadie entre en el edificio", "Que nadie entre al edificio"] },
+        { "n": "Promise to call back in ten minutes with instructions.", "t": ["Te llamo en diez minutos con instrucciones", "Te marco en diez minutos con instrucciones", "Te llamo en diez minutos", "Le llamo en diez minutos con instrucciones"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l2",
+      "title": "The press statement",
+      "goal": "Speak for your organisation in a crisis: express regret, take responsibility, give verified facts and commit to action.",
+      "tip": {
+        "title": "Empathy, facts, action, next update",
+        "body": "Start with empathy (Lamentamos profundamente lo ocurrido), then verified facts (Según la información de la que disponemos…), then concrete action and the time of the next update. Never say sin comentarios: it sounds like you're hiding something. Datos contrastados means verified information, a key word in Spanish media. Use a calm, low voice and drop fillers like o sea or bueno, which sound evasive in a statement. Spain often says les mantendremos informados; Latin America los mantendremos informados."
+      },
+      "phrases": [
+        { "t": "Lamentamos profundamente lo ocurrido.", "n": "We deeply regret what has happened." },
+        { "t": "Asumimos toda la responsabilidad.", "n": "We take full responsibility." },
+        { "t": "Según la información de la que disponemos, hay unos doce mil clientes afectados.", "n": "According to the information we have, around twelve thousand customers are affected." },
+        { "t": "Estamos trabajando sin descanso para esclarecer los hechos.", "n": "We're working round the clock to establish the facts." },
+        { "t": "Visto en retrospectiva, fue un error, y lo reconocemos.", "n": "In hindsight it was a mistake, and we acknowledge it." },
+        { "t": "Los clientes afectados recibirán una compensación.", "n": "Affected customers will receive compensation." },
+        { "t": "En nombre de la empresa, pido disculpas a todas las personas afectadas.", "n": "On behalf of the company, I apologise to everyone affected." },
+        { "t": "En cuanto tengamos datos contrastados, se los comunicaremos de inmediato.", "n": "As soon as we have verified information, we'll pass it on to you immediately." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "The data leak",
+        "lines": [
+          { "who": "A", "name": "Periodista", "t": "Se han filtrado los datos de miles de clientes de su compañía eléctrica. ¿Qué tiene que decir al respecto?", "n": "The data of thousands of your electricity company's customers has been leaked. What do you have to say about it?" },
+          { "who": "you", "t": "Lamentamos profundamente lo ocurrido y asumimos toda la responsabilidad.", "n": "We deeply regret what has happened and we take full responsibility." },
+          { "who": "A", "name": "Periodista", "t": "¿Cuántos clientes están afectados exactamente?", "n": "Exactly how many customers are affected?" },
+          { "who": "you", "t": "Según la información de la que disponemos, unos doce mil. Estamos trabajando sin descanso para esclarecer los hechos.", "n": "According to the information we have, around twelve thousand. We're working round the clock to establish the facts." },
+          { "who": "A", "name": "Periodista", "t": "¿Y por qué han tardado tres días en informar a los afectados?", "n": "And why did it take you three days to inform those affected?" },
+          { "who": "you", "t": "Queríamos evitar dar datos sin contrastar. Visto en retrospectiva, fue un error, y lo reconocemos.", "n": "We wanted to avoid giving out unverified information. In hindsight it was a mistake, and we acknowledge it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Express deep regret for what has happened.", "t": ["Lamentamos profundamente lo ocurrido", "Lamentamos profundamente lo sucedido", "Lamentamos profundamente lo que ha pasado"] },
+        { "n": "Say your organisation takes full responsibility.", "t": ["Asumimos toda la responsabilidad", "Asumimos plena responsabilidad"] },
+        { "n": "Promise to pass on verified information as soon as you have it.", "t": ["En cuanto tengamos datos contrastados, se los comunicaremos de inmediato", "En cuanto tengamos datos contrastados, se lo comunicaremos de inmediato", "En cuanto tengamos datos contrastados, se los comunicaremos"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l3",
+      "title": "Calming people down",
+      "goal": "Calm frightened or upset people: acknowledge the feeling, stop rumours and give one clear next step.",
+      "tip": {
+        "title": "Lower, slower, concrete",
+        "body": "Acknowledge the emotion before the facts: Entiendo perfectamente tu preocupación works for anyone, whereas estás preocupado / preocupada depends on who you're talking to. Avoid ¡Cálmate!, which usually has the opposite effect. Lower your voice, slow down and offer one concrete next step. In Argentina and Uruguay you'll hear voseo imperatives with the stress on the verb's last syllable: escuchame, quedate tranquila (tú: escúchame, quédate tranquila). Vamos por partes (let's take it one step at a time) is understood everywhere."
+      },
+      "phrases": [
+        { "t": "Entiendo perfectamente tu preocupación.", "n": "I completely understand your concern." },
+        { "t": "Vamos por partes.", "n": "Let's take it one step at a time." },
+        { "t": "Ahora mismo nadie corre peligro.", "n": "Right now nobody is in danger." },
+        { "t": "Los rumores no ayudan a nadie.", "n": "Rumours don't help anyone." },
+        { "t": "Escuchame un segundo.", "n": "Listen to me for a second.", "note": "Voseo (Argentina, Uruguay), stressed on CHA. Tú: escúchame." },
+        { "t": "Quedate tranquila, que esto lo resolvemos entre todos.", "n": "Don't worry, we'll sort this out together.", "note": "Voseo, said to a woman; to a man: quedate tranquilo. Tú: quédate tranquila." },
+        { "t": "Te prometo que te voy a mantener al tanto.", "n": "I promise I'll keep you posted." },
+        { "t": "Lo único que te pido es que no hables con la prensa.", "n": "All I ask is that you don't talk to the press." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Rumours at the Buenos Aires office",
+        "lines": [
+          { "who": "A", "name": "Lorena", "t": "¿Vos viste lo que circula en las redes? ¡Dicen que nos cierran la oficina y que nos echan a todos!", "n": "Have you seen what's going round on social media? They're saying they're closing our office and firing all of us!" },
+          { "who": "you", "t": "Entiendo perfectamente tu preocupación. Vamos por partes: nadie va a cerrar la oficina.", "n": "I completely understand your concern. Let's take it one step at a time: nobody is going to close the office." },
+          { "who": "A", "name": "Lorena", "t": "Pero me llamó un periodista de un diario y no sé qué decirle. Estoy re nerviosa.", "n": "But a journalist from a newspaper called me and I don't know what to tell him. I'm really nervous." },
+          { "who": "you", "t": "Escuchame un segundo. Los rumores no ayudan a nadie. Lo único que te pido es que no hables con la prensa.", "n": "Listen to me for a second. Rumours don't help anyone. All I ask is that you don't talk to the press." },
+          { "who": "A", "name": "Lorena", "t": "¿Y si me vuelve a llamar? ¿Qué le digo?", "n": "And if he calls me again? What do I tell him?" },
+          { "who": "you", "t": "Le pasás el número del área de comunicación y listo. Te prometo que te voy a mantener al tanto.", "n": "You give him the communications team's number and that's it. I promise I'll keep you posted." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you completely understand their concern.", "t": ["Entiendo perfectamente tu preocupación", "Entiendo perfectamente su preocupación", "Entiendo tu preocupación"] },
+        { "n": "Suggest taking it one step at a time.", "t": ["Vamos por partes", "Vayamos por partes"] },
+        { "n": "Say rumours don't help anyone.", "t": ["Los rumores no ayudan a nadie"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l4",
+      "kind": "grammar",
+      "title": "Hedging: podría, habría, todo apunta a que",
+      "goal": "Separate facts from assumptions and hearsay with the future and conditional of probability, todo apunta a que and no se descarta que.",
+      "tip": {
+        "title": "Say exactly how sure you are",
+        "body": "Crisis speakers mark certainty precisely. The future expresses a guess about the present: Serán unas doscientas personas (there are probably about two hundred). Podría + infinitive = could. Todo apunta a que + indicative = everything points to; no se descarta que + subjunctive = it can't be ruled out that. In news reports the conditional also marks unconfirmed claims: El atacante habría accedido a los sistemas (reportedly accessed). Spanish style guides advise using this 'conditional of rumour' sparingly, so in your own statement según las primeras informaciones is often the safer choice."
+      },
+      "phrases": [
+        { "t": "Todo apunta a que la causa fue un fallo informático.", "n": "Everything points to the cause being an IT failure.", "note": "Latin America also: una falla informática." },
+        { "t": "El atacante habría accedido a los sistemas internos.", "n": "The attacker reportedly accessed the internal systems.", "note": "Conditional of rumour: reports an unconfirmed claim." },
+        { "t": "Serán unas doscientas personas.", "n": "There are probably about two hundred people.", "note": "Future of probability." },
+        { "t": "No se descarta que haya más afectados.", "n": "It can't be ruled out that more people are affected." },
+        { "t": "Según las primeras informaciones, no se han filtrado contraseñas.", "n": "According to initial reports, no passwords have been leaked." }
+      ],
+      "drills": [
+        {
+          "title": "Swap certainty for a hedge",
+          "base": { "t": "La causa es un fallo informático.", "n": "The cause is an IT failure." },
+          "items": [
+            { "cue": "podría", "t": "La causa podría ser un fallo informático.", "n": "The cause could be an IT failure." },
+            { "cue": "todo apunta a que", "t": "Todo apunta a que la causa es un fallo informático.", "n": "Everything points to the cause being an IT failure." },
+            { "cue": "no se descarta que", "t": "No se descarta que la causa sea un fallo informático.", "n": "It can't be ruled out that the cause is an IT failure." },
+            { "cue": "future of probability", "t": "La causa será un fallo informático.", "n": "The cause is probably an IT failure." }
+          ]
+        },
+        {
+          "title": "Swap the reported claim",
+          "base": { "t": "El atacante habría accedido a los sistemas.", "n": "The attacker reportedly accessed the systems." },
+          "items": [
+            { "cue": "vender datos", "t": "El atacante habría vendido datos.", "n": "The attacker reportedly sold data." },
+            { "cue": "un empleado · avisar del problema", "t": "Un empleado habría avisado del problema.", "n": "An employee reportedly warned about the problem." },
+            { "cue": "la brecha · conocerse desde hacía meses", "t": "La brecha se conocería desde hacía meses.", "n": "The breach had reportedly been known about for months." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say it can't be ruled out that more people are affected.", "t": ["No se descarta que haya más afectados", "No se puede descartar que haya más afectados"] },
+        { "n": "Say everything points to the cause being an IT failure.", "t": ["Todo apunta a que la causa fue un fallo informático", "Todo apunta a que la causa es un fallo informático", "Todo apunta a que la causa fue una falla informática", "Todo apunta a un fallo informático"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l5",
+      "kind": "listening",
+      "title": "A product recall on the radio",
+      "goal": "Follow a Mexican radio interview about a food recall at natural speed.",
+      "phrases": [
+        { "t": "Estamos retirando el producto del mercado por precaución.", "n": "We are withdrawing the product from the market as a precaution.", "note": "Mexico: el retiro del mercado; Spain: la retirada del mercado." },
+        { "t": "No se descarta que haya un riesgo.", "n": "A risk can't be ruled out." },
+        { "t": "Revise el número de lote en la tapa.", "n": "Check the batch number on the lid." },
+        { "t": "Le devolvemos su dinero aunque no tenga el ticket.", "n": "We'll refund your money even if you don't have the receipt.", "note": "Ticket is common for a till receipt in Mexico and Spain; also el recibo or el comprobante." }
+      ],
+      "story": {
+        "title": "Glass in the jars",
+        "intro": "A Mexican radio reporter interviews the head of a food company about a recall of pickled chillies.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Reportera", "t": "Ingeniero Garza, desde esta mañana su empresa está retirando del mercado varios lotes de chiles en escabeche. ¿Qué fue lo que pasó?", "n": "Mr Garza, since this morning your company has been withdrawing several batches of pickled chillies from the market. What happened?" },
+          { "name": "Ingeniero Garza", "voice": "es-MX-LibertoNeural", "t": "En un control de calidad de rutina encontramos fragmentos de vidrio en frascos de un mismo lote, y decidimos actuar de inmediato.", "n": "In a routine quality check we found glass fragments in jars from a single batch, and we decided to act immediately." },
+          { "name": "Reportera", "t": "¿Está en riesgo la salud de los consumidores?", "n": "Is consumers' health at risk?" },
+          { "name": "Ingeniero Garza", "voice": "es-MX-LibertoNeural", "t": "No se descarta que haya un riesgo. Por eso le pedimos a todo el mundo que no consuma el producto y que revise el número de lote en la tapa.", "n": "A risk can't be ruled out. That's why we're asking everyone not to eat the product and to check the batch number on the lid." },
+          { "name": "Reportera", "t": "¿Ya están en contacto con las autoridades sanitarias?", "n": "Are you already in contact with the health authorities?" },
+          { "name": "Ingeniero Garza", "voice": "es-MX-LibertoNeural", "t": "Sí, trabajamos en coordinación con la Cofepris desde el primer momento. Todo apunta a que el problema está en una máquina envasadora nueva.", "n": "Yes, we've been working with Cofepris, the federal health regulator, from the very start. Everything points to the problem being a new packing machine." },
+          { "name": "Reportera", "t": "¿Y qué pasa con quienes ya compraron el producto?", "n": "And what about people who have already bought the product?" },
+          { "name": "Ingeniero Garza", "voice": "es-MX-LibertoNeural", "t": "Les devolvemos su dinero en cualquier tienda, aunque no tengan el ticket de compra.", "n": "We'll refund their money in any shop, even if they don't have the receipt." }
+        ],
+        "questions": [
+          { "q": "¿Qué producto están retirando?", "n": "Which product are they withdrawing?", "t": ["Chiles en escabeche", "Los chiles en escabeche", "Chiles"] },
+          { "q": "¿Qué encontraron en los frascos?", "n": "What did they find in the jars?", "t": ["Fragmentos de vidrio", "Vidrio", "Pedazos de vidrio"] },
+          { "q": "¿Hace falta el ticket para recuperar el dinero?", "n": "Do you need the receipt to get your money back?", "t": ["No", "No hace falta", "No, aunque no tengan el ticket"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u08-l6",
+      "kind": "roleplay",
+      "title": "Leading the crisis team",
+      "goal": "Lead a crisis call under pressure: stop the panic, refuse to over-promise, assign tasks and set the next check-in.",
+      "phrases": [
+        { "t": "Vamos por partes: ¿está todo el personal a salvo?", "n": "One thing at a time: are all the staff safe?" },
+        { "t": "No vamos a prometer lo que no sabemos.", "n": "We're not going to promise what we don't know." },
+        { "t": "Diremos que estamos evaluando los daños.", "n": "We'll say we're assessing the damage." },
+        { "t": "Nos reunimos a las seis para hacer balance.", "n": "We'll meet at six to take stock." }
+      ],
+      "branch": {
+        "title": "Floodwater in Medellín",
+        "scene": "You lead the crisis team of a logistics company in Medellín. Floods have cut off the main warehouse, and the operations director, Felipe, is close to panic. Like many Colombians, he uses usted even with close colleagues.",
+        "name": "Felipe Restrepo",
+        "voice": "es-CO-GonzaloNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "¡Esto es un desastre! El agua ya llegó a la bodega, los camiones no pueden salir y los clientes llaman sin parar. ¿Qué hacemos?",
+            "n": "This is a disaster! The water has reached the warehouse, the trucks can't get out and customers are calling non-stop. What do we do?",
+            "choices": [
+              { "t": "Felipe, vamos por partes. Lo primero: ¿está todo el personal a salvo?", "n": "Felipe, one thing at a time. First: are all the staff safe?", "next": "q2" },
+              { "t": "¡No lo sé! ¡Esto no puede estar pasando!", "n": "I don't know! This can't be happening!", "next": "panic" }
+            ]
+          },
+          "panic": {
+            "t": "Si usted no sabe, ¿entonces quién? Todo el equipo lo está escuchando.",
+            "n": "If you don't know, then who does? The whole team is listening to you.",
+            "choices": [
+              { "t": "Tiene razón. Respiremos hondo y vamos por partes: ¿está todo el personal a salvo?", "n": "You're right. Let's take a deep breath and go one step at a time: are all the staff safe?", "next": "q2" },
+              { "t": "Bueno, haga lo que le parezca.", "n": "Well, do whatever you think best.", "next": "quit" }
+            ]
+          },
+          "q2": {
+            "t": "Sí, todos evacuados y nadie herido. Pero el gerente comercial quiere decirles a los clientes que mañana todo vuelve a la normalidad.",
+            "n": "Yes, everyone's evacuated and nobody's hurt. But the sales manager wants to tell customers everything will be back to normal tomorrow.",
+            "choices": [
+              { "t": "No vamos a prometer lo que no sabemos. Diremos que estamos evaluando los daños y daremos novedades mañana a las nueve.", "n": "We're not going to promise what we don't know. We'll say we're assessing the damage and give an update tomorrow at nine.", "next": "q3" },
+              { "t": "Perfecto, que les diga que mañana todo funciona con normalidad.", "n": "Perfect, let him tell them everything will be running normally tomorrow.", "next": "pressure" }
+            ]
+          },
+          "pressure": {
+            "t": "¿Seguro? Ni siquiera sabemos si el agua va a seguir subiendo esta noche.",
+            "n": "Are you sure? We don't even know if the water will keep rising tonight.",
+            "choices": [
+              { "t": "Tiene razón, no prometamos lo que no sabemos. Diremos que estamos evaluando los daños.", "n": "You're right, let's not promise what we don't know. We'll say we're assessing the damage.", "next": "q3" },
+              { "t": "Da igual, lo importante es que no se vayan con la competencia.", "n": "It doesn't matter, what counts is that they don't go to the competition.", "next": "lie" }
+            ]
+          },
+          "q3": {
+            "t": "Bien. ¿Y por dónde empiezo yo? Hay mil cosas que hacer.",
+            "n": "Fine. And where do I start? There are a thousand things to do.",
+            "choices": [
+              { "t": "Usted coordine el traslado de los pedidos urgentes a la bodega de Rionegro; yo hablo con los clientes clave. Nos reunimos a las seis para hacer balance.", "n": "You coordinate moving the urgent orders to the Rionegro warehouse; I'll talk to the key customers. We'll meet at six to take stock.", "next": "good" },
+              { "t": "Encárguese usted de todo, que yo tengo otra reunión.", "n": "You take care of everything, I've got another meeting.", "next": "quit" }
+            ]
+          },
+          "good": {
+            "t": "Entendido. Con un plan claro esto se puede manejar. Nos vemos a las seis.",
+            "n": "Understood. With a clear plan we can handle this. See you at six.",
+            "end": "good",
+            "outcome": "You stopped the panic, refused to over-promise, split the tasks and fixed the next check-in: leadership under pressure."
+          },
+          "lie": {
+            "t": "Mañana, cuando los camiones sigan parados, nadie nos va a volver a creer.",
+            "n": "Tomorrow, when the trucks are still stuck, nobody will ever believe us again.",
+            "end": "bad",
+            "outcome": "Promising what you can't deliver turns one crisis into two. Say what you know, what you're doing and when you'll update."
+          },
+          "quit": {
+            "t": "¿Me deja solo con esto? Así no se puede trabajar.",
+            "n": "You're leaving me alone with this? We can't work like this.",
+            "end": "bad",
+            "outcome": "In a crisis the team needs someone who decides and delegates; vague or absent leadership spreads panic."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say you won't promise what you don't know.", "t": ["No vamos a prometer lo que no sabemos", "No prometamos lo que no sabemos"] },
+        { "n": "Say you'll tell customers you're assessing the damage.", "t": ["Diremos que estamos evaluando los daños", "Vamos a decir que estamos evaluando los daños"] }
+      ]
+    },
+    {
+      "id": "c2-u08-l7",
+      "kind": "speaking",
+      "title": "Your crisis statement",
+      "goal": "Deliver a crisis statement in about 90 seconds: empathy, verified facts, action and the next update.",
+      "culture": {
+        "title": "112, 911, 123: who do you call?",
+        "body": "Emergency numbers differ across the Spanish-speaking world, which matters if you ever coordinate a crisis across countries. Spain uses 112, the single emergency number shared across the European Union. Mexico has used 911 as its national emergency number since 2017, and Colombia's national emergency line is 123. Before you travel or write a crisis plan, check the local number, as some countries also keep separate lines for police, ambulance and fire.",
+        "regions": ["ES", "MX", "CO"]
+      },
+      "phrases": [
+        { "t": "Me dirijo a ustedes personalmente.", "n": "I am addressing you personally." },
+        { "t": "Nuestra máxima prioridad es la seguridad de las personas afectadas.", "n": "Our top priority is the safety of those affected." },
+        { "t": "Vamos a investigar a fondo lo sucedido.", "n": "We will thoroughly investigate what happened." },
+        { "t": "Sacaremos las conclusiones necesarias.", "n": "We will draw the necessary conclusions." }
+      ],
+      "free": [
+        {
+          "n": "As spokesperson after a serious incident (e.g. a data leak, a factory fire or a product recall), give a statement: empathy, verified facts, concrete action and the time of the next update.",
+          "hint": "Use: Lamentamos profundamente …; Según la información de la que disponemos, …; Todo apunta a que … / No se descarta que …; Hemos puesto en marcha …; Vamos a investigar a fondo …; La próxima actualización será a las …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "empathy / apology", "any": ["lamentamos", "lamento", "pedimos disculpas", "pido disculpas", "perdón", "sentimos mucho", "solidaridad"] },
+            { "label": "verified facts", "any": ["según la información", "disponemos", "afectados", "afectadas", "todo apunta", "no se descarta", "según las primeras"] },
+            { "label": "concrete action", "any": ["hemos puesto en marcha", "vamos a investigar", "investigar", "compensación", "hemos activado", "medidas", "asumimos"] },
+            { "label": "next update", "any": ["en cuanto", "próxima actualización", "informaremos", "mantendremos informados", "de inmediato", "a las"] }
+          ],
+          "model": "Me dirijo a ustedes personalmente. Lamentamos profundamente el incendio de anoche en nuestra planta de Monterrey. Según la información de la que disponemos, no hay heridos y todo el personal fue evacuado a tiempo. Todo apunta a que el fuego empezó en la zona de carga, aunque no se descarta ninguna hipótesis. Hemos puesto en marcha un plan de apoyo para los vecinos de la zona y vamos a investigar a fondo lo sucedido. La próxima actualización será hoy a las seis de la tarde."
+        }
+      ],
+      "prompts": [
+        { "n": "Say your top priority is the safety of those affected.", "t": ["Nuestra máxima prioridad es la seguridad de las personas afectadas", "Nuestra prioridad es la seguridad de las personas afectadas", "Nuestra máxima prioridad es la seguridad de los afectados"] },
+        { "n": "Say you will thoroughly investigate what happened.", "t": ["Vamos a investigar a fondo lo sucedido", "Investigaremos a fondo lo sucedido", "Vamos a investigar a fondo lo ocurrido"] }
+      ]
+    },
+    {
+      "id": "c2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Bajo presión",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "c2-test",
+      "kind": "test",
+      "title": "C2 speaking test",
+      "goal": "Pass to earn your C2 badge.",
+      "tip": {
+        "title": "The summit",
+        "body": "Sentences come from all eight C2 units, shown in English only. Say them in Spanish from memory, with native-like precision: pick the right register, hedge where the facts are uncertain (todo apunta a que…, no se descarta que…), concede a point without giving up your position (si bien…, por muy… que…) and keep idioms and set formulas word for word. Deliver calmly and at a measured pace, and keep going after small slips."
+      }
+    }
+  ]
+}

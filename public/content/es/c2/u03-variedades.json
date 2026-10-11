@@ -1,0 +1,308 @@
+{
+  "id": "c2-u03",
+  "title": "Variedades del español",
+  "subtitle": "Regional varieties of Spanish",
+  "icon": "🌎",
+  "lessons": [
+    {
+      "id": "c2-u03-l1",
+      "title": "Spanish from the River Plate",
+      "goal": "Chat in Buenos Aires using voseo and everyday River Plate vocabulary.",
+      "tip": {
+        "title": "Vos sos, vos tenés",
+        "body": "In Argentina and Uruguay, vos replaces tú in everyday speech. The present tense stresses the ending: vos tenés, querés, podés, vivís, and vos sos for ser. Commands drop the final -r of the infinitive and stress the end: vení, sentate, decime. In Buenos Aires, ll and y sound like the sh in 'shoe' (or a buzzing zh for some speakers): yo, calle and playa sound like sho, cashe, plasha. Typical words: colectivo (bus), laburo (work), birome (ballpoint pen), re (very), che (hey). Tú is perfectly understood there, but using vos sounds friendly and local."
+      },
+      "phrases": [
+        { "t": "¿Vos sos de acá?", "n": "Are you from here?", "note": "Vos sos = tú eres." },
+        { "t": "¿Qué querés tomar?", "n": "What would you like to drink?", "note": "Querés = quieres." },
+        { "t": "Vení, sentate acá.", "n": "Come and sit down here.", "note": "Tú form: Ven, siéntate aquí." },
+        { "t": "Estoy buscando laburo.", "n": "I'm looking for work.", "note": "Laburo = trabajo, colloquial in Argentina and Uruguay." },
+        { "t": "Me tomo el colectivo en la esquina.", "n": "I catch the bus at the corner.", "note": "Colectivo = bus in Argentina." },
+        { "t": "Está re lindo el día.", "n": "It's a really lovely day.", "note": "Re = muy, colloquial." },
+        { "t": "¿Me prestás la birome?", "n": "Can I borrow your pen?", "note": "Birome = ballpoint pen in Argentina, named after its inventor László Bíró." },
+        { "t": "Che, ¿tenés un minuto?", "n": "Hey, have you got a minute?" }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "A language exchange in Palermo",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¡Hola! ¿Vos venís por el intercambio de idiomas? Vení, sentate acá.", "n": "Hi! Are you here for the language exchange? Come and sit down here." },
+          { "who": "you", "t": "Sí, gracias. Soy de Londres, pero hace un mes que vivo en Palermo.", "n": "Yes, thanks. I'm from London, but I've been living in Palermo for a month." },
+          { "who": "A", "name": "Lucía", "t": "¡Qué bueno! ¿Y qué te trajo a Buenos Aires? ¿El laburo?", "n": "Great! And what brought you to Buenos Aires? Work?" },
+          { "who": "you", "t": "En realidad, estoy buscando laburo. ¿Y vos sos de acá?", "n": "Actually, I'm looking for work. And are you from here?" },
+          { "who": "A", "name": "Lucía", "t": "Sí, porteña de toda la vida. Che, ¿qué querés tomar? Acá los cortados están re buenos.", "n": "Yes, born and bred in Buenos Aires. Hey, what would you like to drink? The cortados here are really good." },
+          { "who": "you", "t": "Dale, un cortado. Y después me explicás qué colectivo me tomo para volver.", "n": "OK, a cortado. And afterwards you can explain which bus I take to get back." }
+        ]
+      },
+      "prompts": [
+        { "n": "Using vos, ask an Argentine if they're from here.", "t": ["Vos sos de acá", "Sos de acá", "Vos sos de aquí"] },
+        { "n": "Say you're looking for work, the Argentine way.", "t": ["Estoy buscando laburo", "Busco laburo", "Ando buscando laburo"] },
+        { "n": "Using vos, ask a friend what they'd like to drink.", "t": ["Qué querés tomar", "Vos qué querés tomar", "Qué querés"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l2",
+      "title": "Mexico and Central America",
+      "goal": "Understand everyday Mexican Spanish and recognise Central American voseo.",
+      "tip": {
+        "title": "¿Mande?, ahorita and pura vida",
+        "body": "Mexicans often answer a call or ask you to repeat with a polite ¿Mande? Ahorita literally means 'right now', but it can also mean 'in a while' or even 'later, maybe': context and tone decide. Everyday words include camión (bus), lana (money), chamba (work) and ¿Qué onda? (what's up?). In much of Central America (for example Guatemala, Honduras, El Salvador and Nicaragua) people use vos with forms close to Argentina's: vos sabés, vos andás. Costa Ricans use vos and usted, and pura vida works as hello, thanks and 'all good'. In central Mexico, the s at the end of a syllable is pronounced clearly, unlike in the Caribbean."
+      },
+      "phrases": [
+        { "t": "¿Mande?", "n": "Pardon? / Yes?", "note": "Mexico: polite reply when called or when you didn't hear." },
+        { "t": "Ahorita se lo mando.", "n": "I'll send it to you in a moment.", "note": "Ahorita can mean now or later: context decides." },
+        { "t": "¿Qué onda, cómo estás?", "n": "Hey, what's up, how are you?", "note": "Mexico, informal." },
+        { "t": "Ando corto de lana.", "n": "I'm short of cash.", "note": "Mexico, colloquial: lana = money. A woman says corta." },
+        { "t": "Tengo un montón de chamba.", "n": "I've got loads of work.", "note": "Chamba = work (Mexico; also used in Peru)." },
+        { "t": "Mejor nos vamos en camión.", "n": "We'd better take the bus.", "note": "Mexico: camión = bus. Elsewhere it means lorry." },
+        { "t": "Pura vida, mae.", "n": "All good, mate.", "note": "Costa Rica: mae = mate, dude." },
+        { "t": "¿Y vos, qué andás haciendo por aquí?", "n": "And what are you up to around here?", "note": "Central American voseo." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "After work in Mexico City",
+        "lines": [
+          { "who": "A", "name": "Beto", "t": "¿Qué onda? ¿Cómo te fue en tu primera semana en la chamba?", "n": "What's up? How did your first week at work go?" },
+          { "who": "you", "t": "Bien, aunque tengo un montón de chamba. ¿Vamos por unos tacos?", "n": "Good, although I've got loads of work. Shall we go and get some tacos?" },
+          { "who": "A", "name": "Beto", "t": "Órale. ¿Nos vamos en metro o en camión?", "n": "Sure. Shall we go by metro or by bus?" },
+          { "who": "you", "t": "Mejor nos vamos en camión, que el metro a esta hora va lleno. Oye, ¿me mandas el informe que te pedí?", "n": "We'd better take the bus, the metro's packed at this time. Hey, will you send me the report I asked you for?" },
+          { "who": "A", "name": "Beto", "t": "Sí, sí, ahorita te lo mando.", "n": "Yes, yes, I'll send it to you in a moment." },
+          { "who": "you", "t": "¿Ahorita ahorita, o ahorita de aquí a tres días?", "n": "Right-now 'ahorita', or three-days-from-now 'ahorita'?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Politely ask a Mexican colleague to repeat, the Mexican way.", "t": ["Mande", "Mande usted", "Perdón, mande"] },
+        { "n": "Say we'd better take the bus, the Mexican way.", "t": ["Mejor nos vamos en camión", "Mejor vamos en camión", "Mejor en camión"] },
+        { "n": "Greet a friend casually, the Mexican way, and ask how they are.", "t": ["Qué onda, cómo estás", "Qué onda", "Qué onda, cómo andas"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l3",
+      "title": "The Caribbean and the Andes",
+      "goal": "Follow Caribbean and Andean speech and use typical Colombian courtesy.",
+      "tip": {
+        "title": "Swallowed s's and polite nomás",
+        "body": "In the Caribbean (Cuba, Puerto Rico, the Dominican Republic and the coasts of Venezuela and Colombia), an s at the end of a syllable is often breathed out or dropped: ¿Cómo estás? sounds like ¿Cómo ehtá? Speech is fast, and questions often keep the subject before the verb: ¿Qué tú quieres? The bus is la guagua there and in the Canary Islands. In the Andes (highland Colombia, Ecuador, Peru, Bolivia), the s is clear and consonants are crisp; commands are softened with nomás and diminutives: Pase nomás, Espéreme un ratito. In Colombia, ¿Me regala…? is the normal polite way to order (you still pay), tinto is a small black coffee and ¿Qué más? means 'how's it going?'."
+      },
+      "phrases": [
+        { "t": "¿Qué tú quieres comer?", "n": "What do you want to eat?", "note": "Caribbean word order. Elsewhere: ¿Qué quieres comer?" },
+        { "t": "Mejor vamos en guagua.", "n": "We'd better go by bus.", "note": "Guagua = bus in Cuba, Puerto Rico, the Dominican Republic and the Canary Islands." },
+        { "t": "¿Me regala un tinto, por favor?", "n": "Could I have a black coffee, please?", "note": "Colombia: me regala = may I have; tinto = black coffee." },
+        { "t": "¿Qué más? ¿Cómo vas?", "n": "How's it going? How are things?", "note": "Colombian greeting." },
+        { "t": "Pase nomás, está en su casa.", "n": "Come right in, make yourself at home.", "note": "Nomás = just; common in the Andes and Mexico." },
+        { "t": "Espéreme un ratito.", "n": "Wait for me just a moment." },
+        { "t": "Ese pata es muy buena gente.", "n": "That guy is really nice.", "note": "Peru: pata = mate, friend." },
+        { "t": "En la costa hablan rapidísimo y se comen las eses.", "n": "On the coast they talk really fast and swallow their s's." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Back from Cartagena",
+        "lines": [
+          { "who": "A", "name": "Daniela", "t": "¡Hola! ¿Qué más? ¿Cómo vas? ¿Qué tal Cartagena?", "n": "Hi! How's it going? How was Cartagena?" },
+          { "who": "you", "t": "Increíble. Estuve con unos amigos cubanos que viven allá.", "n": "Amazing. I was with some Cuban friends who live there." },
+          { "who": "A", "name": "Daniela", "t": "¡Qué chévere! ¿Y les entendiste algo? Allá en la costa hablan rapidísimo.", "n": "How cool! And did you understand anything they said? On the coast they talk really fast." },
+          { "who": "you", "t": "Al principio, casi nada: hablan rapidísimo y se comen las eses. Uno me preguntó «¿Qué tú quieres comer?» y tardé un momento en entender.", "n": "At first, almost nothing: they talk really fast and swallow their s's. One of them asked me 'What do you want to eat?' and it took me a moment to understand." },
+          { "who": "A", "name": "Daniela", "t": "Jaja, muy caribeño. ¿Y aprendiste palabras nuevas?", "n": "Haha, very Caribbean. And did you learn any new words?" },
+          { "who": "you", "t": "Sí: decían «guagua» en vez de «bus». Aquí en Bogotá lo dije en una tienda y me miraron raro.", "n": "Yes: they said 'guagua' instead of 'bus'. Here in Bogotá I said it in a shop and people looked at me strangely." }
+        ]
+      },
+      "prompts": [
+        { "n": "Order a black coffee in Colombia, the local way.", "t": ["Me regala un tinto, por favor", "Me regala un tinto", "Me regalas un tinto"] },
+        { "n": "Invite someone in warmly, Andean style: come right in, make yourself at home.", "t": ["Pase nomás, está en su casa", "Pase nomás", "Siga nomás, está en su casa"] },
+        { "n": "Ask a friend in Colombia how it's going, the local way.", "t": ["Qué más, cómo vas", "Qué más", "Qué más, cómo estás"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l4",
+      "kind": "grammar",
+      "title": "Vos, vosotros, ustedes",
+      "goal": "Switch between voseo, vosotros, ustedes and usted, and between Spain's and Latin America's past tenses.",
+      "tip": {
+        "title": "Four ways to say 'you'",
+        "body": "Spanish has several systems for 'you'. Tú is understood everywhere. Vos (Argentina, Uruguay, much of Central America) moves the stress to the end: tenés, sabés, vivís, and vos sos; its commands drop the -r of the infinitive: vení, decí, and with pronouns decime, sentate. Vosotros is the informal plural only in Spain: tenéis, venís; commands end in -d (venid, decidme), but reflexive ones drop it: sentaos. Ustedes is the only plural 'you' in Latin America, formal or not, and the formal plural in Spain; it takes the same verb form as ellos. One more regional difference: for something that happened today, Spain mostly uses the perfect (Hoy he comido con mi jefa), while most of Latin America uses the preterite (Hoy comí con mi jefa)."
+      },
+      "phrases": [
+        { "t": "Vos sabés que tengo razón.", "n": "You know I'm right.", "note": "Voseo: sabés = sabes." },
+        { "t": "¿Vosotros venís esta noche?", "n": "Are you all coming tonight?", "note": "Spain only." },
+        { "t": "¿Ustedes vienen esta noche?", "n": "Are you all coming tonight?", "note": "Everywhere in Latin America; formal in Spain." },
+        { "t": "Hoy he comido con mi jefa.", "n": "I had lunch with my boss today.", "note": "Typical of Spain." },
+        { "t": "Hoy comí con mi jefa.", "n": "I had lunch with my boss today.", "note": "Typical of most of Latin America." }
+      ],
+      "drills": [
+        {
+          "title": "Who's right?",
+          "base": { "t": "Tú tienes razón.", "n": "You're right." },
+          "items": [
+            { "cue": "vos", "t": "Vos tenés razón.", "n": "You're right. (voseo)" },
+            { "cue": "vosotros", "t": "Vosotros tenéis razón.", "n": "You're right. (you all, Spain)" },
+            { "cue": "ustedes", "t": "Ustedes tienen razón.", "n": "You're right. (you all)" },
+            { "cue": "usted", "t": "Usted tiene razón.", "n": "You're right. (formal)" }
+          ]
+        },
+        {
+          "title": "Come here and tell me",
+          "base": { "t": "Ven aquí y dime la verdad.", "n": "Come here and tell me the truth." },
+          "items": [
+            { "cue": "vos", "t": "Vení acá y decime la verdad.", "n": "Come here and tell me the truth. (voseo)" },
+            { "cue": "vosotros", "t": "Venid aquí y decidme la verdad.", "n": "Come here and tell me the truth. (you all, Spain)" },
+            { "cue": "ustedes", "t": "Vengan aquí y díganme la verdad.", "n": "Come here and tell me the truth. (you all)" },
+            { "cue": "usted", "t": "Venga aquí y dígame la verdad.", "n": "Come here and tell me the truth. (formal)" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Using vos, tell a friend they know you're right.", "t": ["Vos sabés que tengo razón", "Sabés que tengo razón"] },
+        { "n": "Ask a group of friends in Spain whether they're coming tonight, using vosotros.", "t": ["Vosotros venís esta noche", "Venís esta noche", "Vais a venir esta noche"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l5",
+      "kind": "listening",
+      "title": "One language, four accents",
+      "goal": "Follow a podcast where speakers from Spain, Mexico, Colombia and Argentina compare everyday words.",
+      "phrases": [
+        { "t": "¿Cómo vais al trabajo?", "n": "How do you all get to work?", "note": "Vosotros: Spain only. Latin America: ¿Cómo van al trabajo?" },
+        { "t": "Agarro el camión a las siete.", "n": "I catch the bus at seven.", "note": "Mexico. Agarrar or tomar, never coger, for transport there." },
+        { "t": "Estuvo muy maluco.", "n": "It was really unpleasant.", "note": "Colombia, colloquial: maluco = bad, nasty." },
+        { "t": "Vivo en un depa en el centro.", "n": "I live in a flat in the centre.", "note": "Mexico, colloquial: depa = departamento." }
+      ],
+      "story": {
+        "title": "Palabras sin fronteras",
+        "intro": "Nuria, a podcast host in Madrid, asks guests from Guadalajara, Medellín and Rosario how they get to work and where they live.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Nuria", "t": "Bienvenidos a «Palabras sin fronteras». Hoy tenemos invitados de tres países. Para empezar: ¿cómo vais al trabajo por la mañana? Yo cojo el autobús.", "n": "Welcome to 'Words without borders'. Today we have guests from three countries. To start: how do you get to work in the morning? I catch the bus." },
+          { "name": "Jorge", "voice": "es-MX-LibertoNeural", "t": "Pues yo agarro el camión a las siete. Y ojo, Nuria: en México mejor no digas «coger el camión»; allá decimos «tomar» o «agarrar».", "n": "Well, I catch the bus at seven. And careful, Nuria: in Mexico you'd better not say 'coger el camión'; over there we say 'tomar' or 'agarrar'." },
+          { "name": "Valentina", "voice": "es-CO-SalomeNeural", "t": "En Medellín yo tomo el metro y después un bus. Si el viaje es tranquilo, digo que estuvo bacano; si llueve y va lleno, que estuvo muy maluco.", "n": "In Medellín I take the metro and then a bus. If the journey is calm, I say it was great; if it's raining and packed, that it was really unpleasant." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Yo en Rosario me tomo el colectivo, que siempre viene lleno. Y cuando llego al laburo, lo primero es un mate con los compañeros.", "n": "In Rosario I take the bus, which always comes packed. And when I get to work, the first thing is a mate with my colleagues." },
+          { "name": "Nuria", "t": "¡Qué variedad! Otra pregunta: ¿dónde vivís? Yo, en un piso pequeñito en Lavapiés.", "n": "What variety! Another question: where do you live? Me, in a tiny flat in Lavapiés." },
+          { "name": "Jorge", "voice": "es-MX-LibertoNeural", "t": "Yo vivo en un depa en el centro. Bueno, en un departamento, pero todo el mundo dice depa.", "n": "I live in a flat in the centre. Well, a 'departamento', but everyone says 'depa'." },
+          { "name": "Valentina", "voice": "es-CO-SalomeNeural", "t": "Nosotros decimos apartamento. Y si es de una sola habitación, muchas veces lo llamamos apartaestudio.", "n": "We say 'apartamento'. And if it's just one room, we often call it an 'apartaestudio'." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Departamento, como en México. Al final, lo lindo es que cada uno lo dice a su manera y nos entendemos todos, ¿no?", "n": "'Departamento', like in Mexico. In the end, the nice thing is that everyone says it their own way and we all understand each other, right?" }
+        ],
+        "questions": [
+          { "q": "¿Qué toma Tomás para ir al trabajo?", "n": "What does Tomás take to get to work?", "t": ["El colectivo", "Colectivo", "Se toma el colectivo", "Toma el colectivo"] },
+          { "q": "¿Qué verbos recomienda Jorge en lugar de «coger»?", "n": "Which verbs does Jorge recommend instead of 'coger'?", "t": ["Tomar o agarrar", "Tomar y agarrar", "Tomar", "Agarrar"] },
+          { "q": "¿Cómo llaman a veces en Colombia a un apartamento de una sola habitación?", "n": "What do Colombians sometimes call a one-room flat?", "t": ["Apartaestudio", "Un apartaestudio"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u03-l6",
+      "kind": "roleplay",
+      "title": "When ahorita isn't now",
+      "goal": "Pin down a delivery date with a Mexican supplier without losing your courtesy.",
+      "phrases": [
+        { "t": "Me comunico por lo de las muestras.", "n": "I'm getting in touch about the samples." },
+        { "t": "¿En qué punto están?", "n": "What stage are they at?" },
+        { "t": "¿Le parece bien el jueves a primera hora?", "n": "Would Thursday first thing suit you?" },
+        { "t": "Se lo agradezco muchísimo.", "n": "Thank you so much, I really appreciate it." }
+      ],
+      "branch": {
+        "title": "The samples for the trade fair",
+        "scene": "You need product samples from a supplier in Mexico City for a trade fair on Friday. You phone the account manager, Licenciada Ramírez. In Mexico, licenciado or licenciada is a common courteous title for university graduates.",
+        "name": "Licenciada Ramírez",
+        "voice": "es-MX-NuriaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenas tardes, habla Patricia Ramírez. ¿En qué le puedo servir?", "n": "Good afternoon, Patricia Ramírez speaking. How can I help you?",
+            "choices": [
+              { "t": "Buenas tardes, licenciada. Me comunico por lo de las muestras para la feria del viernes.", "n": "Good afternoon, licenciada. I'm getting in touch about the samples for Friday's trade fair.", "next": "status" },
+              { "t": "Hola. ¿Dónde están mis muestras? Las necesito ya.", "n": "Hello. Where are my samples? I need them now.", "next": "blunt" }
+            ]
+          },
+          "blunt": {
+            "t": "Ay, qué prisa… Ahorita las reviso, no se preocupe.", "n": "Oh, what a rush… I'll check on them in a moment, don't worry.",
+            "choices": [
+              { "t": "Disculpe, licenciada, empecé mal. ¿Me podría decir en qué punto están?", "n": "Sorry, licenciada, I got off on the wrong foot. Could you tell me what stage they're at?", "next": "status" },
+              { "t": "Ahorita, ahorita… Eso mismo me dijeron la semana pasada.", "n": "In a moment, in a moment… That's exactly what I was told last week.", "next": "bad" }
+            ]
+          },
+          "status": {
+            "t": "Claro que sí, con mucho gusto. Mire, ya casi están listas. Ahorita se las mando.", "n": "Of course, with pleasure. Look, they're almost ready. I'll send them to you shortly.",
+            "choices": [
+              { "t": "Se lo agradezco muchísimo. Para organizarme, ¿cree que podrían salir mañana a mediodía?", "n": "Thank you so much. So that I can plan, do you think they could go out tomorrow at midday?", "next": "date" },
+              { "t": "¿Ahorita quiere decir hoy, o la semana que viene?", "n": "Does 'ahorita' mean today, or next week?", "next": "teasing" }
+            ]
+          },
+          "teasing": {
+            "t": "Jaja, ya veo que conoce bien a los mexicanos. Pero dígame, ¿para cuándo las necesita exactamente?", "n": "Haha, I see you know us Mexicans well. But tell me, when exactly do you need them?",
+            "choices": [
+              { "t": "Disculpe la broma. Es que dependo de ellas para el viernes. ¿Podrían salir mañana a mediodía?", "n": "Excuse the joke. It's just that I depend on them for Friday. Could they go out tomorrow at midday?", "next": "date" },
+              { "t": "Es que con ustedes todo es para ahorita y nunca llega nada.", "n": "It's just that with you people everything is 'ahorita' and nothing ever arrives.", "next": "bad" }
+            ]
+          },
+          "date": {
+            "t": "Mañana a mediodía está un poco justo, pero déjeme ver… ¿Le parece bien el jueves a primera hora?", "n": "Tomorrow at midday is a bit tight, but let me see… Would Thursday first thing suit you?",
+            "choices": [
+              { "t": "Perfecto, el jueves a primera hora. Muchísimas gracias por su ayuda, licenciada.", "n": "Perfect, Thursday first thing. Thank you so much for your help, licenciada.", "next": "good" },
+              { "t": "No, el jueves es demasiado tarde. O mañana, o cancelo el pedido.", "n": "No, Thursday is too late. Either tomorrow, or I cancel the order.", "next": "threat" }
+            ]
+          },
+          "threat": {
+            "t": "Mire, entiendo la urgencia, pero con amenazas no vamos a llegar a ningún lado.", "n": "Look, I understand the urgency, but threats won't get us anywhere.",
+            "choices": [
+              { "t": "Tiene toda la razón, perdone. El jueves a primera hora nos viene bien.", "n": "You're quite right, I'm sorry. Thursday first thing works for us.", "next": "good" },
+              { "t": "Pues entonces lo cancelo.", "n": "Well then, I'm cancelling it.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Con mucho gusto. El jueves a primera hora las tiene ahí, se lo garantizo. Que le vaya muy bien en la feria.", "n": "My pleasure. You'll have them there first thing on Thursday, I guarantee it. Good luck at the fair.",
+            "end": "good", "outcome": "Courtesy, the title licenciada and a concrete date got you a firm commitment."
+          },
+          "bad": {
+            "t": "Bueno, pues lo comento con mi gerente y le aviso. Hasta luego.", "n": "Well, I'll discuss it with my manager and let you know. Goodbye.",
+            "end": "bad", "outcome": "Bluntness and jabs at 'ahorita' cost you goodwill. Stay courteous and ask politely for a specific day and time."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Politely ask what stage the samples are at.", "t": ["En qué punto están las muestras", "En qué punto están", "Me podría decir en qué punto están"] },
+        { "n": "Suggest Thursday first thing, politely, using usted.", "t": ["Le parece bien el jueves a primera hora", "Le parece bien el jueves temprano", "Qué le parece el jueves a primera hora"] }
+      ]
+    },
+    {
+      "id": "c2-u03-l7",
+      "kind": "speaking",
+      "title": "One language, many standards",
+      "goal": "Compare Spanish across countries with concrete examples for 90 seconds.",
+      "culture": {
+        "title": "No single correct Spanish",
+        "body": "Spanish has no single 'correct' accent. The Real Academia Española works with the academies of the other Spanish-speaking countries in the Association of Academies of the Spanish Language (ASALE), and their shared dictionary and grammar describe usage on both sides of the Atlantic. Mexico has more native Spanish speakers than any other country, and Spain is home to only a small minority of the world's Spanish speakers. Educated speech from Bogotá, Buenos Aires, Mexico City or Madrid is equally standard: adopting local words is a compliment, imitating an accent to get a laugh is not.",
+        "regions": ["ES", "MX", "AR", "CO"]
+      },
+      "phrases": [
+        { "t": "En cada país lo dicen a su manera.", "n": "Every country says it its own way." },
+        { "t": "Aquí no se dice así, ¿verdad?", "n": "You don't say it like that here, do you?" },
+        { "t": "Lo importante es entenderse.", "n": "The important thing is to understand each other." },
+        { "t": "Me encanta cómo suena el acento de aquí.", "n": "I love how the accent sounds here." }
+      ],
+      "free": [
+        {
+          "n": "Compare Spanish in at least two countries: give at least three word examples (transport, home, work, money…), mention how people say 'you', and tell of a small misunderstanding.",
+          "hint": "Use: En España se dice…, mientras que en México…; en lugar de / en vez de; vos, vosotros, ustedes; colectivo, camión, guagua, autobús; piso, departamento, apartamento; laburo, chamba, curro; Lo importante es entenderse.",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "regional words", "any": ["colectivo", "camión", "guagua", "autobús", "bus", "carro", "coche", "auto", "celular", "móvil", "piso", "departamento", "apartamento", "depa", "computadora", "ordenador", "laburo", "chamba", "curro", "tinto", "birome", "lana"] },
+            { "label": "forms of 'you'", "any": ["vos", "vosotros", "voseo", "sos", "tenés", "querés", "tuteo"] },
+            { "label": "a comparison", "any": ["mientras que", "en cambio", "en lugar de", "en vez de", "a diferencia de", "sin embargo"] },
+            { "label": "countries or regions", "any": ["españa", "méxico", "argentina", "colombia", "cuba", "caribe", "perú", "uruguay", "chile", "andes", "centroamérica"] }
+          ],
+          "model": "En España se dice coger el autobús, mientras que en México se toma o se agarra el camión, y en Argentina la gente se toma el colectivo. Con la vivienda pasa lo mismo: en Madrid vives en un piso, en Buenos Aires en un departamento y en Bogotá en un apartamento. Además, en Argentina usan vos en lugar de tú, y en España se dice vosotros. Una vez, en Buenos Aires, pedí un cortado y me preguntaron «¿vos sos de España?». Me reí, porque soy de Londres. Lo importante es entenderse."
+        }
+      ],
+      "prompts": [
+        { "n": "Ask, curiously, whether people don't say it like that here.", "t": ["Aquí no se dice así, verdad", "Aquí no se dice así", "Acá no se dice así, verdad", "Acá no se dice así"] },
+        { "n": "Say the important thing is to understand each other.", "t": ["Lo importante es entenderse", "Lo importante es entendernos", "Lo importante es que nos entendamos"] }
+      ]
+    },
+    {
+      "id": "c2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Variedades del español",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

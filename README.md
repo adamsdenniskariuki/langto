@@ -1,6 +1,6 @@
 # Langto
 
-**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), French is being added level by level, and more languages can be added as content alone.
+**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), Spanish also covers A1–C2, French is being added level by level, and more languages can be added as content alone.
 
 🌍 Live at **https://langto.madebyfavor.com**
 
@@ -13,7 +13,7 @@
 - **Natural neural voices**: lesson audio is pre-generated with Azure AI Speech at build time. If a clip is missing, the browser's own voice (Web Speech API) is used instead.
 - **Step-by-step path**: CEFR-aligned levels and units. German covers the full range from A1 to C2: 50 units and over 400 lessons, plus a 10-unit pronunciation track, from greetings up to irony, rhetoric and Austrian and Swiss German. Learners who already know some German can choose to **start at any level**.
 - **French course**: CEFR levels released one at a time (A1 first, the rest marked "coming soon" until ready), with its own pronunciation track (u vs ou, nasal vowels, the French r, silent letters, liaison and élision, é/è/e muet, eu, rhythm and intonation, regional accents). Culture notes cover France, Belgium, Switzerland, Québec and francophone Africa (septante/nonante, tu vs vous, Québec vocabulary), with fr-CA, fr-BE and fr-CH voices.
-- **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed, badges for pronunciation, checkpoints and free speaking, plus a level badge (earned by passing the level's speaking test) and a speaking milestone for each level. There are no hearts and no leaderboards.
+- **Spanish course**: A1 to C2 (50 units, each level ending in a speaking test), teaching Spain and Latin America side by side: vosotros vs ustedes, voseo, seseo vs distinción and regional vocabulary (coche/carro/auto, ordenador/computadora). Voices are es-ES and es-MX, with es-AR and es-CO from B1. A 10-unit pronunciation track covers pure vowels, tapped and trilled r, ñ, ll/y, j/g, b/v/d, stress and written accents, intonation, linking (sinalefa), seseo and regional accents, each with spoken minimal pairs.- **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed, badges for pronunciation, checkpoints and free speaking, plus a level badge (earned by passing the level's speaking test) and a speaking milestone for each level. There are no hearts and no leaderboards.
 - **Spaced-repetition review** of every phrase you've learned, plus a **Most missed** session built from the phrases you slip on most.
 - **Themes and fonts**: System (follows dark mode), Light, Dark, Sepia, High contrast and more. Fonts include a dyslexia-friendly option, and text size is adjustable.
 - **No account and fully private**: progress lives in your browser (localStorage). You can **export and import** a JSON backup to move between devices.
@@ -21,7 +21,7 @@
 
 ### Browser support for speaking
 
-Pronunciation checks use the browser's `SpeechRecognition` in the course's language (de-DE, fr-FR). This works in Chrome, Edge and Safari. In Firefox, and anywhere the mic isn't available, Langto falls back gracefully: you can still listen, record yourself and self-assess.
+Pronunciation checks use the browser's `SpeechRecognition` in the course's language (de-DE, es-ES, fr-FR). This works in Chrome, Edge and Safari. In Firefox, and anywhere the mic isn't available, Langto falls back gracefully: you can still listen, record yourself and self-assess.
 
 ## Development
 
