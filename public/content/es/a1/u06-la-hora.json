@@ -1,0 +1,299 @@
+{
+  "id": "u06",
+  "title": "La hora",
+  "subtitle": "Days & telling time",
+  "icon": "🕒",
+  "lessons": [
+    {
+      "id": "u06-l1",
+      "title": "Days of the week",
+      "goal": "Name the days and say what day it is.",
+      "tip": {
+        "title": "el lunes = on Monday",
+        "body": "Days are written with a small letter and are masculine. To say \"on Monday\" just use el: el lunes trabajo (on Monday I work). For \"every Monday\" use los: los lunes. Lunes to viernes are the same in the plural; only sábados and domingos add -s."
+      },
+      "phrases": [
+        { "t": "lunes, martes, miércoles", "n": "Monday, Tuesday, Wednesday" },
+        { "t": "jueves, viernes", "n": "Thursday, Friday" },
+        { "t": "sábado y domingo", "n": "Saturday and Sunday" },
+        { "t": "¿Qué día es hoy?", "n": "What day is it today?" },
+        { "t": "Hoy es viernes.", "n": "Today is Friday." },
+        { "t": "El sábado no trabajo.", "n": "On Saturday I don't work." },
+        { "t": "Los domingos como con mi familia.", "n": "On Sundays I have lunch with my family." },
+        { "t": "el fin de semana", "n": "the weekend" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "Almost the weekend",
+        "lines": [
+          { "who": "A", "name": "Andrés", "t": "¿Qué día es hoy?", "n": "What day is it today?" },
+          { "who": "you", "t": "Hoy es viernes.", "n": "Today is Friday." },
+          { "who": "A", "name": "Andrés", "t": "¡Genial! ¿Qué haces el fin de semana?", "n": "Great! What are you doing at the weekend?" },
+          { "who": "you", "t": "El sábado estudio español y el domingo descanso.", "n": "On Saturday I study Spanish and on Sunday I rest." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say today is Monday.", "t": ["Hoy es lunes"] },
+        { "n": "Ask what day it is today.", "t": ["Qué día es hoy"] },
+        { "n": "Say \"on Sunday I don't work\".", "t": ["El domingo no trabajo", "Los domingos no trabajo"] }
+      ]
+    },
+    {
+      "id": "u06-l2",
+      "title": "What time is it?",
+      "goal": "Ask and tell the time.",
+      "tip": {
+        "title": "Es la una, son las dos",
+        "body": "Hours are feminine because they mean las horas: es la una (one o'clock, singular), but son las dos, son las tres… Add minutes with y (past) and menos (to): y cuarto (quarter past), y media (half past), menos cuarto (quarter to). So son las cinco menos cuarto is 4:45. Spain usually says ¿Qué hora es?; in Latin America you'll also hear ¿Qué horas son?."
+      },
+      "phrases": [
+        { "t": "¿Qué hora es?", "n": "What time is it?", "note": "Latin America also: ¿Qué horas son?" },
+        { "t": "Es la una.", "n": "It's one o'clock." },
+        { "t": "Son las dos.", "n": "It's two o'clock." },
+        { "t": "Son las tres y cuarto.", "n": "It's quarter past three." },
+        { "t": "Son las cuatro y media.", "n": "It's half past four." },
+        { "t": "Son las cinco menos cuarto.", "n": "It's quarter to five." },
+        { "t": "Son las diez y diez.", "n": "It's ten past ten." },
+        { "t": "Es mediodía.", "n": "It's midday." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "At the bus stop",
+        "lines": [
+          { "who": "you", "t": "Disculpe, ¿qué hora es?", "n": "Excuse me, what time is it?" },
+          { "who": "A", "name": "Señora", "t": "Son las cuatro y media.", "n": "It's half past four." },
+          { "who": "you", "t": "¡Ay, es tarde! Muchas gracias.", "n": "Oh, it's late! Thank you very much." },
+          { "who": "A", "name": "Señora", "t": "De nada. ¡Que le vaya bien!", "n": "You're welcome. All the best!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Politely ask a stranger what time it is.", "t": ["Disculpe qué hora es", "Qué hora es", "Perdón qué hora es", "Qué horas son"] },
+        { "n": "Say it's one o'clock.", "t": ["Es la una"] },
+        { "n": "Say it's quarter past three.", "t": ["Son las tres y cuarto", "Son las tres y quince"] }
+      ]
+    },
+    {
+      "id": "u06-l3",
+      "title": "Finding a time",
+      "goal": "Ask when someone is free and suggest a day and time.",
+      "tip": {
+        "title": "¿Te viene bien…?",
+        "body": "¿Te viene bien el martes? (Does Tuesday suit you?) is an easy way to suggest a day. In Spain friends say ¿Quedamos el martes? (Shall we meet on Tuesday?); quedar is less common in Latin America, where ¿Nos vemos el martes? is the usual choice. Nos vemos works everywhere."
+      },
+      "phrases": [
+        { "t": "¿Cuándo tienes tiempo?", "n": "When are you free?" },
+        { "t": "¿Te viene bien el martes?", "n": "Does Tuesday suit you?" },
+        { "t": "¿Nos vemos el martes?", "n": "Shall we meet on Tuesday?", "note": "Spain also: ¿Quedamos el martes?" },
+        { "t": "¿A qué hora?", "n": "At what time?" },
+        { "t": "A las seis.", "n": "At six o'clock." },
+        { "t": "Hoy no puedo.", "n": "I can't today." },
+        { "t": "Mañana sí puedo.", "n": "Tomorrow I can." },
+        { "t": "Tengo una cita con el médico.", "n": "I have a doctor's appointment." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Coffee with Sara",
+        "lines": [
+          { "who": "A", "name": "Sara", "t": "¿Tomamos un café hoy?", "n": "Shall we have a coffee today?" },
+          { "who": "you", "t": "Hoy no puedo. Tengo una cita con el médico.", "n": "I can't today. I have a doctor's appointment." },
+          { "who": "A", "name": "Sara", "t": "¿Y mañana? ¿Te viene bien?", "n": "And tomorrow? Does that suit you?" },
+          { "who": "you", "t": "Sí, mañana sí puedo. ¿A qué hora?", "n": "Yes, tomorrow I can. At what time?" },
+          { "who": "A", "name": "Sara", "t": "A las seis, en la plaza.", "n": "At six, in the square." },
+          { "who": "you", "t": "Perfecto. ¡Hasta mañana!", "n": "Perfect. See you tomorrow!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend when they're free.", "t": ["Cuándo tienes tiempo", "Cuándo puedes"] },
+        { "n": "Suggest meeting on Tuesday.", "t": ["Nos vemos el martes", "Quedamos el martes", "Te viene bien el martes"] },
+        { "n": "Say you can't today.", "t": ["Hoy no puedo", "Lo siento hoy no puedo"] }
+      ]
+    },
+    {
+      "id": "u06-l4",
+      "kind": "grammar",
+      "title": "Es la una / a la una",
+      "goal": "Tell the time and say when something happens.",
+      "tip": {
+        "title": "ser for the time, a for \"at\"",
+        "body": "To say what time it is, use ser: es la una, son las ocho. To say when something happens, use a + la/las: a la una (at one), a las ocho (at eight). Ask with ¿A qué hora…?: ¿A qué hora abre el banco? (What time does the bank open?). Add de la mañana, de la tarde or de la noche to make clear which part of the day: a las nueve de la noche (at 9 p.m.)."
+      },
+      "phrases": [
+        { "t": "Son las ocho.", "n": "It's eight o'clock." },
+        { "t": "La clase es a las ocho.", "n": "The class is at eight." },
+        { "t": "¿A qué hora abre el banco?", "n": "What time does the bank open?" },
+        { "t": "Abre a las nueve de la mañana.", "n": "It opens at nine in the morning." },
+        { "t": "Cenamos a las nueve de la noche.", "n": "We have dinner at nine in the evening." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the time",
+          "base": { "t": "La clase es a las ocho.", "n": "The class is at eight." },
+          "items": [
+            { "cue": "1:00", "t": "La clase es a la una.", "n": "The class is at one." },
+            { "cue": "10:30", "t": "La clase es a las diez y media.", "n": "The class is at half past ten." },
+            { "cue": "6:15", "t": "La clase es a las seis y cuarto.", "n": "The class is at quarter past six." },
+            { "cue": "8:45", "t": "La clase es a las nueve menos cuarto.", "n": "The class is at quarter to nine." }
+          ]
+        },
+        {
+          "title": "From \"it is\" to \"at\"",
+          "base": { "t": "Son las dos.", "n": "It's two o'clock." },
+          "items": [
+            { "cue": "comemos …", "t": "Comemos a las dos.", "n": "We have lunch at two." },
+            { "cue": "el tren sale …", "t": "El tren sale a las dos.", "n": "The train leaves at two." },
+            { "cue": "1:00 · comemos …", "t": "Comemos a la una.", "n": "We have lunch at one." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask what time the shop opens.", "t": ["A qué hora abre la tienda"] },
+        { "n": "Say the film is at half past nine.", "t": ["La película es a las nueve y media", "La peli es a las nueve y media"] }
+      ]
+    },
+    {
+      "id": "u06-l5",
+      "kind": "listening",
+      "title": "A busy week",
+      "goal": "Catch days and times in a real conversation.",
+      "phrases": [
+        { "t": "Trabajo hasta las siete.", "n": "I work until seven." },
+        { "t": "El miércoles me viene bien.", "n": "Wednesday suits me." },
+        { "t": "¿A las ocho y media?", "n": "At half past eight?" },
+        { "t": "¡Nos vemos el miércoles!", "n": "See you on Wednesday!" }
+      ],
+      "story": {
+        "title": "Daniela calls Rodrigo",
+        "intro": "Daniela, in Mexico City, wants to go to the cinema with Rodrigo this week, but he is busy.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Daniela", "t": "¡Hola, Rodrigo! ¿Vamos al cine el lunes?", "n": "Hi, Rodrigo! Shall we go to the cinema on Monday?" },
+          { "name": "Rodrigo", "voice": "es-MX-JorgeNeural", "t": "¿El lunes? Imposible, trabajo hasta las siete y luego tengo clase de inglés.", "n": "On Monday? Impossible, I work until seven and then I have an English class." },
+          { "name": "Daniela", "t": "¿Y el miércoles?", "n": "And on Wednesday?" },
+          { "name": "Rodrigo", "voice": "es-MX-JorgeNeural", "t": "El miércoles me viene bien. ¿A qué hora es la película?", "n": "Wednesday suits me. What time is the film?" },
+          { "name": "Daniela", "t": "Hay una función a las ocho y media.", "n": "There's a showing at half past eight." },
+          { "name": "Rodrigo", "voice": "es-MX-JorgeNeural", "t": "Perfecto. Te veo a las ocho y cuarto en la entrada.", "n": "Perfect. I'll see you at quarter past eight at the entrance." },
+          { "name": "Daniela", "t": "¡Va! Nos vemos el miércoles.", "n": "OK! See you on Wednesday." }
+        ],
+        "questions": [
+          { "q": "¿Hasta qué hora trabaja Rodrigo el lunes?", "n": "Until what time does Rodrigo work on Monday?", "t": ["Hasta las siete", "Las siete", "Trabaja hasta las siete"] },
+          { "q": "¿Qué día van al cine?", "n": "Which day are they going to the cinema?", "t": ["El miércoles", "Miércoles", "Van el miércoles"] },
+          { "q": "¿A qué hora es la película?", "n": "What time is the film?", "t": ["A las ocho y media", "Las ocho y media", "Es a las ocho y media"] }
+        ]
+      }
+    },
+    {
+      "id": "u06-l6",
+      "kind": "roleplay",
+      "title": "Booking a haircut",
+      "goal": "Make an appointment on the phone.",
+      "phrases": [
+        { "t": "Quería pedir una cita.", "n": "I'd like to make an appointment.", "note": "Using quería (\"I wanted\") is a softer, polite way to ask." },
+        { "t": "¿Qué día le viene bien?", "n": "Which day suits you? (polite)" },
+        { "t": "Los lunes está cerrado.", "n": "It's closed on Mondays." },
+        { "t": "A las diez, por favor.", "n": "At ten, please." }
+      ],
+      "branch": {
+        "title": "Calling the hair salon",
+        "scene": "You phone a hair salon in Barcelona to book a haircut this week.",
+        "name": "Peluquería Nuria",
+        "voice": "es-ES-XimenaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Peluquería Nuria, buenos días.", "n": "Nuria Hair Salon, good morning.",
+            "choices": [
+              { "t": "Buenos días. Quería pedir una cita, por favor.", "n": "Good morning. I'd like to make an appointment, please.", "next": "day" },
+              { "t": "¿Cómo? ¿Perdón?", "n": "Pardon? Sorry?", "next": "repeat" }
+            ]
+          },
+          "repeat": {
+            "t": "Es la peluquería. ¿En qué le puedo ayudar?", "n": "This is the hair salon. How can I help you?",
+            "choices": [
+              { "t": "Una cita, por favor.", "n": "An appointment, please.", "next": "day" },
+              { "t": "Quiero una pizza grande.", "n": "I want a large pizza.", "next": "pizza" }
+            ]
+          },
+          "day": {
+            "t": "Muy bien. ¿Qué día le viene bien?", "n": "Very good. Which day suits you?",
+            "choices": [
+              { "t": "El lunes, por favor.", "n": "Monday, please.", "next": "monday" },
+              { "t": "El viernes, por favor.", "n": "Friday, please.", "next": "friday" }
+            ]
+          },
+          "monday": {
+            "t": "Lo siento, los lunes está cerrado. ¿Le viene bien el viernes?", "n": "Sorry, we're closed on Mondays. Does Friday suit you?",
+            "choices": [
+              { "t": "Sí, el viernes está bien.", "n": "Yes, Friday is fine.", "next": "friday" }
+            ]
+          },
+          "friday": {
+            "t": "El viernes tengo hueco a las diez o a las cinco y media.", "n": "On Friday I have a slot at ten or at half past five.",
+            "choices": [
+              { "t": "A las diez, por favor.", "n": "At ten, please.", "next": "name" },
+              { "t": "A las cinco y media, por favor.", "n": "At half past five, please.", "next": "name" }
+            ]
+          },
+          "name": {
+            "t": "Perfecto. ¿Me dice su nombre, por favor?", "n": "Perfect. Could you tell me your name, please?",
+            "choices": [
+              { "t": "Me llamo Alex Brown.", "n": "My name is Alex Brown.", "next": "done" }
+            ]
+          },
+          "done": {
+            "t": "Gracias, Alex. Hasta el viernes. ¡Adiós!", "n": "Thanks, Alex. See you on Friday. Bye!",
+            "end": "good", "outcome": "You booked a haircut for Friday."
+          },
+          "pizza": {
+            "t": "¿Pizza? Esto es una peluquería. Adiós.", "n": "Pizza? This is a hair salon. Goodbye.",
+            "end": "bad", "outcome": "Off-topic! Try again and ask for una cita."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask politely for an appointment.", "t": ["Quería pedir una cita", "Quería pedir una cita por favor", "Quiero una cita por favor", "Una cita por favor"] },
+        { "n": "Say ten o'clock suits you.", "t": ["A las diez por favor", "A las diez me viene bien", "A las diez está bien"] }
+      ]
+    },
+    {
+      "id": "u06-l7",
+      "kind": "speaking",
+      "title": "My week",
+      "goal": "Talk about your week for 45 seconds.",
+      "culture": {
+        "title": "Late dinners and ahorita",
+        "body": "Spain eats late: lunch is usually around 2 to 3 p.m. and dinner often starts around 9 p.m. or even later, and many restaurants only start serving dinner at around 8:30 or 9. In Mexico you'll hear ahorita all the time; it literally means \"right now\", but depending on tone and context it can mean \"in a moment\", \"later\" or even \"maybe never\". If you need something soon, ask ¿Ahorita ahorita? or agree on a clear time. Timetables, tickets and opening hours across the Spanish-speaking world often use the 24-hour clock (las 21:00), but in speech people usually say las nueve de la noche.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "En España se cena tarde.", "n": "In Spain people have dinner late." },
+        { "t": "Ahorita voy.", "n": "I'm coming in a moment. (Mexico)", "note": "ahorita can mean now, soon or later!" },
+        { "t": "Perdón por llegar tarde.", "n": "Sorry I'm late." },
+        { "t": "Los fines de semana no trabajo.", "n": "I don't work at the weekend." }
+      ],
+      "free": [
+        {
+          "n": "Describe your week: what you do on which days and at what time.",
+          "hint": "El lunes trabajo … · Los martes estudio español … · Me levanto a las siete · Ceno a las ocho · El fin de semana …",
+          "seconds": 45,
+          "minWords": 12,
+          "targets": [
+            { "label": "a day", "any": ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "sábados", "domingo", "domingos", "fin de semana", "fines de semana"] },
+            { "label": "a time", "any": ["a la una", "a las", "y media", "y cuarto", "menos cuarto", "mañana", "tarde", "noche", "mediodía"] },
+            { "label": "an activity", "any": ["trabajo", "estudio", "como", "ceno", "descanso", "voy", "juego", "veo", "salgo", "cocino", "leo"] }
+          ],
+          "model": "El lunes trabajo de nueve a cinco. Los martes estudio español a las siete de la tarde. El viernes ceno con mis amigos a las nueve. El fin de semana no trabajo y descanso."
+        }
+      ],
+      "prompts": [
+        { "n": "Apologise for being late.", "t": ["Perdón por llegar tarde", "Lo siento llego tarde", "Disculpa por llegar tarde"] },
+        { "n": "Say you don't work at the weekend.", "t": ["Los fines de semana no trabajo", "El fin de semana no trabajo", "No trabajo el fin de semana"] }
+      ]
+    },
+    {
+      "id": "u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La hora",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

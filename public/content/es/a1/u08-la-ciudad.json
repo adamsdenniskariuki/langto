@@ -1,0 +1,294 @@
+{
+  "id": "u08",
+  "title": "La ciudad",
+  "subtitle": "Directions & getting around",
+  "icon": "🏙️",
+  "lessons": [
+    {
+      "id": "u08-l1",
+      "title": "Where is …?",
+      "goal": "Ask for and understand directions.",
+      "tip": {
+        "title": "Polite directions",
+        "body": "Start with perdone or disculpe (\"excuse me\"), then ¿dónde está …? People will answer with polite commands: siga (keep going), gire (turn), cruce (cross). Todo recto is \"straight on\" in Spain; in much of Latin America you'll hear derecho or todo derecho instead. Careful: a la derecha means \"to the right\", but derecho means \"straight ahead\"."
+      },
+      "phrases": [
+        { "t": "Perdone, ¿dónde está la estación?", "n": "Excuse me, where is the station?" },
+        { "t": "¿Hay una farmacia por aquí cerca?", "n": "Is there a pharmacy near here?" },
+        { "t": "Siga todo recto.", "n": "Go straight on.", "note": "Latin America: siga derecho / todo derecho." },
+        { "t": "Gire a la derecha.", "n": "Turn right.", "note": "Also doble a la derecha, common in Latin America." },
+        { "t": "Gire a la izquierda.", "n": "Turn left." },
+        { "t": "Está cerca.", "n": "It's close." },
+        { "t": "Está lejos.", "n": "It's far." },
+        { "t": "Está en la esquina.", "n": "It's on the corner." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Lost in Madrid",
+        "lines": [
+          { "who": "you", "t": "Perdone, ¿dónde está la estación de Atocha?", "n": "Excuse me, where is Atocha station?" },
+          { "who": "A", "name": "Señora", "t": "Siga todo recto y gire a la izquierda en el semáforo.", "n": "Go straight on and turn left at the traffic lights." },
+          { "who": "you", "t": "¿Está lejos?", "n": "Is it far?" },
+          { "who": "A", "name": "Señora", "t": "No, está cerca. A cinco minutos a pie.", "n": "No, it's close. Five minutes on foot." },
+          { "who": "you", "t": "Muchas gracias.", "n": "Thank you very much." }
+        ]
+      },
+      "prompts": [
+        { "n": "Stop a stranger politely and ask where the station is.", "t": ["Perdone dónde está la estación", "Disculpe dónde está la estación", "Perdón dónde está la estación", "Dónde está la estación"] },
+        { "n": "Ask if there's a pharmacy near here.", "t": ["Hay una farmacia por aquí cerca", "Hay una farmacia por aquí", "Hay una farmacia cerca"] },
+        { "n": "Tell a tourist: go straight on and turn right.", "t": ["Siga todo recto y gire a la derecha", "Siga derecho y gire a la derecha", "Todo recto y a la derecha", "Siga todo derecho y doble a la derecha"] }
+      ]
+    },
+    {
+      "id": "u08-l2",
+      "title": "Getting around",
+      "goal": "Take the bus or metro and buy a ticket.",
+      "tip": {
+        "title": "tomar el autobús",
+        "body": "Use tomar for catching transport: tomo el metro, tomo el autobús. It works everywhere. You go en metro, en autobús, en taxi, but a pie (on foot). A ticket is un billete in Spain and un boleto in most of Latin America."
+      },
+      "phrases": [
+        { "t": "Voy en metro.", "n": "I go by metro." },
+        { "t": "Voy a pie.", "n": "I go on foot.", "note": "Also voy andando (Spain) or voy caminando (Latin America)." },
+        { "t": "Tomo el autobús.", "n": "I take the bus." },
+        { "t": "¿Qué autobús va al centro?", "n": "Which bus goes to the centre?", "note": "In Mexico the city bus is often called el camión." },
+        { "t": "¿Dónde está la parada?", "n": "Where is the stop?" },
+        { "t": "Un boleto, por favor.", "n": "One ticket, please.", "note": "In Spain: un billete." },
+        { "t": "¿Cuánto cuesta el boleto?", "n": "How much is the ticket?" },
+        { "t": "¿Dónde me bajo?", "n": "Where do I get off?" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "At a bus stop in Mexico City",
+        "lines": [
+          { "who": "you", "t": "Disculpe, ¿este camión va al centro?", "n": "Excuse me, does this bus go to the centre?" },
+          { "who": "A", "name": "Señor", "t": "No, tiene que tomar el doce.", "n": "No, you have to take the number twelve." },
+          { "who": "you", "t": "¿Y dónde está la parada?", "n": "And where is the stop?" },
+          { "who": "A", "name": "Señor", "t": "Ahí enfrente, al lado del banco.", "n": "Right across there, next to the bank." },
+          { "who": "you", "t": "Muchas gracias, muy amable.", "n": "Thank you very much, very kind." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you go to work by metro.", "t": ["Voy al trabajo en metro", "Voy en metro", "Tomo el metro"] },
+        { "n": "On the bus, ask where you get off.", "t": ["Dónde me bajo", "Dónde me tengo que bajar"] },
+        { "n": "Ask for one ticket.", "t": ["Un boleto por favor", "Un billete por favor"] }
+      ]
+    },
+    {
+      "id": "u08-l3",
+      "title": "Places in town",
+      "goal": "Say where shops and places are.",
+      "tip": {
+        "title": "Little location words",
+        "body": "al lado de (next to), enfrente de (opposite), detrás de (behind), entre … y … (between … and …), al final de (at the end of). De + el becomes del: al lado del banco. Al final de la calle stays as it is."
+      },
+      "phrases": [
+        { "t": "Hay un banco en la plaza.", "n": "There's a bank in the square." },
+        { "t": "El supermercado está al lado del banco.", "n": "The supermarket is next to the bank." },
+        { "t": "La farmacia está enfrente del parque.", "n": "The pharmacy is opposite the park." },
+        { "t": "El hotel está entre el banco y el cine.", "n": "The hotel is between the bank and the cinema." },
+        { "t": "La parada está detrás de la iglesia.", "n": "The stop is behind the church." },
+        { "t": "La biblioteca está al final de la calle.", "n": "The library is at the end of the street." },
+        { "t": "¿Hay un cajero por aquí?", "n": "Is there an ATM around here?", "note": "Full form: cajero automático." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "Meeting Javier in town",
+        "lines": [
+          { "who": "A", "name": "Javier", "t": "¿Dónde estás?", "n": "Where are you?" },
+          { "who": "you", "t": "Estoy en la plaza, al lado de la iglesia.", "n": "I'm in the square, next to the church." },
+          { "who": "A", "name": "Javier", "t": "Vale. Yo estoy en el café enfrente del ayuntamiento.", "n": "OK. I'm in the café opposite the town hall." },
+          { "who": "you", "t": "¿Hay un cajero por aquí?", "n": "Is there an ATM around here?" },
+          { "who": "A", "name": "Javier", "t": "Sí, hay uno en la esquina.", "n": "Yes, there's one on the corner." },
+          { "who": "you", "t": "Perfecto. Voy ahora.", "n": "Perfect. I'm coming now." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say there's a bank in the square.", "t": ["Hay un banco en la plaza"] },
+        { "n": "Say the supermarket is next to the bank.", "t": ["El supermercado está al lado del banco"] },
+        { "n": "Ask if there's an ATM around here.", "t": ["Hay un cajero por aquí", "Hay un cajero automático por aquí", "Hay un cajero cerca"] }
+      ]
+    },
+    {
+      "id": "u08-l4",
+      "kind": "grammar",
+      "title": "hay or está?",
+      "goal": "Say what there is and where things are.",
+      "tip": {
+        "title": "hay = there is, está = it is (located)",
+        "body": "Use hay (\"there is / there are\") to say that something exists, usually with un, una, numbers or no article: Hay un museo. Hay dos farmacias. Hay agua. It never changes. Use está (singular) or están (plural) to say where a specific, known thing is, with el, la, los, las or a name: El museo está en el centro. Las farmacias están en la plaza. So: ¿Hay un banco por aquí? (is there one at all?) but ¿Dónde está el banco? (where is the bank I know about?)."
+      },
+      "phrases": [
+        { "t": "Hay un museo en el centro.", "n": "There's a museum in the centre." },
+        { "t": "Hay dos farmacias en esta calle.", "n": "There are two pharmacies in this street." },
+        { "t": "El museo está en el centro.", "n": "The museum is in the centre." },
+        { "t": "Las farmacias están en la plaza.", "n": "The pharmacies are in the square." },
+        { "t": "¿Dónde está el baño?", "n": "Where is the toilet?", "note": "Also el servicio or el aseo in Spain." }
+      ],
+      "drills": [
+        {
+          "title": "Play with hay",
+          "base": { "t": "Hay un banco aquí.", "n": "There's a bank here." },
+          "items": [
+            { "cue": "dos", "t": "Hay dos bancos aquí.", "n": "There are two banks here." },
+            { "cue": "una farmacia", "t": "Hay una farmacia aquí.", "n": "There's a pharmacy here." },
+            { "cue": "¿por aquí?", "t": "¿Hay un banco por aquí?", "n": "Is there a bank around here?" },
+            { "cue": "no", "t": "No hay bancos aquí.", "n": "There are no banks here." }
+          ]
+        },
+        {
+          "title": "está or están",
+          "base": { "t": "El banco está en la plaza.", "n": "The bank is in the square." },
+          "items": [
+            { "cue": "los bancos", "t": "Los bancos están en la plaza.", "n": "The banks are in the square." },
+            { "cue": "la farmacia", "t": "La farmacia está en la plaza.", "n": "The pharmacy is in the square." },
+            { "cue": "cerca", "t": "El banco está cerca.", "n": "The bank is close." },
+            { "cue": "¿dónde?", "t": "¿Dónde está el banco?", "n": "Where is the bank?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask if there's a supermarket around here.", "t": ["Hay un supermercado por aquí", "Hay un supermercado cerca", "Hay un supermercado por aquí cerca"] },
+        { "n": "Ask where the hotel is.", "t": ["Dónde está el hotel", "Perdone dónde está el hotel", "Disculpe dónde está el hotel"] }
+      ]
+    },
+    {
+      "id": "u08-l5",
+      "kind": "listening",
+      "title": "Where's the hotel?",
+      "goal": "Follow directions at real speed.",
+      "phrases": [
+        { "t": "¿Sabe dónde está el hotel?", "n": "Do you know where the hotel is?" },
+        { "t": "Siga derecho dos cuadras.", "n": "Go straight on for two blocks.", "note": "una cuadra = a block (Latin America); in Spain: una manzana." },
+        { "t": "Dé vuelta a la derecha.", "n": "Turn right.", "note": "Common in Mexico; in Spain gire a la derecha." },
+        { "t": "Son diez minutos caminando.", "n": "It's ten minutes' walk." }
+      ],
+      "story": {
+        "title": "A tourist in Guadalajara",
+        "intro": "A tourist asks a woman in Guadalajara, Mexico, the way to his hotel.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Turista", "voice": "es-MX-LibertoNeural", "t": "Disculpe, señora, ¿sabe dónde está el hotel Las Palmas?", "n": "Excuse me, madam, do you know where the Las Palmas hotel is?" },
+          { "name": "Señora", "t": "Sí, claro. No está lejos. Siga derecho por esta calle dos cuadras.", "n": "Yes, of course. It's not far. Go straight along this street for two blocks." },
+          { "name": "Turista", "voice": "es-MX-LibertoNeural", "t": "¿Dos cuadras? ¿Y luego?", "n": "Two blocks? And then?" },
+          { "name": "Señora", "t": "Luego, en el semáforo, dé vuelta a la derecha. El hotel está a la izquierda, enfrente de un parque.", "n": "Then, at the traffic lights, turn right. The hotel is on the left, opposite a park." },
+          { "name": "Turista", "voice": "es-MX-LibertoNeural", "t": "¿Puedo ir a pie?", "n": "Can I go on foot?" },
+          { "name": "Señora", "t": "Sí, son unos diez minutos caminando. También puede tomar el camión, pero caminando es más bonito.", "n": "Yes, it's about ten minutes' walk. You can also take the bus, but walking is nicer." },
+          { "name": "Turista", "voice": "es-MX-LibertoNeural", "t": "Muchas gracias, muy amable.", "n": "Thank you very much, very kind." }
+        ],
+        "questions": [
+          { "q": "¿Está lejos el hotel?", "n": "Is the hotel far?", "t": ["No", "No está lejos", "Está cerca", "No, está cerca"] },
+          { "q": "¿Dónde da vuelta a la derecha?", "n": "Where does he turn right?", "t": ["En el semáforo", "El semáforo"] },
+          { "q": "¿Qué hay enfrente del hotel?", "n": "What is opposite the hotel?", "t": ["Un parque", "Hay un parque"] }
+        ]
+      }
+    },
+    {
+      "id": "u08-l6",
+      "kind": "roleplay",
+      "title": "On the bus",
+      "goal": "Get the right bus and find your stop.",
+      "phrases": [
+        { "t": "¿Este autobús va a la playa?", "n": "Does this bus go to the beach?" },
+        { "t": "Un billete sencillo, por favor.", "n": "A single ticket, please.", "note": "Latin America: un boleto sencillo." },
+        { "t": "De ida y vuelta.", "n": "Return. (there and back)" },
+        { "t": "¿Cuántas paradas son?", "n": "How many stops is it?" }
+      ],
+      "branch": {
+        "title": "Bus to the beach",
+        "scene": "You're in Málaga and want to go to the beach. You get on a bus and speak to the driver.",
+        "name": "Conductor",
+        "voice": "es-ES-DarioNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenos días!", "n": "Good morning!",
+            "choices": [
+              { "t": "Buenos días. ¿Este autobús va a la playa?", "n": "Good morning. Does this bus go to the beach?", "next": "ticket" },
+              { "t": "Hola. ¿Cuánto cuesta?", "n": "Hi. How much is it?", "next": "where" }
+            ]
+          },
+          "where": {
+            "t": "Depende. ¿Adónde va usted?", "n": "It depends. Where are you going?",
+            "choices": [
+              { "t": "A la playa, por favor.", "n": "To the beach, please.", "next": "ticket" },
+              { "t": "Al aeropuerto.", "n": "To the airport.", "next": "airport" }
+            ]
+          },
+          "airport": {
+            "t": "Este autobús no va al aeropuerto. Tiene que tomar otro autobús.", "n": "This bus doesn't go to the airport. You have to take another bus.",
+            "end": "bad", "outcome": "You said airport, but you wanted the beach! Try again and say where you're really going."
+          },
+          "ticket": {
+            "t": "Sí, va a la playa. ¿Billete sencillo o de ida y vuelta?", "n": "Yes, it goes to the beach. Single or return ticket?",
+            "choices": [
+              { "t": "De ida y vuelta, por favor.", "n": "Return, please.", "next": "pay" },
+              { "t": "Sencillo, por favor.", "n": "Single, please.", "next": "pay" }
+            ]
+          },
+          "pay": {
+            "t": "Aquí tiene. ¿Algo más?", "n": "Here you are. Anything else?",
+            "choices": [
+              { "t": "Sí. ¿Dónde me bajo para la playa?", "n": "Yes. Where do I get off for the beach?", "next": "stop" },
+              { "t": "No, gracias.", "n": "No, thanks.", "next": "missed" }
+            ]
+          },
+          "stop": {
+            "t": "Son seis paradas. Bájese en la plaza del Mar, y la playa está enfrente.", "n": "It's six stops. Get off at Plaza del Mar, and the beach is opposite.",
+            "end": "good", "outcome": "You bought a ticket and know exactly where to get off."
+          },
+          "missed": {
+            "t": "Muy bien. Siéntese, por favor.", "n": "Very well. Take a seat, please.",
+            "end": "bad", "outcome": "You never asked where to get off and rode past the beach. Try asking ¿Dónde me bajo?"
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask the driver if this bus goes to the centre.", "t": ["Este autobús va al centro", "Va al centro", "Este camión va al centro"] },
+        { "n": "Ask for a return ticket.", "t": ["Un billete de ida y vuelta por favor", "De ida y vuelta por favor", "Un boleto de ida y vuelta por favor"] }
+      ]
+    },
+    {
+      "id": "u08-l7",
+      "kind": "speaking",
+      "title": "Show me the way",
+      "goal": "Explain a route for 45 seconds.",
+      "culture": {
+        "title": "Take the bus, don't \"coger\" it",
+        "body": "In Spain people say coger el autobús (\"catch the bus\"), but in Mexico, Argentina and other parts of Latin America coger is a vulgar word for having sex. Say tomar el autobús instead: it's correct everywhere. The bus itself has many names: autobús in Spain (understood everywhere), camión in Mexico, colectivo in Argentina and guagua in the Canary Islands and the Caribbean (Cuba, Puerto Rico, the Dominican Republic). Directions vary too: todo recto in Spain, derecho or todo derecho in much of Latin America.",
+        "regions": ["ES", "MX", "AR", "CU", "PR", "DO"]
+      },
+      "phrases": [
+        { "t": "Tomo el camión.", "n": "I take the bus. (Mexico)" },
+        { "t": "Tomo el colectivo.", "n": "I take the bus. (Argentina)" },
+        { "t": "Voy en guagua.", "n": "I go by bus. (Canary Islands, Caribbean)" },
+        { "t": "Cruce la calle.", "n": "Cross the street." }
+      ],
+      "free": [
+        {
+          "n": "A tourist asks you the way. Explain the route from your hotel to the station.",
+          "hint": "Use Salga del hotel, Siga todo recto, Gire a la derecha / izquierda, Cruce la plaza, Está al lado de / enfrente de …, Está cerca / lejos.",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "go straight on", "any": ["recto", "derecho", "siga", "sigue"] },
+            { "label": "a turn", "any": ["derecha", "izquierda", "gire", "gira", "doble", "dé vuelta"] },
+            { "label": "a landmark", "any": ["plaza", "calle", "semáforo", "esquina", "parque", "banco", "iglesia", "supermercado", "cuadra", "cuadras"] },
+            { "label": "how far", "any": ["cerca", "lejos", "minutos", "a pie"] }
+          ],
+          "model": "Salga del hotel y siga todo recto por esta calle. En el semáforo, gire a la derecha. Cruce la plaza. La estación está a la izquierda, al lado del banco. Está cerca, a cinco minutos a pie."
+        }
+      ],
+      "prompts": [
+        { "n": "You're in Mexico. Say you take the bus.", "t": ["Tomo el camión", "Tomo el autobús"] },
+        { "n": "Tell a tourist it's far and they should take the metro (polite).", "t": ["Está lejos tome el metro", "Está lejos mejor tome el metro", "Está lejos puede tomar el metro"] }
+      ]
+    },
+    {
+      "id": "u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La ciudad",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

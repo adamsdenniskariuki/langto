@@ -1,0 +1,304 @@
+{
+  "id": "u02",
+  "title": "Me llamo…",
+  "subtitle": "Introducing yourself",
+  "icon": "🙋",
+  "lessons": [
+    {
+      "id": "u02-l1",
+      "title": "What's your name?",
+      "goal": "Say your full name and ask for someone else's.",
+      "tip": {
+        "title": "Three ways to say your name",
+        "body": "Me llamo Ana literally means \"I call myself Ana\" and is the most common way. Soy Ana (\"I'm Ana\") is just as natural, and Mi nombre es Ana sounds a little more formal. Spanish ll sounds like the y in \"yes\" in most places, so llamo is \"YA-mo\". To spell, letters have names: te, a, i griega (y), ele, o, erre."
+      },
+      "phrases": [
+        { "t": "Me llamo Alex.", "n": "My name is Alex." },
+        { "t": "Soy Alex.", "n": "I'm Alex." },
+        { "t": "Mi nombre es Alex Taylor.", "n": "My name is Alex Taylor." },
+        { "t": "Mi apellido es Taylor.", "n": "My surname is Taylor." },
+        { "t": "¿Cómo te llamas?", "n": "What's your name? (informal)" },
+        { "t": "¿Cómo se llama usted?", "n": "What's your name? (polite)" },
+        { "t": "¿Cómo se escribe?", "n": "How do you spell it?", "note": "Literally \"How is it written?\"" },
+        { "t": "¿Y tú, cómo te llamas?", "n": "And you, what's your name?" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "At a party in Sevilla",
+        "lines": [
+          { "who": "A", "name": "Marta", "t": "¡Hola! Soy Marta. ¿Y tú, cómo te llamas?", "n": "Hi! I'm Marta. And you, what's your name?" },
+          { "who": "you", "t": "Me llamo Alex. Mucho gusto.", "n": "My name is Alex. Pleased to meet you." },
+          { "who": "A", "name": "Marta", "t": "Igualmente. ¿Alex es tu nombre?", "n": "Likewise. Is Alex your first name?" },
+          { "who": "you", "t": "Sí. Y mi apellido es Taylor.", "n": "Yes. And my surname is Taylor." },
+          { "who": "A", "name": "Marta", "t": "¿Taylor? ¿Cómo se escribe?", "n": "Taylor? How do you spell it?" },
+          { "who": "you", "t": "Te, a, i griega, ele, o, erre.", "n": "T, A, Y, L, O, R." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell someone your name is Alex.", "t": ["Me llamo Alex", "Soy Alex", "Mi nombre es Alex"] },
+        { "n": "Ask a new classmate what their name is.", "t": ["Cómo te llamas", "Y tú cómo te llamas"] },
+        { "n": "Ask how a name is spelt.", "t": ["Cómo se escribe", "Cómo se escribe por favor"] }
+      ]
+    },
+    {
+      "id": "u02-l2",
+      "title": "Where are you from?",
+      "goal": "Say where you're from and where you live.",
+      "tip": {
+        "title": "Nationalities are small and change ending",
+        "body": "Nationalities and languages are written with a small letter: inglés, mexicana. Most have a man's form and a woman's form: un hombre es inglés, una mujer es inglesa; él es americano, ella es americana. Soy de + place (Soy de Londres) never changes, so it's the easiest way to start."
+      },
+      "phrases": [
+        { "t": "¿De dónde eres?", "n": "Where are you from? (informal)" },
+        { "t": "Soy de Inglaterra.", "n": "I'm from England." },
+        { "t": "Soy de Estados Unidos.", "n": "I'm from the United States." },
+        { "t": "Soy inglés.", "n": "I'm English. (man)", "note": "A woman says Soy inglesa." },
+        { "t": "Soy estadounidense.", "n": "I'm American.", "note": "Same for men and women. Americano/americana is also common." },
+        { "t": "¿Dónde vives?", "n": "Where do you live?" },
+        { "t": "Vivo en Londres.", "n": "I live in London." },
+        { "t": "Soy de Manchester, pero vivo en Madrid.", "n": "I'm from Manchester, but I live in Madrid." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Small talk in Oaxaca",
+        "lines": [
+          { "who": "A", "name": "Luis", "t": "¿De dónde eres?", "n": "Where are you from?" },
+          { "who": "you", "t": "Soy de Inglaterra, de Manchester.", "n": "I'm from England, from Manchester." },
+          { "who": "A", "name": "Luis", "t": "¡Qué padre! ¿Y vives en Manchester?", "n": "How cool! (Mexico) And do you live in Manchester?" },
+          { "who": "you", "t": "No, vivo en Londres. ¿Y tú?", "n": "No, I live in London. And you?" },
+          { "who": "A", "name": "Luis", "t": "Yo soy de aquí, de Oaxaca. Soy mexicano.", "n": "I'm from here, from Oaxaca. I'm Mexican." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're from England.", "t": ["Soy de Inglaterra", "Soy inglés", "Soy inglesa"] },
+        { "n": "Ask a friend where they live.", "t": ["Dónde vives", "Y tú dónde vives"] },
+        { "n": "Say you're from Manchester but live in Madrid.", "t": ["Soy de Manchester pero vivo en Madrid"] }
+      ]
+    },
+    {
+      "id": "u02-l3",
+      "title": "Languages",
+      "goal": "Say which languages you speak and ask for help.",
+      "tip": {
+        "title": "español or castellano?",
+        "body": "Both words mean Spanish. Español is used everywhere; in Spain and parts of South America you'll also hear castellano, especially to distinguish it from Catalan, Basque or Galician. Hablo means \"I speak\", hablas \"you speak\": the h is always silent."
+      },
+      "phrases": [
+        { "t": "¿Hablas inglés?", "n": "Do you speak English? (informal)" },
+        { "t": "¿Habla usted inglés?", "n": "Do you speak English? (polite)" },
+        { "t": "Hablo inglés y un poco de español.", "n": "I speak English and a little Spanish." },
+        { "t": "Estoy aprendiendo español.", "n": "I'm learning Spanish." },
+        { "t": "No entiendo.", "n": "I don't understand." },
+        { "t": "¿Puede repetir, por favor?", "n": "Could you repeat that, please?" },
+        { "t": "¿Cómo se dice \"bill\" en español?", "n": "How do you say \"bill\" in Spanish?" },
+        { "t": "¿Qué significa \"vale\"?", "n": "What does \"vale\" mean?" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "At the hostel in Barcelona",
+        "lines": [
+          { "who": "A", "name": "Jordi", "t": "¡Hola! ¿Hablas español?", "n": "Hi! Do you speak Spanish?" },
+          { "who": "you", "t": "Un poco. Estoy aprendiendo español.", "n": "A little. I'm learning Spanish." },
+          { "who": "A", "name": "Jordi", "t": "¡Genial! Yo hablo español, catalán y un poco de inglés.", "n": "Great! I speak Spanish, Catalan and a little English." },
+          { "who": "you", "t": "Perdón, no entiendo. ¿Puede repetir, por favor?", "n": "Sorry, I don't understand. Could you repeat that, please?" },
+          { "who": "A", "name": "Jordi", "t": "Claro. Hablo español… catalán… e inglés.", "n": "Sure. I speak Spanish… Catalan… and English." },
+          { "who": "you", "t": "¡Ah, vale! Gracias.", "n": "Ah, OK! Thanks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you speak English and a little Spanish.", "t": ["Hablo inglés y un poco de español"] },
+        { "n": "Politely ask someone if they speak English.", "t": ["Habla usted inglés", "Habla inglés"] },
+        { "n": "Say you don't understand.", "t": ["No entiendo", "Perdón no entiendo", "Lo siento no entiendo"] }
+      ]
+    },
+    {
+      "id": "u02-l4",
+      "kind": "grammar",
+      "title": "ser: soy, eres, es…",
+      "goal": "Use every form of ser, \"to be\".",
+      "tip": {
+        "title": "ser is irregular: learn it as a chant",
+        "body": "yo soy, tú eres, usted es, él/ella es, nosotros somos, vosotros sois, ustedes son, ellos/ellas son. Use ser for who you are: name, origin, nationality, job. Vosotros sois (\"you all\", informal) is only used in Spain; in Latin America ustedes son is the plural \"you\" for everyone. Usted and ustedes take the él/ellos forms."
+      },
+      "phrases": [
+        { "t": "Yo soy de Escocia.", "n": "I'm from Scotland." },
+        { "t": "¿Tú eres de Madrid?", "n": "Are you from Madrid?" },
+        { "t": "Ella es mexicana.", "n": "She's Mexican." },
+        { "t": "Nosotros somos estudiantes.", "n": "We're students.", "note": "A group of women says nosotras." },
+        { "t": "¿Ustedes son de aquí?", "n": "Are you (all) from here?", "note": "In Spain, friends say ¿Vosotros sois de aquí?" }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": { "t": "Soy de Inglaterra.", "n": "I'm from England." },
+          "items": [
+            { "cue": "tú?", "t": "¿Eres de Inglaterra?", "n": "Are you from England?" },
+            { "cue": "usted?", "t": "¿Es usted de Inglaterra?", "n": "Are you from England? (polite)" },
+            { "cue": "ella", "t": "Ella es de Inglaterra.", "n": "She's from England." },
+            { "cue": "ellos", "t": "Ellos son de Inglaterra.", "n": "They're from England." }
+          ]
+        },
+        {
+          "title": "One or many",
+          "base": { "t": "Soy estudiante.", "n": "I'm a student." },
+          "items": [
+            { "cue": "nosotros", "t": "Somos estudiantes.", "n": "We're students." },
+            { "cue": "vosotros? (Spain)", "t": "¿Sois estudiantes?", "n": "Are you (all) students?" },
+            { "cue": "ustedes?", "t": "¿Son ustedes estudiantes?", "n": "Are you (all) students?" },
+            { "cue": "él", "t": "Él es estudiante.", "n": "He's a student." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say that we are from London.", "t": ["Somos de Londres", "Nosotros somos de Londres", "Nosotras somos de Londres"] },
+        { "n": "Ask a group in Mexico where they're from.", "t": ["De dónde son ustedes", "De dónde son"] }
+      ]
+    },
+    {
+      "id": "u02-l5",
+      "kind": "listening",
+      "title": "First Spanish class",
+      "goal": "Understand classmates introducing themselves at normal speed.",
+      "phrases": [
+        { "t": "Bienvenidos a la clase.", "n": "Welcome to the class." },
+        { "t": "Preséntate, por favor.", "n": "Introduce yourself, please. (informal)" },
+        { "t": "Soy profesora de español.", "n": "I'm a Spanish teacher. (woman)", "note": "A man says profesor." },
+        { "t": "Vivo aquí desde enero.", "n": "I've lived here since January." }
+      ],
+      "story": {
+        "title": "The first lesson in Salamanca",
+        "intro": "On the first morning of a language course in Salamanca, the teacher asks a student to introduce himself.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Profesora", "t": "¡Buenos días a todos! Bienvenidos a la clase. Me llamo Elena y soy profesora de español.", "n": "Good morning, everyone! Welcome to the class. My name is Elena and I'm a Spanish teacher." },
+          { "name": "Profesora", "t": "Y tú, ¿cómo te llamas? Preséntate, por favor.", "n": "And you, what's your name? Introduce yourself, please." },
+          { "name": "Diego", "voice": "es-MX-LibertoNeural", "t": "Hola, me llamo Diego. Soy mexicano, de Monterrey.", "n": "Hi, my name is Diego. I'm Mexican, from Monterrey." },
+          { "name": "Profesora", "t": "¡Ah! Pero tú ya hablas español.", "n": "Oh! But you already speak Spanish." },
+          { "name": "Diego", "voice": "es-MX-LibertoNeural", "t": "Sí, claro. Soy profesor de inglés y vivo aquí desde enero. Estoy aquí para ayudar.", "n": "Yes, of course. I'm an English teacher and I've lived here since January. I'm here to help." },
+          { "name": "Profesora", "t": "¡Perfecto! Diego habla español e inglés. Somos dos profesores hoy.", "n": "Perfect! Diego speaks Spanish and English. We're two teachers today." }
+        ],
+        "questions": [
+          { "q": "¿Cómo se llama la profesora?", "n": "What is the teacher called?", "t": ["Elena", "Se llama Elena"] },
+          { "q": "¿De dónde es Diego?", "n": "Where is Diego from?", "t": ["De Monterrey", "De México", "Es de Monterrey", "Es mexicano"] },
+          { "q": "¿Qué idiomas habla Diego?", "n": "Which languages does Diego speak?", "t": ["Español e inglés", "Inglés y español", "Habla español e inglés"] }
+        ]
+      }
+    },
+    {
+      "id": "u02-l6",
+      "kind": "roleplay",
+      "title": "Hotel check-in",
+      "goal": "Give your name, spell it and answer questions at reception.",
+      "phrases": [
+        { "t": "Tengo una reservación.", "n": "I have a reservation.", "note": "Mexico; in Spain people say Tengo una reserva." },
+        { "t": "Aquí tiene mi pasaporte.", "n": "Here's my passport." },
+        { "t": "¿Cuál es su apellido?", "n": "What's your surname? (polite)" },
+        { "t": "Su habitación es la doce.", "n": "Your room is number twelve." }
+      ],
+      "branch": {
+        "title": "At reception",
+        "scene": "You arrive at a small hotel in Guadalajara, Mexico, in the evening.",
+        "name": "Recepcionista",
+        "voice": "es-MX-JorgeNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenas noches! ¿En qué le puedo servir?", "n": "Good evening! How can I help you?",
+            "choices": [
+              { "t": "Buenas noches. Tengo una reservación.", "n": "Good evening. I have a reservation.", "next": "name" },
+              { "t": "¿Habla usted inglés?", "n": "Do you speak English?", "next": "english" }
+            ]
+          },
+          "english": {
+            "t": "Lo siento, solo un poquito. ¿Habla usted español?", "n": "Sorry, only a tiny bit. Do you speak Spanish?",
+            "choices": [
+              { "t": "Sí, un poco. Tengo una reservación.", "n": "Yes, a little. I have a reservation.", "next": "name" },
+              { "t": "No, nada.", "n": "No, not at all.", "next": "lost" }
+            ]
+          },
+          "lost": {
+            "t": "Mmm… Un momento, por favor…", "n": "Hmm… One moment, please…",
+            "end": "bad", "outcome": "You gave up on Spanish and got stuck. Try again: you know enough to check in!"
+          },
+          "name": {
+            "t": "Muy bien. ¿Cuál es su apellido?", "n": "Very good. What's your surname?",
+            "choices": [
+              { "t": "Mi apellido es Taylor.", "n": "My surname is Taylor.", "next": "spell" },
+              { "t": "Me llamo Alex Taylor.", "n": "My name is Alex Taylor.", "next": "spell" }
+            ]
+          },
+          "spell": {
+            "t": "¿Taylor? ¿Cómo se escribe, por favor?", "n": "Taylor? How do you spell that, please?",
+            "choices": [
+              { "t": "Te, a, i griega, ele, o, erre.", "n": "T, A, Y, L, O, R.", "next": "passport" },
+              { "t": "No sé.", "n": "I don't know.", "next": "confused" }
+            ]
+          },
+          "confused": {
+            "t": "¿No sabe cómo se escribe su apellido?", "n": "You don't know how to spell your surname?",
+            "choices": [
+              { "t": "Perdón. Aquí tiene mi pasaporte.", "n": "Sorry. Here's my passport.", "next": "passport" }
+            ]
+          },
+          "passport": {
+            "t": "Gracias. Sí, aquí está su reservación. ¿De dónde es usted?", "n": "Thank you. Yes, here's your reservation. Where are you from?",
+            "choices": [
+              { "t": "Soy de Inglaterra, de Londres.", "n": "I'm from England, from London.", "next": "room" },
+              { "t": "Soy de Escocia.", "n": "I'm from Scotland.", "next": "room" }
+            ]
+          },
+          "room": {
+            "t": "¡Qué bien! Su habitación es la doce. ¡Que descanse!", "n": "How nice! Your room is number twelve. Have a good rest!",
+            "end": "good", "outcome": "You checked in completely in Spanish and got your key."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "At reception, say you have a reservation.", "t": ["Tengo una reservación", "Tengo una reserva", "Buenas noches tengo una reserva"] },
+        { "n": "Hand over your passport.", "t": ["Aquí tiene mi pasaporte", "Aquí tiene"] }
+      ]
+    },
+    {
+      "id": "u02-l7",
+      "kind": "speaking",
+      "title": "All about me",
+      "goal": "Introduce yourself freely for 45 seconds.",
+      "culture": {
+        "title": "tú, usted, vosotros, ustedes",
+        "body": "For one person, Spanish has informal tú and polite usted; Spaniards switch to tú quickly, while in much of Latin America usted lasts longer, especially with older people and in shops. For several people, Spain uses vosotros among friends and ustedes for polite situations. In Latin America (and the Canary Islands) vosotros isn't used at all: ustedes covers every group, friends included. You'll understand vosotros in films and books from Spain, but ustedes always works.",
+        "regions": ["ES", "MX", "CO"]
+      },
+      "phrases": [
+        { "t": "¿Nos tuteamos?", "n": "Shall we use tú with each other?" },
+        { "t": "Puedes tratarme de tú.", "n": "You can call me tú." },
+        { "t": "¿Vosotros sois amigos?", "n": "Are you (all) friends? (Spain)" },
+        { "t": "¿Ustedes son amigos?", "n": "Are you (all) friends? (everywhere)" }
+      ],
+      "free": [
+        {
+          "n": "Introduce yourself: your name, where you're from, where you live and which languages you speak.",
+          "hint": "Me llamo …, Soy de …, Vivo en …, Hablo inglés y un poco de español.",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "your name", "any": ["me llamo", "mi nombre es", "soy", "mi apellido"] },
+            { "label": "where you're from", "any": ["soy de", "inglés", "inglesa", "estadounidense", "americano", "americana"] },
+            { "label": "where you live", "any": ["vivo en", "vivo"] },
+            { "label": "languages", "any": ["hablo", "inglés", "español", "francés", "alemán", "un poco"] }
+          ],
+          "model": "¡Hola! Me llamo Alex Taylor. Soy de Inglaterra, de Manchester, pero vivo en Londres. Hablo inglés y un poco de español. Estoy aprendiendo español. ¡Mucho gusto!"
+        }
+      ],
+      "prompts": [
+        { "n": "Suggest to a new acquaintance that you use tú.", "t": ["Nos tuteamos", "Puedes tratarme de tú"] },
+        { "n": "Ask a group of friends in Mexico if they're from here.", "t": ["Ustedes son de aquí", "Son de aquí"] }
+      ]
+    },
+    {
+      "id": "u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Me llamo…",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

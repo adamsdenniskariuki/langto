@@ -1,0 +1,294 @@
+{
+  "id": "u05",
+  "title": "La familia",
+  "subtitle": "Family, people & pets",
+  "icon": "👨‍👩‍👧",
+  "lessons": [
+    {
+      "id": "u05-l1",
+      "title": "My family",
+      "goal": "Introduce your family members.",
+      "tip": {
+        "title": "padres = parents",
+        "body": "Spanish uses the masculine plural for mixed groups: los padres means \"the parents\" (not only fathers), los hermanos can mean \"brothers and sisters\", and los abuelos \"grandparents\". So ¿Tienes hermanos? simply asks \"Do you have siblings?\". In everyday speech people say mamá and papá, with the stress on the last syllable."
+      },
+      "phrases": [
+        { "t": "Esta es mi madre.", "n": "This is my mother." },
+        { "t": "Este es mi padre.", "n": "This is my father." },
+        { "t": "Tengo un hermano y una hermana.", "n": "I have a brother and a sister." },
+        { "t": "¿Tienes hermanos?", "n": "Do you have brothers and sisters?", "note": "hermanos covers siblings of either sex." },
+        { "t": "Soy hijo único.", "n": "I'm an only child. (man; a woman says hija única)" },
+        { "t": "Mis padres viven en Sevilla.", "n": "My parents live in Seville." },
+        { "t": "Mis abuelos son muy cariñosos.", "n": "My grandparents are very affectionate." },
+        { "t": "Mi tía tiene dos hijos.", "n": "My aunt has two children.", "note": "hijos = sons, or children of either sex." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Photos on the phone",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¿Quién es esta?", "n": "Who's this?" },
+          { "who": "you", "t": "Esta es mi madre, y este es mi padre.", "n": "This is my mother, and this is my father." },
+          { "who": "A", "name": "Lucía", "t": "¡Qué guapos! ¿Tienes hermanos?", "n": "They look lovely! Do you have siblings?" },
+          { "who": "you", "t": "Sí, tengo una hermana. ¿Y tú?", "n": "Yes, I have a sister. And you?" },
+          { "who": "A", "name": "Lucía", "t": "Yo tengo dos hermanos y muchos primos.", "n": "I have two brothers and lots of cousins." }
+        ]
+      },
+      "prompts": [
+        { "n": "Show a photo and say \"This is my mother\".", "t": ["Esta es mi madre", "Esta es mi mamá"] },
+        { "n": "Ask a friend if they have brothers and sisters.", "t": ["Tienes hermanos", "Tienes hermanos o hermanas"] },
+        { "n": "Say you have a brother.", "t": ["Tengo un hermano", "Tengo un hermano mayor", "Tengo un hermano menor"] }
+      ]
+    },
+    {
+      "id": "u05-l2",
+      "title": "What are they like?",
+      "goal": "Describe how people look and what they're like.",
+      "tip": {
+        "title": "Adjectives match the person",
+        "body": "Adjectives ending in -o change to -a for a woman: mi hermano es alto, mi hermana es alta. Adjectives ending in -e or a consonant usually stay the same: amable, joven. For looks, use tener: tiene el pelo corto (he/she has short hair), tiene los ojos verdes. Mayor is the polite word for \"old\"; viejo can sound rude about people."
+      },
+      "phrases": [
+        { "t": "¿Cómo es tu hermana?", "n": "What's your sister like?" },
+        { "t": "Es alta y muy simpática.", "n": "She's tall and very nice.", "note": "For a man: alto, simpático." },
+        { "t": "Mi hermano es bajo y delgado.", "n": "My brother is short and slim." },
+        { "t": "Tiene el pelo largo.", "n": "He/She has long hair." },
+        { "t": "Tiene los ojos azules.", "n": "He/She has blue eyes." },
+        { "t": "Mi abuela es mayor pero muy activa.", "n": "My grandmother is elderly but very active." },
+        { "t": "Es joven y divertido.", "n": "He's young and fun.", "note": "For a woman: joven y divertida." },
+        { "t": "Lleva gafas.", "n": "He/She wears glasses.", "note": "In Latin America also: usa lentes." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Who's coming to the party?",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¿Viene tu hermana a la fiesta? ¿Cómo es?", "n": "Is your sister coming to the party? What's she like?" },
+          { "who": "you", "t": "Sí, viene. Es alta y tiene el pelo largo.", "n": "Yes, she's coming. She's tall and has long hair." },
+          { "who": "A", "name": "Diego", "t": "¿Y es simpática?", "n": "And is she nice?" },
+          { "who": "you", "t": "¡Muy simpática y muy divertida!", "n": "Very nice and very fun!" },
+          { "who": "A", "name": "Diego", "t": "¡Órale, qué bien!", "n": "Cool, great!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what their brother is like.", "t": ["Cómo es tu hermano"] },
+        { "n": "Say your sister is tall and nice.", "t": ["Mi hermana es alta y simpática", "Es alta y simpática", "Mi hermana es alta y muy simpática"] },
+        { "n": "Say he has blue eyes.", "t": ["Tiene los ojos azules", "Él tiene los ojos azules"] }
+      ]
+    },
+    {
+      "id": "u05-l3",
+      "title": "Pets",
+      "goal": "Talk about your pets.",
+      "tip": {
+        "title": "Pets are part of the family",
+        "body": "Mascota means pet. Perro (dog) and gato (cat) change to perra and gata for females. Spanish uses the same verb for pets as for family: tengo un perro, tengo dos hermanos. Tiny animals often get a diminutive: perrito, gatito (doggy, kitty)."
+      },
+      "phrases": [
+        { "t": "¿Tienes mascotas?", "n": "Do you have pets?" },
+        { "t": "Tengo un perro.", "n": "I have a dog." },
+        { "t": "Tengo dos gatos.", "n": "I have two cats." },
+        { "t": "Mi perro se llama Toby.", "n": "My dog is called Toby." },
+        { "t": "Es muy juguetón.", "n": "He's very playful.", "note": "For a female animal: juguetona." },
+        { "t": "No tengo mascotas.", "n": "I don't have any pets." },
+        { "t": "¡Qué perrito tan bonito!", "n": "What a cute little dog!" },
+        { "t": "Me encantan los animales.", "n": "I love animals." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "In the park",
+        "lines": [
+          { "who": "you", "t": "¡Qué perrito tan bonito! ¿Cómo se llama?", "n": "What a cute little dog! What's his name?" },
+          { "who": "A", "name": "Javier", "t": "Se llama Coco. Tiene dos años.", "n": "He's called Coco. He's two years old." },
+          { "who": "A", "name": "Javier", "t": "¿Tienes mascotas?", "n": "Do you have pets?" },
+          { "who": "you", "t": "Sí, tengo dos gatos. Me encantan los animales.", "n": "Yes, I have two cats. I love animals." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask someone if they have pets.", "t": ["Tienes mascotas", "Tiene mascotas", "Tienes una mascota"] },
+        { "n": "Say you have a dog.", "t": ["Tengo un perro", "Tengo una perra", "Tengo un perrito"] },
+        { "n": "Say you don't have any pets.", "t": ["No tengo mascotas", "No tengo mascota"] }
+      ]
+    },
+    {
+      "id": "u05-l4",
+      "kind": "grammar",
+      "title": "mi, tu, su: possessives",
+      "goal": "Say whose family member it is.",
+      "tip": {
+        "title": "Possessives match the thing owned, not the owner",
+        "body": "mi (my), tu (your), su (his/her/your polite/their) add -s when the noun is plural: mi hermano, mis hermanos; su perro, sus perros. Nuestro (our) and vuestro (your, plural, Spain only) also change for gender: nuestra madre, nuestros abuelos. Note tu (your) has no accent; tú (you) does. Because su has many meanings, people add de … to be clear: el perro de Ana."
+      },
+      "phrases": [
+        { "t": "Mi hermano vive en Madrid.", "n": "My brother lives in Madrid." },
+        { "t": "Mis hermanos viven en Madrid.", "n": "My brothers and sisters live in Madrid." },
+        { "t": "¿Cómo se llama tu madre?", "n": "What's your mother's name?" },
+        { "t": "Su perro es muy grande.", "n": "His/Her/Their dog is very big." },
+        { "t": "Nuestra abuela tiene ochenta años.", "n": "Our grandmother is eighty years old." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the owner",
+          "base": { "t": "Mi hermano es simpático.", "n": "My brother is nice." },
+          "items": [
+            { "cue": "tu", "t": "Tu hermano es simpático.", "n": "Your brother is nice." },
+            { "cue": "su", "t": "Su hermano es simpático.", "n": "His/Her brother is nice." },
+            { "cue": "nuestro", "t": "Nuestro hermano es simpático.", "n": "Our brother is nice." },
+            { "cue": "vuestro (Spain)", "t": "Vuestro hermano es simpático.", "n": "Your (plural) brother is nice." }
+          ]
+        },
+        {
+          "title": "Make it plural",
+          "base": { "t": "Mi primo vive en México.", "n": "My cousin lives in Mexico." },
+          "items": [
+            { "cue": "primos", "t": "Mis primos viven en México.", "n": "My cousins live in Mexico." },
+            { "cue": "tu · tíos", "t": "Tus tíos viven en México.", "n": "Your aunt and uncle live in Mexico." },
+            { "cue": "nuestro · abuelos", "t": "Nuestros abuelos viven en México.", "n": "Our grandparents live in Mexico." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say \"my parents live in London\".", "t": ["Mis padres viven en Londres"] },
+        { "n": "Say \"our grandmother is very nice\".", "t": ["Nuestra abuela es muy simpática", "Nuestra abuela es muy amable"] }
+      ]
+    },
+    {
+      "id": "u05-l5",
+      "kind": "listening",
+      "title": "Sunday at grandma's",
+      "goal": "Follow a family description at natural speed.",
+      "phrases": [
+        { "t": "Los domingos comemos en casa de mi abuela.", "n": "On Sundays we have lunch at my grandmother's." },
+        { "t": "Somos muchos.", "n": "There are a lot of us." },
+        { "t": "mi hermano mayor", "n": "my older brother" },
+        { "t": "mi hermana menor", "n": "my younger sister" }
+      ],
+      "story": {
+        "title": "A big family",
+        "intro": "Valeria, from Guadalajara, tells her friend Carlos about her family lunch.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Carlos", "voice": "es-MX-LibertoNeural", "t": "Oye, Valeria, ¿qué haces el domingo?", "n": "Hey, Valeria, what are you doing on Sunday?" },
+          { "name": "Valeria", "t": "Los domingos comemos en casa de mi abuela. Es una tradición.", "n": "On Sundays we have lunch at my grandmother's. It's a tradition." },
+          { "name": "Carlos", "voice": "es-MX-LibertoNeural", "t": "¿Y quién va?", "n": "And who goes?" },
+          { "name": "Valeria", "t": "Mis papás, mi hermano mayor con su esposa, mis tíos y mis primos. ¡Somos muchos!", "n": "My parents, my older brother with his wife, my aunt and uncle and my cousins. There are a lot of us!" },
+          { "name": "Carlos", "voice": "es-MX-LibertoNeural", "t": "¿Y tu abuela cocina para todos?", "n": "And your grandmother cooks for everyone?" },
+          { "name": "Valeria", "t": "Sí, tiene setenta y cinco años y cocina muy rico. Mi hermana menor y yo la ayudamos.", "n": "Yes, she's seventy-five and cooks really well. My younger sister and I help her." },
+          { "name": "Carlos", "voice": "es-MX-LibertoNeural", "t": "¡Qué bonito! Yo solo veo a mi familia en Navidad.", "n": "How lovely! I only see my family at Christmas." }
+        ],
+        "questions": [
+          { "q": "¿Dónde comen los domingos?", "n": "Where do they have lunch on Sundays?", "t": ["En casa de su abuela", "En casa de la abuela", "Con su abuela", "En casa de mi abuela"] },
+          { "q": "¿Cuántos años tiene la abuela?", "n": "How old is the grandmother?", "t": ["Setenta y cinco", "Tiene setenta y cinco años", "Setenta y cinco años"] },
+          { "q": "¿Quién ayuda a la abuela?", "n": "Who helps the grandmother?", "t": ["Valeria y su hermana", "Valeria y su hermana menor", "Su hermana y ella", "Valeria"] }
+        ]
+      }
+    },
+    {
+      "id": "u05-l6",
+      "kind": "roleplay",
+      "title": "Meeting a friend's family",
+      "goal": "Chat about your family. Your choices steer the chat.",
+      "phrases": [
+        { "t": "Mucho gusto, señora.", "n": "Pleased to meet you, madam." },
+        { "t": "Mi familia vive en Inglaterra.", "n": "My family lives in England." },
+        { "t": "Tengo una hermana menor.", "n": "I have a younger sister." },
+        { "t": "Aquí tiene una foto.", "n": "Here's a photo. (polite)" }
+      ],
+      "branch": {
+        "title": "Lunch with Doña Pilar",
+        "scene": "Your friend Marta invites you to Sunday lunch in Valencia. Her grandmother, Doña Pilar, is very curious about you.",
+        "name": "Doña Pilar",
+        "voice": "es-ES-ElviraNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Hola, qué alegría! Yo soy Pilar, la abuela de Marta.", "n": "Hello, how lovely! I'm Pilar, Marta's grandmother.",
+            "choices": [
+              { "t": "Mucho gusto, señora. Gracias por la invitación.", "n": "Pleased to meet you, madam. Thanks for the invitation.", "next": "family" },
+              { "t": "Hola. ¿Dónde está la comida?", "n": "Hi. Where's the food?", "next": "rude" }
+            ]
+          },
+          "rude": {
+            "t": "¡Ay, qué prisa! Primero cuéntame: ¿y tu familia?", "n": "Oh, what a hurry! First tell me: what about your family?",
+            "choices": [
+              { "t": "Perdón. Mi familia vive en Inglaterra.", "n": "Sorry. My family lives in England.", "next": "family" },
+              { "t": "No quiero hablar. Tengo hambre.", "n": "I don't want to talk. I'm hungry.", "next": "bad" }
+            ]
+          },
+          "family": {
+            "t": "¿Y tienes hermanos?", "n": "And do you have brothers and sisters?",
+            "choices": [
+              { "t": "Sí, tengo una hermana menor.", "n": "Yes, I have a younger sister.", "next": "sister" },
+              { "t": "No, no tengo hermanos. Pero tengo un perro.", "n": "No, I don't have siblings. But I have a dog.", "next": "dog" }
+            ]
+          },
+          "sister": {
+            "t": "¡Qué bien! ¿Y cómo es tu hermana?", "n": "How nice! And what's your sister like?",
+            "choices": [
+              { "t": "Es muy simpática. Aquí tiene una foto.", "n": "She's very nice. Here's a photo.", "next": "photo" },
+              { "t": "Es alta y tiene el pelo corto.", "n": "She's tall and has short hair.", "next": "photo" }
+            ]
+          },
+          "dog": {
+            "t": "¡Un perro! A mí me encantan los perros. ¿Cómo se llama?", "n": "A dog! I love dogs. What's his name?",
+            "choices": [
+              { "t": "Se llama Max. Aquí tiene una foto.", "n": "He's called Max. Here's a photo.", "next": "photo" }
+            ]
+          },
+          "photo": {
+            "t": "¡Qué bonito! Bueno, a la mesa, que la paella se enfría.", "n": "How lovely! Right, to the table, the paella is getting cold.",
+            "end": "good", "outcome": "You charmed Marta's grandmother and earned a big plate of paella."
+          },
+          "bad": {
+            "t": "Hmm… Bueno, Marta, vamos a comer.", "n": "Hmm… Well, Marta, let's eat.",
+            "end": "bad", "outcome": "Doña Pilar wasn't impressed. Try again and talk about your family first."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say your family lives in England.", "t": ["Mi familia vive en Inglaterra"] },
+        { "n": "Say you have a younger sister.", "t": ["Tengo una hermana menor", "Tengo una hermana pequeña"] }
+      ]
+    },
+    {
+      "id": "u05-l7",
+      "kind": "speaking",
+      "title": "Introduce your family",
+      "goal": "Talk about your family for 45 seconds.",
+      "culture": {
+        "title": "Abuelos, primos and Sunday lunch",
+        "body": "In Spain and Latin America the family often means the extended family: grandparents, aunts, uncles and cousins. Many families get together for a long lunch at the weekend, often at the grandparents' house, and grandparents frequently help look after the children. Young adults often live with their parents for longer than in many English-speaking countries. Everyone says mamá and papá, and in Mexico mis papás means \"my parents\". People also have two surnames: the first from the father and the second from the mother, traditionally.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Mi familia es pequeña.", "n": "My family is small." },
+        { "t": "Mi familia es muy grande.", "n": "My family is very big." },
+        { "t": "Mis papás viven en Monterrey.", "n": "My parents live in Monterrey.", "note": "mis papás = my parents (very common in Latin America)." },
+        { "t": "Veo a mis abuelos los domingos.", "n": "I see my grandparents on Sundays." }
+      ],
+      "free": [
+        {
+          "n": "Introduce your family: who they are, what they're like, where they live, and any pets.",
+          "hint": "Mi familia es … · Tengo un hermano / una hermana … · Mi madre se llama … · Es simpático/a … · Tengo un perro …",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "a family member", "any": ["madre", "padre", "mamá", "papá", "hermano", "hermana", "hermanos", "abuelo", "abuela", "abuelos", "padres", "papás", "tío", "tía", "primo", "prima", "hijo", "hija"] },
+            { "label": "a possessive", "any": ["mi", "mis", "nuestro", "nuestra", "nuestros"] },
+            { "label": "a description", "any": ["alto", "alta", "bajo", "baja", "simpático", "simpática", "joven", "mayor", "divertido", "divertida", "pelo", "ojos", "grande", "pequeña", "amable"] },
+            { "label": "where they live or a pet", "any": ["vive", "viven", "perro", "gato", "gatos", "mascota"] }
+          ],
+          "model": "Mi familia es pequeña. Mi madre se llama Sarah y mi padre se llama John. Viven en Londres. Tengo una hermana menor. Es muy simpática y tiene el pelo largo. También tenemos un perro, se llama Max."
+        }
+      ],
+      "prompts": [
+        { "n": "Say your family is very big.", "t": ["Mi familia es muy grande", "Mi familia es grande"] },
+        { "n": "Say you see your grandparents on Sundays.", "t": ["Veo a mis abuelos los domingos", "Los domingos veo a mis abuelos"] }
+      ]
+    },
+    {
+      "id": "u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La familia",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

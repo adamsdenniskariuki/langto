@@ -1,0 +1,298 @@
+{
+  "id": "u04",
+  "title": "En el bar",
+  "subtitle": "Ordering & paying",
+  "icon": "☕",
+  "lessons": [
+    {
+      "id": "u04-l1",
+      "title": "Ordering a drink",
+      "goal": "Order coffee, juice and drinks politely.",
+      "tip": {
+        "title": "quiero, ¿me pone…?, ¿me da…?",
+        "body": "In a bar, Spanish speakers are direct: Un café, por favor or Quiero un café, por favor is perfectly polite, as long as you add por favor. In Spain you'll hear ¿Me pone un café? (\"Will you put me a coffee?\"); in Mexico and elsewhere ¿Me da un café? or ¿Me trae un café?. Juice is zumo in Spain and jugo in Latin America."
+      },
+      "phrases": [
+        { "t": "¿Qué le pongo?", "n": "What can I get you? (Spain, polite)", "note": "Among younger people: ¿Qué te pongo?" },
+        { "t": "Un café con leche, por favor.", "n": "A white coffee, please." },
+        { "t": "Quiero una cerveza, por favor.", "n": "I'd like a beer, please." },
+        { "t": "¿Me pone un zumo de naranja?", "n": "Can I have an orange juice? (Spain)" },
+        { "t": "¿Me da un jugo de naranja?", "n": "Can I have an orange juice? (Latin America)" },
+        { "t": "Una caña, por favor.", "n": "A small draught beer, please.", "note": "Spain. A caña is a small glass of beer on tap." },
+        { "t": "Un agua sin gas.", "n": "A still water.", "note": "Sparkling is con gas. Agua is feminine, but says un agua / el agua." },
+        { "t": "Vale.", "n": "OK.", "note": "Very Spanish. In Mexico you'll hear está bien or, informally, órale." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Breakfast at the bar in Madrid",
+        "lines": [
+          { "who": "A", "name": "Camarero", "t": "¡Buenos días! ¿Qué le pongo?", "n": "Good morning! What can I get you?" },
+          { "who": "you", "t": "Un café con leche, por favor.", "n": "A white coffee, please." },
+          { "who": "A", "name": "Camarero", "t": "Muy bien. ¿Algo más?", "n": "Very good. Anything else?" },
+          { "who": "you", "t": "Sí, ¿me pone un zumo de naranja?", "n": "Yes, can I have an orange juice?" },
+          { "who": "A", "name": "Camarero", "t": "Vale, ahora mismo.", "n": "OK, right away." },
+          { "who": "you", "t": "Gracias.", "n": "Thanks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Order a white coffee.", "t": ["Un café con leche por favor", "Quiero un café con leche", "Me pone un café con leche", "Me da un café con leche"] },
+        { "n": "Order an orange juice (zumo in Spain, jugo in Latin America).", "t": ["Un zumo de naranja por favor", "Un jugo de naranja por favor", "Me pone un zumo de naranja", "Me da un jugo de naranja"] },
+        { "n": "In Spain: order a small draught beer.", "t": ["Una caña por favor", "Me pone una caña", "Quiero una caña"] }
+      ]
+    },
+    {
+      "id": "u04-l2",
+      "title": "The bill, please",
+      "goal": "Call the waiter, ask for the bill and pay.",
+      "tip": {
+        "title": "camarero, mesero and the tip",
+        "body": "A waiter is a camarero/camarera in Spain and a mesero/mesera in Mexico and much of Latin America. To call one, just say ¡Disculpe! or ¡Perdone!. The bill only comes when you ask for it. In Spain tipping is small and optional, often just rounding up; in Mexico a tip (propina) of around 10 to 15 percent is customary in restaurants."
+      },
+      "phrases": [
+        { "t": "¡Disculpe!", "n": "Excuse me! (to call the waiter)" },
+        { "t": "La cuenta, por favor.", "n": "The bill, please." },
+        { "t": "¿Cuánto es?", "n": "How much is it?" },
+        { "t": "Son noventa pesos.", "n": "That's ninety pesos." },
+        { "t": "¿Puedo pagar con tarjeta?", "n": "Can I pay by card?" },
+        { "t": "En efectivo.", "n": "In cash." },
+        { "t": "¿Todo junto o por separado?", "n": "All together or separately?" },
+        { "t": "Quédese con el cambio.", "n": "Keep the change. (polite)" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Paying in a café in Mexico City",
+        "lines": [
+          { "who": "you", "t": "¡Disculpe! La cuenta, por favor.", "n": "Excuse me! The bill, please." },
+          { "who": "A", "name": "Mesera", "t": "Claro. Son noventa pesos.", "n": "Sure. That's ninety pesos." },
+          { "who": "you", "t": "¿Puedo pagar con tarjeta?", "n": "Can I pay by card?" },
+          { "who": "A", "name": "Mesera", "t": "Sí, claro. ¿Le agrego la propina?", "n": "Yes, of course. Shall I add the tip?" },
+          { "who": "you", "t": "Sí, por favor. Muy amable.", "n": "Yes, please. Very kind." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask for the bill.", "t": ["La cuenta por favor", "Disculpe la cuenta por favor", "Me trae la cuenta por favor"] },
+        { "n": "Ask if you can pay by card.", "t": ["Puedo pagar con tarjeta", "Se puede pagar con tarjeta"] },
+        { "n": "Tell the waiter politely to keep the change.", "t": ["Quédese con el cambio"] }
+      ]
+    },
+    {
+      "id": "u04-l3",
+      "title": "Tapas",
+      "goal": "Order tapas and raciones to share.",
+      "tip": {
+        "title": "tapa, media ración, ración",
+        "body": "A tapa is a small bite, often eaten standing at the bar with a drink. A ración is a full plate to share, and a media ración is half of one. In some cities, such as Granada, a small tapa often comes free with each drink. Potato is patata in Spain and papa in Latin America."
+      },
+      "phrases": [
+        { "t": "¿Qué tapas tienen?", "n": "What tapas do you have?" },
+        { "t": "¿Qué me recomienda?", "n": "What do you recommend? (polite)" },
+        { "t": "Una ración de patatas bravas.", "n": "A plate of patatas bravas.", "note": "Fried potatoes with a spicy sauce." },
+        { "t": "Una tapa de tortilla.", "n": "A tapa of Spanish omelette.", "note": "In Spain, tortilla is a potato omelette; in Mexico it's a corn or flour flatbread." },
+        { "t": "Unas aceitunas, por favor.", "n": "Some olives, please." },
+        { "t": "Para compartir.", "n": "To share." },
+        { "t": "Nada más, gracias.", "n": "Nothing else, thanks." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Tapas in Granada",
+        "lines": [
+          { "who": "A", "name": "Camarera", "t": "¿Y para comer?", "n": "And to eat?" },
+          { "who": "you", "t": "¿Qué me recomienda?", "n": "What do you recommend?" },
+          { "who": "A", "name": "Camarera", "t": "La tortilla está muy buena. Y las bravas también.", "n": "The tortilla is very good. And the bravas too." },
+          { "who": "you", "t": "Pues una ración de bravas para compartir, por favor.", "n": "Then a plate of bravas to share, please." },
+          { "who": "A", "name": "Camarera", "t": "Vale. ¿Algo más?", "n": "OK. Anything else?" },
+          { "who": "you", "t": "Unas aceitunas. Nada más, gracias.", "n": "Some olives. Nothing else, thanks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask the waiter what they recommend.", "t": ["Qué me recomienda", "Qué me recomiendas"] },
+        { "n": "Order a plate of patatas bravas to share.", "t": ["Una ración de patatas bravas para compartir", "Una ración de bravas para compartir", "Una ración de patatas bravas"] },
+        { "n": "Say that's all, thanks.", "t": ["Nada más gracias", "No nada más gracias"] }
+      ]
+    },
+    {
+      "id": "u04-l4",
+      "kind": "grammar",
+      "title": "el, la, un, una & plurals",
+      "goal": "Use the right article and make nouns plural.",
+      "tip": {
+        "title": "Every noun is masculine or feminine",
+        "body": "Masculine: el café, un bocadillo. Feminine: la cerveza, una tapa. Words in -o are usually masculine and words in -a usually feminine, but learn the article with each noun (el día, la leche). Plural: add -s after a vowel (los cafés, las tapas) and -es after a consonant (el bar → los bares, la ración → las raciones). Unos/unas means \"some\". Adjectives agree too: el café está bueno, las tapas están buenas."
+      },
+      "phrases": [
+        { "t": "El café y los cafés.", "n": "The coffee and the coffees." },
+        { "t": "La cerveza y las cervezas.", "n": "The beer and the beers." },
+        { "t": "Un bocadillo y unos bocadillos.", "n": "A sandwich and some sandwiches.", "note": "A bocadillo is a baguette sandwich (Spain); in Mexico a similar sandwich is a torta." },
+        { "t": "Una tapa y unas tapas.", "n": "A tapa and some tapas." },
+        { "t": "El bar y los bares.", "n": "The bar and the bars." }
+      ],
+      "drills": [
+        {
+          "title": "One or more",
+          "base": { "t": "Una cerveza, por favor.", "n": "A beer, please." },
+          "items": [
+            { "cue": "dos", "t": "Dos cervezas, por favor.", "n": "Two beers, please." },
+            { "cue": "bocadillo", "t": "Un bocadillo, por favor.", "n": "A sandwich, please." },
+            { "cue": "tres · bocadillo", "t": "Tres bocadillos, por favor.", "n": "Three sandwiches, please." },
+            { "cue": "dos · ración", "t": "Dos raciones, por favor.", "n": "Two plates, please." }
+          ]
+        },
+        {
+          "title": "Make it agree",
+          "base": { "t": "El café está bueno.", "n": "The coffee is good." },
+          "items": [
+            { "cue": "tortilla", "t": "La tortilla está buena.", "n": "The tortilla is good." },
+            { "cue": "bocadillos", "t": "Los bocadillos están buenos.", "n": "The sandwiches are good." },
+            { "cue": "tapas", "t": "Las tapas están buenas.", "n": "The tapas are good." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Order two beers.", "t": ["Dos cervezas por favor", "Quiero dos cervezas", "Me pone dos cervezas", "Me da dos cervezas"] },
+        { "n": "Say the tapas are good.", "t": ["Las tapas están buenas", "Las tapas están muy buenas"] }
+      ]
+    },
+    {
+      "id": "u04-l5",
+      "kind": "listening",
+      "title": "Churros in Coyoacán",
+      "goal": "Follow two friends ordering in a Mexican café.",
+      "phrases": [
+        { "t": "¿Qué les traigo?", "n": "What can I bring you (all)?" },
+        { "t": "Para mí, un café americano.", "n": "For me, an americano." },
+        { "t": "Ya no tenemos.", "n": "We don't have any left." },
+        { "t": "¡Trato hecho!", "n": "Deal!" }
+      ],
+      "story": {
+        "title": "Sofía and Diego order",
+        "intro": "Two friends sit down in a café in Coyoacán, Mexico City.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Mesero", "voice": "es-MX-LibertoNeural", "t": "Buenas tardes. ¿Qué les traigo?", "n": "Good afternoon. What can I bring you?" },
+          { "name": "Sofía", "t": "Para mí, un café americano, por favor.", "n": "For me, an americano, please." },
+          { "name": "Diego", "voice": "es-MX-JorgeNeural", "t": "Yo quiero un jugo de naranja y una concha.", "n": "I'd like an orange juice and a concha (a Mexican sweet bread roll)." },
+          { "name": "Mesero", "voice": "es-MX-LibertoNeural", "t": "Lo siento, ya no tenemos conchas. ¿Unos churros?", "n": "Sorry, we don't have any conchas left. Some churros?" },
+          { "name": "Diego", "voice": "es-MX-JorgeNeural", "t": "Sí, unos churros, por favor.", "n": "Yes, some churros, please." },
+          { "name": "Sofía", "t": "¡Mmm, churros! ¿Me das uno, Diego?", "n": "Mmm, churros! Will you give me one, Diego?" },
+          { "name": "Diego", "voice": "es-MX-JorgeNeural", "t": "Bueno… pero tú pagas la cuenta.", "n": "OK… but you're paying the bill." },
+          { "name": "Sofía", "t": "¡Trato hecho!", "n": "Deal!" }
+        ],
+        "questions": [
+          { "q": "¿Qué toma Sofía?", "n": "What is Sofía having?", "t": ["Un café americano", "Un café", "Café americano"] },
+          { "q": "¿Qué come Diego?", "n": "What is Diego eating?", "t": ["Unos churros", "Churros", "Come churros"] },
+          { "q": "¿Quién paga la cuenta?", "n": "Who is paying the bill?", "t": ["Sofía", "Sofía paga", "Paga Sofía"] }
+        ]
+      }
+    },
+    {
+      "id": "u04-l6",
+      "kind": "roleplay",
+      "title": "A round of tapas",
+      "goal": "Order a drink and a tapa, then pay.",
+      "phrases": [
+        { "t": "¿Qué te pongo?", "n": "What can I get you? (informal)" },
+        { "t": "¡Marchando!", "n": "Coming right up!" },
+        { "t": "Una ración de croquetas.", "n": "A plate of croquettes." },
+        { "t": "Otra caña, por favor.", "n": "Another small beer, please." }
+      ],
+      "branch": {
+        "title": "At the bar counter",
+        "scene": "It's nine in the evening in a busy tapas bar in Sevilla. The waiter comes over to you.",
+        "name": "Camarero",
+        "voice": "es-ES-SaulNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenas! ¿Qué te pongo?", "n": "Evening! What can I get you?",
+            "choices": [
+              { "t": "Una caña, por favor.", "n": "A small beer, please.", "next": "food" },
+              { "t": "¿Me pone un vino tinto?", "n": "Can I have a red wine?", "next": "food" }
+            ]
+          },
+          "food": {
+            "t": "¡Marchando! ¿Y para comer? Hoy tenemos tortilla y croquetas.", "n": "Coming up! And to eat? Today we have tortilla and croquettes.",
+            "choices": [
+              { "t": "Una tapa de tortilla, por favor.", "n": "A tapa of tortilla, please.", "next": "more" },
+              { "t": "¿Qué son las croquetas?", "n": "What are croquetas?", "next": "explain" }
+            ]
+          },
+          "explain": {
+            "t": "Son bolitas fritas, con bechamel y jamón. ¡Están muy buenas!", "n": "They're little fried balls with béchamel and ham. They're really good!",
+            "choices": [
+              { "t": "Vale, una ración de croquetas.", "n": "OK, a plate of croquettes.", "next": "more" },
+              { "t": "Mmm… no, gracias. Una tapa de tortilla.", "n": "Hmm… no, thanks. A tapa of tortilla.", "next": "more" }
+            ]
+          },
+          "more": {
+            "t": "Aquí tienes. ¿Algo más?", "n": "Here you go. Anything else?",
+            "choices": [
+              { "t": "Otra caña, por favor.", "n": "Another small beer, please.", "next": "bill" },
+              { "t": "No, nada más. La cuenta, por favor.", "n": "No, nothing else. The bill, please.", "next": "bill" }
+            ]
+          },
+          "bill": {
+            "t": "Pues son ocho euros.", "n": "Well, that's eight euros.",
+            "choices": [
+              { "t": "¿Puedo pagar con tarjeta?", "n": "Can I pay by card?", "next": "paid" },
+              { "t": "¿Ocho euros? ¡Qué caro! No pago.", "n": "Eight euros? So expensive! I'm not paying.", "next": "angry" }
+            ]
+          },
+          "paid": {
+            "t": "Claro, sin problema. ¡Gracias y hasta luego!", "n": "Sure, no problem. Thanks and see you!",
+            "end": "good", "outcome": "You ordered drinks and tapas and paid like a local."
+          },
+          "angry": {
+            "t": "¿Cómo que no? ¡Esto es lo normal aquí!", "n": "What do you mean, no? That's the normal price here!",
+            "end": "bad", "outcome": "Eight euros for drinks and tapas is normal. Try again and pay politely."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Order another small beer.", "t": ["Otra caña por favor", "Me pone otra caña", "Otra cerveza por favor"] },
+        { "n": "Order a plate of croquettes.", "t": ["Una ración de croquetas", "Una ración de croquetas por favor", "Me pone una ración de croquetas"] }
+      ]
+    },
+    {
+      "id": "u04-l7",
+      "kind": "speaking",
+      "title": "Your order",
+      "goal": "Order and pay freely for 30 seconds.",
+      "culture": {
+        "title": "Tapas and late meals",
+        "body": "In Spain, going de tapas means moving from bar to bar with friends, having a drink and a small bite in each. Meals are late: the main meal, la comida, is often eaten around 2 or 3 pm, and dinner, la cena, often not before 9 pm. In Mexico, la comida is also the big meal of the day, in the afternoon, and many people have a lighter dinner. Before eating, people wish each other ¡Buen provecho!, and in Spain also ¡Que aproveche!.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "¿Vamos de tapas?", "n": "Shall we go for tapas?" },
+        { "t": "¿A qué hora es la cena?", "n": "What time is dinner?" },
+        { "t": "¡Buen provecho!", "n": "Enjoy your meal!" },
+        { "t": "¡Que aproveche!", "n": "Enjoy your meal! (Spain)" }
+      ],
+      "free": [
+        {
+          "n": "In a bar: greet the waiter, order a drink and something to eat, then ask for the bill.",
+          "hint": "¡Buenas! Un café con leche / Una caña, por favor. Una ración de … ¿Cuánto es? La cuenta, por favor.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            { "label": "a drink", "any": ["café", "cerveza", "caña", "vino", "agua", "zumo", "jugo", "refresco", "té"] },
+            { "label": "something to eat", "any": ["tapa", "tapas", "ración", "tortilla", "croquetas", "bravas", "patatas", "aceitunas", "bocadillo", "churros"] },
+            { "label": "ordering politely", "any": ["por favor", "me pone", "me da", "me trae", "quiero", "para mí"] },
+            { "label": "paying", "any": ["la cuenta", "cuánto es", "tarjeta", "efectivo", "pagar"] }
+          ],
+          "model": "¡Buenas tardes! ¿Me pone una caña, por favor? Y para comer, una ración de croquetas. … ¿Me trae la cuenta, por favor? ¿Puedo pagar con tarjeta?"
+        }
+      ],
+      "prompts": [
+        { "n": "Suggest to a friend that you go for tapas.", "t": ["Vamos de tapas", "Vamos de tapas esta noche"] },
+        { "n": "Wish everyone at the table a good meal.", "t": ["Buen provecho", "Que aproveche"] }
+      ]
+    },
+    {
+      "id": "u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En el bar",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

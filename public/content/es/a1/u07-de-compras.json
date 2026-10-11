@@ -1,0 +1,301 @@
+{
+  "id": "u07",
+  "title": "De compras",
+  "subtitle": "Shopping, clothes & prices",
+  "icon": "🛍️",
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "Clothes",
+      "goal": "Name clothes and say what you're looking for.",
+      "tip": {
+        "title": "Same clothes, different words",
+        "body": "Some clothes have different names in Spain and Latin America: a T-shirt is una camiseta in Spain but una playera in Mexico; a jacket is una chaqueta in Spain and una chamarra in Mexico; a jumper is un jersey in Spain and un suéter in most of Latin America. Pantalones (trousers) is usually plural: unos pantalones. In a shop, say Busco … (I'm looking for …)."
+      },
+      "phrases": [
+        { "t": "Busco una camiseta.", "n": "I'm looking for a T-shirt.", "note": "Mexico: una playera." },
+        { "t": "unos pantalones", "n": "a pair of trousers / pants" },
+        { "t": "una falda", "n": "a skirt" },
+        { "t": "un vestido", "n": "a dress" },
+        { "t": "unos zapatos", "n": "a pair of shoes" },
+        { "t": "una chaqueta", "n": "a jacket", "note": "Mexico: una chamarra." },
+        { "t": "un jersey", "n": "a jumper / sweater", "note": "Latin America: un suéter." },
+        { "t": "Solo estoy mirando, gracias.", "n": "I'm just looking, thanks.", "note": "Latin America also: Solo estoy viendo." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "In a clothes shop in Madrid",
+        "lines": [
+          { "who": "A", "name": "Dependienta", "t": "Hola, buenas. ¿Le puedo ayudar?", "n": "Hello there. Can I help you?" },
+          { "who": "you", "t": "Hola. Busco una chaqueta.", "n": "Hello. I'm looking for a jacket." },
+          { "who": "A", "name": "Dependienta", "t": "Las chaquetas están allí, al fondo.", "n": "The jackets are over there, at the back." },
+          { "who": "you", "t": "Gracias. Y también busco unos zapatos.", "n": "Thanks. And I'm also looking for some shoes." },
+          { "who": "A", "name": "Dependienta", "t": "Los zapatos están en la planta de abajo.", "n": "The shoes are on the floor below." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell the shop assistant you're looking for a T-shirt.", "t": ["Busco una camiseta", "Busco una playera"] },
+        { "n": "Say you're just looking, thanks.", "t": ["Solo estoy mirando gracias", "Solo estoy viendo gracias", "Solo estoy mirando"] },
+        { "n": "Say you're looking for a dress.", "t": ["Busco un vestido"] }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "Colours & sizes",
+      "goal": "Ask for a colour and a size and try things on.",
+      "tip": {
+        "title": "Colours come after the noun",
+        "body": "Colours follow the noun and agree with it: una falda roja, unos zapatos negros. Colours ending in -e or a consonant only change for plural: una camisa verde, dos camisas verdes; un jersey azul, dos jerseys azules. For clothing size, ask ¿Qué talla tiene? (In Mexico you'll also hear ¿Qué talla usa?). For shoes, Spain uses número: ¿Qué número tiene?"
+      },
+      "phrases": [
+        { "t": "¿La tiene en azul?", "n": "Do you have it in blue? (a feminine item, e.g. la camiseta)", "note": "For a masculine item: ¿Lo tiene en azul?" },
+        { "t": "una falda roja", "n": "a red skirt" },
+        { "t": "unos zapatos negros", "n": "some black shoes" },
+        { "t": "una camisa blanca", "n": "a white shirt" },
+        { "t": "¿Qué talla tiene?", "n": "What size are you?", "note": "Mexico also: ¿Qué talla usa?" },
+        { "t": "La talla mediana, por favor.", "n": "A medium, please." },
+        { "t": "¿Me lo puedo probar?", "n": "Can I try it on?", "note": "For a feminine item: ¿Me la puedo probar?" },
+        { "t": "Me queda grande.", "n": "It's too big for me.", "note": "Too small: me queda pequeño/pequeña (Spain), me queda chico/chica (Mexico)." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Trying on a shirt",
+        "lines": [
+          { "who": "you", "t": "Disculpe, ¿tiene esta camisa en azul?", "n": "Excuse me, do you have this shirt in blue?" },
+          { "who": "A", "name": "Vendedor", "t": "Sí, claro. ¿Qué talla usa?", "n": "Yes, of course. What size are you?" },
+          { "who": "you", "t": "La mediana, por favor. ¿Me la puedo probar?", "n": "The medium, please. Can I try it on?" },
+          { "who": "A", "name": "Vendedor", "t": "Sí, los probadores están ahí.", "n": "Yes, the fitting rooms are over there." },
+          { "who": "you", "t": "Me queda un poco grande. ¿Tiene la chica?", "n": "It's a bit big for me. Do you have the small?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if they have it in black (a feminine item).", "t": ["La tiene en negro", "Tiene esta en negro", "La tienen en negro"] },
+        { "n": "Ask if you can try it on (a masculine item).", "t": ["Me lo puedo probar", "Puedo probármelo", "Puedo probarlo"] },
+        { "n": "Say it's too big for you.", "t": ["Me queda grande", "Me queda muy grande", "Me queda un poco grande"] }
+      ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "How much is it?",
+      "goal": "Ask for prices and pay.",
+      "tip": {
+        "title": "cuesta or cuestan?",
+        "body": "Use ¿Cuánto cuesta? for one thing and ¿Cuánto cuestan? for more than one: ¿Cuánto cuestan los zapatos? Spain pays in euros (veinte euros, cincuenta céntimos) and Mexico in pesos (doscientos pesos). In Mexico prices are written with the $ sign, which here means pesos. ¿Cuánto es? asks for the total."
+      },
+      "phrases": [
+        { "t": "¿Cuánto cuesta?", "n": "How much is it?" },
+        { "t": "¿Cuánto cuestan los zapatos?", "n": "How much are the shoes?" },
+        { "t": "Cuesta veinte euros.", "n": "It costs twenty euros." },
+        { "t": "Son doscientos pesos.", "n": "That's two hundred pesos." },
+        { "t": "Es muy caro.", "n": "It's very expensive." },
+        { "t": "¡Qué barato!", "n": "How cheap!" },
+        { "t": "¿Puedo pagar con tarjeta?", "n": "Can I pay by card?" },
+        { "t": "En efectivo, por favor.", "n": "In cash, please." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AlvaroNeural",
+        "title": "At the till",
+        "lines": [
+          { "who": "you", "t": "¿Cuánto cuesta este jersey?", "n": "How much is this jumper?" },
+          { "who": "A", "name": "Dependiente", "t": "Cuesta treinta y cinco euros.", "n": "It costs thirty-five euros." },
+          { "who": "you", "t": "Vale, me lo llevo. ¿Puedo pagar con tarjeta?", "n": "OK, I'll take it. Can I pay by card?" },
+          { "who": "A", "name": "Dependiente", "t": "Sí, claro. Aquí tiene su ticket.", "n": "Yes, of course. Here's your receipt." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask how much the dress costs.", "t": ["Cuánto cuesta el vestido", "Cuánto cuesta este vestido", "Cuánto vale el vestido"] },
+        { "n": "Ask how much the trousers are.", "t": ["Cuánto cuestan los pantalones", "Cuánto cuestan estos pantalones"] },
+        { "n": "Ask if you can pay by card.", "t": ["Puedo pagar con tarjeta", "Se puede pagar con tarjeta", "Aceptan tarjeta"] }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "kind": "grammar",
+      "title": "este, ese: this and that",
+      "goal": "Point to things with este/esta/estos/estas and ese/esa.",
+      "tip": {
+        "title": "Demonstratives match the noun",
+        "body": "\"This\" (near me) is este (masculine), esta (feminine), estos, estas (plural). \"That\" (near you, or a bit further) is ese, esa, esos, esas. They agree with the noun, just like colours: este jersey rojo, esta falda roja, estos zapatos rojos, esas camisas rojas. Without a noun they mean \"this one / that one\": Quiero este. (There is a third set, aquel/aquella, for things far away.)"
+      },
+      "phrases": [
+        { "t": "Este vestido es muy bonito.", "n": "This dress is very pretty." },
+        { "t": "Esta camiseta es roja.", "n": "This T-shirt is red." },
+        { "t": "¿Cuánto cuestan estos zapatos?", "n": "How much are these shoes?" },
+        { "t": "Esas gafas son caras.", "n": "Those glasses are expensive." },
+        { "t": "Prefiero ese.", "n": "I prefer that one." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the item",
+          "base": { "t": "Este jersey es rojo.", "n": "This jumper is red." },
+          "items": [
+            { "cue": "camiseta", "t": "Esta camiseta es roja.", "n": "This T-shirt is red." },
+            { "cue": "zapatos", "t": "Estos zapatos son rojos.", "n": "These shoes are red." },
+            { "cue": "faldas", "t": "Estas faldas son rojas.", "n": "These skirts are red." },
+            { "cue": "ese · vestido", "t": "Ese vestido es rojo.", "n": "That dress is red." }
+          ]
+        },
+        {
+          "title": "Swap the colour",
+          "base": { "t": "Quiero esta falda negra.", "n": "I want this black skirt." },
+          "items": [
+            { "cue": "blanco", "t": "Quiero esta falda blanca.", "n": "I want this white skirt." },
+            { "cue": "verde", "t": "Quiero esta falda verde.", "n": "I want this green skirt." },
+            { "cue": "esos · pantalones · azul", "t": "Quiero esos pantalones azules.", "n": "I want those blue trousers." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say this T-shirt is very cheap.", "t": ["Esta camiseta es muy barata", "Esta playera es muy barata"] },
+        { "n": "Ask how much those shoes are.", "t": ["Cuánto cuestan esos zapatos", "Cuánto valen esos zapatos"] }
+      ]
+    },
+    {
+      "id": "u07-l5",
+      "kind": "listening",
+      "title": "At the tianguis",
+      "goal": "Follow prices and colours at a market.",
+      "phrases": [
+        { "t": "¿A cómo están los aguacates?", "n": "How much are the avocados?", "note": "A common market question for produce." },
+        { "t": "Le dejo las dos en trescientos cincuenta.", "n": "I'll let you have both for three hundred and fifty." },
+        { "t": "Me las llevo.", "n": "I'll take them." },
+        { "t": "¿Algo más?", "n": "Anything else?" }
+      ],
+      "story": {
+        "title": "Sunday market in Oaxaca",
+        "intro": "Ana is shopping at a street market in Oaxaca, Mexico, and stops at a stall selling handmade bags.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Ana", "t": "Buenos días. ¿Cuánto cuesta esta bolsa roja?", "n": "Good morning. How much is this red bag?" },
+          { "name": "Vendedor", "voice": "es-MX-JorgeNeural", "t": "Esa cuesta ciento ochenta pesos, señorita. Está hecha a mano.", "n": "That one costs a hundred and eighty pesos, miss. It's handmade." },
+          { "name": "Ana", "t": "¿Y esta verde?", "n": "And this green one?" },
+          { "name": "Vendedor", "voice": "es-MX-JorgeNeural", "t": "La verde es más grande, doscientos pesos.", "n": "The green one is bigger, two hundred pesos." },
+          { "name": "Ana", "t": "Me gustan las dos. ¿Me hace un descuento?", "n": "I like both. Can you give me a discount?" },
+          { "name": "Vendedor", "voice": "es-MX-JorgeNeural", "t": "Ándele, le dejo las dos en trescientos cincuenta.", "n": "Go on, I'll let you have both for three hundred and fifty." },
+          { "name": "Ana", "t": "¡Perfecto! Me las llevo.", "n": "Perfect! I'll take them." }
+        ],
+        "questions": [
+          { "q": "¿Cuánto cuesta la bolsa roja?", "n": "How much is the red bag?", "t": ["Ciento ochenta pesos", "Ciento ochenta", "Cuesta ciento ochenta pesos"] },
+          { "q": "¿Qué bolsa es más grande?", "n": "Which bag is bigger?", "t": ["La verde", "La bolsa verde", "La verde es más grande"] },
+          { "q": "¿Cuánto paga Ana por las dos?", "n": "How much does Ana pay for both?", "t": ["Trescientos cincuenta pesos", "Trescientos cincuenta", "Paga trescientos cincuenta pesos"] }
+        ]
+      }
+    },
+    {
+      "id": "u07-l6",
+      "kind": "roleplay",
+      "title": "Buying a jacket",
+      "goal": "Find the right colour and size and pay. Your choices steer the chat.",
+      "phrases": [
+        { "t": "¿La tiene en otro color?", "n": "Do you have it in another colour?" },
+        { "t": "Me queda bien.", "n": "It fits me well." },
+        { "t": "Me la llevo.", "n": "I'll take it. (a feminine item, e.g. la chaqueta)" },
+        { "t": "Es un poco cara.", "n": "It's a bit expensive." }
+      ],
+      "branch": {
+        "title": "At a shop in Salamanca",
+        "scene": "You're in a clothes shop in Salamanca, Spain. You need a warm jacket for winter.",
+        "name": "Dependiente",
+        "voice": "es-ES-DarioNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenas tardes! ¿Le puedo ayudar en algo?", "n": "Good afternoon! Can I help you with anything?",
+            "choices": [
+              { "t": "Sí, busco una chaqueta para el invierno.", "n": "Yes, I'm looking for a jacket for the winter.", "next": "jacket" },
+              { "t": "No, solo estoy mirando, gracias.", "n": "No, I'm just looking, thanks.", "next": "leave" }
+            ]
+          },
+          "jacket": {
+            "t": "Mire, esta chaqueta negra es muy calentita. ¿Qué talla tiene?", "n": "Look, this black jacket is lovely and warm. What size are you?",
+            "choices": [
+              { "t": "La mediana, pero en azul, por favor.", "n": "Medium, but in blue, please.", "next": "try" },
+              { "t": "La mediana. ¿Me la puedo probar?", "n": "Medium. Can I try it on?", "next": "try" }
+            ]
+          },
+          "try": {
+            "t": "Claro, aquí tiene. El probador está ahí. … ¿Qué tal le queda?", "n": "Of course, here you are. The fitting room is there. … How does it fit?",
+            "choices": [
+              { "t": "Me queda bien. ¿Cuánto cuesta?", "n": "It fits well. How much is it?", "next": "price" },
+              { "t": "Me queda muy grande.", "n": "It's much too big for me.", "next": "small" }
+            ]
+          },
+          "small": {
+            "t": "Aquí tiene la pequeña. ¿Mejor?", "n": "Here's the small. Better?",
+            "choices": [
+              { "t": "Sí, perfecta. ¿Cuánto cuesta?", "n": "Yes, perfect. How much is it?", "next": "price" }
+            ]
+          },
+          "price": {
+            "t": "Cuesta sesenta euros.", "n": "It costs sixty euros.",
+            "choices": [
+              { "t": "Vale, me la llevo. ¿Puedo pagar con tarjeta?", "n": "OK, I'll take it. Can I pay by card?", "next": "done" },
+              { "t": "Es un poco cara… ¿Me la deja en treinta?", "n": "It's a bit expensive… Will you let me have it for thirty?", "next": "haggle" }
+            ]
+          },
+          "haggle": {
+            "t": "Lo siento, aquí los precios son fijos.", "n": "Sorry, the prices here are fixed.",
+            "choices": [
+              { "t": "Vale, no pasa nada. Me la llevo.", "n": "OK, no problem. I'll take it.", "next": "done" },
+              { "t": "Entonces no la quiero. Adiós.", "n": "Then I don't want it. Bye.", "next": "leave" }
+            ]
+          },
+          "done": {
+            "t": "Perfecto. Aquí tiene su chaqueta y su ticket. ¡Que la disfrute!", "n": "Perfect. Here's your jacket and your receipt. Enjoy it!",
+            "end": "good", "outcome": "You bought a warm jacket that fits."
+          },
+          "leave": {
+            "t": "Hasta luego.", "n": "See you.",
+            "end": "bad", "outcome": "You left without a jacket, and winter is coming. Try again and ask for what you need."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask if they have it in another colour (a feminine item).", "t": ["La tiene en otro color", "La tienen en otro color", "Tiene otro color"] },
+        { "n": "Say you'll take it (a feminine item).", "t": ["Me la llevo", "Vale me la llevo", "Me la llevo gracias"] }
+      ]
+    },
+    {
+      "id": "u07-l7",
+      "kind": "speaking",
+      "title": "My favourite clothes",
+      "goal": "Describe what you're buying for 45 seconds.",
+      "culture": {
+        "title": "Markets, euros and pesos",
+        "body": "Spain uses the euro, and Mexico the Mexican peso; in Mexico the $ sign on a price tag means pesos, not dollars. Most towns have a covered food market (mercado), and Mexico is famous for its tianguis, open-air street markets that set up on certain days of the week. In shops and supermarkets prices are fixed, and haggling would seem odd. At street markets and craft stalls, especially in Latin America, asking politely for a small discount (¿Me hace un descuento?) is sometimes accepted, but always keep it friendly.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "¿Me hace un descuento?", "n": "Can you give me a discount?", "note": "Only at markets and stalls, not in shops." },
+        { "t": "Voy al mercado.", "n": "I'm going to the market." },
+        { "t": "Me gusta mucho este color.", "n": "I really like this colour." },
+        { "t": "Necesito unos zapatos nuevos.", "n": "I need some new shoes." }
+      ],
+      "free": [
+        {
+          "n": "You're out shopping. Say what you're looking for, its colour and size, and ask the price.",
+          "hint": "Busco … · Quiero esta camiseta azul … · Talla mediana · ¿Cuánto cuesta? · Me lo llevo.",
+          "seconds": 45,
+          "minWords": 12,
+          "targets": [
+            { "label": "an item of clothing", "any": ["camiseta", "playera", "camisa", "pantalones", "falda", "vestido", "zapatos", "chaqueta", "chamarra", "jersey", "suéter", "bolsa"] },
+            { "label": "a colour", "any": ["rojo", "roja", "rojos", "rojas", "azul", "azules", "negro", "negra", "negros", "negras", "blanco", "blanca", "blancos", "blancas", "verde", "verdes", "amarillo", "amarilla", "gris"] },
+            { "label": "a size or a demonstrative", "any": ["talla", "mediana", "grande", "pequeña", "pequeño", "chica", "chico", "este", "esta", "estos", "estas", "ese", "esa"] },
+            { "label": "the price", "any": ["cuánto cuesta", "cuánto cuestan", "cuesta", "cuestan", "euros", "pesos", "caro", "cara", "barato", "barata"] }
+          ],
+          "model": "Hola, buenas tardes. Busco una camiseta. Me gusta mucho esta camiseta azul. ¿La tiene en talla mediana? ¿Cuánto cuesta? Veinte euros, perfecto, me la llevo."
+        }
+      ],
+      "prompts": [
+        { "n": "At a market stall, ask politely for a discount.", "t": ["Me hace un descuento", "Me puede hacer un descuento", "Me hace un descuentito"] },
+        { "n": "Say you need some new shoes.", "t": ["Necesito unos zapatos nuevos", "Necesito zapatos nuevos"] }
+      ]
+    },
+    {
+      "id": "u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: De compras",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

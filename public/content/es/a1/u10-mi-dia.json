@@ -1,0 +1,313 @@
+{
+  "id": "u10",
+  "title": "Mi día",
+  "subtitle": "Daily routine",
+  "icon": "🌅",
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "My daily routine",
+      "goal": "Describe a normal day.",
+      "tip": {
+        "title": "me levanto, me ducho",
+        "body": "Some routine verbs come with me in front: me levanto (I get up), me ducho (I shower), me acuesto (I go to bed). Literally \"I get myself up\". Others don't: desayuno (I have breakfast), trabajo, ceno (I have dinner). Add the time with a las …: me levanto a las siete."
+      },
+      "phrases": [
+        { "t": "Me levanto a las siete.", "n": "I get up at seven." },
+        { "t": "Me ducho.", "n": "I have a shower." },
+        { "t": "Desayuno café con tostadas.", "n": "I have coffee and toast for breakfast." },
+        { "t": "Salgo de casa a las ocho.", "n": "I leave home at eight." },
+        { "t": "Trabajo de nueve a cinco.", "n": "I work from nine to five." },
+        { "t": "Como a las dos.", "n": "I have lunch at two.", "note": "In Spain and Mexico comer often means \"to have lunch\", the main meal." },
+        { "t": "Ceno a las nueve.", "n": "I have dinner at nine." },
+        { "t": "Me acuesto a las once.", "n": "I go to bed at eleven." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Early bird Elena",
+        "lines": [
+          { "who": "A", "name": "Elena", "t": "¿A qué hora te levantas?", "n": "What time do you get up?" },
+          { "who": "you", "t": "Me levanto a las siete. ¿Y tú?", "n": "I get up at seven. And you?" },
+          { "who": "A", "name": "Elena", "t": "¡A las seis! Voy al gimnasio antes del trabajo.", "n": "At six! I go to the gym before work." },
+          { "who": "you", "t": "¡Qué pronto! Yo desayuno y salgo de casa a las ocho.", "n": "That's early! I have breakfast and leave home at eight." },
+          { "who": "A", "name": "Elena", "t": "Pues yo me acuesto muy temprano, a las diez.", "n": "Well, I go to bed very early, at ten." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you get up at seven.", "t": ["Me levanto a las siete"] },
+        { "n": "Ask a friend what time they go to bed.", "t": ["A qué hora te acuestas"] },
+        { "n": "Say you have breakfast at eight.", "t": ["Desayuno a las ocho"] }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "Morning, afternoon, evening",
+      "goal": "Say what you do at different times of day.",
+      "tip": {
+        "title": "por la mañana, por la tarde, por la noche",
+        "body": "Use por la mañana (in the morning), por la tarde (in the afternoon / early evening) and por la noche (at night) for parts of the day. With a clock time it's de: a las ocho de la mañana, a las cinco de la tarde. Los fines de semana means \"at weekends\", and entre semana \"during the week\"."
+      },
+      "phrases": [
+        { "t": "¿Qué tal tu día?", "n": "How's your day going? / How was your day?" },
+        { "t": "Por la mañana trabajo.", "n": "In the morning I work." },
+        { "t": "Por la tarde estudio español.", "n": "In the afternoon I study Spanish." },
+        { "t": "Por la noche veo la tele.", "n": "In the evening I watch TV." },
+        { "t": "Los fines de semana descanso.", "n": "At weekends I rest." },
+        { "t": "Normalmente ceno en casa.", "n": "I usually have dinner at home." },
+        { "t": "Estoy cansado.", "n": "I'm tired.", "note": "A woman says cansada." },
+        { "t": "Tengo sueño.", "n": "I'm sleepy." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Chatting with Luis",
+        "lines": [
+          { "who": "A", "name": "Luis", "t": "¿Qué tal tu día?", "n": "How's your day going?" },
+          { "who": "you", "t": "Bien, pero tengo mucho sueño.", "n": "Fine, but I'm very sleepy." },
+          { "who": "A", "name": "Luis", "t": "¿Trabajas mucho?", "n": "Do you work a lot?" },
+          { "who": "you", "t": "Sí. Por la mañana trabajo y por la tarde estudio español.", "n": "Yes. In the morning I work and in the afternoon I study Spanish." },
+          { "who": "A", "name": "Luis", "t": "¡Uf! ¿Y por la noche?", "n": "Phew! And in the evening?" },
+          { "who": "you", "t": "Por la noche descanso y veo la tele.", "n": "In the evening I rest and watch TV." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that in the morning you work.", "t": ["Por la mañana trabajo", "Trabajo por la mañana"] },
+        { "n": "Ask a friend how their day is going.", "t": ["Qué tal tu día", "Qué tal el día"] },
+        { "n": "Say that at weekends you rest.", "t": ["Los fines de semana descanso", "El fin de semana descanso"] }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Chores & errands",
+      "goal": "Talk about housework and errands.",
+      "tip": {
+        "title": "hacer and tener que",
+        "body": "Lots of chores use hacer (to do / make): hago la compra (I do the shopping), hago la cama (I make the bed). To say what you have to do, use tengo que + infinitive: tengo que lavar la ropa. Some words change by region: fregar los platos (Spain) is lavar los platos in Latin America."
+      },
+      "phrases": [
+        { "t": "Hago la compra.", "n": "I do the food shopping.", "note": "Spain. Latin America: hago las compras or voy al súper." },
+        { "t": "Limpio la casa.", "n": "I clean the house." },
+        { "t": "Lavo la ropa.", "n": "I do the washing." },
+        { "t": "Friego los platos.", "n": "I wash the dishes.", "note": "Spain. Latin America: lavo los platos." },
+        { "t": "Hago la cama.", "n": "I make the bed." },
+        { "t": "Saco al perro.", "n": "I take the dog out." },
+        { "t": "Cocino para mi familia.", "n": "I cook for my family." },
+        { "t": "Tengo que ir al banco.", "n": "I have to go to the bank." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "Sharing a flat with Marcos",
+        "lines": [
+          { "who": "A", "name": "Marcos", "t": "¿Qué haces hoy?", "n": "What are you doing today?" },
+          { "who": "you", "t": "Tengo que hacer la compra y lavar la ropa.", "n": "I have to do the shopping and the washing." },
+          { "who": "A", "name": "Marcos", "t": "Yo limpio la cocina. ¿Y los platos?", "n": "I'll clean the kitchen. And the dishes?" },
+          { "who": "you", "t": "¡Hoy friegas tú!", "n": "Today it's your turn to wash up!" },
+          { "who": "A", "name": "Marcos", "t": "Vale, vale. Friego yo.", "n": "OK, OK. I'll do the washing-up." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you clean the house on Saturdays.", "t": ["Limpio la casa los sábados", "Los sábados limpio la casa"] },
+        { "n": "Say you have to do the food shopping.", "t": ["Tengo que hacer la compra", "Tengo que hacer las compras", "Tengo que ir al súper"] },
+        { "n": "Say you wash the dishes.", "t": ["Friego los platos", "Lavo los platos"] }
+      ]
+    },
+    {
+      "id": "u10-l4",
+      "kind": "grammar",
+      "title": "Reflexive verbs & the present",
+      "goal": "Describe routines for yourself and others.",
+      "tip": {
+        "title": "Endings plus a little pronoun",
+        "body": "Regular verbs change their ending for each person. -ar: trabajo, trabajas, trabaja, trabajamos, trabajan. -er: como, comes, come, comemos, comen. -ir: vivo, vives, vive, vivimos, viven. Reflexive verbs add a pronoun before the verb: me levanto, te levantas, se levanta, nos levantamos, se levantan. A few change their stem: acostarse → me acuesto, despertarse → me despierto (but nos acostamos, nos despertamos)."
+      },
+      "phrases": [
+        { "t": "Me levanto temprano.", "n": "I get up early." },
+        { "t": "¿A qué hora te levantas?", "n": "What time do you get up?" },
+        { "t": "Mi hermana se ducha por la noche.", "n": "My sister showers at night." },
+        { "t": "Nos acostamos tarde.", "n": "We go to bed late." },
+        { "t": "Desayunamos juntos.", "n": "We have breakfast together.", "note": "Women only: juntas." }
+      ],
+      "drills": [
+        {
+          "title": "Who gets up?",
+          "base": { "t": "Me levanto a las siete.", "n": "I get up at seven." },
+          "items": [
+            { "cue": "tú?", "t": "¿Te levantas a las siete?", "n": "Do you get up at seven?" },
+            { "cue": "Carlos", "t": "Carlos se levanta a las siete.", "n": "Carlos gets up at seven." },
+            { "cue": "nosotros", "t": "Nos levantamos a las siete.", "n": "We get up at seven." },
+            { "cue": "ducharse", "t": "Me ducho a las siete.", "n": "I shower at seven." }
+          ]
+        },
+        {
+          "title": "Regular endings",
+          "base": { "t": "Trabajo en casa.", "n": "I work at home." },
+          "items": [
+            { "cue": "tú", "t": "Trabajas en casa.", "n": "You work at home." },
+            { "cue": "comer", "t": "Como en casa.", "n": "I have lunch at home." },
+            { "cue": "nosotros · desayunar", "t": "Desayunamos en casa.", "n": "We have breakfast at home." },
+            { "cue": "usted · comer?", "t": "¿Come usted en casa?", "n": "Do you have lunch at home? (polite)" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask a friend what time they shower.", "t": ["A qué hora te duchas", "Cuándo te duchas"] },
+        { "n": "Say that you and your partner go to bed late.", "t": ["Nos acostamos tarde"] }
+      ]
+    },
+    {
+      "id": "u10-l5",
+      "kind": "listening",
+      "title": "The baker's day",
+      "goal": "Follow an interview about someone's routine.",
+      "phrases": [
+        { "t": "¿A qué hora se levanta?", "n": "What time do you get up? (polite)" },
+        { "t": "Me levanto a las tres de la mañana.", "n": "I get up at three in the morning." },
+        { "t": "Abrimos a las seis.", "n": "We open at six." },
+        { "t": "Duermo una siesta corta.", "n": "I have a short nap." }
+      ],
+      "story": {
+        "title": "Don Ramón, baker",
+        "intro": "A radio presenter in Puebla, Mexico, interviews Don Ramón about his day as a baker.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Locutora", "t": "Don Ramón, usted es panadero. ¿A qué hora se levanta?", "n": "Don Ramón, you're a baker. What time do you get up?" },
+          { "name": "Don Ramón", "voice": "es-MX-JorgeNeural", "t": "Me levanto a las tres de la mañana. Me ducho, tomo un café y salgo de casa.", "n": "I get up at three in the morning. I shower, have a coffee and leave home." },
+          { "name": "Locutora", "t": "¡A las tres! ¿Y a qué hora abre la panadería?", "n": "At three! And what time does the bakery open?" },
+          { "name": "Don Ramón", "voice": "es-MX-JorgeNeural", "t": "Abrimos a las seis. A esa hora la gente compra pan para el desayuno.", "n": "We open at six. At that time people buy bread for breakfast." },
+          { "name": "Locutora", "t": "¿Y por la tarde?", "n": "And in the afternoon?" },
+          { "name": "Don Ramón", "voice": "es-MX-JorgeNeural", "t": "Como con mi familia a las dos y después duermo una siesta corta.", "n": "I have lunch with my family at two and then I have a short nap." },
+          { "name": "Locutora", "t": "¿Y a qué hora se acuesta?", "n": "And what time do you go to bed?" },
+          { "name": "Don Ramón", "voice": "es-MX-JorgeNeural", "t": "Muy temprano, a las ocho y media. ¡Mi día empieza de noche!", "n": "Very early, at half past eight. My day starts at night!" }
+        ],
+        "questions": [
+          { "q": "¿A qué hora se levanta Don Ramón?", "n": "What time does Don Ramón get up?", "t": ["A las tres", "A las tres de la mañana", "Se levanta a las tres"] },
+          { "q": "¿A qué hora abre la panadería?", "n": "What time does the bakery open?", "t": ["A las seis", "Abre a las seis"] },
+          { "q": "¿Qué hace después de comer?", "n": "What does he do after lunch?", "t": ["Duerme una siesta", "Una siesta", "Duerme la siesta", "Duerme una siesta corta"] }
+        ]
+      }
+    },
+    {
+      "id": "u10-l6",
+      "kind": "roleplay",
+      "title": "Hotel check-in",
+      "goal": "Check in and ask about breakfast.",
+      "phrases": [
+        { "t": "Tengo una reserva.", "n": "I have a reservation.", "note": "In Mexico also una reservación." },
+        { "t": "A nombre de Alex Smith.", "n": "In the name of Alex Smith." },
+        { "t": "¿A qué hora es el desayuno?", "n": "What time is breakfast?" },
+        { "t": "Aquí tiene.", "n": "Here you are." }
+      ],
+      "branch": {
+        "title": "At the hotel reception",
+        "scene": "You arrive at a small hotel in Salamanca, Spain, in the late afternoon. You booked a room online.",
+        "name": "Recepcionista",
+        "voice": "es-ES-AbrilNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Buenas tardes. ¿En qué le puedo ayudar?", "n": "Good evening. How can I help you?",
+            "choices": [
+              { "t": "Buenas tardes. Tengo una reserva.", "n": "Good evening. I have a reservation.", "next": "name" },
+              { "t": "Quiero una habitación.", "n": "I want a room.", "next": "full" }
+            ]
+          },
+          "full": {
+            "t": "Lo siento, hoy no tenemos habitaciones libres. ¿Tiene reserva?", "n": "I'm sorry, we have no free rooms today. Do you have a reservation?",
+            "choices": [
+              { "t": "Ah, sí. Tengo una reserva.", "n": "Oh, yes. I have a reservation.", "next": "name" },
+              { "t": "No, no tengo.", "n": "No, I don't.", "next": "nobook" }
+            ]
+          },
+          "nobook": {
+            "t": "Pues lo siento mucho. Hay otro hotel en la plaza.", "n": "Then I'm very sorry. There's another hotel in the square.",
+            "end": "bad", "outcome": "You forgot to mention your booking and walked out. Say Tengo una reserva!"
+          },
+          "name": {
+            "t": "Muy bien. ¿A nombre de quién?", "n": "Very good. In whose name?",
+            "choices": [
+              { "t": "A nombre de Alex Smith.", "n": "In the name of Alex Smith.", "next": "passport" },
+              { "t": "¿Cómo?", "n": "Pardon?", "next": "name2" }
+            ]
+          },
+          "name2": {
+            "t": "¿Su nombre, por favor?", "n": "Your name, please?",
+            "choices": [
+              { "t": "Alex Smith.", "n": "Alex Smith.", "next": "passport" }
+            ]
+          },
+          "passport": {
+            "t": "Perfecto. ¿Me deja su pasaporte, por favor?", "n": "Perfect. Could I have your passport, please?",
+            "choices": [
+              { "t": "Sí, aquí tiene. ¿A qué hora es el desayuno?", "n": "Yes, here you are. What time is breakfast?", "next": "breakfast" },
+              { "t": "No, gracias.", "n": "No, thanks.", "next": "refuse" }
+            ]
+          },
+          "refuse": {
+            "t": "Lo siento, sin pasaporte no puedo hacer el registro.", "n": "I'm sorry, without a passport I can't check you in.",
+            "end": "bad", "outcome": "Hotels in Spain need to see your ID. Hand over your passport with Aquí tiene."
+          },
+          "breakfast": {
+            "t": "El desayuno es de siete a diez y media. Su habitación es la doscientos cuatro. ¡Que descanse!", "n": "Breakfast is from seven to half past ten. Your room is 204. Have a good rest!",
+            "end": "good", "outcome": "You checked in and know when breakfast is."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the receptionist you have a reservation.", "t": ["Tengo una reserva", "Tengo una reservación"] },
+        { "n": "Ask what time breakfast is.", "t": ["A qué hora es el desayuno"] }
+      ]
+    },
+    {
+      "id": "u10-l7",
+      "kind": "speaking",
+      "title": "A normal day",
+      "goal": "Describe your typical day for 60 seconds.",
+      "culture": {
+        "title": "The siesta and the late timetable",
+        "body": "Many people imagine that everyone in Spain sleeps after lunch, but most working people in cities don't have time for a daily siesta: for many it's a weekend or holiday treat. What is real is the late timetable. In Spain lunch is often around 2 or 3 pm and dinner at 9 pm or later, and in smaller towns many shops close for a few hours in the afternoon. In Mexico, too, the main meal (la comida) is usually eaten in the afternoon, and dinner tends to be lighter. So if someone invites you a comer, they mean lunch, not dinner.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Duermo la siesta los domingos.", "n": "I have a nap on Sundays." },
+        { "t": "Como a las tres.", "n": "I have lunch at three." },
+        { "t": "Ceno muy tarde.", "n": "I have dinner very late." },
+        { "t": "Entre semana no tengo tiempo.", "n": "During the week I don't have time." }
+      ],
+      "free": [
+        {
+          "n": "Describe your typical weekday from morning to night.",
+          "hint": "Use Me levanto a las …, Me ducho, Desayuno …, Trabajo / Estudio …, Como a las …, Por la tarde …, Ceno …, Me acuesto a las ….",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "getting up", "any": ["me levanto", "me despierto"] },
+            { "label": "a meal", "any": ["desayuno", "como", "ceno", "almuerzo"] },
+            { "label": "work or study", "any": ["trabajo", "estudio", "clase", "oficina"] },
+            { "label": "a time of day", "any": ["a las", "por la mañana", "por la tarde", "por la noche"] },
+            { "label": "going to bed", "any": ["me acuesto", "duermo"] }
+          ],
+          "model": "Normalmente me levanto a las siete. Me ducho y desayuno café con tostadas. Salgo de casa a las ocho y trabajo de nueve a cinco. Como a las dos con mis compañeros. Por la tarde voy al gimnasio y ceno a las nueve. Me acuesto a las once y media."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you have a nap on Sundays.", "t": ["Duermo la siesta los domingos", "Los domingos duermo la siesta"] },
+        { "n": "Say that during the week you don't have time.", "t": ["Entre semana no tengo tiempo"] }
+      ]
+    },
+    {
+      "id": "u10-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Mi día",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "a1-test",
+      "kind": "test",
+      "title": "A1 speaking test",
+      "goal": "Pass to earn your A1 badge and unlock A2.",
+      "tip": {
+        "title": "You've got this",
+        "body": "The test mixes phrases from all ten A1 units. Speak in short, clear sentences: if a word is missing, say what you can and keep going."
+      }
+    }
+  ]
+}

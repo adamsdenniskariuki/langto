@@ -1,0 +1,41 @@
+{
+  "lang": "es",
+  "title": "Speak Spanish",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Beginner",
+      "description": "Introduce yourself, order food, ask the way and talk about your day — in Spain and Latin America.",
+      "units": [
+        "a1/u01-hola.json",
+        "a1/u02-me-llamo.json",
+        "a1/u03-numeros.json",
+        "a1/u04-en-el-bar.json",
+        "a1/u05-familia.json",
+        "a1/u06-la-hora.json",
+        "a1/u07-de-compras.json",
+        "a1/u08-la-ciudad.json",
+        "a1/u09-tiempo-libre.json",
+        "a1/u10-mi-dia.json"
+      ]
+    },
+    { "id": "A2", "title": "Elementary", "description": "Talk about the past, travel, health, work and plans; handle phone calls and complaints.", "comingSoon": true, "units": [] },
+    { "id": "B1", "title": "Intermediate", "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.", "comingSoon": true, "units": [] },
+    { "id": "B2", "title": "Upper intermediate", "description": "Debate, negotiate, present in meetings and use idioms naturally.", "comingSoon": true, "units": [] },
+    { "id": "C1", "title": "Advanced", "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.", "comingSoon": true, "units": [] },
+    { "id": "C2", "title": "Mastery", "description": "Speak with native-like precision, wit and awareness of the Spanish-speaking world's variety.", "comingSoon": true, "units": [] }
+  ],
+  "tracks": [
+    {
+      "id": "pron",
+      "title": "Pronunciation",
+      "description": "Train the sounds English speakers find hard: pure vowels, tapped r and rolled rr, ñ, ll/y, j/g, b/v, stress and written accents, linking and regional accents. New units unlock as you reach each level.",
+      "badge": "Ñ",
+      "units": [
+        "pron/u01-vocales.json",
+        "pron/u02-r-rr.json",
+        "pron/u03-n-ll-y.json"
+      ]
+    }
+  ]
+}

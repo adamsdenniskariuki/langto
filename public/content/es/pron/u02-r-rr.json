@@ -1,0 +1,72 @@
+{
+  "id": "pron-u02",
+  "level": "A1",
+  "title": "La r y la rr",
+  "subtitle": "Tapped r & trilled rr",
+  "icon": "🐶",
+  "lessons": [
+    {
+      "id": "pron-u02-l1",
+      "kind": "pron",
+      "title": "The tapped r",
+      "goal": "Make the single r with one quick tap of the tongue.",
+      "tip": {
+        "title": "Like \"butter\"",
+        "body": "A single r between vowels or after a consonant (pero, caro, tres) is one quick flick of the tongue tip against the ridge behind your upper teeth. It's the same sound as the \"tt\" in American \"butter\" or \"dd\" in \"ladder\": say \"potter\" fast and you're close to \"para\". Don't curl the tongue back like an English r, and don't let it become an l or a d."
+      },
+      "phrases": [
+        { "t": "Pero es muy caro.", "n": "But it's very expensive." },
+        { "t": "Para mí, un café, por favor.", "n": "A coffee for me, please." },
+        { "t": "Ahora no puedo.", "n": "I can't right now." },
+        { "t": "Me llamo Clara.", "n": "My name is Clara." }
+      ],
+      "pairs": [
+        { "sound": "r / l", "a": { "t": "pero", "n": "but" }, "b": { "t": "pelo", "n": "hair" } },
+        { "sound": "r / l", "a": { "t": "para", "n": "for" }, "b": { "t": "pala", "n": "shovel" } },
+        { "sound": "r / l", "a": { "t": "hora", "n": "hour" }, "b": { "t": "hola", "n": "hello" } },
+        { "sound": "r / d", "a": { "t": "cara", "n": "face" }, "b": { "t": "cada", "n": "each" } },
+        { "sound": "r / d", "a": { "t": "toro", "n": "bull" }, "b": { "t": "todo", "n": "everything" } }
+      ],
+      "stress": [
+        { "t": "Pero es muy caro.", "n": "But it's very expensive.", "mark": "*Pe*ro es *muy* *ca*ro." },
+        { "t": "Ahora no puedo.", "n": "I can't right now.", "mark": "A*ho*ra *no* *pue*do." },
+        { "t": "Me llamo Clara.", "n": "My name is Clara.", "mark": "Me *lla*mo *Cla*ra." }
+      ],
+      "prompts": [
+        { "n": "Say \"It's very expensive\".", "t": ["Es muy caro", "Es carísimo"] }
+      ]
+    },
+    {
+      "id": "pron-u02-l2",
+      "kind": "pron",
+      "title": "The trilled rr",
+      "goal": "Roll rr and initial r, and keep it apart from the tap.",
+      "tip": {
+        "title": "Let the tongue flutter",
+        "body": "rr between vowels (perro), r at the start of a word (rosa) and r after n, l or s (Enrique, alrededor, Israel) are trilled: the tongue tip vibrates several times. Rest the tip lightly on the ridge behind your upper teeth, keep it relaxed and push a strong stream of air over it so it flaps. Practise with \"tr\" or \"dr\" (tres, padre), or say \"butter-butter-butter\" faster and faster. Length matters: pero (but) has one tap, perro (dog) a trill."
+      },
+      "phrases": [
+        { "t": "Rosa tiene un perro.", "n": "Rosa has a dog." },
+        { "t": "El carro es muy caro.", "n": "The car is very expensive.", "note": "carro = car in Latin America; in Spain, coche." },
+        { "t": "Enrique corre mucho.", "n": "Enrique runs a lot." },
+        { "t": "Hay árboles alrededor.", "n": "There are trees all around." }
+      ],
+      "pairs": [
+        { "sound": "r / rr", "a": { "t": "pero", "n": "but" }, "b": { "t": "perro", "n": "dog" } },
+        { "sound": "r / rr", "a": { "t": "caro", "n": "expensive" }, "b": { "t": "carro", "n": "car (Lat. Am.); cart" } },
+        { "sound": "r / rr", "a": { "t": "coro", "n": "choir" }, "b": { "t": "corro", "n": "I run" } },
+        { "sound": "r / rr", "a": { "t": "para", "n": "for" }, "b": { "t": "parra", "n": "grapevine" } },
+        { "sound": "r / rr", "a": { "t": "ahora", "n": "now" }, "b": { "t": "ahorra", "n": "(he/she) saves" } },
+        { "sound": "r / rr", "a": { "t": "cero", "n": "zero" }, "b": { "t": "cerro", "n": "hill" } }
+      ],
+      "stress": [
+        { "t": "Rosa tiene un perro.", "n": "Rosa has a dog.", "mark": "*Ro*sa *tie*ne un *pe*rro." },
+        { "t": "El carro es muy caro.", "n": "The car is very expensive.", "mark": "El *ca*rro es *muy* *ca*ro." },
+        { "t": "Enrique corre mucho.", "n": "Enrique runs a lot.", "mark": "En*ri*que *co*rre *mu*cho." }
+      ],
+      "prompts": [
+        { "n": "Say \"a dog\".", "t": ["un perro"] }
+      ]
+    }
+  ]
+}
