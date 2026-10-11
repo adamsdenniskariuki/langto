@@ -1,0 +1,877 @@
+{
+  "id": "b1-u06",
+  "title": "L'environnement",
+  "subtitle": "Environment & everyday ecology",
+  "icon": "♻️",
+  "lessons": [
+    {
+      "id": "b1-u06-l1",
+      "title": "Living green",
+      "goal": "Explain what you do for the planet in everyday life.",
+      "tip": {
+        "title": "au lieu de & moins de",
+        "body": "Au lieu de + noun or infinitive means instead of: Je prends le vélo au lieu de la voiture. Moins de / plus de + noun (no article) express less / more: moins de viande, moins de plastique. Pronunciation: in environnement the first syllable is nasal [ã] and the final -ment is also nasal; réchauffement is [ré-shof-mã] — the e in the middle is barely heard."
+      },
+      "phrases": [
+        {
+          "t": "Je fais attention à ma consommation d'énergie.",
+          "n": "I'm careful about how much energy I use."
+        },
+        {
+          "t": "J'éteins la lumière quand je quitte une pièce.",
+          "n": "I switch off the light when I leave a room.",
+          "note": "éteindre = to switch off"
+        },
+        {
+          "t": "Je prends le vélo au lieu de la voiture.",
+          "n": "I take my bike instead of the car."
+        },
+        {
+          "t": "J'achète des produits locaux et de saison.",
+          "n": "I buy local, seasonal products."
+        },
+        {
+          "t": "J'essaie de manger moins de viande.",
+          "n": "I try to eat less meat.",
+          "note": "moins de + noun, no article"
+        },
+        {
+          "t": "J'ai toujours ma gourde sur moi.",
+          "n": "I always carry my reusable water bottle."
+        },
+        {
+          "t": "Le réchauffement climatique m'inquiète.",
+          "n": "Global warming worries me."
+        },
+        {
+          "t": "Chaque geste compte.",
+          "n": "Every little action counts."
+        }
+      ],
+      "dialogue": {
+        "title": "At the farmers' market",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Tiens, tu viens au marché à vélo maintenant ?",
+            "n": "Oh, you come to the market by bike now?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je prends le vélo au lieu de la voiture. Et j'achète des produits locaux et de saison.",
+            "n": "Yes, I take my bike instead of the car. And I buy local, seasonal products."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "C'est bien. Pourquoi ce changement ?",
+            "n": "That's good. Why the change?"
+          },
+          {
+            "who": "you",
+            "t": "Le réchauffement climatique m'inquiète. Alors j'essaie de manger moins de viande, aussi.",
+            "n": "Global warming worries me. So I'm trying to eat less meat as well."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Moi, je fais attention à ma consommation d'énergie. J'éteins la lumière quand je quitte une pièce.",
+            "n": "I'm careful about how much energy I use. I switch off the light when I leave a room."
+          },
+          {
+            "who": "you",
+            "t": "Et regarde : j'ai toujours ma gourde sur moi. Plus de bouteilles en plastique !",
+            "n": "And look: I always carry my water bottle. No more plastic bottles!"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Mais franchement, est-ce que ça change vraiment quelque chose ?",
+            "n": "But honestly, does it really change anything?"
+          },
+          {
+            "who": "you",
+            "t": "Je pense que oui. Chaque geste compte !",
+            "n": "I think so. Every little action counts!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you take your bike instead of the car.",
+          "t": [
+            "Je prends le vélo au lieu de la voiture",
+            "Je prends mon vélo au lieu de la voiture"
+          ]
+        },
+        {
+          "n": "Say you try to eat less meat.",
+          "t": [
+            "J'essaie de manger moins de viande",
+            "J'essaye de manger moins de viande"
+          ]
+        },
+        {
+          "n": "Say global warming worries you.",
+          "t": [
+            "Le réchauffement climatique m'inquiète",
+            "Le réchauffement climatique me fait peur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l2",
+      "title": "Sorting the rubbish",
+      "goal": "Ask and explain where different kinds of waste go.",
+      "tip": {
+        "title": "jeter, mettre & les déchets",
+        "body": "Les déchets (always plural in this sense) is the general word for waste; la poubelle is the bin. Jeter means to throw away: je jette (two t's when the ending is silent), but nous jetons. To say where something goes, use aller dans or mettre dans: Le verre va dans le conteneur. French often puts the topic first and repeats it with a pronoun: Les épluchures, je les mets dans le compost. Pronunciation: déchets ends in an open è sound, and the t is silent. In Belgium a bottle bank is often called une bulle à verre."
+      },
+      "phrases": [
+        {
+          "t": "Où est-ce que je jette les bouteilles en verre ?",
+          "n": "Where do I throw away glass bottles?"
+        },
+        {
+          "t": "Le verre va dans le conteneur au coin de la rue.",
+          "n": "Glass goes in the container on the street corner."
+        },
+        {
+          "t": "Les emballages vont dans la poubelle jaune.",
+          "n": "Packaging goes in the yellow bin.",
+          "note": "In many French towns; colours vary."
+        },
+        {
+          "t": "Les épluchures, je les mets dans le compost.",
+          "n": "Peelings, I put them in the compost."
+        },
+        {
+          "t": "Il ne faut pas mélanger les déchets.",
+          "n": "You mustn't mix the different kinds of waste."
+        },
+        {
+          "t": "Je rapporte les piles au supermarché.",
+          "n": "I take used batteries back to the supermarket."
+        },
+        {
+          "t": "On fait le tri à la maison.",
+          "n": "We sort our rubbish at home.",
+          "note": "le tri = sorting"
+        }
+      ],
+      "dialogue": {
+        "title": "A Belgian neighbour explains",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Excusez-moi, madame. Je viens d'arriver. Où est-ce que je jette les bouteilles en verre ?",
+            "n": "Excuse me. I've just moved in. Where do I throw away glass bottles?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Lambert",
+            "t": "Bienvenue ! Le verre va dans la bulle à verre, au coin de la rue.",
+            "n": "Welcome! Glass goes in the bottle bank on the street corner."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. Et les emballages en plastique ?",
+            "n": "OK. And plastic packaging?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Lambert",
+            "t": "Ici, ils vont dans le sac bleu, avec les canettes et les cartons de lait. On l'appelle le sac PMC.",
+            "n": "Here they go in the blue bag, with cans and milk cartons. It's called the PMC bag."
+          },
+          {
+            "who": "you",
+            "t": "Le sac bleu, d'accord. Chez moi, les emballages vont dans la poubelle jaune.",
+            "n": "The blue bag, OK. Back home, packaging goes in the yellow bin."
+          },
+          {
+            "who": "A",
+            "name": "Madame Lambert",
+            "t": "Ça change d'une ville à l'autre ! Mais attention, il ne faut pas mélanger les déchets.",
+            "n": "It changes from one town to another! But be careful, you mustn't mix the different kinds of waste."
+          },
+          {
+            "who": "you",
+            "t": "Pas de souci, on fait le tri à la maison. Les épluchures, je les mets dans le compost.",
+            "n": "No problem, we sort our rubbish at home. Peelings, I put them in the compost."
+          },
+          {
+            "who": "A",
+            "name": "Madame Lambert",
+            "t": "Parfait ! Vous allez être un voisin modèle.",
+            "n": "Perfect! You're going to be a model neighbour."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where you throw away glass bottles.",
+          "t": [
+            "Où est-ce que je jette les bouteilles en verre",
+            "Où je jette les bouteilles en verre",
+            "Je jette les bouteilles en verre où"
+          ]
+        },
+        {
+          "n": "Say packaging goes in the yellow bin.",
+          "t": [
+            "Les emballages vont dans la poubelle jaune",
+            "Les emballages, ça va dans la poubelle jaune"
+          ]
+        },
+        {
+          "n": "Say you mustn't mix the different kinds of waste.",
+          "t": [
+            "Il ne faut pas mélanger les déchets",
+            "Il faut pas mélanger les déchets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l3",
+      "title": "Who should act?",
+      "goal": "Weigh up who is responsible for protecting the climate.",
+      "tip": {
+        "title": "C'est à … de & d'un côté … de l'autre",
+        "body": "C'est à + person + de + infinitive means it's up to someone to do something: C'est aux entreprises de faire des efforts. Balance two sides with d'un côté … de l'autre (on the one hand … on the other). Ne … pas suffire = not to be enough: Les petits gestes ne suffisent pas. Pronunciation: in suffisent the -ent is silent [sy-fiz]."
+      },
+      "phrases": [
+        {
+          "t": "Les petits gestes ne suffisent pas.",
+          "n": "Small actions aren't enough."
+        },
+        {
+          "t": "C'est aux entreprises de faire des efforts.",
+          "n": "It's up to companies to make an effort.",
+          "note": "à + les = aux"
+        },
+        {
+          "t": "Les gouvernements doivent agir plus vite.",
+          "n": "Governments must act faster."
+        },
+        {
+          "t": "D'un côté, c'est cher ; de l'autre, c'est nécessaire.",
+          "n": "On the one hand it's expensive; on the other, it's necessary."
+        },
+        {
+          "t": "Je suis pour le développement des transports en commun.",
+          "n": "I'm in favour of developing public transport."
+        }
+      ],
+      "dialogue": {
+        "title": "A debate at the café",
+        "voice": "fr-FR-ClaudeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Trier ses déchets, prendre le vélo… Honnêtement, ça ne sert à rien.",
+            "n": "Sorting your rubbish, cycling… Honestly, it's pointless."
+          },
+          {
+            "who": "you",
+            "t": "Je ne suis pas d'accord, mais c'est vrai que les petits gestes ne suffisent pas.",
+            "n": "I don't agree, but it's true that small actions aren't enough."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Voilà ! C'est aux entreprises de faire des efforts, pas à nous.",
+            "n": "Exactly! It's up to companies to make an effort, not us."
+          },
+          {
+            "who": "you",
+            "t": "Et les gouvernements doivent agir plus vite. Je suis pour le développement des transports en commun.",
+            "n": "And governments must act faster. I'm in favour of developing public transport."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Mais ça coûte une fortune !",
+            "n": "But that costs a fortune!"
+          },
+          {
+            "who": "you",
+            "t": "D'un côté, c'est cher ; de l'autre, c'est nécessaire.",
+            "n": "On the one hand it's expensive; on the other, it's necessary."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say small actions aren't enough.",
+          "t": [
+            "Les petits gestes ne suffisent pas",
+            "Les petits gestes suffisent pas"
+          ]
+        },
+        {
+          "n": "Say it's up to companies to make an effort.",
+          "t": [
+            "C'est aux entreprises de faire des efforts",
+            "C'est aux entreprises de faire un effort"
+          ]
+        },
+        {
+          "n": "Say governments must act faster.",
+          "t": [
+            "Les gouvernements doivent agir plus vite",
+            "Le gouvernement doit agir plus vite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l4",
+      "kind": "grammar",
+      "title": "il faut que & devoir",
+      "goal": "Say what must be done with il faut que + subjunctive, devoir and devrais.",
+      "tip": {
+        "title": "il faut que + subjunctive",
+        "body": "Il faut + infinitive is general (Il faut recycler — one must recycle). To say who must do it, use il faut que + subject + subjunctive: Il faut que tu recycles. To form the subjunctive, take the ils form of the present, drop -ent and add -e, -es, -e, -ions, -iez, -ent: ils prennent → que je prenne, que nous prenions. Common irregulars: faire → que je fasse, aller → que j'aille, être → que je sois, avoir → que j'aie. Il ne faut pas que means must not (not 'don't have to'). Devoir works like must: je dois, tu dois, il doit, nous devons, vous devez, ils doivent; je devrais = I should. Pronunciation: for most -er verbs the subjunctive sounds like the present (que je trie = je trie), except for nous and vous: que nous parlions [par-ljɔ̃] vs nous parlons [par-lɔ̃]."
+      },
+      "phrases": [
+        {
+          "t": "Il faut qu'on trie nos déchets.",
+          "n": "We have to sort our rubbish.",
+          "note": "qu'on = que + on"
+        },
+        {
+          "t": "Il faut que tu éteignes la lumière.",
+          "n": "You have to switch off the light.",
+          "note": "ils éteignent → que tu éteignes"
+        },
+        {
+          "t": "Il faut que nous prenions les transports en commun.",
+          "n": "We have to take public transport."
+        },
+        {
+          "t": "Il ne faut pas que vous jetiez ça par terre.",
+          "n": "You mustn't throw that on the ground."
+        },
+        {
+          "t": "On doit réduire nos déchets.",
+          "n": "We must reduce our waste."
+        },
+        {
+          "t": "Tu devrais acheter une gourde.",
+          "n": "You should buy a reusable water bottle.",
+          "note": "devrais = should (conditional)"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Il faut que je trie mes déchets.",
+            "n": "I have to sort my rubbish."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Il faut que tu tries tes déchets.",
+              "n": "You have to sort your rubbish."
+            },
+            {
+              "cue": "nous",
+              "t": "Il faut que nous triions nos déchets.",
+              "n": "We have to sort our rubbish."
+            },
+            {
+              "cue": "ils",
+              "t": "Il faut qu'ils trient leurs déchets.",
+              "n": "They have to sort their rubbish."
+            }
+          ]
+        },
+        {
+          "title": "Irregular subjunctives",
+          "base": {
+            "t": "Il faut que tu fasses un effort.",
+            "n": "You have to make an effort."
+          },
+          "items": [
+            {
+              "cue": "prendre le vélo",
+              "t": "Il faut que tu prennes le vélo.",
+              "n": "You have to take your bike."
+            },
+            {
+              "cue": "aller au marché",
+              "t": "Il faut que tu ailles au marché.",
+              "n": "You have to go to the market."
+            },
+            {
+              "cue": "être patient",
+              "t": "Il faut que tu sois patient.",
+              "n": "You have to be patient."
+            },
+            {
+              "cue": "vous · faire attention",
+              "t": "Il faut que vous fassiez attention.",
+              "n": "You have to be careful."
+            }
+          ]
+        },
+        {
+          "title": "devoir and devrais",
+          "base": {
+            "t": "Je dois économiser l'eau.",
+            "n": "I must save water."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Nous devons économiser l'eau.",
+              "n": "We must save water."
+            },
+            {
+              "cue": "ils",
+              "t": "Ils doivent économiser l'eau.",
+              "n": "They must save water."
+            },
+            {
+              "cue": "conseil · tu",
+              "t": "Tu devrais économiser l'eau.",
+              "n": "You should save water."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a friend they have to switch off the light.",
+          "t": [
+            "Il faut que tu éteignes la lumière",
+            "Faut que tu éteignes la lumière"
+          ]
+        },
+        {
+          "n": "Say we have to take public transport.",
+          "t": [
+            "Il faut que nous prenions les transports en commun",
+            "Il faut qu'on prenne les transports en commun",
+            "On doit prendre les transports en commun",
+            "Nous devons prendre les transports en commun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l5",
+      "kind": "listening",
+      "title": "BIXI in Montréal",
+      "goal": "Follow a Québécoise explaining how the city's bike-sharing system works.",
+      "phrases": [
+        {
+          "t": "J'ai téléchargé l'appli pour louer un vélo.",
+          "n": "I downloaded the app to rent a bike."
+        },
+        {
+          "t": "Il y a une station au coin de la rue.",
+          "n": "There's a docking station on the street corner."
+        },
+        {
+          "t": "Je vais au bureau à vélo.",
+          "n": "I go to the office by bike.",
+          "note": "à vélo (also en vélo in speech)"
+        },
+        {
+          "t": "Les pistes cyclables sont bien aménagées.",
+          "n": "The cycle lanes are well laid out."
+        }
+      ],
+      "story": {
+        "title": "No car needed",
+        "intro": "Thomas has just moved from Lyon to Montréal for work. His colleague Geneviève explains how she gets around.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Geneviève, tu arrives toujours au bureau avant moi. Tu habites tout près ?",
+            "n": "Geneviève, you always get to the office before me. Do you live really close?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Pas vraiment, mais je viens en BIXI. C'est plus rapide que l'autobus !",
+            "n": "Not really, but I come by BIXI. It's faster than the bus!"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-AlainNeural",
+            "t": "BIXI ? Ce sont les vélos en libre-service ? Comme le Vélib' à Paris ?",
+            "n": "BIXI? Is that the shared bikes? Like Vélib' in Paris?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Exactement. Tu télécharges l'appli, tu prends un vélo à une station et tu le laisses à une autre.",
+            "n": "Exactly. You download the app, take a bike from one station and leave it at another."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Et il y a des stations partout ?",
+            "n": "And are there stations everywhere?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Dans le centre, oui. Il y en a une au coin de ma rue. Et il y a aussi des vélos électriques pour les côtes.",
+            "n": "In the centre, yes. There's one on the corner of my street. And there are electric bikes too, for the hills."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Mais ce n'est pas dangereux, avec toute la circulation ?",
+            "n": "But isn't it dangerous, with all the traffic?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Non, les pistes cyclables sont bien aménagées. Moi, je n'ai plus de char depuis deux ans.",
+            "n": "No, the cycle lanes are well laid out. I haven't had a car for two years."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Un char ?",
+            "n": "A 'char'?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Une voiture, si tu préfères ! Bon, il faut que tu essaies. On y va ensemble en fin de semaine ?",
+            "n": "A car, if you prefer! Right, you have to try it. Shall we go together at the weekend?"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment Geneviève va-t-elle au bureau ?",
+            "n": "How does Geneviève get to the office?",
+            "t": [
+              "En BIXI",
+              "À vélo",
+              "En vélo",
+              "Elle y va en BIXI",
+              "Elle prend un BIXI"
+            ]
+          },
+          {
+            "q": "Où est la station la plus proche de chez elle ?",
+            "n": "Where is the station nearest her home?",
+            "t": [
+              "Au coin de sa rue",
+              "Au coin de la rue",
+              "Elle est au coin de sa rue"
+            ]
+          },
+          {
+            "q": "Depuis combien de temps est-ce qu'elle n'a plus de voiture ?",
+            "n": "How long has she been without a car?",
+            "t": [
+              "Depuis deux ans",
+              "Deux ans",
+              "Ça fait deux ans"
+            ]
+          },
+          {
+            "q": "Que veut dire « char » au Québec ?",
+            "n": "What does 'char' mean in Québec?",
+            "t": [
+              "Une voiture",
+              "Voiture",
+              "Ça veut dire voiture",
+              "Une auto"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u06-l6",
+      "kind": "roleplay",
+      "title": "The wrong bag",
+      "goal": "Respond politely when a neighbour points out you broke the rubbish rules.",
+      "phrases": [
+        {
+          "t": "Je suis vraiment désolé, je ne savais pas.",
+          "n": "I'm really sorry, I didn't know.",
+          "note": "désolée for a woman"
+        },
+        {
+          "t": "Qu'est-ce que je dois faire ?",
+          "n": "What should I do?"
+        },
+        {
+          "t": "Où est-ce qu'on achète les sacs officiels ?",
+          "n": "Where do you buy the official bags?"
+        },
+        {
+          "t": "Ça ne se reproduira plus.",
+          "n": "It won't happen again."
+        }
+      ],
+      "branch": {
+        "title": "Trouble at the bins",
+        "scene": "You've just moved into a flat in Lausanne. You put your rubbish out in an ordinary supermarket bag. Your neighbour Madame Favre, who keeps an eye on the building, stops you at the bins.",
+        "name": "Madame Favre (voisine)",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Excusez-moi, c'est à vous, ce sac ?",
+            "n": "Hello! Excuse me, is this bag yours?",
+            "choices": [
+              {
+                "t": "Oui, bonjour. Il y a un problème ?",
+                "n": "Yes, hello. Is there a problem?",
+                "next": "problem"
+              },
+              {
+                "t": "Non, pas du tout.",
+                "n": "No, not at all.",
+                "next": "lie"
+              }
+            ]
+          },
+          "lie": {
+            "t": "Ah bon ? Je vous ai pourtant vu le déposer il y a deux minutes…",
+            "n": "Really? But I saw you put it down two minutes ago…",
+            "choices": [
+              {
+                "t": "Bon… oui, c'est à moi. Je suis désolé.",
+                "n": "Well… yes, it's mine. I'm sorry.",
+                "next": "problem"
+              },
+              {
+                "t": "Vous vous trompez, madame.",
+                "n": "You're mistaken.",
+                "next": "bad"
+              }
+            ]
+          },
+          "problem": {
+            "t": "Ici, il faut que vous utilisiez les sacs officiels. Sinon, ils ne sont pas ramassés.",
+            "n": "Here you have to use the official bags. Otherwise they aren't collected.",
+            "choices": [
+              {
+                "t": "Je suis vraiment désolé, je ne savais pas. Qu'est-ce que je dois faire ?",
+                "n": "I'm really sorry, I didn't know. What should I do?",
+                "next": "explain"
+              },
+              {
+                "t": "C'est ridicule, un sac, c'est un sac !",
+                "n": "That's ridiculous, a bag is a bag!",
+                "next": "angry"
+              }
+            ]
+          },
+          "angry": {
+            "t": "Peut-être, mais c'est la règle. Et l'amende peut coûter cher.",
+            "n": "Maybe, but that's the rule. And the fine can be expensive.",
+            "choices": [
+              {
+                "t": "Une amende ? Ah, je ne savais pas. Qu'est-ce que je dois faire ?",
+                "n": "A fine? Oh, I didn't know. What should I do?",
+                "next": "explain"
+              },
+              {
+                "t": "Ce n'est pas mon problème.",
+                "n": "That's not my problem.",
+                "next": "bad"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Il faut que vous mettiez vos déchets dans un sac taxé. Le prix du ramassage est compris dedans.",
+            "n": "You have to put your rubbish in a taxed bag. The cost of collection is included in it.",
+            "choices": [
+              {
+                "t": "D'accord. Où est-ce qu'on achète les sacs officiels ?",
+                "n": "OK. Where do you buy the official bags?",
+                "next": "where"
+              },
+              {
+                "t": "Et le verre et le PET, je les mets où ?",
+                "n": "And glass and PET bottles, where do I put them?",
+                "next": "recycling"
+              }
+            ]
+          },
+          "recycling": {
+            "t": "Le verre, à l'écopoint du quartier. Les bouteilles en PET, vous pouvez les rapporter au magasin.",
+            "n": "Glass goes to the neighbourhood recycling point. PET bottles you can take back to the shop.",
+            "choices": [
+              {
+                "t": "Merci ! Et où est-ce qu'on achète les sacs officiels ?",
+                "n": "Thanks! And where do you buy the official bags?",
+                "next": "where"
+              }
+            ]
+          },
+          "where": {
+            "t": "Au supermarché, à la caisse. Ils sont vendus en rouleaux.",
+            "n": "At the supermarket, at the checkout. They're sold in rolls.",
+            "choices": [
+              {
+                "t": "Merci beaucoup pour votre aide. Ça ne se reproduira plus.",
+                "n": "Thank you very much for your help. It won't happen again.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Avec plaisir. Et bienvenue dans l'immeuble !",
+            "n": "My pleasure. And welcome to the building!",
+            "end": "good",
+            "outcome": "You apologised, asked the right questions and made a friend in the building."
+          },
+          "bad": {
+            "t": "Très bien. Je vais en parler à la gérance.",
+            "n": "Very well. I'll mention it to the property management.",
+            "end": "bad",
+            "outcome": "You got defensive and now the property manager will hear about it. Apologise and ask how the system works instead."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Apologise and say you didn't know.",
+          "t": [
+            "Je suis vraiment désolé, je ne savais pas",
+            "Je suis désolé, je ne savais pas",
+            "Je suis désolée, je ne savais pas",
+            "Désolé, je savais pas"
+          ]
+        },
+        {
+          "n": "Ask where you buy the official bags.",
+          "t": [
+            "Où est-ce qu'on achète les sacs officiels",
+            "Où est-ce que j'achète les sacs officiels",
+            "On achète les sacs officiels où"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-l7",
+      "kind": "speaking",
+      "title": "Green where I live",
+      "goal": "Talk for about 45 seconds about what people must do for the environment where you live.",
+      "culture": {
+        "title": "Le tri sélectif and shared bikes",
+        "body": "Sorting rules depend on the town. In much of France, packaging and paper go in a yellow bin and glass in street containers; in Belgium plastic, metal and drink cartons go in the blue PMC bag; in many Swiss towns, including Lausanne, you pay for each official rubbish bag (la taxe au sac), and PET bottles are taken back to shops. Bike sharing is popular too: Vélib' in Paris and BIXI in Montréal, both with docking stations all over the city. In Québec you'll hear un char for a car and la fin de semaine for the weekend.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Chez nous, on trie le papier, le verre et le plastique.",
+          "n": "Where I live, we sort paper, glass and plastic."
+        },
+        {
+          "t": "En Suisse, il faut payer chaque sac poubelle.",
+          "n": "In Switzerland you have to pay for each rubbish bag.",
+          "note": "in many towns"
+        },
+        {
+          "t": "Il faudrait plus de pistes cyclables.",
+          "n": "We'd need more cycle lanes.",
+          "note": "il faudrait = conditional of il faut"
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain how rubbish is sorted where you live and say what people must do to protect the environment.",
+          "hint": "Use Chez nous, on trie…, … va dans …, Il faut que + subjunctive, On doit…, Tu devrais…, Il faudrait…",
+          "seconds": 50,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "il faut (que) / devoir",
+              "any": [
+                "il faut",
+                "faut que",
+                "faudrait",
+                "doit",
+                "doivent",
+                "devons",
+                "devrait*",
+                "devrais"
+              ]
+            },
+            {
+              "label": "waste and sorting",
+              "any": [
+                "déchet*",
+                "tri*",
+                "recycl*",
+                "poubelle*",
+                "plastique",
+                "verre",
+                "papier",
+                "compost*",
+                "emballage*",
+                "sac*"
+              ]
+            },
+            {
+              "label": "climate and transport",
+              "any": [
+                "climat*",
+                "énergie",
+                "vélo*",
+                "transport*",
+                "voiture",
+                "pollution",
+                "planète",
+                "environnement"
+              ]
+            }
+          ],
+          "model": "Chez nous, on trie le papier, le verre et le plastique. Les emballages vont dans la poubelle jaune et les épluchures dans le compost. À mon avis, il faut que les gens prennent plus souvent le vélo, et la ville doit construire plus de pistes cyclables. Chaque geste compte !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that where you live, people sort paper, glass and plastic.",
+          "t": [
+            "Chez nous, on trie le papier, le verre et le plastique",
+            "Chez nous on trie le papier, le verre et le plastique"
+          ]
+        },
+        {
+          "n": "Say there should be more cycle lanes.",
+          "t": [
+            "Il faudrait plus de pistes cyclables",
+            "Il faut plus de pistes cyclables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: L'environnement",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

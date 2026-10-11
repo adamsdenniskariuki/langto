@@ -1,0 +1,255 @@
+{
+  "id": "pron-u07",
+  "level": "B1",
+  "title": "Les sons eu",
+  "subtitle": "deux, peur — and eu vs ou",
+  "icon": "😮",
+  "lessons": [
+    {
+      "id": "pron-u07-l1",
+      "kind": "pron",
+      "title": "Closed and open eu",
+      "goal": "Say deux and peur, and keep eu apart from é and è.",
+      "tip": {
+        "title": "é + round lips = eu",
+        "body": "There are two eu sounds, both with rounded lips and the tongue forward. Closed eu (deux, peu, bleu, heureuse): say é and round your lips. Open eu (peur, sœur, heure, jeune): say è and round your lips. As a rule of thumb, eu is closed at the end of a word and before a z-sound, and open before a pronounced consonant. Don't say \"er\" as in English — the r of peur is the French throat r."
+      },
+      "phrases": [
+        {
+          "t": "Il pleut.",
+          "n": "It's raining."
+        },
+        {
+          "t": "J'ai peur.",
+          "n": "I'm scared."
+        },
+        {
+          "t": "Ma sœur est heureuse.",
+          "n": "My sister is happy.",
+          "note": "sœur: open eu; heureuse ends in closed eu before the z sound."
+        },
+        {
+          "t": "À tout à l'heure !",
+          "n": "See you later!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "eu / é",
+          "a": {
+            "t": "deux",
+            "n": "two"
+          },
+          "b": {
+            "t": "des",
+            "n": "some"
+          }
+        },
+        {
+          "sound": "eu / é",
+          "a": {
+            "t": "feu",
+            "n": "fire"
+          },
+          "b": {
+            "t": "fée",
+            "n": "fairy"
+          }
+        },
+        {
+          "sound": "eu / é",
+          "a": {
+            "t": "bleu",
+            "n": "blue"
+          },
+          "b": {
+            "t": "blé",
+            "n": "wheat"
+          }
+        },
+        {
+          "sound": "eu / è",
+          "a": {
+            "t": "peur",
+            "n": "fear"
+          },
+          "b": {
+            "t": "père",
+            "n": "father"
+          }
+        },
+        {
+          "sound": "eu / è",
+          "a": {
+            "t": "leur",
+            "n": "their"
+          },
+          "b": {
+            "t": "l'air",
+            "n": "the air"
+          }
+        },
+        {
+          "sound": "eu / è",
+          "a": {
+            "t": "la sœur",
+            "n": "the sister"
+          },
+          "b": {
+            "t": "la serre",
+            "n": "the greenhouse"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ma sœur est heureuse.",
+          "n": "My sister is happy.",
+          "mark": "Ma *sœur* est heu*reuse*."
+        },
+        {
+          "t": "À tout à l'heure !",
+          "n": "See you later!",
+          "mark": "À tout à l'*heure* !"
+        },
+        {
+          "t": "Il pleut.",
+          "n": "It's raining.",
+          "mark": "Il *pleut*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"See you later!\"",
+          "t": [
+            "À tout à l'heure",
+            "À plus tard",
+            "À plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u07-l2",
+      "kind": "pron",
+      "title": "eu, ou and u",
+      "goal": "Keep deux, doux and du apart.",
+      "tip": {
+        "title": "Three rounded vowels, three tongue positions",
+        "body": "All three are rounded, but the tongue moves: ou (doux) is at the back; u (du) is high and forward, as for \"ee\"; eu (deux) is forward but lower, as for \"é\". With your lips rounded the whole time, slide \"ou → eu → u\" and feel your tongue move forward and up. English speakers often turn eu into \"oo\" or \"er\" — keep the tongue forward and the lips round."
+      },
+      "phrases": [
+        {
+          "t": "Deux euros.",
+          "n": "Two euros.",
+          "note": "Liaison: \"deu-z-euros\"."
+        },
+        {
+          "t": "Je veux bien.",
+          "n": "I'd like that. / Yes, please."
+        },
+        {
+          "t": "C'est un peu mieux.",
+          "n": "It's a little better."
+        },
+        {
+          "t": "C'est leur neveu.",
+          "n": "It's their nephew."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "eu / ou",
+          "a": {
+            "t": "deux",
+            "n": "two"
+          },
+          "b": {
+            "t": "doux",
+            "n": "soft, sweet"
+          }
+        },
+        {
+          "sound": "eu / ou",
+          "a": {
+            "t": "peu",
+            "n": "little"
+          },
+          "b": {
+            "t": "pou",
+            "n": "louse"
+          }
+        },
+        {
+          "sound": "eu / ou",
+          "a": {
+            "t": "jeu",
+            "n": "game"
+          },
+          "b": {
+            "t": "joue",
+            "n": "cheek"
+          }
+        },
+        {
+          "sound": "eu / ou",
+          "a": {
+            "t": "feu",
+            "n": "fire"
+          },
+          "b": {
+            "t": "fou",
+            "n": "mad"
+          }
+        },
+        {
+          "sound": "eu / u",
+          "a": {
+            "t": "deux",
+            "n": "two"
+          },
+          "b": {
+            "t": "du",
+            "n": "some (m)"
+          }
+        },
+        {
+          "sound": "eu / u",
+          "a": {
+            "t": "peur",
+            "n": "fear"
+          },
+          "b": {
+            "t": "pur",
+            "n": "pure"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Je veux bien.",
+          "n": "I'd like that.",
+          "mark": "Je veux *bien*."
+        },
+        {
+          "t": "C'est un peu mieux.",
+          "n": "It's a little better.",
+          "mark": "C'est un peu *mieux*."
+        },
+        {
+          "t": "Deux euros.",
+          "n": "Two euros.",
+          "mark": "Deux eu*ros*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"Two euros.\"",
+          "t": [
+            "Deux euros"
+          ]
+        }
+      ]
+    }
+  ]
+}

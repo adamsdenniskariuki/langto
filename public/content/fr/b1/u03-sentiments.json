@@ -1,0 +1,857 @@
+{
+  "id": "b1-u03",
+  "title": "Les sentiments",
+  "subtitle": "Feelings & emotions",
+  "icon": "💛",
+  "lessons": [
+    {
+      "id": "b1-u03-l1",
+      "title": "How do you feel?",
+      "goal": "Say how you feel and share good and bad news.",
+      "tip": {
+        "title": "être + adjective, avoir + noun",
+        "body": "Some feelings use être + an adjective that agrees with the speaker: je suis content / contente, déçu / déçue, inquiet / inquiète. Others use avoir + a noun with no article: avoir peur (to be afraid), avoir hâte (to be looking forward to / can't wait), avoir honte (to be ashamed). Both are followed by de + infinitive: J'ai hâte de te voir. Pronunciation: the h of hâte and honte is aspiré, so there is no liaison and no elision (j'ai | hâte, la honte). The ç in déçu is a soft s."
+      },
+      "phrases": [
+        {
+          "t": "Je suis vraiment content pour toi !",
+          "n": "I'm really happy for you!",
+          "note": "contente for a woman speaker"
+        },
+        {
+          "t": "Ça m'énerve quand les gens sont en retard.",
+          "n": "It annoys me when people are late."
+        },
+        {
+          "t": "J'en ai marre de cette pluie.",
+          "n": "I'm fed up with this rain.",
+          "note": "Informal; en avoir marre de = to be sick of"
+        },
+        {
+          "t": "Je suis un peu déçu.",
+          "n": "I'm a bit disappointed.",
+          "note": "déçue for a woman — same sound"
+        },
+        {
+          "t": "Ça me fait plaisir de te voir.",
+          "n": "I'm pleased to see you."
+        },
+        {
+          "t": "J'ai hâte de partir en vacances.",
+          "n": "I can't wait to go on holiday."
+        },
+        {
+          "t": "Je me fais du souci pour mon frère.",
+          "n": "I'm worried about my brother.",
+          "note": "se faire du souci = to worry"
+        },
+        {
+          "t": "Quelle bonne nouvelle !",
+          "n": "What good news!"
+        }
+      ],
+      "dialogue": {
+        "title": "Good news, bad news",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Salut ! Tu fais une drôle de tête. Ça ne va pas ?",
+            "n": "Hi! You look a bit down. Is something wrong?"
+          },
+          {
+            "who": "you",
+            "t": "Bof. Je suis un peu déçu : le concert de samedi est annulé.",
+            "n": "Meh. I'm a bit disappointed: Saturday's concert is cancelled."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Oh, c'est dommage ! Moi, par contre, j'ai une bonne nouvelle : j'ai trouvé un appartement !",
+            "n": "Oh, that's a shame! I, on the other hand, have some good news: I've found a flat!"
+          },
+          {
+            "who": "you",
+            "t": "Quelle bonne nouvelle ! Je suis vraiment content pour toi !",
+            "n": "What good news! I'm really happy for you!"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Merci ! Je déménage le mois prochain. J'ai trop hâte !",
+            "n": "Thanks! I'm moving next month. I can't wait!"
+          },
+          {
+            "who": "you",
+            "t": "Ça me fait plaisir de te voir si heureuse.",
+            "n": "I'm pleased to see you so happy."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Et à part le concert, tout va bien ?",
+            "n": "And apart from the concert, is everything OK?"
+          },
+          {
+            "who": "you",
+            "t": "Pas vraiment. Je me fais du souci pour mon frère. Il cherche du travail depuis six mois.",
+            "n": "Not really. I'm worried about my brother. He's been looking for work for six months."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a friend you're really happy for them.",
+          "t": [
+            "Je suis vraiment content pour toi",
+            "Je suis vraiment contente pour toi",
+            "Je suis content pour toi",
+            "Je suis contente pour toi"
+          ]
+        },
+        {
+          "n": "Say you can't wait to go on holiday.",
+          "t": [
+            "J'ai hâte de partir en vacances",
+            "J'ai trop hâte de partir en vacances",
+            "J'ai hâte d'être en vacances"
+          ]
+        },
+        {
+          "n": "Say you're worried about your brother.",
+          "t": [
+            "Je me fais du souci pour mon frère",
+            "Je m'inquiète pour mon frère",
+            "Je suis inquiet pour mon frère",
+            "Je suis inquiète pour mon frère"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l2",
+      "title": "Reacting to news",
+      "goal": "Show surprise, joy and regret when someone tells you something.",
+      "tip": {
+        "title": "Quick reactions",
+        "body": "Short reactions keep a conversation alive: Ça alors ! (well I never!), Ce n'est pas vrai ! (no way!), Tu plaisantes ? (are you kidding?), Quel dommage ! (what a shame!). In speech the ne almost always disappears: C'est pas vrai ! J'en reviens pas ! Exclamations rise and then fall sharply on the last syllable: Ça a-LORS ! In gentil the final l is silent: Comme c'est gentil ! sounds like 'jan-ti'."
+      },
+      "phrases": [
+        {
+          "t": "Ce n'est pas vrai !",
+          "n": "No way! / You're joking!",
+          "note": "Spoken: C'est pas vrai !"
+        },
+        {
+          "t": "Ça alors !",
+          "n": "Well I never!"
+        },
+        {
+          "t": "Je n'en reviens pas.",
+          "n": "I can't get over it.",
+          "note": "Spoken: J'en reviens pas."
+        },
+        {
+          "t": "Tu plaisantes ?",
+          "n": "Are you kidding?"
+        },
+        {
+          "t": "Quel dommage !",
+          "n": "What a shame!"
+        },
+        {
+          "t": "Ça ne m'étonne pas du tout.",
+          "n": "That doesn't surprise me at all."
+        },
+        {
+          "t": "Félicitations, c'est génial !",
+          "n": "Congratulations, that's great!"
+        },
+        {
+          "t": "Comme c'est gentil !",
+          "n": "How kind!"
+        }
+      ],
+      "dialogue": {
+        "title": "Office gossip",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Tu connais la nouvelle ? Julien et Sarah se marient !",
+            "n": "Have you heard the news? Julien and Sarah are getting married!"
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas vrai ! Ça alors !",
+            "n": "No way! Well I never!"
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Oui, en juillet, à Québec. Et on est tous invités !",
+            "n": "Yes, in July, in Quebec City. And we're all invited!"
+          },
+          {
+            "who": "you",
+            "t": "Comme c'est gentil ! Je n'en reviens pas, ils se connaissent depuis six mois seulement.",
+            "n": "How kind! I can't get over it, they've only known each other for six months."
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Autre nouvelle : Paul quitte l'entreprise à la fin du mois.",
+            "n": "Other news: Paul is leaving the company at the end of the month."
+          },
+          {
+            "who": "you",
+            "t": "Ça ne m'étonne pas du tout. Il n'avait pas l'air heureux ici.",
+            "n": "That doesn't surprise me at all. He didn't seem happy here."
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Moi, je trouve ça plate. Je l'aimais bien, Paul.",
+            "n": "I think it's a pity (Québec: plate = boring / a shame). I liked Paul."
+          },
+          {
+            "who": "you",
+            "t": "Quel dommage, oui. On lui organise un pot de départ ?",
+            "n": "What a shame, yes. Shall we organise a leaving drink for him?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "React with surprise: no way!",
+          "t": [
+            "Ce n'est pas vrai",
+            "C'est pas vrai",
+            "Ça alors",
+            "Tu plaisantes"
+          ]
+        },
+        {
+          "n": "Say you can't get over it.",
+          "t": [
+            "Je n'en reviens pas",
+            "J'en reviens pas"
+          ]
+        },
+        {
+          "n": "Say it doesn't surprise you at all.",
+          "t": [
+            "Ça ne m'étonne pas du tout",
+            "Ça m'étonne pas du tout",
+            "Ça ne m'étonne pas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l3",
+      "title": "Comfort and encouragement",
+      "goal": "Console someone and give them courage.",
+      "tip": {
+        "title": "Soft words",
+        "body": "To console someone, show you understand (Je comprends ce que tu ressens), take the blame away (Ce n'est pas ta faute) and look ahead (Ça va s'arranger). Courage ! on its own is a very common way to say hang in there. Speak a little more slowly and softly. Note the imperative of reflexive verbs: Ne t'inquiète pas (tu), Ne vous inquiétez pas (vous). Fier has a pronounced r (fi-ère), and fière for a woman sounds the same."
+      },
+      "phrases": [
+        {
+          "t": "Ne t'inquiète pas, ça va s'arranger.",
+          "n": "Don't worry, it'll work out."
+        },
+        {
+          "t": "Je comprends ce que tu ressens.",
+          "n": "I understand how you feel."
+        },
+        {
+          "t": "Courage, tu vas y arriver !",
+          "n": "Hang in there, you'll manage it!"
+        },
+        {
+          "t": "Ce n'est pas ta faute.",
+          "n": "It's not your fault."
+        },
+        {
+          "t": "Si tu as besoin de parler, je suis là.",
+          "n": "If you need to talk, I'm here."
+        },
+        {
+          "t": "Ça va te changer les idées.",
+          "n": "It'll take your mind off things."
+        },
+        {
+          "t": "Je suis fier de toi !",
+          "n": "I'm proud of you!",
+          "note": "fière for a woman speaker"
+        }
+      ],
+      "dialogue": {
+        "title": "The driving test",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Je n'ai pas eu mon permis. Je suis tellement déçu.",
+            "n": "I didn't pass my driving test. I'm so disappointed."
+          },
+          {
+            "who": "you",
+            "t": "Oh non ! Je comprends ce que tu ressens.",
+            "n": "Oh no! I understand how you feel."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "J'étais trop stressé. J'ai même calé deux fois. J'ai honte.",
+            "n": "I was too stressed. I even stalled twice. I'm ashamed."
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas ta faute, ça arrive à tout le monde. Courage, tu vas y arriver !",
+            "n": "It's not your fault, it happens to everyone. Hang in there, you'll manage it!"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Tu crois ?",
+            "n": "Do you think so?"
+          },
+          {
+            "who": "you",
+            "t": "J'en suis sûr. Allez, viens boire un verre, ça va te changer les idées.",
+            "n": "I'm sure of it. Come on, come for a drink, it'll take your mind off things."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a friend not to worry, it'll work out.",
+          "t": [
+            "Ne t'inquiète pas, ça va s'arranger",
+            "T'inquiète pas, ça va s'arranger",
+            "Ne t'inquiète pas"
+          ]
+        },
+        {
+          "n": "Say you understand how they feel.",
+          "t": [
+            "Je comprends ce que tu ressens",
+            "Je comprends ce que vous ressentez",
+            "Je te comprends"
+          ]
+        },
+        {
+          "n": "Tell a friend you're proud of them.",
+          "t": [
+            "Je suis fier de toi",
+            "Je suis fière de toi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l4",
+      "kind": "grammar",
+      "title": "Content que… + subjunctive",
+      "goal": "Express feelings about what other people do.",
+      "tip": {
+        "title": "Emotion + que → subjunctive",
+        "body": "After a feeling + que, French uses the subjunctive: Je suis content que tu sois là. C'est dommage qu'il parte. J'ai peur qu'il ne vienne pas. If both parts have the same subject, use de + infinitive instead: Je suis content d'être là (not que je sois). To form it, take the ils form of the present, drop -ent and add -e, -es, -e, -ions, -iez, -ent: ils partent → que je parte. Key irregulars: être (que je sois, tu sois, il soit, nous soyons, vous soyez), avoir (que j'aie, il ait), faire (fasse), aller (aille), pouvoir (puisse), venir (vienne). Good news for speaking: for -er verbs the singular forms sound exactly like the present (que je parle = je parle), and for many other verbs they sound like the ils form (que je parte sounds like ils partent)."
+      },
+      "phrases": [
+        {
+          "t": "Je suis content que tu sois là.",
+          "n": "I'm glad you're here."
+        },
+        {
+          "t": "Je suis désolé que tu partes si tôt.",
+          "n": "I'm sorry you're leaving so early."
+        },
+        {
+          "t": "J'ai peur qu'il ne vienne pas.",
+          "n": "I'm afraid he won't come."
+        },
+        {
+          "t": "Ça me fait plaisir que vous veniez.",
+          "n": "I'm pleased that you're coming."
+        },
+        {
+          "t": "C'est dommage qu'elle ne puisse pas venir.",
+          "n": "It's a shame she can't come."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the feeling",
+          "base": {
+            "t": "Je suis content que tu sois là.",
+            "n": "I'm glad you're here."
+          },
+          "items": [
+            {
+              "cue": "triste · tu pars",
+              "t": "Je suis triste que tu partes.",
+              "n": "I'm sad you're leaving."
+            },
+            {
+              "cue": "surpris · il a raison",
+              "t": "Je suis surpris qu'il ait raison.",
+              "n": "I'm surprised he's right."
+            },
+            {
+              "cue": "c'est dommage · vous ne pouvez pas venir",
+              "t": "C'est dommage que vous ne puissiez pas venir.",
+              "n": "It's a shame you can't come."
+            },
+            {
+              "cue": "ravi · elle fait ce voyage",
+              "t": "Je suis ravi qu'elle fasse ce voyage.",
+              "n": "I'm delighted she's making this trip."
+            }
+          ]
+        },
+        {
+          "title": "Same subject? Use de + infinitive",
+          "base": {
+            "t": "Je suis heureux d'être ici.",
+            "n": "I'm happy to be here."
+          },
+          "items": [
+            {
+              "cue": "tu · être ici",
+              "t": "Je suis heureux que tu sois ici.",
+              "n": "I'm happy you're here."
+            },
+            {
+              "cue": "désolé · être en retard",
+              "t": "Je suis désolé d'être en retard.",
+              "n": "I'm sorry to be late."
+            },
+            {
+              "cue": "désolé · vous attendez",
+              "t": "Je suis désolé que vous attendiez.",
+              "n": "I'm sorry you're waiting."
+            },
+            {
+              "cue": "content · nous allons au concert",
+              "t": "Je suis content que nous allions au concert.",
+              "n": "I'm glad we're going to the concert."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a friend you're glad they're here.",
+          "t": [
+            "Je suis content que tu sois là",
+            "Je suis contente que tu sois là",
+            "Je suis heureux que tu sois là",
+            "Je suis heureuse que tu sois là"
+          ]
+        },
+        {
+          "n": "Say it's a shame she can't come.",
+          "t": [
+            "C'est dommage qu'elle ne puisse pas venir",
+            "C'est dommage qu'elle puisse pas venir",
+            "Dommage qu'elle ne puisse pas venir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l5",
+      "kind": "listening",
+      "title": "The surprise party",
+      "goal": "Follow a friend describing an emotional evening.",
+      "phrases": [
+        {
+          "t": "Je ne me doutais de rien.",
+          "n": "I had no idea. / I didn't suspect a thing."
+        },
+        {
+          "t": "J'étais très ému.",
+          "n": "I was very moved.",
+          "note": "émue for a woman"
+        },
+        {
+          "t": "C'est touchant.",
+          "n": "That's touching."
+        },
+        {
+          "t": "On va fêter ça !",
+          "n": "We'll celebrate that!"
+        }
+      ],
+      "story": {
+        "title": "Forty and surprised",
+        "intro": "In Brussels, Élodie asks her friend Thomas about the surprise party for his fortieth birthday.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Élodie",
+            "t": "Alors, Thomas, ta fête surprise, c'était comment ?",
+            "n": "So, Thomas, how was your surprise party?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Incroyable ! Je ne me doutais de rien. Quand j'ai ouvert la porte, il y avait trente personnes dans le salon.",
+            "n": "Incredible! I had no idea. When I opened the door, there were thirty people in the living room."
+          },
+          {
+            "name": "Élodie",
+            "t": "Tu as eu peur ?",
+            "n": "Did you get a fright?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Un peu, oui ! Et après, j'étais très ému. Mes parents étaient venus de Liège exprès.",
+            "n": "A bit, yes! And then I was very moved. My parents had come from Liège specially."
+          },
+          {
+            "name": "Élodie",
+            "t": "Oh, c'est touchant. Je suis contente que ta famille ait pu venir.",
+            "n": "Oh, that's touching. I'm glad your family could come."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Le seul problème, c'est que mon meilleur ami n'était pas là. Il était malade.",
+            "n": "The only problem was that my best friend wasn't there. He was ill."
+          },
+          {
+            "name": "Élodie",
+            "t": "Quel dommage ! Tu étais déçu ?",
+            "n": "What a shame! Were you disappointed?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Un peu, mais il m'a téléphoné à minuit pour chanter. Et on va fêter ça ensemble samedi.",
+            "n": "A bit, but he phoned me at midnight to sing. And we'll celebrate together on Saturday."
+          },
+          {
+            "name": "Élodie",
+            "t": "Génial. Mais dis-moi, qui a organisé tout ça ?",
+            "n": "Great. But tell me, who organised all this?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Ma copine, Julie. Elle a tout préparé en secret pendant un mois. Je n'en reviens toujours pas !",
+            "n": "My girlfriend, Julie. She prepared everything in secret for a month. I still can't get over it!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Combien de personnes y avait-il dans le salon ?",
+            "n": "How many people were in the living room?",
+            "t": [
+              "Trente",
+              "Trente personnes",
+              "Il y avait trente personnes"
+            ]
+          },
+          {
+            "q": "D'où sont venus ses parents ?",
+            "n": "Where did his parents come from?",
+            "t": [
+              "De Liège",
+              "Liège",
+              "Ils sont venus de Liège"
+            ]
+          },
+          {
+            "q": "Pourquoi son meilleur ami n'était-il pas là ?",
+            "n": "Why wasn't his best friend there?",
+            "t": [
+              "Il était malade",
+              "Parce qu'il était malade",
+              "Malade"
+            ]
+          },
+          {
+            "q": "Qui a organisé la fête ?",
+            "n": "Who organised the party?",
+            "t": [
+              "Julie",
+              "Sa copine",
+              "Sa copine Julie",
+              "Sa petite amie",
+              "C'est Julie"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u03-l6",
+      "kind": "roleplay",
+      "title": "A friend in a bad mood",
+      "goal": "Comfort a friend — and repair it if you say the wrong thing.",
+      "phrases": [
+        {
+          "t": "Tu veux en parler ?",
+          "n": "Do you want to talk about it?"
+        },
+        {
+          "t": "Pardon, je ne voulais pas te vexer.",
+          "n": "Sorry, I didn't mean to upset you."
+        },
+        {
+          "t": "Je suis désolé que ça n'ait pas marché.",
+          "n": "I'm sorry it didn't work out.",
+          "note": "past subjunctive: que ça ait marché"
+        },
+        {
+          "t": "Ça me touche beaucoup.",
+          "n": "That means a lot to me."
+        }
+      ],
+      "branch": {
+        "title": "Coffee with Inès",
+        "scene": "You meet your friend Inès at a café in Lyon. She looks unhappy.",
+        "name": "Inès",
+        "voice": "fr-FR-JosephineNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Salut… Désolée, je ne suis pas de très bonne humeur aujourd'hui.",
+            "n": "Hi… Sorry, I'm not in a very good mood today.",
+            "choices": [
+              {
+                "t": "Qu'est-ce qui se passe ? Tu veux en parler ?",
+                "n": "What's going on? Do you want to talk about it?",
+                "next": "tell"
+              },
+              {
+                "t": "Ah bon ? Moi, j'ai passé une super journée !",
+                "n": "Really? I've had a great day!",
+                "next": "hurt"
+              }
+            ]
+          },
+          "hurt": {
+            "t": "Tu ne m'écoutes pas vraiment, là. Je suis triste, tu sais.",
+            "n": "You're not really listening to me. I'm sad, you know.",
+            "choices": [
+              {
+                "t": "Pardon, je ne voulais pas te vexer. Qu'est-ce qui s'est passé ?",
+                "n": "Sorry, I didn't mean to upset you. What happened?",
+                "next": "tell"
+              },
+              {
+                "t": "Oh, ça va, ce n'est sûrement pas si grave.",
+                "n": "Oh, come on, it surely isn't that bad.",
+                "next": "bad"
+              }
+            ]
+          },
+          "tell": {
+            "t": "Je n'ai pas été prise pour le master. J'étais sûre de l'avoir.",
+            "n": "I didn't get into the master's programme. I was sure I'd get it.",
+            "choices": [
+              {
+                "t": "Oh, je suis désolé que ça n'ait pas marché. Je comprends ce que tu ressens.",
+                "n": "Oh, I'm sorry it didn't work out. I understand how you feel.",
+                "next": "doubt"
+              },
+              {
+                "t": "Quel master, exactement ?",
+                "n": "Which master's, exactly?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Un master de design à Montréal. C'était mon rêve depuis deux ans.",
+            "n": "A master's in design in Montreal. It had been my dream for two years.",
+            "choices": [
+              {
+                "t": "Je comprends, c'est vraiment dur. Mais ce n'est pas ta faute.",
+                "n": "I understand, it's really hard. But it's not your fault.",
+                "next": "doubt"
+              }
+            ]
+          },
+          "doubt": {
+            "t": "Je me demande si je suis vraiment faite pour ça.",
+            "n": "I wonder if I'm really cut out for this.",
+            "choices": [
+              {
+                "t": "Mais si ! Tu es très douée. Tu peux recommencer l'année prochaine.",
+                "n": "Of course you are! You're very talented. You can try again next year.",
+                "next": "good"
+              },
+              {
+                "t": "Si tu as besoin de parler, je suis là. Et ce soir, je t'emmène au cinéma pour te changer les idées.",
+                "n": "If you need to talk, I'm here. And tonight I'm taking you to the cinema to take your mind off things.",
+                "next": "good"
+              },
+              {
+                "t": "Peut-être que ce n'est pas pour toi, alors.",
+                "n": "Maybe it's not for you, then.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Merci, ça me touche beaucoup. Je me sens déjà mieux.",
+            "n": "Thanks, that means a lot to me. I already feel better.",
+            "end": "good",
+            "outcome": "You listened, showed sympathy and gave Inès some courage."
+          },
+          "bad": {
+            "t": "Merci pour ton soutien… Bon, je crois que je vais rentrer.",
+            "n": "Thanks for your support… Right, I think I'll go home.",
+            "end": "bad",
+            "outcome": "Inès felt brushed off. Next time ask what happened and show you understand."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Your friend looks sad. Ask if she wants to talk about it.",
+          "t": [
+            "Tu veux en parler",
+            "Est-ce que tu veux en parler",
+            "Veux-tu en parler",
+            "Qu'est-ce qui se passe"
+          ]
+        },
+        {
+          "n": "Say you're sorry it didn't work out.",
+          "t": [
+            "Je suis désolé que ça n'ait pas marché",
+            "Je suis désolée que ça n'ait pas marché",
+            "Désolé que ça n'ait pas marché",
+            "Désolée que ça n'ait pas marché"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-l7",
+      "kind": "speaking",
+      "title": "Joys and worries",
+      "goal": "Talk about what makes you happy, what annoys or worries you, and what you're glad about.",
+      "culture": {
+        "title": "Reserve, warmth and the art of grumbling",
+        "body": "In France, people often keep a certain reserve with strangers and colleagues and share their feelings mainly with close friends and family, where warmth is very visible: la bise, long meals, Tu m'as manqué ! Grumbling (râler) is a well-known part of everyday conversation and does not necessarily mean someone is really unhappy. Understatement is common too: C'est pas mal can be genuine praise. Québécois are often seen as more openly warm and informal, switching quickly to tu, and Belgians are known for their self-deprecating humour (l'autodérision). These are tendencies, not rules — people everywhere differ.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ça me rend heureux de passer du temps avec ma famille.",
+          "n": "Spending time with my family makes me happy.",
+          "note": "rendre + adjective = to make (someone) feel"
+        },
+        {
+          "t": "Je stresse toujours avant les examens.",
+          "n": "I always get stressed before exams."
+        },
+        {
+          "t": "Tu m'as manqué !",
+          "n": "I missed you!",
+          "note": "Literally: you were missing to me"
+        },
+        {
+          "t": "Je râle un peu, mais au fond, je suis content.",
+          "n": "I grumble a bit, but deep down I'm happy."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about what makes you happy, what annoys or worries you, and something you're glad someone else is doing (que + subjunctive).",
+          "hint": "Ça me rend heureux de … / J'adore … Ça m'énerve quand … / Je me fais du souci pour … Je suis content que … (sois, ait, vienne, puisse …)",
+          "seconds": 60,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "something that makes you happy",
+              "any": [
+                "heureux",
+                "heureuse",
+                "content*",
+                "plaisir",
+                "adore",
+                "joie",
+                "ravi*"
+              ]
+            },
+            {
+              "label": "something annoying or worrying",
+              "any": [
+                "énerve",
+                "agace",
+                "marre",
+                "stress*",
+                "inquiet",
+                "inquiète",
+                "souci",
+                "peur",
+                "triste"
+              ]
+            },
+            {
+              "label": "a subjunctive",
+              "any": [
+                "sois",
+                "soit",
+                "soyez",
+                "soyons",
+                "soient",
+                "ait",
+                "aient",
+                "puisse*",
+                "fasse*",
+                "vienne*",
+                "veniez",
+                "aille*",
+                "parte*",
+                "partiez"
+              ]
+            }
+          ],
+          "model": "Ça me rend heureux de passer le dimanche avec ma famille. Par contre, ça m'énerve quand le métro est en retard, et je me fais du souci pour mon travail. Mais je suis content que mes amis viennent me voir le mois prochain, et j'ai hâte qu'ils soient là !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a friend you missed them.",
+          "t": [
+            "Tu m'as manqué",
+            "Tu m'as beaucoup manqué",
+            "Vous m'avez manqué"
+          ]
+        },
+        {
+          "n": "Say spending time with your family makes you happy.",
+          "t": [
+            "Ça me rend heureux de passer du temps avec ma famille",
+            "Ça me rend heureuse de passer du temps avec ma famille",
+            "Passer du temps avec ma famille me rend heureux",
+            "Passer du temps avec ma famille me rend heureuse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les sentiments",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

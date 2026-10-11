@@ -38,8 +38,16 @@
       "id": "B1",
       "title": "Intermediate",
       "description": "Give opinions, tell stories, talk about feelings, work, media and the francophone world.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "b1/u01-opinion.json",
+        "b1/u02-autrefois.json",
+        "b1/u03-sentiments.json",
+        "b1/u04-metier.json",
+        "b1/u05-medias.json",
+        "b1/u06-environnement.json",
+        "b1/u07-hypotheses.json",
+        "b1/u08-fetes.json"
+      ]
     },
     {
       "id": "B2",
@@ -74,7 +82,9 @@
         "pron/u02-nasales.json",
         "pron/u03-r.json",
         "pron/u04-lettres-muettes.json",
-        "pron/u05-liaison.json"
+        "pron/u05-liaison.json",
+        "pron/u06-e.json",
+        "pron/u07-eu.json"
       ]
     }
   ]

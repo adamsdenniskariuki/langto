@@ -1,0 +1,878 @@
+{
+  "id": "b1-u02",
+  "title": "Autrefois",
+  "subtitle": "Childhood & memories",
+  "icon": "🕰️",
+  "lessons": [
+    {
+      "id": "b1-u02-l1",
+      "title": "When I was a child",
+      "goal": "Describe what your life used to be like.",
+      "tip": {
+        "title": "The imparfait paints the background",
+        "body": "To say how things used to be — habits, descriptions, feelings — French uses the imparfait: Quand j'étais petit, j'habitais à la campagne (When I was little, I lived in the countryside). English often says 'used to' or 'would': Le dimanche, on allait chez ma grand-mère (On Sundays we used to go to my grandmother's). The endings -ais, -ait and -aient all sound the same, 'è': j'habitais, il habitait, ils habitaient. In speech, quand j'étais has a liaison: quan-t-étais."
+      },
+      "phrases": [
+        {
+          "t": "Quand j'étais petit, j'habitais à la campagne.",
+          "n": "When I was little, I lived in the countryside.",
+          "note": "A woman says petite."
+        },
+        {
+          "t": "Le mercredi, j'allais chez ma grand-mère.",
+          "n": "On Wednesdays, I used to go to my grandmother's.",
+          "note": "le mercredi = every Wednesday."
+        },
+        {
+          "t": "Je jouais au foot avec mes copains après l'école.",
+          "n": "I used to play football with my friends after school."
+        },
+        {
+          "t": "J'étais plutôt timide.",
+          "n": "I was rather shy."
+        },
+        {
+          "t": "Ma mère me lisait une histoire tous les soirs.",
+          "n": "My mother read me a story every evening."
+        },
+        {
+          "t": "On n'avait pas de portable à l'époque.",
+          "n": "We didn't have mobile phones back then."
+        },
+        {
+          "t": "Mon meilleur ami s'appelait Hugo.",
+          "n": "My best friend was called Hugo."
+        },
+        {
+          "t": "Je voulais devenir pompier.",
+          "n": "I wanted to become a firefighter."
+        }
+      ],
+      "dialogue": {
+        "title": "Old photos",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "Oh, c'est toi sur la photo ? Tu avais quel âge ?",
+            "n": "Oh, is that you in the photo? How old were you?"
+          },
+          {
+            "who": "you",
+            "t": "J'avais huit ans. Quand j'étais petit, j'habitais à la campagne.",
+            "n": "I was eight. When I was little, I lived in the countryside."
+          },
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "C'est mignon ! Et qu'est-ce que tu faisais après l'école ?",
+            "n": "How cute! And what did you use to do after school?"
+          },
+          {
+            "who": "you",
+            "t": "Je jouais au foot avec mes copains. Mon meilleur ami s'appelait Hugo.",
+            "n": "I used to play football with my friends. My best friend was called Hugo."
+          },
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "Tu étais un enfant sage ?",
+            "n": "Were you a well-behaved child?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, j'étais plutôt timide. Ma mère me lisait une histoire tous les soirs.",
+            "n": "Yes, I was rather shy. My mother read me a story every evening."
+          },
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "Et tu voulais faire quoi plus tard ?",
+            "n": "And what did you want to do when you grew up?"
+          },
+          {
+            "who": "you",
+            "t": "Je voulais devenir pompier, comme tous les petits garçons !",
+            "n": "I wanted to become a firefighter, like all little boys!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that when you were little you lived in the countryside.",
+          "t": [
+            "Quand j'étais petit, j'habitais à la campagne",
+            "Quand j'étais petite, j'habitais à la campagne",
+            "Quand j'étais petit, je vivais à la campagne",
+            "Quand j'étais petite, je vivais à la campagne"
+          ]
+        },
+        {
+          "n": "Say you used to play football with your friends after school.",
+          "t": [
+            "Je jouais au foot avec mes copains après l'école",
+            "Je jouais au foot avec mes amis après l'école",
+            "Je jouais au football avec mes copains après l'école",
+            "Je jouais au foot après l'école"
+          ]
+        },
+        {
+          "n": "Say you were rather shy.",
+          "t": [
+            "J'étais plutôt timide",
+            "J'étais assez timide",
+            "J'étais timide"
+          ]
+        },
+        {
+          "n": "Say you didn't have mobile phones back then.",
+          "t": [
+            "On n'avait pas de portable à l'époque",
+            "On avait pas de portable à l'époque",
+            "Nous n'avions pas de portable à l'époque",
+            "À l'époque, on n'avait pas de portable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l2",
+      "title": "Telling an anecdote",
+      "goal": "Tell a short story with a clear order of events.",
+      "tip": {
+        "title": "Setting the scene, then the action",
+        "body": "A French anecdote mixes two past tenses. The imparfait sets the scene (Il faisait beau, j'étais à la plage), the passé composé moves the story forward (Tout à coup, j'ai vu…). Signal words help your listener: un jour, ce jour-là, d'abord, ensuite, tout à coup, finalement. Pronunciation: tout à coup has a liaison — tou-ta-kou — and the p in coup is silent."
+      },
+      "phrases": [
+        {
+          "t": "Un jour, quand j'avais dix ans…",
+          "n": "One day, when I was ten…"
+        },
+        {
+          "t": "Il faisait très beau et on était à la plage.",
+          "n": "The weather was lovely and we were at the beach."
+        },
+        {
+          "t": "Tout à coup, j'ai entendu un cri.",
+          "n": "Suddenly, I heard a scream."
+        },
+        {
+          "t": "D'abord, j'ai eu très peur.",
+          "n": "At first, I got really scared.",
+          "note": "avoir peur in the passé composé = to get a fright."
+        },
+        {
+          "t": "Ensuite, j'ai couru chercher mon père.",
+          "n": "Then I ran to get my father."
+        },
+        {
+          "t": "Heureusement, ce n'était pas grave.",
+          "n": "Luckily, it wasn't serious."
+        },
+        {
+          "t": "Finalement, on a bien ri.",
+          "n": "In the end, we had a good laugh."
+        },
+        {
+          "t": "Je m'en souviens comme si c'était hier.",
+          "n": "I remember it as if it were yesterday.",
+          "note": "se souvenir de → je m'en souviens."
+        }
+      ],
+      "dialogue": {
+        "title": "The day at the beach",
+        "voice": "fr-FR-HenriNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Raconte ! Tu as un souvenir de vacances ?",
+            "n": "Tell me! Do you have a holiday memory?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Un jour, quand j'avais dix ans, on était en Bretagne.",
+            "n": "Yes. One day, when I was ten, we were in Brittany."
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Et alors, qu'est-ce qui s'est passé ?",
+            "n": "And so, what happened?"
+          },
+          {
+            "who": "you",
+            "t": "Il faisait très beau et on était à la plage. Tout à coup, j'ai entendu un cri.",
+            "n": "The weather was lovely and we were at the beach. Suddenly, I heard a scream."
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Un cri ? Qui criait ?",
+            "n": "A scream? Who was screaming?"
+          },
+          {
+            "who": "you",
+            "t": "Ma petite sœur. Un crabe lui pinçait le doigt de pied !",
+            "n": "My little sister. A crab was pinching her toe!"
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Oh non ! Et tu as fait quoi ?",
+            "n": "Oh no! And what did you do?"
+          },
+          {
+            "who": "you",
+            "t": "D'abord, j'ai eu très peur. Ensuite, j'ai couru chercher mon père.",
+            "n": "At first I got really scared. Then I ran to get my father."
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Elle s'est fait mal ?",
+            "n": "Did she hurt herself?"
+          },
+          {
+            "who": "you",
+            "t": "Heureusement, ce n'était pas grave. Finalement, on a bien ri. Je m'en souviens comme si c'était hier.",
+            "n": "Luckily it wasn't serious. In the end we had a good laugh. I remember it as if it were yesterday."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say: suddenly, I heard a scream.",
+          "t": [
+            "Tout à coup, j'ai entendu un cri",
+            "Soudain, j'ai entendu un cri"
+          ]
+        },
+        {
+          "n": "Say the weather was lovely and you were at the beach.",
+          "t": [
+            "Il faisait très beau et on était à la plage",
+            "Il faisait beau et on était à la plage",
+            "Il faisait beau et nous étions à la plage"
+          ]
+        },
+        {
+          "n": "Say you remember it as if it were yesterday.",
+          "t": [
+            "Je m'en souviens comme si c'était hier",
+            "Je me le rappelle comme si c'était hier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l3",
+      "title": "Then and now",
+      "goal": "Share memories and say how things have changed.",
+      "tip": {
+        "title": "avant / maintenant and something you miss",
+        "body": "Contrast the past and the present with avant (before, it used to be) + imparfait and maintenant + present: Avant, il y avait une boulangerie ici ; maintenant, c'est une banque. To say you miss something, French turns the sentence around: the thing you miss is the subject of manquer — Mon village me manque (I miss my village), literally 'my village is lacking to me'. Se souvenir de and se rappeler both mean to remember."
+      },
+      "phrases": [
+        {
+          "t": "Avant, il y avait une boulangerie ici.",
+          "n": "There used to be a bakery here."
+        },
+        {
+          "t": "Le quartier a beaucoup changé.",
+          "n": "The neighbourhood has changed a lot."
+        },
+        {
+          "t": "Tu te souviens de notre instit ?",
+          "n": "Do you remember our primary-school teacher?",
+          "note": "instit = instituteur/institutrice (informal)."
+        },
+        {
+          "t": "Mon village me manque.",
+          "n": "I miss my village."
+        },
+        {
+          "t": "C'était le bon temps !",
+          "n": "Those were the days!"
+        },
+        {
+          "t": "Aujourd'hui, tout va beaucoup plus vite.",
+          "n": "Today everything moves much faster."
+        }
+      ],
+      "dialogue": {
+        "title": "Back in the old neighbourhood",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Luc",
+            "t": "Ça fait drôle de revenir ici ! Le quartier a beaucoup changé.",
+            "n": "It feels strange to come back here! The neighbourhood has changed a lot."
+          },
+          {
+            "who": "you",
+            "t": "Oui ! Avant, il y avait une boulangerie ici.",
+            "n": "Yes! There used to be a bakery here."
+          },
+          {
+            "who": "A",
+            "name": "Luc",
+            "t": "Et tu te souviens de notre instit, Monsieur Favre ?",
+            "n": "And do you remember our teacher, Monsieur Favre?"
+          },
+          {
+            "who": "you",
+            "t": "Bien sûr ! Il était sévère, mais juste. C'était le bon temps !",
+            "n": "Of course! He was strict but fair. Those were the days!"
+          },
+          {
+            "who": "A",
+            "name": "Luc",
+            "t": "Tu n'as jamais pensé à revenir vivre à Lausanne ?",
+            "n": "Have you never thought about coming back to live in Lausanne?"
+          },
+          {
+            "who": "you",
+            "t": "Si, parfois. Mon village me manque. Aujourd'hui, tout va beaucoup plus vite.",
+            "n": "Yes, sometimes. I miss my village. Today everything moves much faster."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say there used to be a bakery here.",
+          "t": [
+            "Avant, il y avait une boulangerie ici",
+            "Avant, y avait une boulangerie ici",
+            "Il y avait une boulangerie ici avant"
+          ]
+        },
+        {
+          "n": "Say you miss your village.",
+          "t": [
+            "Mon village me manque",
+            "Mon village me manque beaucoup"
+          ]
+        },
+        {
+          "n": "Say: those were the days!",
+          "t": [
+            "C'était le bon temps",
+            "C'était la belle époque"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l4",
+      "kind": "grammar",
+      "title": "Imparfait vs passé composé",
+      "goal": "Form the imparfait and choose between it and the passé composé.",
+      "tip": {
+        "title": "Background vs event",
+        "body": "Form the imparfait from the nous form of the present: drop -ons and add -ais, -ais, -ait, -ions, -iez, -aient (nous finissons → je finissais, nous faisons → je faisais). The only irregular stem is être: j'étais. Use the imparfait for habits (Le samedi, je jouais au tennis), descriptions (Il faisait froid) and actions in progress (Je lisais…). Use the passé composé for single, completed events (… quand le téléphone a sonné). A handy test: if English could say 'was …-ing' or 'used to', it's the imparfait. Watch the sound: je parlais (è) vs j'ai parlé (é)."
+      },
+      "phrases": [
+        {
+          "t": "Je lisais quand le téléphone a sonné.",
+          "n": "I was reading when the phone rang."
+        },
+        {
+          "t": "Le samedi, on allait au marché.",
+          "n": "On Saturdays we used to go to the market."
+        },
+        {
+          "t": "Samedi dernier, on est allés au marché.",
+          "n": "Last Saturday we went to the market.",
+          "note": "One completed event → passé composé."
+        },
+        {
+          "t": "Il pleuvait, alors on est restés à la maison.",
+          "n": "It was raining, so we stayed at home."
+        },
+        {
+          "t": "Nous habitions à Bruxelles quand je suis né.",
+          "n": "We were living in Brussels when I was born.",
+          "note": "A woman says née."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Habit in the past (imparfait)",
+          "base": {
+            "t": "Quand j'étais petit, je jouais dans le jardin.",
+            "n": "When I was little, I used to play in the garden."
+          },
+          "items": [
+            {
+              "cue": "faire du vélo",
+              "t": "Quand j'étais petit, je faisais du vélo.",
+              "n": "When I was little, I used to ride my bike."
+            },
+            {
+              "cue": "nous · aller à la mer",
+              "t": "Quand j'étais petit, nous allions à la mer.",
+              "n": "When I was little, we used to go to the seaside."
+            },
+            {
+              "cue": "mes parents · travailler beaucoup",
+              "t": "Quand j'étais petit, mes parents travaillaient beaucoup.",
+              "n": "When I was little, my parents worked a lot."
+            },
+            {
+              "cue": "ma sœur · être très drôle",
+              "t": "Quand j'étais petit, ma sœur était très drôle.",
+              "n": "When I was little, my sister was very funny."
+            }
+          ]
+        },
+        {
+          "title": "Interrupted action",
+          "base": {
+            "t": "Je dormais quand le téléphone a sonné.",
+            "n": "I was sleeping when the phone rang."
+          },
+          "items": [
+            {
+              "cue": "prendre une douche",
+              "t": "Je prenais une douche quand le téléphone a sonné.",
+              "n": "I was having a shower when the phone rang."
+            },
+            {
+              "cue": "regarder la télé · quelqu'un · frapper",
+              "t": "Je regardais la télé quand quelqu'un a frappé.",
+              "n": "I was watching TV when someone knocked."
+            },
+            {
+              "cue": "nous · manger · il · arriver",
+              "t": "Nous mangions quand il est arrivé.",
+              "n": "We were eating when he arrived."
+            },
+            {
+              "cue": "elle · traverser la rue · tomber",
+              "t": "Elle traversait la rue quand elle est tombée.",
+              "n": "She was crossing the street when she fell."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you were reading when the phone rang.",
+          "t": [
+            "Je lisais quand le téléphone a sonné",
+            "J'étais en train de lire quand le téléphone a sonné"
+          ]
+        },
+        {
+          "n": "Say it was raining, so you stayed at home (use on).",
+          "t": [
+            "Il pleuvait, alors on est restés à la maison",
+            "Il pleuvait, donc on est restés à la maison",
+            "Il pleuvait, alors on est resté à la maison",
+            "Il pleuvait, alors nous sommes restés à la maison"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l5",
+      "kind": "listening",
+      "title": "Grandpa remembers",
+      "goal": "Follow a Belgian grandfather telling his granddaughter about his school days.",
+      "phrases": [
+        {
+          "t": "C'était comment, l'école, à ton époque ?",
+          "n": "What was school like in your day?"
+        },
+        {
+          "t": "On écrivait à la plume.",
+          "n": "We wrote with a dip pen."
+        },
+        {
+          "t": "Le maître était très sévère.",
+          "n": "The teacher was very strict.",
+          "note": "le maître / la maîtresse = primary-school teacher."
+        },
+        {
+          "t": "J'ai été puni.",
+          "n": "I was punished."
+        }
+      ],
+      "story": {
+        "title": "Ink everywhere",
+        "intro": "Léa asks her grandfather, who grew up near Namur in Belgium, what school was like when he was a boy.",
+        "voice": "fr-FR-EloiseNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Papy, c'était comment, l'école, à ton époque ?",
+            "n": "Grandpa, what was school like in your day?"
+          },
+          {
+            "name": "Papy",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Oh là, c'était très différent ! J'habitais à la ferme et je faisais trois kilomètres à pied tous les matins.",
+            "n": "Oh, it was very different! I lived on the farm and I walked three kilometres every morning."
+          },
+          {
+            "name": "Léa",
+            "t": "À pied ? Même quand il pleuvait ?",
+            "n": "On foot? Even when it rained?"
+          },
+          {
+            "name": "Papy",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Même quand il neigeait ! On était trente élèves dans une seule classe, de tous les âges.",
+            "n": "Even when it snowed! We were thirty pupils in a single class, of all ages."
+          },
+          {
+            "name": "Léa",
+            "t": "Et vous aviez des ordinateurs ?",
+            "n": "And did you have computers?"
+          },
+          {
+            "name": "Papy",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Des ordinateurs ? Non ! On écrivait à la plume, avec de l'encre. Et le maître était très sévère.",
+            "n": "Computers? No! We wrote with a dip pen and ink. And the teacher was very strict."
+          },
+          {
+            "name": "Léa",
+            "t": "Tu as fait des bêtises ?",
+            "n": "Did you get up to mischief?"
+          },
+          {
+            "name": "Papy",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Une fois, oui. J'ai renversé l'encrier sur le cahier de mon voisin. Il y avait de l'encre partout !",
+            "n": "Once, yes. I knocked the inkwell over onto my neighbour's exercise book. There was ink everywhere!"
+          },
+          {
+            "name": "Léa",
+            "t": "Et alors ?",
+            "n": "And then?"
+          },
+          {
+            "name": "Papy",
+            "voice": "fr-BE-GerardNeural",
+            "t": "J'ai été puni : j'ai dû copier cent lignes. Mais à midi, mon voisin et moi, on a bien ri. C'est devenu mon meilleur ami !",
+            "n": "I was punished: I had to copy out a hundred lines. But at lunchtime my neighbour and I had a good laugh. He became my best friend!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment est-ce que Papy allait à l'école ?",
+            "n": "How did Grandpa get to school?",
+            "t": [
+              "À pied",
+              "Il allait à l'école à pied",
+              "Il marchait",
+              "Trois kilomètres à pied"
+            ]
+          },
+          {
+            "q": "Combien d'élèves est-ce qu'il y avait dans la classe ?",
+            "n": "How many pupils were there in the class?",
+            "t": [
+              "Trente",
+              "Trente élèves",
+              "Il y avait trente élèves"
+            ]
+          },
+          {
+            "q": "Avec quoi est-ce qu'on écrivait ?",
+            "n": "What did they write with?",
+            "t": [
+              "À la plume",
+              "Avec une plume",
+              "Avec de l'encre",
+              "Une plume et de l'encre"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Papy a renversé ?",
+            "n": "What did Grandpa knock over?",
+            "t": [
+              "L'encrier",
+              "Il a renversé l'encrier",
+              "De l'encre",
+              "L'encre"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u02-l6",
+      "kind": "roleplay",
+      "title": "Meeting your old neighbour",
+      "goal": "Reconnect with someone from your childhood and share memories.",
+      "phrases": [
+        {
+          "t": "Vous vous souvenez de moi ?",
+          "n": "Do you remember me?"
+        },
+        {
+          "t": "J'habitais juste à côté de chez vous.",
+          "n": "I used to live right next door to you."
+        },
+        {
+          "t": "Vous n'avez pas changé du tout !",
+          "n": "You haven't changed at all!"
+        },
+        {
+          "t": "Qu'est-ce qu'on s'amusait !",
+          "n": "We had such fun!",
+          "note": "Qu'est-ce que + imparfait = exclamation."
+        }
+      ],
+      "branch": {
+        "title": "At the village market",
+        "scene": "Back in the village where you grew up, you spot Madame Girard, the neighbour who used to give you biscuits, at the market.",
+        "name": "Madame Girard",
+        "voice": "fr-FR-YvetteNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Excusez-moi… on se connaît, non ? Votre visage me dit quelque chose.",
+            "n": "Excuse me… we know each other, don't we? Your face looks familiar.",
+            "choices": [
+              {
+                "t": "Bonjour Madame Girard ! Vous vous souvenez de moi ? J'habitais juste à côté de chez vous.",
+                "n": "Hello Madame Girard! Do you remember me? I used to live right next door to you.",
+                "next": "recognise"
+              },
+              {
+                "t": "Non, je ne pense pas.",
+                "n": "No, I don't think so.",
+                "next": "unsure"
+              }
+            ]
+          },
+          "unsure": {
+            "t": "Ah bon ? Pourtant, vous ressemblez beaucoup à l'enfant qui habitait à côté de chez moi…",
+            "n": "Really? And yet you look a lot like the child who used to live next door to me…",
+            "choices": [
+              {
+                "t": "Ah, mais oui ! C'est moi ! Pardon, je ne vous avais pas reconnue.",
+                "n": "Oh, yes! That's me! Sorry, I hadn't recognised you.",
+                "next": "recognise"
+              },
+              {
+                "t": "Non, vous vous trompez. Au revoir.",
+                "n": "No, you're mistaken. Goodbye.",
+                "next": "bad"
+              }
+            ]
+          },
+          "recognise": {
+            "t": "Mais oui ! Tu venais toujours chercher des biscuits chez moi ! Tu te souviens ?",
+            "n": "Of course! You always used to come round to my place for biscuits! Do you remember?",
+            "choices": [
+              {
+                "t": "Bien sûr ! Vos biscuits au beurre étaient les meilleurs du monde.",
+                "n": "Of course! Your butter biscuits were the best in the world.",
+                "next": "memories"
+              },
+              {
+                "t": "Des biscuits ? Non, je ne m'en souviens pas.",
+                "n": "Biscuits? No, I don't remember that.",
+                "next": "disappointed"
+              }
+            ]
+          },
+          "disappointed": {
+            "t": "Ah… c'est dommage. Et le jour où tu as cassé ma fenêtre avec ton ballon ?",
+            "n": "Oh… what a pity. And the day you broke my window with your ball?",
+            "choices": [
+              {
+                "t": "Oh là là, oui ! J'avais tellement honte ! Je m'en souviens comme si c'était hier.",
+                "n": "Oh dear, yes! I was so ashamed! I remember it as if it were yesterday.",
+                "next": "memories"
+              }
+            ]
+          },
+          "memories": {
+            "t": "Qu'est-ce que tu as grandi ! Et le village, tu le trouves comment ?",
+            "n": "How you've grown! And the village, what do you think of it now?",
+            "choices": [
+              {
+                "t": "Il a beaucoup changé. Avant, il y avait une boulangerie sur la place. Mais vous, vous n'avez pas changé du tout !",
+                "n": "It has changed a lot. There used to be a bakery on the square. But you haven't changed at all!",
+                "next": "good"
+              },
+              {
+                "t": "Bof, c'est un peu triste maintenant. Je ne reviendrai pas.",
+                "n": "Meh, it's a bit sad now. I won't come back.",
+                "next": "sad"
+              }
+            ]
+          },
+          "sad": {
+            "t": "Oh, ne dis pas ça… On s'amusait bien ici, quand même.",
+            "n": "Oh, don't say that… We had good times here all the same.",
+            "choices": [
+              {
+                "t": "C'est vrai. Qu'est-ce qu'on s'amusait ! C'était le bon temps.",
+                "n": "That's true. We had such fun! Those were the days.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ah, ça me fait chaud au cœur ! Viens donc prendre un café à la maison, je te ferai des biscuits.",
+            "n": "Oh, that warms my heart! Come and have a coffee at my place, I'll make you some biscuits.",
+            "end": "good",
+            "outcome": "You shared memories warmly, compared then and now, and got invited for coffee."
+          },
+          "bad": {
+            "t": "Ah… excusez-moi, alors. Bonne journée.",
+            "n": "Oh… sorry, then. Have a nice day.",
+            "end": "bad",
+            "outcome": "You brushed off an old neighbour who remembered you. Take a moment to recognise people and share a memory."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask an older person politely whether they remember you.",
+          "t": [
+            "Vous vous souvenez de moi",
+            "Est-ce que vous vous souvenez de moi",
+            "Vous souvenez-vous de moi"
+          ]
+        },
+        {
+          "n": "Tell her she hasn't changed at all.",
+          "t": [
+            "Vous n'avez pas changé du tout",
+            "Vous n'avez pas du tout changé",
+            "Vous avez pas changé du tout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-l7",
+      "kind": "speaking",
+      "title": "Your childhood",
+      "goal": "Talk for a minute about where you grew up and a memory from those years.",
+      "culture": {
+        "title": "School days and colonies de vacances",
+        "body": "French pupils are usually marked out of 20, and a 12 or 14 is a respectable grade. In many French primary schools, Wednesday has long been a day off, or at least a free afternoon, which is why so many people remember Wednesdays at their grandparents'. In summer, generations of French children went to a colonie de vacances, or colo — a holiday camp run by young animateurs, often students who hold the BAFA certificate. In Belgium, youth movements such as the scouts organise popular summer camps, and in Québec children go to a camp de jour or a camp de vacances.",
+        "regions": [
+          "FR",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "J'ai grandi dans une petite ville au bord de la mer.",
+          "n": "I grew up in a small town by the sea."
+        },
+        {
+          "t": "Tous les étés, je partais en colo.",
+          "n": "Every summer I went off to holiday camp.",
+          "note": "colo = colonie de vacances."
+        },
+        {
+          "t": "Mon meilleur souvenir, c'est le jour où j'ai appris à nager.",
+          "n": "My best memory is the day I learnt to swim."
+        },
+        {
+          "t": "À l'école, j'étais nul en maths.",
+          "n": "At school I was hopeless at maths.",
+          "note": "nulle for a woman — same sound."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your childhood: where you lived, what you used to do, and one special memory.",
+          "hint": "Quand j'étais petit(e), j'habitais … Le week-end, je … Un jour, … Tout à coup … C'était …",
+          "seconds": 60,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "childhood",
+              "any": [
+                "quand j'étais",
+                "petit",
+                "petite",
+                "enfant",
+                "enfance",
+                "j'ai grandi"
+              ]
+            },
+            {
+              "label": "imparfait (habit)",
+              "any": [
+                "j'habitais",
+                "je vivais",
+                "j'allais",
+                "je jouais",
+                "je faisais",
+                "on allait",
+                "on jouait",
+                "on faisait",
+                "je partais",
+                "j'aimais"
+              ]
+            },
+            {
+              "label": "an event (passé composé)",
+              "any": [
+                "un jour",
+                "tout à coup",
+                "soudain",
+                "j'ai",
+                "je suis allé*",
+                "on a",
+                "ce jour-là"
+              ]
+            },
+            {
+              "label": "a memory",
+              "any": [
+                "souvenir",
+                "souviens",
+                "rappelle",
+                "école",
+                "colo",
+                "vacances",
+                "grand-mère",
+                "grands-parents"
+              ]
+            }
+          ],
+          "model": "Quand j'étais petite, j'habitais dans un village près de Lyon. Le mercredi, j'allais chez ma grand-mère et on faisait des gâteaux. L'été, je partais en colo. Un jour, à la colo, je suis tombée dans le lac ! Tout le monde a ri. C'était le bon temps."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you grew up in a small town by the sea.",
+          "t": [
+            "J'ai grandi dans une petite ville au bord de la mer",
+            "J'ai grandi dans une petite ville près de la mer"
+          ]
+        },
+        {
+          "n": "Say your best memory is the day you learnt to swim.",
+          "t": [
+            "Mon meilleur souvenir, c'est le jour où j'ai appris à nager",
+            "Mon plus beau souvenir, c'est le jour où j'ai appris à nager"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Autrefois",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

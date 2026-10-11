@@ -1,0 +1,893 @@
+{
+  "id": "b1-u08",
+  "title": "Fêtes et traditions",
+  "subtitle": "Festivals & traditions",
+  "icon": "🎉",
+  "lessons": [
+    {
+      "id": "b1-u08-l1",
+      "title": "National days",
+      "goal": "Talk about national holidays across the French-speaking world.",
+      "tip": {
+        "title": "Dates and national days",
+        "body": "Dates use le + number + month: le quatorze juillet, le vingt et un juillet — except the first: le premier août. Use tomber for the day a holiday falls on: Cette année, le quatorze juillet tombe un lundi. A public holiday is un jour férié. Pronunciation: juillet is 'jui-yè', and in feu d'artifice the e of de disappears (élision). The English name 'Bastille Day' is not used in French: people simply say le quatorze juillet or la fête nationale."
+      },
+      "phrases": [
+        {
+          "t": "Le quatorze juillet, c'est la fête nationale française.",
+          "n": "The fourteenth of July is the French national day."
+        },
+        {
+          "t": "C'est un jour férié.",
+          "n": "It's a public holiday."
+        },
+        {
+          "t": "Le matin, il y a un défilé sur les Champs-Élysées.",
+          "n": "In the morning there's a parade on the Champs-Élysées."
+        },
+        {
+          "t": "On va voir le feu d'artifice ce soir ?",
+          "n": "Shall we go and see the fireworks tonight?",
+          "note": "un feu d'artifice = a firework display"
+        },
+        {
+          "t": "Le soir, on va au bal des pompiers.",
+          "n": "In the evening, we go to the firefighters' ball.",
+          "note": "usually held on the evening of 13 or 14 July"
+        },
+        {
+          "t": "En Belgique, la fête nationale, c'est le vingt et un juillet.",
+          "n": "In Belgium, the national day is the twenty-first of July."
+        },
+        {
+          "t": "En Suisse, on allume des feux le premier août.",
+          "n": "In Switzerland, people light bonfires on the first of August."
+        },
+        {
+          "t": "Au Québec, la Fête nationale tombe le vingt-quatre juin.",
+          "n": "In Québec, the national holiday falls on the twenty-fourth of June.",
+          "note": "also called la Saint-Jean"
+        }
+      ],
+      "dialogue": {
+        "title": "Plans for the fourteenth",
+        "voice": "fr-FR-AlainNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Tu fais quoi pour le quatorze juillet ?",
+            "n": "What are you doing for the fourteenth of July?"
+          },
+          {
+            "who": "you",
+            "t": "Je ne sais pas encore. C'est un jour férié, non ?",
+            "n": "I don't know yet. It's a public holiday, isn't it?"
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Oui, bien sûr ! Le matin, il y a un défilé sur les Champs-Élysées. On peut le regarder à la télé.",
+            "n": "Yes, of course! In the morning there's a parade on the Champs-Élysées. We can watch it on TV."
+          },
+          {
+            "who": "you",
+            "t": "Et le soir ? On va voir le feu d'artifice ?",
+            "n": "And in the evening? Shall we go and see the fireworks?"
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Avec plaisir ! Et après, on va au bal des pompiers.",
+            "n": "With pleasure! And afterwards we'll go to the firefighters' ball."
+          },
+          {
+            "who": "you",
+            "t": "Un bal chez les pompiers ? C'est vraiment une tradition ?",
+            "n": "A ball at the fire station? Is that really a tradition?"
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Oui, dans beaucoup de casernes. On y danse jusque tard dans la nuit !",
+            "n": "Yes, at lots of fire stations. People dance there until late at night!"
+          },
+          {
+            "who": "you",
+            "t": "Génial ! Chez moi, il n'y a pas de fête comme ça.",
+            "n": "Brilliant! Where I'm from, there's no celebration like that."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say the fourteenth of July is the French national day.",
+          "t": [
+            "Le quatorze juillet, c'est la fête nationale française",
+            "Le quatorze juillet, c'est la fête nationale",
+            "Le quatorze juillet est la fête nationale française"
+          ]
+        },
+        {
+          "n": "Suggest going to see the fireworks tonight.",
+          "t": [
+            "On va voir le feu d'artifice ce soir",
+            "Et si on allait voir le feu d'artifice ce soir",
+            "On pourrait aller voir le feu d'artifice ce soir"
+          ]
+        },
+        {
+          "n": "Say that in Québec the national holiday falls on the twenty-fourth of June.",
+          "t": [
+            "Au Québec, la Fête nationale tombe le vingt-quatre juin",
+            "Au Québec, la fête nationale, c'est le vingt-quatre juin",
+            "Au Québec, la Fête nationale est le vingt-quatre juin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l2",
+      "title": "The galette des rois",
+      "goal": "Join in a French January tradition and talk about what's left.",
+      "tip": {
+        "title": "Tirer les rois",
+        "body": "Around Epiphany (6 January), families and colleagues share a galette des rois, a puff-pastry cake usually filled with frangipane. A small charm, la fève, is hidden inside. Traditionally the youngest person goes under the table and says who gets each slice; whoever finds the fève becomes king or queen and wears the paper crown. In the south of France people often eat a gâteau or brioche des rois, a ring of brioche with candied fruit. Notice en in Il en reste une part ? (Is there a slice of it left?) — more in the grammar lesson."
+      },
+      "phrases": [
+        {
+          "t": "On tire les rois ce soir !",
+          "n": "We're sharing the kings' cake tonight!",
+          "note": "tirer les rois = share the galette des rois"
+        },
+        {
+          "t": "Le plus jeune se met sous la table.",
+          "n": "The youngest person goes under the table."
+        },
+        {
+          "t": "Cette part, c'est pour qui ?",
+          "n": "Who's this slice for?"
+        },
+        {
+          "t": "J'ai eu la fève !",
+          "n": "I got the charm!"
+        },
+        {
+          "t": "Tu es la reine, tu dois porter la couronne.",
+          "n": "You're the queen, you have to wear the crown."
+        },
+        {
+          "t": "Il en reste une part ?",
+          "n": "Is there a slice left?",
+          "note": "en = of it"
+        },
+        {
+          "t": "J'en reprendrais bien un morceau.",
+          "n": "I wouldn't say no to another piece.",
+          "note": "polite conditional + en"
+        },
+        {
+          "t": "Attention à tes dents, il y a une fève dedans !",
+          "n": "Mind your teeth, there's a charm inside!"
+        }
+      ],
+      "dialogue": {
+        "title": "Tirer les rois",
+        "voice": "fr-FR-JacquelineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Martine",
+            "t": "Allez, on tire les rois ! Qui est le plus jeune ?",
+            "n": "Come on, let's share the kings' cake! Who's the youngest?"
+          },
+          {
+            "who": "you",
+            "t": "C'est moi, je crois. Qu'est-ce que je dois faire ?",
+            "n": "It's me, I think. What do I have to do?"
+          },
+          {
+            "who": "A",
+            "name": "Martine",
+            "t": "Le plus jeune se met sous la table. Moi, je coupe, et toi, tu dis pour qui c'est.",
+            "n": "The youngest goes under the table. I cut, and you say who it's for."
+          },
+          {
+            "who": "you",
+            "t": "D'accord, je me mets sous la table !",
+            "n": "OK, I'm going under the table!"
+          },
+          {
+            "who": "A",
+            "name": "Martine",
+            "t": "Cette part, c'est pour qui ?",
+            "n": "Who's this slice for?"
+          },
+          {
+            "who": "you",
+            "t": "Pour Martine ! Et la suivante, pour moi.",
+            "n": "For Martine! And the next one for me."
+          },
+          {
+            "who": "A",
+            "name": "Martine",
+            "t": "Attention à tes dents, il y a une fève dedans ! Alors, quelqu'un l'a trouvée ?",
+            "n": "Mind your teeth, there's a charm inside! So, has anyone found it?"
+          },
+          {
+            "who": "you",
+            "t": "Oh ! J'ai eu la fève !",
+            "n": "Oh! I got the charm!"
+          },
+          {
+            "who": "A",
+            "name": "Martine",
+            "t": "Bravo ! Tu es le roi… ou la reine ! Voilà ta couronne.",
+            "n": "Well done! You're the king… or the queen! Here's your crown."
+          },
+          {
+            "who": "you",
+            "t": "Merci ! J'en reprendrais bien un morceau, d'ailleurs. Il en reste une part ?",
+            "n": "Thanks! I wouldn't say no to another piece, actually. Is there a slice left?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you got the charm.",
+          "t": [
+            "J'ai eu la fève",
+            "J'ai la fève",
+            "J'ai trouvé la fève"
+          ]
+        },
+        {
+          "n": "Ask if there's a slice left.",
+          "t": [
+            "Il en reste une part",
+            "Est-ce qu'il en reste une part",
+            "Il reste une part"
+          ]
+        },
+        {
+          "n": "Say you wouldn't say no to another piece.",
+          "t": [
+            "J'en reprendrais bien un morceau",
+            "J'en reprendrais bien une part",
+            "J'en reprendrais bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l3",
+      "title": "Fête de la musique",
+      "goal": "Invite a friend to the Fête de la musique and arrange to meet.",
+      "tip": {
+        "title": "Music in every street",
+        "body": "Every year on 21 June, the summer solstice, France holds the Fête de la musique: amateur and professional musicians play for free in streets, squares and bars. It began in France in 1982 and is now celebrated in many countries. On y va ? (Shall we go there?) is the most natural way to suggest leaving — y means 'there'. Pronunciation: vingt et un has a linking t: 'vin-té-un'."
+      },
+      "phrases": [
+        {
+          "t": "La Fête de la musique, c'est le vingt et un juin.",
+          "n": "The Fête de la musique is on the twenty-first of June."
+        },
+        {
+          "t": "Tous les concerts sont gratuits.",
+          "n": "All the concerts are free."
+        },
+        {
+          "t": "Il y a des musiciens à chaque coin de rue.",
+          "n": "There are musicians on every street corner."
+        },
+        {
+          "t": "On y va vers vingt heures ?",
+          "n": "Shall we go around eight p.m.?",
+          "note": "y = there"
+        },
+        {
+          "t": "Mon frère joue de la guitare dans un groupe.",
+          "n": "My brother plays guitar in a band."
+        }
+      ],
+      "dialogue": {
+        "title": "Tonight's the night",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Ce soir, c'est la Fête de la musique ! Tu viens avec nous ?",
+            "n": "Tonight it's the Fête de la musique! Are you coming with us?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, avec plaisir ! C'est payant ?",
+            "n": "Yes, I'd love to! Do you have to pay?"
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Non, tous les concerts sont gratuits. Il y a des musiciens à chaque coin de rue.",
+            "n": "No, all the concerts are free. There are musicians on every street corner."
+          },
+          {
+            "who": "you",
+            "t": "Super. On y va vers vingt heures ?",
+            "n": "Great. Shall we go around eight?"
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Parfait. Mon frère joue de la guitare dans un groupe, sur la place du marché.",
+            "n": "Perfect. My brother plays guitar in a band, on the market square."
+          },
+          {
+            "who": "you",
+            "t": "Génial, j'ai hâte !",
+            "n": "Brilliant, I can't wait!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say the Fête de la musique is on the twenty-first of June.",
+          "t": [
+            "La Fête de la musique, c'est le vingt et un juin",
+            "La Fête de la musique est le vingt et un juin",
+            "C'est le vingt et un juin"
+          ]
+        },
+        {
+          "n": "Say all the concerts are free.",
+          "t": [
+            "Tous les concerts sont gratuits",
+            "Les concerts sont gratuits"
+          ]
+        },
+        {
+          "n": "Suggest going there around eight p.m.",
+          "t": [
+            "On y va vers vingt heures",
+            "On y va vers huit heures",
+            "On y va à vingt heures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l4",
+      "kind": "grammar",
+      "title": "The pronouns y and en",
+      "goal": "Replace places and quantities with y and en.",
+      "tip": {
+        "title": "y = there / to it, en = of it / some",
+        "body": "y replaces à + a place or thing: Tu vas à Binche ? — Oui, j'y vais (I'm going there). Je pense à la fête → J'y pense. en replaces de + noun, including partitives and quantities: Tu veux des crêpes ? — Oui, j'en veux deux (I want two of them). Keep the number or quantity word at the end: J'en ai beaucoup. Both go right before the conjugated verb (je n'y vais pas, j'en ai mangé), before the auxiliary in the passé composé, and before an infinitive (je vais y aller). In positive commands they follow the verb: Vas-y ! Prends-en ! — the s comes back in vas-y and manges-en for the sound. Il y en a (there are some) is often said 'y en a' in speech."
+      },
+      "phrases": [
+        {
+          "t": "J'y vais tous les ans.",
+          "n": "I go there every year.",
+          "note": "y = à + place"
+        },
+        {
+          "t": "Je n'y suis jamais allé.",
+          "n": "I've never been there.",
+          "note": "allée for a woman; y before the auxiliary"
+        },
+        {
+          "t": "Des crêpes ? J'en ai mangé trois !",
+          "n": "Crêpes? I ate three (of them)!",
+          "note": "en + number"
+        },
+        {
+          "t": "Il y en a beaucoup.",
+          "n": "There are lots (of them)."
+        },
+        {
+          "t": "Penses-y !",
+          "n": "Think about it!",
+          "note": "imperative: pronoun after the verb"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Change the y sentence",
+          "base": {
+            "t": "J'y vais en février.",
+            "n": "I'm going there in February."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Nous y allons en février.",
+              "n": "We're going there in February."
+            },
+            {
+              "cue": "négatif",
+              "t": "Je n'y vais pas en février.",
+              "n": "I'm not going there in February."
+            },
+            {
+              "cue": "futur proche",
+              "t": "Je vais y aller en février.",
+              "n": "I'm going to go there in February."
+            }
+          ]
+        },
+        {
+          "title": "Quantities with en",
+          "base": {
+            "t": "Des crêpes ? J'en veux deux.",
+            "n": "Crêpes? I want two (of them)."
+          },
+          "items": [
+            {
+              "cue": "des marrons · un kilo",
+              "t": "Des marrons ? J'en veux un kilo.",
+              "n": "Chestnuts? I want a kilo (of them)."
+            },
+            {
+              "cue": "du cidre · un verre",
+              "t": "Du cidre ? J'en veux un verre.",
+              "n": "Cider? I want a glass (of it)."
+            },
+            {
+              "cue": "négatif",
+              "t": "Des crêpes ? Je n'en veux pas.",
+              "n": "Crêpes? I don't want any."
+            }
+          ]
+        },
+        {
+          "title": "y or en?",
+          "base": {
+            "t": "Tu penses à la fête ? — Oui, j'y pense.",
+            "n": "Are you thinking about the party? — Yes, I'm thinking about it."
+          },
+          "items": [
+            {
+              "cue": "parler de la fête",
+              "t": "Tu parles de la fête ? — Oui, j'en parle.",
+              "n": "Are you talking about the party? — Yes, I'm talking about it."
+            },
+            {
+              "cue": "croire au père Noël",
+              "t": "Tu crois au père Noël ? — Oui, j'y crois.",
+              "n": "Do you believe in Father Christmas? — Yes, I believe in him."
+            },
+            {
+              "cue": "revenir du marché",
+              "t": "Tu reviens du marché ? — Oui, j'en reviens.",
+              "n": "Are you coming back from the market? — Yes, I'm coming back from there."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you've never been there.",
+          "t": [
+            "Je n'y suis jamais allé",
+            "Je n'y suis jamais allée",
+            "J'y suis jamais allé",
+            "J'y suis jamais allée"
+          ]
+        },
+        {
+          "n": "Say there are lots of them.",
+          "t": [
+            "Il y en a beaucoup",
+            "Y en a beaucoup"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l5",
+      "kind": "listening",
+      "title": "The Québec Winter Carnival",
+      "goal": "Follow a Quebecer showing a French friend around the Carnaval de Québec.",
+      "phrases": [
+        {
+          "t": "Il fait frette à soir !",
+          "n": "It's freezing tonight!",
+          "note": "Québec, informal: frette = very cold, à soir = ce soir"
+        },
+        {
+          "t": "Tu as vu le palais de glace ?",
+          "n": "Have you seen the ice palace?"
+        },
+        {
+          "t": "On se réchauffe avec un caribou ?",
+          "n": "Shall we warm up with a caribou?",
+          "note": "caribou = a sweet Québec drink of red wine and spirits"
+        },
+        {
+          "t": "Bonhomme, c'est la mascotte du Carnaval.",
+          "n": "Bonhomme is the Carnival's mascot."
+        }
+      ],
+      "story": {
+        "title": "Une soirée au Carnaval",
+        "intro": "Marie-Ève from Québec City takes her friend Thomas from Paris to the Winter Carnival.",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "name": "Marie-Ève",
+            "t": "Pis, Thomas, comment tu trouves le Carnaval de Québec ?",
+            "n": "So, Thomas, how do you like the Québec Carnival?",
+            "note": "pis = puis, very common in Québec"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "C'est magnifique ! Mais il fait vraiment froid.",
+            "n": "It's magnificent! But it's really cold."
+          },
+          {
+            "name": "Marie-Ève",
+            "t": "Ah oui, il fait frette à soir ! On se réchauffe avec un caribou ?",
+            "n": "Oh yes, it's freezing tonight! Shall we warm up with a caribou?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Un caribou ? Tu veux dire l'animal ?",
+            "n": "A caribou? You mean the animal?"
+          },
+          {
+            "name": "Marie-Ève",
+            "t": "Mais non ! C'est une boisson avec du vin rouge et de l'alcool fort. On en boit beaucoup pendant le Carnaval.",
+            "n": "Of course not! It's a drink made with red wine and spirits. People drink a lot of it during the Carnival."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "D'accord, j'en prends un petit. Et qui est ce grand bonhomme de neige avec une tuque rouge ?",
+            "n": "OK, I'll have a small one. And who's that big snowman with a red hat?",
+            "note": "Québec: une tuque = a woolly hat"
+          },
+          {
+            "name": "Marie-Ève",
+            "t": "C'est Bonhomme, la mascotte du Carnaval. Il habite dans le palais de glace. Tu l'as vu ?",
+            "n": "That's Bonhomme, the Carnival's mascot. He lives in the ice palace. Have you seen it?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Oui, j'y suis allé hier. Il est incroyable !",
+            "n": "Yes, I went there yesterday. It's incredible!"
+          },
+          {
+            "name": "Marie-Ève",
+            "t": "Et demain, il y a la course en canot sur le fleuve. Tu veux y aller ?",
+            "n": "And tomorrow there's the canoe race on the river. Do you want to go?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "En canot ? Sur un fleuve plein de glace ? Bien sûr que j'y vais !",
+            "n": "By canoe? On a river full of ice? Of course I'm going!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quel temps fait-il ce soir ?",
+            "n": "What's the weather like tonight?",
+            "t": [
+              "Il fait froid",
+              "Il fait très froid",
+              "Il fait frette",
+              "Froid"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que c'est, un caribou ?",
+            "n": "What is a caribou?",
+            "t": [
+              "Une boisson",
+              "C'est une boisson",
+              "Une boisson avec du vin rouge et de l'alcool fort",
+              "Du vin et de l'alcool"
+            ]
+          },
+          {
+            "q": "Où habite Bonhomme ?",
+            "n": "Where does Bonhomme live?",
+            "t": [
+              "Dans le palais de glace",
+              "Au palais de glace",
+              "Il habite dans le palais de glace"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il y a demain ?",
+            "n": "What's happening tomorrow?",
+            "t": [
+              "La course en canot",
+              "Une course en canot",
+              "La course en canot sur le fleuve",
+              "Il y a la course en canot"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u08-l6",
+      "kind": "roleplay",
+      "title": "The Escalade in Geneva",
+      "goal": "Accept an invitation, ask about a local tradition and join in.",
+      "phrases": [
+        {
+          "t": "C'est quoi exactement, l'Escalade ?",
+          "n": "What exactly is the Escalade?"
+        },
+        {
+          "t": "Je n'en ai jamais entendu parler.",
+          "n": "I've never heard of it.",
+          "note": "entendre parler de → en"
+        },
+        {
+          "t": "Qu'est-ce qu'on fait avec cette marmite ?",
+          "n": "What do you do with this cauldron?"
+        },
+        {
+          "t": "J'y serai avec plaisir.",
+          "n": "I'll be there with pleasure."
+        }
+      ],
+      "branch": {
+        "title": "The Escalade at the office",
+        "scene": "It's December in Geneva. Your colleague Aline invites you to the office Escalade party, where a chocolate cauldron (marmite) will be broken.",
+        "name": "Aline",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "invite",
+        "nodes": {
+          "invite": {
+            "t": "Salut ! Vendredi, on fête l'Escalade au bureau. Tu viens ?",
+            "n": "Hi! On Friday we're celebrating the Escalade at the office. Are you coming?",
+            "choices": [
+              {
+                "t": "J'y serai avec plaisir ! Mais c'est quoi exactement, l'Escalade ?",
+                "n": "I'll be there with pleasure! But what exactly is the Escalade?",
+                "next": "history"
+              },
+              {
+                "t": "L'Escalade ? Je n'en ai jamais entendu parler.",
+                "n": "The Escalade? I've never heard of it.",
+                "next": "history"
+              }
+            ]
+          },
+          "history": {
+            "t": "C'est une fête genevoise. En mille six cent deux, les troupes du duc de Savoie ont attaqué Genève pendant la nuit, mais les Genevois les ont repoussées.",
+            "n": "It's a Geneva festival. In 1602 the Duke of Savoy's troops attacked Geneva during the night, but the Genevans drove them back.",
+            "choices": [
+              {
+                "t": "Et pourquoi est-ce qu'on mange de la soupe ?",
+                "n": "And why do people eat soup?",
+                "next": "soup"
+              },
+              {
+                "t": "Et qu'est-ce qu'on fait avec cette marmite ?",
+                "n": "And what do you do with this cauldron?",
+                "next": "marmite"
+              }
+            ]
+          },
+          "soup": {
+            "t": "D'après la légende, la Mère Royaume a versé sa marmite de soupe bouillante sur un soldat ennemi. C'est pour ça qu'on mange de la soupe aux légumes !",
+            "n": "According to legend, Mère Royaume poured her cauldron of boiling soup onto an enemy soldier. That's why we eat vegetable soup!",
+            "choices": [
+              {
+                "t": "Et la marmite en chocolat, alors ?",
+                "n": "And what about the chocolate cauldron?",
+                "next": "marmite"
+              }
+            ]
+          },
+          "marmite": {
+            "t": "On la casse ! Le plus jeune et le plus âgé la cassent ensemble en disant : Ainsi périrent les ennemis de la République !",
+            "n": "We break it! The youngest and the oldest break it together, saying: 'Thus perished the enemies of the Republic!'",
+            "choices": [
+              {
+                "t": "Génial ! J'y serai avec plaisir.",
+                "n": "Brilliant! I'll be there with pleasure.",
+                "next": "good"
+              },
+              {
+                "t": "Casser du chocolat ? C'est un peu ridicule, non ?",
+                "n": "Breaking chocolate? That's a bit ridiculous, isn't it?",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Hmm… Pour nous, c'est une vraie tradition, tu sais.",
+            "n": "Hmm… For us, it's a real tradition, you know.",
+            "choices": [
+              {
+                "t": "Excuse-moi, je plaisantais ! J'y serai avec plaisir.",
+                "n": "Sorry, I was joking! I'll be there with pleasure.",
+                "next": "good"
+              },
+              {
+                "t": "Tant pis, je ne viendrai pas.",
+                "n": "Too bad, I won't come.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Super ! À vendredi, et prépare-toi à manger beaucoup de chocolat !",
+            "n": "Great! See you on Friday, and get ready to eat lots of chocolate!",
+            "end": "good",
+            "outcome": "You're going to the Escalade party — and you know why Geneva breaks a chocolate cauldron every December."
+          },
+          "bad": {
+            "t": "Bon, comme tu veux. Bonne soirée.",
+            "n": "Well, as you like. Have a good evening.",
+            "end": "bad",
+            "outcome": "You turned down a local tradition — a missed chance to get closer to your Geneva colleagues."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you've never heard of it.",
+          "t": [
+            "Je n'en ai jamais entendu parler",
+            "J'en ai jamais entendu parler"
+          ]
+        },
+        {
+          "n": "Say you'll be there with pleasure.",
+          "t": [
+            "J'y serai avec plaisir",
+            "J'y serai",
+            "Avec plaisir, j'y serai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-l7",
+      "kind": "speaking",
+      "title": "My favourite festival",
+      "goal": "Describe a festival or tradition for about 55 seconds.",
+      "culture": {
+        "title": "Carnivals, saints and feasts",
+        "body": "In Binche, Belgium, the carnival reaches its peak on Mardi Gras, when the Gilles — in padded costumes, with wax masks in the morning and huge ostrich-feather hats in the afternoon — dance through the town and throw oranges to the crowd; the carnival has been recognised by UNESCO as intangible cultural heritage since 2003. Belgian children also receive presents from Saint-Nicolas on 6 December. In France, la Chandeleur on 2 February means pancakes (crêpes), and the Nice carnival is famous for its flower battles. In Senegal, Tabaski (Eid al-Adha) is one of the biggest family celebrations of the year.",
+        "regions": [
+          "BE",
+          "FR",
+          "SN"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "À Binche, les Gilles lancent des oranges.",
+          "n": "In Binche, the Gilles throw oranges."
+        },
+        {
+          "t": "Pour la Chandeleur, on mange des crêpes.",
+          "n": "At Candlemas, people eat crêpes."
+        },
+        {
+          "t": "Saint-Nicolas apporte des cadeaux aux enfants sages.",
+          "n": "Saint Nicholas brings presents to good children."
+        },
+        {
+          "t": "Si je pouvais, j'y retournerais chaque année.",
+          "n": "If I could, I'd go back there every year."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe a festival or tradition you know: when it is, what people do, and your own experience of it. Use y and en if you can.",
+          "hint": "C'est en … / le …, On y …, On en mange / boit …, J'y suis allé(e) …, Si je pouvais, j'y retournerais…",
+          "seconds": 55,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "when it happens",
+              "any": [
+                "janvier",
+                "février",
+                "mars",
+                "juin",
+                "juillet",
+                "août",
+                "décembre",
+                "été",
+                "hiver",
+                "printemps",
+                "automne",
+                "chaque année",
+                "tous les ans"
+              ]
+            },
+            {
+              "label": "what people do",
+              "any": [
+                "mange*",
+                "boit",
+                "boire",
+                "danse*",
+                "chante*",
+                "défilé",
+                "feu d'artifice",
+                "déguis*",
+                "costum*",
+                "concert*",
+                "fête*",
+                "musique"
+              ]
+            },
+            {
+              "label": "y or en",
+              "any": [
+                "j'y",
+                "j'en",
+                "on y",
+                "on en",
+                "il y en a",
+                "y",
+                "en"
+              ]
+            },
+            {
+              "label": "your experience",
+              "any": [
+                "suis allé",
+                "suis allée",
+                "ai vu",
+                "ai mangé",
+                "ai dansé",
+                "étais",
+                "était",
+                "l'année dernière"
+              ]
+            }
+          ],
+          "model": "Ma fête préférée, c'est la Fête de la musique, le vingt et un juin. On y écoute des concerts gratuits dans la rue, et on y danse toute la nuit. L'année dernière, j'y suis allée avec des amis à Lyon. Il y avait des groupes partout, et on en a vu au moins dix ! Si je pouvais, j'y retournerais chaque année."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that at Candlemas people eat crêpes.",
+          "t": [
+            "Pour la Chandeleur, on mange des crêpes",
+            "À la Chandeleur, on mange des crêpes"
+          ]
+        },
+        {
+          "n": "Say if you could, you'd go back there every year.",
+          "t": [
+            "Si je pouvais, j'y retournerais chaque année",
+            "Si je pouvais, j'y retournerais tous les ans",
+            "J'y retournerais chaque année si je pouvais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Fêtes et traditions",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b1-test",
+      "kind": "test",
+      "title": "B1 speaking test",
+      "goal": "Pass to earn your B1 badge and unlock B2.",
+      "tip": {
+        "title": "Show what you can do",
+        "body": "You will say phrases from all B1 units from memory. Take your time and speak in full sentences. Watch the subjunctive after il faut que and expressions of emotion, choose between imparfait and passé composé, use the conditional after si + imparfait, and put y and en before the verb."
+      }
+    }
+  ]
+}
