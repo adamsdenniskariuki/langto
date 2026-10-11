@@ -1,0 +1,255 @@
+{
+  "id": "pron-u01",
+  "level": "A1",
+  "title": "Le son u",
+  "subtitle": "u vs ou",
+  "icon": "👄",
+  "lessons": [
+    {
+      "id": "pron-u01-l1",
+      "kind": "pron",
+      "title": "u and ou",
+      "goal": "Hear and say u (tu) and ou (tout).",
+      "tip": {
+        "title": "Say \"ee\", then round your lips",
+        "body": "French ou is close to English \"oo\" in \"food\": lips rounded, tongue pulled back. French u has no English equivalent: say \"ee\" as in \"see\", keep the tip of your tongue pressed behind your lower teeth, then push your lips into a tight round \"oo\" shape. If you hear \"oo\", your tongue has slipped back. So tu is not \"too\" — tout is."
+      },
+      "phrases": [
+        {
+          "t": "Salut !",
+          "n": "Hi! / Bye!",
+          "note": "The final t is silent: \"sa-lu\"."
+        },
+        {
+          "t": "Tu vas où ?",
+          "n": "Where are you going?"
+        },
+        {
+          "t": "Tout de suite !",
+          "n": "Right away!"
+        },
+        {
+          "t": "Bien sûr !",
+          "n": "Of course!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "tu",
+            "n": "you (informal)"
+          },
+          "b": {
+            "t": "tout",
+            "n": "all, everything"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "la rue",
+            "n": "the street"
+          },
+          "b": {
+            "t": "la roue",
+            "n": "the wheel"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "dessus",
+            "n": "on top"
+          },
+          "b": {
+            "t": "dessous",
+            "n": "underneath"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "vu",
+            "n": "seen"
+          },
+          "b": {
+            "t": "vous",
+            "n": "you (formal/plural)"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "lu",
+            "n": "read (past participle)"
+          },
+          "b": {
+            "t": "loup",
+            "n": "wolf"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "su",
+            "n": "known (past participle)"
+          },
+          "b": {
+            "t": "sous",
+            "n": "under"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Salut !",
+          "n": "Hi!",
+          "mark": "Sa*lut* !"
+        },
+        {
+          "t": "Tu vas où ?",
+          "n": "Where are you going?",
+          "mark": "Tu vas *où* ?",
+          "note": "One group: the stress falls on the last syllable, \"où\"."
+        },
+        {
+          "t": "Tout de suite !",
+          "n": "Right away!",
+          "mark": "Tout de *suite* !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a friend \"Where are you going?\"",
+          "t": [
+            "Tu vas où",
+            "Où vas-tu",
+            "Où est-ce que tu vas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u01-l2",
+      "kind": "pron",
+      "title": "u, i and ou",
+      "goal": "Tell u from i, and lui from Louis.",
+      "tip": {
+        "title": "Same tongue as i — only the lips change",
+        "body": "French i (as in \"lit\") and u (as in \"lu\") use exactly the same tongue position: only the lips differ — spread for i, tightly rounded for u. Practise \"i-u-i-u\" without moving your tongue. The combination ui (nuit, lui, suis) is a quick u gliding into i, different from the w-sound of oui and Louis."
+      },
+      "phrases": [
+        {
+          "t": "Bonne nuit !",
+          "n": "Good night!"
+        },
+        {
+          "t": "Je suis ici.",
+          "n": "I'm here."
+        },
+        {
+          "t": "Une minute !",
+          "n": "Just a minute!"
+        },
+        {
+          "t": "C'est super !",
+          "n": "It's great!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "u / i",
+          "a": {
+            "t": "rue",
+            "n": "street"
+          },
+          "b": {
+            "t": "riz",
+            "n": "rice"
+          }
+        },
+        {
+          "sound": "u / i",
+          "a": {
+            "t": "lu",
+            "n": "read (past participle)"
+          },
+          "b": {
+            "t": "lit",
+            "n": "bed"
+          }
+        },
+        {
+          "sound": "u / i",
+          "a": {
+            "t": "vu",
+            "n": "seen"
+          },
+          "b": {
+            "t": "vie",
+            "n": "life"
+          }
+        },
+        {
+          "sound": "u / i",
+          "a": {
+            "t": "pur",
+            "n": "pure"
+          },
+          "b": {
+            "t": "pire",
+            "n": "worse"
+          }
+        },
+        {
+          "sound": "u / ou",
+          "a": {
+            "t": "pull",
+            "n": "jumper"
+          },
+          "b": {
+            "t": "poule",
+            "n": "hen"
+          }
+        },
+        {
+          "sound": "ui / oui",
+          "a": {
+            "t": "lui",
+            "n": "him"
+          },
+          "b": {
+            "t": "Louis",
+            "n": "Louis (name)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Bonne nuit !",
+          "n": "Good night!",
+          "mark": "Bonne *nuit* !"
+        },
+        {
+          "t": "Une minute !",
+          "n": "Just a minute!",
+          "mark": "Une mi*nute* !"
+        },
+        {
+          "t": "Je suis ici.",
+          "n": "I'm here.",
+          "mark": "Je suis i*ci*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"Good night!\"",
+          "t": [
+            "Bonne nuit"
+          ]
+        }
+      ]
+    }
+  ]
+}

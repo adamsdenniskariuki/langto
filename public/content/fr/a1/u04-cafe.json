@@ -1,0 +1,865 @@
+{
+  "id": "u04",
+  "title": "Au café",
+  "subtitle": "Ordering & paying",
+  "icon": "☕",
+  "lessons": [
+    {
+      "id": "u04-l1",
+      "title": "Ordering a drink",
+      "goal": "Order drinks politely.",
+      "tip": {
+        "title": "Je voudrais … — and what you get",
+        "body": "Je voudrais (I would like) is the polite way to order; Je vais prendre … (I'll have …) works too. Every noun is masculine or feminine: un café, un thé, but une bière, une carafe d'eau. Un café is a small espresso; un crème is a coffee with hot frothed milk. Une carafe d'eau is a jug of tap water — free with a meal in French restaurants, and usually given for free in cafés too. Voudrais sounds like \"voo-dray\": the final -s is silent."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que vous prenez ?",
+          "n": "What will you have?"
+        },
+        {
+          "t": "Je voudrais un café, s'il vous plaît.",
+          "n": "I'd like a coffee, please.",
+          "note": "Un café = an espresso."
+        },
+        {
+          "t": "Un crème, s'il vous plaît.",
+          "n": "A coffee with frothed milk, please."
+        },
+        {
+          "t": "Une carafe d'eau, s'il vous plaît.",
+          "n": "A jug of tap water, please."
+        },
+        {
+          "t": "Je vais prendre un thé.",
+          "n": "I'll have a tea."
+        },
+        {
+          "t": "Avec du lait, s'il vous plaît.",
+          "n": "With milk, please."
+        },
+        {
+          "t": "Sans sucre.",
+          "n": "Without sugar."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-HenriNeural",
+        "title": "On the terrace",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Bonjour ! Qu'est-ce que vous prenez ?",
+            "n": "Hello! What will you have?"
+          },
+          {
+            "who": "you",
+            "t": "Je voudrais un thé, s'il vous plaît.",
+            "n": "I'd like a tea, please."
+          },
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Avec du lait ou du citron ?",
+            "n": "With milk or lemon?"
+          },
+          {
+            "who": "you",
+            "t": "Avec du citron, sans sucre.",
+            "n": "With lemon, no sugar."
+          },
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Très bien. Et avec ça ?",
+            "n": "Very good. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Une carafe d'eau, s'il vous plaît.",
+            "n": "A jug of tap water, please."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Order a coffee politely.",
+          "t": [
+            "Je voudrais un café s'il vous plaît",
+            "Je voudrais un café",
+            "Un café s'il vous plaît",
+            "Je vais prendre un café"
+          ]
+        },
+        {
+          "n": "Ask for a jug of tap water.",
+          "t": [
+            "Une carafe d'eau s'il vous plaît",
+            "Une carafe d'eau",
+            "Je voudrais une carafe d'eau"
+          ]
+        },
+        {
+          "n": "Say you want it without sugar.",
+          "t": [
+            "Sans sucre",
+            "Sans sucre s'il vous plaît"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l2",
+      "title": "Paying the bill",
+      "goal": "Ask for the bill and pay.",
+      "tip": {
+        "title": "L'addition and service compris",
+        "body": "In France the waiter won't bring the bill until you ask: L'addition, s'il vous plaît ! To get attention, say S'il vous plaît ! or Excusez-moi — calling \"Garçon !\" is old-fashioned and sounds rude. Service is included in the prices (service compris), so a tip is a small optional extra: round up or leave a few coins. Addition starts with a vowel, so la becomes l': l'addition."
+      },
+      "phrases": [
+        {
+          "t": "L'addition, s'il vous plaît !",
+          "n": "The bill, please!"
+        },
+        {
+          "t": "Je vous dois combien ?",
+          "n": "How much do I owe you?"
+        },
+        {
+          "t": "Ça fait sept euros.",
+          "n": "That's seven euros."
+        },
+        {
+          "t": "Je peux payer par carte ?",
+          "n": "Can I pay by card?"
+        },
+        {
+          "t": "Par carte ou en espèces ?",
+          "n": "By card or in cash?"
+        },
+        {
+          "t": "En espèces.",
+          "n": "In cash."
+        },
+        {
+          "t": "Gardez la monnaie.",
+          "n": "Keep the change."
+        },
+        {
+          "t": "C'est pour moi.",
+          "n": "It's on me."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-YvesNeural",
+        "title": "Time to go",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Excusez-moi ! L'addition, s'il vous plaît !",
+            "n": "Excuse me! The bill, please!"
+          },
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Tout de suite. Voilà : ça fait neuf euros.",
+            "n": "Right away. Here you are: that's nine euros."
+          },
+          {
+            "who": "you",
+            "t": "Je peux payer par carte ?",
+            "n": "Can I pay by card?"
+          },
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Bien sûr. Ou en espèces, comme vous voulez.",
+            "n": "Of course. Or in cash, as you like."
+          },
+          {
+            "who": "you",
+            "t": "En espèces. Voilà dix euros, gardez la monnaie.",
+            "n": "Cash. Here's ten euros, keep the change."
+          },
+          {
+            "who": "A",
+            "name": "Le serveur",
+            "t": "Merci beaucoup ! Bonne journée !",
+            "n": "Thank you very much! Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask for the bill.",
+          "t": [
+            "L'addition s'il vous plaît",
+            "L'addition",
+            "Je vous dois combien"
+          ]
+        },
+        {
+          "n": "Ask if you can pay by card.",
+          "t": [
+            "Je peux payer par carte",
+            "Est-ce que je peux payer par carte",
+            "Je peux payer avec la carte",
+            "Par carte c'est possible"
+          ]
+        },
+        {
+          "n": "Tell the waiter to keep the change.",
+          "t": [
+            "Gardez la monnaie",
+            "Vous pouvez garder la monnaie",
+            "C'est bon gardez la monnaie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l3",
+      "title": "At the bakery",
+      "goal": "Buy bread and pastries at the boulangerie.",
+      "tip": {
+        "title": "Bonjour first, then your bread",
+        "body": "Always start with Bonjour ! before you order — skipping it is considered rude. Une baguette is the classic loaf; une tradition (baguette de tradition) is made to a stricter traditional recipe and is a favourite of many locals. Bakers often ask Et avec ceci ? (anything else?); answer Ce sera tout (that's all). Croissant ends in a nasal vowel: the -t is silent."
+      },
+      "phrases": [
+        {
+          "t": "Une baguette, s'il vous plaît.",
+          "n": "A baguette, please."
+        },
+        {
+          "t": "Une tradition, s'il vous plaît.",
+          "n": "A traditional baguette, please.",
+          "note": "Short for baguette de tradition."
+        },
+        {
+          "t": "Deux croissants, s'il vous plaît.",
+          "n": "Two croissants, please."
+        },
+        {
+          "t": "Un pain au chocolat.",
+          "n": "A chocolate croissant."
+        },
+        {
+          "t": "Et avec ceci ?",
+          "n": "Anything else?"
+        },
+        {
+          "t": "Ce sera tout, merci.",
+          "n": "That's all, thank you."
+        },
+        {
+          "t": "Sur place ou à emporter ?",
+          "n": "Eat in or take away?"
+        },
+        {
+          "t": "À emporter, s'il vous plaît.",
+          "n": "To take away, please."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-BrigitteNeural",
+        "title": "Morning at the bakery",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonjour ! Une baguette, s'il vous plaît.",
+            "n": "Hello! A baguette, please."
+          },
+          {
+            "who": "A",
+            "name": "La boulangère",
+            "t": "Bonjour ! Une baguette… Et avec ceci ?",
+            "n": "Hello! A baguette… Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Deux croissants et un pain au chocolat.",
+            "n": "Two croissants and a chocolate croissant."
+          },
+          {
+            "who": "A",
+            "name": "La boulangère",
+            "t": "Ce sera tout ?",
+            "n": "Will that be all?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, ce sera tout, merci. C'est combien ?",
+            "n": "Yes, that's all, thanks. How much is it?"
+          },
+          {
+            "who": "A",
+            "name": "La boulangère",
+            "t": "Quatre euros vingt, s'il vous plaît.",
+            "n": "Four twenty, please."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Greet the baker and ask for a baguette.",
+          "t": [
+            "Bonjour une baguette s'il vous plaît",
+            "Bonjour je voudrais une baguette",
+            "Bonjour une baguette"
+          ]
+        },
+        {
+          "n": "Order two croissants.",
+          "t": [
+            "Deux croissants s'il vous plaît",
+            "Je voudrais deux croissants",
+            "Deux croissants"
+          ]
+        },
+        {
+          "n": "Say that's all.",
+          "t": [
+            "Ce sera tout",
+            "Ce sera tout merci",
+            "C'est tout",
+            "C'est tout merci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l4",
+      "kind": "grammar",
+      "title": "un, une, des & le, la, les",
+      "goal": "Use the right article with café words.",
+      "tip": {
+        "title": "a / some vs the",
+        "body": "Un (masc.) and une (fem.) mean \"a\": un café, une bière. The plural is des (\"some\") — and French can't drop it the way English drops \"some\": des croissants. Le (masc.), la (fem.) and les (plural) mean \"the\": le café, la baguette, les croissants. Before a vowel or silent h, le and la become l': l'eau, l'addition. Les and des link with a \"z\" before a vowel: les_oranges, des_œufs. Learn every noun with its article!"
+      },
+      "phrases": [
+        {
+          "t": "Un café et une bière, s'il vous plaît.",
+          "n": "A coffee and a beer, please."
+        },
+        {
+          "t": "Des croissants, s'il vous plaît.",
+          "n": "Some croissants, please."
+        },
+        {
+          "t": "Le café est bon ici.",
+          "n": "The coffee is good here."
+        },
+        {
+          "t": "La baguette est encore chaude.",
+          "n": "The baguette is still warm."
+        },
+        {
+          "t": "Les croissants sont délicieux.",
+          "n": "The croissants are delicious."
+        },
+        {
+          "t": "L'eau est gratuite.",
+          "n": "The water is free."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the order (un/une)",
+          "base": {
+            "t": "Je voudrais un café.",
+            "n": "I'd like a coffee."
+          },
+          "items": [
+            {
+              "cue": "bière (f)",
+              "t": "Je voudrais une bière.",
+              "n": "I'd like a beer."
+            },
+            {
+              "cue": "croissant (m)",
+              "t": "Je voudrais un croissant.",
+              "n": "I'd like a croissant."
+            },
+            {
+              "cue": "orange pressée (f)",
+              "t": "Je voudrais une orange pressée.",
+              "n": "I'd like a fresh orange juice."
+            },
+            {
+              "cue": "thé (m)",
+              "t": "Je voudrais un thé.",
+              "n": "I'd like a tea."
+            }
+          ]
+        },
+        {
+          "title": "One or more",
+          "base": {
+            "t": "Je voudrais un croissant.",
+            "n": "I'd like a croissant."
+          },
+          "items": [
+            {
+              "cue": "deux",
+              "t": "Je voudrais deux croissants.",
+              "n": "I'd like two croissants."
+            },
+            {
+              "cue": "des",
+              "t": "Je voudrais des croissants.",
+              "n": "I'd like some croissants."
+            },
+            {
+              "cue": "trois · pain au chocolat",
+              "t": "Je voudrais trois pains au chocolat.",
+              "n": "I'd like three chocolate croissants."
+            }
+          ]
+        },
+        {
+          "title": "le, la, l', les",
+          "base": {
+            "t": "Le café est bon.",
+            "n": "The coffee is good."
+          },
+          "items": [
+            {
+              "cue": "bière (f)",
+              "t": "La bière est bonne.",
+              "n": "The beer is good."
+            },
+            {
+              "cue": "eau (f)",
+              "t": "L'eau est bonne.",
+              "n": "The water is good."
+            },
+            {
+              "cue": "croissants",
+              "t": "Les croissants sont bons.",
+              "n": "The croissants are good."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Order some croissants.",
+          "t": [
+            "Des croissants s'il vous plaît",
+            "Je voudrais des croissants",
+            "Des croissants"
+          ]
+        },
+        {
+          "n": "Say the coffee is good here.",
+          "t": [
+            "Le café est bon ici",
+            "Il est bon le café ici"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l5",
+      "kind": "listening",
+      "title": "Coffee with Camille",
+      "goal": "Follow two friends ordering.",
+      "phrases": [
+        {
+          "t": "Qu'est-ce que tu prends ?",
+          "n": "What are you having?"
+        },
+        {
+          "t": "Je prends juste un café.",
+          "n": "I'm just having a coffee."
+        },
+        {
+          "t": "Bon, d'accord.",
+          "n": "Well, OK."
+        },
+        {
+          "t": "Aujourd'hui, c'est moi qui paie.",
+          "n": "Today I'm paying."
+        }
+      ],
+      "story": {
+        "title": "Camille and Thomas order",
+        "intro": "Two friends sit down on a café terrace in Lyon.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Qu'est-ce que tu prends, Camille ?",
+            "n": "What are you having, Camille?"
+          },
+          {
+            "name": "Camille",
+            "t": "Je voudrais un crème et un croissant.",
+            "n": "I'd like a coffee with frothed milk and a croissant."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Moi, je prends juste un café.",
+            "n": "I'm just having a coffee."
+          },
+          {
+            "name": "Camille",
+            "t": "Juste un café ? Les croissants sont délicieux ici !",
+            "n": "Just a coffee? The croissants are delicious here!"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Bon, d'accord. Un croissant aussi.",
+            "n": "Well, OK. A croissant too."
+          },
+          {
+            "name": "Le serveur",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Alors, un crème, un café et deux croissants. C'est tout ?",
+            "n": "So, a white coffee, an espresso and two croissants. Is that all?"
+          },
+          {
+            "name": "Camille",
+            "t": "Oui, et une carafe d'eau, s'il vous plaît. Et aujourd'hui, c'est moi qui paie !",
+            "n": "Yes, and a jug of water, please. And today I'm paying!"
+          },
+          {
+            "name": "Le serveur",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Très bien. Ça fait huit euros quarante.",
+            "n": "Very good. That's eight forty."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce que Camille boit ?",
+            "n": "What is Camille drinking?",
+            "t": [
+              "Un crème",
+              "Un café crème",
+              "Crème",
+              "Elle boit un crème"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Thomas boit ?",
+            "n": "What is Thomas drinking?",
+            "t": [
+              "Un café",
+              "Café",
+              "Il boit un café"
+            ]
+          },
+          {
+            "q": "Qui paie aujourd'hui ?",
+            "n": "Who is paying today?",
+            "t": [
+              "Camille",
+              "C'est Camille",
+              "Camille paie"
+            ]
+          },
+          {
+            "q": "Ça fait combien ?",
+            "n": "How much is it?",
+            "t": [
+              "Huit euros quarante",
+              "Huit quarante"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u04-l6",
+      "kind": "roleplay",
+      "title": "Order, pay, tip",
+      "goal": "Order on a café terrace and pay like a local.",
+      "phrases": [
+        {
+          "t": "Vous avez choisi ?",
+          "n": "Have you decided?"
+        },
+        {
+          "t": "Un café allongé, s'il vous plaît.",
+          "n": "A long black coffee, please.",
+          "note": "An espresso topped up with hot water."
+        },
+        {
+          "t": "Vous désirez autre chose ?",
+          "n": "Would you like anything else?"
+        },
+        {
+          "t": "Non merci, ça ira.",
+          "n": "No thanks, that'll be fine."
+        }
+      ],
+      "branch": {
+        "title": "On a café terrace",
+        "scene": "You sit down on a café terrace in Paris; the waiter comes over.",
+        "name": "Le serveur",
+        "voice": "fr-FR-MauriceNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Vous avez choisi ?",
+            "n": "Hello! Have you decided?",
+            "choices": [
+              {
+                "t": "Oui, je voudrais un café, s'il vous plaît.",
+                "n": "Yes, I'd like a coffee, please.",
+                "next": "coffee"
+              },
+              {
+                "t": "Pardon ? Je ne comprends pas.",
+                "n": "Sorry? I don't understand.",
+                "next": "again"
+              }
+            ]
+          },
+          "again": {
+            "t": "Qu'est-ce que vous voulez boire ? Un café ? Un thé ?",
+            "n": "What do you want to drink? A coffee? A tea?",
+            "choices": [
+              {
+                "t": "Un café, s'il vous plaît.",
+                "n": "A coffee, please.",
+                "next": "coffee"
+              },
+              {
+                "t": "Un thé, s'il vous plaît.",
+                "n": "A tea, please.",
+                "next": "food"
+              }
+            ]
+          },
+          "coffee": {
+            "t": "Un petit café ou un café allongé ?",
+            "n": "A small espresso or a long black coffee?",
+            "choices": [
+              {
+                "t": "Un café allongé, s'il vous plaît.",
+                "n": "A long black coffee, please.",
+                "next": "food"
+              },
+              {
+                "t": "Un petit café, merci.",
+                "n": "A small espresso, thanks.",
+                "next": "food"
+              }
+            ]
+          },
+          "food": {
+            "t": "Très bien. Vous désirez autre chose ? Un croissant ?",
+            "n": "Very good. Would you like anything else? A croissant?",
+            "choices": [
+              {
+                "t": "Oui, un croissant, s'il vous plaît.",
+                "n": "Yes, a croissant, please.",
+                "next": "later"
+              },
+              {
+                "t": "Non merci, ça ira.",
+                "n": "No thanks, that'll be fine.",
+                "next": "later"
+              }
+            ]
+          },
+          "later": {
+            "t": "Tout se passe bien ?",
+            "n": "Is everything all right? (twenty minutes later)",
+            "choices": [
+              {
+                "t": "S'il vous plaît ! L'addition, s'il vous plaît.",
+                "n": "Excuse me! The bill, please.",
+                "next": "bill"
+              },
+              {
+                "t": "Garçon ! L'addition !",
+                "n": "Waiter! The bill!",
+                "next": "rude"
+              }
+            ]
+          },
+          "bill": {
+            "t": "Tout de suite. Ça fait quatre euros quatre-vingts.",
+            "n": "Right away. That's four eighty.",
+            "choices": [
+              {
+                "t": "Voilà cinq euros. Gardez la monnaie.",
+                "n": "Here's five euros. Keep the change.",
+                "next": "thanks"
+              },
+              {
+                "t": "Quatre euros quatre-vingts ? C'est trop cher !",
+                "n": "Four eighty? That's too expensive!",
+                "next": "grumpy"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Hmm… J'arrive, j'arrive.",
+            "n": "Hmm… Coming, coming. (He gives you a cold look and serves another table first.)",
+            "choices": [
+              {
+                "t": "Excusez-moi ! L'addition, s'il vous plaît.",
+                "n": "Excuse me! The bill, please.",
+                "next": "bill"
+              }
+            ]
+          },
+          "thanks": {
+            "t": "Merci beaucoup ! Bonne journée !",
+            "n": "Thank you very much! Have a nice day!",
+            "end": "good",
+            "outcome": "You ordered, paid and left a small tip like a local."
+          },
+          "grumpy": {
+            "t": "Ah… c'est le prix normal, vous savez.",
+            "n": "Well… that's the normal price, you know.",
+            "end": "bad",
+            "outcome": "Complaining about a normal price fell flat — pay and round up instead."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Order a long black coffee.",
+          "t": [
+            "Un café allongé s'il vous plaît",
+            "Un allongé s'il vous plaît",
+            "Je voudrais un café allongé",
+            "Un café allongé"
+          ]
+        },
+        {
+          "n": "Say no thanks, that'll be fine.",
+          "t": [
+            "Non merci ça ira",
+            "Non merci",
+            "Ça ira merci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-l7",
+      "kind": "speaking",
+      "title": "Your café order",
+      "goal": "Order and pay freely for 30 seconds.",
+      "culture": {
+        "title": "Café life — and the chocolatine debate",
+        "body": "In a French café you can sit for a long time over a single coffee; nobody will rush you. A coffee drunk standing at the counter (au comptoir) is often cheaper than one served at a table or on the terrace. In south-western France — and in Québec — a pain au chocolat is called une chocolatine, a friendly and never-ending debate between French regions. In Belgium you may hear une couque au chocolat.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Une chocolatine, s'il vous plaît.",
+          "n": "A chocolate croissant, please.",
+          "note": "South-west France and Québec."
+        },
+        {
+          "t": "Un café au comptoir.",
+          "n": "A coffee at the counter."
+        },
+        {
+          "t": "On s'installe en terrasse ?",
+          "n": "Shall we sit on the terrace?"
+        },
+        {
+          "t": "C'est délicieux !",
+          "n": "It's delicious!"
+        }
+      ],
+      "free": [
+        {
+          "n": "In a café: greet the waiter, order a drink and something to eat, then ask for the bill.",
+          "hint": "Bonjour ! Je voudrais un …, et un … L'addition, s'il vous plaît.",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "a drink",
+              "any": [
+                "café",
+                "crème",
+                "thé",
+                "eau",
+                "carafe",
+                "bière",
+                "chocolat chaud",
+                "jus",
+                "orange pressée",
+                "allongé"
+              ]
+            },
+            {
+              "label": "something to eat",
+              "any": [
+                "croissant",
+                "pain au chocolat",
+                "chocolatine",
+                "baguette",
+                "tartine",
+                "gâteau"
+              ]
+            },
+            {
+              "label": "ordering politely",
+              "any": [
+                "voudrais",
+                "prendre",
+                "prends",
+                "s'il vous plaît"
+              ]
+            },
+            {
+              "label": "paying",
+              "any": [
+                "addition",
+                "combien",
+                "carte",
+                "espèces",
+                "monnaie"
+              ]
+            }
+          ],
+          "model": "Bonjour ! Je voudrais un crème et un croissant, s'il vous plaît. Et une carafe d'eau. Ensuite : l'addition, s'il vous plaît. Je peux payer par carte ?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Order a chocolatine.",
+          "t": [
+            "Une chocolatine s'il vous plaît",
+            "Je voudrais une chocolatine",
+            "Une chocolatine",
+            "Un pain au chocolat s'il vous plaît"
+          ]
+        },
+        {
+          "n": "Say it's delicious.",
+          "t": [
+            "C'est délicieux",
+            "C'est très bon",
+            "C'est bon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Au café",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

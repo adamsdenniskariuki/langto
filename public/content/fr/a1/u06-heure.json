@@ -1,0 +1,856 @@
+{
+  "id": "u06",
+  "title": "L'heure et les jours",
+  "subtitle": "Time, days & dates",
+  "icon": "🕒",
+  "lessons": [
+    {
+      "id": "u06-l1",
+      "title": "Days of the week",
+      "goal": "Name the days and say what day it is.",
+      "tip": {
+        "title": "lundi = on Monday",
+        "body": "Days are masculine and written with a small letter. You don't need a word for \"on\": lundi = on Monday. Add le for a habit: le lundi = on Mondays (every Monday). To ask the day, French people usually say On est quel jour ? Pronunciation: the -di of lundi, mardi etc. is short and clear; in dimanche the first syllable is said like \"dee\"."
+      },
+      "phrases": [
+        {
+          "t": "lundi",
+          "n": "Monday"
+        },
+        {
+          "t": "mardi",
+          "n": "Tuesday"
+        },
+        {
+          "t": "mercredi",
+          "n": "Wednesday"
+        },
+        {
+          "t": "jeudi",
+          "n": "Thursday"
+        },
+        {
+          "t": "vendredi",
+          "n": "Friday"
+        },
+        {
+          "t": "samedi",
+          "n": "Saturday",
+          "note": "Often said quickly as sam'di."
+        },
+        {
+          "t": "dimanche",
+          "n": "Sunday"
+        },
+        {
+          "t": "On est quel jour aujourd'hui ?",
+          "n": "What day is it today?"
+        },
+        {
+          "t": "Aujourd'hui, on est vendredi.",
+          "n": "Today is Friday."
+        },
+        {
+          "t": "le week-end",
+          "n": "the weekend",
+          "note": "In Québec you'll often hear la fin de semaine."
+        }
+      ],
+      "dialogue": {
+        "title": "What day is it?",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Lucas",
+            "t": "On est quel jour aujourd'hui ?",
+            "n": "What day is it today?"
+          },
+          {
+            "who": "you",
+            "t": "Aujourd'hui, on est vendredi.",
+            "n": "Today is Friday."
+          },
+          {
+            "who": "A",
+            "name": "Lucas",
+            "t": "Génial ! Demain, c'est le week-end.",
+            "n": "Great! Tomorrow is the weekend."
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais samedi, je travaille.",
+            "n": "Yes, but on Saturday I'm working."
+          },
+          {
+            "who": "A",
+            "name": "Lucas",
+            "t": "Et dimanche ?",
+            "n": "And on Sunday?"
+          },
+          {
+            "who": "you",
+            "t": "Dimanche, je suis libre.",
+            "n": "On Sunday I'm free."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask what day it is today.",
+          "t": [
+            "On est quel jour aujourd'hui",
+            "On est quel jour",
+            "Quel jour on est",
+            "Quel jour sommes-nous",
+            "Quel jour est-on aujourd'hui"
+          ]
+        },
+        {
+          "n": "Say today is Friday.",
+          "t": [
+            "Aujourd'hui on est vendredi",
+            "On est vendredi",
+            "Aujourd'hui c'est vendredi",
+            "C'est vendredi"
+          ]
+        },
+        {
+          "n": "Say on Sunday you're free.",
+          "t": [
+            "Dimanche je suis libre",
+            "Je suis libre dimanche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l2",
+      "title": "What time is it?",
+      "goal": "Ask and tell the time.",
+      "tip": {
+        "title": "Il est trois heures et quart",
+        "body": "Always say heure(s): il est une heure, il est trois heures. Quarter past = et quart, half past = et demie, quarter to = moins le quart: il est cinq heures moins le quart = 4:45. Noon is midi, midnight is minuit (no heures). Listen for liaison: deux_heures [dø-zœʁ], trois_heures, six_heures [si-zœʁ], dix_heures, and neuf heures becomes [nœ-vœʁ]."
+      },
+      "phrases": [
+        {
+          "t": "Quelle heure est-il ?",
+          "n": "What time is it?"
+        },
+        {
+          "t": "Il est quelle heure ?",
+          "n": "What time is it? (everyday)"
+        },
+        {
+          "t": "Il est trois heures.",
+          "n": "It's three o'clock."
+        },
+        {
+          "t": "Il est trois heures et quart.",
+          "n": "It's quarter past three."
+        },
+        {
+          "t": "Il est quatre heures et demie.",
+          "n": "It's half past four."
+        },
+        {
+          "t": "Il est cinq heures moins le quart.",
+          "n": "It's quarter to five."
+        },
+        {
+          "t": "Il est midi.",
+          "n": "It's noon."
+        },
+        {
+          "t": "Je suis en retard !",
+          "n": "I'm late!"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JosephineNeural",
+        "title": "In a hurry",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Pardon, madame, il est quelle heure ?",
+            "n": "Excuse me, madam, what time is it?"
+          },
+          {
+            "who": "A",
+            "name": "Une passante",
+            "t": "Il est neuf heures moins le quart.",
+            "n": "It's quarter to nine."
+          },
+          {
+            "who": "you",
+            "t": "Oh non, je suis en retard !",
+            "n": "Oh no, I'm late!"
+          },
+          {
+            "who": "A",
+            "name": "Une passante",
+            "t": "Vous commencez à quelle heure ?",
+            "n": "What time do you start?"
+          },
+          {
+            "who": "you",
+            "t": "À neuf heures. Merci, madame !",
+            "n": "At nine. Thank you, madam!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask what time it is.",
+          "t": [
+            "Quelle heure est-il",
+            "Il est quelle heure",
+            "Quelle heure il est",
+            "Vous avez l'heure",
+            "Tu as l'heure"
+          ]
+        },
+        {
+          "n": "Say it's half past four.",
+          "t": [
+            "Il est quatre heures et demie",
+            "Quatre heures et demie",
+            "Il est seize heures trente"
+          ]
+        },
+        {
+          "n": "Say it's quarter past three.",
+          "t": [
+            "Il est trois heures et quart",
+            "Trois heures et quart",
+            "Il est trois heures quinze",
+            "Il est quinze heures quinze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l3",
+      "title": "Dates & months",
+      "goal": "Say the date, your birthday and when you are free.",
+      "tip": {
+        "title": "le premier mai, le deux mai…",
+        "body": "Dates use le + number + month: le deux mai, le quatorze juillet. Only the first of the month is different: le premier mai. Months are masculine and written with a small letter: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre. août is said [u] or [ut] — both are heard. To ask the date: On est le combien aujourd'hui ?"
+      },
+      "phrases": [
+        {
+          "t": "On est le combien aujourd'hui ?",
+          "n": "What's the date today?"
+        },
+        {
+          "t": "On est le premier mai.",
+          "n": "It's the first of May."
+        },
+        {
+          "t": "C'est quand, ton anniversaire ?",
+          "n": "When is your birthday?"
+        },
+        {
+          "t": "Mon anniversaire, c'est le douze juin.",
+          "n": "My birthday is on the twelfth of June."
+        },
+        {
+          "t": "Tu es libre samedi ?",
+          "n": "Are you free on Saturday?"
+        },
+        {
+          "t": "Demain, je ne peux pas.",
+          "n": "Tomorrow I can't."
+        },
+        {
+          "t": "Mardi à dix heures, ça te va ?",
+          "n": "Tuesday at ten, does that suit you?"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CelesteNeural",
+        "title": "Planning a party",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "C'est quand, ton anniversaire ?",
+            "n": "When is your birthday?"
+          },
+          {
+            "who": "you",
+            "t": "C'est le douze juin. Et toi ?",
+            "n": "It's the twelfth of June. And you?"
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Le premier juillet. On fait une fête ensemble ? Tu es libre samedi ?",
+            "n": "The first of July. Shall we have a party together? Are you free on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Samedi, je ne peux pas. Dimanche, ça te va ?",
+            "n": "On Saturday I can't. Does Sunday suit you?"
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Parfait ! Dimanche à midi.",
+            "n": "Perfect! Sunday at noon."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend when their birthday is.",
+          "t": [
+            "C'est quand ton anniversaire",
+            "Ton anniversaire c'est quand",
+            "Quand est ton anniversaire",
+            "C'est quand votre anniversaire"
+          ]
+        },
+        {
+          "n": "Say it's the first of May today.",
+          "t": [
+            "On est le premier mai",
+            "Aujourd'hui on est le premier mai",
+            "C'est le premier mai",
+            "Nous sommes le premier mai"
+          ]
+        },
+        {
+          "n": "Ask a friend if they are free on Saturday.",
+          "t": [
+            "Tu es libre samedi",
+            "Est-ce que tu es libre samedi",
+            "T'es libre samedi",
+            "Es-tu libre samedi",
+            "Vous êtes libre samedi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l4",
+      "kind": "grammar",
+      "title": "à + time, en + month",
+      "goal": "Say when something happens: at what time, on which day, in which month.",
+      "tip": {
+        "title": "à huit heures, en mai, lundi",
+        "body": "Time of day: à + time — à huit heures, à midi, à vingt heures trente. Ask with À quelle heure ? From… to… = de… à…: de neuf heures à dix-sept heures. Around = vers: vers midi. Months: en mai, en août, or au mois de mai (both mean \"in May\"). Days need no word at all: lundi, je travaille. Timetables, shops and appointments use the 24-hour clock: dix-huit heures trente (18:30) — with the 24-hour clock you say the minutes as a number (quinze, trente, quarante-cinq), not et quart or et demie."
+      },
+      "phrases": [
+        {
+          "t": "Je commence à neuf heures.",
+          "n": "I start at nine o'clock."
+        },
+        {
+          "t": "Le film commence à vingt heures trente.",
+          "n": "The film starts at 8:30 pm."
+        },
+        {
+          "t": "Je travaille de neuf heures à dix-sept heures.",
+          "n": "I work from 9 am to 5 pm."
+        },
+        {
+          "t": "On se voit vers midi ?",
+          "n": "Shall we meet around noon?"
+        },
+        {
+          "t": "En août, on part en vacances.",
+          "n": "In August we go on holiday."
+        },
+        {
+          "t": "Au mois de décembre, il fait froid.",
+          "n": "In the month of December it's cold."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the time",
+          "base": {
+            "t": "Je commence à neuf heures.",
+            "n": "I start at nine o'clock."
+          },
+          "items": [
+            {
+              "cue": "8:30",
+              "t": "Je commence à huit heures et demie.",
+              "n": "I start at half past eight."
+            },
+            {
+              "cue": "12:00",
+              "t": "Je commence à midi.",
+              "n": "I start at noon."
+            },
+            {
+              "cue": "9:45",
+              "t": "Je commence à dix heures moins le quart.",
+              "n": "I start at quarter to ten."
+            },
+            {
+              "cue": "14:00",
+              "t": "Je commence à quatorze heures.",
+              "n": "I start at 2 pm."
+            }
+          ]
+        },
+        {
+          "title": "Swap the month",
+          "base": {
+            "t": "Je suis en vacances en juillet.",
+            "n": "I'm on holiday in July."
+          },
+          "items": [
+            {
+              "cue": "août",
+              "t": "Je suis en vacances en août.",
+              "n": "I'm on holiday in August."
+            },
+            {
+              "cue": "avril",
+              "t": "Je suis en vacances en avril.",
+              "n": "I'm on holiday in April.",
+              "note": "Liaison: en_avril."
+            },
+            {
+              "cue": "au mois de… décembre",
+              "t": "Je suis en vacances au mois de décembre.",
+              "n": "I'm on holiday in December."
+            }
+          ]
+        },
+        {
+          "title": "Say it with the 24-hour clock",
+          "base": {
+            "t": "Le train part à quinze heures.",
+            "n": "The train leaves at 3 pm."
+          },
+          "items": [
+            {
+              "cue": "8 pm",
+              "t": "Le train part à vingt heures.",
+              "n": "The train leaves at 8 pm."
+            },
+            {
+              "cue": "6:30 pm",
+              "t": "Le train part à dix-huit heures trente.",
+              "n": "The train leaves at 6:30 pm."
+            },
+            {
+              "cue": "12:15",
+              "t": "Le train part à douze heures quinze.",
+              "n": "The train leaves at 12:15."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you work from 9 am to 5 pm.",
+          "t": [
+            "Je travaille de neuf heures à dix-sept heures",
+            "Je travaille de neuf heures à cinq heures"
+          ]
+        },
+        {
+          "n": "Say in August you go on holiday.",
+          "t": [
+            "En août on part en vacances",
+            "En août je pars en vacances",
+            "Au mois d'août on part en vacances",
+            "Au mois d'août je pars en vacances",
+            "En août nous partons en vacances"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l5",
+      "kind": "listening",
+      "title": "A busy week",
+      "goal": "Catch days and times in a real conversation.",
+      "phrases": [
+        {
+          "t": "Je travaille jusqu'à dix-neuf heures.",
+          "n": "I work until 7 pm."
+        },
+        {
+          "t": "Mercredi, ça marche.",
+          "n": "Wednesday works."
+        },
+        {
+          "t": "Vers sept heures et demie ?",
+          "n": "Around half past seven?"
+        },
+        {
+          "t": "À mercredi !",
+          "n": "See you Wednesday!"
+        }
+      ],
+      "story": {
+        "title": "Léa calls Antoine",
+        "intro": "Léa wants to meet Antoine this week, but he is busy.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Salut Antoine ! Tu es libre lundi soir ?",
+            "n": "Hi Antoine! Are you free on Monday evening?"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Lundi ? Non, je travaille jusqu'à dix-neuf heures.",
+            "n": "Monday? No, I work until 7 pm."
+          },
+          {
+            "name": "Léa",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Et mardi ?",
+            "n": "And Tuesday?"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Mardi, j'ai mon cours de guitare. Mais mercredi, ça marche !",
+            "n": "On Tuesday I have my guitar lesson. But Wednesday works!"
+          },
+          {
+            "name": "Léa",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Super. À quelle heure ?",
+            "n": "Great. At what time?"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Vers sept heures et demie, au café de la gare ?",
+            "n": "Around half past seven, at the café by the station?"
+          },
+          {
+            "name": "Léa",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Parfait. Mercredi, c'est le trois avril : c'est l'anniversaire de ma sœur ! Elle peut venir ?",
+            "n": "Perfect. Wednesday is the third of April: it's my sister's birthday! Can she come?"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Bien sûr ! À mercredi !",
+            "n": "Of course! See you Wednesday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Antoine travaille jusqu'à quelle heure lundi ?",
+            "n": "Until what time does Antoine work on Monday?",
+            "t": [
+              "Jusqu'à dix-neuf heures",
+              "Dix-neuf heures",
+              "Il travaille jusqu'à dix-neuf heures",
+              "Jusqu'à sept heures"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il fait mardi ?",
+            "n": "What does he do on Tuesday?",
+            "t": [
+              "Il a son cours de guitare",
+              "Un cours de guitare",
+              "Cours de guitare",
+              "De la guitare",
+              "Il fait de la guitare"
+            ]
+          },
+          {
+            "q": "Ils se voient quel jour ?",
+            "n": "Which day do they meet?",
+            "t": [
+              "Mercredi",
+              "Le mercredi",
+              "Mercredi le trois avril",
+              "Le trois avril"
+            ]
+          },
+          {
+            "q": "À quelle heure ?",
+            "n": "At what time?",
+            "t": [
+              "Vers sept heures et demie",
+              "Sept heures et demie",
+              "À sept heures et demie",
+              "Dix-neuf heures trente"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u06-l6",
+      "kind": "roleplay",
+      "title": "Booking a haircut",
+      "goal": "Make an appointment on the phone.",
+      "phrases": [
+        {
+          "t": "Je voudrais prendre rendez-vous.",
+          "n": "I'd like to make an appointment.",
+          "note": "rendez-vous: the z and s are silent [ʁɑ̃-de-vu]."
+        },
+        {
+          "t": "Vous êtes disponible quand ?",
+          "n": "When are you available?"
+        },
+        {
+          "t": "Le lundi, nous sommes fermés.",
+          "n": "We're closed on Mondays."
+        },
+        {
+          "t": "À dix heures, s'il vous plaît.",
+          "n": "At ten o'clock, please."
+        }
+      ],
+      "branch": {
+        "title": "Calling the hairdresser",
+        "scene": "You phone a hair salon to book a haircut this week.",
+        "name": "Salon Élodie",
+        "voice": "fr-FR-YvetteNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Salon Élodie, bonjour !",
+            "n": "Salon Élodie, hello!",
+            "choices": [
+              {
+                "t": "Bonjour ! Je voudrais prendre rendez-vous, s'il vous plaît.",
+                "n": "Hello! I'd like to make an appointment, please.",
+                "next": "day"
+              },
+              {
+                "t": "Pardon ? Je n'ai pas compris.",
+                "n": "Sorry? I didn't understand.",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Ici le salon de coiffure Élodie. Je peux vous aider ?",
+            "n": "This is Élodie's hair salon. Can I help you?",
+            "choices": [
+              {
+                "t": "Oui, je voudrais un rendez-vous, s'il vous plaît.",
+                "n": "Yes, I'd like an appointment, please.",
+                "next": "day"
+              },
+              {
+                "t": "Je voudrais une pizza.",
+                "n": "I'd like a pizza.",
+                "next": "pizza"
+              }
+            ]
+          },
+          "day": {
+            "t": "Bien sûr. Vous êtes disponible quand ?",
+            "n": "Of course. When are you available?",
+            "choices": [
+              {
+                "t": "Lundi, s'il vous plaît.",
+                "n": "Monday, please.",
+                "next": "monday"
+              },
+              {
+                "t": "Vendredi, si possible.",
+                "n": "Friday, if possible.",
+                "next": "friday"
+              }
+            ]
+          },
+          "monday": {
+            "t": "Ah, désolée, le lundi, nous sommes fermés. Vendredi, ça vous va ?",
+            "n": "Oh, sorry, we're closed on Mondays. Does Friday suit you?",
+            "choices": [
+              {
+                "t": "Oui, vendredi, c'est parfait.",
+                "n": "Yes, Friday is perfect.",
+                "next": "friday"
+              }
+            ]
+          },
+          "friday": {
+            "t": "Vendredi, j'ai de la place à dix heures ou à quatorze heures trente.",
+            "n": "On Friday I have a slot at ten o'clock or at 2:30 pm.",
+            "choices": [
+              {
+                "t": "À dix heures, s'il vous plaît.",
+                "n": "At ten o'clock, please.",
+                "next": "name"
+              },
+              {
+                "t": "À quatorze heures trente, s'il vous plaît.",
+                "n": "At 2:30 pm, please.",
+                "next": "name"
+              }
+            ]
+          },
+          "name": {
+            "t": "Très bien. C'est à quel nom ?",
+            "n": "Very good. What name is it under?",
+            "choices": [
+              {
+                "t": "Alex Brown. B-R-O-W-N.",
+                "n": "Alex Brown. B-R-O-W-N.",
+                "next": "done"
+              }
+            ]
+          },
+          "done": {
+            "t": "C'est noté. À vendredi ! Bonne journée.",
+            "n": "Noted. See you Friday! Have a nice day.",
+            "end": "good",
+            "outcome": "You booked a haircut for Friday."
+          },
+          "pizza": {
+            "t": "Une pizza ? Ici, c'est un coiffeur ! Au revoir.",
+            "n": "A pizza? This is a hairdresser's! Goodbye.",
+            "end": "bad",
+            "outcome": "Off-topic — try again and ask for un rendez-vous."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to make an appointment.",
+          "t": [
+            "Je voudrais prendre rendez-vous",
+            "Je voudrais un rendez-vous",
+            "Je voudrais prendre un rendez-vous"
+          ]
+        },
+        {
+          "n": "Ask for ten o'clock, please.",
+          "t": [
+            "À dix heures s'il vous plaît",
+            "Dix heures s'il vous plaît"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l7",
+      "kind": "speaking",
+      "title": "My week",
+      "goal": "Talk about your week for 30 seconds.",
+      "culture": {
+        "title": "Meal times, the 24-hour clock & holidays",
+        "body": "In France lunch is usually eaten between about noon and 2 pm, and dinner is fairly late, often around 8 pm; in smaller towns some shops close over lunch. Timetables, shop hours, appointments and TV listings use the 24-hour clock, and people often say it aloud too: Rendez-vous à quatorze heures. Public holidays in France include le premier mai (Labour Day, when lily of the valley is sold in the street), le quatorze juillet (national day), le quinze août and le onze novembre. When a holiday falls on a Thursday, many people take Friday off too: on fait le pont. Elsewhere: Belgium's national day is le vingt et un juillet, Switzerland's le premier août and Québec's Fête nationale le vingt-quatre juin.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Désolé, je suis un peu en retard.",
+          "n": "Sorry, I'm a bit late.",
+          "note": "A woman writes désolée — it sounds the same."
+        },
+        {
+          "t": "Le train part à dix-huit heures quarante-cinq.",
+          "n": "The train leaves at 6:45 pm."
+        },
+        {
+          "t": "Le week-end, je suis libre.",
+          "n": "At the weekend I'm free."
+        },
+        {
+          "t": "Le quatorze juillet, il y a un feu d'artifice.",
+          "n": "On the fourteenth of July there are fireworks."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your week: what you do on which days and at what time.",
+          "hint": "Lundi, je travaille de … à … · Mercredi à … heures, je … · Le week-end, je suis libre.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "a day",
+              "any": [
+                "lundi",
+                "mardi",
+                "mercredi",
+                "jeudi",
+                "vendredi",
+                "samedi",
+                "dimanche",
+                "week-end",
+                "weekend",
+                "fin de semaine"
+              ]
+            },
+            {
+              "label": "a time",
+              "any": [
+                "heure*",
+                "midi",
+                "minuit",
+                "matin",
+                "soir",
+                "après-midi",
+                "et demie",
+                "et quart"
+              ]
+            },
+            {
+              "label": "an activity",
+              "any": [
+                "travaill*",
+                "étudi*",
+                "commence*",
+                "fais",
+                "fait",
+                "joue*",
+                "vais",
+                "mange*",
+                "déjeune*",
+                "dîne*",
+                "libre",
+                "cours"
+              ]
+            }
+          ],
+          "model": "Lundi, je travaille de neuf heures à dix-sept heures. Mercredi soir, à dix-neuf heures, j'ai mon cours de français. Le week-end, je suis libre."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say sorry, you're a bit late.",
+          "t": [
+            "Désolé je suis un peu en retard",
+            "Désolée je suis un peu en retard",
+            "Pardon je suis un peu en retard",
+            "Je suis désolé je suis en retard"
+          ]
+        },
+        {
+          "n": "Say the train leaves at 6:45 pm (24-hour clock).",
+          "t": [
+            "Le train part à dix-huit heures quarante-cinq",
+            "Le train part à sept heures moins le quart"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: L'heure et les jours",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "id": "u01",
+  "title": "Bonjour !",
+  "subtitle": "Greetings & goodbyes",
+  "icon": "👋",
+  "lessons": [
+    {
+      "id": "u01-l1",
+      "title": "Saying hello",
+      "goal": "Greet anyone at any time of day and say goodbye.",
+      "tip": {
+        "title": "Bonjour all day, bonsoir in the evening",
+        "body": "Bonjour works from morning until late afternoon; switch to Bonsoir in the evening. Salut is a casual hi or bye for friends. Always say bonjour when you walk into a shop or a lift — skipping it feels rude. Pronunciation: the on in bonjour is a nasal vowel — don't say the n, let the air go through your nose. In au revoir the r is soft, made at the back of the throat."
+      },
+      "phrases": [
+        {
+          "t": "Bonjour !",
+          "n": "Hello! / Good morning!",
+          "note": "Polite and neutral, used all day."
+        },
+        {
+          "t": "Bonsoir !",
+          "n": "Good evening!"
+        },
+        {
+          "t": "Salut !",
+          "n": "Hi! / Bye!",
+          "note": "Informal, for friends. The t is silent."
+        },
+        {
+          "t": "Coucou !",
+          "n": "Hiya!",
+          "note": "Very casual, for close friends and family."
+        },
+        {
+          "t": "Au revoir !",
+          "n": "Goodbye!"
+        },
+        {
+          "t": "Bonne nuit !",
+          "n": "Good night!",
+          "note": "Only when someone is going to bed."
+        },
+        {
+          "t": "À plus tard !",
+          "n": "See you later!"
+        },
+        {
+          "t": "À bientôt !",
+          "n": "See you soon!"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-DeniseNeural",
+        "title": "Morning in the stairwell",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Martin",
+            "t": "Bonjour !",
+            "n": "Hello!"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour, madame !",
+            "n": "Hello, madam!"
+          },
+          {
+            "who": "A",
+            "name": "Madame Martin",
+            "t": "Au revoir, à bientôt !",
+            "n": "Goodbye, see you soon!"
+          },
+          {
+            "who": "you",
+            "t": "Au revoir, madame !",
+            "n": "Goodbye, madam!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "It's 9 a.m. Greet your neighbour.",
+          "t": [
+            "Bonjour",
+            "Bonjour madame",
+            "Bonjour monsieur"
+          ]
+        },
+        {
+          "n": "It's 8 p.m. Greet the waiter as you arrive.",
+          "t": [
+            "Bonsoir",
+            "Bonsoir monsieur",
+            "Bonsoir madame"
+          ]
+        },
+        {
+          "n": "Tell a friend you'll see them later.",
+          "t": [
+            "À plus tard",
+            "Salut à plus tard",
+            "À tout à l'heure",
+            "À plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "title": "How are you?",
+      "goal": "Ask how someone is and answer.",
+      "tip": {
+        "title": "tu or vous?",
+        "body": "French has two words for \"you\": tu for friends, family, children and pets; vous for strangers, older people, shop staff and colleagues you don't know well (vous is also the plural \"you\"). When in doubt, use vous and wait for the other person to suggest tu. Ça va ? is casual; Comment allez-vous ? is polite. Ça va ? needs only a rising voice to become a question."
+      },
+      "phrases": [
+        {
+          "t": "Ça va ?",
+          "n": "How's it going?",
+          "note": "Informal; the answer can be just Ça va !"
+        },
+        {
+          "t": "Comment allez-vous ?",
+          "n": "How are you? (formal)",
+          "note": "Liaison: the t of comment links to allez — \"ko-mahn-ta-lay-voo\"."
+        },
+        {
+          "t": "Comment vas-tu ?",
+          "n": "How are you? (informal)"
+        },
+        {
+          "t": "Ça va bien, merci.",
+          "n": "I'm fine, thanks."
+        },
+        {
+          "t": "Très bien !",
+          "n": "Very well!"
+        },
+        {
+          "t": "Pas mal.",
+          "n": "Not bad."
+        },
+        {
+          "t": "Bof, comme ci, comme ça.",
+          "n": "Meh, so-so."
+        },
+        {
+          "t": "Et toi ?",
+          "n": "And you? (informal)"
+        },
+        {
+          "t": "Et vous ?",
+          "n": "And you? (formal)"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "Bumping into Léa",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Salut ! Ça va ?",
+            "n": "Hi! How's it going?"
+          },
+          {
+            "who": "you",
+            "t": "Ça va bien, merci ! Et toi ?",
+            "n": "I'm fine, thanks! And you?"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Très bien, merci !",
+            "n": "Very well, thanks!"
+          },
+          {
+            "who": "you",
+            "t": "Super ! Salut, à plus tard !",
+            "n": "Great! Bye, see you later!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend how it's going.",
+          "t": [
+            "Ça va",
+            "Salut ça va",
+            "Comment vas-tu",
+            "Comment ça va"
+          ]
+        },
+        {
+          "n": "Ask your new boss how she is.",
+          "t": [
+            "Comment allez-vous",
+            "Bonjour comment allez-vous",
+            "Vous allez bien"
+          ]
+        },
+        {
+          "n": "Say you're fine, thanks, and ask back (informal).",
+          "t": [
+            "Ça va bien merci et toi",
+            "Très bien merci et toi",
+            "Ça va merci et toi",
+            "Bien merci et toi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "title": "Please & thank you",
+      "goal": "Be polite in any situation.",
+      "tip": {
+        "title": "Two ways to say please",
+        "body": "S'il vous plaît (vous) and s'il te plaît (tu) both mean \"please\" — literally \"if it pleases you\". Answer merci with de rien (casual) or je vous en prie (polite). Pardon is for bumping into someone or squeezing past; excusez-moi is for getting someone's attention. Pronunciation: in merci the r is in the throat and the e sounds like the e in \"bed\"."
+      },
+      "phrases": [
+        {
+          "t": "Merci !",
+          "n": "Thanks!"
+        },
+        {
+          "t": "Merci beaucoup !",
+          "n": "Thank you very much!"
+        },
+        {
+          "t": "S'il vous plaît.",
+          "n": "Please. (formal)"
+        },
+        {
+          "t": "S'il te plaît.",
+          "n": "Please. (informal)"
+        },
+        {
+          "t": "De rien !",
+          "n": "You're welcome!"
+        },
+        {
+          "t": "Je vous en prie.",
+          "n": "You're welcome. (polite)",
+          "note": "Also means \"go ahead\" when you hold a door."
+        },
+        {
+          "t": "Pardon !",
+          "n": "Sorry! / Excuse me!"
+        },
+        {
+          "t": "Excusez-moi.",
+          "n": "Excuse me."
+        }
+      ],
+      "dialogue": {
+        "title": "On the tram",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Pardon !",
+            "n": "Sorry!"
+          },
+          {
+            "who": "A",
+            "name": "Un monsieur",
+            "t": "Ce n'est pas grave !",
+            "n": "It's no big deal!"
+          },
+          {
+            "who": "A",
+            "name": "Un monsieur",
+            "t": "Vous voulez vous asseoir ?",
+            "n": "Would you like to sit down?"
+          },
+          {
+            "who": "you",
+            "t": "Non, merci. C'est gentil.",
+            "n": "No, thank you. That's kind."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Someone holds the door for you. Thank them warmly.",
+          "t": [
+            "Merci beaucoup",
+            "Merci",
+            "Merci c'est gentil"
+          ]
+        },
+        {
+          "n": "You stepped on someone's foot.",
+          "t": [
+            "Pardon",
+            "Oh pardon",
+            "Excusez-moi",
+            "Désolé",
+            "Désolée"
+          ]
+        },
+        {
+          "n": "Someone thanks you. Reply.",
+          "t": [
+            "De rien",
+            "Je vous en prie",
+            "Je t'en prie",
+            "Avec plaisir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l4",
+      "kind": "grammar",
+      "title": "tu or vous: s'appeler",
+      "goal": "Ask and give names with tu and vous correctly.",
+      "tip": {
+        "title": "Literally: \"I call myself\"",
+        "body": "French says je m'appelle (\"I call myself\"), tu t'appelles, il/elle s'appelle, vous vous appelez. The little word me/te/se shortens to m'/t'/s' before a vowel (élision). With tu the verb ends in -es (silent); with vous it ends in -ez (sounds like \"ay\"). You can ask a question three ways: Comment tu t'appelles ? (casual), Tu t'appelles comment ? (very casual) or Comment vous appelez-vous ? (polite, with the verb first)."
+      },
+      "phrases": [
+        {
+          "t": "Comment tu t'appelles ?",
+          "n": "What's your name? (informal)"
+        },
+        {
+          "t": "Comment vous appelez-vous ?",
+          "n": "What's your name? (formal)"
+        },
+        {
+          "t": "Je m'appelle Tom.",
+          "n": "My name is Tom."
+        },
+        {
+          "t": "Il s'appelle Marc.",
+          "n": "His name is Marc."
+        },
+        {
+          "t": "Elle s'appelle Julie.",
+          "n": "Her name is Julie."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap tu → vous",
+          "base": {
+            "t": "Comment tu t'appelles ?",
+            "n": "What's your name? (informal)"
+          },
+          "items": [
+            {
+              "cue": "vous",
+              "t": "Comment vous appelez-vous ?",
+              "n": "What's your name? (formal)"
+            },
+            {
+              "cue": "aller · tu",
+              "t": "Comment vas-tu ?",
+              "n": "How are you? (informal)"
+            },
+            {
+              "cue": "aller · vous",
+              "t": "Comment allez-vous ?",
+              "n": "How are you? (formal)"
+            },
+            {
+              "cue": "et · vous",
+              "t": "Et vous ?",
+              "n": "And you? (formal)"
+            }
+          ]
+        },
+        {
+          "title": "Swap the person",
+          "base": {
+            "t": "Je m'appelle Tom.",
+            "n": "My name is Tom."
+          },
+          "items": [
+            {
+              "cue": "elle · Anna",
+              "t": "Elle s'appelle Anna.",
+              "n": "Her name is Anna."
+            },
+            {
+              "cue": "tu · Léa ?",
+              "t": "Tu t'appelles Léa ?",
+              "n": "Is your name Léa?"
+            },
+            {
+              "cue": "vous · Martin ?",
+              "t": "Vous vous appelez Martin ?",
+              "n": "Is your name Martin?"
+            },
+            {
+              "cue": "il · Hugo",
+              "t": "Il s'appelle Hugo.",
+              "n": "His name is Hugo."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a child what their name is.",
+          "t": [
+            "Comment tu t'appelles",
+            "Tu t'appelles comment",
+            "Comment t'appelles-tu"
+          ]
+        },
+        {
+          "n": "Ask a hotel receptionist her name.",
+          "t": [
+            "Comment vous appelez-vous",
+            "Vous vous appelez comment",
+            "Comment vous vous appelez"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l5",
+      "kind": "listening",
+      "title": "Meeting at the bus stop",
+      "goal": "Follow a short real-speed greeting.",
+      "phrases": [
+        {
+          "t": "Enchanté !",
+          "n": "Nice to meet you!",
+          "note": "A woman writes Enchantée — it sounds the same."
+        },
+        {
+          "t": "Moi aussi.",
+          "n": "Me too."
+        },
+        {
+          "t": "À demain !",
+          "n": "See you tomorrow!"
+        },
+        {
+          "t": "Bonne journée !",
+          "n": "Have a nice day!"
+        }
+      ],
+      "story": {
+        "title": "Two neighbours",
+        "intro": "Madame Dubois meets a new neighbour, Monsieur Moreau, at the bus stop.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Madame Dubois",
+            "t": "Bonjour, monsieur ! Vous êtes nouveau ici ?",
+            "n": "Hello, sir! Are you new here?"
+          },
+          {
+            "name": "Monsieur Moreau",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Oui, j'habite ici depuis lundi. Je m'appelle Paul Moreau.",
+            "n": "Yes, I've lived here since Monday. My name is Paul Moreau."
+          },
+          {
+            "name": "Madame Dubois",
+            "t": "Enchantée ! Moi, c'est Claire Dubois. J'habite au troisième.",
+            "n": "Nice to meet you! I'm Claire Dubois. I live on the third floor."
+          },
+          {
+            "name": "Monsieur Moreau",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Enchanté. Comment allez-vous ?",
+            "n": "Nice to meet you. How are you?"
+          },
+          {
+            "name": "Madame Dubois",
+            "t": "Très bien, merci. Et vous ?",
+            "n": "Very well, thanks. And you?"
+          },
+          {
+            "name": "Monsieur Moreau",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Un peu fatigué, mais ça va !",
+            "n": "A bit tired, but I'm OK!"
+          },
+          {
+            "name": "Madame Dubois",
+            "t": "Oh, voilà mon bus ! Bonne journée, monsieur !",
+            "n": "Oh, here's my bus! Have a nice day, sir!"
+          },
+          {
+            "name": "Monsieur Moreau",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Merci, vous aussi ! Au revoir !",
+            "n": "Thanks, you too! Goodbye!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment s'appelle le nouveau voisin ?",
+            "n": "What is the new neighbour called?",
+            "t": [
+              "Paul Moreau",
+              "Il s'appelle Paul Moreau",
+              "Moreau",
+              "Paul",
+              "Monsieur Moreau"
+            ]
+          },
+          {
+            "q": "Comment va Madame Dubois ?",
+            "n": "How is Madame Dubois?",
+            "t": [
+              "Très bien",
+              "Très bien merci",
+              "Elle va très bien",
+              "Bien"
+            ]
+          },
+          {
+            "q": "Et Monsieur Moreau, comment va-t-il ?",
+            "n": "And how is Monsieur Moreau?",
+            "t": [
+              "Un peu fatigué",
+              "Il est un peu fatigué",
+              "Fatigué",
+              "Ça va"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qui arrive ?",
+            "n": "What is arriving?",
+            "t": [
+              "Le bus",
+              "Son bus",
+              "Le bus arrive",
+              "Son bus arrive"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u01-l6",
+      "kind": "roleplay",
+      "title": "First day at the language school",
+      "goal": "Introduce yourself — your choices steer the chat.",
+      "phrases": [
+        {
+          "t": "Je suis nouveau.",
+          "n": "I'm new. (said by a man)",
+          "note": "A woman says Je suis nouvelle."
+        },
+        {
+          "t": "Pardon ?",
+          "n": "Pardon? / Sorry?",
+          "note": "Rising voice: you didn't catch it."
+        },
+        {
+          "t": "Plus lentement, s'il vous plaît.",
+          "n": "More slowly, please."
+        },
+        {
+          "t": "Bienvenue !",
+          "n": "Welcome!"
+        }
+      ],
+      "branch": {
+        "title": "At reception",
+        "scene": "You walk up to the reception desk of a language school in Lyon on your first day.",
+        "name": "Accueil",
+        "voice": "fr-FR-BrigitteNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Je peux vous aider ?",
+            "n": "Hello! Can I help you?",
+            "choices": [
+              {
+                "t": "Bonjour ! Je suis nouveau.",
+                "n": "Hello! I'm new.",
+                "next": "name"
+              },
+              {
+                "t": "Pardon ?",
+                "n": "Pardon?",
+                "next": "slow"
+              }
+            ]
+          },
+          "slow": {
+            "t": "Pas de problème. Vous êtes nouveau ?",
+            "n": "No problem. Are you new?",
+            "choices": [
+              {
+                "t": "Oui, je suis nouveau.",
+                "n": "Yes, I'm new.",
+                "next": "name"
+              },
+              {
+                "t": "Plus lentement, s'il vous plaît.",
+                "n": "More slowly, please.",
+                "next": "slow2"
+              }
+            ]
+          },
+          "slow2": {
+            "t": "Vous … êtes … nouveau ?",
+            "n": "Are … you … new?",
+            "choices": [
+              {
+                "t": "Ah, oui ! Je suis nouveau. Merci !",
+                "n": "Ah, yes! I'm new. Thanks!",
+                "next": "name"
+              }
+            ]
+          },
+          "name": {
+            "t": "Bienvenue ! Comment vous appelez-vous ?",
+            "n": "Welcome! What's your name?",
+            "choices": [
+              {
+                "t": "Je m'appelle Alex.",
+                "n": "My name is Alex.",
+                "next": "how"
+              },
+              {
+                "t": "Salut ! Au revoir !",
+                "n": "Hi! Bye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "how": {
+            "t": "Enchantée, Alex ! Ça va, le premier jour ?",
+            "n": "Nice to meet you, Alex! Is the first day going OK?",
+            "choices": [
+              {
+                "t": "Oui, ça va bien, merci !",
+                "n": "Yes, it's going well, thanks!",
+                "next": "room"
+              },
+              {
+                "t": "Bof, comme ci, comme ça.",
+                "n": "Meh, so-so.",
+                "next": "cheer"
+              }
+            ]
+          },
+          "cheer": {
+            "t": "Courage ! Ici, tout le monde est très gentil.",
+            "n": "Chin up! Everyone here is very nice.",
+            "choices": [
+              {
+                "t": "Merci beaucoup, c'est gentil !",
+                "n": "Thank you very much, that's kind!",
+                "next": "room"
+              }
+            ]
+          },
+          "room": {
+            "t": "Votre cours est dans la salle trois. Bonne journée !",
+            "n": "Your class is in room three. Have a nice day!",
+            "end": "good",
+            "outcome": "You checked in and found your classroom."
+          },
+          "bye": {
+            "t": "Euh … au revoir ?",
+            "n": "Er … goodbye?",
+            "end": "bad",
+            "outcome": "You left before giving your name — try again and introduce yourself."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "You didn't understand. Ask politely.",
+          "t": [
+            "Pardon",
+            "Plus lentement s'il vous plaît",
+            "Vous pouvez répéter s'il vous plaît",
+            "Comment"
+          ]
+        },
+        {
+          "n": "Tell a new classmate you're new here.",
+          "t": [
+            "Je suis nouveau",
+            "Je suis nouvelle",
+            "Je suis nouveau ici",
+            "Je suis nouvelle ici"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-l7",
+      "kind": "speaking",
+      "title": "Say hello your way",
+      "goal": "Greet, introduce yourself and say goodbye freely for 30 seconds.",
+      "culture": {
+        "title": "La bise or a handshake?",
+        "body": "In France friends and family greet each other with la bise — light cheek-to-cheek kisses. The number of kisses depends on the region: two is most common, but you may get three or even four in some areas. In Belgium one kiss is common, and in French-speaking Switzerland three is typical. In business, or when meeting someone for the first time, a handshake is the safe choice. In Québec people switch to tu more readily, and a bise or a hug is mostly for close friends and family. Belgians say À tantôt ! (see you later today), and in Québec you'll often hear Bonne fin de semaine ! (have a nice weekend).",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Bonne soirée !",
+          "n": "Have a nice evening!"
+        },
+        {
+          "t": "Bon week-end !",
+          "n": "Have a nice weekend!"
+        },
+        {
+          "t": "À tantôt !",
+          "n": "See you later (today)!",
+          "note": "Common in Belgium."
+        },
+        {
+          "t": "Bonne fin de semaine !",
+          "n": "Have a nice weekend!",
+          "note": "Québec."
+        }
+      ],
+      "free": [
+        {
+          "n": "Greet someone, say your name, ask how they are, say how you are and say goodbye.",
+          "hint": "Use Bonjour / Salut, Je m'appelle …, Ça va ? / Comment allez-vous ?, Ça va bien, Au revoir / À bientôt.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            {
+              "label": "a greeting",
+              "any": [
+                "bonjour",
+                "salut",
+                "bonsoir",
+                "coucou"
+              ]
+            },
+            {
+              "label": "your name",
+              "any": [
+                "je m'appelle",
+                "m'appelle",
+                "appelle",
+                "je suis",
+                "moi c'est"
+              ]
+            },
+            {
+              "label": "how are you",
+              "any": [
+                "ça va",
+                "allez-vous",
+                "vas-tu",
+                "pas mal",
+                "très bien"
+              ]
+            },
+            {
+              "label": "a goodbye",
+              "any": [
+                "au revoir",
+                "à bientôt",
+                "à plus",
+                "bonne journée",
+                "bonne soirée",
+                "à demain",
+                "à tantôt"
+              ]
+            }
+          ],
+          "model": "Bonjour ! Je m'appelle Alex. Comment allez-vous ? Moi, ça va très bien, merci. Bon, au revoir et bonne journée !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "It's Friday afternoon. Wish a colleague a nice weekend.",
+          "t": [
+            "Bon week-end",
+            "Bonne fin de semaine",
+            "Bon week-end à lundi"
+          ]
+        },
+        {
+          "n": "Say goodbye to the baker and wish her a nice day.",
+          "t": [
+            "Au revoir madame bonne journée",
+            "Au revoir bonne journée",
+            "Bonne journée",
+            "Merci au revoir bonne journée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Bonjour !",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

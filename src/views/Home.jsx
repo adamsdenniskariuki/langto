@@ -28,7 +28,7 @@ export function Home() {
       <section class="hero card">
         <div class="hero-text">
           <p class="eyebrow"><Flag code={course.lang.code} /> {course.course.title}</p>
-          <h1>{greeting(course.lang)}!</h1>
+          <h1>{withBang(greeting(course.lang))}</h1>
           <p class="muted">
             {streak.count > 0
               ? streak.doneToday
@@ -101,6 +101,9 @@ export function Home() {
     </div>
   );
 }
+
+// Greetings may carry their own punctuation (French "Bonjour !", Spanish "¡Hola!").
+const withBang = (g) => (/[!?.]$/.test(g) ? g : g + '!');
 
 function greeting(lang) {
   const g = lang.greetings || { morning: 'Good morning', day: 'Hello', evening: 'Good evening' };

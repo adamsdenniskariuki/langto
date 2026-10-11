@@ -1,0 +1,256 @@
+{
+  "id": "pron-u02",
+  "level": "A1",
+  "title": "Les voyelles nasales",
+  "subtitle": "an, on, in",
+  "icon": "👃",
+  "lessons": [
+    {
+      "id": "pron-u02-l1",
+      "kind": "pron",
+      "title": "an and on",
+      "goal": "Hear and say vent and vont, blanc and blond.",
+      "tip": {
+        "title": "Air through the nose — no n at the end",
+        "body": "For a nasal vowel, let air flow through your nose and mouth at the same time, and never close it off with an \"n\" or \"ng\" sound. an/en/am/em: open your mouth wide as for \"ah\" in \"father\", lips relaxed. on/om: round your lips tightly, almost as for \"oh\". The written n or m is just a spelling signal — you should not hear it."
+      },
+      "phrases": [
+        {
+          "t": "Enchanté !",
+          "n": "Nice to meet you!",
+          "note": "A woman writes \"Enchantée\", but it sounds the same."
+        },
+        {
+          "t": "C'est bon !",
+          "n": "It's good!"
+        },
+        {
+          "t": "Dans un moment.",
+          "n": "In a moment."
+        },
+        {
+          "t": "Il fait du vent.",
+          "n": "It's windy."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "vent",
+            "n": "wind"
+          },
+          "b": {
+            "t": "vont",
+            "n": "(they) go"
+          }
+        },
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "blanc",
+            "n": "white"
+          },
+          "b": {
+            "t": "blond",
+            "n": "blond"
+          }
+        },
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "temps",
+            "n": "time; weather"
+          },
+          "b": {
+            "t": "ton",
+            "n": "your (informal)"
+          }
+        },
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "sans",
+            "n": "without"
+          },
+          "b": {
+            "t": "son",
+            "n": "his/her; sound"
+          }
+        },
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "lent",
+            "n": "slow"
+          },
+          "b": {
+            "t": "long",
+            "n": "long"
+          }
+        },
+        {
+          "sound": "an / on",
+          "a": {
+            "t": "banc",
+            "n": "bench"
+          },
+          "b": {
+            "t": "bon",
+            "n": "good"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Enchanté !",
+          "n": "Nice to meet you!",
+          "mark": "Enchan*té* !"
+        },
+        {
+          "t": "Dans un moment.",
+          "n": "In a moment.",
+          "mark": "Dans un mo*ment*."
+        },
+        {
+          "t": "Il fait du vent.",
+          "n": "It's windy.",
+          "mark": "Il fait du *vent*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"Nice to meet you!\"",
+          "t": [
+            "Enchanté",
+            "Enchantée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u02-l2",
+      "kind": "pron",
+      "title": "in, and bon vs bonne",
+      "goal": "Say vin and pain, and hear when the nasal disappears.",
+      "tip": {
+        "title": "in/ain/ein/un — and when the n comes back",
+        "body": "in, im, ain, ein (vin, pain, plein) sound like the \"a\" in \"cat\" made nasal, with spread lips. In Paris and most of France un (brun, lundi) sounds the same as in, so you only need three nasal vowels. A nasal vowel exists only when the n/m is the last sound of the syllable: bon is nasal, but in bonne the n is pronounced and the vowel is plain — \"bonn\". The same happens in masculine/feminine pairs: cousin/cousine, canadien/canadienne."
+      },
+      "phrases": [
+        {
+          "t": "Du pain et du vin.",
+          "n": "Bread and wine."
+        },
+        {
+          "t": "Un bon vin blanc.",
+          "n": "A good white wine.",
+          "note": "Three different nasal vowels: un/in, on, an."
+        },
+        {
+          "t": "Il est canadien.",
+          "n": "He's Canadian."
+        },
+        {
+          "t": "Elle est canadienne.",
+          "n": "She's Canadian.",
+          "note": "Not nasal: \"ca-na-dienn\"."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "in / an",
+          "a": {
+            "t": "le vin",
+            "n": "wine"
+          },
+          "b": {
+            "t": "le vent",
+            "n": "the wind"
+          }
+        },
+        {
+          "sound": "in / on",
+          "a": {
+            "t": "le pain",
+            "n": "bread"
+          },
+          "b": {
+            "t": "le pont",
+            "n": "the bridge"
+          }
+        },
+        {
+          "sound": "on / onne",
+          "a": {
+            "t": "bon",
+            "n": "good (m)"
+          },
+          "b": {
+            "t": "bonne",
+            "n": "good (f)"
+          }
+        },
+        {
+          "sound": "in / ine",
+          "a": {
+            "t": "cousin",
+            "n": "(male) cousin"
+          },
+          "b": {
+            "t": "cousine",
+            "n": "(female) cousin"
+          }
+        },
+        {
+          "sound": "ein / eine",
+          "a": {
+            "t": "plein",
+            "n": "full (m)"
+          },
+          "b": {
+            "t": "pleine",
+            "n": "full (f)"
+          }
+        },
+        {
+          "sound": "un / une",
+          "a": {
+            "t": "un",
+            "n": "one, a (m)"
+          },
+          "b": {
+            "t": "une",
+            "n": "one, a (f)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Un bon vin blanc.",
+          "n": "A good white wine.",
+          "mark": "Un bon vin *blanc*."
+        },
+        {
+          "t": "Du pain et du vin.",
+          "n": "Bread and wine.",
+          "mark": "Du *pain* et du *vin*."
+        },
+        {
+          "t": "Elle est canadienne.",
+          "n": "She's Canadian.",
+          "mark": "Elle est cana*dienne*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Order \"a good white wine\".",
+          "t": [
+            "Un bon vin blanc",
+            "Un bon vin blanc s'il vous plaît"
+          ]
+        }
+      ]
+    }
+  ]
+}

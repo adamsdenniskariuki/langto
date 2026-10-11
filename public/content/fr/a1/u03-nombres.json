@@ -1,0 +1,882 @@
+{
+  "id": "u03",
+  "title": "Les nombres",
+  "subtitle": "Numbers, age & prices",
+  "icon": "🔢",
+  "lessons": [
+    {
+      "id": "u03-l1",
+      "title": "Zero to ten",
+      "goal": "Count from 0 to 10.",
+      "tip": {
+        "title": "Silent and spoken endings",
+        "body": "Final consonants are usually silent in French, but numbers are an exception: cinq, sept and huit pronounce their final consonant when said alone (but the p of sept is silent: \"set\"). Six and dix end in an \"s\" sound alone (sees, dees), a \"z\" before a vowel (dix_euros) and nothing before a consonant (dix cafés = dee). Un rhymes roughly with \"uh\" through the nose; deux sounds like \"duh\" with rounded lips."
+      },
+      "phrases": [
+        {
+          "t": "zéro",
+          "n": "zero"
+        },
+        {
+          "t": "un",
+          "n": "one"
+        },
+        {
+          "t": "deux",
+          "n": "two"
+        },
+        {
+          "t": "trois",
+          "n": "three"
+        },
+        {
+          "t": "quatre",
+          "n": "four"
+        },
+        {
+          "t": "cinq",
+          "n": "five"
+        },
+        {
+          "t": "six",
+          "n": "six"
+        },
+        {
+          "t": "sept",
+          "n": "seven"
+        },
+        {
+          "t": "huit",
+          "n": "eight"
+        },
+        {
+          "t": "neuf",
+          "n": "nine"
+        },
+        {
+          "t": "dix",
+          "n": "ten"
+        }
+      ],
+      "dialogue": {
+        "title": "The door code",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Tu as le code de la porte ?",
+            "n": "Have you got the door code?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Quatre, sept, deux…",
+            "n": "Yes. Four, seven, two…"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Quatre, sept, deux… et après ?",
+            "n": "Four, seven, two… and then?"
+          },
+          {
+            "who": "you",
+            "t": "Neuf, et la lettre B.",
+            "n": "Nine, and the letter B."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Ça marche ! Merci.",
+            "n": "It works! Thanks."
+          },
+          {
+            "who": "you",
+            "t": "De rien.",
+            "n": "You're welcome."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Count from one to five.",
+          "t": [
+            "un deux trois quatre cinq"
+          ]
+        },
+        {
+          "n": "Say the number 8.",
+          "t": [
+            "huit"
+          ]
+        },
+        {
+          "n": "Say the number 6.",
+          "t": [
+            "six"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l2",
+      "title": "Eleven to thirty & your age",
+      "goal": "Say how old you are.",
+      "tip": {
+        "title": "Avoir … ans",
+        "body": "11 to 16 are single words (onze, douze, treize, quatorze, quinze, seize); 17, 18 and 19 are \"ten-seven\" etc.: dix-sept, dix-huit, dix-neuf. 21 is vingt et un, then vingt-deux, vingt-trois… In French you HAVE your age: J'ai vingt ans — never je suis vingt. The t of vingt is silent on its own (\"van\") but spoken in 21–29 (vingt-deux sounds like \"vant-deux\", with a nasal vowel)."
+      },
+      "phrases": [
+        {
+          "t": "onze",
+          "n": "eleven"
+        },
+        {
+          "t": "douze",
+          "n": "twelve"
+        },
+        {
+          "t": "treize",
+          "n": "thirteen"
+        },
+        {
+          "t": "quinze",
+          "n": "fifteen"
+        },
+        {
+          "t": "seize",
+          "n": "sixteen"
+        },
+        {
+          "t": "dix-sept",
+          "n": "seventeen"
+        },
+        {
+          "t": "vingt",
+          "n": "twenty"
+        },
+        {
+          "t": "vingt et un",
+          "n": "twenty-one"
+        },
+        {
+          "t": "trente",
+          "n": "thirty"
+        },
+        {
+          "t": "Tu as quel âge ?",
+          "n": "How old are you?",
+          "note": "Informal. Formal: Quel âge avez-vous ?"
+        },
+        {
+          "t": "J'ai vingt ans.",
+          "n": "I'm twenty (years old)."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "Birthday party",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Tu as quel âge ?",
+            "n": "How old are you?"
+          },
+          {
+            "who": "you",
+            "t": "J'ai trente ans. Et toi ?",
+            "n": "I'm thirty. And you?"
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Aujourd'hui, j'ai vingt et un ans !",
+            "n": "Today I'm twenty-one!"
+          },
+          {
+            "who": "you",
+            "t": "Joyeux anniversaire !",
+            "n": "Happy birthday!"
+          },
+          {
+            "who": "A",
+            "name": "Emma",
+            "t": "Merci ! Et ma sœur a dix-sept ans.",
+            "n": "Thanks! And my sister is seventeen."
+          },
+          {
+            "who": "you",
+            "t": "Dix-sept ans ? Elle est jeune !",
+            "n": "Seventeen? She's young!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend how old they are.",
+          "t": [
+            "Tu as quel âge",
+            "Quel âge as-tu",
+            "Quel âge tu as",
+            "Quel âge avez-vous",
+            "Vous avez quel âge"
+          ]
+        },
+        {
+          "n": "Say you're twenty years old.",
+          "t": [
+            "J'ai vingt ans"
+          ]
+        },
+        {
+          "n": "Say the number 12.",
+          "t": [
+            "douze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l3",
+      "title": "Up to 100 & prices",
+      "goal": "Ask what something costs and understand the price.",
+      "tip": {
+        "title": "Counting in twenties",
+        "body": "40 quarante, 50 cinquante, 60 soixante — then France switches to maths: 70 = soixante-dix (60 + 10), 71 = soixante et onze, 80 = quatre-vingts (4 × 20), 81 = quatre-vingt-un (no et, no s), 90 = quatre-vingt-dix (4 × 20 + 10), 100 = cent. Prices: say euros in the middle — 4,50 € = quatre euros cinquante. Watch the liaison: deux_euros, trois_euros, six_euros (\"z\"), vingt_euros (\"t\")."
+      },
+      "phrases": [
+        {
+          "t": "quarante",
+          "n": "forty"
+        },
+        {
+          "t": "cinquante",
+          "n": "fifty"
+        },
+        {
+          "t": "soixante",
+          "n": "sixty"
+        },
+        {
+          "t": "soixante-dix",
+          "n": "seventy"
+        },
+        {
+          "t": "quatre-vingts",
+          "n": "eighty"
+        },
+        {
+          "t": "quatre-vingt-dix",
+          "n": "ninety"
+        },
+        {
+          "t": "cent",
+          "n": "a hundred"
+        },
+        {
+          "t": "C'est combien ?",
+          "n": "How much is it?"
+        },
+        {
+          "t": "Ça fait cinq euros.",
+          "n": "That's five euros."
+        },
+        {
+          "t": "quatre euros cinquante",
+          "n": "€4.50"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JosephineNeural",
+        "title": "At the market",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonjour ! C'est combien, les fraises ?",
+            "n": "Hello! How much are the strawberries?"
+          },
+          {
+            "who": "A",
+            "name": "La marchande",
+            "t": "Quatre euros cinquante la barquette.",
+            "n": "Four fifty a punnet."
+          },
+          {
+            "who": "you",
+            "t": "Et les cerises ?",
+            "n": "And the cherries?"
+          },
+          {
+            "who": "A",
+            "name": "La marchande",
+            "t": "Six euros.",
+            "n": "Six euros."
+          },
+          {
+            "who": "you",
+            "t": "Une barquette de fraises, s'il vous plaît. Voilà cinq euros.",
+            "n": "A punnet of strawberries, please. Here's five euros."
+          },
+          {
+            "who": "A",
+            "name": "La marchande",
+            "t": "Merci ! Et cinquante centimes. Bonne journée !",
+            "n": "Thank you! And fifty cents. Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how much something costs.",
+          "t": [
+            "C'est combien",
+            "Ça coûte combien",
+            "Combien ça coûte",
+            "Ça fait combien"
+          ]
+        },
+        {
+          "n": "Say it's five euros.",
+          "t": [
+            "Ça fait cinq euros",
+            "C'est cinq euros",
+            "Cinq euros"
+          ]
+        },
+        {
+          "n": "Say the number 80.",
+          "t": [
+            "quatre-vingts",
+            "quatre vingts",
+            "huitante"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l4",
+      "kind": "grammar",
+      "title": "avoir & plurals",
+      "goal": "Say what you have — one or many.",
+      "tip": {
+        "title": "avoir (to have) + plural nouns",
+        "body": "avoir: j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. Je becomes j' before a vowel (j'ai). Link the s with a \"z\" sound: nous_avons, vous_avez, ils_ont — and don't confuse ils_ont (\"eel-zon\", they have) with ils sont (\"eel-son\", they are). Most plurals just add a silent -s: un chat → deux chats. You usually hear the plural only in the article or number: le chat / les chats. Avoir is also used for age: Il a dix ans."
+      },
+      "phrases": [
+        {
+          "t": "J'ai un chat.",
+          "n": "I have a cat."
+        },
+        {
+          "t": "Tu as deux chats ?",
+          "n": "Do you have two cats?"
+        },
+        {
+          "t": "Il a trois enfants.",
+          "n": "He has three children."
+        },
+        {
+          "t": "Nous avons dix euros.",
+          "n": "We have ten euros."
+        },
+        {
+          "t": "Vous avez un portable ?",
+          "n": "Do you have a mobile phone?"
+        },
+        {
+          "t": "Ils ont quel âge ?",
+          "n": "How old are they?"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person (avoir)",
+          "base": {
+            "t": "J'ai deux enfants.",
+            "n": "I have two children."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Tu as deux enfants.",
+              "n": "You have two children."
+            },
+            {
+              "cue": "elle",
+              "t": "Elle a deux enfants.",
+              "n": "She has two children."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous avons deux enfants.",
+              "n": "We have two children."
+            },
+            {
+              "cue": "ils",
+              "t": "Ils ont deux enfants.",
+              "n": "They have two children."
+            }
+          ]
+        },
+        {
+          "title": "Swap the number",
+          "base": {
+            "t": "J'ai un chat.",
+            "n": "I have a cat."
+          },
+          "items": [
+            {
+              "cue": "deux",
+              "t": "J'ai deux chats.",
+              "n": "I have two cats."
+            },
+            {
+              "cue": "trois · chien",
+              "t": "J'ai trois chiens.",
+              "n": "I have three dogs."
+            },
+            {
+              "cue": "quatre · livre",
+              "t": "J'ai quatre livres.",
+              "n": "I have four books."
+            }
+          ]
+        },
+        {
+          "title": "Say their age",
+          "base": {
+            "t": "J'ai vingt ans.",
+            "n": "I'm twenty."
+          },
+          "items": [
+            {
+              "cue": "il · 30",
+              "t": "Il a trente ans.",
+              "n": "He's thirty."
+            },
+            {
+              "cue": "vous · 45",
+              "t": "Vous avez quarante-cinq ans.",
+              "n": "You're forty-five."
+            },
+            {
+              "cue": "elles · 18",
+              "t": "Elles ont dix-huit ans.",
+              "n": "They're eighteen."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you have two cats.",
+          "t": [
+            "J'ai deux chats"
+          ]
+        },
+        {
+          "n": "Ask someone (formally) if they have a mobile phone.",
+          "t": [
+            "Vous avez un portable",
+            "Avez-vous un portable",
+            "Est-ce que vous avez un portable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l5",
+      "kind": "listening",
+      "title": "Signing up for judo",
+      "goal": "Catch ages, phone numbers and prices.",
+      "phrases": [
+        {
+          "t": "Quel est ton numéro de téléphone ?",
+          "n": "What's your phone number?"
+        },
+        {
+          "t": "Le cours coûte vingt euros par mois.",
+          "n": "The class costs twenty euros a month."
+        },
+        {
+          "t": "J'ai seulement dix euros.",
+          "n": "I only have ten euros."
+        },
+        {
+          "t": "quatre-vingt-dix-neuf",
+          "n": "ninety-nine"
+        }
+      ],
+      "story": {
+        "title": "Chloé at the judo club",
+        "intro": "Chloé signs up for judo classes at her local sports club.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Monsieur Martin",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Bonjour ! Comment tu t'appelles ?",
+            "n": "Hello! What's your name?"
+          },
+          {
+            "name": "Chloé",
+            "voice": "fr-FR-EloiseNeural",
+            "t": "Je m'appelle Chloé. J'ai douze ans.",
+            "n": "My name is Chloé. I'm twelve."
+          },
+          {
+            "name": "Monsieur Martin",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Très bien. Quel est ton numéro de téléphone ?",
+            "n": "Very good. What's your phone number?"
+          },
+          {
+            "name": "Chloé",
+            "voice": "fr-FR-EloiseNeural",
+            "t": "C'est le zéro six, quinze, trente-deux, soixante-dix-huit, quatre-vingt-dix-neuf.",
+            "n": "It's 06 15 32 78 99."
+          },
+          {
+            "name": "Monsieur Martin",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Merci. Le cours coûte vingt euros par mois.",
+            "n": "Thanks. The class costs twenty euros a month."
+          },
+          {
+            "name": "Chloé",
+            "voice": "fr-FR-EloiseNeural",
+            "t": "Oh… J'ai seulement dix euros.",
+            "n": "Oh… I only have ten euros."
+          },
+          {
+            "name": "Monsieur Martin",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Ce n'est pas grave. Tu as un frère ou une sœur ?",
+            "n": "Never mind. Do you have a brother or a sister?"
+          },
+          {
+            "name": "Chloé",
+            "voice": "fr-FR-EloiseNeural",
+            "t": "Oui, j'ai un frère. Il a quinze ans. Et ma mère paie demain !",
+            "n": "Yes, I have a brother. He's fifteen. And my mum is paying tomorrow!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Chloé a quel âge ?",
+            "n": "How old is Chloé?",
+            "t": [
+              "Douze ans",
+              "Elle a douze ans",
+              "Douze"
+            ]
+          },
+          {
+            "q": "Combien coûte le cours ?",
+            "n": "How much does the class cost?",
+            "t": [
+              "Vingt euros",
+              "Vingt euros par mois",
+              "Vingt",
+              "Le cours coûte vingt euros"
+            ]
+          },
+          {
+            "q": "Combien d'argent a Chloé ?",
+            "n": "How much money does Chloé have?",
+            "t": [
+              "Dix euros",
+              "Elle a dix euros",
+              "Dix"
+            ]
+          },
+          {
+            "q": "Son frère a quel âge ?",
+            "n": "How old is her brother?",
+            "t": [
+              "Quinze ans",
+              "Il a quinze ans",
+              "Quinze"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u03-l6",
+      "kind": "roleplay",
+      "title": "At the newsagent's",
+      "goal": "Buy something and check the change.",
+      "phrases": [
+        {
+          "t": "C'est combien, le journal ?",
+          "n": "How much is the newspaper?"
+        },
+        {
+          "t": "Deux euros cinquante.",
+          "n": "€2.50."
+        },
+        {
+          "t": "Voilà trois euros.",
+          "n": "Here's three euros."
+        },
+        {
+          "t": "Vous avez de la monnaie ?",
+          "n": "Do you have any change / smaller money?"
+        }
+      ],
+      "branch": {
+        "title": "Buying a newspaper",
+        "scene": "You stop at a newsagent's kiosk at the train station.",
+        "name": "Le marchand",
+        "voice": "fr-FR-ClaudeNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Vous désirez ?",
+            "n": "Hello! What would you like?",
+            "choices": [
+              {
+                "t": "C'est combien, le journal ?",
+                "n": "How much is the newspaper?",
+                "next": "price"
+              },
+              {
+                "t": "Un billet de train, s'il vous plaît.",
+                "n": "A train ticket, please.",
+                "next": "ticket"
+              }
+            ]
+          },
+          "ticket": {
+            "t": "Ah non, les billets, c'est au guichet, là-bas.",
+            "n": "Oh no, tickets are at the ticket office, over there.",
+            "choices": [
+              {
+                "t": "Ah, d'accord. Et le journal, c'est combien ?",
+                "n": "Oh, OK. And how much is the newspaper?",
+                "next": "price"
+              },
+              {
+                "t": "Bon, tant pis. Au revoir !",
+                "n": "Oh well, never mind. Goodbye!",
+                "next": "bye"
+              }
+            ]
+          },
+          "price": {
+            "t": "Deux euros cinquante.",
+            "n": "€2.50.",
+            "choices": [
+              {
+                "t": "Voilà trois euros.",
+                "n": "Here's three euros.",
+                "next": "change"
+              },
+              {
+                "t": "Voilà vingt euros.",
+                "n": "Here's twenty euros.",
+                "next": "twenty"
+              },
+              {
+                "t": "Pardon ? Vous pouvez répéter ?",
+                "n": "Sorry? Can you repeat?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Deux euros… cinquante.",
+            "n": "Two euros… fifty.",
+            "choices": [
+              {
+                "t": "Merci. Voilà trois euros.",
+                "n": "Thanks. Here's three euros.",
+                "next": "change"
+              }
+            ]
+          },
+          "twenty": {
+            "t": "Vingt euros ? Vous avez de la monnaie ?",
+            "n": "Twenty euros? Do you have anything smaller?",
+            "choices": [
+              {
+                "t": "Oui, voilà trois euros.",
+                "n": "Yes, here's three euros.",
+                "next": "change"
+              },
+              {
+                "t": "Non, désolé.",
+                "n": "No, sorry.",
+                "next": "bigchange"
+              }
+            ]
+          },
+          "change": {
+            "t": "Merci. Et cinquante centimes. Bonne journée !",
+            "n": "Thanks. And fifty cents. Have a nice day!",
+            "end": "good",
+            "outcome": "You bought the paper and got the right change."
+          },
+          "bigchange": {
+            "t": "Bon… voilà dix-sept euros cinquante. Bonne journée !",
+            "n": "OK… here's seventeen fifty. Have a nice day!",
+            "end": "good",
+            "outcome": "You got your paper — and €17.50 change. Well counted!"
+          },
+          "bye": {
+            "t": "Au revoir !",
+            "n": "Goodbye!",
+            "end": "bad",
+            "outcome": "You left with nothing — try asking about the newspaper."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask how much the newspaper is.",
+          "t": [
+            "C'est combien le journal",
+            "Le journal c'est combien",
+            "Combien coûte le journal",
+            "Ça coûte combien le journal"
+          ]
+        },
+        {
+          "n": "Hand over three euros.",
+          "t": [
+            "Voilà trois euros",
+            "Voici trois euros",
+            "Trois euros"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-l7",
+      "kind": "speaking",
+      "title": "My numbers",
+      "goal": "Talk about your numbers for 30 seconds.",
+      "culture": {
+        "title": "Septante, nonante — and numbers in pairs",
+        "body": "In Belgium and French-speaking Switzerland, 70 is septante and 90 is nonante — much simpler than soixante-dix and quatre-vingt-dix! For 80, Belgians say quatre-vingts like in France, while in some Swiss cantons (such as Vaud and Valais) you will hear huitante. Québec uses the same numbers as France. French phone numbers have ten digits and are read in pairs: 06 12 34 56 78 = zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit. Mobile numbers start with 06 or 07.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "septante",
+          "n": "seventy (Belgium, Switzerland)"
+        },
+        {
+          "t": "nonante",
+          "n": "ninety (Belgium, Switzerland)"
+        },
+        {
+          "t": "huitante",
+          "n": "eighty (some Swiss cantons)",
+          "note": "France and Belgium say quatre-vingts."
+        },
+        {
+          "t": "Mon numéro, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+          "n": "My number is 06 12 34 56 78."
+        },
+        {
+          "t": "J'habite au numéro quinze.",
+          "n": "I live at number fifteen."
+        }
+      ],
+      "free": [
+        {
+          "n": "Talk about your numbers: your age, your phone number and your house number.",
+          "hint": "J'ai … ans. Mon numéro, c'est le … J'habite au numéro …",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "your age",
+              "any": [
+                "ans",
+                "âge"
+              ]
+            },
+            {
+              "label": "your phone number",
+              "any": [
+                "numéro",
+                "téléphone",
+                "portable"
+              ]
+            },
+            {
+              "label": "your house number",
+              "any": [
+                "habite",
+                "rue",
+                "maison",
+                "appartement"
+              ]
+            },
+            {
+              "label": "numbers",
+              "any": [
+                "zéro",
+                "deux",
+                "trois",
+                "quatre",
+                "cinq",
+                "six",
+                "sept",
+                "huit",
+                "neuf",
+                "dix",
+                "onze",
+                "douze",
+                "treize",
+                "quatorze",
+                "quinze",
+                "seize",
+                "vingt",
+                "trente",
+                "quarante",
+                "cinquante",
+                "soixante",
+                "septante",
+                "huitante",
+                "nonante",
+                "cent"
+              ]
+            }
+          ],
+          "model": "J'ai trente-deux ans. Mon numéro, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit. J'habite au numéro quinze, rue Victor-Hugo."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say 70 the Belgian or Swiss way.",
+          "t": [
+            "septante",
+            "soixante-dix"
+          ]
+        },
+        {
+          "n": "Say 90 the Belgian or Swiss way.",
+          "t": [
+            "nonante",
+            "quatre-vingt-dix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les nombres",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
