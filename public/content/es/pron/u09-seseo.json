@@ -1,0 +1,92 @@
+{
+  "id": "pron-u09",
+  "level": "C1",
+  "title": "Seseo, ceceo y distinción",
+  "subtitle": "Z and soft c: \"th\" in Spain, s almost everywhere else",
+  "icon": "🦷",
+  "lessons": [
+    {
+      "id": "pron-u09-l1",
+      "kind": "pron",
+      "title": "Distinción: the Spanish \"th\"",
+      "goal": "Pronounce z and c (before e, i) as [θ] the way most of Spain does, and keep s as s.",
+      "tip": {
+        "title": "Tongue between the teeth, no voice",
+        "body": "In most of Spain, z (zumo, azul, vez) and c before e or i (cena, cine, hacer) are pronounced [θ], the sound of English \"th\" in \"think\" — never the buzzing \"th\" of \"this\". Put the tip of your tongue lightly between your upper and lower front teeth and blow air through without using your voice. The letter s stays a real s: tongue tip up behind the upper teeth, often a little further back than an English s, which gives Castilian s its slightly \"whistly\" sound. Keeping the two apart is called distinción, and it lets Spaniards hear a difference between casa (house) and caza (hunt), or coser (to sew) and cocer (to boil). It is not a lisp: a lisp turns every s into th, while distinción only uses th where the spelling has z or ce/ci. A word with both sounds is good practice: \"sucio\" = su-θio, \"cerveza\" = θer-be-θa. Final -d in words like \"Madrid\" or \"usted\" is soft and in parts of central Spain can sound close to [θ] too; you don't need to copy that."
+      },
+      "phrases": [
+        { "t": "Cinco cervezas, por favor.", "n": "Five beers, please.", "note": "Spain: θin-co θer-be-θas. Three θ sounds, one final s." },
+        { "t": "Hace mucho calor en Zaragoza.", "n": "It's very hot in Zaragoza.", "note": "a-θe … θa-ra-go-θa" },
+        { "t": "La plaza está cerca del centro.", "n": "The square is near the centre.", "note": "pla-θa, θer-ca, θen-tro" },
+        { "t": "Gracias de corazón.", "n": "Thank you from the bottom of my heart.", "note": "Spain: gra-θias; most other places: gra-sias. Both are correct." }
+      ],
+      "pairs": [
+        { "sound": "s / θ (z)", "a": { "t": "casa", "n": "house" }, "b": { "t": "caza", "n": "hunting / game" } },
+        { "sound": "s / θ (c)", "a": { "t": "coser", "n": "to sew" }, "b": { "t": "cocer", "n": "to boil / cook" } },
+        { "sound": "s / θ (c)", "a": { "t": "siento", "n": "I feel / I'm sorry" }, "b": { "t": "ciento", "n": "hundred (in ciento uno…)" } },
+        { "sound": "s / θ (c)", "a": { "t": "sima", "n": "deep chasm, abyss" }, "b": { "t": "cima", "n": "summit" } },
+        { "sound": "s / θ (z)", "a": { "t": "rosa", "n": "rose / pink" }, "b": { "t": "roza", "n": "it brushes against" } },
+        { "sound": "s / θ (z)", "a": { "t": "abrasar", "n": "to scorch" }, "b": { "t": "abrazar", "n": "to hug" } }
+      ],
+      "stress": [
+        { "t": "Hace cinco años en Zaragoza.", "n": "Five years ago in Zaragoza.", "mark": "*Ha*ce *cin*co *a*ños en Zara*go*za.", "note": "a-θe θin-co … θa-ra-go-θa" },
+        { "t": "Necesito un zumo de cereza.", "n": "I need a cherry juice.", "mark": "Nece*si*to un *zu*mo de ce*re*za.", "note": "ne-θe-si-to: θ then s in the same word." },
+        { "t": "El cielo está azul.", "n": "The sky is blue.", "mark": "El *cie*lo es*tá* a*zul*.", "note": "θie-lo … a-θul" }
+      ],
+      "prompts": [
+        { "n": "Say that it's very hot in Zaragoza.", "t": ["Hace mucho calor en Zaragoza", "Hace calor en Zaragoza", "En Zaragoza hace mucho calor"] }
+      ]
+    },
+    {
+      "id": "pron-u09-l2",
+      "kind": "pron",
+      "title": "Seseo: the other standard",
+      "goal": "Recognise seseo as fully standard, understand homophones it creates, and know what ceceo is.",
+      "tip": {
+        "title": "Seseo is not a mistake",
+        "body": "In all of Latin America, the Canary Islands and much of Andalusia, z and ce/ci are simply pronounced s: \"cerveza\" = ser-be-sa, \"gracias\" = gra-sias. This is called seseo, and it is the pronunciation of the vast majority of Spanish speakers; it is completely standard, used by newsreaders, teachers and presidents. With seseo, casa and caza, coser and cocer, ciento and siento sound exactly the same, and context does the work, just as with English \"right\" and \"write\". Choose one system and be consistent: if you learn Spanish for Mexico or Colombia, use seseo; for Madrid, distinción. Both are understood everywhere, but you must recognise both. The s of seseo is usually made with the tongue tip down behind the lower teeth, like an English s. Ceceo is the opposite: in some parts of Andalusia, especially in rural areas, many speakers pronounce s as well as z/ce/ci with a th-like sound, so \"casa\" can sound like \"caza\". It is a real regional feature, but it carries less social prestige than seseo or distinción, so learners are best advised to recognise it rather than imitate it. Spelling note: speakers with seseo have to memorise which words take z/c and which take s."
+      },
+      "phrases": [
+        { "t": "Lo siento mucho.", "n": "I'm very sorry.", "note": "\"siento\" has s everywhere; with seseo it sounds like \"ciento\"." },
+        { "t": "La caza está prohibida aquí.", "n": "Hunting is forbidden here.", "note": "With seseo, \"la caza\" sounds like \"la casa\": context tells you it's hunting." },
+        { "t": "Cierra la puerta, por favor.", "n": "Close the door, please.", "note": "Spain: θie-rra; seseo: sie-rra, the same as \"sierra\" (mountain range)." },
+        { "t": "Necesito cien euros.", "n": "I need a hundred euros.", "note": "Spain: ne-θe-si-to θien; seseo: ne-se-si-to sien." }
+      ],
+      "pairs": [
+        { "sound": "s / θ — same with seseo", "a": { "t": "casar", "n": "to marry (off)" }, "b": { "t": "cazar", "n": "to hunt" } },
+        { "sound": "s / θ — same with seseo", "a": { "t": "ves", "n": "you see" }, "b": { "t": "vez", "n": "time (una vez = once)" } },
+        { "sound": "s / θ — same with seseo", "a": { "t": "tasa", "n": "rate / fee" }, "b": { "t": "taza", "n": "cup" } },
+        { "sound": "s / θ — same with seseo", "a": { "t": "losa", "n": "flagstone, slab" }, "b": { "t": "loza", "n": "earthenware, crockery" } },
+        { "sound": "s / θ — same with seseo", "a": { "t": "sumo", "n": "I add (up) / sumo wrestling" }, "b": { "t": "zumo", "n": "juice (Spain)" } },
+        { "sound": "s / θ — same with seseo", "a": { "t": "sierra", "n": "saw / mountain range" }, "b": { "t": "cierra", "n": "closes / close!" } }
+      ],
+      "stress": [
+        { "t": "Ciento cincuenta y cinco.", "n": "One hundred and fifty-five.", "mark": "*Cien*to cin*cuen*ta y *cin*co.", "note": "Spain: θien-to θin-cuen-ta; seseo: sien-to sin-cuen-ta." },
+        { "t": "La casa de la sierra.", "n": "The house in the mountains.", "mark": "La *ca*sa de la *sie*rra.", "note": "Two plain s sounds in every accent." },
+        { "t": "Es la cocina de mi abuela.", "n": "It's my grandmother's kitchen.", "mark": "Es la co*ci*na de mi a*bue*la.", "note": "Spain: co-θi-na; seseo: co-si-na." }
+      ],
+      "story": {
+        "title": "¿Casa o caza?",
+        "intro": "A Spaniard, a Mexican and a Colombian notice that two words sound the same for two of them.",
+        "voice": "es-ES-DarioNeural",
+        "lines": [
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Este fin de semana mi padre se va de caza.", "n": "This weekend my father is going hunting." },
+          { "name": "Dalia", "voice": "es-MX-DaliaNeural", "t": "¿De caza o de casa? Para mí suenan igual.", "n": "Hunting or home? To me they sound the same." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "De caza, con zeta. Va al campo a cazar conejos.", "n": "Hunting, with a z. He's going to the countryside to hunt rabbits." },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "En Colombia decimos las dos palabras con ese, y el contexto lo aclara todo.", "n": "In Colombia we say both words with an s, and the context makes everything clear." },
+          { "name": "Dalia", "voice": "es-MX-DaliaNeural", "t": "En México también. Y es un español perfectamente correcto.", "n": "In Mexico too. And it's perfectly correct Spanish." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Claro que sí. En Canarias y en buena parte de Andalucía también hay seseo.", "n": "Of course. In the Canary Islands and much of Andalusia there's seseo too." },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "Pues a mí me encanta oír la zeta de ustedes en España.", "n": "Well, I love hearing your z in Spain." }
+        ],
+        "questions": [
+          { "q": "¿Adónde va el padre de Javier?", "n": "Where is Javier's father going?", "t": ["Va de caza", "De caza", "Se va de caza", "Al campo", "Va al campo"] },
+          { "q": "¿Cómo dicen \"caza\" en Colombia y en México?", "n": "How do they say \"caza\" in Colombia and Mexico?", "t": ["Con ese", "Con s", "Con la ese", "Igual que casa", "Como casa"] },
+          { "q": "¿Dónde hay seseo en España?", "n": "Where is there seseo in Spain?", "t": ["En Canarias y en Andalucía", "En Canarias y en buena parte de Andalucía", "En Canarias", "En Andalucía"] }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask someone to close the window.", "t": ["Cierra la ventana por favor", "Cierre la ventana por favor", "Cierra la ventana", "Cierre la ventana", "Por favor cierra la ventana", "Por favor cierre la ventana"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "c1-u03",
+  "title": "Con matices",
+  "subtitle": "Nuance: hedging, near-synonyms, mood & aspect",
+  "icon": "🎨",
+  "lessons": [
+    {
+      "id": "c1-u03-l1",
+      "title": "Hedging and guessing",
+      "goal": "Express opinions cautiously and make educated guesses instead of speaking in black and white.",
+      "tip": {
+        "title": "Soften, then guess",
+        "body": "To hedge an opinion, frame it: Yo diría que… (I'd say), Me da la impresión de que… (I get the impression that), Hasta cierto punto (up to a point), A lo mejor me equivoco, pero… (I may be wrong, but). Puede que takes the subjunctive: Puede que tengan razón. To guess about the present, Spanish uses the future tense: Estará en una reunión = he's probably in a meeting. Deber de + infinitive also expresses a supposition (Debe de tener cuarenta años), although in everyday speech many people drop the de. For \"maybe\", Spain also says igual, Mexico igual y… and Argentina capaz que…"
+      },
+      "phrases": [
+        { "t": "Yo diría que es una buena idea, aunque con matices.", "n": "I'd say it's a good idea, though with some reservations." },
+        { "t": "Me da la impresión de que no lo tienen nada claro.", "n": "I get the impression they're not at all clear about it." },
+        { "t": "A lo mejor me equivoco, pero creo que se están precipitando.", "n": "I may be wrong, but I think they're rushing into it.", "note": "Spain also: Igual me equivoco…; Argentina: Capaz que me equivoco…" },
+        { "t": "Hasta cierto punto, tienes razón.", "n": "Up to a point, you're right." },
+        { "t": "Puede que tengan razón, pero lo dudo.", "n": "They may be right, but I doubt it.", "note": "puede que + subjunctive." },
+        { "t": "Estará en una reunión.", "n": "He's probably in a meeting.", "note": "Future of probability: a guess about the present." },
+        { "t": "Debe de tener unos cuarenta años.", "n": "She must be about forty.", "note": "deber de + infinitive = supposition; in speech often debe tener." },
+        { "t": "No lo tengo del todo claro.", "n": "I'm not entirely sure about it." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "The new director's plan",
+        "lines": [
+          { "who": "A", "name": "Dalia", "t": "¿Ya viste el plan del nuevo director? Quiere cambiar todo el sistema en un mes.", "n": "Have you seen the new director's plan yet? He wants to change the whole system in a month." },
+          { "who": "you", "t": "Sí, ya lo vi. Yo diría que la idea es buena, aunque con matices.", "n": "Yes, I've seen it. I'd say the idea is good, though with some reservations." },
+          { "who": "A", "name": "Dalia", "t": "¿Con matices? A mí me parece una locura. ¿Y por qué no vino hoy a la junta?", "n": "With reservations? It seems crazy to me. And why didn't he come to the meeting today?", "note": "junta = meeting (Mexico)." },
+          { "who": "you", "t": "No sé, estará en otra reunión. Pero me da la impresión de que no lo tienen nada claro.", "n": "I don't know, he's probably in another meeting. But I get the impression they're not at all clear about it." },
+          { "who": "A", "name": "Dalia", "t": "¿Tú crees que lo van a aplicar así, tal cual?", "n": "Do you think they're going to implement it just like that?" },
+          { "who": "you", "t": "Puede que sí, pero lo dudo. A lo mejor me equivoco, pero creo que se están precipitando.", "n": "They may, but I doubt it. I may be wrong, but I think they're rushing into it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Hedge: say you'd say it's a good idea, though with some reservations.", "t": ["Yo diría que es una buena idea, aunque con matices", "Diría que es una buena idea, aunque con matices", "Yo diría que es una buena idea, pero con matices"] },
+        { "n": "Guess with the future tense: he's probably in a meeting.", "t": ["Estará en una reunión", "Estará en una junta", "Debe de estar en una reunión"] },
+        { "n": "Say you may be wrong, but you think they're rushing into it.", "t": ["A lo mejor me equivoco, pero creo que se están precipitando", "Igual me equivoco, pero creo que se están precipitando", "Quizás me equivoque, pero creo que se están precipitando", "Puede que me equivoque, pero creo que se están precipitando"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l2",
+      "title": "Ways of becoming",
+      "goal": "Choose the right verb for \"to become\": ponerse, volverse, hacerse, quedarse, llegar a ser, convertirse en.",
+      "tip": {
+        "title": "Six ways to change",
+        "body": "English says \"become\" or \"get\"; Spanish chooses by the kind of change. Ponerse + adjective: a sudden, usually temporary change of mood, colour or state (se puso rojo, me puse nervioso). Volverse: a deeper, lasting change of character, often unexpected (se ha vuelto muy desconfiado). Hacerse: a change you work for, or a change of profession, belief or status (se hizo médica, se hizo rico). Quedarse: the state that results from an event, often a loss (se quedó ciego, me quedé sin palabras). Llegar a ser: reaching a goal after a long process. Convertirse en + noun: a transformation (se convirtió en un referente)."
+      },
+      "phrases": [
+        { "t": "Se puso rojo cuando lo felicitaron.", "n": "He went red when they congratulated him.", "note": "ponerse: sudden, temporary change." },
+        { "t": "Me puse de muy mal humor.", "n": "I got into a really bad mood." },
+        { "t": "Con los años se ha vuelto más tolerante.", "n": "Over the years he's become more tolerant.", "note": "volverse: lasting change of character." },
+        { "t": "Se hizo médica después de años de esfuerzo.", "n": "She became a doctor after years of hard work.", "note": "hacerse: change through effort. For a man: médico." },
+        { "t": "Se quedó sin palabras.", "n": "She was left speechless.", "note": "quedarse: resulting state after an event." },
+        { "t": "Me quedé de piedra.", "n": "I was stunned.", "note": "Literally \"I turned to stone\"." },
+        { "t": "Llegó a ser directora del hospital.", "n": "She eventually became director of the hospital.", "note": "llegar a ser: the culmination of a long process." },
+        { "t": "Se convirtió en un referente del sector.", "n": "He became a benchmark in the industry.", "note": "convertirse en + noun." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "News of old classmates in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Gonzalo", "t": "¿Te acuerdas de Camilo, el del colegio? Pues se hizo millonario con una aplicación.", "n": "Do you remember Camilo, from school? Well, he became a millionaire with an app." },
+          { "who": "you", "t": "¿En serio? Me quedé de piedra. Era el más despistado de la clase.", "n": "Seriously? I'm stunned. He was the most absent-minded in the class." },
+          { "who": "A", "name": "Gonzalo", "t": "Pues sí. Y con los años se ha vuelto muy serio, casi no se ríe.", "n": "Yep. And over the years he's become very serious, he hardly laughs." },
+          { "who": "you", "t": "Qué raro. ¿Y Laura, la que quería ser médica?", "n": "How strange. And Laura, the one who wanted to be a doctor?" },
+          { "who": "A", "name": "Gonzalo", "t": "Esa sí lo logró: se hizo cirujana y llegó a ser directora de un hospital en Medellín.", "n": "She made it: she became a surgeon and eventually director of a hospital in Medellín." },
+          { "who": "you", "t": "¡Qué maravilla! Se ha convertido en un ejemplo para todos.", "n": "How wonderful! She's become an example for everyone." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you were stunned.", "t": ["Me quedé de piedra", "Me quedé sin palabras"] },
+        { "n": "Say that over the years he has become more tolerant.", "t": ["Con los años se ha vuelto más tolerante", "Con los años se volvió más tolerante"] },
+        { "n": "Say she became a doctor after years of hard work.", "t": ["Se hizo médica después de años de esfuerzo", "Se hizo médica tras años de esfuerzo", "Se hizo médica"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l3",
+      "title": "Indicative or subjunctive: a change of meaning",
+      "goal": "Use the mood to change what a sentence means: report or request, a real or any person, information or sympathy, cause or warning.",
+      "tip": {
+        "title": "Same words, different message",
+        "body": "At C1 the mood is a tool for meaning. Decir que + indicative reports information (Le dije que venía = I told him I was coming); + subjunctive it becomes a request (Le dije que viniera = I told him to come). Alguien que + subjunctive is anyone, maybe nobody (Buscamos a alguien que hable japonés); + indicative it's a specific, real person (Conozco a alguien que habla japonés). Entender que + indicative = to gather (Entiendo que no puedes venir); + subjunctive = to sympathise (Entiendo que estés molesto). Como at the start of a sentence + indicative means \"since\"; + subjunctive it means \"if\" and sounds like a warning: Como llegues tarde, me voy."
+      },
+      "phrases": [
+        { "t": "Buscamos a alguien que hable japonés.", "n": "We're looking for someone who speaks Japanese.", "note": "Subjunctive: any such person." },
+        { "t": "Conozco a alguien que habla japonés.", "n": "I know someone who speaks Japanese.", "note": "Indicative: a specific, real person." },
+        { "t": "Le dije que venía.", "n": "I told her I was coming.", "note": "Indicative: information." },
+        { "t": "Le dije que viniera.", "n": "I told her to come.", "note": "Subjunctive: a request or order." },
+        { "t": "Entiendo que estés molesto.", "n": "I understand why you're upset.", "note": "Subjunctive: sympathy. To a woman: molesta." },
+        { "t": "Entiendo que no puedes venir.", "n": "I gather you can't come.", "note": "Indicative: information you've received." },
+        { "t": "Como llegues tarde otra vez, me voy.", "n": "If you're late again, I'm leaving.", "note": "como + subjunctive = a warning." },
+        { "t": "Como llegaste tarde, me fui.", "n": "Since you were late, I left.", "note": "como + indicative = cause." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "A missed deadline in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "Che, te dije que me mandaras el informe antes del mediodía y ya son las tres.", "n": "Hey, I told you to send me the report before noon and it's already three." },
+          { "who": "you", "t": "Entiendo que estés molesta. Yo entendí que lo necesitabas para la tarde.", "n": "I understand why you're upset. I understood that you needed it for the afternoon." },
+          { "who": "A", "name": "Valeria", "t": "No, te dije que lo necesitaba a las doce, para la reunión con el cliente. Bueno, lo importante es tenerlo hoy.", "n": "No, I told you I needed it at twelve, for the meeting with the client. Well, the main thing is to have it today." },
+          { "who": "you", "t": "Te lo mando en media hora. Si querés, le pido a alguien que lo revise antes.", "n": "I'll send it to you in half an hour. If you like, I'll ask someone to check it first.", "note": "querés: voseo (tú: quieres)." },
+          { "who": "A", "name": "Valeria", "t": "Dale. Pero como vuelva a pasar, se lo tengo que contar a la jefa, ¿eh?", "n": "OK. But if it happens again, I'll have to tell the boss, all right?" },
+          { "who": "you", "t": "Me parece justo. No va a volver a pasar.", "n": "That seems fair. It won't happen again." }
+        ]
+      },
+      "prompts": [
+        { "n": "Show sympathy: tell a colleague you understand why she's upset.", "t": ["Entiendo que estés molesta", "Entiendo que estés molesto", "Entiendo que estés enojada", "Entiendo que estés enfadada"] },
+        { "n": "Say you told her to come (a request, not information).", "t": ["Le dije que viniera", "Le dije que viniese"] },
+        { "n": "Say your company is looking for someone (anyone) who speaks Japanese.", "t": ["Buscamos a alguien que hable japonés", "Buscamos alguien que hable japonés", "Estamos buscando a alguien que hable japonés"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l4",
+      "kind": "grammar",
+      "title": "Aspect that changes meaning",
+      "goal": "Use the preterite and imperfect of conocer, saber, querer, poder and tener que to say exactly what happened.",
+      "tip": {
+        "title": "Preterite = event, imperfect = background",
+        "body": "With some verbs the choice between preterite and imperfect changes the English translation. Conocía = I knew; conocí = I met. Sabía = I knew; supe = I found out. Quería = I wanted; quise = I tried; no quise = I refused. Podía = I was able (in general); pude = I managed; no pude = I tried and failed. Tenía que = I was supposed to (did I? unclear); tuve que = I had to, and I did. Iba a + infinitive = I was going to, which often implies it didn't happen: Iba a llamarte, pero…"
+      },
+      "phrases": [
+        { "t": "Conocí a mi socia en un congreso.", "n": "I met my business partner at a conference.", "note": "conocí = met (for the first time)." },
+        { "t": "Ya la conocía de la universidad.", "n": "I already knew her from university." },
+        { "t": "Lo supe por la prensa.", "n": "I found out from the press.", "note": "supe = found out." },
+        { "t": "No quiso firmar el contrato.", "n": "He refused to sign the contract.", "note": "no quiso = refused." },
+        { "t": "Tenía que llamarte, pero se me olvidó.", "n": "I was supposed to call you, but I forgot." }
+      ],
+      "drills": [
+        {
+          "title": "Did it happen or not?",
+          "base": { "t": "Tenía que entregar el informe el lunes.", "n": "I was supposed to hand in the report on Monday." },
+          "items": [
+            { "cue": "tuve que (had to, and did)", "t": "Tuve que entregar el informe el lunes.", "n": "I had to hand in the report on Monday (and I did)." },
+            { "cue": "iba a (planned)", "t": "Iba a entregar el informe el lunes.", "n": "I was going to hand in the report on Monday." },
+            { "cue": "pude (managed)", "t": "Pude entregar el informe el lunes.", "n": "I managed to hand in the report on Monday." },
+            { "cue": "no quise (refused)", "t": "No quise entregar el informe el lunes.", "n": "I refused to hand in the report on Monday." }
+          ]
+        },
+        {
+          "title": "Background → event",
+          "base": { "t": "Conocía a sus padres.", "n": "I knew her parents." },
+          "items": [
+            { "cue": "anoche · conocí (met)", "t": "Anoche conocí a sus padres.", "n": "Last night I met her parents." },
+            { "cue": "ayer · supe · la verdad (found out)", "t": "Ayer supe la verdad.", "n": "Yesterday I found out the truth." },
+            { "cue": "quise · llamarlos (tried)", "t": "Quise llamarlos, pero no contestaron.", "n": "I tried to call them, but they didn't answer." },
+            { "cue": "no pude · convencerlos (failed)", "t": "No pude convencerlos.", "n": "I couldn't convince them (I tried and failed)." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Tell a friend you were supposed to call them, but you forgot.", "t": ["Tenía que llamarte, pero se me olvidó", "Tenía que llamarte, pero me olvidé", "Iba a llamarte, pero se me olvidó"] },
+        { "n": "Say you found out from the press.", "t": ["Lo supe por la prensa", "Me enteré por la prensa"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l5",
+      "kind": "listening",
+      "title": "Does remote work isolate us?",
+      "goal": "Follow a radio interview full of careful, hedged statements.",
+      "phrases": [
+        { "t": "Yo no me atrevería a afirmarlo.", "n": "I wouldn't go so far as to say that." },
+        { "t": "Todo apunta a que depende de cada persona.", "n": "Everything suggests it depends on the individual." },
+        { "t": "Habría que matizarlo.", "n": "That would need some qualification." },
+        { "t": "No está del todo claro que sea así.", "n": "It's not entirely clear that that's the case.", "note": "no está claro que + subjunctive." }
+      ],
+      "story": {
+        "title": "¿Nos aísla el teletrabajo?",
+        "intro": "On a Spanish radio programme, a presenter interviews a Mexican sociologist about remote work and loneliness.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Inés", "t": "Buenas tardes. Hoy hablamos con el sociólogo mexicano Andrés Ramírez. Profesor, ¿el teletrabajo nos está haciendo más solitarios?", "n": "Good afternoon. Today we're talking to the Mexican sociologist Andrés Ramírez. Professor, is remote work making us lonelier?" },
+          { "name": "Andrés", "voice": "es-MX-LibertoNeural", "t": "Bueno, yo no me atrevería a afirmarlo de una forma tan tajante. Todo apunta a que depende mucho de cada persona.", "n": "Well, I wouldn't go so far as to say it so categorically. Everything suggests it depends a lot on the individual." },
+          { "name": "Inés", "t": "¿En qué sentido?", "n": "In what sense?" },
+          { "name": "Andrés", "voice": "es-MX-LibertoNeural", "t": "Por un lado, hay quien se siente más libre y pasa más tiempo con su familia. Por otro, puede que quienes viven solos extrañen el contacto diario con los compañeros.", "n": "On the one hand, some people feel freer and spend more time with their family. On the other, those who live alone may miss daily contact with colleagues.", "note": "extrañar = to miss (Latin America); Spain usually: echar de menos." },
+          { "name": "Inés", "t": "Se dice que la soledad ha aumentado muchísimo en los últimos años. ¿Lo confirma?", "n": "People say loneliness has increased enormously in recent years. Do you confirm that?" },
+          { "name": "Andrés", "voice": "es-MX-LibertoNeural", "t": "Habría que matizarlo. Es cierto que se habla mucho de soledad, pero no está del todo claro que la causa sea el teletrabajo.", "n": "That would need some qualification. It's true that there's a lot of talk about loneliness, but it's not entirely clear that remote work is the cause." },
+          { "name": "Inés", "t": "Entonces, ¿qué recomendaría usted?", "n": "So what would you recommend?" },
+          { "name": "Andrés", "voice": "es-MX-LibertoNeural", "t": "Yo diría que lo ideal es combinar: trabajar desde casa unos días e ir a la oficina uno o dos días por semana, aunque solo sea para tomar un café con los compañeros.", "n": "I'd say the ideal is to combine the two: work from home some days and go to the office one or two days a week, even if it's only to have a coffee with colleagues." }
+        ],
+        "questions": [
+          { "q": "¿De qué tema trata la entrevista?", "n": "What is the interview about?", "t": ["Del teletrabajo", "Del teletrabajo y la soledad", "De la soledad", "Del trabajo desde casa"] },
+          { "q": "¿Está claro que el teletrabajo sea la causa de la soledad?", "n": "Is it clear that remote work is the cause of loneliness?", "t": ["No", "No está del todo claro", "No está claro", "No del todo"] },
+          { "q": "¿Qué recomienda el sociólogo?", "n": "What does the sociologist recommend?", "t": ["Combinar", "Combinar casa y oficina", "Ir a la oficina uno o dos días por semana", "Trabajar desde casa unos días e ir a la oficina otros"] }
+        ]
+      }
+    },
+    {
+      "id": "c1-u03-l6",
+      "kind": "roleplay",
+      "title": "Press interview",
+      "goal": "Answer a journalist's tough questions without confirming rumours. Your choices shape the story.",
+      "phrases": [
+        { "t": "Por ahora no puedo confirmar ni desmentir esa información.", "n": "For now I can neither confirm nor deny that information." },
+        { "t": "Yo no me atrevería a dar cifras.", "n": "I wouldn't venture to give any figures." },
+        { "t": "No es que lo niegue, es que todavía no hay nada decidido.", "n": "It's not that I'm denying it, it's that nothing has been decided yet." },
+        { "t": "Entiendo que estén preocupados.", "n": "I understand that they're worried.", "note": "entender que + subjunctive: sympathy." }
+      ],
+      "branch": {
+        "title": "Rumores de cierre",
+        "scene": "You're the spokesperson for a manufacturing company in Colombia. Outside the head office in Bogotá, a radio journalist asks you about rumours that the company's plant in Cali will close.",
+        "name": "Catalina Ríos",
+        "voice": "es-CO-SalomeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenos días. Se rumorea que la empresa va a cerrar la planta de Cali. ¿Lo confirma?", "n": "Good morning. There are rumours that the company is going to close the Cali plant. Do you confirm it?",
+            "choices": [
+              { "t": "Buenos días. Por ahora no puedo confirmar ni desmentir esa información.", "n": "Good morning. For now I can neither confirm nor deny that information.", "next": "cautious" },
+              { "t": "Sí, es verdad: cerramos en marzo.", "n": "Yes, it's true: we're closing in March.", "next": "bad" }
+            ]
+          },
+          "cautious": {
+            "t": "Pero según algunas fuentes, habría más de doscientos despidos.", "n": "But according to some sources, there could be more than two hundred redundancies.",
+            "choices": [
+              { "t": "Yo no me atrevería a dar cifras. Lo que sí puedo decirle es que estamos estudiando varias opciones.", "n": "I wouldn't venture to give any figures. What I can tell you is that we're looking at several options.", "next": "options" },
+              { "t": "¡Eso es mentira! ¿Quién le ha dicho eso?", "n": "That's a lie! Who told you that?", "next": "aggressive" }
+            ]
+          },
+          "aggressive": {
+            "t": "Entonces, ¿lo niega rotundamente?", "n": "So you flatly deny it?",
+            "choices": [
+              { "t": "Perdone, me he expresado mal. No es que lo niegue, es que todavía no hay nada decidido.", "n": "Sorry, I expressed myself badly. It's not that I'm denying it, it's that nothing has been decided yet.", "next": "options" },
+              { "t": "No tengo nada más que decir.", "n": "I have nothing more to say.", "next": "bad" }
+            ]
+          },
+          "options": {
+            "t": "¿Y cuáles son esas opciones? Los trabajadores están muy preocupados.", "n": "And what are those options? The workers are very worried.",
+            "choices": [
+              { "t": "Entiendo que estén preocupados. Le garantizo que hablaremos con ellos antes de tomar cualquier decisión.", "n": "I understand that they're worried. I can assure you we'll talk to them before making any decision.", "next": "good" },
+              { "t": "Es posible que se traslade parte de la producción, pero no está decidido.", "n": "Part of production may be moved, but it hasn't been decided.", "next": "follow" }
+            ]
+          },
+          "follow": {
+            "t": "O sea, ¿que podría haber traslados a otra ciudad?", "n": "So there could be transfers to another city?",
+            "choices": [
+              { "t": "Podría ser una opción, pero insisto: no hay nada decidido, y los trabajadores serán los primeros en saberlo.", "n": "It could be one option, but I insist: nothing has been decided, and the workers will be the first to know.", "next": "good" },
+              { "t": "Bueno, sí, más o menos. Pero eso no lo publique.", "n": "Well, yes, more or less. But don't publish that.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Muy bien, así lo contaré. Gracias por su tiempo.", "n": "Very well, that's how I'll report it. Thank you for your time.",
+            "end": "good", "outcome": "You stayed precise and hedged, showed empathy and gave the journalist nothing to misquote."
+          },
+          "bad": {
+            "t": "Muchas gracias. Ya tengo mi titular.", "n": "Thank you very much. I've got my headline.",
+            "end": "bad", "outcome": "You confirmed the rumour or lost your temper, and the story will run without your side. Hedge with no puedo confirmar ni desmentir and no es que…, es que…"
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say that for now you can neither confirm nor deny that information.", "t": ["Por ahora no puedo confirmar ni desmentir esa información", "De momento no puedo confirmar ni desmentir esa información", "No puedo confirmar ni desmentir esa información"] },
+        { "n": "Say you wouldn't venture to give any figures.", "t": ["Yo no me atrevería a dar cifras", "No me atrevería a dar cifras"] }
+      ]
+    },
+    {
+      "id": "c1-u03-l7",
+      "kind": "speaking",
+      "title": "Weigh it up",
+      "goal": "Give a balanced, carefully hedged opinion and report what others say with some distance.",
+      "culture": {
+        "title": "Ahorita y otros matices",
+        "body": "How direct you can be varies across the Spanish-speaking world. In Spain, a plain Ponme un café at a bar counter is normal rather than rude, and disagreement is often voiced quite openly. In Mexico, people tend to soften requests and refusals much more, with diminutives (un cafecito) and polite questions such as ¿Me podría…?, and a blunt no can sound harsh. The famous Mexican ahorita literally means \"right now\", but depending on the context it can mean in a moment, later or even, very politely, probably never. Reading these nuances matters as much as getting the grammar right.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Yo no lo vería tan negro.", "n": "I wouldn't see it so bleakly." },
+        { "t": "Habría que verlo con más calma.", "n": "We'd need to look at it more carefully." },
+        { "t": "Al parecer, el ayuntamiento ya lo ha decidido.", "n": "Apparently the city council has already decided.", "note": "al parecer / por lo visto = apparently: reporting with distance. Latin America often: la alcaldía, el municipio." },
+        { "t": "Eso sí, no creo que sea la solución definitiva.", "n": "Mind you, I don't think it's the final solution.", "note": "no creo que + subjunctive." }
+      ],
+      "free": [
+        {
+          "n": "Should city centres be closed to cars? Give a balanced, carefully hedged opinion: soften your view, concede a point, express doubt with the subjunctive and report what others say with some distance.",
+          "hint": "Yo diría que … / Hasta cierto punto … / Al parecer … / Es cierto que …; eso sí, … / No creo que + subjunctive / Puede que …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "hedging", "any": ["yo diría", "diría que", "me da la impresión", "hasta cierto punto", "a lo mejor", "igual", "quizás", "quizá", "en cierto modo"] },
+            { "label": "doubt with the subjunctive", "any": ["no creo que", "dudo que", "puede que", "es posible que", "no está claro que", "no es que"] },
+            { "label": "a concession", "any": ["es cierto que", "es verdad que", "si bien", "aunque", "eso sí"] },
+            { "label": "reporting with distance", "any": ["al parecer", "por lo visto", "según", "dicen que", "se dice que", "parece que"] },
+            { "label": "the topic", "any": ["coche*", "carro*", "auto*", "tráfico", "centro", "contaminación", "peatones", "transporte"] }
+          ],
+          "model": "Yo diría que cerrar el centro a los coches es una buena idea, aunque con matices. Al parecer, en algunas ciudades ha bajado la contaminación, pero no creo que sea la solución para todo el mundo. Es cierto que los peatones lo agradecen; eso sí, habría que pensar en las personas mayores y en quienes viven lejos. Puede que con un buen transporte público funcione mejor. Hasta cierto punto, depende de cada ciudad."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you wouldn't see it so bleakly.", "t": ["Yo no lo vería tan negro", "No lo vería tan negro"] },
+        { "n": "Report with distance: apparently the city council has already decided.", "t": ["Al parecer, el ayuntamiento ya lo ha decidido", "Al parecer, el ayuntamiento ya lo decidió", "Por lo visto, el ayuntamiento ya lo ha decidido", "Al parecer, la alcaldía ya lo decidió"] }
+      ]
+    },
+    {
+      "id": "c1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Con matices",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "c1-u06",
+  "title": "Con tacto",
+  "subtitle": "Tactful criticism, delicate news & conflict resolution",
+  "icon": "🕊️",
+  "lessons": [
+    {
+      "id": "c1-u06-l1",
+      "title": "Giving criticism tactfully",
+      "goal": "Raise a delicate issue with a colleague constructively, without causing offence.",
+      "tip": {
+        "title": "Soft on the person, clear on the issue",
+        "body": "Start with genuine appreciation, describe what you observed (He notado que…) instead of judging, and ask for the other person's view (¿Tú cómo lo ves?). Spanish softens with tenses: the imperfect (Quería comentarte algo) and the conditional (¿Qué necesitarías…?, ¿Te importaría…?) sound gentler than the present. Me habría gustado que + imperfect subjunctive expresses a wish about the past without accusing anyone. Speak a little more slowly and warmly than usual: the melody matters as much as the words."
+      },
+      "phrases": [
+        { "t": "Valoro mucho tu compromiso, por eso quería hablarlo contigo abiertamente.", "n": "I really value your commitment, which is why I wanted to talk about it with you openly.", "note": "quería: the imperfect softens." },
+        { "t": "He notado que últimamente los plazos se han ido retrasando un poco.", "n": "I've noticed that deadlines have been slipping a bit recently.", "note": "Latin America often: Noté que…" },
+        { "t": "¿Te importaría enviar los informes un poco antes a partir de ahora?", "n": "Would you mind sending the reports a bit earlier from now on?", "note": "Formal: ¿Le importaría…? Latin America also: los reportes." },
+        { "t": "No te lo digo como un reproche, ni mucho menos.", "n": "I'm not saying it as a reproach, far from it." },
+        { "t": "¿Tú cómo lo ves?", "n": "How do you see it?" },
+        { "t": "¿Qué necesitarías de mi parte para que funcione mejor?", "n": "What would you need from me to make it work better?" },
+        { "t": "Me habría gustado que me avisaras antes.", "n": "I'd have liked you to let me know earlier.", "note": "Also: Me hubiera gustado… / avisases." },
+        { "t": "En general, tu trabajo me parece excelente.", "n": "Overall, I think your work is excellent." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "A feedback conversation",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "Claro, dime. ¿Pasa algo?", "n": "Sure, go ahead. Is something wrong?" },
+          { "who": "you", "t": "Valoro mucho tu compromiso, por eso quería hablarlo contigo abiertamente. He notado que últimamente los plazos se han ido retrasando un poco.", "n": "I really value your commitment, which is why I wanted to talk about it with you openly. I've noticed that deadlines have been slipping a bit recently." },
+          { "who": "A", "name": "Lucía", "t": "Ya… es que ando con mil cosas a la vez. No sabía que te molestaba.", "n": "Yeah… I'm juggling a thousand things at once. I didn't know it bothered you." },
+          { "who": "you", "t": "No te lo digo como un reproche, ni mucho menos. ¿Tú cómo lo ves? ¿Qué necesitarías de mi parte para que funcione mejor?", "n": "I'm not saying it as a reproach, far from it. How do you see it? What would you need from me to make it work better?" },
+          { "who": "A", "name": "Lucía", "t": "Pues, sinceramente, que las prioridades estuvieran más claras. A veces no sé qué va primero.", "n": "Well, honestly, for the priorities to be clearer. Sometimes I don't know what comes first." },
+          { "who": "you", "t": "Me parece justo. A partir de ahora, repasamos las prioridades cada lunes. Y que conste: en general, tu trabajo me parece excelente.", "n": "That's fair. From now on, we'll go over the priorities every Monday. And for the record: overall, I think your work is excellent." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've noticed that deadlines have been slipping a bit recently.", "t": ["He notado que últimamente los plazos se han ido retrasando un poco", "Noté que últimamente los plazos se han ido retrasando un poco", "He notado que últimamente los plazos se retrasan un poco"] },
+        { "n": "Reassure them it's not meant as a reproach.", "t": ["No te lo digo como un reproche, ni mucho menos", "No te lo digo como un reproche", "No es un reproche, ni mucho menos"] },
+        { "n": "Ask what they'd need from you to make it work better.", "t": ["Qué necesitarías de mi parte para que funcione mejor", "Qué necesitarías de mí para que funcione mejor", "Qué necesitas de mi parte para que funcione mejor"] }
+      ]
+    },
+    {
+      "id": "c1-u06-l2",
+      "title": "Resolving a conflict",
+      "goal": "De-escalate a heated situation and negotiate a fair compromise.",
+      "tip": {
+        "title": "Calm voice, common ground",
+        "body": "First acknowledge the other person's feelings (Entiendo perfectamente que le moleste; entender que + subjunctive here, because you accept the feeling rather than state a fact), then separate the person from the problem (No se trata de buscar culpables, sino de…) and look for room to move (margen de maniobra, un término medio). Siempre y cuando + subjunctive lets you agree on a condition. In a conflict, consciously lower your pitch and speed: a calm, low voice de-escalates more than any argument. Neighbours in Argentina often say vos to each other, but with an older neighbour usted is the safe choice."
+      },
+      "phrases": [
+        { "t": "Entiendo perfectamente que le moleste.", "n": "I completely understand that it bothers you.", "note": "Informal: que te moleste." },
+        { "t": "Intentemos mantener la calma, por favor.", "n": "Let's try to stay calm, please." },
+        { "t": "No se trata de buscar culpables, sino de encontrar una solución.", "n": "It's not about finding someone to blame, but about finding a solution." },
+        { "t": "Parece que ha habido un malentendido.", "n": "It seems there's been a misunderstanding." },
+        { "t": "¿Dónde ve usted margen de maniobra?", "n": "Where do you see room for manoeuvre?" },
+        { "t": "¿Podríamos llegar a un término medio?", "n": "Could we reach a middle ground?" },
+        { "t": "Quería sacar este tema con delicadeza, porque me importa.", "n": "I wanted to raise this carefully, because it matters to me." },
+        { "t": "Siempre y cuando esté de acuerdo, lo dejamos por escrito.", "n": "Provided you agree, we'll put it in writing.", "note": "siempre y cuando + subjunctive." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Trouble with the neighbour",
+        "lines": [
+          { "who": "A", "name": "Don Ricardo", "t": "¡Otra vez! Tengo una mancha de humedad enorme en el techo del baño, y viene de su departamento.", "n": "Again! I've got a huge damp patch on my bathroom ceiling, and it's coming from your flat.", "note": "Argentina, Mexico: el departamento; Spain: el piso." },
+          { "who": "you", "t": "Entiendo perfectamente que le moleste. Parece que ha habido un malentendido: yo no sabía nada de la mancha.", "n": "I completely understand that it bothers you. It seems there's been a misunderstanding: I didn't know anything about the patch." },
+          { "who": "A", "name": "Don Ricardo", "t": "¿Cómo que no sabía? ¡Hace dos semanas que le dejé una nota debajo de la puerta!", "n": "What do you mean you didn't know? I left you a note under the door two weeks ago!" },
+          { "who": "you", "t": "No la vi, de verdad. Pero no se trata de buscar culpables, sino de encontrar una solución. Mañana mismo llamo a un plomero.", "n": "I didn't see it, honestly. But it's not about finding someone to blame, but about finding a solution. I'll call a plumber first thing tomorrow.", "note": "Latin America: el plomero; Spain: el fontanero." },
+          { "who": "A", "name": "Don Ricardo", "t": "¿Y la pintura del techo, quién la paga? Porque yo no pienso pagarla, eh.", "n": "And who pays for painting the ceiling? Because I'm not paying for it, you know." },
+          { "who": "you", "t": "¿Podríamos llegar a un término medio? Yo pago el arreglo de la cañería y pedimos que el seguro del consorcio cubra la pintura. Siempre y cuando esté de acuerdo, lo dejamos por escrito.", "n": "Could we reach a middle ground? I'll pay for the pipe repair and we'll ask the building's insurance to cover the painting. Provided you agree, we'll put it in writing.", "note": "Argentina: el consorcio = the building's owners' association; Spain: la comunidad de propietarios." }
+        ]
+      },
+      "prompts": [
+        { "n": "Acknowledge (usted) that it bothers them.", "t": ["Entiendo perfectamente que le moleste", "Entiendo que le moleste", "Comprendo que le moleste"] },
+        { "n": "Say it's not about finding someone to blame, but about finding a solution.", "t": ["No se trata de buscar culpables, sino de encontrar una solución", "No se trata de buscar culpables sino de buscar una solución", "No se trata de buscar culpables"] },
+        { "n": "Suggest reaching a middle ground.", "t": ["Podríamos llegar a un término medio", "Podemos llegar a un término medio", "Podríamos llegar a un punto intermedio"] }
+      ]
+    },
+    {
+      "id": "c1-u06-l3",
+      "title": "Saying no diplomatically",
+      "goal": "Turn down a request without burning bridges and offer an alternative.",
+      "tip": {
+        "title": "Never a bare no",
+        "body": "In professional Spanish a refusal is wrapped: express regret (Me temo que…, Lamentablemente…), give a reason, then open a door (¿Me permite hacerle una contrapropuesta?, Lo que sí podríamos hacer es…). Impersonal phrasing such as no va a ser viable or tal como está planteado depersonalises the problem, so the no is about the plan, not the person. Tener las manos atadas (to have your hands tied) shows the decision isn't yours. In Colombia usted is used very widely, even in friendly business relationships. Keep a friendly, steady tone so the no sounds final but not hostile."
+      },
+      "phrases": [
+        { "t": "Me temo que, tal como está planteado, no va a ser viable.", "n": "I'm afraid that, as it stands, it won't be feasible." },
+        { "t": "En principio, la idea me parece interesante, aunque veo algunos obstáculos.", "n": "In principle the idea sounds interesting, although I see a few obstacles." },
+        { "t": "¿Me permite hacerle una contrapropuesta?", "n": "May I make you a counter-proposal?" },
+        { "t": "Tendría que consultarlo primero con mi equipo.", "n": "I'd have to check with my team first." },
+        { "t": "Entiendo su petición, pero lamentablemente tenemos las manos atadas.", "n": "I understand your request, but unfortunately our hands are tied." },
+        { "t": "Lo que sí podríamos hacer es adelantar una parte.", "n": "What we could do is deliver part of it earlier." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "A request from a client in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Andrés", "t": "Le cuento: necesitamos que la aplicación esté lista dos semanas antes de lo previsto. ¿Es posible?", "n": "Here's the thing: we need the app to be ready two weeks earlier than planned. Is that possible?" },
+          { "who": "you", "t": "Entiendo su petición, pero me temo que, tal como está planteado, no va a ser viable. Tendría que consultarlo primero con mi equipo.", "n": "I understand your request, but I'm afraid that, as it stands, it won't be feasible. I'd have to check with my team first." },
+          { "who": "A", "name": "Andrés", "t": "Hágame el favor, es muy importante para nosotros. El lanzamiento ya está anunciado.", "n": "Please, it's very important for us. The launch has already been announced.", "note": "Colombia: Hágame el favor is a common polite 'please'." },
+          { "who": "you", "t": "Lo comprendo. ¿Me permite hacerle una contrapropuesta? Lo que sí podríamos hacer es adelantar una parte: el registro y el pago.", "n": "I understand. May I make you a counter-proposal? What we could do is deliver part of it earlier: registration and payment." },
+          { "who": "A", "name": "Andrés", "t": "¿Y el resto?", "n": "And the rest?" },
+          { "who": "you", "t": "El resto, en la fecha acordada. Así llegan al lanzamiento con lo esencial, sin poner en riesgo la calidad.", "n": "The rest on the agreed date. That way you get to the launch with the essentials, without putting quality at risk." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're afraid that, as it stands, it won't be feasible.", "t": ["Me temo que, tal como está planteado, no va a ser viable", "Me temo que tal como está no va a ser viable", "Me temo que no va a ser viable"] },
+        { "n": "Ask (usted) if you may make a counter-proposal.", "t": ["Me permite hacerle una contrapropuesta", "Puedo hacerle una contrapropuesta", "Le puedo hacer una contrapropuesta"] },
+        { "n": "Say you'd have to check with your team first.", "t": ["Tendría que consultarlo primero con mi equipo", "Tendría que consultarlo con mi equipo", "Primero tendría que consultarlo con mi equipo"] }
+      ]
+            },
+            {
+              "id": "c1-u06-l4",
+              "kind": "grammar",
+              "title": "Reported speech: passing on both sides",
+              "goal": "Report positions and requests neutrally, as a mediator would, with the right tense shifts.",
+              "tip": {
+                "title": "Dice que… / Dijo que…",
+                "body": "As a mediator you pass on positions without taking sides. With a present reporting verb (dice, asegura, afirma) the tenses stay as they were: Dice que está dispuesta a dialogar. With a past reporting verb (dijo, aseguró, comentó) they usually shift back: está → estaba, ha hablado → había hablado, vendrá → vendría, puede → podía. Reported requests and suggestions take que + subjunctive: present after dice/pide (Pide que le enviemos el contrato), imperfect subjunctive after dijo/pidió (Pidió que le enviáramos el contrato; -ase forms like enviásemos are equally correct). Yes/no questions are reported with si: Preguntó si podíamos firmar hoy. Neutral verbs like afirmar, sostener, reconocer and negar keep you impartial."
+              },
+              "phrases": [
+                { "t": "La señora Gómez dice que, en principio, está dispuesta a dialogar.", "n": "Ms Gómez says that, in principle, she's willing to talk." },
+                { "t": "El señor Lara asegura que nunca prometió nada.", "n": "Mr Lara insists he never promised anything." },
+                { "t": "La otra parte dijo que se podía hablar del precio.", "n": "The other side said the price was open to discussion." },
+                { "t": "Ambas partes afirmaron que no tenían ningún interés en un conflicto.", "n": "Both sides stated they had no interest in a conflict." },
+                { "t": "Preguntó si sería posible llegar a un acuerdo antes del viernes.", "n": "He asked whether it would be possible to reach an agreement before Friday." }
+              ],
+              "drills": [
+                {
+                  "title": "Shift to the past",
+                  "base": { "t": "La señora Gómez dice que está dispuesta a dialogar.", "n": "Ms Gómez says she's willing to talk." },
+                  "items": [
+                    { "cue": "dijo", "t": "La señora Gómez dijo que estaba dispuesta a dialogar.", "n": "Ms Gómez said she was willing to talk." },
+                    { "cue": "dijo · ha hablado con su jefe", "t": "La señora Gómez dijo que había hablado con su jefe.", "n": "Ms Gómez said she had spoken to her boss." },
+                    { "cue": "dijo · vendrá el lunes", "t": "La señora Gómez dijo que vendría el lunes.", "n": "Ms Gómez said she would come on Monday." },
+                    { "cue": "dijo · puede firmar hoy", "t": "La señora Gómez dijo que podía firmar hoy.", "n": "Ms Gómez said she could sign today." }
+                  ]
+                },
+                {
+                  "title": "Report the request",
+                  "base": { "t": "El señor Lara pide que le enviemos el contrato.", "n": "Mr Lara asks us to send him the contract." },
+                  "items": [
+                    { "cue": "pidió", "t": "El señor Lara pidió que le enviáramos el contrato.", "n": "Mr Lara asked us to send him the contract." },
+                    { "cue": "pidió · esperar hasta el lunes", "t": "El señor Lara pidió que esperáramos hasta el lunes.", "n": "Mr Lara asked us to wait until Monday." },
+                    { "cue": "sugiere · revisar las cifras", "t": "El señor Lara sugiere que revisemos las cifras.", "n": "Mr Lara suggests that we review the figures." },
+                    { "cue": "preguntó si · poder firmar hoy", "t": "El señor Lara preguntó si podíamos firmar hoy.", "n": "Mr Lara asked if we could sign today." }
+                  ]
+                }
+              ],
+              "prompts": [
+                { "n": "Report in the past that Ms Gómez said she was willing to talk.", "t": ["La señora Gómez dijo que estaba dispuesta a dialogar", "La señora Gómez dijo que estaba dispuesta a hablar"] },
+                { "n": "Report that Mr Lara asked you (plural: 'us') to send him the contract.", "t": ["El señor Lara pidió que le enviáramos el contrato", "El señor Lara pidió que le enviásemos el contrato", "El señor Lara nos pidió que le enviáramos el contrato", "El señor Lara nos pidió que le enviásemos el contrato"] }
+              ]
+            },
+            {
+              "id": "c1-u06-l5",
+              "kind": "listening",
+              "title": "A mediation session",
+              "goal": "Follow a mediator in Monterrey passing on one side's view to the other.",
+              "phrases": [
+                { "t": "Siente que la dejan fuera de las decisiones.", "n": "She feels left out of decisions." },
+                { "t": "Eso tampoco lo niega.", "n": "She doesn't deny that either." },
+                { "t": "Ayudaría explicar abiertamente los motivos.", "n": "It would help to explain the reasons openly." },
+                { "t": "Propongo una reunión entre los tres.", "n": "I suggest a meeting with the three of us." }
+              ],
+              "story": {
+                "title": "Entre dos frentes",
+                "intro": "In Monterrey, a mediator passes on a team member's complaint to her manager, Mr Treviño.",
+                "voice": "es-MX-DaliaNeural",
+                "lines": [
+                  { "name": "Patricia", "t": "Licenciado Treviño, gracias por venir. Ayer hablé con Mariana y me pidió que le transmitiera su punto de vista.", "n": "Mr Treviño, thank you for coming. Yesterday I spoke with Mariana and she asked me to pass on her point of view to you.", "note": "Mexico: Licenciado/Licenciada is a common title for graduates." },
+                  { "name": "Sr. Treviño", "voice": "es-MX-JorgeNeural", "t": "Adelante. Aunque, la verdad, no entiendo muy bien cuál es el problema.", "n": "Go ahead. Although, to be honest, I don't really understand what the problem is." },
+                  { "name": "Patricia", "t": "Ella siente que la dejan fuera de las decisiones. Dice que del cambio de horarios se enteró por un correo.", "n": "She feels left out of decisions. She says she found out about the change of schedule from an email." },
+                  { "name": "Sr. Treviño", "voice": "es-MX-JorgeNeural", "t": "Bueno, es que había prisa. Pero ella sabe que su trabajo es muy valioso para nosotros.", "n": "Well, we were in a hurry. But she knows her work is very valuable to us." },
+                  { "name": "Patricia", "t": "Eso tampoco lo niega. Reconoce que usted siempre la ha apoyado. Lo que le dolió fue la forma, no la decisión.", "n": "She doesn't deny that either. She acknowledges that you've always supported her. What hurt her was the way it was done, not the decision." },
+                  { "name": "Sr. Treviño", "voice": "es-MX-JorgeNeural", "t": "Mmm. Entiendo. ¿Y usted qué propone?", "n": "Hmm. I see. And what do you suggest?" },
+                  { "name": "Patricia", "t": "Ayudaría explicar abiertamente los motivos de las decisiones importantes. Y propongo una reunión entre los tres, el jueves, si le parece.", "n": "It would help to explain the reasons for important decisions openly. And I suggest a meeting with the three of us, on Thursday, if that suits you." },
+                  { "name": "Sr. Treviño", "voice": "es-MX-JorgeNeural", "t": "De acuerdo, el jueves a las diez. Y que conste que no fue con mala intención.", "n": "All right, Thursday at ten. And for the record, it wasn't done with bad intentions." }
+                ],
+                "questions": [
+                  { "q": "¿Cómo se siente Mariana?", "n": "How does Mariana feel?", "t": ["Que la dejan fuera de las decisiones", "Fuera de las decisiones", "Excluida", "La dejan fuera"] },
+                  { "q": "¿Cómo se enteró Mariana del cambio de horarios?", "n": "How did Mariana find out about the change of schedule?", "t": ["Por un correo", "Por correo", "Por un correo electrónico", "Por un email"] },
+                  { "q": "¿Cuándo es la reunión entre los tres?", "n": "When is the meeting with the three of them?", "t": ["El jueves", "El jueves a las diez"] }
+                ]
+              }
+            },
+            {
+              "id": "c1-u06-l6",
+              "kind": "roleplay",
+              "title": "Bad news from the twin town",
+              "goal": "Save a partnership project through diplomatic negotiation.",
+              "phrases": [
+                { "t": "¿Puedo preguntarle qué hay detrás de esta decisión?", "n": "May I ask what's behind this decision?" },
+                { "t": "Disculpe, lo he formulado de forma demasiado brusca.", "n": "Forgive me, I put that too bluntly." },
+                { "t": "¿Sería posible repartir el recorte en dos años?", "n": "Would it be possible to spread the cut over two years?" },
+                { "t": "Confío en que encontraremos una solución.", "n": "I'm confident we'll find a solution." }
+              ],
+              "branch": {
+                "title": "Ciudades hermanas",
+                "scene": "You represent your town at a meeting with the delegate of your Spanish twin town, who brings bad news about the joint youth exchange.",
+                "name": "Sra. Pastor",
+                "voice": "es-ES-XimenaNeural",
+                "start": "start",
+                "nodes": {
+                  "start": {
+                    "t": "Lamento tener que darle esta noticia, pero el ayuntamiento ha decidido recortar a la mitad el presupuesto del intercambio juvenil.", "n": "I'm sorry to have to give you this news, but the town council has decided to cut the youth exchange budget in half.",
+                    "choices": [
+                      { "t": "Vaya, es una noticia delicada. ¿Puedo preguntarle qué hay detrás de esta decisión?", "n": "Oh dear, that's delicate news. May I ask what's behind this decision?", "next": "reason" },
+                      { "t": "¿A la mitad? ¡Eso es una falta de seriedad!", "n": "In half? That's simply not serious!", "next": "sharp" }
+                    ]
+                  },
+                  "sharp": {
+                    "t": "Comprendo su sorpresa, pero le ruego que no lo plantee en esos términos.", "n": "I understand your surprise, but I'd ask you not to put it in those terms.",
+                    "choices": [
+                      { "t": "Disculpe, lo he formulado de forma demasiado brusca. ¿Puedo preguntarle qué hay detrás de esta decisión?", "n": "Forgive me, I put that too bluntly. May I ask what's behind this decision?", "next": "reason" },
+                      { "t": "Lo planteo como me parece. Esto es inaceptable.", "n": "I'll put it however I like. This is unacceptable.", "next": "bad" }
+                    ]
+                  },
+                  "reason": {
+                    "t": "Con toda franqueza: los ingresos municipales han bajado y hemos tenido que recortar en todas las áreas.", "n": "Quite frankly: the council's income has fallen and we've had to make cuts in every area.",
+                    "choices": [
+                      { "t": "Lo entiendo. ¿Sería posible repartir el recorte en dos años?", "n": "I understand. Would it be possible to spread the cut over two years?", "next": "spread" },
+                      { "t": "Entonces suspendamos el intercambio este año.", "n": "Then let's suspend the exchange this year.", "next": "cancel" }
+                    ]
+                  },
+                  "cancel": {
+                    "t": "¿Suspenderlo? Sería una pena, después de tantos años de colaboración.", "n": "Suspend it? That would be a shame, after so many years of cooperation.",
+                    "choices": [
+                      { "t": "Tiene razón, sería una pena. ¿Y si repartimos el recorte en dos años?", "n": "You're right, it would be a shame. What if we spread the cut over two years?", "next": "spread" },
+                      { "t": "Pues sin dinero no hay intercambio.", "n": "Well, no money, no exchange.", "next": "bad" }
+                    ]
+                  },
+                  "spread": {
+                    "t": "Podría proponerlo en el pleno. Pero necesitaría algo a cambio para convencer a los concejales.", "n": "I could propose it at the full council meeting. But I'd need something in return to convince the councillors.",
+                    "choices": [
+                      { "t": "Nosotros nos encargaríamos del alojamiento de los jóvenes en familias. Confío en que encontraremos una solución.", "n": "We would take care of housing the young people with host families. I'm confident we'll find a solution.", "next": "good" },
+                      { "t": "No podemos poner ni un euro más.", "n": "We can't put in a single euro more.", "next": "stuck" }
+                    ]
+                  },
+                  "stuck": {
+                    "t": "Entonces me lo pone muy difícil.", "n": "Then you're making it very hard for me.",
+                    "choices": [
+                      { "t": "Lo entiendo. ¿Y si los jóvenes se alojan en familias? Así se ahorra el hotel sin que nos cueste más.", "n": "I understand. What if the young people stay with host families? That saves the hotel costs without costing us more.", "next": "good" }
+                    ]
+                  },
+                  "good": {
+                    "t": "Me parece una propuesta excelente. La presentaré en el pleno con todo mi apoyo.", "n": "I think that's an excellent proposal. I'll present it to the full council with my full support.",
+                    "end": "good", "outcome": "You stayed diplomatic, asked about the reasons and offered something in return. The exchange is saved."
+                  },
+                  "bad": {
+                    "t": "Me temo que así no podemos seguir. Lo dejamos aquí por hoy.", "n": "I'm afraid we can't go on like this. Let's leave it there for today.",
+                    "end": "bad", "outcome": "Sharp words ended the talks. Ask about the reasons and look for a compromise instead."
+                  }
+                }
+              },
+              "prompts": [
+                { "n": "Ask (usted) what's behind this decision.", "t": ["Puedo preguntarle qué hay detrás de esta decisión", "Le puedo preguntar qué hay detrás de esta decisión", "Qué hay detrás de esta decisión"] },
+                { "n": "Apologise for putting it too bluntly.", "t": ["Disculpe, lo he formulado de forma demasiado brusca", "Disculpe, lo formulé de forma demasiado brusca", "Perdone, lo he dicho de forma demasiado brusca", "Disculpe, lo he dicho de forma demasiado brusca"] }
+              ]
+            },
+            {
+              "id": "c1-u06-l7",
+              "kind": "speaking",
+              "title": "Feedback and mediation in your words",
+              "goal": "Give tactful feedback freely for a minute and a half.",
+              "culture": {
+                "title": "Small words that soften",
+                "body": "Diminutives soften requests and make them sound friendlier: ¿Me esperas un momentito?, ¿Me haces un favorcito? They are used everywhere, but especially often in Mexico and much of Latin America. In Mexico, ahorita (literally 'right now') can mean anything from 'this second' to 'later, maybe'. In Colombia, many people use usted even with friends and family, so it doesn't necessarily signal distance there. In Spain, tú is used more readily, and politeness tends to come from tone, the conditional and the imperfect: Quería pedirte un favor.",
+                "regions": ["MX", "CO", "ES"]
+              },
+              "phrases": [
+                { "t": "Con toda sinceridad, lo veo de otra manera.", "n": "Quite honestly, I see it differently." },
+                { "t": "Con todo el respeto, me parece que eso se queda corto.", "n": "With all due respect, I think that falls short." },
+                { "t": "¿Qué le parece si aplazamos el tema?", "n": "What do you think about postponing the topic?" },
+                { "t": "Me tomo muy en serio sus preocupaciones.", "n": "I take your concerns very seriously." }
+              ],
+              "free": [
+                {
+                  "n": "Give tactful feedback to a colleague whose reports keep arriving late. Show appreciation, describe the problem without judging, ask for their view and propose a solution.",
+                  "hint": "Quería comentarte una cosa… / Valoro mucho… / He notado que… / No te lo digo como un reproche… / ¿Tú cómo lo ves? / ¿Qué te parece si…?",
+                  "seconds": 90,
+                  "minWords": 40,
+                  "targets": [
+                    { "label": "appreciation", "any": ["valoro", "aprecio", "agradezco", "excelente", "compromiso", "buen trabajo"] },
+                    { "label": "describing the problem", "any": ["he notado", "noté", "me he dado cuenta", "me di cuenta", "últimamente", "retraso", "tarde"] },
+                    { "label": "softening", "any": ["quería", "te importaría", "podríamos", "reproche", "ni mucho menos", "un poco"] },
+                    { "label": "asking their view", "any": ["cómo lo ves", "qué opinas", "tu punto de vista", "qué piensas", "qué necesitarías"] },
+                    { "label": "a solution", "any": ["qué te parece si", "propongo", "solución", "a partir de ahora", "cada lunes", "prioridades"] }
+                  ],
+                  "model": "Marta, quería comentarte una cosa. Valoro mucho tu compromiso con el equipo, y en general tu trabajo me parece excelente. Pero he notado que últimamente los informes llegan con algunos días de retraso. No te lo digo como un reproche, ni mucho menos. ¿Tú cómo lo ves? ¿Hay algo que te lo esté poniendo difícil? ¿Qué te parece si a partir de ahora dedicamos diez minutos cada lunes a repasar las prioridades?"
+                }
+              ],
+              "prompts": [
+                { "n": "Say that, quite honestly, you see it differently.", "t": ["Con toda sinceridad, lo veo de otra manera", "Sinceramente, lo veo de otra manera", "Con toda sinceridad, lo veo de otra forma"] },
+                { "n": "Say (usted) you take their concerns very seriously.", "t": ["Me tomo muy en serio sus preocupaciones", "Me tomo muy en serio su preocupación", "Tomo muy en serio sus preocupaciones"] }
+              ]
+            },
+            {
+              "id": "c1-u06-cp",
+              "kind": "checkpoint",
+              "title": "Checkpoint: Con tacto",
+              "goal": "Say the unit's phrases from memory."
+            }
+          ]
+        }

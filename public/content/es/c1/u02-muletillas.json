@@ -1,0 +1,308 @@
+{
+  "id": "c1-u02",
+  "title": "O sea, bueno, pues…",
+  "subtitle": "Discourse markers & fillers for natural speech",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "c1-u02-l1",
+      "title": "Starting and buying time: bueno, pues, a ver, es que",
+      "goal": "Use bueno, pues, a ver, es que and este… to start an answer, buy time and justify yourself naturally.",
+      "tip": {
+        "title": "Small words, big effect",
+        "body": "Native speakers rarely start an answer cold. Bueno (well, OK) and pues (well…) open a reply; a ver (let's see) buys a moment to think; es que (it's just that…) introduces a reason or an excuse and is softer than porque. The hesitation sound differs by region: in Mexico, Argentina and much of Latin America people say este… (with a long, flat e), while in Spain you're more likely to hear eh… or pues… Mexicans love pues fíjate que… (well, guess what…) to introduce news. Keep these words short and unstressed, slightly lengthening the last vowel: bueeeno, pueees."
+      },
+      "phrases": [
+        { "t": "Bueno, a ver, ¿por dónde empiezo?", "n": "Well, let's see, where do I start?" },
+        { "t": "Pues mira, la verdad es que no lo sé.", "n": "Well, look, the truth is I don't know." },
+        { "t": "Es que no me dio tiempo.", "n": "It's just that I didn't have time.", "note": "es que gives a reason or excuse. Spain often: no me ha dado tiempo." },
+        { "t": "Este… ¿cómo te lo explico?", "n": "Um… how can I explain it to you?", "note": "este… is the typical hesitation in Mexico, Argentina and much of Latin America." },
+        { "t": "Pues fíjate que me cambiaron de proyecto.", "n": "Well, guess what, they moved me to another project.", "note": "Very common in Mexico to introduce news." },
+        { "t": "¿Cómo te diría yo? Es complicado.", "n": "How shall I put it? It's complicated." },
+        { "t": "A ver, déjame pensarlo un momento.", "n": "Let's see, let me think about it for a moment." },
+        { "t": "Pues nada, ya te contaré.", "n": "Well, anyway, I'll let you know how it goes.", "note": "Pues nada closes a topic, especially in Spain; Latin America also: Bueno, ya te cuento." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "The late report",
+        "lines": [
+          { "who": "A", "name": "Jorge", "t": "Oye, ¿y el reporte para el cliente? Lo necesitaba ayer.", "n": "Hey, what about the report for the client? I needed it yesterday.", "note": "Mexico: reporte; Spain: informe." },
+          { "who": "you", "t": "Este… es que no me dio tiempo. Fue una semana de locos.", "n": "Um… it's just that I didn't have time. It was a crazy week." },
+          { "who": "A", "name": "Jorge", "t": "Bueno, pero ¿qué pasó? Tú siempre eres muy puntual con todo.", "n": "OK, but what happened? You're always very punctual with everything." },
+          { "who": "you", "t": "Pues fíjate que me cambiaron de proyecto el lunes. ¿Cómo te lo explico? Tengo el doble de trabajo.", "n": "Well, guess what, they moved me to another project on Monday. How can I explain it? I've got twice as much work." },
+          { "who": "A", "name": "Jorge", "t": "Ah, órale, no sabía. ¿Y para cuándo crees que lo tienes?", "n": "Oh, wow, I didn't know. So when do you think you'll have it?", "note": "órale: Mexican interjection (OK!, wow!, come on!)." },
+          { "who": "you", "t": "A ver, déjame pensarlo un momento… Para el viernes, sin falta.", "n": "Let's see, let me think for a moment… By Friday, without fail." }
+        ]
+      },
+      "prompts": [
+        { "n": "Buy time: say \"well, let's see, where do I start?\"", "t": ["Bueno, a ver, por dónde empiezo", "A ver, por dónde empiezo", "Bueno, por dónde empiezo"] },
+        { "n": "Give an excuse: it's just that you didn't have time.", "t": ["Es que no me dio tiempo", "Es que no me ha dado tiempo", "Es que no tuve tiempo"] },
+        { "n": "Introduce news Mexican-style: well, guess what, they moved you to another project.", "t": ["Pues fíjate que me cambiaron de proyecto", "Fíjate que me cambiaron de proyecto"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l2",
+      "title": "Rephrasing and summing up: o sea, vamos, en plan, total",
+      "goal": "Rephrase, sum up and tell a story the way people do in casual conversation.",
+      "tip": {
+        "title": "Saying it again, better",
+        "body": "O sea (I mean, in other words) is used everywhere to rephrase or draw a conclusion: O sea, que no vienes. In Spain, vamos does the same job in a more emphatic way: Es carísimo, vamos, que no lo compro. En plan is very colloquial Spanish from Spain, especially among younger speakers: it introduces an attitude or a quote, like English \"like\": Estaba en plan \"no me hables\". Total, que… (long story short…) and y nada, que… jump to the end of a story. Use these with friends; in a meeting, prefer es decir and en resumen."
+      },
+      "phrases": [
+        { "t": "O sea, que al final no vienes.", "n": "So, in other words, you're not coming after all." },
+        { "t": "Es decir, que hay que empezar de cero.", "n": "That is to say, we have to start from scratch." },
+        { "t": "Es carísimo; vamos, que no lo pienso comprar.", "n": "It's really expensive; I mean, I've no intention of buying it.", "note": "vamos, que… (Spain) sums up emphatically." },
+        { "t": "Estaba en plan \"no me hables\".", "n": "She was like \"don't talk to me\".", "note": "Colloquial Spain, especially younger speakers." },
+        { "t": "Total, que al final nos quedamos en casa.", "n": "Long story short, we ended up staying at home." },
+        { "t": "Digamos que no fue mi mejor día.", "n": "Let's just say it wasn't my best day." },
+        { "t": "Y nada, que se nos hizo tardísimo.", "n": "And so, anyway, it got really late." },
+        { "t": "Mañana; mejor dicho, pasado mañana.", "n": "Tomorrow; or rather, the day after tomorrow." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "A disastrous weekend in Seville",
+        "lines": [
+          { "who": "A", "name": "Rocío", "t": "¿Qué tal el fin de semana en la sierra? ¡Cuéntamelo todo!", "n": "How was the weekend in the mountains? Tell me everything!" },
+          { "who": "you", "t": "Digamos que no fue mi mejor fin de semana. Llovió sin parar desde el viernes.", "n": "Let's just say it wasn't my best weekend. It rained non-stop from Friday." },
+          { "who": "A", "name": "Rocío", "t": "¿En serio? O sea, que no pudisteis hacer la ruta.", "n": "Seriously? So you couldn't do the hike, then.", "note": "pudisteis: vosotros form (Spain); Latin America: pudieron." },
+          { "who": "you", "t": "Qué va. Y la casa rural era un horror; vamos, que no la recomiendo a nadie.", "n": "Not at all. And the cottage was awful; I mean, I wouldn't recommend it to anyone.", "note": "Qué va: Spain, \"no way, not at all\"." },
+          { "who": "A", "name": "Rocío", "t": "¿Y Marta? Ella estaba tan ilusionada…", "n": "And Marta? She was so excited…" },
+          { "who": "you", "t": "Marta estaba en plan \"yo me vuelvo a Sevilla\". Total, que el sábado por la tarde ya estábamos en casa.", "n": "Marta was like \"I'm going back to Seville\". Long story short, by Saturday afternoon we were already home." }
+        ]
+      },
+      "prompts": [
+        { "n": "Draw the conclusion: so, in other words, they're not coming after all.", "t": ["O sea, que al final no vienes", "O sea que no vienes", "Es decir, que al final no vienes"] },
+        { "n": "Jump to the end of the story: long story short, you ended up staying at home.", "t": ["Total, que al final nos quedamos en casa", "Total, que nos quedamos en casa", "Total, que al final me quedé en casa"] },
+        { "n": "Understate it: let's just say it wasn't your best day.", "t": ["Digamos que no fue mi mejor día", "Digamos que no ha sido mi mejor día"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l3",
+      "title": "Checking in with the listener: ¿sabes?, ¿viste?, ¿cierto?, che",
+      "goal": "Use regional tags and attention-getters to keep the listener with you.",
+      "tip": {
+        "title": "A tag for every country",
+        "body": "Spanish speakers constantly check that you're following, and the tag reveals where they're from. ¿Sabes?, ¿no? and ¿verdad? work everywhere. In Argentina and Uruguay, ¿viste? (literally \"did you see?\") is the classic, together with che (hey) to get attention, mirá (look) and dale (OK, sure). Colombians often use ¿cierto? as a tag. Spain closes deals with vale; Argentina with dale. Say tags with a quick rising tone; if you stress them, they sound like real questions."
+      },
+      "phrases": [
+        { "t": "Es un barrio muy tranquilo, ¿sabes?", "n": "It's a very quiet neighbourhood, you know?" },
+        { "t": "Llegó tarde otra vez, ¿viste?", "n": "He was late again, you know?", "note": "Argentina and Uruguay." },
+        { "t": "Che, ¿me pasás la sal?", "n": "Hey, can you pass me the salt?", "note": "Argentine voseo: pasás = pasas." },
+        { "t": "Mirá, no es tan grave.", "n": "Look, it's not that bad.", "note": "Voseo imperative; tú form: mira." },
+        { "t": "Dale, nos vemos a las ocho.", "n": "OK, see you at eight.", "note": "dale = OK in Argentina and many other Latin American countries; Spain: vale." },
+        { "t": "Es mejor salir temprano, ¿cierto?", "n": "It's better to leave early, right?", "note": "¿cierto? is a common tag in Colombia; elsewhere ¿verdad? or ¿no?" },
+        { "t": "No sé si me explico.", "n": "I don't know if I'm making myself clear." },
+        { "t": "Vale, pues quedamos así.", "n": "OK, so that's settled then.", "note": "Spain." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "An invitation to an asado in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Tomás", "t": "Che, ¿al final venís el sábado al asado?", "n": "Hey, are you coming to the barbecue on Saturday in the end?", "note": "asado: Argentine barbecue and social gathering." },
+          { "who": "you", "t": "Dale, me encantaría. ¿A qué hora empieza?", "n": "Sure, I'd love to. What time does it start?" },
+          { "who": "A", "name": "Tomás", "t": "Mirá, en teoría a la una, pero acá nadie llega a horario, ¿viste?", "n": "Look, in theory at one, but nobody here arrives on time, you know?", "note": "llegar a horario: Argentine for \"to arrive on time\"." },
+          { "who": "you", "t": "Sí, ya me di cuenta. La última vez llegué a la una en punto y no había nadie, ¿sabes?", "n": "Yes, I've noticed. Last time I arrived at one on the dot and nobody was there, you know?" },
+          { "who": "A", "name": "Tomás", "t": "¡Clásico! Vení tipo dos y media. ¿Traés algo para tomar?", "n": "Classic! Come around half past two. Will you bring something to drink?", "note": "vení, traés: voseo forms of ven, traes." },
+          { "who": "you", "t": "Dale, llevo un vino tinto. Mandame la dirección por mensaje, ¿sí?", "n": "Sure, I'll bring a red wine. Send me the address by message, OK?", "note": "Mandame: voseo imperative (tú: mándame)." }
+        ]
+      },
+      "prompts": [
+        { "n": "Agree Argentine-style: OK, see you at eight.", "t": ["Dale, nos vemos a las ocho", "Dale, nos vemos a las 8"] },
+        { "n": "Add a tag: it's a very quiet neighbourhood, you know?", "t": ["Es un barrio muy tranquilo, sabes", "Es un barrio muy tranquilo, viste", "Es un barrio muy tranquilo, no", "Es un barrio muy tranquilo, verdad"] },
+        { "n": "Admit you don't know if you're making yourself clear.", "t": ["No sé si me explico", "No sé si me explico bien"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l4",
+      "kind": "grammar",
+      "title": "es que, no es que, o sea que",
+      "goal": "Use the right mood after es que, no es que, o sea que and vamos, que.",
+      "tip": {
+        "title": "Markers that steer the verb",
+        "body": "Some markers are followed by a whole clause, and the mood matters. Es que + indicative gives a reason or excuse: Es que tengo prisa. No es que + subjunctive rejects a reason, and is usually followed by sino que or es que + indicative with the real one: No es que no quiera, es que no puedo. O sea que, así que and vamos, que (Spain) draw a conclusion and take the indicative: O sea que no vienes. As a question, ¿Es que…? sounds like a reproach: ¿Es que no me escuchas? (Aren't you even listening to me?)"
+      },
+      "phrases": [
+        { "t": "Es que tengo muchísimo trabajo.", "n": "It's just that I have loads of work." },
+        { "t": "No es que no quiera, es que no puedo.", "n": "It's not that I don't want to, it's that I can't.", "note": "no es que + subjunctive." },
+        { "t": "O sea que al final no os mudáis.", "n": "So you're not moving after all.", "note": "Spain (vosotros); Latin America: no se mudan." },
+        { "t": "¿Es que no me estás escuchando?", "n": "Aren't you even listening to me?", "note": "A reproach, not a real question." },
+        { "t": "Vamos, que no te apetece.", "n": "In other words, you don't feel like it.", "note": "Spain." }
+      ],
+      "drills": [
+        {
+          "title": "Turn the excuse into \"it's not that…\"",
+          "base": { "t": "Es que no tengo tiempo.", "n": "It's just that I don't have time." },
+          "items": [
+            { "cue": "no es que · querer", "t": "No es que no quiera, es que no tengo tiempo.", "n": "It's not that I don't want to, it's that I don't have time." },
+            { "cue": "no es que · gustar", "t": "No es que no me guste, es que no tengo tiempo.", "n": "It's not that I don't like it, it's that I don't have time." },
+            { "cue": "no es que · importar", "t": "No es que no me importe, es que no tengo tiempo.", "n": "It's not that I don't care, it's that I don't have time." },
+            { "cue": "no es que · estar de acuerdo", "t": "No es que no esté de acuerdo, es que no tengo tiempo.", "n": "It's not that I don't agree, it's that I don't have time." }
+          ]
+        },
+        {
+          "title": "Draw a conclusion or complain",
+          "base": { "t": "No tienes tiempo.", "n": "You don't have time." },
+          "items": [
+            { "cue": "o sea que", "t": "O sea que no tienes tiempo.", "n": "So you don't have time." },
+            { "cue": "así que · nunca", "t": "Así que nunca tienes tiempo.", "n": "So you never have time." },
+            { "cue": "vamos, que · no te apetece", "t": "Vamos, que no te apetece.", "n": "In other words, you don't feel like it." },
+            { "cue": "¿es que…? · nunca", "t": "¿Es que nunca tienes tiempo?", "n": "Do you never have time, or what?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say it's not that you don't want to, it's that you can't.", "t": ["No es que no quiera, es que no puedo", "No es que no quiera, sino que no puedo"] },
+        { "n": "Draw the conclusion: so you don't have time.", "t": ["O sea que no tienes tiempo", "Así que no tienes tiempo", "O sea que no tenés tiempo"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l5",
+      "kind": "listening",
+      "title": "A trip to Cartagena",
+      "goal": "Follow a fast, casual conversation between two friends in Bogotá, full of markers.",
+      "phrases": [
+        { "t": "Es que los tiquetes están carísimos.", "n": "It's just that the tickets are really expensive.", "note": "Colombia: tiquete; Spain: billete; Mexico: boleto." },
+        { "t": "Si no compramos ya, nos toca ir en bus.", "n": "If we don't buy now, we'll have to go by bus.", "note": "nos toca = we have to; very common in Colombia." },
+        { "t": "Listo, de una.", "n": "OK, let's do it right now.", "note": "Colombian colloquial." },
+        { "t": "Qué pena con usted.", "n": "Sorry to bother you.", "note": "Colombia: a polite apology before a request." }
+      ],
+      "story": {
+        "title": "¿Nos vamos para Cartagena?",
+        "intro": "Salomé and Gonzalo, two friends in Bogotá, try to organise a December trip to the coast.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Salomé", "t": "Bueno, ¿qué? ¿Al fin sí nos vamos para Cartagena en diciembre o no?", "n": "So, what? Are we going to Cartagena in December after all or not?" },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "Pues, este… yo sí quiero, pero es que los tiquetes están carísimos.", "n": "Well, um… I do want to, but the thing is the tickets are really expensive." },
+          { "name": "Salomé", "t": "O sea, ¿cuánto? Porque yo vi unos baratísimos la semana pasada.", "n": "I mean, how much? Because I saw some really cheap ones last week." },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "Ya cuestan más del doble, o sea, una locura. Total, que si no compramos esta semana, nos toca ir en bus.", "n": "They now cost more than double, I mean, it's crazy. Long story short, if we don't buy this week, we'll have to go by bus." },
+          { "name": "Salomé", "t": "¿En bus? Uy, no, eso es eterno, ¿cierto?", "n": "By bus? Oh no, that takes forever, right?" },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "Bueno, pues entonces compremos hoy mismo. Yo pago con mi tarjeta y usted me pasa la plata después.", "n": "OK, so let's buy them today. I'll pay with my card and you give me the money later.", "note": "Many Colombians use usted even with close friends; plata = money in much of Latin America." },
+          { "name": "Salomé", "t": "Listo, de una. Ah, y qué pena con usted, pero ¿me ayuda a buscar hotel también?", "n": "OK, let's do it. Oh, and sorry to bother you, but will you help me look for a hotel too?" },
+          { "name": "Gonzalo", "voice": "es-CO-GonzaloNeural", "t": "Jaja, claro, pues. O sea, que al final organizo yo todo el viaje, ¿cierto?", "n": "Haha, sure, of course. So in the end I'm organising the whole trip, right?" }
+        ],
+        "questions": [
+          { "q": "¿Adónde quieren viajar?", "n": "Where do they want to travel to?", "t": ["A Cartagena", "Cartagena", "Para Cartagena"] },
+          { "q": "¿Por qué duda Gonzalo al principio?", "n": "Why does Gonzalo hesitate at first?", "t": ["Porque los tiquetes están carísimos", "Porque los tiquetes están caros", "Por el precio", "Los tiquetes son caros", "Porque los billetes están carísimos"] },
+          { "q": "¿Quién paga los tiquetes primero?", "n": "Who pays for the tickets first?", "t": ["Gonzalo", "Gonzalo con su tarjeta", "Paga Gonzalo"] }
+        ]
+      }
+    },
+    {
+      "id": "c1-u02-l6",
+      "kind": "roleplay",
+      "title": "Calming a neighbour",
+      "goal": "Use markers to calm a heated conversation. Your choices steer the mediation.",
+      "phrases": [
+        { "t": "Bueno, a ver, cuéntame con calma qué ha pasado.", "n": "OK, let's see, tell me calmly what happened." },
+        { "t": "O sea, que el problema es sobre todo entre semana, ¿no?", "n": "So the problem is mainly on weekdays, right?" },
+        { "t": "Venga, vamos a hablarlo con calma.", "n": "Come on, let's talk it over calmly.", "note": "venga: Spain, \"come on\"." },
+        { "t": "Hombre, tienes toda la razón.", "n": "Well, of course, you're absolutely right.", "note": "In Spain hombre (and mujer) are used as interjections, even when talking to a woman." }
+      ],
+      "branch": {
+        "title": "La música del tercero",
+        "scene": "You're the president of the residents' association (la comunidad de vecinos) of a building in Madrid. Rosa, a neighbour, stops you on the stairs, furious about the young man on the third floor.",
+        "name": "Rosa",
+        "voice": "es-ES-XimenaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Esto ya no hay quien lo aguante! El chico del tercero pone música hasta las tantas todas las noches.", "n": "Nobody can put up with this any more! The young guy on the third floor plays music until all hours every night.",
+            "choices": [
+              { "t": "Bueno, a ver, cuéntame con calma qué ha pasado.", "n": "OK, let's see, tell me calmly what happened.", "next": "listen" },
+              { "t": "Pues ponte tapones, mujer.", "n": "Well, wear earplugs, then.", "next": "angry" }
+            ]
+          },
+          "angry": {
+            "t": "¿Tapones? ¡Lo que me faltaba! ¿Tú de qué lado estás?", "n": "Earplugs? That's all I needed! Whose side are you on?",
+            "choices": [
+              { "t": "Perdona, ha sido una tontería. Venga, cuéntame qué ha pasado.", "n": "Sorry, that was a silly thing to say. Come on, tell me what happened.", "next": "listen" },
+              { "t": "De nadie. Es que no es mi problema.", "n": "Nobody's. It's just that it's not my problem.", "next": "bad" }
+            ]
+          },
+          "listen": {
+            "t": "Pues mira, es que yo me levanto a las seis, y él no baja la música hasta la una o las dos.", "n": "Well, look, the thing is I get up at six, and he doesn't turn the music down until one or two.",
+            "choices": [
+              { "t": "O sea, que el problema es sobre todo entre semana, ¿no?", "n": "So the problem is mainly on weekdays, right?", "next": "weekday" },
+              { "t": "Bueno, es joven. Ya se le pasará.", "n": "Well, he's young. He'll grow out of it.", "next": "dismiss" }
+            ]
+          },
+          "dismiss": {
+            "t": "¿Que ya se le pasará? ¡Si llevo así tres meses!", "n": "He'll grow out of it? I've been putting up with this for three months!",
+            "choices": [
+              { "t": "Hombre, tienes toda la razón, perdona. O sea, que es algo de todos los días.", "n": "Well, of course, you're absolutely right, sorry. So it's an everyday thing.", "next": "weekday" },
+              { "t": "Pues entonces denúncialo y ya está.", "n": "Well then, report him and that's that.", "next": "bad" }
+            ]
+          },
+          "weekday": {
+            "t": "Eso es. Los fines de semana me da igual, de verdad. Pero entre semana, no.", "n": "Exactly. At weekends I don't mind, honestly. But not on weekdays.",
+            "choices": [
+              { "t": "Vale, pues mira: hablo yo con él y le propongo música hasta las once entre semana.", "n": "OK, look: I'll talk to him and suggest music until eleven on weekdays.", "next": "good" },
+              { "t": "¿Y si se lo pedimos juntos, de buenas maneras?", "n": "What if we ask him together, nicely?", "next": "together" }
+            ]
+          },
+          "together": {
+            "t": "Hombre, si vienes conmigo… igual sí. Es que sola me da un poco de corte.", "n": "Well, if you come with me… maybe. The thing is, on my own I feel a bit awkward.",
+            "choices": [
+              { "t": "Venga, pues vamos esta tarde y lo hablamos con calma.", "n": "Come on then, let's go this afternoon and talk it over calmly.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Vale, pues muchísimas gracias, de verdad. Así da gusto vivir aquí.", "n": "OK, thank you so much, really. This is what makes living here a pleasure.",
+            "end": "good", "outcome": "You calmed Rosa down, summed up the real problem and proposed a fair solution."
+          },
+          "bad": {
+            "t": "Pues nada, ya veo que no puedo contar contigo. Llamaré a la policía.", "n": "Well, fine, I can see I can't count on you. I'll call the police.",
+            "end": "bad", "outcome": "You dismissed her complaint and the conflict escalated. Try a ver, cuéntame… and o sea, que… to show you're listening."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Calm someone down: OK, let's see, tell me calmly what happened.", "t": ["Bueno, a ver, cuéntame con calma qué ha pasado", "A ver, cuéntame con calma qué ha pasado", "A ver, cuéntame con calma qué pasó"] },
+        { "n": "Sum up: so the problem is mainly on weekdays, right?", "t": ["O sea, que el problema es sobre todo entre semana, no", "O sea que el problema es sobre todo entre semana", "O sea, que el problema es entre semana, no"] }
+      ]
+    },
+    {
+      "id": "c1-u02-l7",
+      "kind": "speaking",
+      "title": "Sound like a local",
+      "goal": "Tell a short anecdote for a minute and a half with natural discourse markers.",
+      "culture": {
+        "title": "Fillers with a passport",
+        "body": "Discourse markers quickly reveal where a Spanish speaker is from: este… as a hesitation is typical of Mexico, Argentina and much of Latin America, ¿viste? and che point to the Río de la Plata, Chileans are famous for ¿cachai? (get it?), and en plan is unmistakably from Spain. O sea is used everywhere, although an exaggerated o sea is part of the stereotype of posh speech: fresa in Mexico, pijo in Spain. Using a few markers makes you sound fluent; using one in every sentence makes you sound nervous.",
+        "regions": ["MX", "AR", "UY", "CL", "ES"]
+      },
+      "phrases": [
+        { "t": "Bueno, pues resulta que el sábado quedé con unos amigos.", "n": "Well, it turns out that on Saturday I met up with some friends.", "note": "quedar con = to meet up with (Spain); Latin America also: verse con." },
+        { "t": "Y nada, todo iba bien hasta que…", "n": "And so, everything was going fine until…" },
+        { "t": "O sea, un desastre total.", "n": "I mean, a complete disaster." },
+        { "t": "Total, que al final acabamos riéndonos.", "n": "Long story short, in the end we ended up laughing." }
+      ],
+      "free": [
+        {
+          "n": "Tell a friend about something that went wrong recently, in a relaxed, natural way. Use markers to start, to explain, to rephrase, to check they're following and to wrap up.",
+          "hint": "Bueno, pues resulta que … / Es que … / O sea, … / ¿sabes? / ¿viste? / Y nada, que … / Total, que al final …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "an opening marker", "any": ["bueno", "pues", "a ver", "mira", "resulta que", "este"] },
+            { "label": "a reason with es que", "any": ["es que"] },
+            { "label": "rephrasing", "any": ["o sea", "es decir", "vamos", "en plan", "digamos", "mejor dicho"] },
+            { "label": "a listener tag", "any": ["sabes", "viste", "no crees", "me explico", "cierto", "verdad", "vale"] },
+            { "label": "wrapping up", "any": ["total", "al final", "y nada", "pues nada"] }
+          ],
+          "model": "Bueno, pues resulta que el sábado quedé con unos amigos para ir a la playa. Es que hacía un calor horrible, ¿sabes? Y nada, salimos tempranísimo, pero el coche se nos estropeó a mitad de camino. O sea, un desastre total. Llamamos a la grúa y tardó tres horas, en plan, sin sombra y sin agua. Total, que al final llegamos a la playa a las siete de la tarde, justo para ver la puesta de sol, y acabamos riéndonos."
+        }
+      ],
+      "prompts": [
+        { "n": "Start a story: well, it turns out that on Saturday you met up with some friends.", "t": ["Bueno, pues resulta que el sábado quedé con unos amigos", "Pues resulta que el sábado quedé con unos amigos", "Bueno, resulta que el sábado quedé con unos amigos", "Resulta que el sábado me vi con unos amigos"] },
+        { "n": "Wrap it up: long story short, in the end you ended up laughing.", "t": ["Total, que al final acabamos riéndonos", "Total, que al final terminamos riéndonos", "Total, que acabamos riéndonos"] }
+      ]
+    },
+    {
+      "id": "c1-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: O sea, bueno, pues…",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

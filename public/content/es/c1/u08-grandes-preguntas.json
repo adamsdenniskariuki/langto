@@ -1,0 +1,318 @@
+{
+  "id": "c1-u08",
+  "title": "Grandes preguntas",
+  "subtitle": "Ethics, society, identity & migration",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "id": "c1-u08-l1",
+      "title": "Debating AI and ethics",
+      "goal": "Discuss abstract ethical questions precisely, using sophisticated connectors.",
+      "tip": {
+        "title": "Connectors that sound educated",
+        "body": "Formal Spanish has its own glue: ante (+ noun) = in the face of, no obstante = nevertheless, siempre y cuando = provided that, en la medida en que = to the extent that, habida cuenta de = given, and máxime cuando = all the more so since. Siempre y cuando always takes the subjunctive: siempre y cuando haya transparencia. Habida cuenta de and máxime cuando are very formal, perfect for a debate or a report but odd at a barbecue. Starting with a connector buys you a second to plan: pause briefly after it, then say the main idea in one breath."
+      },
+      "phrases": [
+        { "t": "Ante el ritmo de los avances, necesitamos reglas claras.", "n": "Given the pace of progress, we need clear rules." },
+        { "t": "No obstante, no conviene frenar la innovación.", "n": "Nevertheless, it isn't wise to hold back innovation." },
+        { "t": "Estoy a favor, siempre y cuando haya transparencia.", "n": "I'm in favour, provided there's transparency.", "note": "siempre y cuando + subjunctive." },
+        { "t": "En la medida en que un algoritmo decide sobre personas, alguien tiene que rendir cuentas.", "n": "To the extent that an algorithm makes decisions about people, someone has to be accountable." },
+        { "t": "¿Quién se hace responsable cuando una máquina se equivoca?", "n": "Who takes responsibility when a machine gets it wrong?" },
+        { "t": "Habida cuenta de los riesgos, conviene ir con cautela.", "n": "Given the risks, it's wise to proceed with caution.", "note": "Very formal." },
+        { "t": "Máxime cuando están en juego derechos fundamentales.", "n": "All the more so when fundamental rights are at stake.", "note": "Formal." },
+        { "t": "Es una cuestión que va mucho más allá de lo técnico.", "n": "It's a question that goes far beyond the technical." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "A seminar in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Tomás", "t": "Che, vos que trabajás en tecnología: ¿deberíamos dejar que una IA decida quién recibe un crédito?", "n": "Hey, you work in tech: should we let an AI decide who gets a loan?" },
+          { "who": "you", "t": "Es una cuestión que va mucho más allá de lo técnico. Estoy a favor, siempre y cuando haya transparencia.", "n": "It's a question that goes far beyond the technical. I'm in favour, provided there's transparency." },
+          { "who": "A", "name": "Tomás", "t": "¿Transparencia? Si ni los propios programadores entienden del todo cómo deciden esos sistemas.", "n": "Transparency? Not even the programmers themselves fully understand how those systems decide." },
+          { "who": "you", "t": "Precisamente por eso. En la medida en que un algoritmo decide sobre personas, alguien tiene que rendir cuentas.", "n": "That's exactly why. To the extent that an algorithm makes decisions about people, someone has to be accountable." },
+          { "who": "A", "name": "Tomás", "t": "Pero si ponemos demasiadas trabas, nos quedamos atrás. ¿No te parece?", "n": "But if we put up too many obstacles, we'll fall behind. Don't you think?" },
+          { "who": "you", "t": "Puede ser. No obstante, habida cuenta de los riesgos, conviene ir con cautela, máxime cuando están en juego derechos fundamentales.", "n": "Maybe. Nevertheless, given the risks, it's wise to proceed with caution, all the more so when fundamental rights are at stake." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you're in favour, provided there's transparency.", "t": ["Estoy a favor, siempre y cuando haya transparencia", "Estoy a favor siempre y cuando haya transparencia", "Siempre y cuando haya transparencia, estoy a favor"] },
+        { "n": "Ask who takes responsibility when a machine gets it wrong.", "t": ["Quién se hace responsable cuando una máquina se equivoca", "Quién es responsable cuando una máquina se equivoca", "Quién se responsabiliza cuando una máquina se equivoca"] },
+        { "n": "Say that, given the risks, it's wise to proceed with caution.", "t": ["Habida cuenta de los riesgos, conviene ir con cautela", "Dados los riesgos, conviene ir con cautela", "Ante los riesgos, conviene ir con cautela"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l2",
+      "title": "Reported views and what-ifs",
+      "goal": "Report other people's claims with distance and reflect on work, life and identity with past hypotheticals.",
+      "tip": {
+        "title": "Keep your distance, imagine the past",
+        "body": "To pass on a claim without vouching for it, use según (according to), al parecer (apparently) or, in news reports, the so-called conditional of rumour: la empresa estaría pensando en cerrar (the company is reportedly considering closing). Style guides often advise against it in the press, but you'll hear it all the time. In reported speech, tenses shift back: «Hay que cambiar» becomes dijo que había que cambiar. For regrets, use si + pluperfect subjunctive + conditional perfect: Si lo hubiera sabido, habría estudiado otra carrera. You'll also hear hubiera in both halves, especially in Latin America, and the compact De haberlo sabido… (had I known…)."
+      },
+      "phrases": [
+        { "t": "Según el informe, el teletrabajo habría aumentado la productividad.", "n": "According to the report, remote working has reportedly increased productivity.", "note": "Journalistic conditional = reportedly." },
+        { "t": "Al parecer, la empresa estaría pensando en cerrar la oficina.", "n": "Apparently, the company may be thinking of closing the office." },
+        { "t": "Mi jefa dijo que había que cambiar de estrategia.", "n": "My boss said we had to change strategy.", "note": "Reported speech: hay que → había que." },
+        { "t": "Si lo hubiera sabido, habría estudiado otra carrera.", "n": "If I'd known, I'd have studied something else.", "note": "Also common: …hubiera estudiado otra carrera." },
+        { "t": "De haberlo sabido, me habría ido antes.", "n": "Had I known, I'd have left earlier." },
+        { "t": "Ojalá hubiera pasado más tiempo con mi familia.", "n": "I wish I'd spent more time with my family." },
+        { "t": "Mi trabajo no define quién soy.", "n": "My job doesn't define who I am." },
+        { "t": "Me pregunto qué habría pasado si me hubiera quedado.", "n": "I wonder what would have happened if I'd stayed." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Rumours at the office",
+        "lines": [
+          { "who": "A", "name": "Inés", "t": "¿Te has enterado? Dicen que la empresa estaría pensando en cerrar la oficina de Valencia.", "n": "Have you heard? They say the company may be thinking of closing the Valencia office." },
+          { "who": "you", "t": "Sí, al parecer el director dijo que había que recortar gastos. Me pregunto qué habría pasado si me hubiera quedado allí.", "n": "Yes, apparently the director said costs had to be cut. I wonder what would have happened if I'd stayed there." },
+          { "who": "A", "name": "Inés", "t": "Pues tú te fuiste a tiempo. Yo, de haberlo sabido, me habría ido antes.", "n": "Well, you left in time. Had I known, I'd have left earlier." },
+          { "who": "you", "t": "Nunca es tarde para cambiar. Además, tu trabajo no define quién eres.", "n": "It's never too late to change. Besides, your job doesn't define who you are." },
+          { "who": "A", "name": "Inés", "t": "Ya, pero llevo quince años allí. Si me lo hubieran dicho hace un año, habría buscado otra cosa.", "n": "I know, but I've been there fifteen years. If they'd told me a year ago, I'd have looked for something else." },
+          { "who": "you", "t": "Te entiendo. Yo a veces pienso: ojalá hubiera pasado más tiempo con mi familia y menos en la oficina.", "n": "I understand. Sometimes I think: I wish I'd spent more time with my family and less at the office." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that if you'd known, you'd have studied something else.", "t": ["Si lo hubiera sabido, habría estudiado otra carrera", "Si lo hubiera sabido, hubiera estudiado otra carrera", "Si lo hubiera sabido, habría estudiado otra cosa", "Si lo hubiera sabido, hubiera estudiado otra cosa"] },
+        { "n": "Report that your boss said you had to change strategy.", "t": ["Mi jefa dijo que había que cambiar de estrategia", "Mi jefe dijo que había que cambiar de estrategia", "Mi jefa dijo que teníamos que cambiar de estrategia", "Mi jefe dijo que teníamos que cambiar de estrategia"] },
+        { "n": "Say your job doesn't define who you are.", "t": ["Mi trabajo no define quién soy", "Mi trabajo no me define"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l3",
+      "title": "Weighing up and taking a stance",
+      "goal": "Give a nuanced view on language and identity and take a clear position.",
+      "tip": {
+        "title": "Nuance first, then commit",
+        "body": "At C1, avoid black-and-white answers. Signal nuance (Es una cuestión que hay que matizar, No es una cuestión de blanco o negro), weigh both sides with por un lado… por otro…, then commit: Defiendo la postura de que… or Sostengo que… Estoy de acuerdo solo hasta cierto punto is a polite partial disagreement, and lo cual no quita que + subjunctive concedes a point without giving in: lo cual no quita que haya problemas. Stress the contrast words por un lado and por otro so your listener can follow the structure."
+      },
+      "phrases": [
+        { "t": "Es una cuestión que hay que matizar.", "n": "It's a question that needs some nuance." },
+        { "t": "Por un lado, el idioma une; por otro, también puede excluir.", "n": "On the one hand, language unites; on the other, it can also exclude." },
+        { "t": "Defiendo la postura de que el bilingüismo es una riqueza.", "n": "I hold the view that bilingualism is an asset." },
+        { "t": "Estoy de acuerdo solo hasta cierto punto.", "n": "I only agree up to a point." },
+        { "t": "No es una cuestión de blanco o negro.", "n": "It's not a black-and-white issue." },
+        { "t": "Lo cual no quita que haya problemas reales.", "n": "Which doesn't mean there aren't real problems.", "note": "lo cual no quita que + subjunctive." },
+        { "t": "A fin de cuentas, la identidad no es algo fijo.", "n": "At the end of the day, identity isn't something fixed." },
+        { "t": "Hablar dos idiomas no te hace menos de ningún sitio.", "n": "Speaking two languages doesn't make you any less from either place." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Cousins in Texas",
+        "lines": [
+          { "who": "A", "name": "Paola", "t": "Mi hermana vive en Texas y sus hijos ya casi no hablan español. ¿Tú crees que es tan grave?", "n": "My sister lives in Texas and her kids hardly speak Spanish any more. Do you think it's that serious?" },
+          { "who": "you", "t": "Es una cuestión que hay que matizar. Por un lado, el inglés les abre puertas; por otro, el español los une a su familia.", "n": "It's a question that needs some nuance. On the one hand, English opens doors for them; on the other, Spanish connects them to their family." },
+          { "who": "A", "name": "Paola", "t": "Pues mi cuñado dice que lo importante es que se integren y que dos idiomas los confunden.", "n": "Well, my brother-in-law says the important thing is that they fit in and that two languages confuse them." },
+          { "who": "you", "t": "Estoy de acuerdo solo hasta cierto punto. Defiendo la postura de que el bilingüismo es una riqueza.", "n": "I only agree up to a point. I hold the view that bilingualism is an asset." },
+          { "who": "A", "name": "Paola", "t": "Ya, pero cuando vienen a México, sus primos se burlan de su acento y se sienten de ningún lado.", "n": "Sure, but when they come to Mexico, their cousins make fun of their accent and they feel they don't belong anywhere." },
+          { "who": "you", "t": "Lo cual no quita que valga la pena. A fin de cuentas, hablar dos idiomas no te hace menos de ningún sitio.", "n": "Which doesn't mean it isn't worth it. At the end of the day, speaking two languages doesn't make you any less from either place." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you only agree up to a point.", "t": ["Estoy de acuerdo solo hasta cierto punto", "Solo estoy de acuerdo hasta cierto punto", "Estoy de acuerdo hasta cierto punto"] },
+        { "n": "Say you hold the view that bilingualism is an asset.", "t": ["Defiendo la postura de que el bilingüismo es una riqueza", "Sostengo que el bilingüismo es una riqueza", "Creo que el bilingüismo es una riqueza"] },
+        { "n": "Say it's not a black-and-white issue.", "t": ["No es una cuestión de blanco o negro", "No es blanco o negro", "No todo es blanco o negro"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l4",
+      "kind": "grammar",
+      "title": "Nominalisation: sounding like the quality press",
+      "goal": "Pack ideas into noun phrases for a formal, compact style.",
+      "tip": {
+        "title": "Turn the verb into a noun",
+        "body": "Formal Spanish (the press, debates, reports) prefers nouns to verbs. Instead of como los alquileres suben, say debido a la subida de los alquileres; instead of cuando la población envejece, say el envejecimiento de la población. Useful pairs: subir → la subida, aumentar → el aumento, llegar → la llegada, cerrar → el cierre, perder → la pérdida, envejecer → el envejecimiento. The old subject becomes a de-phrase (remember de + el = del). To turn a whole clause into a subject, use el hecho de que, which usually takes the subjunctive: El hecho de que hable con acento no significa nada."
+      },
+      "phrases": [
+        { "t": "El envejecimiento de la población plantea retos enormes.", "n": "The ageing of the population poses huge challenges." },
+        { "t": "La llegada de inmigrantes ha transformado muchos barrios.", "n": "The arrival of immigrants has transformed many neighbourhoods." },
+        { "t": "El hecho de que alguien hable con acento no dice nada de su inteligencia.", "n": "The fact that someone speaks with an accent says nothing about their intelligence." },
+        { "t": "La pérdida de una lengua supone la pérdida de una forma de ver el mundo.", "n": "The loss of a language means the loss of a way of seeing the world." },
+        { "t": "Debido a la subida de los alquileres, muchos jóvenes se van.", "n": "Due to the rise in rents, many young people are leaving." }
+      ],
+      "drills": [
+        {
+          "title": "From verb to noun",
+          "base": { "t": "Como los alquileres suben, los jóvenes se van.", "n": "As rents are rising, young people are leaving." },
+          "items": [
+            { "cue": "debido a · la subida", "t": "Debido a la subida de los alquileres, los jóvenes se van.", "n": "Due to the rise in rents, young people are leaving." },
+            { "cue": "el desempleo · aumentar", "t": "Debido al aumento del desempleo, los jóvenes se van.", "n": "Due to the rise in unemployment, young people are leaving." },
+            { "cue": "las fábricas · cerrar", "t": "Debido al cierre de las fábricas, los jóvenes se van.", "n": "Due to the closure of the factories, young people are leaving." },
+            { "cue": "los servicios · perder", "t": "Debido a la pérdida de servicios, los jóvenes se van.", "n": "Due to the loss of services, young people are leaving." }
+          ]
+        },
+        {
+          "title": "El hecho de que + subjunctive",
+          "base": { "t": "El hecho de que hable con acento no significa nada.", "n": "The fact that he or she speaks with an accent means nothing." },
+          "items": [
+            { "cue": "venir de fuera", "t": "El hecho de que venga de fuera no significa nada.", "n": "The fact that he or she comes from abroad means nothing." },
+            { "cue": "ser joven", "t": "El hecho de que sea joven no significa nada.", "n": "The fact that he or she is young means nothing." },
+            { "cue": "tener dos pasaportes", "t": "El hecho de que tenga dos pasaportes no significa nada.", "n": "The fact that he or she has two passports means nothing." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say the ageing of the population poses huge challenges.", "t": ["El envejecimiento de la población plantea retos enormes", "El envejecimiento de la población plantea grandes retos", "El envejecimiento de la población plantea enormes desafíos"] },
+        { "n": "Say the fact that someone speaks with an accent says nothing about their intelligence.", "t": ["El hecho de que alguien hable con acento no dice nada de su inteligencia", "Que alguien hable con acento no dice nada de su inteligencia"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l5",
+      "kind": "listening",
+      "title": "Radio interview: between two countries",
+      "goal": "Follow a sociologist reflecting on migration and identity on Spanish radio.",
+      "phrases": [
+        { "t": "Es un tema que me toca muy de cerca.", "n": "It's a subject very close to home for me." },
+        { "t": "No ser ni de aquí ni de allá.", "n": "Belonging neither here nor there." },
+        { "t": "Aquí te notan el acento.", "n": "Here people notice your accent." },
+        { "t": "La identidad no se pierde: se amplía.", "n": "Identity isn't lost: it expands." }
+      ],
+      "story": {
+        "title": "Ni de aquí ni de allá",
+        "intro": "On a Madrid radio programme, a host interviews the Colombian sociologist Salomé Restrepo about migration and identity.",
+        "voice": "es-ES-AlvaroNeural",
+        "lines": [
+          { "name": "Andrés", "t": "Buenas tardes. Hoy hablamos de migración e identidad con la socióloga colombiana Salomé Restrepo, que lleva quince años en Madrid. Bienvenida.", "n": "Good afternoon. Today we're talking about migration and identity with the Colombian sociologist Salomé Restrepo, who has lived in Madrid for fifteen years. Welcome." },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Gracias, Andrés. Es un tema que me toca muy de cerca, como se imaginará.", "n": "Thank you, Andrés. It's a subject very close to home for me, as you can imagine." },
+          { "name": "Andrés", "t": "Usted ha entrevistado a muchos migrantes latinoamericanos en España. ¿Qué es lo que más se repite en esas conversaciones?", "n": "You've interviewed many Latin American migrants in Spain. What comes up most often in those conversations?" },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Una sensación muy concreta: la de no ser ni de aquí ni de allá. Aquí te notan el acento, y cuando vuelves a tu país, te dicen que hablas como española.", "n": "A very specific feeling: that of belonging neither here nor there. Here people notice your accent, and when you go back home, they tell you you talk like a Spaniard." },
+          { "name": "Andrés", "t": "¿Y eso le ha pasado a usted?", "n": "And has that happened to you?" },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Constantemente. La última vez que fui a Medellín, mi propia madre me dijo que ya decía vale en vez de listo.", "n": "All the time. The last time I went to Medellín, my own mother told me I now said vale instead of listo." },
+          { "name": "Andrés", "t": "¿Y cómo se vive eso? ¿Como una pérdida?", "n": "And how does that feel? Like a loss?" },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Al principio, sí. Pero con los años he llegado a la conclusión de que la identidad no se pierde: se amplía. Hoy me siento de los dos sitios, y eso, lejos de ser un problema, es una riqueza.", "n": "At first, yes. But over the years I've come to the conclusion that identity isn't lost: it expands. Today I feel I'm from both places, and that, far from being a problem, is a gift." }
+        ],
+        "questions": [
+          { "q": "¿Cuánto tiempo lleva Salomé en Madrid?", "n": "How long has Salomé lived in Madrid?", "t": ["Quince años", "15 años", "Lleva quince años"] },
+          { "q": "¿Qué le dijo su madre la última vez que fue a Medellín?", "n": "What did her mother tell her the last time she went to Medellín?", "t": ["Que decía vale en vez de listo", "Que ya decía vale", "Que hablaba como española", "Que decía vale"] },
+          { "q": "Según Salomé, ¿qué pasa con la identidad?", "n": "According to Salomé, what happens to identity?", "t": ["Se amplía", "No se pierde, se amplía", "No se pierde"] }
+        ]
+      }
+    },
+    {
+      "id": "c1-u08-l6",
+      "kind": "roleplay",
+      "title": "On the panel: holiday rentals and housing",
+      "goal": "Hold your ground in a panel debate: nuanced, precise and fair.",
+      "phrases": [
+        { "t": "No es lo mismo una familia que una gran empresa.", "n": "A family isn't the same as a big company." },
+        { "t": "Ahí le doy la razón en parte.", "n": "I partly agree with you there.", "note": "Usted form. With tú: ahí te doy la razón." },
+        { "t": "¿Puede concretar?", "n": "Can you be more specific?" },
+        { "t": "La ciudad es de quien vive en ella.", "n": "The city belongs to the people who live in it." }
+      ],
+      "branch": {
+        "title": "Mesa redonda",
+        "scene": "You are a panellist at a public debate in Mexico City on short-term holiday rentals, which many residents blame for rising rents. The moderator turns to you.",
+        "name": "Nuria (moderadora)",
+        "voice": "es-MX-NuriaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Muchos vecinos dicen que los alquileres turísticos están expulsando a la gente de sus barrios. ¿Habría que prohibirlos?", "n": "Many residents say holiday rentals are pushing people out of their neighbourhoods. Should they be banned?",
+            "choices": [
+              { "t": "Es una cuestión que hay que matizar. Por un lado, traen ingresos; por otro, encarecen la vivienda.", "n": "It's a question that needs nuance. On the one hand, they bring in income; on the other, they make housing more expensive.", "next": "diff" },
+              { "t": "Sí, hay que prohibirlos todos ya. Es obvio.", "n": "Yes, they should all be banned right now. It's obvious.", "next": "harsh" }
+            ]
+          },
+          "harsh": {
+            "t": "Hay quien diría que eso es simplificar demasiado. Muchas familias viven de rentar un cuarto. ¿Qué les responde?", "n": "Some would say that's oversimplifying. Many families live off renting out a room. What do you say to them?",
+            "choices": [
+              { "t": "Tiene razón, conviene matizar: no es lo mismo una familia que renta un cuarto que una empresa con cien departamentos.", "n": "You're right, I should nuance that: a family renting out a room isn't the same as a company with a hundred flats.", "next": "diff" },
+              { "t": "Ese no es mi problema.", "n": "That's not my problem.", "next": "bad" }
+            ]
+          },
+          "diff": {
+            "t": "Entonces, ¿cuál sería su propuesta concreta?", "n": "So what would your concrete proposal be?",
+            "choices": [
+              { "t": "Defiendo la postura de que se limiten, siempre y cuando se distinga entre particulares y grandes empresas.", "n": "I hold the view that they should be limited, provided a distinction is made between private individuals and big companies.", "next": "precise" },
+              { "t": "Pues… no sé, algo intermedio.", "n": "Well… I don't know, something in between.", "next": "weak" }
+            ]
+          },
+          "weak": {
+            "t": "Con «algo intermedio» los vecinos no pueden hacer gran cosa. ¿Puede concretar?", "n": "Residents can't do much with 'something in between'. Can you be more specific?",
+            "choices": [
+              { "t": "Claro: un registro obligatorio y un número máximo de noches al año para cada vivienda.", "n": "Of course: a compulsory register and a maximum number of nights a year for each home.", "next": "precise" },
+              { "t": "Prefiero no entrar en detalles.", "n": "I'd rather not go into detail.", "next": "bad" }
+            ]
+          },
+          "precise": {
+            "t": "Un economista del público objeta que eso frenaría el turismo. ¿Qué le contesta?", "n": "An economist in the audience objects that this would hold back tourism. What's your answer?",
+            "choices": [
+              { "t": "Ahí le doy la razón en parte. No obstante, el turismo no puede estar por encima del derecho a la vivienda.", "n": "I partly agree with you there. Nevertheless, tourism can't come before the right to housing.", "next": "limits" },
+              { "t": "A fin de cuentas, la ciudad es de quien vive en ella, no de quien está de paso.", "n": "At the end of the day, the city belongs to those who live in it, not to those passing through.", "next": "good" }
+            ]
+          },
+          "limits": {
+            "t": "¿Y dónde pondría usted el límite?", "n": "And where would you draw the line?",
+            "choices": [
+              { "t": "En la medida en que un barrio pierda a sus vecinos, habrá que limitar más. Lo revisaría cada año, barrio por barrio.", "n": "To the extent that a neighbourhood loses its residents, there'll have to be stricter limits. I'd review it every year, neighbourhood by neighbourhood.", "next": "good" },
+              { "t": "Habida cuenta de que cada barrio es distinto, con datos claros y revisiones anuales.", "n": "Given that every neighbourhood is different, with clear data and annual reviews.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Una postura matizada y muy precisa. Muchas gracias por su aportación.", "n": "A nuanced and very precise position. Thank you very much for your contribution.",
+            "end": "good", "outcome": "You weighed both sides, made a concrete proposal and held your ground, and the audience applauded."
+          },
+          "bad": {
+            "t": "Bueno… pasamos al siguiente ponente.", "n": "Well… let's move on to the next speaker.",
+            "end": "bad", "outcome": "You were too vague or dismissive. Nuance your view first, then commit to a concrete proposal."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Partly concede a point to another panellist (formally).", "t": ["Ahí le doy la razón en parte", "En parte le doy la razón", "Le doy la razón en parte"] },
+        { "n": "Say a family isn't the same as a big company.", "t": ["No es lo mismo una familia que una gran empresa", "Una familia no es lo mismo que una gran empresa"] }
+      ]
+    },
+    {
+      "id": "c1-u08-l7",
+      "kind": "speaking",
+      "title": "Your take on the big questions",
+      "goal": "Argue a nuanced position on language, migration and identity.",
+      "culture": {
+        "title": "Spanish that travelled: Judeo-Spanish",
+        "body": "When Spain expelled its Jews in 1492, many Sephardic families settled around the Mediterranean, especially in the Ottoman Empire, in cities such as Thessaloniki and Istanbul. They kept speaking their Spanish for centuries, and it developed into Judeo-Spanish, also called Ladino, with words borrowed from Hebrew, Turkish, Greek and other languages. Today it has relatively few speakers, most of them older, and it is considered endangered. It's a reminder that a language can travel with people and remain part of their identity long after they leave a place.",
+        "regions": ["ES", "TR", "GR", "IL"]
+      },
+      "phrases": [
+        { "t": "La lengua es parte de lo que somos.", "n": "Language is part of who we are." },
+        { "t": "Me siento de dos sitios a la vez.", "n": "I feel I'm from two places at once." },
+        { "t": "Las raíces no se olvidan.", "n": "You don't forget your roots." },
+        { "t": "Sin ánimo de polemizar, creo que nos equivocamos.", "n": "Without wanting to stir up controversy, I think we're getting it wrong." }
+      ],
+      "free": [
+        {
+          "n": "Should the children of migrants grow up speaking their parents' language? Weigh up both sides, add a condition and conclude with your own position on language and identity.",
+          "hint": "Es una cuestión que hay que matizar · Por un lado… por otro… · Defiendo la postura de que… · siempre y cuando… · A fin de cuentas… (identidad, raíces, bilingüismo, integrarse)",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "your stance", "any": ["defiendo", "sostengo", "en mi opinión", "a mi juicio", "considero", "creo que", "para mí"] },
+            { "label": "weigh both sides", "any": ["por un lado", "por otro", "no obstante", "sin embargo", "aunque", "matizar", "hasta cierto punto"] },
+            { "label": "a condition", "any": ["siempre y cuando", "siempre que", "con tal de que", "en la medida en que", "a condición de"] },
+            { "label": "language and identity", "any": ["identidad", "raíces", "bilingüismo", "bilingües", "bilingüe", "idioma", "lengua", "integrarse", "integración"] },
+            { "label": "a conclusion", "any": ["a fin de cuentas", "en definitiva", "en conclusión", "al fin y al cabo", "en resumen"] }
+          ],
+          "model": "Es una cuestión que hay que matizar. Por un lado, los hijos de migrantes necesitan dominar la lengua del país para integrarse; por otro, el idioma de sus padres los une a sus raíces y a su familia. Defiendo la postura de que deberían crecer bilingües, siempre y cuando nadie les haga sentir que una lengua vale menos que la otra. A fin de cuentas, la identidad no se pierde: se amplía."
+        }
+      ],
+      "prompts": [
+        { "n": "Say language is part of who we are.", "t": ["La lengua es parte de lo que somos", "El idioma es parte de lo que somos", "La lengua forma parte de lo que somos"] },
+        { "n": "Say you feel you're from two places at once.", "t": ["Me siento de dos sitios a la vez", "Me siento de dos lugares a la vez"] }
+      ]
+    },
+    {
+      "id": "c1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Grandes preguntas",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "c1-test",
+      "kind": "test",
+      "title": "C1 speaking test",
+      "goal": "Pass to earn your C1 badge and unlock C2.",
+      "tip": {
+        "title": "Nuance, precision, flow",
+        "body": "Sentences come from all eight C1 units, shown in English only: register and formality, discourse markers, nuance, persuading, presenting, diplomacy, storytelling and the big questions. Say them in Spanish from memory. Pick the right register, link your ideas with precise connectors (no obstante, siempre y cuando, en la medida en que), handle the subjunctive and the narrative tenses (ya había salido, si lo hubiera sabido…) and weigh things up before you commit. Fluency and nuance matter more than perfection, so keep going after small slips."
+      }
+    }
+  ]
+}

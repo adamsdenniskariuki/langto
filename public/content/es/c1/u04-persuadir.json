@@ -1,0 +1,306 @@
+{
+  "id": "c1-u04",
+  "title": "Persuadir",
+  "subtitle": "Persuasion & rhetoric in debates",
+  "icon": "🎯",
+  "lessons": [
+    {
+      "id": "c1-u04-l1",
+      "title": "Building a persuasive argument",
+      "goal": "Argue for a proposal with examples, figures and rhetorical questions.",
+      "tip": {
+        "title": "Claim, reason, example, conclusion",
+        "body": "A convincing argument has a clear arc: claim, reason, concrete example, conclusion (al fin y al cabo…, a fin de cuentas…). Rhetorical questions such as ¿Qué perdemos con probarlo? invite the listener to agree with you. Imagínense que… (imagine that…) takes the imperfect subjunctive when the scenario is hypothetical: Imagínense que no hiciéramos nada. Slow down on your key word and leave a short pause after a rhetorical question: silence makes it land. Vocabulary note: costs are los costes in Spain and los costos in Latin America."
+      },
+      "phrases": [
+        { "t": "Permítame ilustrarlo con un ejemplo.", "n": "Let me illustrate that with an example.", "note": "To a group: Permítanme… Informal: Déjame ponerte un ejemplo." },
+        { "t": "Imagínense por un momento que no hiciéramos nada.", "n": "Just imagine for a moment that we did nothing.", "note": "Spain, informal group: Imaginaos… One person (tú): Imagínate…" },
+        { "t": "Las cifras hablan por sí solas.", "n": "The figures speak for themselves." },
+        { "t": "¿Qué perdemos con probarlo?", "n": "What do we lose by trying it?", "note": "Rhetorical question: pause afterwards." },
+        { "t": "No solo eso, sino que además ahorraríamos tiempo.", "n": "Not only that, we'd also save time." },
+        { "t": "Al fin y al cabo, salimos ganando todos.", "n": "At the end of the day, we all come out ahead." },
+        { "t": "Ante el aumento de los costes, apenas nos queda otra opción.", "n": "Given the rise in costs, we hardly have any other option.", "note": "Latin America: los costos." },
+        { "t": "Lo que está en juego es nuestra capacidad de atraer talento.", "n": "What's at stake is our ability to attract talent." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Pitching a four-day week",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "¿Una semana de cuatro días? Te soy sincera: me suena a un experimento carísimo.", "n": "A four-day week? I'll be honest with you: it sounds like a very expensive experiment to me." },
+          { "who": "you", "t": "¿Qué perdemos con probarlo? Por ejemplo, tres meses en un solo equipo.", "n": "What do we lose by trying it? For example, three months in a single team." },
+          { "who": "A", "name": "Carmen", "t": "¿Y si se acumula el trabajo? Quedaríamos fatal con los clientes.", "n": "And if the work piles up? We'd look terrible in front of our clients.", "note": "Spain, colloquial: quedar fatal = to look really bad." },
+          { "who": "you", "t": "Déjame ponerte un ejemplo. Una empresa de Valencia hizo exactamente esa prueba, y las cifras hablan por sí solas: menos bajas y la misma productividad.", "n": "Let me give you an example. A company in Valencia ran exactly that trial, and the figures speak for themselves: less sick leave and the same productivity.", "note": "Spain: una baja = sick leave. Latin America: una incapacidad, una licencia médica." },
+          { "who": "A", "name": "Carmen", "t": "Ya. Pero reorganizarlo todo tampoco es poca cosa.", "n": "Right. But reorganising everything is no small thing either." },
+          { "who": "you", "t": "Es verdad, pero al fin y al cabo salimos ganando todos. Imagínate que perdiéramos a nuestra mejor gente.", "n": "True, but at the end of the day we all come out ahead. Imagine if we lost our best people." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask what you lose by trying it.", "t": ["Qué perdemos con probarlo", "Qué perdemos por probarlo", "Qué perdemos con intentarlo"] },
+        { "n": "Say the figures speak for themselves.", "t": ["Las cifras hablan por sí solas", "Los números hablan por sí solos", "Las cifras hablan por sí mismas"] },
+        { "n": "Conclude that, at the end of the day, everyone comes out ahead.", "t": ["Al fin y al cabo, salimos ganando todos", "A fin de cuentas, salimos ganando todos", "Al final, salimos ganando todos"] }
+      ]
+    },
+    {
+      "id": "c1-u04-l2",
+      "title": "Countering objections",
+      "goal": "Anticipate and rebut objections firmly but politely in a heated debate.",
+      "tip": {
+        "title": "Concede, then turn",
+        "body": "Take the wind out of your opponent's sails by naming the objection yourself: Se podría objetar que… Then concede briefly (Puede que sea así, Hasta cierto punto tiene razón) and turn it round: pero ese argumento se queda corto. Puede que takes the subjunctive. If someone puts words in your mouth, say so calmly: Me está atribuyendo algo que no he dicho. If you're interrupted, don't get louder; say Permítame terminar, por favor at a steady volume. Con todo respeto and con el debido respeto (with all due respect) both work everywhere, but they announce a sharp point, so use them sparingly."
+      },
+      "phrases": [
+        { "t": "Se podría objetar que es demasiado caro.", "n": "One might object that it's too expensive." },
+        { "t": "Puede que sea así, pero ese argumento se queda corto.", "n": "That may be so, but that argument falls short.", "note": "Puede que + subjunctive." },
+        { "t": "Es justamente al revés.", "n": "It's exactly the other way round." },
+        { "t": "Está usted confundiendo la causa con el efecto.", "n": "You're confusing cause and effect." },
+        { "t": "Precisamente por eso tenemos que actuar ya.", "n": "That's precisely why we have to act now." },
+        { "t": "Con todo respeto, me está atribuyendo algo que no he dicho.", "n": "With all due respect, you're attributing something to me that I haven't said.", "note": "Latin America often: …algo que no dije." },
+        { "t": "Permítame terminar, por favor.", "n": "Please let me finish.", "note": "Informal: Déjame terminar." },
+        { "t": "Quien algo quiere, algo le cuesta.", "n": "Nothing worth having comes for free.", "note": "Proverb: anything you want comes at a price." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Radio debate: a car-free historic centre",
+        "lines": [
+          { "who": "A", "name": "Dr. Salinas", "t": "Cerrar más calles del centro histórico al tráfico no va a resolver nada. Es pura propaganda.", "n": "Closing more streets in the historic centre to traffic won't solve anything. It's pure propaganda." },
+          { "who": "you", "t": "Es justamente al revés. Los propios comerciantes de las calles peatonales dicen que venden más.", "n": "It's exactly the other way round. The shopkeepers on the pedestrian streets themselves say they sell more." },
+          { "who": "A", "name": "Dr. Salinas", "t": "Eso dicen algunos. Y a usted, por lo visto, lo que piensen los automovilistas le da exactamente igual.", "n": "Some say that. And you, apparently, couldn't care less what drivers think." },
+          { "who": "you", "t": "Con todo respeto, me está atribuyendo algo que no he dicho. Se podría objetar que la medida perjudica a quien va en coche…", "n": "With all due respect, you're attributing something to me that I haven't said. One might object that the measure hurts people who drive…", "note": "Mexico also: en carro; Argentina: en auto." },
+          { "who": "A", "name": "Dr. Salinas", "t": "¡Claro que los perjudica! Cada calle que se cierra es un embotellamiento más, y usted lo sabe perfectamente.", "n": "Of course it hurts them! Every street that's closed is one more traffic jam, and you know that perfectly well!", "note": "Mexico: embotellamiento; Spain: atasco; Colombia: trancón." },
+          { "who": "you", "t": "Permítame terminar, por favor. A la larga, menos espacio para los coches significa menos coches, no más tráfico. Está usted confundiendo la causa con el efecto.", "n": "Please let me finish. In the long run, less space for cars means fewer cars, not more traffic. You're confusing cause and effect." }
+        ]
+      },
+      "prompts": [
+        { "n": "Anticipate the objection that it's too expensive.", "t": ["Se podría objetar que es demasiado caro", "Alguien podría objetar que es demasiado caro", "Se podría decir que es demasiado caro"] },
+        { "n": "Concede the point, but say the argument falls short.", "t": ["Puede que sea así, pero ese argumento se queda corto", "Puede ser, pero ese argumento se queda corto", "Puede que sea así, pero el argumento se queda corto"] },
+        { "n": "Firmly ask (usted) to be allowed to finish.", "t": ["Permítame terminar, por favor", "Permítame terminar", "Déjeme terminar, por favor", "Déjeme terminar"] }
+      ]
+    },
+    {
+      "id": "c1-u04-l3",
+      "title": "Making a proposal in committee",
+      "goal": "Table a proposal formally and win support with set expressions.",
+      "tip": {
+        "title": "Formal verb + noun pairs",
+        "body": "Formal debate loves fixed verb + noun collocations: someter a consideración (submit for consideration), someter a votación (put to a vote), tomar en consideración (take into consideration), poner a disposición (make available), llevar a cabo (carry out). They sound weightier than plain verbs like proponer or pensar, so use them when you address a committee and the simple verb in casual talk. Proponer que and rogar que take the subjunctive: Propongo que se someta a votación. Les ruego que tomen en consideración…"
+      },
+      "phrases": [
+        { "t": "Quisiera someter a su consideración la siguiente propuesta.", "n": "I'd like to submit the following proposal for your consideration." },
+        { "t": "Les ruego que tomen en consideración esta alternativa.", "n": "I ask you to take this alternative into consideration.", "note": "rogar que + subjunctive." },
+        { "t": "Así mataríamos dos pájaros de un tiro.", "n": "That way we'd kill two birds with one stone." },
+        { "t": "Aquí todos vamos en el mismo barco.", "n": "We're all in the same boat here." },
+        { "t": "Tengo la firme convicción de que la inversión se amortizará.", "n": "I'm firmly convinced the investment will pay for itself.", "note": "Also: Estoy convencido de que… (a woman says: convencida)." },
+        { "t": "La alcaldía pondría el terreno a disposición de los vecinos.", "n": "The city council would make the land available to residents.", "note": "Spain: el ayuntamiento. Latin America: la alcaldía, el municipio." },
+        { "t": "Propongo que se someta a votación en la próxima sesión.", "n": "I propose that it be put to a vote at the next session.", "note": "proponer que + subjunctive." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "At the local council in Medellín",
+        "lines": [
+          { "who": "A", "name": "Sra. Restrepo", "t": "Tiene usted la palabra. ¿Qué propone?", "n": "You have the floor. What do you propose?" },
+          { "who": "you", "t": "Quisiera someter a su consideración la siguiente propuesta: una huerta comunitaria en el antiguo parqueadero del barrio.", "n": "I'd like to submit the following proposal for your consideration: a community garden on the neighbourhood's old car park.", "note": "Colombia: parqueadero; Spain: aparcamiento; Mexico: estacionamiento." },
+          { "who": "A", "name": "Sra. Restrepo", "t": "¿Y qué ganan los vecinos, aparte de trabajo?", "n": "And what do residents gain, apart from work?" },
+          { "who": "you", "t": "Más zonas verdes y un punto de encuentro. Así mataríamos dos pájaros de un tiro.", "n": "More green space and a meeting place. That way we'd kill two birds with one stone." },
+          { "who": "A", "name": "Sra. Restrepo", "t": "Interesante. Pero ¿quién se haría cargo del mantenimiento?", "n": "Interesting. But who would take care of the maintenance?" },
+          { "who": "you", "t": "Una asociación de vecinos. La alcaldía solo pondría el terreno a disposición. Propongo que se someta a votación en la próxima sesión.", "n": "A residents' association. The council would only make the land available. I propose that it be put to a vote at the next session." }
+        ]
+      },
+      "prompts": [
+        { "n": "Formally submit a proposal for their consideration.", "t": ["Quisiera someter a su consideración la siguiente propuesta", "Quiero someter a su consideración la siguiente propuesta", "Quisiera someter a su consideración una propuesta"] },
+        { "n": "Say that this way you'd kill two birds with one stone.", "t": ["Así mataríamos dos pájaros de un tiro", "Así matamos dos pájaros de un tiro", "Mataríamos dos pájaros de un tiro"] },
+        { "n": "Say you're firmly convinced the investment will pay for itself.", "t": ["Tengo la firme convicción de que la inversión se amortizará", "Estoy convencido de que la inversión se amortizará", "Estoy convencida de que la inversión se amortizará", "Tengo la convicción de que la inversión se amortizará"] }
+      ]
+            },
+            {
+              "id": "c1-u04-l4",
+              "kind": "grammar",
+              "title": "Conceding without giving in",
+              "goal": "Use concessive structures (si bien, aunque + indicative or subjunctive, por muy … que, no obstante) to acknowledge and counter.",
+              "tip": {
+                "title": "Admit the point, keep your position",
+                "body": "Aunque + indicative concedes a fact you accept: Aunque el proyecto es caro (it is expensive, I admit). Aunque + subjunctive concedes something hypothetical or that you won't argue about: Aunque el proyecto sea caro (even if it is / however expensive it may be). Si bien (formal, 'although') takes the indicative. Por muy + adjective + que + subjunctive means 'however + adjective': Por muy buena que sea la idea, llega tarde. Por más que / por mucho que + subjunctive means 'however much': Por más que insistas… Sin embargo and no obstante start a new sentence: Los costes son altos. No obstante, deberíamos invertir."
+              },
+              "phrases": [
+                { "t": "Si bien el proyecto es caro, merece la pena.", "n": "Although the project is expensive, it's worth it.", "note": "Latin America usually: vale la pena." },
+                { "t": "Aunque los costes suben, mantenemos el plan.", "n": "Although costs are rising, we're sticking to the plan.", "note": "Latin America: los costos." },
+                { "t": "Aunque usted no lo vea así, los datos son claros.", "n": "Even if you don't see it that way, the data are clear." },
+                { "t": "Por muy buena que sea la idea, llega tarde.", "n": "However good the idea is, it comes too late." },
+                { "t": "Los costes son altos. No obstante, deberíamos invertir.", "n": "The costs are high. Nevertheless, we should invest." }
+              ],
+              "drills": [
+                {
+                  "title": "Swap the connector",
+                  "base": { "t": "El proyecto es caro, pero merece la pena.", "n": "The project is expensive, but it's worth it." },
+                  "items": [
+                    { "cue": "si bien", "t": "Si bien el proyecto es caro, merece la pena.", "n": "Although the project is expensive, it's worth it." },
+                    { "cue": "aunque · subjunctive", "t": "Aunque el proyecto sea caro, merece la pena.", "n": "Even if the project is expensive, it's worth it." },
+                    { "cue": "sin embargo", "t": "El proyecto es caro. Sin embargo, merece la pena.", "n": "The project is expensive. However, it's worth it." },
+                    { "cue": "a pesar de que", "t": "A pesar de que el proyecto es caro, merece la pena.", "n": "Despite the fact that the project is expensive, it's worth it." }
+                  ]
+                },
+                {
+                  "title": "However…",
+                  "base": { "t": "La idea es buena, pero llega tarde.", "n": "The idea is good, but it comes too late." },
+                  "items": [
+                    { "cue": "por muy … que", "t": "Por muy buena que sea la idea, llega tarde.", "n": "However good the idea is, it comes too late." },
+                    { "cue": "por muy … que · propuesta · creativa", "t": "Por muy creativa que sea la propuesta, llega tarde.", "n": "However creative the proposal is, it comes too late." },
+                    { "cue": "por más que · insistir (tú)", "t": "Por más que insistas, la idea llega tarde.", "n": "However much you insist, the idea comes too late." },
+                    { "cue": "aunque · subjunctive", "t": "Aunque la idea sea buena, llega tarde.", "n": "Even if the idea is good, it comes too late." }
+                  ]
+                }
+              ],
+              "prompts": [
+                { "n": "Concede that the project is expensive but say it's worth it (si bien).", "t": ["Si bien el proyecto es caro, merece la pena", "Si bien el proyecto es caro, vale la pena"] },
+                { "n": "Say: however good the idea is, it comes too late.", "t": ["Por muy buena que sea la idea, llega tarde", "Por buena que sea la idea, llega tarde", "Por muy buena que sea la idea, llega demasiado tarde"] }
+              ]
+            },
+            {
+              "id": "c1-u04-l5",
+              "kind": "listening",
+              "title": "Sell the car?",
+              "goal": "Follow an Argentine conversation in which one friend persuades another, and catch the voseo.",
+              "phrases": [
+                { "t": "La idea no me termina de convencer.", "n": "The idea doesn't quite convince me." },
+                { "t": "A la larga, te sale más caro.", "n": "In the long run, it works out more expensive for you." },
+                { "t": "Eso inclina la balanza.", "n": "That tips the balance." },
+                { "t": "Dale, lo pruebo un mes.", "n": "OK, I'll try it for a month.", "note": "Argentina, Uruguay: dale = OK, go on." }
+              ],
+              "story": {
+                "title": "¿Y si vendés el auto?",
+                "intro": "In Buenos Aires, Elena tries to persuade her friend Tomás to sell his car.",
+                "voice": "es-AR-ElenaNeural",
+                "lines": [
+                  { "name": "Elena", "t": "Tomás, ¿todavía pensás en cambiar el auto? Yo que vos, lo vendía y listo.", "n": "Tomás, are you still thinking of changing your car? If I were you, I'd just sell it.", "note": "Voseo: pensás = piensas. Yo que vos = if I were you (Spain: yo que tú). Colloquially the imperfect (vendía) can replace the conditional (vendería)." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¿Venderlo? Mirá, la idea no me termina de convencer. ¿Y cómo voy a la oficina, caminando?", "n": "Sell it? Look, the idea doesn't quite convince me. And how do I get to the office, on foot?" },
+                  { "name": "Elena", "t": "En bici, como yo. Hay ciclovía casi hasta tu oficina, y los días de lluvia te tomás el subte.", "n": "By bike, like me. There's a cycle lane almost all the way to your office, and on rainy days you take the underground.", "note": "Use tomar for transport: coger is vulgar in Argentina and Mexico." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Puede ser, pero el auto ya está pago. No gasto nada.", "n": "Maybe, but the car's already paid off. I don't spend anything.", "note": "Rioplatense: está pago = está pagado." },
+                  { "name": "Elena", "t": "¿Nada? Sumá el seguro, la nafta, el estacionamiento y los arreglos. A la larga, te sale mucho más caro de lo que creés.", "n": "Nothing? Add up the insurance, the petrol, the parking and the repairs. In the long run it works out much more expensive than you think.", "note": "Argentina: la nafta; Spain and Mexico: la gasolina." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Bueno, eso es cierto. Pero tardaría más, ¿no?", "n": "Well, that's true. But it would take longer, wouldn't it?" },
+                  { "name": "Elena", "t": "Al revés. En hora pico, en bici llegás en veinte minutos. En auto tardás cuarenta, con suerte.", "n": "The other way round. At rush hour, you get there in twenty minutes by bike. By car it takes you forty, if you're lucky.", "note": "Latin America: hora pico; Spain: hora punta." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¿Veinte en vez de cuarenta? Eso inclina la balanza. Dale, lo pruebo un mes y después decido.", "n": "Twenty instead of forty? That tips the balance. OK, I'll try it for a month and then decide." }
+                ],
+                "questions": [
+                  { "q": "¿Qué le propone Elena a Tomás?", "n": "What does Elena suggest to Tomás?", "t": ["Vender el auto", "Que venda el auto", "Vender el coche", "Que venda el coche"] },
+                  { "q": "¿Cuánto tardaría Tomás en bici en hora pico?", "n": "How long would Tomás take by bike at rush hour?", "t": ["Veinte minutos", "Unos veinte minutos", "20 minutos"] },
+                  { "q": "¿Qué decide Tomás al final?", "n": "What does Tomás decide in the end?", "t": ["Probarlo un mes", "Probar la bici un mes", "Lo prueba un mes", "Probar un mes"] }
+                ]
+              }
+            },
+            {
+              "id": "c1-u04-l6",
+              "kind": "roleplay",
+              "title": "Before the funding committee",
+              "goal": "Win over a sceptical committee chair. Your answers decide the funding.",
+              "phrases": [
+                { "t": "¿Me permite responder directamente a su objeción?", "n": "May I respond directly to your objection?" },
+                { "t": "Asumo personalmente la responsabilidad.", "n": "I take personal responsibility." },
+                { "t": "Estamos abiertos a buscar un punto intermedio.", "n": "We're open to finding a middle ground." },
+                { "t": "¿Podría concretar un poco más la pregunta?", "n": "Could you make the question a little more specific?" }
+              ],
+              "branch": {
+                "title": "Ante la comisión",
+                "scene": "You are asking a foundation's committee in Zaragoza for €60,000 for digital-skills workshops for older people in rural villages. The chair is sceptical.",
+                "name": "Sr. Ferrer",
+                "voice": "es-ES-DarioNeural",
+                "start": "open",
+                "nodes": {
+                  "open": {
+                    "t": "¿Sesenta mil euros para unos talleres de informática? Me parece una cantidad considerable.", "n": "Sixty thousand euros for some computer workshops? That seems a considerable amount to me.",
+                    "choices": [
+                      { "t": "¿Me permite responder directamente a su objeción? Hablamos de cuatrocientas personas mayores en veinte pueblos durante dos años.", "n": "May I respond directly to your objection? We're talking about four hundred older people in twenty villages over two years.", "next": "numbers" },
+                      { "t": "Otros proyectos reciben lo mismo, ¿no?", "n": "Other projects get the same, don't they?", "next": "compare" }
+                    ]
+                  },
+                  "compare": {
+                    "t": "Los demás proyectos no vienen al caso. Convénzame del suyo.", "n": "The other projects are beside the point. Convince me of yours.",
+                    "choices": [
+                      { "t": "Por supuesto. Hablamos de cuatrocientas personas mayores en veinte pueblos durante dos años.", "n": "Of course. We're talking about four hundred older people in twenty villages over two years.", "next": "numbers" },
+                      { "t": "Si no lo ve claro, no sé qué más decirle.", "n": "If you can't see it, I don't know what else to tell you.", "next": "bad" }
+                    ]
+                  },
+                  "numbers": {
+                    "t": "Eso son setenta y cinco euros por persona y año, de acuerdo. Pero ¿cómo sabe que funciona?", "n": "That's seventy-five euros per person per year, granted. But how do you know it works?",
+                    "choices": [
+                      { "t": "En el proyecto piloto, el ochenta por ciento de los participantes ya pide cita médica por internet.", "n": "In the pilot project, eighty percent of the participants now book doctor's appointments online.", "next": "risk" },
+                      { "t": "¿Podría concretar un poco más la pregunta? ¿Se refiere al aprendizaje o al uso real?", "n": "Could you make the question a little more specific? Do you mean learning or actual use?", "next": "clarify" }
+                    ]
+                  },
+                  "clarify": {
+                    "t": "A las dos cosas, pero sobre todo al uso real en el día a día.", "n": "Both, but above all actual use in everyday life.",
+                    "choices": [
+                      { "t": "En el piloto, el ochenta por ciento de los participantes ya pide cita médica por internet.", "n": "In the pilot, eighty percent of the participants now book doctor's appointments online.", "next": "risk" }
+                    ]
+                  },
+                  "risk": {
+                    "t": "Notable. Aun así, ¿qué pasa si la participación cae en picado?", "n": "Impressive. Even so, what happens if participation plummets?",
+                    "choices": [
+                      { "t": "Asumo personalmente la responsabilidad. Y estamos abiertos a buscar un punto intermedio: financiar un primer año y luego hacer balance.", "n": "I take personal responsibility. And we're open to finding a middle ground: fund a first year and then take stock.", "next": "good" },
+                      { "t": "Eso no va a pasar, confíe en mí.", "n": "That won't happen, trust me.", "next": "doubt" }
+                    ]
+                  },
+                  "doubt": {
+                    "t": "Con un «confíe en mí» poco puedo hacer ante la comisión.", "n": "I can't do much with 'trust me' in front of the committee.",
+                    "choices": [
+                      { "t": "Lo entiendo. Entonces propongo financiar un primer año y hacer un balance intermedio.", "n": "I understand. Then I propose funding a first year and doing an interim review.", "next": "good" },
+                      { "t": "Pues tendrá que fiarse.", "n": "Well, you'll just have to trust me.", "next": "bad" }
+                    ]
+                  },
+                  "good": {
+                    "t": "Me parece justo. Recomendaré a la comisión que financie el primer año.", "n": "That seems fair. I'll recommend that the committee fund the first year.",
+                    "end": "good", "outcome": "You handled every objection calmly, backed it with figures and won funding for the first year."
+                  },
+                  "bad": {
+                    "t": "Creo que hemos terminado. Que pase el siguiente, por favor.", "n": "I think we're done. Next, please.",
+                    "end": "bad", "outcome": "You lost your composure. Committees reward calm, concrete answers to tough questions."
+                  }
+                }
+              },
+              "prompts": [
+                { "n": "Ask (usted) if you may respond directly to their objection.", "t": ["Me permite responder directamente a su objeción", "Me permite responder a su objeción", "Puedo responder directamente a su objeción"] },
+                { "n": "Say you're open to finding a middle ground.", "t": ["Estamos abiertos a buscar un punto intermedio", "Estamos abiertos a un punto intermedio", "Estamos dispuestos a buscar un punto intermedio"] }
+              ]
+            },
+            {
+              "id": "c1-u04-l7",
+              "kind": "speaking",
+              "title": "Make your case",
+              "goal": "Argue for a proposal and rebut an objection freely for a minute and a half.",
+              "culture": {
+                "title": "La tertulia",
+                "body": "A tertulia is an informal, recurring gathering to discuss ideas, from literature and politics to football, traditionally held in a café. Famous literary tertulias met in Madrid cafés such as the Café Gijón, and the Café Tortoni in Buenos Aires is also associated with them. Today the word is also used for radio and TV panel shows where tertulianos argue about current affairs. In lively discussions in Spain and Argentina, people often overlap and finish each other's sentences; this isn't necessarily rude, so don't wait for a perfect silence                 to make your point.",
+                "regions": ["ES", "AR"]
+              },
+              "phrases": [
+                { "t": "Quisiera ganarme su apoyo para esta idea.", "n": "I'd like to win your support for this idea." },
+                { "t": "Ese argumento me ha convencido.", "n": "That argument has convinced me.", "note": "Latin America often: me convenció." },
+                { "t": "Denle una oportunidad.", "n": "Give it a chance.", "note": "Spain, informal group: Dadle una oportunidad." },
+                { "t": "Al final, decide la mayoría.", "n": "In the end, the majority decides." }
+              ],
+              "free": [
+                {
+                  "n": "Persuade your city council to build a new cycle lane (or another project you care about). Make a claim, concede a weakness, give an example or figure and draw a conclusion.",
+                  "hint": "Quisiera ganarme su apoyo para… / Si bien…, … / Es cierto que…, pero… / Imagínense que… / Por ejemplo… / Al fin y al cabo…",
+                  "seconds": 90,
+                  "minWords": 40,
+                  "targets": [
+                    { "label": "a proposal", "any": ["propongo", "propuesta", "carril bici", "ciclovía", "apoyo", "quisiera"] },
+                    { "label": "a concession", "any": ["si bien", "aunque", "a pesar de", "puede que", "es cierto", "no obstante", "sin embargo"] },
+                    { "label": "an example or figure", "any": ["por ejemplo", "imagínense", "por ciento", "cifras", "datos", "mil"] },
+                    { "label": "a conclusion", "any": ["al fin y al cabo", "a fin de cuentas", "en definitiva", "por eso", "salimos ganando"] }
+                  ],
+                  "model": "Quisiera ganarme su apoyo para un carril bici que llegue hasta el instituto. Si bien cuesta cerca de un millón, imagínense que trescientos chicos pudieran ir a clase en bici sin peligro. Por ejemplo, en otras ciudades medidas así han reducido mucho el tráfico en hora punta. Es cierto que habrá obras durante unos meses, pero al fin y al cabo salimos ganando todos."
+                }
+              ],
+              "prompts": [
+                { "n": "Say you'd like to win their support (usted/ustedes) for this idea.", "t": ["Quisiera ganarme su apoyo para esta idea", "Me gustaría ganarme su apoyo para esta idea", "Quiero ganarme su apoyo para esta idea"] },
+                { "n": "Say that argument has convinced you.", "t": ["Ese argumento me ha convencido", "Ese argumento me convenció"] }
+              ]
+            },
+            {
+              "id": "c1-u04-cp",
+              "kind": "checkpoint",
+              "title": "Checkpoint: Persuadir",
+              "goal": "Say the unit's phrases from memory."
+            }
+          ]
+        }
