@@ -1,0 +1,306 @@
+{
+  "id": "c1-u05",
+  "title": "Presentar y responder",
+  "subtitle": "Presentations & handling Q&A",
+  "icon": "🎤",
+  "lessons": [
+    {
+      "id": "c1-u05-l1",
+      "title": "Structuring a presentation",
+      "goal": "Open, structure and close a professional or academic presentation with clear signposting.",
+      "tip": {
+        "title": "Signposts guide your audience",
+        "body": "Listeners can't scroll back, so tell them where you are: Mi exposición se divide en tres partes, En primer lugar…, Esto me lleva al segundo punto, Permítanme resumir… Cabe destacar (it's worth highlighting) flags your key idea. Address the audience as ustedes everywhere; in Spain a relaxed talk may switch to vosotros (como podéis ver), but ustedes is never wrong. Speak noticeably slower than in conversation, pause after every signpost and let your pitch fall at the end of each sentence to sound confident."
+      },
+      "phrases": [
+        { "t": "Hoy me gustaría presentarles los resultados de nuestro estudio.", "n": "Today I'd like to present the results of our study to you." },
+        { "t": "Mi exposición se divide en tres partes.", "n": "My talk is divided into three parts.", "note": "Also: mi presentación, mi ponencia (at a conference), mi charla (less formal)." },
+        { "t": "En primer lugar, haré un breve repaso del estado de la cuestión.", "n": "First, I'll give a brief overview of the current state of research.", "note": "el estado de la cuestión = academic 'state of the art'." },
+        { "t": "Esto me lleva al segundo punto.", "n": "This brings me to the second point." },
+        { "t": "Como pueden ver en esta diapositiva, la proporción ha aumentado notablemente.", "n": "As you can see on this slide, the proportion has risen considerably." },
+        { "t": "Cabe destacar, sobre todo, el papel de la educación.", "n": "What deserves particular emphasis is the role of education." },
+        { "t": "Permítanme resumir brevemente los puntos clave.", "n": "Let me briefly sum up the key points." },
+        { "t": "Muchas gracias por su atención; quedo a su disposición para cualquier pregunta.", "n": "Thank you very much for your attention; I'm happy to take any questions." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Rehearsal with your supervisor",
+        "lines": [
+          { "who": "A", "name": "Dra. Ortega", "t": "A ver, imagina que ya estás en el auditorio. ¿Cómo empiezas?", "n": "Right, imagine you're already in the lecture hall. How do you start?" },
+          { "who": "you", "t": "Buenos días a todos. Hoy me gustaría presentarles los resultados de nuestro estudio. Mi exposición se divide en tres partes.", "n": "Good morning, everyone. Today I'd like to present the results of our study to you. My talk is divided into three parts." },
+          { "who": "A", "name": "Dra. Ortega", "t": "Muy bien, clarísimo. ¿Y cómo pasas a los datos?", "n": "Very good, crystal clear. And how do you move on to the data?" },
+          { "who": "you", "t": "Esto me lleva al segundo punto. Como pueden ver en esta diapositiva, la proporción ha aumentado notablemente.", "n": "This brings me to the second point. As you can see on this slide, the proportion has risen considerably." },
+          { "who": "A", "name": "Dra. Ortega", "t": "Perfecto. Solo una cosa: haz una pausa después de cada transición, que vas muy rápido. ¿Y el cierre?", "n": "Perfect. Just one thing: pause after each transition, because you're going very fast. And the ending?" },
+          { "who": "you", "t": "Permítanme resumir brevemente los puntos clave. Muchas gracias por su atención; quedo a su disposición para cualquier pregunta.", "n": "Let me briefly sum up the key points. Thank you very much for your attention; I'm happy to take any questions." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say your talk is divided into three parts.", "t": ["Mi exposición se divide en tres partes", "Mi presentación se divide en tres partes", "Mi charla se divide en tres partes", "Mi ponencia se divide en tres partes"] },
+        { "n": "Move on: say this brings you to the second point.", "t": ["Esto me lleva al segundo punto", "Esto nos lleva al segundo punto", "Paso ahora al segundo punto"] },
+        { "n": "Thank the audience and say you're happy to take any questions.", "t": ["Muchas gracias por su atención, quedo a su disposición para cualquier pregunta", "Gracias por su atención, quedo a su disposición para cualquier pregunta", "Muchas gracias por su atención, quedo a su disposición"] }
+      ]
+    },
+    {
+      "id": "c1-u05-l2",
+      "title": "Handling questions",
+      "goal": "Respond to audience questions confidently: clarify, answer, admit gaps and stay in control.",
+      "tip": {
+        "title": "Buy time, stay in control",
+        "body": "Thanking the questioner and paraphrasing the question (Si he entendido bien, su duda se refiere a…) gives you valuable seconds to think. In Latin America you'll often hear Si entendí bien… It's perfectly professional to admit a gap if you promise to follow up: No tengo ese dato a mano, pero se lo hago llegar. To park an off-topic question: Me temo que eso excedería el marco de esta charla. Keep your intonation calm and falling, even with a critical question; a rising, hurried tone sounds defensive."
+      },
+      "phrases": [
+        { "t": "Muchas gracias por la pregunta, es muy pertinente.", "n": "Thank you for the question, it's very relevant." },
+        { "t": "Si he entendido bien, su duda se refiere a la metodología.", "n": "If I've understood correctly, your question is about the methodology.", "note": "Latin America often: Si entendí bien…" },
+        { "t": "Es un punto importante, en el que me detendré con gusto.", "n": "It's an important point, which I'm happy to go into." },
+        { "t": "No tengo ese dato a mano, pero se lo hago llegar con mucho gusto.", "n": "I don't have that figure to hand, but I'll gladly send it to you." },
+        { "t": "Me temo que eso excedería el marco de esta charla.", "n": "I'm afraid that would go beyond the scope of this talk." },
+        { "t": "No hay una respuesta sencilla a esa pregunta.", "n": "There's no simple answer to that question." },
+        { "t": "¿Podría precisar un poco más su pregunta?", "n": "Could you make your question a little more specific?" },
+        { "t": "¿Responde esto a su pregunta?", "n": "Does that answer your question?" }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "A critical question from the audience",
+        "lines": [
+          { "who": "A", "name": "Prof. Cárdenas", "t": "Gracias por la presentación. Tengo una duda: ¿no es su muestra demasiado pequeña para sacar conclusiones?", "n": "Thank you for the presentation. I have a question: isn't your sample too small to draw conclusions?" },
+          { "who": "you", "t": "Muchas gracias por la pregunta, es muy pertinente. Si he entendido bien, su duda se refiere a la metodología.", "n": "Thank you for the question, it's very relevant. If I've understood correctly, your question is about the methodology." },
+          { "who": "A", "name": "Prof. Cárdenas", "t": "Exacto. Ciento veinte participantes me parecen pocos. ¿Y cuántos venían de zonas rurales?", "n": "Exactly. A hundred and twenty participants seems few to me. And how many came from rural areas?" },
+          { "who": "you", "t": "No tengo ese dato a mano, pero se lo hago llegar con mucho gusto. En cuanto al tamaño, es un estudio piloto, y así lo indicamos.", "n": "I don't have that figure to hand, but I'll gladly send it to you. As for the size, it's a pilot study, and we say so." },
+          { "who": "A", "name": "Prof. Cárdenas", "t": "Entiendo. ¿Y piensan ampliarlo a otros países de la región?", "n": "I see. And do you plan to extend it to other countries in the region?" },
+          { "who": "you", "t": "Me temo que eso excedería el marco de esta charla, pero si quiere, lo comentamos en la pausa. ¿Responde esto a su pregunta?", "n": "I'm afraid that would go beyond the scope of this talk, but if you like, we can discuss it in the break. Does that answer your question?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Paraphrase: if you've understood correctly, their question is about the methodology.", "t": ["Si he entendido bien, su duda se refiere a la metodología", "Si entendí bien, su duda se refiere a la metodología", "Si he entendido bien, su pregunta se refiere a la metodología", "Si entendí bien, su pregunta se refiere a la metodología"] },
+        { "n": "Admit you don't have that figure to hand, but offer to send it.", "t": ["No tengo ese dato a mano, pero se lo hago llegar con mucho gusto", "No tengo ese dato a mano, pero se lo hago llegar", "No tengo ese dato aquí, pero se lo hago llegar"] },
+        { "n": "Ask whether that answers their question.", "t": ["Responde esto a su pregunta", "Con esto respondo a su pregunta", "Le responde esto a su pregunta"] }
+      ]
+    },
+    {
+      "id": "c1-u05-l3",
+      "title": "Presenting charts and data",
+      "goal": "Describe a chart precisely and point out what matters.",
+      "tip": {
+        "title": "Lead the eye",
+        "body": "Name the chart first (El gráfico muestra…; la gráfica is just as common), then the axes (el eje horizontal, el eje vertical), then the one trend you want people to remember. Llama la atención… (what stands out is…) is the classic way to highlight a detail. Useful verbs: duplicarse (to double), reducirse a la mitad (to halve), mantenerse estable. Read years as full numbers: 2015 = dos mil quince. Point at the slide while you speak, then turn back to the audience."
+      },
+      "phrases": [
+        { "t": "El gráfico muestra la evolución de los últimos diez años.", "n": "The chart shows the development over the last ten years.", "note": "Also: la gráfica." },
+        { "t": "En el eje horizontal figura el tiempo y en el vertical, la facturación.", "n": "Time is on the horizontal axis and turnover on the vertical one.", "note": "Latin America often: las ventas, los ingresos." },
+        { "t": "Desde 2015, la cifra prácticamente se ha duplicado.", "n": "Since 2015, the figure has practically doubled.", "note": "Read: dos mil quince." },
+        { "t": "Llama la atención el fuerte descenso de 2020.", "n": "What stands out is the sharp drop in 2020." },
+        { "t": "Enseguida vuelvo sobre ese punto.", "n": "I'll come back to that point in a moment." },
+        { "t": "Dicho de otro modo, uno de cada tres clientes compra en línea.", "n": "In other words, one in three customers buys online." },
+        { "t": "La tendencia se ha mantenido estable desde entonces.", "n": "The trend has remained stable since then." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "Checking slides with a colleague",
+        "lines": [
+          { "who": "A", "name": "Javier", "t": "Oye, ¿me enseñas la diapositiva del gráfico antes de la reunión?", "n": "Hey, will you show me the chart slide before the meeting?" },
+          { "who": "you", "t": "Claro. El gráfico muestra la evolución de los últimos diez años. En el eje horizontal figura el tiempo y en el vertical, la facturación.", "n": "Sure. The chart shows the development over the last ten years. Time is on the horizontal axis and turnover on the vertical one." },
+          { "who": "A", "name": "Javier",           "t": "Vale. ¿Y cuál es el mensaje principal?", "n": "OK. And what's the main message?" },
+                    { "who": "you", "t": "Que desde 2015 la cifra prácticamente se ha duplicado. Aunque llama la atención el fuerte descenso de 2020.", "n": "That since 2015 the figure has practically doubled. Although the sharp drop in 2020 does stand out." },
+          { "who": "A", "name": "Javier", "t": "Ya, eso te lo van a preguntar seguro.", "n": "Yeah, they're bound to ask you about that." },
+          { "who": "you", "t": "Lo sé. Por eso digo: enseguida vuelvo sobre ese punto. Lo explico en la diapositiva siguiente.", "n": "I know. That's why I say: I'll come back to that point in a moment. I explain it on the next slide." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say the chart shows the development over the last ten years.", "t": ["El gráfico muestra la evolución de los últimos diez años", "La gráfica muestra la evolución de los últimos diez años"] },
+        { "n": "Say you'll come back to that point in a moment.", "t": ["Enseguida vuelvo sobre ese punto", "Enseguida vuelvo sobre eso", "Ahora vuelvo sobre ese punto"] },
+        { "n": "Say the trend has remained stable since then.", "t": ["La tendencia se ha mantenido estable desde entonces", "La tendencia se mantuvo estable desde entonces"] }
+      ]
+            },
+            {
+              "id": "c1-u05-l4",
+              "kind": "grammar",
+              "title": "Nominal style for slides and summaries",
+              "goal": "Turn verbs into nouns to sound concise and academic.",
+              "tip": {
+                "title": "Nominalización: the verb becomes a noun",
+                "body": "Reports and slides love nouns: porque los costes aumentaron becomes debido al aumento de los costes. The verb turns into a noun (analizar → el análisis, aumentar → el aumento, revisar → la revisión, implantar → la implantación, mejorar → la mejora), a preposition or connector introduces it (tras, durante, debido a, con vistas a) and what was the verb's object follows with de: el análisis de los datos. Remember de + el = del and a + el = al. Use this style for slide titles and summaries, but explain things out loud in a more verbal style. Spain says los costes and la implantación; Latin America usually los costos and la implementación."
+              },
+              "phrases": [
+                { "t": "Tras el análisis de los datos, el panorama quedó claro.", "n": "After analysing the data, the picture became clear." },
+                { "t": "Debido al aumento de los costes, aplazamos el proyecto.", "n": "Because of the rise in costs, we're postponing the project.", "note": "Latin America: los costos; also posponemos." },
+                { "t": "La implantación del nuevo sistema se desarrolló sin problemas.", "n": "The introduction of the new system went smoothly.", "note": "Latin America usually: la implementación." },
+                { "t": "Con vistas a la mejora de la calidad, proponemos tres medidas.", "n": "With a view to improving quality, we propose three measures." },
+                { "t": "Durante la revisión, detectamos un error.", "n": "During the review, we detected an error." }
+              ],
+              "drills": [
+                {
+                  "title": "Swap the cause",
+                  "base": { "t": "Debido al aumento de los costes, aplazamos el proyecto.", "n": "Because of the rise in costs, we're postponing the project." },
+                  "items": [
+                    { "cue": "caer → la caída · las ventas", "t": "Debido a la caída de las ventas, aplazamos el proyecto.", "n": "Because of the fall in sales, we're postponing the project." },
+                    { "cue": "retrasarse → el retraso · las obras", "t": "Debido al retraso de las obras, aplazamos el proyecto.", "n": "Because of the delay in the building work, we're postponing the project." },
+                    { "cue": "faltar → la falta · personal", "t": "Debido a la falta de personal, aplazamos el proyecto.", "n": "Because of the lack of staff, we're postponing the project." }
+                  ]
+                },
+                {
+                  "title": "Verb → noun",
+                  "base": { "t": "Analizamos los datos y detectamos un error.", "n": "We analysed the data and detected an error." },
+                  "items": [
+                    { "cue": "tras · el análisis", "t": "Tras el análisis de los datos, detectamos un error.", "n": "After analysing the data, we detected an error." },
+                    { "cue": "durante · el análisis", "t": "Durante el análisis de los datos, detectamos un error.", "n": "While analysing the data, we detected an error." },
+                    { "cue": "revisar → tras · la revisión", "t": "Tras la revisión de los datos, detectamos un error.", "n": "After reviewing the data, we detected an error." },
+                    { "cue": "evaluar → durante · la evaluación", "t": "Durante la evaluación de los datos, detectamos un error.", "n": "While evaluating the data, we detected an error." }
+                  ]
+                }
+              ],
+              "prompts": [
+                { "n": "In nominal style, say that because of the rise in costs, you're postponing the project.", "t": ["Debido al aumento de los costes, aplazamos el proyecto", "Debido al aumento de los costos, aplazamos el proyecto", "Debido al aumento de los costos, posponemos el proyecto", "Debido al aumento de los costes, posponemos el proyecto"] },
+                { "n": "Say that after analysing the data (tras + noun), the picture became clear.", "t": ["Tras el análisis de los datos, el panorama quedó claro", "Después del análisis de los datos, el panorama quedó claro", "Tras el análisis de los datos, el panorama se aclaró"] }
+              ]
+            },
+            {
+              "id": "c1-u05-l5",
+              "kind": "listening",
+              "title": "After the conference talk",
+              "goal": "Follow two Argentine colleagues evaluating a presentation.",
+              "phrases": [
+                { "t": "En cuanto al contenido, la charla fue muy sólida.", "n": "As for the content, the talk was very solid." },
+                { "t": "La moderadora tuvo que interrumpirla.", "n": "The chair had to interrupt her." },
+                { "t": "Respondió a las críticas con mucha calma.", "n": "She responded to the criticism very calmly." },
+                { "t": "Eso es justamente lo que la hace creíble.", "n": "That's exactly what makes her credible." }
+              ],
+              "story": {
+                "title": "Pausa para el café",
+                "intro": "At a conference in Córdoba, Argentina, Elena and Tomás discuss a talk they have just heard.",
+                "voice": "es-AR-ElenaNeural",
+                "lines": [
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¿Y? ¿Qué te pareció la charla de la doctora Ibáñez?", "n": "So? What did you think of Dr Ibáñez's talk?" },
+                  { "name": "Elena", "t": "En cuanto al contenido, muy sólida. Pero se pasó de tiempo: habló casi cuarenta minutos en vez de veinte.", "n": "As for the content, very solid. But she ran over time: she spoke for almost forty minutes instead of twenty." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Sí, al final la moderadora tuvo que interrumpirla. Y las diapositivas tenían demasiado texto, ¿viste?", "n": "Yes, in the end the chair had to interrupt her. And the slides had too much text, didn't they?", "note": "Argentina: ¿viste? = you know?, right?" },
+                  { "name": "Elena", "t": "Totalmente. Pero en las preguntas estuvo brillante. ¿Te acordás de aquel señor que dijo que la muestra no servía?", "n": "Totally. But in the Q&A she was brilliant. Do you remember that man who said the sample was useless?", "note": "Voseo: te acordás = te acuerdas." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¡Cómo no! Fue bastante agresivo. Yo me hubiera puesto nerviosísimo.", "n": "Of course! He was pretty aggressive. I'd have got really nervous." },
+                  { "name": "Elena", "t": "Ella no. Respondió a las críticas con mucha calma y hasta reconoció que los resultados son preliminares.", "n": "Not her. She responded to the criticism very calmly and even admitted that the results are preliminary." },
+                  { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Eso es justamente lo que la hace creíble. Nadie tiene todas las respuestas.", "n": "That's exactly what makes her credible. Nobody has all the answers." },
+                  { "name": "Elena", "t": "Exacto. Si recorta la charla a la mitad, la próxima vez va a ser perfecta.", "n": "Exactly. If she cuts the talk in half, next time it'll be perfect." }
+                ],
+                "questions": [
+                  { "q": "¿Cuánto tiempo habló la doctora Ibáñez?", "n": "How long did Dr Ibáñez speak for?", "t": ["Casi cuarenta minutos", "Cuarenta minutos", "Unos cuarenta minutos", "40 minutos"] },
+                  { "q": "¿Qué problema tenían las diapositivas?", "n": "What was the problem with the slides?", "t": ["Tenían demasiado texto", "Demasiado texto", "Mucho texto"] },
+                  { "q": "¿Cómo respondió a las críticas?", "n": "How did she respond to the criticism?", "t": ["Con mucha calma", "Con calma", "Muy tranquila"] }
+                ]
+              }
+            },
+            {
+              "id": "c1-u05-l6",
+              "kind": "roleplay",
+              "title": "A sceptic in the Q&A",
+              "goal": "Handle a critical question after your talk calmly and convincingly.",
+              "phrases": [
+                { "t": "Le agradezco la observación.", "n": "Thank you for the remark." },
+                { "t": "Es una observación muy válida.", "n": "That's a very fair point." },
+                { "t": "Los resultados son preliminares.", "n": "The results are preliminary." },
+                { "t": "Si le parece, lo seguimos hablando en la pausa.", "n": "If you like, we can keep talking about it in the break." }
+              ],
+              "branch": {
+                "title": "Preguntas del público",
+                "scene": "You have just presented a pilot study on a reading programme in primary schools at a conference in Guadalajara, Mexico. A senior researcher raises his hand.",
+                "name": "Dr. Villaseñor",
+                "voice": "es-MX-LibertoNeural",
+                "start": "start",
+                "nodes": {
+                  "start": {
+                    "t": "Gracias. Seré directo: con cuarenta alumnos, ¿no le parece un poco atrevido hablar de un «efecto claro»?", "n": "Thank you. I'll be direct: with forty pupils, don't you think it's a bit bold to talk about a 'clear effect'?",
+                    "choices": [
+                      { "t": "Le agradezco la observación. Es muy válida: por eso insistimos en que los resultados son preliminares.", "n": "Thank you for the remark. It's very fair: that's why we stress that the results are preliminary.", "next": "method" },
+                      { "t": "Bueno, es lo que dicen los datos.", "n": "Well, that's what the data say.", "next": "defensive" }
+                    ]
+                  },
+                  "defensive": {
+                    "t": "Con una muestra tan pequeña, los datos dicen casi lo que uno quiera.", "n": "With such a small sample, the data say almost whatever you want them to.",
+                    "choices": [
+                      { "t": "Tiene razón en que la muestra es pequeña. Por eso hablamos de resultados preliminares.", "n": "You're right that the sample is small. That's why we talk about preliminary results.", "next": "method" },
+                      { "t": "Con todo respeto, creo que no ha entendido el estudio.", "n": "With all due respect, I don't think you've understood the study.", "next": "bad" }
+                    ]
+                  },
+                  "method": {
+                    "t": "De acuerdo. Pero entonces, ¿por qué no lo compararon con un grupo de control?", "n": "All right. But then why didn't you compare it with a control group?",
+                    "choices": [
+                      { "t": "Sí lo hicimos: había un grupo de control de otros cuarenta alumnos. Quizá no quedó claro en la diapositiva.", "n": "We did: there was a control group of another forty pupils. Perhaps that wasn't clear on the slide.", "next": "control" },
+                      { "t": "Me temo que eso excedería el marco de esta charla.", "n": "I'm afraid that would go beyond the scope of this talk.", "next": "dodge" }
+                    ]
+                  },
+                  "dodge": {
+                    "t": "Perdone, pero no es un detalle: es la base de cualquier estudio serio.", "n": "Excuse me, but that's not a detail: it's the basis of any serious study.",
+                    "choices": [
+                      { "t": "Tiene toda la razón. Había un grupo de control de cuarenta alumnos; debí explicarlo mejor.", "n": "You're absolutely right. There was a control group of forty pupils; I should have explained it better.", "next": "control" },
+                      { "t": "Ya le he dicho que no hay tiempo para eso.", "n": "I've already told you there's no time for that.", "next": "bad" }
+                    ]
+                  },
+                  "control": {
+                    "t": "Ah, eso cambia las cosas. ¿Y piensan ampliar la muestra?", "n": "Ah, that changes things. And are you planning to enlarge the sample?",
+                    "choices": [
+                      { "t": "Sí, el año que viene, a diez escuelas. Si le parece, lo seguimos hablando en la pausa; me interesa mucho su opinión.", "n": "Yes, next year, to ten schools. If you like, we can keep talking about it in the break; I'm very interested in your opinion.", "next": "good" },
+                      { "t": "Si nos da usted la financiación, con mucho gusto.", "n": "If you give us the funding, gladly.", "next": "cheeky" }
+                    ]
+                  },
+                  "cheeky": {
+                    "t": "(risas en la sala) Muy gracioso. ¿Pero lo tienen previsto o no?", "n": "(laughter in the room) Very funny. But are you planning it or not?",
+                    "choices": [
+                      { "t": "Perdone la broma. Sí: el año que viene lo ampliamos a diez escuelas. Si le parece, lo seguimos hablando en la pausa.", "n": "Forgive the joke. Yes: next year we're extending it to ten schools. If you like, we can keep talking about it in the break.", "next": "good" }
+                    ]
+                  },
+                  "good": {
+                    "t": "Con mucho gusto, lo busco en la pausa. Y felicidades: es un comienzo muy prometedor.", "n": "With pleasure, I'll find you in the break. And congratulations: it's a very promising start.",
+                    "end": "good", "outcome": "You acknowledged the limits of your study, clarified the method calmly and turned a critic into an ally."
+                  },
+                  "bad": {
+                    "t": "Bueno, no le quito más tiempo. Siguiente pregunta, por favor.", "n": "Well, I won't take up any more of your time. Next question, please.",
+                    "end": "bad", "outcome": "You sounded defensive. Thank the questioner, concede what's fair and answer the substance."
+                  }
+                }
+              },
+              "prompts": [
+                { "n": "Say that's a very fair point.", "t": ["Es una observación muy válida", "Es una observación válida", "Es un punto muy válido"] },
+                { "n": "Say the results are preliminary.", "t": ["Los resultados son preliminares", "Los resultados todavía son preliminares", "Los resultados aún son preliminares"] }
+              ]
+            },
+            {
+              "id": "c1-u05-l7",
+              "kind": "speaking",
+              "title": "Your mini-presentation",
+              "goal": "Give a structured short talk for a minute and a half and invite questions.",
+              "culture": {
+                "title": "Licenciado, ingeniero, doctor",
+                "body": "In Mexico, professional titles are often used in everyday address: a university graduate may be called licenciado or licenciada (written Lic.), and an engineer ingeniero. In Colombia, doctor is commonly used as a courtesy title for professionals and people in authority, not only for physicians or PhD holders. In Spain, titles are used less in daily speech, and at many universities students and lecturers move to tú quite quickly. When in doubt, start with usted and the person's title, and follow their lead.",
+                "regions": ["MX", "CO", "ES"]
+              },
+              "phrases": [
+                { "t": "Quisiera presentarles brevemente un proyecto que me apasiona.", "n": "I'd like to briefly present a project I'm passionate about." },
+                { "t": "Esto me lleva a la idea central.", "n": "This brings me to my key message." },
+                { "t": "Para concluir, podemos afirmar que el esfuerzo ha valido la pena.", "n": "To conclude, we can say that the effort has been worth it.", "note": "Spain also: ha merecido la pena." },
+                { "t": "¿Alguna pregunta al respecto?", "n": "Any questions about that?" }
+              ],
+              "free": [
+                {
+                  "n": "Give a short structured talk about a project, your job or a city you know well: introduce the topic, announce the structure, present one key figure or fact, conclude and invite questions.",
+                  "hint": "Quisiera presentarles… / Mi exposición se divide en… / En primer lugar… / A continuación… / Como pueden ver… / Esto me lleva a la idea central… / Para concluir… / ¿Alguna pregunta?",
+                  "seconds": 90,
+                  "minWords": 40,
+                  "targets": [
+                    { "label": "an introduction", "any": ["presentarles", "presentar", "quisiera", "me gustaría"] },
+                    { "label": "signposting", "any": ["en primer lugar", "en segundo lugar", "se divide", "me lleva", "a continuación", "por último", "paso ahora"] },
+                    { "label": "a figure or fact", "any": ["por ciento", "cifra", "datos", "como pueden ver", "duplicado", "aumentado", "mil"] },
+                    { "label": "a conclusion", "any": ["para concluir", "en conclusión", "en resumen", "resumir", "para terminar", "en definitiva"] },
+                    { "label": "inviting questions", "any": ["pregunta", "preguntas", "disposición"] }
+                  ],
+                  "model": "Buenas tardes. Quisiera presentarles brevemente un proyecto que me apasiona: una biblioteca de barrio gestionada por voluntarios. Mi exposición se divide en dos partes. En primer lugar, les cuento cómo empezó; a continuación, les muestro los resultados. Como pueden ver, en dos años el número de socios se ha duplicado. Esto me lleva a la idea central: con poco dinero se puede hacer mucho. Para concluir, el esfuerzo ha valido la pena. ¿Alguna pregunta al respecto?"
+                }
+              ],
+              "prompts": [
+                { "n": "Say this brings you to your key message.", "t": ["Esto me lleva a la idea central", "Esto nos lleva a la idea central", "Esto me lleva a la idea principal"] },
+                { "n": "Ask if there are any questions about that.", "t": ["Alguna pregunta al respecto", "Hay alguna pregunta al respecto", "Tienen alguna pregunta al respecto", "Alguna pregunta"] }
+              ]
+            },
+            {
+              "id": "c1-u05-cp",
+              "kind": "checkpoint",
+              "title": "Checkpoint: Presentar y responder",
+              "goal": "Say the unit's phrases from memory."
+            }
+          ]
+        }

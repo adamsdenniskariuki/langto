@@ -1,0 +1,305 @@
+{
+  "id": "c1-u07",
+  "title": "Narrar con gracia",
+  "subtitle": "Storytelling, suspense & anecdotes",
+  "icon": "📖",
+  "lessons": [
+    {
+      "id": "c1-u07-l1",
+      "title": "Telling a story with suspense",
+      "goal": "Tell an anecdote vividly, build up tension and deliver the twist.",
+      "tip": {
+        "title": "Jump into the present for the drama",
+        "body": "Spanish stories normally run in the preterite and the imperfect, but switching to the present at the dramatic moment (y de repente aparece un tipo…) pulls your listeners right into the scene, just like English 'so this guy walks in'. Casi + present describes a near miss in the past: casi me da un infarto (I nearly had a heart attack), casi me caigo (I nearly fell). Hooks like No te vas a creer lo que pasó build suspense, and En resumidas cuentas… or Total, que… wrap the story up. Speed up during the action, then pause just before the twist."
+      },
+      "phrases": [
+        { "t": "¡Qué día, no te imaginas!", "n": "What a day, you can't imagine!" },
+        { "t": "Yo estaba tan tranquilo, sin sospechar nada.", "n": "There I was, totally relaxed, not suspecting a thing.", "note": "A woman says tranquila." },
+        { "t": "Y de repente aparece un tipo delante de mí.", "n": "And suddenly this guy appears in front of me.", "note": "Present tense for vividness." },
+        { "t": "Casi me da un infarto.", "n": "I nearly had a heart attack.", "note": "Casi + present = a near miss in the past." },
+        { "t": "No te vas a creer lo que pasó después.", "n": "You won't believe what happened next." },
+        { "t": "Ahora me hace gracia, pero en ese momento…", "n": "Now I find it funny, but at the time…" },
+        { "t": "En resumidas cuentas, perdimos el vuelo.", "n": "Long story short, we missed the flight.", "note": "Also: Total, que perdimos el vuelo." },
+        { "t": "Y ahora viene lo mejor.", "n": "And now comes the best part." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "The trip to Lisbon",
+        "lines": [
+          { "who": "A", "name": "Ximena", "t": "¿Qué tal el viaje a Lisboa? ¡Cuéntamelo todo!", "n": "How was the trip to Lisbon? Tell me everything!" },
+          { "who": "you", "t": "¡Qué día, no te imaginas! Estábamos en el aeropuerto sin sospechar nada.", "n": "What a day, you can't imagine! We were at the airport, not suspecting a thing." },
+          { "who": "A", "name": "Ximena", "t": "Uy, eso suena a drama. ¿Qué pasó?", "n": "Ooh, that sounds like drama. What happened?" },
+          { "who": "you", "t": "Meto la mano en la mochila y el pasaporte no está. Casi me da un infarto.", "n": "I put my hand in my backpack and the passport isn't there. I nearly had a heart attack." },
+          { "who": "A", "name": "Ximena", "t": "¡Madre mía! ¿Y al final apareció?", "n": "Oh my goodness! And did it turn up in the end?" },
+          { "who": "you", "t": "Y ahora viene lo mejor: estaba en mi chaqueta todo el rato. En resumidas cuentas, perdimos el vuelo. Ahora me hace gracia, pero en ese momento…", "n": "And now comes the best part: it was in my jacket the whole time. Long story short, we missed the flight. Now I find it funny, but at the time…" }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell your friend they won't believe what happened next.", "t": ["No te vas a creer lo que pasó después", "No te vas a creer lo que pasó luego", "No te vas a creer lo que pasó"] },
+        { "n": "Say you nearly had a heart attack.", "t": ["Casi me da un infarto", "Casi me dio un infarto"] },
+        { "n": "Sum it up: long story short, you missed the flight.", "t": ["En resumidas cuentas, perdimos el vuelo", "Total, que perdimos el vuelo", "En resumen, perdimos el vuelo", "Perdimos el vuelo"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l2",
+      "title": "Humour and embarrassing moments",
+      "goal": "Tell a funny, embarrassing story with self-irony and colourful expressions.",
+      "tip": {
+        "title": "Exaggerate, then deliver deadpan",
+        "body": "Spanish storytellers exaggerate shamelessly, and laughing at yourself is the quickest way to win an audience. ¡Tierra, trágame! (literally 'earth, swallow me') is the classic cry of embarrassment, para colmo adds the final straw, and no sabía dónde meterme means you wanted to disappear. ¡Se armó la gorda! (all hell broke loose) is colloquial and especially common in Spain; se armó un lío tremendo works everywhere. For comic timing, pause briefly before the punchline and say it in a calm, flat voice."
+      },
+      "phrases": [
+        { "t": "¡Tierra, trágame!", "n": "I wanted the ground to swallow me up!", "note": "Literally: earth, swallow me." },
+        { "t": "Hice el ridículo delante de todo el mundo.", "n": "I made a fool of myself in front of everyone." },
+        { "t": "Y para colmo, el jefe estaba justo al lado.", "n": "And to top it all, the boss was right next to me." },
+        { "t": "Me quedé con la boca abierta.", "n": "My jaw dropped." },
+        { "t": "¡Se armó la gorda!", "n": "All hell broke loose!", "note": "Colloquial, especially Spain. Everywhere: se armó un lío tremendo." },
+        { "t": "Me morí de la risa.", "n": "I nearly died laughing.", "note": "Spain also: me partí de risa." },
+        { "t": "No sabía dónde meterme.", "n": "I didn't know where to put myself." },
+        { "t": "Fue el colmo de la mala suerte.", "n": "It was the height of bad luck." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "The voice message",
+        "lines": [
+          { "who": "A", "name": "Jorge", "t": "¿Y qué tal la junta de ayer? Yo estaba de vacaciones.", "n": "So how was yesterday's meeting? I was on holiday.", "note": "Mexico: la junta = meeting." },
+          { "who": "you", "t": "Ni me preguntes. Hice el ridículo delante de todo el mundo.", "n": "Don't even ask. I made a fool of myself in front of everyone." },
+          { "who": "A", "name": "Jorge", "t": "¡Uy! Eso suena prometedor. A ver, cuéntame.", "n": "Ooh! That sounds promising. Come on, tell me." },
+          { "who": "you", "t": "Le grabé un audio a Laura criticando la presentación del director… y se lo mandé al director.", "n": "I recorded a voice message for Laura criticising the director's presentation… and sent it to the director." },
+          { "who": "A", "name": "Jorge", "t": "¡No manches! ¿Y qué te dijo?", "n": "No way! And what did he say?", "note": "No manches: Mexican slang for 'no way!'" },
+          { "who": "you", "t": "Me contestó muy serio: «Gracias por tus comentarios». ¡Tierra, trágame! Y para colmo, mañana tengo mi evaluación con él.", "n": "He replied, completely serious: 'Thanks for your feedback.' I wanted the ground to swallow me up! And to top it all, tomorrow I have my appraisal with him." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you made a fool of yourself in front of everyone.", "t": ["Hice el ridículo delante de todo el mundo", "Hice el ridículo delante de todos", "He hecho el ridículo delante de todo el mundo"] },
+        { "n": "Say you didn't know where to put yourself.", "t": ["No sabía dónde meterme"] },
+        { "n": "Say you nearly died laughing.", "t": ["Me morí de la risa", "Me morí de risa", "Me partí de risa"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l3",
+      "title": "Listening and reacting to stories",
+      "goal": "Keep a storyteller going with lively reactions and link in your own story.",
+      "tip": {
+        "title": "Good listeners talk too",
+        "body": "In Spanish, a story is a duet: listeners react constantly with ¡No me digas!, ¿En serio? or ¡No me lo puedo creer!, and short overlaps are usually heard as interest, not rudeness. Regional flavours: ¡Qué fuerte! (Spain), ¡No manches! (Mexico), and in Argentina the voseo imperatives seguí, contame, imaginate. To take over, bridge with Eso me recuerda a algo que me pasó… Put real surprise into your voice: a flat ah, vale sounds bored."
+      },
+      "phrases": [
+        { "t": "Sigue, sigue, que te escucho.", "n": "Go on, go on, I'm listening.", "note": "Argentina: seguí, contame." },
+        { "t": "¡No me digas!", "n": "You don't say!" },
+        { "t": "¡Qué fuerte!", "n": "That's crazy!", "note": "Spain, colloquial." },
+        { "t": "¡No me lo puedo creer!", "n": "I can't believe it!" },
+        { "t": "¿Y cómo terminó la cosa?", "n": "So how did it all end?" },
+        { "t": "Nunca lo habría imaginado de ti.", "n": "I'd never have imagined it of you." },
+        { "t": "Eso me recuerda a algo que me pasó hace poco.", "n": "That reminds me of something that happened to me recently." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Stuck in the lift",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "Imaginate: ayer me quedé encerrada en el ascensor… ¡con mi ex!", "n": "Imagine: yesterday I got stuck in the lift… with my ex!" },
+          { "who": "you", "t": "¡No me digas! Sigue, sigue, que te escucho.", "n": "You don't say! Go on, go on, I'm listening." },
+          { "who": "A", "name": "Valeria", "t": "Dos horas, che. Y al final terminamos charlando re bien, como en los viejos tiempos.", "n": "Two hours, mate. And in the end we were chatting really nicely, like in the old days.", "note": "Argentina: re = really, very." },
+          { "who": "you", "t": "¡No me lo puedo creer! ¿Y cómo terminó la cosa?", "n": "I can't believe it! So how did it all end?" },
+          { "who": "A", "name": "Valeria", "t": "Vamos a tomar un café el sábado. ¿Vos qué decís? ¿Estoy loca?", "n": "We're going for a coffee on Saturday. What do you think? Am I mad?" },
+          { "who": "you", "t": "Para nada. Además, eso me recuerda a algo que me pasó hace poco.", "n": "Not at all. Besides, that reminds me of something that happened to me recently." }
+        ]
+      },
+      "prompts": [
+        { "n": "Encourage a friend to keep going: you're listening.", "t": ["Sigue, sigue, que te escucho", "Sigue, que te escucho", "Seguí, que te escucho", "Cuéntame más"] },
+        { "n": "Ask how the whole thing ended.", "t": ["Y cómo terminó la cosa", "Cómo terminó la cosa", "Cómo terminó todo"] },
+        { "n": "Say it reminds you of something that happened to you recently.", "t": ["Eso me recuerda a algo que me pasó hace poco", "Eso me recuerda algo que me pasó hace poco", "Me recuerda a algo que me pasó hace poco"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l4",
+      "kind": "grammar",
+      "title": "Pluscuamperfecto and the narrative tenses",
+      "goal": "Set the scene, move the plot and show what had happened before.",
+      "tip": {
+        "title": "Three past tenses, three jobs",
+        "body": "A good Spanish story uses three past tenses. The imperfect sets the scene and the background (era de noche, llovía, estábamos cansados). The preterite moves the plot forward (llegué, abrí la puerta, sonó el teléfono). The pluscuamperfecto, había + participle, steps further back to what had already happened: Cuando llegué, el tren ya había salido. Había changes only for the person (había, habías, había, habíamos, habíais, habían) and ya goes before it. With reflexive verbs the pronoun comes first: los invitados ya se habían ido."
+      },
+      "phrases": [
+        { "t": "Cuando llegué a la estación, el tren ya había salido.", "n": "When I got to the station, the train had already left." },
+        { "t": "Ya habíamos buscado por todas partes cuando por fin apareció la llave.", "n": "We had already searched everywhere when the key finally turned up." },
+        { "t": "Ella me había avisado, pero no le hice caso.", "n": "She had warned me, but I didn't listen to her." },
+        { "t": "Era una noche de tormenta y nadie sospechaba nada.", "n": "It was a stormy night and nobody suspected a thing." },
+        { "t": "En cuanto abrió la puerta, se fue la luz.", "n": "As soon as he opened the door, the lights went out." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the earlier event",
+          "base": { "t": "Cuando llegué, el tren ya había salido.", "n": "When I arrived, the train had already left." },
+          "items": [
+            { "cue": "los invitados · irse", "t": "Cuando llegué, los invitados ya se habían ido.", "n": "When I arrived, the guests had already left." },
+            { "cue": "la película · empezar", "t": "Cuando llegué, la película ya había empezado.", "n": "When I arrived, the film had already started." },
+            { "cue": "mi hermana · comérselo todo", "t": "Cuando llegué, mi hermana ya se lo había comido todo.", "n": "When I arrived, my sister had already eaten everything." }
+          ]
+        },
+        {
+          "title": "Background or event?",
+          "base": { "t": "Llovía cuando salí de casa.", "n": "It was raining when I left home." },
+          "items": [
+            { "cue": "nevar", "t": "Nevaba cuando salí de casa.", "n": "It was snowing when I left home." },
+            { "cue": "ser medianoche", "t": "Era medianoche cuando salí de casa.", "n": "It was midnight when I left home." },
+            { "cue": "nosotros · dormir · sonar el teléfono", "t": "Dormíamos cuando sonó el teléfono.", "n": "We were asleep when the phone rang." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say the train had already left when you got to the station.", "t": ["Cuando llegué a la estación, el tren ya había salido", "Cuando llegué, el tren ya había salido", "El tren ya había salido cuando llegué"] },
+        { "n": "Say she had warned you, but you didn't listen to her.", "t": ["Ella me había avisado, pero no le hice caso", "Me había avisado, pero no le hice caso", "Me había advertido, pero no le hice caso"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l5",
+      "kind": "listening",
+      "title": "Grandma's bus story",
+      "goal": "Follow a family anecdote told with the narrative tenses.",
+      "phrases": [
+        { "t": "Cuéntame otra vez cómo conociste al abuelo.", "n": "Tell me again how you met Grandpa." },
+        { "t": "Nunca había salido de Bogotá.", "n": "I had never left Bogotá." },
+        { "t": "El bus se varó en plena carretera.", "n": "The bus broke down in the middle of the road.", "note": "Colombia: vararse = to break down. Spain: el autobús se averió." },
+        { "t": "Déjame adivinar.", "n": "Let me guess." }
+      ],
+      "story": {
+        "title": "El bus a Cartagena",
+        "intro": "In Bogotá, Mateo asks his grandmother Rosa to retell how she met his grandfather.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Abuela, cuéntame otra vez cómo conociste al abuelo.", "n": "Grandma, tell me again how you met Grandpa." },
+          { "name": "Rosa", "t": "Ay, mijo, eso fue en mil novecientos setenta y cinco. Yo tenía diecinueve años y nunca había salido de Bogotá.", "n": "Oh, my dear, that was in 1975. I was nineteen and I had never left Bogotá." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Y te fuiste sola a Cartagena, ¿no?", "n": "And you went to Cartagena on your own, didn't you?" },
+          { "name": "Rosa", "t": "Sola no, con mi prima. Pero a mitad de camino el bus se varó en plena carretera y empezó a llover a cántaros.", "n": "Not on my own, with my cousin. But halfway there the bus broke down in the middle of the road and it started pouring with rain." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "¡No me digas! ¿Y qué hicieron?", "n": "You don't say! And what did you do?" },
+          { "name": "Rosa", "t": "Esperamos horas. Ya se había hecho de noche cuando apareció un muchacho con un paraguas enorme y nos acompañó hasta el pueblo más cercano.", "n": "We waited for hours. It had already got dark when a young man appeared with an enormous umbrella and walked us to the nearest village." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Déjame adivinar: ese muchacho era el abuelo.", "n": "Let me guess: that young man was Grandpa." },
+          { "name": "Rosa", "t": "Pues sí. Y lo más gracioso es que había ido en el mismo bus, sentado justo detrás de nosotras, y yo ni lo había visto.", "n": "Well, yes. And the funniest thing is that he'd been on the same bus, sitting right behind us, and I hadn't even noticed him." }
+        ],
+        "questions": [
+          { "q": "¿Cuántos años tenía Rosa en mil novecientos setenta y cinco?", "n": "How old was Rosa in 1975?", "t": ["Diecinueve", "Diecinueve años", "Tenía diecinueve años", "19"] },
+          { "q": "¿Qué le pasó al bus?", "n": "What happened to the bus?", "t": ["Se varó", "Se varó en la carretera", "Se averió", "Se dañó", "Se descompuso"] },
+          { "q": "¿Dónde había ido sentado el muchacho?", "n": "Where had the young man been sitting?", "t": ["Detrás de ellas", "Justo detrás de ellas", "En el mismo bus", "Detrás"] }
+        ]
+      }
+    },
+    {
+      "id": "c1-u07-l6",
+      "kind": "roleplay",
+      "title": "Your story on the radio",
+      "goal": "Tell an anecdote live on air: build suspense and land the punchline.",
+      "phrases": [
+        { "t": "No se va a creer lo que pasó con él.", "n": "You won't believe what happened to it.", "note": "Usted form. With tú: no te vas a creer…" },
+        { "t": "De repente, se le resbala el piano de las manos.", "n": "Suddenly the piano slips out of his hands.", "note": "se le + verb: it 'got away from him' by accident." },
+        { "t": "Por suerte, nadie se hizo daño.", "n": "Luckily, nobody got hurt.", "note": "Latin America also: nadie salió lastimado." },
+        { "t": "Se oye un poco mal la línea.", "n": "The line is a bit bad." }
+      ],
+      "branch": {
+        "title": "Historias de los oyentes",
+        "scene": "A radio station in Seville has invited you to tell the story of your most chaotic house move, live on air.",
+        "name": "Marta (locutora)",
+        "voice": "es-ES-TrianaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Buenas tardes y bienvenidos a Historias de los oyentes! Nos escribió usted que había vivido la mudanza más surrealista de la historia. ¡Cuéntenos!", "n": "Good afternoon and welcome to Listeners' Stories! You wrote to us that you'd had the most surreal house move in history. Tell us!",
+            "choices": [
+              { "t": "¡Con mucho gusto! Yo no sospechaba nada cuando los de la mudanza empezaron a subir nuestro piano por la escalera.", "n": "With pleasure! I didn't suspect a thing when the movers started carrying our piano up the stairs.", "next": "piano" },
+              { "t": "Bueno, la verdad es que todo fue bastante normal.", "n": "Well, to be honest, it was all fairly normal.", "next": "flat" }
+            ]
+          },
+          "flat": {
+            "t": "¡Pero si en su correo hablaba de un piano!", "n": "But your email mentioned a piano!",
+            "choices": [
+              { "t": "¡Ah, sí, el piano! No se va a creer lo que pasó con él.", "n": "Oh yes, the piano! You won't believe what happened to it.", "next": "piano" },
+              { "t": "Bah, eso no tiene importancia.", "n": "Bah, that's not important.", "next": "bad" }
+            ]
+          },
+          "piano": {
+            "t": "¡Qué intriga! ¿Y qué pasó?", "n": "How intriguing! And what happened?",
+            "choices": [
+              { "t": "De repente, al chico de la mudanza se le resbala el piano de las manos y rompe la barandilla.", "n": "Suddenly the piano slips out of the mover's hands and smashes the banister.", "next": "crash" },
+              { "t": "¿Perdón? Es que se oye un poco mal la línea.", "n": "Sorry? The line is a bit bad.", "next": "repeat" }
+            ]
+          },
+          "repeat": {
+            "t": "No pasa nada. Le preguntaba qué pasó con el piano.", "n": "No problem. I was asking what happened to the piano.",
+            "choices": [
+              { "t": "De repente, al chico de la mudanza se le resbala el piano de las manos y rompe la barandilla.", "n": "Suddenly the piano slips out of the mover's hands and smashes the banister.", "next": "crash" }
+            ]
+          },
+          "crash": {
+            "t": "¡Madre mía! ¿Hubo algún herido?", "n": "Good heavens! Was anyone hurt?",
+            "choices": [
+              { "t": "Por suerte, nadie se hizo daño. Y ahora viene lo mejor: abajo, por casualidad, había un afinador de pianos.", "n": "Luckily, nobody got hurt. And now comes the best part: by chance, there was a piano tuner downstairs.", "next": "twist" },
+              { "t": "No, pero casi me da un infarto. En resumidas cuentas, el piano quedó destrozado.", "n": "No, but I nearly had a heart attack. Long story short, the piano was wrecked.", "next": "good" }
+            ]
+          },
+          "twist": {
+            "t": "¡No me diga! ¿Y qué dijo?", "n": "You don't say! And what did he say?",
+            "choices": [
+              { "t": "Muy serio, dijo que por lo menos ahora estaba lo bastante desafinado para tocar jazz.", "n": "Completely deadpan, he said that at least it was now out of tune enough for jazz.", "next": "good" },
+              { "t": "Se ofreció a arreglarlo, y hoy es mi vecino.", "n": "He offered to repair it, and today he's my neighbour.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "¡Qué bien contado! Muchísimas gracias por compartir su historia con nosotros.", "n": "Wonderfully told! Thank you so much for sharing your story with us.",
+            "end": "good", "outcome": "You built suspense and delivered the punchline, and the listeners loved it."
+          },
+          "bad": {
+            "t": "Vaya… Pues entonces mejor ponemos un poco de música.", "n": "Oh dear… Well then, we'd better play some music.",
+            "end": "bad", "outcome": "You killed the story before the punchline. Build suspense and deliver the twist."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the radio host that luckily nobody got hurt.", "t": ["Por suerte, nadie se hizo daño", "Por suerte nadie se hizo daño", "Por suerte, nadie salió herido", "Afortunadamente, nadie se hizo daño"] },
+        { "n": "Tell the host (formally) they won't believe what happened to it.", "t": ["No se va a creer lo que pasó con él", "No se va a creer lo que pasó", "No va a creer lo que pasó"] }
+      ]
+    },
+    {
+      "id": "c1-u07-l7",
+      "kind": "speaking",
+      "title": "Tell your own story",
+      "goal": "Tell an anecdote freely with suspense and the right past tenses.",
+      "culture": {
+        "title": "Telling it with a straight face",
+        "body": "The Colombian writer Gabriel García Márquez, winner of the 1982 Nobel Prize in Literature, often said he learned to tell stories from his grandmother, who recounted the most extraordinary events with a completely straight face. That calm tone, treating the magical as everyday, became the voice of Cien años de soledad (1967), a landmark of what critics call magical realism. He wrote the novel in Mexico City, where he lived for much of his life. When you tell an anecdote in Spanish, a little of that deadpan exaggeration goes a long way.",
+        "regions": ["CO", "MX"]
+      },
+      "phrases": [
+        { "t": "Pero lo mejor todavía estaba por llegar.", "n": "But the best was yet to come." },
+        { "t": "Así es la vida.", "n": "That's life." },
+        { "t": "Acabé hecho polvo.", "n": "I ended up completely exhausted.", "note": "A woman says hecha polvo. Especially Spain." },
+        { "t": "Bien está lo que bien acaba.", "n": "All's well that ends well." }
+      ],
+      "free": [
+        {
+          "n": "Tell a funny or embarrassing anecdote from your life (or from someone you know): a hook, the scene, a sudden turn, your reaction and an ending. Use at least one pluscuamperfecto.",
+          "hint": "No te vas a creer… · Estábamos en… · Ya había(mos)… · Y de repente… · Y ahora viene lo mejor… · ¡Qué susto! / ¡Tierra, trágame! · En resumidas cuentas… / Total, que…",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "a hook", "any": ["no te vas a creer", "no te imaginas", "resulta que", "imagínate", "qué día", "una vez", "hace poco"] },
+            { "label": "scene-setting or pluscuamperfecto", "any": ["había", "habíamos", "habían", "estaba", "estábamos", "era", "hacía"] },
+            { "label": "a sudden turn", "any": ["de repente", "de pronto", "en ese momento", "lo mejor", "para colmo", "en cuanto"] },
+            { "label": "a reaction", "any": ["infarto", "susto", "vergüenza", "trágame", "ridículo", "boca abierta", "risa", "dónde meterme"] },
+            { "label": "an ending", "any": ["en resumidas cuentas", "total", "al final", "bien acaba", "me hace gracia", "así es la vida", "por suerte"] }
+          ],
+          "model": "No te vas a creer lo que me pasó el verano pasado. Estábamos en Oaxaca y ya habíamos comprado los boletos para el autobús de la noche. Yo esperaba en la estación sin sospechar nada y, de repente, me doy cuenta de que estoy en la estación equivocada. ¡Qué susto! Y para colmo, se me había muerto el celular. Total, que acabamos durmiendo en Puebla. Ahora me hace gracia, pero en ese momento… ¡tierra, trágame!"
+        }
+      ],
+      "prompts": [
+        { "n": "Say: all's well that ends well.", "t": ["Bien está lo que bien acaba"] },
+        { "n": "Say the best was yet to come.", "t": ["Pero lo mejor todavía estaba por llegar", "Lo mejor todavía estaba por llegar", "Lo mejor estaba por llegar", "Lo mejor aún estaba por llegar"] }
+      ]
+    },
+    {
+      "id": "c1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Narrar con gracia",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

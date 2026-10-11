@@ -67,9 +67,17 @@
     {
       "id": "C1",
       "title": "Advanced",
-      "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.",
-      "comingSoon": true,
-      "units": []
+      "description": "Shift register with ease, use discourse markers like a native, persuade, present, handle delicate conversations and tell a story well.",
+      "units": [
+        "c1/u01-registro.json",
+        "c1/u02-muletillas.json",
+        "c1/u03-matices.json",
+        "c1/u04-persuadir.json",
+        "c1/u05-presentacion.json",
+        "c1/u06-diplomacia.json",
+        "c1/u07-narrar.json",
+        "c1/u08-grandes-preguntas.json"
+      ]
     },
     {
       "id": "C2",
@@ -93,7 +101,8 @@
         "pron/u05-b-v-d.json",
         "pron/u06-acentos.json",
         "pron/u07-entonacion.json",
-        "pron/u08-enlace.json"
+        "pron/u08-enlace.json",
+        "pron/u09-seseo.json"
       ]
     }
   ]

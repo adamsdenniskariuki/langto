@@ -1,0 +1,305 @@
+{
+  "id": "c1-u01",
+  "title": "El tono adecuado",
+  "subtitle": "Register: tú, usted, vos, speech, email & chat",
+  "icon": "🎩",
+  "lessons": [
+    {
+      "id": "c1-u01-l1",
+      "title": "Tú, usted or vos?",
+      "goal": "Handle the switch between usted and tú gracefully: offer it, accept it or politely decline it.",
+      "tip": {
+        "title": "Who offers the tú?",
+        "body": "Tutear means to address someone as tú; hablar de usted (or tratar de usted) means to keep the formal form. As a rule, the older or more senior person offers the tú, and it's perfectly fine to stay with usted if that feels right. Usage varies a lot: in Spain tú is the default in many offices, while in Mexico and Colombia usted lasts longer, and in Argentina and Uruguay the informal form is vos (vos sos, vos tenés). If you're unsure, say so openly: No sabía si aquí se trata de tú o de usted. People appreciate the question."
+      },
+      "phrases": [
+        { "t": "¿Nos tuteamos?", "n": "Shall we use tú with each other?", "note": "Light, rising tone: it's an offer, not a demand." },
+        { "t": "Puede tutearme, por favor.", "n": "Please, you can call me tú.", "note": "Said with usted, because the switch hasn't happened yet." },
+        { "t": "No me hables de usted, que me haces sentir mayor.", "n": "Don't call me usted, you make me feel old.", "note": "A classic, friendly line, very common in Spain." },
+        { "t": "Si no le importa, prefiero que sigamos hablándonos de usted.", "n": "If you don't mind, I'd rather we kept using usted." },
+        { "t": "No sabía si aquí se trata de tú o de usted.", "n": "I wasn't sure whether people use tú or usted here." },
+        { "t": "En el equipo nos tuteamos todos.", "n": "In the team we all use tú." },
+        { "t": "Disculpe que le pregunte algo tan personal.", "n": "Excuse me for asking something so personal." },
+        { "t": "¿Vos sos de acá?", "n": "Are you from around here?", "note": "Argentine and Uruguayan voseo: vos sos = tú eres; acá = aquí." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Your first week at a firm in Monterrey",
+        "lines": [
+          { "who": "A", "name": "Patricia", "t": "Qué gusto que ya esté con nosotros. ¿Cómo le ha ido en su primera semana?", "n": "So glad you're with us now. How has your first week gone?" },
+          { "who": "you", "t": "Muy bien, gracias. Le confieso que no sabía si aquí se trata de tú o de usted.", "n": "Very well, thanks. I confess I wasn't sure whether people use tú or usted here." },
+          { "who": "A", "name": "Patricia", "t": "Buena pregunta. En el equipo nos tuteamos todos, así que tutéame, por favor. Soy Patricia.", "n": "Good question. In the team we all use tú, so please call me tú. I'm Patricia." },
+          { "who": "you", "t": "Con mucho gusto, así todo es más fácil. Gracias, Patricia.", "n": "With pleasure, that makes everything easier. Thanks, Patricia." },
+          { "who": "A", "name": "Patricia", "t": "Eso sí, al director general háblale de usted. Es de la vieja escuela.", "n": "Mind you, use usted with the CEO. He's old school." },
+          { "who": "you", "t": "Entendido. En las reuniones oficiales prefiero hablar de usted de todas formas.", "n": "Understood. In official meetings I prefer to use usted anyway." }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest switching to tú with a colleague.", "t": ["Nos tuteamos", "Puede tutearme", "Puede tutearme, por favor", "Podemos tutearnos"] },
+        { "n": "Politely say you'd rather keep using usted, if they don't mind.", "t": ["Si no le importa, prefiero que sigamos hablándonos de usted", "Prefiero que sigamos hablándonos de usted", "Si no le importa, prefiero seguir hablándole de usted"] },
+        { "n": "Admit you weren't sure whether people use tú or usted here.", "t": ["No sabía si aquí se trata de tú o de usted", "No sabía si aquí se habla de tú o de usted", "No estaba seguro de si aquí se trata de tú o de usted", "No estaba segura de si aquí se trata de tú o de usted"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l2",
+      "title": "From small talk to business",
+      "goal": "Open a business meeting with a little small talk, steer smoothly to the agenda, and switch back to casual with friends.",
+      "tip": {
+        "title": "The elegant transition",
+        "body": "Business small talk in Spain is warm but not endless: the journey, the weather, the holidays. Then a clear signal moves things on: Bueno, si le parece, vamos al grano (let's get to the point). Mark the switch with a short pause and a slightly lower, firmer voice. Y que lo diga (usted) / Y que lo digas (tú) means \"you can say that again\". With friends, ¿Cómo lo llevas? (how are you coping?) and a final ¿vale? sound natural; in a meeting, keep full, polite sentences."
+      },
+      "phrases": [
+        { "t": "¿Ha encontrado bien la oficina?", "n": "Did you find the office all right?", "note": "Latin America usually: ¿Encontró bien la oficina?" },
+        { "t": "Con este calor no apetece nada trabajar.", "n": "In this heat you don't feel like working at all.", "note": "apetecer is typical of Spain; Latin America: no dan ganas de trabajar." },
+        { "t": "Me han dicho que acaba de volver de vacaciones.", "n": "I hear you've just come back from holiday." },
+        { "t": "Y que lo diga.", "n": "You can say that again.", "note": "Usted form; with tú: Y que lo digas." },
+        { "t": "Bueno, si le parece, vamos al grano.", "n": "Well, if that's all right with you, let's get to the point." },
+        { "t": "No quiero robarle más tiempo del necesario.", "n": "I don't want to take up more of your time than necessary." },
+        { "t": "¿Qué tal? ¿Cómo lo llevas?", "n": "How's it going? How are you coping?", "note": "Casual, among friends or close colleagues." },
+        { "t": "Luego lo hablamos tomando un café, ¿vale?", "n": "Let's talk about it later over a coffee, OK?", "note": "¿vale? is Spain; Argentina: ¿dale?; elsewhere: ¿sí? or ¿está bien?" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "A client visit in Madrid",
+        "lines": [
+          { "who": "A", "name": "Sr. Navarro", "t": "¡Buenos días! Por fin nos conocemos en persona.", "n": "Good morning! At last we meet in person." },
+          { "who": "you", "t": "Igualmente, es un placer. ¿Ha encontrado bien la oficina?", "n": "Likewise, it's a pleasure. Did you find the office all right?" },
+          { "who": "A", "name": "Sr. Navarro", "t": "Sí, sin problema, aunque con este calor no apetece nada salir de casa.", "n": "Yes, no problem, although in this heat you don't feel like leaving the house at all." },
+          { "who": "you", "t": "Y que lo diga. Por cierto, me han dicho que acaba de volver de vacaciones.", "n": "You can say that again. By the way, I hear you've just come back from holiday." },
+          { "who": "A", "name": "Sr. Navarro", "t": "Así es, dos semanas en Asturias. Una maravilla, pero ahora tengo la mesa llena de papeles.", "n": "That's right, two weeks in Asturias. Wonderful, but now my desk is full of paperwork." },
+          { "who": "you", "t": "Entonces no quiero robarle más tiempo del necesario. Si le parece, vamos al grano.", "n": "Then I don't want to take up more of your time than necessary. If that's all right, let's get to the point." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a business guest whether they found the office all right.", "t": ["Ha encontrado bien la oficina", "Encontró bien la oficina", "Ha encontrado bien la oficina sin problema"] },
+        { "n": "End the small talk politely and turn to business.", "t": ["Bueno, si le parece, vamos al grano", "Si le parece, vamos al grano", "Vamos al grano"] },
+        { "n": "Say you don't want to take up more of their time than necessary.", "t": ["No quiero robarle más tiempo del necesario", "No quiero quitarle más tiempo del necesario"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l3",
+      "title": "Email or WhatsApp?",
+      "goal": "Switch between the fixed formulas of a formal email and the shorthand of a chat message.",
+      "tip": {
+        "title": "Formulas for the inbox",
+        "body": "Formal Spanish emails rely on set phrases: Estimado señor… / Estimada señora… (followed by a colon in writing, not a comma), Le escribo en relación con…, Le adjunto…, Quedo a la espera de su respuesta and Reciba un cordial saludo or simply Un cordial saludo. Chat is the opposite: porfa (please), te paso (I'll send you), a hug (un abrazo) or a kiss (besos) to sign off. Mixing the two is a classic faux pas, so read the formula aloud and ask yourself who will read it."
+      },
+      "phrases": [
+        { "t": "Le escribo en relación con su solicitud.", "n": "I'm writing regarding your request." },
+        { "t": "Le adjunto el presupuesto actualizado.", "n": "Please find attached the updated quote.", "note": "presupuesto = quote or budget." },
+        { "t": "Quedo a la espera de su respuesta.", "n": "I look forward to hearing from you." },
+        { "t": "Reciba un cordial saludo.", "n": "Kind regards.", "note": "Shorter: Un cordial saludo. Also: Atentamente (more formal)." },
+        { "t": "Quedo atento a sus comentarios.", "n": "I look forward to your comments.", "note": "Very common in Latin American business emails; a woman writes atenta." },
+        { "t": "Te paso el archivo por WhatsApp.", "n": "I'll send you the file on WhatsApp." },
+        { "t": "Porfa, me confirmas cuando puedas.", "n": "Pls confirm when you can.", "note": "porfa = por favor in chat and casual speech." },
+        { "t": "Un abrazo y hablamos.", "n": "Hugs, talk soon.", "note": "For friends and close colleagues only." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Rewriting an email in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Salomé", "t": "Oye, ¿me ayudas con un correo? Le tengo que escribir a una clienta nueva y me sale todo como un WhatsApp.", "n": "Hey, will you help me with an email? I have to write to a new client and everything comes out like a WhatsApp message." },
+          { "who": "you", "t": "Claro. A ver, ¿qué le pusiste?", "n": "Sure. Let's see, what did you write?" },
+          { "who": "A", "name": "Salomé", "t": "\"Hola, Marta, te paso el presupuesto, porfa me confirmas. Un abrazo.\"", "n": "\"Hi Marta, here's the quote, pls confirm. Hugs.\"" },
+          { "who": "you", "t": "Para una clienta nueva es demasiado informal. Mejor: \"Estimada señora Ortiz, le adjunto el presupuesto actualizado.\"", "n": "For a new client that's too informal. Better: \"Dear Ms Ortiz, please find attached the updated quote.\"" },
+          { "who": "A", "name": "Salomé", "t": "Ay, sí, suena mucho más profesional. ¿Y cómo lo cierro?", "n": "Oh yes, that sounds much more professional. And how do I close it?" },
+          { "who": "you", "t": "Con \"Quedo a la espera de su respuesta. Reciba un cordial saludo.\" El abrazo, déjalo para los amigos.", "n": "With \"I look forward to hearing from you. Kind regards.\" Save the hug for your friends." }
+        ]
+      },
+      "prompts": [
+        { "n": "In a formal email: say you're attaching the updated quote.", "t": ["Le adjunto el presupuesto actualizado", "Le envío adjunto el presupuesto actualizado", "Adjunto le envío el presupuesto actualizado"] },
+        { "n": "Formally say you look forward to their reply.", "t": ["Quedo a la espera de su respuesta", "Quedo atento a su respuesta", "Quedo atenta a su respuesta"] },
+        { "n": "In a chat: casually ask a friend to confirm when they can.", "t": ["Porfa, me confirmas cuando puedas", "Me confirmas cuando puedas", "Confírmame cuando puedas"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l4",
+      "kind": "grammar",
+      "title": "Noun style vs verb style",
+      "goal": "Switch between the noun-heavy style of official Spanish and the verb-based style of conversation.",
+      "tip": {
+        "title": "Same content, different register",
+        "body": "Official Spanish packs actions into nouns: tras la firma del contrato instead of cuando firmemos el contrato. The verb becomes a noun (firmar → la firma, revisar → la revisión, iniciar → el inicio), its object follows with de, and a preposition (tras, antes de, en caso de, debido a) replaces the conjunction. In conversation, unpack it into a verb clause again. Watch the mood: cuando and antes de que take the subjunctive when they refer to the future (cuando terminemos, antes de que empiece), while como (since) and si take the indicative."
+      },
+      "phrases": [
+        { "t": "Tras la finalización del proyecto, nos pondremos en contacto con usted.", "n": "Once the project has been completed, we will contact you." },
+        { "t": "Cuando terminemos el proyecto, te llamamos.", "n": "When we finish the project, we'll call you.", "note": "cuando + subjunctive for the future." },
+        { "t": "En caso de pérdida de la tarjeta, diríjase al servicio de atención al cliente.", "n": "In the event of loss of the card, please contact customer service." },
+        { "t": "Debido a la enfermedad del ponente, se suspende la conferencia.", "n": "Owing to the speaker's illness, the lecture is cancelled." },
+        { "t": "Antes del inicio de la sesión, se ruega silencio.", "n": "Before the session begins, silence is requested.", "note": "se ruega = (you are) kindly requested; typical of notices." }
+      ],
+      "drills": [
+        {
+          "title": "Verb style → noun style",
+          "base": { "t": "Cuando terminemos el proyecto, nos pondremos en contacto con usted.", "n": "When we finish the project, we will contact you." },
+          "items": [
+            { "cue": "tras · finalización", "t": "Tras la finalización del proyecto, nos pondremos en contacto con usted.", "n": "Once the project has been completed, we will contact you." },
+            { "cue": "contrato · firma", "t": "Tras la firma del contrato, nos pondremos en contacto con usted.", "n": "Once the contract has been signed, we will contact you." },
+            { "cue": "solicitud · revisión", "t": "Tras la revisión de la solicitud, nos pondremos en contacto con usted.", "n": "Once the application has been reviewed, we will contact you." }
+          ]
+        },
+        {
+          "title": "Noun style → verb style",
+          "base": { "t": "Debido a la enfermedad del ponente, se suspende la conferencia.", "n": "Owing to the speaker's illness, the lecture is cancelled." },
+          "items": [
+            { "cue": "como …", "t": "Como el ponente está enfermo, se suspende la conferencia.", "n": "Since the speaker is ill, the lecture is cancelled." },
+            { "cue": "en caso de pérdida → si …", "t": "Si pierde la tarjeta, diríjase al servicio de atención al cliente.", "n": "If you lose the card, please contact customer service." },
+            { "cue": "antes del inicio → antes de que …", "t": "Antes de que empiece la sesión, rogamos silencio.", "n": "Before the session starts, we ask for silence." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "In official style: say that once the project has been completed, you'll contact them.", "t": ["Tras la finalización del proyecto, nos pondremos en contacto con usted", "Tras la finalización del proyecto, nos pondremos en contacto", "Una vez finalizado el proyecto, nos pondremos en contacto con usted"] },
+        { "n": "Unpack it for a friend: since the speaker is ill, the lecture is cancelled.", "t": ["Como el ponente está enfermo, se suspende la conferencia", "Como el ponente está enfermo, se cancela la conferencia", "Como el ponente está enfermo, se suspende la charla"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l5",
+      "kind": "listening",
+      "title": "The wrong register",
+      "goal": "Follow a colleague's anecdote about sending a chat-style message to a very formal client.",
+      "phrases": [
+        { "t": "Metí la pata hasta el fondo.", "n": "I really put my foot in it." },
+        { "t": "Me dio muchísima pena.", "n": "I was so embarrassed.", "note": "In Mexico and much of Latin America pena = embarrassment; in Spain it usually means sadness, and you'd say vergüenza." },
+        { "t": "Se lo tomó con humor.", "n": "She took it with good humour." },
+        { "t": "Le puede pasar a cualquiera.", "n": "It could happen to anyone." }
+      ],
+      "story": {
+        "title": "Holi, te paso el presu",
+        "intro": "In Mexico City, Nuria tells her colleague Jorge about a message she sent to an important client.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Nuria", "t": "Jorge, no sabes la pena que me dio ayer. Metí la pata hasta el fondo.", "n": "Jorge, you have no idea how embarrassed I was yesterday. I really put my foot in it." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "¿Qué pasó? A ver, cuéntame.", "n": "What happened? Go on, tell me." },
+          { "name": "Nuria", "t": "Le tenía que mandar el presupuesto a la directora de una empresa muy seria, la licenciada Herrera. Y como iba con prisa, se lo escribí desde el celular.", "n": "I had to send the quote to the director of a very formal company, Ms Herrera. And since I was in a hurry, I wrote it on my phone.", "note": "licenciada: Mexican courtesy title for a university graduate." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Ay, no. ¿Y qué le pusiste?", "n": "Oh no. And what did you write?" },
+          { "name": "Nuria", "t": "\"Holi, te paso el presu, cualquier cosa me avisas, besitos.\" Lo había copiado de un mensaje para mi hermana.", "n": "\"Hiya, here's the quote, let me know if you need anything, kisses.\" I'd copied it from a message to my sister." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "¡No manches! ¿Y cómo reaccionó?", "n": "No way! And how did she react?", "note": "No manches: Mexican colloquial for \"no way!\"" },
+          { "name": "Nuria", "t": "Pues se lo tomó con humor. Me contestó: \"Recibido. Besitos para usted también.\" Pero luego le mandé un correo formal para pedirle una disculpa.", "n": "Well, she took it with good humour. She replied: \"Received. Kisses to you too.\" But then I sent her a formal email to apologise." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Bueno, le puede pasar a cualquiera. Lo importante es que no perdiste al cliente.", "n": "Well, it could happen to anyone. The main thing is you didn't lose the client." }
+        ],
+        "questions": [
+          { "q": "¿Qué le tenía que mandar Nuria a la directora?", "n": "What did Nuria have to send the director?", "t": ["El presupuesto", "Un presupuesto", "Le tenía que mandar el presupuesto"] },
+          { "q": "¿Desde dónde escribió el mensaje?", "n": "What did she write the message on?", "t": ["Desde el celular", "Desde el móvil", "Desde su celular", "Desde el teléfono"] },
+          { "q": "¿Cómo reaccionó la directora?", "n": "How did the director react?", "t": ["Con humor", "Se lo tomó con humor", "Bien, con humor"] }
+        ]
+      }
+    },
+    {
+      "id": "c1-u01-l6",
+      "kind": "roleplay",
+      "title": "At the Buenos Aires book fair",
+      "goal": "Strike the right tone with a senior publisher. Your choices steer the conversation.",
+      "phrases": [
+        { "t": "Permítame que me presente.", "n": "Allow me to introduce myself." },
+        { "t": "Es un placer conocerla.", "n": "It's a pleasure to meet you.", "note": "To a man: conocerlo (Spain also: conocerle)." },
+        { "t": "¿Cómo debo entenderlo?", "n": "How should I take that?", "note": "Polite request for clarification." },
+        { "t": "¿Te puedo tutear?", "n": "May I use the informal form with you?", "note": "In Argentina tutear is used for switching to the informal form, even though that form is vos." }
+      ],
+      "branch": {
+        "title": "En la Feria del Libro",
+        "scene": "At the Buenos Aires International Book Fair, you approach Mariana Sosa, a well-known publisher, hoping she'll consider your translation of a novel.",
+        "name": "Mariana Sosa",
+        "voice": "es-AR-ElenaNeural",
+        "start": "greet",
+        "nodes": {
+          "greet": {
+            "t": "Buenas noches. Disculpe, ¿nos conocemos?", "n": "Good evening. Excuse me, have we met?",
+            "choices": [
+              { "t": "Buenas noches. Permítame que me presente: traduzco literatura y admiro mucho su trabajo.", "n": "Good evening. Allow me to introduce myself: I translate literature and I greatly admire your work.", "next": "intro" },
+              { "t": "¡Hola! ¿Qué tal, todo bien?", "n": "Hi! How's it going, all good?", "next": "casual" }
+            ]
+          },
+          "casual": {
+            "t": "Perdón, ¿usted quién es? No creo que nos hayan presentado.", "n": "Sorry, who are you? I don't believe we've been introduced.",
+            "choices": [
+              { "t": "Disculpe, me tomé demasiada confianza. Permítame que me presente.", "n": "Forgive me, I was too familiar. Allow me to introduce myself.", "next": "intro" },
+              { "t": "Da igual. Necesito que me publique un libro.", "n": "Doesn't matter. I need you to publish a book for me.", "next": "bad" }
+            ]
+          },
+          "intro": {
+            "t": "Muy amable. ¿Y en qué le puedo ayudar?", "n": "That's very kind. And how can I help you?",
+            "choices": [
+              { "t": "Es un placer conocerla. Estoy traduciendo una novela y me gustaría proponérsela.", "n": "It's a pleasure to meet you. I'm translating a novel and I'd like to propose it to you.", "next": "project" },
+              { "t": "Quiero que me publique la traducción. ¿Cuándo firmamos?", "n": "I want you to publish my translation. When do we sign?", "next": "bad" }
+            ]
+          },
+          "project": {
+            "t": "Interesante. Aunque le aviso que este año tenemos el catálogo completo.", "n": "Interesting. Although I should warn you that this year our list is full.",
+            "choices": [
+              { "t": "¿Cómo debo entenderlo? ¿Habría alguna posibilidad para el año que viene?", "n": "How should I take that? Might there be a chance for next year?", "next": "chance" },
+              { "t": "Pues hagan sitio, es una obra maestra.", "n": "Well, make room, it's a masterpiece.", "next": "bad" }
+            ]
+          },
+          "chance": {
+            "t": "Mirá, ¿te puedo tutear? Mandame unas páginas y lo vemos con calma.", "n": "Look, can we be informal? Send me a few pages and we'll take a proper look.",
+            "choices": [
+              { "t": "Claro que sí, con mucho gusto. Te mando un capítulo esta misma semana.", "n": "Of course, with pleasure. I'll send you a chapter this very week.", "next": "good" },
+              { "t": "Claro. ¿Cuántas páginas te mando, más o menos?", "n": "Of course. Roughly how many pages should I send you?", "next": "clarify" }
+            ]
+          },
+          "clarify": {
+            "t": "Con un capítulo alcanza. Acá tenés mi tarjeta.", "n": "One chapter is enough. Here's my card.",
+            "choices": [
+              { "t": "Muchísimas gracias. Te lo mando el lunes sin falta.", "n": "Thank you so much. I'll send it on Monday without fail.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Perfecto, quedo atenta. ¡Que disfrutes la feria!", "n": "Perfect, I'll look out for it. Enjoy the fair!",
+            "end": "good", "outcome": "You opened formally, let her offer the informal form and left with an invitation to send your chapter."
+          },
+          "bad": {
+            "t": "Bueno, si me disculpa, me están esperando. Que tenga buena noche.", "n": "Well, if you'll excuse me, people are waiting for me. Have a good evening.",
+            "end": "bad", "outcome": "Your tone was too familiar or too pushy for a first contact. Start with usted and let her set the pace."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Introduce yourself formally to a senior publisher.", "t": ["Permítame que me presente", "Permítame presentarme"] },
+        { "n": "Politely ask how you should take a remark.", "t": ["Cómo debo entenderlo", "Cómo debo entender eso", "Qué quiere decir con eso"] }
+      ]
+    },
+    {
+      "id": "c1-u01-l7",
+      "kind": "speaking",
+      "title": "Switching registers",
+      "goal": "Talk freely about forms of address and how you adapt your Spanish to the situation.",
+      "culture": {
+        "title": "Tú, usted, vos",
+        "body": "Spanish has several ways to say \"you\", and each country draws the line differently. In Spain tú is used very widely, even with many bosses and with strangers of a similar age, while usted is kept for older people and formal situations. In Mexico and much of Latin America usted is used more often, for example with clients, older people or service staff. In Argentina and Uruguay vos replaces tú in everyday speech, writing and advertising, and in parts of Colombia people use usted even with friends and family as a sign of closeness. When in doubt, start with usted and let the other person offer the informal form.",
+        "regions": ["ES", "MX", "AR", "UY", "CO"]
+      },
+      "phrases": [
+        { "t": "En mi país todo es más informal.", "n": "In my country everything is more informal." },
+        { "t": "En el trabajo suelo hablar de usted al principio.", "n": "At work I usually use usted at first." },
+        { "t": "Con los amigos lo diría de otra manera.", "n": "With friends I'd put it differently." },
+        { "t": "A las personas mayores las trato de usted.", "n": "I use usted with older people." }
+      ],
+      "free": [
+        {
+          "n": "Compare how people address each other in your country and in the Spanish-speaking world (tú, usted, vos), and explain how you adapt your Spanish at work and with friends.",
+          "hint": "En mi país … / En España, en cambio, … mientras que en México … / En el trabajo suelo … / Con los amigos … / Una vez me pasó que …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "forms of address", "any": ["tute*", "de usted", "vos", "formal", "informal", "tú", "usted"] },
+            { "label": "a comparison", "any": ["en cambio", "mientras que", "a diferencia de", "en comparación con", "por el contrario", "más que"] },
+            { "label": "the work context", "any": ["trabajo", "oficina", "jefe", "jefa", "cliente*", "compañeros", "reuniones", "reunión"] },
+            { "label": "your own experience", "any": ["me pasó", "una vez", "me di cuenta", "suelo", "me parece", "creo que"] }
+          ],
+          "model": "En mi país todo es más informal: en inglés ni siquiera existe la diferencia entre tú y usted. En España, en cambio, mucha gente tutea incluso al jefe, mientras que en México se habla más de usted, sobre todo con los clientes. En el trabajo suelo hablar de usted al principio y espero a que la otra persona me proponga tutearnos. Con los amigos, claro, lo diría todo de otra manera. Una vez traté de tú a una señora mayor en Bogotá y me di cuenta de que había sonado demasiado brusco."
+        }
+      ],
+      "prompts": [
+        { "n": "Say that at work you usually use usted at first.", "t": ["En el trabajo suelo hablar de usted al principio", "En el trabajo suelo hablar de usted", "Al principio suelo hablar de usted en el trabajo"] },
+        { "n": "Say that with friends you'd put it differently.", "t": ["Con los amigos lo diría de otra manera", "Con los amigos lo diría de otra forma", "Con mis amigos lo diría de otra manera"] }
+      ]
+    },
+    {
+      "id": "c1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: El tono adecuado",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
