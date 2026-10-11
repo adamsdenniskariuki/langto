@@ -1,0 +1,823 @@
+{
+  "id": "u10",
+  "title": "Ma journée",
+  "subtitle": "Daily routine",
+  "icon": "🌅",
+  "lessons": [
+    {
+      "id": "u10-l1",
+      "title": "My daily routine",
+      "goal": "Describe a normal day.",
+      "tip": {
+        "title": "Verbs with me",
+        "body": "Many routine verbs come with a little extra pronoun: se lever (to get up) → je me lève, literally \"I get myself up\". Before a vowel me becomes m': je m'habille (I get dressed). In lève, the è is open like the e in \"bed\"; the final -e is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je me lève à sept heures.",
+          "n": "I get up at seven o'clock."
+        },
+        {
+          "t": "Je me douche le matin.",
+          "n": "I shower in the morning."
+        },
+        {
+          "t": "Je prends le petit-déjeuner.",
+          "n": "I have breakfast.",
+          "note": "In Belgium, Switzerland and Québec breakfast is often simply le déjeuner."
+        },
+        {
+          "t": "Je travaille de neuf heures à dix-sept heures.",
+          "n": "I work from nine to five."
+        },
+        {
+          "t": "Le soir, je regarde la télé.",
+          "n": "In the evening I watch TV."
+        },
+        {
+          "t": "Je me couche à onze heures.",
+          "n": "I go to bed at eleven."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JosephineNeural",
+        "title": "Early bird?",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Tu te lèves à quelle heure ?",
+            "n": "What time do you get up?"
+          },
+          {
+            "who": "you",
+            "t": "Je me lève à sept heures.",
+            "n": "I get up at seven."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Et qu'est-ce que tu fais le soir ?",
+            "n": "And what do you do in the evening?"
+          },
+          {
+            "who": "you",
+            "t": "Le soir, je regarde la télé. Je me couche à onze heures.",
+            "n": "In the evening I watch TV. I go to bed at eleven."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Moi aussi !",
+            "n": "Me too!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you get up at seven.",
+          "t": [
+            "Je me lève à sept heures",
+            "Je me lève à sept heures du matin"
+          ]
+        },
+        {
+          "n": "Say you work from nine to five.",
+          "t": [
+            "Je travaille de neuf heures à dix-sept heures",
+            "Je travaille de neuf heures à cinq heures",
+            "Je travaille de neuf à cinq"
+          ]
+        },
+        {
+          "n": "Say you go to bed at eleven.",
+          "t": [
+            "Je me couche à onze heures",
+            "Je vais au lit à onze heures",
+            "Je me couche à vingt-trois heures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l2",
+      "title": "How was your day?",
+      "goal": "Talk about your day in the past.",
+      "tip": {
+        "title": "A peek at the past",
+        "body": "Spoken French talks about the past with avoir + a past participle: j'ai travaillé (I worked), j'ai fait (I did). For \"it was\" say c'était: C'était bien ! You'll learn this tense properly in A2 — for now, just use these chunks."
+      },
+      "phrases": [
+        {
+          "t": "Tu as passé une bonne journée ?",
+          "n": "Did you have a good day?"
+        },
+        {
+          "t": "C'était bien.",
+          "n": "It was good."
+        },
+        {
+          "t": "Je suis fatigué.",
+          "n": "I'm tired.",
+          "note": "A woman writes fatiguée; it sounds the same."
+        },
+        {
+          "t": "J'étais au bureau.",
+          "n": "I was at the office."
+        },
+        {
+          "t": "J'ai beaucoup travaillé.",
+          "n": "I worked a lot."
+        },
+        {
+          "t": "Qu'est-ce que tu as fait ?",
+          "n": "What did you do?"
+        },
+        {
+          "t": "J'ai étudié le français.",
+          "n": "I studied French."
+        }
+      ],
+      "dialogue": {
+        "title": "Evening chat",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Salut ! Tu as passé une bonne journée ?",
+            "n": "Hi! Did you have a good day?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, c'était bien, mais je suis fatigué.",
+            "n": "Yes, it was good, but I'm tired."
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Qu'est-ce que tu as fait ?",
+            "n": "What did you do?"
+          },
+          {
+            "who": "you",
+            "t": "J'étais au bureau. J'ai beaucoup travaillé.",
+            "n": "I was at the office. I worked a lot."
+          },
+          {
+            "who": "A",
+            "name": "Antoine",
+            "t": "Et après le travail ?",
+            "n": "And after work?"
+          },
+          {
+            "who": "you",
+            "t": "J'ai étudié le français !",
+            "n": "I studied French!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend if they had a good day.",
+          "t": [
+            "Tu as passé une bonne journée",
+            "T'as passé une bonne journée",
+            "Est-ce que tu as passé une bonne journée",
+            "Ta journée s'est bien passée",
+            "Ça a été ta journée"
+          ]
+        },
+        {
+          "n": "Say you're tired.",
+          "t": [
+            "Je suis fatigué",
+            "Je suis fatiguée",
+            "Je suis très fatigué",
+            "Je suis très fatiguée"
+          ]
+        },
+        {
+          "n": "Say you studied French today.",
+          "t": [
+            "J'ai étudié le français",
+            "Aujourd'hui j'ai étudié le français",
+            "J'ai étudié le français aujourd'hui",
+            "J'ai appris le français aujourd'hui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l3",
+      "title": "Chores & errands",
+      "goal": "Talk about jobs at home and in town.",
+      "tip": {
+        "title": "faire for chores",
+        "body": "Most household chores use faire: faire le ménage (do the cleaning), faire la vaisselle (do the dishes), faire la lessive (do the laundry), faire les courses (do the shopping). Vacuuming is passer l'aspirateur. In faire, the ai of je fais sounds like the è in lève."
+      },
+      "phrases": [
+        {
+          "t": "Je fais le ménage le samedi.",
+          "n": "I do the cleaning on Saturdays."
+        },
+        {
+          "t": "Je fais la vaisselle.",
+          "n": "I'm doing the dishes."
+        },
+        {
+          "t": "Je passe l'aspirateur.",
+          "n": "I'm vacuuming."
+        },
+        {
+          "t": "Je prépare le dîner.",
+          "n": "I'm making dinner.",
+          "note": "In Belgium, Switzerland and Québec the evening meal is often le souper, and le dîner is lunch."
+        },
+        {
+          "t": "J'appelle ma mère.",
+          "n": "I'm calling my mother."
+        },
+        {
+          "t": "Je rentre à la maison à six heures.",
+          "n": "I get home at six o'clock."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JosephineNeural",
+        "title": "Weekend jobs",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Qu'est-ce que tu fais samedi ?",
+            "n": "What are you doing on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Samedi, je fais le ménage et je passe l'aspirateur.",
+            "n": "On Saturday I'm doing the cleaning and vacuuming."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Pas très drôle ! Et dimanche ?",
+            "n": "Not much fun! And on Sunday?"
+          },
+          {
+            "who": "you",
+            "t": "Dimanche, j'appelle ma mère et je prépare le dîner.",
+            "n": "On Sunday I call my mother and make dinner."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you do the cleaning on Saturdays.",
+          "t": [
+            "Je fais le ménage le samedi",
+            "Le samedi je fais le ménage"
+          ]
+        },
+        {
+          "n": "Say you get home at six.",
+          "t": [
+            "Je rentre à la maison à six heures",
+            "Je rentre à six heures",
+            "Je rentre chez moi à six heures"
+          ]
+        },
+        {
+          "n": "Say you're doing the dishes.",
+          "t": [
+            "Je fais la vaisselle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l4",
+      "kind": "grammar",
+      "title": "Reflexive verbs",
+      "goal": "Use me, te, se, nous, vous with routine verbs.",
+      "tip": {
+        "title": "The pronoun matches the subject",
+        "body": "Reflexive verbs take a pronoun that matches the subject: je me lève, tu te lèves, il / elle / on se lève, nous nous levons, vous vous levez, ils / elles se lèvent. me, te, se become m', t', s' before a vowel or silent h: je m'habille, il s'habille. Liaison: in nous nous_habillons and vous vous_habillez, the s before the vowel sounds like z. In the negative, ne… pas wraps around pronoun + verb: je ne me lève pas. With aller + infinitive, the pronoun goes with the infinitive and still matches: je vais me coucher, tu vas te coucher."
+      },
+      "phrases": [
+        {
+          "t": "Je me réveille tôt.",
+          "n": "I wake up early."
+        },
+        {
+          "t": "Il se rase le matin.",
+          "n": "He shaves in the morning."
+        },
+        {
+          "t": "Nous nous habillons.",
+          "n": "We're getting dressed."
+        },
+        {
+          "t": "Je ne me lève pas tôt le dimanche.",
+          "n": "I don't get up early on Sundays."
+        },
+        {
+          "t": "Je vais me coucher.",
+          "n": "I'm going to bed."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Change the person",
+          "base": {
+            "t": "Je me lève à sept heures.",
+            "n": "I get up at seven o'clock."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Tu te lèves à sept heures.",
+              "n": "You get up at seven o'clock."
+            },
+            {
+              "cue": "elle",
+              "t": "Elle se lève à sept heures.",
+              "n": "She gets up at seven o'clock."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous nous levons à sept heures.",
+              "n": "We get up at seven o'clock."
+            },
+            {
+              "cue": "vous",
+              "t": "Vous vous levez à sept heures.",
+              "n": "You get up at seven o'clock."
+            }
+          ]
+        },
+        {
+          "title": "Swap the verb",
+          "base": {
+            "t": "Je me lève tôt.",
+            "n": "I get up early."
+          },
+          "items": [
+            {
+              "cue": "se réveiller",
+              "t": "Je me réveille tôt.",
+              "n": "I wake up early."
+            },
+            {
+              "cue": "s'habiller · vite",
+              "t": "Je m'habille vite.",
+              "n": "I get dressed quickly."
+            },
+            {
+              "cue": "se coucher · tard",
+              "t": "Je me couche tard.",
+              "n": "I go to bed late."
+            },
+            {
+              "cue": "ne… pas",
+              "t": "Je ne me lève pas tôt.",
+              "n": "I don't get up early."
+            }
+          ]
+        },
+        {
+          "title": "Add aller",
+          "base": {
+            "t": "Je me couche.",
+            "n": "I go to bed."
+          },
+          "items": [
+            {
+              "cue": "aller",
+              "t": "Je vais me coucher.",
+              "n": "I'm going to go to bed."
+            },
+            {
+              "cue": "tu · aller ?",
+              "t": "Tu vas te coucher ?",
+              "n": "Are you going to bed?"
+            },
+            {
+              "cue": "nous · aller · se doucher",
+              "t": "Nous allons nous doucher.",
+              "n": "We're going to have a shower."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you wake up early.",
+          "t": [
+            "Je me réveille tôt"
+          ]
+        },
+        {
+          "n": "Ask a friend what time they get up.",
+          "t": [
+            "Tu te lèves à quelle heure",
+            "À quelle heure tu te lèves",
+            "À quelle heure est-ce que tu te lèves",
+            "À quelle heure te lèves-tu",
+            "Vous vous levez à quelle heure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l5",
+      "kind": "listening",
+      "title": "The baker's day",
+      "goal": "Follow someone describing their routine.",
+      "phrases": [
+        {
+          "t": "tous les jours",
+          "n": "every day"
+        },
+        {
+          "t": "Pourquoi si tôt ?",
+          "n": "Why so early?"
+        },
+        {
+          "t": "l'après-midi",
+          "n": "in the afternoon"
+        },
+        {
+          "t": "Je vais chercher ma fille à l'école.",
+          "n": "I pick up my daughter from school."
+        }
+      ],
+      "story": {
+        "title": "Paul is tired",
+        "intro": "Julie meets Paul, who looks very tired.",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "name": "Julie",
+            "t": "Bonjour Paul ! Tu es fatigué ?",
+            "n": "Hello Paul! Are you tired?"
+          },
+          {
+            "name": "Paul",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Oui ! Je me lève à quatre heures tous les jours.",
+            "n": "Yes! I get up at four o'clock every day."
+          },
+          {
+            "name": "Julie",
+            "t": "À quatre heures ? Pourquoi si tôt ?",
+            "n": "At four? Why so early?"
+          },
+          {
+            "name": "Paul",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Je suis boulanger. Je travaille de cinq heures à treize heures.",
+            "n": "I'm a baker. I work from five am to one pm."
+          },
+          {
+            "name": "Julie",
+            "t": "Et l'après-midi ?",
+            "n": "And in the afternoon?"
+          },
+          {
+            "name": "Paul",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "L'après-midi, je fais les courses et je vais chercher ma fille à l'école.",
+            "n": "In the afternoon I do the shopping and pick up my daughter from school."
+          },
+          {
+            "name": "Julie",
+            "t": "Et le soir ?",
+            "n": "And in the evening?"
+          },
+          {
+            "name": "Paul",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Le soir, je prépare le dîner et je me couche à neuf heures.",
+            "n": "In the evening I make dinner and go to bed at nine."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Paul se lève à quelle heure ?",
+            "n": "What time does Paul get up?",
+            "t": [
+              "À quatre heures",
+              "Quatre heures",
+              "Il se lève à quatre heures"
+            ]
+          },
+          {
+            "q": "Quel est le métier de Paul ?",
+            "n": "What is Paul's job?",
+            "t": [
+              "Boulanger",
+              "Il est boulanger",
+              "C'est un boulanger"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Paul fait l'après-midi ?",
+            "n": "What does Paul do in the afternoon?",
+            "t": [
+              "Il fait les courses",
+              "Les courses",
+              "Il va chercher sa fille",
+              "Il fait les courses et il va chercher sa fille à l'école"
+            ]
+          },
+          {
+            "q": "Paul se couche à quelle heure ?",
+            "n": "What time does Paul go to bed?",
+            "t": [
+              "À neuf heures",
+              "Neuf heures",
+              "Il se couche à neuf heures"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u10-l6",
+      "kind": "roleplay",
+      "title": "Hotel check-in",
+      "goal": "Check in and ask about breakfast.",
+      "phrases": [
+        {
+          "t": "J'ai une réservation.",
+          "n": "I have a reservation."
+        },
+        {
+          "t": "Vous avez une chambre libre ?",
+          "n": "Do you have a room available?"
+        },
+        {
+          "t": "Voici votre clé.",
+          "n": "Here is your key."
+        },
+        {
+          "t": "Le petit-déjeuner est à quelle heure ?",
+          "n": "What time is breakfast?"
+        }
+      ],
+      "branch": {
+        "title": "Hôtel du Lac, 9 pm",
+        "scene": "You arrive at the hotel reception in the evening with your suitcase.",
+        "name": "Réception",
+        "voice": "fr-FR-AlainNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonsoir ! Bienvenue à l'hôtel du Lac.",
+            "n": "Good evening! Welcome to the Hôtel du Lac.",
+            "choices": [
+              {
+                "t": "Bonsoir ! J'ai une réservation.",
+                "n": "Good evening! I have a reservation.",
+                "next": "name"
+              },
+              {
+                "t": "Bonsoir. Vous avez une chambre libre ?",
+                "n": "Good evening. Do you have a room available?",
+                "next": "room"
+              }
+            ]
+          },
+          "room": {
+            "t": "Pour ce soir ? Oui, une chambre simple à quatre-vingt-dix euros.",
+            "n": "For tonight? Yes, a single room for ninety euros.",
+            "choices": [
+              {
+                "t": "Très bien, je la prends.",
+                "n": "Very good, I'll take it.",
+                "next": "name"
+              },
+              {
+                "t": "C'est trop cher. Au revoir !",
+                "n": "That's too expensive. Goodbye!",
+                "next": "gone"
+              }
+            ]
+          },
+          "name": {
+            "t": "C'est à quel nom, s'il vous plaît ?",
+            "n": "What name is it under, please?",
+            "choices": [
+              {
+                "t": "Au nom d'Alex Brown.",
+                "n": "It's under Alex Brown.",
+                "next": "key"
+              },
+              {
+                "t": "Pardon ? Vous pouvez répéter ?",
+                "n": "Sorry? Can you repeat that?",
+                "next": "again"
+              }
+            ]
+          },
+          "again": {
+            "t": "Comment vous appelez-vous, s'il vous plaît ?",
+            "n": "What's your name, please?",
+            "choices": [
+              {
+                "t": "Je m'appelle Alex Brown.",
+                "n": "My name is Alex Brown.",
+                "next": "key"
+              }
+            ]
+          },
+          "key": {
+            "t": "Merci. Voici votre clé. C'est la chambre douze, au deuxième étage.",
+            "n": "Thank you. Here is your key. It's room twelve, on the second floor.",
+            "choices": [
+              {
+                "t": "Le petit-déjeuner est à quelle heure ?",
+                "n": "What time is breakfast?",
+                "next": "breakfast"
+              },
+              {
+                "t": "Où est l'ascenseur, s'il vous plaît ?",
+                "n": "Where is the lift, please?",
+                "next": "lift"
+              }
+            ]
+          },
+          "breakfast": {
+            "t": "De sept heures à dix heures, dans la salle à côté. Bonne nuit !",
+            "n": "From seven to ten o'clock, in the room next door. Good night!",
+            "end": "good",
+            "outcome": "You checked in and know when breakfast is."
+          },
+          "lift": {
+            "t": "Juste là, à gauche. Le petit-déjeuner est servi à partir de sept heures. Bonne nuit !",
+            "n": "Just there, on the left. Breakfast is served from seven. Good night!",
+            "end": "good",
+            "outcome": "You checked in and found the lift."
+          },
+          "gone": {
+            "t": "Dommage. Bonne soirée !",
+            "n": "Pity. Have a good evening!",
+            "end": "bad",
+            "outcome": "No room for tonight — try again and take the room."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the receptionist you have a reservation.",
+          "t": [
+            "J'ai une réservation",
+            "Bonsoir j'ai une réservation",
+            "Bonjour j'ai une réservation"
+          ]
+        },
+        {
+          "n": "Ask what time breakfast is.",
+          "t": [
+            "Le petit-déjeuner est à quelle heure",
+            "À quelle heure est le petit-déjeuner",
+            "Le petit-déjeuner c'est à quelle heure",
+            "À quelle heure est servi le petit-déjeuner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-l7",
+      "kind": "speaking",
+      "title": "A normal day",
+      "goal": "Describe your day for 30 seconds.",
+      "culture": {
+        "title": "La pause déjeuner",
+        "body": "In France the legal working week is 35 hours, and lunch is still a real break for many people: often a sit-down meal around noon or 1 pm, in a canteen, a café or with colleagues, and many employees get meal vouchers (tickets-restaurant). In smaller towns some shops close for lunch. In Switzerland lunch tends to be a little earlier, around noon. In Belgium, Switzerland and Québec this midday meal is le dîner — in Québec it is often quicker, sometimes eaten at the desk.",
+        "regions": [
+          "FR",
+          "CH",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "D'abord, je prends un café.",
+          "n": "First, I have a coffee."
+        },
+        {
+          "t": "Ensuite, je vais au travail.",
+          "n": "Then I go to work."
+        },
+        {
+          "t": "À midi, je fais une pause.",
+          "n": "At noon I take a break."
+        },
+        {
+          "t": "On mange ensemble ?",
+          "n": "Shall we eat together?"
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe a normal day from morning to evening.",
+          "hint": "Je me lève à … heures · D'abord … ensuite … · Je travaille jusqu'à … · Le soir, je … · Je me couche à …",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "a time",
+              "any": [
+                "heure*",
+                "matin",
+                "midi",
+                "après-midi",
+                "soir",
+                "tôt",
+                "tard"
+              ]
+            },
+            {
+              "label": "a reflexive verb (je me lève…)",
+              "any": [
+                "lève",
+                "réveille",
+                "douche",
+                "habille",
+                "couche",
+                "lave",
+                "rase"
+              ]
+            },
+            {
+              "label": "a routine activity",
+              "any": [
+                "travaille*",
+                "petit-déjeuner",
+                "déjeune*",
+                "mange*",
+                "rentre",
+                "regarde",
+                "télé",
+                "prépare",
+                "dîner",
+                "souper",
+                "ménage",
+                "vaisselle",
+                "bureau"
+              ]
+            },
+            {
+              "label": "d'abord / ensuite",
+              "any": [
+                "d'abord",
+                "abord",
+                "ensuite",
+                "puis",
+                "après"
+              ]
+            }
+          ],
+          "model": "Je me lève à sept heures. D'abord, je me douche, ensuite je prends le petit-déjeuner. Je travaille jusqu'à dix-sept heures et le soir, je regarde la télé. Je me couche à onze heures."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask a colleague if you'll eat lunch together.",
+          "t": [
+            "On mange ensemble",
+            "On déjeune ensemble",
+            "Tu veux manger avec moi",
+            "On mange ensemble à midi"
+          ]
+        },
+        {
+          "n": "Say first you have a coffee, then you go to work.",
+          "t": [
+            "D'abord je prends un café ensuite je vais au travail",
+            "D'abord je prends un café puis je vais au travail",
+            "D'abord je bois un café ensuite je vais au travail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ma journée",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "a1-test",
+      "kind": "test",
+      "title": "A1 speaking test",
+      "goal": "Pass to earn your A1 badge and unlock A2.",
+      "tip": {
+        "title": "You've got this",
+        "body": "The test mixes phrases from all ten A1 units. Speak in short, clear sentences — if a word is missing, say what you can and keep going."
+      }
+    }
+  ]
+}

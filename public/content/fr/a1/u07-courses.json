@@ -1,0 +1,903 @@
+{
+  "id": "u07",
+  "title": "Faire les courses",
+  "subtitle": "Food & shopping",
+  "icon": "🛒",
+  "lessons": [
+    {
+      "id": "u07-l1",
+      "title": "At the market",
+      "goal": "Buy fruit and veg by the kilo and ask about prices.",
+      "tip": {
+        "title": "Vous désirez ? Et avec ceci ?",
+        "body": "Market sellers use a few set phrases: Vous désirez ? (What would you like?), Et avec ceci ? (Anything else?) and Ce sera tout ? (Will that be all?). Prices are given per kilo: trois euros le kilo. In kilo the k sounds like an English k, and in ceci both c's sound like s."
+      },
+      "phrases": [
+        {
+          "t": "Je voudrais un kilo de tomates.",
+          "n": "I'd like a kilo of tomatoes."
+        },
+        {
+          "t": "C'est combien, le kilo ?",
+          "n": "How much is it per kilo?"
+        },
+        {
+          "t": "Les pommes sont à trois euros le kilo.",
+          "n": "The apples are three euros a kilo."
+        },
+        {
+          "t": "Je vais prendre un demi-kilo de cerises.",
+          "n": "I'll take half a kilo of cherries."
+        },
+        {
+          "t": "Et avec ceci ?",
+          "n": "Anything else?",
+          "note": "What sellers say. Also: Et avec ça ?"
+        },
+        {
+          "t": "C'est tout, merci.",
+          "n": "That's all, thanks."
+        },
+        {
+          "t": "Ça fait combien ?",
+          "n": "How much does that come to?"
+        },
+        {
+          "t": "Elles sont bien mûres, les pêches ?",
+          "n": "Are the peaches nice and ripe?"
+        }
+      ],
+      "dialogue": {
+        "title": "Le marché du samedi",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Marchand",
+            "t": "Bonjour ! Vous désirez ?",
+            "n": "Hello! What would you like?"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour, je voudrais un kilo de tomates, s'il vous plaît.",
+            "n": "Hello, I'd like a kilo of tomatoes, please."
+          },
+          {
+            "who": "A",
+            "name": "Marchand",
+            "t": "Voilà. Et avec ceci ?",
+            "n": "Here you are. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Les cerises, c'est combien, le kilo ?",
+            "n": "The cherries, how much are they per kilo?"
+          },
+          {
+            "who": "A",
+            "name": "Marchand",
+            "t": "Six euros le kilo. Elles sont très bonnes !",
+            "n": "Six euros a kilo. They're very good!"
+          },
+          {
+            "who": "you",
+            "t": "Je vais prendre un demi-kilo. C'est tout, merci. Ça fait combien ?",
+            "n": "I'll take half a kilo. That's all, thanks. How much does that come to?"
+          },
+          {
+            "who": "A",
+            "name": "Marchand",
+            "t": "Alors, ça fait cinq euros cinquante.",
+            "n": "So, that's five euros fifty."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how much it is per kilo.",
+          "t": [
+            "C'est combien le kilo",
+            "Combien le kilo",
+            "C'est combien",
+            "Ça coûte combien le kilo"
+          ]
+        },
+        {
+          "n": "Ask for a kilo of apples.",
+          "t": [
+            "Je voudrais un kilo de pommes",
+            "Un kilo de pommes s'il vous plaît",
+            "Je vais prendre un kilo de pommes",
+            "Je prends un kilo de pommes"
+          ]
+        },
+        {
+          "n": "Say that's all, thanks.",
+          "t": [
+            "C'est tout merci",
+            "C'est tout",
+            "Ce sera tout merci",
+            "Non merci c'est tout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l2",
+      "title": "At the supermarket",
+      "goal": "Say what you need and find things in the shop.",
+      "tip": {
+        "title": "Il nous faut … and plus de …",
+        "body": "Il me faut (I need) and il nous faut (we need) are everyday ways to make a shopping list; on a besoin de works too. Il n'y a plus de … means there's no … left. Listen to the f in œuf: un œuf has a sounded f, but in des œufs the f is silent and you hear a liaison: des‿œufs (\"day-zuh\")."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce qu'il nous faut ?",
+          "n": "What do we need?"
+        },
+        {
+          "t": "Il nous faut du lait et des œufs.",
+          "n": "We need milk and eggs."
+        },
+        {
+          "t": "Il n'y a plus de beurre.",
+          "n": "There's no butter left."
+        },
+        {
+          "t": "Où est le rayon frais ?",
+          "n": "Where's the chilled section?",
+          "note": "un rayon = an aisle or section of a shop."
+        },
+        {
+          "t": "Je cherche la farine.",
+          "n": "I'm looking for the flour."
+        },
+        {
+          "t": "C'est en promotion.",
+          "n": "It's on special offer."
+        },
+        {
+          "t": "Tu prends un panier ?",
+          "n": "Are you taking a basket?"
+        },
+        {
+          "t": "C'est moins cher au marché.",
+          "n": "It's cheaper at the market."
+        }
+      ],
+      "dialogue": {
+        "title": "Au supermarché",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Bon, qu'est-ce qu'il nous faut ?",
+            "n": "Right, what do we need?"
+          },
+          {
+            "who": "you",
+            "t": "Il nous faut du lait et des œufs.",
+            "n": "We need milk and eggs."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Et du beurre ! Il n'y a plus de beurre à la maison.",
+            "n": "And butter! There's no butter left at home."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. Où est le rayon frais ?",
+            "n": "OK. Where's the chilled section?"
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Là-bas, au fond. Regarde, les yaourts sont en promotion !",
+            "n": "Over there, at the back. Look, the yoghurts are on special offer!"
+          },
+          {
+            "who": "you",
+            "t": "Super ! Et je cherche la farine pour la tarte.",
+            "n": "Great! And I'm looking for the flour for the tart."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say we need milk and eggs.",
+          "t": [
+            "Il nous faut du lait et des œufs",
+            "On a besoin de lait et d'œufs",
+            "Il faut du lait et des œufs"
+          ]
+        },
+        {
+          "n": "Say there's no butter left.",
+          "t": [
+            "Il n'y a plus de beurre",
+            "Il y a plus de beurre",
+            "On n'a plus de beurre"
+          ]
+        },
+        {
+          "n": "Say you're looking for the flour.",
+          "t": [
+            "Je cherche la farine",
+            "Où est la farine",
+            "Elle est où la farine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l3",
+      "title": "At the cheese counter",
+      "goal": "Ask for slices, pieces and grams.",
+      "tip": {
+        "title": "Une tranche, un morceau, cent grammes",
+        "body": "At the deli or cheese counter you ask for une tranche (a slice), un morceau (a piece) or a weight in grams: deux cents grammes. After any quantity, French simply uses de: quatre tranches de jambon. The seller often holds the knife over the cheese and asks Comme ça ? (This much?) — answer Un peu plus or Un peu moins. In grammes the final -es is silent: \"gram\"."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que je vous sers ?",
+          "n": "What can I get you?",
+          "note": "What shopkeepers say."
+        },
+        {
+          "t": "Quatre tranches de jambon, s'il vous plaît.",
+          "n": "Four slices of ham, please."
+        },
+        {
+          "t": "Un morceau de comté, s'il vous plaît.",
+          "n": "A piece of Comté, please.",
+          "note": "Comté is a hard cheese from the Jura mountains."
+        },
+        {
+          "t": "Comme ça ?",
+          "n": "This much?"
+        },
+        {
+          "t": "Un peu plus, s'il vous plaît.",
+          "n": "A bit more, please."
+        },
+        {
+          "t": "Un peu moins, s'il vous plaît.",
+          "n": "A bit less, please."
+        },
+        {
+          "t": "Deux cents grammes, s'il vous plaît.",
+          "n": "Two hundred grams, please."
+        },
+        {
+          "t": "Je peux goûter ?",
+          "n": "Can I taste it?"
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-YvetteNeural",
+        "title": "À la fromagerie",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Fromagère",
+            "t": "Bonjour ! Qu'est-ce que je vous sers ?",
+            "n": "Hello! What can I get you?"
+          },
+          {
+            "who": "you",
+            "t": "Un morceau de comté, s'il vous plaît.",
+            "n": "A piece of Comté, please."
+          },
+          {
+            "who": "A",
+            "name": "Fromagère",
+            "t": "Comme ça ?",
+            "n": "This much?"
+          },
+          {
+            "who": "you",
+            "t": "Un peu plus, s'il vous plaît.",
+            "n": "A bit more, please."
+          },
+          {
+            "who": "A",
+            "name": "Fromagère",
+            "t": "Voilà, trois cents grammes. Et avec ça ?",
+            "n": "There you are, three hundred grams. Anything else?"
+          },
+          {
+            "who": "you",
+            "t": "Je peux goûter le brie ?",
+            "n": "Can I taste the brie?"
+          },
+          {
+            "who": "A",
+            "name": "Fromagère",
+            "t": "Bien sûr. Tenez !",
+            "n": "Of course. Here you go!"
+          },
+          {
+            "who": "you",
+            "t": "Mmm, il est très bon ! Deux cents grammes, s'il vous plaît.",
+            "n": "Mmm, it's very good! Two hundred grams, please."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask for four slices of ham.",
+          "t": [
+            "Quatre tranches de jambon s'il vous plaît",
+            "Quatre tranches de jambon",
+            "Je voudrais quatre tranches de jambon"
+          ]
+        },
+        {
+          "n": "Ask if you can taste it.",
+          "t": [
+            "Je peux goûter",
+            "Est-ce que je peux goûter",
+            "Je peux goûter s'il vous plaît",
+            "Puis-je goûter"
+          ]
+        },
+        {
+          "n": "Say a bit more, please.",
+          "t": [
+            "Un peu plus s'il vous plaît",
+            "Un peu plus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l4",
+      "kind": "grammar",
+      "title": "du, de la, des — and de",
+      "goal": "Use the partitive, and de after quantities and negation.",
+      "tip": {
+        "title": "\"Some\" has to be said",
+        "body": "Where English says \"some\" or nothing at all (I'm buying bread), French needs a partitive article: du pain (masculine), de la confiture (feminine), de l'eau (before a vowel or mute h), des pommes (plural). After a quantity or a negation they all shrink to de, or d' before a vowel: un kilo de pommes, une bouteille d'eau, je ne mange pas de viande, il n'y a plus de lait. Pronunciation: du has the tight French u (lips rounded), des sounds like \"day\"."
+      },
+      "phrases": [
+        {
+          "t": "J'achète du pain et de la confiture.",
+          "n": "I'm buying bread and jam."
+        },
+        {
+          "t": "Tu veux de l'eau ?",
+          "n": "Do you want some water?"
+        },
+        {
+          "t": "On prend des fraises ?",
+          "n": "Shall we get some strawberries?"
+        },
+        {
+          "t": "Je ne mange pas de viande.",
+          "n": "I don't eat meat."
+        },
+        {
+          "t": "Une bouteille d'eau, s'il vous plaît.",
+          "n": "A bottle of water, please."
+        },
+        {
+          "t": "Il reste un peu de lait.",
+          "n": "There's a little milk left."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the food (du / de la / de l' / des)",
+          "base": {
+            "t": "J'achète du pain.",
+            "n": "I'm buying bread."
+          },
+          "items": [
+            {
+              "cue": "la confiture",
+              "t": "J'achète de la confiture.",
+              "n": "I'm buying jam."
+            },
+            {
+              "cue": "l'huile (f)",
+              "t": "J'achète de l'huile.",
+              "n": "I'm buying oil."
+            },
+            {
+              "cue": "les oranges",
+              "t": "J'achète des oranges.",
+              "n": "I'm buying oranges."
+            },
+            {
+              "cue": "le beurre",
+              "t": "J'achète du beurre.",
+              "n": "I'm buying butter."
+            }
+          ]
+        },
+        {
+          "title": "Make it negative (pas de / pas d')",
+          "base": {
+            "t": "Il n'y a pas de lait.",
+            "n": "There's no milk."
+          },
+          "items": [
+            {
+              "cue": "du pain",
+              "t": "Il n'y a pas de pain.",
+              "n": "There's no bread."
+            },
+            {
+              "cue": "de l'eau",
+              "t": "Il n'y a pas d'eau.",
+              "n": "There's no water."
+            },
+            {
+              "cue": "des œufs",
+              "t": "Il n'y a pas d'œufs.",
+              "n": "There are no eggs."
+            }
+          ]
+        },
+        {
+          "title": "Add a quantity (… de …)",
+          "base": {
+            "t": "Je prends un kilo de pommes.",
+            "n": "I'll take a kilo of apples."
+          },
+          "items": [
+            {
+              "cue": "un litre · le lait",
+              "t": "Je prends un litre de lait.",
+              "n": "I'll take a litre of milk."
+            },
+            {
+              "cue": "un pot · la confiture",
+              "t": "Je prends un pot de confiture.",
+              "n": "I'll take a jar of jam."
+            },
+            {
+              "cue": "deux paquets · les biscuits",
+              "t": "Je prends deux paquets de biscuits.",
+              "n": "I'll take two packets of biscuits."
+            },
+            {
+              "cue": "une douzaine · les œufs",
+              "t": "Je prends une douzaine d'œufs.",
+              "n": "I'll take a dozen eggs."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're buying bread and jam.",
+          "t": [
+            "J'achète du pain et de la confiture",
+            "Je prends du pain et de la confiture"
+          ]
+        },
+        {
+          "n": "Say there's no milk.",
+          "t": [
+            "Il n'y a pas de lait",
+            "Il y a pas de lait",
+            "On n'a pas de lait"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l5",
+      "kind": "listening",
+      "title": "The shopping list",
+      "goal": "Follow a couple planning their shopping.",
+      "phrases": [
+        {
+          "t": "On n'a plus d'œufs.",
+          "n": "We're out of eggs."
+        },
+        {
+          "t": "Le supermarché ferme à vingt heures.",
+          "n": "The supermarket closes at 8 p.m."
+        },
+        {
+          "t": "Demain, c'est dimanche.",
+          "n": "Tomorrow is Sunday."
+        },
+        {
+          "t": "J'y vais tout de suite.",
+          "n": "I'll go right now."
+        }
+      ],
+      "story": {
+        "title": "Samedi soir",
+        "intro": "Claire and Hugo check the kitchen cupboards on a Saturday evening.",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "name": "Claire",
+            "t": "Hugo, demain on fait une tarte aux pommes pour ta mère. Il nous faut des pommes, de la farine et du beurre.",
+            "n": "Hugo, tomorrow we're making an apple tart for your mother. We need apples, flour and butter."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Et des œufs ? On n'a plus d'œufs.",
+            "n": "And eggs? We're out of eggs."
+          },
+          {
+            "name": "Claire",
+            "t": "Oui, six œufs. Et un litre de lait aussi.",
+            "n": "Yes, six eggs. And a litre of milk too."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Le supermarché ferme à vingt heures. Il est déjà dix-neuf heures trente !",
+            "n": "The supermarket closes at 8 p.m. It's already half past seven!"
+          },
+          {
+            "name": "Claire",
+            "t": "Vite ! Demain, c'est dimanche, et le supermarché est fermé.",
+            "n": "Quick! Tomorrow is Sunday, and the supermarket is closed."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Pas de problème, le marché est ouvert le dimanche matin.",
+            "n": "No problem, the market is open on Sunday morning."
+          },
+          {
+            "name": "Claire",
+            "t": "Oui, mais il n'y a pas de farine au marché !",
+            "n": "Yes, but there's no flour at the market!"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "D'accord, d'accord. J'y vais tout de suite. À tout à l'heure !",
+            "n": "OK, OK. I'll go right now. See you in a bit!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce qu'ils font demain ?",
+            "n": "What are they making tomorrow?",
+            "t": [
+              "Une tarte aux pommes",
+              "Ils font une tarte aux pommes",
+              "Une tarte"
+            ]
+          },
+          {
+            "q": "Combien d'œufs est-ce qu'il leur faut ?",
+            "n": "How many eggs do they need?",
+            "t": [
+              "Six œufs",
+              "Six",
+              "Il leur faut six œufs"
+            ]
+          },
+          {
+            "q": "À quelle heure ferme le supermarché ?",
+            "n": "What time does the supermarket close?",
+            "t": [
+              "À vingt heures",
+              "Vingt heures",
+              "À huit heures",
+              "À huit heures du soir"
+            ]
+          },
+          {
+            "q": "Qui va au supermarché ?",
+            "n": "Who goes to the supermarket?",
+            "t": [
+              "Hugo",
+              "C'est Hugo",
+              "Hugo va au supermarché"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u07-l6",
+      "kind": "roleplay",
+      "title": "At the checkout",
+      "goal": "Pay at the supermarket till.",
+      "culture": {
+        "title": "Le marché: the open-air market",
+        "body": "Most French towns and many villages have an open-air market (le marché) once or several times a week, often in the morning on the main square. Farmers and traders sell fruit, vegetables, cheese, meat, fish and bread, and many people do their weekly shopping there. You greet the seller with Bonjour before asking for anything, and you usually let the seller pick and weigh the produce rather than touching it yourself. Markets are also common in Belgium, Switzerland and Québec (where you'll hear marché public).",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Vous avez la carte du magasin ?",
+          "n": "Do you have the store loyalty card?"
+        },
+        {
+          "t": "Je n'ai pas besoin de sac.",
+          "n": "I don't need a bag."
+        },
+        {
+          "t": "Je peux payer par carte ?",
+          "n": "Can I pay by card?"
+        },
+        {
+          "t": "En espèces.",
+          "n": "In cash."
+        }
+      ],
+      "branch": {
+        "title": "À la caisse",
+        "scene": "You put your shopping on the belt. The cashier looks up and smiles.",
+        "name": "Caissière",
+        "voice": "fr-FR-JosephineNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Vous avez la carte du magasin ?",
+            "n": "Hello! Do you have the store loyalty card?",
+            "choices": [
+              {
+                "t": "Non, je n'ai pas de carte.",
+                "n": "No, I don't have a card.",
+                "next": "bag"
+              },
+              {
+                "t": "Oui, voilà.",
+                "n": "Yes, here you are.",
+                "next": "bag"
+              }
+            ]
+          },
+          "bag": {
+            "t": "Vous voulez un sac ?",
+            "n": "Would you like a bag?",
+            "choices": [
+              {
+                "t": "Oui, s'il vous plaît.",
+                "n": "Yes, please.",
+                "next": "bagprice"
+              },
+              {
+                "t": "Non merci, je n'ai pas besoin de sac.",
+                "n": "No thanks, I don't need a bag.",
+                "next": "total"
+              }
+            ]
+          },
+          "bagprice": {
+            "t": "Le sac est à cinquante centimes. Ça va ?",
+            "n": "The bag is fifty cents. Is that OK?",
+            "choices": [
+              {
+                "t": "Oui, pas de problème.",
+                "n": "Yes, no problem.",
+                "next": "total"
+              },
+              {
+                "t": "Pardon ? Vous pouvez répéter ?",
+                "n": "Sorry? Can you repeat that?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Le sac… coûte… cinquante centimes.",
+            "n": "The bag… costs… fifty cents.",
+            "choices": [
+              {
+                "t": "Ah, d'accord. Oui, merci.",
+                "n": "Oh, I see. Yes, thanks.",
+                "next": "total"
+              }
+            ]
+          },
+          "total": {
+            "t": "Alors, ça fait vingt-trois euros quarante.",
+            "n": "So, that's twenty-three euros forty.",
+            "choices": [
+              {
+                "t": "Je peux payer par carte ?",
+                "n": "Can I pay by card?",
+                "next": "card"
+              },
+              {
+                "t": "En espèces. Voilà cinquante euros.",
+                "n": "In cash. Here's fifty euros.",
+                "next": "cash"
+              },
+              {
+                "t": "Vingt-trois euros ? C'est trop cher ! Au revoir.",
+                "n": "Twenty-three euros? That's too expensive! Goodbye.",
+                "next": "leave"
+              }
+            ]
+          },
+          "card": {
+            "t": "Bien sûr, sans contact, c'est bon. Merci, bonne journée !",
+            "n": "Of course, contactless is fine. Thank you, have a nice day!",
+            "end": "good",
+            "outcome": "You paid by card and left with your shopping."
+          },
+          "cash": {
+            "t": "Merci. Je vous rends vingt-six euros soixante. Bonne journée !",
+            "n": "Thank you. Here's twenty-six euros sixty change. Have a nice day!",
+            "end": "good",
+            "outcome": "You paid in cash and got the right change."
+          },
+          "leave": {
+            "t": "Euh… d'accord. Au suivant !",
+            "n": "Er… OK. Next, please!",
+            "end": "bad",
+            "outcome": "You left without your shopping — try again and pay."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask if you can pay by card.",
+          "t": [
+            "Je peux payer par carte",
+            "Est-ce que je peux payer par carte",
+            "Par carte s'il vous plaît",
+            "Vous prenez la carte"
+          ]
+        },
+        {
+          "n": "Say no thanks, you don't need a bag.",
+          "t": [
+            "Non merci je n'ai pas besoin de sac",
+            "Je n'ai pas besoin de sac",
+            "J'ai pas besoin de sac",
+            "Non merci"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-l7",
+      "kind": "speaking",
+      "title": "My shopping list",
+      "goal": "Say what you need to buy for a meal for 30–40 seconds.",
+      "culture": {
+        "title": "Euros, francs, dollars — and Sundays",
+        "body": "France, Belgium and Luxembourg pay in euros (un euro, cinquante centimes). Switzerland uses the Swiss franc (le franc suisse, CHF), and Canada the Canadian dollar; in informal Québec French a dollar is often une piasse and a cent une cenne. Many West African francophone countries, such as Senegal and Côte d'Ivoire, use the CFA franc. Opening hours differ too: in France and Switzerland many shops close on Sunday or open only in the morning (bakeries and markets are often open), while in Québec most shops are open on Sundays. Check before you plan a Sunday shop!",
+        "regions": [
+          "FR",
+          "BE",
+          "LU",
+          "CH",
+          "CA",
+          "SN",
+          "CI"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ça coûte dix francs.",
+          "n": "It costs ten francs. (Switzerland)"
+        },
+        {
+          "t": "C'est cinq dollars.",
+          "n": "It's five dollars. (Canada)"
+        },
+        {
+          "t": "Le magasin est fermé le dimanche.",
+          "n": "The shop is closed on Sundays."
+        },
+        {
+          "t": "Ce n'est pas cher !",
+          "n": "That's cheap!"
+        }
+      ],
+      "free": [
+        {
+          "n": "You're cooking dinner for friends. Say what you need to buy, with quantities.",
+          "hint": "Il me faut du / de la / des … · J'achète un kilo de … · une bouteille de … · Je n'achète pas de …",
+          "seconds": 40,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "what you need or buy",
+              "any": [
+                "il me faut",
+                "il nous faut",
+                "achète",
+                "prends",
+                "voudrais",
+                "besoin"
+              ]
+            },
+            {
+              "label": "food",
+              "any": [
+                "pain",
+                "lait",
+                "fromage",
+                "pomme*",
+                "tomate*",
+                "œuf*",
+                "oeuf*",
+                "beurre",
+                "farine",
+                "jambon",
+                "confiture",
+                "eau",
+                "vin",
+                "poulet",
+                "viande",
+                "poisson",
+                "salade",
+                "légume*",
+                "fruit*",
+                "pâtes",
+                "riz",
+                "fraise*",
+                "cerise*"
+              ]
+            },
+            {
+              "label": "du / de la / des",
+              "any": [
+                "du",
+                "de la",
+                "des"
+              ]
+            },
+            {
+              "label": "a quantity",
+              "any": [
+                "kilo*",
+                "litre*",
+                "tranche*",
+                "paquet*",
+                "bouteille*",
+                "morceau*",
+                "douzaine",
+                "gramme*",
+                "pot*",
+                "boîte*",
+                "un peu"
+              ]
+            }
+          ],
+          "model": "Pour le dîner, il me faut du pain, du fromage et de la salade. J'achète aussi un kilo de tomates, une bouteille de vin et six tranches de jambon. Je n'achète pas de viande."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "You're in Geneva. Say it costs ten francs.",
+          "t": [
+            "Ça coûte dix francs",
+            "C'est dix francs",
+            "Ça fait dix francs"
+          ]
+        },
+        {
+          "n": "Ask if the shop is open on Sunday.",
+          "t": [
+            "Le magasin est ouvert le dimanche",
+            "Est-ce que le magasin est ouvert le dimanche",
+            "Vous êtes ouverts le dimanche",
+            "Est-ce que vous êtes ouverts le dimanche",
+            "C'est ouvert le dimanche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Faire les courses",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

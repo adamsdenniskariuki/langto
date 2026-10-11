@@ -1,0 +1,254 @@
+{
+  "id": "pron-u03",
+  "level": "A1",
+  "title": "Le r français",
+  "subtitle": "the r at the back of the throat",
+  "icon": "🗣️",
+  "lessons": [
+    {
+      "id": "pron-u03-l1",
+      "kind": "pron",
+      "title": "The French r",
+      "goal": "Make the r in the throat, not with the lips or tongue tip.",
+      "tip": {
+        "title": "A soft gargle",
+        "body": "The French r is made at the back of the mouth: the back of the tongue comes close to the uvula, like a soft, voiced version of the \"ch\" in Scottish \"loch\" — or a very light gargle. Keep the tip of your tongue resting behind your lower teeth and don't round your lips. Practise by saying \"aga\" and relaxing the g until air rubs through. Don't drop a final r: mer and pour need it."
+      },
+      "phrases": [
+        {
+          "t": "Merci beaucoup !",
+          "n": "Thank you very much!"
+        },
+        {
+          "t": "Au revoir !",
+          "n": "Goodbye!"
+        },
+        {
+          "t": "J'habite à Paris.",
+          "n": "I live in Paris.",
+          "note": "The final s is silent: \"Pa-ri\"."
+        },
+        {
+          "t": "Bonsoir !",
+          "n": "Good evening!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "mer",
+            "n": "sea"
+          },
+          "b": {
+            "t": "mais",
+            "n": "but"
+          }
+        },
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "pour",
+            "n": "for"
+          },
+          "b": {
+            "t": "pou",
+            "n": "louse"
+          }
+        },
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "tard",
+            "n": "late"
+          },
+          "b": {
+            "t": "ta",
+            "n": "your (informal, f)"
+          }
+        },
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "roue",
+            "n": "wheel"
+          },
+          "b": {
+            "t": "ou",
+            "n": "or"
+          }
+        },
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "prix",
+            "n": "price"
+          },
+          "b": {
+            "t": "pie",
+            "n": "magpie"
+          }
+        },
+        {
+          "sound": "r / no r",
+          "a": {
+            "t": "rond",
+            "n": "round"
+          },
+          "b": {
+            "t": "on",
+            "n": "we, one"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Merci beaucoup !",
+          "n": "Thank you very much!",
+          "mark": "Merci beau*coup* !"
+        },
+        {
+          "t": "Au revoir !",
+          "n": "Goodbye!",
+          "mark": "Au re*voir* !"
+        },
+        {
+          "t": "J'habite à Paris.",
+          "n": "I live in Paris.",
+          "mark": "J'habite à Pa*ris*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"Goodbye!\"",
+          "t": [
+            "Au revoir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u03-l2",
+      "kind": "pron",
+      "title": "r and l, r in clusters",
+      "goal": "Tell r from l and say tr, cr, pr smoothly.",
+      "tip": {
+        "title": "No vowel inside tr, cr, pr",
+        "body": "In clusters like tr, pr, cr, gr, fr the r follows the first consonant straight away — don't slip in an extra vowel (\"te-rois\") and don't use an English r. trois must stay different from toi, and crois from quoi. Keep r and l apart: l is made with the tongue tip behind the upper teeth; r is made at the back with the tongue tip down."
+      },
+      "phrases": [
+        {
+          "t": "Trois croissants, s'il vous plaît.",
+          "n": "Three croissants, please."
+        },
+        {
+          "t": "C'est très grand.",
+          "n": "It's very big."
+        },
+        {
+          "t": "Je préfère le rouge.",
+          "n": "I prefer the red one."
+        },
+        {
+          "t": "Il fait froid.",
+          "n": "It's cold."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "rire",
+            "n": "to laugh"
+          },
+          "b": {
+            "t": "lire",
+            "n": "to read"
+          }
+        },
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "roue",
+            "n": "wheel"
+          },
+          "b": {
+            "t": "loup",
+            "n": "wolf"
+          }
+        },
+        {
+          "sound": "r / l",
+          "a": {
+            "t": "le riz",
+            "n": "rice"
+          },
+          "b": {
+            "t": "le lit",
+            "n": "the bed"
+          }
+        },
+        {
+          "sound": "tr / t",
+          "a": {
+            "t": "trois",
+            "n": "three"
+          },
+          "b": {
+            "t": "toi",
+            "n": "you"
+          }
+        },
+        {
+          "sound": "cr / c",
+          "a": {
+            "t": "crois",
+            "n": "(I) believe"
+          },
+          "b": {
+            "t": "quoi",
+            "n": "what"
+          }
+        },
+        {
+          "sound": "pr / p",
+          "a": {
+            "t": "prêt",
+            "n": "ready"
+          },
+          "b": {
+            "t": "paix",
+            "n": "peace"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Trois croissants, s'il vous plaît.",
+          "n": "Three croissants, please.",
+          "mark": "Trois crois*sants*, s'il vous *plaît*."
+        },
+        {
+          "t": "C'est très grand.",
+          "n": "It's very big.",
+          "mark": "C'est très *grand*."
+        },
+        {
+          "t": "Je préfère le rouge.",
+          "n": "I prefer the red one.",
+          "mark": "Je préfère le *rouge*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Order three croissants politely.",
+          "t": [
+            "Trois croissants s'il vous plaît",
+            "Trois croissants s'il te plaît",
+            "Je voudrais trois croissants"
+          ]
+        }
+      ]
+    }
+  ]
+}

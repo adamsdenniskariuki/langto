@@ -1,5 +1,5 @@
 // Windows doesn't render regional-indicator flag emoji, so draw flags as SVG.
-// Each flag is a list of stripes (h/v) plus an optional central emblem dot; unknown codes fall back to a code badge.
+// Each flag is a list of stripes (h/v) plus an optional central emblem dot or cross; unknown codes fall back to a code badge.
 const FLAGS = {
   de: { dir: 'h', stripes: ['#000000', '#DD0000', '#FFCE00'] },
   fr: { dir: 'v', stripes: ['#0055A4', '#FFFFFF', '#EF4135'] },
@@ -12,6 +12,12 @@ const FLAGS = {
   co: { dir: 'h', stripes: ['#FCD116', '#FCD116', '#003893', '#CE1126'] },
   pe: { dir: 'v', stripes: ['#D91023', '#FFFFFF', '#D91023'] },
   be: { dir: 'v', stripes: ['#000000', '#FDDA24', '#EF3340'] },
+  ch: { dir: 'h', stripes: ['#DA291C'], cross: '#FFFFFF' },
+  ca: { dir: 'v', stripes: ['#D52B1E', '#FFFFFF', '#FFFFFF', '#D52B1E'], dot: '#D52B1E' },
+  lu: { dir: 'h', stripes: ['#EA141D', '#FFFFFF', '#51ADDA'] },
+  sn: { dir: 'v', stripes: ['#00853F', '#FDEF42', '#E31B23'], dot: '#00853F' },
+  ci: { dir: 'v', stripes: ['#F77F00', '#FFFFFF', '#009E60'] },
+  ht: { dir: 'h', stripes: ['#00209F', '#D21034'] },
 };
 
 export function Flag({ code, size = '1em', label }) {
@@ -35,6 +41,7 @@ export function Flag({ code, size = '1em', label }) {
         ),
       )}
       {f.dot && <circle cx="15" cy="10" r="2.6" fill={f.dot} />}
+      {f.cross && <path d="M13 4h4v4h4v4h-4v4h-4v-4h-4v-4h4z" fill={f.cross} />}
     </svg>
   );
 }

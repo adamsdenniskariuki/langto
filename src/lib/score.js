@@ -37,6 +37,34 @@ export function esNumber(n) {
   return String(n);
 }
 
+const FR_ONES = ['zéro', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix',
+  'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf'];
+const FR_TENS = ['', '', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante'];
+
+// Standard French numbers in traditional spelling (vingt et un, soixante et onze, quatre-vingts, deux cents).
+// Hyphens and spaces both normalise to spaces, so either spelling of a compound matches.
+export function frNumber(n) {
+  if (n < 20) return FR_ONES[n];
+  if (n < 70) {
+    const t = Math.floor(n / 10), o = n % 10;
+    return FR_TENS[t] + (o === 1 ? ' et un' : o ? '-' + FR_ONES[o] : '');
+  }
+  if (n < 80) return 'soixante' + (n === 71 ? ' et onze' : '-' + FR_ONES[n - 60]);
+  if (n < 100) return n === 80 ? 'quatre-vingts' : 'quatre-vingt-' + FR_ONES[n - 80];
+  if (n < 1000) {
+    const h = Math.floor(n / 100), r = n % 100;
+    const head = h === 1 ? 'cent' : FR_ONES[h] + (r ? ' cent' : ' cents');
+    return head + (r ? ' ' + frNumber(r) : '');
+  }
+  return String(n);
+}
+
+// "15h30", "15 h", "15:30" → "15 heures 30" (then spelled out); 1 h is feminine: "une heure".
+function frTime(m, h, mm) {
+  const H = Number(h), M = Number(mm || 0);
+  return `${H === 1 ? 'une heure' : H + ' heures'}${M ? ' ' + M : ''}`;
+}
+
 // "3:30" → "3 y media" (then spelled out). Quarter to uses the next hour: "3:45" → "4 menos cuarto".
 function esTime(m, h, mm) {
   const H = Number(h), M = Number(mm);
@@ -47,11 +75,12 @@ function esTime(m, h, mm) {
   return `${H} y ${M}`;
 }
 
-// Speech recognisers often return digits ("3 Uhr", "las 3:30") — spell them out so they match the lesson text.
-const NUMBER_SPELLERS = { de: deNumber, es: esNumber };
+// Speech recognisers often return digits ("3 Uhr", "las 3:30", "15h30") — spell them out so they match the lesson text.
+const NUMBER_SPELLERS = { de: deNumber, es: esNumber, fr: frNumber };
 const TIME_READERS = {
   de: [/(\d{1,2})[:.](\d{2})(\s*uhr)?/g, (m, h, mm) => `${h} uhr${mm === '00' ? '' : ' ' + Number(mm)}`],
   es: [/(\d{1,2})[:.](\d{2})/g, esTime],
+  fr: [/\b(\d{1,2})\s*(?:h|:)\s*(\d{2})?(?![\p{L}\d])/gu, frTime],
 };
 // Languages where recognisers and learners are inconsistent with acute accents (está/esta, él/el): compare
 // without them. Only U+0301 is removed, so ñ and ü stay distinct.
@@ -67,6 +96,7 @@ export function normalize(text, lang = 'de') {
   if (lang === 'de') s = s.replace(/ß/g, 'ss');
   if (FOLD_ACCENTS[lang]) s = s.normalize('NFD').replace(FOLD_ACCENTS[lang], '').normalize('NFC');
   if (lang === 'es') s = s.replace(/%/g, ' por ciento ');
+  if (lang === 'fr') s = s.replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/%/g, ' pour cent ');
   s = s.replace(/€/g, ' euro ');
   return s.replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
 }

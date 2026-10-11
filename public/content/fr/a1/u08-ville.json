@@ -1,0 +1,873 @@
+{
+  "id": "u08",
+  "title": "En ville",
+  "subtitle": "Directions & transport",
+  "icon": "🚇",
+  "lessons": [
+    {
+      "id": "u08-l1",
+      "title": "Where is …?",
+      "goal": "Ask for and understand directions.",
+      "tip": {
+        "title": "à droite or tout droit?",
+        "body": "Pour aller à …, s'il vous plaît ? is the easiest way to ask the way. Careful with two look-alikes: à droite (to the right) ends in a clear t sound, while tout droit (straight on) has a silent t. À gauche is to the left. Start with Excusez-moi and finish with Merci beaucoup !"
+      },
+      "phrases": [
+        {
+          "t": "Excusez-moi, où est la gare ?",
+          "n": "Excuse me, where is the train station?"
+        },
+        {
+          "t": "Pour aller au musée, s'il vous plaît ?",
+          "n": "How do I get to the museum, please?"
+        },
+        {
+          "t": "Allez tout droit.",
+          "n": "Go straight on."
+        },
+        {
+          "t": "Tournez à gauche.",
+          "n": "Turn left."
+        },
+        {
+          "t": "Tournez à droite.",
+          "n": "Turn right."
+        },
+        {
+          "t": "C'est loin ?",
+          "n": "Is it far?"
+        },
+        {
+          "t": "Non, c'est tout près.",
+          "n": "No, it's very close."
+        },
+        {
+          "t": "C'est à cinq minutes à pied.",
+          "n": "It's five minutes' walk."
+        }
+      ],
+      "dialogue": {
+        "title": "Perdu à Lyon",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Excusez-moi, monsieur. Pour aller à la gare, s'il vous plaît ?",
+            "n": "Excuse me, sir. How do I get to the station, please?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Allez tout droit, et après, tournez à gauche.",
+            "n": "Go straight on, and then turn left."
+          },
+          {
+            "who": "you",
+            "t": "C'est loin ?",
+            "n": "Is it far?"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Non, c'est tout près. C'est à cinq minutes à pied.",
+            "n": "No, it's very close. It's five minutes' walk."
+          },
+          {
+            "who": "you",
+            "t": "Merci beaucoup !",
+            "n": "Thank you very much!"
+          },
+          {
+            "who": "A",
+            "name": "Passant",
+            "t": "Je vous en prie. Bonne journée !",
+            "n": "You're welcome. Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where the train station is.",
+          "t": [
+            "Où est la gare",
+            "Excusez-moi où est la gare",
+            "Elle est où la gare",
+            "Où se trouve la gare"
+          ]
+        },
+        {
+          "n": "Ask how to get to the museum.",
+          "t": [
+            "Pour aller au musée s'il vous plaît",
+            "Pour aller au musée",
+            "Comment aller au musée",
+            "Où est le musée"
+          ]
+        },
+        {
+          "n": "Ask whether it's far.",
+          "t": [
+            "C'est loin",
+            "Est-ce que c'est loin",
+            "C'est loin d'ici"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l2",
+      "title": "Getting around",
+      "goal": "Talk about transport and take the métro.",
+      "tip": {
+        "title": "en bus, but à pied",
+        "body": "With vehicles you ride inside, use en: en bus, en métro, en tram, en train, en voiture. With things you go on or with your own feet, use à: à pied, à vélo (you'll also hear en vélo). Prendre is the verb for public transport: je prends le métro. In tram the m is pronounced, and in métro the é is a clear \"ay\"."
+      },
+      "phrases": [
+        {
+          "t": "Je prends le métro.",
+          "n": "I take the metro."
+        },
+        {
+          "t": "Je vais au travail en bus.",
+          "n": "I go to work by bus."
+        },
+        {
+          "t": "Je vais en ville à pied.",
+          "n": "I walk into town."
+        },
+        {
+          "t": "Un ticket de métro, s'il vous plaît.",
+          "n": "A metro ticket, please."
+        },
+        {
+          "t": "C'est quelle ligne ?",
+          "n": "Which line is it?"
+        },
+        {
+          "t": "Il faut changer à Châtelet.",
+          "n": "You have to change at Châtelet."
+        },
+        {
+          "t": "On descend à quel arrêt ?",
+          "n": "Which stop do we get off at?"
+        },
+        {
+          "t": "Le prochain bus passe dans dix minutes.",
+          "n": "The next bus comes in ten minutes."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-CoralieNeural",
+        "title": "Dans le métro parisien",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "On va au Louvre en métro ?",
+            "n": "Shall we go to the Louvre by metro?"
+          },
+          {
+            "who": "you",
+            "t": "Oui ! C'est quelle ligne ?",
+            "n": "Yes! Which line is it?"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Ici, à la gare du Nord, on prend la ligne quatre. Et il faut changer à Châtelet.",
+            "n": "Here at Gare du Nord we take line four. And we have to change at Châtelet."
+          },
+          {
+            "who": "you",
+            "t": "Et après ?",
+            "n": "And then?"
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Après, c'est la ligne un, direction La Défense. On descend à Palais-Royal.",
+            "n": "Then it's line one, towards La Défense. We get off at Palais-Royal."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. J'achète un ticket de métro.",
+            "n": "OK. I'm buying a metro ticket."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you take the metro.",
+          "t": [
+            "Je prends le métro",
+            "Je vais en métro"
+          ]
+        },
+        {
+          "n": "Ask which line it is.",
+          "t": [
+            "C'est quelle ligne",
+            "Quelle ligne",
+            "C'est quelle ligne s'il vous plaît",
+            "Quelle ligne est-ce"
+          ]
+        },
+        {
+          "n": "Say you walk into town.",
+          "t": [
+            "Je vais en ville à pied",
+            "Je vais à pied",
+            "J'y vais à pied"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l3",
+      "title": "Places in town",
+      "goal": "Find shops, services and stops nearby.",
+      "tip": {
+        "title": "Est-ce qu'il y a … près d'ici ?",
+        "body": "Est-ce qu'il y a une pharmacie près d'ici ? (Is there a pharmacy near here?) works for anything you're looking for; in everyday speech people just say Il y a une pharmacie près d'ici ? with a rising voice, and il y a often sounds like \"ya\". Je cherche … means I'm looking for …. Useful places: la mairie (town hall), l'office de tourisme, un distributeur (cash machine — in Québec, un guichet automatique)."
+      },
+      "phrases": [
+        {
+          "t": "Est-ce qu'il y a une pharmacie près d'ici ?",
+          "n": "Is there a pharmacy near here?"
+        },
+        {
+          "t": "Oui, au bout de la rue.",
+          "n": "Yes, at the end of the street."
+        },
+        {
+          "t": "Je cherche l'office de tourisme.",
+          "n": "I'm looking for the tourist office."
+        },
+        {
+          "t": "Il y a un distributeur par ici ?",
+          "n": "Is there a cash machine around here?"
+        },
+        {
+          "t": "Où est l'arrêt de bus ?",
+          "n": "Where is the bus stop?"
+        },
+        {
+          "t": "La mairie est sur la place.",
+          "n": "The town hall is on the square."
+        },
+        {
+          "t": "C'est juste là, en face.",
+          "n": "It's just there, opposite."
+        }
+      ],
+      "dialogue": {
+        "voice": "fr-FR-JacquelineNeural",
+        "title": "Dans la rue principale",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonjour, madame. Est-ce qu'il y a une pharmacie près d'ici ?",
+            "n": "Hello, madam. Is there a pharmacy near here?"
+          },
+          {
+            "who": "A",
+            "name": "Dame",
+            "t": "Oui, au bout de la rue, à droite.",
+            "n": "Yes, at the end of the street, on the right."
+          },
+          {
+            "who": "you",
+            "t": "Merci ! Et je cherche l'office de tourisme.",
+            "n": "Thanks! And I'm looking for the tourist office."
+          },
+          {
+            "who": "A",
+            "name": "Dame",
+            "t": "Il est sur la place, à côté de la mairie.",
+            "n": "It's on the square, next to the town hall."
+          },
+          {
+            "who": "you",
+            "t": "Il y a un distributeur par ici ?",
+            "n": "Is there a cash machine around here?"
+          },
+          {
+            "who": "A",
+            "name": "Dame",
+            "t": "Oui, c'est juste là, en face.",
+            "n": "Yes, it's just there, opposite."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if there's a pharmacy near here.",
+          "t": [
+            "Est-ce qu'il y a une pharmacie près d'ici",
+            "Il y a une pharmacie près d'ici",
+            "Y a-t-il une pharmacie près d'ici",
+            "Il y a une pharmacie par ici"
+          ]
+        },
+        {
+          "n": "Say you're looking for the tourist office.",
+          "t": [
+            "Je cherche l'office de tourisme",
+            "Je cherche un office de tourisme",
+            "Où est l'office de tourisme"
+          ]
+        },
+        {
+          "n": "Ask where the bus stop is.",
+          "t": [
+            "Où est l'arrêt de bus",
+            "Où est l'arrêt du bus",
+            "Il est où l'arrêt de bus",
+            "Où se trouve l'arrêt de bus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l4",
+      "kind": "grammar",
+      "title": "Je vais au musée",
+      "goal": "Use aller + à (au, à la, à l', aux) and prepositions of place.",
+      "tip": {
+        "title": "à + le = au, de + le = du",
+        "body": "Aller (to go) is irregular: je vais, tu vas, il/elle/on va, nous allons, vous allez, ils/elles vont. \"To\" a place is à, and it merges with le and les: au cinéma (à + le), aux toilettes (à + les), but à la gare and à l'hôtel stay as they are. Many place words end in de, which merges the same way: à côté du parc (de + le), en face de la gare, près de l'église, à côté des magasins. Listen for the liaison in nous‿allons and vous‿allez (a z sound)."
+      },
+      "phrases": [
+        {
+          "t": "Je vais au cinéma.",
+          "n": "I'm going to the cinema."
+        },
+        {
+          "t": "Tu vas à la gare ?",
+          "n": "Are you going to the station?"
+        },
+        {
+          "t": "On va à l'hôpital.",
+          "n": "We're going to the hospital."
+        },
+        {
+          "t": "Vous allez aux Galeries Lafayette ?",
+          "n": "Are you going to the Galeries Lafayette?",
+          "note": "A famous department store."
+        },
+        {
+          "t": "La pharmacie est à côté du cinéma.",
+          "n": "The pharmacy is next to the cinema."
+        },
+        {
+          "t": "Le parc est en face de la gare.",
+          "n": "The park is opposite the station."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Where are you going? (au / à la / à l' / aux)",
+          "base": {
+            "t": "Je vais au marché.",
+            "n": "I'm going to the market."
+          },
+          "items": [
+            {
+              "cue": "la banque",
+              "t": "Je vais à la banque.",
+              "n": "I'm going to the bank."
+            },
+            {
+              "cue": "l'église",
+              "t": "Je vais à l'église.",
+              "n": "I'm going to church."
+            },
+            {
+              "cue": "le musée",
+              "t": "Je vais au musée.",
+              "n": "I'm going to the museum."
+            },
+            {
+              "cue": "les toilettes",
+              "t": "Je vais aux toilettes.",
+              "n": "I'm going to the toilet."
+            }
+          ]
+        },
+        {
+          "title": "Change the person (aller)",
+          "base": {
+            "t": "Je vais à la poste.",
+            "n": "I'm going to the post office."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Tu vas à la poste.",
+              "n": "You're going to the post office."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous allons à la poste.",
+              "n": "We're going to the post office."
+            },
+            {
+              "cue": "ils",
+              "t": "Ils vont à la poste.",
+              "n": "They're going to the post office."
+            }
+          ]
+        },
+        {
+          "title": "Where is it? (du / de la / de l')",
+          "base": {
+            "t": "La banque est à côté du parc.",
+            "n": "The bank is next to the park."
+          },
+          "items": [
+            {
+              "cue": "en face de · la gare",
+              "t": "La banque est en face de la gare.",
+              "n": "The bank is opposite the station."
+            },
+            {
+              "cue": "près de · l'hôtel",
+              "t": "La banque est près de l'hôtel.",
+              "n": "The bank is near the hotel."
+            },
+            {
+              "cue": "à côté de · le cinéma",
+              "t": "La banque est à côté du cinéma.",
+              "n": "The bank is next to the cinema."
+            },
+            {
+              "cue": "derrière · l'église",
+              "t": "La banque est derrière l'église.",
+              "n": "The bank is behind the church."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're going to the station.",
+          "t": [
+            "Je vais à la gare"
+          ]
+        },
+        {
+          "n": "Say the pharmacy is opposite the bank.",
+          "t": [
+            "La pharmacie est en face de la banque",
+            "La pharmacie est juste en face de la banque"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l5",
+      "kind": "listening",
+      "title": "Where's the hotel?",
+      "goal": "Follow directions at natural speed.",
+      "phrases": [
+        {
+          "t": "jusqu'au pont",
+          "n": "as far as the bridge"
+        },
+        {
+          "t": "Et ensuite ?",
+          "n": "And then?"
+        },
+        {
+          "t": "la deuxième rue à droite",
+          "n": "the second street on the right"
+        },
+        {
+          "t": "Prenez le tram.",
+          "n": "Take the tram."
+        }
+      ],
+      "story": {
+        "title": "Emma cherche son hôtel",
+        "intro": "Emma has just arrived at the station of a French town and is looking for her hotel.",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "name": "Emma",
+            "t": "Excusez-moi, monsieur. Pour aller à l'hôtel des Arts, s'il vous plaît ?",
+            "n": "Excuse me, sir. How do I get to the Hôtel des Arts, please?"
+          },
+          {
+            "name": "Homme",
+            "voice": "fr-FR-AlainNeural",
+            "t": "L'hôtel des Arts ? C'est un peu loin. Prenez le tram.",
+            "n": "The Hôtel des Arts? It's a bit far. Take the tram."
+          },
+          {
+            "name": "Emma",
+            "t": "Le tram ? C'est quelle ligne ?",
+            "n": "The tram? Which line is it?"
+          },
+          {
+            "name": "Homme",
+            "voice": "fr-FR-AlainNeural",
+            "t": "La ligne deux. Vous descendez à l'arrêt Mairie. C'est le troisième arrêt.",
+            "n": "Line two. You get off at the Mairie stop. It's the third stop."
+          },
+          {
+            "name": "Emma",
+            "t": "L'arrêt Mairie. Et ensuite ?",
+            "n": "The Mairie stop. And then?"
+          },
+          {
+            "name": "Homme",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Ensuite, allez tout droit jusqu'au pont. Puis prenez la deuxième rue à droite.",
+            "n": "Then go straight on as far as the bridge. Then take the second street on the right."
+          },
+          {
+            "name": "Emma",
+            "t": "La deuxième rue à droite. Et l'hôtel est où, exactement ?",
+            "n": "The second street on the right. And where exactly is the hotel?"
+          },
+          {
+            "name": "Homme",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Il est en face de la boulangerie, à côté de la pharmacie.",
+            "n": "It's opposite the bakery, next to the pharmacy."
+          },
+          {
+            "name": "Emma",
+            "t": "Merci beaucoup ! Et où est-ce que j'achète un ticket ?",
+            "n": "Thank you very much! And where do I buy a ticket?"
+          },
+          {
+            "name": "Homme",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Au distributeur, là, à côté de l'arrêt. Bon séjour !",
+            "n": "At the machine, there, next to the stop. Enjoy your stay!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment est-ce qu'Emma va à l'hôtel ?",
+            "n": "How does Emma get to the hotel?",
+            "t": [
+              "En tram",
+              "Elle prend le tram",
+              "Le tram",
+              "Elle va à l'hôtel en tram"
+            ]
+          },
+          {
+            "q": "À quel arrêt est-ce qu'elle descend ?",
+            "n": "Which stop does she get off at?",
+            "t": [
+              "À l'arrêt Mairie",
+              "Mairie",
+              "L'arrêt Mairie",
+              "Elle descend à l'arrêt Mairie"
+            ]
+          },
+          {
+            "q": "Après le pont, quelle rue est-ce qu'elle prend ?",
+            "n": "After the bridge, which street does she take?",
+            "t": [
+              "La deuxième rue à droite",
+              "La deuxième à droite",
+              "Elle prend la deuxième rue à droite"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il y a en face de l'hôtel ?",
+            "n": "What is opposite the hotel?",
+            "t": [
+              "Une boulangerie",
+              "La boulangerie",
+              "Il y a une boulangerie"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u08-l6",
+      "kind": "roleplay",
+      "title": "On the bus",
+      "goal": "Buy a ticket from the driver and find your stop.",
+      "culture": {
+        "title": "Le métro",
+        "body": "The Paris métro opened in 1900 and is still the quickest way around the city; stations are announced by name, and lines are known by number and by their end station (direction La Défense). Several other cities have a métro too, including Lyon, Marseille, Lille, Toulouse and Rennes in France, as well as Brussels, Lausanne and Montréal, whose métro runs on rubber tyres. Many French cities have brought back the tram. On buses and trams you usually validate your ticket in a small machine when you board — keep it until the end of the trip, as inspectors can check it.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ce bus va à la gare ?",
+          "n": "Does this bus go to the station?"
+        },
+        {
+          "t": "Un ticket, s'il vous plaît.",
+          "n": "A ticket, please."
+        },
+        {
+          "t": "Il faut valider le ticket.",
+          "n": "You have to validate the ticket."
+        },
+        {
+          "t": "Où est-ce que je descends ?",
+          "n": "Where do I get off?"
+        }
+      ],
+      "branch": {
+        "title": "Le bus numéro cinq",
+        "scene": "You get on a city bus and want to go to the train station.",
+        "name": "Chauffeur",
+        "voice": "fr-FR-YvesNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour !",
+            "n": "Hello!",
+            "choices": [
+              {
+                "t": "Bonjour ! Ce bus va à la gare ?",
+                "n": "Hello! Does this bus go to the station?",
+                "next": "yes"
+              },
+              {
+                "t": "Bonjour. Un ticket, s'il vous plaît.",
+                "n": "Hello. A ticket, please.",
+                "next": "price"
+              }
+            ]
+          },
+          "yes": {
+            "t": "Oui, il va à la gare. Vous avez un ticket ?",
+            "n": "Yes, it goes to the station. Do you have a ticket?",
+            "choices": [
+              {
+                "t": "Non. Un ticket, s'il vous plaît.",
+                "n": "No. A ticket, please.",
+                "next": "price"
+              },
+              {
+                "t": "Oui, voilà.",
+                "n": "Yes, here it is.",
+                "next": "validate"
+              }
+            ]
+          },
+          "validate": {
+            "t": "Il faut valider votre ticket, là, dans la machine.",
+            "n": "You have to validate your ticket, there, in the machine.",
+            "choices": [
+              {
+                "t": "Ah, pardon ! Merci. Où est-ce que je descends pour la gare ?",
+                "n": "Oh, sorry! Thanks. Where do I get off for the station?",
+                "next": "stop"
+              }
+            ]
+          },
+          "price": {
+            "t": "Un ticket, c'est deux euros.",
+            "n": "A ticket is two euros.",
+            "choices": [
+              {
+                "t": "Voilà. Où est-ce que je descends pour la gare ?",
+                "n": "Here you are. Where do I get off for the station?",
+                "next": "stop"
+              },
+              {
+                "t": "Pardon ? Vous pouvez parler plus lentement ?",
+                "n": "Sorry? Can you speak more slowly?",
+                "next": "slow"
+              },
+              {
+                "t": "Deux euros ? Non, je vais à pied !",
+                "n": "Two euros? No, I'll walk!",
+                "next": "walk"
+              }
+            ]
+          },
+          "slow": {
+            "t": "Un ticket… deux… euros.",
+            "n": "A ticket… two… euros.",
+            "choices": [
+              {
+                "t": "Ah, deux euros ! Voilà. Où est-ce que je descends ?",
+                "n": "Oh, two euros! Here you are. Where do I get off?",
+                "next": "stop"
+              }
+            ]
+          },
+          "stop": {
+            "t": "La gare, c'est le terminus, dans un quart d'heure. Bon voyage !",
+            "n": "The station is the last stop, in a quarter of an hour. Have a good trip!",
+            "end": "good",
+            "outcome": "You have a valid ticket and you know where to get off."
+          },
+          "walk": {
+            "t": "Comme vous voulez. Au revoir !",
+            "n": "As you like. Goodbye!",
+            "end": "bad",
+            "outcome": "You got off and now you're walking — try again and buy a ticket."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask the driver if this bus goes to the station.",
+          "t": [
+            "Ce bus va à la gare",
+            "Est-ce que ce bus va à la gare",
+            "Vous allez à la gare",
+            "Est-ce que vous allez à la gare"
+          ]
+        },
+        {
+          "n": "Ask where you get off.",
+          "t": [
+            "Où est-ce que je descends",
+            "Je descends où",
+            "Où est-ce que je dois descendre",
+            "Où dois-je descendre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-l7",
+      "kind": "speaking",
+      "title": "Show me the way",
+      "goal": "Explain a route for 30–40 seconds.",
+      "culture": {
+        "title": "Dépanneurs and Swiss trains",
+        "body": "In Québec, the corner shop that sells milk, bread, snacks and newspapers until late is called un dépanneur, often shortened to le dep — from dépanner, to help someone out of a fix. In Switzerland, the train is a way of life: the federal railways (CFF in French, SBB in German) are known for frequent, punctual trains that connect with buses and boats, and timetables in many places repeat at the same minutes every hour. In France and Switzerland the platform is la voie; in Belgium the national railway is the SNCB.",
+        "regions": [
+          "CA",
+          "CH",
+          "FR",
+          "BE"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je vais au dépanneur.",
+          "n": "I'm going to the corner store. (Québec)"
+        },
+        {
+          "t": "Un aller-retour pour Lausanne, s'il vous plaît.",
+          "n": "A return ticket to Lausanne, please."
+        },
+        {
+          "t": "Le train part de quelle voie ?",
+          "n": "Which platform does the train leave from?"
+        },
+        {
+          "t": "Prenez la première rue à gauche.",
+          "n": "Take the first street on the left."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain the way from the station to a café, museum or hotel.",
+          "hint": "Allez tout droit · Prenez la première rue à gauche / à droite · Tournez … · Le café est en face de … · à dix minutes à pied",
+          "seconds": 40,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "an instruction (Allez …, Prenez …)",
+              "any": [
+                "allez",
+                "prenez",
+                "tournez",
+                "continuez",
+                "traversez",
+                "va",
+                "prends",
+                "tourne",
+                "continue",
+                "traverse"
+              ]
+            },
+            {
+              "label": "a direction",
+              "any": [
+                "gauche",
+                "droite",
+                "tout droit"
+              ]
+            },
+            {
+              "label": "a place",
+              "any": [
+                "gare",
+                "café",
+                "cafe",
+                "musée",
+                "hôtel",
+                "hotel",
+                "poste",
+                "banque",
+                "église",
+                "parc",
+                "pharmacie",
+                "supermarché",
+                "boulangerie",
+                "mairie",
+                "arrêt",
+                "pont",
+                "place",
+                "rue"
+              ]
+            },
+            {
+              "label": "where or how far",
+              "any": [
+                "à côté",
+                "en face",
+                "près",
+                "loin",
+                "derrière",
+                "devant",
+                "minutes",
+                "à pied",
+                "au bout",
+                "jusqu'à",
+                "jusqu'au"
+              ]
+            }
+          ],
+          "model": "De la gare, allez tout droit jusqu'au pont. Prenez la deuxième rue à gauche, puis tournez à droite. Le café est en face de la poste, à dix minutes à pied."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "You're in Montréal. Say you're going to the corner store.",
+          "t": [
+            "Je vais au dépanneur",
+            "Je vais au dep"
+          ]
+        },
+        {
+          "n": "Ask for a return ticket to Lausanne.",
+          "t": [
+            "Un aller-retour pour Lausanne s'il vous plaît",
+            "Un aller-retour pour Lausanne",
+            "Je voudrais un aller-retour pour Lausanne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En ville",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
