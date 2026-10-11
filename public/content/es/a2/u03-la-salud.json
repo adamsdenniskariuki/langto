@@ -1,0 +1,307 @@
+{
+  "id": "a2-u03",
+  "title": "La salud",
+  "subtitle": "Health",
+  "icon": "🩺",
+  "lessons": [
+    {
+      "id": "a2-u03-l1",
+      "title": "What's wrong?",
+      "goal": "Say what hurts and how you feel.",
+      "tip": {
+        "title": "me duele la cabeza",
+        "body": "Doler (to hurt) works like gustar: the part that hurts is the subject. One thing: me duele la cabeza (my head hurts). Two or more: me duelen los pies (my feet hurt). Use el / la / los, not \"my\": me duele la espalda. To say how you feel in general: No me siento bien (I don't feel well). A friend will ask ¿Qué te pasa? (What's wrong?) and say ¡Que te mejores! (Get well soon!)."
+      },
+      "phrases": [
+        { "t": "¿Qué te pasa?", "n": "What's wrong?" },
+        { "t": "Me duele la cabeza.", "n": "I've got a headache." },
+        { "t": "Me duele la garganta.", "n": "I've got a sore throat." },
+        { "t": "Me duele el estómago.", "n": "I've got a stomach ache.", "note": "Mexico, informal: me duele la panza." },
+        { "t": "Me duele mucho la espalda.", "n": "My back really hurts." },
+        { "t": "Me duelen los pies.", "n": "My feet hurt.", "note": "Two feet → duelen." },
+        { "t": "No me siento bien.", "n": "I don't feel well." },
+        { "t": "¡Que te mejores!", "n": "Get well soon!" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Sofía notices something",
+        "lines": [
+          { "who": "A", "name": "Sofía", "t": "Oye, ¿qué te pasa? Tienes mala cara.", "n": "Hey, what's wrong? You don't look well." },
+          { "who": "you", "t": "No me siento bien. Me duele mucho la cabeza.", "n": "I don't feel well. My head really hurts." },
+          { "who": "A", "name": "Sofía", "t": "¡Ay, pobre! ¿Te duele algo más?", "n": "Oh, poor you! Does anything else hurt?" },
+          { "who": "you", "t": "Sí, también me duele la garganta.", "n": "Yes, my throat hurts too." },
+          { "who": "A", "name": "Sofía", "t": "¿Por qué no te vas a casa a descansar?", "n": "Why don't you go home and rest?" },
+          { "who": "you", "t": "Tienes razón. Me voy a casa. ¡Gracias, Sofía!", "n": "You're right. I'm going home. Thanks, Sofía!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've got a headache.", "t": ["Me duele la cabeza", "Tengo dolor de cabeza"] },
+        { "n": "Say your feet hurt.", "t": ["Me duelen los pies"] },
+        { "n": "Ask a friend what's wrong.", "t": ["Qué te pasa", "Qué tienes"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l2",
+      "title": "At the doctor's",
+      "goal": "Describe your symptoms and say since when.",
+      "tip": {
+        "title": "tengo fiebre, tengo tos",
+        "body": "Many symptoms use tener + a noun: tengo fiebre (I've got a temperature), tengo tos (I've got a cough), tengo gripe (I've got flu), tengo un resfriado (I've got a cold). Some use estar: estoy mareado / mareada (I feel dizzy). The doctor will use usted: ¿Desde cuándo tiene fiebre? Answer with desde hace + time: desde hace tres días (for three days), or desde + a point in time: desde ayer (since yesterday)."
+      },
+      "phrases": [
+        { "t": "Tengo fiebre.", "n": "I've got a temperature." },
+        { "t": "Tengo tos.", "n": "I've got a cough." },
+        { "t": "Tengo un resfriado.", "n": "I've got a cold.", "note": "Spain also: tengo catarro. Mexico, colloquial: tengo gripa." },
+        { "t": "Estoy mareado.", "n": "I feel dizzy.", "note": "A woman says mareada." },
+        { "t": "¿Desde cuándo tiene fiebre?", "n": "How long have you had a temperature?" },
+        { "t": "Desde hace tres días.", "n": "For three days." },
+        { "t": "¿Tiene alergia a algún medicamento?", "n": "Are you allergic to any medicine?" },
+        { "t": "Le voy a recetar un jarabe.", "n": "I'm going to prescribe you a syrup." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Doctora Ruiz, health centre in Valencia",
+        "lines": [
+          { "who": "A", "name": "Doctora Ruiz", "t": "Buenos días. Siéntese, por favor. ¿Qué le pasa?", "n": "Good morning. Please sit down. What's the matter?" },
+          { "who": "you", "t": "Buenos días, doctora. Tengo fiebre y mucha tos.", "n": "Good morning, doctor. I've got a temperature and a bad cough." },
+          { "who": "A", "name": "Doctora Ruiz", "t": "¿Desde cuándo tiene fiebre?", "n": "How long have you had a temperature?" },
+          { "who": "you", "t": "Desde hace tres días. Y también me duele la garganta.", "n": "For three days. And my throat hurts too." },
+          { "who": "A", "name": "Doctora Ruiz", "t": "A ver… Es una gripe. ¿Tiene alergia a algún medicamento?", "n": "Let's see… It's flu. Are you allergic to any medicine?" },
+          { "who": "you", "t": "No, a ninguno. ¿Tengo que tomar algo?", "n": "No, none. Do I have to take anything?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell the doctor you've got a temperature and a cough.", "t": ["Tengo fiebre y tos", "Tengo fiebre y tengo tos"] },
+        { "n": "Say: for three days.", "t": ["Desde hace tres días", "Hace tres días"] },
+        { "n": "Say you've got a cold.", "t": ["Tengo un resfriado", "Estoy resfriado", "Estoy resfriada", "Tengo catarro", "Tengo gripa"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l3",
+      "title": "At the pharmacy",
+      "goal": "Ask for something for your symptoms and how to take it.",
+      "tip": {
+        "title": "¿Tiene algo para…?",
+        "body": "The easiest way to ask at a pharmacy: ¿Tiene algo para la tos? (Have you got something for a cough?) or ¿Tiene algo para el dolor de cabeza? Las pastillas are tablets, el jarabe is syrup, la crema is cream, and la receta is the prescription. Ask how to take it with ¿Cuántas veces al día? (How many times a day?). Typical answer: una pastilla cada ocho horas (one tablet every eight hours)."
+      },
+      "phrases": [
+        { "t": "¿Tiene algo para la tos?", "n": "Have you got something for a cough?" },
+        { "t": "¿Tiene algo para el dolor de cabeza?", "n": "Have you got something for a headache?" },
+        { "t": "Necesito unas pastillas para la garganta.", "n": "I need some throat lozenges." },
+        { "t": "¿Necesito receta?", "n": "Do I need a prescription?" },
+        { "t": "¿Cuántas veces al día?", "n": "How many times a day?" },
+        { "t": "Una pastilla cada ocho horas.", "n": "One tablet every eight hours." },
+        { "t": "Tome este jarabe después de comer.", "n": "Take this syrup after meals." },
+        { "t": "Tengo una picadura de mosquito.", "n": "I've got a mosquito bite." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "A pharmacy in Mérida",
+        "lines": [
+          { "who": "A", "name": "Farmacéutico", "t": "Buenas tardes. ¿Qué se le ofrece?", "n": "Good afternoon. What can I get you?" },
+          { "who": "you", "t": "Buenas tardes. ¿Tiene algo para la tos?", "n": "Good afternoon. Have you got something for a cough?" },
+          { "who": "A", "name": "Farmacéutico", "t": "Sí, este jarabe es muy bueno. ¿Tiene fiebre también?", "n": "Yes, this syrup is very good. Have you got a temperature too?" },
+          { "who": "you", "t": "No, solo tos. ¿Necesito receta?", "n": "No, just a cough. Do I need a prescription?" },
+          { "who": "A", "name": "Farmacéutico", "t": "No, no necesita receta. Tome una cucharada cada ocho horas, después de comer.", "n": "No, you don't need a prescription. Take a spoonful every eight hours, after meals." },
+          { "who": "you", "t": "Muy bien, muchas gracias. ¿Cuánto es?", "n": "Great, thanks a lot. How much is it?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if they have something for a cough.", "t": ["Tiene algo para la tos"] },
+        { "n": "Ask if you need a prescription.", "t": ["Necesito receta", "Necesito una receta", "Hace falta receta"] },
+        { "n": "Ask how many times a day.", "t": ["Cuántas veces al día"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l4",
+      "kind": "grammar",
+      "title": "doler, tener que & hay que",
+      "goal": "Say what hurts for anyone, and what someone has to do.",
+      "tip": {
+        "title": "me duele like me gusta; tengo que vs hay que",
+        "body": "Doler follows the gustar pattern: me duele, te duele, le duele, nos duele, les duele. The thing that hurts decides the ending: le duele la mano, le duelen las manos. With a name, add a: A mi madre le duele la rodilla. Tener que + infinitive is a personal obligation: tengo que descansar, tienes que ir al médico. Hay que + infinitive is a general rule (\"you have to\", \"one must\"): hay que beber mucha agua. Hay que never changes."
+      },
+      "phrases": [
+        { "t": "A mi hijo le duelen los oídos.", "n": "My son has earache.", "note": "oídos = inner ears; orejas = the outer ears." },
+        { "t": "¿Te duele aquí?", "n": "Does it hurt here?" },
+        { "t": "Tienes que descansar.", "n": "You have to rest." },
+        { "t": "Tengo que tomar una pastilla cada ocho horas.", "n": "I have to take a tablet every eight hours." },
+        { "t": "Hay que beber mucha agua.", "n": "You need to drink lots of water." }
+      ],
+      "drills": [
+        {
+          "title": "What hurts, and whose?",
+          "base": { "t": "Me duele la cabeza.", "n": "My head hurts." },
+          "items": [
+            { "cue": "los pies", "t": "Me duelen los pies.", "n": "My feet hurt." },
+            { "cue": "tú?", "t": "¿Te duele la cabeza?", "n": "Does your head hurt?" },
+            { "cue": "mi madre", "t": "A mi madre le duele la cabeza.", "n": "My mother's head hurts." },
+            { "cue": "nosotros · la espalda", "t": "Nos duele la espalda.", "n": "Our backs hurt." }
+          ]
+        },
+        {
+          "title": "tener que and hay que",
+          "base": { "t": "Tengo que ir al médico.", "n": "I have to go to the doctor's." },
+          "items": [
+            { "cue": "tú", "t": "Tienes que ir al médico.", "n": "You have to go to the doctor's." },
+            { "cue": "usted", "t": "Tiene que ir al médico.", "n": "You have to go to the doctor's. (polite)" },
+            { "cue": "nosotros · descansar", "t": "Tenemos que descansar.", "n": "We have to rest." },
+            { "cue": "hay que", "t": "Hay que ir al médico.", "n": "You need to go to the doctor's. (general)" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Tell a friend they have to rest.", "t": ["Tienes que descansar"] },
+        { "n": "Say your son has earache.", "t": ["A mi hijo le duelen los oídos", "A mi hijo le duele el oído", "Mi hijo tiene dolor de oídos"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l5",
+      "kind": "listening",
+      "title": "A fall in the park",
+      "goal": "Follow a story about an accident and the doctor's advice.",
+      "phrases": [
+        { "t": "Me caí de la bici.", "n": "I fell off my bike." },
+        { "t": "Fui a urgencias.", "n": "I went to A&E." },
+        { "t": "Es un esguince.", "n": "It's a sprain." },
+        { "t": "No puedo caminar mucho.", "n": "I can't walk much." }
+      ],
+      "story": {
+        "title": "Dani's crutches",
+        "intro": "Inés visits her friend Dani in Bilbao and finds him on crutches.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Inés", "t": "¡Dani! ¿Qué te ha pasado? ¿Por qué llevas muletas?", "n": "Dani! What's happened to you? Why are you on crutches?" },
+          { "name": "Dani", "voice": "es-ES-SaulNeural", "t": "Ayer me caí de la bici en el parque. ¡Me duele todo!", "n": "Yesterday I fell off my bike in the park. Everything hurts!" },
+          { "name": "Inés", "t": "¡Ay, pobre! ¿Fuiste al médico?", "n": "Oh, poor you! Did you go to the doctor?" },
+          { "name": "Dani", "voice": "es-ES-SaulNeural", "t": "Sí, fui a urgencias. Me hicieron una radiografía del pie.", "n": "Yes, I went to A&E. They X-rayed my foot." },
+          { "name": "Inés", "t": "¿Y está roto?", "n": "And is it broken?" },
+          { "name": "Dani", "voice": "es-ES-SaulNeural", "t": "No, menos mal. Es un esguince, pero tengo que llevar muletas dos semanas.", "n": "No, thank goodness. It's a sprain, but I have to use crutches for two weeks." },
+          { "name": "Inés", "t": "¿Y qué más te ha dicho el médico?", "n": "And what else did the doctor tell you?" },
+          { "name": "Dani", "voice": "es-ES-SaulNeural", "t": "Tengo que descansar y no puedo caminar mucho. Hay que poner hielo tres veces al día. ¡Y nada de fútbol!", "n": "I have to rest and I can't walk much. I need to put ice on it three times a day. And no football!" }
+        ],
+        "questions": [
+          { "q": "¿Qué le pasó a Dani?", "n": "What happened to Dani?", "t": ["Se cayó de la bici", "Se cayó de la bicicleta", "Se cayó", "Tuvo un accidente"] },
+          { "q": "¿Qué tiene en el pie?", "n": "What's wrong with his foot?", "t": ["Un esguince", "Tiene un esguince", "Es un esguince"] },
+          { "q": "¿Cuántas veces al día tiene que poner hielo?", "n": "How many times a day does he have to put ice on?", "t": ["Tres veces", "Tres veces al día", "Tres"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u03-l6",
+      "kind": "roleplay",
+      "title": "Booking a doctor's appointment",
+      "goal": "Phone a doctor's office and get an appointment.",
+      "phrases": [
+        { "t": "Quiero hacer una cita.", "n": "I'd like to make an appointment.", "note": "Spain: Quiero pedir cita." },
+        { "t": "¿Tiene algo para hoy?", "n": "Have you got anything today?" },
+        { "t": "Me duele la garganta desde hace dos días.", "n": "My throat has hurt for two days." },
+        { "t": "Mi número de celular es…", "n": "My mobile number is…", "note": "Spain: Mi número de móvil es…" }
+      ],
+      "branch": {
+        "title": "On the phone to the consultorio",
+        "scene": "You've been ill for two days in Guadalajara, Mexico. You call a doctor's private office (consultorio) to get an appointment.",
+        "name": "Recepcionista",
+        "voice": "es-MX-DaliaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Consultorio del doctor Ramírez, buenos días.", "n": "Dr Ramírez's office, good morning.",
+            "choices": [
+              { "t": "Buenos días. Quiero hacer una cita, por favor.", "n": "Good morning. I'd like to make an appointment, please.", "next": "what" },
+              { "t": "Hola, ¿está el doctor?", "n": "Hi, is the doctor there?", "next": "busy" }
+            ]
+          },
+          "busy": {
+            "t": "El doctor está con un paciente. ¿Quiere hacer una cita?", "n": "The doctor is with a patient. Would you like to make an appointment?",
+            "choices": [
+              { "t": "Sí, por favor. Necesito una cita.", "n": "Yes, please. I need an appointment.", "next": "what" },
+              { "t": "No, gracias. Adiós.", "n": "No, thanks. Bye.", "next": "bye" }
+            ]
+          },
+          "bye": {
+            "t": "Muy bien, hasta luego.", "n": "All right, goodbye.",
+            "end": "bad", "outcome": "You hung up without an appointment. Say Quiero hacer una cita."
+          },
+          "what": {
+            "t": "Claro que sí. ¿Qué le pasa?", "n": "Of course. What's the matter?",
+            "choices": [
+              { "t": "Tengo fiebre y me duele mucho la garganta desde hace dos días.", "n": "I've got a temperature and my throat has really hurt for two days.", "next": "when" },
+              { "t": "Nada, todo bien.", "n": "Nothing, all fine.", "next": "nothing" }
+            ]
+          },
+          "nothing": {
+            "t": "Entonces… ¿para qué necesita la cita?", "n": "So… why do you need the appointment?",
+            "choices": [
+              { "t": "Perdón. Me duele la garganta y tengo fiebre.", "n": "Sorry. My throat hurts and I've got a temperature.", "next": "when" }
+            ]
+          },
+          "when": {
+            "t": "Puede venir hoy a las seis de la tarde o mañana a las diez. ¿Qué le queda mejor?", "n": "You can come today at six in the evening or tomorrow at ten. Which suits you better?",
+            "choices": [
+              { "t": "Hoy a las seis, por favor.", "n": "Today at six, please.", "next": "name" },
+              { "t": "Mañana a las diez está bien.", "n": "Tomorrow at ten is fine.", "next": "name" }
+            ]
+          },
+          "name": {
+            "t": "Perfecto. ¿Me da su nombre y un número de teléfono?", "n": "Perfect. Can you give me your name and a phone number?",
+            "choices": [
+              { "t": "Me llamo Alex Smith. Mi celular es el cinco cinco, uno dos, tres cuatro, cinco seis, siete ocho.", "n": "My name is Alex Smith. My mobile is 55 12 34 56 78.", "next": "done" },
+              { "t": "Alex Smith. ¿Tengo que llevar algo?", "n": "Alex Smith. Do I need to bring anything?", "next": "done" }
+            ]
+          },
+          "done": {
+            "t": "Listo, ya tiene su cita. Traiga una identificación, por favor. ¡Que se mejore!", "n": "Done, you've got your appointment. Please bring some ID. Get well soon!",
+            "end": "good", "outcome": "You described your symptoms and booked an appointment."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say you'd like to make an appointment.", "t": ["Quiero hacer una cita", "Quisiera hacer una cita", "Quiero pedir cita", "Necesito una cita", "Quiero una cita"] },
+        { "n": "Ask if they have anything today.", "t": ["Tiene algo para hoy", "Tiene algo hoy", "Hay algo para hoy"] }
+      ]
+    },
+    {
+      "id": "a2-u03-l7",
+      "kind": "speaking",
+      "title": "Explaining your symptoms",
+      "goal": "Describe your symptoms to a doctor for 45 seconds.",
+      "culture": {
+        "title": "The pharmacy: your first stop",
+        "body": "In Spain you'll recognise a pharmacy by its green cross, often lit up at night. Spanish pharmacists are trained health professionals, and many people ask them for advice on minor problems before going to the doctor. Medicines are sold only in pharmacies, and every area has a farmacia de guardia that stays open at night and on holidays: the other pharmacies post its address on their door. In Mexico, many pharmacies have a small doctor's office (consultorio) next door, where you can see a doctor quickly for a low fee. In both countries, antibiotics need a prescription.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Me encuentro mal.", "n": "I feel ill.", "note": "Common in Spain. Everywhere: me siento mal." },
+        { "t": "¿Dónde está la farmacia de guardia?", "n": "Where's the duty (all-night) pharmacy?" },
+        { "t": "¿Qué me recomienda?", "n": "What do you recommend?" },
+        { "t": "Hay un consultorio al lado de la farmacia.", "n": "There's a doctor's office next to the pharmacy." }
+      ],
+      "free": [
+        {
+          "n": "You're at the doctor's. Explain what's wrong: what hurts, your symptoms, since when, and ask what you have to do.",
+          "hint": "Use No me siento bien, Me duele / Me duelen …, Tengo fiebre / tos …, desde hace … días, desde ayer, ¿Tengo que …?, ¿Necesito receta?",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "something that hurts", "any": ["me duele", "me duelen", "dolor"] },
+            { "label": "a symptom", "any": ["fiebre", "tos", "resfriado", "gripe", "gripa", "catarro", "mareado", "mareada"] },
+            { "label": "since when", "any": ["desde hace", "desde ayer", "días", "semana"] },
+            { "label": "a question about treatment", "any": ["tengo que", "hay que", "pastillas", "jarabe", "receta", "descansar"] }
+          ],
+          "model": "Buenos días, doctora. No me siento bien. Me duele mucho la cabeza y también la garganta. Tengo fiebre y tos desde hace tres días, y por la noche no duermo bien. ¿Tengo que tomar algo? ¿Necesito receta para las pastillas?"
+        }
+      ],
+      "prompts": [
+        { "n": "Ask where the duty pharmacy is.", "t": ["Dónde está la farmacia de guardia", "Dónde hay una farmacia de guardia"] },
+        { "n": "Ask the pharmacist what they recommend.", "t": ["Qué me recomienda", "Me puede recomendar algo"] }
+      ]
+    },
+    {
+      "id": "a2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La salud",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

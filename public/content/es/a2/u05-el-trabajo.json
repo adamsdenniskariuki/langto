@@ -1,0 +1,308 @@
+{
+  "id": "a2-u05",
+  "title": "El trabajo",
+  "subtitle": "Work & job interviews",
+  "icon": "💼",
+  "lessons": [
+    {
+      "id": "a2-u05-l1",
+      "title": "What do you do?",
+      "goal": "Ask about jobs and say what you do.",
+      "tip": {
+        "title": "¿A qué te dedicas?",
+        "body": "The most natural way to ask someone's job is ¿A qué te dedicas? (literally \"What do you dedicate yourself to?\") or ¿En qué trabajas? With usted: ¿A qué se dedica? When you say your job, leave out un / una: soy enfermero, not soy un enfermero. Most job words change for women: profesor → profesora, enfermero → enfermera, but some don't: el / la periodista, el / la estudiante."
+      },
+      "phrases": [
+        { "t": "¿A qué te dedicas?", "n": "What do you do (for a living)?" },
+        { "t": "¿En qué trabajas?", "n": "What's your job?" },
+        { "t": "Soy profesor de inglés.", "n": "I'm an English teacher.", "note": "A woman says profesora." },
+        { "t": "Soy enfermera en un hospital.", "n": "I'm a nurse in a hospital.", "note": "A man says enfermero." },
+        { "t": "Trabajo en una empresa de informática.", "n": "I work for an IT company." },
+        { "t": "Trabajo por mi cuenta.", "n": "I'm self-employed.", "note": "In Spain also soy autónomo (a woman: autónoma)." },
+        { "t": "Trabajo en atención al cliente.", "n": "I work in customer service." },
+        { "t": "Ahora no trabajo, estudio en la universidad.", "n": "I'm not working at the moment, I'm studying at university." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Small talk at a party in Monterrey",
+        "lines": [
+          { "who": "A", "name": "Rodrigo", "t": "Oye, ¿y tú a qué te dedicas?", "n": "Hey, and what do you do?" },
+          { "who": "you", "t": "Trabajo en una empresa de informática. ¿Y tú?", "n": "I work for an IT company. And you?" },
+          { "who": "A", "name": "Rodrigo", "t": "Yo soy maestro de primaria. Doy clases de matemáticas.", "n": "I'm a primary school teacher. I teach maths." },
+          { "who": "you", "t": "¡Qué interesante! ¿Te gusta tu trabajo?", "n": "How interesting! Do you like your job?" },
+          { "who": "A", "name": "Rodrigo", "t": "Me encanta, aunque los niños son agotadores. ¿Y a ti te gusta el tuyo?", "n": "I love it, although the children are exhausting. And do you like yours?" },
+          { "who": "you", "t": "Sí, mucho. Mis compañeros son muy simpáticos.", "n": "Yes, a lot. My colleagues are very nice." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they do for a living.", "t": ["A qué te dedicas", "En qué trabajas"] },
+        { "n": "Say you work for an IT company.", "t": ["Trabajo en una empresa de informática"] },
+        { "n": "Say you're self-employed.", "t": ["Trabajo por mi cuenta", "Soy autónomo", "Soy autónoma"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l2",
+      "title": "At the office",
+      "goal": "Talk about your working day, meetings and colleagues.",
+      "tip": {
+        "title": "Working words",
+        "body": "Your colleagues are tus compañeros (de trabajo); your boss is el jefe or la jefa. A meeting is una reunión, and working from home is trabajar desde casa or el teletrabajo; in Mexico people also say home office, borrowed from English. To say when your day starts and ends, use empezar (empiezo) and terminar: empiezo a las nueve y termino a las seis."
+      },
+      "phrases": [
+        { "t": "Empiezo a las nueve y termino a las seis.", "n": "I start at nine and finish at six." },
+        { "t": "Tengo una reunión a las diez.", "n": "I have a meeting at ten." },
+        { "t": "Trabajo desde casa los viernes.", "n": "I work from home on Fridays." },
+        { "t": "Me llevo muy bien con mis compañeros.", "n": "I get on very well with my colleagues." },
+        { "t": "Mi jefa es muy exigente.", "n": "My boss is very demanding." },
+        { "t": "Esta semana tengo muchísimo trabajo.", "n": "This week I have loads of work." },
+        { "t": "¿Tienes un momento?", "n": "Have you got a moment?" },
+        { "t": "Hacemos una pausa para el café.", "n": "We have a coffee break." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Coffee break with Carmen",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "¡Buenos días! ¿Hacemos una pausa para el café?", "n": "Morning! Shall we have a coffee break?" },
+          { "who": "you", "t": "Vale, pero rápido. Tengo una reunión a las diez.", "n": "OK, but quickly. I have a meeting at ten." },
+          { "who": "A", "name": "Carmen", "t": "¿Con el jefe? Esta semana está muy exigente.", "n": "With the boss? He's very demanding this week." },
+          { "who": "you", "t": "Sí, y tengo muchísimo trabajo. Menos mal que mañana trabajo desde casa.", "n": "Yes, and I have loads of work. Thank goodness I'm working from home tomorrow." },
+          { "who": "A", "name": "Carmen", "t": "¡Qué suerte! Yo los viernes vengo a la oficina.", "n": "Lucky you! I come into the office on Fridays." },
+          { "who": "you", "t": "Bueno, te veo luego. ¡Que vaya bien el día!", "n": "Well, see you later. Have a good day!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you start at nine and finish at six.", "t": ["Empiezo a las nueve y termino a las seis"] },
+        { "n": "Say you have a meeting at ten.", "t": ["Tengo una reunión a las diez"] },
+        { "n": "Ask a colleague if they've got a moment.", "t": ["Tienes un momento", "Tiene un momento"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l3",
+      "title": "Right now",
+      "goal": "Say what you're doing at this moment.",
+      "tip": {
+        "title": "estoy + -ando / -iendo",
+        "body": "To say what is happening right now, Spanish uses estar + a verb ending in -ando or -iendo, just like English \"I'm working\": estoy trabajando, estoy escribiendo. It's only for things actually in progress. Add ahora (now), ahora mismo (right now) or en este momento (at the moment) to make it clear. When you're busy, a polite way out is ¿Te llamo luego?"
+      },
+      "phrases": [
+        { "t": "¿Qué estás haciendo?", "n": "What are you doing?" },
+        { "t": "Estoy trabajando.", "n": "I'm working." },
+        { "t": "Ahora mismo estoy en una reunión.", "n": "I'm in a meeting right now." },
+        { "t": "Estoy escribiendo un correo.", "n": "I'm writing an email." },
+        { "t": "Estoy hablando por teléfono.", "n": "I'm on the phone." },
+        { "t": "Estamos preparando una presentación.", "n": "We're preparing a presentation." },
+        { "t": "¿Te llamo luego?", "n": "Shall I call you later?" },
+        { "t": "Te llamo en cinco minutos.", "n": "I'll call you in five minutes." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Diego calls at a bad time",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¡Hola! ¿Qué estás haciendo? ¿Puedes hablar?", "n": "Hi! What are you doing? Can you talk?" },
+          { "who": "you", "t": "Ahora no mucho. Estoy en la oficina y estoy escribiendo un correo importante.", "n": "Not really right now. I'm at the office and I'm writing an important email." },
+          { "who": "A", "name": "Diego", "t": "Ah, perdón. Es que estoy organizando una cena para el viernes.", "n": "Oh, sorry. It's just that I'm organising a dinner for Friday." },
+          { "who": "you", "t": "¡Qué buena onda! Pero ahora mismo mi jefe me está esperando.", "n": "How cool! But my boss is waiting for me right now." },
+          { "who": "A", "name": "Diego", "t": "Sin problema. ¿Hablamos más tarde?", "n": "No problem. Shall we talk later?" },
+          { "who": "you", "t": "Sí, te llamo en una hora. ¡Gracias!", "n": "Yes, I'll call you in an hour. Thanks!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they're doing.", "t": ["Qué estás haciendo", "Qué haces"] },
+        { "n": "Say you're writing an email.", "t": ["Estoy escribiendo un correo", "Estoy escribiendo un email", "Estoy escribiendo un mail"] },
+        { "n": "Say you're in a meeting right now.", "t": ["Ahora mismo estoy en una reunión", "Estoy en una reunión", "Estoy en una reunión ahora mismo", "Ahora estoy en una reunión"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l4",
+      "kind": "grammar",
+      "title": "estar + gerund",
+      "goal": "Say what people are doing at the moment.",
+      "tip": {
+        "title": "-ando, -iendo, -yendo",
+        "body": "Take estar (estoy, estás, está, estamos, estáis, están) and add the gerund: -ar verbs → -ando (hablar → hablando), -er and -ir verbs → -iendo (comer → comiendo, escribir → escribiendo). When the stem ends in a vowel, -iendo becomes -yendo: leer → leyendo, oír → oyendo. Some -ir verbs change their vowel: dormir → durmiendo, decir → diciendo, pedir → pidiendo. Unlike English, Spanish doesn't use this form for future plans: \"I'm leaving tomorrow\" is salgo mañana or voy a salir mañana."
+      },
+      "phrases": [
+        { "t": "Mi compañera está hablando con un cliente.", "n": "My colleague is talking to a client." },
+        { "t": "¿Qué están haciendo ustedes?", "n": "What are you all doing?", "note": "Spain, informal: ¿Qué estáis haciendo?" },
+        { "t": "Estamos leyendo el informe.", "n": "We're reading the report." },
+        { "t": "Los niños están durmiendo.", "n": "The children are sleeping." },
+        { "t": "¿Qué estás diciendo?", "n": "What are you saying?" }
+      ],
+      "drills": [
+        {
+          "title": "Who's doing what?",
+          "base": { "t": "Estoy trabajando.", "n": "I'm working." },
+          "items": [
+            { "cue": "tú?", "t": "¿Estás trabajando?", "n": "Are you working?" },
+            { "cue": "Ana · hablar por teléfono", "t": "Ana está hablando por teléfono.", "n": "Ana is on the phone." },
+            { "cue": "nosotros · comer", "t": "Estamos comiendo.", "n": "We're having lunch." },
+            { "cue": "ellos · escribir", "t": "Están escribiendo.", "n": "They're writing." }
+          ]
+        },
+        {
+          "title": "Irregular gerunds",
+          "base": { "t": "Estoy leyendo.", "n": "I'm reading." },
+          "items": [
+            { "cue": "dormir", "t": "Estoy durmiendo.", "n": "I'm sleeping." },
+            { "cue": "decir · la verdad", "t": "Estoy diciendo la verdad.", "n": "I'm telling the truth." },
+            { "cue": "él · pedir · un café", "t": "Está pidiendo un café.", "n": "He's ordering a coffee." },
+            { "cue": "ustedes · leer?", "t": "¿Están leyendo?", "n": "Are you (all) reading?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say the children are sleeping.", "t": ["Los niños están durmiendo"] },
+        { "n": "Say that you and your team are reading the report.", "t": ["Estamos leyendo el informe"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l5",
+      "kind": "listening",
+      "title": "The boss calls the office",
+      "goal": "Follow a phone call about what everyone is doing.",
+      "phrases": [
+        { "t": "El vuelo tiene retraso.", "n": "The flight is delayed." },
+        { "t": "¿Qué tal todo por ahí?", "n": "How's everything there?" },
+        { "t": "No contesta al móvil.", "n": "He isn't answering his mobile.", "note": "Latin America: no contesta el celular." },
+        { "t": "Dile que me llame.", "n": "Tell him to call me." }
+      ],
+      "story": {
+        "title": "A call from the airport",
+        "intro": "Elena, a manager in Madrid, calls her office from the airport and talks to her colleague Saúl.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Elena", "t": "Hola, Saúl, soy Elena. Estoy en el aeropuerto y el vuelo tiene retraso. ¿Qué tal todo por ahí?", "n": "Hi, Saúl, it's Elena. I'm at the airport and the flight is delayed. How's everything there?" },
+          { "name": "Saúl", "voice": "es-ES-SaulNeural", "t": "Todo bien. Estamos preparando la presentación para el cliente de mañana.", "n": "All good. We're preparing the presentation for tomorrow's client." },
+          { "name": "Elena", "t": "Genial. ¿Y Marta? ¿Qué está haciendo?", "n": "Great. And Marta? What's she doing?" },
+          { "name": "Saúl", "voice": "es-ES-SaulNeural", "t": "Marta está hablando con unos clientes de México por videollamada.", "n": "Marta is talking to some clients from Mexico on a video call." },
+          { "name": "Elena", "t": "¿Y Javier? Lo estoy llamando, pero no contesta al móvil.", "n": "And Javier? I'm calling him, but he isn't answering his mobile." },
+          { "name": "Saúl", "voice": "es-ES-SaulNeural", "t": "Javier está comiendo. Hoy lleva trabajando desde las siete, el pobre.", "n": "Javier is having lunch. He's been working since seven today, poor guy." },
+          { "name": "Elena", "t": "Vale. Dile que me llame, por favor. Llego a la oficina sobre las cuatro.", "n": "OK. Tell him to call me, please. I'll get to the office around four." },
+          { "name": "Saúl", "voice": "es-ES-SaulNeural", "t": "De acuerdo, se lo digo. ¡Hasta luego!", "n": "OK, I'll tell him. See you later!" }
+        ],
+        "questions": [
+          { "q": "¿Dónde está Elena?", "n": "Where is Elena?", "t": ["En el aeropuerto", "Está en el aeropuerto"] },
+          { "q": "¿Qué está haciendo Marta?", "n": "What is Marta doing?", "t": ["Está hablando con unos clientes", "Hablando con unos clientes", "Está hablando con clientes", "Está en una videollamada", "Una videollamada"] },
+          { "q": "¿A qué hora llega Elena a la oficina?", "n": "What time does Elena get to the office?", "t": ["A las cuatro", "Sobre las cuatro", "Llega sobre las cuatro", "Llega a las cuatro"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u05-l6",
+      "kind": "roleplay",
+      "title": "A job interview",
+      "goal": "Introduce yourself professionally in a job interview.",
+      "phrases": [
+        { "t": "Muchas gracias por la entrevista.", "n": "Thank you very much for the interview." },
+        { "t": "Tengo experiencia en atención al cliente.", "n": "I have experience in customer service." },
+        { "t": "Hablo inglés y español.", "n": "I speak English and Spanish." },
+        { "t": "¿Cuándo sería el primer día?", "n": "When would the first day be?" }
+      ],
+      "branch": {
+        "title": "Interview at a hotel",
+        "scene": "You're applying for a receptionist job at a hotel in Mexico City. The HR manager, Licenciada Ramírez, calls you into her office.",
+        "name": "Lic. Ramírez",
+        "voice": "es-MX-DaliaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenos días. Pase, por favor. Siéntese.", "n": "Good morning. Come in, please. Have a seat.",
+            "choices": [
+              { "t": "Buenos días. Muchas gracias por la entrevista.", "n": "Good morning. Thank you very much for the interview.", "next": "about" },
+              { "t": "¡Hola! ¿Qué onda?", "n": "Hi! What's up?", "next": "informal" }
+            ]
+          },
+          "informal": {
+            "t": "Eh… buenos días. Aquí preferimos hablar de usted, ¿eh?", "n": "Er… good morning. Here we prefer to use usted, OK?",
+            "choices": [
+              { "t": "Perdón. Buenos días, mucho gusto.", "n": "Sorry. Good morning, pleased to meet you.", "next": "about" },
+              { "t": "Ay, perdone. Gracias por la entrevista.", "n": "Oh, excuse me. Thank you for the interview.", "next": "about" }
+            ]
+          },
+          "about": {
+            "t": "Cuénteme un poco de usted. ¿A qué se dedica actualmente?", "n": "Tell me a little about yourself. What do you do at the moment?",
+            "choices": [
+              { "t": "Trabajo en recepción en un hotel pequeño. Tengo experiencia en atención al cliente.", "n": "I work on reception in a small hotel. I have experience in customer service.", "next": "why" },
+              { "t": "Ahora mismo estoy buscando trabajo, pero tengo experiencia en hoteles.", "n": "I'm looking for work right now, but I have experience in hotels.", "next": "why" }
+            ]
+          },
+          "why": {
+            "t": "Muy bien. ¿Y por qué quiere trabajar con nosotros?", "n": "Very good. And why do you want to work with us?",
+            "choices": [
+              { "t": "Porque me gusta trabajar con gente y hablo inglés y español.", "n": "Because I like working with people and I speak English and Spanish.", "next": "schedule" },
+              { "t": "Pues… porque necesito dinero.", "n": "Well… because I need money.", "next": "money" }
+            ]
+          },
+          "money": {
+            "t": "Ya veo. Bueno, gracias por venir. Nosotros le llamamos.", "n": "I see. Well, thank you for coming. We'll call you.",
+            "end": "bad", "outcome": "Honest, but not convincing. Talk about your skills and why you like the job."
+          },
+          "schedule": {
+            "t": "Perfecto, los idiomas son muy importantes aquí. El horario es de lunes a viernes, de siete a tres. ¿Le parece bien?", "n": "Perfect, languages are very important here. The hours are Monday to Friday, seven to three. Is that all right with you?",
+            "choices": [
+              { "t": "Sí, me parece muy bien.", "n": "Yes, that's fine with me.", "next": "questions" },
+              { "t": "Sí, perfecto. Además, vivo muy cerca del hotel.", "n": "Yes, perfect. And I live very close to the hotel.", "next": "questions" }
+            ]
+          },
+          "questions": {
+            "t": "Muy bien. ¿Tiene alguna pregunta para nosotros?", "n": "Very good. Do you have any questions for us?",
+            "choices": [
+              { "t": "Sí. ¿Cuándo sería el primer día?", "n": "Yes. When would the first day be?", "next": "good" },
+              { "t": "No, ninguna. Muchas gracias por su tiempo.", "n": "No, none. Thank you very much for your time.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Le confirmamos la próxima semana, pero me dio muy buena impresión. ¡Mucho gusto!", "n": "We'll confirm next week, but you've made a very good impression on me. Pleased to meet you!",
+            "end": "good", "outcome": "You stayed polite, talked about your experience and made a great impression."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Thank the interviewer for the interview.", "t": ["Muchas gracias por la entrevista", "Gracias por la entrevista"] },
+        { "n": "Say you have experience in customer service.", "t": ["Tengo experiencia en atención al cliente"] }
+      ]
+    },
+    {
+      "id": "a2-u05-l7",
+      "kind": "speaking",
+      "title": "My job",
+      "goal": "Talk about your job and what you're working on for 60 seconds.",
+      "culture": {
+        "title": "tú or usted at work?",
+        "body": "In many offices in Spain, colleagues use tú with each other from the first day, often with the boss too, and usted can sound a bit distant among co-workers. In many Latin American workplaces, including in Mexico, usted is more common, especially with bosses, clients and older colleagues. In Mexico people often address graduates with a title such as licenciado / licenciada or ingeniero / ingeniera. Habits vary a lot between companies and sectors, so a safe strategy is to start with usted and switch to tú when the other person does or         suggests it.",
+                "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "En mi empresa todos nos tuteamos.", "n": "In my company everyone uses tú with each other." },
+        { "t": "Licenciada, ¿tiene un momento?", "n": "Have you got a moment? (to a woman with a degree, using her title)", "note": "Mexico. To a man: licenciado." },
+        { "t": "Trabajo en equipo.", "n": "I work in a team." },
+        { "t": "Estoy trabajando en un proyecto nuevo.", "n": "I'm working on a new project." }
+      ],
+      "free": [
+        {
+          "n": "Describe your job (or your studies): where you work, your hours, your colleagues, and what you're working on at the moment.",
+          "hint": "Use Trabajo en … / Soy …, Empiezo a las … y termino a las …, Mis compañeros son …, Ahora estoy trabajando en … / Estoy aprendiendo ….",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "your job", "any": ["trabajo", "empresa", "oficina", "dedico", "estudio", "universidad"] },
+            { "label": "hours", "any": ["empiezo", "termino", "horario", "a las", "de lunes a viernes"] },
+            { "label": "people at work", "any": ["compañeros", "compañeras", "jefe", "jefa", "equipo", "clientes"] },
+            { "label": "right now (-ando / -iendo)", "any": ["trabajando", "estudiando", "aprendiendo", "preparando", "escribiendo", "haciendo", "buscando", "leyendo"] }
+          ],
+          "model": "Soy diseñadora y trabajo en una empresa pequeña en Barcelona. Empiezo a las nueve y termino a las seis, pero los viernes trabajo desde casa. Me llevo muy bien con mis compañeros y mi jefa es muy simpática. Ahora mismo estoy trabajando en un proyecto nuevo para un hotel y estoy aprendiendo mucho."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you're working on a new project.", "t": ["Estoy trabajando en un proyecto nuevo", "Estoy trabajando en un nuevo proyecto"] },
+        { "n": "Say that in your company everyone uses tú.", "t": ["En mi empresa todos nos tuteamos", "En mi empresa nos tuteamos"] }
+      ]
+    },
+    {
+      "id": "a2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: El trabajo",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -19,11 +19,49 @@
         "a1/u10-mi-dia.json"
       ]
     },
-    { "id": "A2", "title": "Elementary", "description": "Talk about the past, travel, health, work and plans; handle phone calls and complaints.", "comingSoon": true, "units": [] },
-    { "id": "B1", "title": "Intermediate", "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.", "comingSoon": true, "units": [] },
-    { "id": "B2", "title": "Upper intermediate", "description": "Debate, negotiate, present in meetings and use idioms naturally.", "comingSoon": true, "units": [] },
-    { "id": "C1", "title": "Advanced", "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.", "comingSoon": true, "units": [] },
-    { "id": "C2", "title": "Mastery", "description": "Speak with native-like precision, wit and awareness of the Spanish-speaking world's variety.", "comingSoon": true, "units": [] }
+    {
+      "id": "A2",
+      "title": "Elementary",
+      "description": "Talk about the past, travel, health, home, work and plans; eat out and share memories.",
+      "units": [
+        "a2/u01-el-pasado.json",
+        "a2/u02-de-viaje.json",
+        "a2/u03-la-salud.json",
+        "a2/u04-la-casa.json",
+        "a2/u05-el-trabajo.json",
+        "a2/u06-planes.json",
+        "a2/u07-en-el-restaurante.json",
+        "a2/u08-recuerdos.json"
+      ]
+    },
+    {
+      "id": "B1",
+      "title": "Intermediate",
+      "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "B2",
+      "title": "Upper intermediate",
+      "description": "Debate, negotiate, present in meetings and use idioms naturally.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "C1",
+      "title": "Advanced",
+      "description": "Master register, nuance, persuasion, diplomacy and vivid storytelling.",
+      "comingSoon": true,
+      "units": []
+    },
+    {
+      "id": "C2",
+      "title": "Mastery",
+      "description": "Speak with native-like precision, wit and awareness of the Spanish-speaking world's variety.",
+      "comingSoon": true,
+      "units": []
+    }
   ],
   "tracks": [
     {
@@ -34,7 +72,9 @@
       "units": [
         "pron/u01-vocales.json",
         "pron/u02-r-rr.json",
-        "pron/u03-n-ll-y.json"
+        "pron/u03-n-ll-y.json",
+        "pron/u04-j-g.json",
+        "pron/u05-b-v-d.json"
       ]
     }
   ]

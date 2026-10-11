@@ -1,0 +1,306 @@
+{
+  "id": "a2-u07",
+  "title": "En el restaurante",
+  "subtitle": "Booking, ordering, complaining & paying",
+  "icon": "🍽️",
+  "lessons": [
+    {
+      "id": "a2-u07-l1",
+      "title": "Booking a table",
+      "goal": "Reserve a table by phone for a day, time and group size.",
+      "tip": {
+        "title": "Quería: the polite way to ask",
+        "body": "Use quería (literally \"I wanted\") to make a polite request: Quería reservar una mesa. Quisiera works too and is even more formal. The restaurant will ask ¿Para cuántas personas? and ¿A nombre de quién?, and you give the group size with somos: Somos cuatro. In Spain you make una reserva; in Mexico people usually say una reservación."
+      },
+      "phrases": [
+        { "t": "Quería reservar una mesa.", "n": "I'd like to book a table.", "note": "Mexico: also hacer una reservación." },
+        { "t": "¿Para cuántas personas?", "n": "For how many people?" },
+        { "t": "Somos cuatro.", "n": "There are four of us." },
+        { "t": "Para el sábado a las nueve.", "n": "For Saturday at nine." },
+        { "t": "¿Tienen mesa en la terraza?", "n": "Do you have a table on the terrace?" },
+        { "t": "¿Hay que reservar?", "n": "Do you need to book?" },
+        { "t": "Lo siento, está completo.", "n": "Sorry, we're fully booked." },
+        { "t": "¿Puede ser un poco más tarde?", "n": "Could it be a bit later?" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Calling La Cazuela in Guadalajara",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "Restaurante La Cazuela, buenas tardes. ¿En qué le puedo ayudar?", "n": "La Cazuela restaurant, good afternoon. How can I help you?" },
+          { "who": "you", "t": "Buenas tardes. Quería reservar una mesa para el sábado a las nueve.", "n": "Good afternoon. I'd like to book a table for Saturday at nine." },
+          { "who": "A", "name": "Mariana", "t": "Claro que sí. ¿Para cuántas personas?", "n": "Of course. For how many people?" },
+          { "who": "you", "t": "Somos cuatro. ¿Tienen mesa en la terraza?", "n": "There are four of us. Do you have a table on the terrace?" },
+          { "who": "A", "name": "Mariana", "t": "A las nueve está completo, pero a las nueve y media sí hay mesa en la terraza. ¿Le parece bien?", "n": "At nine we're fully booked, but at half past nine there is a table on the terrace. Is that OK for you?" },
+          { "who": "you", "t": "Perfecto. A nombre de Taylor. ¡Muchas gracias!", "n": "Perfect. Under the name Taylor. Thank you very much!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you'd like to book a table for Friday.", "t": ["Quería reservar una mesa para el viernes", "Quisiera reservar una mesa para el viernes", "Quiero reservar una mesa para el viernes"] },
+        { "n": "Tell the restaurant there are four of you.", "t": ["Somos cuatro", "Somos cuatro personas"] },
+        { "n": "Ask if they have a table on the terrace.", "t": ["Tienen mesa en la terraza", "Tienen una mesa en la terraza", "Hay mesa en la terraza"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l2",
+      "title": "Ordering a full meal",
+      "goal": "Order a starter, main course, dessert and drink.",
+      "tip": {
+        "title": "De primero, de segundo, de postre",
+        "body": "A full meal in Spain comes in courses: de primero (first course), de segundo (main course) and de postre (dessert). Order each one with de …: De primero, la sopa. The waiter asks ¿Qué van a tomar? (tomar is used for food and drink) and ¿Y para beber?. If you want the same as someone else, say Para mí, lo mismo. In Mexico you'll also hear ordenar for \"to order\"; pedir works everywhere."
+      },
+      "phrases": [
+        { "t": "¿Ya saben qué van a tomar?", "n": "Do you know what you'd like?", "note": "Said to a group. To one person: ¿Ya sabe qué va a tomar?" },
+        { "t": "¿Qué lleva el menú del día?", "n": "What does the set menu include?" },
+        { "t": "De primero, la sopa de verduras.", "n": "As a starter, the vegetable soup." },
+        { "t": "De segundo, el pollo asado.", "n": "As a main course, the roast chicken." },
+        { "t": "De postre, un flan.", "n": "For dessert, a crème caramel." },
+        { "t": "Para beber, una botella de agua.", "n": "To drink, a bottle of water." },
+        { "t": "Para mí, lo mismo.", "n": "The same for me." },
+        { "t": "¿El café está incluido?", "n": "Is coffee included?" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Lunch in Valencia",
+        "lines": [
+          { "who": "A", "name": "Javier", "t": "Buenas. ¿Ya saben qué van a tomar?", "n": "Hello. Do you know what you'd like?" },
+          { "who": "you", "t": "Creo que sí. ¿Qué lleva el menú del día?", "n": "I think so. What does the set menu include?" },
+          { "who": "A", "name": "Javier", "t": "De primero hay gazpacho o ensalada mixta, y de segundo, merluza a la plancha o pollo asado. El postre o el café están incluidos.", "n": "For the first course there's gazpacho or mixed salad, and for the main, grilled hake or roast chicken. Dessert or coffee is included." },
+          { "who": "you", "t": "De primero, el gazpacho, y de segundo, la merluza, por favor.", "n": "As a starter, the gazpacho, and as a main, the hake, please." },
+          { "who": "A", "name": "Javier", "t": "Muy bien. ¿Y para beber?", "n": "Very good. And to drink?" },
+          { "who": "you", "t": "Para beber, una botella de agua. Y de postre, un flan.", "n": "To drink, a bottle of water. And for dessert, a crème caramel." }
+        ]
+      },
+      "prompts": [
+        { "n": "Order the soup as your first course.", "t": ["De primero la sopa", "De primero quiero la sopa", "De primero la sopa por favor"] },
+        { "n": "Ask what the set menu includes.", "t": ["Qué lleva el menú del día", "Qué incluye el menú del día", "Qué tiene el menú del día"] },
+        { "n": "Your friend has ordered. Say you'll have the same.", "t": ["Para mí lo mismo", "Lo mismo para mí", "Yo quiero lo mismo"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l3",
+      "title": "Allergies & special requests",
+      "goal": "Ask what's in a dish and explain what you can't eat.",
+      "tip": {
+        "title": "¿Qué lleva?",
+        "body": "To ask what's in a dish, use llevar: ¿Qué lleva? ¿Lleva gluten? For allergies, Tengo alergia a … works for everyone; Soy alérgico (man) / alérgica (woman) a … is also common. Sin means without: sin queso, sin cebolla. Some foods change name: peanuts are cacahuetes in Spain and cacahuates in Mexico. In Mexico, picar means \"to be spicy\": always worth asking ¿Pica mucho?"
+      },
+      "phrases": [
+        { "t": "Tengo alergia a los frutos secos.", "n": "I'm allergic to nuts." },
+        { "t": "Soy alérgico al marisco.", "n": "I'm allergic to seafood.", "note": "A woman says alérgica." },
+        { "t": "¿Este plato lleva gluten?", "n": "Does this dish contain gluten?" },
+        { "t": "¿Lleva cebolla?", "n": "Does it have onion in it?" },
+        { "t": "No como carne.", "n": "I don't eat meat." },
+        { "t": "¿Tienen algún plato vegetariano?", "n": "Do you have any vegetarian dishes?" },
+        { "t": "¿Me lo puede preparar sin queso?", "n": "Can you make it for me without cheese?", "note": "lo = el plato. More on this in lesson 4." },
+        { "t": "¿Pica mucho?", "n": "Is it very spicy?" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Lunch in Oaxaca",
+        "lines": [
+          { "who": "A", "name": "Héctor", "t": "Buenas tardes. ¿Ya están listos para ordenar?", "n": "Good afternoon. Are you ready to order?" },
+          { "who": "you", "t": "Sí, pero tengo alergia a los cacahuates. ¿El mole lleva cacahuate?", "n": "Yes, but I'm allergic to peanuts. Does the mole have peanuts in it?" },
+          { "who": "A", "name": "Héctor", "t": "Sí, nuestro mole lleva cacahuate y ajonjolí. Mejor le recomiendo las enchiladas verdes.", "n": "Yes, our mole has peanuts and sesame. I'd recommend the green enchiladas instead." },
+          { "who": "you", "t": "¿Pican mucho?", "n": "Are they very spicy?" },
+          { "who": "A", "name": "Héctor", "t": "Pican un poquito, pero le puedo traer la salsa aparte.", "n": "They're a little spicy, but I can bring you the sauce on the side." },
+          { "who": "you", "t": "Perfecto. ¿Y me las puede preparar sin cebolla?", "n": "Perfect. And can you make them for me without onion?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell the waiter you're allergic to nuts.", "t": ["Tengo alergia a los frutos secos", "Soy alérgico a los frutos secos", "Soy alérgica a los frutos secos"] },
+        { "n": "Ask if this dish contains gluten.", "t": ["Este plato lleva gluten", "Lleva gluten", "Este plato tiene gluten"] },
+        { "n": "Ask if they have any vegetarian dishes.", "t": ["Tienen algún plato vegetariano", "Tienen platos vegetarianos", "Hay algún plato vegetariano"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l4",
+      "kind": "grammar",
+      "title": "lo, la, me, le: object pronouns",
+      "goal": "Say \"it\", \"to me\" and \"to you\" without repeating the noun.",
+      "tip": {
+        "title": "¿Me lo trae?",
+        "body": "Pronouns save you repeating the noun. The thing you order becomes lo, la, los or las, matching its gender and number: ¿El vino? Lo pido yo. ¿La sopa? La quiero sin sal. The person who receives something is me (to me), te (to you) or le (to him, her or usted): ¿Me trae la carta? Le recomiendo el pescado. Pronouns go before the conjugated verb. With two pronouns, the person comes first: ¿Me lo trae? (Can you bring it to me?). Le + lo/la would sound awkward, so le changes to se: Se lo traigo (I'll bring it to you)."
+      },
+      "phrases": [
+        { "t": "¿Me trae la carta, por favor?", "n": "Could you bring me the menu, please?", "note": "La carta in Spain; in Mexico people usually say el menú." },
+        { "t": "¿La paella? La recomiendo mucho.", "n": "The paella? I really recommend it." },
+        { "t": "Le recomiendo el pescado.", "n": "I recommend the fish (to you)." },
+        { "t": "¿Me lo trae sin salsa?", "n": "Can you bring it to me without sauce?" },
+        { "t": "Ahora mismo se lo traigo.", "n": "I'll bring it to you right away." }
+      ],
+      "drills": [
+        {
+          "title": "Who's ordering it?",
+          "base": { "t": "¿El vino? Lo pido yo.", "n": "The wine? I'll order it." },
+          "items": [
+            { "cue": "la sopa", "t": "¿La sopa? La pido yo.", "n": "The soup? I'll order it." },
+            { "cue": "los postres", "t": "¿Los postres? Los pido yo.", "n": "The desserts? I'll order them." },
+            { "cue": "las bebidas", "t": "¿Las bebidas? Las pido yo.", "n": "The drinks? I'll order them." },
+            { "cue": "el café", "t": "¿El café? Lo pido yo.", "n": "The coffee? I'll order it." }
+          ]
+        },
+        {
+          "title": "Bring it to me",
+          "base": { "t": "Le traigo la cuenta.", "n": "I'll bring you the bill." },
+          "items": [
+            { "cue": "la cuenta → la", "t": "Se la traigo.", "n": "I'll bring it to you." },
+            { "cue": "el café", "t": "Le traigo el café.", "n": "I'll bring you the coffee." },
+            { "cue": "el café → lo", "t": "Se lo traigo.", "n": "I'll bring it to you." },
+            { "cue": "a mí? · la cuenta → la", "t": "¿Me la trae?", "n": "Could you bring it to me?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask the waiter to bring you the menu.", "t": ["Me trae la carta por favor", "Me trae la carta", "Me trae el menú por favor", "Me trae el menú"] },
+        { "n": "You've just mentioned the bill. Ask the waiter to bring it to you.", "t": ["Me la trae por favor", "Me la trae", "Me la puede traer", "Me la puede traer por favor"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l5",
+      "kind": "listening",
+      "title": "Cold soup, wrong tacos",
+      "goal": "Follow a polite complaint in a restaurant.",
+      "phrases": [
+        { "t": "Disculpe, esto no es lo que pedimos.", "n": "Excuse me, this isn't what we ordered." },
+        { "t": "La sopa está fría.", "n": "The soup is cold." },
+        { "t": "Disculpe las molestias.", "n": "Sorry for the inconvenience." },
+        { "t": "El postre va por cuenta de la casa.", "n": "The dessert is on the house." }
+      ],
+      "story": {
+        "title": "A small problem",
+        "intro": "Lucía and Andrés are having dinner at a restaurant in Mexico City, but not everything goes to plan.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Lucía", "t": "Andrés, ¿ya probaste la sopa? Está fría, ¿no?", "n": "Andrés, have you tried the soup? It's cold, isn't it?" },
+          { "name": "Andrés", "voice": "es-MX-JorgeNeural", "t": "Sí, está fría. Y además yo pedí tacos de pescado, no de pollo.", "n": "Yes, it's cold. And also I ordered fish tacos, not chicken." },
+          { "name": "Lucía", "t": "¡Disculpe! Esto no es lo que pedimos.", "n": "Excuse me! This isn't what we ordered." },
+          { "name": "Mesera", "voice": "es-MX-NuriaNeural", "t": "¿Qué pasó? ¿Hay algún problema?", "n": "What happened? Is there a problem?" },
+          { "name": "Andrés", "voice": "es-MX-JorgeNeural", "t": "La sopa está fría y mi plato no es el correcto. Pedí tacos de pescado.", "n": "The soup is cold and my dish isn't the right one. I ordered fish tacos." },
+          { "name": "Mesera", "voice": "es-MX-NuriaNeural", "t": "Tiene razón, disculpe las molestias. Ahora mismo les traigo otra sopa y se los cambio.", "n": "You're right, sorry for the inconvenience. I'll bring you another soup right away and change them for you." },
+          { "name": "Mesera", "voice": "es-MX-NuriaNeural", "t": "Aquí tienen. Y el postre va por cuenta de la casa.", "n": "Here you are. And the dessert is on the house." },
+          { "name": "Lucía", "t": "¡Qué amable! Muchas gracias.", "n": "How kind! Thank you very much." }
+        ],
+        "questions": [
+          { "q": "¿Cómo está la sopa?", "n": "What's the soup like?", "t": ["Fría", "Está fría", "La sopa está fría"] },
+          { "q": "¿Qué pidió Andrés?", "n": "What did Andrés order?", "t": ["Tacos de pescado", "Pidió tacos de pescado", "Unos tacos de pescado"] },
+          { "q": "¿Qué va por cuenta de la casa?", "n": "What is on the house?", "t": ["El postre", "El postre va por cuenta de la casa"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u07-l6",
+      "kind": "roleplay",
+      "title": "Paying the bill",
+      "goal": "Ask for the bill, spot a mistake and pay.",
+      "phrases": [
+        { "t": "¿Nos trae la cuenta, por favor?", "n": "Could you bring us the bill, please?", "note": "In Mexico you'll also hear ¿Me cobra?, literally \"Will you charge me?\"" },
+        { "t": "Creo que hay un error en la cuenta.", "n": "I think there's a mistake in the bill." },
+        { "t": "¿Se puede pagar por separado?", "n": "Can we pay separately?" },
+        { "t": "¿Aceptan tarjeta?", "n": "Do you take cards?" }
+      ],
+      "branch": {
+        "title": "Lunch is over",
+        "scene": "You and a friend had the menú del día at a restaurant in Seville, with coffee instead of dessert. Your train leaves soon, so you want to pay.",
+        "name": "Carmen (camarera)",
+        "voice": "es-ES-TrianaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¿Qué tal todo? ¿Les pongo algo más?", "n": "How was everything? Can I get you anything else?",
+            "choices": [
+              { "t": "Todo muy rico, gracias. ¿Nos trae la cuenta, por favor?", "n": "Everything was delicious, thanks. Could you bring us the bill, please?", "next": "bill" },
+              { "t": "Sí, otra botella de vino, por favor.", "n": "Yes, another bottle of wine, please.", "next": "wine" }
+            ]
+          },
+          "wine": {
+            "t": "¡Marchando! Ahora mismo se la traigo.", "n": "Coming right up! I'll bring it to you right away.",
+            "end": "bad", "outcome": "You ordered more wine instead of the bill and missed your train. Ask with ¿Nos trae la cuenta?"
+          },
+          "bill": {
+            "t": "Aquí tienen. Son cincuenta y dos euros.", "n": "Here you are. That's fifty-two euros.",
+            "choices": [
+              { "t": "Perdone, creo que hay un error. No pedimos postre.", "n": "Excuse me, I think there's a mistake. We didn't order dessert.", "next": "error" },
+              { "t": "Vale. ¿Aceptan tarjeta?", "n": "OK. Do you take cards?", "next": "card" }
+            ]
+          },
+          "card": {
+            "t": "Sí, claro. ¿Lo pagan todo junto?", "n": "Yes, of course. Are you paying for everything together?",
+            "choices": [
+              { "t": "Sí, todo junto.", "n": "Yes, all together.", "next": "overpaid" },
+              { "t": "Un momento… Creo que hay un error en la cuenta.", "n": "One moment… I think there's a mistake in the bill.", "next": "error" }
+            ]
+          },
+          "overpaid": {
+            "t": "Perfecto. ¡Gracias y hasta pronto!", "n": "Perfect. Thank you and see you soon!",
+            "end": "bad", "outcome": "You paid for two desserts you never ordered. Always check the bill: Creo que hay un error."
+          },
+          "error": {
+            "t": "¡Ay, perdone! Tiene razón, los postres son de otra mesa. Entonces son cuarenta euros.", "n": "Oh, sorry! You're right, the desserts are from another table. So that's forty euros.",
+            "choices": [
+              { "t": "No pasa nada. ¿Se puede pagar por separado?", "n": "No problem. Can we pay separately?", "next": "split" },
+              { "t": "Muy bien. Todo junto, con tarjeta.", "n": "Very good. All together, by card.", "next": "good" }
+            ]
+          },
+          "split": {
+            "t": "Sí, claro. Son veinte euros cada uno. ¿Con tarjeta o en efectivo?", "n": "Yes, of course. That's twenty euros each. By card or in cash?",
+            "choices": [
+              { "t": "Con tarjeta, por favor.", "n": "By card, please.", "next": "good" },
+              { "t": "En efectivo. Aquí tiene.", "n": "In cash. Here you are.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Ya está. ¡Muchas gracias y buen viaje!", "n": "All done. Thank you very much and have a good trip!",
+            "end": "good", "outcome": "You spotted the mistake, paid the right amount and made your train."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask the waiter to bring you and your friend the bill.", "t": ["Nos trae la cuenta por favor", "Nos trae la cuenta", "La cuenta por favor", "Me cobra por favor"] },
+        { "n": "Say you think there's a mistake in the bill.", "t": ["Creo que hay un error en la cuenta", "Creo que hay un error", "Hay un error en la cuenta"] }
+      ]
+    },
+    {
+      "id": "a2-u07-l7",
+      "kind": "speaking",
+      "title": "Your perfect meal",
+      "goal": "Order a full meal out loud for 60 seconds.",
+      "culture": {
+        "title": "Menú del día, comida corrida and tipping",
+        "body": "On weekdays many restaurants in Spain offer a menú del día at lunchtime: a fixed price for a first course, a main course, dessert or coffee, bread and a drink. In Mexico the equivalent is the comida corrida, a set lunch that often starts with soup and rice before the main dish, usually with tortillas and an agua fresca. Tipping customs differ: in Spain a tip is optional and usually small, and many people just round up or leave a few coins. In Mexico a tip (la propina) of around 10–15% is customary in sit-down restaurants.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "¿Cuánto cuesta el menú del día?", "n": "How much is the set menu?" },
+        { "t": "¿Está incluida la propina?", "n": "Is the tip included?" },
+        { "t": "Estaba todo buenísimo.", "n": "Everything was delicious." },
+        { "t": "Dejo algo de propina.", "n": "I'll leave a little tip." }
+      ],
+      "free": [
+        {
+          "n": "You're at a restaurant. Order a full meal for yourself: starter, main course, dessert and a drink. Mention an allergy or a special request, then ask for the bill.",
+          "hint": "Use De primero …, De segundo …, Tengo alergia a … ¿Lleva …?, sin …, Para beber …, De postre …, ¿Me trae la cuenta? ¿Aceptan tarjeta?",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "courses", "any": ["de primero", "de segundo", "de postre", "primero", "segundo", "postre"] },
+            { "label": "a dish", "any": ["sopa", "ensalada", "pollo", "pescado", "carne", "paella", "tacos", "enchiladas", "merluza", "gazpacho", "flan", "arroz", "verduras"] },
+            { "label": "an allergy or request", "any": ["alergia", "alérgico", "alérgica", "lleva", "vegetariano", "vegetariana", "sin"] },
+            { "label": "a drink", "any": ["agua", "vino", "cerveza", "refresco", "jugo", "zumo", "café"] },
+            { "label": "the bill", "any": ["cuenta", "tarjeta", "efectivo", "propina", "pagar", "cobra"] }
+          ],
+          "model": "Buenas tardes. De primero quiero la sopa de verduras y de segundo el pollo asado. Tengo alergia a los frutos secos: ¿el pollo lleva nueces? Para beber, una botella de agua, y de postre, un flan, por favor. Estaba todo buenísimo. ¿Me trae la cuenta? ¿Aceptan tarjeta?"
+        }
+      ],
+      "prompts": [
+        { "n": "Ask how much the set menu is.", "t": ["Cuánto cuesta el menú del día", "Cuánto es el menú del día"] },
+        { "n": "Tell the waiter everything was delicious.", "t": ["Estaba todo buenísimo", "Todo estaba buenísimo", "Estaba todo muy rico", "Todo estaba muy rico"] }
+      ]
+    },
+    {
+      "id": "a2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En el restaurante",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

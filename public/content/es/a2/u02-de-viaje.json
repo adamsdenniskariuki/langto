@@ -1,0 +1,304 @@
+{
+  "id": "a2-u02",
+  "title": "De viaje",
+  "subtitle": "Travel",
+  "icon": "🧳",
+  "lessons": [
+    {
+      "id": "a2-u02-l1",
+      "title": "At the train station",
+      "goal": "Buy a train ticket and ask about times and platforms.",
+      "tip": {
+        "title": "billete or boleto?",
+        "body": "A ticket for a train, bus or plane is un billete in Spain and un boleto in Mexico and most of Latin America. De ida is one-way, de ida y vuelta is a return (Latin America also says redondo: un boleto redondo). Salir is to leave (¿A qué hora sale?), llegar to arrive. In Spanish stations the platform is often called la vía: El tren sale de la vía cuatro."
+      },
+      "phrases": [
+        { "t": "Quiero un billete de ida y vuelta a Sevilla.", "n": "I'd like a return ticket to Seville.", "note": "Latin America: un boleto redondo." },
+        { "t": "¿A qué hora sale el próximo tren?", "n": "What time does the next train leave?" },
+        { "t": "¿De qué vía sale?", "n": "Which platform does it leave from?", "note": "Also: ¿De qué andén sale?" },
+        { "t": "¿Cuánto dura el viaje?", "n": "How long does the journey take?" },
+        { "t": "¿Es directo?", "n": "Is it direct?" },
+        { "t": "Prefiero ir en tren.", "n": "I prefer to go by train." },
+        { "t": "Voy en avión porque es más rápido.", "n": "I'm flying because it's quicker." },
+        { "t": "El tren llega con retraso.", "n": "The train is running late.", "note": "Mexico: viene retrasado / viene tarde." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "At the ticket office in Madrid",
+        "lines": [
+          { "who": "A", "name": "Taquillera", "t": "Buenos días. ¿Adónde va?", "n": "Good morning. Where are you going?" },
+          { "who": "you", "t": "Buenos días. Quiero un billete de ida y vuelta a Sevilla, por favor.", "n": "Good morning. I'd like a return ticket to Seville, please." },
+          { "who": "A", "name": "Taquillera", "t": "¿Para hoy? El próximo tren sale a las once y cuarto.", "n": "For today? The next train leaves at a quarter past eleven." },
+          { "who": "you", "t": "Perfecto. ¿Es directo? ¿Cuánto dura el viaje?", "n": "Perfect. Is it direct? How long does the journey take?" },
+          { "who": "A", "name": "Taquillera", "t": "Sí, es directo. Son unas dos horas y media. Sale de la vía cuatro.", "n": "Yes, it's direct. It's about two and a half hours. It leaves from platform four." },
+          { "who": "you", "t": "Muy bien. ¿Puedo pagar con tarjeta?", "n": "Great. Can I pay by card?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask for a return ticket to Seville.", "t": ["Quiero un billete de ida y vuelta a Sevilla", "Un billete de ida y vuelta a Sevilla", "Quiero un boleto de ida y vuelta a Sevilla", "Un boleto redondo a Sevilla"] },
+        { "n": "Ask what time the next train leaves.", "t": ["A qué hora sale el próximo tren", "Cuándo sale el próximo tren"] },
+        { "n": "Ask how long the journey takes.", "t": ["Cuánto dura el viaje", "Cuánto tiempo dura el viaje", "Cuánto tarda el tren"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l2",
+      "title": "At the airport",
+      "goal": "Check in for a flight and handle your luggage.",
+      "tip": {
+        "title": "facturar or documentar?",
+        "body": "Airport words change across the Atlantic. To check in a suitcase is facturar in Spain and documentar in Mexico. The boarding pass is la tarjeta de embarque in Spain and el pase de abordar in Mexico. Everywhere you'll hear equipaje de mano (hand luggage), la puerta (the gate), ventanilla (window seat) and pasillo (aisle seat). Llevo means \"I'm carrying / I've got with me\": Solo llevo equipaje de mano."
+      },
+      "phrases": [
+        { "t": "Quiero documentar una maleta.", "n": "I'd like to check in a suitcase.", "note": "Mexico. Spain: Quiero facturar una maleta." },
+        { "t": "Solo llevo equipaje de mano.", "n": "I've only got hand luggage." },
+        { "t": "¿Ventanilla o pasillo?", "n": "Window or aisle?" },
+        { "t": "Aquí tiene mi pasaporte.", "n": "Here's my passport." },
+        { "t": "¿Dónde está mi pase de abordar?", "n": "Where's my boarding pass?", "note": "Mexico. Spain: la tarjeta de embarque." },
+        { "t": "¿Por qué puerta sale el vuelo?", "n": "Which gate does the flight leave from?" },
+        { "t": "El vuelo está retrasado.", "n": "The flight is delayed." },
+        { "t": "Mi maleta no ha llegado.", "n": "My suitcase hasn't arrived." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Check-in at Mexico City airport",
+        "lines": [
+          { "who": "A", "name": "Agente", "t": "Buenas tardes. ¿Me permite su pasaporte, por favor?", "n": "Good afternoon. May I have your passport, please?" },
+          { "who": "you", "t": "Sí, aquí tiene. Voy a Oaxaca.", "n": "Yes, here you are. I'm going to Oaxaca." },
+          { "who": "A", "name": "Agente", "t": "Muy bien. ¿Va a documentar equipaje?", "n": "Very good. Are you checking in any luggage?" },
+          { "who": "you", "t": "Sí, una maleta. Y llevo una mochila de mano.", "n": "Yes, one suitcase. And I've got a backpack as hand luggage." },
+          { "who": "A", "name": "Agente", "t": "Perfecto. ¿Prefiere ventanilla o pasillo?", "n": "Perfect. Would you prefer window or aisle?" },
+          { "who": "you", "t": "Ventanilla, por favor. ¿Por qué puerta sale el vuelo?", "n": "Window, please. Which gate does the flight leave from?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've only got hand luggage.", "t": ["Solo llevo equipaje de mano", "Sólo llevo equipaje de mano", "Solo tengo equipaje de mano"] },
+        { "n": "Ask for a window seat.", "t": ["Ventanilla por favor", "Prefiero ventanilla", "Quiero ventanilla", "Un asiento de ventanilla por favor"] },
+        { "n": "Ask which gate the flight leaves from.", "t": ["Por qué puerta sale el vuelo", "De qué puerta sale el vuelo", "Cuál es la puerta"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l3",
+      "title": "Where did you go?",
+      "goal": "Tell the story of a finished trip in the simple past.",
+      "tip": {
+        "title": "fui, viajé, visité",
+        "body": "To tell the story of a trip that's over, use the pretérito indefinido (simple past): viajé (I travelled), visité (I visited), comí (I ate). Fui means \"I went\": Fui a Oaxaca. Use it with words that close a period: ayer, el año pasado, el verano pasado, en 2019. Regular forms are stressed on the last syllable, and the written accent shows it: viaJÉ, visiTÓ. Viajo (I travel) and viajó (he travelled) differ only in the stress, so say that last vowel firmly."
+      },
+      "phrases": [
+        { "t": "¿Adónde fuiste de vacaciones?", "n": "Where did you go on holiday?" },
+        { "t": "Fui a Oaxaca con mi familia.", "n": "I went to Oaxaca with my family." },
+        { "t": "Viajamos en autobús.", "n": "We travelled by bus." },
+        { "t": "Nos quedamos una semana.", "n": "We stayed for a week." },
+        { "t": "Visité Monte Albán.", "n": "I visited Monte Albán.", "note": "Ancient Zapotec ruins on a hill above Oaxaca city." },
+        { "t": "Comí mole negro.", "n": "I ate black mole.", "note": "Oaxaca is famous for its moles." },
+        { "t": "¿Qué tal el viaje?", "n": "How was the trip?" },
+        { "t": "El viaje fue largo, pero muy bonito.", "n": "The journey was long, but really lovely.", "note": "fue: it was (from ser)." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Back from holiday: Diego asks",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¡Hola! ¿Adónde fuiste de vacaciones?", "n": "Hi! Where did you go on holiday?" },
+          { "who": "you", "t": "Fui a Oaxaca. ¡Me encantó!", "n": "I went to Oaxaca. I loved it!" },
+          { "who": "A", "name": "Diego", "t": "¡Qué padre! ¿Y cómo viajaste?", "n": "How cool! And how did you travel?" },
+          { "who": "you", "t": "Viajé en autobús desde la Ciudad de México. El viaje fue largo, pero muy bonito.", "n": "I travelled by bus from Mexico City. The journey was long, but really lovely." },
+          { "who": "A", "name": "Diego", "t": "¿Y qué hiciste allí?", "n": "And what did you do there?" },
+          { "who": "you", "t": "Visité Monte Albán y comí mole negro todos los días.", "n": "I visited Monte Albán and ate black mole every day." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you went to Oaxaca.", "t": ["Fui a Oaxaca"] },
+        { "n": "Ask a friend where they went on holiday.", "t": ["Adónde fuiste de vacaciones", "A dónde fuiste de vacaciones", "Dónde fuiste de vacaciones"] },
+        { "n": "Say you travelled by bus.", "t": ["Viajé en autobús", "Fui en autobús"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l4",
+      "kind": "grammar",
+      "title": "The pretérito indefinido",
+      "goal": "Use regular simple-past endings and fui, hice, tuve, estuve.",
+      "tip": {
+        "title": "-é, -aste, -ó… and four key irregulars",
+        "body": "-ar verbs: viajé, viajaste, viajó, viajamos, viajasteis, viajaron. -er and -ir verbs share endings: comí, comiste, comió, comimos, comisteis, comieron (viví, viviste, vivió…). Nosotros looks like the present (viajamos), so context tells you when. Four irregulars you'll use all the time: ir and ser share fui, fuiste, fue, fuimos, fuisteis, fueron (Fui a Madrid / Fue un viaje genial); hacer → hice, hiciste, hizo; tener → tuve, tuviste, tuvo; estar → estuve, estuviste, estuvo. Irregular forms have no written accent: hice, tuve. Vosotros forms are Spain only."
+      },
+      "phrases": [
+        { "t": "Ayer fui al aeropuerto.", "n": "Yesterday I went to the airport." },
+        { "t": "El año pasado estuve en Madrid.", "n": "Last year I was in Madrid." },
+        { "t": "¿Qué hiciste el fin de semana?", "n": "What did you do at the weekend?" },
+        { "t": "Tuvimos un problema con el hotel.", "n": "We had a problem with the hotel." },
+        { "t": "Mis amigos llegaron tarde.", "n": "My friends arrived late." }
+      ],
+      "drills": [
+        {
+          "title": "Regular past",
+          "base": { "t": "Ayer viajé a Madrid.", "n": "Yesterday I travelled to Madrid." },
+          "items": [
+            { "cue": "tú?", "t": "¿Ayer viajaste a Madrid?", "n": "Did you travel to Madrid yesterday?" },
+            { "cue": "ella", "t": "Ayer viajó a Madrid.", "n": "Yesterday she travelled to Madrid." },
+            { "cue": "nosotros", "t": "Ayer viajamos a Madrid.", "n": "Yesterday we travelled to Madrid." },
+            { "cue": "ellos · llegar", "t": "Ayer llegaron a Madrid.", "n": "Yesterday they arrived in Madrid." }
+          ]
+        },
+        {
+          "title": "fui, estuve, hice",
+          "base": { "t": "El verano pasado fui a México.", "n": "Last summer I went to Mexico." },
+          "items": [
+            { "cue": "estar · en", "t": "El verano pasado estuve en México.", "n": "Last summer I was in Mexico." },
+            { "cue": "nosotros · ir", "t": "El verano pasado fuimos a México.", "n": "Last summer we went to Mexico." },
+            { "cue": "hacer · un viaje", "t": "El verano pasado hice un viaje a México.", "n": "Last summer I took a trip to Mexico." },
+            { "cue": "tú? · estar", "t": "¿El verano pasado estuviste en México?", "n": "Were you in Mexico last summer?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask a friend what they did at the weekend.", "t": ["Qué hiciste el fin de semana", "Qué hiciste este fin de semana"] },
+        { "n": "Say you were in Madrid last year.", "t": ["El año pasado estuve en Madrid", "Estuve en Madrid el año pasado"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l5",
+      "kind": "listening",
+      "title": "A weekend in Barcelona",
+      "goal": "Follow a friend's story about a trip.",
+      "phrases": [
+        { "t": "¿Dónde te quedaste?", "n": "Where did you stay?" },
+        { "t": "Me dejé la maleta en el tren.", "n": "I left my suitcase on the train." },
+        { "t": "Al día siguiente.", "n": "The next day." },
+        { "t": "¡Menos mal!", "n": "Thank goodness!" }
+      ],
+      "story": {
+        "title": "Marta's trip",
+        "intro": "On Monday morning, Marta tells her colleague Sergio about her weekend trip from Madrid to Barcelona.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Sergio", "voice": "es-ES-DarioNeural", "t": "Marta, ¿qué tal el fin de semana? ¿Al final fuiste a Barcelona?", "n": "Marta, how was the weekend? Did you go to Barcelona in the end?" },
+          { "name": "Marta", "t": "¡Sí! Fui el viernes por la tarde en el AVE. Fue rapidísimo.", "n": "Yes! I went on Friday afternoon on the AVE. It was super fast." },
+          { "name": "Sergio", "voice": "es-ES-DarioNeural", "t": "¡Qué bien! ¿Y dónde te quedaste?", "n": "Great! And where did you stay?" },
+          { "name": "Marta", "t": "En un hotel pequeño cerca de la playa. Pero tuve un problema: ¡me dejé la maleta en el tren!", "n": "In a small hotel near the beach. But I had a problem: I left my suitcase on the train!" },
+          { "name": "Sergio", "voice": "es-ES-DarioNeural", "t": "¡No! ¿Y qué hiciste?", "n": "No! And what did you do?" },
+          { "name": "Marta", "t": "Hablé con un empleado de la estación y me ayudó mucho. Al día siguiente recogí la maleta.", "n": "I talked to a station employee and he really helped me. The next day I picked up the suitcase." },
+          { "name": "Sergio", "voice": "es-ES-DarioNeural", "t": "¡Menos mal! ¿Y qué visitaste?", "n": "Thank goodness! And what did you visit?" },
+          { "name": "Marta", "t": "Visité la Sagrada Familia y comí paella en la playa. El domingo volví a Madrid. ¡Fue un fin de semana genial!", "n": "I visited the Sagrada Família and ate paella on the beach. On Sunday I came back to Madrid. It was a great weekend!" }
+        ],
+        "questions": [
+          { "q": "¿Cómo fue Marta a Barcelona?", "n": "How did Marta get to Barcelona?", "t": ["En tren", "En el AVE", "En AVE", "Fue en tren", "Fue en el AVE"] },
+          { "q": "¿Qué problema tuvo Marta?", "n": "What problem did Marta have?", "t": ["Se dejó la maleta en el tren", "Dejó la maleta en el tren", "Perdió la maleta", "La maleta"] },
+          { "q": "¿Cuándo volvió a Madrid?", "n": "When did she come back to Madrid?", "t": ["El domingo", "Volvió el domingo"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u02-l6",
+      "kind": "roleplay",
+      "title": "A problem with the booking",
+      "goal": "Stay calm and solve a problem with your hotel booking.",
+      "phrases": [
+        { "t": "Tengo una reservación para tres noches.", "n": "I have a booking for three nights.", "note": "Spain: una reserva." },
+        { "t": "Hice la reservación por internet.", "n": "I made the booking online." },
+        { "t": "Hay un error con mi reservación.", "n": "There's a mistake with my booking." },
+        { "t": "¿Tiene alguna habitación libre?", "n": "Have you got any free rooms?" }
+      ],
+      "branch": {
+        "title": "At the hotel reception",
+        "scene": "It's late evening in Guanajuato, Mexico. You booked a double room for three nights, but at reception something seems to be wrong.",
+        "name": "Recepcionista",
+        "voice": "es-MX-LibertoNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Buenas noches. ¿En qué le puedo servir?", "n": "Good evening. How can I help you?",
+            "choices": [
+              { "t": "Buenas noches. Tengo una reservación a nombre de Alex Smith.", "n": "Good evening. I have a booking in the name of Alex Smith.", "next": "notfound" },
+              { "t": "Hola, quiero mi habitación.", "n": "Hi, I want my room.", "next": "name" }
+            ]
+          },
+          "name": {
+            "t": "Claro. ¿A nombre de quién está la reservación?", "n": "Of course. Whose name is the booking under?",
+            "choices": [
+              { "t": "A nombre de Alex Smith.", "n": "Alex Smith.", "next": "notfound" }
+            ]
+          },
+          "notfound": {
+            "t": "Mmm… Lo siento, no encuentro ninguna reservación a ese nombre.", "n": "Hmm… I'm sorry, I can't find any booking under that name.",
+            "choices": [
+              { "t": "Hice la reservación por internet hace dos semanas. Aquí tengo el correo.", "n": "I made the booking online two weeks ago. I've got the email here.", "next": "found" },
+              { "t": "¡Pues no es mi problema!", "n": "Well, that's not my problem!", "next": "angry" }
+            ]
+          },
+          "angry": {
+            "t": "Entiendo, pero sin reservación no puedo hacer nada. Estamos llenos.", "n": "I understand, but without a booking I can't do anything. We're full.",
+            "end": "bad", "outcome": "Getting angry didn't help. Stay calm and show proof: Hice la reservación por internet."
+          },
+          "found": {
+            "t": "A ver… Ah, ya la vi. Pero aquí dice que es para el mes que viene, no para hoy.", "n": "Let's see… Ah, now I see it. But it says here it's for next month, not today.",
+            "choices": [
+              { "t": "¡No puede ser! Reservé para hoy, tres noches. Mire el correo.", "n": "That can't be right! I booked for today, three nights. Look at the email.", "next": "options" },
+              { "t": "Bueno, entonces me voy.", "n": "OK, then I'll leave.", "next": "leave" }
+            ]
+          },
+          "leave": {
+            "t": "Muy bien. Que tenga buena noche.", "n": "Very well. Have a good night.",
+            "end": "bad", "outcome": "You walked out into the night without a room. Show your email and ask: ¿Tiene alguna habitación libre?"
+          },
+          "options": {
+            "t": "Tiene razón, fue un error del sistema. Perdone. Esta noche solo tenemos una habitación sencilla, pero mañana le damos la doble.", "n": "You're right, it was a system error. Sorry. Tonight we only have a single room, but tomorrow we'll give you the double.",
+            "choices": [
+              { "t": "Está bien. ¿Me pueden hacer un descuento?", "n": "All right. Could you give me a discount?", "next": "ok" },
+              { "t": "De acuerdo, no hay problema.", "n": "OK, no problem.", "next": "ok" }
+            ]
+          },
+          "ok": {
+            "t": "Por supuesto. Por la molestia, el desayuno es gratis. Aquí tiene la llave. ¡Que descanse!", "n": "Of course. To make up for the trouble, breakfast is free. Here's the key. Have a good rest!",
+            "end": "good", "outcome": "You stayed calm, showed your booking and got a room, plus free breakfast."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the receptionist you made the booking online.", "t": ["Hice la reservación por internet", "Hice la reserva por internet", "Reservé por internet"] },
+        { "n": "Ask if they have any free rooms.", "t": ["Tiene alguna habitación libre", "Tienen alguna habitación libre", "Tiene una habitación libre", "Hay alguna habitación libre"] }
+      ]
+    },
+    {
+      "id": "a2-u02-l7",
+      "kind": "speaking",
+      "title": "My last trip",
+      "goal": "Tell the story of a trip for 60 seconds.",
+      "culture": {
+        "title": "Fast trains and long buses",
+        "body": "Spain has the largest high-speed rail network in Europe. The AVE trains link Madrid with cities such as Seville, Barcelona, Valencia and Málaga, and for many routes the train is as quick as flying once you count the trip to the airport. In Mexico, passenger trains between cities are rare, so most people travel long distances by bus. Long-distance buses leave from big bus stations, often called centrales de autobuses, and first-class buses usually have reclining seats and a toilet. In Mexico a city bus is often called un camión.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "El verano pasado fui a México.", "n": "Last summer I went to Mexico." },
+        { "t": "Fuimos en autobús.", "n": "We went by bus." },
+        { "t": "Me quedé en un hotel pequeño.", "n": "I stayed in a small hotel." },
+        { "t": "¡Fue un viaje inolvidable!", "n": "It was an unforgettable trip!" }
+      ],
+      "free": [
+        {
+          "n": "Tell the story of your last trip: where you went, how you travelled, where you stayed and what you did.",
+          "hint": "Use El año pasado / El verano pasado fui a …, Viajé en tren / avión / autobús, Me quedé en …, Visité …, Comí …, Tuve un problema …, Fue ….",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "where you went", "any": ["fui", "fuimos", "viajé", "viajamos"] },
+            { "label": "transport", "any": ["tren", "avión", "autobús", "coche", "carro", "barco"] },
+            { "label": "where you stayed", "any": ["hotel", "me quedé", "nos quedamos", "hostal", "apartamento", "casa"] },
+            { "label": "something you did", "any": ["visité", "visitamos", "comí", "comimos", "hice", "vi", "playa", "museo"] }
+          ],
+          "model": "El verano pasado fui a México con mi pareja. Viajamos en avión hasta la Ciudad de México y después fuimos en autobús a Oaxaca. Nos quedamos en un hotel pequeño en el centro. Visité Monte Albán y comí mole negro. Tuvimos un problema con la reservación, pero al final todo salió bien. ¡Fue un viaje inolvidable!"
+        }
+      ],
+      "prompts": [
+        { "n": "Say you stayed in a small hotel.", "t": ["Me quedé en un hotel pequeño", "Nos quedamos en un hotel pequeño"] },
+        { "n": "Say it was an unforgettable trip.", "t": ["Fue un viaje inolvidable"] }
+      ]
+    },
+    {
+      "id": "a2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: De viaje",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
