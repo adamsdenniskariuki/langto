@@ -1,0 +1,295 @@
+{
+  "id": "b1-u01",
+  "title": "Opiniones",
+  "subtitle": "Opinions & discussion",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b1-u01-l1",
+      "title": "Giving your opinion",
+      "goal": "Say what you think about a topic and ask others for their opinion.",
+      "tip": {
+        "title": "creo que, me parece que, para mí",
+        "body": "To give an opinion, start with creo que, pienso que or me parece que, followed by a normal sentence: Creo que es una buena idea. Para mí and en mi opinión work like \"for me\" and \"in my opinion\": Para mí, el doblaje es mejor. To ask, use ¿Qué opinas de…? or ¿Qué te parece…? (formal: ¿Qué opina usted de…? / ¿Qué le parece…?). Fillers like Pues… or La verdad es que… buy you thinking time and sound completely natural."
+      },
+      "phrases": [
+        { "t": "Creo que es una buena idea.", "n": "I think it's a good idea." },
+        { "t": "Pienso que las series son mejores que las películas.", "n": "I think series are better than films." },
+        { "t": "Me parece que tienes razón.", "n": "I think you're right.", "note": "Literally \"it seems to me that…\"." },
+        { "t": "Para mí, lo más importante es la historia.", "n": "For me, the most important thing is the story." },
+        { "t": "En mi opinión, es demasiado caro.", "n": "In my opinion, it's too expensive." },
+        { "t": "¿Qué opinas de las series dobladas?", "n": "What do you think of dubbed series?", "note": "Formal: ¿Qué opina usted de…?" },
+        { "t": "¿Qué te parece la idea?", "n": "What do you think of the idea?", "note": "Formal: ¿Qué le parece…?" },
+        { "t": "La verdad es que no lo sé.", "n": "To be honest, I don't know." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Dubbed or subtitled?",
+        "lines": [
+          { "who": "A", "name": "Nerea", "t": "Oye, ¿tú ves las series dobladas o en versión original?", "n": "Hey, do you watch series dubbed or in the original version?" },
+          { "who": "you", "t": "En versión original con subtítulos. Creo que es mejor para aprender idiomas.", "n": "In the original version with subtitles. I think it's better for learning languages." },
+          { "who": "A", "name": "Nerea", "t": "¿En serio? A mí me parece muy cansado leer todo el rato.", "n": "Really? I find reading the whole time really tiring." },
+          { "who": "you", "t": "Bueno, para mí lo más importante es oír las voces de verdad. ¿Qué opinas tú?", "n": "Well, for me the most important thing is hearing the real voices. What do you think?" },
+          { "who": "A", "name": "Nerea", "t": "Pues… en España hay actores de doblaje muy buenos. Pienso que el doblaje no está nada mal.", "n": "Well… in Spain there are very good dubbing actors. I think dubbing isn't bad at all." },
+          { "who": "you", "t": "La verdad es que no lo sé. ¿Qué te parece si vemos un capítulo de cada forma?", "n": "To be honest, I don't know. How about we watch one episode each way?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you think it's a good idea.", "t": ["Creo que es una buena idea", "Pienso que es una buena idea", "Me parece una buena idea", "Me parece que es una buena idea"] },
+        { "n": "Ask a friend what they think of the idea.", "t": ["Qué te parece la idea", "Qué opinas de la idea", "Qué piensas de la idea"] },
+        { "n": "Say that in your opinion it's too expensive.", "t": ["En mi opinión, es demasiado caro", "Para mí, es demasiado caro", "Creo que es demasiado caro"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l2",
+      "title": "Agreeing and disagreeing",
+      "goal": "Agree, disagree politely and give a reason.",
+      "tip": {
+        "title": "Soften your no",
+        "body": "Estoy de acuerdo (contigo) means \"I agree (with you)\". De acuerdo never changes, so it's the same for everyone. To disagree gently, say Yo no lo veo así or No estoy del todo de acuerdo rather than a flat No tienes razón. Puede ser, pero… (maybe, but…) and En eso tienes razón, pero… let you accept part of the argument before giving yours. Weigh both sides with por un lado… por otro (lado)…"
+      },
+      "phrases": [
+        { "t": "Estoy de acuerdo contigo.", "n": "I agree with you.", "note": "Formal: Estoy de acuerdo con usted." },
+        { "t": "Tienes toda la razón.", "n": "You're absolutely right.", "note": "Formal: Tiene toda la razón." },
+        { "t": "No estoy del todo de acuerdo.", "n": "I don't completely agree." },
+        { "t": "Yo no lo veo así.", "n": "I don't see it that way." },
+        { "t": "Puede ser, pero hay otro problema.", "n": "Maybe, but there's another problem." },
+        { "t": "Por un lado es práctico, por otro es caro.", "n": "On the one hand it's practical, on the other it's expensive." },
+        { "t": "Depende de la situación.", "n": "It depends on the situation." },
+        { "t": "¡Exacto! Eso es lo que pienso yo.", "n": "Exactly! That's what I think." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "Car or bike in Bogotá?",
+        "lines": [
+          { "who": "A", "name": "Santiago", "t": "Yo creo que en Bogotá es mejor tener carro. En bici uno llega muy cansado.", "n": "I think in Bogotá it's better to have a car. By bike you arrive really tired." },
+          { "who": "you", "t": "Yo no lo veo así. Con tanto tráfico, en bici se llega más rápido.", "n": "I don't see it that way. With so much traffic, you get there faster by bike." },
+          { "who": "A", "name": "Santiago", "t": "Puede ser, pero cuando llueve es horrible.", "n": "Maybe, but when it rains it's horrible." },
+          { "who": "you", "t": "En eso tienes razón. Por un lado la bici es práctica, por otro es incómoda cuando llueve.", "n": "You're right about that. On the one hand the bike is practical, on the other it's uncomfortable when it rains." },
+          { "who": "A", "name": "Santiago", "t": "Bueno, los domingos sí monto en bici, en la ciclovía.", "n": "Well, on Sundays I do ride my bike, on the ciclovía." },
+          { "who": "you", "t": "¡Exacto! Eso es lo que pienso yo: la bici es perfecta para disfrutar la ciudad.", "n": "Exactly! That's what I think: the bike is perfect for enjoying the city." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell a friend you agree with them.", "t": ["Estoy de acuerdo contigo", "Estoy de acuerdo", "Tienes razón", "Tienes toda la razón"] },
+        { "n": "Politely say you don't see it that way.", "t": ["Yo no lo veo así", "No lo veo así", "No estoy del todo de acuerdo"] },
+        { "n": "Say it's practical on the one hand but expensive on the other.", "t": ["Por un lado es práctico, por otro es caro", "Por un lado es práctico, por otro lado es caro"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l3",
+      "title": "Joining a discussion",
+      "goal": "Get a word in, ask to finish and explain what you mean.",
+      "tip": {
+        "title": "Jump in, politely",
+        "body": "In lively Spanish conversations people often start talking before the other person has completely finished. To get your turn, use a short opener: Perdona, pero… / ¿Puedo decir una cosa? If someone keeps cutting in, Déjame terminar (formal: Déjeme terminar) is firm but normal. To explain yourself, use Lo que quiero decir es que… or the very common filler o sea (I mean). Argentines use vos instead of tú, with its own verb forms: ¿Vos qué pensás? means ¿Tú qué piensas?, and dejame and esperá mean déjame and espera."
+      },
+      "phrases": [
+        { "t": "Perdona que te interrumpa, pero eso no es así.", "n": "Sorry to interrupt, but that's not right.", "note": "Formal: Perdone que le interrumpa." },
+        { "t": "¿Puedo decir una cosa?", "n": "Can I say something?" },
+        { "t": "Déjame terminar, por favor.", "n": "Let me finish, please.", "note": "Formal: Déjeme terminar. Argentina: Dejame terminar." },
+        { "t": "Lo que quiero decir es que necesitamos más tiempo.", "n": "What I mean is that we need more time." },
+        { "t": "O sea, no es tan fácil.", "n": "I mean, it's not that easy.", "note": "o sea is a very common filler: \"I mean / in other words\"." },
+        { "t": "¿Vos qué pensás?", "n": "What do you think?", "note": "Argentine voseo: vos replaces tú and the verb changes (pensás = piensas). Elsewhere: ¿Tú qué piensas?" },
+        { "t": "Volviendo al tema, ¿qué hacemos?", "n": "Getting back to the point, what do we do?" },
+        { "t": "Bueno, en parte sí.", "n": "Well, partly yes." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "A four-day week?",
+        "lines": [
+          { "who": "A", "name": "Martín", "t": "Mirá, yo creo que la semana de cuatro días es el futuro. ¿Vos qué pensás?", "n": "Look, I think the four-day week is the future. What do you think?" },
+          { "who": "you", "t": "Bueno, en parte sí. Pero en muchos trabajos es difícil.", "n": "Well, partly yes. But in a lot of jobs it's difficult." },
+          { "who": "A", "name": "Martín", "t": "¿Por qué? Si trabajás menos, estás más contento y trabajás mejor, y además…", "n": "Why? If you work less, you're happier and you work better, and besides…" },
+          { "who": "you", "t": "Perdona que te interrumpa, pero ¿qué pasa con los hospitales o las tiendas?", "n": "Sorry to interrupt, but what about hospitals or shops?" },
+          { "who": "A", "name": "Martín", "t": "Esperá, dejame terminar. Las empresas pueden organizarse de otra forma.", "n": "Wait, let me finish. Companies can organise themselves differently." },
+          { "who": "you", "t": "Perdón. Lo que quiero decir es que no es tan fácil. O sea, depende del trabajo.", "n": "Sorry. What I mean is that it's not that easy. I mean, it depends on the job." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if you can say something.", "t": ["Puedo decir una cosa", "Puedo decir algo"] },
+        { "n": "Someone keeps interrupting you. Ask them to let you finish.", "t": ["Déjame terminar, por favor", "Déjame terminar", "Déjeme terminar, por favor", "Dejame terminar"] },
+        { "n": "Your Argentine friend has given their opinion. Ask them back what they think.", "t": ["Y tú qué piensas", "Tú qué piensas", "Y vos qué pensás", "Vos qué pensás"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l4",
+      "kind": "grammar",
+      "title": "creo que or no creo que?",
+      "goal": "Use the indicative after creo que and the subjunctive after no creo que.",
+      "tip": {
+        "title": "No creo que + subjunctive",
+        "body": "After creo que, pienso que and me parece que you use the normal present (indicative): Creo que es verdad. When you say you DON'T think something, Spanish switches to the present subjunctive: No creo que sea verdad. Regular verbs swap their vowel: hablar → hable, comer → coma. Most other verbs start from the yo form minus -o: tengo → tenga, puedo → pueda. Four must be memorised: ser → sea, estar → esté, ir → vaya, haber → haya. For tú, add -s: sea → seas, tenga → tengas."
+      },
+      "phrases": [
+        { "t": "Creo que hay un problema.", "n": "I think there's a problem." },
+        { "t": "No creo que haya un problema.", "n": "I don't think there's a problem." },
+        { "t": "No creo que sea verdad.", "n": "I don't think it's true." },
+        { "t": "No pienso que Ana pueda venir.", "n": "I don't think Ana can come." },
+        { "t": "No creo que vaya a llover.", "n": "I don't think it's going to rain." }
+      ],
+      "drills": [
+        {
+          "title": "Make it negative",
+          "base": { "t": "Creo que Ana está en casa.", "n": "I think Ana is at home." },
+          "items": [
+            { "cue": "no", "t": "No creo que Ana esté en casa.", "n": "I don't think Ana is at home." },
+            { "cue": "no · tener tiempo", "t": "No creo que Ana tenga tiempo.", "n": "I don't think Ana has time." },
+            { "cue": "no · poder venir", "t": "No creo que Ana pueda venir.", "n": "I don't think Ana can come." },
+            { "cue": "no · ir a la fiesta", "t": "No creo que Ana vaya a la fiesta.", "n": "I don't think Ana is going to the party." }
+          ]
+        },
+        {
+          "title": "Yes or no?",
+          "base": { "t": "No creo que sea fácil.", "n": "I don't think it's easy." },
+          "items": [
+            { "cue": "creo", "t": "Creo que es fácil.", "n": "I think it's easy." },
+            { "cue": "pienso · haber tiempo", "t": "Pienso que hay tiempo.", "n": "I think there's time." },
+            { "cue": "no pienso · haber tiempo", "t": "No pienso que haya tiempo.", "n": "I don't think there's time." },
+            { "cue": "no creo · ser caro", "t": "No creo que sea caro.", "n": "I don't think it's expensive." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you don't think it's true.", "t": ["No creo que sea verdad", "No pienso que sea verdad", "No creo que sea cierto"] },
+        { "n": "Say you don't think there's a problem.", "t": ["No creo que haya un problema", "No creo que haya ningún problema", "No creo que haya problema"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l5",
+      "kind": "listening",
+      "title": "Phones at school?",
+      "goal": "Follow a radio debate about banning mobile phones in schools.",
+      "phrases": [
+        { "t": "Los celulares distraen mucho a los alumnos.", "n": "Phones distract students a lot.", "note": "Spain: los móviles." },
+        { "t": "No creo que prohibirlos sea la solución.", "n": "I don't think banning them is the solution." },
+        { "t": "Hay que enseñarles a usarlos bien.", "n": "We need to teach them to use them well." },
+        { "t": "Estoy de acuerdo con usted en una cosa.", "n": "I agree with you on one thing." }
+      ],
+      "story": {
+        "title": "Debate on the radio",
+        "intro": "On a Mexican radio show, a teacher and a mother discuss whether phones should be banned in schools.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Paola", "t": "Buenas tardes y bienvenidos al programa. Hoy hablamos de un tema polémico: ¿hay que prohibir los celulares en las escuelas? Profesor Ricardo, ¿usted qué opina?", "n": "Good afternoon and welcome to the show. Today we're talking about a controversial topic: should phones be banned in schools? Ricardo, as a teacher, what do you think?" },
+          { "name": "Ricardo", "voice": "es-MX-JorgeNeural", "t": "Yo creo que sí. Los celulares distraen mucho a los alumnos. En mis clases nadie escucha si tiene el teléfono en la mesa.", "n": "I think so. Phones distract students a lot. In my classes nobody listens if they have their phone on the desk." },
+          { "name": "Paola", "t": "Leticia, usted es mamá de dos adolescentes. ¿Está de acuerdo?", "n": "Leticia, you're the mother of two teenagers. Do you agree?" },
+          { "name": "Leticia", "voice": "es-MX-NuriaNeural", "t": "No del todo. Mis hijos usan el celular para hacer tareas y para avisarme cuando salen. No creo que prohibirlos sea la solución.", "n": "Not completely. My children use their phones to do homework and to let me know when they leave. I don't think banning them is the solution." },
+          { "name": "Ricardo", "voice": "es-MX-JorgeNeural", "t": "Perdone que la interrumpa, pero las tareas las pueden hacer en casa. En el salón no hace falta.", "n": "Sorry to interrupt, but they can do their homework at home. In the classroom it isn't necessary." },
+          { "name": "Leticia", "voice": "es-MX-NuriaNeural", "t": "Déjeme terminar, por favor. Lo que quiero decir es que hay que enseñarles a usarlos bien.", "n": "Let me finish, please. What I mean is that we need to teach them to use them well." },
+          { "name": "Ricardo", "voice": "es-MX-JorgeNeural", "t": "Bueno, estoy de acuerdo con usted en una cosa: la educación digital es muy importante.", "n": "Well, I agree with you on one thing: digital education is very important." },
+          { "name": "Paola", "t": "Pues ya ven: al final, un acuerdo. Muchas gracias a los dos.", "n": "Well, there you go: an agreement in the end. Thank you both very much." }
+        ],
+        "questions": [
+          { "q": "¿Qué opina el profesor Ricardo?", "n": "What does Ricardo, the teacher, think?", "t": ["Que hay que prohibirlos", "Que sí", "Que hay que prohibir los celulares", "Que los celulares distraen a los alumnos"] },
+          { "q": "¿Cuántos hijos tiene Leticia?", "n": "How many children does Leticia have?", "t": ["Dos", "Tiene dos hijos", "Dos adolescentes"] },
+          { "q": "¿Para qué usan el celular los hijos de Leticia?", "n": "What do Leticia's children use their phones for?", "t": ["Para hacer tareas", "Para hacer tareas y para avisarle", "Para avisarle cuando salen"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u01-l6",
+      "kind": "roleplay",
+      "title": "The residents' meeting",
+      "goal": "Disagree with a proposal at a residents' meeting. Your tone decides the outcome.",
+      "phrases": [
+        { "t": "Con todo respeto, no estoy de acuerdo.", "n": "With all due respect, I don't agree." },
+        { "t": "¿Puedo explicar por qué?", "n": "May I explain why?" },
+        { "t": "No creo que sea justo.", "n": "I don't think it's fair." },
+        { "t": "¿Qué le parece si buscamos otra solución?", "n": "How about we look for another solution?" }
+      ],
+      "branch": {
+        "title": "La reunión de vecinos",
+        "scene": "You live in a block of flats in Valencia. At the residents' meeting, the president, Ramón, proposes banning bikes from the building's courtyard, where you keep yours.",
+        "name": "Ramón",
+        "voice": "es-ES-DarioNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bueno, propongo prohibir las bicis en el patio. Ocupan mucho espacio. ¿Alguien tiene algo que decir?", "n": "Right, I propose banning bikes from the courtyard. They take up a lot of space. Does anyone have anything to say?",
+            "choices": [
+              { "t": "Con todo respeto, no estoy de acuerdo. ¿Puedo explicar por qué?", "n": "With all due respect, I don't agree. May I explain why?", "next": "why" },
+              { "t": "¡Eso es una tontería!", "n": "That's nonsense!", "next": "angry" }
+            ]
+          },
+          "why": {
+            "t": "Sí, claro, adelante. ¿Por qué no está de acuerdo?", "n": "Yes, of course, go ahead. Why don't you agree?",
+            "choices": [
+              { "t": "Porque no tengo otro sitio para la bici. No creo que sea justo.", "n": "Because I have nowhere else for my bike. I don't think it's fair.", "next": "concede" },
+              { "t": "Porque usted no usa bici y por eso no lo entiende.", "n": "Because you don't ride a bike, so you don't understand.", "next": "angry" }
+            ]
+          },
+          "angry": {
+            "t": "Oiga, así no podemos hablar. Esto es una reunión de vecinos, no una pelea.", "n": "Look, we can't talk like this. This is a residents' meeting, not a fight.",
+            "choices": [
+              { "t": "Perdone, tiene razón. Lo he dicho mal.", "n": "Sorry, you're right. I put that badly.", "next": "why" },
+              { "t": "Pues yo no voy a cambiar nada.", "n": "Well, I'm not changing anything.", "next": "bad" }
+            ]
+          },
+          "concede": {
+            "t": "Bueno, eso lo entiendo. Pero en el patio no cabe todo el mundo.", "n": "Well, I understand that. But there isn't room for everyone in the courtyard.",
+            "choices": [
+              { "t": "¿Qué le parece si ponemos un aparcabicis en una parte del patio?", "n": "How about we put a bike rack in one part of the courtyard?", "next": "good" },
+              { "t": "Entonces, ¿qué hago con mi bici? ¿La tiro a la basura?", "n": "So what do I do with my bike? Throw it in the bin?", "next": "angry" }
+            ]
+          },
+          "good": {
+            "t": "Me parece una idea estupenda. ¿Votamos? … ¡Aprobado por mayoría!", "n": "I think that's a great idea. Shall we vote? … Approved by a majority!",
+            "end": "good", "outcome": "You disagreed respectfully, gave a reason and proposed a compromise that the neighbours approved."
+          },
+          "bad": {
+            "t": "Muy bien. Entonces votamos sin usted. Las bicis, fuera del patio.", "n": "Fine. Then we'll vote without you. Bikes out of the courtyard.",
+            "end": "bad", "outcome": "Getting personal and refusing to talk turned the meeting against you. Try Con todo respeto… and give a reason."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Politely say that, with all due respect, you don't agree.", "t": ["Con todo respeto, no estoy de acuerdo", "No estoy de acuerdo"] },
+        { "n": "Say you don't think it's fair.", "t": ["No creo que sea justo", "No me parece justo", "No pienso que sea justo"] }
+      ]
+    },
+    {
+      "id": "b1-u01-l7",
+      "kind": "speaking",
+      "title": "City or countryside?",
+      "goal": "Give a one-minute opinion with reasons, a counter-argument and a conclusion.",
+      "culture": {
+        "title": "Talking over each other",
+        "body": "Among friends in Spain and Argentina, conversations often overlap: people jump in, finish each other's sentences and talk at the same time, and this usually shows interest rather than rudeness. If you wait for a long silence before you speak, you may never get a turn, so short openers like Perdona, pero… or Una cosa… are useful. A tertulia is an informal, regular get-together to chat and debate, traditionally in a café, and in Spain the word is also used for radio and TV discussion shows. Styles vary a lot from person to person, and in work meetings people often take turns more carefully.",
+        "regions": ["ES", "AR"]
+      },
+      "phrases": [
+        { "t": "Prefiero vivir en el campo porque hay más tranquilidad.", "n": "I prefer living in the countryside because it's more peaceful." },
+        { "t": "Una ventaja de la ciudad es el transporte público.", "n": "One advantage of the city is public transport." },
+        { "t": "Sin embargo, no creo que sea fácil encontrar trabajo en un pueblo.", "n": "However, I don't think it's easy to find work in a village." },
+        { "t": "En resumen, cada opción tiene sus ventajas.", "n": "In short, each option has its advantages." }
+      ],
+      "free": [
+        {
+          "n": "City or countryside: where is it better to live? Give your opinion, two reasons, a counter-argument and a conclusion.",
+          "hint": "Creo que … / Para mí … porque … Una ventaja es … Sin embargo, no creo que … sea … Por un lado … por otro … En resumen …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            { "label": "your opinion", "any": ["creo que", "pienso que", "para mí", "en mi opinión", "me parece que", "prefiero"] },
+            { "label": "a reason", "any": ["porque", "ya que", "una ventaja", "además"] },
+            { "label": "a counter-argument", "any": ["sin embargo", "pero", "aunque", "por otro lado", "por otro", "no creo que"] },
+            { "label": "the topic", "any": ["ciudad", "campo", "pueblo", "naturaleza", "tranquilidad", "transporte"] },
+            { "label": "a conclusion", "any": ["en resumen", "por eso", "en conclusión", "al final", "así que"] }
+          ],
+          "model": "Para mí, es mejor vivir en el campo porque hay más tranquilidad y naturaleza. Además, la vida es más barata. Sin embargo, no creo que sea fácil encontrar trabajo en un pueblo, y el transporte público es peor. Por un lado prefiero el campo, por otro necesito la ciudad para trabajar. En resumen, creo que lo ideal es vivir en un pueblo cerca de una ciudad."
+        }
+      ],
+      "prompts": [
+        { "n": "Say one advantage of the city is public transport.", "t": ["Una ventaja de la ciudad es el transporte público"] },
+        { "n": "Say that, in short, each option has its advantages.", "t": ["En resumen, cada opción tiene sus ventajas", "Cada opción tiene sus ventajas"] }
+      ]
+    },
+    {
+      "id": "b1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Opiniones",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

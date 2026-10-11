@@ -1,0 +1,302 @@
+{
+  "id": "b1-u05",
+  "title": "Medios y noticias",
+  "subtitle": "News, social media & reported speech",
+  "icon": "📰",
+  "lessons": [
+    {
+      "id": "b1-u05-l1",
+      "title": "The news",
+      "goal": "Talk about the news and where you get your information.",
+      "tip": {
+        "title": "enterarse de",
+        "body": "To find out about something is enterarse (de): ¿Te has enterado de la noticia? (Spain) or ¿Ya te enteraste? (common in Latin America, which prefers the preterite here). A newspaper is el periódico everywhere, and in much of Latin America also el diario. To trust is fiarse de or confiar en: no me fío de todo lo que sale en internet. Según + source is the neutral way to say where information comes from: según la radio, según mi hermana."
+      },
+      "phrases": [
+        { "t": "¿Te has enterado de la noticia?", "n": "Have you heard the news?", "note": "Latin America often: ¿Ya te enteraste?" },
+        { "t": "Lo leí en el periódico esta mañana.", "n": "I read it in the paper this morning.", "note": "Much of Latin America also: el diario" },
+        { "t": "Suelo ver las noticias por la noche.", "n": "I usually watch the news in the evening." },
+        { "t": "Escucho un pódcast de actualidad de camino al trabajo.", "n": "I listen to a current affairs podcast on my way to work." },
+        { "t": "No me fío de todo lo que sale en internet.", "n": "I don't trust everything that appears online." },
+        { "t": "Según la radio, mañana habrá huelga de metro.", "n": "According to the radio, there'll be a metro strike tomorrow." },
+        { "t": "Es una noticia muy preocupante.", "n": "It's very worrying news.", "note": "una noticia = one piece of news; las noticias = the news" },
+        { "t": "Prefiero informarme por la radio.", "n": "I prefer to get my news from the radio." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Sofía has news, Mexico City",
+        "lines": [
+          { "who": "A", "name": "Sofía", "t": "¿Ya te enteraste? Dicen que mañana van a cerrar dos estaciones del metro por obras.", "n": "Have you heard? They say two metro stations will close tomorrow for works." },
+          { "who": "you", "t": "No, no sabía nada. ¿Dónde lo leíste?", "n": "No, I had no idea. Where did you read it?" },
+          { "who": "A", "name": "Sofía", "t": "Lo vi en las redes, pero también salió en el periódico.", "n": "I saw it on social media, but it was also in the paper." },
+          { "who": "you", "t": "Yo no me fío de todo lo que sale en internet. Prefiero informarme por la radio.", "n": "I don't trust everything that appears online. I prefer to get my news from the radio." },
+          { "who": "A", "name": "Sofía", "t": "Tienes razón, hay muchas noticias falsas. Pero esta es verdad.", "n": "You're right, there's a lot of fake news. But this one is true." },
+          { "who": "you", "t": "Bueno, entonces mañana iré en bici. ¡Gracias por avisarme!", "n": "Well, then I'll go by bike tomorrow. Thanks for letting me know!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend if they've heard the news.", "t": ["Te has enterado de la noticia", "Ya te enteraste de la noticia", "Te enteraste de la noticia", "Ya te enteraste"] },
+        { "n": "Say you don't trust everything that appears online.", "t": ["No me fío de todo lo que sale en internet", "No me fío de todo lo que hay en internet", "No confío en todo lo que sale en internet"] },
+        { "n": "Say you prefer to get your news from the radio.", "t": ["Prefiero informarme por la radio", "Prefiero escuchar las noticias en la radio"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l2",
+      "title": "Social media",
+      "goal": "Talk about how you use social media and what you think of it.",
+      "tip": {
+        "title": "Words for the online world",
+        "body": "Social media is las redes sociales, often just las redes. You subir (upload) or publicar (post) a photo, seguir (follow) people, compartir (share) and comentar. Spanish happily borrows English: un like (or un me gusta), un influencer, hacerse viral (to go viral). In Spain un vídeo has an accent; in Latin America it's usually video, stressed on the i. Your phone is el móvil in Spain and el celular in Latin America."
+      },
+      "phrases": [
+        { "t": "Paso demasiado tiempo en las redes sociales.", "n": "I spend too much time on social media." },
+        { "t": "Subí una foto del viaje y tuvo un montón de likes.", "n": "I posted a photo from the trip and it got loads of likes." },
+        { "t": "Sigo a varios cocineros en Instagram.", "n": "I follow several chefs on Instagram." },
+        { "t": "Ese vídeo se hizo viral en un día.", "n": "That video went viral in one day.", "note": "Latin America: video, stressed on the i" },
+        { "t": "Nunca comparto información personal.", "n": "I never share personal information." },
+        { "t": "Las redes tienen cosas buenas y cosas malas.", "n": "Social media has good and bad sides." },
+        { "t": "Desactivé las notificaciones del móvil.", "n": "I turned off notifications on my phone.", "note": "Latin America: del celular" },
+        { "t": "Creo que las redes nos hacen más impacientes.", "n": "I think social media makes us more impatient." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Facu and the dancing dog, Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Facu", "t": "Che, ¿viste el video del perro que baila tango? Se hizo viral en un día.", "n": "Hey, did you see the video of the dog dancing tango? It went viral in one day." },
+          { "who": "you", "t": "Sí, lo vi anoche. Pero la verdad es que paso demasiado tiempo en las redes.", "n": "Yes, I saw it last night. But the truth is I spend too much time on social media." },
+          { "who": "A", "name": "Facu", "t": "¿Vos también? Yo estoy todo el día con el celular.", "n": "You too? I'm on my phone all day." },
+          { "who": "you", "t": "Por eso desactivé las notificaciones. Ahora me concentro mucho mejor.", "n": "That's why I turned off the notifications. Now I concentrate much better." },
+          { "who": "A", "name": "Facu", "t": "¿Y no extrañás nada?", "n": "And don't you miss anything?" },
+          { "who": "you", "t": "Un poco, pero creo que las redes nos hacen más impacientes.", "n": "A little, but I think social media makes us more impatient." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you spend too much time on social media.", "t": ["Paso demasiado tiempo en las redes sociales", "Paso demasiado tiempo en las redes"] },
+        { "n": "Say that video went viral in one day.", "t": ["Ese vídeo se hizo viral en un día", "Ese video se hizo viral en un día"] },
+        { "n": "Say you never share personal information.", "t": ["Nunca comparto información personal", "No comparto nunca información personal"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l3",
+      "title": "Series and films",
+      "goal": "Recommend series and films and give your opinion about them.",
+      "tip": {
+        "title": "Giving opinions",
+        "body": "Creo que, me parece que and pienso que introduce your opinion and are followed by the normal indicative: me parece que la segunda temporada es peor. ¿De qué va? (Spain) or ¿De qué se trata? (everywhere) asks what something is about. Engancharse means to get hooked. A season is una temporada, an episode un capítulo or un episodio. Watching in the original language is ver en versión original (V.O.), and a dubbed version is doblada."
+      },
+      "phrases": [
+        { "t": "Estoy viendo una serie colombiana buenísima.", "n": "I'm watching a brilliant Colombian series." },
+        { "t": "Me enganché desde el primer capítulo.", "n": "I got hooked from the first episode." },
+        { "t": "Me la vi entera en un fin de semana.", "n": "I watched the whole thing in one weekend." },
+        { "t": "Me parece que la segunda temporada es peor.", "n": "I think the second season is worse." },
+        { "t": "Los actores son increíbles, pero el final me decepcionó.", "n": "The actors are amazing, but the ending disappointed me." },
+        { "t": "¿Me recomiendas alguna película?", "n": "Can you recommend a film?" },
+        { "t": "Prefiero verla en versión original con subtítulos.", "n": "I prefer to watch it in the original version with subtitles." },
+        { "t": "¡No me cuentes el final!", "n": "Don't tell me the ending!" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Pablo wants a recommendation, Valencia",
+        "lines": [
+          { "who": "A", "name": "Pablo", "t": "Oye, ¿qué estás viendo últimamente? Necesito una serie nueva.", "n": "Hey, what are you watching lately? I need a new series." },
+          { "who": "you", "t": "Estoy viendo una serie colombiana buenísima. Me enganché desde el primer capítulo.", "n": "I'm watching a brilliant Colombian series. I got hooked from the first episode." },
+          { "who": "A", "name": "Pablo", "t": "¿Ah, sí? ¿Y de qué va?", "n": "Oh yeah? And what's it about?" },
+          { "who": "you", "t": "Va de una familia de Medellín que tiene un restaurante. Pero no te cuento más.", "n": "It's about a family from Medellín who run a restaurant. But I won't tell you any more." },
+          { "who": "A", "name": "Pablo", "t": "Vale, vale. ¿Y la ves doblada o en versión original?", "n": "OK, OK. And do you watch it dubbed or in the original?" },
+          { "who": "you", "t": "En versión original con subtítulos. Así aprendo expresiones nuevas.", "n": "In the original with subtitles. That way I learn new expressions." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you got hooked from the first episode.", "t": ["Me enganché desde el primer capítulo", "Me enganché desde el primer episodio"] },
+        { "n": "Ask a friend to recommend a film.", "t": ["Me recomiendas alguna película", "Me recomiendas una película", "Me puedes recomendar una película"] },
+        { "n": "Say you prefer to watch it in the original version with subtitles.", "t": ["Prefiero verla en versión original con subtítulos", "Prefiero verla en versión original", "Prefiero verlo en versión original con subtítulos"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l4",
+      "kind": "grammar",
+      "title": "Reported speech",
+      "goal": "Report what other people say, said and asked.",
+      "tip": {
+        "title": "dice que, dijo que, me preguntó si",
+        "body": "To report what someone says now, use dice que and keep the tense: «No puedo» → dice que no puede. To report what someone said, use dijo que and shift the tense back: present → imperfect («Estoy cansado» → dijo que estaba cansado), preterite or perfect → pluperfect, había + participle («He visto la película» → dijo que había visto la película), future → conditional («Iré» → dijo que iría). Yes/no questions use si: me preguntó si quería ir; question words stay: me preguntó dónde vivía. In everyday speech you'll also hear the present kept when something is still true: dijo que viene mañana."
+      },
+      "phrases": [
+        { "t": "Marta dice que no puede venir hoy.", "n": "Marta says she can't come today." },
+        { "t": "Mi jefe dijo que estaba muy ocupado.", "n": "My boss said he was very busy." },
+        { "t": "Me dijo que ya había visto la película.", "n": "She told me she had already seen the film." },
+        { "t": "Me preguntó si quería ir al cine.", "n": "He asked me if I wanted to go to the cinema." },
+        { "t": "Le pregunté dónde trabajaba.", "n": "I asked her where she worked." }
+      ],
+      "drills": [
+        {
+          "title": "Report it: dijo que…",
+          "base": { "t": "Dijo que estaba cansada.", "n": "She said she was tired." },
+          "items": [
+            { "cue": "«Tengo hambre»", "t": "Dijo que tenía hambre.", "n": "She said she was hungry." },
+            { "cue": "«Vivo en Lima»", "t": "Dijo que vivía en Lima.", "n": "She said she lived in Lima." },
+            { "cue": "«He perdido el tren»", "t": "Dijo que había perdido el tren.", "n": "She said she had missed the train." },
+            { "cue": "«Iré mañana»", "t": "Dijo que iría mañana.", "n": "She said she would go tomorrow." }
+          ]
+        },
+        {
+          "title": "Report a question",
+          "base": { "t": "Me preguntó si estaba bien.", "n": "He asked me if I was OK." },
+          "items": [
+            { "cue": "«¿Tienes tiempo?»", "t": "Me preguntó si tenía tiempo.", "n": "He asked me if I had time." },
+            { "cue": "«¿Dónde vives?»", "t": "Me preguntó dónde vivía.", "n": "He asked me where I lived." },
+            { "cue": "«¿Has leído la noticia?»", "t": "Me preguntó si había leído la noticia.", "n": "He asked me if I had read the news." },
+            { "cue": "«¿Qué vas a hacer?»", "t": "Me preguntó qué iba a hacer.", "n": "He asked me what I was going to do." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Report that your boss said he was very busy.", "t": ["Mi jefe dijo que estaba muy ocupado"] },
+        { "n": "Report that someone asked you if you wanted to go to the cinema.", "t": ["Me preguntó si quería ir al cine"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l5",
+      "kind": "listening",
+      "title": "A rumour in Bogotá",
+      "goal": "Follow a conversation about a piece of news that turns out to be false.",
+      "phrases": [
+        { "t": "¿Viste lo que publicaron?", "n": "Did you see what they posted?" },
+        { "t": "No me lo creí.", "n": "I didn't believe it." },
+        { "t": "Me dijo que era falso.", "n": "She told me it was false." },
+        { "t": "Hay que comprobar la fuente.", "n": "You have to check the source." }
+      ],
+      "story": {
+        "title": "Is the library closing?",
+        "intro": "Camila and Mateo, two neighbours in Bogotá, talk about a message they saw on social media.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Camila", "t": "Mateo, ¿viste lo que publicaron en las redes? Dicen que van a cerrar la biblioteca del barrio.", "n": "Mateo, did you see what they posted on social media? They say they're going to close the neighbourhood library." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Sí, lo leí anoche, pero no me lo creí. ¿Quién lo dijo?", "n": "Yes, I read it last night, but I didn't believe it. Who said it?" },
+          { "name": "Camila", "t": "Una vecina compartió un mensaje. Decía que el alcalde ya había firmado el cierre.", "n": "A neighbour shared a message. It said the mayor had already signed the closure." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Pues yo llamé esta mañana a la biblioteca. Le pregunté a la directora si era verdad.", "n": "Well, I called the library this morning. I asked the director if it was true." },
+          { "name": "Camila", "t": "¿Y qué le dijo?", "n": "And what did she tell you?" },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Me dijo que era falso. Explicó que solo cerrarían dos semanas para pintar.", "n": "She told me it was false. She explained they would only close for two weeks to paint." },
+          { "name": "Camila", "t": "¡Uf, qué alivio! Entonces era una noticia falsa.", "n": "Phew, what a relief! So it was fake news." },
+          { "name": "Mateo", "voice": "es-CO-GonzaloNeural", "t": "Exacto. Por eso siempre hay que comprobar la fuente antes de compartir algo.", "n": "Exactly. That's why you always have to check the source before sharing something." }
+        ],
+        "questions": [
+          { "q": "¿Qué decía el mensaje?", "n": "What did the message say?", "t": ["Que iban a cerrar la biblioteca", "Que cerrarían la biblioteca", "Que el alcalde había firmado el cierre", "Iban a cerrar la biblioteca"] },
+          { "q": "¿A quién llamó Mateo?", "n": "Who did Mateo call?", "t": ["A la directora", "A la directora de la biblioteca", "A la biblioteca", "La directora"] },
+          { "q": "¿Cuánto tiempo va a cerrar la biblioteca?", "n": "How long is the library going to close for?", "t": ["Dos semanas", "Solo dos semanas", "Va a cerrar dos semanas"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u05-l6",
+      "kind": "roleplay",
+      "title": "Passing on a message",
+      "goal": "Report accurately what was said in a meeting a colleague missed.",
+      "phrases": [
+        { "t": "¿Qué dijo la jefa?", "n": "What did the boss say?" },
+        { "t": "Dijo que había un problema con las fechas.", "n": "She said there was a problem with the dates." },
+        { "t": "Me preguntó si podrías enviarle el informe.", "n": "She asked me if you could send her the report." },
+        { "t": "Gracias por avisarme.", "n": "Thanks for letting me know." }
+      ],
+      "branch": {
+        "title": "Diego missed the meeting",
+        "scene": "You work at an agency in Guadalajara. Your colleague Diego missed this morning's team meeting and wants to know what the boss said. (Mexican Spanish: ¿neta? = really?, ahorita = right now.)",
+        "name": "Diego",
+        "voice": "es-MX-JorgeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Oye! No pude ir a la reunión. ¿Qué dijo la jefa?", "n": "Hey! I couldn't make the meeting. What did the boss say?",
+            "choices": [
+              { "t": "Dijo que el proyecto iba muy bien, pero que había un problema con las fechas.", "n": "She said the project was going very well, but that there was a problem with the dates.", "next": "dates" },
+              { "t": "Nada importante, la verdad. No me acuerdo.", "n": "Nothing important, to be honest. I don't remember.", "next": "vague" }
+            ]
+          },
+          "vague": {
+            "t": "¿Neta? Pero me dijeron que había sido una reunión larguísima…", "n": "Really? But they told me it had been a really long meeting…",
+            "choices": [
+              { "t": "Tienes razón, perdona. Dijo que había un problema con las fechas.", "n": "You're right, sorry. She said there was a problem with the dates.", "next": "dates" },
+              { "t": "Bueno, dijo que tú siempre llegabas tarde.", "n": "Well, she said you always arrived late.", "next": "gossip" }
+            ]
+          },
+          "gossip": {
+            "t": "¿Qué? ¿En serio dijo eso delante de todos?", "n": "What? Did she really say that in front of everyone?",
+            "choices": [
+              { "t": "No, no, es broma. Lo importante es que hay un problema con las fechas.", "n": "No, no, I'm joking. The important thing is that there's a problem with the dates.", "next": "dates" },
+              { "t": "Sí, y todos se rieron.", "n": "Yes, and everyone laughed.", "next": "bad" }
+            ]
+          },
+          "dates": {
+            "t": "Ay, caray. ¿Y qué pasa con las fechas?", "n": "Oh, dear. And what's the issue with the dates?",
+            "choices": [
+              { "t": "Dijo que el cliente había cambiado la fecha de entrega y que necesitaríamos una semana más.", "n": "She said the client had changed the deadline and that we'd need another week.", "next": "ask" },
+              { "t": "Dijo que tendríamos que terminar todo antes del viernes.", "n": "She said we would have to finish everything before Friday.", "next": "ask" }
+            ]
+          },
+          "ask": {
+            "t": "Uf. ¿Y preguntó algo de mi parte del trabajo?", "n": "Phew. And did she ask anything about my part of the work?",
+            "choices": [
+              { "t": "Sí, me preguntó si podrías enviarle el informe hoy.", "n": "Yes, she asked me if you could send her the report today.", "next": "good" },
+              { "t": "Sí, me preguntó si ya habías terminado el diseño.", "n": "Yes, she asked me if you had already finished the design.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "Perfecto, ahorita le escribo. ¡Gracias por avisarme!", "n": "Perfect, I'll write to her right now. Thanks for letting me know!",
+            "end": "good", "outcome": "You reported what the boss said clearly and accurately, so Diego knows exactly what to do."
+          },
+          "bad": {
+            "t": "Pues qué mal… Mejor voy a hablar directamente con ella.", "n": "Well, that's bad… I'd better talk to her directly.",
+            "end": "bad", "outcome": "You passed on gossip instead of what was actually said. Report the facts with dijo que…"
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Report that the boss said there was a problem with the dates.", "t": ["Dijo que había un problema con las fechas", "La jefa dijo que había un problema con las fechas"] },
+        { "n": "Tell your colleague the boss asked if he could send her the report.", "t": ["Me preguntó si podrías enviarle el informe", "Preguntó si podías enviarle el informe", "Preguntó si podrías enviarle el informe", "Me preguntó si podías enviarle el informe"] }
+      ]
+    },
+    {
+      "id": "b1-u05-l7",
+      "kind": "speaking",
+      "title": "Did you hear?",
+      "goal": "Retell a story or piece of news you heard and give your opinion, for 90 seconds.",
+      "culture": {
+        "title": "Telenovelas",
+        "body": "Telenovelas are a big part of popular culture in Latin America, and Mexico, Colombia, Venezuela and Argentina all have strong traditions. Unlike English-language soap operas that run for decades, a classic telenovela tells one story with a clear ending, usually over several months. Many have been exported and dubbed around the world; Colombia's Yo soy Betty, la fea was remade in many countries, including the US as Ugly Betty. Today, streaming platforms also produce lots of Spanish-language series from Spain and Latin America.",
+        "regions": ["MX", "CO", "VE", "AR"]
+      },
+      "phrases": [
+        { "t": "Me contaron que la serie tendrá otra temporada.", "n": "They told me the series will have another season." },
+        { "t": "Lo que más me gustó fue el final.", "n": "What I liked most was the ending." },
+        { "t": "Al final resulta que todo era mentira.", "n": "In the end it turns out it was all a lie." },
+        { "t": "Mi abuela no se pierde ni un capítulo.", "n": "My grandmother never misses a single episode." }
+      ],
+      "free": [
+        {
+          "n": "Retell a story or piece of news you heard recently: who told you or where you saw it, what was said, and what you think about it. Use dijo que / me contó que / me preguntó si.",
+          "hint": "El otro día mi amigo me contó que … Dijo que … había … / estaba … Me preguntó si … Yo creo que … / Me parece que …",
+          "seconds": 90,
+          "minWords": 35,
+          "targets": [
+            { "label": "your source", "any": ["me contó", "me dijo", "leí", "vi en", "escuché", "según", "me contaron"] },
+            { "label": "reported speech", "any": ["dijo que", "contó que", "explicó que", "dicen que", "comentó que"] },
+            { "label": "tense shift (imperfect / pluperfect)", "any": ["había", "estaba", "tenía", "iba", "quería", "podía", "vivía"] },
+            { "label": "a reported question", "any": ["preguntó si", "me preguntó", "le pregunté"] },
+            { "label": "your opinion", "any": ["creo que", "me parece", "pienso que", "en mi opinión", "para mí"] }
+          ],
+          "model": "El otro día mi prima me contó una noticia increíble. Me dijo que una vecina suya había ganado un concurso de cocina en la televisión. Explicó que la señora tenía setenta años y que nunca había cocinado para tanta gente. Después me preguntó si quería ir a su restaurante el fin de semana. Yo creo que es una historia muy bonita, y me parece que la vamos a visitar pronto."
+        }
+      ],
+      "prompts": [
+        { "n": "Say they told you the series will have another season.", "t": ["Me contaron que la serie tendrá otra temporada", "Me contaron que la serie tendría otra temporada", "Me dijeron que la serie tendrá otra temporada", "Me dijeron que la serie tendría otra temporada"] },
+        { "n": "Say what you liked most was the ending.", "t": ["Lo que más me gustó fue el final"] }
+      ]
+    },
+    {
+      "id": "b1-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Medios y noticias",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

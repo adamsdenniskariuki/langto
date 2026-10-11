@@ -1,0 +1,312 @@
+{
+  "id": "b1-u08",
+  "title": "Fiestas y viajes",
+  "subtitle": "Festivals, travel mishaps & recommendations",
+  "icon": "🎉",
+  "lessons": [
+    {
+      "id": "b1-u08-l1",
+      "title": "When things go wrong",
+      "goal": "Explain a travel problem and describe what you've lost.",
+      "tip": {
+        "title": "Se me ha perdido la maleta",
+        "body": "For accidents, Spanish often makes the thing the subject and you the person it happened to: se me ha perdido la maleta (my suitcase has got lost on me), se me olvidó el pasaporte (I forgot my passport). In Spain the perfect (ha llegado) is used for things that happened today; in Latin America the indefinido (llegó) is more usual. To describe a lost item, use que: una maleta que tiene una cinta roja. To check in luggage is facturar in Spain and documentar in Mexico. In Colombia you will often hear ¿En qué le puedo colaborar? (How can I help you?) and Listo (OK, done)."
+      },
+      "phrases": [
+        { "t": "Se me ha perdido la maleta.", "n": "My suitcase has got lost.", "note": "Latin America usually: se me perdió la maleta." },
+        { "t": "La maleta que facturé no ha llegado.", "n": "The suitcase I checked in hasn't arrived.", "note": "Mexico: la maleta que documenté no llegó." },
+        { "t": "Es una maleta azul que tiene una cinta roja.", "n": "It's a blue suitcase that has a red ribbon." },
+        { "t": "Perdí el vuelo por culpa del tráfico.", "n": "I missed the flight because of the traffic." },
+        { "t": "Me robaron la cartera en el metro.", "n": "My wallet was stolen on the metro." },
+        { "t": "El hotel donde me alojaba no tenía agua caliente.", "n": "The hotel where I was staying had no hot water." },
+        { "t": "¿Qué puedo hacer?", "n": "What can I do?" },
+        { "t": "¡Menos mal que tenía seguro de viaje!", "n": "Thank goodness I had travel insurance!" }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "Lost luggage in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Gonzalo", "t": "Buenas tardes. ¿En qué le puedo colaborar?", "n": "Good afternoon. How can I help you?" },
+          { "who": "you", "t": "Buenas tardes. La maleta que facturé en Madrid no ha llegado.", "n": "Good afternoon. The suitcase I checked in in Madrid hasn't arrived." },
+          { "who": "A", "name": "Gonzalo", "t": "Lo siento mucho. ¿Me la puede describir, por favor?", "n": "I'm very sorry. Could you describe it for me, please?" },
+          { "who": "you", "t": "Es una maleta azul, bastante grande, que tiene una cinta roja en el asa.", "n": "It's a blue suitcase, quite big, with a red ribbon on the handle." },
+          { "who": "A", "name": "Gonzalo", "t": "Listo. Déjeme su teléfono y la dirección del hotel donde se va a quedar.", "n": "OK. Leave me your phone number and the address of the hotel where you're going to stay." },
+          { "who": "you", "t": "Claro. El hotel donde me quedo está en La Candelaria. ¿Cuándo la voy a recibir?", "n": "Sure. The hotel where I'm staying is in La Candelaria. When will I get it?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say the suitcase you checked in hasn't arrived.", "t": ["La maleta que facturé no ha llegado", "La maleta que facturé no llegó", "Mi maleta no ha llegado", "Mi maleta no llegó"] },
+        { "n": "Describe your suitcase: it's a black suitcase that has a red ribbon.", "t": ["Es una maleta negra que tiene una cinta roja", "Es una maleta negra con una cinta roja"] },
+        { "n": "Say you missed the flight because of the traffic.", "t": ["Perdí el vuelo por culpa del tráfico", "Perdí el vuelo por el tráfico", "He perdido el vuelo por culpa del tráfico", "He perdido el vuelo por el tráfico"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l2",
+      "title": "Festivals & traditions",
+      "goal": "Describe a festival and ask how people celebrate.",
+      "tip": {
+        "title": "Se celebra… / lo que más me gusta",
+        "body": "To describe a festival, use se celebra (it's celebrated): Se celebra el 2 de noviembre. For what people do, say la gente + singular verb (la gente pone flores) or use se: se come pan de muerto. Link your details with relative clauses: Es una fiesta que se celebra en noviembre, Es el día en que recordamos a nuestros muertos. Lo que means what, in the sense of the thing that: Lo que más me gusta es la comida."
+      },
+      "phrases": [
+        { "t": "Es una fiesta que se celebra en noviembre.", "n": "It's a festival that's celebrated in November." },
+        { "t": "Es el día en que recordamos a nuestros muertos.", "n": "It's the day when we remember our dead." },
+        { "t": "La gente pone ofrendas con fotos y flores.", "n": "People set up altars with photos and flowers.", "note": "ofrenda: the home altar for Día de Muertos." },
+        { "t": "Las flores que se usan se llaman cempasúchil.", "n": "The flowers that are used are called cempasúchil (marigolds)." },
+        { "t": "Es la fiesta que más me gusta.", "n": "It's the festival I like most." },
+        { "t": "¿Cómo se celebra en tu país?", "n": "How is it celebrated in your country?" },
+        { "t": "Lo que más me gusta es la comida.", "n": "What I like most is the food." },
+        { "t": "¡Me encantaría verlo en persona!", "n": "I'd love to see it in person!" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "The ofrenda",
+        "lines": [
+          { "who": "A", "name": "Fernanda", "t": "¿Ya viste la ofrenda que pusimos en la sala?", "n": "Have you seen the altar we set up in the living room?" },
+          { "who": "you", "t": "¡Sí, es preciosa! ¿Quiénes son las personas de las fotos?", "n": "Yes, it's beautiful! Who are the people in the photos?" },
+          { "who": "A", "name": "Fernanda", "t": "Son mis abuelos, que murieron hace unos años. En Día de Muertos los recordamos con la comida que les gustaba.", "n": "They're my grandparents, who died a few years ago. On Day of the Dead we remember them with the food they liked." },
+          { "who": "you", "t": "¡Qué bonito! ¿Y cómo se llaman esas flores naranjas?", "n": "How lovely! And what are those orange flowers called?" },
+          { "who": "A", "name": "Fernanda", "t": "Es cempasúchil. Dicen que su color y su olor guían a las almas hasta la casa.", "n": "It's cempasúchil. People say their colour and smell guide the souls home." },
+          { "who": "you", "t": "Me encanta esta tradición. Lo que más me gusta es que es una fiesta alegre, no triste.", "n": "I love this tradition. What I like most is that it's a happy festival, not a sad one." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say it's a festival that is celebrated in November.", "t": ["Es una fiesta que se celebra en noviembre"] },
+        { "n": "Ask a friend how it is celebrated in their country.", "t": ["Cómo se celebra en tu país", "Cómo lo celebran en tu país", "Cómo se celebra en su país"] },
+        { "n": "Say that what you like most is the food.", "t": ["Lo que más me gusta es la comida"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l3",
+      "title": "What do you recommend?",
+      "goal": "Ask for and give recommendations about places to visit.",
+      "tip": {
+        "title": "Te recomiendo… / vale la pena",
+        "body": "To recommend, say te recomiendo + a noun (Te recomiendo San Telmo) or te recomiendo que + present subjunctive (Te recomiendo que vayas el domingo). Vale la pena (it's worth it) is used everywhere; merece la pena is common in Spain. No te pierdas… means don't miss…. Describe places with donde and que: un mercado donde venden antigüedades, un barrio que tiene mucho encanto. Argentines use vos: ¿Ya sabés qué querés ver? ¿Qué me recomendás?"
+      },
+      "phrases": [
+        { "t": "¿Qué me recomiendas?", "n": "What do you recommend?", "note": "Argentina: ¿Qué me recomendás?" },
+        { "t": "Te recomiendo un barrio que se llama San Telmo.", "n": "I recommend a neighbourhood called San Telmo." },
+        { "t": "Hay una feria donde venden antigüedades.", "n": "There's a street market where they sell antiques." },
+        { "t": "El restaurante al que fuimos era buenísimo.", "n": "The restaurant we went to was excellent." },
+        { "t": "De todos los barrios, el que más me gustó fue La Boca.", "n": "Of all the neighbourhoods, the one I liked most was La Boca." },
+        { "t": "No te pierdas las casas de colores.", "n": "Don't miss the colourful houses." },
+        { "t": "Vale la pena ir.", "n": "It's worth going.", "note": "Spain also: merece la pena." },
+        { "t": "La persona con quien viajé conocía muy bien la ciudad.", "n": "The person I travelled with knew the city very well." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Tips for Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Camila", "t": "¡Así que te vas a Buenos Aires! ¿Ya sabés qué querés ver?", "n": "So you're going to Buenos Aires! Do you know what you want to see yet?" },
+          { "who": "you", "t": "Todavía no. ¿Qué me recomiendas?", "n": "Not yet. What do you recommend?" },
+          { "who": "A", "name": "Camila", "t": "Te recomiendo San Telmo, un barrio que tiene muchísimo encanto. Los domingos hay una feria donde venden antigüedades.", "n": "I recommend San Telmo, a neighbourhood with loads of charm. On Sundays there's a market where they sell antiques." },
+          { "who": "you", "t": "¡Qué bien! ¿Y hay algún lugar donde pueda ver tango?", "n": "Great! And is there anywhere I can see tango?" },
+          { "who": "A", "name": "Camila", "t": "En la misma feria a veces hay parejas que bailan en la calle. Y no te pierdas La Boca, el barrio donde están las casas de colores.", "n": "At the same market there are sometimes couples dancing in the street. And don't miss La Boca, the neighbourhood with the colourful houses." },
+          { "who": "you", "t": "Perfecto. Lo que más quiero probar es un buen asado. ¿Dónde vale la pena ir?", "n": "Perfect. What I most want to try is a good asado. Where is it worth going?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they recommend.", "t": ["Qué me recomiendas", "Qué me recomendás", "Qué me recomienda"] },
+        { "n": "Recommend a neighbourhood called San Telmo.", "t": ["Te recomiendo un barrio que se llama San Telmo", "Te recomiendo el barrio de San Telmo", "Te recomiendo San Telmo"] },
+        { "n": "Say it's worth going.", "t": ["Vale la pena ir", "Merece la pena ir", "Vale la pena"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l4",
+      "kind": "grammar",
+      "title": "Relative clauses",
+      "goal": "Join ideas with que, donde, lo que, el que / la que and quien.",
+      "tip": {
+        "title": "que, donde, lo que, el que, quien",
+        "body": "Que is the all-purpose word for people and things, and unlike English it can never be left out: the film we saw → la película que vimos. Donde is for places: la ciudad donde nací. After a preposition, use el que, la que, los que or las que, matching the noun: el amigo con el que viajé, la ciudad en la que nací, el hotel del que te hablé. Quien (plural quienes) is only for people, mostly after a preposition: la chica con quien hablé. Lo que means what, the thing that: No entiendo lo que dices."
+      },
+      "phrases": [
+        { "t": "La película que vimos anoche era muy buena.", "n": "The film we saw last night was very good." },
+        { "t": "Esta es la ciudad donde nací.", "n": "This is the city where I was born." },
+        { "t": "No entiendo lo que dices.", "n": "I don't understand what you're saying." },
+        { "t": "El amigo con el que viajé habla cinco idiomas.", "n": "The friend I travelled with speaks five languages." },
+        { "t": "La profesora con quien hablé era muy amable.", "n": "The teacher I spoke to was very kind." }
+      ],
+      "drills": [
+        {
+          "title": "Which hotel?",
+          "base": { "t": "Este es el hotel.", "n": "This is the hotel." },
+          "items": [
+            { "cue": "que · me recomendaste", "t": "Este es el hotel que me recomendaste.", "n": "This is the hotel you recommended to me." },
+            { "cue": "donde · nos alojamos", "t": "Este es el hotel donde nos alojamos.", "n": "This is the hotel where we stayed." },
+            { "cue": "en el que · trabajé", "t": "Este es el hotel en el que trabajé.", "n": "This is the hotel I worked in." },
+            { "cue": "del que · te hablé", "t": "Este es el hotel del que te hablé.", "n": "This is the hotel I told you about." }
+          ]
+        },
+        {
+          "title": "Who is it?",
+          "base": { "t": "Es el chico que conocí en el viaje.", "n": "He's the guy I met on the trip." },
+          "items": [
+            { "cue": "con quien · viajé", "t": "Es el chico con quien viajé.", "n": "He's the guy I travelled with." },
+            { "cue": "con el que · bailé", "t": "Es el chico con el que bailé.", "n": "He's the guy I danced with." },
+            { "cue": "la chica", "t": "Es la chica que conocí en el viaje.", "n": "She's the girl I met on the trip." },
+            { "cue": "mis amigos", "t": "Son los amigos que conocí en el viaje.", "n": "They're the friends I met on the trip." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say this is the city where you were born.", "t": ["Esta es la ciudad donde nací", "Esta es la ciudad en la que nací", "Esta es la ciudad en que nací"] },
+        { "n": "Tell a friend you don't understand what they're saying.", "t": ["No entiendo lo que dices", "No entiendo lo que estás diciendo", "No entiendo lo que decís"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l5",
+      "kind": "listening",
+      "title": "Las Fallas",
+      "goal": "Follow a visitor discovering Valencia's famous March festival.",
+      "phrases": [
+        { "t": "¡Es la mascletà!", "n": "It's the mascletà!", "note": "A deafening daytime display of firecrackers. Mascletà and cremà are Valencian words." },
+        { "t": "Son monumentos que se queman al final de la fiesta.", "n": "They're monuments that are burned at the end of the festival." },
+        { "t": "¡Qué pena, con lo bonitas que son!", "n": "What a shame, when they're so beautiful!", "note": "con lo + adjective + que: considering how … they are." },
+        { "t": "Los que hacen en esta calle son los mejores.", "n": "The ones they make on this street are the best." }
+      ],
+      "story": {
+        "title": "Marzo en Valencia",
+        "intro": "Andrés, a visitor from Colombia, discovers Las Fallas in Valencia with his friend Amparo.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Amparo, ¿qué es ese ruido? ¡Parece una guerra!", "n": "Amparo, what's that noise? It sounds like a war!" },
+          { "name": "Amparo", "t": "¡Es la mascletà! Son petardos que se tiran a las dos de la tarde en la Plaza del Ayuntamiento.", "n": "It's the mascletà! It's firecrackers that are set off at two in the afternoon in the Town Hall Square." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "¿Y esas figuras gigantes que hay en todas las calles?", "n": "And those giant figures on every street?" },
+          { "name": "Amparo", "t": "Son las fallas, unos monumentos que los artistas preparan durante todo el año. Muchas se ríen de los políticos y de los famosos.", "n": "Those are the fallas, monuments that the artists work on all year. Many of them make fun of politicians and celebrities." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "Son impresionantes. ¿Y qué pasa con ellas después?", "n": "They're impressive. And what happens to them afterwards?" },
+          { "name": "Amparo", "t": "La noche del 19 de marzo, el día de San José, se queman casi todas. Es lo que llamamos la cremà.", "n": "On the night of 19 March, Saint Joseph's Day, almost all of them are burned. That's what we call the cremà." },
+          { "name": "Andrés", "voice": "es-CO-GonzaloNeural", "t": "¿Se queman? ¡Qué pena, con lo bonitas que son!", "n": "They're burned? What a shame, when they're so beautiful!" },
+          { "name": "Amparo", "t": "Es una manera de empezar de nuevo. Bueno, ¿vamos a tomar buñuelos con chocolate? Los que hacen en esta calle son los mejores.", "n": "It's a way of starting afresh. Anyway, shall we go and have buñuelos with hot chocolate? The ones they make on this street are the best." }
+        ],
+        "questions": [
+          { "q": "¿Dónde se tira la mascletà?", "n": "Where is the mascletà set off?", "t": ["En la Plaza del Ayuntamiento", "En la plaza", "En la plaza del ayuntamiento"] },
+          { "q": "¿Qué día se queman las fallas?", "n": "On what day are the fallas burned?", "t": ["El 19 de marzo", "El diecinueve de marzo", "El día de San José", "La noche del 19 de marzo"] },
+          { "q": "¿Qué van a tomar Andrés y Amparo?", "n": "What are Andrés and Amparo going to have?", "t": ["Buñuelos con chocolate", "Buñuelos", "Chocolate con buñuelos"] }
+        ]
+      }
+    },
+    {
+      "id": "b1-u08-l6",
+      "kind": "roleplay",
+      "title": "No room in Seville",
+      "goal": "Stay calm and solve a booking problem during Holy Week.",
+      "phrases": [
+        { "t": "Tengo una reserva a nombre de Alex.", "n": "I have a booking in the name of Alex." },
+        { "t": "Aquí tiene el correo de confirmación.", "n": "Here's the confirmation email." },
+        { "t": "¿Hay algún hotel cerca donde haya habitaciones?", "n": "Is there a hotel nearby that has rooms?" },
+        { "t": "¡Qué alivio!", "n": "What a relief!" }
+      ],
+      "branch": {
+        "title": "Semana Santa in Seville",
+        "scene": "It's Holy Week in Seville and the streets are packed. You arrive late at your hotel, tired after a long journey, and go to reception.",
+        "name": "Manuel",
+        "voice": "es-ES-DarioNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenas noches. ¿En qué puedo ayudarle?", "n": "Good evening. How can I help you?",
+            "choices": [
+              { "t": "Buenas noches. Tengo una reserva a nombre de Alex.", "n": "Good evening. I have a booking in the name of Alex.", "next": "noBooking" },
+              { "t": "¡Por fin! Llevo horas buscando el hotel. Deme la llave, por favor.", "n": "At last! I've been looking for the hotel for hours. Give me the key, please.", "next": "noBooking" }
+            ]
+          },
+          "noBooking": {
+            "t": "Lo siento, no encuentro ninguna reserva con ese nombre. Y con la Semana Santa, el hotel está completo.", "n": "I'm sorry, I can't find any booking under that name. And with Holy Week, the hotel is full.",
+            "choices": [
+              { "t": "Aquí tiene el correo de confirmación que me mandaron.", "n": "Here's the confirmation email you sent me.", "next": "email" },
+              { "t": "¡Eso es imposible! Quiero hablar con el director.", "n": "That's impossible! I want to speak to the manager.", "next": "manager" }
+            ]
+          },
+          "manager": {
+            "t": "El director no está a estas horas. Sin una confirmación, yo no puedo hacer nada.", "n": "The manager isn't here at this hour. Without a confirmation, I can't do anything.",
+            "choices": [
+              { "t": "Perdone, ha sido un día muy largo. Tengo el correo en el móvil.", "n": "Sorry, it's been a very long day. I have the email on my phone.", "next": "email" },
+              { "t": "Pues me voy a otro hotel.", "n": "Then I'm going to another hotel.", "next": "bad" }
+            ]
+          },
+          "email": {
+            "t": "A ver… ¡Ah, ya lo veo! La reserva que hizo es para el mes que viene, no para esta semana.", "n": "Let's see… Oh, I see it now! The booking you made is for next month, not this week.",
+            "choices": [
+              { "t": "¡Qué desastre! ¿No le queda ninguna habitación, aunque sea pequeña?", "n": "What a disaster! Don't you have any room left, even a small one?", "next": "room" },
+              { "t": "¿Hay algún hotel cerca donde haya habitaciones?", "n": "Is there a hotel nearby that has rooms?", "next": "room" }
+            ]
+          },
+          "room": {
+            "t": "Esta semana está todo lleno… Pero espere: tengo una habitación pequeña que da al patio. Es la única que queda.", "n": "This week everything is full… But wait: I have a small room that looks onto the courtyard. It's the only one left.",
+            "choices": [
+              { "t": "¡Qué alivio! Me la quedo. Muchísimas gracias.", "n": "What a relief! I'll take it. Thank you so much.", "next": "good" },
+              { "t": "¿Pequeña? No, gracias. Quiero una con vistas.", "n": "Small? No thanks. I want one with a view.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "De nada. Y disfrute de la Semana Santa: mañana pasa una procesión por esta misma calle.", "n": "You're welcome. And enjoy Holy Week: tomorrow a procession goes down this very street.",
+            "end": "good", "outcome": "You stayed polite, sorted out the booking mix-up and got the last room in the hotel."
+          },
+          "bad": {
+            "t": "Como quiera. Pero le aviso que esta semana toda la ciudad está completa.", "n": "As you wish. But I warn you, the whole city is fully booked this week.",
+            "end": "bad", "outcome": "You're out on the street during the busiest week of the year. Staying calm and asking for options works better: ¿No le queda ninguna habitación?"
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the receptionist you have a booking in the name of Alex.", "t": ["Tengo una reserva a nombre de Alex", "Tengo una reservación a nombre de Alex"] },
+        { "n": "Ask if there's a hotel nearby that has rooms.", "t": ["Hay algún hotel cerca donde haya habitaciones", "Hay algún hotel cerca que tenga habitaciones", "Hay algún hotel cerca con habitaciones libres"] }
+      ]
+    },
+    {
+      "id": "b1-u08-l7",
+      "kind": "speaking",
+      "title": "My favourite festival",
+      "goal": "Describe a festival or tradition in a connected answer of about 75 seconds.",
+      "culture": {
+        "title": "A year of fiestas",
+        "body": "In Mexico, Día de Muertos is celebrated on 1 and 2 November: families build ofrendas at home with photos of loved ones who have died, candles, pan de muerto and their favourite food and drink, decorated with orange cempasúchil marigolds, and many visit and decorate the graves too. It is a colourful, affectionate celebration of memory rather than a sad one. In Spain, Semana Santa (Holy Week) fills the streets with religious processions, especially famous in Andalusian cities such as Seville. In March, Valencia celebrates Las Fallas, when huge satirical monuments are burned on the night of 19 March.",
+        "regions": ["MX", "ES"]
+      },
+      "phrases": [
+        { "t": "Es una fiesta en la que toda la familia se reúne.", "n": "It's a festival when the whole family gets together." },
+        { "t": "Lo que más me gusta es el ambiente.", "n": "What I like most is the atmosphere." },
+        { "t": "Se celebra cada año en primavera.", "n": "It's celebrated every year in spring." },
+        { "t": "La última vez que fui, bailamos hasta las tantas.", "n": "The last time I went, we danced until all hours.", "note": "hasta las tantas: very colloquial, mainly Spain." }
+      ],
+      "free": [
+        {
+          "n": "Describe a festival or tradition you love: when and where it's celebrated, what people do, what you like most about it, what happened the last time you went, and why you'd recommend it.",
+          "hint": "Use Es una fiesta que / en la que…, Se celebra en…, La gente…, Lo que más me gusta es…, La última vez que fui…, Te la recomiendo porque… / Vale la pena…",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            { "label": "when / where", "any": ["se celebra", "celebra", "cada año", "todos los años", "en marzo", "en noviembre", "en diciembre", "en primavera", "en verano"] },
+            { "label": "a relative clause", "any": ["en la que", "en el que", "lo que", "donde", "la que", "el que", "que"] },
+            { "label": "festival words", "any": ["fiesta", "tradición", "desfile", "procesión", "fuegos artificiales", "música", "baile", "disfraces", "flores", "ofrenda"] },
+            { "label": "the last time (past)", "any": ["la última vez", "el año pasado", "fui", "fuimos", "vi", "bailamos", "comimos"] },
+            { "label": "a recommendation", "any": ["te recomiendo", "te la recomiendo", "recomiendo", "vale la pena", "merece la pena", "no te pierdas"] }
+          ],
+          "model": "Mi fiesta favorita es el Día de Muertos, que se celebra en México el 1 y el 2 de noviembre. Es una fiesta en la que las familias recuerdan a las personas que han muerto. La gente pone ofrendas con fotos, velas, comida y flores de cempasúchil. Lo que más me gusta es que no es una fiesta triste. La última vez que fui, comimos pan de muerto con una familia que me invitó a su casa. ¡Te la recomiendo!"
+        }
+      ],
+      "prompts": [
+        { "n": "Say that what you like most is the atmosphere.", "t": ["Lo que más me gusta es el ambiente"] },
+        { "n": "Say it's a festival when the whole family gets together.", "t": ["Es una fiesta en la que toda la familia se reúne", "Es una fiesta donde toda la familia se reúne", "Es una fiesta en la que se reúne toda la familia"] }
+      ]
+    },
+    {
+      "id": "b1-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Fiestas y viajes",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b1-test",
+      "kind": "test",
+      "title": "B1 speaking test",
+      "goal": "Pass to earn your B1 badge and unlock B2.",
+      "tip": {
+        "title": "Show what you can do",
+        "body": "The test mixes phrases from all the B1 units: giving your opinion, telling stories, talking about emotions, work and careers, the media, the environment, hypotheticals and festivals. Answer in connected sentences: link your ideas with porque, aunque, sin embargo, por eso and lo que, and use si tuviera… plus the conditional when you imagine. Take a breath before you speak and keep going after small mistakes: being understood is what counts."
+      }
+    }
+  ]
+}

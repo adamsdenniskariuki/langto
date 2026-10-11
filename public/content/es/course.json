@@ -37,9 +37,17 @@
     {
       "id": "B1",
       "title": "Intermediate",
-      "description": "Give opinions, tell stories, talk about feelings, work and the world with confidence.",
-      "comingSoon": true,
-      "units": []
+      "description": "Give opinions, tell stories, talk about feelings, careers, the news and the environment, imagine what if, and explore festivals.",
+      "units": [
+        "b1/u01-opiniones.json",
+        "b1/u02-historias.json",
+        "b1/u03-emociones.json",
+        "b1/u04-carrera.json",
+        "b1/u05-medios.json",
+        "b1/u06-medio-ambiente.json",
+        "b1/u07-si-yo-fuera.json",
+        "b1/u08-fiestas.json"
+      ]
     },
     {
       "id": "B2",
@@ -74,7 +82,9 @@
         "pron/u02-r-rr.json",
         "pron/u03-n-ll-y.json",
         "pron/u04-j-g.json",
-        "pron/u05-b-v-d.json"
+        "pron/u05-b-v-d.json",
+        "pron/u06-acentos.json",
+        "pron/u07-entonacion.json"
       ]
     }
   ]
