@@ -1,0 +1,72 @@
+{
+  "id": "pron-u03",
+  "level": "A1",
+  "title": "Ñ, ll e y",
+  "subtitle": "ñ, ll and y",
+  "icon": "🐒",
+  "lessons": [
+    {
+      "id": "pron-u03-l1",
+      "kind": "pron",
+      "title": "The ñ",
+      "goal": "Say ñ as one sound and keep it apart from n.",
+      "tip": {
+        "title": "Tongue flat on the roof",
+        "body": "ñ sounds like the \"ny\" in \"canyon\" or \"onion\", but it is one single sound. Press the middle of your tongue flat against the hard palate (the roof of your mouth), not just the tip behind the teeth as for n, and let the sound flow straight into the next vowel. Don't say \"n\" + \"ee\": España is \"es-PA-nya\", not \"es-pa-nee-a\"."
+      },
+      "phrases": [
+        { "t": "Mañana voy a España.", "n": "Tomorrow I'm going to Spain." },
+        { "t": "El niño tiene seis años.", "n": "The boy is six years old." },
+        { "t": "La señora es muy simpática.", "n": "The lady is very nice." },
+        { "t": "Me baño por la mañana.", "n": "I have a bath in the morning." }
+      ],
+      "pairs": [
+        { "sound": "n / ñ", "a": { "t": "cana", "n": "grey hair" }, "b": { "t": "caña", "n": "cane; small beer" } },
+        { "sound": "n / ñ", "a": { "t": "pena", "n": "sorrow" }, "b": { "t": "peña", "n": "crag; group of friends" } },
+        { "sound": "n / ñ", "a": { "t": "mono", "n": "monkey" }, "b": { "t": "moño", "n": "hair bun" } },
+        { "sound": "n / ñ", "a": { "t": "sonar", "n": "to sound" }, "b": { "t": "soñar", "n": "to dream" } },
+        { "sound": "n / ñ", "a": { "t": "una", "n": "a, one" }, "b": { "t": "uña", "n": "nail (finger)" } },
+        { "sound": "n / ñ", "a": { "t": "cuna", "n": "cradle" }, "b": { "t": "cuña", "n": "wedge" } }
+      ],
+      "stress": [
+        { "t": "Mañana voy a España.", "n": "Tomorrow I'm going to Spain.", "mark": "Ma*ña*na *voy* a Es*pa*ña." },
+        { "t": "El niño tiene seis años.", "n": "The boy is six years old.", "mark": "El *ni*ño *tie*ne *seis* *a*ños." },
+        { "t": "La señora es muy simpática.", "n": "The lady is very nice.", "mark": "La se*ño*ra es *muy* sim*pá*tica." }
+      ],
+      "prompts": [
+        { "n": "Say \"tomorrow\".", "t": ["mañana"] }
+      ]
+    },
+    {
+      "id": "pron-u03-l2",
+      "kind": "pron",
+      "title": "ll and y",
+      "goal": "Say ll and y like a strong English y, and keep l apart from ll.",
+      "tip": {
+        "title": "ll = y almost everywhere",
+        "body": "In most of Spain and Latin America, ll and y sound exactly the same (this is called yeísmo): pollo (chicken) and poyo (stone bench) are pronounced alike. Say both like the \"y\" in \"yes\", with the middle of the tongue close to the roof of the mouth; at the start of a word or after n it can sound stronger, closer to the \"j\" in \"jam\". In Argentina and Uruguay you'll hear a \"sh\" or \"zh\" sound instead (sheísmo): pollo ≈ \"PO-sho\". What does matter is l versus ll: polo and pollo are different words."
+      },
+      "phrases": [
+        { "t": "Me llamo Laura.", "n": "My name is Laura." },
+        { "t": "Yo quiero pollo.", "n": "I'd like chicken." },
+        { "t": "¿Dónde está la playa?", "n": "Where is the beach?" },
+        { "t": "Ella se llama Yolanda.", "n": "Her name is Yolanda." }
+      ],
+      "pairs": [
+        { "sound": "l / ll", "a": { "t": "polo", "n": "pole" }, "b": { "t": "pollo", "n": "chicken" } },
+        { "sound": "l / ll", "a": { "t": "pila", "n": "battery" }, "b": { "t": "pilla", "n": "(he/she) catches" } },
+        { "sound": "l / ll", "a": { "t": "vale", "n": "OK" }, "b": { "t": "valle", "n": "valley" } },
+        { "sound": "l / ll", "a": { "t": "hola", "n": "hello" }, "b": { "t": "olla", "n": "cooking pot" } },
+        { "sound": "l / ll", "a": { "t": "mala", "n": "bad" }, "b": { "t": "malla", "n": "mesh" } }
+      ],
+      "stress": [
+        { "t": "Me llamo Laura.", "n": "My name is Laura.", "mark": "Me *lla*mo *Lau*ra." },
+        { "t": "Yo quiero pollo.", "n": "I'd like chicken.", "mark": "*Yo* *quie*ro *po*llo." },
+        { "t": "¿Dónde está la playa?", "n": "Where is the beach?", "mark": "¿*Dón*de es*tá* la *pla*ya?" }
+      ],
+      "prompts": [
+        { "n": "Ask where the beach is.", "t": ["Dónde está la playa"] }
+      ]
+    }
+  ]
+}

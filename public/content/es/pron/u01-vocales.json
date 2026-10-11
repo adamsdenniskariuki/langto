@@ -1,0 +1,73 @@
+{
+  "id": "pron-u01",
+  "level": "A1",
+  "title": "Las vocales",
+  "subtitle": "Five pure vowels & diphthongs",
+  "icon": "👄",
+  "lessons": [
+    {
+      "id": "pron-u01-l1",
+      "kind": "pron",
+      "title": "Five pure vowels",
+      "goal": "Say a, e, i, o, u short, tense and without a glide.",
+      "tip": {
+        "title": "Freeze your mouth",
+        "body": "Spanish has only five vowels: a as in \"father\", e as in \"met\", i like \"ee\" in \"see\", o like the \"o\" in \"or\" (without the r), u like \"oo\" in \"food\". Keep them short and keep your lips and jaw still while you say each one: no \"ay\" glide on e (\"mesa\" is not \"may-sa\") and no \"ow\" glide on o (\"no\" is not \"noh-oo\"). Unstressed vowels never weaken to \"uh\": casa is \"KA-sa\", not \"KA-suh\"."
+      },
+      "phrases": [
+        { "t": "Mi casa es tu casa.", "n": "My house is your house." },
+        { "t": "Ana come una pera.", "n": "Ana is eating a pear." },
+        { "t": "Uno, dos, tres, cuatro, cinco.", "n": "One, two, three, four, five." },
+        { "t": "La mesa es de madera.", "n": "The table is made of wood." }
+      ],
+      "pairs": [
+        { "sound": "e / i", "a": { "t": "peso", "n": "weight" }, "b": { "t": "piso", "n": "floor; flat" } },
+        { "sound": "e / i", "a": { "t": "mesa", "n": "table" }, "b": { "t": "misa", "n": "mass (church)" } },
+        { "sound": "a / o", "a": { "t": "casa", "n": "house" }, "b": { "t": "cosa", "n": "thing" } },
+        { "sound": "a / e", "a": { "t": "paso", "n": "step" }, "b": { "t": "peso", "n": "weight" } },
+        { "sound": "o / u", "a": { "t": "modo", "n": "way, manner" }, "b": { "t": "mudo", "n": "mute" } },
+        { "sound": "o / u", "a": { "t": "lona", "n": "canvas" }, "b": { "t": "luna", "n": "moon" } }
+      ],
+      "stress": [
+        { "t": "Mi casa es tu casa.", "n": "My house is your house.", "mark": "Mi *ca*sa es tu *ca*sa.", "note": "The unstressed \"a\" in casa stays a full \"a\"." },
+        { "t": "Ana come una pera.", "n": "Ana is eating a pear.", "mark": "*A*na *co*me *u*na *pe*ra." },
+        { "t": "La mesa es de madera.", "n": "The table is made of wood.", "mark": "La *me*sa es de ma*de*ra." }
+      ],
+      "prompts": [
+        { "n": "Say \"five\".", "t": ["cinco"] }
+      ]
+    },
+    {
+      "id": "pron-u01-l2",
+      "kind": "pron",
+      "title": "Diphthongs",
+      "goal": "Glide two vowels into one syllable: ai, ei, oi, au, ue, ie.",
+      "tip": {
+        "title": "Two vowels, one beat",
+        "body": "When a, e or o meets i or u, both vowels are said in one syllable. ai/ay ≈ \"eye\" (baile, hay), ei/ey ≈ \"ay\" in \"day\" (seis, rey), oi/oy ≈ \"oy\" in \"boy\" (hoy), au ≈ \"ow\" in \"cow\" (causa). Before another vowel, i and u become glides: ie ≈ \"yeh\" (cielo), ue ≈ \"weh\" (bueno). Only here do Spanish vowels glide: pena has a pure e, peina has \"ei\"."
+      },
+      "phrases": [
+        { "t": "Hoy hace buen tiempo.", "n": "The weather is nice today." },
+        { "t": "Tengo veinte euros.", "n": "I have twenty euros." },
+        { "t": "¿Puedo pasar?", "n": "May I come in?" },
+        { "t": "Mi abuela baila muy bien.", "n": "My grandmother dances very well." }
+      ],
+      "pairs": [
+        { "sound": "e / ei", "a": { "t": "pena", "n": "sorrow" }, "b": { "t": "peina", "n": "(he/she) combs" } },
+        { "sound": "a / au", "a": { "t": "casa", "n": "house" }, "b": { "t": "causa", "n": "cause" } },
+        { "sound": "a / ai", "a": { "t": "trago", "n": "sip, drink" }, "b": { "t": "traigo", "n": "I bring" } },
+        { "sound": "e / ie", "a": { "t": "celo", "n": "zeal" }, "b": { "t": "cielo", "n": "sky" } },
+        { "sound": "o / ue", "a": { "t": "bono", "n": "voucher" }, "b": { "t": "bueno", "n": "good" } },
+        { "sound": "o / ue", "a": { "t": "podo", "n": "I prune" }, "b": { "t": "puedo", "n": "I can" } }
+      ],
+      "stress": [
+        { "t": "Hoy hace buen tiempo.", "n": "The weather is nice today.", "mark": "*Hoy* *ha*ce *buen* *tiem*po.", "note": "\"tiem\" is one syllable: the i glides into the e." },
+        { "t": "Tengo veinte euros.", "n": "I have twenty euros.", "mark": "*Ten*go *vein*te *eu*ros." },
+        { "t": "¿Puedo pasar?", "n": "May I come in?", "mark": "¿*Pue*do pa*sar*?" }
+      ],
+      "prompts": [
+        { "n": "Say \"six\".", "t": ["seis"] }
+      ]
+    }
+  ]
+}

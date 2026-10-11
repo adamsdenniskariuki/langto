@@ -1,0 +1,304 @@
+{
+  "id": "u09",
+  "title": "Tiempo libre",
+  "subtitle": "Hobbies, sport & invitations",
+  "icon": "⚽",
+  "lessons": [
+    {
+      "id": "u09-l1",
+      "title": "What do you like doing?",
+      "goal": "Talk about your hobbies.",
+      "tip": {
+        "title": "me gusta + an activity",
+        "body": "To say you like doing something, use me gusta + the infinitive: me gusta leer, me gusta bailar. For something you love, say me encanta. To say you don't like it, put no in front: no me gusta cocinar. You can also just say what you do: escucho música, veo series."
+      },
+      "phrases": [
+        { "t": "¿Qué haces en tu tiempo libre?", "n": "What do you do in your free time?" },
+        { "t": "Me gusta leer.", "n": "I like reading." },
+        { "t": "Me gusta mucho bailar.", "n": "I really like dancing." },
+        { "t": "No me gusta cocinar.", "n": "I don't like cooking." },
+        { "t": "Me encanta la música.", "n": "I love music.", "note": "encantar works just like gustar." },
+        { "t": "Escucho música.", "n": "I listen to music." },
+        { "t": "Veo series.", "n": "I watch series.", "note": "Also veo la tele (I watch TV)." },
+        { "t": "Salgo con mis amigos.", "n": "I go out with my friends." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Getting to know Valeria",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "¿Qué haces en tu tiempo libre?", "n": "What do you do in your free time?" },
+          { "who": "you", "t": "Me gusta leer y escuchar música. ¿Y tú?", "n": "I like reading and listening to music. And you?" },
+          { "who": "A", "name": "Valeria", "t": "A mí me encanta bailar. ¿Te gusta bailar?", "n": "I love dancing. Do you like dancing?" },
+          { "who": "you", "t": "Sí, pero bailo muy mal.", "n": "Yes, but I dance really badly." },
+          { "who": "A", "name": "Valeria", "t": "¡No importa! Vamos a una clase de salsa.", "n": "It doesn't matter! Let's go to a salsa class." },
+          { "who": "you", "t": "¡Sí, vamos!", "n": "Yes, let's go!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you like reading.", "t": ["Me gusta leer", "Me gusta mucho leer"] },
+        { "n": "Ask a friend what they do in their free time.", "t": ["Qué haces en tu tiempo libre", "Qué haces en tus ratos libres"] },
+        { "n": "Say you don't like cooking.", "t": ["No me gusta cocinar"] }
+      ]
+    },
+    {
+      "id": "u09-l2",
+      "title": "Let's meet!",
+      "goal": "Suggest plans, accept and decline.",
+      "tip": {
+        "title": "Inviting and saying no nicely",
+        "body": "Invite with ¿Quieres …? (\"Do you want to …?\") or ¿Vamos a …? (\"Shall we …?\"). Say yes with ¡Claro! or ¡Buena idea!. A plain no sounds harsh: say lo siento, no puedo and suggest another day with ¿Qué tal el sábado?. In Spain quedar means \"to arrange to meet\": ¿A qué hora quedamos? In Mexico people more often say ¿A qué hora nos vemos?"
+      },
+      "phrases": [
+        { "t": "¿Quieres ir al cine?", "n": "Do you want to go to the cinema?" },
+        { "t": "¿Vamos a tomar algo?", "n": "Shall we go for a drink?", "note": "tomar algo = grab a drink or a snack." },
+        { "t": "¡Claro!", "n": "Sure! / Of course!" },
+        { "t": "¡Buena idea!", "n": "Good idea!" },
+        { "t": "Lo siento, no puedo.", "n": "Sorry, I can't." },
+        { "t": "¿Qué tal el sábado?", "n": "How about Saturday?" },
+        { "t": "¿A qué hora quedamos?", "n": "What time shall we meet?", "note": "Mainly Spain; in Mexico ¿A qué hora nos vemos?" },
+        { "t": "Nos vemos a las ocho.", "n": "See you at eight." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Lucía's invitation",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¿Quieres ir al cine el viernes?", "n": "Do you want to go to the cinema on Friday?" },
+          { "who": "you", "t": "Lo siento, el viernes no puedo. ¿Qué tal el sábado?", "n": "Sorry, I can't on Friday. How about Saturday?" },
+          { "who": "A", "name": "Lucía", "t": "¡Vale! ¿A qué hora quedamos?", "n": "OK! What time shall we meet?" },
+          { "who": "you", "t": "¿A las siete?", "n": "At seven?" },
+          { "who": "A", "name": "Lucía", "t": "Perfecto. Nos vemos a las siete en la puerta del cine.", "n": "Perfect. See you at seven at the cinema entrance." },
+          { "who": "you", "t": "¡Genial! ¡Hasta el sábado!", "n": "Great! See you on Saturday!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Invite a friend to the cinema.", "t": ["Quieres ir al cine", "Vamos al cine"] },
+        { "n": "Say sorry, you can't.", "t": ["Lo siento no puedo", "Lo siento hoy no puedo"] },
+        { "n": "Suggest Saturday instead.", "t": ["Qué tal el sábado", "Y el sábado"] }
+      ]
+    },
+    {
+      "id": "u09-l3",
+      "title": "Sport & more",
+      "goal": "Say what you do and how often.",
+      "tip": {
+        "title": "How often?",
+        "body": "todos los días (every day), dos veces por semana (twice a week), los lunes (on Mondays), a veces (sometimes), nunca (never). Play a sport is jugar: juego al fútbol in Spain, juego fútbol in much of Latin America. For other sports use hacer or practicar: hago yoga, practico natación."
+      },
+      "phrases": [
+        { "t": "¿Practicas algún deporte?", "n": "Do you do any sport?" },
+        { "t": "Juego al fútbol.", "n": "I play football.", "note": "Latin America often: juego fútbol. In Mexico you'll also see futbol, stressed on the last syllable." },
+        { "t": "Nado dos veces por semana.", "n": "I swim twice a week." },
+        { "t": "Corro todos los días.", "n": "I run every day." },
+        { "t": "Voy al gimnasio los lunes.", "n": "I go to the gym on Mondays." },
+        { "t": "Hago yoga.", "n": "I do yoga." },
+        { "t": "A veces monto en bici.", "n": "Sometimes I ride my bike.", "note": "Latin America: a veces ando en bici." },
+        { "t": "Nunca juego al tenis.", "n": "I never play tennis." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Diego plays football",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¿Practicas algún deporte?", "n": "Do you do any sport?" },
+          { "who": "you", "t": "Sí, nado dos veces por semana. ¿Y tú?", "n": "Yes, I swim twice a week. And you?" },
+          { "who": "A", "name": "Diego", "t": "Juego futbol los domingos con mis amigos.", "n": "I play football on Sundays with my friends." },
+          { "who": "you", "t": "¡Qué bien! ¿Puedo jugar también?", "n": "Great! Can I play too?" },
+          { "who": "A", "name": "Diego", "t": "¡Claro! El domingo a las diez en el parque.", "n": "Of course! Sunday at ten in the park." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you swim twice a week.", "t": ["Nado dos veces por semana", "Nado dos veces a la semana"] },
+        { "n": "Ask a friend if they do any sport.", "t": ["Practicas algún deporte", "Haces deporte", "Haces algún deporte"] },
+        { "n": "Say you play football on Sundays.", "t": ["Juego al fútbol los domingos", "Juego fútbol los domingos", "Los domingos juego al fútbol", "Los domingos juego fútbol"] }
+      ]
+    },
+    {
+      "id": "u09-l4",
+      "kind": "grammar",
+      "title": "gustar: me gusta, me gustan",
+      "goal": "Say what you and others like.",
+      "tip": {
+        "title": "gustar works \"backwards\"",
+        "body": "Me gusta el fútbol literally means \"football pleases me\". The verb agrees with the thing you like: me gusta + one thing or an infinitive (me gusta el cine, me gusta nadar), me gustan + plural things (me gustan los videojuegos). The person goes in front: me (I), te (you), le (he, she, usted). With a name, add a: a Ana le gusta nadar. To agree, say a mí también (me too) after a positive and a mí tampoco (me neither) after a negative."
+      },
+      "phrases": [
+        { "t": "Me gusta el fútbol.", "n": "I like football." },
+        { "t": "Me gustan los videojuegos.", "n": "I like video games." },
+        { "t": "¿Te gusta bailar?", "n": "Do you like dancing?" },
+        { "t": "A mí también.", "n": "Me too.", "note": "Agreeing with \"Me gusta …\"." },
+        { "t": "A mí tampoco.", "n": "Me neither.", "note": "Agreeing with \"No me gusta …\"." }
+      ],
+      "drills": [
+        {
+          "title": "gusta or gustan?",
+          "base": { "t": "Me gusta la música.", "n": "I like music." },
+          "items": [
+            { "cue": "las películas", "t": "Me gustan las películas.", "n": "I like films." },
+            { "cue": "tú?", "t": "¿Te gusta la música?", "n": "Do you like music?" },
+            { "cue": "Ana", "t": "A Ana le gusta la música.", "n": "Ana likes music." },
+            { "cue": "no", "t": "No me gusta la música.", "n": "I don't like music." }
+          ]
+        },
+        {
+          "title": "Who likes it?",
+          "base": { "t": "Me gusta leer.", "n": "I like reading." },
+          "items": [
+            { "cue": "él", "t": "Le gusta leer.", "n": "He likes reading." },
+            { "cue": "usted?", "t": "¿Le gusta leer?", "n": "Do you like reading? (polite)" },
+            { "cue": "mi madre", "t": "A mi madre le gusta leer.", "n": "My mother likes reading." },
+            { "cue": "los libros", "t": "Me gustan los libros.", "n": "I like books." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Your friend says: Me gusta el fútbol. Say you do too.", "t": ["A mí también", "A mí también me gusta"] },
+        { "n": "Your friend says: No me gusta correr. Say you don't either.", "t": ["A mí tampoco", "A mí tampoco me gusta"] }
+      ]
+    },
+    {
+      "id": "u09-l5",
+      "kind": "listening",
+      "title": "Football or theatre?",
+      "goal": "Understand two friends planning their weekend.",
+      "phrases": [
+        { "t": "¿Qué haces este sábado?", "n": "What are you doing this Saturday?" },
+        { "t": "Tengo dos entradas.", "n": "I've got two tickets.", "note": "Tickets for a show or match are entradas (boletos in much of Latin America)." },
+        { "t": "¿Vienes?", "n": "Are you coming?" },
+        { "t": "Me gusta bastante.", "n": "I quite like it." }
+      ],
+      "story": {
+        "title": "Weekend plans in Madrid",
+        "intro": "Marta and Pablo are friends in Madrid, planning their weekend.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Marta", "t": "Pablo, ¿qué haces este sábado?", "n": "Pablo, what are you doing this Saturday?" },
+          { "name": "Pablo", "voice": "es-ES-AlvaroNeural", "t": "Por la tarde hay fútbol: juega el Real Madrid. ¿Quieres verlo conmigo en el bar?", "n": "In the afternoon there's football: Real Madrid are playing. Do you want to watch it with me in the bar?" },
+          { "name": "Marta", "t": "Uf, no. A mí no me gusta mucho el fútbol. ¿Te gusta el teatro?", "n": "Ugh, no. I don't really like football. Do you like the theatre?" },
+          { "name": "Pablo", "voice": "es-ES-AlvaroNeural", "t": "Sí, me gusta bastante. ¿Por qué?", "n": "Yes, I quite like it. Why?" },
+          { "name": "Marta", "t": "Tengo dos entradas para una obra el domingo por la tarde. ¿Vienes?", "n": "I've got two tickets for a play on Sunday afternoon. Are you coming?" },
+          { "name": "Pablo", "voice": "es-ES-AlvaroNeural", "t": "¡Claro! ¿A qué hora quedamos?", "n": "Sure! What time shall we meet?" },
+          { "name": "Marta", "t": "A las seis, en la puerta del teatro.", "n": "At six, at the theatre entrance." },
+          { "name": "Pablo", "voice": "es-ES-AlvaroNeural", "t": "Perfecto. ¡Hasta el domingo!", "n": "Perfect. See you on Sunday!" }
+        ],
+        "questions": [
+          { "q": "¿Qué quiere ver Pablo el sábado?", "n": "What does Pablo want to watch on Saturday?", "t": ["El fútbol", "Fútbol", "El partido", "El Real Madrid"] },
+          { "q": "¿A Marta le gusta el fútbol?", "n": "Does Marta like football?", "t": ["No", "No mucho", "No le gusta", "No le gusta mucho"] },
+          { "q": "¿A qué hora quedan el domingo?", "n": "What time are they meeting on Sunday?", "t": ["A las seis", "Las seis"] }
+        ]
+      }
+    },
+    {
+      "id": "u09-l6",
+      "kind": "roleplay",
+      "title": "Inviting a friend",
+      "goal": "Invite Sofía out and agree on a time.",
+      "phrases": [
+        { "t": "Hay un partido el sábado.", "n": "There's a match on Saturday." },
+        { "t": "¿Te parece?", "n": "Does that suit you? / OK with you?" },
+        { "t": "¡Qué padre!", "n": "Cool! / Great!", "note": "Mexico. In Spain: ¡Qué guay!" },
+        { "t": "¡Órale!", "n": "OK! / Come on! / Wow!", "note": "Very Mexican; the meaning depends on the tone." }
+      ],
+      "branch": {
+        "title": "Plans with Sofía",
+        "scene": "You call your friend Sofía in Monterrey, Mexico, to make plans.",
+        "name": "Sofía",
+        "voice": "es-MX-NuriaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Hola! ¿Qué onda? ¿Qué haces?", "n": "Hi! What's up? What are you doing?",
+            "choices": [
+              { "t": "Nada. ¿Quieres ir al cine hoy?", "n": "Nothing. Do you want to go to the cinema today?", "next": "cine" },
+              { "t": "¿Te gusta el fútbol?", "n": "Do you like football?", "next": "futbol" }
+            ]
+          },
+          "cine": {
+            "t": "Ay, hoy no puedo, tengo que trabajar. ¿Qué tal mañana?", "n": "Oh, I can't today, I have to work. How about tomorrow?",
+            "choices": [
+              { "t": "Sí, mañana está bien.", "n": "Yes, tomorrow is fine.", "next": "time" },
+              { "t": "No, solo hoy.", "n": "No, only today.", "next": "nodate" }
+            ]
+          },
+          "futbol": {
+            "t": "¡Me encanta! ¿Por qué?", "n": "I love it! Why?",
+            "choices": [
+              { "t": "Hay un partido el sábado. ¿Vamos?", "n": "There's a match on Saturday. Shall we go?", "next": "time" },
+              { "t": "A mí no me gusta.", "n": "I don't like it.", "next": "confused" }
+            ]
+          },
+          "confused": {
+            "t": "Mmm… ¿entonces por qué preguntas?", "n": "Hmm… so why are you asking?",
+            "choices": [
+              { "t": "Perdón. ¿Quieres ir al cine?", "n": "Sorry. Do you want to go to the cinema?", "next": "cine" },
+              { "t": "Por nada. ¡Chao!", "n": "No reason. Bye!", "next": "nodate" }
+            ]
+          },
+          "time": {
+            "t": "¡Órale, va! ¿A qué hora nos vemos?", "n": "OK, deal! What time shall we meet?",
+            "choices": [
+              { "t": "A las siete, ¿te parece?", "n": "At seven, does that suit you?", "next": "good" },
+              { "t": "No sé.", "n": "I don't know.", "next": "vague" }
+            ]
+          },
+          "good": {
+            "t": "¡Perfecto! Nos vemos a las siete. ¡Qué padre!", "n": "Perfect! See you at seven. Great!",
+            "end": "good", "outcome": "You made a plan with Sofía and fixed a time."
+          },
+          "vague": {
+            "t": "Bueno… mándame un mensaje, ¿sí?", "n": "Well… send me a message, OK?",
+            "end": "bad", "outcome": "You never agreed on a time. Try suggesting one: A las siete, ¿te parece?"
+          },
+          "nodate": {
+            "t": "Ah, bueno. Otro día, entonces.", "n": "Oh, OK. Another day, then.",
+            "end": "bad", "outcome": "No plan this time. Try accepting her suggestion or inviting her to something she likes."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Suggest seven o'clock and ask if that suits your friend.", "t": ["A las siete te parece", "Te parece a las siete", "A las siete"] },
+        { "n": "Tell a friend there's a match on Saturday.", "t": ["Hay un partido el sábado", "El sábado hay un partido"] }
+      ]
+    },
+    {
+      "id": "u09-l7",
+      "kind": "speaking",
+      "title": "My free time",
+      "goal": "Talk about your hobbies for 45 seconds.",
+      "culture": {
+        "title": "Fútbol and the sobremesa",
+        "body": "Football is the most popular sport in Spain and most of Latin America, and big rivalries like Real Madrid against Barcelona (el Clásico) or Boca Juniors against River Plate in Buenos Aires (el Superclásico) can bring a whole country to a halt. Watching the match in a bar with friends is a classic plan. Another much-loved pastime costs nothing: the sobremesa, the time spent chatting at the table after a meal, which can go on for hours at a weekend lunch. In Spain the waiter usually won't bring the bill until you ask (la cuenta, por favor), because nobody wants to rush you.",
+        "regions": ["ES", "MX", "AR"]
+      },
+      "phrases": [
+        { "t": "¿Vemos el partido?", "n": "Shall we watch the match?" },
+        { "t": "¿De qué equipo eres?", "n": "Which team do you support?" },
+        { "t": "Soy del Barça.", "n": "I support Barça (FC Barcelona)." },
+        { "t": "Estamos de sobremesa.", "n": "We're chatting at the table after the meal." }
+      ],
+      "free": [
+        {
+          "n": "Tell a new friend about your free time: what you like, what you don't like and how often you do things.",
+          "hint": "Use Me gusta / Me encanta …, No me gusta …, Juego al …, Voy al …, todos los días, a veces, los fines de semana.",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "something you like", "any": ["me gusta", "me gustan", "me encanta", "me encantan"] },
+            { "label": "a hobby or sport", "any": ["leer", "nadar", "bailar", "fútbol", "futbol", "cine", "música", "correr", "cocinar", "gimnasio", "yoga", "series", "tenis", "bici"] },
+            { "label": "how often", "any": ["todos los días", "a veces", "nunca", "por semana", "fines de semana", "los sábados", "los domingos", "los lunes"] },
+            { "label": "something you don't like", "any": ["no me gusta", "no me gustan"] }
+          ],
+          "model": "En mi tiempo libre me gusta mucho leer y escuchar música. Me encanta el fútbol: juego con mis amigos los domingos. Voy al gimnasio dos veces por semana. A veces veo series. No me gusta correr."
+        }
+      ],
+      "prompts": [
+        { "n": "Ask someone which team they support.", "t": ["De qué equipo eres"] },
+        { "n": "Say you love football.", "t": ["Me encanta el fútbol", "Me encanta el futbol", "Me gusta mucho el fútbol"] }
+      ]
+    },
+    {
+      "id": "u09-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Tiempo libre",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

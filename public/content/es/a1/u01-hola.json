@@ -1,0 +1,282 @@
+{
+  "id": "u01",
+  "title": "¡Hola!",
+  "subtitle": "Greetings & goodbyes",
+  "icon": "👋",
+  "lessons": [
+    {
+      "id": "u01-l1",
+      "title": "Saying hello",
+      "goal": "Greet anyone at any time of day.",
+      "tip": {
+        "title": "Greetings follow the meal times",
+        "body": "Buenos días until lunch (around 2 pm in Spain, earlier in much of Latin America), buenas tardes until it gets dark, buenas noches in the evening, both as hello and as good night. ¡Hola! works any time. Spanish vowels are short and pure: say o as in \"hot\", never \"oh-oo\"."
+      },
+      "phrases": [
+        { "t": "¡Hola!", "n": "Hello! / Hi!", "note": "The h is silent: \"OH-la\"." },
+        { "t": "¡Buenos días!", "n": "Good morning!" },
+        { "t": "¡Buenas tardes!", "n": "Good afternoon!", "note": "From lunchtime until evening." },
+        { "t": "¡Buenas noches!", "n": "Good evening! / Good night!" },
+        { "t": "¡Adiós!", "n": "Goodbye!" },
+        { "t": "¡Hasta luego!", "n": "See you later!", "note": "Also a casual \"bye\", even if you won't see them again." },
+        { "t": "¡Hasta mañana!", "n": "See you tomorrow!" },
+        { "t": "¡Chao!", "n": "Bye!", "note": "Very common in Latin America; also spelt chau (Argentina, Uruguay)." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Morning in the lift",
+        "lines": [
+          { "who": "A", "name": "Señora López", "t": "¡Buenos días!", "n": "Good morning!" },
+          { "who": "you", "t": "¡Buenos días!", "n": "Good morning!" },
+          { "who": "A", "name": "Señora López", "t": "¡Hasta luego!", "n": "See you later!" },
+          { "who": "you", "t": "¡Adiós, hasta luego!", "n": "Bye, see you later!" }
+        ]
+      },
+      "prompts": [
+        { "n": "It's 9 a.m. Greet your neighbour.", "t": ["Buenos días", "Hola buenos días", "Hola"] },
+        { "n": "It's 5 p.m. Greet the shop assistant.", "t": ["Buenas tardes", "Hola buenas tardes"] },
+        { "n": "Tell a colleague you'll see them tomorrow.", "t": ["Hasta mañana", "Adiós hasta mañana"] }
+      ]
+    },
+    {
+      "id": "u01-l2",
+      "title": "How are you?",
+      "goal": "Ask how someone is and answer.",
+      "tip": {
+        "title": "tú or usted?",
+        "body": "Spanish has an informal \"you\" (tú) and a polite one (usted). Spain uses tú a lot, even with strangers your own age. In much of Latin America usted is more common, and in some countries (Colombia, Costa Rica) people use it even with family. When in doubt, start with usted."
+      },
+      "phrases": [
+        { "t": "¿Qué tal?", "n": "How's it going?", "note": "Friendly and neutral." },
+        { "t": "¿Cómo estás?", "n": "How are you? (informal)" },
+        { "t": "¿Cómo está usted?", "n": "How are you? (polite)" },
+        { "t": "Bien, gracias.", "n": "Fine, thanks." },
+        { "t": "Muy bien.", "n": "Very well." },
+        { "t": "Más o menos.", "n": "So-so." },
+        { "t": "¿Y tú?", "n": "And you? (informal)" },
+        { "t": "¿Y usted?", "n": "And you? (polite)" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Bumping into Pablo",
+        "lines": [
+          { "who": "A", "name": "Pablo", "t": "¡Hola! ¿Qué tal?", "n": "Hi! How's it going?" },
+          { "who": "you", "t": "Bien, gracias. ¿Y tú?", "n": "Fine, thanks. And you?" },
+          { "who": "A", "name": "Pablo", "t": "Muy bien, gracias.", "n": "Very well, thanks." },
+          { "who": "you", "t": "¡Hasta luego, Pablo!", "n": "See you later, Pablo!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend how they are.", "t": ["Qué tal", "Cómo estás", "Hola qué tal"] },
+        { "n": "Ask an older gentleman politely how he is.", "t": ["Cómo está usted", "Cómo está"] },
+        { "n": "Say you're fine, thanks, and ask back (informal).", "t": ["Bien gracias y tú", "Muy bien gracias y tú"] }
+      ]
+    },
+    {
+      "id": "u01-l3",
+      "title": "Please & thank you",
+      "goal": "Be polite in any situation.",
+      "tip": {
+        "title": "Two kinds of sorry",
+        "body": "Perdón or disculpe gets attention or apologises for a small slip (\"excuse me\"). Lo siento is a real \"I'm sorry\" when something is your fault or bad news. Answer gracias with de nada."
+      },
+      "phrases": [
+        { "t": "Gracias.", "n": "Thanks." },
+        { "t": "Muchas gracias.", "n": "Thank you very much." },
+        { "t": "De nada.", "n": "You're welcome." },
+        { "t": "Por favor.", "n": "Please." },
+        { "t": "Perdón.", "n": "Excuse me. / Sorry." },
+        { "t": "Lo siento.", "n": "I'm sorry." },
+        { "t": "Sí, por favor.", "n": "Yes, please." },
+        { "t": "No, gracias.", "n": "No, thank you." }
+      ],
+      "dialogue": {
+        "title": "On the metro",
+        "lines": [
+          { "who": "you", "t": "¡Perdón!", "n": "Sorry!" },
+          { "who": "A", "name": "Señor", "t": "No pasa nada.", "n": "It's nothing. / No problem." },
+          { "who": "A", "name": "Señor", "t": "¿Quiere sentarse?", "n": "Would you like to sit down?" },
+          { "who": "you", "t": "No, gracias. Muy amable.", "n": "No, thank you. Very kind." }
+        ]
+      },
+      "prompts": [
+        { "n": "Someone holds the door for you. Thank them warmly.", "t": ["Muchas gracias", "Gracias"] },
+        { "n": "You bumped into someone.", "t": ["Perdón", "Lo siento", "Disculpe"] },
+        { "n": "Someone thanks you. Reply.", "t": ["De nada", "No pasa nada"] }
+      ]
+    },
+    {
+      "id": "u01-l4",
+      "kind": "grammar",
+      "title": "tú or usted: the verb changes",
+      "goal": "Ask questions with tú and usted correctly.",
+      "tip": {
+        "title": "usted takes the \"he/she\" verb",
+        "body": "Spanish verbs change their ending for each person: (yo) me llamo, (tú) te llamas, (usted) se llama. Usted uses the same form as él/ella, so ¿Cómo se llama? can mean \"What's your name?\" (polite) or \"What's his/her name?\". You can usually drop the pronoun, because the ending already shows who it is."
+      },
+      "phrases": [
+        { "t": "¿Cómo te llamas?", "n": "What's your name? (informal)" },
+        { "t": "¿Cómo se llama usted?", "n": "What's your name? (polite)" },
+        { "t": "Me llamo Tom.", "n": "My name is Tom." },
+        { "t": "¿De dónde eres?", "n": "Where are you from? (informal)" },
+        { "t": "¿De dónde es usted?", "n": "Where are you from? (polite)" }
+      ],
+      "drills": [
+        {
+          "title": "Swap tú → usted",
+          "base": { "t": "¿Cómo estás?", "n": "How are you? (informal)" },
+          "items": [
+            { "cue": "usted", "t": "¿Cómo está usted?", "n": "How are you? (polite)" },
+            { "cue": "llamarse · usted", "t": "¿Cómo se llama usted?", "n": "What's your name? (polite)" },
+            { "cue": "ser de · usted", "t": "¿De dónde es usted?", "n": "Where are you from? (polite)" }
+          ]
+        },
+        {
+          "title": "Swap the name",
+          "base": { "t": "Me llamo Tom.", "n": "My name is Tom." },
+          "items": [
+            { "cue": "Ana", "t": "Me llamo Ana.", "n": "My name is Ana." },
+            { "cue": "tú · Pablo?", "t": "¿Te llamas Pablo?", "n": "Is your name Pablo?" },
+            { "cue": "usted · García?", "t": "¿Se llama usted García?", "n": "Is your name García?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask a child what their name is.", "t": ["Cómo te llamas"] },
+        { "n": "Ask a hotel receptionist where she is from.", "t": ["De dónde es usted", "De dónde es"] }
+      ]
+    },
+    {
+      "id": "u01-l5",
+      "kind": "listening",
+      "title": "Meeting at the bus stop",
+      "goal": "Follow a short real-speed greeting.",
+      "phrases": [
+        { "t": "Encantado.", "n": "Nice to meet you. (said by a man)" },
+        { "t": "Encantada.", "n": "Nice to meet you. (said by a woman)" },
+        { "t": "Igualmente.", "n": "Likewise." },
+        { "t": "¡Que tenga un buen día!", "n": "Have a nice day! (polite)" }
+      ],
+      "story": {
+        "title": "Two neighbours",
+        "intro": "Señora López meets a new neighbour, Señor Ruiz, at the bus stop in Madrid.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Señora López", "t": "¡Buenos días! ¿Es usted nuevo aquí?", "n": "Good morning! Are you new here?" },
+          { "name": "Señor Ruiz", "voice": "es-ES-AlvaroNeural", "t": "Sí, vivo aquí desde el lunes. Me llamo Ruiz, Antonio Ruiz.", "n": "Yes, I've lived here since Monday. My name is Ruiz, Antonio Ruiz." },
+          { "name": "Señora López", "t": "Encantada. Yo soy Carmen López.", "n": "Nice to meet you. I'm Carmen López." },
+          { "name": "Señor Ruiz", "voice": "es-ES-AlvaroNeural", "t": "Encantado. ¿Qué tal está?", "n": "Nice to meet you. How are you?" },
+          { "name": "Señora López", "t": "Muy bien, gracias. ¡Ay, ahí viene mi autobús! Que tenga un buen día.", "n": "Very well, thanks. Oh, here comes my bus! Have a nice day." },
+          { "name": "Señor Ruiz", "voice": "es-ES-AlvaroNeural", "t": "Gracias, igualmente. ¡Adiós!", "n": "Thanks, you too. Goodbye!" }
+        ],
+        "questions": [
+          { "q": "¿Cómo se llama el nuevo vecino?", "n": "What is the new neighbour called?", "t": ["Antonio Ruiz", "Se llama Antonio Ruiz", "Ruiz", "Antonio"] },
+          { "q": "¿Cómo está la señora López?", "n": "How is Señora López?", "t": ["Muy bien", "Bien", "Está muy bien"] },
+          { "q": "¿Qué viene?", "n": "What is coming?", "t": ["El autobús", "Su autobús", "Viene el autobús"] }
+        ]
+      }
+    },
+    {
+      "id": "u01-l6",
+      "kind": "roleplay",
+      "title": "First day at the language school",
+      "goal": "Introduce yourself. Your choices steer the chat.",
+      "phrases": [
+        { "t": "Es mi primer día.", "n": "It's my first day." },
+        { "t": "Soy nuevo aquí.", "n": "I'm new here. (man; a woman says nueva)" },
+        { "t": "¿Cómo?", "n": "Pardon?" },
+        { "t": "Más despacio, por favor.", "n": "Slower, please." }
+      ],
+      "branch": {
+        "title": "At reception",
+        "scene": "You walk up to the reception desk of a language school in Mexico City on your first day.",
+        "name": "Recepcionista",
+        "voice": "es-MX-DaliaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenos días! ¿En qué le puedo ayudar?", "n": "Good morning! How can I help you?",
+            "choices": [
+              { "t": "Buenos días. Es mi primer día.", "n": "Good morning. It's my first day.", "next": "name" },
+              { "t": "¿Cómo?", "n": "Pardon?", "next": "slow" }
+            ]
+          },
+          "slow": {
+            "t": "No hay problema. ¿Es su primer día?", "n": "No problem. Is it your first day?",
+            "choices": [
+              { "t": "Sí, es mi primer día.", "n": "Yes, it's my first day.", "next": "name" },
+              { "t": "Más despacio, por favor.", "n": "Slower, please.", "next": "slow2" }
+            ]
+          },
+          "slow2": {
+            "t": "¿Es … su … primer … día?", "n": "Is it … your … first … day?",
+            "choices": [
+              { "t": "¡Sí! Mi primer día.", "n": "Yes! My first day.", "next": "name" }
+            ]
+          },
+          "name": {
+            "t": "¡Qué bien! ¿Cómo se llama?", "n": "Great! What's your name?",
+            "choices": [
+              { "t": "Me llamo Alex.", "n": "My name is Alex.", "next": "room" },
+              { "t": "¡Chao!", "n": "Bye!", "next": "bye" }
+            ]
+          },
+          "room": {
+            "t": "Mucho gusto, Alex. Su clase es en el salón tres. ¡Que le vaya bien!", "n": "Pleased to meet you, Alex. Your class is in room three. All the best!",
+            "end": "good", "outcome": "You checked in and found your classroom."
+          },
+          "bye": {
+            "t": "Ah … ¿adiós?", "n": "Oh … bye?",
+            "end": "bad", "outcome": "You left before giving your name. Try again and introduce yourself."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "You didn't understand. Ask politely.", "t": ["Cómo", "Perdón", "Más despacio por favor"] },
+        { "n": "Tell a new classmate it's your first day.", "t": ["Es mi primer día", "Soy nuevo aquí", "Soy nueva aquí"] }
+      ]
+    },
+    {
+      "id": "u01-l7",
+      "kind": "speaking",
+      "title": "Say hello your way",
+      "goal": "Greet and introduce yourself freely for 30 seconds.",
+      "culture": {
+        "title": "Kisses, handshakes and mucho gusto",
+        "body": "In Spain friends and new acquaintances often greet with two light cheek kisses (right cheek first), while men who don't know each other usually shake hands. In Mexico and much of Latin America it's one kiss on the cheek, or a handshake in business. Mucho gusto (\"pleased to meet you\") is used everywhere; encantado/encantada is very common in Spain. In Mexico you'll often hear a friendly ¿Qué onda?, and in Argentina ¿Qué tal? or ¿Todo bien?.",
+        "regions": ["ES", "MX", "AR"]
+      },
+      "phrases": [
+        { "t": "Mucho gusto.", "n": "Pleased to meet you." },
+        { "t": "¿Qué onda?", "n": "What's up? (Mexico, informal)" },
+        { "t": "¿Todo bien?", "n": "All good? (informal)" },
+        { "t": "Soy de Inglaterra.", "n": "I'm from England." }
+      ],
+      "free": [
+        {
+          "n": "Greet someone, say your name, where you're from and how you are.",
+          "hint": "Use Hola / Buenos días, Me llamo …, Soy de …, Estoy bien.",
+          "seconds": 30,
+          "minWords": 10,
+          "targets": [
+            { "label": "a greeting", "any": ["hola", "buenos días", "buenas tardes", "buenas noches", "qué tal"] },
+            { "label": "your name", "any": ["me llamo", "soy", "mi nombre es"] },
+            { "label": "where you're from", "any": ["soy de", "de inglaterra", "de estados unidos", "vivo en"] },
+            { "label": "how you are", "any": ["bien", "muy bien", "más o menos", "estoy bien"] }
+          ],
+          "model": "¡Hola! Me llamo Alex. Soy de Inglaterra. Estoy muy bien, gracias. ¡Mucho gusto!"
+        }
+      ],
+      "prompts": [
+        { "n": "You meet someone new. Say \"pleased to meet you\".", "t": ["Mucho gusto", "Encantado", "Encantada"] },
+        { "n": "Say goodbye and wish someone a nice day (polite).", "t": ["Adiós que tenga un buen día", "Que tenga un buen día", "Hasta luego que tenga un buen día"] }
+      ]
+    },
+    {
+      "id": "u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: ¡Hola!",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

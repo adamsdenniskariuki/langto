@@ -1,0 +1,304 @@
+{
+  "id": "u03",
+  "title": "Los números",
+  "subtitle": "Numbers, age & phone numbers",
+  "icon": "🔢",
+  "lessons": [
+    {
+      "id": "u03-l1",
+      "title": "Zero to ten",
+      "goal": "Count from 0 to 10 and catch a number.",
+      "tip": {
+        "title": "Two ways to say cinco",
+        "body": "In most of Spain, c before e/i and z sound like the th in \"think\": cinco is \"THEEN-ko\". In Latin America, the Canary Islands and parts of Andalusia they sound like s: \"SEEN-ko\". Both are correct, so pick one and be consistent. Uno becomes un before a masculine noun (un café) and una before a feminine one (una cerveza)."
+      },
+      "phrases": [
+        { "t": "Cero, uno, dos, tres.", "n": "Zero, one, two, three." },
+        { "t": "Cuatro, cinco, seis.", "n": "Four, five, six." },
+        { "t": "Siete, ocho, nueve, diez.", "n": "Seven, eight, nine, ten." },
+        { "t": "¿Qué número es?", "n": "What number is it?" },
+        { "t": "Es el siete.", "n": "It's number seven.", "note": "Numbers are masculine: el siete, el nueve." },
+        { "t": "Dos más tres son cinco.", "n": "Two plus three is five." },
+        { "t": "¿Cuántos?", "n": "How many?", "note": "With feminine nouns: ¿cuántas?" },
+        { "t": "Tres, por favor.", "n": "Three, please." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "At the bus stop in Valencia",
+        "lines": [
+          { "who": "you", "t": "Perdón, ¿qué autobús va al centro?", "n": "Excuse me, which bus goes to the centre?" },
+          { "who": "A", "name": "Señora", "t": "El siete o el nueve.", "n": "The seven or the nine." },
+          { "who": "you", "t": "¿El siete?", "n": "The seven?" },
+          { "who": "A", "name": "Señora", "t": "Sí, el siete. Mire, ahí viene.", "n": "Yes, the seven. Look, here it comes." },
+          { "who": "you", "t": "¡Muchas gracias!", "n": "Thank you very much!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Count from one to five.", "t": ["Uno dos tres cuatro cinco"] },
+        { "n": "Ask what number it is.", "t": ["Qué número es"] },
+        { "n": "Say \"two plus three is five\".", "t": ["Dos más tres son cinco", "Dos y tres son cinco"] }
+      ]
+    },
+    {
+      "id": "u03-l2",
+      "title": "Eleven to twenty & your age",
+      "goal": "Count to 20 and say how old you are.",
+      "tip": {
+        "title": "You \"have\" your age",
+        "body": "Spanish uses tener (to have) for age: Tengo veinte años, literally \"I have twenty years\". Never say soy veinte. Eleven to fifteen are special words (once, doce, trece, catorce, quince); from sixteen they're built as \"ten and six\" and written as one word: dieciséis, diecisiete, dieciocho, diecinueve."
+      },
+      "phrases": [
+        { "t": "Once, doce, trece.", "n": "Eleven, twelve, thirteen." },
+        { "t": "Catorce, quince, dieciséis.", "n": "Fourteen, fifteen, sixteen." },
+        { "t": "Diecisiete, dieciocho, diecinueve, veinte.", "n": "Seventeen, eighteen, nineteen, twenty." },
+        { "t": "¿Cuántos años tienes?", "n": "How old are you? (informal)" },
+        { "t": "¿Cuántos años tiene usted?", "n": "How old are you? (polite)", "note": "Asking adults their age can be a bit personal, just as in English." },
+        { "t": "Tengo veinte años.", "n": "I'm twenty (years old)." },
+        { "t": "Mi hija tiene doce años.", "n": "My daughter is twelve." },
+        { "t": "¡Feliz cumpleaños!", "n": "Happy birthday!" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "A birthday party in Puebla",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¡Hola! ¡Hoy es mi cumpleaños!", "n": "Hi! Today is my birthday!" },
+          { "who": "you", "t": "¡Feliz cumpleaños! ¿Cuántos años tienes?", "n": "Happy birthday! How old are you?" },
+          { "who": "A", "name": "Lucía", "t": "Tengo diecinueve. ¿Y tú?", "n": "I'm nineteen. And you?" },
+          { "who": "you", "t": "Tengo veinte años.", "n": "I'm twenty." },
+          { "who": "A", "name": "Lucía", "t": "¡Ah, eres un año mayor!", "n": "Oh, you're one year older!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend how old they are.", "t": ["Cuántos años tienes", "Y tú cuántos años tienes"] },
+        { "n": "Say you're eighteen.", "t": ["Tengo dieciocho años", "Tengo dieciocho"] },
+        { "n": "Wish someone a happy birthday.", "t": ["Feliz cumpleaños"] }
+      ]
+    },
+    {
+      "id": "u03-l3",
+      "title": "Up to 100 & phone numbers",
+      "goal": "Say any number to 100 and give your phone number.",
+      "tip": {
+        "title": "veintiuno, but treinta y uno",
+        "body": "21 to 29 are one word: veintiuno, veintidós, veintitrés… From 31 you add y (\"and\"): treinta y uno, cuarenta y cinco, noventa y nueve. Exactly 100 is cien. Phone numbers are usually read in small groups, often pairs: 45 is cuarenta y cinco, not cuatro, cinco."
+      },
+      "phrases": [
+        { "t": "Veintiuno, veintidós, veintitrés.", "n": "Twenty-one, twenty-two, twenty-three." },
+        { "t": "Treinta, cuarenta, cincuenta.", "n": "Thirty, forty, fifty." },
+        { "t": "Sesenta, setenta, ochenta, noventa.", "n": "Sixty, seventy, eighty, ninety." },
+        { "t": "Treinta y cinco.", "n": "Thirty-five." },
+        { "t": "Cien.", "n": "A hundred." },
+        { "t": "¿Cuál es tu número de móvil?", "n": "What's your mobile number?", "note": "In Latin America: celular." },
+        { "t": "Mi número es el seis, cero, cero, doce, treinta y cuatro, cincuenta y seis.", "n": "My number is 600 12 34 56." },
+        { "t": "¿Me lo repites, por favor?", "n": "Can you repeat it for me, please? (informal)" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Swapping numbers in Madrid",
+        "lines": [
+          { "who": "A", "name": "Javier", "t": "Oye, ¿cuál es tu número de móvil?", "n": "Hey, what's your mobile number?" },
+          { "who": "you", "t": "Es el seis, cero, cero, doce, treinta y cuatro, cincuenta y seis.", "n": "It's 600 12 34 56." },
+          { "who": "A", "name": "Javier", "t": "Seis, cero, cero, doce, treinta y cuatro… ¿Me lo repites?", "n": "Six, zero, zero, twelve, thirty-four… Can you repeat it?" },
+          { "who": "you", "t": "Treinta y cuatro, cincuenta y seis.", "n": "Thirty-four, fifty-six." },
+          { "who": "A", "name": "Javier", "t": "¡Perfecto! Te llamo mañana.", "n": "Perfect! I'll call you tomorrow." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say 35.", "t": ["Treinta y cinco"] },
+        { "n": "Say 100.", "t": ["Cien"] },
+        { "n": "Ask a friend for their phone number.", "t": ["Cuál es tu número de móvil", "Cuál es tu número de celular", "Cuál es tu número de teléfono", "Cuál es tu número"] }
+      ]
+    },
+    {
+      "id": "u03-l4",
+      "kind": "grammar",
+      "title": "tener: tengo, tienes, tiene…",
+      "goal": "Say what you have and how old people are.",
+      "tip": {
+        "title": "tener is irregular",
+        "body": "yo tengo, tú tienes, usted/él/ella tiene, nosotros tenemos, vosotros tenéis (Spain), ustedes/ellos tienen. The e turns into ie in tienes, tiene and tienen, and the yo form is tengo. Plural nouns add -s after a vowel (hermano → hermanos) and -es after a consonant (un mes → dos meses). A mixed group of brothers and sisters is hermanos."
+      },
+      "phrases": [
+        { "t": "Tengo dos hermanos.", "n": "I have two brothers. / I have two siblings." },
+        { "t": "¿Tienes hijos?", "n": "Do you have children?" },
+        { "t": "Ella tiene treinta años.", "n": "She's thirty." },
+        { "t": "Tenemos un perro y dos gatos.", "n": "We have a dog and two cats." },
+        { "t": "¿Cuántos años tienen ustedes?", "n": "How old are you (all)?" }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person",
+          "base": { "t": "Tengo veinte años.", "n": "I'm twenty." },
+          "items": [
+            { "cue": "tú?", "t": "¿Tienes veinte años?", "n": "Are you twenty?" },
+            { "cue": "él · treinta", "t": "Él tiene treinta años.", "n": "He's thirty." },
+            { "cue": "nosotros · cuarenta", "t": "Tenemos cuarenta años.", "n": "We're forty." },
+            { "cue": "ellas · quince", "t": "Ellas tienen quince años.", "n": "They're fifteen." }
+          ]
+        },
+        {
+          "title": "How many?",
+          "base": { "t": "Tengo un hermano.", "n": "I have one brother." },
+          "items": [
+            { "cue": "dos", "t": "Tengo dos hermanos.", "n": "I have two brothers." },
+            { "cue": "tres · hermana", "t": "Tengo tres hermanas.", "n": "I have three sisters." },
+            { "cue": "no", "t": "No tengo hermanos.", "n": "I don't have any siblings." },
+            { "cue": "usted?", "t": "¿Tiene usted hermanos?", "n": "Do you have siblings? (polite)" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you have two sisters.", "t": ["Tengo dos hermanas"] },
+        { "n": "Politely ask an older lady if she has children.", "t": ["Tiene usted hijos", "Tiene hijos"] }
+      ]
+    },
+    {
+      "id": "u03-l5",
+      "kind": "listening",
+      "title": "Signing up for swimming",
+      "goal": "Catch a name, an age and a phone number.",
+      "phrases": [
+        { "t": "¿Su nombre completo, por favor?", "n": "Your full name, please?" },
+        { "t": "¿Y su número de celular?", "n": "And your mobile number?" },
+        { "t": "La primera clase es gratis.", "n": "The first class is free." },
+        { "t": "¡Qué bien!", "n": "Great! / How nice!" }
+      ],
+      "story": {
+        "title": "At the sports centre",
+        "intro": "Jorge signs up for swimming lessons at a sports centre in Mexico City.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Recepcionista", "t": "Buenas tardes. ¿Su nombre completo, por favor?", "n": "Good afternoon. Your full name, please?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Jorge Ramírez Ortega.", "n": "Jorge Ramírez Ortega." },
+          { "name": "Recepcionista", "t": "Gracias, señor Ramírez. ¿Cuántos años tiene?", "n": "Thank you, Mr Ramírez. How old are you?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Tengo treinta y dos años.", "n": "I'm thirty-two." },
+          { "name": "Recepcionista", "t": "¿Y su número de celular?", "n": "And your mobile number?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Cincuenta y cinco, doce, treinta y cuatro, cincuenta y seis, setenta y ocho.", "n": "55 12 34 56 78." },
+          { "name": "Recepcionista", "t": "Perfecto. La clase es los martes, y la primera clase es gratis.", "n": "Perfect. The class is on Tuesdays, and the first class is free." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "¡Qué bien! Muchas gracias.", "n": "Great! Thank you very much." }
+        ],
+        "questions": [
+          { "q": "¿Cuántos años tiene Jorge?", "n": "How old is Jorge?", "t": ["Treinta y dos", "Tiene treinta y dos años", "Treinta y dos años"] },
+          { "q": "¿Cuál es su segundo apellido?", "n": "What is his second surname?", "t": ["Ortega", "Es Ortega"] },
+          { "q": "¿Cuánto cuesta la primera clase?", "n": "How much is the first class?", "t": ["Es gratis", "Gratis", "Nada"] }
+        ]
+      }
+    },
+    {
+      "id": "u03-l6",
+      "kind": "roleplay",
+      "title": "At the fruit stall",
+      "goal": "Buy fruit, say how many and pay.",
+      "phrases": [
+        { "t": "¿Cuánto cuestan las naranjas?", "n": "How much are the oranges?" },
+        { "t": "¿Cuánto es?", "n": "How much is it (altogether)?" },
+        { "t": "No, nada más, gracias.", "n": "No, nothing else, thanks." },
+        { "t": "Aquí tiene diez euros.", "n": "Here's ten euros." }
+      ],
+      "branch": {
+        "title": "In the market",
+        "scene": "It's Saturday morning at a covered market in Madrid. You stop at a fruit stall.",
+        "name": "Frutera",
+        "voice": "es-ES-TrianaNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "¡Buenos días! ¿Qué le pongo?", "n": "Good morning! What can I get you?",
+            "choices": [
+              { "t": "Naranjas, por favor.", "n": "Oranges, please.", "next": "howmany" },
+              { "t": "¿Cuánto cuestan las naranjas?", "n": "How much are the oranges?", "next": "price" }
+            ]
+          },
+          "price": {
+            "t": "A dos euros el kilo. Son muy buenas, de Valencia.", "n": "Two euros a kilo. They're very good, from Valencia.",
+            "choices": [
+              { "t": "Vale. Un kilo, por favor.", "n": "OK. A kilo, please.", "next": "more" },
+              { "t": "¡Uf, qué caro! Adiós.", "n": "Ugh, how expensive! Bye.", "next": "gone" }
+            ]
+          },
+          "gone": {
+            "t": "¿Caro? ¡Pero si son las mejores! Bueno, adiós…", "n": "Expensive? But they're the best! Well, bye…",
+            "end": "bad", "outcome": "Two euros a kilo is a normal price. Try again and buy some oranges."
+          },
+          "howmany": {
+            "t": "¿Cuántas quiere?", "n": "How many would you like?",
+            "choices": [
+              { "t": "Seis, por favor.", "n": "Six, please.", "next": "more" },
+              { "t": "Un kilo, por favor.", "n": "A kilo, please.", "next": "more" }
+            ]
+          },
+          "more": {
+            "t": "Muy bien. ¿Algo más?", "n": "Very good. Anything else?",
+            "choices": [
+              { "t": "Sí, cuatro limones.", "n": "Yes, four lemons.", "next": "pay" },
+              { "t": "No, nada más, gracias. ¿Cuánto es?", "n": "No, nothing else, thanks. How much is it?", "next": "pay" }
+            ]
+          },
+          "pay": {
+            "t": "Pues son tres euros con cincuenta.", "n": "Well, that's three euros fifty.",
+            "choices": [
+              { "t": "Aquí tiene diez euros.", "n": "Here's ten euros.", "next": "change" },
+              { "t": "¿Trece euros?", "n": "Thirteen euros?", "next": "repeat" }
+            ]
+          },
+          "repeat": {
+            "t": "No, no: tres euros con cincuenta. Tres, cincuenta.", "n": "No, no: three euros fifty. Three fifty.",
+            "choices": [
+              { "t": "¡Ah, vale! Aquí tiene cinco euros.", "n": "Oh, OK! Here's five euros.", "next": "change" }
+            ]
+          },
+          "change": {
+            "t": "Gracias. Aquí tiene el cambio. ¡Que tenga un buen día!", "n": "Thank you. Here's your change. Have a nice day!",
+            "end": "good", "outcome": "You bought your fruit, understood the price and got the right change."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask how much it is altogether.", "t": ["Cuánto es", "Cuánto es todo"] },
+        { "n": "Say you'd like six, please.", "t": ["Seis por favor", "Quiero seis"] }
+      ]
+    },
+    {
+      "id": "u03-l7",
+      "kind": "speaking",
+      "title": "My numbers",
+      "goal": "Talk about your name, age, family and phone number for 45 seconds.",
+      "culture": {
+        "title": "Two surnames",
+        "body": "In Spain and most of Latin America, people have two surnames: traditionally the father's first surname followed by the mother's first surname. In the writer Gabriel García Márquez, García comes from his father and Márquez from his mother, so he is \"García Márquez\", not \"Márquez\". In everyday life many people use only the first surname, but both appear on official documents. In Spain, women keep their own surnames when they marry, and parents can now choose the order of their children's surnames.",
+        "regions": ["ES", "MX", "CO"]
+      },
+      "phrases": [
+        { "t": "Mi primer apellido es García.", "n": "My first surname is García." },
+        { "t": "Mi segundo apellido es Márquez.", "n": "My second surname is Márquez." },
+        { "t": "¿Cuáles son sus apellidos?", "n": "What are your surnames? (polite)" },
+        { "t": "Solo tengo un apellido.", "n": "I only have one surname." }
+      ],
+      "free": [
+        {
+          "n": "Talk about your numbers: your name and surname, your age, how many brothers and sisters you have and your phone number.",
+          "hint": "Me llamo …, Mi apellido es …, Tengo … años, Tengo … hermanos, Mi número es …",
+          "seconds": 45,
+          "minWords": 15,
+          "targets": [
+            { "label": "your name", "any": ["me llamo", "mi nombre es", "apellido", "apellidos"] },
+            { "label": "your age", "any": ["años"] },
+            { "label": "your family", "any": ["hermano", "hermanos", "hermana", "hermanas", "hijo", "hijos", "hija", "hijas"] },
+            { "label": "your phone number", "any": ["número", "teléfono", "móvil", "celular"] }
+          ],
+          "model": "Me llamo Alex Taylor. Solo tengo un apellido: Taylor. Tengo veintiocho años. Tengo dos hermanos y una hermana. Mi número de móvil es el seis, cero, cero, doce, treinta y cuatro, cincuenta y seis."
+        }
+      ],
+      "prompts": [
+        { "n": "Tell someone your surname is Smith.", "t": ["Mi apellido es Smith", "Mi primer apellido es Smith"] },
+        { "n": "Explain that you only have one surname.", "t": ["Solo tengo un apellido", "Tengo solo un apellido"] }
+      ]
+    },
+    {
+      "id": "u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Los números",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
