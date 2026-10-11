@@ -1,0 +1,871 @@
+{
+  "id": "b2-u08",
+  "title": "Expressions idiomatiques",
+  "subtitle": "Idioms & colloquial conversation",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b2-u08-l1",
+      "title": "Everyday idioms",
+      "goal": "Use common French idioms naturally when telling stories and reacting to news.",
+      "tip": {
+        "title": "Idioms are fixed chunks",
+        "body": "You can conjugate the verb, but don't touch the nouns: poser un lapin (literally 'to put down a rabbit') means to stand someone up, and tomber dans les pommes ('to fall into the apples') means to faint. Learn each idiom as one melody and say it without pausing in the middle. Pronunciation: in coûter les yeux de la tête, make the liaison: les‿yeux sounds like lé-zyeu."
+      },
+      "phrases": [
+        {
+          "t": "Il m'a posé un lapin.",
+          "n": "He stood me up."
+        },
+        {
+          "t": "Ça coûte les yeux de la tête.",
+          "n": "It costs an arm and a leg."
+        },
+        {
+          "t": "Depuis quelques jours, j'ai le cafard.",
+          "n": "I've been feeling down for a few days."
+        },
+        {
+          "t": "Elle est tombée dans les pommes en plein concert.",
+          "n": "She fainted in the middle of the concert."
+        },
+        {
+          "t": "Tu as mis le doigt dessus.",
+          "n": "You've put your finger on it."
+        },
+        {
+          "t": "Ce ne sont pas mes oignons.",
+          "n": "That's none of my business.",
+          "note": "colloquial: c'est pas mes oignons"
+        },
+        {
+          "t": "Je croise les doigts pour toi !",
+          "n": "I'm keeping my fingers crossed for you!"
+        },
+        {
+          "t": "C'est à deux pas d'ici.",
+          "n": "It's a stone's throw from here."
+        }
+      ],
+      "dialogue": {
+        "title": "Catching up with a friend",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Alors, ce rendez-vous de samedi ? Raconte !",
+            "n": "So, how was Saturday's date? Tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Laisse tomber : il m'a posé un lapin. J'ai attendu une heure au café.",
+            "n": "Forget it: he stood me up. I waited an hour at the café."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Non ! Et tu as eu de ses nouvelles ?",
+            "n": "No! And have you heard from him?"
+          },
+          {
+            "who": "you",
+            "t": "Il m'a écrit le lendemain. Sa sœur était tombée dans les pommes en plein concert.",
+            "n": "He wrote to me the next day. His sister had fainted in the middle of a concert."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Mouais. Moi, je pense qu'il avait juste peur.",
+            "n": "Hmm. I think he was just scared."
+          },
+          {
+            "who": "you",
+            "t": "Tu as sans doute mis le doigt dessus. Depuis, j'ai un peu le cafard.",
+            "n": "You've probably put your finger on it. I've been feeling a bit down since."
+          },
+          {
+            "who": "A",
+            "name": "Chloé",
+            "t": "Allez, viens, on va manger au nouveau resto. C'est à deux pas d'ici.",
+            "n": "Come on, let's go and eat at the new restaurant. It's a stone's throw from here."
+          },
+          {
+            "who": "you",
+            "t": "D'accord, mais pas trop cher : en ce moment, tout coûte les yeux de la tête.",
+            "n": "OK, but not too expensive: at the moment everything costs an arm and a leg."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say he stood you up.",
+          "t": [
+            "Il m'a posé un lapin",
+            "Il m'a posé un lapin hier soir"
+          ]
+        },
+        {
+          "n": "Say it costs an arm and a leg.",
+          "t": [
+            "Ça coûte les yeux de la tête",
+            "C'est hors de prix"
+          ]
+        },
+        {
+          "n": "Tell a friend you're keeping your fingers crossed for them.",
+          "t": [
+            "Je croise les doigts pour toi",
+            "Je croise les doigts pour vous",
+            "Je croise les doigts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l2",
+      "title": "Steering a casual conversation",
+      "goal": "Keep a relaxed conversation flowing: buy time, change topic, check understanding and wrap up.",
+      "tip": {
+        "title": "Buying time and wrapping up",
+        "body": "Comment dire… buys you thinking time; replace the English 'um' with a French euh. Switch topics with À propos de … or Au fait, … (by the way — the t of fait is often pronounced). Check understanding by paraphrasing: Tu veux dire que … ? Get back on track with Où est-ce que j'en étais ? and wrap up with Bref, … or Au final, … on a falling tone."
+      },
+      "phrases": [
+        {
+          "t": "Comment dire… c'est une longue histoire.",
+          "n": "How can I put it… it's a long story."
+        },
+        {
+          "t": "À propos de voyages, vous êtes déjà allés en Gaspésie ?",
+          "n": "Speaking of travel, have you ever been to the Gaspé Peninsula?"
+        },
+        {
+          "t": "Tu veux dire qu'il en avait marre ?",
+          "n": "You mean he was fed up?"
+        },
+        {
+          "t": "Bon, c'est la vie.",
+          "n": "Oh well, that's life."
+        },
+        {
+          "t": "Où est-ce que j'en étais ?",
+          "n": "Where was I?"
+        },
+        {
+          "t": "Bref, au final, ça valait le coup.",
+          "n": "Anyway, in the end it was worth it."
+        },
+        {
+          "t": "Bon, il faut que j'y aille, on s'appelle la semaine prochaine.",
+          "n": "Right, I have to go, let's talk next week."
+        }
+      ],
+      "dialogue": {
+        "title": "At a friend's barbecue near Geneva",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Fabrice",
+            "t": "Dis-moi, pourquoi tu ne joues plus dans le groupe ?",
+            "n": "Tell me, why don't you play in the band anymore?"
+          },
+          {
+            "who": "you",
+            "t": "Comment dire… c'est une longue histoire. Notre chanteur est parti du jour au lendemain.",
+            "n": "How can I put it… it's a long story. Our singer left overnight."
+          },
+          {
+            "who": "A",
+            "name": "Fabrice",
+            "t": "Bah, il y en a qui finissent par se lasser.",
+            "n": "Well, some people end up getting tired of it."
+          },
+          {
+            "who": "you",
+            "t": "Tu veux dire qu'il en avait marre ? Non, il s'est installé à Montréal.",
+            "n": "You mean he was fed up? No, he moved to Montréal."
+          },
+          {
+            "who": "A",
+            "name": "Fabrice",
+            "t": "À Montréal ? On y va cet été avec ma copine !",
+            "n": "To Montréal? My girlfriend and I are going this summer!"
+          },
+          {
+            "who": "you",
+            "t": "À propos de voyages, vous êtes déjà allés en Gaspésie ?",
+            "n": "Speaking of travel, have you ever been to the Gaspé Peninsula?"
+          },
+          {
+            "who": "A",
+            "name": "Fabrice",
+            "t": "Pas encore, c'est sur notre liste. Mais continue ton histoire !",
+            "n": "Not yet, it's on our list. But go on with your story!"
+          },
+          {
+            "who": "you",
+            "t": "Où est-ce que j'en étais ?",
+            "n": "Where was I?"
+          },
+          {
+            "who": "A",
+            "name": "Fabrice",
+            "t": "À votre chanteur. Et maintenant ? Plus de groupe ?",
+            "n": "Your singer. And now? No more band?"
+          },
+          {
+            "who": "you",
+            "t": "Bon, c'est la vie. Bref, au final, ça valait le coup.",
+            "n": "Oh well, that's life. Anyway, in the end it was worth it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Buy time: say 'how can I put it… it's a long story'.",
+          "t": [
+            "Comment dire… c'est une longue histoire",
+            "Comment dire, c'est une longue histoire",
+            "C'est une longue histoire"
+          ]
+        },
+        {
+          "n": "After a digression, ask where you were.",
+          "t": [
+            "Où est-ce que j'en étais",
+            "Où j'en étais",
+            "J'en étais où"
+          ]
+        },
+        {
+          "n": "Say you have to go and you'll talk next week.",
+          "t": [
+            "Bon, il faut que j'y aille, on s'appelle la semaine prochaine",
+            "Il faut que j'y aille, on s'appelle la semaine prochaine",
+            "Faut que j'y aille, on s'appelle la semaine prochaine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l3",
+      "title": "Idioms for work and stress",
+      "goal": "Describe workload and pressure with everyday idioms.",
+      "tip": {
+        "title": "Busy in France, busy in Québec",
+        "body": "Avoir du pain sur la planche ('to have bread on the board') means having a lot of work ahead. In Québec you'll also hear être dans le jus for being swamped. Québécois colleagues often say date limite or échéance where French offices often borrow the English 'deadline'."
+      },
+      "phrases": [
+        {
+          "t": "J'ai du pain sur la planche en ce moment.",
+          "n": "I've got a lot on my plate at the moment."
+        },
+        {
+          "t": "On est tous dans le même bateau.",
+          "n": "We're all in the same boat."
+        },
+        {
+          "t": "Il faut prendre le taureau par les cornes.",
+          "n": "We have to take the bull by the horns."
+        },
+        {
+          "t": "Je suis au bout du rouleau.",
+          "n": "I'm at the end of my tether."
+        },
+        {
+          "t": "C'est simple comme bonjour.",
+          "n": "It's as easy as pie."
+        }
+      ],
+      "dialogue": {
+        "title": "A new project in Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Josée",
+            "t": "As-tu deux minutes pour le nouveau projet ?",
+            "n": "Have you got two minutes for the new project?"
+          },
+          {
+            "who": "you",
+            "t": "Honnêtement, j'ai du pain sur la planche en ce moment.",
+            "n": "Honestly, I've got a lot on my plate at the moment."
+          },
+          {
+            "who": "A",
+            "name": "Josée",
+            "t": "Moi aussi, je suis dans le jus. Mais la date limite, c'est vendredi.",
+            "n": "I'm swamped too. But the deadline is Friday."
+          },
+          {
+            "who": "you",
+            "t": "Bon, on est tous dans le même bateau. Prenons le taureau par les cornes !",
+            "n": "Oh well, we're all in the same boat. Let's take the bull by the horns!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you've got a lot on your plate at the moment (idiom with bread).",
+          "t": [
+            "J'ai du pain sur la planche en ce moment",
+            "J'ai du pain sur la planche"
+          ]
+        },
+        {
+          "n": "Say you're at the end of your tether.",
+          "t": [
+            "Je suis au bout du rouleau",
+            "J'suis au bout du rouleau"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l4",
+      "kind": "grammar",
+      "title": "Idioms with avoir, être and faire",
+      "goal": "Conjugate idioms built on avoir, être and faire in different persons and tenses.",
+      "tip": {
+        "title": "Same verb, fixed rest",
+        "body": "Many idioms hang on one of three verbs: avoir (avoir le cafard, avoir la flemme, avoir un poil dans la main), être (être dans la lune, être aux anges) and faire (faire la tête, faire la grasse matinée, faire la sourde oreille). Only the verb changes for person and tense — the rest stays frozen: Hier, j'ai eu la flemme ; Ils faisaient la tête. Watch out: English often uses 'to be' where French uses avoir (avoir le cafard = to be down)."
+      },
+      "phrases": [
+        {
+          "t": "J'ai la flemme de sortir ce soir.",
+          "n": "I can't be bothered to go out tonight.",
+          "note": "informal"
+        },
+        {
+          "t": "Il a un poil dans la main.",
+          "n": "He's bone idle.",
+          "note": "literally 'he has a hair in his hand'"
+        },
+        {
+          "t": "Elle est aux anges depuis la naissance du bébé.",
+          "n": "She's been over the moon since the baby was born."
+        },
+        {
+          "t": "Désolé, j'étais dans la lune.",
+          "n": "Sorry, I was daydreaming."
+        },
+        {
+          "t": "Dimanche, on a fait la grasse matinée.",
+          "n": "On Sunday we had a lie-in."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Change the person and tense",
+          "base": {
+            "t": "J'ai la flemme de cuisiner.",
+            "n": "I can't be bothered to cook."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Nous avons la flemme de cuisiner.",
+              "n": "We can't be bothered to cook."
+            },
+            {
+              "cue": "hier · passé composé",
+              "t": "Hier, j'ai eu la flemme de cuisiner.",
+              "n": "Yesterday I couldn't be bothered to cook."
+            },
+            {
+              "cue": "ils · imparfait",
+              "t": "Ils avaient la flemme de cuisiner.",
+              "n": "They couldn't be bothered to cook."
+            }
+          ]
+        },
+        {
+          "title": "Swap the idiom",
+          "base": {
+            "t": "Il fait la tête.",
+            "n": "He's sulking."
+          },
+          "items": [
+            {
+              "cue": "être · dans la lune",
+              "t": "Il est dans la lune.",
+              "n": "He's daydreaming."
+            },
+            {
+              "cue": "avoir · le cafard",
+              "t": "Il a le cafard.",
+              "n": "He's feeling down."
+            },
+            {
+              "cue": "être · aux anges",
+              "t": "Il est aux anges.",
+              "n": "He's over the moon."
+            },
+            {
+              "cue": "faire · la sourde oreille",
+              "t": "Il fait la sourde oreille.",
+              "n": "He's turning a deaf ear."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you can't be bothered to go out tonight.",
+          "t": [
+            "J'ai la flemme de sortir ce soir",
+            "J'ai la flemme de sortir"
+          ]
+        },
+        {
+          "n": "Apologise: you were daydreaming (idiom with the moon).",
+          "t": [
+            "Désolé, j'étais dans la lune",
+            "Désolée, j'étais dans la lune",
+            "Pardon, j'étais dans la lune",
+            "J'étais dans la lune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l5",
+      "kind": "listening",
+      "title": "A chaotic move in Brussels",
+      "goal": "Follow a casual Belgian chat full of idioms.",
+      "phrases": [
+        {
+          "t": "M'en parle pas.",
+          "n": "Don't get me started."
+        },
+        {
+          "t": "Il drachait depuis le matin.",
+          "n": "It had been pouring since the morning.",
+          "note": "Belgian: dracher = to rain heavily"
+        },
+        {
+          "t": "À quelque chose malheur est bon.",
+          "n": "Every cloud has a silver lining."
+        },
+        {
+          "t": "On fera la pendaison de crémaillère.",
+          "n": "We'll have a housewarming party."
+        }
+      ],
+      "story": {
+        "title": "Moving day",
+        "intro": "Charline asks her friend Benoît how his move to a new flat in Brussels went.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Charline",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Alors, Benoît, ce déménagement ? Tu as une tête de déterré !",
+            "n": "So, Benoît, how was the move? You look like death warmed up!"
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "M'en parle pas. La camionnette n'est jamais arrivée, et mon GSM n'avait plus de batterie.",
+            "n": "Don't get me started. The van never turned up, and my mobile was out of battery."
+          },
+          {
+            "name": "Charline",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Oh non ! Et alors ?",
+            "n": "Oh no! And then?"
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "En plus, il drachait depuis le matin. J'étais trempé jusqu'aux os et complètement au bout du rouleau.",
+            "n": "On top of that, it had been pouring since the morning. I was soaked to the skin and completely at the end of my tether."
+          },
+          {
+            "name": "Charline",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Quelle poisse ! Comment tu t'en es sorti ?",
+            "n": "What bad luck! How did you manage?"
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Mon voisin m'a prêté sa remorque. Ça m'a ôté une sacrée épine du pied.",
+            "n": "My neighbour lent me his trailer. That got me out of a real jam."
+          },
+          {
+            "name": "Charline",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "À quelque chose malheur est bon ! Et tout est rangé maintenant ?",
+            "n": "Every cloud has a silver lining! And is everything unpacked now?"
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Presque. Il reste la cuisine, mais ça, c'est simple comme bonjour.",
+            "n": "Almost. The kitchen is left, but that's as easy as pie."
+          },
+          {
+            "name": "Charline",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Tu sais m'envoyer ta nouvelle adresse ?",
+            "n": "Can you send me your new address?"
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Je te l'envoie tout de suite. Passe samedi, on fera la pendaison de crémaillère !",
+            "n": "I'll send it to you right away. Come by on Saturday, we'll have a housewarming party!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce qui n'est jamais arrivé ?",
+            "n": "What never turned up?",
+            "t": [
+              "La camionnette",
+              "La camionnette n'est jamais arrivée"
+            ]
+          },
+          {
+            "q": "Quel temps faisait-il ?",
+            "n": "What was the weather like?",
+            "t": [
+              "Il pleuvait",
+              "Il drachait",
+              "Il pleuvait beaucoup",
+              "Il pleuvait des cordes"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il reste à ranger ?",
+            "n": "What's left to unpack?",
+            "t": [
+              "La cuisine",
+              "Il reste la cuisine"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u08-l6",
+      "kind": "roleplay",
+      "title": "Talking to your boss about workload",
+      "goal": "Raise a problem directly and negotiate a fair solution.",
+      "phrases": [
+        {
+          "t": "Je croule sous le travail.",
+          "n": "I'm snowed under with work."
+        },
+        {
+          "t": "Je ne vais pas tourner autour du pot.",
+          "n": "I'm not going to beat about the bush."
+        },
+        {
+          "t": "Est-ce qu'on pourrait répartir les tâches autrement ?",
+          "n": "Could we divide up the tasks differently?"
+        },
+        {
+          "t": "Ça me semble un compromis équitable.",
+          "n": "That seems like a fair compromise."
+        }
+      ],
+      "branch": {
+        "title": "In the boss's office",
+        "scene": "You work in Québec City and have been doing two people's jobs for weeks. You've asked your manager, Madame Tremblay, for a quick chat.",
+        "name": "Madame Tremblay",
+        "voice": "fr-CA-SylvieNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Vous vouliez me voir ? De quoi s'agit-il ?",
+            "n": "You wanted to see me? What's it about?",
+            "choices": [
+              {
+                "t": "Je ne vais pas tourner autour du pot : je croule sous le travail.",
+                "n": "I'm not going to beat about the bush: I'm snowed under with work.",
+                "next": "listen"
+              },
+              {
+                "t": "Oh, rien d'important. Je passais juste dire bonjour.",
+                "n": "Oh, nothing important. I was just dropping by to say hello.",
+                "next": "nothing"
+              }
+            ]
+          },
+          "nothing": {
+            "t": "Ah bon… Justement, j'ai un nouveau dossier pour vous.",
+            "n": "Oh, right… As it happens, I've got a new file for you.",
+            "choices": [
+              {
+                "t": "Pour être honnête, c'est justement le problème : j'ai déjà du pain sur la planche.",
+                "n": "To be honest, that's exactly the problem: I've already got a lot on my plate.",
+                "next": "listen"
+              },
+              {
+                "t": "Pas de souci, je vais me débrouiller.",
+                "n": "No problem, I'll manage.",
+                "next": "bad"
+              }
+            ]
+          },
+          "listen": {
+            "t": "Ah, je ne le savais pas. Qu'est-ce qui se passe ?",
+            "n": "Oh, I didn't know. What's going on?",
+            "choices": [
+              {
+                "t": "Depuis que Julie est en congé parental, je fais aussi son travail.",
+                "n": "Since Julie went on parental leave, I've been doing her work too.",
+                "next": "offer"
+              },
+              {
+                "t": "Pardon ? Vous pourriez répéter la question ?",
+                "n": "Sorry? Could you repeat the question?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Je veux dire : pourquoi avez-vous autant de travail ?",
+            "n": "I mean: why do you have so much work?",
+            "choices": [
+              {
+                "t": "Depuis que Julie est en congé parental, je fais aussi son travail.",
+                "n": "Since Julie went on parental leave, I've been doing her work too.",
+                "next": "offer"
+              }
+            ]
+          },
+          "offer": {
+            "t": "Je comprends. Mais pourriez-vous quand même prendre le nouveau dossier ?",
+            "n": "I understand. But could you still take on the new file?",
+            "choices": [
+              {
+                "t": "Seulement si on répartit les tâches autrement. Marc pourrait-il s'occuper des rapports ?",
+                "n": "Only if we divide up the tasks differently. Could Marc take care of the reports?",
+                "next": "good"
+              },
+              {
+                "t": "Non, pas question. Ce ne sont pas mes oignons.",
+                "n": "No, no way. That's none of my business.",
+                "next": "tension"
+              }
+            ]
+          },
+          "tension": {
+            "t": "Hum, ce n'est pas si simple. Avez-vous une proposition ?",
+            "n": "Hmm, it's not that simple. Do you have a suggestion?",
+            "choices": [
+              {
+                "t": "Excusez-moi. Si quelqu'un reprend les rapports, je peux m'occuper du dossier.",
+                "n": "Sorry. If someone takes over the reports, I can handle the file.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ça me semble un compromis équitable. J'en parle à Marc demain.",
+            "n": "That seems like a fair compromise. I'll talk to Marc about it tomorrow.",
+            "end": "good",
+            "outcome": "Your workload gets shared out and you kept a good relationship with your manager."
+          },
+          "bad": {
+            "t": "Parfait, je vous envoie les documents tout de suite.",
+            "n": "Perfect, I'll send you the documents right away.",
+            "end": "bad",
+            "outcome": "You took on even more work — next time, raise the problem directly."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you're snowed under with work.",
+          "t": [
+            "Je croule sous le travail",
+            "Je croule sous le boulot",
+            "Je suis débordé",
+            "Je suis débordée"
+          ]
+        },
+        {
+          "n": "Say you're not going to beat about the bush.",
+          "t": [
+            "Je ne vais pas tourner autour du pot",
+            "Je vais pas tourner autour du pot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-l7",
+      "kind": "speaking",
+      "title": "Tell it with idioms",
+      "goal": "Tell a story and describe people colourfully, using idioms.",
+      "culture": {
+        "title": "One idea, many images",
+        "body": "Idioms travel differently around the francophone world. Where the French say il pleut des cordes (it's raining ropes), Belgians say il drache and Quebecers il pleut à boire debout. In Québec, être dans le jus means being swamped, and before something intense you may hear Attache ta tuque avec de la broche ! — 'tie your woolly hat on with wire', i.e. hold on tight. Using a local idiom in the right place usually earns you a smile.",
+        "regions": [
+          "FR",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Tout est parti de travers.",
+          "n": "Everything went wrong."
+        },
+        {
+          "t": "J'ai eu du bol.",
+          "n": "I was lucky.",
+          "note": "informal"
+        },
+        {
+          "t": "Tout est bien qui finit bien.",
+          "n": "All's well that ends well."
+        },
+        {
+          "t": "Attache ta tuque avec de la broche !",
+          "n": "Hold on tight!",
+          "note": "Québec"
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a short story about something that went wrong (a trip, a move, an exam) and how it ended. Use at least two idioms.",
+          "hint": "D'abord … ensuite … ; tout est parti de travers ; j'étais au bout du rouleau ; j'ai eu du bol ; tout est bien qui finit bien",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            {
+              "label": "an idiom",
+              "any": [
+                "de travers",
+                "du bol",
+                "bien qui finit bien",
+                "bout du rouleau",
+                "lapin",
+                "cafard",
+                "dans les pommes",
+                "yeux de la tête",
+                "pain sur la planche",
+                "même bateau",
+                "malheur est bon",
+                "épine du pied",
+                "simple comme bonjour",
+                "drach*"
+              ]
+            },
+            {
+              "label": "past tense",
+              "any": [
+                "était",
+                "étais",
+                "avait",
+                "avais",
+                "ai eu",
+                "a été",
+                "suis",
+                "sommes"
+              ]
+            },
+            {
+              "label": "sequencing",
+              "any": [
+                "d'abord",
+                "ensuite",
+                "puis",
+                "tout à coup",
+                "soudain",
+                "finalement",
+                "enfin"
+              ]
+            },
+            {
+              "label": "how it ended",
+              "any": [
+                "finalement",
+                "heureusement",
+                "au final",
+                "à la fin",
+                "bien qui finit bien",
+                "s'est bien terminé",
+                "ça a marché"
+              ]
+            }
+          ],
+          "model": "L'été dernier, nos vacances sont parties de travers : d'abord, notre vol a été annulé, ensuite l'hôtel était complet. J'étais au bout du rouleau. Mais finalement, on a eu du bol : on a trouvé une petite maison au bord de la mer. Tout est bien qui finit bien !"
+        },
+        {
+          "n": "Describe someone you know (no names) using idioms with avoir, être or faire: how do they behave?",
+          "hint": "Il/Elle a un poil dans la main ; est toujours dans la lune ; fait la tête ; fait la sourde oreille ; est aux anges quand …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "an avoir/être/faire idiom",
+              "any": [
+                "poil dans la main",
+                "dans la lune",
+                "fait la tête",
+                "faire la tête",
+                "aux anges",
+                "flemme",
+                "sourde oreille",
+                "grasse matinée",
+                "cafard"
+              ]
+            },
+            {
+              "label": "how often",
+              "any": [
+                "toujours",
+                "souvent",
+                "jamais",
+                "parfois",
+                "dès que",
+                "chaque fois"
+              ]
+            }
+          ],
+          "model": "Mon colocataire a un poil dans la main : il fait la grasse matinée tous les jours et il a toujours la flemme de faire la vaisselle. Quand je lui en parle, il fait la sourde oreille. Mais dès qu'il y a un match de foot, il est aux anges !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you were lucky (informal idiom).",
+          "t": [
+            "J'ai eu du bol",
+            "J'ai eu de la chance",
+            "J'ai eu du pot"
+          ]
+        },
+        {
+          "n": "Say all's well that ends well.",
+          "t": [
+            "Tout est bien qui finit bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Expressions idiomatiques",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b2-test",
+      "kind": "test",
+      "title": "B2 speaking test",
+      "goal": "Pass to earn your B2 badge and unlock C1.",
+      "tip": {
+        "title": "What to expect",
+        "body": "Sentences come from all eight B2 units, shown in English only. Say them in French from memory — watch the subjunctive after bien que and pour que, the order of double pronouns (je le lui ai dit), and keep idioms word for word. Bon courage !"
+      }
+    }
+  ]
+}

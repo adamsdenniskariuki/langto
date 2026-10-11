@@ -1,0 +1,860 @@
+{
+  "id": "b2-u04",
+  "title": "L'actualité",
+  "subtitle": "News, media & reported speech",
+  "icon": "📰",
+  "lessons": [
+    {
+      "id": "b2-u04-l1",
+      "title": "Talking about the news",
+      "goal": "Discuss current events using the passive voice.",
+      "tip": {
+        "title": "The passive: être + past participle",
+        "body": "The French passive is être in any tense + past participle, which agrees with the subject: La loi a été adoptée. Une école va être construite. The agent is introduced by par (adoptée par les députés). In everyday speech French often prefers on or a pronominal verb instead: On construit une école. Ça se vend bien. Pronunciation: a été is said as one smooth group, a-é-té, with no glottal stop between the vowels (enchaînement vocalique)."
+      },
+      "phrases": [
+        {
+          "t": "Tu as entendu parler de la nouvelle loi ?",
+          "n": "Have you heard about the new law?"
+        },
+        {
+          "t": "Elle a été adoptée hier par l'Assemblée nationale.",
+          "n": "It was passed yesterday by the National Assembly.",
+          "note": "adoptée agrees with la loi"
+        },
+        {
+          "t": "D'après un sondage récent, la plupart des gens sont contre.",
+          "n": "According to a recent poll, most people are against it.",
+          "note": "la plupart des + plural verb"
+        },
+        {
+          "t": "Une nouvelle école va enfin être construite dans le quartier.",
+          "n": "A new school is finally going to be built in the neighbourhood."
+        },
+        {
+          "t": "On en parle partout en ce moment.",
+          "n": "Everyone's talking about it at the moment."
+        },
+        {
+          "t": "Les médias en font tout un plat.",
+          "n": "The media are making a huge fuss about it."
+        },
+        {
+          "t": "Il ne faut pas croire tout ce qu'on lit sur les réseaux sociaux.",
+          "n": "You shouldn't believe everything you read on social media."
+        },
+        {
+          "t": "Ça m'intéresserait de savoir ce que tu en penses.",
+          "n": "I'd be interested to know what you think about it."
+        }
+      ],
+      "dialogue": {
+        "title": "Coffee break chat",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Tu as entendu parler de la nouvelle loi sur les loyers ?",
+            "n": "Have you heard about the new law on rents?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, elle a été adoptée hier par l'Assemblée nationale.",
+            "n": "Yes, it was passed yesterday by the National Assembly."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Je trouve que c'est une bonne chose. Mais beaucoup de propriétaires sont furieux.",
+            "n": "I think it's a good thing. But a lot of landlords are furious."
+          },
+          {
+            "who": "you",
+            "t": "On en parle partout en ce moment. D'après un sondage récent, la plupart des gens sont pour. Mais les médias en font tout un plat.",
+            "n": "Everyone's talking about it at the moment. According to a recent poll, most people are in favour. But the media are making a huge fuss about it."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Sur Internet, j'ai lu que les loyers allaient doubler à cause de cette loi.",
+            "n": "Online, I read that rents were going to double because of this law."
+          },
+          {
+            "who": "you",
+            "t": "Il ne faut pas croire tout ce qu'on lit sur les réseaux sociaux. Ça m'intéresserait de savoir ce que tu en penses vraiment, toi.",
+            "n": "You shouldn't believe everything you read on social media. I'd be interested to know what you really think about it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend if they've heard about the new law.",
+          "t": [
+            "Tu as entendu parler de la nouvelle loi",
+            "Est-ce que tu as entendu parler de la nouvelle loi",
+            "Vous avez entendu parler de la nouvelle loi"
+          ]
+        },
+        {
+          "n": "Say a new school is finally going to be built in the neighbourhood.",
+          "t": [
+            "Une nouvelle école va enfin être construite dans le quartier",
+            "Une nouvelle école va être construite dans le quartier",
+            "On va enfin construire une nouvelle école dans le quartier"
+          ]
+        },
+        {
+          "n": "Say the media are making a huge fuss about it.",
+          "t": [
+            "Les médias en font tout un plat",
+            "Les médias en font des tonnes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l2",
+      "title": "Reporting what others said",
+      "goal": "Pass on statements from politicians, experts and the media neutrally.",
+      "tip": {
+        "title": "Discours indirect & the journalistic conditional",
+        "body": "To report speech in the past, shift the tenses back: « La situation est sous contrôle » → Elle a déclaré que la situation était sous contrôle. Present → imparfait, passé composé → plus-que-parfait, futur → conditionnel. Journalists also use the conditional to mark unconfirmed information: Les impôts baisseraient (taxes are reportedly going to fall). Il paraît que … (apparently) is the everyday equivalent. Pronunciation: in déclaré que, link straight into que without a pause."
+      },
+      "phrases": [
+        {
+          "t": "La ministre a déclaré que la situation était sous contrôle.",
+          "n": "The minister stated that the situation was under control."
+        },
+        {
+          "t": "Il affirme qu'il n'était au courant de rien.",
+          "n": "He claims he didn't know anything about it."
+        },
+        {
+          "t": "Selon certaines sources, les impôts baisseraient l'an prochain.",
+          "n": "According to some sources, taxes will reportedly fall next year.",
+          "note": "conditional = unconfirmed"
+        },
+        {
+          "t": "Il paraît que les négociations ont échoué.",
+          "n": "Apparently the negotiations have failed."
+        },
+        {
+          "t": "D'après les experts, la situation devrait bientôt s'améliorer.",
+          "n": "According to experts, the situation should improve soon."
+        },
+        {
+          "t": "Reste à savoir si c'est vrai.",
+          "n": "It remains to be seen whether it's true."
+        },
+        {
+          "t": "Je ne fais que répéter ce que j'ai lu dans le journal.",
+          "n": "I'm only repeating what I read in the paper."
+        },
+        {
+          "t": "Là, j'avoue que je suis un peu sceptique.",
+          "n": "I have to admit I'm a bit sceptical there."
+        }
+      ],
+      "dialogue": {
+        "title": "Over the garden fence",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nicolas (voisin à Genève)",
+            "t": "Tu as lu Le Temps ce matin ? Ils parlent encore du nouveau tram.",
+            "n": "Did you read Le Temps this morning? They're talking about the new tram again."
+          },
+          {
+            "who": "you",
+            "t": "Oui. La conseillère d'État a déclaré que les travaux commenceraient en mars.",
+            "n": "Yes. The cantonal minister said the works would start in March. (conseiller d'État = member of a cantonal government)"
+          },
+          {
+            "who": "A",
+            "name": "Nicolas (voisin à Genève)",
+            "t": "En mars ? Il paraît que les négociations avec les entreprises ont échoué.",
+            "n": "In March? Apparently the negotiations with the companies have failed."
+          },
+          {
+            "who": "you",
+            "t": "Selon certaines sources, le projet coûterait deux fois plus cher que prévu.",
+            "n": "According to some sources, the project will reportedly cost twice as much as planned."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas (voisin à Genève)",
+            "t": "Bref, on n'est pas près de prendre ce tram !",
+            "n": "In short, we won't be riding that tram any time soon!"
+          },
+          {
+            "who": "you",
+            "t": "Possible. Mais je ne fais que répéter ce que j'ai lu dans le journal. Reste à savoir si c'est vrai.",
+            "n": "Possibly. But I'm only repeating what I read in the paper. It remains to be seen whether it's true."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Report that the minister stated the situation was under control.",
+          "t": [
+            "La ministre a déclaré que la situation était sous contrôle",
+            "Le ministre a déclaré que la situation était sous contrôle",
+            "La ministre a dit que la situation était sous contrôle"
+          ]
+        },
+        {
+          "n": "Say that apparently the negotiations have failed.",
+          "t": [
+            "Il paraît que les négociations ont échoué",
+            "Apparemment, les négociations ont échoué",
+            "Paraît que les négociations ont échoué"
+          ]
+        },
+        {
+          "n": "Say it remains to be seen whether it's true.",
+          "t": [
+            "Reste à savoir si c'est vrai",
+            "Il reste à savoir si c'est vrai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l3",
+      "title": "How do you get your news?",
+      "goal": "Talk about your media habits and judge sources critically.",
+      "tip": {
+        "title": "Questioning a source",
+        "body": "Au juste (exactly, actually) adds a sceptical edge to a question: D'où vient cette information, au juste ? Un titre racoleur is a sensational, clickbait headline. The term officially recommended in France (since 2018) is une infox (info + intox), alongside information fallacieuse, though people also say une fausse information or simply les fake news. Pronunciation: fiable is said fya-ble — the i glides into the a and the final e is silent — and the final s of gros in les gros titres is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je m'informe surtout par les podcasts et les applis.",
+          "n": "I mainly get my news from podcasts and apps."
+        },
+        {
+          "t": "Ce titre est franchement racoleur.",
+          "n": "That headline is frankly clickbait."
+        },
+        {
+          "t": "D'où vient cette information, au juste ?",
+          "n": "Where does this information actually come from?"
+        },
+        {
+          "t": "La source ne me paraît pas très fiable.",
+          "n": "The source doesn't seem very reliable to me."
+        },
+        {
+          "t": "Le plus souvent, je ne lis que les gros titres.",
+          "n": "Most of the time, I only read the headlines."
+        },
+        {
+          "t": "C'est une infox qui circule depuis des jours.",
+          "n": "It's a piece of fake news that's been going around for days."
+        }
+      ],
+      "dialogue": {
+        "title": "A colleague from Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "As-tu vu ça ? On dit qu'une ville va interdire les voitures dès la semaine prochaine !",
+            "n": "Did you see this? They say a city is going to ban cars from next week!"
+          },
+          {
+            "who": "you",
+            "t": "D'où vient cette information, au juste ? Ce titre est franchement racoleur.",
+            "n": "Where does this information actually come from? That headline is frankly clickbait."
+          },
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "Ben, d'un site que je ne connais pas trop. Quelqu'un l'a partagé sur mon fil.",
+            "n": "Well, from a site I don't really know. Someone shared it on my feed."
+          },
+          {
+            "who": "you",
+            "t": "La source ne me paraît pas très fiable. C'est une infox qui circule depuis des jours.",
+            "n": "The source doesn't seem very reliable to me. It's fake news that's been going around for days."
+          },
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "Oups. Moi, d'habitude, j'écoute Radio-Canada dans mon char le matin. Pis toi ?",
+            "n": "Oops. Usually I listen to Radio-Canada in my car in the morning. And you? (char = car in Québec)"
+          },
+          {
+            "who": "you",
+            "t": "Je m'informe surtout par les podcasts et les applis. Mais le plus souvent, je ne lis que les gros titres.",
+            "n": "I mainly get my news from podcasts and apps. But most of the time, I only read the headlines."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where this information actually comes from.",
+          "t": [
+            "D'où vient cette information, au juste",
+            "D'où vient cette information",
+            "Elle vient d'où, cette information"
+          ]
+        },
+        {
+          "n": "Say the source doesn't seem very reliable to you.",
+          "t": [
+            "La source ne me paraît pas très fiable",
+            "La source me paraît pas très fiable",
+            "La source ne me semble pas très fiable"
+          ]
+        },
+        {
+          "n": "Say you mainly get your news from podcasts and apps.",
+          "t": [
+            "Je m'informe surtout par les podcasts et les applis",
+            "Je m'informe surtout avec les podcasts et les applis",
+            "Je m'informe surtout par les podcasts et les applications"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l4",
+      "kind": "grammar",
+      "title": "Reported speech & the passive",
+      "goal": "Report statements and questions in the past, and turn active sentences into passive ones.",
+      "tip": {
+        "title": "Shifting tenses back",
+        "body": "After a past reporting verb (il a dit que, elle a demandé si), tenses shift: present → imparfait (« Je suis fatigué » → Il a dit qu'il était fatigué), passé composé → plus-que-parfait, futur → conditionnel, aller + infinitive → allait + infinitive. Time words change too: demain → le lendemain, hier → la veille. Yes/no questions use si (s'il before il/ils), wh-questions keep the question word, and qu'est-ce que becomes ce que. Passive reminder: the participle agrees with the subject — La réforme a été adoptée."
+      },
+      "phrases": [
+        {
+          "t": "Il a dit qu'il viendrait.",
+          "n": "He said he would come."
+        },
+        {
+          "t": "Elle a expliqué qu'elle avait déjà signé le contrat.",
+          "n": "She explained that she had already signed the contract."
+        },
+        {
+          "t": "Le porte-parole a annoncé que la grève était terminée.",
+          "n": "The spokesperson announced that the strike was over."
+        },
+        {
+          "t": "Ils nous ont demandé si nous étions d'accord.",
+          "n": "They asked us whether we agreed."
+        },
+        {
+          "t": "Le pont a été fermé à cause des inondations.",
+          "n": "The bridge was closed because of the floods."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Report it in the past",
+          "base": {
+            "t": "Il a dit qu'il était fatigué.",
+            "n": "He said he was tired."
+          },
+          "items": [
+            {
+              "cue": "« J'ai perdu mes clés. »",
+              "t": "Il a dit qu'il avait perdu ses clés.",
+              "n": "He said he had lost his keys."
+            },
+            {
+              "cue": "« Je partirai demain. »",
+              "t": "Il a dit qu'il partirait le lendemain.",
+              "n": "He said he would leave the next day."
+            },
+            {
+              "cue": "« Je vais démissionner. »",
+              "t": "Il a dit qu'il allait démissionner.",
+              "n": "He said he was going to resign."
+            }
+          ]
+        },
+        {
+          "title": "Report the question",
+          "base": {
+            "t": "Elle m'a demandé si j'étais libre.",
+            "n": "She asked me if I was free."
+          },
+          "items": [
+            {
+              "cue": "« Où est-ce que tu habites ? »",
+              "t": "Elle m'a demandé où j'habitais.",
+              "n": "She asked me where I lived."
+            },
+            {
+              "cue": "« Qu'est-ce que tu fais ? »",
+              "t": "Elle m'a demandé ce que je faisais.",
+              "n": "She asked me what I was doing."
+            },
+            {
+              "cue": "« Tu as mangé ? »",
+              "t": "Elle m'a demandé si j'avais mangé.",
+              "n": "She asked me if I had eaten."
+            }
+          ]
+        },
+        {
+          "title": "Active → passive",
+          "base": {
+            "t": "Le pont a été fermé par la police.",
+            "n": "The bridge was closed by the police."
+          },
+          "items": [
+            {
+              "cue": "la mairie · construire · une école",
+              "t": "Une école a été construite par la mairie.",
+              "n": "A school was built by the town hall."
+            },
+            {
+              "cue": "le gouvernement · adopter · la réforme",
+              "t": "La réforme a été adoptée par le gouvernement.",
+              "n": "The reform was adopted by the government."
+            },
+            {
+              "cue": "présent · les journalistes · interroger · la ministre",
+              "t": "La ministre est interrogée par les journalistes.",
+              "n": "The minister is questioned by the journalists."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say he said he would come.",
+          "t": [
+            "Il a dit qu'il viendrait"
+          ]
+        },
+        {
+          "n": "Say they asked you whether you agreed.",
+          "t": [
+            "Ils m'ont demandé si j'étais d'accord",
+            "Ils nous ont demandé si nous étions d'accord",
+            "On m'a demandé si j'étais d'accord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l5",
+      "kind": "listening",
+      "title": "The local news",
+      "goal": "Understand a short radio news bulletin at natural speed.",
+      "phrases": [
+        {
+          "t": "Le projet a été adopté à une large majorité.",
+          "n": "The project was approved by a large majority."
+        },
+        {
+          "t": "Les opposants craignent une hausse des impôts.",
+          "n": "Opponents fear a tax increase."
+        },
+        {
+          "t": "Les travaux devraient durer deux ans.",
+          "n": "The works should last two years."
+        },
+        {
+          "t": "Place à la météo.",
+          "n": "Over to the weather."
+        }
+      ],
+      "story": {
+        "title": "The new swimming pool",
+        "intro": "A local radio bulletin in Liège, Belgium: the city council has voted on a new swimming pool. You hear the presenter, a reporter, a resident and the weather.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Présentatrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Bonsoir et bienvenue dans votre journal. À la une ce soir : Liège aura bientôt une nouvelle piscine.",
+            "n": "Good evening and welcome to the news. Top story tonight: Liège will soon have a new swimming pool."
+          },
+          {
+            "name": "Présentatrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Le projet a été adopté hier soir par le conseil communal, à une large majorité. Les détails avec Gérard Dumont.",
+            "n": "The project was approved last night by the city council, by a large majority. Details with Gérard Dumont."
+          },
+          {
+            "name": "Gérard Dumont",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Oui, bonsoir. La piscine sera construite sur un ancien site industriel, au bord de la Meuse. Les travaux devraient commencer au printemps et durer deux ans.",
+            "n": "Yes, good evening. The pool will be built on a former industrial site, on the banks of the Meuse. Works should start in spring and last two years."
+          },
+          {
+            "name": "Gérard Dumont",
+            "voice": "fr-BE-GerardNeural",
+            "t": "L'échevine des Sports a déclaré que la ville attendait ce projet depuis vingt ans. Mais les opposants craignent une hausse des impôts locaux.",
+            "n": "The alderwoman for sport said the city had been waiting twenty years for this project. But opponents fear a rise in local taxes."
+          },
+          {
+            "name": "Une habitante",
+            "voice": "fr-FR-BrigitteNeural",
+            "t": "Moi, je suis ravie. Mes enfants doivent prendre le bus pendant quarante minutes pour aller nager. Mais j'espère que les prix resteront raisonnables.",
+            "n": "Me, I'm delighted. My children have to take the bus for forty minutes to go swimming. But I hope prices will stay reasonable."
+          },
+          {
+            "name": "Gérard Dumont",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Le coût total est estimé à trente millions d'euros. Selon la ville, une partie serait financée par la Région wallonne.",
+            "n": "The total cost is estimated at thirty million euros. According to the city, part of it would reportedly be funded by the Walloon Region."
+          },
+          {
+            "name": "Présentatrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Merci, Gérard. Reste à savoir si le calendrier sera respecté. Et maintenant, place à la météo.",
+            "n": "Thank you, Gérard. It remains to be seen whether the schedule will be kept. And now, over to the weather."
+          },
+          {
+            "name": "Présentatrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Demain, de la pluie sur l'ensemble du pays, avec des températures entre huit et douze degrés. Retour du soleil dimanche.",
+            "n": "Tomorrow, rain across the whole country, with temperatures between eight and twelve degrees. The sun returns on Sunday."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qui a adopté le projet ?",
+            "n": "Who approved the project?",
+            "t": [
+              "Le conseil communal",
+              "Le conseil communal de Liège",
+              "La ville"
+            ]
+          },
+          {
+            "q": "Combien de temps les travaux devraient-ils durer ?",
+            "n": "How long should the works last?",
+            "t": [
+              "Deux ans",
+              "Ils devraient durer deux ans",
+              "Pendant deux ans"
+            ]
+          },
+          {
+            "q": "Que craignent les opposants ?",
+            "n": "What do opponents fear?",
+            "t": [
+              "Une hausse des impôts",
+              "Une hausse des impôts locaux",
+              "Que les impôts augmentent"
+            ]
+          },
+          {
+            "q": "Quel temps fera-t-il demain ?",
+            "n": "What will the weather be like tomorrow?",
+            "t": [
+              "Il va pleuvoir",
+              "Il pleuvra",
+              "De la pluie",
+              "Pluvieux"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u04-l6",
+      "kind": "roleplay",
+      "title": "A street interview",
+      "goal": "Give your opinion to a reporter — your choices shape the interview.",
+      "phrases": [
+        {
+          "t": "J'en ai entendu parler dans le journal.",
+          "n": "I heard about it in the paper."
+        },
+        {
+          "t": "Franchement, je ne suis pas très bien informé sur le sujet.",
+          "n": "Honestly, I'm not very well informed on the subject.",
+          "note": "informée for a woman"
+        },
+        {
+          "t": "La fermeture toucherait surtout les familles.",
+          "n": "The closure would hit families above all."
+        },
+        {
+          "t": "Je préférerais ne pas être cité nommément.",
+          "n": "I'd rather not be named.",
+          "note": "citée for a woman"
+        }
+      ],
+      "branch": {
+        "title": "Vox pop in Montréal",
+        "scene": "A local TV reporter stops you on a street in Montréal. The city plans to close your neighbourhood library.",
+        "name": "Antoine (journaliste)",
+        "voice": "fr-CA-AntoineNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Bonjour ! Antoine Gagnon, télé communautaire. On fait un vox pop sur la fermeture de la bibliothèque du quartier. Vous auriez deux minutes ?",
+            "n": "Hello! Antoine Gagnon, community TV. We're doing a vox pop on the closure of the neighbourhood library. Would you have two minutes?",
+            "choices": [
+              {
+                "t": "Oui, bien sûr. J'en ai entendu parler dans le journal.",
+                "n": "Yes, of course. I heard about it in the paper.",
+                "next": "opinion"
+              },
+              {
+                "t": "Non. Les journalistes, c'est tous des menteurs.",
+                "n": "No. Journalists are all liars.",
+                "next": "bad"
+              }
+            ]
+          },
+          "opinion": {
+            "t": "Parfait. La Ville affirme que la bibliothèque coûte trop cher. Qu'est-ce que vous en pensez ?",
+            "n": "Great. The city says the library costs too much. What do you think?",
+            "choices": [
+              {
+                "t": "À mon avis, la fermeture toucherait surtout les familles.",
+                "n": "In my opinion, the closure would hit families above all.",
+                "next": "families"
+              },
+              {
+                "t": "Franchement, je ne suis pas très bien informé sur le sujet.",
+                "n": "Honestly, I'm not very well informed on the subject.",
+                "next": "honest"
+              }
+            ]
+          },
+          "families": {
+            "t": "Pourquoi les familles en particulier ?",
+            "n": "Why families in particular?",
+            "choices": [
+              {
+                "t": "Parce que beaucoup d'enfants y font leurs devoirs après l'école.",
+                "n": "Because lots of children do their homework there after school.",
+                "next": "name"
+              },
+              {
+                "t": "Parce que la Ville veut vendre le terrain à un ami promoteur, tout le monde le sait.",
+                "n": "Because the city wants to sell the land to a developer friend, everybody knows that.",
+                "next": "rumour"
+              }
+            ]
+          },
+          "honest": {
+            "t": "Pas de problème. En deux mots, la Ville dit qu'elle économiserait deux millions par année. Ça vous paraît raisonnable ?",
+            "n": "No problem. In short, the city says it would save two million a year. Does that seem reasonable to you?",
+            "choices": [
+              {
+                "t": "Il faudrait savoir ce qu'on perdrait en échange.",
+                "n": "We'd need to know what we'd lose in exchange.",
+                "next": "name"
+              },
+              {
+                "t": "Ah, si c'est pour économiser, alors je suis d'accord.",
+                "n": "Oh, if it's to save money, then I agree.",
+                "next": "name"
+              }
+            ]
+          },
+          "name": {
+            "t": "Merci, c'est très clair. Est-ce que je peux mettre votre nom à l'écran ?",
+            "n": "Thanks, that's very clear. Can I put your name on screen?",
+            "choices": [
+              {
+                "t": "Oui, pas de problème.",
+                "n": "Yes, no problem.",
+                "next": "onair"
+              },
+              {
+                "t": "Je préférerais ne pas être cité nommément.",
+                "n": "I'd rather not be named.",
+                "next": "anon"
+              }
+            ]
+          },
+          "onair": {
+            "t": "Super ! Vous allez passer au bulletin de dix-huit heures.",
+            "n": "Great! You'll be on the six o'clock news.",
+            "end": "good",
+            "outcome": "You gave a clear, reasoned opinion — and you'll be on TV tonight."
+          },
+          "anon": {
+            "t": "Aucun souci, on garde ça anonyme. Merci beaucoup !",
+            "n": "No worries, we'll keep it anonymous. Thanks a lot!",
+            "end": "good",
+            "outcome": "You made a strong point and politely protected your privacy."
+          },
+          "rumour": {
+            "t": "Avez-vous des sources pour ça ? Je ne peux pas diffuser une accusation sans preuve. On va s'arrêter là.",
+            "n": "Do you have sources for that? I can't broadcast an accusation without proof. We'll stop there.",
+            "end": "bad",
+            "outcome": "Repeating an unverified rumour ended the interview — stick to facts and your own opinion."
+          },
+          "bad": {
+            "t": "D'accord… Bonne journée quand même.",
+            "n": "OK… Have a nice day anyway.",
+            "end": "bad",
+            "outcome": "Insulting the reporter meant your view wasn't heard at all."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you heard about it in the paper.",
+          "t": [
+            "J'en ai entendu parler dans le journal",
+            "J'en ai entendu parler dans les journaux",
+            "J'ai lu ça dans le journal"
+          ]
+        },
+        {
+          "n": "Say you'd rather not be named.",
+          "t": [
+            "Je préférerais ne pas être cité nommément",
+            "Je préférerais ne pas être citée nommément",
+            "Je préférerais ne pas être cité"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-l7",
+      "kind": "speaking",
+      "title": "Tell the news",
+      "goal": "Report a news story and discuss your media habits freely.",
+      "culture": {
+        "title": "La presse francophone",
+        "body": "Each francophone country has its own reference papers. In France, Le Monde, Le Figaro and Libération are the best-known national dailies, while regional papers such as Ouest-France have a very large readership. In Belgium, Le Soir and La Libre Belgique lead the French-language press; in Switzerland, Le Temps is the main quality daily of the Romandie. In Québec, Le Devoir, founded in Montréal in 1910, is known for in-depth analysis, and La Presse is now digital-only. Public broadcasters — Radio France, RTBF, RTS, Radio-Canada — are widely trusted, and TV5Monde and RFI reach francophones worldwide.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "J'ai lu un article intéressant l'autre jour.",
+          "n": "I read an interesting article the other day."
+        },
+        {
+          "t": "D'après l'article, le projet aurait été abandonné.",
+          "n": "According to the article, the project has reportedly been dropped.",
+          "note": "past conditional = unconfirmed"
+        },
+        {
+          "t": "Ce qui me préoccupe surtout, c'est la question du coût.",
+          "n": "What concerns me most is the question of cost."
+        },
+        {
+          "t": "Je vérifie toujours l'info dans plusieurs sources.",
+          "n": "I always check the news in several sources."
+        }
+      ],
+      "free": [
+        {
+          "n": "Report a news story you read or heard recently. Say where you found it, what happened and what someone said about it, using reported speech.",
+          "hint": "J'ai lu dans … que … Le ministre a déclaré que … D'après …, … Reste à savoir si …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            {
+              "label": "the source",
+              "any": [
+                "journal",
+                "article",
+                "radio",
+                "podcast",
+                "site",
+                "télé*",
+                "d'après",
+                "selon"
+              ]
+            },
+            {
+              "label": "reported speech",
+              "any": [
+                "a déclaré",
+                "a dit",
+                "a annoncé",
+                "affirme",
+                "a expliqué",
+                "il paraît"
+              ]
+            },
+            {
+              "label": "a passive or a news verb",
+              "any": [
+                "a été",
+                "ont été",
+                "sera",
+                "adopté*",
+                "construit*",
+                "fermé*",
+                "annulé*"
+              ]
+            }
+          ],
+          "model": "J'ai lu dans Le Soir que le pont principal de la ville avait été fermé à cause des inondations. Le bourgmestre a déclaré que les travaux de réparation dureraient au moins six mois. D'après les experts, le pont aurait dû être rénové depuis longtemps. Reste à savoir si le calendrier sera respecté."
+        },
+        {
+          "n": "Describe your media habits: how do you get your news, which sources do you trust, and how do you spot fake news?",
+          "hint": "Je m'informe surtout par … Je fais confiance à … Quand un titre est racoleur, je …",
+          "seconds": 60,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "your news sources",
+              "any": [
+                "podcast*",
+                "appli*",
+                "journal",
+                "journaux",
+                "radio",
+                "réseaux sociaux",
+                "télé*"
+              ]
+            },
+            {
+              "label": "judging reliability",
+              "any": [
+                "fiable",
+                "confiance",
+                "vérifie",
+                "source*",
+                "infox",
+                "fausse*",
+                "racoleur"
+              ]
+            }
+          ],
+          "model": "Je m'informe surtout par la radio le matin et par des applis. Je fais confiance aux médias publics, mais je vérifie toujours l'info dans plusieurs sources. Quand un titre est racoleur ou que la source ne me paraît pas fiable, je ne partage rien."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that according to the article, the project has reportedly been dropped.",
+          "t": [
+            "D'après l'article, le projet aurait été abandonné",
+            "Selon l'article, le projet aurait été abandonné"
+          ]
+        },
+        {
+          "n": "Say you always check the news in several sources.",
+          "t": [
+            "Je vérifie toujours l'info dans plusieurs sources",
+            "Je vérifie toujours l'information dans plusieurs sources",
+            "Je vérifie toujours les infos dans plusieurs sources"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: L'actualité",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

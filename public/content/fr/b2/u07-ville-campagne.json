@@ -1,0 +1,826 @@
+{
+  "id": "b2-u07",
+  "title": "Ville ou campagne ?",
+  "subtitle": "City, countryside & commuting",
+  "icon": "🏡",
+  "lessons": [
+    {
+      "id": "b2-u07-l1",
+      "title": "Finding a place to live",
+      "goal": "Describe what you're looking for, talk about the rental market and ask detailed questions at a viewing.",
+      "tip": {
+        "title": "Pièces, charges and the dossier",
+        "body": "French flats are counted in pièces: a trois-pièces (also T3) has a living room plus two bedrooms — kitchen and bathroom don't count. Rents are quoted charges comprises (service charges included) or hors charges. Landlords usually want a full dossier with payslips (fiches de paie). Bien desservi means well served by public transport. Pronunciation: loyer sounds like lwa-yé."
+      },
+      "phrases": [
+        {
+          "t": "On cherche un trois-pièces dans un quartier bien desservi.",
+          "n": "We're looking for a three-room flat in a neighbourhood with good transport links."
+        },
+        {
+          "t": "Est-ce que les charges sont comprises ?",
+          "n": "Are the service charges included?"
+        },
+        {
+          "t": "L'appartement a-t-il été rénové récemment ?",
+          "n": "Has the flat been renovated recently?"
+        },
+        {
+          "t": "À partir de quand le logement est-il disponible ?",
+          "n": "From when is the place available?"
+        },
+        {
+          "t": "Il faut fournir un dossier complet avec trois fiches de paie.",
+          "n": "You have to provide a complete file with three payslips."
+        },
+        {
+          "t": "Un balcon, ce serait bien, mais ce n'est pas indispensable.",
+          "n": "A balcony would be nice, but it's not essential."
+        },
+        {
+          "t": "Nous aimerions beaucoup prendre l'appartement.",
+          "n": "We'd very much like to take the flat."
+        }
+      ],
+      "dialogue": {
+        "title": "The flat viewing",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Leroy",
+            "t": "Bonjour, entrez. Voici le séjour, avec vue sur le parc.",
+            "n": "Hello, come in. This is the living room, with a view of the park."
+          },
+          {
+            "who": "you",
+            "t": "Il est très lumineux ! L'appartement a-t-il été rénové récemment ?",
+            "n": "It's very bright! Has the flat been renovated recently?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Leroy",
+            "t": "Oui, la cuisine et la salle de bains sont neuves. Le loyer est de neuf cents euros par mois.",
+            "n": "Yes, the kitchen and bathroom are new. The rent is nine hundred euros a month."
+          },
+          {
+            "who": "you",
+            "t": "Est-ce que les charges sont comprises ?",
+            "n": "Are the service charges included?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Leroy",
+            "t": "Non, il faut compter environ cent cinquante euros de plus.",
+            "n": "No, you need to allow about a hundred and fifty euros more."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. À partir de quand le logement est-il disponible ?",
+            "n": "OK. From when is the place available?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Leroy",
+            "t": "À partir du premier novembre. Mais il y a déjà beaucoup de candidats, et il faut fournir un dossier complet.",
+            "n": "From the first of November. But there are already a lot of applicants, and you have to provide a complete file."
+          },
+          {
+            "who": "you",
+            "t": "Nous aimerions beaucoup prendre l'appartement. J'ai apporté tout le dossier.",
+            "n": "We'd very much like to take the flat. I've brought the whole file."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask whether the service charges are included.",
+          "t": [
+            "Est-ce que les charges sont comprises",
+            "Les charges sont comprises",
+            "Les charges sont-elles comprises"
+          ]
+        },
+        {
+          "n": "Ask from when the place is available.",
+          "t": [
+            "À partir de quand le logement est-il disponible",
+            "À partir de quand le logement est disponible",
+            "À partir de quand est-ce que le logement est disponible"
+          ]
+        },
+        {
+          "n": "Say a balcony would be nice, but it's not essential.",
+          "t": [
+            "Un balcon, ce serait bien, mais ce n'est pas indispensable",
+            "Un balcon ce serait bien mais c'est pas indispensable",
+            "Un balcon serait bien, mais ce n'est pas indispensable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l2",
+      "title": "City versus countryside",
+      "goal": "Debate the pros and cons of city and country life and weigh up a decision together.",
+      "tip": {
+        "title": "alors que, au lieu de and manquer",
+        "body": "Alors que and tandis que contrast two situations: Alors qu'en ville on fait tout à pied, à la campagne on a besoin d'une voiture. Au lieu de + infinitive gives an alternative. Manquer works backwards from English: La vie culturelle me manquerait = I would miss cultural life. Pronunciation: the s of tandis is traditionally silent, though many speakers now pronounce it."
+      },
+      "phrases": [
+        {
+          "t": "Alors qu'en ville on fait tout à pied, à la campagne on a besoin d'une voiture.",
+          "n": "Whereas in town you do everything on foot, in the countryside you need a car."
+        },
+        {
+          "t": "À la campagne, les enfants auraient beaucoup plus d'espace pour jouer.",
+          "n": "In the countryside, the children would have much more space to play."
+        },
+        {
+          "t": "La vie culturelle me manquerait énormément.",
+          "n": "I'd miss cultural life enormously.",
+          "note": "X me manque = I miss X"
+        },
+        {
+          "t": "Au lieu de faire la navette tous les jours, je pourrais télétravailler plus souvent.",
+          "n": "Instead of commuting every day, I could work from home more often.",
+          "note": "faire la navette = to commute"
+        },
+        {
+          "t": "C'est calme, d'accord, mais à la longue je m'ennuierais.",
+          "n": "It's quiet, sure, but in the long run I'd get bored."
+        },
+        {
+          "t": "Pour être honnête, l'idée me tente bien.",
+          "n": "To be honest, the idea quite appeals to me."
+        },
+        {
+          "t": "Une petite ville bien desservie serait peut-être un bon compromis.",
+          "n": "A small town with good transport links might be a good compromise."
+        }
+      ],
+      "dialogue": {
+        "title": "Should we leave the city?",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Qu'est-ce que tu dirais de partir à la campagne ? Les loyers ici, c'est de la folie.",
+            "n": "What would you say to moving to the countryside? Rents here are crazy."
+          },
+          {
+            "who": "you",
+            "t": "Pour être honnête, l'idée me tente bien. À la campagne, les enfants auraient beaucoup plus d'espace pour jouer.",
+            "n": "To be honest, the idea quite appeals to me. In the countryside, the children would have much more space to play."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Justement ! Et puis c'est tellement calme.",
+            "n": "Exactly! And it's so quiet."
+          },
+          {
+            "who": "you",
+            "t": "C'est calme, d'accord, mais à la longue je m'ennuierais. La vie culturelle me manquerait énormément.",
+            "n": "It's quiet, sure, but in the long run I'd get bored. I'd miss cultural life enormously."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Et le boulot ? Tu aurais une heure de route tous les jours.",
+            "n": "And work? You'd have an hour's drive every day."
+          },
+          {
+            "who": "you",
+            "t": "Au lieu de faire la navette tous les jours, je pourrais télétravailler plus souvent.",
+            "n": "Instead of commuting every day, I could work from home more often."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Hum. Alors, qu'est-ce que tu proposes ?",
+            "n": "Hmm. So what do you suggest?"
+          },
+          {
+            "who": "you",
+            "t": "Une petite ville bien desservie serait peut-être un bon compromis.",
+            "n": "A small town with good transport links might be a good compromise."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Contrast: in town you do everything on foot, in the countryside you need a car.",
+          "t": [
+            "Alors qu'en ville on fait tout à pied, à la campagne on a besoin d'une voiture",
+            "Tandis qu'en ville on fait tout à pied, à la campagne on a besoin d'une voiture"
+          ]
+        },
+        {
+          "n": "Say you'd miss cultural life enormously.",
+          "t": [
+            "La vie culturelle me manquerait énormément",
+            "La vie culturelle me manquerait beaucoup"
+          ]
+        },
+        {
+          "n": "Suggest a small town with good transport links as a compromise.",
+          "t": [
+            "Une petite ville bien desservie serait peut-être un bon compromis",
+            "Une petite ville bien desservie serait un bon compromis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l3",
+      "title": "The daily commute",
+      "goal": "Talk about commuting, rush hour and delays.",
+      "tip": {
+        "title": "Navetteurs and heures de pointe",
+        "body": "Use mettre for journey times: Je mets une heure pour aller au travail. Rush hour is les heures de pointe; a packed train is bondé. In Belgium a commuter is commonly un navetteur; in France people often say faire la navette. In vingt minutes, the t of vingt is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je mets une heure pour aller au travail.",
+          "n": "It takes me an hour to get to work."
+        },
+        {
+          "t": "Aux heures de pointe, les trains sont bondés.",
+          "n": "At rush hour, the trains are packed."
+        },
+        {
+          "t": "Ce matin, le train avait encore vingt minutes de retard.",
+          "n": "This morning the train was twenty minutes late again."
+        },
+        {
+          "t": "Je fais du covoiturage avec une collègue.",
+          "n": "I car-share with a colleague."
+        },
+        {
+          "t": "Je suis navetteur, comme beaucoup de gens qui travaillent à Bruxelles.",
+          "n": "I'm a commuter, like lots of people who work in Brussels.",
+          "note": "navetteur: the usual word in Belgium; navetteuse for a woman"
+        }
+      ],
+      "dialogue": {
+        "title": "Late again, at the office in Brussels",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Salut ! Toi aussi, tu arrives en retard ?",
+            "n": "Hi! Are you late too?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, ce matin, le train avait encore vingt minutes de retard.",
+            "n": "Yes, this morning the train was twenty minutes late again."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Bienvenue au club ! Moi, je suis navetteur depuis dix ans : Namur–Bruxelles, tous les jours.",
+            "n": "Welcome to the club! I've been commuting for ten years: Namur to Brussels, every day."
+          },
+          {
+            "who": "you",
+            "t": "Et en plus, aux heures de pointe, les trains sont bondés.",
+            "n": "And on top of that, the trains are packed at rush hour."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say it takes you an hour to get to work.",
+          "t": [
+            "Je mets une heure pour aller au travail",
+            "Je mets une heure pour aller au boulot",
+            "J'ai une heure de trajet pour aller au travail"
+          ]
+        },
+        {
+          "n": "Say the trains are packed at rush hour.",
+          "t": [
+            "Aux heures de pointe, les trains sont bondés",
+            "Les trains sont bondés aux heures de pointe",
+            "Aux heures de pointe les trains sont pleins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l4",
+      "kind": "grammar",
+      "title": "Double pronouns: je le lui ai dit",
+      "goal": "Combine two object pronouns in the right order, including in the past and the imperative.",
+      "tip": {
+        "title": "The pronoun queue",
+        "body": "Two object pronouns before the verb line up in a fixed order: me/te/se/nous/vous → le/la/les → lui/leur → y → en. So: Il me les donne, Je le lui ai dit, Il y en a trois. In the passé composé, the past participle agrees with a preceding direct object: Je la lui ai donnée. In the positive imperative, direct object first, hyphens, and me becomes moi: Donne-les-moi ! In the negative, normal order: Ne me les donne pas. In speech, il y en a often becomes y en a."
+      },
+      "phrases": [
+        {
+          "t": "Les clés ? Je vous les donne demain.",
+          "n": "The keys? I'll give them to you tomorrow."
+        },
+        {
+          "t": "Le contrat ? L'agence nous l'a envoyé hier.",
+          "n": "The contract? The agency sent it to us yesterday."
+        },
+        {
+          "t": "Mon adresse ? Je la lui ai déjà donnée.",
+          "n": "My address? I've already given it to him.",
+          "note": "donnée agrees with la (l'adresse)"
+        },
+        {
+          "t": "Je le lui ai dit cent fois !",
+          "n": "I've told him a hundred times!"
+        },
+        {
+          "t": "Ton vélo, tu peux me le prêter ce week-end ?",
+          "n": "Your bike, can you lend it to me this weekend?"
+        },
+        {
+          "t": "Des boulangeries ? Il y en a trois dans le village.",
+          "n": "Bakeries? There are three in the village."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Change who gets the keys",
+          "base": {
+            "t": "Je les lui donne.",
+            "n": "I give them to him."
+          },
+          "items": [
+            {
+              "cue": "à toi",
+              "t": "Je te les donne.",
+              "n": "I give them to you."
+            },
+            {
+              "cue": "aux voisins",
+              "t": "Je les leur donne.",
+              "n": "I give them to them."
+            },
+            {
+              "cue": "passé composé · les clés",
+              "t": "Je les lui ai données.",
+              "n": "I gave them to him."
+            }
+          ]
+        },
+        {
+          "title": "Swap the object and the person",
+          "base": {
+            "t": "L'agence me l'a envoyé.",
+            "n": "The agency sent it (the contract) to me."
+          },
+          "items": [
+            {
+              "cue": "à Paul",
+              "t": "L'agence le lui a envoyé.",
+              "n": "The agency sent it to Paul."
+            },
+            {
+              "cue": "la facture",
+              "t": "L'agence me l'a envoyée.",
+              "n": "The agency sent it (the bill) to me."
+            }
+          ]
+        },
+        {
+          "title": "Imperative",
+          "base": {
+            "t": "Donne-le-moi.",
+            "n": "Give it to me."
+          },
+          "items": [
+            {
+              "cue": "les clés",
+              "t": "Donne-les-moi.",
+              "n": "Give them to me."
+            },
+            {
+              "cue": "à lui",
+              "t": "Donne-le-lui.",
+              "n": "Give it to him."
+            },
+            {
+              "cue": "négatif",
+              "t": "Ne me le donne pas.",
+              "n": "Don't give it to me."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Exasperated: say you've told him a hundred times (use two pronouns).",
+          "t": [
+            "Je le lui ai dit cent fois",
+            "Je lui ai dit cent fois",
+            "Je le lui ai déjà dit cent fois"
+          ]
+        },
+        {
+          "n": "Ask a friend to give them (the keys) to you.",
+          "t": [
+            "Donne-les-moi",
+            "Tu peux me les donner",
+            "Donne-moi les clés",
+            "Tu me les donnes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l5",
+      "kind": "listening",
+      "title": "From Montréal to the Eastern Townships",
+      "goal": "Follow a relaxed Québécois conversation about leaving the city.",
+      "phrases": [
+        {
+          "t": "Je m'ennuie de la ville.",
+          "n": "I miss the city.",
+          "note": "Québec: s'ennuyer de = to miss; in France, la ville me manque"
+        },
+        {
+          "t": "Il fallait prendre le char pour tout.",
+          "n": "You had to take the car for everything.",
+          "note": "char: informal Québécois for car"
+        },
+        {
+          "t": "On s'est installés dans un petit village.",
+          "n": "We settled in a small village."
+        },
+        {
+          "t": "Les routes ne sont pas toujours déneigées tout de suite.",
+          "n": "The roads aren't always cleared of snow right away."
+        }
+      ],
+      "story": {
+        "title": "Geneviève's new life",
+        "intro": "Mathieu asks his friend Geneviève how life has been since she left Montréal for a village in the Eastern Townships (les Cantons-de-l'Est).",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "name": "Mathieu",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Pis, Geneviève, ça fait combien de temps que t'as quitté Montréal ?",
+            "n": "So, Geneviève, how long has it been since you left Montréal?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Ça va faire un an le mois prochain. On s'est installés dans un petit village des Cantons-de-l'Est.",
+            "n": "It'll be a year next month. We settled in a small village in the Eastern Townships."
+          },
+          {
+            "name": "Mathieu",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Tu t'ennuies pas trop de la ville ?",
+            "n": "Don't you miss the city too much?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Au début, oui. Le dépanneur fermait à neuf heures, pis il fallait prendre le char pour tout.",
+            "n": "At first, yes. The corner store closed at nine, and you had to take the car for everything."
+          },
+          {
+            "name": "Mathieu",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Pis le travail ? Avant, t'avais une heure de trafic chaque matin.",
+            "n": "And work? Before, you had an hour of traffic every morning."
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Maintenant, je télétravaille quatre jours sur cinq. Mon patron me l'a proposé avant même que je le lui demande.",
+            "n": "Now I work from home four days out of five. My boss offered it to me before I even asked him."
+          },
+          {
+            "name": "Mathieu",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Chanceuse ! Pis tes voisins, ils sont comment ?",
+            "n": "Lucky you! And what are your neighbours like?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Super accueillants. La première fin de semaine, ils nous ont apporté une tarte au sucre.",
+            "n": "Really welcoming. The first weekend, they brought us a sugar pie."
+          },
+          {
+            "name": "Mathieu",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Tu regrettes rien, donc ?",
+            "n": "So you don't regret anything?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Juste une chose : l'hiver, les routes sont pas toujours déneigées tout de suite.",
+            "n": "Just one thing: in winter, the roads aren't always cleared of snow right away."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Depuis combien de temps Geneviève habite-t-elle à la campagne ?",
+            "n": "How long has Geneviève been living in the countryside?",
+            "t": [
+              "Presque un an",
+              "Un an",
+              "Bientôt un an"
+            ]
+          },
+          {
+            "q": "Combien de jours par semaine est-ce qu'elle télétravaille ?",
+            "n": "How many days a week does she work from home?",
+            "t": [
+              "Quatre jours",
+              "Quatre",
+              "Quatre jours sur cinq"
+            ]
+          },
+          {
+            "q": "Quel est le problème en hiver ?",
+            "n": "What's the problem in winter?",
+            "t": [
+              "Les routes ne sont pas toujours déneigées",
+              "Les routes ne sont pas déneigées tout de suite",
+              "Les routes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u07-l6",
+      "kind": "roleplay",
+      "title": "The laundry room rota",
+      "goal": "Smooth over a conflict with a neighbour and agree on a fair arrangement.",
+      "phrases": [
+        {
+          "t": "Je ne connaissais pas encore le règlement.",
+          "n": "I didn't know the house rules yet."
+        },
+        {
+          "t": "Je suis vraiment désolé, ça ne se reproduira pas.",
+          "n": "I'm really sorry, it won't happen again.",
+          "note": "désolée for a woman — same sound"
+        },
+        {
+          "t": "Vous pourriez me l'expliquer ?",
+          "n": "Could you explain it to me?"
+        },
+        {
+          "t": "Je peux vous laisser mon tour.",
+          "n": "I can let you have my turn."
+        }
+      ],
+      "branch": {
+        "title": "A knock at the door in Lausanne",
+        "scene": "You've just moved into a building in Lausanne. As in many Swiss buildings, tenants share a laundry room (la buanderie) on a fixed rota. This morning you used it — and your neighbour, Monsieur Rochat, is at your door.",
+        "name": "Monsieur Rochat",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Bonjour. Excusez-moi, c'est vous qui avez utilisé la buanderie ce matin ? C'était mon jour.",
+            "n": "Hello. Excuse me, was it you who used the laundry room this morning? It was my day.",
+            "choices": [
+              {
+                "t": "Oh, je suis vraiment désolé. Je ne connaissais pas encore le règlement.",
+                "n": "Oh, I'm really sorry. I didn't know the house rules yet.",
+                "next": "explain"
+              },
+              {
+                "t": "Et alors ? Les machines étaient libres.",
+                "n": "So what? The machines were free.",
+                "next": "bad"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Ce n'est pas grave, mais j'avais tout prévu pour aujourd'hui.",
+            "n": "It's not a big deal, but I'd planned everything for today.",
+            "choices": [
+              {
+                "t": "Je comprends. Le planning, vous pourriez me l'expliquer ?",
+                "n": "I understand. The rota — could you explain it to me?",
+                "next": "planning"
+              },
+              {
+                "t": "Pour me faire pardonner, je peux vous laisser mon tour.",
+                "n": "To make up for it, I can let you have my turn.",
+                "next": "swap"
+              }
+            ]
+          },
+          "planning": {
+            "t": "Bien sûr. Chaque appartement a un jour fixe. Le vôtre, c'est le jeudi.",
+            "n": "Of course. Each flat has a fixed day. Yours is Thursday.",
+            "choices": [
+              {
+                "t": "Merci. Alors cette semaine, je vous laisse mon jeudi.",
+                "n": "Thank you. So this week, I'll let you have my Thursday.",
+                "next": "swap"
+              }
+            ]
+          },
+          "swap": {
+            "t": "C'est très gentil. Alors je prends votre jeudi cette semaine.",
+            "n": "That's very kind. So I'll take your Thursday this week.",
+            "choices": [
+              {
+                "t": "Avec plaisir. Et si vous recevez un colis pendant votre absence, je peux le prendre pour vous.",
+                "n": "With pleasure. And if you get a parcel while you're out, I can take it in for you.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Volontiers ! Bienvenue dans l'immeuble, et à bientôt.",
+            "n": "Gladly! Welcome to the building, and see you soon.",
+            "end": "good",
+            "outcome": "You apologised, learned the rota and turned an awkward moment into a good start with your neighbour."
+          },
+          "bad": {
+            "t": "Dans ce cas, je vais en parler à la régie.",
+            "n": "In that case, I'll take it up with the property management agency.",
+            "end": "bad",
+            "outcome": "Your neighbour is going to the property manager. Apologise and ask about the rules — it costs nothing."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Apologise and promise it won't happen again.",
+          "t": [
+            "Je suis vraiment désolé, ça ne se reproduira pas",
+            "Je suis vraiment désolée, ça ne se reproduira pas",
+            "Désolé, ça ne se reproduira pas",
+            "Désolée, ça ne se reproduira pas"
+          ]
+        },
+        {
+          "n": "Ask a neighbour to explain it (the rota) to you, using a pronoun.",
+          "t": [
+            "Vous pourriez me l'expliquer",
+            "Pourriez-vous me l'expliquer",
+            "Vous pouvez me l'expliquer",
+            "Tu pourrais me l'expliquer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-l7",
+      "kind": "speaking",
+      "title": "Where would you rather live?",
+      "goal": "Argue for city or country life and describe your ideal daily routine.",
+      "culture": {
+        "title": "Paris, la province and the néo-ruraux",
+        "body": "In France, « la province » traditionally means everywhere outside Paris and its region — Parisians sometimes say it with a hint of condescension, and the regions tease them right back. After the 2020 lockdowns, the media talked a lot about an « exode urbain » and the néo-ruraux, city dwellers moving to villages and small towns, often to work remotely; researchers suggest the movement was real but more modest than the headlines. In Québec people often contrast Montréal with « les régions ».",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis un vrai citadin.",
+          "n": "I'm a real city person.",
+          "note": "une vraie citadine for a woman"
+        },
+        {
+          "t": "Je ne pourrais pas vivre loin de tout.",
+          "n": "I couldn't live in the middle of nowhere."
+        },
+        {
+          "t": "Le calme, ça n'a pas de prix.",
+          "n": "Peace and quiet is priceless."
+        }
+      ],
+      "free": [
+        {
+          "n": "City or countryside? Say where you would rather live and why. Compare the two and mention at least one drawback of your choice.",
+          "hint": "Je préférerais vivre … ; alors qu'en ville … ; à la campagne … ; au lieu de … ; … me manquerait ; à la longue …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            {
+              "label": "a place",
+              "any": [
+                "ville",
+                "campagne",
+                "village",
+                "banlieue",
+                "centre-ville",
+                "périphérie",
+                "quartier"
+              ]
+            },
+            {
+              "label": "contrast",
+              "any": [
+                "alors que",
+                "alors qu",
+                "tandis que",
+                "au lieu de",
+                "par contre",
+                "en revanche",
+                "mais"
+              ]
+            },
+            {
+              "label": "conditional",
+              "any": [
+                "préférerai*",
+                "aimerai*",
+                "pourrai*",
+                "serai*",
+                "aurai*",
+                "habiterai*",
+                "vivrai*",
+                "ennuierai*",
+                "manquerai*"
+              ]
+            }
+          ],
+          "model": "Moi, je préférerais vivre dans une petite ville. Alors qu'à Paris on paie des loyers énormes, en province on peut avoir une maison avec un jardin. Mais je ne pourrais pas vivre loin de tout : la vie culturelle me manquerait. Le seul inconvénient, c'est qu'il faudrait sans doute une voiture."
+        },
+        {
+          "n": "Describe your commute — or your ideal one. How do you get to work or school, how long does it take, and what would you change?",
+          "hint": "Je mets … pour aller … ; je prends le train / le métro ; aux heures de pointe … ; je fais du covoiturage ; au lieu de …, je pourrais télétravailler",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "transport",
+              "any": [
+                "train",
+                "métro",
+                "bus",
+                "tram",
+                "rer",
+                "voiture",
+                "vélo",
+                "covoiturage",
+                "à pied",
+                "navette"
+              ]
+            },
+            {
+              "label": "time",
+              "any": [
+                "heure*",
+                "minute*",
+                "trajet"
+              ]
+            },
+            {
+              "label": "a change",
+              "any": [
+                "télétravail*",
+                "déménag*",
+                "changer*",
+                "au lieu de",
+                "préférerai*",
+                "aimerai*",
+                "pourrai*"
+              ]
+            }
+          ],
+          "model": "Je mets environ une heure pour aller au travail. Je prends le RER, et aux heures de pointe, il est toujours bondé. Au lieu de faire la navette tous les jours, j'aimerais télétravailler deux jours par semaine. Sinon, je pourrais faire du covoiturage avec un collègue."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you couldn't live in the middle of nowhere.",
+          "t": [
+            "Je ne pourrais pas vivre loin de tout",
+            "Je pourrais pas vivre loin de tout"
+          ]
+        },
+        {
+          "n": "Say peace and quiet is priceless.",
+          "t": [
+            "Le calme, ça n'a pas de prix",
+            "Le calme n'a pas de prix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ville ou campagne ?",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

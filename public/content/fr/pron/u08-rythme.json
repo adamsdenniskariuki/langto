@@ -1,0 +1,244 @@
+{
+  "id": "pron-u08",
+  "level": "B2",
+  "title": "Le rythme",
+  "subtitle": "even syllables, final stress, linking",
+  "icon": "🥁",
+  "lessons": [
+    {
+      "id": "pron-u08-l1",
+      "kind": "pron",
+      "title": "Even syllables, final stress",
+      "goal": "Give each syllable its full weight and stress the end of each group.",
+      "tip": {
+        "title": "No word stress — group stress",
+        "body": "French is syllable-timed: every syllable gets roughly the same length and a full vowel — no English-style swallowed syllables. Words have no fixed stress of their own; instead the last syllable of each rhythmic group (a short chunk of meaning) is slightly longer. As a group grows, the stress moves to its new end: un ca-FÉ, un café CRÈME. Loanwords lose their English stress too: Ca-na-DA, un sand-WICH, le res-tau-RANT."
+      },
+      "phrases": [
+        {
+          "t": "Canada",
+          "n": "Canada",
+          "note": "Stress at the end: Ca-na-DA."
+        },
+        {
+          "t": "un sandwich au jambon",
+          "n": "a ham sandwich"
+        },
+        {
+          "t": "le restaurant",
+          "n": "the restaurant"
+        },
+        {
+          "t": "C'est une bonne idée.",
+          "n": "That's a good idea."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "un café",
+            "n": "a coffee"
+          },
+          "b": {
+            "t": "un café crème",
+            "n": "a white coffee"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Je pars.",
+            "n": "I'm leaving."
+          },
+          "b": {
+            "t": "Je pars demain.",
+            "n": "I'm leaving tomorrow."
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "l'hôtel",
+            "n": "the hotel"
+          },
+          "b": {
+            "t": "l'hôtel de ville",
+            "n": "the town hall"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "le train",
+            "n": "the train"
+          },
+          "b": {
+            "t": "le train de nuit",
+            "n": "the night train"
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "Bonjour.",
+            "n": "Hello."
+          },
+          "b": {
+            "t": "Bonjour, madame.",
+            "n": "Hello, madam."
+          }
+        },
+        {
+          "sound": "stress shift",
+          "a": {
+            "t": "J'arrive.",
+            "n": "I'm coming."
+          },
+          "b": {
+            "t": "J'arrive tout de suite.",
+            "n": "I'm coming right away."
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Canada",
+          "n": "Canada",
+          "mark": "Cana*da*"
+        },
+        {
+          "t": "un sandwich au jambon",
+          "n": "a ham sandwich",
+          "mark": "un sandwich au jam*bon*"
+        },
+        {
+          "t": "C'est une bonne idée.",
+          "n": "That's a good idea.",
+          "mark": "C'est une bonne i*dée*."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"That's a good idea.\"",
+          "t": [
+            "C'est une bonne idée",
+            "Bonne idée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u08-l2",
+      "kind": "pron",
+      "title": "Linking: enchaînement",
+      "goal": "Run words together the French way.",
+      "tip": {
+        "title": "Words flow into each other",
+        "body": "In French, a pronounced final consonant moves over to the next word if it starts with a vowel (enchaînement): il a → \"i-la\", avec elle → \"a-vè-kel\", une amie → \"u-na-mie\". Syllables like to be open (consonant + vowel), so speech sounds like one smooth chain. Long sentences are cut into groups: each non-final group ends slightly higher and longer, the last one falls. Because of linking, il a dit and il l'a dit differ only in a longer l."
+      },
+      "phrases": [
+        {
+          "t": "Il a une amie à Paris.",
+          "n": "He has a friend in Paris.",
+          "note": "\"i-la-u-na-mi-a-pa-ri\""
+        },
+        {
+          "t": "Avec elle ?",
+          "n": "With her?"
+        },
+        {
+          "t": "Elle arrive à huit heures.",
+          "n": "She's arriving at eight o'clock."
+        },
+        {
+          "t": "Le matin, je prends le bus, et le soir, je rentre à pied.",
+          "n": "In the morning I take the bus, and in the evening I walk home."
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "l / long l",
+          "a": {
+            "t": "Il a dit.",
+            "n": "He said."
+          },
+          "b": {
+            "t": "Il l'a dit.",
+            "n": "He said it."
+          }
+        },
+        {
+          "sound": "l / long l",
+          "a": {
+            "t": "Il a vu.",
+            "n": "He saw."
+          },
+          "b": {
+            "t": "Il l'a vu.",
+            "n": "He saw it."
+          }
+        },
+        {
+          "sound": "l / long l",
+          "a": {
+            "t": "Elle aime.",
+            "n": "She loves."
+          },
+          "b": {
+            "t": "Elle l'aime.",
+            "n": "She loves him/her."
+          }
+        },
+        {
+          "sound": "l / long l",
+          "a": {
+            "t": "Il apprend.",
+            "n": "He's learning."
+          },
+          "b": {
+            "t": "Il l'apprend.",
+            "n": "He's learning it."
+          }
+        },
+        {
+          "sound": "l / long l",
+          "a": {
+            "t": "Elle attend.",
+            "n": "She's waiting."
+          },
+          "b": {
+            "t": "Elle l'attend.",
+            "n": "She's waiting for him/her."
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Il a une amie à Paris.",
+          "n": "He has a friend in Paris.",
+          "mark": "Il a une a*mie* à Pa*ris*."
+        },
+        {
+          "t": "Elle arrive à huit heures.",
+          "n": "She's arriving at eight o'clock.",
+          "mark": "Elle arrive à huit *heures*."
+        },
+        {
+          "t": "Le matin, je prends le bus, et le soir, je rentre à pied.",
+          "n": "In the morning I take the bus, and in the evening I walk home.",
+          "mark": "Le ma*tin*, je prends le *bus*, et le *soir*, je rentre à *pied*.",
+          "note": "Four groups: rise, rise, rise — and fall on \"pied\"."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"She's arriving at eight o'clock.\"",
+          "t": [
+            "Elle arrive à huit heures"
+          ]
+        }
+      ]
+    }
+  ]
+}

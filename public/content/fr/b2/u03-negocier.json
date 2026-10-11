@@ -1,0 +1,880 @@
+{
+  "id": "b2-u03",
+  "title": "Négocier",
+  "subtitle": "Negotiating & finding compromises",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "b2-u03-l1",
+      "title": "Negotiating terms",
+      "goal": "Make offers, set conditions and push back politely in a negotiation.",
+      "tip": {
+        "title": "Softening with the conditional",
+        "body": "Blunt demands (Baissez le prix !) sound aggressive in French. The conditional softens them: Seriez-vous prêts à … ? Nous pourrions … Il faudrait que … Conditions use à condition que + subjunctive (à condition que la livraison soit faite) or à condition de + infinitive when the subject is the same. Et si + imparfait (Et si nous commandions … ?) is a gentle way to float an idea. Pronunciation: in pourrions and serions, the -ions ending is one syllable for most speakers: pou-rions, se-rions — but keep the i: it's what distinguishes pourrions (would) from pourrons (will)."
+      },
+      "phrases": [
+        {
+          "t": "Seriez-vous prêts à faire un effort sur le prix ?",
+          "n": "Would you be prepared to make an effort on the price?",
+          "note": "faire un effort = to give a discount"
+        },
+        {
+          "t": "Ce n'est pas tout à fait ce que nous avions en tête.",
+          "n": "That's not quite what we had in mind."
+        },
+        {
+          "t": "Nous pourrions accepter, à condition que la livraison soit faite dans les délais.",
+          "n": "We could accept, provided that delivery is made on time.",
+          "note": "à condition que + subjunctive"
+        },
+        {
+          "t": "Et si nous commandions une plus grande quantité ?",
+          "n": "What if we ordered a larger quantity?"
+        },
+        {
+          "t": "Malheureusement, j'ai les mains liées.",
+          "n": "Unfortunately, my hands are tied."
+        },
+        {
+          "t": "C'est notre dernière offre.",
+          "n": "That's our final offer."
+        },
+        {
+          "t": "Il faudrait que j'en parle d'abord à ma directrice.",
+          "n": "I'd have to discuss it with my manager first.",
+          "note": "à mon directeur for a male boss"
+        },
+        {
+          "t": "Dans ces conditions, nous serions d'accord.",
+          "n": "On those terms, we'd agree."
+        }
+      ],
+      "dialogue": {
+        "title": "Talking to a supplier",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Lambert (fournisseuse)",
+            "t": "Nous pouvons vous proposer le matériel à dix-huit euros la pièce.",
+            "n": "We can offer you the material at eighteen euros per item."
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas tout à fait ce que nous avions en tête.",
+            "n": "That's not quite what we had in mind."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert (fournisseuse)",
+            "t": "À quoi pensiez-vous, alors ?",
+            "n": "What were you thinking of, then?"
+          },
+          {
+            "who": "you",
+            "t": "Et si nous commandions une plus grande quantité ? Disons mille pièces.",
+            "n": "What if we ordered a larger quantity? Let's say a thousand items."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert (fournisseuse)",
+            "t": "Dans ce cas, nous pourrions descendre à seize euros. Avec un paiement sous dix jours.",
+            "n": "In that case, we could go down to sixteen euros. With payment within ten days."
+          },
+          {
+            "who": "you",
+            "t": "Nous pourrions accepter, à condition que la livraison soit faite dans les délais.",
+            "n": "We could accept, provided that delivery is made on time."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert (fournisseuse)",
+            "t": "Nous vous le garantissons. Alors, on est d'accord ?",
+            "n": "We guarantee it. So, do we have a deal?"
+          },
+          {
+            "who": "you",
+            "t": "Il faudrait que j'en parle d'abord à ma directrice. Mais dans ces conditions, nous serions d'accord.",
+            "n": "I'd have to discuss it with my manager first. But on those terms, we'd agree."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if they'd be prepared to make an effort on the price.",
+          "t": [
+            "Seriez-vous prêts à faire un effort sur le prix",
+            "Seriez-vous prêt à faire un effort sur le prix",
+            "Seriez-vous prête à faire un effort sur le prix",
+            "Est-ce que vous seriez prêts à faire un effort sur le prix"
+          ]
+        },
+        {
+          "n": "Say your hands are tied.",
+          "t": [
+            "Malheureusement, j'ai les mains liées",
+            "J'ai les mains liées",
+            "Malheureusement, nous avons les mains liées",
+            "Nous avons les mains liées"
+          ]
+        },
+        {
+          "n": "Say you'd have to discuss it with your manager first.",
+          "t": [
+            "Il faudrait que j'en parle d'abord à ma directrice",
+            "Il faudrait que j'en parle d'abord à mon directeur",
+            "Il faudrait que j'en parle d'abord à ma cheffe",
+            "Il faudrait que j'en parle d'abord à mon chef"
+          ]
+        },
+        {
+          "n": "Say that on those terms, you'd agree.",
+          "t": [
+            "Dans ces conditions, nous serions d'accord",
+            "Dans ces conditions, je serais d'accord",
+            "À ces conditions, nous serions d'accord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l2",
+      "title": "Reaching a compromise",
+      "goal": "Find common ground, make concessions and agree on a solution with a friend.",
+      "tip": {
+        "title": "Proposing with on and the imparfait",
+        "body": "Among friends, on replaces nous and makes proposals feel shared: On pourrait … Et si on + imparfait (Et si on coupait la poire en deux ?) is the classic friendly suggestion — the imparfait here has nothing to do with the past. Je veux bien means 'I'm happy to' (more willing than plain je veux). Watch the liaison in On_est d'accord and the silent final t in d'accord."
+      },
+      "phrases": [
+        {
+          "t": "Et si on coupait la poire en deux ?",
+          "n": "What if we met halfway?",
+          "note": "lit. 'cut the pear in two'"
+        },
+        {
+          "t": "Je suis prêt à faire des concessions.",
+          "n": "I'm ready to make concessions.",
+          "note": "prête for a woman"
+        },
+        {
+          "t": "On pourrait trouver un terrain d'entente.",
+          "n": "We could find some common ground."
+        },
+        {
+          "t": "Je veux bien, mais à une condition.",
+          "n": "I'm happy to, but on one condition."
+        },
+        {
+          "t": "Ça me va.",
+          "n": "That works for me."
+        },
+        {
+          "t": "Cette année, on fait comme ça, et l'année prochaine, c'est toi qui choisis.",
+          "n": "This year we'll do it this way, and next year you choose."
+        },
+        {
+          "t": "Ça me semble équitable.",
+          "n": "That seems fair to me."
+        },
+        {
+          "t": "Marché conclu !",
+          "n": "It's a deal!"
+        }
+      ],
+      "dialogue": {
+        "title": "Planning the holidays",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Fanny",
+            "t": "Cet été, je veux absolument faire du camping en Gaspésie. Deux semaines en pleine nature !",
+            "n": "This summer I really want to go camping in Gaspésie. Two weeks in the wild!"
+          },
+          {
+            "who": "you",
+            "t": "Deux semaines sous la tente ? Je suis prêt à faire des concessions, mais quand même…",
+            "n": "Two weeks in a tent? I'm ready to make concessions, but still…"
+          },
+          {
+            "who": "A",
+            "name": "Fanny",
+            "t": "Pis toi, tu voudrais faire quoi ?",
+            "n": "And you, what would you like to do? (pis = and (then), informal Québec)"
+          },
+          {
+            "who": "you",
+            "t": "Moi, je rêve de festivals à Montréal. Et si on coupait la poire en deux ?",
+            "n": "Me, I'm dreaming of festivals in Montreal. What if we met halfway?"
+          },
+          {
+            "who": "A",
+            "name": "Fanny",
+            "t": "Correct. Une semaine en Gaspésie, une semaine à Montréal ?",
+            "n": "OK. One week in Gaspésie, one week in Montreal? (correct = OK, fine (Québec))"
+          },
+          {
+            "who": "you",
+            "t": "Ça me va. Cette année, on fait comme ça, et l'année prochaine, c'est moi qui choisis.",
+            "n": "That works for me. This year we'll do it this way, and next year I choose."
+          },
+          {
+            "who": "A",
+            "name": "Fanny",
+            "t": "Ça me semble équitable. Tope là !",
+            "n": "That seems fair. Shake on it!"
+          },
+          {
+            "who": "you",
+            "t": "Marché conclu !",
+            "n": "It's a deal!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Suggest meeting halfway (use the pear idiom).",
+          "t": [
+            "Et si on coupait la poire en deux",
+            "On coupe la poire en deux",
+            "On pourrait couper la poire en deux"
+          ]
+        },
+        {
+          "n": "Say that works for you.",
+          "t": [
+            "Ça me va",
+            "Ça me va très bien",
+            "Ça me convient"
+          ]
+        },
+        {
+          "n": "Suggest finding some common ground.",
+          "t": [
+            "On pourrait trouver un terrain d'entente",
+            "Nous pourrions trouver un terrain d'entente",
+            "Trouvons un terrain d'entente"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l3",
+      "title": "Asking for a pay rise",
+      "goal": "Argue for a higher salary calmly and convincingly.",
+      "tip": {
+        "title": "Arguing with results",
+        "body": "In French salary talks, a well-structured argument is valued: start with facts (Depuis que je gère ce projet, …), then make a clear request with a figure in the conditional: Je souhaiterais une augmentation de huit pour cent. Rémunération sounds more formal than salaire. Pour cent: the t of cent is silent, but you hear it in liaison before a vowel (cent_euros)."
+      },
+      "phrases": [
+        {
+          "t": "J'aimerais vous parler de ma rémunération.",
+          "n": "I'd like to talk to you about my pay."
+        },
+        {
+          "t": "Depuis que je gère ce projet, nous avons réduit les coûts de quinze pour cent.",
+          "n": "Since I've been managing this project, we've cut costs by fifteen percent.",
+          "note": "depuis que + present"
+        },
+        {
+          "t": "J'ai pris en charge de nouvelles responsabilités.",
+          "n": "I've taken on new responsibilities."
+        },
+        {
+          "t": "Je souhaiterais une augmentation de huit pour cent.",
+          "n": "I'd like a pay rise of eight percent."
+        },
+        {
+          "t": "Une journée de télétravail supplémentaire serait-elle envisageable ?",
+          "n": "Would an extra day of working from home be possible?"
+        },
+        {
+          "t": "Mon salaire ne correspond plus vraiment à mon poste.",
+          "n": "My salary no longer really matches my position."
+        }
+      ],
+      "dialogue": {
+        "title": "Talking to the boss",
+        "voice": "fr-FR-AlainNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "M. Girard",
+            "t": "Vous vouliez me voir ? De quoi s'agit-il ?",
+            "n": "You wanted to see me? What's it about?"
+          },
+          {
+            "who": "you",
+            "t": "J'aimerais vous parler de ma rémunération. J'ai pris en charge de nouvelles responsabilités.",
+            "n": "I'd like to talk to you about my pay. I've taken on new responsibilities."
+          },
+          {
+            "who": "A",
+            "name": "M. Girard",
+            "t": "C'est vrai. Depuis que vous gérez ce projet, les coûts ont baissé. Vous pensiez à quoi, exactement ?",
+            "n": "That's true. Since you've been managing this project, costs have gone down. What exactly did you have in mind?"
+          },
+          {
+            "who": "you",
+            "t": "Je souhaiterais une augmentation de huit pour cent. Sinon, une journée de télétravail supplémentaire serait-elle envisageable ?",
+            "n": "I'd like a pay rise of eight percent. Otherwise, would an extra day of working from home be possible?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to talk to your boss about your pay.",
+          "t": [
+            "J'aimerais vous parler de ma rémunération",
+            "J'aimerais vous parler de mon salaire",
+            "Je voudrais vous parler de mon salaire",
+            "Je voudrais vous parler de ma rémunération"
+          ]
+        },
+        {
+          "n": "Say you've taken on new responsibilities.",
+          "t": [
+            "J'ai pris en charge de nouvelles responsabilités",
+            "J'ai pris de nouvelles responsabilités"
+          ]
+        },
+        {
+          "n": "Ask whether an extra day of working from home would be possible.",
+          "t": [
+            "Une journée de télétravail supplémentaire serait-elle envisageable",
+            "Une journée de télétravail supplémentaire serait envisageable",
+            "Est-ce qu'une journée de télétravail supplémentaire serait possible",
+            "Une journée de télétravail en plus, ce serait possible"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l4",
+      "kind": "grammar",
+      "title": "The past conditional",
+      "goal": "Talk about missed chances: J'aurais dû demander plus.",
+      "tip": {
+        "title": "aurais / serais + past participle",
+        "body": "The conditionnel passé = avoir or être in the conditional + past participle: j'aurais payé, nous serions partis. It expresses regrets and missed chances: J'aurais dû (I should have), J'aurais pu (I could have), Il aurait fallu (it would have been necessary). The past 'if' sentence is si + plus-que-parfait → conditionnel passé: Si vous aviez commandé plus tôt, vous auriez payé moins cher — never conditional after si. It also makes requests extra-polite: J'aurais voulu vous demander un service (I was hoping to ask you a favour). Pronunciation: j'aurais (conditional) ends in an open è sound, j'aurai (future) in a closed é — many speakers barely distinguish them, so context matters."
+      },
+      "phrases": [
+        {
+          "t": "J'aurais dû demander plus.",
+          "n": "I should have asked for more."
+        },
+        {
+          "t": "Si vous aviez commandé plus tôt, vous auriez payé moins cher.",
+          "n": "If you had ordered earlier, you would have paid less."
+        },
+        {
+          "t": "Nous aurions pu obtenir de meilleures conditions.",
+          "n": "We could have got better terms."
+        },
+        {
+          "t": "Sans votre aide, l'accord n'aurait jamais été signé.",
+          "n": "Without your help, the agreement would never have been signed."
+        },
+        {
+          "t": "Vous auriez pu me le dire avant !",
+          "n": "You could have told me before!"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the verb and subject",
+          "base": {
+            "t": "J'aurais dû demander plus.",
+            "n": "I should have asked for more."
+          },
+          "items": [
+            {
+              "cue": "pouvoir",
+              "t": "J'aurais pu demander plus.",
+              "n": "I could have asked for more."
+            },
+            {
+              "cue": "nous · devoir",
+              "t": "Nous aurions dû demander plus.",
+              "n": "We should have asked for more."
+            },
+            {
+              "cue": "vous · pouvoir",
+              "t": "Vous auriez pu demander plus.",
+              "n": "You could have asked for more."
+            },
+            {
+              "cue": "elle · vouloir",
+              "t": "Elle aurait voulu demander plus.",
+              "n": "She would have liked to ask for more."
+            }
+          ]
+        },
+        {
+          "title": "Present → past hypothesis",
+          "base": {
+            "t": "Si vous commandiez plus tôt, vous paieriez moins cher.",
+            "n": "If you ordered earlier, you would pay less."
+          },
+          "items": [
+            {
+              "cue": "passé",
+              "t": "Si vous aviez commandé plus tôt, vous auriez payé moins cher.",
+              "n": "If you had ordered earlier, you would have paid less."
+            },
+            {
+              "cue": "je · réserver",
+              "t": "Si j'avais réservé plus tôt, j'aurais payé moins cher.",
+              "n": "If I had booked earlier, I would have paid less."
+            },
+            {
+              "cue": "nous · partir · arriver à l'heure",
+              "t": "Si nous étions partis plus tôt, nous serions arrivés à l'heure.",
+              "n": "If we had left earlier, we would have arrived on time."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you should have asked for more.",
+          "t": [
+            "J'aurais dû demander plus",
+            "J'aurais dû demander davantage"
+          ]
+        },
+        {
+          "n": "Tell someone they could have told you before.",
+          "t": [
+            "Vous auriez pu me le dire avant",
+            "Tu aurais pu me le dire avant",
+            "T'aurais pu me le dire avant",
+            "Vous auriez pu me le dire plus tôt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l5",
+      "kind": "listening",
+      "title": "At the flea market",
+      "goal": "Follow a haggling conversation at natural speed.",
+      "phrases": [
+        {
+          "t": "Vous en voulez combien ?",
+          "n": "How much do you want for it?"
+        },
+        {
+          "t": "C'est un peu trop cher pour moi.",
+          "n": "That's a bit too expensive for me."
+        },
+        {
+          "t": "Je vous en donne trente euros.",
+          "n": "I'll give you thirty euros for it."
+        },
+        {
+          "t": "On dit trente-cinq ?",
+          "n": "Shall we say thirty-five?"
+        },
+        {
+          "t": "Vous me faites un prix ?",
+          "n": "Can you do me a good price?"
+        }
+      ],
+      "story": {
+        "title": "The old lamp",
+        "intro": "At the flea market on the Place du Jeu de Balle in Brussels, Léa haggles with a Belgian seller over an old lamp.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Bonjour ! Elle est jolie, cette lampe. Vous en voulez combien ?",
+            "n": "Hello! That lamp is pretty. How much do you want for it?"
+          },
+          {
+            "name": "M. Peeters",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Cinquante euros. Elle date des années soixante, c'est une vraie pièce d'époque.",
+            "n": "Fifty euros. It's from the sixties, a real period piece."
+          },
+          {
+            "name": "Léa",
+            "t": "C'est un peu trop cher pour moi. Et puis, il faudrait changer le fil électrique.",
+            "n": "That's a bit too expensive for me. And the electric cable would need changing."
+          },
+          {
+            "name": "M. Peeters",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Allez, pour vous, quarante.",
+            "n": "Come on, forty for you."
+          },
+          {
+            "name": "Léa",
+            "t": "Vous me faites un prix ? Je vous en donne trente euros.",
+            "n": "Can you do me a good price? I'll give you thirty euros for it."
+          },
+          {
+            "name": "M. Peeters",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Trente ? Non, là, je ne sais pas descendre si bas.",
+            "n": "Thirty? No, I can't go that low. (Belgian savoir = pouvoir (to be able to))"
+          },
+          {
+            "name": "Léa",
+            "t": "Dommage. J'aurais bien aimé l'offrir à ma sœur pour son anniversaire.",
+            "n": "Pity. I would have liked to give it to my sister for her birthday."
+          },
+          {
+            "name": "M. Peeters",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Bon, pour un cadeau… On dit trente-cinq, et je vous mets l'ampoule en plus.",
+            "n": "Well, for a present… Let's say thirty-five, and I'll throw in the bulb."
+          },
+          {
+            "name": "Léa",
+            "t": "Trente-cinq avec l'ampoule ? Marché conclu !",
+            "n": "Thirty-five with the bulb? It's a deal!"
+          },
+          {
+            "name": "M. Peeters",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Vous auriez pu l'avoir pour trente-deux, vous savez. Mais trop tard !",
+            "n": "You could have had it for thirty-two, you know. But too late!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "De quelle époque date la lampe ?",
+            "n": "What era is the lamp from?",
+            "t": [
+              "Des années soixante",
+              "Les années soixante",
+              "Années soixante"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il faudrait changer ?",
+            "n": "What would need changing?",
+            "t": [
+              "Le fil électrique",
+              "Le fil",
+              "Il faudrait changer le fil"
+            ]
+          },
+          {
+            "q": "Pour qui Léa veut-elle acheter la lampe ?",
+            "n": "Who does Léa want to buy the lamp for?",
+            "t": [
+              "Pour sa sœur",
+              "Sa sœur",
+              "Pour l'anniversaire de sa sœur"
+            ]
+          },
+          {
+            "q": "Combien Léa paie-t-elle à la fin ?",
+            "n": "How much does Léa pay in the end?",
+            "t": [
+              "Trente-cinq euros",
+              "Trente-cinq",
+              "Elle paie trente-cinq euros"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u03-l6",
+      "kind": "roleplay",
+      "title": "At the garage",
+      "goal": "Challenge a bill and negotiate a fair solution — your choices decide the price.",
+      "phrases": [
+        {
+          "t": "La facture est bien plus élevée que le devis.",
+          "n": "The bill is much higher than the estimate.",
+          "note": "un devis = a written estimate"
+        },
+        {
+          "t": "Pourquoi est-ce qu'on ne m'a pas prévenu avant ?",
+          "n": "Why wasn't I warned beforehand?",
+          "note": "prévenue for a woman"
+        },
+        {
+          "t": "Pourriez-vous me détailler la facture ?",
+          "n": "Could you go through the bill item by item?"
+        },
+        {
+          "t": "Je propose qu'on partage la différence.",
+          "n": "I suggest we split the difference."
+        }
+      ],
+      "branch": {
+        "title": "The unexpected bill",
+        "scene": "You're picking up your car from a garage in Lausanne after a service. The estimate was 400 Swiss francs — but the bill says 580.",
+        "name": "M. Rochat (garagiste)",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Voilà, votre voiture est prête. Ça fait cinq cent huitante francs.",
+            "n": "There you go, your car's ready. That comes to 580 francs.",
+            "choices": [
+              {
+                "t": "Attendez, la facture est bien plus élevée que le devis.",
+                "n": "Hang on, the bill is much higher than the estimate.",
+                "next": "why"
+              },
+              {
+                "t": "Quoi ? C'est de l'arnaque ! Je ne paie rien du tout.",
+                "n": "What? That's a rip-off! I'm not paying anything.",
+                "next": "bad"
+              }
+            ]
+          },
+          "why": {
+            "t": "Oui, on a dû changer les disques de frein en plus. Ils étaient complètement usés.",
+            "n": "Yes, we also had to replace the brake discs. They were completely worn.",
+            "choices": [
+              {
+                "t": "Pourquoi est-ce qu'on ne m'a pas prévenu avant ?",
+                "n": "Why wasn't I warned beforehand?",
+                "next": "sorry"
+              },
+              {
+                "t": "Pourriez-vous me détailler la facture ?",
+                "n": "Could you go through the bill item by item?",
+                "next": "items"
+              }
+            ]
+          },
+          "items": {
+            "t": "Volontiers. Quatre cents francs pour la révision, comme prévu, et cent huitante pour les disques.",
+            "n": "Gladly. Four hundred francs for the service, as agreed, and a hundred and eighty for the discs.",
+            "choices": [
+              {
+                "t": "Je vois. Mais vous auriez dû m'appeler avant.",
+                "n": "I see. But you should have called me first.",
+                "next": "sorry"
+              },
+              {
+                "t": "Ah d'accord, alors tout est clair.",
+                "n": "Oh OK, then everything's clear.",
+                "next": "pay"
+              }
+            ]
+          },
+          "sorry": {
+            "t": "Vous avez raison. Mon collègue aurait dû vous téléphoner. Qu'est-ce que vous proposez ?",
+            "n": "You're right. My colleague should have phoned you. What do you suggest?",
+            "choices": [
+              {
+                "t": "Je propose qu'on partage la différence.",
+                "n": "I suggest we split the difference.",
+                "next": "deal"
+              },
+              {
+                "t": "Je ne paie que le devis, sinon je vous laisse un mauvais avis en ligne.",
+                "n": "I'll only pay the estimate, or else I'll leave you a bad review online.",
+                "next": "small"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Donc nonante francs de moins… Bon, c'est correct. Ça fait quatre cent nonante francs.",
+            "n": "So ninety francs less… OK, that's fair. That comes to 490 francs.",
+            "end": "good",
+            "outcome": "You stayed calm, pointed out the missing phone call and split the extra cost."
+          },
+          "small": {
+            "t": "Les menaces, ça n'aide personne. Je vous fais vingt francs de rabais, pas plus.",
+            "n": "Threats don't help anyone. I'll give you twenty francs off, no more.",
+            "end": "good",
+            "outcome": "You got a small discount — but a calm compromise would have saved you more."
+          },
+          "pay": {
+            "t": "Parfait. Vous payez par carte ou en espèces ?",
+            "n": "Perfect. Are you paying by card or in cash?",
+            "end": "good",
+            "outcome": "You paid in full — fair enough, but you could have asked why nobody called you first."
+          },
+          "bad": {
+            "t": "Pas comme ça. Tant que la facture n'est pas réglée, la voiture reste ici.",
+            "n": "Not like that. As long as the bill isn't paid, the car stays here.",
+            "end": "bad",
+            "outcome": "Accusing the garage got you nowhere — ask for an explanation first."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask why you weren't warned beforehand.",
+          "t": [
+            "Pourquoi est-ce qu'on ne m'a pas prévenu avant",
+            "Pourquoi est-ce qu'on ne m'a pas prévenue avant",
+            "Pourquoi on ne m'a pas prévenu avant",
+            "Pourquoi on m'a pas prévenu avant"
+          ]
+        },
+        {
+          "n": "Suggest splitting the difference.",
+          "t": [
+            "Je propose qu'on partage la différence",
+            "Je propose que nous partagions la différence",
+            "Et si on coupait la poire en deux",
+            "On partage la différence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-l7",
+      "kind": "speaking",
+      "title": "Make your case",
+      "goal": "Negotiate and reflect on deals freely.",
+      "culture": {
+        "title": "Négocier en France et au Québec",
+        "body": "In France, negotiation is often an intellectual exercise: people like to argue their position, may open with firm demands and enjoy some debate before conceding — and decisions often need approval from higher up. In Québec, the style tends to be more direct, informal and pragmatic, closer to North American habits: people often switch to tu quickly and aim for a gagnant-gagnant (win-win) deal, while open confrontation is usually frowned upon. Shop prices are fixed in France, Belgium, Switzerland and Canada; haggling is normal at brocantes, vide-greniers and flea markets, and expected in many West African markets.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE",
+          "CH",
+          "SN"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ma proposition serait la suivante.",
+          "n": "My proposal would be the following."
+        },
+        {
+          "t": "En contrepartie, je serais prêt à prendre plus de responsabilités.",
+          "n": "In return, I'd be willing to take on more responsibility.",
+          "note": "prête for a woman"
+        },
+        {
+          "t": "Avec le recul, j'aurais négocié autrement.",
+          "n": "Looking back, I would have negotiated differently."
+        },
+        {
+          "t": "Nous sommes arrivés à un accord gagnant-gagnant.",
+          "n": "We reached a win-win agreement."
+        }
+      ],
+      "free": [
+        {
+          "n": "Ask your boss for a pay rise or an extra day of working from home. Mention your achievements, name a figure and offer something in return.",
+          "hint": "J'aimerais vous parler de … Depuis que je … Je souhaiterais … En contrepartie, je serais prêt(e) à …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a polite opening",
+              "any": [
+                "j'aimerais",
+                "je voudrais",
+                "je souhaiterais",
+                "vous parler"
+              ]
+            },
+            {
+              "label": "your achievements",
+              "any": [
+                "depuis que",
+                "responsabilit*",
+                "projet*",
+                "réduit",
+                "résultat*",
+                "client*"
+              ]
+            },
+            {
+              "label": "a concrete request",
+              "any": [
+                "pour cent",
+                "augmentation",
+                "salaire",
+                "rémunération",
+                "télétravail",
+                "prime"
+              ]
+            },
+            {
+              "label": "something in return",
+              "any": [
+                "en contrepartie",
+                "en échange",
+                "prêt à",
+                "prête à"
+              ]
+            }
+          ],
+          "model": "J'aimerais vous parler de ma rémunération. Depuis que je gère l'équipe, nous avons réduit les coûts de quinze pour cent et gagné trois nouveaux clients. Je souhaiterais donc une augmentation de huit pour cent. En contrepartie, je serais prêt à prendre plus de responsabilités dans le projet."
+        },
+        {
+          "n": "Tell a friend about a deal or purchase that didn't go well. What happened, and what should you have done differently?",
+          "hint": "J'ai acheté … Avec le recul, j'aurais dû … Si j'avais …, j'aurais …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "what happened",
+              "any": [
+                "acheté",
+                "négocié",
+                "commandé",
+                "payé",
+                "signé",
+                "loué"
+              ]
+            },
+            {
+              "label": "a regret",
+              "any": [
+                "j'aurais dû",
+                "j'aurais pu",
+                "avec le recul",
+                "il aurait fallu",
+                "regrett*"
+              ]
+            },
+            {
+              "label": "a past condition",
+              "any": [
+                "si j'avais",
+                "si j'étais",
+                "si nous avions",
+                "si on avait"
+              ]
+            }
+          ],
+          "model": "L'année dernière, j'ai acheté une voiture d'occasion. Avec le recul, j'aurais dû négocier beaucoup plus. Si j'avais fait vérifier les freins par un garagiste, j'aurais payé moins cher, parce qu'il a fallu les changer un mois plus tard."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that in return you'd be willing to take on more responsibility.",
+          "t": [
+            "En contrepartie, je serais prêt à prendre plus de responsabilités",
+            "En contrepartie, je serais prête à prendre plus de responsabilités",
+            "En échange, je serais prêt à prendre plus de responsabilités",
+            "En échange, je serais prête à prendre plus de responsabilités"
+          ]
+        },
+        {
+          "n": "Say that looking back, you would have negotiated differently.",
+          "t": [
+            "Avec le recul, j'aurais négocié autrement",
+            "Avec le recul, j'aurais négocié différemment",
+            "Rétrospectivement, j'aurais négocié autrement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Négocier",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

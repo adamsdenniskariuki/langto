@@ -1,0 +1,817 @@
+{
+  "id": "b2-u06",
+  "title": "Santé et société",
+  "subtitle": "Health systems, well-being & sport",
+  "icon": "🧘",
+  "lessons": [
+    {
+      "id": "b2-u06-l1",
+      "title": "Stress and well-being",
+      "goal": "Talk about stress, exhaustion and looking after yourself.",
+      "tip": {
+        "title": "Talking about how you really are",
+        "body": "Beyond ça va, French has vivid ways to describe exhaustion: être au bout du rouleau (at the end of your tether), être à bout, être sur les rotules (on your knees, informal). The word burn-out is common in France; in Québec you'll often hear épuisement professionnel. Prendre soin de soi means to look after yourself, and lever le pied (lift your foot off the pedal) means to slow down. Pronunciation: in rouleau, the eau is a closed o, like in beau."
+      },
+      "phrases": [
+        {
+          "t": "Je suis au bout du rouleau en ce moment.",
+          "n": "I'm at the end of my tether at the moment."
+        },
+        {
+          "t": "Je dors mal à cause du stress.",
+          "n": "I sleep badly because of stress."
+        },
+        {
+          "t": "Tu devrais lever le pied un peu.",
+          "n": "You should slow down a bit.",
+          "note": "lit. lift your foot (off the pedal)"
+        },
+        {
+          "t": "Il faut savoir dire non de temps en temps.",
+          "n": "You have to know how to say no now and then."
+        },
+        {
+          "t": "Ma collègue est en arrêt maladie pour épuisement professionnel.",
+          "n": "My colleague is on sick leave for burnout.",
+          "note": "un arrêt maladie = sick leave (with a doctor's note)"
+        },
+        {
+          "t": "Je prends davantage soin de moi depuis quelques mois.",
+          "n": "I've been looking after myself more for a few months."
+        },
+        {
+          "t": "La méditation m'aide à décrocher.",
+          "n": "Meditation helps me switch off.",
+          "note": "décrocher = to switch off (also: to pick up the phone)"
+        }
+      ],
+      "dialogue": {
+        "title": "A tough week",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "T'as l'air fatigué ces temps-ci. Est-ce que ça va, vraiment ?",
+            "n": "You look tired these days. Are you really OK?"
+          },
+          {
+            "who": "you",
+            "t": "Pas trop, non. Je suis au bout du rouleau en ce moment et je dors mal à cause du stress.",
+            "n": "Not really, no. I'm at the end of my tether at the moment and I sleep badly because of stress."
+          },
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "Fais attention. Une collègue à moi a fait un épuisement professionnel l'an passé.",
+            "n": "Be careful. A colleague of mine had a burnout last year."
+          },
+          {
+            "who": "you",
+            "t": "Je sais. Il faut savoir dire non de temps en temps, mais ce n'est pas facile.",
+            "n": "I know. You have to know how to say no now and then, but it's not easy."
+          },
+          {
+            "who": "A",
+            "name": "Marie-Ève",
+            "t": "Moi, je fais du yoga deux fois par semaine. Ça me fait un bien fou.",
+            "n": "I do yoga twice a week. It does me a world of good."
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai que la méditation m'aide à décrocher. Je devrais m'y remettre.",
+            "n": "It's true that meditation helps me switch off. I should get back into it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you're at the end of your tether at the moment.",
+          "t": [
+            "Je suis au bout du rouleau en ce moment",
+            "Je suis au bout du rouleau",
+            "Je suis à bout en ce moment"
+          ]
+        },
+        {
+          "n": "Tell a friend they should slow down a bit.",
+          "t": [
+            "Tu devrais lever le pied un peu",
+            "Tu devrais lever un peu le pied",
+            "Vous devriez lever le pied un peu"
+          ]
+        },
+        {
+          "n": "Say meditation helps you switch off.",
+          "t": [
+            "La méditation m'aide à décrocher",
+            "La méditation m'aide à déconnecter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l2",
+      "title": "Staying in shape",
+      "goal": "Talk about exercise, sport and healthy habits.",
+      "tip": {
+        "title": "Se remettre à, s'entraîner, être en forme",
+        "body": "Se remettre au sport means to take up sport again; s'y remettre is the short version (y = au sport). S'entraîner is to train, garder la forme is to stay fit, and avoir des courbatures is to have sore muscles the day after. Faire une randonnée is to go hiking — a favourite weekend activity in Switzerland and the Alps. Liaison tip: in des_étirements, the s links as a z."
+      },
+      "phrases": [
+        {
+          "t": "Je me suis remis au sport en janvier.",
+          "n": "I took up sport again in January.",
+          "note": "A woman says remise — the s is then pronounced."
+        },
+        {
+          "t": "Je m'entraîne trois fois par semaine.",
+          "n": "I train three times a week."
+        },
+        {
+          "t": "Je cours un peu avant d'aller au travail.",
+          "n": "I go for a little run before going to work."
+        },
+        {
+          "t": "Je n'ai pas le temps, c'est ma meilleure excuse !",
+          "n": "I don't have time — that's my best excuse!"
+        },
+        {
+          "t": "Après une bonne randonnée, je me sens beaucoup mieux.",
+          "n": "After a good hike, I feel much better."
+        },
+        {
+          "t": "N'oublie pas de faire des étirements, sinon tu auras des courbatures.",
+          "n": "Don't forget to stretch, or you'll have sore muscles.",
+          "note": "des courbatures = muscle aches after exercise"
+        },
+        {
+          "t": "Le plus dur, c'est de s'y tenir.",
+          "n": "The hardest part is sticking to it."
+        }
+      ],
+      "dialogue": {
+        "title": "Back to sport",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Salut ! Tu as l'air en pleine forme. Tu fais du sport ?",
+            "n": "Hi! You look in great shape. Are you doing sport?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je me suis remis au sport en janvier. Je m'entraîne trois fois par semaine.",
+            "n": "Yes, I took up sport again in January. I train three times a week."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Bravo ! Moi, je voudrais bien, mais je n'ai jamais le temps.",
+            "n": "Well done! I'd love to, but I never have time."
+          },
+          {
+            "who": "you",
+            "t": "Le plus dur, c'est de s'y tenir. Mais après une bonne randonnée, je me sens beaucoup mieux.",
+            "n": "The hardest part is sticking to it. But after a good hike, I feel much better."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Alors on monte au Salève dimanche ? Mais doucement, hein !",
+            "n": "So shall we go up the Salève on Sunday? But gently, OK!"
+          },
+          {
+            "who": "you",
+            "t": "D'accord. Et n'oublie pas de faire des étirements, sinon tu auras des courbatures.",
+            "n": "OK. And don't forget to stretch, or you'll have sore muscles."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you took up sport again in January.",
+          "t": [
+            "Je me suis remis au sport en janvier",
+            "Je me suis remise au sport en janvier"
+          ]
+        },
+        {
+          "n": "Say you train three times a week.",
+          "t": [
+            "Je m'entraîne trois fois par semaine"
+          ]
+        },
+        {
+          "n": "Say the hardest part is sticking to it.",
+          "t": [
+            "Le plus dur, c'est de s'y tenir",
+            "Le plus difficile, c'est de s'y tenir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l3",
+      "title": "The healthcare system",
+      "goal": "Discuss reimbursement, waiting times and access to care.",
+      "tip": {
+        "title": "Health-system vocabulary",
+        "body": "In France, l'Assurance maladie (part of la Sécurité sociale, often called la Sécu) reimburses part of your costs, and a complementary insurance — la mutuelle — usually covers much of the rest. What you still pay is le reste à charge. Se faire rembourser means to get reimbursed. A désert médical is an area with too few doctors. Pronunciation: in remboursé, the em is nasal (like an) and the final é is clear: ran-bour-sé."
+      },
+      "phrases": [
+        {
+          "t": "Cette consultation est-elle remboursée par la Sécu ?",
+          "n": "Is this consultation reimbursed by social security?"
+        },
+        {
+          "t": "Ma mutuelle prend en charge le reste.",
+          "n": "My complementary insurance covers the rest.",
+          "note": "prendre en charge = to cover (costs)"
+        },
+        {
+          "t": "Il faut attendre six mois pour voir un dermatologue.",
+          "n": "You have to wait six months to see a dermatologist."
+        },
+        {
+          "t": "Dans ma région, c'est un vrai désert médical.",
+          "n": "In my area, it's a real medical desert."
+        },
+        {
+          "t": "Le système est loin d'être parfait, mais tout le monde est couvert.",
+          "n": "The system is far from perfect, but everyone is covered."
+        },
+        {
+          "t": "Les urgences sont débordées.",
+          "n": "The emergency departments are overwhelmed.",
+          "note": "les urgences = A&E / ER"
+        },
+        {
+          "t": "La prévention coûte moins cher que les soins.",
+          "n": "Prevention costs less than treatment."
+        }
+      ],
+      "dialogue": {
+        "title": "Waiting for an appointment",
+        "voice": "fr-FR-AlainNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Philippe",
+            "t": "Alors, tu as enfin trouvé un dermatologue ?",
+            "n": "So, have you finally found a dermatologist?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais il faut attendre six mois pour le voir. Dans ma région, c'est un vrai désert médical.",
+            "n": "Yes, but I have to wait six months to see him. In my area, it's a real medical desert."
+          },
+          {
+            "who": "A",
+            "name": "Philippe",
+            "t": "Et c'est cher ? Il pratique des dépassements d'honoraires ?",
+            "n": "And is it expensive? Does he charge above the standard rate?",
+            "note": "dépassement d'honoraires = fee above the reimbursed rate"
+          },
+          {
+            "who": "you",
+            "t": "Un peu, mais ma mutuelle prend en charge le reste.",
+            "n": "A little, but my complementary insurance covers the rest."
+          },
+          {
+            "who": "A",
+            "name": "Philippe",
+            "t": "Franchement, notre système a de gros problèmes.",
+            "n": "Honestly, our system has big problems."
+          },
+          {
+            "who": "you",
+            "t": "Le système est loin d'être parfait, mais tout le monde est couvert. Ce n'est pas le cas partout.",
+            "n": "The system is far from perfect, but everyone is covered. That's not the case everywhere."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask whether this consultation is reimbursed by social security.",
+          "t": [
+            "Cette consultation est-elle remboursée par la Sécu",
+            "Est-ce que cette consultation est remboursée par la Sécu",
+            "Cette consultation est remboursée par la Sécu",
+            "Est-ce que cette consultation est remboursée par la Sécurité sociale"
+          ]
+        },
+        {
+          "n": "Say your complementary insurance covers the rest.",
+          "t": [
+            "Ma mutuelle prend en charge le reste",
+            "Ma mutuelle rembourse le reste"
+          ]
+        },
+        {
+          "n": "Say the system is far from perfect, but everyone is covered.",
+          "t": [
+            "Le système est loin d'être parfait, mais tout le monde est couvert",
+            "Le système n'est pas parfait, mais tout le monde est couvert"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l4",
+      "kind": "grammar",
+      "title": "Subjunctive after conjunctions",
+      "goal": "Use pour que, avant que, à condition que and sans que correctly.",
+      "tip": {
+        "title": "Conjunctions that trigger the subjunctive",
+        "body": "Some conjunctions always take the subjunctive: pour que (so that), afin que (in order that), avant que (before), à condition que (provided that), sans que (without), jusqu'à ce que (until), à moins que (unless). Je t'explique pour que tu comprennes. If both parts have the same subject, use a preposition + infinitive instead: Je fais du sport pour rester en forme (not pour que je reste). Same for avant de, sans and à condition de. Careful: après que takes the indicative in standard French, even though many speakers use the subjunctive. In careful speech, avant que and à moins que may add a ne that doesn't negate anything: avant qu'il ne soit trop tard."
+      },
+      "phrases": [
+        {
+          "t": "Le médecin m'a tout expliqué pour que je comprenne bien le traitement.",
+          "n": "The doctor explained everything so that I'd understand the treatment properly."
+        },
+        {
+          "t": "Prenez ce médicament avant que la douleur devienne trop forte.",
+          "n": "Take this medicine before the pain becomes too strong."
+        },
+        {
+          "t": "Vous pouvez reprendre le sport, à condition que vous y alliez doucement.",
+          "n": "You can resume sport, provided you take it easy."
+        },
+        {
+          "t": "Il est parti sans que personne s'en aperçoive.",
+          "n": "He left without anyone noticing."
+        },
+        {
+          "t": "Je fais du sport pour rester en forme.",
+          "n": "I do sport to stay in shape.",
+          "note": "same subject → pour + infinitive"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Pour que + subjunctive",
+          "base": {
+            "t": "Je vous donne une ordonnance pour que vous puissiez dormir.",
+            "n": "I'm giving you a prescription so that you can sleep."
+          },
+          "items": [
+            {
+              "cue": "tu · aller mieux",
+              "t": "Je te donne une ordonnance pour que tu ailles mieux.",
+              "n": "I'm giving you a prescription so that you get better."
+            },
+            {
+              "cue": "elle · guérir vite",
+              "t": "Je lui donne une ordonnance pour qu'elle guérisse vite.",
+              "n": "I'm giving her a prescription so that she recovers quickly."
+            },
+            {
+              "cue": "ils · être soulagés",
+              "t": "Je leur donne une ordonnance pour qu'ils soient soulagés.",
+              "n": "I'm giving them a prescription so that they get relief."
+            }
+          ]
+        },
+        {
+          "title": "Choose the conjunction",
+          "base": {
+            "t": "On peut commencer, à condition que tout le monde soit prêt.",
+            "n": "We can start, provided everyone is ready."
+          },
+          "items": [
+            {
+              "cue": "avant que · le médecin arriver",
+              "t": "On peut commencer avant que le médecin arrive.",
+              "n": "We can start before the doctor arrives."
+            },
+            {
+              "cue": "à moins que · tu avoir une meilleure idée",
+              "t": "On peut commencer, à moins que tu aies une meilleure idée.",
+              "n": "We can start, unless you have a better idea."
+            },
+            {
+              "cue": "sans que · les patients devoir attendre",
+              "t": "On peut commencer sans que les patients doivent attendre.",
+              "n": "We can start without the patients having to wait."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a patient (vous) they can resume sport, provided they take it easy.",
+          "t": [
+            "Vous pouvez reprendre le sport, à condition que vous y alliez doucement",
+            "Vous pouvez reprendre le sport à condition d'y aller doucement"
+          ]
+        },
+        {
+          "n": "Say you do sport to stay in shape.",
+          "t": [
+            "Je fais du sport pour rester en forme",
+            "Je fais du sport pour garder la forme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l5",
+      "kind": "listening",
+      "title": "Sport on prescription",
+      "goal": "Follow a podcast interview with a sports doctor.",
+      "phrases": [
+        {
+          "t": "C'est un remède comme un autre.",
+          "n": "It's a remedy like any other."
+        },
+        {
+          "t": "Il n'y a pas d'âge pour commencer.",
+          "n": "You're never too old to start."
+        },
+        {
+          "t": "L'essentiel, c'est la régularité.",
+          "n": "The key thing is regularity."
+        },
+        {
+          "t": "Allez-y progressivement.",
+          "n": "Build up gradually."
+        }
+      ],
+      "story": {
+        "title": "Exercise as medicine",
+        "intro": "A health podcast host talks to a sports doctor from Lausanne about prescribing physical activity.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Sophie",
+            "t": "Docteure Rochat, vous prescrivez du sport à vos patients, comme un médicament ?",
+            "n": "Dr Rochat, you prescribe sport to your patients, like a medicine?"
+          },
+          {
+            "name": "Anne Rochat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Tout à fait. Pour beaucoup de maladies chroniques, l'activité physique est un remède comme un autre.",
+            "n": "Absolutely. For many chronic illnesses, physical activity is a remedy like any other."
+          },
+          {
+            "name": "Sophie",
+            "t": "Mais il faut faire combien de sport pour que ce soit efficace ?",
+            "n": "But how much sport do you have to do for it to be effective?"
+          },
+          {
+            "name": "Anne Rochat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Pas besoin de courir un marathon ! Une demi-heure de marche rapide par jour, c'est déjà très bien. L'essentiel, c'est la régularité.",
+            "n": "No need to run a marathon! Half an hour of brisk walking a day is already very good. The key thing is regularity."
+          },
+          {
+            "name": "Sophie",
+            "t": "Et pour les personnes âgées ?",
+            "n": "And for older people?"
+          },
+          {
+            "name": "Anne Rochat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Il n'y a pas d'âge pour commencer. Mais je conseille toujours de faire un bilan avant qu'elles se lancent.",
+            "n": "You're never too old to start. But I always advise a check-up before they get going."
+          },
+          {
+            "name": "Sophie",
+            "t": "Un dernier conseil pour nos auditeurs ?",
+            "n": "One last piece of advice for our listeners?"
+          },
+          {
+            "name": "Anne Rochat",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Choisissez une activité qui vous plaît, sinon vous abandonnerez au bout de deux semaines. Et allez-y progressivement !",
+            "n": "Choose an activity you enjoy, or you'll give up after two weeks. And build up gradually!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce que la docteure Rochat prescrit à ses patients ?",
+            "n": "What does Dr Rochat prescribe to her patients?",
+            "t": [
+              "Du sport",
+              "De l'activité physique",
+              "Elle prescrit du sport"
+            ]
+          },
+          {
+            "q": "Combien de marche rapide recommande-t-elle par jour ?",
+            "n": "How much brisk walking does she recommend per day?",
+            "t": [
+              "Une demi-heure",
+              "Trente minutes",
+              "Une demi-heure par jour"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qui est essentiel, selon elle ?",
+            "n": "What is essential, according to her?",
+            "t": [
+              "La régularité",
+              "C'est la régularité"
+            ]
+          },
+          {
+            "q": "Pourquoi faut-il choisir une activité qui plaît ?",
+            "n": "Why should you choose an activity you enjoy?",
+            "t": [
+              "Sinon on abandonne",
+              "Pour ne pas abandonner",
+              "Sinon on abandonne au bout de deux semaines"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u06-l6",
+      "kind": "roleplay",
+      "title": "A walk-in clinic in Montréal",
+      "goal": "Get seen at a clinic — explain your problem and stay patient.",
+      "phrases": [
+        {
+          "t": "Je me suis fait mal au poignet en jouant au hockey.",
+          "n": "I hurt my wrist playing hockey."
+        },
+        {
+          "t": "Voici ma carte d'assurance maladie.",
+          "n": "Here's my health insurance card."
+        },
+        {
+          "t": "Combien de temps faut-il compter ?",
+          "n": "How long should I expect to wait?"
+        },
+        {
+          "t": "Est-ce que je pourrais revenir plus tard ?",
+          "n": "Could I come back later?"
+        }
+      ],
+      "branch": {
+        "title": "At the clinique sans rendez-vous",
+        "scene": "You live in Montréal and hurt your wrist playing hockey last night. You go to a walk-in clinic (clinique sans rendez-vous) on a busy Saturday morning.",
+        "name": "Réceptionniste",
+        "voice": "fr-CA-JeanNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Bonjour ! Qu'est-ce qui vous amène ce matin ?",
+            "n": "Hello! What brings you here this morning?",
+            "choices": [
+              {
+                "t": "Bonjour. Je me suis fait mal au poignet en jouant au hockey hier soir.",
+                "n": "Hello. I hurt my wrist playing hockey last night.",
+                "next": "card"
+              },
+              {
+                "t": "J'ai mal au poignet. Je veux voir un médecin tout de suite.",
+                "n": "My wrist hurts. I want to see a doctor right now.",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Tout le monde ici veut voir un médecin. On prend les patients par ordre de priorité.",
+            "n": "Everyone here wants to see a doctor. We take patients in order of priority.",
+            "choices": [
+              {
+                "t": "Excusez-moi, vous avez raison. Je me suis blessé au hockey hier soir.",
+                "n": "Sorry, you're right. I got hurt at hockey last night.",
+                "next": "card"
+              },
+              {
+                "t": "Je m'en fiche, je passe avant les autres !",
+                "n": "I don't care, I'm going before the others!",
+                "next": "bad"
+              }
+            ]
+          },
+          "card": {
+            "t": "D'accord. Avez-vous votre carte d'assurance maladie ?",
+            "n": "OK. Do you have your health insurance card?",
+            "choices": [
+              {
+                "t": "Oui, voici ma carte d'assurance maladie.",
+                "n": "Yes, here's my health insurance card.",
+                "next": "wait"
+              }
+            ]
+          },
+          "wait": {
+            "t": "Merci. Il y a beaucoup de monde ce matin, il faut compter à peu près trois heures.",
+            "n": "Thanks. It's very busy this morning; you should expect about three hours.",
+            "choices": [
+              {
+                "t": "Trois heures ? Est-ce que je pourrais revenir plus tard, à condition de garder ma place ?",
+                "n": "Three hours? Could I come back later, provided I keep my place?",
+                "next": "text"
+              },
+              {
+                "t": "Pas de problème, je vais attendre.",
+                "n": "No problem, I'll wait.",
+                "next": "waitok"
+              },
+              {
+                "t": "C'est inacceptable ! Vous êtes vraiment mal organisés.",
+                "n": "That's unacceptable! You're really badly organised.",
+                "next": "bad"
+              }
+            ]
+          },
+          "text": {
+            "t": "Oui, on peut vous texter une demi-heure avant que ce soit votre tour. Ça vous va ?",
+            "n": "Yes, we can text you half an hour before it's your turn. Does that suit you?",
+            "end": "good",
+            "outcome": "You keep your place and get a text before your turn — time for a coffee nearby."
+          },
+          "waitok": {
+            "t": "Parfait. Installez-vous, on va vous appeler. En attendant, gardez de la glace sur le poignet.",
+            "n": "Perfect. Have a seat, we'll call you. Meanwhile, keep ice on your wrist.",
+            "end": "good",
+            "outcome": "You're registered and will be seen by a doctor."
+          },
+          "bad": {
+            "t": "Écoutez, si vous continuez sur ce ton, je vais devoir vous demander de partir.",
+            "n": "Listen, if you keep talking like that, I'll have to ask you to leave.",
+            "end": "bad",
+            "outcome": "Losing your patience got you nowhere — explain what happened and ask politely about the wait."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you hurt your wrist playing hockey.",
+          "t": [
+            "Je me suis fait mal au poignet en jouant au hockey",
+            "Je me suis blessé au poignet en jouant au hockey",
+            "Je me suis blessée au poignet en jouant au hockey"
+          ]
+        },
+        {
+          "n": "Ask how long you should expect to wait.",
+          "t": [
+            "Combien de temps faut-il compter",
+            "Il faut compter combien de temps",
+            "Combien de temps est-ce qu'il faut attendre",
+            "Combien de temps faut-il attendre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-l7",
+      "kind": "speaking",
+      "title": "Health and society",
+      "goal": "Describe how you look after your health and argue for a health-policy idea.",
+      "culture": {
+        "title": "Sécu, mutuelle, RAMQ",
+        "body": "In France, the Assurance maladie (part of the Sécurité sociale created after the Second World War) reimburses part of medical costs; most people also have a mutuelle, a complementary insurance often provided through their employer, and pay with their carte Vitale. In Québec, the Régie de l'assurance maladie du Québec (RAMQ) runs the public health insurance plan: doctor visits and hospital care are covered when you show your health card, nicknamed the carte soleil because of the sun logo on it. Belgians join a mutualité (or mutuelle) for their compulsory health insurance, while in Switzerland everyone must buy basic health insurance (the LAMal) from a private insurer, so monthly premiums are a frequent topic of debate.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Pour que le système reste viable, il faudrait miser sur la prévention.",
+          "n": "For the system to remain viable, we'd need to bet on prevention."
+        },
+        {
+          "t": "L'accès aux soins devrait être le même pour tous.",
+          "n": "Access to care should be the same for everyone."
+        },
+        {
+          "t": "J'essaie de garder un bon équilibre entre travail et vie privée.",
+          "n": "I try to keep a good work-life balance."
+        },
+        {
+          "t": "La santé mentale est encore trop souvent taboue.",
+          "n": "Mental health is still too often taboo."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe how you look after your physical and mental health: sport, sleep, stress.",
+          "hint": "Je m'entraîne …, Je dors …, Pour décrocher, je …, J'essaie de garder un bon équilibre …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "exercise",
+              "any": [
+                "sport*",
+                "entraîn*",
+                "cour*",
+                "marche*",
+                "randonnée*",
+                "yoga",
+                "vélo",
+                "natation",
+                "nage"
+              ]
+            },
+            {
+              "label": "sleep or stress",
+              "any": [
+                "dor*",
+                "sommeil",
+                "stress*",
+                "fatigu*",
+                "décroch*",
+                "méditation",
+                "repos*"
+              ]
+            },
+            {
+              "label": "frequency",
+              "any": [
+                "fois par semaine",
+                "tous les jours",
+                "chaque jour",
+                "régulièrement",
+                "souvent",
+                "parfois",
+                "le week-end"
+              ]
+            }
+          ],
+          "model": "Je m'entraîne trois fois par semaine : je cours le matin et je fais du yoga le dimanche. Je dors assez mal quand je suis stressé, alors j'essaie de décrocher le soir et de ne plus regarder mon téléphone. Le plus dur, c'est de s'y tenir."
+        },
+        {
+          "n": "Propose one measure to improve the health system where you live, and say under what conditions it would work.",
+          "hint": "Il faudrait … pour que …, à condition que …, avant que …, la prévention, l'accès aux soins",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            {
+              "label": "a conjunction + subjunctive",
+              "any": [
+                "pour que",
+                "afin que",
+                "à condition que",
+                "avant que",
+                "sans que",
+                "à moins que",
+                "jusqu'à ce que"
+              ]
+            },
+            {
+              "label": "health-system vocabulary",
+              "any": [
+                "prévention",
+                "soins",
+                "médecin*",
+                "hôpita*",
+                "rembours*",
+                "urgences",
+                "mutuelle",
+                "assurance"
+              ]
+            },
+            {
+              "label": "a proposal",
+              "any": [
+                "il faudrait",
+                "on devrait",
+                "je propose",
+                "il faut",
+                "on pourrait",
+                "je suggère"
+              ]
+            }
+          ],
+          "model": "Il faudrait former beaucoup plus de médecins pour que les déserts médicaux disparaissent. On pourrait aussi miser sur la prévention, à condition que l'État la finance vraiment. Sinon, les urgences resteront débordées et il faudra attendre six mois avant qu'on puisse voir un spécialiste."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say access to care should be the same for everyone.",
+          "t": [
+            "L'accès aux soins devrait être le même pour tous",
+            "L'accès aux soins devrait être le même pour tout le monde"
+          ]
+        },
+        {
+          "n": "Say mental health is still too often taboo.",
+          "t": [
+            "La santé mentale est encore trop souvent taboue",
+            "La santé mentale est encore souvent taboue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Santé et société",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
