@@ -1,0 +1,1014 @@
+{
+  "id": "a2-u08",
+  "title": "Au téléphone",
+  "subtitle": "Calls, appointments & complaints",
+  "icon": "☎️",
+  "lessons": [
+    {
+      "id": "a2-u08-l1",
+      "title": "Making an appointment",
+      "goal": "Make, confirm and cancel an appointment on the phone.",
+      "tip": {
+        "title": "Allô and polite questions",
+        "body": "Allô (a-LO) is only used on the phone. Prendre rendez-vous = to make an appointment; in rendez-vous the z and the s are silent: ran-dé-VOU. Vous pourriez … ? (could you …?) sounds softer than Vous pouvez … ?. Say who you are with C'est … à l'appareil (… speaking). Times: neuf heures et demie, or neuf heures trente in schedules. End the call with Au revoir, bonne journée !"
+      },
+      "phrases": [
+        {
+          "t": "Allô, bonjour ! C'est Alex Martin à l'appareil.",
+          "n": "Hello! This is Alex Martin speaking."
+        },
+        {
+          "t": "Je voudrais prendre rendez-vous.",
+          "n": "I'd like to make an appointment."
+        },
+        {
+          "t": "Est-ce que mardi matin, c'est possible ?",
+          "n": "Is Tuesday morning possible?"
+        },
+        {
+          "t": "Ça me convient très bien.",
+          "n": "That suits me fine."
+        },
+        {
+          "t": "Vous pourriez répéter, s'il vous plaît ?",
+          "n": "Could you repeat that, please?"
+        },
+        {
+          "t": "Vous pourriez parler plus lentement ?",
+          "n": "Could you speak more slowly?"
+        },
+        {
+          "t": "Je dois annuler mon rendez-vous.",
+          "n": "I have to cancel my appointment."
+        },
+        {
+          "t": "C'est noté.",
+          "n": "That's noted. / I've written it down."
+        }
+      ],
+      "dialogue": {
+        "title": "Calling the hairdresser",
+        "voice": "fr-FR-YvetteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Lefèvre",
+            "t": "Salon Belle Coupe, bonjour !",
+            "n": "Belle Coupe hair salon, hello!"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour ! C'est Alex Martin à l'appareil. Je voudrais prendre rendez-vous.",
+            "n": "Hello! This is Alex Martin speaking. I'd like to make an appointment."
+          },
+          {
+            "who": "A",
+            "name": "Madame Lefèvre",
+            "t": "Avec plaisir. Quand est-ce que vous êtes disponible ?",
+            "n": "With pleasure. When are you available?"
+          },
+          {
+            "who": "you",
+            "t": "Est-ce que mardi matin, c'est possible ?",
+            "n": "Is Tuesday morning possible?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Lefèvre",
+            "t": "Mardi, j'ai encore de la place à neuf heures trente.",
+            "n": "On Tuesday I still have a slot at nine thirty."
+          },
+          {
+            "who": "you",
+            "t": "Pardon, vous pourriez répéter, s'il vous plaît ?",
+            "n": "Sorry, could you repeat that, please?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Lefèvre",
+            "t": "Bien sûr : mardi, à neuf heures et demie.",
+            "n": "Of course: Tuesday, at half past nine."
+          },
+          {
+            "who": "you",
+            "t": "Ça me convient très bien. Merci beaucoup !",
+            "n": "That suits me fine. Thank you very much!"
+          },
+          {
+            "who": "A",
+            "name": "Madame Lefèvre",
+            "t": "C'est noté. À mardi, au revoir !",
+            "n": "That's noted. See you on Tuesday, goodbye!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to make an appointment.",
+          "t": [
+            "Je voudrais prendre rendez-vous",
+            "J'aimerais prendre rendez-vous",
+            "Je voudrais prendre un rendez-vous"
+          ]
+        },
+        {
+          "n": "Ask the person to repeat that.",
+          "t": [
+            "Vous pourriez répéter s'il vous plaît",
+            "Vous pouvez répéter s'il vous plaît",
+            "Pourriez-vous répéter s'il vous plaît",
+            "Vous pourriez répéter",
+            "Vous pouvez répéter"
+          ]
+        },
+        {
+          "n": "Ask the person to speak more slowly.",
+          "t": [
+            "Vous pourriez parler plus lentement",
+            "Vous pouvez parler plus lentement",
+            "Pourriez-vous parler plus lentement",
+            "Vous pourriez parler plus lentement s'il vous plaît"
+          ]
+        },
+        {
+          "n": "Say you have to cancel your appointment.",
+          "t": [
+            "Je dois annuler mon rendez-vous",
+            "Je dois malheureusement annuler mon rendez-vous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-l2",
+      "title": "Problems and complaints",
+      "goal": "Report a problem, complain politely and ask for a solution.",
+      "tip": {
+        "title": "depuis + present tense",
+        "body": "To say how long a problem has lasted, French uses the present tense with depuis: Le chauffage ne marche plus depuis lundi (hasn't worked since Monday), J'attends depuis une heure (I've been waiting for an hour). Don't use the passé composé here. Ne … plus means 'no longer'. Start a complaint calmly with J'appelle parce que … and ask with Je voudrais … . In chauffage, au sounds like 'oh': cho-FAJ."
+      },
+      "phrases": [
+        {
+          "t": "J'appelle parce que j'ai un problème avec le chauffage.",
+          "n": "I'm calling because I have a problem with the heating."
+        },
+        {
+          "t": "Le chauffage ne marche plus depuis lundi.",
+          "n": "The heating hasn't worked since Monday."
+        },
+        {
+          "t": "J'ai acheté un ordinateur chez vous la semaine dernière.",
+          "n": "I bought a computer from you last week."
+        },
+        {
+          "t": "Il ne fonctionne pas bien.",
+          "n": "It doesn't work properly.",
+          "note": "il = l'ordinateur"
+        },
+        {
+          "t": "Je voudrais faire une réclamation.",
+          "n": "I'd like to make a complaint."
+        },
+        {
+          "t": "Quand est-ce qu'un technicien peut passer ?",
+          "n": "When can a technician come round?"
+        },
+        {
+          "t": "Je voudrais être remboursé.",
+          "n": "I'd like a refund.",
+          "note": "A woman writes remboursée — same sound."
+        },
+        {
+          "t": "J'attends depuis une heure.",
+          "n": "I've been waiting for an hour."
+        }
+      ],
+      "dialogue": {
+        "title": "No heating",
+        "voice": "fr-FR-YvesNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Monsieur Garnier",
+            "t": "Agence Garnier, bonjour !",
+            "n": "Garnier agency, hello!"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour ! J'appelle parce que j'ai un problème avec le chauffage.",
+            "n": "Hello! I'm calling because I have a problem with the heating."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Garnier",
+            "t": "Ah bon ? Qu'est-ce qui se passe ?",
+            "n": "Oh really? What's happening?"
+          },
+          {
+            "who": "you",
+            "t": "Le chauffage ne marche plus depuis lundi. Il fait très froid dans l'appartement.",
+            "n": "The heating hasn't worked since Monday. It's very cold in the flat."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Garnier",
+            "t": "Je suis désolé. Vous avez vérifié la chaudière ?",
+            "n": "I'm sorry. Have you checked the boiler?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais elle ne fonctionne pas. Quand est-ce qu'un technicien peut passer ?",
+            "n": "Yes, but it isn't working. When can a technician come round?"
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Garnier",
+            "t": "Je pense qu'il peut passer demain matin, entre huit heures et dix heures.",
+            "n": "I think he can come round tomorrow morning, between eight and ten."
+          },
+          {
+            "who": "you",
+            "t": "Très bien, je suis chez moi demain matin. Merci beaucoup !",
+            "n": "Very good, I'm at home tomorrow morning. Thank you very much!"
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Garnier",
+            "t": "Je vous en prie. Bonne journée !",
+            "n": "You're welcome. Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you're calling because you have a problem with the heating.",
+          "t": [
+            "J'appelle parce que j'ai un problème avec le chauffage",
+            "J'ai un problème avec le chauffage",
+            "J'appelle parce que j'ai un problème de chauffage"
+          ]
+        },
+        {
+          "n": "Say the heating hasn't worked since Monday.",
+          "t": [
+            "Le chauffage ne marche plus depuis lundi",
+            "Le chauffage marche plus depuis lundi",
+            "Le chauffage ne fonctionne plus depuis lundi"
+          ]
+        },
+        {
+          "n": "Ask when a technician can come round.",
+          "t": [
+            "Quand est-ce qu'un technicien peut passer",
+            "Quand est-ce qu'un technicien peut venir",
+            "Un technicien peut passer quand"
+          ]
+        },
+        {
+          "n": "Say you've been waiting for an hour.",
+          "t": [
+            "J'attends depuis une heure",
+            "Ça fait une heure que j'attends"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-l3",
+      "title": "Who's calling?",
+      "goal": "Ask for someone, leave a message and give your number.",
+      "tip": {
+        "title": "C'est de la part de qui ?",
+        "body": "Key phone phrases: C'est de la part de qui ? (Who's calling?), Ne quittez pas (Hold the line — literally 'don't leave'), Je vous la passe (I'll put you through to her; le for him). Phone numbers are said in pairs: zéro six, douze, trente-quatre… To spell your name, learn the tricky letters: e sounds like 'uh', i like 'ee', g like 'zhay' and j like 'zhee'."
+      },
+      "phrases": [
+        {
+          "t": "Est-ce que je pourrais parler à Madame Dubois ?",
+          "n": "Could I speak to Ms Dubois?"
+        },
+        {
+          "t": "C'est de la part de qui ?",
+          "n": "Who's calling?"
+        },
+        {
+          "t": "Ne quittez pas, je vous la passe.",
+          "n": "Hold the line, I'll put you through to her."
+        },
+        {
+          "t": "Elle n'est pas là pour le moment.",
+          "n": "She isn't here at the moment."
+        },
+        {
+          "t": "Vous voulez laisser un message ?",
+          "n": "Would you like to leave a message?"
+        },
+        {
+          "t": "Vous pouvez lui dire de me rappeler ?",
+          "n": "Can you tell her to call me back?"
+        },
+        {
+          "t": "Mon numéro, c'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+          "n": "My number is 06 12 34 56 78."
+        },
+        {
+          "t": "Excusez-moi, je me suis trompé de numéro.",
+          "n": "Sorry, I've got the wrong number.",
+          "note": "A woman writes trompée — same sound."
+        }
+      ],
+      "dialogue": {
+        "title": "Calling an office",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Société Lambert, bonjour !",
+            "n": "Lambert company, hello!"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour ! Est-ce que je pourrais parler à Madame Dubois ?",
+            "n": "Hello! Could I speak to Ms Dubois?"
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "C'est de la part de qui ?",
+            "n": "Who's calling?"
+          },
+          {
+            "who": "you",
+            "t": "De la part d'Alex Martin.",
+            "n": "Alex Martin."
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Ne quittez pas… Désolée, elle n'est pas là pour le moment. Vous voulez laisser un message ?",
+            "n": "Hold the line… Sorry, she isn't here at the moment. Would you like to leave a message?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Vous pouvez lui dire de me rappeler ?",
+            "n": "Yes. Can you tell her to call me back?"
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "Bien sûr. Quel est votre numéro ?",
+            "n": "Of course. What's your number?"
+          },
+          {
+            "who": "you",
+            "t": "C'est le zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+            "n": "It's 06 12 34 56 78."
+          },
+          {
+            "who": "A",
+            "name": "Réceptionniste",
+            "t": "C'est noté. Elle vous rappelle cet après-midi.",
+            "n": "That's noted. She'll call you back this afternoon."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if you could speak to Ms Dubois.",
+          "t": [
+            "Est-ce que je pourrais parler à Madame Dubois",
+            "Je pourrais parler à Madame Dubois",
+            "Pourrais-je parler à Madame Dubois",
+            "Je voudrais parler à Madame Dubois"
+          ]
+        },
+        {
+          "n": "Ask who is calling.",
+          "t": [
+            "C'est de la part de qui",
+            "De la part de qui"
+          ]
+        },
+        {
+          "n": "Ask if they can tell her to call you back.",
+          "t": [
+            "Vous pouvez lui dire de me rappeler",
+            "Est-ce que vous pouvez lui dire de me rappeler",
+            "Vous pourriez lui dire de me rappeler",
+            "Pouvez-vous lui dire de me rappeler"
+          ]
+        },
+        {
+          "n": "Apologise: you've got the wrong number.",
+          "t": [
+            "Excusez-moi je me suis trompé de numéro",
+            "Excusez-moi je me suis trompée de numéro",
+            "Je me suis trompé de numéro",
+            "Pardon je me suis trompé de numéro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-l4",
+      "kind": "grammar",
+      "title": "le, la, les — lui, leur",
+      "goal": "Replace people with direct and indirect object pronouns.",
+      "tip": {
+        "title": "Direct and indirect object pronouns",
+        "body": "Direct object (no à): le, la, l', les — Je rappelle Marc → Je le rappelle. Indirect object (à + person): lui (to him or her), leur (to them) — Je téléphone à Marc → Je lui téléphone. Trap for English speakers: appeler takes a direct object (je l'appelle) but téléphoner à takes an indirect one (je lui téléphone); dire à, parler à, écrire à and envoyer à also use lui/leur. The pronoun goes before the verb (Je ne lui téléphone pas), or before the infinitive: Je vais le rappeler. Me, te, nous, vous work for both."
+      },
+      "phrases": [
+        {
+          "t": "Je le rappelle demain.",
+          "n": "I'll call him back tomorrow."
+        },
+        {
+          "t": "Je l'appelle ce soir.",
+          "n": "I'll call her this evening.",
+          "note": "l' = le or la before a vowel"
+        },
+        {
+          "t": "Je lui téléphone tout de suite.",
+          "n": "I'll phone him straight away."
+        },
+        {
+          "t": "Je leur envoie un message.",
+          "n": "I'm sending them a message."
+        },
+        {
+          "t": "Je vais la rappeler plus tard.",
+          "n": "I'm going to call her back later."
+        }
+      ],
+      "drills": [
+        {
+          "title": "le, la, l', les",
+          "base": {
+            "t": "Je le rappelle demain.",
+            "n": "I'll call him back tomorrow."
+          },
+          "items": [
+            {
+              "cue": "Julie",
+              "t": "Je la rappelle demain.",
+              "n": "I'll call Julie back tomorrow."
+            },
+            {
+              "cue": "mes parents",
+              "t": "Je les rappelle demain.",
+              "n": "I'll call my parents back tomorrow."
+            },
+            {
+              "cue": "Julie · appeler ce soir",
+              "t": "Je l'appelle ce soir.",
+              "n": "I'll call Julie this evening."
+            }
+          ]
+        },
+        {
+          "title": "lui, leur",
+          "base": {
+            "t": "Je lui téléphone ce soir.",
+            "n": "I'll phone him this evening."
+          },
+          "items": [
+            {
+              "cue": "mes parents",
+              "t": "Je leur téléphone ce soir.",
+              "n": "I'll phone my parents this evening."
+            },
+            {
+              "cue": "Paul · envoyer un message",
+              "t": "Je lui envoie un message ce soir.",
+              "n": "I'll send Paul a message this evening."
+            },
+            {
+              "cue": "mes collègues · écrire",
+              "t": "Je leur écris ce soir.",
+              "n": "I'll write to my colleagues this evening."
+            }
+          ]
+        },
+        {
+          "title": "With aller + infinitive",
+          "base": {
+            "t": "Je vais le rappeler.",
+            "n": "I'm going to call him back."
+          },
+          "items": [
+            {
+              "cue": "Marie",
+              "t": "Je vais la rappeler.",
+              "n": "I'm going to call Marie back."
+            },
+            {
+              "cue": "Marie · téléphoner",
+              "t": "Je vais lui téléphoner.",
+              "n": "I'm going to phone Marie."
+            },
+            {
+              "cue": "les voisins · parler",
+              "t": "Je vais leur parler.",
+              "n": "I'm going to talk to the neighbours."
+            },
+            {
+              "cue": "ne … pas",
+              "t": "Je ne vais pas le rappeler.",
+              "n": "I'm not going to call him back."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'll phone him straight away.",
+          "t": [
+            "Je lui téléphone tout de suite",
+            "Je vais lui téléphoner tout de suite"
+          ]
+        },
+        {
+          "n": "Say you're going to call her back later.",
+          "t": [
+            "Je vais la rappeler plus tard",
+            "Je la rappelle plus tard",
+            "Je la rappellerai plus tard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-l5",
+      "kind": "listening",
+      "title": "Messages on your voicemail",
+      "goal": "Understand a voicemail about a changed appointment and a message from a friend.",
+      "phrases": [
+        {
+          "t": "Ce message est pour Monsieur Martin.",
+          "n": "This message is for Mr Martin."
+        },
+        {
+          "t": "Nous devons déplacer votre rendez-vous.",
+          "n": "We have to move your appointment."
+        },
+        {
+          "t": "Merci de nous rappeler.",
+          "n": "Please call us back."
+        },
+        {
+          "t": "Envoie-moi un texto.",
+          "n": "Send me a text."
+        }
+      ],
+      "story": {
+        "title": "Two new messages",
+        "intro": "You listen to your voicemail: one message from the dentist's surgery, one from your friend Thomas.",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "name": "Messagerie",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Vous avez deux nouveaux messages. Premier message :",
+            "n": "You have two new messages. First message:"
+          },
+          {
+            "name": "Secrétaire",
+            "t": "Bonjour, ici le cabinet du docteur Roux, dentiste.",
+            "n": "Hello, this is Dr Roux's dental surgery."
+          },
+          {
+            "name": "Secrétaire",
+            "t": "Ce message est pour Monsieur Alex Martin.",
+            "n": "This message is for Mr Alex Martin."
+          },
+          {
+            "name": "Secrétaire",
+            "t": "Malheureusement, nous devons déplacer votre rendez-vous de jeudi.",
+            "n": "Unfortunately we have to move your Thursday appointment."
+          },
+          {
+            "name": "Secrétaire",
+            "t": "Est-ce que vous pourriez venir vendredi à dix heures ?",
+            "n": "Could you come on Friday at ten?"
+          },
+          {
+            "name": "Secrétaire",
+            "t": "Merci de nous rappeler avant demain midi. Au revoir !",
+            "n": "Please call us back before noon tomorrow. Goodbye!"
+          },
+          {
+            "name": "Messagerie",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Message suivant :",
+            "n": "Next message:"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Salut Alex, c'est Thomas ! Ce soir, on va au cinéma avec Inès.",
+            "n": "Hi Alex, it's Thomas! Tonight we're going to the cinema with Inès."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Le film commence à vingt heures. Tu viens avec nous ?",
+            "n": "The film starts at eight p.m. Are you coming with us?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Rappelle-moi ou envoie-moi un texto. À plus !",
+            "n": "Call me back or send me a text. See you!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qui a laissé le premier message ?",
+            "n": "Who left the first message?",
+            "t": [
+              "Le cabinet du docteur Roux",
+              "Le dentiste",
+              "Le cabinet du dentiste",
+              "La secrétaire du dentiste",
+              "Le docteur Roux"
+            ]
+          },
+          {
+            "q": "Quand est-ce qu'Alex peut aller chez le dentiste ?",
+            "n": "When can Alex go to the dentist's?",
+            "t": [
+              "Vendredi à dix heures",
+              "Vendredi",
+              "Vendredi matin",
+              "Le vendredi à dix heures"
+            ]
+          },
+          {
+            "q": "Avant quand est-ce qu'il doit rappeler ?",
+            "n": "By when does he have to call back?",
+            "t": [
+              "Avant demain midi",
+              "Demain midi",
+              "Avant midi demain",
+              "Demain"
+            ]
+          },
+          {
+            "q": "Où vont Thomas et Inès ce soir ?",
+            "n": "Where are Thomas and Inès going tonight?",
+            "t": [
+              "Au cinéma",
+              "Ils vont au cinéma"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u08-l6",
+      "kind": "roleplay",
+      "title": "Moving an appointment",
+      "goal": "Call the dentist's surgery and move your appointment.",
+      "phrases": [
+        {
+          "t": "Je voudrais déplacer mon rendez-vous.",
+          "n": "I'd like to move my appointment."
+        },
+        {
+          "t": "Je ne suis pas disponible ce jour-là.",
+          "n": "I'm not available that day."
+        },
+        {
+          "t": "Est-ce que l'après-midi, c'est possible ?",
+          "n": "Is the afternoon possible?"
+        },
+        {
+          "t": "Lundi, ça vous irait ?",
+          "n": "Would Monday suit you?"
+        }
+      ],
+      "branch": {
+        "title": "Calling the surgery",
+        "scene": "You can't make your Thursday appointment at Dr Roux's dental surgery, so you call to change it.",
+        "name": "Monsieur Petit (cabinet)",
+        "voice": "fr-FR-MauriceNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Cabinet du docteur Roux, bonjour !",
+            "n": "Dr Roux's surgery, hello!",
+            "choices": [
+              {
+                "t": "Bonjour, c'est Alex Martin. Je voudrais déplacer mon rendez-vous.",
+                "n": "Hello, this is Alex Martin. I'd like to move my appointment.",
+                "next": "when"
+              },
+              {
+                "t": "Allô ? C'est qui ?",
+                "n": "Hello? Who's that?",
+                "next": "who"
+              }
+            ]
+          },
+          "who": {
+            "t": "Ici le cabinet dentaire du docteur Roux. Je peux vous aider ?",
+            "n": "This is Dr Roux's dental surgery. Can I help you?",
+            "choices": [
+              {
+                "t": "Pardon ! Je voudrais déplacer mon rendez-vous.",
+                "n": "Sorry! I'd like to move my appointment.",
+                "next": "when"
+              },
+              {
+                "t": "Ah, je me suis trompé de numéro. Salut !",
+                "n": "Oh, I've got the wrong number. Bye!",
+                "next": "bad"
+              }
+            ]
+          },
+          "when": {
+            "t": "Bien sûr. Votre rendez-vous est quand ?",
+            "n": "Of course. When is your appointment?",
+            "choices": [
+              {
+                "t": "Jeudi à neuf heures, mais je ne suis pas disponible ce jour-là.",
+                "n": "Thursday at nine, but I'm not available that day.",
+                "next": "newdate"
+              },
+              {
+                "t": "Pardon ? Vous pourriez répéter, s'il vous plaît ?",
+                "n": "Sorry? Could you repeat that, please?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Bien sûr. Quel jour est votre rendez-vous ?",
+            "n": "Of course. Which day is your appointment?",
+            "choices": [
+              {
+                "t": "Jeudi à neuf heures.",
+                "n": "Thursday at nine.",
+                "next": "newdate"
+              }
+            ]
+          },
+          "newdate": {
+            "t": "Lundi à dix heures et demie, ça vous irait ?",
+            "n": "Would Monday at half past ten suit you?",
+            "choices": [
+              {
+                "t": "Oui, ça me convient très bien.",
+                "n": "Yes, that suits me fine.",
+                "next": "good"
+              },
+              {
+                "t": "Malheureusement non. Est-ce que l'après-midi, c'est possible ?",
+                "n": "Unfortunately not. Is the afternoon possible?",
+                "next": "afternoon"
+              }
+            ]
+          },
+          "afternoon": {
+            "t": "Lundi à quinze heures, c'est encore libre.",
+            "n": "Monday at three p.m. is still free.",
+            "choices": [
+              {
+                "t": "Parfait, merci beaucoup !",
+                "n": "Perfect, thank you very much!",
+                "next": "good"
+              },
+              {
+                "t": "Pardon, quinze heures ou seize heures ?",
+                "n": "Sorry, three or four p.m.?",
+                "next": "confirm"
+              }
+            ]
+          },
+          "confirm": {
+            "t": "Quinze heures, c'est-à-dire trois heures de l'après-midi.",
+            "n": "Fifteen hundred, that is three in the afternoon.",
+            "choices": [
+              {
+                "t": "D'accord, ça me convient. Merci !",
+                "n": "OK, that suits me. Thank you!",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "C'est noté. À lundi, au revoir !",
+            "n": "That's noted. See you on Monday, goodbye!",
+            "end": "good",
+            "outcome": "You moved your appointment to Monday."
+          },
+          "bad": {
+            "t": "Euh… au revoir.",
+            "n": "Er… goodbye.",
+            "end": "bad",
+            "outcome": "You hung up — your appointment is still on Thursday. When a place answers with its name (Cabinet du docteur Roux), you've got the right number."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to move your appointment.",
+          "t": [
+            "Je voudrais déplacer mon rendez-vous",
+            "J'aimerais déplacer mon rendez-vous",
+            "Je voudrais changer mon rendez-vous",
+            "Je voudrais décaler mon rendez-vous"
+          ]
+        },
+        {
+          "n": "Ask if the afternoon is possible.",
+          "t": [
+            "Est-ce que l'après-midi c'est possible",
+            "L'après-midi c'est possible",
+            "C'est possible l'après-midi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-l7",
+      "kind": "speaking",
+      "title": "Leave a voicemail",
+      "goal": "Leave a clear phone message for 40 seconds.",
+      "culture": {
+        "title": "Allô ? Phones across the francophonie",
+        "body": "In France people usually answer with Allô ? or Allô, oui ?, and businesses give their name plus bonjour. It's polite to say who you are straight away: Bonjour, c'est Alex Martin. A mobile phone is un portable in France, un GSM in Belgium and un cellulaire (or un cell) in Québec; in Switzerland you may still hear the older word natel, though portable is common. A text is un texto or un SMS. Numbers are read in pairs: zéro six, douze, trente-quatre…",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je vous appelle au sujet de mon rendez-vous.",
+          "n": "I'm calling you about my appointment."
+        },
+        {
+          "t": "Vous pouvez me rappeler sur mon portable ?",
+          "n": "Can you call me back on my mobile?"
+        },
+        {
+          "t": "Mon GSM ne marche plus.",
+          "n": "My mobile isn't working any more.",
+          "note": "Belgium: GSM; France: portable; Québec: cellulaire"
+        },
+        {
+          "t": "Merci d'avance et bonne journée !",
+          "n": "Thanks in advance and have a nice day!"
+        }
+      ],
+      "free": [
+        {
+          "n": "Leave a voicemail: say who you are, that you can't come to an appointment and why, suggest a new time and ask for a call back.",
+          "hint": "Bonjour, c'est …, je vous appelle au sujet de …, malheureusement je ne peux pas venir … parce que …, est-ce que … c'est possible ?, vous pourriez me rappeler ?",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "who you are",
+              "any": [
+                "c'est",
+                "je m'appelle",
+                "ici",
+                "à l'appareil",
+                "mon nom"
+              ]
+            },
+            {
+              "label": "the appointment and a reason",
+              "any": [
+                "rendez-vous",
+                "parce que",
+                "malheureusement",
+                "désolé*",
+                "malade",
+                "travail*",
+                "annuler",
+                "déplacer"
+              ]
+            },
+            {
+              "label": "a new day or time",
+              "any": [
+                "lundi",
+                "mardi",
+                "mercredi",
+                "jeudi",
+                "vendredi",
+                "samedi",
+                "heure*",
+                "demain",
+                "matin",
+                "après-midi",
+                "semaine prochaine"
+              ]
+            },
+            {
+              "label": "a polite request",
+              "any": [
+                "rappel*",
+                "pourriez",
+                "pouvez",
+                "s'il vous plaît",
+                "merci d'avance"
+              ]
+            }
+          ],
+          "model": "Bonjour, c'est Alex Martin. Je vous appelle au sujet de mon rendez-vous de jeudi. Malheureusement, je ne peux pas venir parce que je travaille. Est-ce que vendredi après-midi, c'est possible ? Vous pourriez me rappeler sur mon portable ? Merci d'avance et bonne journée !"
+        },
+        {
+          "n": "Call a shop to complain: say what you bought and when, what the problem is and since when, and what you would like.",
+          "hint": "J'ai acheté … chez vous …, il/elle ne marche plus depuis …, je voudrais être remboursé(e) / un échange …",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "what you bought",
+              "any": [
+                "acheté",
+                "ordinateur",
+                "téléphone",
+                "portable",
+                "machine",
+                "télé*",
+                "appareil"
+              ]
+            },
+            {
+              "label": "the problem",
+              "any": [
+                "marche",
+                "fonctionne",
+                "problème",
+                "cassé*",
+                "réclamation"
+              ]
+            },
+            {
+              "label": "since when",
+              "any": [
+                "depuis"
+              ]
+            },
+            {
+              "label": "what you want",
+              "any": [
+                "rembours*",
+                "échange*",
+                "réparer",
+                "technicien",
+                "voudrais"
+              ]
+            }
+          ],
+          "model": "Bonjour, j'ai acheté un ordinateur chez vous la semaine dernière. Il ne marche plus depuis lundi. Je voudrais être remboursé ou avoir un échange, s'il vous plaît."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'll call back later.",
+          "t": [
+            "Je rappellerai plus tard",
+            "Je rappelle plus tard",
+            "Je vais rappeler plus tard",
+            "Je vous rappelle plus tard"
+          ]
+        },
+        {
+          "n": "End a phone call politely.",
+          "t": [
+            "Au revoir bonne journée",
+            "Merci au revoir",
+            "Merci beaucoup au revoir",
+            "Merci et bonne journée",
+            "Au revoir et bonne journée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Au téléphone",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "a2-test",
+      "kind": "test",
+      "title": "A2 speaking test",
+      "goal": "Pass to earn your A2 badge and unlock B1.",
+      "tip": {
+        "title": "You can do this",
+        "body": "You've talked about your weekend, travel, health, home, work, plans, clothes and phone calls. Speak in full sentences, take a breath before you answer, and don't worry about small mistakes — being understood is what counts. Bon courage !"
+      }
+    }
+  ]
+}

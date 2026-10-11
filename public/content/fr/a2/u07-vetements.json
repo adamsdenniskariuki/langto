@@ -1,0 +1,1006 @@
+{
+  "id": "a2-u07",
+  "title": "Les vêtements",
+  "subtitle": "Clothes, sizes & comparisons",
+  "icon": "👗",
+  "lessons": [
+    {
+      "id": "a2-u07-l1",
+      "title": "In the clothes shop",
+      "goal": "Ask for clothes in a shop, try them on and say if they fit.",
+      "tip": {
+        "title": "Ça me va: talking about fit",
+        "body": "French uses aller (to go) for 'fit' and 'suit': Ça me va (it fits / suits me), Ce pull te va bien (that jumper suits you). Clothes size is la taille — Je fais du 40, said du quarante; shoe size is la pointure. Object pronouns go before the verb: Je peux l'essayer ? (l' = it). Essayer is é-sé-YÉ: the final -er sounds like é."
+      },
+      "phrases": [
+        {
+          "t": "Je cherche une veste.",
+          "n": "I'm looking for a jacket."
+        },
+        {
+          "t": "Vous l'avez en bleu ?",
+          "n": "Do you have it in blue?"
+        },
+        {
+          "t": "Quelle taille faites-vous ?",
+          "n": "What size are you?",
+          "note": "taille = clothes size, pointure = shoe size"
+        },
+        {
+          "t": "Je fais du quarante.",
+          "n": "I'm a size forty.",
+          "note": "faire du + size"
+        },
+        {
+          "t": "Est-ce que je peux l'essayer ?",
+          "n": "Can I try it on?"
+        },
+        {
+          "t": "Où sont les cabines d'essayage ?",
+          "n": "Where are the fitting rooms?"
+        },
+        {
+          "t": "Elle est un peu trop petite.",
+          "n": "It's a bit too small.",
+          "note": "elle = la veste"
+        },
+        {
+          "t": "Ce pull te va bien.",
+          "n": "That jumper suits you."
+        }
+      ],
+      "dialogue": {
+        "title": "Finding a jacket",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Vendeuse",
+            "t": "Bonjour ! Je peux vous aider ?",
+            "n": "Hello! Can I help you?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, merci. Je cherche une veste.",
+            "n": "Yes, thank you. I'm looking for a jacket."
+          },
+          {
+            "who": "A",
+            "name": "Vendeuse",
+            "t": "Comment trouvez-vous cette veste-ci ?",
+            "n": "What do you think of this jacket here?"
+          },
+          {
+            "who": "you",
+            "t": "Elle est jolie. Vous l'avez en bleu ?",
+            "n": "It's nice. Do you have it in blue?"
+          },
+          {
+            "who": "A",
+            "name": "Vendeuse",
+            "t": "Oui, la voici. Quelle taille faites-vous ?",
+            "n": "Yes, here it is. What size are you?"
+          },
+          {
+            "who": "you",
+            "t": "Je fais du quarante. Est-ce que je peux l'essayer ?",
+            "n": "I'm a size forty. Can I try it on?"
+          },
+          {
+            "who": "A",
+            "name": "Vendeuse",
+            "t": "Bien sûr. Les cabines d'essayage sont au fond, à droite.",
+            "n": "Of course. The fitting rooms are at the back, on the right."
+          },
+          {
+            "who": "you",
+            "t": "Hmm, elle est un peu trop petite. Vous l'avez en quarante-deux ?",
+            "n": "Hmm, it's a bit too small. Do you have it in a forty-two?"
+          },
+          {
+            "who": "A",
+            "name": "Vendeuse",
+            "t": "Un instant, je vais regarder.",
+            "n": "One moment, I'll have a look."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you're looking for a jacket.",
+          "t": [
+            "Je cherche une veste"
+          ]
+        },
+        {
+          "n": "Ask if you can try it on.",
+          "t": [
+            "Est-ce que je peux l'essayer",
+            "Je peux l'essayer",
+            "Puis-je l'essayer"
+          ]
+        },
+        {
+          "n": "Say it's a bit too small (it = the jacket).",
+          "t": [
+            "Elle est un peu trop petite",
+            "Elle est trop petite",
+            "La veste est un peu trop petite",
+            "La veste est trop petite"
+          ]
+        },
+        {
+          "n": "Tell a friend that jumper suits them.",
+          "t": [
+            "Ce pull te va bien",
+            "Ce pull te va très bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l2",
+      "title": "Colours and what to wear",
+      "goal": "Describe clothes and colours and decide what to wear.",
+      "tip": {
+        "title": "Colours agree — mostly",
+        "body": "Colours come after the noun and agree like other adjectives: un pull vert, une robe verte, des chaussures vertes. Blanc becomes blanche. Colours named after things — marron, orange — never change: des chaussures marron. Two-word colours don't change either: une cravate bleu marine. Listen for the ending: in vert the t is silent, in verte you hear it."
+      },
+      "phrases": [
+        {
+          "t": "Je porte souvent du noir.",
+          "n": "I often wear black."
+        },
+        {
+          "t": "Il me faut une tenue pour un mariage.",
+          "n": "I need an outfit for a wedding."
+        },
+        {
+          "t": "Je mets une chemise blanche et un pantalon gris.",
+          "n": "I'm wearing a white shirt and grey trousers.",
+          "note": "mettre = to put on / choose to wear"
+        },
+        {
+          "t": "Mes chaussures sont marron.",
+          "n": "My shoes are brown.",
+          "note": "marron never changes"
+        },
+        {
+          "t": "Est-ce que ça va avec mon jean ?",
+          "n": "Does this go with my jeans?"
+        },
+        {
+          "t": "Ce n'est pas trop mon style.",
+          "n": "It's not really my style."
+        },
+        {
+          "t": "Mets ton manteau, il fait froid !",
+          "n": "Put your coat on, it's cold!"
+        },
+        {
+          "t": "C'est en coton ou en laine ?",
+          "n": "Is it cotton or wool?"
+        }
+      ],
+      "dialogue": {
+        "title": "What shall I wear?",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Samedi, c'est le mariage de Julie. Qu'est-ce que tu mets ?",
+            "n": "Saturday is Julie's wedding. What are you wearing?"
+          },
+          {
+            "who": "you",
+            "t": "Je ne sais pas. Il me faut une tenue pour un mariage.",
+            "n": "I don't know. I need an outfit for a wedding."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Tu as une chemise blanche ?",
+            "n": "Have you got a white shirt?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Je mets une chemise blanche et un pantalon gris.",
+            "n": "Yes. I'll wear a white shirt and grey trousers."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Très bien. Et une cravate bleu marine ?",
+            "n": "Very good. And a navy blue tie?"
+          },
+          {
+            "who": "you",
+            "t": "Une cravate ? Ce n'est pas trop mon style.",
+            "n": "A tie? It's not really my style."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "D'accord, mais prends une veste. Le soir, il fait frais.",
+            "n": "OK, but take a jacket. It gets cool in the evening."
+          },
+          {
+            "who": "you",
+            "t": "Bonne idée. Est-ce que ma veste en laine va avec le pantalon gris ?",
+            "n": "Good idea. Does my wool jacket go with the grey trousers?"
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Oui, c'est parfait. Ça va être très élégant !",
+            "n": "Yes, that's perfect. That's going to look very smart!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you often wear black.",
+          "t": [
+            "Je porte souvent du noir"
+          ]
+        },
+        {
+          "n": "Say you need an outfit for a wedding.",
+          "t": [
+            "Il me faut une tenue pour un mariage",
+            "J'ai besoin d'une tenue pour un mariage"
+          ]
+        },
+        {
+          "n": "Ask if this goes with your jeans.",
+          "t": [
+            "Est-ce que ça va avec mon jean",
+            "Ça va avec mon jean",
+            "Ça va bien avec mon jean"
+          ]
+        },
+        {
+          "n": "Say it's not really your style.",
+          "t": [
+            "Ce n'est pas trop mon style",
+            "C'est pas trop mon style",
+            "Ce n'est pas mon style",
+            "C'est pas mon style"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l3",
+      "title": "Sales and paying",
+      "goal": "Ask about reductions, pay and take your receipt.",
+      "tip": {
+        "title": "Prices and percentages",
+        "body": "A sign saying -30 % is read moins trente pour cent. In prices the comma is the decimal point: 49,90 € is quarante-neuf euros quatre-vingt-dix. Watch the liaison: deux‿euros, trois‿euros, vingt‿euros (you hear z or t). The receipt is le ticket (de caisse) — keep it if you might exchange something. C'est pour offrir ? means 'Is it a gift?': many shops will wrap it for you."
+      },
+      "phrases": [
+        {
+          "t": "Ce manteau est en solde ?",
+          "n": "Is this coat on sale?"
+        },
+        {
+          "t": "Il y a moins trente pour cent sur tout le rayon.",
+          "n": "There's thirty percent off the whole section."
+        },
+        {
+          "t": "C'est une bonne affaire !",
+          "n": "That's a bargain!"
+        },
+        {
+          "t": "Ça fait quarante-neuf euros quatre-vingt-dix.",
+          "n": "That's forty-nine euros ninety."
+        },
+        {
+          "t": "Vous payez comment ?",
+          "n": "How would you like to pay?"
+        },
+        {
+          "t": "Par carte, sans contact.",
+          "n": "By card, contactless."
+        },
+        {
+          "t": "C'est pour offrir ?",
+          "n": "Is it a gift?",
+          "note": "un paquet cadeau = gift wrapping"
+        },
+        {
+          "t": "Voici votre ticket de caisse.",
+          "n": "Here's your receipt."
+        }
+      ],
+      "dialogue": {
+        "title": "At the till",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonjour ! Ce manteau est en solde ?",
+            "n": "Hello! Is this coat on sale?"
+          },
+          {
+            "who": "A",
+            "name": "Caissier",
+            "t": "Oui, il y a moins trente pour cent sur tout le rayon.",
+            "n": "Yes, there's thirty percent off the whole section."
+          },
+          {
+            "who": "you",
+            "t": "Super, c'est une bonne affaire !",
+            "n": "Great, that's a bargain!"
+          },
+          {
+            "who": "A",
+            "name": "Caissier",
+            "t": "Alors, ça fait quarante-neuf euros quatre-vingt-dix. Vous payez comment ?",
+            "n": "So, that's forty-nine euros ninety. How would you like to pay?"
+          },
+          {
+            "who": "you",
+            "t": "Par carte, sans contact.",
+            "n": "By card, contactless."
+          },
+          {
+            "who": "A",
+            "name": "Caissier",
+            "t": "C'est pour offrir ?",
+            "n": "Is it a gift?"
+          },
+          {
+            "who": "you",
+            "t": "Non, c'est pour moi.",
+            "n": "No, it's for me."
+          },
+          {
+            "who": "A",
+            "name": "Caissier",
+            "t": "Vous voulez un sac ?",
+            "n": "Would you like a bag?"
+          },
+          {
+            "who": "you",
+            "t": "Non merci, j'ai mon sac.",
+            "n": "No thanks, I've got my own bag."
+          },
+          {
+            "who": "A",
+            "name": "Caissier",
+            "t": "Très bien. Voici votre ticket de caisse. Bonne journée !",
+            "n": "Very good. Here's your receipt. Have a nice day!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if this coat is on sale.",
+          "t": [
+            "Ce manteau est en solde",
+            "Est-ce que ce manteau est en solde",
+            "Ce manteau est soldé"
+          ]
+        },
+        {
+          "n": "Say that's a bargain.",
+          "t": [
+            "C'est une bonne affaire",
+            "C'est une super affaire"
+          ]
+        },
+        {
+          "n": "Say you'll pay by card, contactless.",
+          "t": [
+            "Par carte sans contact",
+            "Je paie par carte sans contact",
+            "Je paye par carte sans contact",
+            "Par carte"
+          ]
+        },
+        {
+          "n": "Say no, it's for you (not a gift).",
+          "t": [
+            "Non c'est pour moi",
+            "C'est pour moi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l4",
+      "kind": "grammar",
+      "title": "Plus cher que… and ce, cet, cette, ces",
+      "goal": "Compare clothes and point at them with ce, cet, cette, ces.",
+      "tip": {
+        "title": "Comparing and pointing",
+        "body": "Compare with plus … que (more), moins … que (less) and aussi … que (as): Cette veste est plus chère que l'autre. The adjective still agrees. Superlative: le / la / les plus … — le manteau le plus chaud du magasin ('in the shop' is du magasin). Bon → meilleur (better), le meilleur (the best); never say plus bon. Demonstratives: ce pull, cet anorak (masculine before a vowel or mute h), cette robe, ces chaussures. Cet and cette sound the same."
+      },
+      "phrases": [
+        {
+          "t": "Cette veste est plus chère que l'autre.",
+          "n": "This jacket is more expensive than the other one."
+        },
+        {
+          "t": "Ce pantalon est moins cher que le jean.",
+          "n": "These trousers are cheaper than the jeans."
+        },
+        {
+          "t": "Ces baskets sont aussi confortables que mes chaussures.",
+          "n": "These trainers are as comfortable as my shoes."
+        },
+        {
+          "t": "Cet anorak est le plus chaud du magasin.",
+          "n": "This anorak is the warmest in the shop."
+        },
+        {
+          "t": "C'est la meilleure boutique du quartier.",
+          "n": "It's the best shop in the neighbourhood."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the item (ce, cet, cette, ces)",
+          "base": {
+            "t": "Ce pull est trop grand.",
+            "n": "This jumper is too big."
+          },
+          "items": [
+            {
+              "cue": "robe",
+              "t": "Cette robe est trop grande.",
+              "n": "This dress is too big."
+            },
+            {
+              "cue": "anorak",
+              "t": "Cet anorak est trop grand.",
+              "n": "This anorak is too big."
+            },
+            {
+              "cue": "chaussures",
+              "t": "Ces chaussures sont trop grandes.",
+              "n": "These shoes are too big."
+            },
+            {
+              "cue": "imperméable",
+              "t": "Cet imperméable est trop grand.",
+              "n": "This raincoat is too big."
+            }
+          ]
+        },
+        {
+          "title": "Swap the comparison",
+          "base": {
+            "t": "Cette veste est plus chère que l'autre.",
+            "n": "This jacket is more expensive than the other one."
+          },
+          "items": [
+            {
+              "cue": "moins",
+              "t": "Cette veste est moins chère que l'autre.",
+              "n": "This jacket is cheaper than the other one."
+            },
+            {
+              "cue": "aussi",
+              "t": "Cette veste est aussi chère que l'autre.",
+              "n": "This jacket is as expensive as the other one."
+            },
+            {
+              "cue": "plus · chaud",
+              "t": "Cette veste est plus chaude que l'autre.",
+              "n": "This jacket is warmer than the other one."
+            },
+            {
+              "cue": "bon → meilleur",
+              "t": "Cette veste est meilleure que l'autre.",
+              "n": "This jacket is better than the other one."
+            }
+          ]
+        },
+        {
+          "title": "The most … in the shop",
+          "base": {
+            "t": "C'est le manteau le plus chaud du magasin.",
+            "n": "It's the warmest coat in the shop."
+          },
+          "items": [
+            {
+              "cue": "robe · élégant",
+              "t": "C'est la robe la plus élégante du magasin.",
+              "n": "It's the most elegant dress in the shop."
+            },
+            {
+              "cue": "chaussures · confortable",
+              "t": "Ce sont les chaussures les plus confortables du magasin.",
+              "n": "They're the most comfortable shoes in the shop."
+            },
+            {
+              "cue": "pull · moins cher",
+              "t": "C'est le pull le moins cher du magasin.",
+              "n": "It's the cheapest jumper in the shop."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say this jacket is more expensive than the other one.",
+          "t": [
+            "Cette veste est plus chère que l'autre"
+          ]
+        },
+        {
+          "n": "Say it's the best shop in the neighbourhood.",
+          "t": [
+            "C'est la meilleure boutique du quartier",
+            "C'est le meilleur magasin du quartier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l5",
+      "kind": "listening",
+      "title": "A new coat",
+      "goal": "Follow two friends talking about clothes, prices and sales.",
+      "phrases": [
+        {
+          "t": "J'ai acheté un nouveau manteau.",
+          "n": "I've bought a new coat."
+        },
+        {
+          "t": "Le vert te va bien.",
+          "n": "Green suits you."
+        },
+        {
+          "t": "Il était en solde.",
+          "n": "It was on sale."
+        },
+        {
+          "t": "Cette boutique a les meilleurs prix.",
+          "n": "This shop has the best prices."
+        }
+      ],
+      "story": {
+        "title": "Show and tell",
+        "intro": "Léa shows her friend Hugo what she bought in the sales.",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Regarde, Hugo, j'ai acheté un nouveau manteau !",
+            "n": "Look, Hugo, I've bought a new coat!"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Il est très beau ! Le vert te va bien. Il était cher ?",
+            "n": "It's really nice! Green suits you. Was it expensive?"
+          },
+          {
+            "name": "Léa",
+            "t": "Non, il était en solde : moins quarante pour cent. Je l'ai payé soixante euros.",
+            "n": "No, it was on sale: forty percent off. I paid sixty euros for it."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "C'est une bonne affaire ! Il est plus chaud que ton vieux manteau ?",
+            "n": "That's a bargain! Is it warmer than your old coat?"
+          },
+          {
+            "name": "Léa",
+            "t": "Oui, beaucoup plus chaud. Il est en laine.",
+            "n": "Yes, much warmer. It's wool."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Moi, il me faut des chaussures pour l'hiver. Mes baskets sont trop vieilles.",
+            "n": "I need shoes for the winter. My trainers are too old."
+          },
+          {
+            "name": "Léa",
+            "t": "Viens avec moi samedi. La boutique près de la gare a les meilleurs prix du quartier.",
+            "n": "Come with me on Saturday. The shop near the station has the best prices in the neighbourhood."
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Samedi matin ? D'accord, mais pas trop tôt !",
+            "n": "Saturday morning? OK, but not too early!"
+          },
+          {
+            "name": "Léa",
+            "t": "Dix heures, devant la boutique ?",
+            "n": "Ten o'clock, in front of the shop?"
+          },
+          {
+            "name": "Hugo",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Parfait. À samedi !",
+            "n": "Perfect. See you on Saturday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce que Léa a acheté ?",
+            "n": "What did Léa buy?",
+            "t": [
+              "Un manteau",
+              "Un nouveau manteau",
+              "Un manteau vert",
+              "Un manteau en laine"
+            ]
+          },
+          {
+            "q": "Combien est-ce qu'elle l'a payé ?",
+            "n": "How much did she pay for it?",
+            "t": [
+              "Soixante euros",
+              "Elle l'a payé soixante euros"
+            ]
+          },
+          {
+            "q": "De quoi Hugo a-t-il besoin ?",
+            "n": "What does Hugo need?",
+            "t": [
+              "Des chaussures",
+              "De chaussures",
+              "Des chaussures pour l'hiver",
+              "De chaussures pour l'hiver"
+            ]
+          },
+          {
+            "q": "Quand est-ce qu'ils vont à la boutique ?",
+            "n": "When are they going to the shop?",
+            "t": [
+              "Samedi",
+              "Samedi matin",
+              "Samedi à dix heures",
+              "Samedi matin à dix heures"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u07-l6",
+      "kind": "roleplay",
+      "title": "Returning shoes",
+      "goal": "Take back shoes that don't fit — politely.",
+      "phrases": [
+        {
+          "t": "Je voudrais échanger ces chaussures.",
+          "n": "I'd like to exchange these shoes."
+        },
+        {
+          "t": "Elles sont trop petites.",
+          "n": "They're too small."
+        },
+        {
+          "t": "Vous pouvez me rembourser ?",
+          "n": "Can you give me a refund?"
+        },
+        {
+          "t": "Alors je prends un avoir.",
+          "n": "Then I'll take a credit note.",
+          "note": "un avoir = store credit"
+        }
+      ],
+      "branch": {
+        "title": "At the counter",
+        "scene": "You bought a pair of black shoes last week, size thirty-eight. At home they were too small, so you go back to the shop.",
+        "name": "Vendeur",
+        "voice": "fr-FR-AlainNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bonjour ! Je peux vous aider ?",
+            "n": "Hello! Can I help you?",
+            "choices": [
+              {
+                "t": "Bonjour ! Je voudrais échanger ces chaussures. Elles sont trop petites.",
+                "n": "Hello! I'd like to exchange these shoes. They're too small.",
+                "next": "receipt"
+              },
+              {
+                "t": "Ces chaussures sont nulles ! Je veux mon argent !",
+                "n": "These shoes are rubbish! I want my money!",
+                "next": "calm"
+              }
+            ]
+          },
+          "calm": {
+            "t": "Restez calme, s'il vous plaît. Quel est le problème ?",
+            "n": "Please stay calm. What's the problem?",
+            "choices": [
+              {
+                "t": "Excusez-moi. Elles sont trop petites.",
+                "n": "Sorry. They're too small.",
+                "next": "receipt"
+              },
+              {
+                "t": "Ça ne vous regarde pas !",
+                "n": "That's none of your business!",
+                "next": "bad"
+              }
+            ]
+          },
+          "receipt": {
+            "t": "Je comprends. Vous avez le ticket de caisse ?",
+            "n": "I see. Do you have the receipt?",
+            "choices": [
+              {
+                "t": "Oui, le voici. Vous les avez en trente-neuf ?",
+                "n": "Yes, here it is. Do you have them in a thirty-nine?",
+                "next": "size"
+              },
+              {
+                "t": "Oui, le voici. Vous pouvez me rembourser ?",
+                "n": "Yes, here it is. Can you give me a refund?",
+                "next": "refund"
+              },
+              {
+                "t": "Non, je ne l'ai plus.",
+                "n": "No, I don't have it any more.",
+                "next": "noticket"
+              }
+            ]
+          },
+          "size": {
+            "t": "Je regarde… Désolé, en trente-neuf, je ne les ai plus en noir. Mais je les ai en marron.",
+            "n": "Let me look… Sorry, in a thirty-nine I don't have them in black any more. But I have them in brown.",
+            "choices": [
+              {
+                "t": "Pas de problème, je les prends en marron.",
+                "n": "No problem, I'll take them in brown.",
+                "next": "exchange"
+              },
+              {
+                "t": "Dommage. Alors, vous pouvez me rembourser ?",
+                "n": "Shame. In that case, can you give me a refund?",
+                "next": "refund"
+              }
+            ]
+          },
+          "noticket": {
+            "t": "Sans ticket, je ne peux pas vous rembourser. Mais je peux vous faire un avoir.",
+            "n": "Without a receipt I can't give you a refund. But I can give you a credit note.",
+            "choices": [
+              {
+                "t": "D'accord, alors je prends un avoir.",
+                "n": "OK, then I'll take a credit note.",
+                "next": "credit"
+              },
+              {
+                "t": "Attendez… le voici, dans mon sac !",
+                "n": "Wait… here it is, in my bag!",
+                "next": "refund"
+              }
+            ]
+          },
+          "exchange": {
+            "t": "Voilà, les mêmes chaussures en marron, en trente-neuf. Bonne journée !",
+            "n": "Here you are, the same shoes in brown, in a thirty-nine. Have a nice day!",
+            "end": "good",
+            "outcome": "You exchanged the shoes for a bigger size."
+          },
+          "refund": {
+            "t": "Merci. Je vous rembourse sur votre carte. Au revoir !",
+            "n": "Thank you. I'll refund the money to your card. Goodbye!",
+            "end": "good",
+            "outcome": "You returned the shoes and got your money back."
+          },
+          "credit": {
+            "t": "Voici votre avoir de soixante-cinq euros. Bonne journée !",
+            "n": "Here's your credit note for sixty-five euros. Have a nice day!",
+            "end": "good",
+            "outcome": "No receipt, but you left with a credit note. Keep your ticket de caisse next time!"
+          },
+          "bad": {
+            "t": "Dans ce cas, je ne peux pas vous aider. Au revoir.",
+            "n": "In that case, I can't help you. Goodbye.",
+            "end": "bad",
+            "outcome": "Shouting rarely works in a French shop. Start with Bonjour and explain the problem calmly."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you'd like to exchange these shoes.",
+          "t": [
+            "Je voudrais échanger ces chaussures",
+            "J'aimerais échanger ces chaussures",
+            "Je voudrais échanger les chaussures"
+          ]
+        },
+        {
+          "n": "Ask if they can give you a refund.",
+          "t": [
+            "Vous pouvez me rembourser",
+            "Est-ce que vous pouvez me rembourser",
+            "Pouvez-vous me rembourser",
+            "Vous pourriez me rembourser"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-l7",
+      "kind": "speaking",
+      "title": "Your favourite clothes",
+      "goal": "Describe and compare clothes for 40 seconds.",
+      "culture": {
+        "title": "Les soldes and magasiner",
+        "body": "In France, les soldes are regulated: there are two official sale periods a year, in winter (from January) and in summer (from late June), with dates fixed by the state. Shops cut prices in stages — la deuxième démarque, la troisième démarque — so waiting can pay off, but your size may be gone. In Québec, to go shopping is magasiner (On va magasiner samedi ?), a jumper or T-shirt is often un chandail, and socks are des bas, while in France they are des chaussettes.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je préfère les vêtements confortables.",
+          "n": "I prefer comfortable clothes."
+        },
+        {
+          "t": "Pour le travail, je mets une chemise.",
+          "n": "For work, I wear a shirt."
+        },
+        {
+          "t": "J'achète surtout pendant les soldes.",
+          "n": "I mostly buy things in the sales."
+        },
+        {
+          "t": "On va magasiner samedi ?",
+          "n": "Shall we go shopping on Saturday?",
+          "note": "Québec; in France: faire les magasins / faire du shopping"
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your favourite outfit and compare two pieces of clothing.",
+          "hint": "Je porte souvent …, mon/ma … préféré(e) est …, ce/cette … est plus confortable / plus chaud(e) que …, un pull vert / une veste noire …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "a piece of clothing",
+              "any": [
+                "veste",
+                "pantalon",
+                "pull",
+                "chemise",
+                "robe",
+                "jupe",
+                "chaussure*",
+                "manteau",
+                "jean",
+                "basket*",
+                "t-shirt",
+                "tee-shirt",
+                "chaussette*",
+                "anorak",
+                "cravate",
+                "écharpe"
+              ]
+            },
+            {
+              "label": "a colour",
+              "any": [
+                "noir*",
+                "blanc*",
+                "bleu*",
+                "rouge*",
+                "vert*",
+                "gris*",
+                "marron",
+                "jaune*",
+                "rose*",
+                "violet*",
+                "orange"
+              ]
+            },
+            {
+              "label": "a comparison",
+              "any": [
+                "plus",
+                "moins",
+                "aussi",
+                "meilleur*",
+                "que",
+                "préféré*"
+              ]
+            },
+            {
+              "label": "wear or like",
+              "any": [
+                "porte",
+                "mets",
+                "aime",
+                "adore",
+                "préfère",
+                "trouve"
+              ]
+            }
+          ],
+          "model": "Je porte souvent mon jean bleu et un pull gris. Mon pull gris est plus chaud que ma veste noire, et mes baskets blanches sont plus confortables que mes chaussures."
+        },
+        {
+          "n": "Tell a friend about something you bought in the sales: what, which colour, how much, and whether it was a good deal.",
+          "hint": "J'ai acheté …, il/elle était en solde, moins … pour cent, je l'ai payé(e) … euros, c'est une bonne affaire …",
+          "seconds": 30,
+          "minWords": 12,
+          "targets": [
+            {
+              "label": "a piece of clothing",
+              "any": [
+                "veste",
+                "pantalon",
+                "pull",
+                "chemise",
+                "robe",
+                "jupe",
+                "chaussure*",
+                "manteau",
+                "jean",
+                "basket*",
+                "t-shirt",
+                "tee-shirt",
+                "anorak",
+                "écharpe"
+              ]
+            },
+            {
+              "label": "sales or price",
+              "any": [
+                "solde*",
+                "euro*",
+                "pour cent",
+                "affaire",
+                "cher*",
+                "prix"
+              ]
+            },
+            {
+              "label": "past tense",
+              "any": [
+                "j'ai acheté",
+                "acheté",
+                "payé*",
+                "trouvé*",
+                "était"
+              ]
+            }
+          ],
+          "model": "Samedi, j'ai acheté une robe rouge. Elle était en solde, moins cinquante pour cent. Je l'ai payée trente euros. C'est une bonne affaire !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you prefer comfortable clothes.",
+          "t": [
+            "Je préfère les vêtements confortables"
+          ]
+        },
+        {
+          "n": "Say you mostly buy things in the sales.",
+          "t": [
+            "J'achète surtout pendant les soldes",
+            "J'achète surtout en solde",
+            "J'achète surtout en soldes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les vêtements",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "id": "a2-u05",
+  "title": "Au travail",
+  "subtitle": "Work & your working day",
+  "icon": "💼",
+  "lessons": [
+    {
+      "id": "a2-u05-l1",
+      "title": "My working day",
+      "goal": "Talk about your job and describe your working day.",
+      "tip": {
+        "title": "depuis & plaire",
+        "body": "To say how long you have been doing something that is still going on, French uses the present + depuis: Je travaille ici depuis deux ans (I've been working here for two years). plaire works 'backwards', like 'to please': Mon travail me plaît (my job pleases me = I like my job). Linking: in huit heures the t runs straight into heures — 'hui-teur' — and in je finis the final s is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je travaille dans un bureau en centre-ville.",
+          "n": "I work in an office in the town centre."
+        },
+        {
+          "t": "Je travaille dans une entreprise d'informatique depuis deux ans.",
+          "n": "I've been working at an IT company for two years.",
+          "note": "depuis + present = have been …ing"
+        },
+        {
+          "t": "Je commence à huit heures et demie.",
+          "n": "I start at half past eight."
+        },
+        {
+          "t": "Je finis vers dix-sept heures.",
+          "n": "I finish around five pm.",
+          "note": "Work times often use the 24-hour clock"
+        },
+        {
+          "t": "Je prends ma pause déjeuner à midi.",
+          "n": "I take my lunch break at noon."
+        },
+        {
+          "t": "J'ai souvent des réunions.",
+          "n": "I often have meetings."
+        },
+        {
+          "t": "Je vais au travail à vélo.",
+          "n": "I cycle to work.",
+          "note": "à vélo, à pied, but en voiture, en métro, en bus"
+        },
+        {
+          "t": "Mon travail me plaît parce que mes collègues sont sympas.",
+          "n": "I like my job because my colleagues are nice.",
+          "note": "sympa = sympathique (informal)"
+        }
+      ],
+      "dialogue": {
+        "title": "Small talk at a party",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Et toi, qu'est-ce que tu fais dans la vie ?",
+            "n": "And you, what do you do for a living?"
+          },
+          {
+            "who": "you",
+            "t": "Je travaille dans une entreprise d'informatique depuis deux ans.",
+            "n": "I've been working at an IT company for two years."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "C'est intéressant ! Ta journée, ça se passe comment ?",
+            "n": "That's interesting! How does your day go?"
+          },
+          {
+            "who": "you",
+            "t": "Je commence à huit heures et demie. J'ai souvent des réunions.",
+            "n": "I start at half past eight. I often have meetings."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Et tu vas au travail comment ?",
+            "n": "And how do you get to work?"
+          },
+          {
+            "who": "you",
+            "t": "Je vais au travail à vélo. C'est rapide et pas cher.",
+            "n": "I cycle to work. It's quick and cheap."
+          },
+          {
+            "who": "A",
+            "name": "Camille",
+            "t": "Et ton travail, il te plaît ?",
+            "n": "And do you like your job?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mon travail me plaît parce que mes collègues sont sympas.",
+            "n": "Yes, I like my job because my colleagues are nice."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you start at half past eight.",
+          "t": [
+            "Je commence à huit heures et demie",
+            "Je commence à huit heures trente"
+          ]
+        },
+        {
+          "n": "Say you cycle to work.",
+          "t": [
+            "Je vais au travail à vélo",
+            "Je vais travailler à vélo",
+            "Je vais au bureau à vélo"
+          ]
+        },
+        {
+          "n": "Say you've been working at an IT company for two years.",
+          "t": [
+            "Je travaille dans une entreprise d'informatique depuis deux ans",
+            "Je travaille depuis deux ans dans une entreprise d'informatique"
+          ]
+        },
+        {
+          "n": "Say you like your job because your colleagues are nice.",
+          "t": [
+            "Mon travail me plaît parce que mes collègues sont sympas",
+            "J'aime mon travail parce que mes collègues sont sympas",
+            "Mon travail me plaît parce que mes collègues sont sympathiques"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l2",
+      "title": "At the office",
+      "goal": "Ask colleagues for help, make requests and talk about tasks.",
+      "tip": {
+        "title": "me, te, vous before the verb",
+        "body": "Small object pronouns go before the verb in French: Tu peux m'aider ? (can you help me?), Je t'envoie le fichier (I'm sending you the file). me and te shorten to m' and t' before a vowel. With your boss or a client, Pourriez-vous … ? is extra polite. In pourriez-vous, the -ez is said like 'ay' and the s of vous is silent."
+      },
+      "phrases": [
+        {
+          "t": "Tu peux m'aider deux minutes ?",
+          "n": "Can you help me for a moment?",
+          "note": "Literally 'two minutes'"
+        },
+        {
+          "t": "L'imprimante ne marche pas.",
+          "n": "The printer isn't working."
+        },
+        {
+          "t": "Pourriez-vous m'envoyer le fichier ?",
+          "n": "Could you send me the file?",
+          "note": "Very polite — good for your boss"
+        },
+        {
+          "t": "Je t'envoie les documents cet après-midi.",
+          "n": "I'll send you the documents this afternoon."
+        },
+        {
+          "t": "La réunion est à quelle heure ?",
+          "n": "What time is the meeting?"
+        },
+        {
+          "t": "Le rapport n'est pas encore prêt.",
+          "n": "The report isn't ready yet."
+        },
+        {
+          "t": "Je dois rester tard ce soir.",
+          "n": "I have to stay late tonight."
+        },
+        {
+          "t": "Bonne soirée, à demain !",
+          "n": "Have a nice evening, see you tomorrow!",
+          "note": "Said to colleagues when leaving work"
+        }
+      ],
+      "dialogue": {
+        "title": "A busy day",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Salut ! Tu as les documents pour le projet ?",
+            "n": "Hi! Do you have the documents for the project?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, je t'envoie les documents cet après-midi.",
+            "n": "Yes, I'll send you the documents this afternoon."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Super, merci. Au fait, la réunion est à quelle heure ?",
+            "n": "Great, thanks. By the way, what time is the meeting?"
+          },
+          {
+            "who": "you",
+            "t": "À quinze heures. Tu peux m'aider deux minutes ? L'imprimante ne marche pas.",
+            "n": "At three pm. Can you help me for a moment? The printer isn't working."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Bien sûr, je regarde. Voilà, ça marche !",
+            "n": "Of course, I'll have a look. There you go, it's working!"
+          },
+          {
+            "who": "you",
+            "t": "Merci ! Je dois rester tard ce soir. Le rapport n'est pas encore prêt.",
+            "n": "Thanks! I have to stay late tonight. The report isn't ready yet."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Oh, bon courage ! Moi, je pars maintenant.",
+            "n": "Oh, good luck with that! I'm leaving now."
+          },
+          {
+            "who": "you",
+            "t": "Bonne soirée, à demain !",
+            "n": "Have a nice evening, see you tomorrow!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a colleague (tu) to help you for a moment.",
+          "t": [
+            "Tu peux m'aider deux minutes",
+            "Tu peux m'aider",
+            "Est-ce que tu peux m'aider deux minutes",
+            "Vous pouvez m'aider deux minutes"
+          ]
+        },
+        {
+          "n": "Say the printer isn't working.",
+          "t": [
+            "L'imprimante ne marche pas",
+            "L'imprimante marche pas",
+            "L'imprimante ne fonctionne pas"
+          ]
+        },
+        {
+          "n": "Politely ask your boss to send you the file.",
+          "t": [
+            "Pourriez-vous m'envoyer le fichier",
+            "Vous pourriez m'envoyer le fichier",
+            "Pouvez-vous m'envoyer le fichier",
+            "Est-ce que vous pourriez m'envoyer le fichier"
+          ]
+        },
+        {
+          "n": "Wish a colleague a nice evening as you leave work.",
+          "t": [
+            "Bonne soirée à demain",
+            "Bonne soirée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l3",
+      "title": "Jobs and workplaces",
+      "goal": "Say what you do, where you work and how busy you are.",
+      "tip": {
+        "title": "No article with jobs",
+        "body": "After être, jobs take no article: Je suis infirmière, Il est comptable. With c'est you need one: C'est une infirmière. Many jobs have a feminine form: infirmier → infirmière, vendeur → vendeuse, directeur → directrice. In infirmier the final r is silent ('in-fir-myé'); in infirmière you hear it."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que vous faites dans la vie ?",
+          "n": "What do you do for a living? (formal)"
+        },
+        {
+          "t": "Je suis infirmière à l'hôpital.",
+          "n": "I'm a nurse at the hospital.",
+          "note": "Male: infirmier"
+        },
+        {
+          "t": "Je fais du télétravail deux jours par semaine.",
+          "n": "I work from home two days a week."
+        },
+        {
+          "t": "Aujourd'hui, j'ai beaucoup de travail.",
+          "n": "I have a lot of work today."
+        },
+        {
+          "t": "Ma cheffe est en congé cette semaine.",
+          "n": "My boss is on leave this week.",
+          "note": "cheffe is now common; you also hear la chef"
+        },
+        {
+          "t": "Demain, j'ai un jour de congé.",
+          "n": "I have the day off tomorrow."
+        }
+      ],
+      "dialogue": {
+        "title": "At the coffee machine",
+        "voice": "fr-FR-ClaudeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "M. Lefèvre",
+            "t": "Et vous, qu'est-ce que vous faites dans la vie ?",
+            "n": "And you, what do you do for a living?"
+          },
+          {
+            "who": "you",
+            "t": "Je suis infirmière à l'hôpital. Aujourd'hui, j'ai beaucoup de travail.",
+            "n": "I'm a nurse at the hospital. I have a lot of work today."
+          },
+          {
+            "who": "A",
+            "name": "M. Lefèvre",
+            "t": "Moi, je fais du télétravail deux jours par semaine. Et vous ?",
+            "n": "I work from home two days a week. What about you?"
+          },
+          {
+            "who": "you",
+            "t": "Non, ce n'est pas possible à l'hôpital. Mais demain, j'ai un jour de congé.",
+            "n": "No, that's not possible at the hospital. But tomorrow I have the day off."
+          },
+          {
+            "who": "A",
+            "name": "M. Lefèvre",
+            "t": "Tant mieux ! Bonne fin de journée.",
+            "n": "Good for you! Have a good rest of the day."
+          },
+          {
+            "who": "you",
+            "t": "Merci, vous aussi !",
+            "n": "Thanks, you too!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask someone formally what they do for a living.",
+          "t": [
+            "Qu'est-ce que vous faites dans la vie",
+            "Vous faites quoi dans la vie",
+            "Quelle est votre profession",
+            "Que faites-vous dans la vie"
+          ]
+        },
+        {
+          "n": "Say you work from home two days a week.",
+          "t": [
+            "Je fais du télétravail deux jours par semaine",
+            "Je suis en télétravail deux jours par semaine",
+            "Je travaille de chez moi deux jours par semaine"
+          ]
+        },
+        {
+          "n": "Say you have a lot of work today.",
+          "t": [
+            "Aujourd'hui j'ai beaucoup de travail",
+            "J'ai beaucoup de travail aujourd'hui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l4",
+      "kind": "grammar",
+      "title": "-ir, -re and irregular verbs",
+      "goal": "Use finir, attendre, faire, prendre and venir in the present.",
+      "tip": {
+        "title": "finir, attendre, faire, prendre, venir",
+        "body": "-ir verbs like finir add -iss- in the plural: je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. -re verbs like attendre: j'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent. Three key irregulars: faire (je fais, nous faisons, vous faites, ils font), prendre (je prends, nous prenons, ils prennent), venir (je viens, nous venons, ils viennent). Good news: je, tu, il forms usually sound identical. In ils prennent and ils viennent the double n kills the nasal sound: 'prèn', 'vyèn'. In nous faisons, fai- sounds like 'fe'."
+      },
+      "phrases": [
+        {
+          "t": "Nous finissons à dix-huit heures.",
+          "n": "We finish at six pm."
+        },
+        {
+          "t": "J'attends une réponse du client.",
+          "n": "I'm waiting for an answer from the client.",
+          "note": "attendre = to wait for (no 'pour')"
+        },
+        {
+          "t": "Ils font une pause à dix heures.",
+          "n": "They take a break at ten."
+        },
+        {
+          "t": "Je prends le métro tous les matins.",
+          "n": "I take the metro every morning."
+        },
+        {
+          "t": "Mes collègues viennent en train.",
+          "n": "My colleagues come by train."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the person: finir",
+          "base": {
+            "t": "Je finis à dix-sept heures.",
+            "n": "I finish at five pm."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Nous finissons à dix-sept heures.",
+              "n": "We finish at five pm."
+            },
+            {
+              "cue": "vous",
+              "t": "Vous finissez à dix-sept heures.",
+              "n": "You finish at five pm."
+            },
+            {
+              "cue": "mes collègues",
+              "t": "Mes collègues finissent à dix-sept heures.",
+              "n": "My colleagues finish at five pm."
+            }
+          ]
+        },
+        {
+          "title": "Swap the person: prendre",
+          "base": {
+            "t": "Je prends le train le matin.",
+            "n": "I take the train in the morning."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Tu prends le train le matin.",
+              "n": "You take the train in the morning."
+            },
+            {
+              "cue": "nous",
+              "t": "Nous prenons le train le matin.",
+              "n": "We take the train in the morning."
+            },
+            {
+              "cue": "ils",
+              "t": "Ils prennent le train le matin.",
+              "n": "They take the train in the morning."
+            }
+          ]
+        },
+        {
+          "title": "Swap the verb",
+          "base": {
+            "t": "Je viens au bureau à huit heures.",
+            "n": "I come to the office at eight."
+          },
+          "items": [
+            {
+              "cue": "nous · venir",
+              "t": "Nous venons au bureau à huit heures.",
+              "n": "We come to the office at eight."
+            },
+            {
+              "cue": "elles · venir",
+              "t": "Elles viennent au bureau à huit heures.",
+              "n": "They come to the office at eight."
+            },
+            {
+              "cue": "vous · faire une pause",
+              "t": "Vous faites une pause à huit heures.",
+              "n": "You take a break at eight."
+            },
+            {
+              "cue": "je · attendre le client",
+              "t": "J'attends le client à huit heures.",
+              "n": "I'm expecting the client at eight."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say we finish at six pm.",
+          "t": [
+            "Nous finissons à dix-huit heures",
+            "On finit à dix-huit heures",
+            "Nous finissons à six heures"
+          ]
+        },
+        {
+          "n": "Say you take the metro every morning.",
+          "t": [
+            "Je prends le métro tous les matins",
+            "Tous les matins je prends le métro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l5",
+      "kind": "listening",
+      "title": "Lunch in the canteen",
+      "goal": "Follow colleagues chatting about work.",
+      "phrases": [
+        {
+          "t": "Comment s'est passé ton premier mois ?",
+          "n": "How was your first month?"
+        },
+        {
+          "t": "Je suis débordé en ce moment.",
+          "n": "I'm swamped at the moment.",
+          "note": "Female speaker: débordée"
+        },
+        {
+          "t": "Le vendredi, je suis en télétravail.",
+          "n": "On Fridays I work from home.",
+          "note": "le vendredi = every Friday"
+        },
+        {
+          "t": "En général, je pars vers dix-sept heures.",
+          "n": "I usually leave around five pm."
+        }
+      ],
+      "story": {
+        "title": "A new colleague",
+        "intro": "In the company canteen, Léa asks her new colleague Thomas about his first month.",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Salut Thomas ! Alors, comment s'est passé ton premier mois dans l'entreprise ?",
+            "n": "Hi Thomas! So, how was your first month at the company?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Très bien ! Les collègues sont très sympas, mais je suis débordé.",
+            "n": "Very good! The colleagues are really nice, but I'm swamped."
+          },
+          {
+            "name": "Léa",
+            "t": "Tu fais du télétravail, toi aussi ?",
+            "n": "Do you work from home too?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Oui, le vendredi. Comme ça, je ne prends pas le train.",
+            "n": "Yes, on Fridays. That way I don't take the train."
+          },
+          {
+            "name": "Léa",
+            "t": "Et les autres jours, tu viens comment ?",
+            "n": "And how do you come in on the other days?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "En train, et puis je finis à pied. Ça prend une heure.",
+            "n": "By train, and then I walk the last bit. It takes an hour."
+          },
+          {
+            "name": "Léa",
+            "t": "Et le soir, tu pars à quelle heure ?",
+            "n": "And in the evening, what time do you leave?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "En général, vers dix-sept heures. Mais aujourd'hui, je reste tard : j'ai une réunion avec un client canadien.",
+            "n": "Usually around five. But today I'm staying late: I have a meeting with a Canadian client."
+          },
+          {
+            "name": "Léa",
+            "t": "Bon courage ! On mange ensemble demain ?",
+            "n": "Good luck! Shall we have lunch together tomorrow?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Avec plaisir ! À demain.",
+            "n": "With pleasure! See you tomorrow."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment sont les collègues ?",
+            "n": "What are the colleagues like?",
+            "t": [
+              "Très sympas",
+              "Sympas",
+              "Ils sont très sympas",
+              "Les collègues sont très sympas"
+            ]
+          },
+          {
+            "q": "Quel jour est-ce que Thomas fait du télétravail ?",
+            "n": "Which day does Thomas work from home?",
+            "t": [
+              "Le vendredi",
+              "Vendredi",
+              "Il fait du télétravail le vendredi"
+            ]
+          },
+          {
+            "q": "À quelle heure est-ce qu'il part en général ?",
+            "n": "What time does he usually leave?",
+            "t": [
+              "Vers dix-sept heures",
+              "À dix-sept heures",
+              "Dix-sept heures",
+              "Vers cinq heures",
+              "Il part vers dix-sept heures"
+            ]
+          },
+          {
+            "q": "Pourquoi est-ce qu'il reste tard aujourd'hui ?",
+            "n": "Why is he staying late today?",
+            "t": [
+              "Il a une réunion",
+              "Parce qu'il a une réunion",
+              "Une réunion avec un client",
+              "Parce qu'il a une réunion avec un client canadien",
+              "Il a une réunion avec un client canadien"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u05-l6",
+      "kind": "roleplay",
+      "title": "First day at work",
+      "goal": "Meet a colleague and ask for help on your first day.",
+      "phrases": [
+        {
+          "t": "C'est mon premier jour.",
+          "n": "It's my first day."
+        },
+        {
+          "t": "Je cherche la salle de réunion.",
+          "n": "I'm looking for the meeting room."
+        },
+        {
+          "t": "Où est la machine à café ?",
+          "n": "Where's the coffee machine?"
+        },
+        {
+          "t": "Merci beaucoup pour ton aide !",
+          "n": "Thanks a lot for your help!",
+          "note": "Formal: votre aide"
+        }
+      ],
+      "branch": {
+        "title": "The new desk",
+        "scene": "It is your first morning in a new office. A colleague comes over to your desk.",
+        "name": "Karim (collègue)",
+        "voice": "fr-FR-AlainNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Salut ! Tu viens d'arriver ? Moi, c'est Karim.",
+            "n": "Hi! Have you just started? I'm Karim.",
+            "choices": [
+              {
+                "t": "Oui, c'est mon premier jour. Je m'appelle Alex.",
+                "n": "Yes, it's my first day. My name is Alex.",
+                "next": "welcome"
+              },
+              {
+                "t": "Pardon ? Vous pouvez répéter ?",
+                "n": "Sorry? Could you repeat that?",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Tu viens d'arriver dans l'équipe ? Je m'appelle Karim. Et on se tutoie, hein !",
+            "n": "Have you just joined the team? My name is Karim. And let's use tu, OK!",
+            "choices": [
+              {
+                "t": "Ah, d'accord ! Oui, c'est mon premier jour. Moi, c'est Alex.",
+                "n": "Oh, OK! Yes, it's my first day. I'm Alex.",
+                "next": "welcome"
+              }
+            ]
+          },
+          "welcome": {
+            "t": "Bienvenue dans l'équipe ! Je peux t'aider ?",
+            "n": "Welcome to the team! Can I help you?",
+            "choices": [
+              {
+                "t": "Oui, volontiers. Mon ordinateur ne marche pas.",
+                "n": "Yes, please. My computer isn't working.",
+                "next": "computer"
+              },
+              {
+                "t": "Où est la machine à café ?",
+                "n": "Where's the coffee machine?",
+                "next": "coffee"
+              }
+            ]
+          },
+          "coffee": {
+            "t": "Elle est au fond du couloir, à gauche. Tu as besoin d'autre chose ?",
+            "n": "It's at the end of the corridor, on the left. Do you need anything else?",
+            "choices": [
+              {
+                "t": "Oui, mon ordinateur ne marche pas.",
+                "n": "Yes, my computer isn't working.",
+                "next": "computer"
+              },
+              {
+                "t": "Non. Laisse-moi tranquille !",
+                "n": "No. Leave me alone!",
+                "next": "bad"
+              }
+            ]
+          },
+          "computer": {
+            "t": "Je te donne le mot de passe. Voilà, ça marche maintenant.",
+            "n": "I'll give you the password. There, it works now.",
+            "choices": [
+              {
+                "t": "Génial, merci beaucoup pour ton aide !",
+                "n": "Great, thanks a lot for your help!",
+                "next": "lunch"
+              },
+              {
+                "t": "Merci ! Je cherche la salle de réunion. La réunion commence à quelle heure ?",
+                "n": "Thanks! I'm looking for the meeting room. What time does the meeting start?",
+                "next": "meeting"
+              }
+            ]
+          },
+          "meeting": {
+            "t": "À dix heures. Viens, on y va ensemble.",
+            "n": "At ten. Come on, let's go together.",
+            "end": "good",
+            "outcome": "You got help, sorted out your computer and found your first meeting."
+          },
+          "lunch": {
+            "t": "De rien ! On déjeune à midi à la cantine. Tu viens avec nous ?",
+            "n": "You're welcome! We have lunch at noon in the canteen. Are you coming with us?",
+            "end": "good",
+            "outcome": "Your colleague helped you and invited you to lunch."
+          },
+          "bad": {
+            "t": "Ah… d'accord. Bon courage, alors.",
+            "n": "Oh… OK. Good luck, then.",
+            "end": "bad",
+            "outcome": "That was rude — on your first day, a friendly colleague is gold. Try again."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell a colleague it is your first day.",
+          "t": [
+            "C'est mon premier jour",
+            "Aujourd'hui c'est mon premier jour"
+          ]
+        },
+        {
+          "n": "Thank a colleague (tu) for their help.",
+          "t": [
+            "Merci beaucoup pour ton aide",
+            "Merci pour ton aide",
+            "Merci beaucoup pour votre aide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-l7",
+      "kind": "speaking",
+      "title": "Talk about your job",
+      "goal": "Describe your job and what you think of it for 40 seconds.",
+      "culture": {
+        "title": "35 hours, holidays and vous at work",
+        "body": "In France the legal working week has been 35 hours since the early 2000s. Many full-time employees work more and get extra days off in return, called RTT. Employees are entitled to five weeks of paid holiday (congés payés) a year, and many take a long break in summer. At work, vous is the safe start with managers, clients and older colleagues; in many offices colleagues soon ask On se tutoie ? — wait for that. In Québec, tutoiement is much more common at work, often even with the boss, and an email is usually un courriel. In Switzerland, working weeks are usually longer than in France, often around 40 hours or more.",
+        "regions": [
+          "FR",
+          "CA",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je travaille comme ingénieur.",
+          "n": "I work as an engineer.",
+          "note": "Or simply: Je suis ingénieur."
+        },
+        {
+          "t": "Je trouve que mon travail est intéressant.",
+          "n": "I think my job is interesting."
+        },
+        {
+          "t": "On se tutoie au bureau.",
+          "n": "We use tu with each other at the office."
+        },
+        {
+          "t": "Après le travail, je ne lis pas mes mails.",
+          "n": "After work I don't read my emails.",
+          "note": "Québec: mes courriels"
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your job or daily work, and say what you think about it.",
+          "hint": "Je travaille comme / dans …, Je commence à …, Je finis à …, Je trouve que …, Mes collègues sont …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "your job or workplace",
+              "any": [
+                "je travaille",
+                "travaille comme",
+                "travaille dans",
+                "bureau",
+                "entreprise",
+                "télétravail",
+                "hôpital",
+                "magasin",
+                "école"
+              ]
+            },
+            {
+              "label": "a time",
+              "any": [
+                "heure*",
+                "commence",
+                "finis",
+                "midi",
+                "matin",
+                "soir",
+                "pause"
+              ]
+            },
+            {
+              "label": "an opinion",
+              "any": [
+                "je trouve",
+                "je pense",
+                "à mon avis",
+                "me plaît",
+                "intéressant*",
+                "fatigant*",
+                "stressant*"
+              ]
+            },
+            {
+              "label": "colleagues or your boss",
+              "any": [
+                "collègue*",
+                "chef*",
+                "équipe",
+                "sympa*",
+                "patron*"
+              ]
+            }
+          ],
+          "model": "Je travaille comme infirmière dans un hôpital à Lyon. Je commence à sept heures et je finis à quinze heures. Je trouve que mon travail est intéressant, mais fatigant. Mes collègues sont très sympas."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you work as an engineer.",
+          "t": [
+            "Je travaille comme ingénieur",
+            "Je suis ingénieur",
+            "Je travaille comme ingénieure",
+            "Je suis ingénieure"
+          ]
+        },
+        {
+          "n": "Say you don't read your emails after work.",
+          "t": [
+            "Après le travail je ne lis pas mes mails",
+            "Après le travail je lis pas mes mails",
+            "Je ne lis pas mes mails après le travail",
+            "Après le travail je ne lis pas mes e-mails",
+            "Après le travail je ne lis pas mes courriels"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Au travail",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

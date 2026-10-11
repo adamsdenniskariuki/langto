@@ -1,0 +1,887 @@
+{
+  "id": "a2-u04",
+  "title": "Le logement",
+  "subtitle": "Home & renting",
+  "icon": "🏠",
+  "lessons": [
+    {
+      "id": "a2-u04-l1",
+      "title": "Describing your home",
+      "goal": "Say where you live and describe your rooms.",
+      "tip": {
+        "title": "il y a & pièce vs chambre",
+        "body": "il y a means there is / there are, for one thing or many: Il y a trois pièces. In the negative, un/une/des become de (d' before a vowel): Il n'y a pas d'ascenseur. In everyday speech il y a often sounds like 'ya'. Careful with false friends: une pièce is any room, une chambre is a bedroom, and un appartement is a flat. Floors: au troisième étage = on the third floor (counted above the ground floor)."
+      },
+      "phrases": [
+        {
+          "t": "J'habite dans un appartement au troisième étage.",
+          "n": "I live in a flat on the third floor."
+        },
+        {
+          "t": "Il y a trois pièces.",
+          "n": "There are three rooms.",
+          "note": "pièce = room; chambre = bedroom"
+        },
+        {
+          "t": "Le salon est grand et lumineux.",
+          "n": "The living room is big and bright."
+        },
+        {
+          "t": "La cuisine est petite mais pratique.",
+          "n": "The kitchen is small but practical."
+        },
+        {
+          "t": "Ma chambre a un balcon.",
+          "n": "My bedroom has a balcony."
+        },
+        {
+          "t": "Il y a une salle de bains et des toilettes séparées.",
+          "n": "There's a bathroom and a separate toilet."
+        },
+        {
+          "t": "Il n'y a pas d'ascenseur.",
+          "n": "There's no lift.",
+          "note": "pas de / pas d' after a negative"
+        },
+        {
+          "t": "L'appartement donne sur un parc.",
+          "n": "The flat looks out onto a park.",
+          "note": "donner sur = to overlook"
+        }
+      ],
+      "dialogue": {
+        "title": "Your new flat",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Alors, ton nouvel appartement, il est comment ?",
+            "n": "So, what's your new flat like?"
+          },
+          {
+            "who": "you",
+            "t": "Il est super ! Il y a trois pièces.",
+            "n": "It's great! There are three rooms."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Et le salon ?",
+            "n": "And the living room?"
+          },
+          {
+            "who": "you",
+            "t": "Le salon est grand et lumineux. La cuisine est petite mais pratique.",
+            "n": "The living room is big and bright. The kitchen is small but practical."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Tu habites à quel étage ?",
+            "n": "Which floor do you live on?"
+          },
+          {
+            "who": "you",
+            "t": "Au troisième étage. Mais il n'y a pas d'ascenseur !",
+            "n": "On the third floor. But there's no lift!"
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Bon, c'est du sport ! Il y a un balcon ?",
+            "n": "Well, that's exercise! Is there a balcony?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, ma chambre a un balcon. Et l'appartement donne sur un parc.",
+            "n": "Yes, my bedroom has a balcony. And the flat looks out onto a park."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you live in a flat on the third floor.",
+          "t": [
+            "J'habite dans un appartement au troisième étage",
+            "J'habite au troisième étage",
+            "J'habite dans un appartement au troisième"
+          ]
+        },
+        {
+          "n": "Say there are three rooms.",
+          "t": [
+            "Il y a trois pièces",
+            "Y a trois pièces"
+          ]
+        },
+        {
+          "n": "Say there's no lift.",
+          "t": [
+            "Il n'y a pas d'ascenseur",
+            "Il y a pas d'ascenseur",
+            "Y a pas d'ascenseur"
+          ]
+        },
+        {
+          "n": "Say the living room is big and bright.",
+          "t": [
+            "Le salon est grand et lumineux",
+            "Le salon est grand et clair"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l2",
+      "title": "Renting a flat",
+      "goal": "Ask about rent, charges and moving in.",
+      "tip": {
+        "title": "Flat sizes & asking questions",
+        "body": "French flats are counted by main rooms: a T2 or F2 (un deux-pièces) has a living room and one bedroom; kitchen and bathroom don't count. Un studio is a one-room flat. Rent is le loyer; les charges are the service charges (building costs, sometimes heating), and la caution or le dépôt de garantie is the deposit. Ask questions three ways: Le loyer, c'est combien ? (intonation), Est-ce que les charges sont comprises ? or Les charges sont-elles comprises ? (more formal). Meublé = furnished."
+      },
+      "phrases": [
+        {
+          "t": "Je cherche un deux-pièces à louer.",
+          "n": "I'm looking for a one-bedroom flat to rent.",
+          "note": "Ads write T2 or F2."
+        },
+        {
+          "t": "Le loyer est de combien ?",
+          "n": "How much is the rent?"
+        },
+        {
+          "t": "Est-ce que les charges sont comprises ?",
+          "n": "Are the service charges included?"
+        },
+        {
+          "t": "Est-ce que l'appartement est meublé ?",
+          "n": "Is the flat furnished?"
+        },
+        {
+          "t": "Il faut payer une caution ?",
+          "n": "Do I have to pay a deposit?"
+        },
+        {
+          "t": "Il est libre à partir de quand ?",
+          "n": "When is it available from?"
+        },
+        {
+          "t": "Quand est-ce que je peux le visiter ?",
+          "n": "When can I view it?"
+        },
+        {
+          "t": "Je peux emménager le premier du mois.",
+          "n": "I can move in on the first of the month.",
+          "note": "emménager = move in; déménager = move out/move house"
+        }
+      ],
+      "dialogue": {
+        "title": "Calling about an ad",
+        "voice": "fr-FR-AlainNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "M. Rousseau",
+            "t": "Allô, oui ?",
+            "n": "Hello?"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour, monsieur. Je vous appelle pour l'annonce. Je cherche un deux-pièces à louer.",
+            "n": "Hello, sir. I'm calling about the ad. I'm looking for a one-bedroom flat to rent."
+          },
+          {
+            "who": "A",
+            "name": "M. Rousseau",
+            "t": "Ah oui, l'appartement rue Victor-Hugo. Il fait quarante-cinq mètres carrés.",
+            "n": "Ah yes, the flat on rue Victor-Hugo. It's forty-five square metres."
+          },
+          {
+            "who": "you",
+            "t": "Très bien. Le loyer est de combien ?",
+            "n": "Very good. How much is the rent?"
+          },
+          {
+            "who": "A",
+            "name": "M. Rousseau",
+            "t": "Sept cent cinquante euros par mois.",
+            "n": "Seven hundred and fifty euros a month."
+          },
+          {
+            "who": "you",
+            "t": "Est-ce que les charges sont comprises ?",
+            "n": "Are the service charges included?"
+          },
+          {
+            "who": "A",
+            "name": "M. Rousseau",
+            "t": "Non, il faut compter cinquante euros de charges en plus.",
+            "n": "No, you need to add fifty euros of charges."
+          },
+          {
+            "who": "you",
+            "t": "D'accord. Il est libre à partir de quand ?",
+            "n": "OK. When is it available from?"
+          },
+          {
+            "who": "A",
+            "name": "M. Rousseau",
+            "t": "À partir du premier mars. Vous voulez le visiter ?",
+            "n": "From the first of March. Would you like to view it?"
+          },
+          {
+            "who": "you",
+            "t": "Oui ! Quand est-ce que je peux le visiter ?",
+            "n": "Yes! When can I view it?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask how much the rent is.",
+          "t": [
+            "Le loyer est de combien",
+            "Le loyer, c'est combien",
+            "C'est combien, le loyer",
+            "Combien coûte le loyer",
+            "Quel est le loyer"
+          ]
+        },
+        {
+          "n": "Ask if the service charges are included.",
+          "t": [
+            "Est-ce que les charges sont comprises",
+            "Les charges sont comprises",
+            "Les charges sont-elles comprises"
+          ]
+        },
+        {
+          "n": "Ask if the flat is furnished.",
+          "t": [
+            "Est-ce que l'appartement est meublé",
+            "L'appartement est meublé",
+            "Il est meublé",
+            "Est-ce qu'il est meublé"
+          ]
+        },
+        {
+          "n": "Ask when it's available from.",
+          "t": [
+            "Il est libre à partir de quand",
+            "À partir de quand est-il libre",
+            "Il est libre quand",
+            "À partir de quand il est libre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l3",
+      "title": "Neighbours & house rules",
+      "goal": "Introduce yourself to a neighbour and ask about the building.",
+      "tip": {
+        "title": "Good neighbours",
+        "body": "In French blocks of flats (un immeuble) it's polite to say Bonjour to neighbours on the stairs, and before a party many people put a note in the hall to warn them about the noise. Some buildings have a gardien or gardienne (traditionally la concierge) who looks after the building and the post. Rubbish is sorted: les poubelles are the bins, and yellow-lidded bins are often for recycling — check the local rules. Say voisin with a nasal 'in' at the end; voisine (female) has no nasal: voi-zine."
+      },
+      "phrases": [
+        {
+          "t": "Bonjour, je suis votre nouvelle voisine.",
+          "n": "Hello, I'm your new neighbour.",
+          "note": "A man says votre nouveau voisin."
+        },
+        {
+          "t": "J'habite au deuxième, porte de gauche.",
+          "n": "I live on the second floor, door on the left."
+        },
+        {
+          "t": "Où sont les poubelles ?",
+          "n": "Where are the bins?"
+        },
+        {
+          "t": "On fait une petite fête samedi soir.",
+          "n": "We're having a little party on Saturday evening."
+        },
+        {
+          "t": "J'espère que le bruit ne va pas vous déranger.",
+          "n": "I hope the noise won't disturb you."
+        },
+        {
+          "t": "N'hésitez pas à frapper à ma porte.",
+          "n": "Don't hesitate to knock on my door."
+        }
+      ],
+      "dialogue": {
+        "title": "On the landing",
+        "voice": "fr-FR-YvetteNeural",
+        "lines": [
+          {
+            "who": "you",
+            "t": "Bonjour, madame ! Je suis votre nouvelle voisine. J'habite au deuxième, porte de gauche.",
+            "n": "Hello, madam! I'm your new neighbour. I live on the second floor, door on the left."
+          },
+          {
+            "who": "A",
+            "name": "Mme Garnier",
+            "t": "Ah, bienvenue ! Moi, c'est Madame Garnier. Vous vous plaisez ici ?",
+            "n": "Ah, welcome! I'm Madame Garnier. Do you like it here?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, beaucoup. Où sont les poubelles, s'il vous plaît ?",
+            "n": "Yes, very much. Where are the bins, please?"
+          },
+          {
+            "who": "A",
+            "name": "Mme Garnier",
+            "t": "Dans la cour, derrière l'immeuble. Les jaunes, c'est pour le recyclage.",
+            "n": "In the courtyard, behind the building. The yellow ones are for recycling."
+          },
+          {
+            "who": "you",
+            "t": "Merci ! Au fait, on fait une petite fête samedi soir. J'espère que le bruit ne va pas vous déranger.",
+            "n": "Thanks! By the way, we're having a little party on Saturday evening. I hope the noise won't disturb you."
+          },
+          {
+            "who": "A",
+            "name": "Mme Garnier",
+            "t": "C'est gentil de prévenir. Pas de problème, mais pas trop tard, hein !",
+            "n": "It's kind of you to warn me. No problem, but not too late, eh!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Introduce yourself as the new neighbour.",
+          "t": [
+            "Je suis votre nouvelle voisine",
+            "Je suis votre nouveau voisin",
+            "Je suis ta nouvelle voisine",
+            "Je suis ton nouveau voisin",
+            "Bonjour, je suis votre nouvelle voisine",
+            "Bonjour, je suis votre nouveau voisin"
+          ]
+        },
+        {
+          "n": "Ask where the bins are.",
+          "t": [
+            "Où sont les poubelles",
+            "Les poubelles sont où",
+            "Elles sont où, les poubelles"
+          ]
+        },
+        {
+          "n": "Say you're having a little party on Saturday evening.",
+          "t": [
+            "On fait une petite fête samedi soir",
+            "Nous faisons une petite fête samedi soir",
+            "On fait une fête samedi soir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l4",
+      "kind": "grammar",
+      "title": "Where things are & adjective position",
+      "goal": "Say where things are and describe them with adjectives.",
+      "tip": {
+        "title": "Prepositions of place & BANGS",
+        "body": "sur (on), sous (under), dans (in), devant (in front of), derrière (behind), entre (between). Prepositions ending in de merge with le/les: à côté du lit, en face des fenêtres (de + le = du, de + les = des). Most adjectives come after the noun: une cuisine moderne. But short, common adjectives of Beauty, Age, Number, Goodness and Size (BANGS) come before: une jolie chambre, un vieux canapé, un grand salon, un petit jardin. Before a vowel, beau, nouveau and vieux become bel, nouvel, vieil: un vieil immeuble, un nouvel appartement — same sound as the feminine."
+      },
+      "phrases": [
+        {
+          "t": "Le canapé est en face de la télé.",
+          "n": "The sofa is opposite the TV."
+        },
+        {
+          "t": "La lampe est à côté du lit.",
+          "n": "The lamp is next to the bed.",
+          "note": "de + le = du"
+        },
+        {
+          "t": "Les clés sont sur la table de la cuisine.",
+          "n": "The keys are on the kitchen table."
+        },
+        {
+          "t": "On a une jolie cuisine moderne.",
+          "n": "We have a pretty, modern kitchen.",
+          "note": "jolie before, moderne after"
+        },
+        {
+          "t": "C'est un vieil immeuble.",
+          "n": "It's an old building.",
+          "note": "vieux → vieil before a vowel"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Where's the cat?",
+          "base": {
+            "t": "Le chat est sous la table.",
+            "n": "The cat is under the table."
+          },
+          "items": [
+            {
+              "cue": "sur",
+              "t": "Le chat est sur la table.",
+              "n": "The cat is on the table."
+            },
+            {
+              "cue": "à côté de · le lit",
+              "t": "Le chat est à côté du lit.",
+              "n": "The cat is next to the bed."
+            },
+            {
+              "cue": "derrière · le canapé",
+              "t": "Le chat est derrière le canapé.",
+              "n": "The cat is behind the sofa."
+            },
+            {
+              "cue": "devant · la fenêtre",
+              "t": "Le chat est devant la fenêtre.",
+              "n": "The cat is in front of the window."
+            }
+          ]
+        },
+        {
+          "title": "Before or after?",
+          "base": {
+            "t": "C'est une grande maison.",
+            "n": "It's a big house."
+          },
+          "items": [
+            {
+              "cue": "joli · jardin",
+              "t": "C'est un joli jardin.",
+              "n": "It's a pretty garden."
+            },
+            {
+              "cue": "moderne · cuisine",
+              "t": "C'est une cuisine moderne.",
+              "n": "It's a modern kitchen."
+            },
+            {
+              "cue": "vieux · immeuble",
+              "t": "C'est un vieil immeuble.",
+              "n": "It's an old building."
+            },
+            {
+              "cue": "nouveau · appartement",
+              "t": "C'est un nouvel appartement.",
+              "n": "It's a new flat."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the lamp is next to the bed.",
+          "t": [
+            "La lampe est à côté du lit"
+          ]
+        },
+        {
+          "n": "Say it's a pretty garden.",
+          "t": [
+            "C'est un joli jardin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l5",
+      "kind": "listening",
+      "title": "Why did you move?",
+      "goal": "Follow a friend explaining why she moved house.",
+      "phrases": [
+        {
+          "t": "J'ai déménagé le mois dernier.",
+          "n": "I moved house last month."
+        },
+        {
+          "t": "C'était trop petit et trop cher.",
+          "n": "It was too small and too expensive."
+        },
+        {
+          "t": "Maintenant, on a un jardin.",
+          "n": "Now we have a garden."
+        },
+        {
+          "t": "Il faut venir pendre la crémaillère !",
+          "n": "You must come to the housewarming!",
+          "note": "pendre la crémaillère = to have a housewarming"
+        }
+      ],
+      "story": {
+        "title": "A new start",
+        "intro": "Karim bumps into his friend Inès, who has just moved out of central Lyon.",
+        "voice": "fr-FR-MauriceNeural",
+        "lines": [
+          {
+            "name": "Karim",
+            "t": "Inès ! Ça fait longtemps ! Tu habites toujours près de la place Bellecour ?",
+            "n": "Inès! It's been ages! Do you still live near Place Bellecour?"
+          },
+          {
+            "name": "Inès",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Non, j'ai déménagé le mois dernier. Maintenant, j'habite à Villeurbanne.",
+            "n": "No, I moved last month. Now I live in Villeurbanne."
+          },
+          {
+            "name": "Karim",
+            "t": "Ah bon ? Pourquoi ? Tu aimais bien ton quartier !",
+            "n": "Really? Why? You liked your neighbourhood!"
+          },
+          {
+            "name": "Inès",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Oui, mais l'appartement était un studio au cinquième sans ascenseur. C'était trop petit et trop cher.",
+            "n": "Yes, but the flat was a studio on the fifth floor with no lift. It was too small and too expensive."
+          },
+          {
+            "name": "Karim",
+            "t": "Et le nouveau, il est comment ?",
+            "n": "And what's the new one like?"
+          },
+          {
+            "name": "Inès",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "C'est un trois-pièces au rez-de-chaussée. Et maintenant, on a un jardin !",
+            "n": "It's a two-bedroom flat on the ground floor. And now we have a garden!"
+          },
+          {
+            "name": "Karim",
+            "t": "On ? Tu n'habites pas seule ?",
+            "n": "We? You don't live alone?"
+          },
+          {
+            "name": "Inès",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Non, avec mon copain et notre chien. Le chien adore le jardin !",
+            "n": "No, with my boyfriend and our dog. The dog loves the garden!"
+          },
+          {
+            "name": "Karim",
+            "t": "Super ! Et c'est loin du centre ?",
+            "n": "Great! And is it far from the centre?"
+          },
+          {
+            "name": "Inès",
+            "voice": "fr-FR-DeniseNeural",
+            "t": "Non, vingt minutes en métro. Il faut venir pendre la crémaillère samedi !",
+            "n": "No, twenty minutes by metro. You must come to the housewarming on Saturday!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quand est-ce qu'Inès a déménagé ?",
+            "n": "When did Inès move?",
+            "t": [
+              "Le mois dernier",
+              "Elle a déménagé le mois dernier",
+              "Il y a un mois"
+            ]
+          },
+          {
+            "q": "Pourquoi est-ce qu'elle a déménagé ?",
+            "n": "Why did she move?",
+            "t": [
+              "C'était trop petit et trop cher",
+              "Trop petit et trop cher",
+              "Parce que c'était trop petit et trop cher",
+              "Trop cher",
+              "Trop petit"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'il y a maintenant ?",
+            "n": "What do they have now?",
+            "t": [
+              "Un jardin",
+              "Il y a un jardin",
+              "On a un jardin"
+            ]
+          },
+          {
+            "q": "Avec qui est-ce qu'elle habite ?",
+            "n": "Who does she live with?",
+            "t": [
+              "Avec son copain et son chien",
+              "Avec son copain",
+              "Son copain et son chien",
+              "Avec son copain et leur chien"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2-u04-l6",
+      "kind": "roleplay",
+      "title": "Flat viewing",
+      "goal": "View a flat, ask the right questions and decide.",
+      "phrases": [
+        {
+          "t": "Je peux voir la chambre ?",
+          "n": "Can I see the bedroom?"
+        },
+        {
+          "t": "Il y a de la place pour un bureau ?",
+          "n": "Is there room for a desk?"
+        },
+        {
+          "t": "Le quartier est calme ?",
+          "n": "Is the area quiet?"
+        },
+        {
+          "t": "Je le prends !",
+          "n": "I'll take it!"
+        }
+      ],
+      "branch": {
+        "title": "The viewing",
+        "scene": "You are viewing a two-room flat with the landlady, Madame Petit. She has other people interested.",
+        "name": "Mme Petit",
+        "voice": "fr-FR-JacquelineNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bonjour ! Entrez, je vous en prie. Voici le salon.",
+            "n": "Hello! Come in, please. This is the living room.",
+            "choices": [
+              {
+                "t": "Bonjour ! Il est très lumineux. Je peux voir la chambre ?",
+                "n": "Hello! It's very bright. Can I see the bedroom?",
+                "next": "bedroom"
+              },
+              {
+                "t": "Bof, c'est petit.",
+                "n": "Meh, it's small.",
+                "next": "cold"
+              }
+            ]
+          },
+          "cold": {
+            "t": "C'est un deux-pièces de quarante mètres carrés. Vous voulez continuer la visite ?",
+            "n": "It's a two-room flat of forty square metres. Do you want to continue the viewing?",
+            "choices": [
+              {
+                "t": "Oui, pardon. Je peux voir la chambre ?",
+                "n": "Yes, sorry. Can I see the bedroom?",
+                "next": "bedroom"
+              },
+              {
+                "t": "Non, ça ne m'intéresse pas.",
+                "n": "No, I'm not interested.",
+                "next": "badLeave"
+              }
+            ]
+          },
+          "bedroom": {
+            "t": "Voilà la chambre. Elle donne sur la cour, alors c'est calme.",
+            "n": "Here's the bedroom. It looks onto the courtyard, so it's quiet.",
+            "choices": [
+              {
+                "t": "Il y a de la place pour un bureau ?",
+                "n": "Is there room for a desk?",
+                "next": "desk"
+              },
+              {
+                "t": "Le quartier est calme aussi ?",
+                "n": "Is the area quiet too?",
+                "next": "area"
+              }
+            ]
+          },
+          "desk": {
+            "t": "Oui, à côté de la fenêtre, il y a assez de place.",
+            "n": "Yes, next to the window there's enough room.",
+            "choices": [
+              {
+                "t": "Parfait. Le loyer est de combien, charges comprises ?",
+                "n": "Perfect. How much is the rent, including charges?",
+                "next": "rent"
+              }
+            ]
+          },
+          "area": {
+            "t": "Oui, très calme. Et il y a une boulangerie et un arrêt de bus en face.",
+            "n": "Yes, very quiet. And there's a bakery and a bus stop opposite.",
+            "choices": [
+              {
+                "t": "Parfait. Le loyer est de combien, charges comprises ?",
+                "n": "Perfect. How much is the rent, including charges?",
+                "next": "rent"
+              }
+            ]
+          },
+          "rent": {
+            "t": "Huit cents euros charges comprises. Deux autres personnes viennent le visiter cet après-midi.",
+            "n": "Eight hundred euros including charges. Two other people are coming to view it this afternoon.",
+            "choices": [
+              {
+                "t": "Je le prends ! Je peux vous envoyer mon dossier aujourd'hui.",
+                "n": "I'll take it! I can send you my application today.",
+                "next": "goodTake"
+              },
+              {
+                "t": "Je vais réfléchir. Je vous rappelle la semaine prochaine.",
+                "n": "I'll think about it. I'll call you back next week.",
+                "next": "badLate"
+              }
+            ]
+          },
+          "goodTake": {
+            "t": "Très bien ! Envoyez-moi votre dossier et on signe le bail vendredi.",
+            "n": "Very good! Send me your file and we'll sign the lease on Friday.",
+            "end": "good",
+            "outcome": "You were quick and polite — the flat is yours."
+          },
+          "badLate": {
+            "t": "D'accord, mais je ne peux rien vous promettre. Au revoir.",
+            "n": "OK, but I can't promise you anything. Goodbye.",
+            "end": "bad",
+            "outcome": "You waited too long — another person took the flat."
+          },
+          "badLeave": {
+            "t": "Comme vous voulez. Au revoir.",
+            "n": "As you wish. Goodbye.",
+            "end": "bad",
+            "outcome": "You left without really seeing the flat."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask if you can see the bedroom.",
+          "t": [
+            "Je peux voir la chambre",
+            "Est-ce que je peux voir la chambre",
+            "Puis-je voir la chambre"
+          ]
+        },
+        {
+          "n": "Say you'll take it.",
+          "t": [
+            "Je le prends",
+            "Je la prends"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-l7",
+      "kind": "speaking",
+      "title": "My home",
+      "goal": "Describe your home for 40 seconds.",
+      "culture": {
+        "title": "Floors and room counts",
+        "body": "In France, Belgium and Switzerland the ground floor is le rez-de-chaussée (often written RDC) and le premier étage is the floor above — like British, not American, English. Room counts differ: in France a T3 has three main rooms (living room plus two bedrooms). In Switzerland ads often count half rooms, e.g. 3,5 pièces. In Québec, flats are described like un trois et demi (3 ½): kitchen, living room and bedroom, with the bathroom counted as the half. Many Québec leases traditionally end on 1 July, so the province has a big moving day then.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "J'habite dans une maison avec un petit jardin.",
+          "n": "I live in a house with a small garden."
+        },
+        {
+          "t": "Ma pièce préférée, c'est la cuisine.",
+          "n": "My favourite room is the kitchen."
+        },
+        {
+          "t": "C'est au rez-de-chaussée.",
+          "n": "It's on the ground floor."
+        },
+        {
+          "t": "Le quartier est animé mais agréable.",
+          "n": "The area is lively but pleasant."
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe your home: what kind of place it is, which floor, the rooms, your favourite room and the neighbourhood.",
+          "hint": "J'habite dans un/une …, au … étage, Il y a … pièces, Ma pièce préférée, c'est …, Le quartier est …",
+          "seconds": 40,
+          "minWords": 15,
+          "targets": [
+            {
+              "label": "type of home",
+              "any": [
+                "appartement",
+                "maison",
+                "studio",
+                "immeuble",
+                "pièces"
+              ]
+            },
+            {
+              "label": "a room",
+              "any": [
+                "cuisine",
+                "salon",
+                "chambre",
+                "salle de bains",
+                "balcon",
+                "jardin",
+                "toilettes"
+              ]
+            },
+            {
+              "label": "there is",
+              "any": [
+                "il y a",
+                "y a",
+                "il n'y a pas"
+              ]
+            },
+            {
+              "label": "a description",
+              "any": [
+                "grand*",
+                "petit*",
+                "lumineu*",
+                "calme",
+                "moderne",
+                "joli*",
+                "vieu*",
+                "vieil*",
+                "pratique",
+                "animé"
+              ]
+            }
+          ],
+          "model": "J'habite dans un appartement au deuxième étage. Il y a trois pièces : un salon et deux chambres, plus une petite cuisine. Ma pièce préférée, c'est le salon, parce qu'il est grand et lumineux. Le quartier est calme."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say your favourite room is the kitchen.",
+          "t": [
+            "Ma pièce préférée, c'est la cuisine",
+            "Ma pièce préférée est la cuisine"
+          ]
+        },
+        {
+          "n": "Say it's on the ground floor.",
+          "t": [
+            "C'est au rez-de-chaussée",
+            "J'habite au rez-de-chaussée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Le logement",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
