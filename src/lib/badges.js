@@ -21,6 +21,36 @@ function levelDone(s, courses, level) {
 
 const sp = (s, k) => s.speaking?.[k] || 0;
 
+// Per-course badges (Spanish A1 Graduate, …) for courses added after German. German keeps the original
+// language-neutral level badges so existing saves are unchanged.
+export const COURSE_BADGE_LANGS = { es: 'Spanish', fr: 'French' };
+
+function courseBadges(code, name) {
+  const only = (c) => (c[code] ? { [code]: c[code] } : {});
+  const by = (s, k) => s.speakingBy?.[code]?.[k] || 0;
+  const grad = (level, icon, extra = '') => ({
+    id: `${code}-${level.toLowerCase()}`, lang: code, level, icon,
+    name: `${name} ${level} ${level === 'C2' ? 'Mastery' : 'Graduate'}`,
+    desc: `Pass the ${name} ${level} speaking test${extra}.`,
+    test: (s, c) => levelDone(s, only(c), level),
+  });
+  const mile = (level, id, icon, title, desc, test) => ({ id: `${code}-${id}`, lang: code, level, icon, name: `${title} (${name})`, desc, test });
+  return [
+    grad('A1', '🎓'),
+    mile('A1', 'first-chats', '👋', 'First Chats', `Say 50 ${name} sentences correctly.`, (s) => by(s, 'sentences') >= 50),
+    grad('A2', '🧭'),
+    mile('A2', 'small-talker', '☕', 'Small Talker', `Say 250 ${name} sentences correctly.`, (s) => by(s, 'sentences') >= 250),
+    grad('B1', '🏅', ' — independent speaker!'),
+    mile('B1', 'storyteller', '📖', 'Storyteller', `Speak ${name} for 3 hours in total.`, (s) => by(s, 'seconds') >= 3 * 3600),
+    grad('B2', '🏆'),
+    mile('B2', 'negotiator', '🤝', 'Negotiator', `Complete 50 ${name} dialogues.`, (s) => by(s, 'dialogues') >= 50),
+    grad('C1', '👑', ' — proficient speaker!'),
+    mile('C1', 'silver-tongue', '🥈', 'Silver Tongue', `Score 95%+ on 100 ${name} sentences.`, (s) => by(s, 'aces') >= 100),
+    grad('C2', '💫'),
+    mile('C2', 'native-flow', '🌍', 'Native Flow', `Say 2,500 ${name} sentences correctly and speak ${name} for 10 hours.`, (s) => by(s, 'sentences') >= 2500 && by(s, 'seconds') >= 10 * 3600),
+  ];
+}
+
 export const BADGES = [
   { id: 'first-lesson', icon: '🌱', name: 'First Steps', desc: 'Complete your first lesson.', test: (s) => lessonsDone(s) >= 1 },
   { id: 'five-lessons', icon: '📚', name: 'On a Roll', desc: 'Complete 5 lessons.', test: (s) => lessonsDone(s) >= 5 },
@@ -66,6 +96,7 @@ export const BADGES = [
   { id: 'early-bird', icon: '🐦', name: 'Early Bird', desc: 'Practise before 7 am.', test: (s) => !!s.meta.earlyBird },
   { id: 'night-owl', icon: '🦉', name: 'Night Owl', desc: 'Practise after 10 pm.', test: (s) => !!s.meta.nightOwl },
   { id: 'backup', icon: '💾', name: 'Safe Keeper', desc: 'Export a backup of your progress.', test: (s) => (s.exports || 0) >= 1 },
+  ...Object.entries(COURSE_BADGE_LANGS).flatMap(([code, name]) => courseBadges(code, name)),
 ];
 
 export function newlyEarned(s, courses) {

@@ -255,7 +255,7 @@ export function DialogueStep({ step, done }) {
       <p class="eyebrow">🎭 Role-play</p>
       <h2>{dialogue.title}</h2>
       <label class="toggle small">
-        <input type="checkbox" checked={hideText} onChange={(e) => setHideText(e.currentTarget.checked)} /> Challenge: hide my German lines
+        <input type="checkbox" checked={hideText} onChange={(e) => setHideText(e.currentTarget.checked)} /> Challenge: hide my {course.lang.name} lines
       </label>
       <div class="chat" aria-live="polite">
         {dialogue.lines.slice(0, Math.min(idx + 1, dialogue.lines.length)).map((l, i) => {
@@ -333,7 +333,7 @@ export function PromptStep({ step, done }) {
   const pct = (left / PROMPT_SECONDS) * 100;
   return (
     <div class="step">
-      <p class="eyebrow">⚡ Speak up — answer in German</p>
+      <p class="eyebrow">⚡ Speak up — answer in {course.lang.name}</p>
       <h2>{prompt.n}</h2>
       <div class="timer" aria-label={`${left} seconds left`}>
         <span style={{ width: `${pct}%` }} class={left <= 3 ? 'low' : ''} />

@@ -12,7 +12,9 @@ describe('UI components', () => {
   it('Flag draws an SVG for known languages and a text badge otherwise', () => {
     const de = Flag({ code: 'de' });
     expect(de.type).toBe('svg');
-    expect(de.props.children).toHaveLength(3);
+    expect([de.props.children].flat(2).filter(Boolean)).toHaveLength(3);
+    const mx = Flag({ code: 'mx' });
+    expect([mx.props.children].flat(2).filter(Boolean)).toHaveLength(4); // 3 stripes + emblem
     const xx = Flag({ code: 'xx' });
     expect(xx.type).toBe('span');
     expect(xx.props.children).toBe('XX');

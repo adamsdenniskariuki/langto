@@ -31,6 +31,7 @@ export function defaultState() {
     goalsMet: 0,
     streak: { count: 0, best: 0, last: null, freezes: 0 },
     speaking: { seconds: 0, sentences: 0, attempts: 0, dialogues: 0, prompts: 0, aces: 0, free: 0, pairs: 0, drills: 0, questions: 0, branches: 0 },
+    speakingBy: {}, // { [lang]: same counters as `speaking`, for the course that was active }
     lessons: {},
     levelStarts: {},
     cards: {},
@@ -57,6 +58,8 @@ export function migrate(data) {
     return out;
   };
   const s = merge(defaultState(), data);
+  // Saves from before per-course speaking stats: everything so far was spoken in the course then selected.
+  if (isObj(data) && !isObj(data.speakingBy) && isObj(data.speaking)) s.speakingBy = { [s.settings.lang || 'de']: { ...data.speaking } };
   s.version = FORMAT;
   return s;
 }
@@ -98,11 +101,25 @@ const EVENT_TOASTS = {
   'freeze-used': (e) => [`A streak freeze saved your streak (${e.n} day${e.n > 1 ? 's' : ''}).`, '❄️'],
 };
 
+/** Credit increases in the global speaking counters to the course that is active (`speakingBy[lang]`). */
+export function trackSpeakingBy(prev, draft) {
+  const lang = draft.settings?.lang;
+  if (!lang || !isObj(draft.speaking)) return;
+  for (const [k, v] of Object.entries(draft.speaking)) {
+    const d = typeof v === 'number' ? v - (prev.speaking?.[k] || 0) : 0;
+    if (d > 0) {
+      const t = ((draft.speakingBy ||= {})[lang] ||= {});
+      t[k] = (t[k] || 0) + d;
+    }
+  }
+}
+
 /** Mutate state via `fn(draft, events)`; persists, awards badges and notifies subscribers. */
 export function update(fn) {
   const draft = structuredClone(state);
   const events = [];
   fn(draft, events);
+  trackSpeakingBy(state, draft);
   for (const b of newlyEarned(draft, courseInfo)) {
     draft.badges[b.id] = dateKey();
     events.push({ type: 'badge', badge: b });

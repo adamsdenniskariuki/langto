@@ -8,9 +8,11 @@
 // exits successfully; the app then falls back to the browser's Web Speech voice.
 //
 // Narrated lines are generated once per narrator voice (languages.json → tts.narrators). A monthly character
-// budget (AZURE_SPEECH_MONTHLY_CHARS, default 500000 = Azure free tier, minus a 5% margin) is tracked in
-// public/audio/usage.json (kept in the CI audio cache); lines over budget are deferred to later runs, most
-// important first (default voices before extra narrators). public/audio/<lang>/narration.json lists
+// budget (AZURE_SPEECH_MONTHLY_BUDGET, default 2,000,000 for the pay-as-you-go S0 tier, minus a 5% margin;
+// set 500000 for the F0 free tier) is tracked in public/audio/usage.json (kept in the CI audio cache) and
+// shared by all languages. Lines over budget are deferred to later runs, most important first: lower CEFR
+// levels before higher ones (A1, then A2, …; pronunciation units count with their level), and default
+// voices before extra narrators. public/audio/<lang>/narration.json lists
 // narration-only clips per voice so offline downloads can skip narrators the learner didn't choose.
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from 'node:fs';
@@ -24,7 +26,7 @@ const REGION = process.env.AZURE_SPEECH_REGION?.trim();
 const FORMAT = 'audio-24khz-48kbitrate-mono-mp3';
 const CONCURRENCY = Number(process.env.AZURE_SPEECH_CONCURRENCY || 4);
 const PRUNE = !process.argv.includes('--no-prune');
-const MONTHLY = Number(process.env.AZURE_SPEECH_MONTHLY_CHARS || 500000);
+const MONTHLY = Number(process.env.AZURE_SPEECH_MONTHLY_BUDGET || process.env.AZURE_SPEECH_MONTHLY_CHARS || 2000000);
 const BUDGET = Math.floor(MONTHLY * 0.95);
 const month = new Date().toISOString().slice(0, 7);
 
@@ -93,52 +95,69 @@ const startUsed = (existingChars) => {
   else used = existingChars;
 };
 
+// Phase 1: per language, index existing clips and list missing ones with their level tier.
+const jobs = [];
+let existingChars = 0;
 for (const lang of langs) {
   if (!lang.tts?.default) continue;
   const course = readJSON(lang.course);
   const dir = lang.course.replace(/[^/]+$/, '');
-  const units = [
-    ...course.levels.filter((l) => !l.comingSoon).flatMap((l) => l.units),
-    ...(course.tracks || []).flatMap((t) => t.units),
-  ].map((f) => readJSON(dir + f));
-  const lines = collectLines(lang, units);
+  const live = course.levels.filter((l) => !l.comingSoon);
+  const trackUnits = (course.tracks || []).flatMap((t) => t.units).map((f) => readJSON(dir + f));
+  const levelUnits = live.map((l) => l.units.map((f) => readJSON(dir + f)));
+  const lines = collectLines(lang, [...levelUnits.flat(), ...trackUnits]);
+  // Tier = index of the first live level whose units (incl. track units tagged with that level) use the line.
+  const tier = new Map();
+  const tag = (units, t) => {
+    for (const l of collectLines(lang, units)) {
+      const k = audioKey(l.voice, l.text);
+      if (!tier.has(k) || tier.get(k) > t) tier.set(k, t);
+    }
+  };
+  live.forEach((lvl, i) => tag([...levelUnits[i], ...trackUnits.filter((u) => u.level === lvl.id)], i));
   const outDir = join(root, 'audio', lang.code);
   mkdirSync(outDir, { recursive: true });
-
   const manifest = {};
-  const narration = {};
-  let todo = [];
-  let existingChars = 0;
+  const todo = [];
+  const main = narratorVoice(lang);
   for (const line of lines) {
     const file = fileFor(line.voice, line.text);
     if (existsSync(join(outDir, file))) {
       manifest[audioKey(line.voice, line.text)] = file;
       existingChars += line.text.length;
       reused++;
-    } else if (KEY && REGION) todo.push({ ...line, file });
-    else missing++;
+    } else if (KEY && REGION) {
+      const k = audioKey(line.voice, line.text);
+      todo.push({ ...line, file, tier: tier.has(k) ? tier.get(k) : 0, rank: line.narrated && line.voice !== main ? 1 : 0 });
+    } else missing++;
   }
+  jobs.push({ lang, lines, outDir, manifest, todo, deferred: 0, deferredChars: 0 });
+}
 
-  if (todo.length) {
-    startUsed(existingChars);
-    // Default-voice lines first; extra narrator voices (nice-to-have) last.
-    const main = narratorVoice(lang);
-    const rank = (l) => (l.narrated && l.voice !== main ? 1 : 0);
-    todo.sort((a, b) => rank(a) - rank(b));
-    let left = BUDGET - used;
-    const keep = [];
-    for (const l of todo) {
-      if (l.text.length <= left) {
-        left -= l.text.length;
-        keep.push(l);
-      } else {
-        deferred++;
-        deferredChars += l.text.length;
-      }
+// Phase 2: share the monthly budget across languages — A1 lines of every course first, then A2, …;
+// within a level, default voices before extra narrators.
+const queue = jobs.flatMap((j) => j.todo.map((l) => ({ l, j })));
+if (queue.length) {
+  startUsed(existingChars);
+  queue.sort((a, b) => a.l.tier - b.l.tier || a.l.rank - b.l.rank);
+  let left = BUDGET - used;
+  for (const j of jobs) j.todo = [];
+  for (const { l, j } of queue) {
+    if (l.text.length <= left) {
+      left -= l.text.length;
+      j.todo.push(l);
+    } else {
+      j.deferred++;
+      j.deferredChars += l.text.length;
+      deferred++;
+      deferredChars += l.text.length;
     }
-    todo = keep;
   }
+}
 
+// Phase 3: synthesise and write manifests.
+for (const { lang, lines, outDir, manifest, todo, deferred: dLines, deferredChars: dChars } of jobs) {
+  const narration = {};
   await pool(todo, CONCURRENCY, async (line) => {
     if (tripped) {
       failed++;
@@ -151,7 +170,7 @@ for (const lang of langs) {
       manifest[audioKey(line.voice, line.text)] = line.file;
       made++;
       streak = 0;
-      if (made % 25 === 0) console.log(`  … ${made}/${todo.length}`);
+      if (made % 25 === 0) console.log(`  … ${made} synthesised`);
     } catch (e) {
       failed++;
       if (failed <= 5) console.warn(`⚠ ${e.message}`);
@@ -176,13 +195,13 @@ for (const lang of langs) {
 
   const sorted = Object.fromEntries(Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b)));
   writeFileSync(join(outDir, 'manifest.json'), JSON.stringify({ format: FORMAT, files: sorted }, null, 1));
-  console.log(`✔ ${lang.code}: ${lines.length} lines → ${Object.keys(sorted).length} audio files`);
+  console.log(`✔ ${lang.code}: ${lines.length} lines → ${Object.keys(sorted).length} audio files${dLines ? ` (${dLines} lines / ${dChars} chars pending)` : ''}`);
 }
 
 if (used !== null) {
   writeFileSync(usagePath, JSON.stringify({ month, chars: used + spent }, null, 1));
-  console.log(`Azure characters this month: ${used + spent} of ${BUDGET} budget (${MONTHLY} free tier).`);
+  console.log(`Azure characters this month: ${used + spent} of ${BUDGET} budget (${MONTHLY} monthly limit, 5% margin).`);
 }
-if (deferred) console.log(`⏭ ${deferred} lines (${deferredChars} chars) deferred to next month's budget — they fall back to the other narrator / device voice until then.`);
+if (deferred) console.log(`⏭ ${deferred} lines (${deferredChars} chars) pending (over this month's budget; set AZURE_SPEECH_MONTHLY_BUDGET to raise it) — they fall back to the other narrator / device voice until then.`);
 console.log(`Audio: ${made} synthesised, ${reused} reused from cache${missing ? `, ${missing} missing (Web Speech fallback)` : ''}${failed ? `, ${failed} FAILED (Web Speech fallback)` : ''}.`);
 if (failed && process.argv.includes('--strict')) process.exit(1);

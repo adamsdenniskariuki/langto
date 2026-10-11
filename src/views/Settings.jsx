@@ -6,6 +6,8 @@ import { listen, prefetchAudio, recognitionErrorMessage, say, support, voicesFor
 import { narrators, narratorVoice } from '../lib/tts-keys.js';
 import { ensureMicPermission, MIC_STATE_LABEL, micErrorCode, micPermissionState, micSupported, unblockSteps, watchMicPermission } from '../lib/mic.js';
 import { navigate } from '../router.js';
+import { loadLanguages } from '../lib/content.js';
+import { Flag } from '../components/Flag.jsx';
 
 const GOALS = [
   { xp: 10, label: 'Casual', desc: '~5 min/day' },
@@ -144,6 +146,36 @@ function OfflineAudio({ code, narrator }) {
   );
 }
 
+/** Course switcher. Progress, reviews and tests are kept separately per course, so switching is safe. */
+export function CoursePicker({ current }) {
+  const [langs, setLangs] = useState([]);
+  useEffect(() => {
+    loadLanguages().then(setLangs).catch(() => {});
+  }, []);
+  if (langs.length < 2) return null;
+  return (
+    <fieldset class="card">
+      <legend>🌍 Course</legend>
+      <p class="small muted">Switch any time — each language keeps its own progress.</p>
+      <div class="lang-grid">
+        {langs.map((l) => (
+          <button
+            key={l.code}
+            type="button"
+            class={`lang-btn ${current === l.code ? 'active' : ''}`}
+            aria-pressed={current === l.code}
+            onClick={() => current !== l.code && update((d) => (d.settings.lang = l.code))}
+          >
+            <span class="flag"><Flag code={l.code} size="1.8rem" /></span>
+            <strong>{l.name}</strong>
+            <span class="muted small">{l.native}</span>
+          </button>
+        ))}
+      </div>
+    </fieldset>
+  );
+}
+
 export function Settings() {
   const course = useCourse();
   const s = useStore();
@@ -193,6 +225,8 @@ export function Settings() {
   return (
     <section class="page settings">
       <h1>⚙️ Settings</h1>
+
+      <CoursePicker current={st.lang} />
 
       <fieldset class="card">
         <legend>🎨 Theme</legend>
