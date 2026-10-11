@@ -1,0 +1,341 @@
+{
+  "id": "pron-u10",
+  "level": "C2",
+  "title": "Accents de la francophonie",
+  "subtitle": "Québec, Belgium, Switzerland, the South, Africa",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "id": "pron-u10-l1",
+      "kind": "pron",
+      "title": "Québec French",
+      "goal": "Recognise Québec pronunciation and everyday words.",
+      "tip": {
+        "title": "tsu, dzire and long vowels",
+        "body": "In Québec, t and d before i and u (and before the glides in tiens, dieu) are pronounced with a hiss: tu ≈ \"tsu\", petit ≈ \"p'tsi\", dire ≈ \"dzire\", du ≈ \"dzu\". Long vowels in a closed syllable are often diphthongised (père, fête, tard), while i, u, ou before a final consonant are often shorter and more relaxed (vite, jupe, route). Informal speech adds a question particle -tu: Tu viens-tu ? Everyday vocabulary differs too: fin de semaine, magasiner, courriel, char, dépanneur — and déjeuner/dîner/souper for breakfast/lunch/dinner."
+      },
+      "phrases": [
+        {
+          "t": "On se voit en fin de semaine ?",
+          "n": "Shall we meet at the weekend?"
+        },
+        {
+          "t": "Je vais magasiner au centre-ville.",
+          "n": "I'm going shopping downtown."
+        },
+        {
+          "t": "C'est vraiment le fun !",
+          "n": "It's really fun!",
+          "note": "Québec, informal."
+        },
+        {
+          "t": "Tu viens-tu dîner avec nous ?",
+          "n": "Are you coming for lunch with us?",
+          "note": "Informal Québec: \"-tu\" marks a yes/no question; dîner = lunch."
+        }
+      ],
+      "dialogue": {
+        "title": "Plans with Sylvie",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Salut ! Qu'est-ce que tu fais en fin de semaine ?",
+            "n": "Hi! What are you doing at the weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Je vais magasiner au centre-ville. Et toi ?",
+            "n": "I'm going shopping downtown. And you?"
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Rien de spécial. Tu veux-tu dîner avec moi samedi ?",
+            "n": "Nothing special. Do you want to have lunch with me on Saturday?"
+          },
+          {
+            "who": "you",
+            "t": "Avec plaisir ! On se retrouve où ?",
+            "n": "With pleasure! Where shall we meet?"
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Devant le dépanneur, à midi. Je vais venir avec mon char.",
+            "n": "In front of the convenience store, at noon. I'll come in my car."
+          },
+          {
+            "who": "you",
+            "t": "Parfait, ça va être le fun !",
+            "n": "Perfect, it's going to be fun!"
+          }
+        ]
+      },
+      "pairs": [
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "le week-end",
+            "n": "the weekend"
+          },
+          "b": {
+            "t": "la fin de semaine",
+            "n": "the weekend (QC)"
+          }
+        },
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "faire du shopping",
+            "n": "to go shopping"
+          },
+          "b": {
+            "t": "magasiner",
+            "n": "to go shopping (QC)"
+          }
+        },
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "un e-mail",
+            "n": "an email"
+          },
+          "b": {
+            "t": "un courriel",
+            "n": "an email (QC)"
+          }
+        },
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "la voiture",
+            "n": "the car"
+          },
+          "b": {
+            "t": "le char",
+            "n": "the car (QC, informal)"
+          }
+        },
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "l'épicerie du coin",
+            "n": "the corner shop"
+          },
+          "b": {
+            "t": "le dépanneur",
+            "n": "the convenience store (QC)"
+          }
+        },
+        {
+          "sound": "France / Québec",
+          "a": {
+            "t": "le petit déjeuner",
+            "n": "breakfast"
+          },
+          "b": {
+            "t": "le déjeuner",
+            "n": "breakfast (QC)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "On se voit en fin de semaine ?",
+          "n": "Shall we meet at the weekend?",
+          "mark": "On se voit en fin de se*maine* ?",
+          "note": "As everywhere in French, the last syllable of the group carries the stress; a Québec question often ends on a clear rise."
+        },
+        {
+          "t": "Je vais magasiner au centre-ville.",
+          "n": "I'm going shopping downtown.",
+          "mark": "Je vais magasi*ner* au centre-*ville*."
+        },
+        {
+          "t": "C'est vraiment le fun !",
+          "n": "It's really fun!",
+          "mark": "C'est vraiment le *fun* !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"the weekend\" the Québec way.",
+          "t": [
+            "la fin de semaine",
+            "fin de semaine",
+            "en fin de semaine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u10-l2",
+      "kind": "pron",
+      "title": "Belgium, Switzerland, the South, Africa",
+      "goal": "Recognise accents and number words across the francophonie.",
+      "tip": {
+        "title": "Many accents, one language",
+        "body": "Belgium and Switzerland say septante (70) and nonante (90); in some Swiss cantons (Vaud, Valais, Fribourg) you also hear huitante (80), while Belgians say quatre-vingts. Swiss French is often perceived as slower, with some vowels drawn out; many Belgian and Swiss speakers keep distinctions Paris has largely lost, such as brin vs brun. In southern France the final e is often pronounced (une petite ≈ \"u-ne pe-ti-te\") and nasal vowels end in a light \"ng\" (pain ≈ \"peng\", demain ≈ \"de-meng\"). In many West African varieties the r tends to be made with the tongue tip, sometimes rolled, and syllables tend to carry more even weight."
+      },
+      "phrases": [
+        {
+          "t": "septante-cinq",
+          "n": "seventy-five (BE/CH)"
+        },
+        {
+          "t": "nonante-neuf",
+          "n": "ninety-nine (BE/CH)"
+        },
+        {
+          "t": "huitante",
+          "n": "eighty (some Swiss cantons)"
+        },
+        {
+          "t": "On dit quoi ?",
+          "n": "What's up? (Côte d'Ivoire, Cameroon; informal)"
+        }
+      ],
+      "story": {
+        "title": "Numbers and meals",
+        "intro": "Charline from Liège and Fabrice from Lausanne compare how they talk.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Charline",
+            "t": "Moi, je suis de Liège. Chez nous, on dit septante et nonante.",
+            "n": "I'm from Liège. Where I live, we say septante and nonante."
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Nous aussi, à Lausanne. Et pour quatre-vingts, on dit souvent huitante.",
+            "n": "Us too, in Lausanne. And for eighty, we often say huitante."
+          },
+          {
+            "name": "Charline",
+            "t": "Ah non, ça, en Belgique, on ne le dit pas. Mais à midi, on dîne, et le soir, on soupe !",
+            "n": "Oh no, we don't say that in Belgium. But at noon we have dîner, and in the evening we have souper!"
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Exactement comme chez nous. Tu me donnes ton numéro de portable ?",
+            "n": "Exactly like us. Will you give me your mobile number?"
+          },
+          {
+            "name": "Charline",
+            "t": "Bien sûr. Mon numéro de GSM finit par septante-deux, nonante-trois.",
+            "n": "Of course. My mobile number ends in seventy-two, ninety-three."
+          }
+        ],
+        "questions": [
+          {
+            "q": "D'où vient Charline ?",
+            "n": "Where is Charline from?",
+            "t": [
+              "De Liège",
+              "Liège",
+              "Elle vient de Liège",
+              "De Belgique",
+              "Elle est de Liège"
+            ]
+          },
+          {
+            "q": "Comment Fabrice dit-il quatre-vingts ?",
+            "n": "How does Fabrice say eighty?",
+            "t": [
+              "huitante",
+              "Il dit huitante"
+            ]
+          }
+        ]
+      },
+      "pairs": [
+        {
+          "sound": "France / Belgium & Switzerland",
+          "a": {
+            "t": "soixante-dix",
+            "n": "seventy"
+          },
+          "b": {
+            "t": "septante",
+            "n": "seventy (BE/CH)"
+          }
+        },
+        {
+          "sound": "France / Belgium & Switzerland",
+          "a": {
+            "t": "quatre-vingt-dix",
+            "n": "ninety"
+          },
+          "b": {
+            "t": "nonante",
+            "n": "ninety (BE/CH)"
+          }
+        },
+        {
+          "sound": "France / some Swiss cantons",
+          "a": {
+            "t": "quatre-vingts",
+            "n": "eighty"
+          },
+          "b": {
+            "t": "huitante",
+            "n": "eighty (Vaud, Valais, Fribourg)"
+          }
+        },
+        {
+          "sound": "France / Belgium",
+          "a": {
+            "t": "le portable",
+            "n": "the mobile phone"
+          },
+          "b": {
+            "t": "le GSM",
+            "n": "the mobile phone (BE)"
+          }
+        },
+        {
+          "sound": "France / Belgium & Switzerland",
+          "a": {
+            "t": "le dîner",
+            "n": "dinner (evening)"
+          },
+          "b": {
+            "t": "le souper",
+            "n": "dinner (evening, BE/CH)"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Ça fait nonante-neuf euros.",
+          "n": "That's ninety-nine euros.",
+          "mark": "Ça fait nonante-neuf eu*ros*.",
+          "note": "Belgium/Switzerland; in France: quatre-vingt-dix-neuf."
+        },
+        {
+          "t": "On dit quoi ?",
+          "n": "What's up?",
+          "mark": "On dit *quoi* ?"
+        },
+        {
+          "t": "À demain !",
+          "n": "See you tomorrow!",
+          "mark": "À de*main* !",
+          "note": "Southern France: \"à de-meng\"."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"ninety\" the Belgian or Swiss way.",
+          "t": [
+            "nonante"
+          ]
+        }
+      ]
+    }
+  ]
+}

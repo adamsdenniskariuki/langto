@@ -1,0 +1,846 @@
+{
+  "id": "c2-u05",
+  "title": "La médiation",
+  "subtitle": "Mediating, paraphrasing & summarising positions",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "c2-u05-l1",
+      "title": "Calming a conflict",
+      "goal": "Mediate in a tense workplace conflict by paraphrasing, validating and proposing a compromise.",
+      "tip": {
+        "title": "Paraphrase first, propose later",
+        "body": "Soften with the conditional (De quoi auriez-vous besoin ? Pourrions-nous … ?), paraphrase before you propose (Si je vous comprends bien, …) and swap a confrontational mais for et en même temps. Pronunciation: auriez [o.ʁje] and pourrions [pu.ʁjɔ̃] glide in one syllable at the end. Speak lower and slower than the angry party."
+      },
+      "phrases": [
+        {
+          "t": "Mettons les reproches de côté un instant.",
+          "n": "Let's set the accusations aside for a moment."
+        },
+        {
+          "t": "Si je vous comprends bien, ce qui compte avant tout pour vous, c'est de pouvoir planifier.",
+          "n": "If I understand you correctly, what matters most to you is being able to plan."
+        },
+        {
+          "t": "De quoi auriez-vous besoin pour pouvoir donner votre accord ?",
+          "n": "What would you need in order to agree?"
+        },
+        {
+          "t": "Chacun a des raisons tout à fait compréhensibles.",
+          "n": "Both sides have perfectly understandable reasons."
+        },
+        {
+          "t": "Pourrions-nous au moins nous mettre d'accord sur un calendrier ?",
+          "n": "Could we at least agree on a timeline?"
+        },
+        {
+          "t": "Je vous propose un compromis : on fait un essai de trois mois.",
+          "n": "I suggest a compromise: we run a three-month trial."
+        },
+        {
+          "t": "Au fond, vous voulez la même chose.",
+          "n": "Deep down, you both want the same thing."
+        }
+      ],
+      "dialogue": {
+        "title": "Sales versus IT",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "M. Favre",
+            "t": "L'informatique bloque tout depuis des mois ! Je ne peux tout simplement pas travailler comme ça.",
+            "n": "IT has been blocking everything for months! I simply can't work like this."
+          },
+          {
+            "who": "you",
+            "t": "Mettons les reproches de côté un instant. De quoi avez-vous besoin exactement ?",
+            "n": "Let's set the accusations aside for a moment. What exactly do you need?"
+          },
+          {
+            "who": "A",
+            "name": "M. Favre",
+            "t": "J'ai besoin de savoir quand le nouveau système arrivera enfin. Mes clients me le demandent tous les jours.",
+            "n": "I need to know when the new system is finally coming. My clients ask me every day."
+          },
+          {
+            "who": "you",
+            "t": "Si je vous comprends bien, ce qui compte avant tout pour vous, c'est de pouvoir planifier.",
+            "n": "If I understand you correctly, what matters most to you is being able to plan."
+          },
+          {
+            "who": "A",
+            "name": "M. Favre",
+            "t": "Exactement. Mais l'informatique refuse de s'engager. Vous proposez quoi ?",
+            "n": "Exactly. But IT refuses to commit. So what do you suggest?"
+          },
+          {
+            "who": "you",
+            "t": "Je vous propose un compromis : on fait un essai de trois mois avec votre équipe.",
+            "n": "I suggest a compromise: we run a three-month trial with your team."
+          },
+          {
+            "who": "A",
+            "name": "M. Favre",
+            "t": "Ça me conviendrait, à condition d'avoir une date de lancement ferme.",
+            "n": "That would suit me, provided there's a firm launch date."
+          },
+          {
+            "who": "you",
+            "t": "Très bien. Au fond, vous voulez la même chose.",
+            "n": "Very good. Deep down, you both want the same thing."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Suggest setting the accusations aside for a moment.",
+          "t": [
+            "Mettons les reproches de côté un instant",
+            "Mettons les reproches de côté"
+          ]
+        },
+        {
+          "n": "Paraphrase back to him: what matters most to him is being able to plan.",
+          "t": [
+            "Si je vous comprends bien, ce qui compte avant tout pour vous, c'est de pouvoir planifier",
+            "Ce qui compte pour vous, c'est de pouvoir planifier"
+          ]
+        },
+        {
+          "n": "Ask what they would need in order to agree.",
+          "t": [
+            "De quoi auriez-vous besoin pour pouvoir donner votre accord",
+            "De quoi auriez-vous besoin pour donner votre accord"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l2",
+      "title": "Summing up opposing positions",
+      "goal": "Summarise opposing positions neutrally in a meeting, using reporting verbs and the conditional of distance.",
+      "tip": {
+        "title": "Reporting verbs keep you neutral",
+        "body": "Let the reporting verb carry the attribution: estime que, fait valoir que, souligne que, objecte que. Avoid prétendre que (it implies the claim is false). Structure aloud: two positions, common ground, open question, one-line essence (Pour schématiser : …). Pronunciation: the t of fait valoir is silent [fɛ valwaʁ]; pause after D'un côté and De l'autre."
+      },
+      "phrases": [
+        {
+          "t": "En résumé, deux positions s'opposent.",
+          "n": "In short, two positions are at odds."
+        },
+        {
+          "t": "D'un côté, la direction financière estime que les coûts sont trop élevés.",
+          "n": "On the one hand, the finance department believes the costs are too high."
+        },
+        {
+          "t": "De l'autre, la recherche fait valoir que sans investissement, on prendrait du retard.",
+          "n": "On the other, R&D argues that without investment we would fall behind.",
+          "note": "faire valoir que = to argue, to point out"
+        },
+        {
+          "t": "Le seul point d'accord, c'est qu'il faut agir.",
+          "n": "The only point of agreement is that action is needed."
+        },
+        {
+          "t": "Le financement reste la principale pierre d'achoppement.",
+          "n": "Financing remains the main stumbling block."
+        },
+        {
+          "t": "Pour schématiser : la sécurité contre le progrès.",
+          "n": "To put it schematically: security versus progress."
+        },
+        {
+          "t": "Est-ce que j'ai bien rendu votre position ?",
+          "n": "Have I represented your position correctly?"
+        }
+      ],
+      "dialogue": {
+        "title": "A summary for the board",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Cela fait deux heures qu'on discute. Vous pourriez faire le point en quelques mots ?",
+            "n": "We've been talking for two hours. Could you sum up where we are in a few words?"
+          },
+          {
+            "who": "you",
+            "t": "Bien sûr. En résumé, deux positions s'opposent.",
+            "n": "Of course. In short, two positions are at odds."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Commencez par la direction financière.",
+            "n": "Start with the finance department."
+          },
+          {
+            "who": "you",
+            "t": "La direction financière estime que les coûts sont trop élevés.",
+            "n": "The finance department believes the costs are too high."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Et la recherche ?",
+            "n": "And R&D?"
+          },
+          {
+            "who": "you",
+            "t": "La recherche fait valoir que sans investissement, on prendrait du retard.",
+            "n": "R&D argues that without investment we would fall behind."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Y a-t-il seulement un terrain d'entente ?",
+            "n": "Is there any common ground at all?"
+          },
+          {
+            "who": "you",
+            "t": "Le seul point d'accord, c'est qu'il faut agir. Le financement reste la principale pierre d'achoppement.",
+            "n": "The only point of agreement is that action is needed. Financing remains the main stumbling block."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Très clair, merci.",
+            "n": "Very clear, thank you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Report that the finance department believes the costs are too high.",
+          "t": [
+            "La direction financière estime que les coûts sont trop élevés",
+            "Selon la direction financière, les coûts sont trop élevés"
+          ]
+        },
+        {
+          "n": "Say the only point of agreement is that action is needed.",
+          "t": [
+            "Le seul point d'accord, c'est qu'il faut agir",
+            "Le seul point d'accord est qu'il faut agir"
+          ]
+        },
+        {
+          "n": "Check whether you have represented their position correctly.",
+          "t": [
+            "Est-ce que j'ai bien rendu votre position",
+            "Ai-je bien rendu votre position"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l3",
+      "title": "Relaying and rephrasing",
+      "goal": "Pass on what someone meant — not just what they said — to a third party.",
+      "tip": {
+        "title": "Meaning before wording",
+        "body": "Relay the intention, not the literal words: En substance, il a dit que … or Là où elle veut en venir, c'est que … If something does not translate word for word, say so and offer a free rendering (Pour le dire librement, …). Avoir voix au chapitre = to have a say. Pronunciation: substance is [syp.stɑ̃s] — the b sounds like p."
+      },
+      "phrases": [
+        {
+          "t": "En substance, il a dit qu'il avait besoin de plus de temps.",
+          "n": "Essentially, he said he needed more time."
+        },
+        {
+          "t": "Autrement dit, l'offre tient toujours, mais seulement jusqu'à vendredi.",
+          "n": "In other words, the offer still stands, but only until Friday."
+        },
+        {
+          "t": "Là où elle veut en venir, c'est qu'elle voudrait avoir voix au chapitre.",
+          "n": "What she is getting at is that she would like to have a say."
+        },
+        {
+          "t": "Ça ne se traduit pas mot pour mot.",
+          "n": "That doesn't translate word for word."
+        },
+        {
+          "t": "Pour le dire librement, ça donne à peu près : je croise les doigts pour vous.",
+          "n": "Freely rendered, it's something like: I'm keeping my fingers crossed for you."
+        },
+        {
+          "t": "Permettez-moi de reformuler, pour être sûr d'avoir bien compris.",
+          "n": "Let me rephrase, to be sure I understood correctly."
+        }
+      ],
+      "dialogue": {
+        "title": "After the call with Zurich",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Pis, qu'est-ce qu'il a dit, le client de Zurich ?",
+            "n": "So, what did the client from Zurich say?"
+          },
+          {
+            "who": "you",
+            "t": "En substance, il a dit qu'il avait besoin de plus de temps.",
+            "n": "Essentially, he said he needed more time."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Plus de temps ? Ça veut dire quoi, concrètement ?",
+            "n": "More time? What does that mean in practice?"
+          },
+          {
+            "who": "you",
+            "t": "Autrement dit, l'offre tient toujours, mais seulement jusqu'à vendredi.",
+            "n": "In other words, the offer still stands, but only until Friday."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Et il a dit quelque chose en allemand à la fin. C'était quoi ?",
+            "n": "And he said something in German at the end. What was it?"
+          },
+          {
+            "who": "you",
+            "t": "Ça ne se traduit pas mot pour mot. Pour le dire librement, ça donne à peu près : je croise les doigts pour vous.",
+            "n": "It doesn't translate word for word. Freely rendered, it's something like: I'm keeping my fingers crossed for you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that, essentially, he said he needed more time.",
+          "t": [
+            "En substance, il a dit qu'il avait besoin de plus de temps",
+            "En gros, il a dit qu'il avait besoin de plus de temps"
+          ]
+        },
+        {
+          "n": "Say that it doesn't translate word for word.",
+          "t": [
+            "Ça ne se traduit pas mot pour mot",
+            "Cela ne se traduit pas mot pour mot"
+          ]
+        },
+        {
+          "n": "Ask permission to rephrase so you are sure you understood.",
+          "t": [
+            "Permettez-moi de reformuler, pour être sûr d'avoir bien compris",
+            "Permettez-moi de reformuler pour être sûre d'avoir bien compris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l4",
+      "kind": "grammar",
+      "title": "Reported speech and the conditional of distance",
+      "goal": "Report and reformulate others' words with correct tense shifts, and use the conditional to signal unconfirmed claims.",
+      "tip": {
+        "title": "Tense shift and the journalistic conditional",
+        "body": "After a past reporting verb (il a dit que), tenses shift back: présent → imparfait (je suis → qu'elle était), passé composé → plus-que-parfait (j'ai envoyé → qu'elle avait envoyé), futur → conditionnel (je viendrai → qu'il viendrait). After a present reporting verb nothing shifts. To distance yourself from an unverified claim, use the conditionnel journalistique (= 'reportedly'): le projet coûterait deux millions; for past events, the conditionnel passé: les négociations auraient échoué."
+      },
+      "phrases": [
+        {
+          "t": "Elle affirme qu'elle est prête à discuter.",
+          "n": "She states that she is ready to talk."
+        },
+        {
+          "t": "Il a déclaré qu'il n'était au courant de rien.",
+          "n": "He stated that he knew nothing about it."
+        },
+        {
+          "t": "Ils ont assuré qu'ils viendraient à la réunion.",
+          "n": "They assured us they would come to the meeting."
+        },
+        {
+          "t": "Selon la direction, le projet coûterait deux millions.",
+          "n": "According to management, the project would reportedly cost two million.",
+          "note": "conditional = unconfirmed claim"
+        },
+        {
+          "t": "Ce que vous voulez dire, c'est que le délai est trop court.",
+          "n": "What you mean is that the deadline is too short."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap direct → reported (past)",
+          "base": {
+            "t": "Elle a dit qu'elle était fatiguée.",
+            "n": "She said she was tired."
+          },
+          "items": [
+            {
+              "cue": "« Je suis déçue. »",
+              "t": "Elle a dit qu'elle était déçue.",
+              "n": "She said she was disappointed."
+            },
+            {
+              "cue": "« Je ne peux pas venir. »",
+              "t": "Elle a dit qu'elle ne pouvait pas venir.",
+              "n": "She said she couldn't come."
+            },
+            {
+              "cue": "« Je démissionnerai. »",
+              "t": "Elle a dit qu'elle démissionnerait.",
+              "n": "She said she would resign."
+            }
+          ]
+        },
+        {
+          "title": "Swap the claim (conditional of distance)",
+          "base": {
+            "t": "Selon le syndicat, la grève durerait une semaine.",
+            "n": "According to the union, the strike would last a week."
+          },
+          "items": [
+            {
+              "cue": "deux cents emplois · être menacés",
+              "t": "Selon le syndicat, deux cents emplois seraient menacés.",
+              "n": "According to the union, two hundred jobs are reportedly at risk."
+            },
+            {
+              "cue": "la direction · vouloir fermer le site",
+              "t": "Selon le syndicat, la direction voudrait fermer le site.",
+              "n": "According to the union, management reportedly wants to close the site."
+            },
+            {
+              "cue": "les négociations · échouer (passé)",
+              "t": "Selon le syndicat, les négociations auraient échoué.",
+              "n": "According to the union, the negotiations have reportedly failed."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Report that he stated he knew nothing about it.",
+          "t": [
+            "Il a déclaré qu'il n'était au courant de rien",
+            "Il a dit qu'il n'était au courant de rien"
+          ]
+        },
+        {
+          "n": "Say that, according to management, the project would reportedly cost two million.",
+          "t": [
+            "Selon la direction, le projet coûterait deux millions",
+            "D'après la direction, le projet coûterait deux millions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l5",
+      "kind": "listening",
+      "title": "A neighbourhood dispute in Brussels",
+      "goal": "Follow a mediator relaying positions between a café owner and his neighbour.",
+      "phrases": [
+        {
+          "t": "Votre voisine dit qu'on entend la musique jusqu'à minuit.",
+          "n": "Your neighbour says the music can be heard until midnight."
+        },
+        {
+          "t": "Si je vous suis bien, le problème se pose surtout le samedi.",
+          "n": "If I follow you, the problem arises mainly on Saturdays."
+        },
+        {
+          "t": "Madame Janssens, de son côté, souligne qu'elle commence tôt le dimanche.",
+          "n": "Mrs Janssens, for her part, stresses that she starts work early on Sundays."
+        },
+        {
+          "t": "Je proposerais alors de fermer les fenêtres à partir de vingt-trois heures.",
+          "n": "Then I'd suggest closing the windows from eleven p.m."
+        }
+      ],
+      "story": {
+        "title": "Music until midnight",
+        "intro": "A neighbourhood mediator in Brussels talks to a café owner about his neighbour's noise complaint.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Mme Dubois",
+            "t": "Monsieur Haddad, votre voisine dit qu'on entend la musique de votre café jusqu'à minuit.",
+            "n": "Mr Haddad, your neighbour says the music from your café can be heard until midnight."
+          },
+          {
+            "name": "M. Haddad",
+            "voice": "fr-BE-GerardNeural",
+            "t": "C'est vrai le week-end. Mais en semaine, on ferme à vingt-deux heures.",
+            "n": "That's true at weekends. But during the week we close at ten p.m."
+          },
+          {
+            "name": "Mme Dubois",
+            "t": "Si je vous suis bien, le problème se pose surtout le samedi.",
+            "n": "If I follow you, the problem arises mainly on Saturdays."
+          },
+          {
+            "name": "M. Haddad",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Voilà. Et sans les samedis, honnêtement, je ne pourrais pas payer mon loyer.",
+            "n": "Exactly. And without Saturdays, honestly, I couldn't pay my rent."
+          },
+          {
+            "name": "Mme Dubois",
+            "t": "Je l'entends. Madame Janssens, de son côté, souligne qu'elle commence tôt le dimanche : elle est infirmière.",
+            "n": "I hear you. Mrs Janssens, for her part, stresses that she starts early on Sundays: she is a nurse."
+          },
+          {
+            "name": "M. Haddad",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Ça, je ne le savais pas. Elle a directement écrit à la commune.",
+            "n": "I didn't know that. She wrote straight to the local council."
+          },
+          {
+            "name": "Mme Dubois",
+            "t": "Elle avait peur que ça tourne mal. Autrement dit, ce n'est pas contre vous.",
+            "n": "She was afraid it would go badly. In other words, it isn't against you."
+          },
+          {
+            "name": "M. Haddad",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Bon. Je proposerais alors de fermer les fenêtres à partir de vingt-trois heures, et de baisser les basses.",
+            "n": "Well. Then I'd suggest closing the windows from eleven p.m. and turning the bass down."
+          },
+          {
+            "name": "Mme Dubois",
+            "t": "Voilà une proposition concrète. Je la transmets à Madame Janssens.",
+            "n": "That's a concrete proposal. I'll pass it on to Mrs Janssens."
+          }
+        ],
+        "questions": [
+          {
+            "q": "À quelle heure le café ferme-t-il en semaine ?",
+            "n": "What time does the café close during the week?",
+            "t": [
+              "À vingt-deux heures",
+              "Vingt-deux heures",
+              "À dix heures du soir"
+            ]
+          },
+          {
+            "q": "Pourquoi Monsieur Haddad a-t-il besoin des samedis ?",
+            "n": "Why does Mr Haddad need Saturdays?",
+            "t": [
+              "Pour payer son loyer",
+              "Pour le loyer",
+              "Sinon il ne pourrait pas payer son loyer"
+            ]
+          },
+          {
+            "q": "Quel est le métier de Madame Janssens ?",
+            "n": "What is Mrs Janssens' job?",
+            "t": [
+              "Infirmière",
+              "Elle est infirmière"
+            ]
+          },
+          {
+            "q": "Que propose Monsieur Haddad ?",
+            "n": "What does Mr Haddad suggest?",
+            "t": [
+              "Fermer les fenêtres",
+              "De fermer les fenêtres à partir de vingt-trois heures",
+              "Fermer les fenêtres et baisser les basses"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u05-l6",
+      "kind": "roleplay",
+      "title": "Mediating a team conflict in Montréal",
+      "goal": "Get an angry project lead from blame to a concrete agreement.",
+      "phrases": [
+        {
+          "t": "Qu'est-ce qui s'est passé exactement ?",
+          "n": "What exactly happened?"
+        },
+        {
+          "t": "C'était maladroit de ma part.",
+          "n": "That was clumsy of me."
+        },
+        {
+          "t": "Ce qui compte pour vous, c'est donc la fiabilité.",
+          "n": "So what matters to you is reliability."
+        },
+        {
+          "t": "Je propose qu'on en discute demain, tous les trois.",
+          "n": "I suggest the three of us discuss it tomorrow."
+        }
+      ],
+      "branch": {
+        "title": "Missed deadlines",
+        "scene": "You mediate in a Montréal agency. Project lead Geneviève is furious with her colleague Maxime.",
+        "name": "Geneviève",
+        "voice": "fr-CA-SylvieNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "J'en ai plein mon casque. Maxime ne respecte aucune échéance.",
+            "n": "I've had it up to here. Maxime doesn't meet a single deadline.",
+            "choices": [
+              {
+                "t": "Mettons les reproches de côté un instant. Qu'est-ce qui s'est passé exactement ?",
+                "n": "Let's set the accusations aside for a moment. What exactly happened?",
+                "next": "facts"
+              },
+              {
+                "t": "Bon, vous n'êtes pas tout à fait innocente non plus.",
+                "n": "Well, you're not entirely blameless either.",
+                "next": "defensive"
+              }
+            ]
+          },
+          "defensive": {
+            "t": "Pardon ? Je pensais que vous étiez censé être neutre !",
+            "n": "Excuse me? I thought you were supposed to be neutral!",
+            "choices": [
+              {
+                "t": "Vous avez raison, c'était maladroit de ma part. Racontez-moi ce qui s'est passé.",
+                "n": "You're right, that was clumsy of me. Tell me what happened.",
+                "next": "facts"
+              },
+              {
+                "t": "Être neutre, ça ne veut pas dire vous donner raison.",
+                "n": "Being neutral doesn't mean agreeing with you.",
+                "next": "bad"
+              }
+            ]
+          },
+          "facts": {
+            "t": "Le rapport était prévu pour lundi. Il est arrivé jeudi, sans un courriel, sans une explication.",
+            "n": "The report was due on Monday. It arrived on Thursday, without an email, without an explanation.",
+            "choices": [
+              {
+                "t": "Si je vous comprends bien, ce qui vous dérange, c'est moins le retard que le silence.",
+                "n": "If I understand you correctly, it's less the delay that bothers you than the silence.",
+                "next": "insight"
+              },
+              {
+                "t": "Pourriez-vous préciser ? Qu'est-ce qui vous a le plus dérangée ?",
+                "n": "Could you be more specific? What bothered you most?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Ce qui me dérange le plus, c'est qu'il ne prévient pas. Des retards, ça arrive à tout le monde.",
+            "n": "What bothers me most is that he doesn't warn me. Delays happen to everyone.",
+            "choices": [
+              {
+                "t": "Ce qui compte pour vous, c'est donc la fiabilité.",
+                "n": "So what matters to you is reliability.",
+                "next": "insight"
+              }
+            ]
+          },
+          "insight": {
+            "t": "C'est ça. S'il me prévenait à temps, je pourrais réorganiser le travail.",
+            "n": "That's it. If he warned me in time, I could reorganise the work.",
+            "choices": [
+              {
+                "t": "De quoi auriez-vous besoin pour retravailler sereinement avec lui ?",
+                "n": "What would you need to work calmly with him again?",
+                "next": "proposal"
+              },
+              {
+                "t": "Alors je vais dire à Maxime de se ressaisir, point final.",
+                "n": "Then I'll tell Maxime to pull himself together, end of story.",
+                "next": "bad"
+              }
+            ]
+          },
+          "proposal": {
+            "t": "Un petit message dès que quelque chose prend du retard. C'est tout.",
+            "n": "A short message as soon as something is running late. That's all.",
+            "choices": [
+              {
+                "t": "Très bien. Je propose qu'on en discute demain, tous les trois.",
+                "n": "Very good. I suggest the three of us discuss it tomorrow.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "D'accord. Merci de m'avoir vraiment écoutée.",
+            "n": "Agreed. Thank you for really listening to me.",
+            "end": "good",
+            "outcome": "You uncovered the real need behind the anger and set up a joint meeting."
+          },
+          "bad": {
+            "t": "Dans ce cas, je ne vois pas l'intérêt de poursuivre cette conversation.",
+            "n": "In that case, I don't see the point of continuing this conversation.",
+            "end": "bad",
+            "outcome": "You took sides or went over her head — paraphrase her need before proposing anything."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Admit that what you said was clumsy of you.",
+          "t": [
+            "C'était maladroit de ma part",
+            "Pardon, c'était maladroit de ma part"
+          ]
+        },
+        {
+          "n": "Suggest that the three of you discuss it tomorrow.",
+          "t": [
+            "Je propose qu'on en discute demain, tous les trois",
+            "Discutons-en demain tous les trois"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-l7",
+      "kind": "speaking",
+      "title": "Summarise and mediate",
+      "goal": "Summarise a dispute neutrally and mediate between two sides for ninety seconds.",
+      "culture": {
+        "title": "Mediating between languages: Switzerland, Belgium, Canada",
+        "body": "Switzerland has four national languages (German, French, Italian, Romansh) and a strong consensus tradition: the seven-member Federal Council brings several parties together, and the language regions expect to be represented. Belgium has three official languages (Dutch, French, German) and a federal structure built on negotiation between communities. In Canada, the Official Languages Act (1969) made English and French official in federal institutions, while Québec's Charte de la langue française (1977) makes French the province's official language.",
+        "regions": [
+          "CH",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Du point de vue des locataires, la hausse est inacceptable.",
+          "n": "From the tenants' point of view, the increase is unacceptable."
+        },
+        {
+          "t": "Le propriétaire, quant à lui, invoque la hausse des charges.",
+          "n": "The landlord, for his part, points to rising costs."
+        },
+        {
+          "t": "Une solution intermédiaire serait une augmentation progressive.",
+          "n": "A middle-ground solution would be a gradual increase."
+        },
+        {
+          "t": "C'est moins une question d'argent que de confiance.",
+          "n": "It's less a question of money than of trust."
+        }
+      ],
+      "free": [
+        {
+          "n": "Neutrally summarise a conflict you know: both positions, the common ground and the open question.",
+          "hint": "Use: D'un côté, … estime que …; De l'autre, … fait valoir que …; Le seul point d'accord, c'est que …; Reste à savoir …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "one side's position",
+              "any": [
+                "d'un côté",
+                "du point de vue",
+                "estime*",
+                "considère*"
+              ]
+            },
+            {
+              "label": "the other side",
+              "any": [
+                "de l'autre",
+                "quant à",
+                "de son côté",
+                "en revanche"
+              ]
+            },
+            {
+              "label": "reporting or distancing",
+              "any": [
+                "serait",
+                "seraient",
+                "aurait",
+                "auraient"
+              ]
+            },
+            {
+              "label": "common ground or open issue",
+              "any": [
+                "point d'accord",
+                "s'accordent",
+                "commun",
+                "désaccord"
+              ]
+            }
+          ],
+          "model": "Dans le conflit sur la hausse des loyers, deux positions s'opposent. D'un côté, les locataires estiment que l'augmentation est inacceptable. De l'autre, le propriétaire invoque la hausse des charges, qui auraient doublé en deux ans. Le seul point d'accord, c'est que l'immeuble doit être rénové. Reste à savoir qui paiera les travaux."
+        },
+        {
+          "n": "Two friends disagree about where to spend the holidays. Paraphrase each side, validate both and propose a compromise.",
+          "hint": "Use: Si je vous comprends bien, …; Toi, ce qui compte, c'est …; Les deux points de vue se comprennent; Une solution intermédiaire serait …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "paraphrase",
+              "any": [
+                "si je comprends bien",
+                "si je vous comprends bien",
+                "si je te comprends bien",
+                "autrement dit"
+              ]
+            },
+            {
+              "label": "validate both sides",
+              "any": [
+                "compréhensible*",
+                "je comprends",
+                "se comprend",
+                "légitime*"
+              ]
+            },
+            {
+              "label": "propose a compromise",
+              "any": [
+                "compromis",
+                "intermédiaire",
+                "je propose",
+                "je proposerais"
+              ]
+            },
+            {
+              "label": "softening conditional",
+              "any": [
+                "serait",
+                "pourriez",
+                "pourrait",
+                "pourrions"
+              ]
+            }
+          ],
+          "model": "Si je vous comprends bien, ce qui compte pour Léa, c'est de se reposer, et pour Hugo, de découvrir quelque chose de nouveau. Les deux points de vue sont tout à fait compréhensibles. Une solution intermédiaire serait une semaine au bord de la mer, puis trois jours à Lisbonne. Ça vous irait ?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say a middle-ground solution would be a gradual increase.",
+          "t": [
+            "Une solution intermédiaire serait une augmentation progressive",
+            "Un compromis serait une augmentation progressive"
+          ]
+        },
+        {
+          "n": "Say it's less a question of money than of trust.",
+          "t": [
+            "C'est moins une question d'argent que de confiance",
+            "Ce n'est pas tant une question d'argent que de confiance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La médiation",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
