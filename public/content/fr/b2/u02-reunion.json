@@ -1,0 +1,844 @@
+{
+  "id": "b2-u02",
+  "title": "En réunion",
+  "subtitle": "Meetings, taking the floor & summarising",
+  "icon": "📊",
+  "lessons": [
+    {
+      "id": "b2-u02-l1",
+      "title": "Running a meeting",
+      "goal": "Open a topic, ask for input and assign tasks in a work meeting.",
+      "tip": {
+        "title": "The vocabulary of meetings",
+        "body": "L'ordre du jour is the agenda, un point is an item on it, and le compte rendu (or procès-verbal, more formal) is the minutes. Passons à … (let's move on to …) is the chair's key phrase. To ask about progress: Où en est-on ? (where are we at?). To assign a task: Qui s'en charge ? — se charger de = to take care of. Pronunciation: in l'ordre du jour, link l' to ordre with no pause (lordre), and in Où en est-on, say the liaisons: ou-an-nè-ton."
+      },
+      "phrases": [
+        {
+          "t": "Passons au premier point de l'ordre du jour.",
+          "n": "Let's move on to the first item on the agenda."
+        },
+        {
+          "t": "Où en est-on sur le dossier Leblanc ?",
+          "n": "Where are we at with the Leblanc file?"
+        },
+        {
+          "t": "Je vous laisse la parole.",
+          "n": "Over to you. / The floor is yours."
+        },
+        {
+          "t": "On manque encore d'informations pour trancher.",
+          "n": "We still lack the information to make a decision.",
+          "note": "trancher = to decide (literally 'to cut')"
+        },
+        {
+          "t": "Je propose qu'on en reparle la semaine prochaine.",
+          "n": "I suggest we talk about it again next week.",
+          "note": "proposer que + subjunctive (parle)"
+        },
+        {
+          "t": "Qui s'en charge d'ici vendredi ?",
+          "n": "Who will take care of it by Friday?"
+        }
+      ],
+      "dialogue": {
+        "title": "The Monday team meeting",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Bertrand",
+            "t": "Bonjour à tous. Vous animez la réunion aujourd'hui ? Je vous laisse la parole.",
+            "n": "Hello, everyone. Are you chairing the meeting today? The floor is yours."
+          },
+          {
+            "who": "you",
+            "t": "Merci. Passons au premier point de l'ordre du jour : où en est-on sur le dossier Leblanc ?",
+            "n": "Thank you. Let's move on to the first item on the agenda: where are we at with the Leblanc file?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Bertrand",
+            "t": "Le client hésite encore entre deux offres. Il attend notre devis.",
+            "n": "The client is still hesitating between two offers. He's waiting for our quote."
+          },
+          {
+            "who": "you",
+            "t": "Et sur le budget, on manque encore d'informations pour trancher, non ?",
+            "n": "And on the budget, we still lack the information to make a decision, don't we?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Bertrand",
+            "t": "Exactement. La comptabilité ne nous a rien envoyé.",
+            "n": "Exactly. Accounts haven't sent us anything."
+          },
+          {
+            "who": "you",
+            "t": "Alors je propose qu'on en reparle la semaine prochaine. Tout le monde est d'accord ?",
+            "n": "Then I suggest we talk about it again next week. Is everyone in agreement?"
+          },
+          {
+            "who": "A",
+            "name": "Madame Bertrand",
+            "t": "Oui. Mais le devis, lui, ne peut pas attendre.",
+            "n": "Yes. But the quote can't wait."
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai. Qui s'en charge d'ici vendredi ?",
+            "n": "That's true. Who will take care of it by Friday?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Move on to the first item on the agenda.",
+          "t": [
+            "Passons au premier point de l'ordre du jour",
+            "Passons au premier point"
+          ]
+        },
+        {
+          "n": "Ask who will take care of it by Friday.",
+          "t": [
+            "Qui s'en charge d'ici vendredi",
+            "Qui s'en occupe d'ici vendredi",
+            "Qui s'en charge pour vendredi"
+          ]
+        },
+        {
+          "n": "Ask where things stand on the Leblanc file.",
+          "t": [
+            "Où en est-on sur le dossier Leblanc",
+            "On en est où sur le dossier Leblanc",
+            "Où en sommes-nous sur le dossier Leblanc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l2",
+      "title": "Taking the floor",
+      "goal": "Interrupt politely, add a point and build on what others said.",
+      "tip": {
+        "title": "Polite ways to cut in",
+        "body": "French meetings often have overlapping talk, so you need ways to get in. Excusez-moi de vous couper (sorry to cut you off) or Si je peux me permettre … are polite openers. Rebondir sur (to bounce off) is the standard way to build on a colleague's point: Pour rebondir sur ce que disait Julie … If someone interrupts you, Je termine ma phrase et je vous laisse la parole keeps it friendly. Pronunciation: couper has the closed ou sound — round your lips well, as in tout, not as in cute."
+      },
+      "phrases": [
+        {
+          "t": "Excusez-moi de vous couper, mais c'est important.",
+          "n": "Sorry to cut you off, but it's important."
+        },
+        {
+          "t": "Si je peux me permettre, j'aimerais ajouter quelque chose.",
+          "n": "If I may, I'd like to add something."
+        },
+        {
+          "t": "Pour rebondir sur ce que disait Julie, il faudrait prévenir le client.",
+          "n": "To pick up on what Julie was saying, we should let the client know."
+        },
+        {
+          "t": "Pardon, je n'ai pas bien saisi.",
+          "n": "Sorry, I didn't quite catch that.",
+          "note": "saisir = to grasp"
+        },
+        {
+          "t": "Je termine ma phrase et je vous laisse la parole.",
+          "n": "Let me finish my sentence and then it's over to you."
+        },
+        {
+          "t": "J'aimerais revenir sur un point.",
+          "n": "I'd like to go back to one point."
+        }
+      ],
+      "dialogue": {
+        "title": "The project review in Lausanne",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "… donc, comme je disais, on pourrait lancer le nouveau site en septembre, et ensuite…",
+            "n": "… so, as I was saying, we could launch the new website in September, and then…"
+          },
+          {
+            "who": "you",
+            "t": "Excusez-moi de vous couper, mais c'est important : septembre, c'est la date du salon.",
+            "n": "Sorry to cut you off, but it's important: September is when the trade fair is."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Ah oui, juste. Je n'y avais pas pensé.",
+            "n": "Ah yes, right. I hadn't thought of that.",
+            "note": "Juste ! = 'right!', very common in Swiss French."
+          },
+          {
+            "who": "you",
+            "t": "Pour rebondir sur ce que disait Julie, il faudrait prévenir le client.",
+            "n": "To pick up on what Julie was saying, we should let the client know."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "D'accord. On en discutera tous ensemble pour trouver une solution qui convienne à chacun.",
+            "n": "OK. We'll discuss it all together to find a solution that suits everyone."
+          },
+          {
+            "who": "you",
+            "t": "Si je peux me permettre, j'aimerais ajouter quelque chose : le budget communication n'est pas encore validé.",
+            "n": "If I may, I'd like to add something: the communications budget hasn't been approved yet."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Il le sera d'ici la fin du mois, normalement.",
+            "n": "It should be by the end of the month."
+          },
+          {
+            "who": "you",
+            "t": "Pardon, je n'ai pas bien saisi. Normalement ou certainement ?",
+            "n": "Sorry, I didn't quite catch that. Should be, or definitely will be?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Politely apologise for cutting someone off.",
+          "t": [
+            "Excusez-moi de vous couper",
+            "Excuse-moi de te couper",
+            "Excusez-moi de vous couper, mais c'est important"
+          ]
+        },
+        {
+          "n": "Say you'd like to go back to one point.",
+          "t": [
+            "J'aimerais revenir sur un point",
+            "Je voudrais revenir sur un point"
+          ]
+        },
+        {
+          "n": "Say you didn't quite catch that.",
+          "t": [
+            "Pardon, je n'ai pas bien saisi",
+            "Je n'ai pas bien saisi",
+            "J'ai pas bien saisi",
+            "Je n'ai pas bien compris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l3",
+      "title": "Video calls",
+      "goal": "Handle online meetings and technical hiccups smoothly.",
+      "tip": {
+        "title": "Online meeting French",
+        "body": "In France people say une visio (short for visioconférence) and use plenty of English: le call, partager son écran, être en mute. In Québec, people tend to avoid anglicisms, and the OQLF recommends terms such as visioconférence and courriel (rather than e-mail). Tu es en sourdine or Ton micro est coupé tells someone they're muted. If the sound cuts out: Tu as coupé (you cut out). Pronunciation: écran ends in a nasal an — don't pronounce the n."
+      },
+      "phrases": [
+        {
+          "t": "Je crois que ton micro est coupé.",
+          "n": "I think your mic is muted."
+        },
+        {
+          "t": "Tu peux partager ton écran ?",
+          "n": "Can you share your screen?"
+        },
+        {
+          "t": "Ma connexion est un peu instable.",
+          "n": "My connection is a bit unstable."
+        },
+        {
+          "t": "Tu as coupé, tu peux répéter la fin ?",
+          "n": "You cut out — can you repeat the end?"
+        },
+        {
+          "t": "On t'entend mal, il y a de l'écho.",
+          "n": "We can't hear you well, there's an echo."
+        }
+      ],
+      "dialogue": {
+        "title": "A call with Montréal",
+        "voice": "fr-CA-JeanNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Jean-Philippe",
+            "t": "Allô ? M'entendez-vous ? … Allô ?",
+            "n": "Hello? Can you hear me? … Hello?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais on t'entend mal, il y a de l'écho.",
+            "n": "Yes, but we can't hear you well, there's an echo."
+          },
+          {
+            "who": "A",
+            "name": "Jean-Philippe",
+            "t": "Désolé, je suis dans le bureau du fond. Attends, je change de pièce.",
+            "n": "Sorry, I'm in the office at the back. Wait, I'll change rooms."
+          },
+          {
+            "who": "you",
+            "t": "C'est mieux. Tu peux partager ton écran ? On aimerait voir les chiffres.",
+            "n": "That's better. Can you share your screen? We'd like to see the figures."
+          },
+          {
+            "who": "A",
+            "name": "Jean-Philippe",
+            "t": "Voilà. Comme vous voyez, les ventes ont monté au Québec cette fin de semaine…",
+            "n": "There. As you can see, sales went up in Québec this weekend…",
+            "note": "fin de semaine = weekend in Québec"
+          },
+          {
+            "who": "you",
+            "t": "Tu as coupé, tu peux répéter la fin ? Ma connexion est un peu instable.",
+            "n": "You cut out — can you repeat the end? My connection is a bit unstable."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a colleague you think their mic is muted.",
+          "t": [
+            "Je crois que ton micro est coupé",
+            "Ton micro est coupé",
+            "Je crois que votre micro est coupé",
+            "Tu es en sourdine"
+          ]
+        },
+        {
+          "n": "Ask a colleague to share their screen.",
+          "t": [
+            "Tu peux partager ton écran",
+            "Vous pouvez partager votre écran",
+            "Peux-tu partager ton écran"
+          ]
+        },
+        {
+          "n": "Say they cut out and ask them to repeat the end.",
+          "t": [
+            "Tu as coupé, tu peux répéter la fin",
+            "T'as coupé, tu peux répéter",
+            "Vous avez coupé, vous pouvez répéter la fin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l4",
+      "kind": "grammar",
+      "title": "The gerund",
+      "goal": "Say how, when or on what condition with en + -ant: en écoutant, en partant tôt.",
+      "tip": {
+        "title": "en + present participle",
+        "body": "The gérondif is en + the -ant form. Take the nous form of the present, drop -ons, add -ant: nous écoutons → en écoutant, nous faisons → en faisant, nous finissons → en finissant. Only three are irregular: être → en étant, avoir → en ayant, savoir → en sachant. It expresses simultaneity (Il prend des notes en écoutant), manner (Elle a convaincu tout le monde en restant calme) or condition (En partant tôt, on évitera les bouchons). The subject of the gerund must be the same as the main verb's. Tout en adds contrast: Tout en comprenant vos réserves, je maintiens ma proposition. Pronunciation: -ant is a nasal vowel, never a pronounced t — but make a liaison after en: en_écoutant (an-né-cou-tan)."
+      },
+      "phrases": [
+        {
+          "t": "Il prend des notes en écoutant.",
+          "n": "He takes notes while listening."
+        },
+        {
+          "t": "En préparant l'ordre du jour, j'ai remarqué un problème.",
+          "n": "While preparing the agenda, I noticed a problem."
+        },
+        {
+          "t": "On gagnera du temps en envoyant le compte rendu le jour même.",
+          "n": "We'll save time by sending the minutes the same day."
+        },
+        {
+          "t": "En étant plus organisés, on finirait à l'heure.",
+          "n": "By being more organised, we'd finish on time."
+        },
+        {
+          "t": "Tout en comprenant vos réserves, je maintiens ma proposition.",
+          "n": "While I understand your reservations, I stand by my proposal."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the verb",
+          "base": {
+            "t": "En travaillant ensemble, on y arrivera.",
+            "n": "By working together, we'll manage it."
+          },
+          "items": [
+            {
+              "cue": "faire des efforts",
+              "t": "En faisant des efforts, on y arrivera.",
+              "n": "By making an effort, we'll manage it."
+            },
+            {
+              "cue": "avoir un plan",
+              "t": "En ayant un plan, on y arrivera.",
+              "n": "By having a plan, we'll manage it."
+            },
+            {
+              "cue": "savoir s'organiser",
+              "t": "En sachant s'organiser, on y arrivera.",
+              "n": "By knowing how to get organised, we'll manage it."
+            },
+            {
+              "cue": "être patient",
+              "t": "En étant patient, on y arrivera.",
+              "n": "By being patient, we'll manage it."
+            }
+          ]
+        },
+        {
+          "title": "Join the two ideas",
+          "base": {
+            "t": "En arrivant, j'ai vu le directeur.",
+            "n": "As I arrived, I saw the director."
+          },
+          "items": [
+            {
+              "cue": "sortir de la salle",
+              "t": "En sortant de la salle, j'ai vu le directeur.",
+              "n": "As I left the room, I saw the director."
+            },
+            {
+              "cue": "prendre l'ascenseur",
+              "t": "En prenant l'ascenseur, j'ai vu le directeur.",
+              "n": "As I took the lift, I saw the director."
+            },
+            {
+              "cue": "lire mes e-mails",
+              "t": "En lisant mes e-mails, j'ai vu le message du directeur.",
+              "n": "While reading my e-mails, I saw the director's message."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say 'by working together, we'll manage it.'",
+          "t": [
+            "En travaillant ensemble, on y arrivera",
+            "En travaillant ensemble on va y arriver",
+            "En travaillant ensemble, nous y arriverons"
+          ]
+        },
+        {
+          "n": "Say he takes notes while listening.",
+          "t": [
+            "Il prend des notes en écoutant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l5",
+      "kind": "listening",
+      "title": "Behind schedule",
+      "goal": "Follow a status update in a work meeting.",
+      "phrases": [
+        {
+          "t": "On a pris du retard.",
+          "n": "We've fallen behind."
+        },
+        {
+          "t": "Qu'est-ce qui coince, exactement ?",
+          "n": "What exactly is the hold-up?",
+          "note": "coincer = to be stuck (informal)"
+        },
+        {
+          "t": "Il faut voir ça avec le client.",
+          "n": "We need to sort that out with the client."
+        },
+        {
+          "t": "Je le note dans le compte rendu.",
+          "n": "I'll put it in the minutes."
+        }
+      ],
+      "story": {
+        "title": "The app project in Brussels",
+        "intro": "At an agency in Brussels, project manager Nathalie checks progress with developer Didier and designer Sarah.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Nathalie",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Bon, on commence. Didier, où en est-on sur l'application ?",
+            "n": "Right, let's start. Didier, where are we at with the app?"
+          },
+          {
+            "name": "Didier",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Pour être honnête, on a pris du retard. Il nous manque à peu près une semaine.",
+            "n": "To be honest, we've fallen behind. We're about a week short."
+          },
+          {
+            "name": "Nathalie",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Qu'est-ce qui coince, exactement ?",
+            "n": "What exactly is the hold-up?"
+          },
+          {
+            "name": "Didier",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Deux collègues ont été malades, et en testant la version bêta, le client a demandé de nouvelles fonctions.",
+            "n": "Two colleagues were ill, and while testing the beta version, the client asked for new features."
+          },
+          {
+            "name": "Sarah",
+            "voice": "fr-FR-CelesteNeural",
+            "t": "Et en ajoutant ces fonctions, on doit aussi revoir une partie du design.",
+            "n": "And by adding those features, we also have to rework part of the design."
+          },
+          {
+            "name": "Nathalie",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "D'accord. Les nouvelles demandes, il faut voir ça avec le client. Je m'en charge.",
+            "n": "OK. The new requests — we need to sort those out with the client. I'll take care of it."
+          },
+          {
+            "name": "Didier",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Merci. Alors on pourrait décaler la présentation au mardi douze.",
+            "n": "Thanks. Then we could push the presentation back to Tuesday the twelfth."
+          },
+          {
+            "name": "Sarah",
+            "voice": "fr-FR-CelesteNeural",
+            "t": "Ça me va. Je peux finir les maquettes d'ici lundi.",
+            "n": "That suits me. I can finish the mock-ups by Monday."
+          },
+          {
+            "name": "Nathalie",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Parfait. Je le note dans le compte rendu. On en reparle après le dîner avec la direction.",
+            "n": "Perfect. I'll put it in the minutes. We'll discuss it again after lunch with management.",
+            "note": "In Belgium, le dîner is the midday meal."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Combien de temps manque-t-il à l'équipe ?",
+            "n": "How much time is the team short?",
+            "t": [
+              "Une semaine",
+              "À peu près une semaine",
+              "Il manque une semaine"
+            ]
+          },
+          {
+            "q": "Pourquoi l'équipe a-t-elle pris du retard ?",
+            "n": "Why has the team fallen behind?",
+            "t": [
+              "Deux collègues ont été malades",
+              "Des collègues étaient malades",
+              "Le client a demandé de nouvelles fonctions",
+              "À cause des nouvelles fonctions"
+            ]
+          },
+          {
+            "q": "De quoi Nathalie va-t-elle se charger ?",
+            "n": "What will Nathalie take care of?",
+            "t": [
+              "Des nouvelles demandes",
+              "Elle va voir ça avec le client",
+              "Du client"
+            ]
+          },
+          {
+            "q": "Quand aura lieu la présentation ?",
+            "n": "When will the presentation take place?",
+            "t": [
+              "Le mardi douze",
+              "Mardi douze",
+              "Mardi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u02-l6",
+      "kind": "roleplay",
+      "title": "Keeping the meeting on track",
+      "goal": "Chair a meeting and steer it back to the agenda — your choices decide the outcome.",
+      "phrases": [
+        {
+          "t": "Ce n'est pas vraiment le sujet du jour.",
+          "n": "That's not really today's topic."
+        },
+        {
+          "t": "Revenons à l'ordre du jour, si vous le voulez bien.",
+          "n": "Let's get back to the agenda, if you don't mind."
+        },
+        {
+          "t": "On peut le mettre de côté pour l'instant ?",
+          "n": "Can we park that for now?"
+        },
+        {
+          "t": "Qui prend en charge cette tâche ?",
+          "n": "Who'll take on this task?"
+        }
+      ],
+      "branch": {
+        "title": "The drifting colleague",
+        "scene": "You're chairing a team meeting with only thirty minutes. Your colleague Bruno keeps drifting away from the agenda.",
+        "name": "Bruno (collègue)",
+        "voice": "fr-FR-YvesNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Avant de commencer : quelqu'un a appelé le réparateur pour la machine à café ? Elle est encore en panne.",
+            "n": "Before we start: has anyone called the repairman about the coffee machine? It's broken again.",
+            "choices": [
+              {
+                "t": "Ce n'est pas vraiment le sujet du jour. On peut le mettre de côté pour l'instant ?",
+                "n": "That's not really today's topic. Can we park that for now?",
+                "next": "agenda"
+              },
+              {
+                "t": "Ah, la machine à café ! Racontez-moi.",
+                "n": "Oh, the coffee machine! Tell me about it.",
+                "next": "drift"
+              }
+            ]
+          },
+          "drift": {
+            "t": "Alors, la semaine dernière, Martine a voulu la réparer elle-même, et en ouvrant le couvercle…",
+            "n": "Well, last week Martine tried to fix it herself, and when she opened the lid…",
+            "choices": [
+              {
+                "t": "Pardon de vous couper, mais revenons à l'ordre du jour, si vous le voulez bien.",
+                "n": "Sorry to cut you off, but let's get back to the agenda, if you don't mind.",
+                "next": "agenda"
+              },
+              {
+                "t": "Non ! Et qu'est-ce qui s'est passé ensuite ?",
+                "n": "No! And what happened next?",
+                "next": "late"
+              }
+            ]
+          },
+          "late": {
+            "t": "… et voilà, elle a inondé la cuisine ! Oh là là, il est déjà midi, il faut qu'on arrête.",
+            "n": "… and there you go, she flooded the kitchen! Oh dear, it's already noon, we have to stop.",
+            "end": "bad",
+            "outcome": "The meeting ran out of time without a single decision — steer it back to the agenda."
+          },
+          "agenda": {
+            "t": "Bon, d'accord. Premier point : l'enquête clients. Franchement, les résultats sont difficiles à interpréter.",
+            "n": "Fine, OK. First item: the customer survey. Frankly, the results are hard to interpret.",
+            "choices": [
+              {
+                "t": "Pouvez-vous préciser ? Qu'est-ce qui n'est pas clair ?",
+                "n": "Could you be more specific? What isn't clear?",
+                "next": "explain"
+              },
+              {
+                "t": "Dans ce cas, il faut retravailler l'analyse. Qui prend en charge cette tâche ?",
+                "n": "In that case, the analysis needs reworking. Who'll take on this task?",
+                "next": "task"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Les chiffres se contredisent. D'après l'enquête, les clients sont satisfaits, mais les réclamations augmentent.",
+            "n": "The figures contradict each other. According to the survey customers are satisfied, but complaints are rising.",
+            "choices": [
+              {
+                "t": "Dans ce cas, il faut retravailler l'analyse. Qui prend en charge cette tâche ?",
+                "n": "In that case, the analysis needs reworking. Who'll take on this task?",
+                "next": "task"
+              },
+              {
+                "t": "Intéressant. Je propose qu'on y consacre une réunion à part.",
+                "n": "Interesting. I suggest we devote a separate meeting to it.",
+                "next": "later"
+              }
+            ]
+          },
+          "task": {
+            "t": "Je m'en occupe. En m'y mettant aujourd'hui, je peux avoir fini mercredi.",
+            "n": "I'll handle it. If I start on it today, I can have it done by Wednesday.",
+            "end": "good",
+            "outcome": "You kept the meeting focused and assigned a clear task with a deadline."
+          },
+          "later": {
+            "t": "D'accord. Je préparerai une courte analyse pour cette réunion.",
+            "n": "OK. I'll prepare a short analysis for that meeting.",
+            "end": "good",
+            "outcome": "You moved the deep dive to its own meeting and kept this one on schedule."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Steer the meeting back: let's get back to the agenda.",
+          "t": [
+            "Revenons à l'ordre du jour",
+            "Revenons à l'ordre du jour, si vous le voulez bien",
+            "Revenons à nos moutons"
+          ]
+        },
+        {
+          "n": "Ask who'll take on this task.",
+          "t": [
+            "Qui prend en charge cette tâche",
+            "Qui s'occupe de cette tâche",
+            "Qui se charge de cette tâche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-l7",
+      "kind": "speaking",
+      "title": "Summing up",
+      "goal": "Summarise a meeting's decisions and open questions freely.",
+      "culture": {
+        "title": "Hiérarchie et consensus",
+        "body": "Meeting styles vary across the francophone world. In many French companies hierarchy is fairly visible: meetings can be lively spaces for debate, but the most senior person often has the final word, and important decisions may be prepared informally beforehand. Switzerland is known for its consensus culture, which mirrors its political system — the country is governed by a seven-member Federal Council that decides collegially — so decisions can take longer but tend to be widely supported. Belgians often speak of the « compromis à la belge », a pragmatic search for middle ground. In Québec, workplaces are often more informal: first names and tu are common, even with a manager.",
+        "regions": [
+          "FR",
+          "CH",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Pour résumer, voici ce qui a été décidé.",
+          "n": "To sum up, here's what was decided."
+        },
+        {
+          "t": "La question du budget reste en suspens.",
+          "n": "The budget question is still pending."
+        },
+        {
+          "t": "Chacun sait ce qu'il a à faire.",
+          "n": "Everyone knows what they have to do."
+        },
+        {
+          "t": "Je vous enverrai le compte rendu en fin de journée.",
+          "n": "I'll send you the minutes at the end of the day."
+        }
+      ],
+      "free": [
+        {
+          "n": "Summarise a recent team meeting for a colleague who missed it: what was decided, what is still open, and who does what by when.",
+          "hint": "Pour résumer, voici ce qui a été décidé … La question de … reste en suspens. X s'en charge d'ici …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a summary or decision",
+              "any": [
+                "résumer",
+                "en résumé",
+                "décidé",
+                "décision",
+                "convenu",
+                "validé"
+              ]
+            },
+            {
+              "label": "something still open",
+              "any": [
+                "en suspens",
+                "pas encore",
+                "reste à",
+                "à voir",
+                "pas clair"
+              ]
+            },
+            {
+              "label": "who does what",
+              "any": [
+                "s'en charge",
+                "se charge",
+                "s'occupe",
+                "prend en charge",
+                "responsable"
+              ]
+            },
+            {
+              "label": "a deadline",
+              "any": [
+                "d'ici",
+                "avant",
+                "la semaine prochaine",
+                "lundi",
+                "vendredi",
+                "fin du mois"
+              ]
+            }
+          ],
+          "model": "Pour résumer, voici ce qui a été décidé : on décale la présentation au mardi douze. La question du budget reste en suspens, parce que la comptabilité n'a rien envoyé. Sarah s'occupe des maquettes d'ici lundi, et Nathalie se charge de voir le client. Je t'envoie le compte rendu ce soir."
+        },
+        {
+          "n": "Propose a way to make your team's meetings more efficient. Use at least two gerunds (en + -ant).",
+          "hint": "En commençant à l'heure … En envoyant l'ordre du jour la veille … On gagnerait du temps en …",
+          "seconds": 60,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "a gerund",
+              "any": [
+                "en envoyant",
+                "en commençant",
+                "en limitant",
+                "en préparant",
+                "en fixant",
+                "en étant",
+                "en faisant"
+              ]
+            },
+            {
+              "label": "meeting vocabulary",
+              "any": [
+                "réunion*",
+                "ordre du jour",
+                "compte rendu",
+                "visio"
+              ]
+            },
+            {
+              "label": "a benefit",
+              "any": [
+                "gagner",
+                "gagnerait",
+                "efficace*",
+                "plus court*",
+                "temps"
+              ]
+            }
+          ],
+          "model": "Je propose qu'on change un peu nos réunions. En envoyant l'ordre du jour la veille, chacun pourrait se préparer. En limitant chaque réunion à trente minutes, on gagnerait beaucoup de temps. Et en notant les décisions directement dans le compte rendu, on éviterait les malentendus."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the budget question is still pending.",
+          "t": [
+            "La question du budget reste en suspens",
+            "La question du budget est encore en suspens",
+            "Le budget reste en suspens"
+          ]
+        },
+        {
+          "n": "Say 'to sum up, here's what was decided.'",
+          "t": [
+            "Pour résumer, voici ce qui a été décidé",
+            "En résumé, voici ce qui a été décidé",
+            "Pour résumer, voilà ce qu'on a décidé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En réunion",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

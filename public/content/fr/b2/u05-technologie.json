@@ -1,0 +1,810 @@
+{
+  "id": "b2-u05",
+  "title": "Technologie et avenir",
+  "subtitle": "Technology, AI & the future",
+  "icon": "🤖",
+  "lessons": [
+    {
+      "id": "b2-u05-l1",
+      "title": "Making predictions",
+      "goal": "Speculate about the future and express different degrees of certainty.",
+      "tip": {
+        "title": "Futur simple & degrees of certainty",
+        "body": "The futur simple makes predictions: Dans vingt ans, les voitures rouleront toutes seules. Grade how sure you are: sans doute (probably — not 'without doubt'!), sûrement, probablement, peut-être. Il est probable que takes the indicative (il est probable que ça changera), but il est possible que and il se peut que take the subjunctive (il se peut que ça change). Pronunciation: the -rai/-ra endings are short and clear; in je serai, one e usually drops in speech: je s'rai or j'se-rai."
+      },
+      "phrases": [
+        {
+          "t": "Dans vingt ans, la plupart des voitures rouleront sans doute toutes seules.",
+          "n": "In twenty years, most cars will probably drive themselves.",
+          "note": "sans doute = probably; sans aucun doute = without any doubt"
+        },
+        {
+          "t": "Je pars du principe que l'intelligence artificielle va transformer beaucoup de métiers.",
+          "n": "I'm working on the assumption that artificial intelligence will transform a lot of jobs."
+        },
+        {
+          "t": "Il n'est pas exclu qu'on aille un jour sur Mars.",
+          "n": "It's not out of the question that we'll go to Mars one day.",
+          "note": "il n'est pas exclu que + subjunctive"
+        },
+        {
+          "t": "Ça me paraît assez peu probable.",
+          "n": "That seems fairly unlikely to me."
+        },
+        {
+          "t": "Qui sait, les choses tourneront peut-être tout autrement.",
+          "n": "Who knows, things may turn out completely differently."
+        },
+        {
+          "t": "Je n'en suis pas si sûr, pour être honnête.",
+          "n": "I'm not so sure about that, to be honest.",
+          "note": "A woman says sûre — same sound."
+        },
+        {
+          "t": "D'ici là, il coulera de l'eau sous les ponts.",
+          "n": "A lot of water will flow under the bridges before then.",
+          "note": "idiom: a lot will happen first"
+        }
+      ],
+      "dialogue": {
+        "title": "A glimpse into 2050",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Docteure Élise Marchand",
+            "t": "À votre avis, à quoi ressemblera notre quotidien en 2050 ?",
+            "n": "In your opinion, what will our daily life look like in 2050?"
+          },
+          {
+            "who": "you",
+            "t": "Je pars du principe que l'intelligence artificielle va transformer beaucoup de métiers.",
+            "n": "I'm working on the assumption that artificial intelligence will transform a lot of jobs."
+          },
+          {
+            "who": "A",
+            "name": "Docteure Élise Marchand",
+            "t": "Et les transports ? Est-ce qu'on conduira encore nous-mêmes ?",
+            "n": "And transport? Will we still drive ourselves?"
+          },
+          {
+            "who": "you",
+            "t": "Dans vingt ans, la plupart des voitures rouleront sans doute toutes seules.",
+            "n": "In twenty years, most cars will probably drive themselves."
+          },
+          {
+            "who": "A",
+            "name": "Docteure Élise Marchand",
+            "t": "Certains disent qu'on aura déjà des colonies sur Mars.",
+            "n": "Some say we'll already have colonies on Mars."
+          },
+          {
+            "who": "you",
+            "t": "Ça me paraît assez peu probable. Qui sait, les choses tourneront peut-être tout autrement. D'ici là, il coulera de l'eau sous les ponts.",
+            "n": "That seems fairly unlikely to me. Who knows, things may turn out completely differently. A lot of water will flow under the bridges before then."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that seems fairly unlikely to you.",
+          "t": [
+            "Ça me paraît assez peu probable",
+            "Ça me paraît peu probable",
+            "Cela me paraît assez peu probable"
+          ]
+        },
+        {
+          "n": "Say it's not out of the question that we'll go to Mars one day.",
+          "t": [
+            "Il n'est pas exclu qu'on aille un jour sur Mars",
+            "Il n'est pas exclu que nous allions un jour sur Mars",
+            "Il n'est pas exclu qu'on aille sur Mars un jour"
+          ]
+        },
+        {
+          "n": "Say you're working on the assumption that AI will transform a lot of jobs.",
+          "t": [
+            "Je pars du principe que l'intelligence artificielle va transformer beaucoup de métiers",
+            "Je pars du principe que l'intelligence artificielle transformera beaucoup de métiers",
+            "Je pars du principe que l'IA va transformer beaucoup de métiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l2",
+      "title": "Debating AI",
+      "goal": "Discuss the benefits and risks of artificial intelligence and hedge your claims.",
+      "tip": {
+        "title": "Hedging your claims",
+        "body": "Soften strong claims with a priori (on the face of it — say a-pri-o-ri), dans une certaine mesure (to some extent) and the journalistic conditional for unconfirmed information: selon les experts, l'IA remplacerait des millions d'emplois (reportedly would replace). Note IA is said i-a, and données (data) is feminine plural: les données sont protégées."
+      },
+      "phrases": [
+        {
+          "t": "Ça comporte évidemment certains risques.",
+          "n": "Of course that carries certain risks."
+        },
+        {
+          "t": "La protection des données est un enjeu majeur.",
+          "n": "Data protection is a major issue.",
+          "note": "un enjeu = what's at stake, a key issue"
+        },
+        {
+          "t": "Je n'irais pas jusqu'à dire que c'est dangereux.",
+          "n": "I wouldn't go so far as to say it's dangerous."
+        },
+        {
+          "t": "Dans une certaine mesure, l'IA nous fait gagner du temps.",
+          "n": "To some extent, AI saves us time."
+        },
+        {
+          "t": "Selon certains experts, l'IA remplacerait des millions d'emplois.",
+          "n": "According to some experts, AI could replace millions of jobs.",
+          "note": "journalistic conditional: unconfirmed claim"
+        },
+        {
+          "t": "Il faut garder un esprit critique.",
+          "n": "We have to keep a critical mind."
+        },
+        {
+          "t": "Le problème, c'est que ces outils se trompent parfois avec beaucoup d'aplomb.",
+          "n": "The problem is that these tools are sometimes wrong with great self-assurance."
+        }
+      ],
+      "dialogue": {
+        "title": "AI at the office",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Depuis qu'on utilise l'assistant IA au bureau, je rédige mes rapports deux fois plus vite.",
+            "n": "Since we started using the AI assistant at the office, I write my reports twice as fast."
+          },
+          {
+            "who": "you",
+            "t": "Dans une certaine mesure, l'IA nous fait gagner du temps. Mais ça comporte évidemment certains risques.",
+            "n": "To some extent, AI saves us time. But of course it carries certain risks."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Tu penses à la confidentialité ? On y met quand même des documents internes.",
+            "n": "You're thinking about confidentiality? We do put internal documents into it."
+          },
+          {
+            "who": "you",
+            "t": "Exactement. La protection des données est un enjeu majeur.",
+            "n": "Exactly. Data protection is a major issue."
+          },
+          {
+            "who": "A",
+            "name": "Thomas",
+            "t": "Et puis, l'autre jour, il m'a inventé une statistique de toutes pièces !",
+            "n": "And the other day it made up a statistic out of thin air!"
+          },
+          {
+            "who": "you",
+            "t": "Le problème, c'est que ces outils se trompent parfois avec beaucoup d'aplomb. Il faut garder un esprit critique. Mais je n'irais pas jusqu'à dire que c'est dangereux.",
+            "n": "The problem is that these tools are sometimes wrong with great self-assurance. We have to keep a critical mind. But I wouldn't go so far as to say it's dangerous."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you wouldn't go so far as to say it's dangerous.",
+          "t": [
+            "Je n'irais pas jusqu'à dire que c'est dangereux",
+            "J'irais pas jusqu'à dire que c'est dangereux"
+          ]
+        },
+        {
+          "n": "Say data protection is a major issue.",
+          "t": [
+            "La protection des données est un enjeu majeur",
+            "La protection des données, c'est un enjeu majeur"
+          ]
+        },
+        {
+          "n": "Report an unconfirmed claim: according to some experts, AI could replace millions of jobs.",
+          "t": [
+            "Selon certains experts, l'IA remplacerait des millions d'emplois",
+            "Selon certains experts, l'intelligence artificielle remplacerait des millions d'emplois",
+            "D'après certains experts, l'IA remplacerait des millions d'emplois"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l3",
+      "title": "Life online",
+      "goal": "Talk about screen time, apps and digital habits.",
+      "tip": {
+        "title": "Screens, apps & the right to disconnect",
+        "body": "Talk about habits with sans arrêt (non-stop), régulièrement and à peine (hardly). Many tech words are English in France (un smartphone, une appli, le wifi — said oui-fi), but there are French options too: un téléphone, un portable, une application. France even has a legal 'droit à la déconnexion' (since 2017), meant to protect employees from work emails outside working hours. Pronounce écran with a nasal an: é-cran."
+      },
+      "phrases": [
+        {
+          "t": "Je passe beaucoup trop de temps devant les écrans.",
+          "n": "I spend far too much time in front of screens."
+        },
+        {
+          "t": "J'ai désactivé les notifications.",
+          "n": "I've turned off the notifications."
+        },
+        {
+          "t": "Sans wifi, je suis complètement perdu en télétravail.",
+          "n": "Without Wi-Fi I'm completely lost when working from home.",
+          "note": "A woman says perdue — same sound."
+        },
+        {
+          "t": "Je fais une cure de déconnexion tous les week-ends.",
+          "n": "I do a digital detox every weekend.",
+          "note": "also: une détox digitale"
+        },
+        {
+          "t": "Mon téléphone est à plat, tu as un chargeur ?",
+          "n": "My phone is dead, do you have a charger?",
+          "note": "à plat = flat (battery)"
+        }
+      ],
+      "dialogue": {
+        "title": "On your phone again?",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Tu es encore sur ton téléphone ! On est censés dîner ensemble.",
+            "n": "You're on your phone again! We're supposed to be having dinner together."
+          },
+          {
+            "who": "you",
+            "t": "Je sais, je passe beaucoup trop de temps devant les écrans.",
+            "n": "I know, I spend far too much time in front of screens."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Pourquoi tu n'essaies pas une cure de déconnexion le week-end ?",
+            "n": "Why don't you try a digital detox at the weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Bonne idée. J'ai déjà désactivé les notifications, c'est un début.",
+            "n": "Good idea. I've already turned off the notifications, it's a start."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Admit you spend far too much time in front of screens.",
+          "t": [
+            "Je passe beaucoup trop de temps devant les écrans",
+            "Je passe trop de temps devant les écrans"
+          ]
+        },
+        {
+          "n": "Say you've turned off the notifications.",
+          "t": [
+            "J'ai désactivé les notifications",
+            "J'ai coupé les notifications"
+          ]
+        },
+        {
+          "n": "Say your phone is dead and ask a friend if they have a charger.",
+          "t": [
+            "Mon téléphone est à plat, tu as un chargeur",
+            "Mon portable est à plat, tu as un chargeur",
+            "Mon téléphone est à plat, est-ce que tu as un chargeur",
+            "Mon téléphone est à plat, t'as un chargeur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l4",
+      "kind": "grammar",
+      "title": "Futur antérieur: what will have happened",
+      "goal": "Say what will be done by a certain point, and guess about the past.",
+      "tip": {
+        "title": "Futur antérieur = auxiliary in the future + past participle",
+        "body": "Build it like the passé composé, but put avoir or être in the futur simple: j'aurai fini, elle sera partie. Use it for an action completed before a point in the future: D'ici 2040, on aura remplacé les voitures à essence. Unlike English, French uses it after quand, dès que and une fois que when that action will be finished first: Appelle-moi quand tu auras fini (when you have finished). It can also guess about the past: Il aura oublié son mot de passe (he must have forgotten). Agreement works as in the passé composé."
+      },
+      "phrases": [
+        {
+          "t": "D'ici 2040, on aura remplacé la plupart des voitures à essence.",
+          "n": "By 2040, we will have replaced most petrol cars."
+        },
+        {
+          "t": "Appelle-moi quand tu auras fini l'installation.",
+          "n": "Call me when you've finished the installation.",
+          "note": "English uses the present perfect here"
+        },
+        {
+          "t": "Dès que la mise à jour sera terminée, l'ordinateur redémarrera.",
+          "n": "As soon as the update is finished, the computer will restart."
+        },
+        {
+          "t": "Une fois que vous aurez créé votre compte, vous recevrez un courriel de confirmation.",
+          "n": "Once you've created your account, you'll receive a confirmation email."
+        },
+        {
+          "t": "Il ne répond pas ? Il aura encore oublié de recharger son portable.",
+          "n": "He's not answering? He must have forgotten to charge his phone again.",
+          "note": "futur antérieur = guess about the past"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Change the subject",
+          "base": {
+            "t": "Quand j'aurai fini, je t'enverrai le fichier.",
+            "n": "When I've finished, I'll send you the file."
+          },
+          "items": [
+            {
+              "cue": "nous",
+              "t": "Quand nous aurons fini, nous t'enverrons le fichier.",
+              "n": "When we've finished, we'll send you the file."
+            },
+            {
+              "cue": "elle",
+              "t": "Quand elle aura fini, elle t'enverra le fichier.",
+              "n": "When she's finished, she'll send you the file."
+            },
+            {
+              "cue": "vous",
+              "t": "Quand vous aurez fini, vous m'enverrez le fichier.",
+              "n": "When you've finished, you'll send me the file."
+            }
+          ]
+        },
+        {
+          "title": "Verbs with être",
+          "base": {
+            "t": "D'ici ce soir, je serai rentré.",
+            "n": "By this evening, I'll have come home."
+          },
+          "items": [
+            {
+              "cue": "elle · partir",
+              "t": "D'ici ce soir, elle sera partie.",
+              "n": "By this evening, she'll have left."
+            },
+            {
+              "cue": "nous · arriver",
+              "t": "D'ici ce soir, nous serons arrivés.",
+              "n": "By this evening, we'll have arrived."
+            },
+            {
+              "cue": "les techniciens · venir",
+              "t": "D'ici ce soir, les techniciens seront venus.",
+              "n": "By this evening, the technicians will have come."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell a friend to call you when they've finished the installation.",
+          "t": [
+            "Appelle-moi quand tu auras fini l'installation",
+            "Appelle-moi quand tu auras terminé l'installation",
+            "Appelez-moi quand vous aurez fini l'installation"
+          ]
+        },
+        {
+          "n": "Say that by 2040 we will have replaced most petrol cars.",
+          "t": [
+            "D'ici deux mille quarante, on aura remplacé la plupart des voitures à essence",
+            "D'ici deux mille quarante, nous aurons remplacé la plupart des voitures à essence",
+            "D'ici 2040, on aura remplacé la plupart des voitures à essence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l5",
+      "kind": "listening",
+      "title": "AI made in Montréal",
+      "goal": "Follow a radio interview about artificial intelligence research.",
+      "phrases": [
+        {
+          "t": "Concrètement, ça veut dire quoi ?",
+          "n": "In concrete terms, what does that mean?"
+        },
+        {
+          "t": "Bien au contraire.",
+          "n": "Quite the opposite."
+        },
+        {
+          "t": "Ça soulève des questions éthiques.",
+          "n": "That raises ethical questions."
+        },
+        {
+          "t": "Au départ, beaucoup de gens étaient sceptiques.",
+          "n": "At first, a lot of people were sceptical."
+        }
+      ],
+      "story": {
+        "title": "Detecting disease with AI",
+        "intro": "A Paris radio host interviews a Montréal researcher whose team uses AI to help doctors read medical images.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Claire",
+            "t": "Bonjour Geneviève. Votre équipe, à Montréal, développe une intelligence artificielle pour les hôpitaux. Concrètement, ça veut dire quoi ?",
+            "n": "Hello Geneviève. Your team in Montréal is developing an artificial intelligence for hospitals. In concrete terms, what does that mean?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Notre logiciel analyse des radiographies et signale aux médecins les images qui semblent anormales.",
+            "n": "Our software analyses X-rays and flags the images that look abnormal to the doctors."
+          },
+          {
+            "name": "Claire",
+            "t": "Est-ce que les radiologues vont devenir inutiles ?",
+            "n": "Are radiologists going to become useless?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Bien au contraire. L'outil fait le premier tri, et le médecin garde toujours le dernier mot. Ça lui laisse plus de temps pour les cas difficiles.",
+            "n": "Quite the opposite. The tool does the first sorting, and the doctor always has the final say. It leaves them more time for the difficult cases."
+          },
+          {
+            "name": "Claire",
+            "t": "Et les patients, comment ont-ils réagi ?",
+            "n": "And the patients, how did they react?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Au départ, beaucoup de gens étaient sceptiques. Ils avaient peur qu'une machine décide à leur place.",
+            "n": "At first, a lot of people were sceptical. They were afraid a machine would decide for them."
+          },
+          {
+            "name": "Claire",
+            "t": "Et dans dix ans, où en serez-vous ?",
+            "n": "And in ten years, where will you be?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "J'espère qu'on aura convaincu les hôpitaux de toute la francophonie. Mais on va y aller une étape à la fois !",
+            "n": "I hope we'll have convinced hospitals throughout the French-speaking world. But we'll take it one step at a time!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qu'est-ce que le logiciel analyse ?",
+            "n": "What does the software analyse?",
+            "t": [
+              "Des radiographies",
+              "Les radiographies",
+              "Il analyse des radiographies",
+              "Des images médicales"
+            ]
+          },
+          {
+            "q": "Qui garde le dernier mot ?",
+            "n": "Who has the final say?",
+            "t": [
+              "Le médecin",
+              "Les médecins",
+              "Le médecin garde le dernier mot"
+            ]
+          },
+          {
+            "q": "De quoi les patients avaient-ils peur au départ ?",
+            "n": "What were the patients afraid of at first?",
+            "t": [
+              "Qu'une machine décide à leur place",
+              "Qu'une machine décide pour eux",
+              "D'une machine qui décide à leur place"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u05-l6",
+      "kind": "roleplay",
+      "title": "A warranty claim in Brussels",
+      "goal": "Get your broken phone repaired — stay factual and negotiate.",
+      "phrases": [
+        {
+          "t": "L'appareil est toujours sous garantie.",
+          "n": "The device is still under warranty."
+        },
+        {
+          "t": "Est-ce qu'il y aurait une autre solution ?",
+          "n": "Would there be another solution?"
+        },
+        {
+          "t": "J'en ai absolument besoin pour le travail.",
+          "n": "I absolutely need it for work."
+        },
+        {
+          "t": "Vous avez gardé le ticket de caisse ?",
+          "n": "Did you keep the receipt?"
+        }
+      ],
+      "branch": {
+        "title": "At the phone shop",
+        "scene": "In Brussels, the phone you bought three months ago won't switch on. You go back to the shop. Note: Belgians often say GSM for a mobile phone.",
+        "name": "Vendeur",
+        "voice": "fr-BE-GerardNeural",
+        "start": "hi",
+        "nodes": {
+          "hi": {
+            "t": "Bonjour, qu'est-ce que je peux faire pour vous ?",
+            "n": "Hello, what can I do for you?",
+            "choices": [
+              {
+                "t": "Bonjour. Le GSM que j'ai acheté ici il y a trois mois ne s'allume plus.",
+                "n": "Hello. The mobile I bought here three months ago won't switch on any more.",
+                "next": "receipt"
+              },
+              {
+                "t": "Votre téléphone, c'est de la camelote. Je veux être remboursé tout de suite !",
+                "n": "Your phone is junk. I want a refund right now!",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Calmez-vous, s'il vous plaît. Quel est le problème exactement ?",
+            "n": "Calm down, please. What exactly is the problem?",
+            "choices": [
+              {
+                "t": "Excusez-moi. Il ne s'allume plus depuis hier.",
+                "n": "Sorry. It hasn't switched on since yesterday.",
+                "next": "receipt"
+              },
+              {
+                "t": "Vous n'avez qu'à regarder vous-même !",
+                "n": "Just look for yourself!",
+                "next": "bad"
+              }
+            ]
+          },
+          "receipt": {
+            "t": "Je suis désolé. Vous avez gardé le ticket de caisse ?",
+            "n": "I'm sorry. Did you keep the receipt?",
+            "choices": [
+              {
+                "t": "Oui, le voici. L'appareil est toujours sous garantie.",
+                "n": "Yes, here it is. The device is still under warranty.",
+                "next": "check"
+              }
+            ]
+          },
+          "check": {
+            "t": "Très bien. On doit l'envoyer chez le fabricant. Ça prend environ trois semaines.",
+            "n": "Very well. We have to send it to the manufacturer. That takes about three weeks.",
+            "choices": [
+              {
+                "t": "Trois semaines ? J'en ai absolument besoin pour le travail. Est-ce qu'il y aurait une autre solution ?",
+                "n": "Three weeks? I absolutely need it for work. Would there be another solution?",
+                "next": "loan"
+              },
+              {
+                "t": "D'accord, envoyez-le, alors.",
+                "n": "All right, send it off, then.",
+                "next": "send"
+              }
+            ]
+          },
+          "loan": {
+            "t": "Je comprends. Je peux vous prêter un appareil de remplacement en attendant, gratuitement.",
+            "n": "I understand. I can lend you a replacement device in the meantime, free of charge.",
+            "end": "good",
+            "outcome": "You negotiated a free loan phone while yours is being repaired."
+          },
+          "send": {
+            "t": "Parfait. Vous recevrez un SMS dès qu'il aura été réparé.",
+            "n": "Perfect. You'll get a text as soon as it has been repaired.",
+            "end": "good",
+            "outcome": "Your phone is sent off for a free warranty repair."
+          },
+          "bad": {
+            "t": "Dans ces conditions, je ne peux malheureusement rien faire pour vous. Bonne journée.",
+            "n": "Under these conditions, unfortunately I can't do anything for you. Have a good day.",
+            "end": "bad",
+            "outcome": "You lost your temper and got nowhere — stay factual and mention the warranty."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say the device is still under warranty.",
+          "t": [
+            "L'appareil est toujours sous garantie",
+            "L'appareil est encore sous garantie",
+            "Il est toujours sous garantie"
+          ]
+        },
+        {
+          "n": "Politely ask if there would be another solution.",
+          "t": [
+            "Est-ce qu'il y aurait une autre solution",
+            "Y aurait-il une autre solution",
+            "Il y aurait une autre solution",
+            "Est-ce qu'il y a une autre solution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-l7",
+      "kind": "speaking",
+      "title": "Your view of the future",
+      "goal": "Speculate about the future and weigh up a technology for over a minute.",
+      "culture": {
+        "title": "Courriel, clavardage, divulgâcheur",
+        "body": "Québec is famous for creating French words for new technology. The Office québécois de la langue française (OQLF) promotes terms like courriel (email), clavarder (to chat online), égoportrait (selfie), mot-clic (hashtag) and divulgâcheur (spoiler). Courriel is also officially recommended in France, yet many French people still say un mail, and spoiler or selfie are common in everyday speech. The Académie française publishes a dictionary and gives usage advice, but cannot force anyone to follow it; in Québec, the Charter of the French language makes French mandatory in many areas — on commercial signs, for example, French must be predominant.",
+        "regions": [
+          "CA",
+          "FR"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis persuadé que ça finira par s'imposer.",
+          "n": "I'm convinced it will end up catching on.",
+          "note": "A woman says persuadée — same sound."
+        },
+        {
+          "t": "D'un côté, c'est pratique ; de l'autre, ça comporte des risques.",
+          "n": "On the one hand it's practical; on the other, it carries risks."
+        },
+        {
+          "t": "Tout bien pesé, les avantages l'emportent.",
+          "n": "All things considered, the advantages win out."
+        },
+        {
+          "t": "L'avenir nous le dira.",
+          "n": "Time will tell.",
+          "note": "literally: the future will tell us"
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe how you think everyday life will look in 2050: work, transport and homes.",
+          "hint": "Use the futur and hedges: Dans trente ans, on …-ra, sans doute, probablement, D'ici là, on aura …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a future form",
+              "any": [
+                "sera",
+                "seront",
+                "aura",
+                "auront",
+                "fera",
+                "feront",
+                "pourra",
+                "travaillera",
+                "rouleront",
+                "on va",
+                "vont"
+              ]
+            },
+            {
+              "label": "degree of certainty",
+              "any": [
+                "sans doute",
+                "probablement",
+                "peut-être",
+                "sûrement",
+                "probable",
+                "pas exclu"
+              ]
+            },
+            {
+              "label": "work",
+              "any": [
+                "travail*",
+                "métier*",
+                "emploi*",
+                "télétravail",
+                "bureau*"
+              ]
+            },
+            {
+              "label": "transport",
+              "any": [
+                "voiture*",
+                "transport*",
+                "train*",
+                "avion*",
+                "vélo*",
+                "conduir*"
+              ]
+            }
+          ],
+          "model": "Dans trente ans, la plupart des voitures rouleront sans doute toutes seules. Je pars du principe qu'on travaillera plus souvent en télétravail, parce que des robots feront les tâches simples. Mais est-ce qu'on sera plus heureux ? L'avenir nous le dira."
+        },
+        {
+          "n": "Weigh up one technology (AI, smart home, self-driving cars …): name a benefit, a risk and your conclusion.",
+          "hint": "D'un côté … de l'autre …, Ça comporte des risques, La protection des données …, Tout bien pesé …",
+          "seconds": 75,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a contrast",
+              "any": [
+                "d'un côté",
+                "de l'autre",
+                "par contre",
+                "en revanche",
+                "cependant",
+                "mais"
+              ]
+            },
+            {
+              "label": "a benefit",
+              "any": [
+                "avantage*",
+                "pratique",
+                "utile",
+                "gagner du temps",
+                "économis*"
+              ]
+            },
+            {
+              "label": "a risk",
+              "any": [
+                "risque*",
+                "inconvénient*",
+                "danger*",
+                "données",
+                "vie privée"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "tout bien pesé",
+                "en fin de compte",
+                "à mon avis",
+                "je trouve",
+                "donc"
+              ]
+            }
+          ],
+          "model": "D'un côté, une maison connectée est très pratique, parce qu'elle permet d'économiser de l'énergie. De l'autre, ça comporte des risques, surtout pour la protection des données. Tout bien pesé, je trouve que les avantages l'emportent, à condition de bien vérifier les réglages."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're convinced it will end up catching on.",
+          "t": [
+            "Je suis persuadé que ça finira par s'imposer",
+            "Je suis persuadée que ça finira par s'imposer",
+            "Je suis convaincu que ça finira par s'imposer",
+            "Je suis convaincue que ça finira par s'imposer"
+          ]
+        },
+        {
+          "n": "Say all things considered, the advantages win out.",
+          "t": [
+            "Tout bien pesé, les avantages l'emportent",
+            "Tout compte fait, les avantages l'emportent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Technologie et avenir",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

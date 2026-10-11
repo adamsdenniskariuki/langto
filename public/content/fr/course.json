@@ -53,8 +53,16 @@
       "id": "B2",
       "title": "Upper intermediate",
       "description": "Debate, negotiate, run meetings, follow the news and use idioms naturally.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "b2/u01-pour-ou-contre.json",
+        "b2/u02-reunion.json",
+        "b2/u03-negocier.json",
+        "b2/u04-actualite.json",
+        "b2/u05-technologie.json",
+        "b2/u06-sante-societe.json",
+        "b2/u07-ville-campagne.json",
+        "b2/u08-expressions.json"
+      ]
     },
     {
       "id": "C1",
@@ -84,7 +92,8 @@
         "pron/u04-lettres-muettes.json",
         "pron/u05-liaison.json",
         "pron/u06-e.json",
-        "pron/u07-eu.json"
+        "pron/u07-eu.json",
+        "pron/u08-rythme.json"
       ]
     }
   ]

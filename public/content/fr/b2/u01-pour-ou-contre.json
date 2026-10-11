@@ -1,0 +1,796 @@
+{
+  "id": "b2-u01",
+  "title": "Pour ou contre",
+  "subtitle": "Debating & weighing arguments",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "b2-u01-l1",
+      "title": "Weighing pros and cons",
+      "goal": "Present both sides of an issue and give a balanced opinion out loud.",
+      "tip": {
+        "title": "d'un côté … de l'autre & l'emporter sur",
+        "body": "To balance two sides, French uses d'un côté … de l'autre (on the one hand … on the other) or d'une part … d'autre part (more formal, typical of written essays). L'emporter sur means to outweigh: Les avantages l'emportent sur les inconvénients. To conclude, Tout bien pesé or Tout compte fait (all things considered) sound natural. Pronunciation: in les avantages and les inconvénients, make the liaison — lé-z-avantages, lé-z-inconvénients — and note that inconvénients has three nasal vowels and a silent -ts: in-con-vé-nian."
+      },
+      "phrases": [
+        {
+          "t": "D'un côté, le télétravail fait gagner du temps ; de l'autre, on se sent parfois isolé.",
+          "n": "On the one hand, working from home saves time; on the other, you sometimes feel isolated."
+        },
+        {
+          "t": "Il y a du pour et du contre.",
+          "n": "There are pros and cons."
+        },
+        {
+          "t": "Les avantages l'emportent sur les inconvénients.",
+          "n": "The advantages outweigh the disadvantages."
+        },
+        {
+          "t": "Le revers de la médaille, c'est qu'on ne voit plus ses collègues.",
+          "n": "The downside is that you don't see your colleagues any more.",
+          "note": "Literally 'the reverse of the medal'."
+        },
+        {
+          "t": "Je suis assez partagé sur la question.",
+          "n": "I'm quite torn on the issue.",
+          "note": "A woman says partagée — same sound."
+        },
+        {
+          "t": "Tout bien pesé, je suis plutôt pour.",
+          "n": "All things considered, I'm rather in favour."
+        }
+      ],
+      "dialogue": {
+        "title": "Working from home – yes or no?",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Élodie",
+            "t": "La direction veut supprimer un jour de télétravail. T'en penses quoi, toi ?",
+            "n": "Management wants to cut one day of working from home. What do you think?"
+          },
+          {
+            "who": "you",
+            "t": "C'est un sujet qui mérite réflexion. Il y a du pour et du contre.",
+            "n": "It's a topic that deserves some thought. There are pros and cons."
+          },
+          {
+            "who": "A",
+            "name": "Élodie",
+            "t": "Moi, je gagne une heure et demie de transport chaque fois que je reste chez moi !",
+            "n": "I save an hour and a half of commuting every time I stay at home!"
+          },
+          {
+            "who": "you",
+            "t": "Justement. D'un côté, le télétravail fait gagner du temps ; de l'autre, on se sent parfois isolé.",
+            "n": "Exactly. On the one hand, working from home saves time; on the other, you sometimes feel isolated."
+          },
+          {
+            "who": "A",
+            "name": "Élodie",
+            "t": "Isolé ? Avec toutes nos visios ?",
+            "n": "Isolated? With all our video calls?"
+          },
+          {
+            "who": "you",
+            "t": "Le revers de la médaille, c'est qu'on ne voit plus ses collègues. Et puis ça dépend de la situation de chacun.",
+            "n": "The downside is that you don't see your colleagues any more. And it depends on each person's situation."
+          },
+          {
+            "who": "A",
+            "name": "Élodie",
+            "t": "Bon, alors, tu es pour ou contre ?",
+            "n": "Well then, are you for or against?"
+          },
+          {
+            "who": "you",
+            "t": "Tout bien pesé, je suis plutôt pour. Les avantages l'emportent sur les inconvénients.",
+            "n": "All things considered, I'm rather in favour. The advantages outweigh the disadvantages."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say there are pros and cons.",
+          "t": [
+            "Il y a du pour et du contre",
+            "Il y a des avantages et des inconvénients"
+          ]
+        },
+        {
+          "n": "Say the advantages outweigh the disadvantages.",
+          "t": [
+            "Les avantages l'emportent sur les inconvénients",
+            "Les avantages l'emportent"
+          ]
+        },
+        {
+          "n": "Say that, all things considered, you're rather in favour.",
+          "t": [
+            "Tout bien pesé, je suis plutôt pour",
+            "Tout compte fait, je suis plutôt pour",
+            "Tout bien pesé je suis pour"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-l2",
+      "title": "Holding your ground",
+      "goal": "Keep the floor, push back politely and counter an argument in a discussion.",
+      "tip": {
+        "title": "Disagreeing without being rude",
+        "body": "French debate can be lively, and interrupting is more accepted than in English-speaking settings — but it is still framed politely. Soften disagreement first: Je vois ce que vous voulez dire, mais … or Je comprends votre point de vue, cependant … To keep the floor, say Laissez-moi finir, s'il vous plaît. Admettons (let's grant that) concedes a point before you strike back. Là, je vous arrête is firm — use it when someone states something you think is wrong. Pronunciation: in je vois ce que vous voulez dire, the e of ce and que often drops in fast speech: j'vois c'que vous voulez dire."
+      },
+      "phrases": [
+        {
+          "t": "Je vois ce que vous voulez dire, mais je ne suis pas convaincu.",
+          "n": "I see what you mean, but I'm not convinced.",
+          "note": "convaincue for a woman — same sound."
+        },
+        {
+          "t": "Laissez-moi finir, s'il vous plaît.",
+          "n": "Let me finish, please."
+        },
+        {
+          "t": "Là, je vous arrête tout de suite.",
+          "n": "I'm going to stop you right there."
+        },
+        {
+          "t": "Admettons, mais ça ne règle pas le problème.",
+          "n": "Granted, but that doesn't solve the problem."
+        },
+        {
+          "t": "Je ne suis pas du tout d'accord sur ce point.",
+          "n": "I don't agree at all on that point."
+        },
+        {
+          "t": "C'est justement là que le bât blesse.",
+          "n": "That's exactly where the problem lies.",
+          "note": "Idiom: 'that's where the pack-saddle hurts'."
+        }
+      ],
+      "dialogue": {
+        "title": "A car-free city centre?",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Monsieur Dubois",
+            "t": "Rendre le centre-ville piéton, c'est tuer les petits commerces, un point c'est tout.",
+            "n": "Making the city centre pedestrian is killing the small shops, full stop."
+          },
+          {
+            "who": "you",
+            "t": "Je vois ce que vous voulez dire, mais je ne suis pas convaincu. Dans beaucoup de villes, les rues piétonnes attirent du monde.",
+            "n": "I see what you mean, but I'm not convinced. In many towns, pedestrian streets attract people."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Dubois",
+            "t": "Oui, mais Bruxelles, ce n'est pas un petit village ! Les gens viennent en voiture, ils…",
+            "n": "Yes, but Brussels isn't a little village! People come by car, they…"
+          },
+          {
+            "who": "you",
+            "t": "Laissez-moi finir, s'il vous plaît. Les clients qui marchent s'arrêtent plus souvent devant les vitrines.",
+            "n": "Let me finish, please. Customers who walk stop in front of shop windows more often."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Dubois",
+            "t": "Admettons. Mais les livraisons, alors ? Les camionnettes vont passer où ?",
+            "n": "Granted. But what about deliveries? Where are the vans going to go?"
+          },
+          {
+            "who": "you",
+            "t": "C'est justement là que le bât blesse. Il faudrait des horaires de livraison le matin.",
+            "n": "That's exactly where the problem lies. There would need to be delivery times in the morning."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Politely ask to finish what you were saying.",
+          "t": [
+            "Laissez-moi finir, s'il vous plaît",
+            "Laissez-moi finir",
+            "Laisse-moi finir"
+          ]
+        },
+        {
+          "n": "Say you see what they mean, but you're not convinced.",
+          "t": [
+            "Je vois ce que vous voulez dire, mais je ne suis pas convaincu",
+            "Je vois ce que vous voulez dire, mais je ne suis pas convaincue",
+            "Je vois ce que tu veux dire, mais je ne suis pas convaincu",
+            "Je vois ce que tu veux dire, mais je ne suis pas convaincue"
+          ]
+        },
+        {
+          "n": "Say that's exactly where the problem lies.",
+          "t": [
+            "C'est justement là que le bât blesse",
+            "C'est là que le bât blesse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-l3",
+      "title": "Backing up your arguments",
+      "goal": "Support your opinion with examples, sources and personal experience.",
+      "tip": {
+        "title": "Quoting sources with the conditional",
+        "body": "When you report a claim you haven't checked yourself, French uses the conditional: Selon une étude, les salariés seraient plus productifs (they are said to be more productive). It signals distance, as journalists do. To introduce an example: Prenons un exemple concret or Par exemple. For your own experience: Par expérience, je sais que … To hammer the point home: Ça prouve bien que … Pronunciation: seraient sounds like se-rè (often s'rè) — -aient is just an open è sound."
+      },
+      "phrases": [
+        {
+          "t": "Prenons un exemple concret.",
+          "n": "Let's take a concrete example."
+        },
+        {
+          "t": "Selon une étude récente, les salariés seraient plus productifs.",
+          "n": "According to a recent study, employees are said to be more productive.",
+          "note": "Conditional = reported, unverified claim."
+        },
+        {
+          "t": "Par expérience, je sais que ça marche.",
+          "n": "From experience, I know it works."
+        },
+        {
+          "t": "Ça prouve bien que c'est possible.",
+          "n": "That clearly proves it's possible."
+        },
+        {
+          "t": "Ce n'est pas qu'une question d'argent.",
+          "n": "It's not just a question of money."
+        },
+        {
+          "t": "C'est un argument de poids.",
+          "n": "That's a strong argument."
+        }
+      ],
+      "dialogue": {
+        "title": "A four-day week?",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Une semaine de quatre jours ? Voyons donc, on n'aura jamais le temps de tout faire !",
+            "n": "A four-day week? Come on, we'll never have time to get everything done!",
+            "note": "Voyons donc ! is a typically Québécois 'come on!'"
+          },
+          {
+            "who": "you",
+            "t": "Prenons un exemple concret. Plusieurs entreprises l'ont essayée et elles ne sont pas revenues en arrière.",
+            "n": "Let's take a concrete example. Several companies have tried it and they haven't gone back."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Ouais, mais c'est peut-être juste une mode.",
+            "n": "Yeah, but maybe it's just a trend."
+          },
+          {
+            "who": "you",
+            "t": "Selon une étude récente, les salariés seraient plus productifs. Ça prouve bien que c'est possible.",
+            "n": "According to a recent study, employees are said to be more productive. That clearly proves it's possible."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Pis les salaires ? Les patrons vont vouloir payer moins.",
+            "n": "And what about salaries? The bosses will want to pay less.",
+            "note": "Pis (from puis) = 'and' / 'and then', very common in Québec speech."
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas qu'une question d'argent. Par expérience, je sais que des employés reposés font moins d'erreurs.",
+            "n": "It's not just a question of money. From experience, I know rested employees make fewer mistakes."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "C'est un argument de poids, je l'admets.",
+            "n": "That's a strong argument, I admit."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Suggest taking a concrete example.",
+          "t": [
+            "Prenons un exemple concret",
+            "Prenons un exemple"
+          ]
+        },
+        {
+          "n": "Say it's not just a question of money.",
+          "t": [
+            "Ce n'est pas qu'une question d'argent",
+            "C'est pas qu'une question d'argent",
+            "Ce n'est pas seulement une question d'argent"
+          ]
+        },
+        {
+          "n": "Say that from experience you know it works.",
+          "t": [
+            "Par expérience, je sais que ça marche",
+            "Par expérience je sais que ça fonctionne",
+            "Je sais par expérience que ça marche"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-l4",
+      "kind": "grammar",
+      "title": "Concession",
+      "goal": "Concede a point with bien que, même si, pourtant, quand même and malgré.",
+      "tip": {
+        "title": "bien que + subjunctive, même si + indicative",
+        "body": "Several ways to say 'although / even so': Bien que (and the more formal quoique) always takes the subjunctive: Bien que ce soit cher, je suis pour. Même si (even if / even though) never does — it takes the indicative: Même si c'est cher, je suis pour. Pourtant (yet) and quand même (all the same) are adverbs: C'est cher, et pourtant je suis pour. / C'est cher, mais je suis quand même pour. Malgré (despite) is followed by a noun: Malgré le prix … Bien que is followed by elision before a vowel: bien qu'il, bien qu'elle. Common subjunctives: être → soit, avoir → ait, faire → fasse, falloir → faille, pleuvoir → pleuve."
+      },
+      "phrases": [
+        {
+          "t": "Bien que ce soit cher, je suis pour.",
+          "n": "Although it's expensive, I'm in favour."
+        },
+        {
+          "t": "Même si c'est cher, je suis pour.",
+          "n": "Even if it's expensive, I'm in favour."
+        },
+        {
+          "t": "C'est cher, et pourtant je suis pour.",
+          "n": "It's expensive, and yet I'm in favour."
+        },
+        {
+          "t": "C'est cher, mais je suis quand même pour.",
+          "n": "It's expensive, but I'm in favour all the same."
+        },
+        {
+          "t": "Malgré le prix, je suis pour.",
+          "n": "Despite the price, I'm in favour."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the concession",
+          "base": {
+            "t": "Il pleut, mais on sort quand même.",
+            "n": "It's raining, but we're going out all the same."
+          },
+          "items": [
+            {
+              "cue": "bien que",
+              "t": "Bien qu'il pleuve, on sort.",
+              "n": "Although it's raining, we're going out."
+            },
+            {
+              "cue": "même si",
+              "t": "Même s'il pleut, on sort.",
+              "n": "Even if it's raining, we're going out."
+            },
+            {
+              "cue": "pourtant",
+              "t": "Il pleut, et pourtant on sort.",
+              "n": "It's raining, and yet we're going out."
+            },
+            {
+              "cue": "malgré",
+              "t": "Malgré la pluie, on sort.",
+              "n": "Despite the rain, we're going out."
+            }
+          ]
+        },
+        {
+          "title": "Swap the subject",
+          "base": {
+            "t": "Bien que je sois fatigué, je viens à la réunion.",
+            "n": "Although I'm tired, I'm coming to the meeting."
+          },
+          "items": [
+            {
+              "cue": "elle",
+              "t": "Bien qu'elle soit fatiguée, elle vient à la réunion.",
+              "n": "Although she's tired, she's coming to the meeting."
+            },
+            {
+              "cue": "nous",
+              "t": "Bien que nous soyons fatigués, nous venons à la réunion.",
+              "n": "Although we're tired, we're coming to the meeting."
+            },
+            {
+              "cue": "vous",
+              "t": "Bien que vous soyez fatigué, vous venez à la réunion.",
+              "n": "Although you're tired, you're coming to the meeting."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say 'Although it's expensive, I'm in favour' using bien que.",
+          "t": [
+            "Bien que ce soit cher, je suis pour",
+            "Bien que ce soit cher je suis pour"
+          ]
+        },
+        {
+          "n": "Say 'Despite the price, I'm in favour.'",
+          "t": [
+            "Malgré le prix, je suis pour",
+            "Malgré le prix je suis pour"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-l5",
+      "kind": "listening",
+      "title": "A radio debate",
+      "goal": "Follow two sides of a debate at natural speed.",
+      "phrases": [
+        {
+          "t": "Je vais jouer l'avocat du diable.",
+          "n": "I'm going to play devil's advocate."
+        },
+        {
+          "t": "Il faut nuancer.",
+          "n": "We need to be more nuanced."
+        },
+        {
+          "t": "Les deux positions se défendent.",
+          "n": "Both positions are defensible."
+        },
+        {
+          "t": "Le débat reste ouvert.",
+          "n": "The debate remains open."
+        }
+      ],
+      "story": {
+        "title": "Grades at school: keep them or scrap them?",
+        "intro": "On a Swiss radio programme, host Laure talks to a teacher, Fabrice, and a mother, Isabelle, about whether schools should stop giving marks.",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "name": "Laure",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Bonsoir à tous. Ce soir, une question qui divise : faut-il supprimer les notes à l'école ? Fabrice, vous êtes enseignant. Vous êtes pour ?",
+            "n": "Good evening, everyone. Tonight, a divisive question: should marks be abolished at school? Fabrice, you're a teacher. Are you in favour?"
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Plutôt, oui. Les notes stressent beaucoup d'élèves, et un chiffre ne dit pas ce qu'il faut améliorer.",
+            "n": "Rather, yes. Marks stress a lot of pupils, and a number doesn't say what needs improving."
+          },
+          {
+            "name": "Laure",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Isabelle, vous êtes maman de deux ados. Qu'en pensez-vous ?",
+            "n": "Isabelle, you're the mother of two teenagers. What do you think?"
+          },
+          {
+            "name": "Isabelle",
+            "voice": "fr-FR-BrigitteNeural",
+            "t": "Je vais jouer l'avocat du diable. Bien que les notes soient imparfaites, elles sont claires. Je sais tout de suite où en sont mes enfants.",
+            "n": "I'm going to play devil's advocate. Although marks are imperfect, they're clear. I know immediately where my children stand."
+          },
+          {
+            "name": "Isabelle",
+            "voice": "fr-FR-BrigitteNeural",
+            "t": "Et même si les notes stressent certains élèves, la vie professionnelle aussi est faite d'évaluations. Il faut s'y préparer.",
+            "n": "And even if marks stress some pupils, working life is also full of evaluations. You have to prepare for it."
+          },
+          {
+            "name": "Fabrice",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "À la place, je propose des commentaires écrits et des entretiens avec les parents. Ça prend plus de temps, et pourtant c'est bien plus utile.",
+            "n": "Instead, I suggest written comments and meetings with parents. It takes more time, and yet it's much more useful."
+          },
+          {
+            "name": "Isabelle",
+            "voice": "fr-FR-BrigitteNeural",
+            "t": "Il faut nuancer : des commentaires, oui, mais en plus des notes, pas à la place.",
+            "n": "We need to be more nuanced: comments, yes, but in addition to marks, not instead of them."
+          },
+          {
+            "name": "Laure",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Les deux positions se défendent, et le débat reste ouvert. Merci à vous deux !",
+            "n": "Both positions are defensible, and the debate remains open. Thank you both!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quel est le métier de Fabrice ?",
+            "n": "What is Fabrice's job?",
+            "t": [
+              "Il est enseignant",
+              "Enseignant",
+              "Il est prof"
+            ]
+          },
+          {
+            "q": "Selon Fabrice, quel est le problème des notes ?",
+            "n": "According to Fabrice, what's the problem with marks?",
+            "t": [
+              "Elles stressent les élèves",
+              "Les notes stressent les élèves",
+              "Elles ne disent pas ce qu'il faut améliorer",
+              "Le stress"
+            ]
+          },
+          {
+            "q": "Pourquoi Isabelle aime-t-elle les notes ?",
+            "n": "Why does Isabelle like marks?",
+            "t": [
+              "Elles sont claires",
+              "Parce qu'elles sont claires",
+              "Elle sait où en sont ses enfants"
+            ]
+          },
+          {
+            "q": "Quel compromis Isabelle propose-t-elle ?",
+            "n": "What compromise does Isabelle suggest?",
+            "t": [
+              "Des commentaires en plus des notes",
+              "Les commentaires et les notes",
+              "Des notes et des commentaires",
+              "Garder les notes avec des commentaires"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2-u01-l6",
+      "kind": "roleplay",
+      "title": "The residents' meeting",
+      "goal": "Argue for your idea and reach a compromise — your choices steer the debate.",
+      "phrases": [
+        {
+          "t": "Je comprends vos réserves, mais écoutez-moi jusqu'au bout.",
+          "n": "I understand your reservations, but hear me out."
+        },
+        {
+          "t": "Et si on trouvait un compromis ?",
+          "n": "What if we found a compromise?"
+        },
+        {
+          "t": "Ce serait dans l'intérêt de tout le monde.",
+          "n": "It would be in everyone's interest."
+        },
+        {
+          "t": "On pourrait faire un essai pendant six mois.",
+          "n": "We could do a six-month trial."
+        }
+      ],
+      "branch": {
+        "title": "The courtyard question",
+        "scene": "At your building's annual co-owners' meeting (assemblée de copropriété), you propose turning two empty parking spaces into a bike shelter. Madame Lefèvre, a long-time resident, is against it.",
+        "name": "Madame Lefèvre (copropriétaire)",
+        "voice": "fr-FR-JacquelineNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Un abri à vélos ? Dans notre cour ? Et où vont se garer les gens qui ont une voiture, eux ?",
+            "n": "A bike shelter? In our courtyard? And where are the people with cars supposed to park?",
+            "choices": [
+              {
+                "t": "Je comprends vos réserves, mais écoutez-moi jusqu'au bout. Deux places sont vides depuis un an.",
+                "n": "I understand your reservations, but hear me out. Two spaces have been empty for a year.",
+                "next": "facts"
+              },
+              {
+                "t": "Les voitures, c'est le passé. Il faut vivre avec son temps, madame.",
+                "n": "Cars are a thing of the past. You have to move with the times, madam.",
+                "next": "offended"
+              }
+            ]
+          },
+          "offended": {
+            "t": "Je vous demande pardon ? J'habite ici depuis trente ans, je n'ai pas de leçons à recevoir.",
+            "n": "I beg your pardon? I've lived here for thirty years, I don't need lectures.",
+            "choices": [
+              {
+                "t": "Excusez-moi, c'était maladroit. Je voulais simplement dire que les besoins ont changé.",
+                "n": "Sorry, that was clumsy. I simply meant that needs have changed.",
+                "next": "facts"
+              },
+              {
+                "t": "Trente ans ou pas, la majorité décidera.",
+                "n": "Thirty years or not, the majority will decide.",
+                "next": "vote_lost"
+              }
+            ]
+          },
+          "vote_lost": {
+            "t": "Très bien, votons tout de suite. … Voilà : la proposition est rejetée.",
+            "n": "Very well, let's vote right away. … There: the proposal is rejected.",
+            "end": "bad",
+            "outcome": "You put people's backs up and lost the vote. Acknowledge objections before pushing your case."
+          },
+          "facts": {
+            "t": "Admettons que ces places soient vides. Mais un abri, ça coûte cher, et c'est laid.",
+            "n": "Let's grant that those spaces are empty. But a shelter is expensive, and it's ugly.",
+            "choices": [
+              {
+                "t": "Bien que ce soit un investissement, ce serait dans l'intérêt de tout le monde : plus de vélos dans les escaliers.",
+                "n": "Although it's an investment, it would be in everyone's interest: no more bikes in the stairwell.",
+                "next": "stairs"
+              },
+              {
+                "t": "Laid ? C'est une question de goût, et franchement le vôtre est discutable.",
+                "n": "Ugly? That's a matter of taste, and frankly yours is debatable.",
+                "next": "vote_lost"
+              }
+            ]
+          },
+          "stairs": {
+            "t": "Ça, c'est vrai, les vélos dans l'entrée, j'en ai assez. Mais je ne veux pas d'une construction définitive.",
+            "n": "Now that's true, I've had enough of the bikes in the entrance hall. But I don't want a permanent structure.",
+            "choices": [
+              {
+                "t": "Et si on trouvait un compromis ? On pourrait faire un essai pendant six mois, avec un abri démontable.",
+                "n": "What if we found a compromise? We could do a six-month trial, with a removable shelter.",
+                "next": "deal"
+              },
+              {
+                "t": "Un abri provisoire, ça ne sert à rien. C'est tout ou rien.",
+                "n": "A temporary shelter is useless. It's all or nothing.",
+                "next": "stalemate"
+              }
+            ]
+          },
+          "stalemate": {
+            "t": "Dans ce cas, ce sera rien. Je voterai contre, et je ne serai pas la seule.",
+            "n": "In that case, it'll be nothing. I'll vote against, and I won't be the only one.",
+            "end": "bad",
+            "outcome": "By refusing any middle ground, you turned a potential ally into an opponent."
+          },
+          "deal": {
+            "t": "Six mois, démontable… Bon. Dans ces conditions, je veux bien essayer. Mais on refait le point à la prochaine assemblée !",
+            "n": "Six months, removable… All right. On those terms, I'm willing to try. But we'll review it at the next meeting!",
+            "end": "good",
+            "outcome": "You conceded her concerns, offered a trial and won her support — the proposal passes."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Suggest finding a compromise.",
+          "t": [
+            "Et si on trouvait un compromis",
+            "On pourrait trouver un compromis",
+            "Trouvons un compromis"
+          ]
+        },
+        {
+          "n": "Propose a six-month trial.",
+          "t": [
+            "On pourrait faire un essai pendant six mois",
+            "Faisons un essai pendant six mois",
+            "On pourrait essayer pendant six mois"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-l7",
+      "kind": "speaking",
+      "title": "Take a stand",
+      "goal": "Argue a position freely for over a minute, conceding the other side.",
+      "culture": {
+        "title": "Grèves et manifestations",
+        "body": "In France, strikes (grèves) and street demonstrations (manifestations, or « manifs ») are a familiar part of civic life rather than a sign of crisis. The right to strike has constitutional status, and trade unions (syndicats) often announce national days of action in advance; on those days public transport may run a reduced service and people simply adapt. Belgium also has strong unions and regular national strike days, often with large demonstrations in Brussels. Switzerland has far fewer strikes: labour relations rely heavily on collective agreements and a tradition of 'labour peace', and direct democracy (referendums and popular initiatives) channels many debates. In Québec, the large 2012 student strike over tuition fees is well remembered.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis résolument contre, et je vais vous expliquer pourquoi.",
+          "n": "I'm firmly against it, and I'll explain why."
+        },
+        {
+          "t": "En fin de compte, tout est une question d'équilibre.",
+          "n": "In the end, it's all a question of balance."
+        },
+        {
+          "t": "Le droit de grève est un acquis social.",
+          "n": "The right to strike is a hard-won social right."
+        }
+      ],
+      "free": [
+        {
+          "n": "Choose a debate topic (e.g. working from home, a car-free city centre, a four-day week) and argue your position for about a minute. Concede at least one point to the other side.",
+          "hint": "Je suis plutôt pour / contre … D'un côté … de l'autre … Bien que … Même si … Tout bien pesé …",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "your position",
+              "any": [
+                "pour",
+                "contre",
+                "favorable",
+                "opposé*",
+                "à mon avis",
+                "selon moi"
+              ]
+            },
+            {
+              "label": "a concession",
+              "any": [
+                "bien que",
+                "bien qu'",
+                "même si",
+                "même s'",
+                "pourtant",
+                "quand même",
+                "malgré",
+                "certes",
+                "admettons"
+              ]
+            },
+            {
+              "label": "an argument or example",
+              "any": [
+                "avantage*",
+                "inconvénient*",
+                "exemple",
+                "argument*",
+                "par expérience",
+                "étude"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "tout bien pesé",
+                "tout compte fait",
+                "en fin de compte",
+                "finalement",
+                "en conclusion",
+                "l'emportent"
+              ]
+            }
+          ],
+          "model": "Je suis plutôt pour la semaine de quatre jours. D'un côté, les salariés seraient plus reposés ; de l'autre, certaines entreprises auraient du mal à s'organiser. Bien que ce soit un vrai défi, les avantages l'emportent. Des employés moins fatigués font moins d'erreurs. Tout bien pesé, ça vaut la peine d'essayer."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that in the end it's all a question of balance.",
+          "t": [
+            "En fin de compte, tout est une question d'équilibre",
+            "Tout est une question d'équilibre",
+            "Finalement, tout est une question d'équilibre"
+          ]
+        },
+        {
+          "n": "Say you're firmly against it and you'll explain why.",
+          "t": [
+            "Je suis résolument contre, et je vais vous expliquer pourquoi",
+            "Je suis résolument contre et je vais t'expliquer pourquoi",
+            "Je suis résolument contre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Pour ou contre",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
