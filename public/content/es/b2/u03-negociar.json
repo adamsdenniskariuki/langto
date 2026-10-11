@@ -1,0 +1,306 @@
+{
+  "id": "b2-u03",
+  "title": "Negociar",
+  "subtitle": "Negotiating & compromise",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "b2-u03-l1",
+      "title": "Negotiating the rent",
+      "goal": "Negotiate the price and conditions of a flat without losing it.",
+      "tip": {
+        "title": "Soft openers",
+        "body": "Negotiation in Spanish runs on the conditional, which softens everything: ¿Habría margen para…? (would there be room to…?), ¿Sería posible…? Show interest before you push back: Me interesa, pero el precio se sale un poco de mi presupuesto. Me lo tengo que pensar buys time without saying no. Vocabulary varies: a flat is un piso in Spain and un departamento in Mexico and Argentina (apartamento in Colombia), and the building's service charges are las expensas in Argentina but los gastos de comunidad in Spain."
+      },
+      "phrases": [
+        { "t": "Me interesa, pero el precio se sale un poco de mi presupuesto.", "n": "I'm interested, but the price is a bit over my budget." },
+        { "t": "¿Habría margen para bajar un poco el alquiler?", "n": "Would there be room to bring the rent down a little?" },
+        { "t": "¿Las expensas están incluidas?", "n": "Are the service charges included?", "note": "Argentina. Spain: los gastos de comunidad." },
+        { "t": "¿Sería posible firmar un contrato de dos años?", "n": "Would it be possible to sign a two-year contract?" },
+        { "t": "Estaría dispuesto a pagar dos meses por adelantado.", "n": "I'd be willing to pay two months in advance.", "note": "A woman says: dispuesta." },
+        { "t": "¿Cuál es su mejor oferta?", "n": "What's your best offer?", "note": "Informal: ¿Cuál es tu mejor oferta?" },
+        { "t": "Me lo tengo que pensar.", "n": "I need to think about it." },
+        { "t": "Si me baja un cinco por ciento, lo firmo esta semana.", "n": "If you knock five percent off, I'll sign this week." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "A flat in Palermo",
+        "lines": [
+          { "who": "A", "name": "Gustavo", "t": "Bueno, este es el departamento. Dos ambientes, mucha luz y a dos cuadras del subte. ¿Qué le parece?", "n": "Right, this is the flat. Two rooms, lots of light and two blocks from the underground. What do you think?", "note": "Argentina: dos ambientes = a living room plus one bedroom; el subte = the underground." },
+          { "who": "you", "t": "Me encanta, la verdad. Me interesa, pero el precio se sale un poco de mi presupuesto. ¿Habría margen para bajar un poco el alquiler?", "n": "I love it, honestly. I'm interested, but the price is a bit over my budget. Would there be room to bring the rent down a little?" },
+          { "who": "A", "name": "Gustavo", "t": "Mmm, es difícil. En Palermo los precios están así. Y le aviso que las expensas van aparte.", "n": "Hmm, that's difficult. In Palermo that's what prices are like. And I should tell you the service charges are extra." },
+          { "who": "you", "t": "Entiendo. ¿Y sería posible firmar un contrato de dos años? Así usted tiene un inquilino estable.", "n": "I see. And would it be possible to sign a two-year contract? That way you have a stable tenant." },
+          { "who": "A", "name": "Gustavo", "t": "Eso sí podríamos verlo. ¿Y cuál sería su propuesta concreta?", "n": "That we could look at. And what would your specific proposal be?" },
+          { "who": "you", "t": "Si me baja un cinco por ciento, le pago dos meses por adelantado y lo firmo esta semana.", "n": "If you knock five percent off, I'll pay you two months in advance and sign this week." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask the landlord if there'd be room to bring the rent down a little.", "t": ["Habría margen para bajar un poco el alquiler", "Habría margen para bajar el alquiler", "Hay margen para bajar un poco el alquiler"] },
+        { "n": "In Buenos Aires, ask whether the service charges are included.", "t": ["Las expensas están incluidas", "Están incluidas las expensas"] },
+        { "n": "Buy time: say you need to think about it.", "t": ["Me lo tengo que pensar", "Tengo que pensarlo", "Lo tengo que pensar"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l2",
+      "title": "Asking for a raise",
+      "goal": "Argue for better pay or conditions using your achievements.",
+      "tip": {
+        "title": "Facts, not threats",
+        "body": "Open calmly: Me gustaría hablar de mis condiciones. Then give evidence: He asumido más responsabilidades, Gracias a mi trabajo conseguimos… In Latin America the simple past (asumí) is often used where Spain prefers the perfect (he asumido). Ask with the conditional: Creo que sería justo… An aumento de sueldo is understood everywhere; in Spain you'll also hear una subida de sueldo. If the answer is a vague Ya veremos (we'll see), keep the door open: ¿Podríamos hablar de otras opciones? and pin down a date."
+      },
+      "phrases": [
+        { "t": "Me gustaría hablar de mis condiciones.", "n": "I'd like to talk about my terms." },
+        { "t": "Este año he asumido más responsabilidades.", "n": "This year I've taken on more responsibilities.", "note": "Latin America often: Este año asumí…" },
+        { "t": "Gracias a mi trabajo, conseguimos tres clientes nuevos.", "n": "Thanks to my work, we won three new clients." },
+        { "t": "Creo que sería justo un aumento de sueldo.", "n": "I think a pay rise would be fair.", "note": "Spain also: una subida de sueldo." },
+        { "t": "¿Qué margen tiene la empresa?", "n": "How much room does the company have?" },
+        { "t": "Si no es posible ahora, ¿podríamos hablar de otras opciones?", "n": "If it's not possible now, could we talk about other options?" },
+        { "t": "Por ejemplo, más días de vacaciones o un curso de formación.", "n": "For example, more days of holiday or a training course." },
+        { "t": "¿Cuándo podríamos volver a hablarlo?", "n": "When could we talk about it again?" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "A word with the boss",
+        "lines": [
+          { "who": "A", "name": "Verónica", "t": "Pásale, siéntate. Me dijiste que querías hablar conmigo. ¿Todo bien?", "n": "Come in, sit down. You said you wanted to talk to me. Everything OK?", "note": "Mexico: pásale = come in." },
+          { "who": "you", "t": "Sí, gracias. Me gustaría hablar de mis condiciones. Este año asumí más responsabilidades: coordino el equipo de ventas desde marzo.", "n": "Yes, thanks. I'd like to talk about my terms. This year I've taken on more responsibilities: I've been coordinating the sales team since March." },
+          { "who": "A", "name": "Verónica", "t": "Es cierto, y estamos muy contentos con tu trabajo. Pero ya sabes que este año el presupuesto está apretado.", "n": "That's true, and we're very happy with your work. But you know the budget is tight this year." },
+          { "who": "you", "t": "Lo entiendo. Aun así, gracias a mi trabajo conseguimos tres clientes nuevos. Creo que sería justo un aumento de sueldo.", "n": "I understand. Even so, thanks to my work we won three new clients. I think a pay rise would be fair." },
+          { "who": "A", "name": "Verónica", "t": "Mira, un aumento grande ahorita no lo veo. Ya veremos en enero.", "n": "Look, I can't see a big raise right now. We'll see in January.", "note": "Ya veremos is often a polite \"probably not\"." },
+          { "who": "you", "t": "Si no es posible ahora, ¿podríamos hablar de otras opciones? Por ejemplo, más días de vacaciones o un curso de formación. ¿Y cuándo podríamos volver a hablarlo?", "n": "If it's not possible now, could we talk about other options? For example, more days of holiday or a training course. And when could we talk about it again?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell your boss you'd like to talk about your terms.", "t": ["Me gustaría hablar de mis condiciones", "Quería hablar de mis condiciones", "Me gustaría hablar sobre mis condiciones"] },
+        { "n": "Say you think a pay rise would be fair.", "t": ["Creo que sería justo un aumento de sueldo", "Creo que sería justa una subida de sueldo", "Sería justo un aumento de sueldo", "Creo que sería justo un aumento"] },
+        { "n": "Ask when you could talk about it again.", "t": ["Cuándo podríamos volver a hablarlo", "Cuándo podemos volver a hablarlo", "Cuándo podríamos volver a hablar de esto"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l3",
+      "title": "Reaching a compromise",
+      "goal": "Make offers and counter-offers and close the deal.",
+      "tip": {
+        "title": "Meet in the middle",
+        "body": "Signal a counter-offer with Le propongo una cosa or ¿Qué le parece si + present? (¿Qué le parece si lo dejamos en dos millones?). Dejar algo en… means to settle on a price. ¿Partimos la diferencia? is \"shall we split the difference?\" Trade, don't just give in: Podemos ajustar el plazo, pero no el precio. Close with ¡Trato hecho! (it's a deal!) and lock it in: Lo ponemos todo por escrito. In Colombia, prices in pesos often run into millions, so get used to hearing dos millones y medio."
+      },
+      "phrases": [
+        { "t": "Le propongo una cosa.", "n": "Here's a suggestion.", "note": "Informal: Te propongo una cosa." },
+        { "t": "¿Qué le parece si lo dejamos en dos millones?", "n": "How about we settle on two million?" },
+        { "t": "Esa es mi última oferta.", "n": "That's my final offer." },
+        { "t": "Me parece razonable.", "n": "That seems reasonable." },
+        { "t": "¿Partimos la diferencia?", "n": "Shall we split the difference?" },
+        { "t": "Podemos ajustar el plazo, pero no el precio.", "n": "We can adjust the deadline, but not the price." },
+        { "t": "¡Trato hecho!", "n": "It's a deal!" },
+        { "t": "Lo ponemos todo por escrito.", "n": "Let's put it all in writing." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "A website for a shop in Medellín",
+        "lines": [
+          { "who": "A", "name": "Felipe", "t": "Bueno, vimos su propuesta para la página web. Nos gusta mucho, pero tres millones de pesos se nos salen del presupuesto.", "n": "Well, we've seen your proposal for the website. We like it a lot, but three million pesos is over our budget." },
+          { "who": "you", "t": "Entiendo. Le propongo una cosa: podemos ajustar el plazo, pero el precio es difícil de bajar.", "n": "I understand. Here's a suggestion: we can adjust the deadline, but the price is hard to lower." },
+          { "who": "A", "name": "Felipe", "t": "¿Y qué le parece si lo dejamos en dos millones? Es lo que tenemos.", "n": "And how about we settle on two million? It's what we've got." },
+          { "who": "you", "t": "Dos millones es muy poco por todo ese trabajo. ¿Partimos la diferencia? Dos millones y medio, y entrego en seis semanas en lugar de cuatro.", "n": "Two million is too little for all that work. Shall we split the difference? Two and a half million, and I deliver in six weeks instead of four." },
+          { "who": "A", "name": "Felipe", "t": "Mmm… dos millones y medio. Me parece razonable, siempre que la tienda en línea funcione desde el primer día.", "n": "Hmm… two and a half million. That seems reasonable, as long as the online shop works from day one." },
+          { "who": "you", "t": "¡Trato hecho! Hoy mismo le mando el contrato y lo ponemos todo por escrito.", "n": "It's a deal! I'll send you the contract today and we'll put it all in writing." }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest splitting the difference.", "t": ["Partimos la diferencia", "Por qué no partimos la diferencia", "Y si partimos la diferencia"] },
+        { "n": "Say you can adjust the deadline, but not the price.", "t": ["Podemos ajustar el plazo, pero no el precio", "Puedo ajustar el plazo, pero no el precio"] },
+        { "n": "Close the deal enthusiastically.", "t": ["Trato hecho", "De acuerdo, trato hecho", "Hecho"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l4",
+      "kind": "grammar",
+      "title": "Conditions & mixed conditionals",
+      "goal": "Set conditions with siempre que, con tal de que, a menos que and en caso de que + subjunctive, and mix past and present in si-clauses.",
+      "tip": {
+        "title": "Conditions that need the subjunctive",
+        "body": "Si takes the indicative in the present (Si pagas hoy, te lo dejo más barato), but these conjunctions always take the subjunctive: siempre que / siempre y cuando (as long as), con tal de que (provided that), a menos que / a no ser que (unless) and en caso de que (in case, if). Te bajo el precio siempre que pagues en efectivo. If the main verb is conditional, use the imperfect subjunctive: Lo aceptaría con tal de que me pagaran más. Careful: siempre que + indicative means \"whenever\" (Siempre que voy, llueve). Mixed conditionals cross time: a past condition with a present result, Si hubiera aceptado la oferta, ahora viviría en Madrid; or a present situation with a past result, Si fuera más paciente, no habría perdido el trato."
+      },
+      "phrases": [
+        { "t": "Te bajo el precio siempre que pagues en efectivo.", "n": "I'll lower the price as long as you pay in cash." },
+        { "t": "Firmo el contrato con tal de que incluya la limpieza.", "n": "I'll sign the contract provided that it includes cleaning." },
+        { "t": "No acepto la oferta a menos que mejoren el sueldo.", "n": "I won't accept the offer unless they improve the salary." },
+        { "t": "En caso de que haya algún problema, llámeme.", "n": "If there's any problem, call me.", "note": "Informal: llámame." },
+        { "t": "Si hubiera aceptado aquella oferta, ahora viviría en Madrid.", "n": "If I had accepted that offer, I'd be living in Madrid now.", "note": "Also: hubiese aceptado." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the condition",
+          "base": { "t": "Te lo vendo si me pagas hoy.", "n": "I'll sell it to you if you pay me today." },
+          "items": [
+            { "cue": "siempre que", "t": "Te lo vendo siempre que me pagues hoy.", "n": "I'll sell it to you as long as you pay me today." },
+            { "cue": "con tal de que", "t": "Te lo vendo con tal de que me pagues hoy.", "n": "I'll sell it to you provided that you pay me today." },
+            { "cue": "no · a menos que", "t": "No te lo vendo a menos que me pagues hoy.", "n": "I won't sell it to you unless you pay me today." },
+            { "cue": "vendería · siempre que", "t": "Te lo vendería siempre que me pagaras hoy.", "n": "I'd sell it to you as long as you paid me today." }
+          ]
+        },
+        {
+          "title": "Mix the times",
+          "base": { "t": "Si hubiera aceptado la oferta, ahora viviría en Madrid.", "n": "If I had accepted the offer, I'd be living in Madrid now." },
+          "items": [
+            { "cue": "ahora · ganar más", "t": "Si hubiera aceptado la oferta, ahora ganaría más.", "n": "If I had accepted the offer, I'd be earning more now." },
+            { "cue": "negociar · tener un sueldo mejor", "t": "Si hubiera negociado, ahora tendría un sueldo mejor.", "n": "If I had negotiated, I'd have a better salary now." },
+            { "cue": "ser más paciente · no perder el trato", "t": "Si fuera más paciente, no habría perdido el trato.", "n": "If I were more patient, I wouldn't have lost the deal." },
+            { "cue": "hablar mejor inglés · conseguir el puesto", "t": "Si hablara mejor inglés, habría conseguido el puesto.", "n": "If I spoke better English, I'd have got the job." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Tell a buyer (tú) you'll lower the price as long as they pay in cash.", "t": ["Te bajo el precio siempre que pagues en efectivo", "Te bajo el precio siempre y cuando pagues en efectivo", "Te bajo el precio con tal de que pagues en efectivo"] },
+        { "n": "Say that if you had negotiated, you'd have a better salary now.", "t": ["Si hubiera negociado, ahora tendría un sueldo mejor", "Si hubiese negociado, ahora tendría un sueldo mejor", "Si hubiera negociado, ahora tendría un mejor sueldo", "Si hubiera negociado, tendría un sueldo mejor"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l5",
+      "kind": "listening",
+      "title": "Bargaining at the market",
+      "goal": "Follow a friendly haggle at a craft market and track the prices.",
+      "phrases": [
+        { "t": "¿Me lo deja en dos mil?", "n": "Will you let me have it for two thousand?", "note": "Informal: ¿Me lo dejas en…?" },
+        { "t": "Se lo dejo en dos mil seiscientos.", "n": "I'll let you have it for two thousand six hundred." },
+        { "t": "Me llevo también los cojines, siempre que me haga un buen precio.", "n": "I'll take the cushions too, as long as you give me a good price." },
+        { "t": "Le pago en efectivo ahorita.", "n": "I'll pay you in cash right now.", "note": "Mexico: ahorita = right now (though it can also mean \"in a bit\")." }
+      ],
+      "story": {
+        "title": "El tapete de lana",
+        "intro": "At a craft market in Oaxaca, Rosa bargains with Don Abel over a hand-woven wool rug.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Rosa", "t": "Buenas tardes. ¿Cuánto cuesta este tapete de lana?", "n": "Good afternoon. How much is this wool rug?", "note": "Mexico: tapete = rug." },
+          { "name": "Don Abel", "voice": "es-MX-JorgeNeural", "t": "Buenas tardes. Ese se lo dejo en tres mil pesos. Lo tejió mi familia a mano, en telar.", "n": "Good afternoon. I'll let you have that one for three thousand pesos. My family wove it by hand, on a loom." },
+          { "name": "Rosa", "t": "Está precioso, pero tres mil es mucho para mí. ¿Me lo deja en dos mil?", "n": "It's beautiful, but three thousand is a lot for me. Will you let me have it for two thousand?" },
+          { "name": "Don Abel", "voice": "es-MX-JorgeNeural", "t": "Ay, no, dos mil no puedo. Nomás la lana me cuesta casi eso. Se lo dejo en dos mil seiscientos.", "n": "Oh, no, I can't do two thousand. The wool alone costs me almost that. I'll let you have it for two thousand six hundred.", "note": "Mexico: nomás = just, only." },
+          { "name": "Rosa", "t": "Mire, me llevo también los dos cojines, siempre que me haga un buen precio por todo.", "n": "Look, I'll take the two cushions too, as long as you give me a good price for everything." },
+          { "name": "Don Abel", "voice": "es-MX-JorgeNeural", "t": "A ver… el tapete y los dos cojines, tres mil doscientos. Y eso porque es mi primera venta del día.", "n": "Let's see… the rug and the two cushions, three thousand two hundred. And that's only because it's my first sale of the day." },
+          { "name": "Rosa", "t": "¿Lo dejamos en tres mil? Le pago en efectivo ahorita.", "n": "Shall we say three thousand? I'll pay you in cash right now." },
+          { "name": "Don Abel", "voice": "es-MX-JorgeNeural", "t": "Ándele pues, tres mil. Con tal de que me recomiende con sus amigas.", "n": "All right then, three thousand. As long as you recommend me to your friends.", "note": "Mexico: ándele pues = all right then, go on." }
+        ],
+        "questions": [
+          { "q": "¿Qué quiere comprar Rosa al principio?", "n": "What does Rosa want to buy at first?", "t": ["Un tapete", "Un tapete de lana", "El tapete"] },
+          { "q": "¿Qué más se lleva Rosa?", "n": "What else does Rosa take?", "t": ["Dos cojines", "Los dos cojines", "Los cojines"] },
+          { "q": "¿Cuánto paga Rosa al final?", "n": "How much does Rosa pay in the end?", "t": ["Tres mil pesos", "Tres mil", "3000 pesos", "3000"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u03-l6",
+      "kind": "roleplay",
+      "title": "The job offer",
+      "goal": "Negotiate a job offer: salary and conditions. Your strategy decides the outcome.",
+      "phrases": [
+        { "t": "¿Habría margen para negociar el sueldo?", "n": "Would there be room to negotiate the salary?" },
+        { "t": "Teniendo en cuenta mi experiencia, pensaba en unos cuarenta mil.", "n": "Given my experience, I was thinking of around forty thousand." },
+        { "t": "Me parece razonable, con tal de que pueda teletrabajar.", "n": "That seems reasonable, provided that I can work from home." },
+        { "t": "Le agradecería que me enviara la oferta por escrito.", "n": "I'd be grateful if you could send me the offer in writing." }
+      ],
+      "branch": {
+        "title": "La oferta de trabajo",
+        "scene": "After three interviews, Marta from the HR department of a company in Madrid calls you with a job offer. You want the job, but you'd like better terms.",
+        "name": "Marta",
+        "voice": "es-ES-XimenaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Le llamo con buenas noticias: queremos ofrecerle el puesto. El sueldo sería de treinta y cinco mil euros brutos al año. ¿Qué le parece?", "n": "I'm calling with good news: we'd like to offer you the job. The salary would be thirty-five thousand euros a year before tax. What do you think?",
+            "choices": [
+              { "t": "Muchas gracias, es una gran noticia. Antes de aceptar, ¿habría margen para negociar el sueldo?", "n": "Thank you very much, that's great news. Before I accept, would there be room to negotiate the salary?", "next": "margin" },
+              { "t": "Treinta y cinco mil es muy poco. Quiero cincuenta mil o no hay trato.", "n": "Thirty-five thousand is too little. I want fifty thousand or there's no deal.", "next": "ultimatum" }
+            ]
+          },
+          "ultimatum": {
+            "t": "Vaya. Me temo que cincuenta mil está muy lejos de lo que tenemos previsto para este puesto.", "n": "Oh. I'm afraid fifty thousand is a long way from what we've budgeted for this position.",
+            "choices": [
+              { "t": "Perdone, me he expresado mal. ¿Habría algo de margen para negociar?", "n": "Sorry, I put that badly. Would there be some room to negotiate?", "next": "margin" },
+              { "t": "Pues entonces no me interesa.", "n": "Well, then I'm not interested.", "next": "bad" }
+            ]
+          },
+          "margin": {
+            "t": "Algo de margen hay, sí. ¿Qué cifra tenía usted en mente?", "n": "There's some room, yes. What figure did you have in mind?",
+            "choices": [
+              { "t": "Teniendo en cuenta mi experiencia, pensaba en unos cuarenta mil.", "n": "Given my experience, I was thinking of around forty thousand.", "next": "counter" },
+              { "t": "No sé, lo que ustedes consideren.", "n": "I don't know, whatever you think.", "next": "weak" }
+            ]
+          },
+          "weak": {
+            "t": "Bueno, entonces podríamos subir a treinta y seis mil. ¿Le parece bien?", "n": "Well, then we could go up to thirty-six thousand. Is that all right?",
+            "choices": [
+              { "t": "Se lo agradezco. ¿Y sería posible, además, teletrabajar dos días a la semana?", "n": "Thank you. And would it also be possible to work from home two days a week?", "next": "remote" },
+              { "t": "Vale, perfecto.", "n": "OK, perfect.", "next": "meh" }
+            ]
+          },
+          "counter": {
+            "t": "Cuarenta mil es difícil. Podría llegar a treinta y ocho mil, siempre que se incorpore el día uno del mes que viene.", "n": "Forty thousand is difficult. I could go up to thirty-eight thousand, as long as you start on the first of next month.",
+            "choices": [
+              { "t": "Me parece razonable, con tal de que pueda teletrabajar dos días a la semana.", "n": "That seems reasonable, provided that I can work from home two days a week.", "next": "remote" },
+              { "t": "O cuarenta mil o nada.", "n": "Forty thousand or nothing.", "next": "bad" }
+            ]
+          },
+          "remote": {
+            "t": "Eso sí se lo puedo ofrecer. Le envío hoy mismo la oferta por escrito. ¡Le damos la bienvenida al equipo!", "n": "That I can offer you. I'll send you the offer in writing today. Welcome to the team!",
+            "end": "good", "outcome": "You negotiated politely with a concrete figure and won better terms, including two days of remote work."
+          },
+          "meh": {
+            "t": "Estupendo. Entonces le envío la oferta con treinta y seis mil.", "n": "Great. Then I'll send you the offer at thirty-six thousand.",
+            "end": "bad", "outcome": "You got the job, but by not naming a figure you accepted the first small increase. Have a number ready: Pensaba en unos…"
+          },
+          "bad": {
+            "t": "Lo siento, pero no podemos llegar a eso. Seguiremos el proceso con otros candidatos.", "n": "I'm sorry, but we can't go that far. We'll continue the process with other candidates.",
+            "end": "bad", "outcome": "An ultimatum ended the negotiation. Ask ¿Habría margen…? and back your figure with your experience."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask if there'd be room to negotiate the salary.", "t": ["Habría margen para negociar el sueldo", "Hay margen para negociar el sueldo", "Habría margen para negociar el salario"] },
+        { "n": "Accept, provided you can work from home two days a week.", "t": ["Me parece razonable, con tal de que pueda teletrabajar dos días a la semana", "Acepto, con tal de que pueda teletrabajar dos días a la semana", "Acepto siempre que pueda teletrabajar dos días a la semana"] }
+      ]
+    },
+    {
+      "id": "b2-u03-l7",
+      "kind": "speaking",
+      "title": "Make your offer",
+      "goal": "Negotiate out loud for a minute and a half: an offer, conditions, a concession and a compromise.",
+      "culture": {
+        "title": "Ya veremos: the indirect no",
+        "body": "In many Spanish-speaking settings people avoid a flat no, especially in business or with people they don't know well. Answers like Ya veremos (we'll see), Lo vamos a pensar or, in Mexico, Ahorita lo vemos can be a polite way of saying \"probably not\" or \"not now\", so listen to the tone and follow up gently with a concrete date. Bargaining is normal at many street markets and craft stalls in Mexico and other parts of Latin America, but not in supermarkets or chain stores, and in most shops in Spain prices are fixed. When you do bargain, stay friendly: a smile and a fair counter-offer usually work better than a hard line.",
+        "regions": ["MX", "CO", "ES"]
+      },
+      "phrases": [
+        { "t": "Lo que propongo es lo siguiente.", "n": "What I propose is the following." },
+        { "t": "Estaría dispuesto a ceder en el plazo, siempre que se mantenga el precio.", "n": "I'd be willing to give way on the deadline, as long as the price stays the same.", "note": "A woman says: dispuesta." },
+        { "t": "A menos que encontremos una solución, no podré aceptar.", "n": "Unless we find a solution, I won't be able to accept." },
+        { "t": "Creo que es una propuesta justa para las dos partes.", "n": "I think it's a fair proposal for both sides." }
+      ],
+      "free": [
+        {
+          "n": "Negotiate out loud: you want to rent a flat that's slightly over your budget (or ask for a raise). Make an offer, set two conditions, offer something in return and propose a compromise.",
+          "hint": "Me interesa, pero … ¿Habría margen para …? Lo que propongo es … siempre que / con tal de que … A cambio, estaría dispuesto/a a … En caso de que … Creo que es justo para las dos partes.",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "an offer", "any": ["propongo", "oferta", "le ofrezco", "te ofrezco", "pensaba en", "qué le parece si", "qué te parece si"] },
+            { "label": "a condition", "any": ["siempre que", "siempre y cuando", "con tal de que", "a menos que", "a no ser que", "en caso de que"] },
+            { "label": "something in return", "any": ["a cambio", "dispuesto", "dispuesta", "ceder", "por adelantado"] },
+            { "label": "the topic", "any": ["alquiler", "precio", "sueldo", "aumento", "contrato", "descuento", "euros", "pesos"] },
+            { "label": "a compromise", "any": ["justo", "justa", "razonable", "punto medio", "partimos la diferencia", "acuerdo", "trato hecho"] }
+          ],
+          "model": "El piso me interesa mucho, pero el precio se sale un poco de mi presupuesto. Lo que propongo es lo siguiente: pago novecientos euros en lugar de mil, siempre que el contrato sea de dos años. A cambio, estaría dispuesto a pagar dos meses por adelantado. En caso de que haya alguna avería pequeña, me encargo yo de arreglarla. Creo que es un acuerdo justo para las dos partes."
+        }
+      ],
+      "prompts": [
+        { "n": "Say that unless you find a solution, you won't be able to accept.", "t": ["A menos que encontremos una solución, no podré aceptar", "A menos que encontremos una solución, no voy a poder aceptar", "A no ser que encontremos una solución, no podré aceptar"] },
+        { "n": "Say you think it's a fair proposal for both sides.", "t": ["Creo que es una propuesta justa para las dos partes", "Es una propuesta justa para las dos partes", "Creo que es una propuesta justa para ambas partes"] }
+      ]
+    },
+    {
+      "id": "b2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Negociar",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

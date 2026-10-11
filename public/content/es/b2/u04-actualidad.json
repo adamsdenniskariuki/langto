@@ -1,0 +1,304 @@
+{
+  "id": "b2-u04",
+  "title": "La actualidad",
+  "subtitle": "News, current affairs & the passive",
+  "icon": "🗞️",
+  "lessons": [
+    {
+      "id": "b2-u04-l1",
+      "title": "Summing up a story",
+      "goal": "Summarise a news story in a few sentences and say where it comes from.",
+      "tip": {
+        "title": "Telling a story in brief",
+        "body": "Open with the core of the story: Resulta que… (It turns out that…) or Por lo visto… (Apparently…, very common in Spain; everywhere you'll also hear al parecer). Name the source with según or de acuerdo con, and wrap up with en pocas palabras or en resumen. News language loves the passive: el acuerdo fue firmado anoche, or more conversationally, se firmó anoche. You'll practise both in this unit."
+      },
+      "phrases": [
+        { "t": "Resulta que el ayuntamiento ha aprobado un nuevo plan de vivienda.", "n": "It turns out the city council has approved a new housing plan.", "note": "Latin America often: la alcaldía or la municipalidad" },
+        { "t": "Por lo visto, el acuerdo fue firmado anoche.", "n": "Apparently the agreement was signed last night.", "note": "Also: al parecer" },
+        { "t": "Según fuentes oficiales, no hubo heridos.", "n": "According to official sources, nobody was injured." },
+        { "t": "La noticia ha tenido mucha repercusión.", "n": "The story has had a big impact." },
+        { "t": "En pocas palabras, se trata de una subida de impuestos.", "n": "In a nutshell, it's a tax rise." },
+        { "t": "Los detalles todavía no se han hecho públicos.", "n": "The details haven't been made public yet." },
+        { "t": "Lo más llamativo es que nadie lo vio venir.", "n": "The most striking thing is that nobody saw it coming." },
+        { "t": "Todavía no está claro quién tomó la decisión.", "n": "It's still not clear who made the decision." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Lucía missed the news, Madrid",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "Oye, ¿qué ha pasado con lo de los pisos turísticos? Todo el mundo habla de ello y yo no me he enterado de nada.", "n": "Hey, what's happened with the tourist flats thing? Everyone's talking about it and I haven't caught any of it." },
+          { "who": "you", "t": "Resulta que el ayuntamiento ha aprobado un nuevo plan de vivienda. Por lo visto, no se van a dar más licencias para pisos turísticos en el centro.", "n": "It turns out the city council has approved a new housing plan. Apparently, no more licences will be given for tourist flats in the centre." },
+          { "who": "A", "name": "Lucía", "t": "¿En serio? ¿Y eso cuándo se decidió?", "n": "Seriously? And when was that decided?" },
+          { "who": "you", "t": "Fue aprobado anoche, después de un pleno larguísimo. Lo más llamativo es que nadie lo vio venir.", "n": "It was passed last night, after a very long council meeting. The most striking thing is that nobody saw it coming." },
+          { "who": "A", "name": "Lucía", "t": "Pues los propietarios no estarán nada contentos. ¿Y qué pasa con los pisos que ya existen?", "n": "Well, the owners won't be happy at all. And what happens to the flats that already exist?" },
+          { "who": "you", "t": "Todavía no está claro, porque los detalles no se han hecho públicos. En pocas palabras, se trata de frenar la subida del alquiler.", "n": "It's not clear yet, because the details haven't been made public. In a nutshell, the idea is to stop rents going up." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that apparently the agreement was signed last night.", "t": ["Por lo visto, el acuerdo fue firmado anoche", "Al parecer, el acuerdo fue firmado anoche", "Por lo visto, el acuerdo se firmó anoche", "Al parecer, el acuerdo se firmó anoche"] },
+        { "n": "Say that according to official sources, nobody was injured.", "t": ["Según fuentes oficiales, no hubo heridos", "Según fuentes oficiales, no hay heridos"] },
+        { "n": "Sum it up: in a nutshell, it's a tax rise.", "t": ["En pocas palabras, se trata de una subida de impuestos", "En resumen, se trata de una subida de impuestos", "En pocas palabras, es una subida de impuestos"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l2",
+      "title": "Reacting to the news",
+      "goal": "React to news with surprise, anger or scepticism, and say why.",
+      "tip": {
+        "title": "Judging a fact takes the subjunctive",
+        "body": "Quick reactions: ¡No me digas! (No way!), ¡Qué barbaridad! (How awful!), and in colloquial Spain ¡Qué fuerte! When you judge or react to a fact with me parece / es + adjective + que, the next verb goes into the subjunctive: Me parece indignante que suban los precios. Es lógico que la gente proteste. If you only state that something is true, keep the indicative: Es verdad que suben los precios. For something that has already happened, use the perfect subjunctive: Me sorprende que no hayan dicho nada."
+      },
+      "phrases": [
+        { "t": "¡No me digas! No tenía ni idea.", "n": "No way! I had no idea." },
+        { "t": "Me parece indignante que suban otra vez los precios.", "n": "I find it outrageous that prices are going up again." },
+        { "t": "Es lógico que la gente esté preocupada.", "n": "It's understandable that people are worried." },
+        { "t": "Me sorprende que no hayan dicho nada antes.", "n": "I'm surprised they haven't said anything before." },
+        { "t": "Era de esperar, la verdad.", "n": "It was to be expected, to be honest." },
+        { "t": "No me lo termino de creer.", "n": "I can't quite believe it." },
+        { "t": "Hay que ver las dos caras de la moneda.", "n": "You have to look at both sides of the coin." },
+        { "t": "¡Qué fuerte! ¿Y cómo ha reaccionado la gente?", "n": "Wow! And how have people reacted?", "note": "¡Qué fuerte! is colloquial Spain; ¡Qué locura! is heard everywhere" }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Valentina and the metro fare, Medellín",
+        "lines": [
+          { "who": "A", "name": "Valentina", "t": "¿Supiste? A partir del mes que viene sube otra vez el pasaje del metro.", "n": "Did you hear? From next month the metro fare (el pasaje) is going up again." },
+          { "who": "you", "t": "¡No me digas! Me parece indignante que suban los precios otra vez, y justo ahora.", "n": "No way! I find it outrageous that they're putting prices up again, and right now of all times." },
+          { "who": "A", "name": "Valentina", "t": "Bueno, dicen que es para mantener el servicio y comprar trenes nuevos.", "n": "Well, they say it's to maintain the service and buy new trains." },
+          { "who": "you", "t": "Es lógico que necesiten dinero, pero me sorprende que no lo hayan explicado antes.", "n": "It makes sense that they need money, but I'm surprised they didn't explain it earlier." },
+          { "who": "A", "name": "Valentina", "t": "Sí, salió de un día para otro. La gente está furiosa en las redes.", "n": "Yes, it came out overnight. People are furious on social media." },
+          { "who": "you", "t": "Era de esperar. Pero hay que ver las dos caras de la moneda: si mejora el servicio, quizás valga la pena.", "n": "That was to be expected. But you have to look at both sides of the coin: if the service improves, maybe it's worth it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you find it outrageous that prices are going up again.", "t": ["Me parece indignante que suban otra vez los precios", "Me parece indignante que suban los precios otra vez", "Me parece indignante que vuelvan a subir los precios"] },
+        { "n": "Say it's understandable that people are worried.", "t": ["Es lógico que la gente esté preocupada", "Es normal que la gente esté preocupada", "Es comprensible que la gente esté preocupada"] },
+        { "n": "Say you're surprised they haven't said anything before.", "t": ["Me sorprende que no hayan dicho nada antes", "Me sorprende que no hayan dicho nada"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l3",
+      "title": "Behind the headlines",
+      "goal": "Discuss headlines and point out when they exaggerate or mislead.",
+      "tip": {
+        "title": "How headlines are written",
+        "body": "Spanish headlines save words. They often drop the verb and keep only the participle: Detenido un hombre por robar un cuadro (= Ha sido detenido…). They also use the present tense for things that have already happened: El Gobierno aprueba la reforma. To talk about them: el titular (headline), la portada (front page), engañoso (misleading), sensacionalista, sacar de contexto (to take out of context), contrastar la información (to cross-check). Clickbait is usually just clickbait in Spanish too."
+      },
+      "phrases": [
+        { "t": "El titular es bastante engañoso.", "n": "The headline is quite misleading." },
+        { "t": "Si lees el artículo entero, la historia cambia.", "n": "If you read the whole article, the story changes." },
+        { "t": "Han sacado sus palabras de contexto.", "n": "They've taken her words out of context.", "note": "sus palabras = his, her or their words" },
+        { "t": "Salió en la portada de todos los periódicos.", "n": "It was on the front page of every paper." },
+        { "t": "Es puro sensacionalismo para conseguir clics.", "n": "It's pure sensationalism to get clicks." },
+        { "t": "Detenido un hombre por robar un cuadro del museo.", "n": "Man arrested for stealing a painting from the museum.", "note": "Headline style: participle, no verb" },
+        { "t": "Habría que contrastar la información.", "n": "The information ought to be cross-checked." },
+        { "t": "No es lo mismo un dato que una opinión.", "n": "A fact is not the same as an opinion." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Nico shares a headline, Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Nico", "t": "Mirá este titular: «Los jóvenes ya no leen». ¡Qué desastre!, ¿no?", "n": "Look at this headline: 'Young people don't read any more'. What a disaster, right?" },
+          { "who": "you", "t": "Yo no me lo creería tan rápido. El titular es bastante engañoso.", "n": "I wouldn't believe it so quickly. The headline is quite misleading." },
+          { "who": "A", "name": "Nico", "t": "¿Por qué decís eso? Lo publicó un diario serio.", "n": "Why do you say that? A serious paper published it. (decís = dices)" },
+          { "who": "you", "t": "Si lees el artículo entero, la historia cambia: según el estudio, se leen menos libros en papel, pero se lee mucho más en pantallas.", "n": "If you read the whole article, the story changes: according to the study, fewer paper books are read, but people read much more on screens." },
+          { "who": "A", "name": "Nico", "t": "Ah, mirá vos. Entonces es puro sensacionalismo para conseguir clics.", "n": "Oh, how about that. So it's pure sensationalism to get clicks." },
+          { "who": "you", "t": "Exacto. Por eso habría que contrastar la información antes de compartirla.", "n": "Exactly. That's why you should cross-check the information before sharing it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say the headline is quite misleading.", "t": ["El titular es bastante engañoso", "El titular es muy engañoso", "El titular es engañoso"] },
+        { "n": "Say they've taken her words out of context.", "t": ["Han sacado sus palabras de contexto", "Sacaron sus palabras de contexto"] },
+        { "n": "Say a fact is not the same as an opinion.", "t": ["No es lo mismo un dato que una opinión", "Un dato no es lo mismo que una opinión"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l4",
+      "kind": "grammar",
+      "title": "The passive and impersonal se",
+      "goal": "Say what was done, with or without saying who did it.",
+      "tip": {
+        "title": "fue aprobada, se aprobó, se vive",
+        "body": "Spanish has two passives. The passive with ser + participle is typical of news and formal writing; the participle agrees like an adjective and the doer is introduced with por: La ley fue aprobada por el Congreso; las medidas fueron aprobadas. In conversation, Spanish much prefers the pasiva refleja: se + verb in the third person, agreeing with the thing: se aprobó la ley, se venden pisos, se construirán dos hospitales. It normally doesn't mention who did it. When there's no subject at all, impersonal se uses a singular verb to talk about people in general: aquí se vive bien, se habla mucho de ello (people talk a lot about it). Ads use the same pattern: Se vende piso, Se busca camarero."
+      },
+      "phrases": [
+        { "t": "La ley fue aprobada por el Congreso.", "n": "The law was passed by Congress." },
+        { "t": "Se aprobó la ley sin apenas debate.", "n": "The law was passed with hardly any debate." },
+        { "t": "Se venden pisos en el centro.", "n": "Flats for sale in the centre.", "note": "Latin America: departamentos / apartamentos" },
+        { "t": "Se construirán tres hospitales nuevos.", "n": "Three new hospitals will be built." },
+        { "t": "Aquí se trabaja mucho y se descansa poco.", "n": "People here work a lot and rest little.", "note": "Impersonal se: singular verb, no subject" }
+      ],
+      "drills": [
+        {
+          "title": "Passive with ser: make it agree",
+          "base": { "t": "La ley fue aprobada por el Congreso.", "n": "The law was passed by Congress." },
+          "items": [
+            { "cue": "el presupuesto", "t": "El presupuesto fue aprobado por el Congreso.", "n": "The budget was passed by Congress." },
+            { "cue": "las medidas", "t": "Las medidas fueron aprobadas por el Congreso.", "n": "The measures were passed by Congress." },
+            { "cue": "los cambios · rechazar", "t": "Los cambios fueron rechazados por el Congreso.", "n": "The changes were rejected by Congress." },
+            { "cue": "with se, no agent", "t": "Se rechazaron los cambios.", "n": "The changes were rejected." }
+          ]
+        },
+        {
+          "title": "Pasiva refleja and impersonal se",
+          "base": { "t": "En esta ciudad se venden muchos pisos.", "n": "Lots of flats are sold in this city." },
+          "items": [
+            { "cue": "alquilar", "t": "En esta ciudad se alquilan muchos pisos.", "n": "Lots of flats are rented out in this city." },
+            { "cue": "construir · oficinas", "t": "En esta ciudad se construyen muchas oficinas.", "n": "Lots of offices are built in this city." },
+            { "cue": "el año pasado", "t": "En esta ciudad se construyeron muchas oficinas el año pasado.", "n": "Lots of offices were built in this city last year." },
+            { "cue": "vivir bien", "t": "En esta ciudad se vive bien.", "n": "Life is good in this city." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say three new hospitals will be built (use se).", "t": ["Se construirán tres hospitales nuevos", "Se construirán tres nuevos hospitales", "Se van a construir tres hospitales nuevos"] },
+        { "n": "Say the law was passed by Congress (use ser).", "t": ["La ley fue aprobada por el Congreso"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l5",
+      "kind": "listening",
+      "title": "The midday bulletin",
+      "goal": "Follow a radio news bulletin and pick out the key facts.",
+      "phrases": [
+        { "t": "Esta mañana se dio a conocer el plan.", "n": "The plan was announced this morning." },
+        { "t": "Las obras serán financiadas con fondos federales.", "n": "The works will be funded with federal money." },
+        { "t": "Los comerciantes temen perder clientes.", "n": "Shopkeepers fear losing customers." },
+        { "t": "Y ahora, el pronóstico del tiempo.", "n": "And now, the weather forecast." }
+      ],
+      "story": {
+        "title": "Noticias del mediodía",
+        "intro": "A midday radio news bulletin in Mexico, with a reporter in the city's historic centre.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Locutora", "t": "Buenas tardes, estas son las noticias del mediodía. Esta mañana se dio a conocer el plan para convertir diez calles del centro histórico en zonas peatonales.", "n": "Good afternoon, this is the midday news. This morning the plan to turn ten streets in the historic centre into pedestrian zones was announced." },
+          { "name": "Locutora", "t": "El proyecto fue aprobado ayer por el cabildo y las obras empezarán en enero. Nuestro reportero Jorge está en el centro.", "n": "The project was approved yesterday by the city council (el cabildo) and the works will start in January. Our reporter Jorge is in the centre." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Así es. Aquí las opiniones están divididas. Muchos vecinos celebran que se reduzcan el tráfico y el ruido.", "n": "That's right. Opinions here are divided. Many residents welcome the reduction in traffic and noise." },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Sin embargo, los comerciantes temen perder clientes, porque ya no se podrá llegar en carro hasta sus tiendas.", "n": "However, shopkeepers fear losing customers, because it will no longer be possible to drive up to their shops." },
+          { "name": "Locutora", "t": "¿Y qué responde el gobierno de la ciudad a esas críticas?", "n": "And how does the city government respond to that criticism?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Según la presidenta municipal, las obras serán financiadas con fondos federales y se construirán dos estacionamientos nuevos cerca del centro.", "n": "According to the mayor, the works will be funded with federal money and two new car parks will be built near the centre." },
+          { "name": "Locutora", "t": "Gracias, Jorge. Y ahora, el pronóstico del tiempo: se esperan lluvias fuertes por la tarde, así que no olviden el paraguas.", "n": "Thank you, Jorge. And now, the weather forecast: heavy rain is expected in the afternoon, so don't forget your umbrella." }
+        ],
+        "questions": [
+          { "q": "¿Qué plan se dio a conocer esta mañana?", "n": "What plan was announced this morning?", "t": ["El plan para convertir diez calles en zonas peatonales", "Convertir diez calles en zonas peatonales", "Un plan de calles peatonales", "Hacer calles peatonales", "Diez calles peatonales"] },
+          { "q": "¿Por qué están preocupados los comerciantes?", "n": "Why are the shopkeepers worried?", "t": ["Porque temen perder clientes", "Temen perder clientes", "Porque no se podrá llegar en carro", "Porque ya no se podrá llegar en carro hasta sus tiendas", "Porque no se podrá llegar en coche"] },
+          { "q": "¿Qué tiempo se espera por la tarde?", "n": "What weather is expected in the afternoon?", "t": ["Lluvias fuertes", "Se esperan lluvias fuertes", "Lluvia", "Va a llover"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u04-l6",
+      "kind": "roleplay",
+      "title": "A radio phone-in",
+      "goal": "Argue your position on a local news story live on air.",
+      "phrases": [
+        { "t": "Llamo para dar mi opinión sobre el mercado.", "n": "I'm calling to give my opinion on the market." },
+        { "t": "Entiendo el argumento, pero no lo comparto.", "n": "I understand the argument, but I don't share it." },
+        { "t": "Lo que no se ha dicho es que existe otro proyecto.", "n": "What hasn't been said is that there's another project." },
+        { "t": "Me parece un error que derriben el mercado.", "n": "I think it's a mistake for them to knock down the market." }
+      ],
+      "branch": {
+        "title": "On air",
+        "scene": "A local radio station in Valencia is running a phone-in about today's top story: the city council wants to demolish the old covered market and build a shopping centre. You call in and get through to the host, Darío.",
+        "name": "Darío (presentador)",
+        "voice": "es-ES-DarioNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Buenas tardes, estás en directo. Hoy hablamos de la noticia del día: el ayuntamiento quiere derribar el mercado municipal para construir un centro comercial. ¿Cuál es tu opinión?", "n": "Good afternoon, you're live on air. Today we're talking about the story of the day: the council wants to knock down the municipal market to build a shopping centre. What's your view?",
+            "choices": [
+              { "t": "Llamo para dar mi opinión sobre el mercado. Me parece un error que lo derriben: es parte de la historia del barrio.", "n": "I'm calling to give my opinion on the market. I think it's a mistake to knock it down: it's part of the neighbourhood's history.", "next": "argue" },
+              { "t": "Pues… no sé. La verdad es que solo quería saludar a mi familia.", "n": "Well… I don't know. To be honest I just wanted to say hello to my family.", "next": "offtopic" }
+            ]
+          },
+          "offtopic": {
+            "t": "¡Ja, ja! Saludos a la familia. Pero hoy necesitamos opiniones: ¿estás a favor o en contra del proyecto?", "n": "Ha ha! Hello to the family. But today we need opinions: are you for or against the project?",
+            "choices": [
+              { "t": "Perdona. Estoy en contra: se perderían los puestos de toda la vida.", "n": "Sorry. I'm against it: the stalls that have been there forever would be lost.", "next": "argue" },
+              { "t": "Me da igual, la verdad. Un saludo a todos.", "n": "I don't really care, to be honest. Hello everyone.", "next": "bad" }
+            ]
+          },
+          "argue": {
+            "t": "Pero el ayuntamiento dice que el mercado está medio vacío y que el centro comercial creará trescientos empleos. ¿Qué le respondes?", "n": "But the council says the market is half empty and the shopping centre will create three hundred jobs. What's your answer?",
+            "choices": [
+              { "t": "Entiendo el argumento, pero no lo comparto. Si el mercado está medio vacío, es porque no se ha invertido nada en él en años.", "n": "I understand the argument, but I don't share it. If the market is half empty, it's because nothing has been invested in it for years.", "next": "data" },
+              { "t": "¡Eso es mentira! Los políticos siempre mienten.", "n": "That's a lie! Politicians always lie.", "next": "angry" }
+            ]
+          },
+          "angry": {
+            "t": "Bueno, bueno, calma. Aquí nos gusta debatir con argumentos. ¿Tienes algún dato concreto?", "n": "OK, OK, calm down. Here we like to debate with arguments. Do you have any concrete facts?",
+            "choices": [
+              { "t": "Tienes razón, perdona. Lo que no se ha dicho es que existe otro proyecto para renovar el mercado.", "n": "You're right, sorry. What hasn't been said is that there's another project to renovate the market.", "next": "data" },
+              { "t": "No necesito datos, todo el mundo lo sabe.", "n": "I don't need facts, everybody knows it.", "next": "bad" }
+            ]
+          },
+          "data": {
+            "t": "Interesante. ¿Y qué propondrías tú, entonces?", "n": "Interesting. So what would you propose?",
+            "choices": [
+              { "t": "Que se renueve el mercado y que se ofrezcan puestos a gente joven. Así se crearía empleo sin perder el barrio.", "n": "Renovate the market and offer stalls to young people. That way jobs would be created without losing the neighbourhood.", "next": "good" },
+              { "t": "Que se haga una consulta y que decidan los vecinos.", "n": "Hold a public consultation and let the residents decide.", "next": "consult" }
+            ]
+          },
+          "good": {
+            "t": "Una propuesta muy concreta. Gracias por llamar; seguro que en el ayuntamiento toman nota.", "n": "A very concrete proposal. Thanks for calling; I'm sure the council will take note.",
+            "end": "good", "outcome": "You disagreed respectfully, backed it up and offered a concrete alternative: a model contribution."
+          },
+          "consult": {
+            "t": "Pues ahí queda la idea de una consulta vecinal. ¡Muchas gracias por tu llamada!", "n": "Well, there's the idea of a residents' consultation. Thanks very much for your call!",
+            "end": "good", "outcome": "You argued your case and proposed a democratic solution. The host thanked you on air."
+          },
+          "bad": {
+            "t": "Vale… pues lo dejamos aquí. Pasamos a la siguiente llamada.", "n": "OK… let's leave it there. On to the next caller.",
+            "end": "bad", "outcome": "Without arguments the host moved on. On a phone-in, state your position clearly and back it up."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say you understand the argument, but you don't share it.", "t": ["Entiendo el argumento, pero no lo comparto", "Entiendo el argumento pero no lo comparto"] },
+        { "n": "Say you think it's a mistake for them to knock down the market.", "t": ["Me parece un error que derriben el mercado", "Me parece un error que tiren el mercado", "Creo que es un error derribar el mercado"] }
+      ]
+    },
+    {
+      "id": "b2-u04-l7",
+      "kind": "speaking",
+      "title": "What's in the news?",
+      "goal": "Summarise a news story, react to it and argue your view for 90 seconds.",
+      "culture": {
+        "title": "The language of the news",
+        "body": "News Spanish has its own style. Headlines often drop the verb and keep the participle (Detenido un hombre en…), and use the present tense for events that have already happened (El Gobierno aprueba la reforma). In written news the passive with ser is common (fue inaugurado por…), while in conversation people much prefer se: se inauguró ayer. The TV news is el telediario or las noticias in Spain, and el noticiero in much of Latin America; Spain's public broadcaster is RTVE.",
+        "regions": ["ES", "MX", "AR", "CO"]
+      },
+      "phrases": [
+        { "t": "Hace poco leí que se va a ampliar el aeropuerto.", "n": "I recently read that the airport is going to be expanded." },
+        { "t": "La medida ha sido muy criticada por los vecinos.", "n": "The measure has been heavily criticised by residents." },
+        { "t": "A mi modo de ver, es una decisión acertada.", "n": "The way I see it, it's a sound decision." },
+        { "t": "Habrá que ver cómo evoluciona.", "n": "We'll have to see how it develops." }
+      ],
+      "free": [
+        {
+          "n": "Summarise a news story you've followed recently: what happened (use the passive or se), how people reacted, and your own opinion with reasons.",
+          "hint": "Hace poco leí / vi que … Resulta que … fue aprobado / se ha decidido … Mucha gente … Me parece … que + subjunctive … A mi modo de ver … porque … Habrá que ver …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "the source", "any": ["leí", "vi", "escuché", "según", "me enteré", "salió en", "noticia*", "periódico", "titular"] },
+            { "label": "passive or se", "any": ["fue", "fueron", "ha sido", "han sido", "se aprobó", "se aprobaron", "se ha", "se han", "se va a", "se van a", "se construirá", "se decidió"] },
+            { "label": "a reaction", "any": ["me parece", "me sorprende", "es lógico", "indignante", "no me digas", "era de esperar", "es normal que"] },
+            { "label": "your argument", "any": ["a mi modo de ver", "en mi opinión", "creo que", "porque", "sin embargo", "por un lado", "por otro lado"] }
+          ],
+          "model": "Hace poco leí que en mi ciudad se va a ampliar el aeropuerto. Resulta que el proyecto fue aprobado la semana pasada, después de muchos meses de debate, y por lo visto se construirá una terminal nueva. La medida ha sido muy criticada por los vecinos, porque temen más ruido y más tráfico. A mí me sorprende que no se haya pensado más en el medio ambiente. A mi modo de ver, el turismo es importante; sin embargo, habría que invertir más en el tren. Habrá que ver cómo evoluciona."
+        }
+      ],
+      "prompts": [
+        { "n": "Say the measure has been heavily criticised by residents.", "t": ["La medida ha sido muy criticada por los vecinos", "La medida fue muy criticada por los vecinos"] },
+        { "n": "Say we'll have to see how it develops.", "t": ["Habrá que ver cómo evoluciona", "Habrá que ver cómo sigue"] }
+      ]
+    },
+    {
+      "id": "b2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La actualidad",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "b2-u05",
+  "title": "Tecnología y futuro",
+  "subtitle": "Tech, AI & predictions",
+  "icon": "🤖",
+  "lessons": [
+    {
+      "id": "b2-u05-l1",
+      "title": "Tech trouble",
+      "goal": "Describe problems with devices and apps, and help someone fix them.",
+      "tip": {
+        "title": "se me…: when things just happen",
+        "body": "Spanish often presents mishaps as things that happen to you, not things you did: se me ha colgado el ordenador (my computer has frozen), se me olvidó la contraseña, se me acabó la batería. The thing is the subject, so the verb agrees with it: se me cayeron los auriculares. Vocabulary varies: Spain says el ordenador and el móvil, most of Latin America la computadora and el celular; besides colgarse you'll hear congelarse, and trabarse in Mexico."
+      },
+      "phrases": [
+        { "t": "Se me ha colgado el ordenador otra vez.", "n": "My computer has frozen again.", "note": "Latin America: se me colgó / se me congeló la computadora" },
+        { "t": "Se me olvidó la contraseña y no puedo entrar.", "n": "I forgot my password and I can't log in." },
+        { "t": "¿Has probado a reiniciarlo?", "n": "Have you tried restarting it?", "note": "Latin America: ¿Ya probaste reiniciarlo?" },
+        { "t": "Hay que actualizar la aplicación.", "n": "The app needs updating." },
+        { "t": "La batería me dura cada vez menos.", "n": "My battery lasts less and less." },
+        { "t": "Guardo todas mis fotos en la nube.", "n": "I keep all my photos in the cloud." },
+        { "t": "No me llegan las notificaciones.", "n": "I'm not getting notifications." },
+        { "t": "Esta aplicación consume muchísimos datos.", "n": "This app uses up loads of data." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Five minutes before the call, Barcelona",
+        "lines": [
+          { "who": "A", "name": "Marta", "t": "¿Qué te pasa? Llevas diez minutos mirando la pantalla con cara de pocos amigos.", "n": "What's up? You've been staring at the screen with a face like thunder for ten minutes." },
+          { "who": "you", "t": "Se me ha colgado el ordenador otra vez y tengo una videollamada dentro de cinco minutos.", "n": "My computer has frozen again and I've got a video call in five minutes." },
+          { "who": "A", "name": "Marta", "t": "¿Has probado a reiniciarlo? Es lo primero que te dicen los informáticos.", "n": "Have you tried restarting it? It's the first thing IT people tell you." },
+          { "who": "you", "t": "Sí, pero ahora me pide la contraseña y se me ha olvidado la que puse.", "n": "Yes, but now it's asking for the password and I've forgotten the one I set." },
+          { "who": "A", "name": "Marta", "t": "Uf, típico. Mientras tanto, conéctate desde el móvil. ¿Tienes la aplicación instalada?", "n": "Ugh, typical. In the meantime, join from your phone. Have you got the app installed?" },
+          { "who": "you", "t": "Sí, pero hay que actualizarla y la wifi de la oficina va lentísima hoy.", "n": "Yes, but it needs updating and the office wifi is incredibly slow today." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say your computer has frozen again.", "t": ["Se me ha colgado el ordenador otra vez", "Se me colgó el ordenador otra vez", "Se me colgó la computadora otra vez", "Se me congeló la computadora otra vez"] },
+        { "n": "Ask someone if they've tried restarting it.", "t": ["Has probado a reiniciarlo", "Has probado reiniciarlo", "Ya probaste reiniciarlo", "Probaste reiniciarlo"] },
+        { "n": "Say you keep all your photos in the cloud.", "t": ["Guardo todas mis fotos en la nube", "Tengo todas mis fotos en la nube"] }
+      ]
+    },
+    {
+      "id": "b2-u05-l2",
+      "title": "The AI debate",
+      "goal": "Weigh up the pros and cons of artificial intelligence and take a position.",
+      "tip": {
+        "title": "Structuring an argument",
+        "body": "Por un lado… por otro (lado)… sets out two sides. Add points with además or es más (what's more), concede with es cierto que…, pero…, and conclude with en definitiva (all in all). Remember that no creo que and no pienso que take the subjunctive: No creo que la IA sustituya a los médicos, while creo que takes the indicative: creo que va a cambiar muchos trabajos. Artificial intelligence is la inteligencia artificial, la IA in speech."
+      },
+      "phrases": [
+        { "t": "Por un lado, la inteligencia artificial nos ahorra mucho tiempo.", "n": "On the one hand, artificial intelligence saves us a lot of time." },
+        { "t": "Por otro lado, plantea muchos dilemas éticos.", "n": "On the other hand, it raises lots of ethical dilemmas." },
+        { "t": "No creo que la IA sustituya a los profesores.", "n": "I don't think AI will replace teachers.", "note": "no creo que + subjunctive" },
+        { "t": "Es cierto que comete errores, pero aprende muy rápido.", "n": "It's true that it makes mistakes, but it learns very fast." },
+        { "t": "Me preocupa que dependamos demasiado de la tecnología.", "n": "It worries me that we depend too much on technology." },
+        { "t": "Es más, muchos trabajos van a cambiar por completo.", "n": "What's more, many jobs are going to change completely." },
+        { "t": "Habría que regularla cuanto antes.", "n": "It ought to be regulated as soon as possible." },
+        { "t": "En definitiva, todo depende de cómo la usemos.", "n": "All in all, it all depends on how we use it." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Rodrigo loves AI, Monterrey",
+        "lines": [
+          { "who": "A", "name": "Rodrigo", "t": "Oye, en mi chamba ya usan inteligencia artificial para todo. Neta, creo que en diez años nadie va a necesitar programadores.", "n": "Hey, at my job they already use artificial intelligence for everything. Honestly, I think in ten years nobody will need programmers. (chamba = job, neta = really, Mexico)" },
+          { "who": "you", "t": "No creo que la IA sustituya a todos los programadores. Es cierto que escribe código rapidísimo, pero comete errores.", "n": "I don't think AI will replace all programmers. It's true that it writes code incredibly fast, but it makes mistakes." },
+          { "who": "A", "name": "Rodrigo", "t": "Bueno, por ahora. Pero aprende cada día. A mí me parece una maravilla.", "n": "Well, for now. But it learns every day. I think it's wonderful." },
+          { "who": "you", "t": "Por un lado, nos ahorra mucho tiempo. Por otro, me preocupa que dependamos demasiado de ella.", "n": "On the one hand, it saves us a lot of time. On the other, it worries me that we depend on it too much." },
+          { "who": "A", "name": "Rodrigo", "t": "¿Y entonces qué propones? ¿Prohibirla?", "n": "So what do you suggest? Banning it?" },
+          { "who": "you", "t": "No, para nada. Habría que regularla cuanto antes. En definitiva, todo depende de cómo la usemos.", "n": "No, not at all. It ought to be regulated as soon as possible. All in all, it all depends on how we use it." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you don't think AI will replace teachers.", "t": ["No creo que la IA sustituya a los profesores", "No creo que la inteligencia artificial sustituya a los profesores", "No creo que la IA reemplace a los profesores", "No creo que la IA vaya a sustituir a los profesores"] },
+        { "n": "Say it worries you that we depend too much on technology.", "t": ["Me preocupa que dependamos demasiado de la tecnología"] },
+        { "n": "Conclude: all in all, it depends on how we use it.", "t": ["En definitiva, todo depende de cómo la usemos", "Al final, todo depende de cómo la usemos", "Todo depende de cómo la usemos"] }
+      ]
+    },
+    {
+      "id": "b2-u05-l3",
+      "title": "Guessing what's going on",
+      "goal": "Make guesses about the present and the past with the future and the conditional.",
+      "tip": {
+        "title": "The future for guesses",
+        "body": "Spanish uses the future tense to guess about the present: ¿Dónde estará Ana? (I wonder where Ana is.) Estará en el metro (She's probably on the metro). Tendrá unos treinta años = he must be about thirty. To guess about the past, go one step back to the conditional: Serían las diez cuando llamó (It must have been about ten when she called). For something that has probably just happened, use the future perfect: Se habrá quedado sin batería (Her battery has probably died). The next lesson practises these forms."
+      },
+      "phrases": [
+        { "t": "¿Dónde estará Camilo? Llevo una hora esperándolo.", "n": "I wonder where Camilo is. I've been waiting for him for an hour." },
+        { "t": "Estará atrapado en el tráfico.", "n": "He's probably stuck in traffic.", "note": "about a woman: atrapada" },
+        { "t": "Se habrá quedado sin batería.", "n": "His battery has probably died." },
+        { "t": "¿Qué hora será?", "n": "I wonder what time it is." },
+        { "t": "Serían las once cuando me escribió.", "n": "It must have been about eleven when he texted me." },
+        { "t": "Tendrá unos treinta años.", "n": "He must be about thirty." },
+        { "t": "No sé, a lo mejor no ha visto el mensaje.", "n": "I don't know, maybe he hasn't seen the message.", "note": "Also: igual (Spain), capaz que (Argentina, Uruguay)" },
+        { "t": "Ya habrá llegado a casa.", "n": "She'll have got home by now." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "Waiting for Camilo, Bogotá",
+        "lines": [
+          { "who": "A", "name": "Andrés", "t": "¿Qué hora será? Camilo ya debería estar aquí, y el concierto empieza en veinte minutos.", "n": "I wonder what time it is. Camilo should be here by now, and the concert starts in twenty minutes." },
+          { "who": "you", "t": "Serán las siete y media. Estará atrapado en el tráfico, con esta lluvia…", "n": "It must be half past seven. He's probably stuck in traffic, with this rain…" },
+          { "who": "A", "name": "Andrés", "t": "Puede ser. Pero le escribí tres veces y no me contesta.", "n": "Could be. But I've texted him three times and he isn't answering." },
+          { "who": "you", "t": "Se habrá quedado sin batería. Siempre se le olvida cargar el celular.", "n": "His battery has probably died. He always forgets to charge his phone." },
+          { "who": "A", "name": "Andrés", "t": "Ay, sí, eso es muy típico de él. ¿Y si se le olvidó que era hoy?", "n": "Oh yes, that's so typical of him. And what if he forgot it was today?" },
+          { "who": "you", "t": "No creo. Anoche me escribió para confirmar; serían las once. Ya habrá salido de casa.", "n": "I don't think so. He texted me last night to confirm; it must have been about eleven. He'll have left home by now." }
+        ]
+      },
+      "prompts": [
+        { "n": "Guess that he's probably stuck in traffic.", "t": ["Estará atrapado en el tráfico", "Estará atrapada en el tráfico", "Estará en el tráfico"] },
+        { "n": "Wonder aloud what time it is.", "t": ["Qué hora será"] },
+        { "n": "Guess that their battery has probably died.", "t": ["Se habrá quedado sin batería", "Se le habrá acabado la batería"] }
+      ]
+    },
+    {
+      "id": "b2-u05-l4",
+      "kind": "grammar",
+      "title": "Future perfect and probability",
+      "goal": "Say what will have happened by a certain time, and guess about the past.",
+      "tip": {
+        "title": "habré, habrás, habrá… + participle",
+        "body": "The future perfect is the future of haber (habré, habrás, habrá, habremos, habréis, habrán) + participle. It has two uses. First, something completed before a point in the future: Para 2050 habremos dejado de usar gasolina; Cuando vuelvas, ya habré terminado. Note para + time = by. Second, a guess about something that has (probably) just happened: Habrá perdido el autobús = He's probably missed the bus. Compare the simple future for guesses about now (Estará en una reunión = She's probably in a meeting) and the conditional for guesses about the past (Anoche estaría en una reunión = She was probably in a meeting last night)."
+      },
+      "phrases": [
+        { "t": "Para 2050 habremos dejado de usar gasolina.", "n": "By 2050 we'll have stopped using petrol." },
+        { "t": "Cuando vuelvas, ya habré terminado el informe.", "n": "By the time you get back, I'll have finished the report." },
+        { "t": "Habrá perdido el autobús.", "n": "He's probably missed the bus.", "note": "Mexico: el camión; Argentina: el colectivo" },
+        { "t": "Estará en una reunión.", "n": "She's probably in a meeting." },
+        { "t": "Serían las diez cuando se fue la luz.", "n": "It must have been about ten when the power went out." }
+      ],
+      "drills": [
+        {
+          "title": "Predictions for 2050",
+          "base": { "t": "Para 2050 habremos dejado de usar gasolina.", "n": "By 2050 we'll have stopped using petrol." },
+          "items": [
+            { "cue": "yo · aprender chino", "t": "Para 2050 habré aprendido chino.", "n": "By 2050 I'll have learnt Chinese." },
+            { "cue": "los robots · sustituir muchos trabajos", "t": "Para 2050 los robots habrán sustituido muchos trabajos.", "n": "By 2050 robots will have replaced many jobs." },
+            { "cue": "tú · jubilarse", "t": "Para 2050 te habrás jubilado.", "n": "By 2050 you'll have retired." },
+            { "cue": "la ciudad · prohibir los coches", "t": "Para 2050 la ciudad habrá prohibido los coches.", "n": "By 2050 the city will have banned cars." }
+          ]
+        },
+        {
+          "title": "Why isn't she answering?",
+          "base": { "t": "No contesta. Estará en una reunión.", "n": "She isn't answering. She's probably in a meeting." },
+          "items": [
+            { "cue": "dormir", "t": "No contesta. Estará durmiendo.", "n": "She isn't answering. She's probably asleep." },
+            { "cue": "perder el móvil", "t": "No contesta. Habrá perdido el móvil.", "n": "She isn't answering. She's probably lost her phone." },
+            { "cue": "anoche", "t": "Anoche no contestó. Estaría en una reunión.", "n": "She didn't answer last night. She was probably in a meeting." },
+            { "cue": "ayer · no tener cobertura", "t": "Ayer no contestó. No tendría cobertura.", "n": "She didn't answer yesterday. She probably had no signal." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Predict that by 2050 we'll have stopped using petrol.", "t": ["Para 2050 habremos dejado de usar gasolina", "En 2050 ya habremos dejado de usar gasolina"] },
+        { "n": "Guess that she's probably in a meeting.", "t": ["Estará en una reunión"] }
+      ]
+    },
+    {
+      "id": "b2-u05-l5",
+      "kind": "listening",
+      "title": "Coffee and algorithms",
+      "goal": "Follow a podcast interview about technology in farming.",
+      "phrases": [
+        { "t": "¿Cómo surgió la idea?", "n": "How did the idea come about?" },
+        { "t": "Cada año se perdía parte de la cosecha.", "n": "Every year part of the harvest was lost." },
+        { "t": "La aplicación funciona sin conexión.", "n": "The app works offline." },
+        { "t": "Casi todas las fincas habrán incorporado alguna herramienta digital.", "n": "Almost all farms will have adopted some digital tool." }
+      ],
+      "story": {
+        "title": "Café y algoritmos",
+        "intro": "On a tech podcast from Spain, host Laura interviews Felipe, a Colombian engineer who has built an app for coffee farmers.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Laura", "t": "Bienvenidos a un nuevo episodio. Hoy hablamos con Felipe, un ingeniero colombiano que ha creado una aplicación para caficultores. Felipe, ¿cómo surgió la idea?", "n": "Welcome to a new episode. Today we're talking to Felipe, a Colombian engineer who has created an app for coffee growers. Felipe, how did the idea come about?" },
+          { "name": "Felipe", "voice": "es-CO-GonzaloNeural", "t": "Pues mi familia tiene una finca cafetera en Caldas. Cada año se perdía parte de la cosecha por la lluvia o por las plagas, y pensé que la tecnología podía ayudar.", "n": "Well, my family has a coffee farm in Caldas. Every year part of the harvest was lost to rain or pests, and I thought technology could help." },
+          { "name": "Laura", "t": "¿Y qué hace exactamente la aplicación?", "n": "And what exactly does the app do?" },
+          { "name": "Felipe", "voice": "es-CO-GonzaloNeural", "t": "El caficultor toma una foto de las hojas con el celular, y la inteligencia artificial detecta si la planta está enferma. Además, avisa cuándo va a llover.", "n": "The grower takes a photo of the leaves with their phone, and the artificial intelligence detects whether the plant is diseased. It also warns when it's going to rain." },
+          { "name": "Laura", "t": "¿Y funciona sin internet? Porque en el campo la cobertura será un problema, me imagino.", "n": "And does it work without internet? Because in the countryside coverage must be a problem, I imagine." },
+          { "name": "Felipe", "voice": "es-CO-GonzaloNeural", "t": "Exacto. Por eso funciona sin conexión, y los datos se envían cuando hay señal. Ya la usan unas dos mil familias.", "n": "Exactly. That's why it works offline, and the data is sent when there's a signal. Around two thousand families already use it." },
+          { "name": "Laura", "t": "Impresionante. ¿Y cómo te imaginas el futuro del campo?", "n": "Impressive. And how do you imagine the future of farming?" },
+          { "name": "Felipe", "voice": "es-CO-GonzaloNeural", "t": "Creo que dentro de diez años casi todas las fincas habrán incorporado alguna herramienta digital. Pero el café lo seguirán recogiendo personas, a mano.", "n": "I think in ten years almost all farms will have adopted some digital tool. But coffee will still be picked by people, by hand." }
+        ],
+        "questions": [
+          { "q": "¿Qué detecta la aplicación?", "n": "What does the app detect?", "t": ["Si la planta está enferma", "Si las plantas están enfermas", "Las enfermedades de las plantas", "Enfermedades", "Plagas"] },
+          { "q": "¿Por qué funciona sin conexión?", "n": "Why does it work offline?", "t": ["Porque en el campo hay poca cobertura", "Porque en el campo no hay cobertura", "Porque hay poca cobertura", "Por la cobertura", "Porque no hay señal"] },
+          { "q": "¿Qué habrá pasado dentro de diez años, según Felipe?", "n": "What will have happened in ten years, according to Felipe?", "t": ["Casi todas las fincas habrán incorporado alguna herramienta digital", "Las fincas habrán incorporado herramientas digitales", "Casi todas las fincas usarán herramientas digitales", "Habrán incorporado herramientas digitales"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u05-l6",
+      "kind": "roleplay",
+      "title": "Pitching an AI tool",
+      "goal": "Persuade a sceptical colleague by answering their concerns one by one.",
+      "phrases": [
+        { "t": "Entiendo tu preocupación, pero hay una solución.", "n": "I understand your concern, but there's a solution." },
+        { "t": "La idea no es sustituir a nadie, sino ahorrar tiempo.", "n": "The idea isn't to replace anyone, but to save time." },
+        { "t": "Los datos de los clientes no salen de nuestros servidores.", "n": "The clients' data doesn't leave our servers." },
+        { "t": "¿Por qué no hacemos una prueba de un mes?", "n": "Why don't we do a one-month trial?" }
+      ],
+      "branch": {
+        "title": "The sceptical team lead",
+        "scene": "You work at a small translation agency in Buenos Aires and want to bring in an AI tool for first drafts. Your team lead, Martín, is not convinced. (Argentine Spanish: vos querés = tú quieres, contame = cuéntame, dale = OK.)",
+        "name": "Martín",
+        "voice": "es-AR-TomasNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Che, me dijeron que querés meter una herramienta de inteligencia artificial en el equipo. Contame, pero te aviso que no me convence mucho.", "n": "Hey, they told me you want to bring an artificial intelligence tool into the team. Tell me about it, but I'm warning you, I'm not very convinced.",
+            "choices": [
+              { "t": "Sí. La idea no es sustituir a nadie, sino ahorrar tiempo en los primeros borradores.", "n": "Yes. The idea isn't to replace anyone, but to save time on first drafts.", "next": "privacy" },
+              { "t": "Sí, porque así podríamos trabajar con la mitad de la gente.", "n": "Yes, because that way we could work with half the people.", "next": "staff" }
+            ]
+          },
+          "staff": {
+            "t": "¿Con la mitad de la gente? ¿Me estás diciendo que querés despedir a medio equipo?", "n": "With half the people? Are you telling me you want to fire half the team?",
+            "choices": [
+              { "t": "No, me expresé mal. Lo que quiero decir es que cada uno tendría más tiempo para revisar y corregir.", "n": "No, I put that badly. What I mean is that everyone would have more time to review and correct.", "next": "privacy" },
+              { "t": "Bueno, es el futuro. El que no se adapta, se queda fuera.", "n": "Well, it's the future. Whoever doesn't adapt gets left behind.", "next": "bad" }
+            ]
+          },
+          "privacy": {
+            "t": "Mmm. ¿Y qué pasa con la confidencialidad? Muchos clientes nos mandan contratos.", "n": "Hmm. And what about confidentiality? Lots of clients send us contracts.",
+            "choices": [
+              { "t": "Entiendo tu preocupación, pero hay versiones que se instalan en nuestros propios servidores. Los datos de los clientes no salen de aquí.", "n": "I understand your concern, but there are versions that are installed on our own servers. The clients' data doesn't leave this place.", "next": "quality" },
+              { "t": "Eso no es problema. Todo el mundo sube documentos a internet.", "n": "That's not a problem. Everyone uploads documents to the internet.", "next": "doubt" }
+            ]
+          },
+          "doubt": {
+            "t": "Para vos no será problema, pero si se filtra un contrato, perdemos al cliente. ¿Lo pensaste?", "n": "It may not be a problem for you, but if a contract gets leaked, we lose the client. Did you think about that?",
+            "choices": [
+              { "t": "Tienes razón. Habría que usar una versión privada y pedir permiso a los clientes.", "n": "You're right. We'd need to use a private version and ask clients for permission.", "next": "quality" },
+              { "t": "Bah, nadie se va a enterar.", "n": "Bah, nobody will find out.", "next": "bad" }
+            ]
+          },
+          "quality": {
+            "t": "Bueno, eso me tranquiliza. Pero las traducciones automáticas a veces son un desastre. ¿Quién garantiza la calidad?", "n": "Well, that reassures me. But machine translations are sometimes a disaster. Who guarantees the quality?",
+            "choices": [
+              { "t": "Nosotros. La herramienta haría el borrador y un traductor lo revisaría siempre. ¿Por qué no hacemos una prueba de un mes?", "n": "We do. The tool would do the draft and a translator would always check it. Why don't we do a one-month trial?", "next": "good" },
+              { "t": "Podríamos comparar: el mismo texto, con y sin la herramienta, y medir el tiempo y los errores.", "n": "We could compare: the same text, with and without the tool, and measure the time and the errors.", "next": "test" }
+            ]
+          },
+          "good": {
+            "t": "Dale, me convenciste. Hacemos la prueba un mes y después lo hablamos con todo el equipo.", "n": "OK, you've convinced me. We'll do a one-month trial and then discuss it with the whole team.",
+            "end": "good", "outcome": "You answered every concern concretely and proposed a low-risk trial. Martín is on board."
+          },
+          "test": {
+            "t": "Me gusta. Con datos sobre la mesa es otra cosa. Armá la comparación y la vemos el lunes.", "n": "I like it. With data on the table it's a different story. Put the comparison together and we'll look at it on Monday.",
+            "end": "good", "outcome": "You suggested measuring the results, a persuasive way to win over a sceptic."
+          },
+          "bad": {
+            "t": "Mirá, así no. Si no te tomás en serio al equipo ni a los clientes, olvidate del proyecto.", "n": "Look, not like this. If you don't take the team or the clients seriously, forget about the project.",
+            "end": "bad", "outcome": "You brushed off his concerns. To persuade a sceptic, acknowledge the worry first, then answer it."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell a colleague you understand their concern.", "t": ["Entiendo tu preocupación", "Entiendo su preocupación", "Comprendo tu preocupación"] },
+        { "n": "Suggest doing a one-month trial.", "t": ["Por qué no hacemos una prueba de un mes", "Hagamos una prueba de un mes", "Podríamos hacer una prueba de un mes"] }
+      ]
+    },
+    {
+      "id": "b2-u05-l7",
+      "kind": "speaking",
+      "title": "The world in 2050",
+      "goal": "Make and defend predictions about technology and the future for 90 seconds.",
+      "culture": {
+        "title": "Ordenador or computadora?",
+        "body": "Tech vocabulary is one of the clearest differences between Spain and Latin America. Spain says el ordenador and el móvil; most of Latin America says la computadora (el computador in Colombia and Chile) and el celular. A laptop is un portátil in Spain, while in Latin America you'll hear una laptop or, in Argentina, una notebook; a computer mouse is el ratón in Spain but usually el mouse in Latin America. Even wifi changes gender: la wifi is common in Spain and el wifi in Latin America, and both are accepted.",
+        "regions": ["ES", "MX", "CO", "AR", "CL"]
+      },
+      "phrases": [
+        { "t": "Dentro de veinte años, los coches se conducirán solos.", "n": "In twenty years, cars will drive themselves.", "note": "Latin America also: los carros / los autos se manejarán solos" },
+        { "t": "Para entonces habremos cambiado nuestra forma de trabajar.", "n": "By then we'll have changed the way we work." },
+        { "t": "Dudo que las máquinas lleguen a pensar como nosotros.", "n": "I doubt machines will ever think like us." },
+        { "t": "Lo que sí está claro es que nada será igual.", "n": "What's certainly clear is that nothing will be the same." }
+      ],
+      "free": [
+        {
+          "n": "Describe how you think technology will have changed life by 2050: work, home, health or transport. Make predictions, say what will have happened by then, and give a balanced view.",
+          "hint": "Para 2050 habremos … / los robots habrán … Creo que … será … pero dudo que … + subjunctive. Por un lado … por otro … En definitiva, lo que sí está claro es que …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "a prediction (future)", "any": ["será", "serán", "tendremos", "podremos", "usaremos", "viviremos", "trabajaremos", "habrá", "se conducirán", "cambiará"] },
+            { "label": "the future perfect", "any": ["habremos", "habrán", "habré", "habrás", "habrá cambiado", "habrá desaparecido"] },
+            { "label": "technology", "any": ["tecnología", "inteligencia artificial", "ia", "robot*", "aplicaci*", "internet", "ordenador*", "computadora*", "móvil*", "celular*", "máquinas"] },
+            { "label": "a balanced view", "any": ["por un lado", "por otro", "dudo que", "no creo que", "sin embargo", "aunque", "en definitiva", "me preocupa"] }
+          ],
+          "model": "Creo que para 2050 la tecnología habrá cambiado casi todo. Por un lado, los coches se conducirán solos y habremos dejado de usar gasolina. Además, la inteligencia artificial nos ayudará en el trabajo y en la medicina, y muchas tareas aburridas habrán desaparecido. Por otro lado, dudo que las máquinas lleguen a pensar como nosotros, y me preocupa que estemos siempre conectados. En definitiva, lo que sí está claro es que nada será igual."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you doubt machines will ever think like us.", "t": ["Dudo que las máquinas lleguen a pensar como nosotros", "Dudo que las máquinas piensen como nosotros"] },
+        { "n": "Say by then we'll have changed the way we work.", "t": ["Para entonces habremos cambiado nuestra forma de trabajar", "Para entonces habremos cambiado la forma de trabajar"] }
+      ]
+    },
+    {
+      "id": "b2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Tecnología y futuro",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

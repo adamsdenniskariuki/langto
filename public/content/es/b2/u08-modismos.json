@@ -1,0 +1,318 @@
+{
+  "id": "b2-u08",
+  "title": "Modismos y expresiones",
+  "subtitle": "Idioms, slang & colloquial Spanish",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b2-u08-l1",
+      "title": "Idioms you can't translate",
+      "goal": "Understand and use five everyday idioms to tell a story colourfully.",
+      "tip": {
+        "title": "Meter la pata, tomar el pelo…",
+        "body": "Idioms are fixed chunks: change one word and they sound odd, so learn them whole and conjugate only the verb. These are understood almost everywhere Spanish is spoken: tomar el pelo (to pull someone's leg, literally to take their hair), estar en las nubes (to have your head in the clouds), meter la pata (to put your foot in it, literally to put in your paw), no tener pelos en la lengua (to speak your mind, literally to have no hairs on your tongue) and costar un ojo de la cara (to cost an arm and a leg, literally an eye from your face). Note the possessive: in Spanish it's el pelo and la cara, not mi pelo: ¿Me estás tomando el pelo?"
+      },
+      "phrases": [
+        { "t": "¿Me estás tomando el pelo?", "n": "Are you pulling my leg?" },
+        { "t": "Perdona, estaba en las nubes.", "n": "Sorry, I was miles away." },
+        { "t": "Metí la pata con mi jefe.", "n": "I put my foot in it with my boss.", "note": "Spain often uses the perfect: he metido la pata." },
+        { "t": "Mi abuela no tiene pelos en la lengua.", "n": "My grandmother speaks her mind." },
+        { "t": "Ese coche me costó un ojo de la cara.", "n": "That car cost me an arm and a leg.", "note": "Latin America: carro or auto." },
+        { "t": "No hay mal que por bien no venga.", "n": "Every cloud has a silver lining." },
+        { "t": "Para ti es pan comido.", "n": "For you it's a piece of cake." },
+        { "t": "Si quieres, te echo una mano.", "n": "If you like, I'll give you a hand." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "The painting",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¿Qué te pasa? Llevas toda la mañana en las nubes.", "n": "What's up with you? You've had your head in the clouds all morning." },
+          { "who": "you", "t": "Es que anoche metí la pata en la cena con los padres de mi pareja.", "n": "It's just that last night I put my foot in it at dinner with my partner's parents." },
+          { "who": "A", "name": "Lucía", "t": "¿En serio? Cuéntamelo todo. ¿Qué dijiste?", "n": "Seriously? Tell me everything. What did you say?" },
+          { "who": "you", "t": "Pregunté si el cuadro del salón lo habían comprado en un mercadillo… y resulta que les costó un ojo de la cara.", "n": "I asked if they'd bought the painting in the living room at a flea market… and it turns out it cost them an arm and a leg." },
+          { "who": "A", "name": "Lucía", "t": "¡Me estás tomando el pelo! ¿Y qué te dijeron?", "n": "You're pulling my leg! And what did they say?" },
+          { "who": "you", "t": "Su madre, que no tiene pelos en la lengua, me dijo que tenía un gusto pésimo. Bueno, no hay mal que por bien no venga: ahora ya sé lo que piensa.", "n": "Their mother, who speaks her mind, told me I had terrible taste. Well, every cloud has a silver lining: now I know what she thinks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend if they're pulling your leg.", "t": ["Me estás tomando el pelo", "Me tomas el pelo"] },
+        { "n": "Say you put your foot in it with your boss.", "t": ["Metí la pata con mi jefe", "He metido la pata con mi jefe", "Metí la pata con mi jefa", "He metido la pata con mi jefa"] },
+        { "n": "Say that car cost you an arm and a leg.", "t": ["Ese coche me costó un ojo de la cara", "Ese carro me costó un ojo de la cara", "Ese auto me costó un ojo de la cara", "El coche me costó un ojo de la cara"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l2",
+      "title": "How cool! Slang around the world",
+      "goal": "Recognise and use the regional words for 'cool' and react like a local.",
+      "tip": {
+        "title": "Guay, chido, chévere, copado",
+        "body": "Every country has its own word for cool. Spain: guay. Mexico: chido and padre (¡Qué padre!, nothing to do with fathers here). Colombia: chévere and bacano (bacán is the usual form in Chile and Peru); chévere is also typical of Venezuela and much of the Caribbean. Argentina: copado and bárbaro. They're informal: great with friends, odd in a job interview. Genial and increíble work everywhere and in any register, so they're a safe bet. Mexicans also say ¿Neta? (Really?) and ¿Te late? (Do you fancy it?)."
+      },
+      "phrases": [
+        { "t": "¡Qué guay!", "n": "How cool!", "note": "Spain." },
+        { "t": "¡Qué chido!", "n": "How cool!", "note": "Mexico, informal." },
+        { "t": "Está muy padre.", "n": "It's really great.", "note": "Mexico: padre = great." },
+        { "t": "¡Qué chévere!", "n": "How cool!", "note": "Colombia, Venezuela and much of the Caribbean." },
+        { "t": "¡Qué bacano!", "n": "How cool!", "note": "Colombia. Bacán is the usual form in Chile and Peru." },
+        { "t": "Es un tipo muy copado.", "n": "He's a really cool guy.", "note": "Argentina. Also: ¡Qué copado!" },
+        { "t": "¡Bárbaro, nos vemos a las ocho!", "n": "Great, see you at eight!", "note": "Argentina: bárbaro = great, brilliant." },
+        { "t": "¡Genial! Me parece una idea estupenda.", "n": "Great! I think it's a brilliant idea.", "note": "Neutral: works everywhere." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Concert tickets in Monterrey",
+        "lines": [
+          { "who": "A", "name": "Diego", "t": "¿Ya viste? Conseguí boletos para el concierto del sábado. ¿Te late venir?", "n": "Did you see? I got tickets for Saturday's concert. Do you fancy coming?" },
+          { "who": "you", "t": "¡Qué padre! Claro que sí. ¿Quién toca?", "n": "How great! Of course. Who's playing?" },
+          { "who": "A", "name": "Diego", "t": "Una banda de aquí de Monterrey que está buenísima. Te va a encantar, neta.", "n": "A band from here in Monterrey that's really good. You're going to love it, honestly." },
+          { "who": "you", "t": "¿Neta? Mi amigo Andrés, que es de Bogotá, dice que son muy chéveres.", "n": "Really? My friend Andrés, who's from Bogotá, says they're really cool." },
+          { "who": "A", "name": "Diego", "t": "Jaja, ¿chéveres? Así dicen en Colombia. Aquí decimos que están bien chidos.", "n": "Haha, chéveres? That's what they say in Colombia. Here we say they're really chidos." },
+          { "who": "you", "t": "Pues en Madrid dirían que son muy guais. Lo importante es que vamos juntos.", "n": "Well, in Madrid they'd say they're really guais. The important thing is we're going together." }
+        ]
+      },
+      "prompts": [
+        { "n": "React 'how cool!' the way a Mexican friend would.", "t": ["Qué chido", "Qué padre", "Está muy padre", "Está bien chido"] },
+        { "n": "React 'how cool!' the way someone from Spain would.", "t": ["Qué guay", "Qué guay es"] },
+        { "n": "React 'how cool!' the way a Colombian friend would.", "t": ["Qué chévere", "Qué bacano", "Qué bacán"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l3",
+      "title": "Getting to the point",
+      "goal": "Speak frankly in colloquial Spanish: cut to the chase, agree and push for action.",
+      "tip": {
+        "title": "Al grano, en el clavo, las pilas",
+        "body": "To cut to the chase, say Vamos al grano (let's get to the grain); to tell someone to stop beating about the bush, No te andes por las ramas (don't wander through the branches). Dar en el clavo is to hit the nail on the head, and ponerse las pilas (to put your batteries in) means to get your act together. No tiene ni pies ni cabeza: it makes no sense at all. Argentines use che to get attention, dale for OK and sin vueltas for straight out; remember the voseo imperatives with the stress at the end: mirá, decime, pensalo."
+      },
+      "phrases": [
+        { "t": "Vamos al grano.", "n": "Let's get to the point." },
+        { "t": "No te andes por las ramas.", "n": "Don't beat about the bush." },
+        { "t": "Diste en el clavo.", "n": "You hit the nail on the head.", "note": "Spain often: Has dado en el clavo." },
+        { "t": "Me tengo que poner las pilas.", "n": "I need to get my act together." },
+        { "t": "Anoche no pegué ojo.", "n": "I didn't sleep a wink last night." },
+        { "t": "Este plan no tiene ni pies ni cabeza.", "n": "This plan makes no sense at all." },
+        { "t": "Hablando del rey de Roma…", "n": "Speak of the devil…", "note": "The full saying: …por la puerta se asoma." },
+        { "t": "¡Dale, che!", "n": "OK, mate!", "note": "Argentina: dale = OK, go on; che = hey, mate." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "A frank word in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "Che, ¿tenés cinco minutos? Quiero hablarte del proyecto.", "n": "Hey, have you got five minutes? I want to talk to you about the project." },
+          { "who": "you", "t": "Sí, claro. Vamos al grano: ¿qué pasa?", "n": "Yes, of course. Let's get to the point: what's up?" },
+          { "who": "A", "name": "Valeria", "t": "Mirá, te lo digo sin vueltas: el plan del jefe no tiene ni pies ni cabeza.", "n": "Look, I'll tell you straight out: the boss's plan makes no sense at all." },
+          { "who": "you", "t": "Diste en el clavo. Yo tampoco entiendo cómo vamos a terminar todo en dos semanas.", "n": "You hit the nail on the head. I don't understand how we're going to finish everything in two weeks either." },
+          { "who": "A", "name": "Valeria", "t": "Exacto. Hay que ponerse las pilas y proponerle otra cosa. ¿Me ayudás a armar una propuesta?", "n": "Exactly. We need to get our act together and suggest something else. Will you help me put a proposal together?" },
+          { "who": "you", "t": "Dale. Anoche no pegué ojo pensando en esto, así que mejor resolverlo cuanto antes.", "n": "OK. I didn't sleep a wink last night thinking about this, so we'd better sort it out as soon as possible." }
+        ]
+      },
+      "prompts": [
+        { "n": "Suggest getting straight to the point.", "t": ["Vamos al grano"] },
+        { "n": "Tell a friend they hit the nail on the head.", "t": ["Diste en el clavo", "Has dado en el clavo", "Diste justo en el clavo"] },
+        { "n": "Say you didn't sleep a wink last night.", "t": ["Anoche no pegué ojo", "No pegué ojo anoche", "No he pegado ojo"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l4",
+      "kind": "grammar",
+      "title": "Ser or estar? It changes the meaning",
+      "goal": "Use adjectives whose meaning changes with ser and estar.",
+      "tip": {
+        "title": "Ser listo, estar listo",
+        "body": "With some adjectives, ser and estar give completely different meanings. Ser listo is to be clever; estar listo is to be ready. Ser aburrido is to be boring; estar aburrido is to be bored. Ser rico is to be rich; estar rico is to taste delicious (Esta sopa está riquísima). Ser malo is to be bad (a bad person or poor quality); estar malo is to be ill, mainly in Spain, or to have gone off (El pescado está malo). Similarly, el vino es bueno means it's good-quality wine, while el vino está bueno means it tastes good. Careful: about a person, está bueno / buena means he or she is attractive, so use with care! The adjectives agree: a woman says Estoy lista, Estoy aburrida."
+      },
+      "phrases": [
+        { "t": "Mi hermana es muy lista.", "n": "My sister is very clever." },
+        { "t": "¿Estás listo? Nos vamos.", "n": "Are you ready? We're leaving.", "note": "To a woman: ¿Estás lista?" },
+        { "t": "La película es aburrida, por eso estoy aburrido.", "n": "The film is boring, that's why I'm bored.", "note": "A woman says aburrida." },
+        { "t": "Esta sopa está riquísima.", "n": "This soup is delicious." },
+        { "t": "El abuelo está malo y no puede venir.", "n": "Grandad is ill and can't come.", "note": "Mainly Spain. Everywhere: está enfermo." }
+      ],
+      "drills": [
+        {
+          "title": "Same word, new meaning",
+          "base": { "t": "Mi hermano es muy listo.", "n": "My brother is very clever." },
+          "items": [
+            { "cue": "estar · ya", "t": "Mi hermano ya está listo.", "n": "My brother is ready now." },
+            { "cue": "ser · aburrido", "t": "Mi hermano es muy aburrido.", "n": "My brother is very boring." },
+            { "cue": "estar · aburrido", "t": "Mi hermano está muy aburrido.", "n": "My brother is very bored." },
+            { "cue": "estar · malo", "t": "Mi hermano está malo.", "n": "My brother is ill." }
+          ]
+        },
+        {
+          "title": "Taste, quality or money?",
+          "base": { "t": "La comida está rica.", "n": "The food is delicious." },
+          "items": [
+            { "cue": "ser · la familia", "t": "La familia es rica.", "n": "The family is rich." },
+            { "cue": "estar · el pescado · malo", "t": "El pescado está malo.", "n": "The fish has gone off." },
+            { "cue": "ser · el vino · bueno", "t": "El vino es bueno.", "n": "The wine is good quality." },
+            { "cue": "estar · el vino · bueno", "t": "El vino está bueno.", "n": "The wine tastes good." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ask a friend if they're ready.", "t": ["Estás listo", "Estás lista", "Ya estás listo", "Ya estás lista"] },
+        { "n": "Say this soup is delicious.", "t": ["Esta sopa está riquísima", "Esta sopa está muy rica", "Esta sopa está rica", "La sopa está riquísima"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l5",
+      "kind": "listening",
+      "title": "Lost in slang",
+      "goal": "Follow travellers from four countries comparing their slang in a Colombian hostel.",
+      "phrases": [
+        { "t": "¿Se animan?", "n": "Are you up for it?", "note": "Ustedes form: used for 'you all' everywhere." },
+        { "t": "Yo me apunto.", "n": "Count me in.", "note": "Spain. Latin America also: yo me anoto (Argentina), yo le entro (Mexico)." },
+        { "t": "Bailo fatal.", "n": "I'm a terrible dancer." },
+        { "t": "Es un plan bárbaro.", "n": "It's a brilliant plan." }
+      ],
+      "story": {
+        "title": "Noche de salsa en Cartagena",
+        "intro": "Camila, who runs a hostel in Cartagena, invites three guests from Spain, Mexico and Argentina to a salsa night.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Camila", "t": "¡Bienvenidos al hostal! Esta noche hay salsa en la terraza. ¿Se animan?", "n": "Welcome to the hostel! There's salsa on the roof terrace tonight. Are you up for it?" },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "¡Qué guay! Yo me apunto, aunque bailo fatal.", "n": "How cool! Count me in, although I'm a terrible dancer." },
+          { "name": "Rodrigo", "voice": "es-MX-JorgeNeural", "t": "¿Guay? Ah, como decimos en México: ¡qué padre! Yo también voy.", "n": "Guay? Oh, like we say in Mexico: how great! I'm going too." },
+          { "name": "Valentina", "voice": "es-AR-ElenaNeural", "t": "¿Padre? ¡Qué gracioso! En Argentina diríamos que es un plan bárbaro. Dale, voy.", "n": "Padre? How funny! In Argentina we'd say it's a brilliant plan. OK, I'm in." },
+          { "name": "Camila", "t": "Y aquí en Colombia decimos que es un plan muy chévere. Pero ojo, que esta salsa no se come: ¡se baila!", "n": "And here in Colombia we say it's a really cool plan. But careful, this salsa isn't for eating: it's for dancing!" },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "¿Me estás tomando el pelo? Yo pensaba que íbamos a cenar.", "n": "Are you pulling my leg? I thought we were going to have dinner." },
+          { "name": "Rodrigo", "voice": "es-MX-JorgeNeural", "t": "Ay, Javi, siempre estás en las nubes. Hay cena antes, ¿verdad, Camila?", "n": "Oh, Javi, you've always got your head in the clouds. There's dinner first, right, Camila?" },
+          { "name": "Camila", "t": "Claro, a las ocho. Y después, todos a bailar, que con este calor la noche va a estar bacana.", "n": "Of course, at eight. And afterwards, everyone dancing, because in this heat the night's going to be great." }
+        ],
+        "questions": [
+          { "q": "¿Qué hay esta noche en la terraza?", "n": "What's on the terrace tonight?", "t": ["Salsa", "Hay salsa", "Una noche de salsa", "Baile"] },
+          { "q": "¿Cómo dice Valentina que es el plan?", "n": "How does Valentina describe the plan?", "t": ["Bárbaro", "Un plan bárbaro", "Es un plan bárbaro"] },
+          { "q": "¿A qué hora es la cena?", "n": "What time is dinner?", "t": ["A las ocho", "A las 8", "Las ocho"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u08-l6",
+      "kind": "roleplay",
+      "title": "I put my foot in it",
+      "goal": "Own up to a mistake, apologise convincingly and propose a fix.",
+      "phrases": [
+        { "t": "Perdona, metí la pata.", "n": "Sorry, I put my foot in it." },
+        { "t": "Se me pasó por completo.", "n": "It completely slipped my mind." },
+        { "t": "Me pongo las pilas ahora mismo.", "n": "I'll get my act together right now." },
+        { "t": "Hoy mismo lo llamo.", "n": "I'll call him today." }
+      ],
+      "branch": {
+        "title": "The missed meeting",
+        "scene": "You work in an office in Bogotá. Yesterday you forgot an important meeting with a client. This morning your colleague Gonzalo, who had to handle it alone, comes over to your desk.",
+        "name": "Gonzalo",
+        "voice": "es-CO-GonzaloNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Hola! ¿Qué pasó ayer? Te estuvimos esperando toda la mañana en la reunión con el cliente.", "n": "Hi! What happened yesterday? We were waiting for you all morning in the meeting with the client.",
+            "choices": [
+              { "t": "Ay, perdona, metí la pata: se me pasó por completo.", "n": "Oh, sorry, I put my foot in it: it completely slipped my mind.", "next": "apology" },
+              { "t": "¿Qué reunión? Nadie me dijo nada.", "n": "What meeting? Nobody told me anything.", "next": "denial" }
+            ]
+          },
+          "denial": {
+            "t": "¿Cómo que nadie? Te mandé el correo y te lo recordé el lunes.", "n": "What do you mean, nobody? I sent you the email and reminded you on Monday.",
+            "choices": [
+              { "t": "Tienes razón, estaba en las nubes. Lo siento mucho.", "n": "You're right, I had my head in the clouds. I'm really sorry.", "next": "apology" },
+              { "t": "Pues yo no lo vi. No es mi culpa.", "n": "Well, I didn't see it. It's not my fault.", "next": "bad" }
+            ]
+          },
+          "apology": {
+            "t": "Bueno, son cosas que pasan… aunque el cliente se fue bastante molesto. Me tocó explicarle todo a mí.", "n": "Well, these things happen… although the client left pretty annoyed. I had to explain everything to him myself.",
+            "choices": [
+              { "t": "Te propongo una cosa: hoy mismo lo llamo y le pido disculpas.", "n": "Here's what I suggest: I'll call him today and apologise.", "next": "fix" },
+              { "t": "Bah, ese cliente se queja por todo. Tampoco es para tanto.", "n": "Bah, that client complains about everything. It's not that big a deal.", "next": "careless" }
+            ]
+          },
+          "careless": {
+            "t": "Mira, te lo digo sin pelos en la lengua: ese cliente es el que nos paga el sueldo.", "n": "Look, I'll tell you straight: that client is the one who pays our salaries.",
+            "choices": [
+              { "t": "Diste en el clavo. Me pongo las pilas y lo llamo hoy mismo.", "n": "You're absolutely right. I'll get my act together and call him today.", "next": "fix" },
+              { "t": "¿Me estás tomando el pelo? Es un pesado.", "n": "Are you kidding me? He's a pain.", "next": "bad" }
+            ]
+          },
+          "fix": {
+            "t": "Me parece muy bien. Pero ojo, quiere el informe para el viernes. ¿Alcanzas a terminarlo?", "n": "Sounds good. But watch out, he wants the report by Friday. Can you finish it in time?",
+            "choices": [
+              { "t": "Sí, para mí es pan comido. Esta tarde me pongo con ello.", "n": "Yes, it's a piece of cake for me. I'll get on with it this afternoon.", "next": "good" },
+              { "t": "Ni idea, ya veremos.", "n": "No idea, we'll see.", "next": "push" }
+            ]
+          },
+          "push": {
+            "t": "Con un 'ya veremos' no le puedo decir nada al cliente. Necesito una fecha.", "n": "I can't tell the client anything with a 'we'll see'. I need a date.",
+            "choices": [
+              { "t": "Tienes razón. El jueves por la tarde lo tienes, te lo prometo.", "n": "You're right. You'll have it on Thursday afternoon, I promise.", "next": "good" },
+              { "t": "Pues dile lo que quieras.", "n": "Then tell him whatever you like.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "¡Listo! Así sí. No hay mal que por bien no venga: si le entregamos el informe antes, el cliente va a quedar feliz.", "n": "Great! That's more like it. Every cloud has a silver lining: if we hand him the report early, the client will be happy.",
+            "end": "good", "outcome": "You owned up, apologised and committed to a clear fix, and your colleague is back on your side."
+          },
+          "bad": {
+            "t": "Bueno, pues el jefe se va a enterar de todo esto. Yo no pienso cubrirte otra vez.", "n": "Well, the boss is going to hear about all this. I'm not covering for you again.",
+            "end": "bad", "outcome": "Denying it or brushing it off made things worse. Admitting the mistake (metí la pata) and proposing a concrete fix wins people back."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Apologise: say sorry, you put your foot in it.", "t": ["Perdona, metí la pata", "Perdón, metí la pata", "Disculpa, metí la pata", "Lo siento, metí la pata"] },
+        { "n": "Say it completely slipped your mind.", "t": ["Se me pasó por completo", "Se me olvidó por completo", "Se me pasó completamente"] }
+      ]
+    },
+    {
+      "id": "b2-u08-l7",
+      "kind": "speaking",
+      "title": "Tell it with idioms",
+      "goal": "Tell a lively story about a blunder in about 90 seconds, using idioms and slang.",
+      "culture": {
+        "title": "A slang map of the Spanish-speaking world",
+        "body": "Spanish is an official language in around twenty countries, and everyday slang changes as you cross borders. To say something is cool, Spaniards say guay, Mexicans chido or padre, Colombians chévere or bacano, and Argentines copado or bárbaro; chévere is also typical of Venezuela and much of the Caribbean. Argentines and Uruguayans use vos instead of tú and sprinkle their speech with che. Classic idioms such as meter la pata or tomar el pelo, on the other hand, are understood almost everywhere, so they're a safe bet wherever you are.",
+        "regions": ["ES", "MX", "CO", "AR", "VE"]
+      },
+      "phrases": [
+        { "t": "Metí la pata hasta el fondo.", "n": "I really put my foot in it." },
+        { "t": "Me quedé de piedra.", "n": "I was stunned." },
+        { "t": "Total, que al final todo salió bien.", "n": "Anyway, in the end it all turned out fine." },
+        { "t": "¡Qué vergüenza!", "n": "How embarrassing!" }
+      ],
+      "free": [
+        {
+          "n": "Tell a friend about a time you (or someone you know) put your foot in it: where you were, what happened step by step, how people reacted and how it ended. Use at least two idioms and one slang word for 'cool' or 'great'.",
+          "hint": "Use Primero…, Luego…, De repente…, Al final…; metí la pata (hasta el fondo), estaba en las nubes, me quedé de piedra, no tiene pelos en la lengua, me costó un ojo de la cara, no hay mal que por bien no venga; ¡Qué vergüenza!, guay / chido / chévere / copado.",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "an idiom", "any": ["la pata", "el pelo", "en las nubes", "pelos en la lengua", "ojo de la cara", "pan comido", "de piedra", "no pegué ojo", "al grano", "las pilas", "en el clavo", "ni pies ni cabeza", "por bien no venga"] },
+            { "label": "past tense", "any": ["fui", "estaba", "tuve", "pasó", "dije", "hice", "metí", "me quedé", "dijo", "se rio"] },
+            { "label": "sequencing", "any": ["primero", "luego", "después", "entonces", "de repente", "al final", "total"] },
+            { "label": "a reaction or slang", "any": ["guay", "chido", "padre", "chévere", "bacano", "bacán", "copado", "bárbaro", "genial", "qué vergüenza", "menos mal"] }
+          ],
+          "model": "El año pasado, en una boda en México, metí la pata hasta el fondo. Primero, estaba en las nubes y no escuché bien el nombre de la novia. Luego, en el brindis, la llamé por el nombre de la ex del novio. ¡Qué vergüenza! Me quedé de piedra. Al final, la abuela, que no tiene pelos en la lengua, se rio y dijo: ¡qué chido, por fin una boda divertida! Total, que no hay mal que por bien no venga."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you really put your foot in it.", "t": ["Metí la pata hasta el fondo", "He metido la pata hasta el fondo", "Metí la pata"] },
+        { "n": "Say you were stunned (you 'turned to stone').", "t": ["Me quedé de piedra"] }
+      ]
+    },
+    {
+      "id": "b2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Modismos y expresiones",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "b2-test",
+      "kind": "test",
+      "title": "B2 speaking test",
+      "goal": "Pass to earn your B2 badge and unlock C1.",
+      "tip": {
+        "title": "Make your case",
+        "body": "Sentences come from all eight B2 units, shown in English only: debating and defending your view, meetings, negotiating, the news, technology, health and wellbeing, city versus country life and idioms. Say them in Spanish from memory. Answer in a structured, persuasive way: take a position, back it up (por un lado…, por otro…, además, sin embargo), concede a point (ahí te doy la razón) and round off (en definitiva). Keep idioms word for word, watch ser and estar, and keep going after small slips."
+      }
+    }
+  ]
+}

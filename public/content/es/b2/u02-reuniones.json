@@ -1,0 +1,305 @@
+{
+  "id": "b2-u02",
+  "title": "En la reunión",
+  "subtitle": "Meetings & formal requests",
+  "icon": "📊",
+  "lessons": [
+    {
+      "id": "b2-u02-l1",
+      "title": "Running a meeting",
+      "goal": "Open a meeting, go through the agenda, give people the floor and sum up.",
+      "tip": {
+        "title": "Steering the meeting",
+        "body": "A few fixed phrases make you sound in control. Open with Si les parece, empezamos (Spain, among colleagues: Si os parece…). The agenda is el orden del día; in Latin America people also say la agenda. Move on with Pasamos al siguiente punto, hand over with Le cedo la palabra a… and check for input with ¿Alguien quiere añadir algo? (Latin America also: agregar). Close a point with Resumiendo… or Recapitulando… followed by the decision. In Mexico a meeting is often called una junta; elsewhere, una reunión."
+      },
+      "phrases": [
+        { "t": "Si les parece, empezamos.", "n": "If that's all right with everyone, let's start.", "note": "Spain, among colleagues: Si os parece, empezamos." },
+        { "t": "El primer punto del orden del día es el presupuesto.", "n": "The first item on the agenda is the budget.", "note": "Latin America also: la agenda." },
+        { "t": "Pasamos al siguiente punto.", "n": "Let's move on to the next item." },
+        { "t": "Le cedo la palabra a Mariana.", "n": "I'll hand over to Mariana.", "note": "Literally \"I give the word to Mariana\"." },
+        { "t": "¿Alguien quiere añadir algo?", "n": "Does anyone want to add anything?", "note": "Latin America also: agregar." },
+        { "t": "Resumiendo: lanzamos la campaña en marzo.", "n": "To sum up: we launch the campaign in March." },
+        { "t": "Entonces, quedamos así.", "n": "So that's what we've agreed." },
+        { "t": "Se nos acaba el tiempo, así que vamos a cerrar aquí.", "n": "We're running out of time, so let's wrap up here." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Monday's team meeting",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "Ya estamos todos conectados. ¿Quieres llevar tú la junta hoy?", "n": "Everyone's connected now. Do you want to run the meeting today?", "note": "Mexico: junta = meeting." },
+          { "who": "you", "t": "Claro. Si les parece, empezamos. El primer punto del orden del día es el presupuesto de la campaña. Le cedo la palabra a Mariana.", "n": "Sure. If that's all right with everyone, let's start. The first item on the agenda is the campaign budget. I'll hand over to Mariana." },
+          { "who": "A", "name": "Mariana", "t": "Gracias. Les cuento rápido: nos pasamos del presupuesto un diez por ciento, sobre todo por los videos.", "n": "Thanks. I'll be quick: we went ten percent over budget, mainly because of the videos.", "note": "Spain: los vídeos." },
+          { "who": "you", "t": "Gracias, Mariana. ¿Alguien quiere añadir algo antes de pasar al siguiente punto?", "n": "Thanks, Mariana. Does anyone want to add anything before we move on to the next item?" },
+          { "who": "A", "name": "Mariana", "t": "Solo una cosa: el cliente quiere ver una primera versión antes del quince.", "n": "Just one thing: the client wants to see a first version before the fifteenth." },
+          { "who": "you", "t": "Muy bien. Resumiendo: revisamos los costos de los videos y mandamos la primera versión antes del quince. Entonces, quedamos así.", "n": "Very good. To sum up: we review the cost of the videos and send the first version before the fifteenth. So that's what we've agreed.", "note": "Spain: los costes." }
+        ]
+      },
+      "prompts": [
+        { "n": "Open the meeting: say that if it's all right with everyone, you'll start.", "t": ["Si les parece, empezamos", "Si os parece, empezamos", "Si les parece, comenzamos", "Si les parece bien, empezamos"] },
+        { "n": "Move the meeting on to the next item.", "t": ["Pasamos al siguiente punto", "Pasemos al siguiente punto", "Vamos al siguiente punto"] },
+        { "n": "Ask if anyone wants to add anything.", "t": ["Alguien quiere añadir algo", "Alguien quiere agregar algo", "Alguien quiere decir algo más"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l2",
+      "title": "Proposing and interrupting",
+      "goal": "Make proposals, interrupt tactfully and keep the floor when you need to.",
+      "tip": {
+        "title": "Interrupt without offending",
+        "body": "To propose something, use Propongo que + subjunctive (Propongo que lo dejemos para el lunes) or the lighter ¿Y si + present? (¿Y si lo probamos un mes?). To cut in politely, signal that it's brief: Antes de que sigas… (+ subjunctive, because the action hasn't happened yet), Una pregunta rápida, or in Spain Solo un apunte (just a quick point). If someone interrupts you, Ahora termino or Enseguida acabo holds the floor; if you lose your thread, ask ¿Por dónde iba? When you do give way, Adelante, te escucho sounds generous."
+      },
+      "phrases": [
+        { "t": "Propongo que dejemos este tema para la próxima reunión.", "n": "I propose we leave this topic for the next meeting.", "note": "Propongo que + subjunctive." },
+        { "t": "¿Y si lo probamos durante un mes?", "n": "What if we try it for a month?" },
+        { "t": "Si me permites un momento, quería comentar algo.", "n": "If you'll allow me a moment, I wanted to mention something.", "note": "Formal: Si me permite…" },
+        { "t": "Antes de que sigas, una pregunta rápida.", "n": "Before you go on, a quick question.", "note": "antes de que + subjunctive. Formal: Antes de que siga…" },
+        { "t": "Solo un apunte: el cliente no ha confirmado la fecha.", "n": "Just a quick point: the client hasn't confirmed the date.", "note": "Mostly Spain. Elsewhere: Solo un comentario." },
+        { "t": "Ahora termino, es solo un segundo.", "n": "I'm just finishing, it'll only take a second." },
+        { "t": "Perdón, ¿por dónde iba?", "n": "Sorry, where was I?" },
+        { "t": "Adelante, te escucho.", "n": "Go ahead, I'm listening.", "note": "Formal: Adelante, le escucho (Latin America: lo / la escucho)." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "Changing suppliers",
+        "lines": [
+          { "who": "A", "name": "Sergio", "t": "…y por eso creo que deberíamos cambiar de proveedor ya, esta misma semana, porque con tantos retrasos…", "n": "…and that's why I think we should change supplier right now, this very week, because with so many delays…" },
+          { "who": "you", "t": "Perdona, Sergio. Antes de que sigas, una pregunta rápida: ¿cuánto nos costaría el cambio?", "n": "Sorry, Sergio. Before you go on, a quick question: how much would the switch cost us?" },
+          { "who": "A", "name": "Sergio", "t": "Ahora termino y te lo digo. Lo que iba a decir es que los retrasos nos están costando clientes. El cambio, unos tres mil euros.", "n": "I'm just finishing and then I'll tell you. What I was going to say is that the delays are costing us customers. The switch, about three thousand euros." },
+          { "who": "you", "t": "Entendido. Solo un apunte: el contrato actual no termina hasta junio. Si lo rompemos antes, hay penalización.", "n": "Understood. Just a quick point: the current contract doesn't end until June. If we break it early, there's a penalty." },
+          { "who": "A", "name": "Sergio", "t": "Vaya, eso no lo sabía. Entonces, ¿tú qué propones?", "n": "Oh, I didn't know that. So, what do you propose?" },
+          { "who": "you", "t": "Propongo que pidamos dos presupuestos nuevos y lo decidamos en la próxima reunión. ¿Y si mientras tanto hablamos con el proveedor actual?", "n": "I propose we ask for two new quotes and decide at the next meeting. And what if we talk to the current supplier in the meantime?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Interrupt politely: before they go on, a quick question.", "t": ["Antes de que sigas, una pregunta rápida", "Perdona, antes de que sigas, una pregunta rápida", "Antes de que siga, una pregunta rápida"] },
+        { "n": "Propose leaving this topic for the next meeting.", "t": ["Propongo que dejemos este tema para la próxima reunión", "Propongo dejar este tema para la próxima reunión", "Propongo que dejemos este tema para la siguiente reunión"] },
+        { "n": "Let a colleague speak: tell them to go ahead, you're listening.", "t": ["Adelante, te escucho", "Adelante, le escucho", "Adelante, lo escucho", "Adelante, la escucho"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l3",
+      "title": "Delegating tasks",
+      "goal": "Share out tasks, agree deadlines and confirm who does what.",
+      "tip": {
+        "title": "Who does what, by when",
+        "body": "Ask ¿Quién se encarga de…? and volunteer with Me encargo yo or Yo me ocupo. Deadlines use para: ¿Para cuándo lo necesitas? – Para el viernes (a más tardar = at the latest). Que + subjunctive gives an instruction about a third person: Que lo revise Andrés (have Andrés check it). Quedamos en que… means \"we agreed that…\" and is perfect for confirming decisions. In Colombian offices, colleagues often address each other as usted even when they're on friendly terms."
+      },
+      "phrases": [
+        { "t": "¿Quién se encarga de hablar con el cliente?", "n": "Who's going to take care of talking to the client?" },
+        { "t": "Me encargo yo.", "n": "I'll take care of it." },
+        { "t": "¿Usted se podría ocupar del informe?", "n": "Could you take care of the report?", "note": "Informal: ¿Te podrías ocupar del informe?" },
+        { "t": "¿Para cuándo lo necesita?", "n": "When do you need it by?", "note": "Informal: ¿Para cuándo lo necesitas?" },
+        { "t": "Lo necesito para el viernes a más tardar.", "n": "I need it by Friday at the latest." },
+        { "t": "Que lo revise Andrés antes de enviarlo.", "n": "Have Andrés check it before sending it.", "note": "Que + subjunctive: an instruction about someone else." },
+        { "t": "Quedamos en que cada uno manda su parte el lunes.", "n": "We agreed that everyone sends their part on Monday." },
+        { "t": "Les mando un correo con las tareas.", "n": "I'll send you all an email with the tasks.", "note": "Spain, among colleagues: Os mando un correo." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Ten minutes left",
+        "lines": [
+          { "who": "A", "name": "Catalina", "t": "Bueno, nos quedan diez minutos. ¿Quién se encarga de preparar la presentación para el cliente?", "n": "Right, we've got ten minutes left. Who's going to take care of preparing the presentation for the client?" },
+          { "who": "you", "t": "Me encargo yo. ¿Para cuándo la necesita?", "n": "I'll take care of it. When do you need it by?" },
+          { "who": "A", "name": "Catalina", "t": "Para el jueves a más tardar. Y que la revise Andrés antes de enviarla, por favor, que él conoce mejor al cliente.", "n": "By Thursday at the latest. And have Andrés check it before sending it, please, since he knows the client better." },
+          { "who": "you", "t": "Perfecto. ¿Y usted se podría ocupar de confirmar la fecha de la reunión con ellos?", "n": "Perfect. And could you take care of confirming the meeting date with them?" },
+          { "who": "A", "name": "Catalina", "t": "Sí, claro, yo los llamo hoy mismo. ¿Algo más antes de cerrar?", "n": "Yes, of course, I'll call them today. Anything else before we wrap up?" },
+          { "who": "you", "t": "Nada más. Entonces quedamos en que cada uno manda su parte el miércoles. Les mando un correo con las tareas.", "n": "Nothing else. So we agreed that everyone sends their part on Wednesday. I'll send you all an email with the tasks." }
+        ]
+      },
+      "prompts": [
+        { "n": "Volunteer: say you'll take care of it.", "t": ["Me encargo yo", "Yo me encargo", "Yo me ocupo", "Me ocupo yo"] },
+        { "n": "Ask your manager (usted) when they need it by.", "t": ["Para cuándo lo necesita", "Para cuándo la necesita", "Para cuándo lo necesitas"] },
+        { "n": "Say: have Andrés check it before sending it.", "t": ["Que lo revise Andrés antes de enviarlo", "Que Andrés lo revise antes de enviarlo", "Que lo revise Andrés antes de mandarlo"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l4",
+      "kind": "grammar",
+      "title": "Formal requests",
+      "goal": "Make polite requests with le agradecería que, sería conveniente que and quería pedirle que + imperfect subjunctive.",
+      "tip": {
+        "title": "Conditional or past → imperfect subjunctive",
+        "body": "The tense of the main verb decides the tense after que. With a present verb you use the present subjunctive: Le agradezco que me envíe el informe. With a conditional (agradecería, sería, me gustaría) or a past verb (quería, pedí), you switch to the imperfect subjunctive: Le agradecería que me enviara el informe. Sería conveniente que revisáramos el contrato. Quería pedirle que me ayudara. Quería here isn't really past: it's a softener, like English \"I wanted to ask you…\". To form the imperfect subjunctive, take the ellos preterite, drop -ron and add -ra: enviaron → enviara, pudieron → pudiera, hicieron → hiciera. The -se forms (enviase) are also correct and common in Spain."
+      },
+      "phrases": [
+        { "t": "Le agradecería que me enviara el informe hoy.", "n": "I'd be grateful if you could send me the report today." },
+        { "t": "Sería conveniente que revisáramos el contrato.", "n": "It would be advisable for us to review the contract." },
+        { "t": "Quería pedirle que me ayudara con la presentación.", "n": "I wanted to ask you to help me with the presentation." },
+        { "t": "Le pedí que me llamara antes de las cinco.", "n": "I asked him to call me before five.", "note": "Or: I asked her / I asked you (usted)." },
+        { "t": "Me gustaría que habláramos con calma.", "n": "I'd like us to talk calmly." }
+      ],
+      "drills": [
+        {
+          "title": "Make it more polite",
+          "base": { "t": "Le agradezco que me envíe el informe.", "n": "Thank you for sending me the report." },
+          "items": [
+            { "cue": "agradecería", "t": "Le agradecería que me enviara el informe.", "n": "I'd be grateful if you could send me the report." },
+            { "cue": "agradecería · llamar mañana", "t": "Le agradecería que me llamara mañana.", "n": "I'd be grateful if you could call me tomorrow." },
+            { "cue": "agradecería · confirmar la fecha", "t": "Le agradecería que me confirmara la fecha.", "n": "I'd be grateful if you could confirm the date." },
+            { "cue": "agradecería · poder venir antes", "t": "Le agradecería que pudiera venir antes.", "n": "I'd be grateful if you could come earlier." }
+          ]
+        },
+        {
+          "title": "Shift the tense",
+          "base": { "t": "Es conveniente que revisemos el contrato.", "n": "It's advisable for us to review the contract." },
+          "items": [
+            { "cue": "sería", "t": "Sería conveniente que revisáramos el contrato.", "n": "It would be advisable for us to review the contract." },
+            { "cue": "quería pedirle · usted", "t": "Quería pedirle que revisara el contrato.", "n": "I wanted to ask you to review the contract." },
+            { "cue": "sería conveniente · hacer una pausa", "t": "Sería conveniente que hiciéramos una pausa.", "n": "It would be advisable for us to take a break." },
+            { "cue": "me gustaría · tener más tiempo", "t": "Me gustaría que tuviéramos más tiempo.", "n": "I'd like us to have more time." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Formally ask (usted) for the report to be sent to you today.", "t": ["Le agradecería que me enviara el informe hoy", "Le agradecería que me enviase el informe hoy", "Le agradecería que me mandara el informe hoy"] },
+        { "n": "Say it would be advisable for us to review the contract.", "t": ["Sería conveniente que revisáramos el contrato", "Sería conveniente que revisásemos el contrato", "Sería conveniente revisar el contrato"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l5",
+      "kind": "listening",
+      "title": "A call across three countries",
+      "goal": "Follow a video meeting between Madrid, Buenos Aires and Bogotá and note the decisions.",
+      "phrases": [
+        { "t": "Vamos al grano.", "n": "Let's get to the point." },
+        { "t": "Te soy sincero: vamos atrasados.", "n": "I'll be honest with you: we're behind schedule.", "note": "A woman says: Te soy sincera." },
+        { "t": "Sería conveniente que la moviéramos también en Colombia.", "n": "It would be advisable for us to move it in Colombia too." },
+        { "t": "Te agradecería que nos mandaras un correo.", "n": "I'd be grateful if you sent us an email." }
+      ],
+      "story": {
+        "title": "El lanzamiento de la web",
+        "intro": "Laura in Madrid holds a video meeting with Tomás in Buenos Aires and Daniela in Bogotá about launching a new website.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Laura", "t": "Bueno, ¿me oís bien? Tomás, Daniela, gracias por conectaros. Vamos al grano: el lanzamiento de la web en Argentina y en Colombia.", "n": "Right, can you hear me OK? Tomás, Daniela, thanks for joining. Let's get to the point: launching the website in Argentina and Colombia." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Te escuchamos perfecto. Mirá, Laura, te soy sincero: vamos atrasados. El equipo de diseño todavía no terminó las páginas de pago.", "n": "We can hear you perfectly. Look, Laura, I'll be honest with you: we're behind schedule. The design team still hasn't finished the payment pages.", "note": "Argentina: mirá = mira; the preterite (no terminó) is often used where Spain uses the perfect (no ha terminado)." },
+          { "name": "Laura", "t": "Vale. ¿Y cuánto tiempo más necesitáis?", "n": "OK. And how much more time do you need?" },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Unas dos semanas. Te quería pedir que habláramos con el cliente para mover la fecha al quince de mayo.", "n": "About two weeks. I wanted to ask you if we could talk to the client about moving the date to the fifteenth of May." },
+          { "name": "Daniela", "voice": "es-CO-SalomeNeural", "t": "Perdón que interrumpa. Si se mueve la fecha en Argentina, sería conveniente que la moviéramos también en Colombia. Así hacemos una sola campaña para los dos países.", "n": "Sorry to interrupt. If the date moves in Argentina, it would be advisable for us to move it in Colombia too. That way we run a single campaign for both countries." },
+          { "name": "Laura", "t": "Tiene sentido. Entonces, resumiendo: lanzamos en los dos países el quince de mayo, y yo me encargo de hablar con el cliente.", "n": "That makes sense. So, to sum up: we launch in both countries on the fifteenth of May, and I'll take care of talking to the client." },
+          { "name": "Daniela", "voice": "es-CO-SalomeNeural", "t": "Perfecto. Y te agradecería que nos mandaras un correo cuando el cliente confirme.", "n": "Perfect. And I'd be grateful if you sent us an email when the client confirms." },
+          { "name": "Laura", "t": "Hecho. Os escribo esta misma tarde. ¡Gracias a los dos!", "n": "Done. I'll write to you this very afternoon. Thanks, both of you!" }
+        ],
+        "questions": [
+          { "q": "¿Por qué van atrasados en Argentina?", "n": "Why are they behind schedule in Argentina?", "t": ["El equipo de diseño no terminó las páginas de pago", "Porque no terminaron las páginas de pago", "Por las páginas de pago", "Porque el equipo de diseño no terminó"] },
+          { "q": "¿Cuál es la nueva fecha de lanzamiento?", "n": "What is the new launch date?", "t": ["El quince de mayo", "El 15 de mayo", "15 de mayo", "Quince de mayo"] },
+          { "q": "¿Quién va a hablar con el cliente?", "n": "Who is going to talk to the client?", "t": ["Laura", "Laura habla con el cliente", "Laura se encarga"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u02-l6",
+      "kind": "roleplay",
+      "title": "Asking the director",
+      "goal": "Ask a senior manager for more resources using formal, persuasive requests. Your tone decides the outcome.",
+      "phrases": [
+        { "t": "Gracias por recibirme.", "n": "Thank you for seeing me." },
+        { "t": "Quería pedirle que considerara una propuesta.", "n": "I wanted to ask you to consider a proposal." },
+        { "t": "Le agradecería que me escuchara un momento.", "n": "I'd be grateful if you'd listen to me for a moment." },
+        { "t": "Sería conveniente que lo decidiéramos esta semana.", "n": "It would be advisable for us to decide this week." }
+      ],
+      "branch": {
+        "title": "Dos personas más",
+        "scene": "You lead a project at a company in Mexico City. Your team is overloaded, and you go to see the director, Licenciado Ramírez, to ask for two more people.",
+        "name": "Licenciado Ramírez",
+        "voice": "es-MX-LibertoNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Pase, pase. Tengo quince minutos antes de mi siguiente junta. ¿De qué se trata?", "n": "Come in, come in. I've got fifteen minutes before my next meeting. What's it about?",
+            "choices": [
+              { "t": "Gracias por recibirme, licenciado. Quería pedirle que considerara ampliar el equipo del proyecto.", "n": "Thank you for seeing me. I wanted to ask you to consider expanding the project team.", "next": "listen" },
+              { "t": "Necesito dos personas más para el proyecto, ya.", "n": "I need two more people for the project, right now.", "next": "curt" }
+            ]
+          },
+          "curt": {
+            "t": "¿Ya? Uy, así no se piden las cosas. ¿A qué viene tanta prisa?", "n": "Right now? Whoa, that's not how you ask for things. Why the rush?",
+            "choices": [
+              { "t": "Disculpe, me expresé mal. Le agradecería que me escuchara un momento: tenemos un problema de plazos.", "n": "Sorry, I put that badly. I'd be grateful if you'd listen for a moment: we have a deadline problem.", "next": "listen" },
+              { "t": "Porque si no, el proyecto va a fracasar y no será culpa mía.", "n": "Because otherwise the project is going to fail and it won't be my fault.", "next": "bad" }
+            ]
+          },
+          "listen": {
+            "t": "A ver, cuénteme. Pero le advierto que el presupuesto de este año está muy ajustado.", "n": "All right, tell me. But I'm warning you that this year's budget is very tight.",
+            "choices": [
+              { "t": "Lo entiendo. Aunque el presupuesto está ajustado, sin refuerzos no llegamos a la fecha de entrega.", "n": "I understand. Although the budget is tight, without reinforcements we won't make the delivery date.", "next": "overtime" },
+              { "t": "Ah, bueno, entonces mejor lo dejamos así.", "n": "Oh, well, then we'd better leave it.", "next": "giveup" }
+            ]
+          },
+          "overtime": {
+            "t": "Mmm. ¿Y no podría su equipo hacer unas horas extra?", "n": "Hmm. And couldn't your team do some overtime?",
+            "choices": [
+              { "t": "Podríamos, pero sería conveniente que no lo hiciéramos tres meses seguidos: la gente acabaría agotada.", "n": "We could, but it would be wise not to do it for three months in a row: people would end up exhausted.", "next": "offer" },
+              { "t": "Eso ni lo piense. Mi equipo no hace horas extra.", "n": "Don't even think about it. My team doesn't do overtime.", "next": "bad" }
+            ]
+          },
+          "offer": {
+            "t": "Tiene razón, no quiero gente quemada. Dos personas no le puedo dar, pero una sí, hasta junio.", "n": "You're right, I don't want burnt-out people. I can't give you two people, but I can give you one, until June.",
+            "choices": [
+              { "t": "Se lo agradezco mucho. ¿Le parece bien que le mande hoy mismo un resumen por correo?", "n": "Thank you very much. Would it be all right if I sent you a summary by email today?", "next": "good" },
+              { "t": "Con una no es suficiente. O dos o nada.", "n": "One isn't enough. Two or nothing.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Perfecto. Mándemelo y lo firmo esta semana. Buen trabajo.", "n": "Perfect. Send it to me and I'll sign it off this week. Good work.",
+            "end": "good", "outcome": "Your formal, well-argued request got you an extra team member, and you confirmed it in writing."
+          },
+          "giveup": {
+            "t": "Bueno, como usted quiera. Si cambia de opinión, ya sabe dónde estoy.", "n": "Well, as you wish. If you change your mind, you know where I am.",
+            "end": "bad", "outcome": "You gave up at the first objection. Acknowledge the budget, then explain why the extra help is still necessary."
+          },
+          "bad": {
+            "t": "Mire, con esa actitud no vamos a llegar a ningún lado. Lo hablamos otro día.", "n": "Look, with that attitude we won't get anywhere. We'll talk about it another day.",
+            "end": "bad", "outcome": "Demands and ultimatums closed the door. Try Quería pedirle que… and Le agradecería que… and offer reasons."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Thank the director (usted) for seeing you.", "t": ["Gracias por recibirme", "Muchas gracias por recibirme", "Le agradezco que me reciba"] },
+        { "n": "Formally say you wanted to ask them to consider your proposal.", "t": ["Quería pedirle que considerara mi propuesta", "Quería pedirle que considerase mi propuesta", "Quisiera pedirle que considerara mi propuesta"] }
+      ]
+    },
+    {
+      "id": "b2-u02-l7",
+      "kind": "speaking",
+      "title": "After the meeting",
+      "goal": "Summarise a meeting for your team: proposals, decisions, tasks and a formal request.",
+      "culture": {
+        "title": "Relationships first",
+        "body": "In Mexico and Colombia, business meetings often begin with a few minutes of personal conversation about the trip, the family or the weekend, and jumping straight into business can come across as cold. Building trust (la confianza) tends to matter, so a first meeting may be more about getting to know each other than closing a deal. In Mexico, professional titles such as Licenciado or Ingeniero are often used to address colleagues and clients. In Spain, business lunches can be long, and it's not unusual for the real business to come up over coffee after the meal, during the sobremesa. Of course, habits vary a lot between companies, sectors and generations.",
+        "regions": ["MX", "CO", "ES"]
+      },
+      "phrases": [
+        { "t": "Antes de empezar, ¿qué tal el viaje?", "n": "Before we start, how was your trip?" },
+        { "t": "Les propongo lo siguiente.", "n": "Here's what I propose.", "note": "Spain, among colleagues: Os propongo lo siguiente." },
+        { "t": "En resumen, tenemos que tomar una decisión antes de fin de mes.", "n": "In short, we need to make a decision before the end of the month." },
+        { "t": "Les agradecería que me dieran su opinión antes del viernes.", "n": "I'd be grateful if you all gave me your opinion before Friday.", "note": "Spain, among colleagues: Os agradecería que me dierais vuestra opinión…" }
+      ],
+      "free": [
+        {
+          "n": "You chaired a meeting this morning. Summarise it for your team: what was proposed, what was decided, who does what by when, and finish with a formal request.",
+          "hint": "Resumiendo … X propuso que … Quedamos en que … Y se encarga de … para el … Sería conveniente que … Les agradecería que …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "a summary or decision", "any": ["resumiendo", "en resumen", "recapitulando", "quedamos en", "decidimos", "acordamos"] },
+            { "label": "who does what", "any": ["se encarga", "me encargo", "se ocupa", "me ocupo", "responsable"] },
+            { "label": "a deadline", "any": ["para el", "antes del", "a más tardar", "lunes", "martes", "miércoles", "jueves", "viernes", "semana"] },
+            { "label": "a formal request", "any": ["agradecería", "sería conveniente", "quería pedirles", "quería pedirle", "me gustaría que", "les pediría"] }
+          ],
+          "model": "Resumiendo la reunión de esta mañana: Mariana propuso que retrasáramos el lanzamiento dos semanas, y todos estuvimos de acuerdo. Quedamos en que Andrés se encarga de hablar con el cliente y yo me ocupo del nuevo calendario para el viernes. Sería conveniente que cada uno revisara sus tareas hoy mismo. Les agradecería que me mandaran sus comentarios antes del jueves a más tardar."
+        }
+      ],
+      "prompts": [
+        { "n": "Start with some small talk: before beginning, ask how the trip was.", "t": ["Antes de empezar, qué tal el viaje", "Qué tal el viaje", "Antes de empezar, cómo estuvo el viaje", "Cómo le fue en el viaje"] },
+        { "n": "Formally ask your colleagues (ustedes) to give you their opinion before Friday.", "t": ["Les agradecería que me dieran su opinión antes del viernes", "Les agradecería que me diesen su opinión antes del viernes", "Os agradecería que me dierais vuestra opinión antes del viernes"] }
+      ]
+    },
+    {
+      "id": "b2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En la reunión",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
