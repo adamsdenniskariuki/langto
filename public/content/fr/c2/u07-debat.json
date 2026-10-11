@@ -1,0 +1,821 @@
+{
+  "id": "c2-u07",
+  "title": "Le grand débat",
+  "subtitle": "High-level debate & rebuttal",
+  "icon": "🎙️",
+  "lessons": [
+    {
+      "id": "c2-u07-l1",
+      "title": "Building a case live",
+      "goal": "Build a convincing argument on the spot: thesis, proof, anticipated objection, rebuttal.",
+      "tip": {
+        "title": "Thèse, preuve, objection, réfutation",
+        "body": "A strong French intervention announces its thesis (Ma thèse est simple : …), brings proof (J'en veux pour preuve …), anticipates the objection (On m'objectera que …) and refutes it (À cela je réponds que …). Posons bien le problème buys time far better than euh. Let your voice rise at the end of each group and fall only on the last word of your conclusion. Au bout du compte: the t of bout and the p of compte are silent — o-bou-du-conte."
+      },
+      "phrases": [
+        {
+          "t": "Posons bien le problème : la question n'est pas de savoir si, mais comment.",
+          "n": "Let's frame the problem properly: the question isn't whether, but how.",
+          "note": "Buys time and reframes the debate."
+        },
+        {
+          "t": "Ma thèse est simple : nous gaspillons des ressources considérables.",
+          "n": "My thesis is simple: we are wasting considerable resources."
+        },
+        {
+          "t": "J'en veux pour preuve les montagnes de vêtements qui finissent à la décharge.",
+          "n": "The proof is the mountains of clothes that end up in landfill.",
+          "note": "Formal: literally 'I want as proof…'."
+        },
+        {
+          "t": "On m'objectera que cela coûte trop cher.",
+          "n": "People will object that it costs too much.",
+          "note": "Future of objecter: the classic way to anticipate a counter-argument."
+        },
+        {
+          "t": "À cela je réponds que l'inaction coûte plus cher encore.",
+          "n": "To that I reply that doing nothing costs even more."
+        },
+        {
+          "t": "Prenons un exemple concret.",
+          "n": "Let's take a concrete example."
+        },
+        {
+          "t": "Au bout du compte, le jeu en vaut la chandelle.",
+          "n": "In the end, it's well worth it.",
+          "note": "Literally 'the game is worth the candle'."
+        }
+      ],
+      "dialogue": {
+        "title": "TV panel: taxing throwaway fashion",
+        "voice": "fr-CA-ThierryNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Vous voulez taxer lourdement la mode jetable. Pourquoi s'en prendre aux vêtements bon marché ?",
+            "n": "You want to heavily tax throwaway fashion. Why go after cheap clothes?"
+          },
+          {
+            "who": "you",
+            "t": "Posons bien le problème : la question n'est pas de savoir si, mais comment. Ma thèse est simple : nous gaspillons des ressources considérables. J'en veux pour preuve les montagnes de vêtements qui finissent à la décharge.",
+            "n": "Let's frame the problem properly: the question isn't whether, but how. My thesis is simple: we are wasting considerable resources. The proof is the mountains of clothes that end up in landfill."
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "On vous reprochera de pénaliser les familles modestes.",
+            "n": "You'll be accused of penalising low-income families."
+          },
+          {
+            "who": "you",
+            "t": "On m'objectera en effet que cela coûte trop cher. À cela je réponds que des vêtements qui durent reviennent moins cher sur la durée.",
+            "n": "People will indeed object that it costs too much. To that I reply that clothes that last work out cheaper over time."
+          },
+          {
+            "who": "A",
+            "name": "Mathieu",
+            "t": "Avez-vous un exemple précis ?",
+            "n": "Do you have a specific example?"
+          },
+          {
+            "who": "you",
+            "t": "Prenons un exemple concret : un jean de qualité se porte dix ans, un jean jetable à peine un an. Au bout du compte, le jeu en vaut la chandelle.",
+            "n": "Let's take a concrete example: a quality pair of jeans lasts ten years, a throwaway pair barely one. In the end, it's well worth it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Anticipate the objection that it costs too much.",
+          "t": [
+            "On m'objectera que cela coûte trop cher",
+            "On m'objectera que ça coûte trop cher",
+            "On pourrait m'objecter que cela coûte trop cher"
+          ]
+        },
+        {
+          "n": "Reply that doing nothing costs even more.",
+          "t": [
+            "À cela je réponds que l'inaction coûte plus cher encore",
+            "À cela je réponds que l'inaction coûte encore plus cher",
+            "L'inaction coûte plus cher encore",
+            "L'inaction coûte encore plus cher"
+          ]
+        },
+        {
+          "n": "Conclude that, in the end, it's well worth it.",
+          "t": [
+            "Au bout du compte, le jeu en vaut la chandelle",
+            "Le jeu en vaut la chandelle",
+            "Au bout du compte, ça en vaut la peine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-l2",
+      "title": "Rebuttal under fire",
+      "goal": "Rebut distortions firmly but courteously and hold the floor when interrupted.",
+      "tip": {
+        "title": "Ferme, pas fort",
+        "body": "When someone twists your words, name it calmly: Vous me faites dire ce que je n'ai pas dit. C'est un procès d'intention means they attack your supposed motives, not your argument. Sauf votre respect is courteous on the surface and sharp underneath; c'est un peu court nods to Cyrano de Bergerac's famous tirade. If interrupted, lower your pitch and slow down. For emphasis, stress the first syllable of the key word: C'est EXactement le contraire."
+      },
+      "phrases": [
+        {
+          "t": "Permettez-moi de rectifier.",
+          "n": "Allow me to set the record straight."
+        },
+        {
+          "t": "Vous confondez deux choses bien distinctes.",
+          "n": "You're confusing two quite separate things."
+        },
+        {
+          "t": "Je ne vous ai pas interrompu, ne m'interrompez pas.",
+          "n": "I didn't interrupt you, so don't interrupt me."
+        },
+        {
+          "t": "C'est un procès d'intention.",
+          "n": "You're attacking my motives, not my argument.",
+          "note": "Literally 'a trial of intent'."
+        },
+        {
+          "t": "Sauf votre respect, c'est un peu court.",
+          "n": "With all due respect, that's a bit thin."
+        },
+        {
+          "t": "Vous me faites dire ce que je n'ai pas dit.",
+          "n": "You're putting words in my mouth."
+        },
+        {
+          "t": "Là-dessus, je vous rejoins volontiers.",
+          "n": "On that point, I'm happy to agree with you.",
+          "note": "A disarming concession."
+        }
+      ],
+      "dialogue": {
+        "title": "Head to head",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Monsieur Lacroix",
+            "t": "Votre taxe, c'est encore un impôt déguisé pour remplir les caisses de l'État !",
+            "n": "Your tax is just another disguised levy to fill the state's coffers!"
+          },
+          {
+            "who": "you",
+            "t": "Sauf votre respect, c'est un peu court. Et c'est un procès d'intention.",
+            "n": "With all due respect, that's a bit thin. And you're attacking my motives, not my argument."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Lacroix",
+            "t": "Avouez-le : vous voulez empêcher les gens de s'habiller pour pas cher !",
+            "n": "Admit it: you want to stop people from dressing cheaply!"
+          },
+          {
+            "who": "you",
+            "t": "Je ne vous ai pas interrompu, ne m'interrompez pas. Vous me faites dire ce que je n'ai pas dit.",
+            "n": "I didn't interrupt you, so don't interrupt me. You're putting words in my mouth."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Lacroix",
+            "t": "Mais les prix des vêtements ont doublé en dix ans, c'est un fait !",
+            "n": "But clothing prices have doubled in ten years, that's a fact!"
+          },
+          {
+            "who": "you",
+            "t": "Permettez-moi de rectifier : vous confondez deux choses bien distinctes, le prix et la qualité.",
+            "n": "Allow me to set the record straight: you're confusing two quite separate things, price and quality."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Lacroix",
+            "t": "Au moins, nous sommes d'accord pour dire qu'il faut réduire les déchets.",
+            "n": "At least we agree that waste has to be reduced."
+          },
+          {
+            "who": "you",
+            "t": "Là-dessus, je vous rejoins volontiers.",
+            "n": "On that point, I'm happy to agree with you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell your opponent you didn't interrupt them, so they shouldn't interrupt you.",
+          "t": [
+            "Je ne vous ai pas interrompu, ne m'interrompez pas",
+            "Je ne vous ai pas interrompue, ne m'interrompez pas",
+            "Je ne t'ai pas interrompu, ne m'interromps pas"
+          ]
+        },
+        {
+          "n": "Say, with ironic politeness, that the argument is a bit thin.",
+          "t": [
+            "Sauf votre respect, c'est un peu court",
+            "C'est un peu court"
+          ]
+        },
+        {
+          "n": "Say they are putting words in your mouth.",
+          "t": [
+            "Vous me faites dire ce que je n'ai pas dit",
+            "Tu me fais dire ce que je n'ai pas dit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-l3",
+      "title": "Steering the debate",
+      "goal": "Interject, refocus and expose a false debate in a live discussion.",
+      "tip": {
+        "title": "Maîtriser le cadre",
+        "body": "On French TV, guests fight for speaking time, so claim the floor gracefully (Si vous me permettez une brève incise …) and keep it. When the discussion drifts, name it (On tourne en rond) and pull it back (Revenons-en au fond du problème). Un faux débat is a debate about something nobody is really proposing: sharp, but fine if you explain why at once. Pronunciation: mélangeons keeps a soft g thanks to the e: mé-lan-jon."
+      },
+      "phrases": [
+        {
+          "t": "J'y reviens dans un instant.",
+          "n": "I'll come back to that in a moment."
+        },
+        {
+          "t": "On tourne en rond.",
+          "n": "We're going round in circles."
+        },
+        {
+          "t": "C'est un faux débat.",
+          "n": "That's a non-issue.",
+          "note": "A debate about something nobody is really proposing."
+        },
+        {
+          "t": "Ne mélangeons pas tout.",
+          "n": "Let's not mix everything up."
+        },
+        {
+          "t": "Revenons-en au fond du problème.",
+          "n": "Let's get back to the heart of the problem."
+        },
+        {
+          "t": "Vous n'avez toujours pas répondu à ma question.",
+          "n": "You still haven't answered my question."
+        }
+      ],
+      "dialogue": {
+        "title": "Phones at school",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Madame Perrin",
+            "t": "Interdire le portable au collège ? Autant interdire les crayons !",
+            "n": "Ban phones at secondary school? Might as well ban pencils!"
+          },
+          {
+            "who": "you",
+            "t": "C'est un faux débat. Personne ne propose de bannir le numérique de l'école.",
+            "n": "That's a non-issue. Nobody is proposing to ban digital tools from school."
+          },
+          {
+            "who": "A",
+            "name": "Madame Perrin",
+            "t": "Et les parents qui veulent joindre leurs enfants en cas d'urgence ?",
+            "n": "And what about parents who want to reach their children in an emergency?"
+          },
+          {
+            "who": "you",
+            "t": "J'y reviens dans un instant. Restons d'abord sur la concentration en classe.",
+            "n": "I'll come back to that in a moment. Let's stay with concentration in class first."
+          },
+          {
+            "who": "A",
+            "name": "Madame Perrin",
+            "t": "La concentration, la concentration… Les élèves ont toujours été distraits, avec ou sans écran !",
+            "n": "Concentration, concentration… Pupils have always been distracted, with or without screens!"
+          },
+          {
+            "who": "you",
+            "t": "Ne mélangeons pas tout. Et vous n'avez toujours pas répondu à ma question.",
+            "n": "Let's not mix everything up. And you still haven't answered my question."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say the discussion is going round in circles.",
+          "t": [
+            "On tourne en rond",
+            "Nous tournons en rond"
+          ]
+        },
+        {
+          "n": "Suggest getting back to the heart of the problem.",
+          "t": [
+            "Revenons-en au fond du problème",
+            "Revenons au fond du problème"
+          ]
+        },
+        {
+          "n": "Point out that your opponent still hasn't answered your question.",
+          "t": [
+            "Vous n'avez toujours pas répondu à ma question",
+            "Tu n'as toujours pas répondu à ma question",
+            "Vous n'avez pas répondu à ma question"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-l4",
+      "kind": "grammar",
+      "title": "Quand bien même, pour peu que, à moins que",
+      "goal": "Concede and hypothesise with quand bien même + conditional, pour peu que, à moins que and si … que + subjunctive.",
+      "tip": {
+        "title": "Complex concession and hypothesis",
+        "body": "Quand bien même (even if — stronger and more formal than même si) takes the conditional, as does the main clause: Quand bien même ce serait vrai, cela ne changerait rien. Pour peu que (provided only that) and à moins que (unless) take the subjunctive; à moins que often adds a ne explétif with no negative meaning: à moins qu'on ne trouve un accord. To concede a quality: si / aussi + adjective + que + subjunctive, with inversion: Si séduisant que soit cet argument, il ne tient pas. No liaison in quand bien, but quand il → quan-t-il."
+      },
+      "phrases": [
+        {
+          "t": "Quand bien même ce serait vrai, cela ne changerait rien au fond du problème.",
+          "n": "Even if that were true, it wouldn't change the heart of the problem at all."
+        },
+        {
+          "t": "Pour peu qu'on s'en donne les moyens, la réforme peut réussir.",
+          "n": "Provided we give ourselves the means, the reform can succeed."
+        },
+        {
+          "t": "À moins qu'on ne trouve un compromis, le projet sera abandonné.",
+          "n": "Unless a compromise is found, the project will be abandoned.",
+          "note": "ne explétif: formal, no negative meaning."
+        },
+        {
+          "t": "Si convaincant que soit cet argument, il ne résiste pas aux faits.",
+          "n": "However convincing this argument may be, it doesn't stand up to the facts."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the concessive connector",
+          "base": {
+            "t": "Même si c'était vrai, cela ne changerait rien.",
+            "n": "Even if it were true, it wouldn't change anything."
+          },
+          "items": [
+            {
+              "cue": "quand bien même",
+              "t": "Quand bien même ce serait vrai, cela ne changerait rien.",
+              "n": "Even if it were true, it wouldn't change anything."
+            },
+            {
+              "cue": "à supposer que",
+              "t": "À supposer que ce soit vrai, cela ne changerait rien.",
+              "n": "Supposing it were true, it wouldn't change anything."
+            },
+            {
+              "cue": "en admettant que",
+              "t": "En admettant que ce soit vrai, cela ne changerait rien.",
+              "n": "Granting that it were true, it wouldn't change anything."
+            }
+          ]
+        },
+        {
+          "title": "Swap the condition",
+          "base": {
+            "t": "Pour peu qu'on s'en donne les moyens, la réforme peut réussir.",
+            "n": "Provided we give ourselves the means, the reform can succeed."
+          },
+          "items": [
+            {
+              "cue": "pour peu que · chacun fait un effort",
+              "t": "Pour peu que chacun fasse un effort, la réforme peut réussir.",
+              "n": "Provided everyone makes an effort, the reform can succeed."
+            },
+            {
+              "cue": "à condition que · l'État suit",
+              "t": "À condition que l'État suive, la réforme peut réussir.",
+              "n": "On condition that the state follows suit, the reform can succeed."
+            },
+            {
+              "cue": "à moins que · les syndicats s'y opposent",
+              "t": "À moins que les syndicats ne s'y opposent, la réforme peut réussir.",
+              "n": "Unless the unions oppose it, the reform can succeed."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say: even if that were true, it wouldn't change anything.",
+          "t": [
+            "Quand bien même ce serait vrai, cela ne changerait rien",
+            "Quand bien même ce serait vrai, ça ne changerait rien",
+            "Même si c'était vrai, cela ne changerait rien"
+          ]
+        },
+        {
+          "n": "Say that unless a compromise is found, the project will be abandoned.",
+          "t": [
+            "À moins qu'on ne trouve un compromis, le projet sera abandonné",
+            "À moins qu'on trouve un compromis, le projet sera abandonné",
+            "À moins de trouver un compromis, le projet sera abandonné"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-l5",
+      "kind": "listening",
+      "title": "Radio debate: voting at sixteen",
+      "goal": "Follow a lively Québec radio debate full of concessions, hypotheses and rebuttals.",
+      "phrases": [
+        {
+          "t": "Il milite pour le droit de vote à seize ans.",
+          "n": "He campaigns for the right to vote at sixteen."
+        },
+        {
+          "t": "Les jeunes ont leur mot à dire.",
+          "n": "Young people have a say in this."
+        },
+        {
+          "t": "Une habitude prise jeune se garde toute la vie.",
+          "n": "A habit formed young stays for life."
+        },
+        {
+          "t": "On a enfin trouvé un terrain d'entente.",
+          "n": "We've finally found common ground."
+        }
+      ],
+      "story": {
+        "title": "Voter à seize ans ?",
+        "intro": "On a Montréal radio show, a host questions two guests about lowering the voting age.",
+        "lines": [
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Bonjour à vous deux. Monsieur Gagnon, vous militez pour le droit de vote à seize ans. Pourquoi ?",
+            "n": "Hello to you both. Mr Gagnon, you campaign for the right to vote at sixteen. Why?"
+          },
+          {
+            "name": "Monsieur Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "À seize ans, bien des jeunes travaillent et paient des impôts sur leur salaire. Pourquoi n'auraient-ils pas leur mot à dire ?",
+            "n": "At sixteen, many young people work and pay tax on their wages. Why shouldn't they have a say?"
+          },
+          {
+            "name": "Monsieur Tremblay",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Pas pantoute ! Quand bien même certains seraient prêts, la plupart des jeunes ne s'intéressent pas à la politique.",
+            "n": "Not at all. Even if some were ready, most young people aren't interested in politics."
+          },
+          {
+            "name": "Monsieur Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Sauf votre respect, c'est un peu court. Pour peu qu'on leur explique les enjeux à l'école, ils s'y intéressent.",
+            "n": "With all due respect, that's a bit thin. Provided the issues are explained to them at school, they do take an interest."
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Messieurs, revenons-en au fond. Qu'est-ce que ça changerait, concrètement ?",
+            "n": "Gentlemen, let's get back to the substance. What would it actually change?"
+          },
+          {
+            "name": "Monsieur Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "On prendrait l'habitude de voter tôt. Et une habitude prise jeune se garde toute la vie.",
+            "n": "People would get into the habit of voting early. And a habit formed young stays for life."
+          },
+          {
+            "name": "Monsieur Tremblay",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Là-dessus, je vous rejoins volontiers. Mais je proposerais plutôt des élections simulées dans les écoles.",
+            "n": "On that point, I'm happy to agree with you. But I'd rather propose mock elections in schools."
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "On a enfin trouvé un terrain d'entente ! Merci à vous deux.",
+            "n": "We've finally found common ground! Thank you both."
+          }
+        ],
+        "questions": [
+          {
+            "q": "À quel âge monsieur Gagnon veut-il qu'on puisse voter ?",
+            "n": "At what age does Mr Gagnon want people to be able to vote?",
+            "t": [
+              "À seize ans",
+              "Seize ans",
+              "Seize"
+            ]
+          },
+          {
+            "q": "Selon monsieur Tremblay, à quoi la plupart des jeunes ne s'intéressent-ils pas ?",
+            "n": "According to Mr Tremblay, what are most young people not interested in?",
+            "t": [
+              "À la politique",
+              "La politique",
+              "Ils ne s'intéressent pas à la politique"
+            ]
+          },
+          {
+            "q": "Où faudrait-il expliquer les enjeux, selon monsieur Gagnon ?",
+            "n": "Where should the issues be explained, according to Mr Gagnon?",
+            "t": [
+              "À l'école",
+              "L'école",
+              "Dans les écoles"
+            ]
+          },
+          {
+            "q": "Que propose monsieur Tremblay à la fin ?",
+            "n": "What does Mr Tremblay propose at the end?",
+            "t": [
+              "Des élections simulées",
+              "Des élections simulées dans les écoles",
+              "Élections simulées"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u07-l6",
+      "kind": "roleplay",
+      "title": "TV debate in the hot seat",
+      "goal": "Defend a contested proposal on live TV: concede points, never your position.",
+      "phrases": [
+        {
+          "t": "La gratuité n'est pas un cadeau, c'est un investissement.",
+          "n": "Free transport isn't a gift, it's an investment."
+        },
+        {
+          "t": "Pourriez-vous préciser votre question ?",
+          "n": "Could you make your question more precise?"
+        },
+        {
+          "t": "Les chiffres ne disent pas tout.",
+          "n": "Figures don't tell the whole story."
+        },
+        {
+          "t": "Gouverner, c'est choisir.",
+          "n": "To govern is to choose.",
+          "note": "A maxim of the duc de Lévis (1808), made famous by Pierre Mendès France."
+        }
+      ],
+      "branch": {
+        "title": "Free public transport for all?",
+        "scene": "You argue for free public transport in a debate on Swiss-French TV; the host is tough. (Swiss usage: transports publics; in France: transports en commun.)",
+        "name": "Animateur",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Vous proposez la gratuité totale des transports publics. N'est-ce pas tout simplement un cadeau électoral ?",
+            "n": "You're proposing completely free public transport. Isn't that simply an electoral sweetener?",
+            "choices": [
+              {
+                "t": "Quand bien même ce serait populaire, ce ne serait pas un cadeau : la gratuité est un investissement.",
+                "n": "Even if it were popular, it wouldn't be a gift: free transport is an investment.",
+                "next": "q2"
+              },
+              {
+                "t": "Encore une question orientée. Vous roulez pour qui, au juste ?",
+                "n": "Another loaded question. Who exactly are you working for?",
+                "next": "bad"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Le Luxembourg l'a fait, mais c'est un petit pays riche. Ça ne marche pas partout.",
+            "n": "Luxembourg did it, but it's a small, rich country. It doesn't work everywhere.",
+            "choices": [
+              {
+                "t": "Je vous l'accorde. Mais Dunkerque l'a fait aussi, et la fréquentation des bus a nettement augmenté.",
+                "n": "I grant you that. But Dunkirk did it too, and bus ridership rose markedly.",
+                "next": "q3"
+              },
+              {
+                "t": "Pourriez-vous préciser votre question ? Vous pensez à Lausanne ?",
+                "n": "Could you make your question more precise? Are you thinking of Lausanne?",
+                "next": "clarify"
+              }
+            ]
+          },
+          "clarify": {
+            "t": "Oui : une ville avec un métro, des collines et des finances limitées.",
+            "n": "Yes: a city with a metro, hills and limited finances.",
+            "choices": [
+              {
+                "t": "Pour peu qu'on la finance correctement, la gratuité y fonctionnerait aussi.",
+                "n": "Provided it's properly funded, free transport would work there too.",
+                "next": "q3"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Mais au final, qui paie ? Le contribuable, évidemment !",
+            "n": "But who pays in the end? The taxpayer, obviously!",
+            "choices": [
+              {
+                "t": "Le contribuable paie déjà en grande partie. Et les chiffres ne disent pas tout : il faut compter les bouchons et la pollution évités.",
+                "n": "The taxpayer already pays for most of it. And figures don't tell the whole story: you have to count the traffic jams and pollution avoided.",
+                "next": "q4"
+              }
+            ]
+          },
+          "q4": {
+            "t": "Une dernière phrase pour convaincre nos téléspectateurs ?",
+            "n": "One last sentence to convince our viewers?",
+            "choices": [
+              {
+                "t": "Gouverner, c'est choisir : à moins que nous ne voulions des villes asphyxiées, la gratuité s'impose.",
+                "n": "To govern is to choose: unless we want choked cities, free transport is the obvious answer.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Une conclusion très nette. Merci beaucoup.",
+            "n": "A very clear conclusion. Thank you very much.",
+            "end": "good",
+            "outcome": "You conceded details, kept your position and closed with a memorable line."
+          },
+          "bad": {
+            "t": "Je crois que nos téléspectateurs se feront leur propre opinion.",
+            "n": "I think our viewers will form their own opinion.",
+            "end": "bad",
+            "outcome": "Attacking the host cost you the audience. Answer the question, then turn it with a concession."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask the host to make the question more precise.",
+          "t": [
+            "Pourriez-vous préciser votre question",
+            "Pouvez-vous préciser votre question",
+            "Pourrais-tu préciser ta question"
+          ]
+        },
+        {
+          "n": "Say figures don't tell the whole story.",
+          "t": [
+            "Les chiffres ne disent pas tout",
+            "Les chiffres disent pas tout"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-l7",
+      "kind": "speaking",
+      "title": "Argue and rebut",
+      "goal": "Make a structured case, then rebut the strongest objection, 90 seconds each.",
+      "culture": {
+        "title": "Le débat de l'entre-deux-tours",
+        "body": "In France, the televised debate between the two presidential finalists, held between the two rounds, has been a ritual since 1974. Some lines have entered political folklore: Valéry Giscard d'Estaing's retort to François Mitterrand, « Vous n'avez pas le monopole du cœur », is still quoted. Speaking time is strictly balanced and timed on screen. In 2002, Jacques Chirac refused to debate Jean-Marie Le Pen. In Canada, federal party leaders debate in both French and English, and Québec holds its own débat des chefs before provincial elections.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je souhaiterais soumettre trois points à votre réflexion.",
+          "n": "I'd like to put three points to you for consideration."
+        },
+        {
+          "t": "Enfin, et ce n'est pas le moins important, il y va de la justice sociale.",
+          "n": "Finally, and not least, social justice is at stake.",
+          "note": "il y va de = … is at stake."
+        },
+        {
+          "t": "L'objection est évidente, et je la prends au sérieux.",
+          "n": "The objection is obvious, and I take it seriously."
+        },
+        {
+          "t": "Loin de desservir ma position, cet argument la renforce.",
+          "n": "Far from undermining my position, this argument strengthens it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Take a position on a controversial question (e.g. should voting be compulsory?): state your thesis, give two reasons and a concrete example, then conclude.",
+          "hint": "Use: Ma thèse est simple : …; Premièrement …, deuxièmement …; J'en veux pour preuve …; Au bout du compte …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "your thesis",
+              "any": [
+                "je plaide",
+                "ma thèse",
+                "je suis convaincu*",
+                "à mon sens"
+              ]
+            },
+            {
+              "label": "reasons",
+              "any": [
+                "premièrement",
+                "deuxièmement",
+                "d'abord",
+                "ensuite"
+              ]
+            },
+            {
+              "label": "an example or proof",
+              "any": [
+                "par exemple",
+                "exemple",
+                "j'en veux pour preuve",
+                "prenons"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "au bout du compte",
+                "en somme",
+                "c'est pourquoi",
+                "par conséquent"
+              ]
+            }
+          ],
+          "model": "Je plaide pour le vote obligatoire. Premièrement, il renforce la légitimité des élus ; deuxièmement, il oblige les partis à s'adresser à tous les citoyens, et pas seulement à ceux qui votent déjà. J'en veux pour preuve la Belgique, où le vote aux élections fédérales est obligatoire depuis plus d'un siècle et où la participation reste très élevée. Au bout du compte, les avantages l'emportent nettement sur les inconvénients."
+        },
+        {
+          "n": "Now rebut the strongest objection to your position: name it, concede what is true, then turn it around.",
+          "hint": "Use: On m'objectera que …; Certes …, il n'en demeure pas moins que …; Quand bien même …; Loin de desservir ma position, …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "name the objection",
+              "any": [
+                "objection",
+                "objecter*",
+                "objectera",
+                "détracteurs"
+              ]
+            },
+            {
+              "label": "a concession",
+              "any": [
+                "certes",
+                "je vous l'accorde",
+                "quand bien même",
+                "admettons"
+              ]
+            },
+            {
+              "label": "the turn",
+              "any": [
+                "mais",
+                "pourtant",
+                "cependant",
+                "néanmoins"
+              ]
+            },
+            {
+              "label": "a firm rebuttal",
+              "any": [
+                "au contraire",
+                "loin de",
+                "en aucun cas",
+                "renforce"
+              ]
+            }
+          ],
+          "model": "On m'objectera que le vote obligatoire porte atteinte à la liberté. Certes, l'objection est évidente, et je la prends au sérieux. Il n'en demeure pas moins que personne n'est obligé de choisir un parti : on peut toujours voter blanc. Quand bien même certains voteraient à contrecœur, ils se seraient au moins informés. Loin de desservir ma position, cet argument la renforce."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the objection is obvious and you take it seriously.",
+          "t": [
+            "L'objection est évidente, et je la prends au sérieux",
+            "L'objection est évidente et je la prends au sérieux",
+            "Je prends l'objection au sérieux"
+          ]
+        },
+        {
+          "n": "Say that far from undermining your position, this argument strengthens it.",
+          "t": [
+            "Loin de desservir ma position, cet argument la renforce",
+            "Loin d'affaiblir ma position, cet argument la renforce",
+            "Cet argument renforce ma position"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Le grand débat",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

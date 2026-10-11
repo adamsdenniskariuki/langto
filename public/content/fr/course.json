@@ -83,8 +83,16 @@
       "id": "C2",
       "title": "Mastery",
       "description": "Speak with precision, irony and wit, and navigate French from Québec to Dakar.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "c2/u01-subtilites.json",
+        "c2/u02-ironie.json",
+        "c2/u03-francophonie.json",
+        "c2/u04-discours.json",
+        "c2/u05-mediation.json",
+        "c2/u06-citations.json",
+        "c2/u07-debat.json",
+        "c2/u08-crise.json"
+      ]
     }
   ],
   "tracks": [
@@ -102,7 +110,8 @@
         "pron/u06-e.json",
         "pron/u07-eu.json",
         "pron/u08-rythme.json",
-        "pron/u09-intonation.json"
+        "pron/u09-intonation.json",
+        "pron/u10-regional.json"
       ]
     }
   ]

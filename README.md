@@ -1,6 +1,6 @@
 # Langto
 
-**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), French is being added level by level, and more languages can be added as content alone.
+**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), French is available from A1 to C2, and more languages can be added as content alone.
 
 🌍 Live at **https://langto.madebyfavor.com**
 
@@ -12,7 +12,7 @@
 - **Pronunciation track**: a separate path for the sounds English speakers find hard (ü ö ä, ch, r, final -en, sch/sp/st, w/v, z, vowel length, stress and intonation), with minimal-pair listening and shadowing. It unlocks gradually as you reach each level.
 - **Natural neural voices**: lesson audio is pre-generated with Azure AI Speech at build time. If a clip is missing, the browser's own voice (Web Speech API) is used instead.
 - **Step-by-step path**: CEFR-aligned levels and units. German covers the full range from A1 to C2: 50 units and over 400 lessons, plus a 10-unit pronunciation track, from greetings up to irony, rhetoric and Austrian and Swiss German. Learners who already know some German can choose to **start at any level**.
-- **French course**: CEFR levels released one at a time (A1 first, the rest marked "coming soon" until ready), with its own pronunciation track (u vs ou, nasal vowels, the French r, silent letters, liaison and élision, é/è/e muet, eu, rhythm and intonation, regional accents). Culture notes cover France, Belgium, Switzerland, Québec and francophone Africa (septante/nonante, tu vs vous, Québec vocabulary), with fr-CA, fr-BE and fr-CH voices.
+- **French course**: CEFR A1–C2 (50 units of about 8 lessons, each level ending in a speaking test), with its own pronunciation track (u vs ou, nasal vowels, the French r, silent letters, liaison and élision, é/è/e muet, eu, rhythm and intonation, regional accents). Culture notes cover France, Belgium, Switzerland, Québec and francophone Africa (septante/nonante, tu vs vous, Québec vocabulary), with fr-CA, fr-BE and fr-CH voices.
 - **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed, badges for pronunciation, checkpoints and free speaking, plus a level badge (earned by passing the level's speaking test) and a speaking milestone for each level. There are no hearts and no leaderboards.
 - **Spaced-repetition review** of every phrase you've learned, plus a **Most missed** session built from the phrases you slip on most.
 - **Themes and fonts**: System (follows dark mode), Light, Dark, Sepia, High contrast and more. Fonts include a dyslexia-friendly option, and text size is adjustable.

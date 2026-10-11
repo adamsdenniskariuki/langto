@@ -1,0 +1,839 @@
+{
+  "id": "c2-u01",
+  "title": "Subtilités",
+  "subtitle": "False friends, fine distinctions & precise vocabulary",
+  "icon": "🔍",
+  "lessons": [
+    {
+      "id": "c2-u01-l1",
+      "title": "False friends at work",
+      "goal": "Avoid the classic faux amis and correct them gracefully when they slip into a conversation.",
+      "tip": {
+        "title": "Looks English, means something else",
+        "body": "Actuellement means 'currently' (actually = en fait), éventuellement 'possibly' (eventually = finalement), assister à 'to attend' (to assist = aider), prétendre 'to claim', sensible 'sensitive', une librairie a bookshop (library = une bibliothèque) and un délai a time limit (a delay = un retard). In actuellement the final -ent is a nasal [ɑ̃], never silent: ak-tu-èl-man."
+      },
+      "phrases": [
+        {
+          "t": "Actuellement, je travaille sur deux dossiers.",
+          "n": "I'm currently working on two files.",
+          "note": "actuellement = currently, not 'actually'."
+        },
+        {
+          "t": "En fait, je n'en ai aucune idée.",
+          "n": "Actually, I have no idea."
+        },
+        {
+          "t": "On pourrait éventuellement reporter la réunion.",
+          "n": "We could possibly postpone the meeting."
+        },
+        {
+          "t": "J'ai assisté à toute la conférence.",
+          "n": "I attended the whole conference.",
+          "note": "assister à = to attend; to help = aider."
+        },
+        {
+          "t": "Il prétend qu'il n'était pas au courant.",
+          "n": "He claims he didn't know about it.",
+          "note": "prétendre = to claim, not to pretend (faire semblant)."
+        },
+        {
+          "t": "C'est un sujet sensible, il faut rester prudent.",
+          "n": "It's a sensitive subject, we need to be careful."
+        },
+        {
+          "t": "Le délai est vraiment trop court.",
+          "n": "The deadline is really too tight.",
+          "note": "un délai = time allowed; a delay = un retard."
+        }
+      ],
+      "dialogue": {
+        "title": "A misunderstanding in Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Dans ton courriel, tu as écrit que le client allait éventuellement signer. Il va signer ou pas ?",
+            "n": "In your email you wrote that the client would 'éventuellement' sign. Is he signing or not?"
+          },
+          {
+            "who": "you",
+            "t": "Pardon, faux ami ! Je voulais dire qu'il va finalement signer. En fait, c'est presque sûr.",
+            "n": "Sorry, false friend! I meant he's eventually going to sign. Actually, it's almost certain."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Ah, tant mieux ! Et le délai de livraison, il est réaliste ?",
+            "n": "Oh, good! And the delivery deadline, is it realistic?"
+          },
+          {
+            "who": "you",
+            "t": "Honnêtement, le délai est vraiment trop court. Actuellement, je travaille sur deux dossiers.",
+            "n": "Honestly, the deadline is really too tight. I'm currently working on two files."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Tu as pu parler au directeur technique ?",
+            "n": "Were you able to talk to the technical director?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, j'ai assisté à toute la conférence hier. Mais il prétend qu'il n'était pas au courant du calendrier.",
+            "n": "Yes, I attended the whole conference yesterday. But he claims he didn't know about the schedule."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Classique. Bon, on en parle avec lui demain matin ?",
+            "n": "Typical. Right, shall we talk to him about it tomorrow morning?"
+          },
+          {
+            "who": "you",
+            "t": "D'accord, mais doucement : c'est un sujet sensible, il faut rester prudent.",
+            "n": "OK, but gently: it's a sensitive subject, we need to be careful."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you are currently working on two files.",
+          "t": [
+            "Actuellement, je travaille sur deux dossiers",
+            "Actuellement je travaille sur deux dossiers",
+            "En ce moment, je travaille sur deux dossiers"
+          ]
+        },
+        {
+          "n": "Say you attended the whole conference.",
+          "t": [
+            "J'ai assisté à toute la conférence",
+            "J'ai assisté à la conférence entière"
+          ]
+        },
+        {
+          "n": "Say he claims he didn't know about it.",
+          "t": [
+            "Il prétend qu'il n'était pas au courant",
+            "Il prétend qu'il était pas au courant",
+            "Il prétend ne pas avoir été au courant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l2",
+      "title": "The precise verb",
+      "goal": "Replace vague words like faire, dire and chose with precise, elegant verbs.",
+      "tip": {
+        "title": "Ban faire, dire and chose",
+        "body": "Vague words like faire, dire and chose (thing) sound flat in formal speech. Learn precise noun–verb pairs instead: soulever une question, émettre des réserves, élaborer une stratégie, étayer un argument, susciter des réactions, mettre en évidence. C'est un euphémisme means 'that's putting it mildly'. Keep syllables even: su-si-té, é-mè-tr(e)."
+      },
+      "phrases": [
+        {
+          "t": "Il a soulevé une question pertinente.",
+          "n": "He raised a relevant question."
+        },
+        {
+          "t": "Elle a émis des réserves sur le calendrier.",
+          "n": "She expressed reservations about the schedule."
+        },
+        {
+          "t": "Nous avons élaboré une stratégie commune.",
+          "n": "We drew up a joint strategy."
+        },
+        {
+          "t": "Il faudrait étayer cet argument par des chiffres.",
+          "n": "This argument should be backed up with figures."
+        },
+        {
+          "t": "Cette décision a suscité de vives réactions.",
+          "n": "This decision provoked strong reactions."
+        },
+        {
+          "t": "Le rapport met en évidence trois lacunes.",
+          "n": "The report highlights three gaps."
+        },
+        {
+          "t": "Dire qu'il est déçu, c'est un euphémisme.",
+          "n": "To say he's disappointed is putting it mildly.",
+          "note": "c'est un euphémisme = that's an understatement."
+        }
+      ],
+      "dialogue": {
+        "title": "Editing a report in Brussels",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Alors, ce rapport ? J'ai l'impression qu'il dit beaucoup de choses sans rien dire.",
+            "n": "So, this report? I get the feeling it says a lot without saying anything."
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai. Ici, plutôt que de répéter le verbe dire, j'écrirais : il a soulevé une question pertinente.",
+            "n": "True. Here, rather than repeating the verb 'say', I'd write: he raised a relevant question."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Bien vu. Et la phrase sur la directrice financière ?",
+            "n": "Good point. And the sentence about the finance director?"
+          },
+          {
+            "who": "you",
+            "t": "Elle n'a pas simplement fait des remarques : elle a émis des réserves sur le calendrier.",
+            "n": "She didn't just make remarks: she expressed reservations about the schedule."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "D'accord. Et pour la conclusion ? Elle me semble un peu faible.",
+            "n": "OK. And the conclusion? It seems a bit weak to me."
+          },
+          {
+            "who": "you",
+            "t": "Il faudrait étayer cet argument par des chiffres. Le rapport met en évidence trois lacunes, mais sans preuves.",
+            "n": "This argument should be backed up with figures. The report highlights three gaps, but without evidence."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Et la direction ? Elle est un peu déçue, non ?",
+            "n": "And the management? They're a bit disappointed, aren't they?"
+          },
+          {
+            "who": "you",
+            "t": "Dire qu'elle est déçue, c'est un euphémisme. Cette décision a suscité de vives réactions.",
+            "n": "To say they're disappointed is putting it mildly. This decision provoked strong reactions."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say he raised a relevant question.",
+          "t": [
+            "Il a soulevé une question pertinente"
+          ]
+        },
+        {
+          "n": "Say she expressed reservations about the schedule.",
+          "t": [
+            "Elle a émis des réserves sur le calendrier",
+            "Elle a émis des réserves concernant le calendrier"
+          ]
+        },
+        {
+          "n": "Say the argument should be backed up with figures.",
+          "t": [
+            "Il faudrait étayer cet argument par des chiffres",
+            "Il faut étayer cet argument par des chiffres",
+            "Il faudrait étayer cet argument avec des chiffres"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l3",
+      "title": "Traps even natives fall into",
+      "goal": "Handle the word pairs that French speakers themselves confuse, and choose the careful form.",
+      "tip": {
+        "title": "Homophones and purists' favourites",
+        "body": "Homophones: censé (supposed to) vs sensé (sensible), voire (or even) vs voir (to see); and near-twins conjoncture (economic situation) vs conjecture (guess). Careful style: pallier un problème (no à), se rappeler quelque chose but se souvenir de quelque chose, and en revanche rather than par contre in formal writing, though par contre is perfectly normal French."
+      },
+      "phrases": [
+        {
+          "t": "Tu es censé être au bureau à neuf heures.",
+          "n": "You're supposed to be at the office at nine."
+        },
+        {
+          "t": "C'est un choix tout à fait sensé.",
+          "n": "It's a perfectly sensible choice."
+        },
+        {
+          "t": "Cela prendra plusieurs semaines, voire plusieurs mois.",
+          "n": "It will take several weeks, or even several months."
+        },
+        {
+          "t": "Il faut pallier ce manque de moyens.",
+          "n": "We need to make up for this lack of resources.",
+          "note": "Careful usage: pallier quelque chose, without à."
+        },
+        {
+          "t": "Je me rappelle très bien cette soirée.",
+          "n": "I remember that evening very well.",
+          "note": "se rappeler quelque chose / se souvenir de quelque chose."
+        },
+        {
+          "t": "La conjoncture économique reste difficile.",
+          "n": "The economic situation remains difficult.",
+          "note": "Not to be confused with une conjecture, a guess."
+        },
+        {
+          "t": "En revanche, le second point me convainc.",
+          "n": "On the other hand, the second point convinces me."
+        }
+      ],
+      "dialogue": {
+        "title": "Proofreading with a friend in Lausanne",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Tu peux relire ma lettre de candidature ? Je ne suis pas sûre de tout.",
+            "n": "Can you proofread my application letter? I'm not sure about everything."
+          },
+          {
+            "who": "you",
+            "t": "Volontiers. Ici, tu as écrit pallier à ce manque. Je mettrais plutôt pallier ce manque, sans à.",
+            "n": "Gladly. Here you wrote 'pallier à ce manque'. I'd rather put 'pallier ce manque', without à."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Mais tout le monde dit pallier à, non ?",
+            "n": "But everyone says 'pallier à', don't they?"
+          },
+          {
+            "who": "you",
+            "t": "Beaucoup de gens, oui, voire la majorité. Mais dans une lettre formelle, c'est plus sûr sans à.",
+            "n": "Lots of people, yes, maybe even the majority. But in a formal letter it's safer without à."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "D'accord. Et là, j'ai écrit sensée avec un s : je suis sensée commencer en mars. Ça va ?",
+            "n": "OK. And here I wrote sensée with an s: 'I'm supposed to start in March'. Is that fine?"
+          },
+          {
+            "who": "you",
+            "t": "Attention, ici c'est censée, avec un c : tu es censée commencer en mars. Sensé, c'est raisonnable.",
+            "n": "Careful, here it's censée with a c: you're supposed to start in March. Sensé means sensible."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say it will take several weeks, or even several months.",
+          "t": [
+            "Cela prendra plusieurs semaines, voire plusieurs mois",
+            "Ça prendra plusieurs semaines, voire plusieurs mois"
+          ]
+        },
+        {
+          "n": "Tell a friend he's supposed to be at the office at nine.",
+          "t": [
+            "Tu es censé être au bureau à neuf heures",
+            "T'es censé être au bureau à neuf heures"
+          ]
+        },
+        {
+          "n": "Say we need to make up for this lack of resources, in careful French.",
+          "t": [
+            "Il faut pallier ce manque de moyens",
+            "Nous devons pallier ce manque de moyens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l4",
+      "kind": "grammar",
+      "title": "Literary subjunctives and the ne explétif",
+      "goal": "Recognise the imperfect and pluperfect subjunctive and use the ne explétif in formal speech.",
+      "tip": {
+        "title": "Forms you read, forms you say",
+        "body": "In literary writing a past main verb can trigger the imperfect subjunctive: Il fallait qu'il vînt, bien qu'elle fût fatiguée. It is built on the passé simple; the il/elle form has a circumflex: qu'il eût, fût, fît, vînt. The pluperfect subjunctive also serves as a literary conditional: il eût fallu = il aurait fallu. Recognise these; in speech use the present or past subjunctive. The ne explétif is not a negation: Je crains qu'il ne soit trop tard, avant qu'il ne pleuve, plus compliqué que je ne le pensais. It is optional and formal; listen for the n' before a vowel."
+      },
+      "phrases": [
+        {
+          "t": "Il fallait qu'il vînt seul.",
+          "n": "He had to come alone.",
+          "note": "Literary; spoken: Il fallait qu'il vienne seul."
+        },
+        {
+          "t": "Bien qu'elle fût épuisée, elle continua.",
+          "n": "Although she was exhausted, she carried on."
+        },
+        {
+          "t": "Il eût fallu le dire plus tôt.",
+          "n": "It should have been said earlier.",
+          "note": "eût fallu = aurait fallu."
+        },
+        {
+          "t": "Je crains qu'il ne soit trop tard.",
+          "n": "I'm afraid it may be too late.",
+          "note": "ne explétif: no negation."
+        },
+        {
+          "t": "C'est plus compliqué que je ne le pensais.",
+          "n": "It's more complicated than I thought."
+        },
+        {
+          "t": "Partons avant qu'il ne pleuve.",
+          "n": "Let's leave before it rains."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Add a ne explétif",
+          "base": {
+            "t": "Je crains qu'il ne soit trop tard.",
+            "n": "I'm afraid it may be too late."
+          },
+          "items": [
+            {
+              "cue": "avoir peur · il · se tromper",
+              "t": "J'ai peur qu'il ne se trompe.",
+              "n": "I'm afraid he may be wrong."
+            },
+            {
+              "cue": "avant que · nous · partir",
+              "t": "Réglons cela avant que nous ne partions.",
+              "n": "Let's settle this before we leave."
+            },
+            {
+              "cue": "à moins que · elle · refuser",
+              "t": "Nous signerons, à moins qu'elle ne refuse.",
+              "n": "We'll sign, unless she refuses."
+            },
+            {
+              "cue": "plus difficile · je · croire",
+              "t": "C'est plus difficile que je ne le croyais.",
+              "n": "It's harder than I thought."
+            }
+          ]
+        },
+        {
+          "title": "From literary to spoken",
+          "base": {
+            "t": "Il fallait qu'il vienne seul.",
+            "n": "He had to come alone."
+          },
+          "items": [
+            {
+              "cue": "Il fallait qu'elle sût la vérité.",
+              "t": "Il fallait qu'elle sache la vérité.",
+              "n": "She had to know the truth."
+            },
+            {
+              "cue": "Je doutais qu'ils eussent compris.",
+              "t": "Je doutais qu'ils aient compris.",
+              "n": "I doubted they had understood."
+            },
+            {
+              "cue": "Il eût mieux valu se taire.",
+              "t": "Il aurait mieux valu se taire.",
+              "n": "It would have been better to keep quiet."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say formally that you're afraid it may be too late.",
+          "t": [
+            "Je crains qu'il ne soit trop tard",
+            "Je crains qu'il soit trop tard",
+            "J'ai peur qu'il ne soit trop tard"
+          ]
+        },
+        {
+          "n": "Say it's more complicated than you thought, with a ne explétif.",
+          "t": [
+            "C'est plus compliqué que je ne le pensais",
+            "C'est plus compliqué que je ne pensais",
+            "C'est plus compliqué que je ne le croyais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l5",
+      "kind": "listening",
+      "title": "Ognon or oignon?",
+      "goal": "Follow a lively staff-room debate about spelling reform, usage and the rules.",
+      "phrases": [
+        {
+          "t": "Les deux orthographes sont admises.",
+          "n": "Both spellings are accepted."
+        },
+        {
+          "t": "Ce n'est qu'une recommandation.",
+          "n": "It's only a recommendation."
+        },
+        {
+          "t": "L'usage finit toujours par trancher.",
+          "n": "Usage always settles it in the end."
+        },
+        {
+          "t": "Je ne vous jette pas la pierre.",
+          "n": "I'm not blaming you.",
+          "note": "jeter la pierre à quelqu'un = to blame someone."
+        }
+      ],
+      "story": {
+        "title": "The 1990 spelling reform in the staff room",
+        "intro": "In a Brussels school, Belgian teacher Charline and her French colleague Julien argue about a pupil's spelling; the head, Marc, settles it.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Charline",
+            "t": "Julien, tu as barré ognon sans i dans la copie de Sami. Tu sais que c'est correct ?",
+            "n": "Julien, you crossed out 'ognon' without an i in Sami's paper. You know it's correct?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Correct ? Sans le i ? Ça me fait mal aux yeux.",
+            "n": "Correct? Without the i? It hurts my eyes."
+          },
+          {
+            "name": "Charline",
+            "t": "C'est l'orthographe rectifiée de mille neuf cent quatre-vingt-dix. Les deux orthographes sont admises.",
+            "n": "It's the 1990 revised spelling. Both spellings are accepted."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Ce n'est qu'une recommandation. Personne n'écrit comme ça.",
+            "n": "It's only a recommendation. Nobody writes like that."
+          },
+          {
+            "name": "Charline",
+            "t": "Personne ? Plusieurs dictionnaires l'indiquent, et beaucoup d'enseignants l'acceptent, en Belgique comme en France.",
+            "n": "Nobody? Several dictionaries show it, and many teachers accept it, in Belgium as in France."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Soit. Mais alors, il faut aussi accepter nénufar avec un f et il parait sans accent circonflexe ?",
+            "n": "Fine. But then do we also have to accept 'nénufar' with an f and 'il parait' without a circumflex?"
+          },
+          {
+            "name": "Charline",
+            "t": "Exactement. Sur le i et le u, le circonflexe devient facultatif, sauf quand il évite une confusion, comme dans sûr ou dû.",
+            "n": "Exactly. On i and u the circumflex becomes optional, except where it avoids confusion, as in 'sûr' or 'dû'."
+          },
+          {
+            "name": "Marc",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Vous avez raison tous les deux. Julien, je ne vous jette pas la pierre, mais on ne sanctionne pas une forme admise.",
+            "n": "You're both right. Julien, I'm not blaming you, but we don't penalise an accepted form."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-FR-HenriNeural",
+            "t": "Bon. Je rends son point à Sami. Mais moi, je continuerai d'écrire oignon avec un i.",
+            "n": "All right. I'll give Sami his point back. But I'll keep writing 'oignon' with an i."
+          },
+          {
+            "name": "Charline",
+            "t": "Libre à toi. De toute façon, l'usage finit toujours par trancher.",
+            "n": "That's up to you. In any case, usage always settles it in the end."
+          }
+        ],
+        "questions": [
+          {
+            "q": "De quelle année date l'orthographe rectifiée ?",
+            "n": "Which year does the revised spelling date from?",
+            "t": [
+              "Mille neuf cent quatre-vingt-dix",
+              "De mille neuf cent quatre-vingt-dix",
+              "En mille neuf cent quatre-vingt-dix"
+            ]
+          },
+          {
+            "q": "Quel mot Julien a-t-il barré dans la copie de Sami ?",
+            "n": "Which word did Julien cross out in Sami's paper?",
+            "t": [
+              "Ognon",
+              "Oignon",
+              "Le mot ognon"
+            ]
+          },
+          {
+            "q": "Selon Charline, quand garde-t-on l'accent circonflexe sur le u ?",
+            "n": "According to Charline, when is the circumflex kept on u?",
+            "t": [
+              "Quand il évite une confusion",
+              "Pour éviter une confusion",
+              "Dans sûr et dû",
+              "Comme dans sûr ou dû"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u01-l6",
+      "kind": "roleplay",
+      "title": "The contract that said 'éventuellement'",
+      "goal": "Explain a translation error tactfully to a demanding client and propose precise wording.",
+      "phrases": [
+        {
+          "t": "Il s'agit d'un faux ami classique.",
+          "n": "It's a classic false friend."
+        },
+        {
+          "t": "Il faudrait plutôt écrire à terme.",
+          "n": "It should rather say 'à terme'.",
+          "note": "à terme = eventually, in the long run."
+        },
+        {
+          "t": "Je vous propose une formulation plus rigoureuse.",
+          "n": "I suggest a more rigorous wording."
+        },
+        {
+          "t": "Cette nuance a des conséquences juridiques.",
+          "n": "This nuance has legal consequences."
+        }
+      ],
+      "branch": {
+        "title": "A worried client in Geneva",
+        "scene": "You are a freelance translator. A client in Geneva calls: in your translation of an English contract, 'the parties will eventually renegotiate' was rendered as 'les parties renégocieront éventuellement'. His lawyer has spotted it.",
+        "name": "Monsieur Rochat",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "call",
+        "nodes": {
+          "call": {
+            "t": "Bonjour. Mon avocat me dit que votre traduction change le sens du contrat. Vous pouvez m'expliquer ?",
+            "n": "Hello. My lawyer tells me your translation changes the meaning of the contract. Can you explain?",
+            "choices": [
+              {
+                "t": "Bien sûr. Il s'agit d'un faux ami classique, et la responsabilité m'en revient.",
+                "n": "Of course. It's a classic false friend, and the responsibility is mine.",
+                "next": "explain"
+              },
+              {
+                "t": "Votre avocat chipote. C'est la même chose.",
+                "n": "Your lawyer is nitpicking. It's the same thing.",
+                "next": "angry"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Un faux ami ? Et concrètement, quelle est la différence ?",
+            "n": "A false friend? And in practical terms, what's the difference?",
+            "choices": [
+              {
+                "t": "Éventuellement veut dire si nécessaire. Or le texte anglais prévoit une renégociation certaine. Cette nuance a des conséquences juridiques.",
+                "n": "'Éventuellement' means 'if necessary'. But the English text provides for a definite renegotiation. This nuance has legal consequences.",
+                "next": "fix"
+              },
+              {
+                "t": "C'est difficile à expliquer, c'est une histoire de style.",
+                "n": "It's hard to explain, it's a matter of style.",
+                "next": "angry"
+              }
+            ]
+          },
+          "fix": {
+            "t": "Je comprends mieux. Que proposez-vous ?",
+            "n": "I understand better. What do you suggest?",
+            "choices": [
+              {
+                "t": "Je vous propose une formulation plus rigoureuse : les parties renégocieront à terme. Et je relis tout le contrat aujourd'hui, gratuitement.",
+                "n": "I suggest a more rigorous wording: the parties will renegotiate in due course. And I'll reread the whole contract today, free of charge.",
+                "next": "good"
+              },
+              {
+                "t": "On peut laisser comme ça, personne ne lira ce paragraphe.",
+                "n": "We can leave it like that, nobody will read that paragraph.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Parfait. Merci pour votre franchise. Je transmets à mon avocat.",
+            "n": "Perfect. Thank you for your frankness. I'll pass it on to my lawyer.",
+            "end": "good",
+            "outcome": "You owned the mistake, explained the nuance precisely and offered a concrete fix. The client keeps working with you."
+          },
+          "bad": {
+            "t": "Pardon ? C'est un contrat, pas un roman. Je vais faire relire le texte par quelqu'un d'autre.",
+            "n": "Sorry? It's a contract, not a novel. I'll have the text checked by someone else.",
+            "end": "bad",
+            "outcome": "You explained the nuance well, then shrugged off the fix. The client hires another reviser."
+          },
+          "angry": {
+            "t": "Je vois. Je crois que nous en resterons là. Bonne journée.",
+            "n": "I see. I think we'll leave it there. Good day.",
+            "end": "bad",
+            "outcome": "You played down or failed to explain a real error of meaning. The client ends the collaboration."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say it's a classic false friend.",
+          "t": [
+            "Il s'agit d'un faux ami classique",
+            "C'est un faux ami classique"
+          ]
+        },
+        {
+          "n": "Say this nuance has legal consequences.",
+          "t": [
+            "Cette nuance a des conséquences juridiques",
+            "Cette nuance a des implications juridiques"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-l7",
+      "kind": "speaking",
+      "title": "Rules versus real usage",
+      "goal": "Explain fine distinctions freely and discuss who decides what is 'correct' French.",
+      "culture": {
+        "title": "The Académie française and the power of usage",
+        "body": "The Académie française was founded in 1635 under Cardinal Richelieu. Its forty members, les Immortels, write a dictionary and issue recommendations that are not legally binding. Usage moves faster: Le Petit Robert and Le Petit Larousse add new words every year. In Québec the Office québécois de la langue française (OQLF) has an official role and coins French alternatives to English terms; Belgium and Switzerland also have public bodies that advise on language. Debating what is 'correct' is a favourite pastime.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "La différence peut sembler infime, mais elle est essentielle.",
+          "n": "The difference may seem tiny, but it's essential."
+        },
+        {
+          "t": "À proprement parler, ce n'est pas une faute.",
+          "n": "Strictly speaking, it isn't a mistake."
+        },
+        {
+          "t": "L'Académie le déconseille, mais l'usage l'a consacré.",
+          "n": "The Académie advises against it, but usage has established it."
+        },
+        {
+          "t": "Le mot juste serait discrétion plutôt que timidité.",
+          "n": "The right word would be discretion rather than shyness."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain the difference between two words that English speakers often confuse in French (e.g. actuellement/en fait, éventuellement/finalement, librairie/bibliothèque) and give an example of each.",
+          "hint": "Use: La différence peut sembler infime, mais …, alors que …, À proprement parler …, par exemple …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a contrast",
+              "any": [
+                "alors que",
+                "tandis que",
+                "en revanche",
+                "par contre"
+              ]
+            },
+            {
+              "label": "the false friend",
+              "any": [
+                "faux ami*",
+                "actuellement",
+                "éventuellement",
+                "librairie",
+                "bibliothèque",
+                "en fait",
+                "finalement"
+              ]
+            },
+            {
+              "label": "an example",
+              "any": [
+                "par exemple",
+                "si je dis",
+                "comme dans"
+              ]
+            },
+            {
+              "label": "precise wording",
+              "any": [
+                "à proprement parler",
+                "plutôt",
+                "signifie",
+                "veut dire"
+              ]
+            }
+          ],
+          "model": "La différence entre actuellement et en fait peut sembler infime pour un anglophone, mais elle est essentielle. Actuellement signifie en ce moment, alors que l'expression en fait veut dire en réalité. Par exemple, si je dis : actuellement, je vis à Lyon, je parle du présent. En revanche, si je dis : en fait, je n'aime pas Lyon, je rectifie une idée fausse."
+        },
+        {
+          "n": "Give your opinion: should an institution like the Académie française decide what is correct, or should usage decide?",
+          "hint": "Use: L'Académie …, l'usage …, D'un côté … de l'autre …, Je crains que … ne …, À mon sens …",
+          "seconds": 100,
+          "minWords": 60,
+          "targets": [
+            {
+              "label": "the actors",
+              "any": [
+                "académie",
+                "usage",
+                "dictionnaire*",
+                "locuteur*"
+              ]
+            },
+            {
+              "label": "weighing both sides",
+              "any": [
+                "d'un côté",
+                "certes",
+                "cependant",
+                "néanmoins"
+              ]
+            },
+            {
+              "label": "your position",
+              "any": [
+                "à mon sens",
+                "à mon avis",
+                "selon moi",
+                "je pense",
+                "j'estime"
+              ]
+            },
+            {
+              "label": "a formal touch",
+              "any": [
+                "je crains que",
+                "à moins que",
+                "à proprement parler"
+              ]
+            }
+          ],
+          "model": "D'un côté, l'Académie française joue un rôle symbolique utile : elle rappelle que la langue a une histoire. De l'autre, ce sont les locuteurs qui font l'usage, et les dictionnaires ne font que l'enregistrer. À mon sens, une institution peut conseiller, mais pas imposer. Je crains qu'une langue trop surveillée ne devienne une langue de musée."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say strictly speaking it isn't a mistake.",
+          "t": [
+            "À proprement parler, ce n'est pas une faute",
+            "À proprement parler ce n'est pas une erreur",
+            "À proprement parler, c'est pas une faute"
+          ]
+        },
+        {
+          "n": "Say the Académie advises against it, but usage has established it.",
+          "t": [
+            "L'Académie le déconseille, mais l'usage l'a consacré",
+            "L'Académie le déconseille mais l'usage l'a imposé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Subtilités",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

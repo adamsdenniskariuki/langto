@@ -1,0 +1,877 @@
+{
+  "id": "c2-u06",
+  "title": "Proverbes et citations",
+  "subtitle": "Proverbs, quotations & literary allusions",
+  "icon": "📚",
+  "lessons": [
+    {
+      "id": "c2-u06-l1",
+      "title": "Quoting the classics",
+      "goal": "Recognise famous lines from La Fontaine, Molière, Descartes, Pascal and Voltaire and drop them into conversation.",
+      "tip": {
+        "title": "La Fontaine at the dinner table",
+        "body": "Educated French speakers quote the classics casually, often ironically and often only halfway: Rien ne sert de courir … is enough for everyone to finish the line. Mark a quotation with your voice: a tiny pause before it and a slightly more theatrical tone. Note the old negation point (= pas) in Pascal and Corneille, and say donc in je pense, donc je suis with its final c: [dɔ̃k]."
+      },
+      "phrases": [
+        {
+          "t": "La raison du plus fort est toujours la meilleure.",
+          "n": "Might is right.",
+          "note": "La Fontaine, Le Loup et l'Agneau."
+        },
+        {
+          "t": "Rien ne sert de courir ; il faut partir à point.",
+          "n": "Slow and steady wins the race.",
+          "note": "La Fontaine, Le Lièvre et la Tortue."
+        },
+        {
+          "t": "On a souvent besoin d'un plus petit que soi.",
+          "n": "We often need someone smaller than ourselves.",
+          "note": "La Fontaine, Le Lion et le Rat."
+        },
+        {
+          "t": "Je pense, donc je suis.",
+          "n": "I think, therefore I am.",
+          "note": "Descartes, Discours de la méthode (1637)."
+        },
+        {
+          "t": "Le cœur a ses raisons que la raison ne connaît point.",
+          "n": "The heart has its reasons which reason does not know.",
+          "note": "Pascal, Pensées."
+        },
+        {
+          "t": "Il faut cultiver notre jardin.",
+          "n": "We must cultivate our garden.",
+          "note": "Voltaire, the last words of Candide."
+        },
+        {
+          "t": "Que diable allait-il faire dans cette galère ?",
+          "n": "What the devil was he doing in that galley?",
+          "note": "Molière, Les Fourberies de Scapin: what got him into that mess?"
+        },
+        {
+          "t": "Va, je ne te hais point.",
+          "n": "Go, I do not hate you.",
+          "note": "Corneille, Le Cid: a famous understatement for love."
+        }
+      ],
+      "dialogue": {
+        "title": "A friend with big plans",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Tu sais quoi ? Je démissionne lundi et je lance ma boîte dans la foulée.",
+            "n": "You know what? I'm quitting on Monday and launching my company straight away."
+          },
+          {
+            "who": "you",
+            "t": "Doucement ! Rien ne sert de courir ; il faut partir à point.",
+            "n": "Easy! Slow and steady wins the race."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Mon chef ne m'écoute jamais. De toute façon, c'est toujours lui qui a le dernier mot.",
+            "n": "My boss never listens to me. Anyway, he always has the last word."
+          },
+          {
+            "who": "you",
+            "t": "Comme dit La Fontaine : la raison du plus fort est toujours la meilleure.",
+            "n": "As La Fontaine says: might is right."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Pour le site web, je compte sur mon neveu de seize ans.",
+            "n": "For the website, I'm counting on my sixteen-year-old nephew."
+          },
+          {
+            "who": "you",
+            "t": "Pourquoi pas ? On a souvent besoin d'un plus petit que soi.",
+            "n": "Why not? We often need someone smaller than ourselves."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Mon ancien associé, lui, a mis toutes ses économies dans une start-up de trottinettes.",
+            "n": "My former partner put all his savings into a scooter start-up."
+          },
+          {
+            "who": "you",
+            "t": "Que diable allait-il faire dans cette galère ?",
+            "n": "What the devil was he doing in that galley?"
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Il a tout perdu. Bref, tu crois que j'ai raison de me lancer ?",
+            "n": "He lost everything. So, do you think I'm right to take the plunge?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais comme le dit Candide, il faut cultiver notre jardin : concentre-toi sur ton projet.",
+            "n": "Yes, but as Candide says, we must cultivate our garden: focus on your project."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Warn a friend not to rush, quoting La Fontaine.",
+          "t": [
+            "Rien ne sert de courir, il faut partir à point",
+            "Rien ne sert de courir"
+          ]
+        },
+        {
+          "n": "Remark ironically that might is right, quoting La Fontaine.",
+          "t": [
+            "La raison du plus fort est toujours la meilleure",
+            "Comme dit La Fontaine, la raison du plus fort est toujours la meilleure"
+          ]
+        },
+        {
+          "n": "Ask, quoting Molière, what on earth he was doing in that mess.",
+          "t": [
+            "Que diable allait-il faire dans cette galère",
+            "Mais que diable allait-il faire dans cette galère"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l2",
+      "title": "Proverbs at the right moment",
+      "goal": "Comment on situations at work with fitting proverbs.",
+      "tip": {
+        "title": "Comme dit le proverbe …",
+        "body": "Introduce a proverb with Comme dit le proverbe or Comme on dit, or just say its first half (Qui trop embrasse …) and let your listener finish it. Proverbs keep old grammar: qui means 'whoever', articles are often missing, and words keep old meanings (embrasser = to take in your arms). They live from rhythm: stress the matching words — riRA bien qui riRA le derNIER. One well-timed proverb per conversation is plenty."
+      },
+      "phrases": [
+        {
+          "t": "Comme dit le proverbe : tout est bien qui finit bien.",
+          "n": "As the saying goes: all's well that ends well."
+        },
+        {
+          "t": "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué.",
+          "n": "Don't count your chickens before they hatch."
+        },
+        {
+          "t": "Qui trop embrasse mal étreint.",
+          "n": "Don't bite off more than you can chew.",
+          "note": "Literally: whoever hugs too much holds badly."
+        },
+        {
+          "t": "Les chiens ne font pas des chats.",
+          "n": "The apple doesn't fall far from the tree.",
+          "note": "Literally: dogs don't give birth to cats."
+        },
+        {
+          "t": "Quand le vin est tiré, il faut le boire.",
+          "n": "In for a penny, in for a pound."
+        },
+        {
+          "t": "Rira bien qui rira le dernier.",
+          "n": "He who laughs last laughs longest."
+        },
+        {
+          "t": "Petit à petit, l'oiseau fait son nid.",
+          "n": "Little by little, the bird builds its nest."
+        },
+        {
+          "t": "Il n'y a pas de fumée sans feu.",
+          "n": "There's no smoke without fire."
+        }
+      ],
+      "dialogue": {
+        "title": "The project that almost failed",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Dis, tu as vu ? Le client a finalement validé le projet. Je ne l'aurais jamais cru !",
+            "n": "Hey, did you see? The client finally approved the project. I'd never have believed it!"
+          },
+          {
+            "who": "you",
+            "t": "Comme dit le proverbe : tout est bien qui finit bien.",
+            "n": "As the saying goes: all's well that ends well."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Attends un peu. Le budget n'est pas encore voté.",
+            "n": "Hang on. The budget hasn't been voted on yet."
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai, il ne faut pas vendre la peau de l'ours avant de l'avoir tué.",
+            "n": "True, we shouldn't count our chickens before they hatch."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Et maintenant, chaque service veut piloter trois projets à la fois.",
+            "n": "And now every department wants to run three projects at once."
+          },
+          {
+            "who": "you",
+            "t": "Qui trop embrasse mal étreint. Gardons une petite équipe.",
+            "n": "Don't bite off more than you can chew. Let's keep the team small."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Au fait, le fils de Dupont vient d'arriver à la compta. Aussi pointilleux que son père !",
+            "n": "By the way, Dupont's son has just joined accounts. Just as pernickety as his father!"
+          },
+          {
+            "who": "you",
+            "t": "Que veux-tu, les chiens ne font pas des chats. Allez, à tantôt !",
+            "n": "What can you do, the apple doesn't fall far from the tree. Right, see you later!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Warn against celebrating too early (sell the bear's skin).",
+          "t": [
+            "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué",
+            "Faut pas vendre la peau de l'ours avant de l'avoir tué"
+          ]
+        },
+        {
+          "n": "Say that whoever takes on too much does it badly.",
+          "t": [
+            "Qui trop embrasse mal étreint"
+          ]
+        },
+        {
+          "n": "Say that once you have started, you must follow through.",
+          "t": [
+            "Quand le vin est tiré, il faut le boire",
+            "Le vin est tiré, il faut le boire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l3",
+      "title": "Quoting sources precisely",
+      "goal": "Attribute, introduce and question quotations accurately in discussion.",
+      "tip": {
+        "title": "Qui a dit ça ?",
+        "body": "Introduce a quote with Pour reprendre les mots de … or Comme disait …, and use Pour paraphraser … when you adapt it. Many famous lines are apocryphal, so learn to say so politely: on attribue cette phrase à …, mais rien ne prouve qu'il l'ait prononcée (subjunctive after rien ne prouve que). Pronunciation: in conçoit and s'énonce, the c and ç are soft [s]."
+      },
+      "phrases": [
+        {
+          "t": "Pour reprendre les mots de Boileau : ce que l'on conçoit bien s'énonce clairement.",
+          "n": "In Boileau's words: what is well conceived is clearly expressed.",
+          "note": "Boileau, L'Art poétique (1674)."
+        },
+        {
+          "t": "Comme disait Rabelais, science sans conscience n'est que ruine de l'âme.",
+          "n": "As Rabelais said, science without conscience is the ruin of the soul.",
+          "note": "Rabelais, Pantagruel."
+        },
+        {
+          "t": "On attribue cette phrase à Henri IV, mais rien ne prouve qu'il l'ait prononcée.",
+          "n": "This sentence is attributed to Henri IV, but there's no proof he ever said it."
+        },
+        {
+          "t": "Je vous cite mot pour mot.",
+          "n": "I'm quoting you word for word."
+        },
+        {
+          "t": "Cette phrase a été sortie de son contexte.",
+          "n": "This sentence has been taken out of context."
+        }
+      ],
+      "dialogue": {
+        "title": "The farewell speech",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Pour mon discours d'adieu à Genève, je cite Henri IV : « Paris vaut bien une messe. »",
+            "n": "For my farewell speech in Geneva, I'm quoting Henri IV: 'Paris is well worth a Mass.'"
+          },
+          {
+            "who": "you",
+            "t": "Attention : on attribue cette phrase à Henri IV, mais rien ne prouve qu'il l'ait prononcée.",
+            "n": "Careful: the sentence is attributed to Henri IV, but there's no proof he ever said it."
+          },
+          {
+            "who": "A",
+            "name": "Léa",
+            "t": "Ah bon ? Alors je fais comment ?",
+            "n": "Really? So what do I do?"
+          },
+          {
+            "who": "you",
+            "t": "Dis plutôt « selon le mot prêté à Henri IV ». Et pour reprendre les mots de Boileau : ce que l'on conçoit bien s'énonce clairement. Fais court !",
+            "n": "Say 'in the words attributed to Henri IV' instead. And in Boileau's words: what is well conceived is clearly expressed. Keep it short!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Introduce Boileau's line on clear expression.",
+          "t": [
+            "Pour reprendre les mots de Boileau, ce que l'on conçoit bien s'énonce clairement",
+            "Ce que l'on conçoit bien s'énonce clairement"
+          ]
+        },
+        {
+          "n": "Say the sentence is attributed to Henri IV but there's no proof he said it.",
+          "t": [
+            "On attribue cette phrase à Henri IV, mais rien ne prouve qu'il l'ait prononcée",
+            "Cette phrase est attribuée à Henri IV, mais rien ne prouve qu'il l'ait dite"
+          ]
+        },
+        {
+          "n": "Object that a sentence has been taken out of context.",
+          "t": [
+            "Cette phrase a été sortie de son contexte",
+            "Cette phrase a été sortie du contexte"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l4",
+      "kind": "grammar",
+      "title": "Archaic and literary forms",
+      "goal": "Recognise and use the old forms that survive in proverbs and formal speech: ne alone, point, qui = whoever, missing articles.",
+      "tip": {
+        "title": "Old grammar that never died",
+        "body": "Proverbs and formal speech preserve older French. 1) ne without pas after savoir, pouvoir, oser, cesser: je ne sais, je ne puis (= je ne peux), je n'ose y croire. 2) point instead of pas (Va, je ne te hais point). 3) qui with no antecedent = celui qui, 'whoever': Qui vivra verra. 4) no article: Pierre qui roule n'amasse pas mousse. 5) il est = il y a: Il n'est pire sourd que … Pronunciation: puis is [pɥi]; never make the s heard."
+      },
+      "phrases": [
+        {
+          "t": "Qui ne dit mot consent.",
+          "n": "Silence gives consent.",
+          "note": "qui = whoever; mot without article."
+        },
+        {
+          "t": "Je ne saurais vous le dire.",
+          "n": "I really couldn't tell you.",
+          "note": "Formal: ne alone + conditional of savoir."
+        },
+        {
+          "t": "Je n'ose y croire.",
+          "n": "I hardly dare believe it."
+        },
+        {
+          "t": "Qui vivra verra.",
+          "n": "Time will tell."
+        },
+        {
+          "t": "Pierre qui roule n'amasse pas mousse.",
+          "n": "A rolling stone gathers no moss."
+        },
+        {
+          "t": "Il n'est pire sourd que celui qui ne veut pas entendre.",
+          "n": "There are none so deaf as those who will not hear.",
+          "note": "il est = il y a (literary)."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap modern → literary negation",
+          "base": {
+            "t": "Je ne sais que dire.",
+            "n": "I don't know what to say."
+          },
+          "items": [
+            {
+              "cue": "je ne peux pas accepter",
+              "t": "Je ne puis accepter.",
+              "n": "I cannot accept."
+            },
+            {
+              "cue": "je n'ose pas répondre",
+              "t": "Je n'ose répondre.",
+              "n": "I don't dare answer."
+            },
+            {
+              "cue": "je ne cesse pas d'y penser",
+              "t": "Je ne cesse d'y penser.",
+              "n": "I can't stop thinking about it."
+            },
+            {
+              "cue": "je ne pourrais pas vous dire",
+              "t": "Je ne saurais vous dire.",
+              "n": "I couldn't tell you."
+            }
+          ]
+        },
+        {
+          "title": "Swap celui qui → proverb with qui",
+          "base": {
+            "t": "Qui vivra verra.",
+            "n": "Time will tell."
+          },
+          "items": [
+            {
+              "cue": "celui qui dort dîne",
+              "t": "Qui dort dîne.",
+              "n": "Whoever sleeps forgets his hunger."
+            },
+            {
+              "cue": "celui qui va à la chasse perd sa place",
+              "t": "Qui va à la chasse perd sa place.",
+              "n": "Leave your seat and you lose it."
+            },
+            {
+              "cue": "celui qui aime bien châtie bien",
+              "t": "Qui aime bien châtie bien.",
+              "n": "Spare the rod and spoil the child."
+            },
+            {
+              "cue": "celui qui sème le vent récolte la tempête",
+              "t": "Qui sème le vent récolte la tempête.",
+              "n": "Sow the wind, reap the whirlwind."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say formally that you really couldn't tell them.",
+          "t": [
+            "Je ne saurais vous le dire",
+            "Je ne saurais vous dire"
+          ]
+        },
+        {
+          "n": "Say that silence gives consent.",
+          "t": [
+            "Qui ne dit mot consent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l5",
+      "kind": "listening",
+      "title": "Marie-Antoinette said it — or did she?",
+      "goal": "Follow a fast exchange about a famous misattributed quotation.",
+      "phrases": [
+        {
+          "t": "Il n'existe aucune preuve qu'elle l'ait dit.",
+          "n": "There's no proof she ever said it."
+        },
+        {
+          "t": "D'où vient la phrase, alors ?",
+          "n": "So where does the sentence come from?"
+        },
+        {
+          "t": "Un nom célèbre donne du poids à n'importe quelle phrase.",
+          "n": "A famous name lends weight to any sentence."
+        },
+        {
+          "t": "Vérifie toujours la source.",
+          "n": "Always check the source."
+        }
+      ],
+      "story": {
+        "title": "Let them eat brioche",
+        "intro": "Camille comes across a famous quote online; her Montréal friend Étienne is sceptical.",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "name": "Camille",
+            "t": "Regarde : ici, on dit que Marie-Antoinette aurait lancé « Qu'ils mangent de la brioche ! »",
+            "n": "Look: it says here Marie-Antoinette supposedly said 'Let them eat brioche!'"
+          },
+          {
+            "name": "Étienne",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Un classique. Sauf qu'il n'existe aucune preuve qu'elle l'ait dit.",
+            "n": "A classic. Except there's no proof she ever said it."
+          },
+          {
+            "name": "Camille",
+            "t": "D'où vient la phrase, alors ?",
+            "n": "So where does the sentence come from?"
+          },
+          {
+            "name": "Étienne",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Rousseau raconte l'anecdote dans ses Confessions. Il l'attribue à « une grande princesse », sans la nommer.",
+            "n": "Rousseau tells the anecdote in his Confessions. He attributes it to 'a great princess', without naming her."
+          },
+          {
+            "name": "Camille",
+            "t": "Et alors ? Ça pourrait quand même être elle.",
+            "n": "So? It could still be her."
+          },
+          {
+            "name": "Étienne",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Difficilement : quand il a écrit ce passage, elle était encore une enfant à Vienne.",
+            "n": "Hardly: when he wrote that passage, she was still a child in Vienna."
+          },
+          {
+            "name": "Camille",
+            "t": "Mais pourquoi tout le monde la lui prête ?",
+            "n": "But why does everyone attribute it to her?"
+          },
+          {
+            "name": "Étienne",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Parce que ça collait parfaitement à l'image d'une reine coupée du peuple.",
+            "n": "Because it fitted perfectly with the image of a queen cut off from the people."
+          },
+          {
+            "name": "Camille",
+            "t": "Bref, un nom célèbre donne du poids à n'importe quelle phrase.",
+            "n": "In short, a famous name lends weight to any sentence."
+          },
+          {
+            "name": "Étienne",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Exactement. Vérifie toujours la source, surtout sur les médias sociaux.",
+            "n": "Exactly. Always check the source, especially on social media."
+          }
+        ],
+        "questions": [
+          {
+            "q": "À qui attribue-t-on la phrase ?",
+            "n": "Who is the sentence attributed to?",
+            "t": [
+              "Marie-Antoinette",
+              "À Marie-Antoinette",
+              "À la reine"
+            ]
+          },
+          {
+            "q": "Dans quel livre Rousseau raconte-t-il l'anecdote ?",
+            "n": "In which book does Rousseau tell the anecdote?",
+            "t": [
+              "Les Confessions",
+              "Dans ses Confessions",
+              "Dans les Confessions"
+            ]
+          },
+          {
+            "q": "À qui Rousseau attribue-t-il la phrase ?",
+            "n": "Who does Rousseau attribute the sentence to?",
+            "t": [
+              "À une grande princesse",
+              "Une grande princesse",
+              "Une princesse"
+            ]
+          },
+          {
+            "q": "Que faut-il toujours vérifier ?",
+            "n": "What should you always check?",
+            "t": [
+              "La source",
+              "Les sources",
+              "Vérifier la source"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u06-l6",
+      "kind": "roleplay",
+      "title": "Misquoted in the paper",
+      "goal": "Get a newspaper to correct a misquotation — firmly but without burning bridges.",
+      "phrases": [
+        {
+          "t": "Vous m'avez mal cité.",
+          "n": "You misquoted me."
+        },
+        {
+          "t": "Je n'ai jamais dit cela.",
+          "n": "I never said that."
+        },
+        {
+          "t": "C'est une différence de taille.",
+          "n": "That's a significant difference."
+        },
+        {
+          "t": "Je vous demande de publier un rectificatif.",
+          "n": "I am asking you to publish a correction."
+        }
+      ],
+      "branch": {
+        "title": "Calling the newsroom",
+        "scene": "A Lausanne paper quoted you as supporting the closure of a local factory. You call the editor.",
+        "name": "M. Rochat, rédacteur",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Rédaction, Rochat, bonjour. Que puis-je pour vous ?",
+            "n": "Newsroom, Rochat speaking, hello. What can I do for you?",
+            "choices": [
+              {
+                "t": "Bonjour, vous m'avez mal cité dans votre article d'aujourd'hui.",
+                "n": "Hello, you misquoted me in today's article.",
+                "next": "claim"
+              },
+              {
+                "t": "Votre article est un scandale ! Vous déformez tout ce qu'on dit !",
+                "n": "Your article is a disgrace! You twist everything people say!",
+                "next": "bad"
+              }
+            ]
+          },
+          "claim": {
+            "t": "Je suis désolé de l'apprendre. De quel passage s'agit-il exactement ?",
+            "n": "I'm sorry to hear that. Which passage is it exactly?",
+            "choices": [
+              {
+                "t": "Vous écrivez que j'aurais soutenu la fermeture. Je n'ai jamais dit cela.",
+                "n": "You write that I supported the closure. I never said that.",
+                "next": "check"
+              },
+              {
+                "t": "Pardon ? La ligne est mauvaise.",
+                "n": "Sorry? The line is bad.",
+                "next": "repeat"
+              }
+            ]
+          },
+          "repeat": {
+            "t": "Je vous demandais de quel passage de l'article il s'agissait.",
+            "n": "I was asking which passage of the article it is about.",
+            "choices": [
+              {
+                "t": "De la phrase selon laquelle j'aurais soutenu la fermeture.",
+                "n": "The sentence saying I supported the closure.",
+                "next": "check"
+              }
+            ]
+          },
+          "check": {
+            "t": "D'après mes notes, vous avez dit que la fermeture était inévitable.",
+            "n": "According to my notes, you said the closure was inevitable.",
+            "choices": [
+              {
+                "t": "Inévitable ne veut pas dire souhaitable. C'est une différence de taille.",
+                "n": "Inevitable doesn't mean desirable. That's a significant difference.",
+                "next": "concede"
+              },
+              {
+                "t": "Vos notes ne valent manifestement rien.",
+                "n": "Your notes are obviously worthless.",
+                "next": "bad"
+              }
+            ]
+          },
+          "concede": {
+            "t": "Je vous l'accorde. Que proposez-vous ?",
+            "n": "I grant you that. What do you suggest?",
+            "choices": [
+              {
+                "t": "Je vous demande de publier un rectificatif dans l'édition en ligne.",
+                "n": "I am asking you to publish a correction in the online edition.",
+                "next": "good"
+              },
+              {
+                "t": "J'exige des excuses en première page.",
+                "n": "I demand an apology on the front page.",
+                "next": "front"
+              }
+            ]
+          },
+          "front": {
+            "t": "Ce n'est malheureusement pas réaliste. En revanche, je peux vous promettre un rectificatif en ligne.",
+            "n": "Unfortunately that isn't realistic. But I can promise you a correction online.",
+            "choices": [
+              {
+                "t": "Bien, ça me convient.",
+                "n": "Fine, that suits me.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Le rectificatif paraîtra aujourd'hui, avec la mention que vos propos ont été mal rapportés.",
+            "n": "The correction will appear today, stating that your words were misreported.",
+            "end": "good",
+            "outcome": "You got a correction published without making an enemy of the newspaper."
+          },
+          "bad": {
+            "t": "Je ne poursuivrai pas cette conversation sur ce ton. Au revoir.",
+            "n": "I won't continue this conversation in that tone. Goodbye.",
+            "end": "bad",
+            "outcome": "Attacking the journalist ended the call — state the difference calmly and ask for a correction."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the journalist he misquoted you.",
+          "t": [
+            "Vous m'avez mal cité",
+            "Vous m'avez mal citée"
+          ]
+        },
+        {
+          "n": "Ask them to publish a correction.",
+          "t": [
+            "Je vous demande de publier un rectificatif",
+            "Pourriez-vous publier un rectificatif"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-l7",
+      "kind": "speaking",
+      "title": "Words that stayed with you",
+      "goal": "Present a quotation or proverb that matters to you and retell a fable with its moral.",
+      "culture": {
+        "title": "La Fontaine in the classroom",
+        "body": "Jean de La Fontaine (1621–1695) published his Fables in verse, reworking stories from Aesop and other sources. For generations, pupils in France — and in many other francophone school systems — have learned fables such as Le Corbeau et le Renard or La Cigale et la Fourmi by heart and recited them in class (la récitation). As a result, many of his lines live on as everyday expressions, and a half-quoted morale is instantly recognised. Molière, Corneille and Racine play a similar role for theatre, and Victor Hugo's Les Misérables is known far beyond France.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Cette phrase m'accompagne depuis l'école.",
+          "n": "This line has stayed with me since school."
+        },
+        {
+          "t": "Elle résume bien ce que je vis souvent.",
+          "n": "It sums up what I often experience."
+        },
+        {
+          "t": "Aujourd'hui, je nuancerais davantage.",
+          "n": "Today I'd put it in a more nuanced way."
+        },
+        {
+          "t": "Tout flatteur vit aux dépens de celui qui l'écoute.",
+          "n": "Every flatterer lives at the expense of whoever listens to him.",
+          "note": "La Fontaine, Le Corbeau et le Renard."
+        }
+      ],
+      "free": [
+        {
+          "n": "Present a quotation or proverb that means something to you: where it comes from, what it means, and when it helped you.",
+          "hint": "Use: Ma citation préférée est de …; Comme dit le proverbe, …; Cette phrase résume …; Quand j'ai …, elle m'a aidé(e).",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "the quotation itself",
+              "any": [
+                "citation",
+                "proverbe",
+                "phrase",
+                "maxime"
+              ]
+            },
+            {
+              "label": "its source",
+              "any": [
+                "vient de",
+                "attribu*",
+                "comme disait",
+                "comme dit"
+              ]
+            },
+            {
+              "label": "its meaning",
+              "any": [
+                "signifie",
+                "veut dire",
+                "résume",
+                "sens"
+              ]
+            },
+            {
+              "label": "a personal experience",
+              "any": [
+                "quand j",
+                "à l'époque",
+                "aidé*",
+                "vécu"
+              ]
+            }
+          ],
+          "model": "Ma citation préférée vient de La Fontaine : « Rien ne sert de courir ; il faut partir à point. » Cette phrase résume bien ce que je vis souvent : la précipitation ne mène à rien. Quand j'ai préparé mes examens, je commençais toujours trop tard. Depuis, je m'organise mieux, et cette maxime m'a vraiment aidée."
+        },
+        {
+          "n": "Retell a fable or a short traditional story you know, then state its moral and say whether you agree with it.",
+          "hint": "Use: Il était une fois …; Le renard / la cigale …; La morale, c'est que …; Je suis d'accord, mais …",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "the story",
+              "any": [
+                "fable",
+                "histoire",
+                "il était une fois",
+                "conte"
+              ]
+            },
+            {
+              "label": "the characters",
+              "any": [
+                "renard",
+                "corbeau",
+                "cigale",
+                "fourmi"
+              ]
+            },
+            {
+              "label": "the moral",
+              "any": [
+                "morale",
+                "leçon",
+                "nous apprend",
+                "moralité"
+              ]
+            },
+            {
+              "label": "your opinion",
+              "any": [
+                "je suis d'accord",
+                "je trouve",
+                "je nuancerais",
+                "à mon avis"
+              ]
+            }
+          ],
+          "model": "Dans la fable Le Corbeau et le Renard, un corbeau tient un fromage dans son bec. Le renard le flatte et lui demande de chanter. Le corbeau ouvre le bec, et le fromage tombe. La morale, c'est que tout flatteur vit aux dépens de celui qui l'écoute. Je suis d'accord, mais aujourd'hui je nuancerais : un compliment sincère n'est pas forcément une ruse."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say this line has stayed with you since school.",
+          "t": [
+            "Cette phrase m'accompagne depuis l'école",
+            "Cette citation m'accompagne depuis l'école"
+          ]
+        },
+        {
+          "n": "Quote La Fontaine's moral about flatterers.",
+          "t": [
+            "Tout flatteur vit aux dépens de celui qui l'écoute"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Proverbes et citations",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
