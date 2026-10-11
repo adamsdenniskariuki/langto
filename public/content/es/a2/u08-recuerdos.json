@@ -1,0 +1,316 @@
+{
+  "id": "a2-u08",
+  "title": "Recuerdos",
+  "subtitle": "Childhood & how things used to be",
+  "icon": "📷",
+  "lessons": [
+    {
+      "id": "a2-u08-l1",
+      "title": "When I was little",
+      "goal": "Describe where you lived and what life was like as a child.",
+      "tip": {
+        "title": "era, tenía, vivía: the imperfect",
+        "body": "To describe how things used to be, Spanish uses the imperfect (pretérito imperfecto). -ar verbs take -aba: jugar → jugaba. -er and -ir verbs take -ía: tener → tenía, vivir → vivía. The \"I\" and \"he/she\" forms are the same, so add a name or pronoun when it isn't clear. Start a memory with cuando era pequeño (a man) / pequeña (a woman), or, for everyone, cuando tenía diez años or en mi infancia."
+      },
+      "phrases": [
+        { "t": "Cuando era pequeño, vivía en un pueblo.", "n": "When I was little, I lived in a village.", "note": "A woman says pequeña. In Latin America also cuando era niño / niña." },
+        { "t": "Vivíamos en una casa con jardín.", "n": "We lived in a house with a garden." },
+        { "t": "Tenía un perro que se llamaba Rufo.", "n": "I had a dog called Rufo." },
+        { "t": "Iba al colegio andando.", "n": "I used to walk to school.", "note": "Mexico: iba a la escuela caminando." },
+        { "t": "Mi mejor amigo se llamaba Pablo.", "n": "My best friend was called Pablo." },
+        { "t": "Mis abuelos vivían cerca.", "n": "My grandparents lived nearby." },
+        { "t": "Era muy tímido.", "n": "I was very shy.", "note": "A woman says tímida." },
+        { "t": "Me encantaba el chocolate.", "n": "I loved chocolate." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Childhood homes",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "Oye, ¿dónde vivías en tu infancia?", "n": "Hey, where did you live as a child?" },
+          { "who": "you", "t": "Vivía en un pueblo pequeño, cerca del mar. ¿Y tú?", "n": "I lived in a small village near the sea. And you?" },
+          { "who": "A", "name": "Lucía", "t": "Yo vivía en Madrid, en un piso muy pequeño. ¿Tenías mascotas?", "n": "I lived in Madrid, in a very small flat. Did you have pets?" },
+          { "who": "you", "t": "Sí, teníamos un perro. Se llamaba Rufo y era muy bueno.", "n": "Yes, we had a dog. He was called Rufo and he was very good." },
+          { "who": "A", "name": "Lucía", "t": "¡Qué suerte! Yo quería un perro, pero en el piso no podíamos tener animales.", "n": "Lucky you! I wanted a dog, but we couldn't have animals in the flat." },
+          { "who": "you", "t": "¡Qué pena! Rufo jugaba con todos los niños del pueblo.", "n": "What a shame! Rufo used to play with all the children in the village." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that when you were ten you lived in a small town.", "t": ["Cuando tenía diez años vivía en un pueblo", "Cuando tenía diez años vivía en un pueblo pequeño", "Cuando tenía diez años vivía en una ciudad pequeña"] },
+        { "n": "Say you had a dog.", "t": ["Tenía un perro", "Teníamos un perro"] },
+        { "n": "Ask a friend where they lived when they were little (use de pequeño or de pequeña).", "t": ["Dónde vivías de pequeño", "Dónde vivías de pequeña", "Dónde vivías cuando eras pequeño", "Dónde vivías cuando eras pequeña"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l2",
+      "title": "Games & habits",
+      "goal": "Say what you used to do as a child.",
+      "tip": {
+        "title": "Habits in the past",
+        "body": "The imperfect also describes habits: things you did again and again, like English \"used to\" or \"would\". Words like siempre, todos los días, a menudo (often) and los veranos go well with it. Childhood words vary by region: cartoons are dibujos animados in Spain and caricaturas in Mexico; hide-and-seek is el escondite in Spain and las escondidas in Mexico; to ride a bike is montar en bici in Spain and andar en bici in Mexico."
+      },
+      "phrases": [
+        { "t": "Jugaba al escondite con mis primos.", "n": "I used to play hide-and-seek with my cousins.", "note": "Mexico: jugaba a las escondidas." },
+        { "t": "Siempre jugábamos en la calle.", "n": "We always played in the street." },
+        { "t": "Los veranos íbamos a la playa.", "n": "In the summers we used to go to the beach." },
+        { "t": "Veía los dibujos animados.", "n": "I used to watch cartoons.", "note": "Mexico: veía las caricaturas." },
+        { "t": "Montaba en bici todos los días.", "n": "I rode my bike every day.", "note": "Mexico: andaba en bici." },
+        { "t": "Leía muchos cómics.", "n": "I used to read lots of comics." },
+        { "t": "Mi abuela nos contaba cuentos.", "n": "My grandmother used to tell us stories." },
+        { "t": "No me gustaban las verduras.", "n": "I didn't like vegetables." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Games we used to play",
+        "lines": [
+          { "who": "A", "name": "Rodrigo", "t": "Oye, ¿a qué jugabas cuando tenías ocho o nueve años?", "n": "Hey, what did you use to play when you were eight or nine?" },
+          { "who": "you", "t": "Jugaba mucho al fútbol en la calle. ¿Y tú?", "n": "I played a lot of football in the street. And you?" },
+          { "who": "A", "name": "Rodrigo", "t": "Yo jugaba a las canicas y a las escondidas con mis primos.", "n": "I used to play marbles and hide-and-seek with my cousins." },
+          { "who": "you", "t": "¿Y veías mucha tele?", "n": "And did you watch a lot of TV?" },
+          { "who": "A", "name": "Rodrigo", "t": "¡Uf, sí! Veía caricaturas todas las tardes después de la escuela.", "n": "Oh yes! I watched cartoons every afternoon after school." },
+          { "who": "you", "t": "Yo también. Y los sábados mi abuela nos contaba cuentos.", "n": "Me too. And on Saturdays my grandmother used to tell us stories." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you used to play football in the street.", "t": ["Jugaba al fútbol en la calle", "Jugaba fútbol en la calle", "Jugábamos al fútbol en la calle"] },
+        { "n": "Say your grandmother used to tell you stories.", "t": ["Mi abuela me contaba cuentos", "Mi abuela nos contaba cuentos", "Mi abuela me contaba historias"] },
+        { "n": "Say you used to watch cartoons every afternoon.", "t": ["Veía dibujos animados todas las tardes", "Veía caricaturas todas las tardes", "Todas las tardes veía dibujos animados", "Todas las tardes veía caricaturas"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l3",
+      "title": "Calling an old friend",
+      "goal": "Call an old friend, share a memory and suggest meeting up.",
+      "tip": {
+        "title": "¿Te acuerdas?",
+        "body": "In Spain people answer the phone with ¿Sí? or ¿Dígame?; in Mexico you'll hear ¿Bueno?. To talk about remembering, use acordarse de: ¿Te acuerdas de mí? Claro que me acuerdo. Add a shared memory with ¿Te acuerdas de cuando …? plus the imperfect: ¿Te acuerdas de cuando íbamos al río? ¡Cuánto tiempo! means \"It's been ages!\". In Spain quedar means to meet up (¿Quedamos mañana?); in Mexico people say ¿Nos vemos mañana?"
+      },
+      "phrases": [
+        { "t": "¿Dígame?", "n": "Hello? (answering the phone)", "note": "Spain. In Mexico: ¿Bueno?" },
+        { "t": "¡Cuánto tiempo!", "n": "It's been ages!" },
+        { "t": "¿Te acuerdas de mí?", "n": "Do you remember me?" },
+        { "t": "¡Claro que me acuerdo!", "n": "Of course I remember!" },
+        { "t": "¡Qué alegría oírte!", "n": "It's so good to hear from you!" },
+        { "t": "¿Qué es de tu vida?", "n": "What have you been up to?" },
+        { "t": "¿Te acuerdas de cuando íbamos al río?", "n": "Do you remember when we used to go to the river?" },
+        { "t": "Tenemos que vernos pronto.", "n": "We have to see each other soon." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Calling Marta",
+        "lines": [
+          { "who": "A", "name": "Marta", "t": "¿Sí? ¿Dígame?", "n": "Yes? Hello?" },
+          { "who": "you", "t": "¡Hola, Marta! Soy Alex, del colegio. ¿Te acuerdas de mí?", "n": "Hi, Marta! It's Alex, from school. Do you remember me?" },
+          { "who": "A", "name": "Marta", "t": "¡Alex! ¡Claro que me acuerdo! ¡Cuánto tiempo! ¿Qué es de tu vida?", "n": "Alex! Of course I remember! It's been ages! What have you been up to?" },
+          { "who": "you", "t": "Todo bien. Estoy en Valencia unos días. ¿Te acuerdas de cuando íbamos a la playa en bici?", "n": "All good. I'm in Valencia for a few days. Do you remember when we used to cycle to the beach?" },
+          { "who": "A", "name": "Marta", "t": "¡Claro! Y siempre llegábamos tarde a cenar. ¡Qué alegría oírte!", "n": "Of course! And we were always late for dinner. It's so good to hear from you!" },
+          { "who": "you", "t": "Tenemos que vernos pronto. ¿Quedamos mañana?", "n": "We have to see each other soon. Shall we meet tomorrow?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask an old friend if they remember you.", "t": ["Te acuerdas de mí"] },
+        { "n": "Say \"It's been ages!\"", "t": ["Cuánto tiempo", "Cuánto tiempo sin vernos", "Cuánto tiempo sin hablar"] },
+        { "n": "Say you have to see each other soon.", "t": ["Tenemos que vernos pronto", "Tenemos que vernos"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l4",
+      "kind": "grammar",
+      "title": "Imperfect or indefinido?",
+      "goal": "Use the imperfect for habits and background, the indefinido for single events.",
+      "tip": {
+        "title": "Background vs. event",
+        "body": "Spanish has two main past tenses. The imperfect (jugaba, tenía, vivía) sets the scene: descriptions, background and habits, like English \"used to\" or \"was …ing\". Only three verbs are irregular: ser → era, ir → iba, ver → veía. The indefinido (jugué, tuve, fui) tells single, finished events, often with un día, ayer or el verano pasado. Together: Jugábamos en el parque (background) cuando empezó a llover (event). Adjectives still agree: cuando era pequeño (man), cuando era pequeña (woman)."
+      },
+      "phrases": [
+        { "t": "Cuando era pequeña, vivía en Sevilla.", "n": "When I was little, I lived in Seville.", "note": "A man says pequeño." },
+        { "t": "Todos los veranos íbamos al pueblo.", "n": "Every summer we used to go to the village." },
+        { "t": "Mis padres trabajaban mucho.", "n": "My parents worked a lot." },
+        { "t": "Un verano aprendí a nadar.", "n": "One summer I learned to swim." },
+        { "t": "Jugábamos en el parque cuando empezó a llover.", "n": "We were playing in the park when it started to rain." }
+      ],
+      "drills": [
+        {
+          "title": "Who used to play?",
+          "base": { "t": "Jugaba en la calle.", "n": "I used to play in the street." },
+          "items": [
+            { "cue": "nosotros", "t": "Jugábamos en la calle.", "n": "We used to play in the street." },
+            { "cue": "mi hermano", "t": "Mi hermano jugaba en la calle.", "n": "My brother used to play in the street." },
+            { "cue": "tú?", "t": "¿Jugabas en la calle?", "n": "Did you use to play in the street?" },
+            { "cue": "ellos", "t": "Jugaban en la calle.", "n": "They used to play in the street." }
+          ]
+        },
+        {
+          "title": "Habit or one-off?",
+          "base": { "t": "Siempre íbamos a la playa.", "n": "We always used to go to the beach." },
+          "items": [
+            { "cue": "un día", "t": "Un día fuimos a la playa.", "n": "One day we went to the beach." },
+            { "cue": "todos los veranos", "t": "Todos los veranos íbamos a la playa.", "n": "Every summer we used to go to the beach." },
+            { "cue": "el verano pasado", "t": "El verano pasado fuimos a la playa.", "n": "Last summer we went to the beach." },
+            { "cue": "de niños", "t": "De niños íbamos a la playa.", "n": "As children we used to go to the beach." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you used to live in a big city.", "t": ["Vivía en una ciudad grande", "Antes vivía en una ciudad grande", "Vivía en una gran ciudad"] },
+        { "n": "Say that last summer you went to the beach.", "t": ["El verano pasado fui a la playa", "El verano pasado fuimos a la playa", "Fui a la playa el verano pasado"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l5",
+      "kind": "listening",
+      "title": "Grandpa's village",
+      "goal": "Follow a grandfather's memories of village life.",
+      "phrases": [
+        { "t": "¿Cómo era el pueblo antes?", "n": "What was the village like before?" },
+        { "t": "No teníamos tele.", "n": "We didn't have a TV." },
+        { "t": "Nos sentábamos en la puerta a tomar el fresco.", "n": "We used to sit by the front door to enjoy the cool evening air.", "note": "tomar el fresco: to sit outside when the evening cools down, a summer custom in Spanish villages." },
+        { "t": "Conocí a tu abuela en las fiestas del pueblo.", "n": "I met your grandmother at the village festival." }
+      ],
+      "story": {
+        "title": "Abuelo Antonio",
+        "intro": "Paula asks her grandfather Antonio what life was like in his village in Castile when he was a child.",
+        "voice": "es-ES-AbrilNeural",
+        "lines": [
+          { "name": "Paula", "t": "Abuelo, ¿cómo era el pueblo cuando eras pequeño?", "n": "Grandpa, what was the village like when you were little?" },
+          { "name": "Antonio", "voice": "es-ES-AlvaroNeural", "t": "Era muy diferente. Vivían muchas más familias y había niños por todas partes.", "n": "It was very different. Many more families lived there and there were children everywhere." },
+          { "name": "Paula", "t": "¿Y teníais tele?", "n": "And did you have a TV?" },
+          { "name": "Antonio", "voice": "es-ES-AlvaroNeural", "t": "No, no teníamos tele. Jugábamos en la calle todo el día, y por las noches nos sentábamos en la puerta a tomar el fresco con los vecinos.", "n": "No, we didn't have a TV. We played in the street all day, and in the evenings we sat by the door enjoying the cool air with the neighbours." },
+          { "name": "Paula", "t": "¿Ibas al colegio en el pueblo?", "n": "Did you go to school in the village?" },
+          { "name": "Antonio", "voice": "es-ES-AlvaroNeural", "t": "Sí, había una escuela pequeña con una sola maestra para todos los niños.", "n": "Yes, there was a small school with just one teacher for all the children." },
+          { "name": "Paula", "t": "¿Y en verano?", "n": "And in summer?" },
+          { "name": "Antonio", "voice": "es-ES-AlvaroNeural", "t": "En verano ayudaba a mi padre en el campo. Y un verano conocí a tu abuela en las fiestas del pueblo.", "n": "In summer I helped my father in the fields. And one summer I met your grandmother at the village festival." }
+        ],
+        "questions": [
+          { "q": "¿Tenían tele en casa de Antonio?", "n": "Did they have a TV at Antonio's house?", "t": ["No", "No tenían tele", "No, no tenían"] },
+          { "q": "¿Dónde jugaban los niños?", "n": "Where did the children play?", "t": ["En la calle", "Jugaban en la calle"] },
+          { "q": "¿Dónde conoció Antonio a la abuela?", "n": "Where did Antonio meet the grandmother?", "t": ["En las fiestas del pueblo", "En las fiestas", "La conoció en las fiestas del pueblo"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u08-l6",
+      "kind": "roleplay",
+      "title": "A call to Puebla",
+      "goal": "Get back in touch with an old friend and arrange to meet.",
+      "phrases": [
+        { "t": "¿Bueno?", "n": "Hello? (answering the phone)", "note": "How people answer the phone in Mexico." },
+        { "t": "¿Está Daniela, por favor?", "n": "Is Daniela there, please?" },
+        { "t": "¡No lo puedo creer!", "n": "I can't believe it!" },
+        { "t": "¡Qué gusto oírte!", "n": "How nice to hear from you!" }
+      ],
+      "branch": {
+        "title": "Calling Daniela",
+        "scene": "Ten years ago you spent a year in Puebla, Mexico, and Daniela lived on your street. You're back in Puebla for work and call her old home number.",
+        "name": "Daniela",
+        "voice": "es-MX-DaliaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¿Bueno?", "n": "Hello?",
+            "choices": [
+              { "t": "Hola, ¿está Daniela, por favor?", "n": "Hello, is Daniela there, please?", "next": "who" },
+              { "t": "Hola, Daniela. Soy Alex. ¿Te acuerdas de mí?", "n": "Hi, Daniela. It's Alex. Do you remember me?", "next": "remember" }
+            ]
+          },
+          "who": {
+            "t": "Sí, soy yo. ¿Quién habla?", "n": "Yes, speaking. Who's calling?",
+            "choices": [
+              { "t": "Soy Alex. Vivíamos en la misma calle hace diez años.", "n": "It's Alex. We lived on the same street ten years ago.", "next": "remember" },
+              { "t": "Perdón, número equivocado.", "n": "Sorry, wrong number.", "next": "hangup" }
+            ]
+          },
+          "hangup": {
+            "t": "Ah, bueno. No hay problema.", "n": "Oh, OK. No problem.",
+            "end": "bad", "outcome": "It was the right number! You hung up before saying who you were. Try Soy Alex. ¿Te acuerdas de mí?"
+          },
+          "remember": {
+            "t": "¡Alex! ¡No lo puedo creer! ¡Cuánto tiempo! ¿Dónde estás?", "n": "Alex! I can't believe it! It's been ages! Where are you?",
+            "choices": [
+              { "t": "Estoy aquí en Puebla, por trabajo.", "n": "I'm here in Puebla, for work.", "next": "memories" },
+              { "t": "En Puebla. ¿Tienes tiempo esta semana?", "n": "In Puebla. Do you have time this week?", "next": "meet" }
+            ]
+          },
+          "memories": {
+            "t": "¡Qué padre! ¿Te acuerdas de cuando íbamos al mercado a comer cemitas?", "n": "How cool! Do you remember when we used to go to the market to eat cemitas?",
+            "choices": [
+              { "t": "¡Claro que me acuerdo! Íbamos todos los sábados.", "n": "Of course I remember! We used to go every Saturday.", "next": "meet" },
+              { "t": "No, no me acuerdo de nada.", "n": "No, I don't remember anything.", "next": "forgot" }
+            ]
+          },
+          "forgot": {
+            "t": "Ah… bueno. Oye, ahorita estoy ocupada. Luego te llamo.", "n": "Oh… OK. Listen, I'm busy right now. I'll call you later.",
+            "end": "bad", "outcome": "Daniela felt a bit hurt and ended the call. Share the memory: ¡Claro que me acuerdo!"
+          },
+          "meet": {
+            "t": "¡Tenemos que vernos! ¿Estás libre el sábado?", "n": "We have to see each other! Are you free on Saturday?",
+            "choices": [
+              { "t": "¡Sí! ¿Nos vemos en el mercado, como antes?", "n": "Yes! Shall we meet at the market, like before?", "next": "good" },
+              { "t": "El sábado trabajo. ¿Qué tal el domingo?", "n": "I'm working on Saturday. How about Sunday?", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "¡Me encanta la idea! ¡Qué gusto oírte, de verdad!", "n": "I love that idea! It's really nice to hear from you!",
+            "end": "good", "outcome": "You got back in touch with Daniela and made a plan to meet."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Answer the phone the way people do in Mexico.", "t": ["Bueno", "Bueno quién habla"] },
+        { "n": "Say you can't believe it.", "t": ["No lo puedo creer", "No puedo creerlo"] }
+      ]
+    },
+    {
+      "id": "a2-u08-l7",
+      "kind": "speaking",
+      "title": "My childhood",
+      "goal": "Talk about your childhood for 60 seconds.",
+      "culture": {
+        "title": "Summers in the pueblo",
+        "body": "Many families in Spain have roots in a small village, which they simply call el pueblo, because parents or grandparents moved to the cities in the second half of the 20th century. For many Spaniards, childhood memories mean long summer holidays there with grandparents and cousins: playing in the street until late, riding bikes and going to the village fiestas, which in many places are held in summer. In Mexico, classic childhood games include canicas (marbles), el trompo (the spinning top) and la lotería, a bingo-like game with picture cards that many families still play at get-togethers. Ask a Spanish speaker ¿A qué jugabas de pequeño? and you may well get a long, happy answer.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Pasaba los veranos en el pueblo.", "n": "I used to spend the summers in the village." },
+        { "t": "Jugábamos a la lotería con mis abuelos.", "n": "We used to play lotería with my grandparents." },
+        { "t": "Era una época muy feliz.", "n": "It was a very happy time." },
+        { "t": "Echo de menos aquellos veranos.", "n": "I miss those summers.", "note": "Mexico and much of Latin America: extraño aquellos veranos." }
+      ],
+      "free": [
+        {
+          "n": "Talk about your childhood: where you lived, what your home was like, who was important to you, what you used to do and one special memory.",
+          "hint": "Use Cuando era pequeño/a … / Cuando tenía … años, vivía en …, Vivíamos en una casa …, Todos los días jugaba …, Los veranos íbamos …, Un día / Un verano …, Era una época ….",
+          "seconds": 60,
+          "minWords": 25,
+          "targets": [
+            { "label": "where you lived", "any": ["vivía", "vivíamos", "casa", "pueblo", "ciudad", "piso", "departamento"] },
+            { "label": "a habit (imperfect)", "any": ["jugaba", "jugábamos", "iba", "íbamos", "veía", "tenía", "teníamos", "me gustaba", "me encantaba", "pasaba"] },
+            { "label": "people", "any": ["padres", "abuelos", "abuela", "abuelo", "hermano", "hermana", "amigos", "primos", "mejor amigo", "mejor amiga"] },
+            { "label": "a single event", "any": ["un día", "una vez", "un verano", "fui", "fuimos", "conocí", "aprendí"] },
+            { "label": "when", "any": ["cuando era", "de pequeño", "de pequeña", "de niño", "de niña", "cuando tenía", "los veranos", "en verano"] }
+          ],
+          "model": "Cuando era pequeño, vivía en un pueblo cerca del mar. Vivíamos en una casa vieja con un jardín grande. Todos los días jugaba en la calle con mis primos, y los veranos íbamos a la playa con mis abuelos. Mi abuela nos contaba cuentos por la noche. Un verano aprendí a nadar y fui al mar todos los días. Era una época muy feliz."
+        }
+      ],
+      "prompts": [
+        { "n": "Say it was a very happy time.", "t": ["Era una época muy feliz", "Fue una época muy feliz"] },
+        { "n": "Say you miss those summers.", "t": ["Echo de menos aquellos veranos", "Extraño aquellos veranos", "Echo de menos esos veranos", "Extraño esos veranos"] }
+      ]
+    },
+    {
+      "id": "a2-u08-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Recuerdos",
+      "goal": "Say the unit's phrases from memory."
+    },
+    {
+      "id": "a2-test",
+      "kind": "test",
+      "title": "A2 speaking test",
+      "goal": "Pass to earn your A2 badge and unlock B1.",
+      "tip": {
+        "title": "You can do this",
+        "body": "The test mixes phrases from all the A2 units: what you did recently, travel, health, your home, work, plans for the future, restaurants and childhood memories. Answer in full sentences, take a breath before you speak, and don't worry about small mistakes: being understood is what counts."
+      }
+    }
+  ]
+}

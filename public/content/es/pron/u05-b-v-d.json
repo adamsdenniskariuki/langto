@@ -1,0 +1,73 @@
+{
+  "id": "pron-u05",
+  "level": "A2",
+  "title": "B, v y la d suave",
+  "subtitle": "Soft b/v & soft d",
+  "icon": "🐄",
+  "lessons": [
+    {
+      "id": "pron-u05-l1",
+      "kind": "pron",
+      "title": "B and v: one sound",
+      "goal": "Say b and v the same way, hard or soft, and keep them apart from p.",
+      "tip": {
+        "title": "No teeth on the lip",
+        "body": "In Spanish, b and v are the same sound. Never touch your top teeth to your lower lip as for English \"v\". Vaca (cow) and baca (roof rack), tuvo (had) and tubo (tube), vello (body hair) and bello (beautiful), votar (to vote) and botar (to bounce) sound exactly alike. After a pause, m or n, close both lips fully, like English \"b\": vamos, ambos, un vaso (the n sounds like m: \"um baso\"). Between vowels and in most other places, the lips come close but don't close, and air keeps flowing: la vaca, uva, cabeza. For p, close the lips without voice and without the puff of air of English \"p\"."
+      },
+      "phrases": [
+        { "t": "Vamos a beber vino.", "n": "Let's drink wine." },
+        { "t": "Un vaso de agua, por favor.", "n": "A glass of water, please." },
+        { "t": "La vaca come uvas.", "n": "The cow eats grapes." },
+        { "t": "Ambos viven en Bilbao.", "n": "They both live in Bilbao." }
+      ],
+      "pairs": [
+        { "sound": "b / p", "a": { "t": "beso", "n": "kiss" }, "b": { "t": "peso", "n": "weight" } },
+        { "sound": "b / p", "a": { "t": "bata", "n": "bathrobe; lab coat" }, "b": { "t": "pata", "n": "paw; leg (of an animal)" } },
+        { "sound": "v / p", "a": { "t": "vino", "n": "wine" }, "b": { "t": "pino", "n": "pine tree" } },
+        { "sound": "b / p", "a": { "t": "boca", "n": "mouth" }, "b": { "t": "poca", "n": "little (amount)" } },
+        { "sound": "b / p", "a": { "t": "bala", "n": "bullet" }, "b": { "t": "pala", "n": "shovel" } },
+        { "sound": "v / p", "a": { "t": "vaso", "n": "glass" }, "b": { "t": "paso", "n": "step" } }
+      ],
+      "stress": [
+        { "t": "Vamos a beber vino.", "n": "Let's drink wine.", "mark": "*Va*mos a be*ber* *vi*no." },
+        { "t": "La vaca come uvas.", "n": "The cow eats grapes.", "mark": "La *va*ca *co*me *u*vas." },
+        { "t": "Ambos viven en Bilbao.", "n": "They both live in Bilbao.", "mark": "*Am*bos *vi*ven en Bil*ba*o." }
+      ],
+      "prompts": [
+        { "n": "Say \"a glass of water\".", "t": ["Un vaso de agua"] }
+      ]
+    },
+    {
+      "id": "pron-u05-l2",
+      "kind": "pron",
+      "title": "The soft d",
+      "goal": "Use a hard d after a pause, n or l, and a soft d between vowels.",
+      "tip": {
+        "title": "Like \"th\" in \"this\"",
+        "body": "Spanish d is made with the tongue tip touching the back of the upper teeth, not the ridge behind them as in English. After a pause, n or l it is a full stop: dónde, andar, falda. Between vowels and at the end of a word it is soft: the tongue tip rests lightly near the edge of the teeth and air flows, like the \"th\" in English \"this\": cada, todo, nada. Don't turn it into the quick flap of American \"ladder\": Spanish ears hear that as r (cada vs cara). In casual Spain Spanish, -ado is often weakened to \"-ao\" (cansao); understand it, but say cansado. Spanish t is also against the teeth, with no puff of air."
+      },
+      "phrases": [
+        { "t": "¿Dónde vives?", "n": "Where do you live?" },
+        { "t": "Estoy cansado.", "n": "I'm tired.", "note": "A woman says cansada. In casual Spain Spanish you'll hear \"cansao\"." },
+        { "t": "Cada día ando un poco.", "n": "Every day I walk a little." },
+        { "t": "No pasa nada.", "n": "It's OK. / No problem." }
+      ],
+      "pairs": [
+        { "sound": "d / t", "a": { "t": "dos", "n": "two" }, "b": { "t": "tos", "n": "cough" } },
+        { "sound": "d / t", "a": { "t": "de", "n": "of, from" }, "b": { "t": "te", "n": "you (object)" } },
+        { "sound": "d / t", "a": { "t": "cada", "n": "each" }, "b": { "t": "cata", "n": "tasting" } },
+        { "sound": "d / t", "a": { "t": "lodo", "n": "mud" }, "b": { "t": "loto", "n": "lotus" } },
+        { "sound": "d / t", "a": { "t": "codo", "n": "elbow" }, "b": { "t": "coto", "n": "game reserve" } },
+        { "sound": "d / t", "a": { "t": "moda", "n": "fashion" }, "b": { "t": "mota", "n": "speck" } }
+      ],
+      "stress": [
+        { "t": "¿Dónde vives?", "n": "Where do you live?", "mark": "¿*Dón*de *vi*ves?" },
+        { "t": "Cada día ando un poco.", "n": "Every day I walk a little.", "mark": "*Ca*da *dí*a *an*do un *po*co." },
+        { "t": "No pasa nada.", "n": "It's OK. / No problem.", "mark": "*No* *pa*sa *na*da." }
+      ],
+      "prompts": [
+        { "n": "Ask \"Where do you live?\".", "t": ["Dónde vives", "Dónde vive usted"] }
+      ]
+    }
+  ]
+}

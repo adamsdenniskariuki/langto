@@ -1,0 +1,308 @@
+{
+  "id": "a2-u01",
+  "title": "¿Qué has hecho?",
+  "subtitle": "The recent past",
+  "icon": "⏪",
+  "lessons": [
+    {
+      "id": "a2-u01-l1",
+      "title": "What have you done today?",
+      "goal": "Say what you've done today with the pretérito perfecto.",
+      "tip": {
+        "title": "he, has, ha + -ado / -ido",
+        "body": "For things that happened today or in a time that isn't over yet (esta mañana, esta semana, este año), Spain uses the pretérito perfecto: a form of haber + a past participle. He trabajado (I've worked), has comido (you've eaten), ha salido (she's gone out). Participles: -ar → -ado (trabajar → trabajado), -er and -ir → -ido (comer → comido, salir → salido). The participle never changes. In Mexico and most of Latin America people prefer the simple past even for today: Hoy trabajé mucho. Both are correct and understood everywhere; you'll learn the simple past in the next unit."
+      },
+      "phrases": [
+        { "t": "¿Qué has hecho hoy?", "n": "What have you done today? / What did you do today?", "note": "Latin America usually: ¿Qué hiciste hoy?" },
+        { "t": "Hoy he trabajado mucho.", "n": "I've worked a lot today.", "note": "Latin America usually: Hoy trabajé mucho." },
+        { "t": "Esta mañana he ido al gimnasio.", "n": "This morning I went to the gym.", "note": "ir → ido" },
+        { "t": "He comido con mis compañeros.", "n": "I had lunch with my colleagues." },
+        { "t": "He llegado tarde a la oficina.", "n": "I got to the office late." },
+        { "t": "Esta tarde he estudiado español.", "n": "This afternoon I studied Spanish." },
+        { "t": "No he tenido tiempo.", "n": "I haven't had time.", "note": "no always goes before he / has / ha." },
+        { "t": "¡Ha sido un día muy largo!", "n": "It's been a very long day!", "note": "ser → sido" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Evening call with Lucía",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¡Hola! ¿Qué tal? ¿Qué has hecho hoy?", "n": "Hi! How are things? What have you done today?" },
+          { "who": "you", "t": "Hoy he trabajado mucho. ¿Y tú?", "n": "I've worked a lot today. And you?" },
+          { "who": "A", "name": "Lucía", "t": "Yo esta mañana he ido al gimnasio y luego he comido con mi madre.", "n": "This morning I went to the gym and then had lunch with my mother." },
+          { "who": "you", "t": "¡Qué bien! Yo no he tenido tiempo para comer.", "n": "How nice! I haven't had time to eat." },
+          { "who": "A", "name": "Lucía", "t": "¡Uf! ¿Y esta tarde? ¿Has descansado un poco?", "n": "Phew! And this afternoon? Have you rested a bit?" },
+          { "who": "you", "t": "No, esta tarde he estudiado español. ¡Ha sido un día muy largo!", "n": "No, this afternoon I studied Spanish. It's been a very long day!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they've done today.", "t": ["Qué has hecho hoy", "Qué hiciste hoy"] },
+        { "n": "Say you've worked a lot today.", "t": ["Hoy he trabajado mucho", "He trabajado mucho hoy", "Hoy trabajé mucho", "Trabajé mucho hoy"] },
+        { "n": "Say you haven't had time.", "t": ["No he tenido tiempo", "No tuve tiempo"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l2",
+      "title": "This week",
+      "goal": "Talk about your week using irregular participles.",
+      "tip": {
+        "title": "hecho, visto, dicho, escrito…",
+        "body": "Some very common verbs have irregular participles. Learn them as words: hacer → hecho (done/made), ver → visto (seen), decir → dicho (said), escribir → escrito (written), volver → vuelto (come back), poner → puesto (put), abrir → abierto (opened). Keep haber and the participle together: nothing goes between them. Little pronouns go in front: No lo he visto (I haven't seen it), ¿Qué te ha dicho? (What did he tell you?)."
+      },
+      "phrases": [
+        { "t": "¿Has visto mis gafas?", "n": "Have you seen my glasses?", "note": "Latin America: lentes or anteojos." },
+        { "t": "¿Dónde has puesto las llaves?", "n": "Where have you put the keys?" },
+        { "t": "Esta semana he visto una película muy buena.", "n": "This week I've seen a really good film." },
+        { "t": "He escrito muchos correos.", "n": "I've written a lot of emails." },
+        { "t": "¿Qué te ha dicho la jefa?", "n": "What did the boss tell you?", "note": "A male boss is el jefe." },
+        { "t": "Mi hermano ha vuelto de Londres.", "n": "My brother has come back from London." },
+        { "t": "He hecho la cena.", "n": "I've made dinner." },
+        { "t": "Han abierto un bar nuevo.", "n": "They've opened a new bar.", "note": "abrir → abierto" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Friday at the office with Pablo",
+        "lines": [
+          { "who": "A", "name": "Pablo", "t": "¡Por fin es viernes! ¿Qué tal la semana?", "n": "It's Friday at last! How was your week?" },
+          { "who": "you", "t": "Muy intensa. He escrito muchos correos y he tenido muchas reuniones.", "n": "Very busy. I've written lots of emails and had lots of meetings." },
+          { "who": "A", "name": "Pablo", "t": "¿Y has hablado con la jefa nueva?", "n": "And have you talked to the new boss?" },
+          { "who": "you", "t": "Sí, esta mañana. Me ha dicho que el lunes hay una reunión importante.", "n": "Yes, this morning. She told me there's an important meeting on Monday." },
+          { "who": "A", "name": "Pablo", "t": "Vaya… Oye, ¿has visto mis llaves? No sé dónde las he puesto.", "n": "Oh dear… Hey, have you seen my keys? I don't know where I've put them." },
+          { "who": "you", "t": "No, no las he visto. ¿Has mirado en tu chaqueta?", "n": "No, I haven't seen them. Have you looked in your jacket?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend if they've seen your keys.", "t": ["Has visto mis llaves", "Viste mis llaves"] },
+        { "n": "Say you've written a lot of emails.", "t": ["He escrito muchos correos", "Escribí muchos correos", "He escrito muchos emails"] },
+        { "n": "Say you've made dinner.", "t": ["He hecho la cena", "Hice la cena"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l3",
+      "title": "Have you ever…?",
+      "goal": "Talk about experiences with ya, todavía no, alguna vez and nunca.",
+      "tip": {
+        "title": "ya, todavía no, alguna vez, nunca",
+        "body": "Ya means \"already\" (or \"yet\" in questions): ¿Ya has comido? Todavía no means \"not yet\" (aún no is the same). Alguna vez means \"ever\": ¿Has estado alguna vez en México? Nunca means \"never\": Nunca he probado el mole. Short answers are very natural: Sí, una vez. · Todavía no. · ¡Nunca! For life experiences the perfecto is used everywhere, but for ya questions Mexicans usually switch to the simple past: ¿Ya comiste? ¿Ya probaste el mole?"
+      },
+      "phrases": [
+        { "t": "¿Has estado alguna vez en México?", "n": "Have you ever been to Mexico?" },
+        { "t": "Sí, he estado dos veces.", "n": "Yes, I've been twice." },
+        { "t": "Nunca he probado el mole.", "n": "I've never tried mole.", "note": "Mole: a rich Mexican sauce made with chillies and spices; some kinds contain chocolate." },
+        { "t": "¿Ya has comido?", "n": "Have you eaten yet?", "note": "Mexico: ¿Ya comiste?" },
+        { "t": "Todavía no.", "n": "Not yet." },
+        { "t": "Ya he reservado el hotel.", "n": "I've already booked the hotel." },
+        { "t": "Todavía no he visto las pirámides.", "n": "I haven't seen the pyramids yet." },
+        { "t": "Siempre he querido ir.", "n": "I've always wanted to go." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Visiting Mariana in Mexico City",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "¿Es tu primera vez en México?", "n": "Is it your first time in Mexico?" },
+          { "who": "you", "t": "Sí, es mi primer viaje. Nunca he estado en Latinoamérica.", "n": "Yes, it's my first trip. I've never been to Latin America." },
+          { "who": "A", "name": "Mariana", "t": "¡Qué padre! ¿Y ya probaste el mole?", "n": "How cool! And have you tried mole yet?" },
+          { "who": "you", "t": "Todavía no. ¿Es muy picante?", "n": "Not yet. Is it very spicy?" },
+          { "who": "A", "name": "Mariana", "t": "Un poquito. ¿Y ya fuiste a Teotihuacán?", "n": "A little bit. And have you been to Teotihuacán yet?" },
+          { "who": "you", "t": "No, todavía no he visto las pirámides. ¡Siempre he querido ir!", "n": "No, I haven't seen the pyramids yet. I've always wanted to go!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask someone if they've ever been to Mexico.", "t": ["Has estado alguna vez en México", "Has estado en México alguna vez", "Alguna vez has estado en México"] },
+        { "n": "Say you've never tried mole.", "t": ["Nunca he probado el mole", "No he probado nunca el mole", "Nunca probé el mole", "Nunca he probado mole"] },
+        { "n": "Answer: not yet.", "t": ["Todavía no", "Aún no"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l4",
+      "kind": "grammar",
+      "title": "The pretérito perfecto",
+      "goal": "Build the perfecto for every person.",
+      "tip": {
+        "title": "haber + participle",
+        "body": "Haber is the helper: he, has, ha, hemos, habéis, han + participle. Yo he comido, tú has comido, ella / usted ha comido, nosotros hemos comido, vosotros habéis comido (Spain only), ellos / ustedes han comido. With reflexive verbs the pronoun goes first: me he levantado, se ha duchado. Use it for today, this week, ever and never. In Spain it's the everyday choice for recent events; in Latin America it's mostly for experiences (¿Has estado en Cancún?), while finished events, even this morning's, usually go in the simple past."
+      },
+      "phrases": [
+        { "t": "Hoy me he levantado temprano.", "n": "I got up early today." },
+        { "t": "¿Habéis comido ya?", "n": "Have you (all) eaten yet?", "note": "vosotros: Spain only. Latin America: ¿Ya comieron?" },
+        { "t": "Mis padres han vuelto de vacaciones.", "n": "My parents have come back from holiday.", "note": "Mexico: mis papás." },
+        { "t": "Todavía no hemos visto la película.", "n": "We haven't seen the film yet." },
+        { "t": "¿Ha llamado alguien?", "n": "Has anyone called?" }
+      ],
+      "drills": [
+        {
+          "title": "Who has finished?",
+          "base": { "t": "He terminado el trabajo.", "n": "I've finished the work." },
+          "items": [
+            { "cue": "tú?", "t": "¿Has terminado el trabajo?", "n": "Have you finished the work?" },
+            { "cue": "María", "t": "María ha terminado el trabajo.", "n": "María has finished the work." },
+            { "cue": "nosotros", "t": "Hemos terminado el trabajo.", "n": "We've finished the work." },
+            { "cue": "ellos · todavía no", "t": "Todavía no han terminado el trabajo.", "n": "They haven't finished the work yet." }
+          ]
+        },
+        {
+          "title": "Irregular participles",
+          "base": { "t": "He hecho la cena.", "n": "I've made dinner." },
+          "items": [
+            { "cue": "ver · la película", "t": "He visto la película.", "n": "I've seen the film." },
+            { "cue": "escribir · un correo", "t": "He escrito un correo.", "n": "I've written an email." },
+            { "cue": "decir · la verdad", "t": "He dicho la verdad.", "n": "I've told the truth." },
+            { "cue": "poner · la mesa", "t": "He puesto la mesa.", "n": "I've laid the table." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you got up early today.", "t": ["Hoy me he levantado temprano", "Me he levantado temprano", "Hoy me levanté temprano", "Me levanté temprano"] },
+        { "n": "Say your parents have come back from holiday.", "t": ["Mis padres han vuelto de vacaciones", "Mis padres volvieron de vacaciones", "Mis papás han vuelto de vacaciones", "Mis papás volvieron de vacaciones"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l5",
+      "kind": "listening",
+      "title": "You're late!",
+      "goal": "Follow someone explaining what went wrong this morning.",
+      "phrases": [
+        { "t": "¿Qué ha pasado?", "n": "What's happened?" },
+        { "t": "No ha sonado el despertador.", "n": "The alarm clock didn't go off." },
+        { "t": "He perdido el autobús.", "n": "I've missed the bus." },
+        { "t": "Me he dejado el móvil en casa.", "n": "I've left my phone at home.", "note": "Latin America: Dejé el celular en casa." }
+      ],
+      "story": {
+        "title": "A disastrous morning",
+        "intro": "Javi arrives very late to meet his friend Carmen at a café in Madrid and explains his morning.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Carmen", "t": "¡Javi, por fin! Te he esperado media hora. ¿Qué ha pasado?", "n": "Javi, at last! I've waited for you for half an hour. What's happened?" },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "Lo siento mucho, Carmen. ¡Hoy ha sido un desastre! Me he despertado tarde porque no ha sonado el despertador.", "n": "I'm really sorry, Carmen. Today has been a disaster! I woke up late because the alarm didn't go off." },
+          { "name": "Carmen", "t": "¡Vaya! ¿Y has desayunado?", "n": "Oh no! And have you had breakfast?" },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "No, no he tenido tiempo. Luego he perdido el autobús y he venido andando.", "n": "No, I haven't had time. Then I missed the bus and walked here." },
+          { "name": "Carmen", "t": "¡Pobre! ¿Y no has visto mis mensajes?", "n": "Poor you! And didn't you see my messages?" },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "No, me he dejado el móvil en casa. ¡Por eso no te he llamado!", "n": "No, I've left my phone at home. That's why I didn't call you!" },
+          { "name": "Carmen", "t": "Bueno, no pasa nada. Ya he pedido dos cafés y unos churros.", "n": "Well, never mind. I've already ordered two coffees and some churros." },
+          { "name": "Javi", "voice": "es-ES-SaulNeural", "t": "¡Gracias, eres la mejor! Por fin una buena noticia hoy.", "n": "Thanks, you're the best! Some good news today at last." }
+        ],
+        "questions": [
+          { "q": "¿Por qué se ha despertado tarde Javi?", "n": "Why did Javi wake up late?", "t": ["Porque no ha sonado el despertador", "No ha sonado el despertador", "Porque no sonó el despertador", "Por el despertador"] },
+          { "q": "¿Cómo ha venido Javi al café?", "n": "How did Javi get to the café?", "t": ["Andando", "A pie", "Caminando", "Ha venido andando"] },
+          { "q": "¿Qué ha pedido Carmen?", "n": "What has Carmen ordered?", "t": ["Dos cafés y unos churros", "Dos cafés y churros", "Café y churros", "Cafés y churros"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u01-l6",
+      "kind": "roleplay",
+      "title": "Lost property",
+      "goal": "Report something you've lost and describe it.",
+      "phrases": [
+        { "t": "He perdido mi mochila.", "n": "I've lost my backpack." },
+        { "t": "La he perdido esta mañana.", "n": "I lost it this morning." },
+        { "t": "He estado en el tren de Toledo.", "n": "I've been on the Toledo train." },
+        { "t": "Dentro hay un ordenador.", "n": "There's a laptop inside.", "note": "Latin America: una computadora (laptop)." }
+      ],
+      "branch": {
+        "title": "At the lost property office",
+        "scene": "You're at a big train station in Madrid. This morning you left your backpack somewhere, and you go to the lost property office (objetos perdidos).",
+        "name": "Empleado",
+        "voice": "es-ES-AlvaroNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Buenos días, objetos perdidos. ¿En qué le puedo ayudar?", "n": "Good morning, lost property. How can I help you?",
+            "choices": [
+              { "t": "Buenos días. He perdido mi mochila.", "n": "Good morning. I've lost my backpack.", "next": "when" },
+              { "t": "Hola. Busco mi mochila. ¿La tienen ustedes?", "n": "Hi. I'm looking for my backpack. Have you got it?", "next": "when" }
+            ]
+          },
+          "when": {
+            "t": "Vaya. ¿Cuándo y dónde la ha perdido?", "n": "Oh dear. When and where did you lose it?",
+            "choices": [
+              { "t": "Esta mañana. He estado en el tren de Toledo.", "n": "This morning. I've been on the Toledo train.", "next": "color" },
+              { "t": "No sé. Hoy he ido a muchos sitios.", "n": "I don't know. I've been to lots of places today.", "next": "unsure" }
+            ]
+          },
+          "unsure": {
+            "t": "Bueno… ¿Ha estado hoy en algún tren?", "n": "Well… have you been on a train today?",
+            "choices": [
+              { "t": "Sí, he estado en el tren de Toledo.", "n": "Yes, I've been on the Toledo train.", "next": "color" },
+              { "t": "No me acuerdo.", "n": "I don't remember.", "next": "noidea" }
+            ]
+          },
+          "color": {
+            "t": "Muy bien. ¿Cómo es la mochila? ¿Qué hay dentro?", "n": "Very good. What's the backpack like? What's inside?",
+            "choices": [
+              { "t": "Es azul. Dentro hay un ordenador y un libro.", "n": "It's blue. There's a laptop and a book inside.", "next": "found" },
+              { "t": "Es una mochila normal.", "n": "It's a normal backpack.", "next": "vague" }
+            ]
+          },
+          "vague": {
+            "t": "Hmm, aquí tenemos veinte mochilas normales. ¿De qué color es?", "n": "Hmm, we've got twenty normal backpacks here. What colour is it?",
+            "choices": [
+              { "t": "Es azul y tiene un ordenador dentro.", "n": "It's blue and it has a laptop inside.", "next": "found" },
+              { "t": "No me acuerdo.", "n": "I don't remember.", "next": "noidea" }
+            ]
+          },
+          "noidea": {
+            "t": "Lo siento, así no puedo buscarla. Vuelva cuando se acuerde.", "n": "I'm sorry, I can't look for it like this. Come back when you remember.",
+            "end": "bad", "outcome": "Without details the clerk couldn't help. Say where you've been (He estado en…) and describe the bag."
+          },
+          "found": {
+            "t": "¡Aquí está! Una mochila azul con un ordenador. ¿Me deja su DNI o su pasaporte?", "n": "Here it is! A blue backpack with a laptop. Can I see your ID card or passport?",
+            "choices": [
+              { "t": "Sí, aquí tiene. ¡Muchísimas gracias!", "n": "Yes, here you are. Thank you so much!", "next": "thanks" },
+              { "t": "Mi pasaporte está en la mochila.", "n": "My passport is in the backpack.", "next": "thanks" }
+            ]
+          },
+          "thanks": {
+            "t": "Perfecto, todo en orden. ¡Y la próxima vez, cuidado con la mochila!", "n": "Perfect, everything's in order. And next time, keep an eye on your backpack!",
+            "end": "good", "outcome": "You described your backpack clearly and got it back."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say you've lost your backpack.", "t": ["He perdido mi mochila", "He perdido la mochila", "Perdí mi mochila", "Perdí la mochila"] },
+        { "n": "Say you lost it this morning.", "t": ["La he perdido esta mañana", "La perdí esta mañana"] }
+      ]
+    },
+    {
+      "id": "a2-u01-l7",
+      "kind": "speaking",
+      "title": "My week so far",
+      "goal": "Talk for 60 seconds about what you've done this week.",
+      "culture": {
+        "title": "Hoy he comido or hoy comí?",
+        "body": "Ask someone from Madrid what they did today and you'll hear the perfecto: Hoy he comido paella con mis padres. Ask someone from Mexico City and you'll usually hear the simple past: Hoy comí tacos con mis papás. Latin Americans do use the perfecto, but mostly for experiences up to now (¿Has estado en Cancún?) or things that are still going on. In parts of Spain too, such as Galicia, Asturias and the Canary Islands, people tend to prefer the simple past. Neither is a mistake, so choose the one that feels natural to you and you'll be understood everywhere.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Esta semana ha sido muy intensa.", "n": "This week has been very busy." },
+        { "t": "Hoy he comido paella.", "n": "Today I had paella.", "note": "Typical in Spain." },
+        { "t": "Hoy comí tacos.", "n": "Today I had tacos.", "note": "Typical in Mexico and most of Latin America." },
+        { "t": "Este fin de semana he descansado.", "n": "This weekend I've rested." }
+      ],
+      "free": [
+        {
+          "n": "Tell a friend what you've done this week: work, free time, and something you haven't done yet.",
+          "hint": "Use Esta semana he …, Hoy he …, Esta mañana he …, He visto / He hecho / He escrito …, Ya he … / Todavía no he …, Ha sido ….",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "a time phrase", "any": ["esta semana", "hoy", "esta mañana", "esta tarde", "este fin de semana"] },
+            { "label": "something you've done", "any": ["he trabajado", "he visto", "he hecho", "he comido", "he ido", "he estudiado", "he escrito", "he estado"] },
+            { "label": "an activity", "any": ["trabajo", "película", "gimnasio", "amigos", "compra", "cena", "correos", "español"] },
+            { "label": "ya / todavía no / nunca", "any": ["ya", "todavía no", "aún no", "nunca"] }
+          ],
+          "model": "Esta semana ha sido muy intensa. He trabajado mucho y he escrito muchos correos. Esta mañana he ido al gimnasio y luego he comido con unos amigos. También he visto una película muy buena. Todavía no he hecho la compra, ¡pero ya he estudiado español!"
+        }
+      ],
+      "prompts": [
+        { "n": "Say this week has been very busy.", "t": ["Esta semana ha sido muy intensa", "Esta semana fue muy intensa", "Esta semana ha sido muy ocupada", "Esta semana he estado muy ocupado", "Esta semana he estado muy ocupada"] },
+        { "n": "Say you had tacos today (either the Spain or the Mexico way).", "t": ["Hoy comí tacos", "Hoy he comido tacos"] }
+      ]
+    },
+    {
+      "id": "a2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: ¿Qué has hecho?",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

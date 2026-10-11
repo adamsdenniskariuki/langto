@@ -1,0 +1,305 @@
+{
+  "id": "a2-u04",
+  "title": "En casa",
+  "subtitle": "Home & renting a flat",
+  "icon": "🏠",
+  "lessons": [
+    {
+      "id": "a2-u04-l1",
+      "title": "Describing your home",
+      "goal": "Describe your flat or house and its rooms.",
+      "tip": {
+        "title": "piso, departamento, apartamento",
+        "body": "A flat is un piso in Spain, un departamento in Mexico and Argentina, and un apartamento in many other countries (understood everywhere). Rooms change too: the living room is el salón in Spain and la sala in Latin America; a bedroom is una habitación or un dormitorio, and in Mexico often una recámara. Careful: piso also means floor or storey, so vivo en un piso en el tercer piso is perfectly normal Spanish."
+      },
+      "phrases": [
+        { "t": "Vivo en un piso de dos habitaciones.", "n": "I live in a two-bedroom flat.", "note": "Spain. Mexico: un departamento de dos recámaras." },
+        { "t": "Vivo en un departamento en el centro.", "n": "I live in a flat in the centre.", "note": "Mexico, Argentina. Elsewhere often un apartamento." },
+        { "t": "Está en el tercer piso.", "n": "It's on the third floor.", "note": "In Spain you'll also hear la tercera planta." },
+        { "t": "La cocina es pequeña, pero muy luminosa.", "n": "The kitchen is small but very bright." },
+        { "t": "El salón es bastante grande.", "n": "The living room is quite big.", "note": "Latin America: la sala." },
+        { "t": "Tiene dos dormitorios y un baño.", "n": "It has two bedrooms and a bathroom." },
+        { "t": "Tengo una terraza con vistas al parque.", "n": "I have a terrace with a view of the park." },
+        { "t": "Me gusta vivir aquí porque es muy tranquilo.", "n": "I like living here because it's very quiet." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Lucía asks about the new flat",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¡Por fin tienes piso nuevo! ¿Cómo es?", "n": "You've finally got a new flat! What's it like?" },
+          { "who": "you", "t": "Es genial. Tiene dos habitaciones y un salón bastante grande.", "n": "It's great. It has two bedrooms and quite a big living room." },
+          { "who": "A", "name": "Lucía", "t": "¿Y la cocina? En mi piso es diminuta.", "n": "And the kitchen? In my flat it's tiny." },
+          { "who": "you", "t": "La cocina es pequeña, pero muy luminosa.", "n": "The kitchen is small but very bright." },
+          { "who": "A", "name": "Lucía", "t": "¿Tiene terraza o balcón?", "n": "Does it have a terrace or a balcony?" },
+          { "who": "you", "t": "Sí, tengo una terraza con vistas al parque. ¡Te invito un día!", "n": "Yes, I have a terrace with a view of the park. I'll invite you round one day!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you live in a two-bedroom flat.", "t": ["Vivo en un piso de dos habitaciones", "Vivo en un departamento de dos recámaras", "Vivo en un apartamento de dos habitaciones", "Vivo en un departamento de dos habitaciones"] },
+        { "n": "Say the kitchen is small but very bright.", "t": ["La cocina es pequeña pero muy luminosa", "La cocina es pequeña pero luminosa"] },
+        { "n": "Say your flat is on the third floor.", "t": ["Está en el tercer piso", "Mi piso está en el tercer piso", "Está en la tercera planta", "Mi departamento está en el tercer piso"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l2",
+      "title": "Furniture & where things are",
+      "goal": "Name furniture and say where things are in a room.",
+      "tip": {
+        "title": "estar + location",
+        "body": "Use estar to say where a specific thing is: el sofá está en el salón, las llaves están encima de la mesa. Useful place words: al lado de (next to), junto a (beside), encima de (on top of), debajo de (under), delante de (in front of), detrás de (behind). To say that something exists somewhere, use hay: al lado de la cama hay un armario. Remember de + el = del: al lado del sofá."
+      },
+      "phrases": [
+        { "t": "El sofá está en el salón.", "n": "The sofa is in the living room." },
+        { "t": "Al lado de la cama hay un armario.", "n": "There's a wardrobe next to the bed." },
+        { "t": "Hay una alfombra debajo de la mesa.", "n": "There's a rug under the table." },
+        { "t": "Las llaves están encima de la mesa.", "n": "The keys are on the table." },
+        { "t": "Mi escritorio está junto a la ventana.", "n": "My desk is by the window." },
+        { "t": "La nevera está en la cocina.", "n": "The fridge is in the kitchen.", "note": "Mexico: el refrigerador (el refri). Argentina: la heladera." },
+        { "t": "¿El piso está amueblado?", "n": "Is the flat furnished?" },
+        { "t": "Necesito una mesa y cuatro sillas.", "n": "I need a table and four chairs." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Moving day with Mariana",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "¡Qué bonito departamento! ¿Ya está amueblado?", "n": "What a lovely flat! Is it furnished already?" },
+          { "who": "you", "t": "Sí, casi todo. Pero necesito un escritorio para trabajar.", "n": "Yes, almost everything. But I need a desk to work at." },
+          { "who": "A", "name": "Mariana", "t": "¿Y dónde lo vas a poner?", "n": "And where are you going to put it?" },
+          { "who": "you", "t": "Junto a la ventana de la recámara. Ahí hay mucha luz.", "n": "By the bedroom window. There's lots of light there." },
+          { "who": "A", "name": "Mariana", "t": "Buena idea. Oye, ¿dónde están las llaves del coche? No las encuentro.", "n": "Good idea. Hey, where are the car keys? I can't find them." },
+          { "who": "you", "t": "Están encima de la mesa de la sala, al lado de la lámpara.", "n": "They're on the living-room table, next to the lamp." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say the sofa is in the living room.", "t": ["El sofá está en el salón", "El sofá está en la sala"] },
+        { "n": "Say there's a wardrobe next to the bed.", "t": ["Al lado de la cama hay un armario", "Hay un armario al lado de la cama"] },
+        { "n": "Ask if the flat is furnished.", "t": ["El piso está amueblado", "Está amueblado", "El departamento está amueblado", "El apartamento está amueblado"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l3",
+      "title": "The neighbourhood",
+      "goal": "Say what your neighbourhood is like, good and bad.",
+      "tip": {
+        "title": "lo bueno, lo malo",
+        "body": "A handy way to weigh things up: lo bueno es que … (the good thing is that …) and lo malo es que … (the bad thing is that …). A neighbourhood is un barrio everywhere; in Mexico City and many Mexican cities people also say la colonia. Rent is el alquiler in Spain and la renta in Mexico; los vecinos are your neighbours."
+      },
+      "phrases": [
+        { "t": "Vivo en un barrio muy tranquilo.", "n": "I live in a very quiet neighbourhood." },
+        { "t": "Mi colonia tiene muchos parques.", "n": "My neighbourhood has lots of parks.", "note": "Mexico: la colonia = the neighbourhood." },
+        { "t": "Hay muchas tiendas y bares cerca.", "n": "There are lots of shops and bars nearby." },
+        { "t": "El metro está a cinco minutos de casa.", "n": "The metro is five minutes from home." },
+        { "t": "Está muy bien comunicado.", "n": "It has very good transport links." },
+        { "t": "Por la noche hay mucho ruido.", "n": "At night there's a lot of noise." },
+        { "t": "Mis vecinos son muy amables.", "n": "My neighbours are very kind." },
+        { "t": "Lo malo es que el alquiler es muy caro.", "n": "The bad thing is that the rent is very expensive.", "note": "Mexico: la renta." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Meeting Darío in the lift",
+        "lines": [
+          { "who": "A", "name": "Darío", "t": "Hola, buenas. ¿Vives en el cuarto B?", "n": "Hi there. Do you live in 4B?" },
+          { "who": "you", "t": "Sí, es mi primera semana en el barrio.", "n": "Yes, it's my first week in the neighbourhood." },
+          { "who": "A", "name": "Darío", "t": "¡Pues encantado! Yo vivo en el segundo A. ¿Qué tal el barrio?", "n": "Well, nice to meet you! I live in 2A. How do you like the neighbourhood?" },
+          { "who": "you", "t": "Me gusta mucho. Es tranquilo y está muy bien comunicado.", "n": "I like it a lot. It's quiet and has very good transport links." },
+          { "who": "A", "name": "Darío", "t": "Sí, y hay muchas tiendas cerca. Lo malo es el alquiler.", "n": "Yes, and there are lots of shops nearby. The bad thing is the rent." },
+          { "who": "you", "t": "¡Es verdad! Lo malo es que el alquiler es muy caro.", "n": "That's true! The bad thing is that the rent is very expensive." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you live in a very quiet neighbourhood.", "t": ["Vivo en un barrio muy tranquilo", "Vivo en una colonia muy tranquila", "Vivo en un barrio tranquilo"] },
+        { "n": "Say the metro is five minutes from home.", "t": ["El metro está a cinco minutos de casa", "El metro está a cinco minutos"] },
+        { "n": "Say the bad thing is that the rent is very expensive.", "t": ["Lo malo es que el alquiler es muy caro", "Lo malo es que la renta es muy cara", "Lo malo es que el alquiler es caro"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l4",
+      "kind": "grammar",
+      "title": "Comparing & ser or estar",
+      "goal": "Compare homes and describe them with ser and estar.",
+      "tip": {
+        "title": "más … que, tan … como",
+        "body": "To compare, use más + adjective + que (more … than) or menos + adjective + que (less … than): este piso es más grande que el otro. For \"as … as\" use tan … como: es tan caro como el otro. Four common ones are irregular: mejor (better), peor (worse), mayor (older, bigger) and menor (younger, smaller). Never say más bueno for \"better\". For describing a home, use ser for what it is like (es grande, es antiguo, es bonito) and estar for where it is and its current state (está en el centro, está limpio, está sucio)."
+      },
+      "phrases": [
+        { "t": "Este piso es más grande que el otro.", "n": "This flat is bigger than the other one." },
+        { "t": "El salón es menos luminoso que la cocina.", "n": "The living room is less bright than the kitchen." },
+        { "t": "Mi barrio es tan tranquilo como el tuyo.", "n": "My neighbourhood is as quiet as yours." },
+        { "t": "Este departamento es mejor que el primero.", "n": "This flat is better than the first one." },
+        { "t": "La casa es antigua, pero está muy limpia.", "n": "The house is old, but it's very clean." }
+      ],
+      "drills": [
+        {
+          "title": "More, less, as … as",
+          "base": { "t": "Este piso es caro.", "n": "This flat is expensive." },
+          "items": [
+            { "cue": "más · el otro", "t": "Este piso es más caro que el otro.", "n": "This flat is more expensive than the other one." },
+            { "cue": "menos · el otro", "t": "Este piso es menos caro que el otro.", "n": "This flat is less expensive than the other one." },
+            { "cue": "tan · el otro", "t": "Este piso es tan caro como el otro.", "n": "This flat is as expensive as the other one." },
+            { "cue": "bueno · más · el otro", "t": "Este piso es mejor que el otro.", "n": "This flat is better than the other one." }
+          ]
+        },
+        {
+          "title": "ser or estar?",
+          "base": { "t": "La casa es bonita.", "n": "The house is pretty." },
+          "items": [
+            { "cue": "en el centro", "t": "La casa está en el centro.", "n": "The house is in the centre." },
+            { "cue": "limpia", "t": "La casa está limpia.", "n": "The house is clean." },
+            { "cue": "grande", "t": "La casa es grande.", "n": "The house is big." },
+            { "cue": "las casas · antiguas", "t": "Las casas son antiguas.", "n": "The houses are old." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say your flat is smaller than your friend's (\"yours\").", "t": ["Mi piso es más pequeño que el tuyo", "Mi departamento es más pequeño que el tuyo", "Mi apartamento es más pequeño que el tuyo"] },
+        { "n": "Say this flat is better than the other one.", "t": ["Este piso es mejor que el otro", "Este departamento es mejor que el otro", "Este apartamento es mejor que el otro"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l5",
+      "kind": "listening",
+      "title": "Two flats in Guadalajara",
+      "goal": "Follow two friends comparing flats to rent.",
+      "phrases": [
+        { "t": "¿Cuánto es la renta?", "n": "How much is the rent?", "note": "Mexico. Spain: ¿Cuánto es el alquiler?" },
+        { "t": "Está muy bien ubicado.", "n": "It's in a very good location." },
+        { "t": "Está lejos del centro.", "n": "It's far from the centre." },
+        { "t": "Yo prefiero el primero.", "n": "I prefer the first one." }
+      ],
+      "story": {
+        "title": "Which flat?",
+        "intro": "Ana and Pablo are looking for a flat to share in Guadalajara, Mexico, and compare two adverts.",
+        "voice": "es-MX-NuriaNeural",
+        "lines": [
+          { "name": "Ana", "t": "Mira, Pablo, aquí hay dos departamentos. El primero está en el centro y tiene dos recámaras.", "n": "Look, Pablo, here are two flats. The first one is in the centre and has two bedrooms." },
+          { "name": "Pablo", "voice": "es-MX-LibertoNeural", "t": "Suena bien. ¿Y cuánto es la renta?", "n": "Sounds good. And how much is the rent?" },
+          { "name": "Ana", "t": "Doce mil pesos al mes. Es un poco caro, pero está muy bien ubicado.", "n": "Twelve thousand pesos a month. It's a bit expensive, but it's in a very good location." },
+          { "name": "Pablo", "voice": "es-MX-LibertoNeural", "t": "¿Y el segundo?", "n": "And the second one?" },
+          { "name": "Ana", "t": "El segundo es más grande y más barato: diez mil pesos. Pero está lejos del centro.", "n": "The second one is bigger and cheaper: ten thousand pesos. But it's far from the centre." },
+          { "name": "Pablo", "voice": "es-MX-LibertoNeural", "t": "Mmm. Yo prefiero el primero. Trabajo en el centro y no tengo carro.", "n": "Hmm. I prefer the first one. I work in the centre and I don't have a car." },
+          { "name": "Ana", "t": "Sí, pero el segundo tiene jardín y es más tranquilo.", "n": "Yes, but the second one has a garden and it's quieter." },
+          { "name": "Pablo", "voice": "es-MX-LibertoNeural", "t": "Bueno, ¿por qué no vamos a ver los dos el sábado?", "n": "Well, why don't we go and see both on Saturday?" }
+        ],
+        "questions": [
+          { "q": "¿Cuántas recámaras tiene el primer departamento?", "n": "How many bedrooms does the first flat have?", "t": ["Dos", "Dos recámaras", "Tiene dos recámaras", "Tiene dos"] },
+          { "q": "¿Cuál es más barato?", "n": "Which one is cheaper?", "t": ["El segundo", "El segundo departamento", "El segundo es más barato"] },
+          { "q": "¿Por qué prefiere Pablo el primero?", "n": "Why does Pablo prefer the first one?", "t": ["Porque trabaja en el centro", "Trabaja en el centro", "Porque no tiene carro", "No tiene carro"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u04-l6",
+      "kind": "roleplay",
+      "title": "Viewing a flat",
+      "goal": "Ask the right questions when viewing a flat to rent.",
+      "phrases": [
+        { "t": "¿Cuánto es el alquiler?", "n": "How much is the rent?", "note": "Mexico: la renta." },
+        { "t": "¿Están incluidos los gastos?", "n": "Are the bills included?" },
+        { "t": "¿Cuántas habitaciones tiene?", "n": "How many bedrooms does it have?" },
+        { "t": "¿Cuándo está libre?", "n": "When is it available?" }
+      ],
+      "branch": {
+        "title": "A flat in Valencia",
+        "scene": "You're viewing a flat to rent in Valencia, Spain. Señora Ortega from the letting agency meets you at the door.",
+        "name": "Sra. Ortega",
+        "voice": "es-ES-TrianaNeural",
+        "start": "door",
+        "nodes": {
+          "door": {
+            "t": "Buenos días. ¿Viene a ver el piso de alquiler?", "n": "Good morning. Are you here to see the flat for rent?",
+            "choices": [
+              { "t": "Sí, buenos días. Tengo una cita a las diez.", "n": "Yes, good morning. I have an appointment at ten.", "next": "tour" },
+              { "t": "Sí, eso es. ¿Podemos entrar?", "n": "Yes, that's right. Can we go in?", "next": "tour" }
+            ]
+          },
+          "tour": {
+            "t": "Pase, pase. Este es el salón. Es más grande que el de los otros pisos del edificio y es muy luminoso.", "n": "Come in, come in. This is the living room. It's bigger than in the other flats in the building and it's very bright.",
+            "choices": [
+              { "t": "¡Qué bonito! ¿Cuántas habitaciones tiene?", "n": "How lovely! How many bedrooms does it have?", "next": "rooms" },
+              { "t": "Uf, no me gusta nada. Es horrible.", "n": "Ugh, I don't like it at all. It's horrible.", "next": "rude" }
+            ]
+          },
+          "rude": {
+            "t": "Bueno… pues si no le gusta, no perdemos más tiempo. Adiós.", "n": "Well… if you don't like it, let's not waste any more time. Goodbye.",
+            "end": "bad", "outcome": "You were too blunt and the agent ended the viewing. Ask questions first and stay polite."
+          },
+          "rooms": {
+            "t": "Tiene dos habitaciones y un baño completo. La cocina es pequeña, pero está totalmente equipada.", "n": "It has two bedrooms and a full bathroom. The kitchen is small, but it's fully equipped.",
+            "choices": [
+              { "t": "¿Y está amueblado?", "n": "And is it furnished?", "next": "furnished" },
+              { "t": "Muy bien. ¿Cuánto es el alquiler?", "n": "Very good. How much is the rent?", "next": "price" }
+            ]
+          },
+          "furnished": {
+            "t": "Sí, tiene camas, armarios, un sofá y una mesa con sillas.", "n": "Yes, it has beds, wardrobes, a sofa and a table with chairs.",
+            "choices": [
+              { "t": "Perfecto. ¿Y cuánto es el alquiler?", "n": "Perfect. And how much is the rent?", "next": "price" },
+              { "t": "Genial. ¿Están incluidos los gastos?", "n": "Great. Are the bills included?", "next": "price" }
+            ]
+          },
+          "price": {
+            "t": "Son novecientos euros al mes, sin gastos, y dos meses de fianza.", "n": "It's nine hundred euros a month, bills not included, and two months' deposit.",
+            "choices": [
+              { "t": "Me interesa mucho. ¿Cuándo está libre?", "n": "I'm very interested. When is it available?", "next": "good" },
+              { "t": "¿Novecientos? ¡Qué barbaridad! Me voy.", "n": "Nine hundred? That's outrageous! I'm leaving.", "next": "leave" }
+            ]
+          },
+          "leave": {
+            "t": "Como quiera. En este barrio los precios son así.", "n": "As you wish. Prices are like that in this neighbourhood.",
+            "end": "bad", "outcome": "You walked out without asking about anything else. Rents in big Spanish cities can be high: compare calmly before deciding."
+          },
+          "good": {
+            "t": "Está libre desde el uno de mayo. Si quiere, le preparo el contrato esta semana.", "n": "It's available from the first of May. If you like, I'll prepare the contract this week.",
+            "end": "good", "outcome": "You viewed the flat, asked about the rooms and the rent, and you're getting a contract."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Ask how much the rent is.", "t": ["Cuánto es el alquiler", "Cuánto es la renta", "Cuánto cuesta el alquiler", "Cuánto cuesta la renta"] },
+        { "n": "Ask if the bills are included.", "t": ["Están incluidos los gastos", "Los gastos están incluidos", "Incluye los gastos"] }
+      ]
+    },
+    {
+      "id": "a2-u04-l7",
+      "kind": "speaking",
+      "title": "My home",
+      "goal": "Describe your home and neighbourhood for 60 seconds.",
+      "culture": {
+        "title": "Living in a piso",
+        "body": "In Spanish cities most people live in flats in apartment blocks rather than in houses, and the residents share the costs of the building through la comunidad de vecinos. Many young Spaniards stay in their parents' home until their late twenties or longer, and students and young workers often compartir piso (share a flat) to afford the rent. In Mexico you'll hear departamento for a flat and recámara for a bedroom, and in big cities like Mexico City or Guadalajara         many people live in flats too, while houses are more common elsewhere.",
+               "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Comparto piso con dos amigos.", "n": "I share a flat with two friends.", "note": "Mexico: comparto departamento." },
+        { "t": "Todavía vivo con mis padres.", "n": "I still live with my parents." },
+        { "t": "Estoy buscando piso.", "n": "I'm looking for a flat.", "note": "Mexico: estoy buscando departamento." },
+        { "t": "Pagamos los gastos a medias.", "n": "We split the bills." }
+      ],
+      "free": [
+        {
+          "n": "Describe your home and your neighbourhood, and compare them with a previous home or a friend's.",
+          "hint": "Use Vivo en un piso / una casa …, Tiene … habitaciones, La cocina es …, Mi barrio es …, Lo bueno / Lo malo es que …, Es más … que ….",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "type of home", "any": ["piso", "departamento", "apartamento", "casa", "estudio"] },
+            { "label": "rooms", "any": ["habitación", "habitaciones", "dormitorio", "dormitorios", "recámara", "recámaras", "salón", "sala", "cocina", "baño", "terraza", "balcón"] },
+            { "label": "the neighbourhood", "any": ["barrio", "colonia", "vecinos", "tiendas", "parque", "tranquilo", "tranquila", "ruido"] },
+            { "label": "a comparison", "any": ["más", "menos", "tan", "mejor", "peor", "mayor", "menor"] }
+          ],
+          "model": "Vivo en un piso en el centro de la ciudad. Tiene dos habitaciones, un salón y una cocina pequeña, pero muy luminosa. Mi barrio es muy tranquilo y está bien comunicado. Lo malo es que el alquiler es muy caro. Mi piso anterior era más grande, pero este es mejor porque está más cerca de mi trabajo."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you share a flat with two friends.", "t": ["Comparto piso con dos amigos", "Comparto departamento con dos amigos", "Comparto piso con dos amigas", "Comparto apartamento con dos amigos"] },
+        { "n": "Say you're looking for a flat.", "t": ["Estoy buscando piso", "Estoy buscando departamento", "Estoy buscando apartamento", "Busco piso"] }
+      ]
+    },
+    {
+      "id": "a2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: En casa",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

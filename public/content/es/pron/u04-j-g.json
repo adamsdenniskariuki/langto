@@ -1,0 +1,72 @@
+{
+  "id": "pron-u04",
+  "level": "A2",
+  "title": "La j y la g",
+  "subtitle": "The jota & hard g",
+  "icon": "🐱",
+  "lessons": [
+    {
+      "id": "pron-u04-l1",
+      "kind": "pron",
+      "title": "The jota",
+      "goal": "Make the jota sound for j, ge, gi and the x of México, and keep it apart from g.",
+      "tip": {
+        "title": "Like \"loch\" or \"Bach\"",
+        "body": "The jota is not an English j or an English h. Raise the back of your tongue towards the soft part of the roof of your mouth, almost touching it, and push air through the narrow gap so it rasps, like the \"ch\" in Scottish \"loch\" or German \"Bach\". Your voice does not buzz. The same sound is spelled j (jamón, ojo), g before e or i (gente, girasol) and x in a few names (México, Oaxaca). A g before a, o or u has no rasp: between vowels (hago, paga) the back of the tongue only comes close and the voice keeps buzzing. In Spain the jota is strong; in much of Latin America, the Canary Islands and Andalusia it is softer, closer to an English h."
+      },
+      "phrases": [
+        { "t": "El jamón está muy rico.", "n": "The ham is very tasty." },
+        { "t": "La gente de México es genial.", "n": "The people of Mexico are great.", "note": "The x in México is said like a j." },
+        { "t": "Juan trabaja los jueves.", "n": "Juan works on Thursdays." },
+        { "t": "Me gusta el girasol.", "n": "I like the sunflower." }
+      ],
+      "pairs": [
+        { "sound": "j / g", "a": { "t": "jota", "n": "the letter j" }, "b": { "t": "gota", "n": "drop" } },
+        { "sound": "j / g", "a": { "t": "jarra", "n": "jug" }, "b": { "t": "garra", "n": "claw" } },
+        { "sound": "j / g", "a": { "t": "ajo", "n": "garlic" }, "b": { "t": "hago", "n": "I do, I make" } },
+        { "sound": "j / g", "a": { "t": "paja", "n": "straw" }, "b": { "t": "paga", "n": "pay; (he/she) pays" } },
+        { "sound": "j / g", "a": { "t": "lija", "n": "sandpaper" }, "b": { "t": "liga", "n": "league" } }
+      ],
+      "stress": [
+        { "t": "El jamón está muy rico.", "n": "The ham is very tasty.", "mark": "El ja*món* es*tá* *muy* *ri*co." },
+        { "t": "La gente de México es genial.", "n": "The people of Mexico are great.", "mark": "La *gen*te de *Mé*xico es ge*nial*." },
+        { "t": "Juan trabaja los jueves.", "n": "Juan works on Thursdays.", "mark": "*Juan* tra*ba*ja los *jue*ves." }
+      ],
+      "prompts": [
+        { "n": "Say \"I like ham\".", "t": ["Me gusta el jamón"] }
+      ]
+    },
+    {
+      "id": "pron-u04-l2",
+      "kind": "pron",
+      "title": "G, gu, gü and c",
+      "goal": "Read g, gu and gü correctly and keep g apart from c.",
+      "tip": {
+        "title": "Silent u, two dots and a buzzing g",
+        "body": "Ga, go, gu have a g like \"go\". To keep that sound before e or i, Spanish adds a silent u: guerra, guitarra (say \"gerra\", \"gitarra\", not \"gwerra\"). When the u must be heard, it gets two dots: pingüino, cigüeña (\"gw\"). Ge and gi are the jota (gente, girasol). After a pause or n (gato, tengo) the g is a full stop of the back of the tongue; between vowels (agua, lago) it is softer, the tongue only comes close. To tell g from c (casa, coma), put a hand on your throat: g buzzes, c doesn't. Say the Spanish c without the puff of air of English \"k\"."
+      },
+      "phrases": [
+        { "t": "Toco la guitarra.", "n": "I play the guitar." },
+        { "t": "Hay un pingüino en el agua.", "n": "There's a penguin in the water." },
+        { "t": "No me gusta la guerra.", "n": "I don't like war." },
+        { "t": "Tengo un gato y un gallo.", "n": "I have a cat and a rooster." }
+      ],
+      "pairs": [
+        { "sound": "c / g", "a": { "t": "casa", "n": "house" }, "b": { "t": "gasa", "n": "gauze" } },
+        { "sound": "c / g", "a": { "t": "cama", "n": "bed" }, "b": { "t": "gama", "n": "range (of colours)" } },
+        { "sound": "c / g", "a": { "t": "coma", "n": "comma; coma" }, "b": { "t": "goma", "n": "rubber; eraser" } },
+        { "sound": "c / g", "a": { "t": "callo", "n": "callus; I keep quiet" }, "b": { "t": "gallo", "n": "rooster" } },
+        { "sound": "c / g", "a": { "t": "cota", "n": "height (on a map)" }, "b": { "t": "gota", "n": "drop" } },
+        { "sound": "c / g", "a": { "t": "casto", "n": "chaste" }, "b": { "t": "gasto", "n": "expense" } }
+      ],
+      "stress": [
+        { "t": "Toco la guitarra.", "n": "I play the guitar.", "mark": "*To*co la gui*ta*rra." },
+        { "t": "Hay un pingüino en el agua.", "n": "There's a penguin in the water.", "mark": "*Hay* un pin*güi*no en el *a*gua." },
+        { "t": "Tengo un gato y un gallo.", "n": "I have a cat and a rooster.", "mark": "*Ten*go un *ga*to y un *ga*llo." }
+      ],
+      "prompts": [
+        { "n": "Say \"I play the guitar\".", "t": ["Toco la guitarra"] }
+      ]
+    }
+  ]
+}

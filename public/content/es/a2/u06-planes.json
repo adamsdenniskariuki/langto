@@ -1,0 +1,301 @@
+{
+  "id": "a2-u06",
+  "title": "Planes",
+  "subtitle": "Plans & invitations",
+  "icon": "📅",
+  "lessons": [
+    {
+      "id": "a2-u06-l1",
+      "title": "Weekend plans",
+      "goal": "Ask about and describe plans for the weekend.",
+      "tip": {
+        "title": "voy a + infinitive",
+        "body": "The easiest way to talk about the future is ir a + infinitive, just like English \"going to\": voy a descansar (I'm going to rest), vamos a ir a la playa (we're going to go to the beach). Ask with ¿Qué vas a hacer …? Time words: esta noche (tonight), mañana (tomorrow), este fin de semana (this weekend), el sábado (on Saturday). Comer fuera means to eat out."
+      },
+      "phrases": [
+        { "t": "¿Qué vas a hacer este fin de semana?", "n": "What are you going to do this weekend?" },
+        { "t": "¿Tienes planes para esta noche?", "n": "Have you got plans for tonight?" },
+        { "t": "Voy a visitar a mis padres.", "n": "I'm going to visit my parents." },
+        { "t": "Vamos a ir a la playa.", "n": "We're going to go to the beach." },
+        { "t": "El sábado voy a descansar.", "n": "On Saturday I'm going to rest." },
+        { "t": "El domingo vamos a comer fuera.", "n": "On Sunday we're going to eat out." },
+        { "t": "Voy a ver una película en casa.", "n": "I'm going to watch a film at home." },
+        { "t": "Todavía no tengo planes.", "n": "I don't have any plans yet." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-NuriaNeural",
+        "title": "Friday afternoon with Sofía",
+        "lines": [
+          { "who": "A", "name": "Sofía", "t": "¡Por fin es viernes! ¿Qué vas a hacer este fin de semana?", "n": "It's Friday at last! What are you going to do this weekend?" },
+          { "who": "you", "t": "El sábado voy a descansar. Esta semana trabajé muchísimo.", "n": "On Saturday I'm going to rest. I worked a lot this week." },
+          { "who": "A", "name": "Sofía", "t": "Te entiendo. Yo voy a ir a Puebla a visitar a mis papás.", "n": "I get it. I'm going to Puebla to visit my parents." },
+          { "who": "you", "t": "¡Qué bien! Yo el domingo voy a comer fuera con unos amigos.", "n": "How nice! On Sunday I'm going to eat out with some friends." },
+          { "who": "A", "name": "Sofía", "t": "¿Y el sábado por la noche? ¿Tienes planes?", "n": "And on Saturday night? Do you have plans?" },
+          { "who": "you", "t": "Todavía no. Seguramente voy a ver una película en casa.", "n": "Not yet. I'll probably watch a film at home." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask a friend what they're going to do this weekend.", "t": ["Qué vas a hacer este fin de semana", "Qué haces este fin de semana"] },
+        { "n": "Say you're going to visit your parents.", "t": ["Voy a visitar a mis padres", "Voy a visitar a mis papás"] },
+        { "n": "Say you don't have any plans yet.", "t": ["Todavía no tengo planes", "No tengo planes todavía", "Aún no tengo planes"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l2",
+      "title": "Invitations",
+      "goal": "Invite someone, and accept or decline politely.",
+      "tip": {
+        "title": "Yes, no, and maybe",
+        "body": "A friendly invitation in Spain is ¿Te apetece …? (Do you fancy …?); ¿Te gustaría …? (Would you like …?) and ¿Quieres …? work everywhere. In Mexico you'll also hear ¿Se te antoja …? To accept warmly: me encantaría (I'd love to). To decline politely, give a reason and soften it: lo siento, ese día no puedo, tengo otro compromiso, and add ¡otra vez será! (another time!)."
+      },
+      "phrases": [
+        { "t": "¿Te apetece venir a cenar el sábado?", "n": "Do you fancy coming for dinner on Saturday?", "note": "Spain. Everywhere: ¿Quieres venir…? Mexico also: ¿Se te antoja…?" },
+        { "t": "¿Te gustaría venir a mi cumpleaños?", "n": "Would you like to come to my birthday party?" },
+        { "t": "Me encantaría, gracias.", "n": "I'd love to, thanks." },
+        { "t": "¡Qué buena idea! ¿Llevo algo?", "n": "What a good idea! Shall I bring anything?" },
+        { "t": "Lo siento, ese día no puedo. Tengo otro compromiso.", "n": "Sorry, I can't that day. I've got something else on." },
+        { "t": "¡Qué pena! Otra vez será.", "n": "What a shame! Another time." },
+        { "t": "Te digo algo mañana, ¿vale?", "n": "I'll let you know tomorrow, OK?", "note": "Vale is Spain. Mexico: ¿sale? or ¿va?" },
+        { "t": "¿Puedo llevar a un amigo?", "n": "Can I bring a friend?", "note": "A female friend: a una amiga." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Dinner at Pablo's",
+        "lines": [
+          { "who": "A", "name": "Pablo", "t": "Oye, el sábado hago una cena en mi piso. ¿Te apetece venir?", "n": "Hey, on Saturday I'm having a dinner at my flat. Do you fancy coming?" },
+          { "who": "you", "t": "¡Me encantaría, gracias! ¿A qué hora?", "n": "I'd love to, thanks! What time?" },
+          { "who": "A", "name": "Pablo", "t": "Sobre las nueve. Vamos a ser unos ocho.", "n": "Around nine. There'll be about eight of us." },
+          { "who": "you", "t": "¡Qué buena idea! ¿Llevo algo? ¿Vino, postre…?", "n": "What a good idea! Shall I bring anything? Wine, dessert…?" },
+          { "who": "A", "name": "Pablo", "t": "Un postre estaría genial. Ah, y si quieres, trae a alguien.", "n": "A dessert would be great. Oh, and bring someone if you like." },
+          { "who": "you", "t": "Vale, pues llevo una tarta y voy con mi pareja.", "n": "OK, then I'll bring a cake and come with my partner." }
+        ]
+      },
+      "prompts": [
+        { "n": "Accept an invitation warmly.", "t": ["Me encantaría gracias", "Me encantaría", "Sí me encantaría"] },
+        { "n": "Decline politely: you can't that day.", "t": ["Lo siento ese día no puedo", "Lo siento no puedo", "Lo siento ese día no puedo tengo otro compromiso"] },
+        { "n": "Ask if you should bring anything.", "t": ["Llevo algo", "Quieres que lleve algo", "Traigo algo"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l3",
+      "title": "What's the weather like?",
+      "goal": "Make small talk about the weather and plan around it.",
+      "tip": {
+        "title": "hace, está, hay",
+        "body": "Most weather phrases use hace: hace calor (it's hot), hace frío (it's cold), hace sol (it's sunny), hace viento (it's windy), hace buen tiempo (the weather's nice). For the sky, use está: está nublado (it's cloudy), está despejado (it's clear). For what's happening now, use the -ando form: está lloviendo (it's raining). For the forecast: mañana va a llover. To plan around it: si llueve, nos quedamos en casa (if it rains, we'll stay home)."
+      },
+      "phrases": [
+        { "t": "¿Qué tiempo hace?", "n": "What's the weather like?" },
+        { "t": "¡Qué calor hace hoy!", "n": "It's so hot today!" },
+        { "t": "Hace frío y está nublado.", "n": "It's cold and cloudy." },
+        { "t": "Hace un día precioso.", "n": "It's a beautiful day." },
+        { "t": "Está lloviendo.", "n": "It's raining." },
+        { "t": "Mañana va a llover.", "n": "It's going to rain tomorrow." },
+        { "t": "Si llueve, nos quedamos en casa.", "n": "If it rains, we'll stay at home." },
+        { "t": "Hay que llevar paraguas.", "n": "You need to take an umbrella." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "A picnic in Chapultepec?",
+        "lines": [
+          { "who": "A", "name": "Toño", "t": "¿Vamos mañana de picnic a Chapultepec?", "n": "Shall we go for a picnic in Chapultepec tomorrow?" },
+          { "who": "you", "t": "¡Sí! Pero ¿qué tiempo va a hacer?", "n": "Yes! But what's the weather going to be like?" },
+          { "who": "A", "name": "Toño", "t": "Por la mañana va a hacer sol, pero en esta época llueve casi todas las tardes.", "n": "In the morning it's going to be sunny, but at this time of year it rains almost every afternoon." },
+          { "who": "you", "t": "Entonces vamos temprano, a las diez.", "n": "Then let's go early, at ten." },
+          { "who": "A", "name": "Toño", "t": "Va. Y si llueve, nos metemos a un café.", "n": "OK. And if it rains, we'll go into a café." },
+          { "who": "you", "t": "Perfecto. Hay que llevar paraguas, por si acaso.", "n": "Perfect. We need to take an umbrella, just in case." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask what the weather is like.", "t": ["Qué tiempo hace"] },
+        { "n": "Say it's going to rain tomorrow.", "t": ["Mañana va a llover", "Va a llover mañana"] },
+        { "n": "Say it's cold and cloudy.", "t": ["Hace frío y está nublado", "Está nublado y hace frío"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l4",
+      "kind": "grammar",
+      "title": "ir a + infinitive & meeting up",
+      "goal": "Talk about future plans and arrange where to meet.",
+      "tip": {
+        "title": "voy a…, ¿quedamos?",
+        "body": "Ir a + infinitive: voy, vas, va, vamos, vais (Spain only), van + a + verb: voy a cenar, ¿vas a venir?, van a llegar tarde. Vamos a + verb can also mean \"let's\": ¡vamos a ver! To arrange to meet, people in Spain use quedar: ¿Quedamos a las ocho? (Shall we meet at eight?), ¿Dónde quedamos?, he quedado con Ana. Verse is understood everywhere: ¿Nos vemos a las ocho? In Mexico and many other Latin American countries you'll also hear juntarse: ¿Nos juntamos el sábado?"
+      },
+      "phrases": [
+        { "t": "Voy a llamar a Marta.", "n": "I'm going to call Marta." },
+        { "t": "¿Vas a venir a la fiesta?", "n": "Are you going to come to the party?" },
+        { "t": "Vamos a cenar fuera esta noche.", "n": "We're going to eat out tonight." },
+        { "t": "¿Quedamos a las ocho en la plaza?", "n": "Shall we meet at eight in the square?", "note": "Mostly Spain." },
+        { "t": "¿Nos vemos a las ocho en la plaza?", "n": "Shall we meet at eight in the square?", "note": "Understood everywhere." }
+      ],
+      "drills": [
+        {
+          "title": "Who's going to …?",
+          "base": { "t": "Voy a cenar con Ana.", "n": "I'm going to have dinner with Ana." },
+          "items": [
+            { "cue": "tú?", "t": "¿Vas a cenar con Ana?", "n": "Are you going to have dinner with Ana?" },
+            { "cue": "nosotros", "t": "Vamos a cenar con Ana.", "n": "We're going to have dinner with Ana." },
+            { "cue": "ellos · mañana", "t": "Mañana van a cenar con Ana.", "n": "Tomorrow they're going to have dinner with Ana." },
+            { "cue": "usted?", "t": "¿Va a cenar con Ana?", "n": "Are you going to have dinner with Ana? (polite)" }
+          ]
+        },
+        {
+          "title": "Arranging to meet",
+          "base": { "t": "¿Quedamos a las ocho?", "n": "Shall we meet at eight?" },
+          "items": [
+            { "cue": "mañana", "t": "¿Quedamos mañana a las ocho?", "n": "Shall we meet tomorrow at eight?" },
+            { "cue": "¿dónde?", "t": "¿Dónde quedamos?", "n": "Where shall we meet?" },
+            { "cue": "verse", "t": "¿Nos vemos a las ocho?", "n": "Shall we meet at eight?" },
+            { "cue": "juntarse", "t": "¿Nos juntamos a las ocho?", "n": "Shall we get together at eight?" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you're going to call Marta.", "t": ["Voy a llamar a Marta"] },
+        { "n": "Suggest meeting at eight in the square.", "t": ["Quedamos a las ocho en la plaza", "Nos vemos a las ocho en la plaza", "Nos juntamos a las ocho en la plaza"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l5",
+      "kind": "listening",
+      "title": "A surprise for Carlos",
+      "goal": "Follow voice messages between friends making plans.",
+      "phrases": [
+        { "t": "¿Qué os parece si vamos a cenar?", "n": "How about going out for dinner?", "note": "Spain (vosotros). Everywhere: ¿Qué les parece si…?" },
+        { "t": "Voy a llegar un poco tarde.", "n": "I'm going to be a bit late." },
+        { "t": "Yo reservo la mesa.", "n": "I'll book the table." },
+        { "t": "¡Es una sorpresa!", "n": "It's a surprise!" }
+      ],
+      "story": {
+        "title": "Voice messages",
+        "intro": "Three friends in Seville, Spain, plan a birthday dinner by sending voice messages in their group chat.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Lucía", "t": "¡Hola, chicos! El sábado es el cumple de Carlos. ¿Qué os parece si vamos a cenar al restaurante nuevo del centro?", "n": "Hi, guys! Saturday is Carlos's birthday. How about going for dinner at the new restaurant in the centre?" },
+          { "name": "Álvaro", "voice": "es-ES-AlvaroNeural", "t": "¡Me parece genial! Pero el sábado por la mañana voy a jugar al pádel, así que prefiero cenar tarde. ¿Quedamos a las nueve y media?", "n": "Sounds great! But on Saturday morning I'm going to play padel, so I'd rather have dinner late. Shall we meet at half past nine?" },
+          { "name": "Lucía", "t": "Vale, por mí perfecto. ¿Y tú, Marta?", "n": "OK, perfect for me. And you, Marta?" },
+          { "name": "Marta", "voice": "es-ES-AbrilNeural", "t": "Yo voy a llegar un poco tarde, porque trabajo hasta las nueve. ¿Os veo allí a las diez?", "n": "I'm going to be a bit late, because I work until nine. See you there at ten?" },
+          { "name": "Lucía", "t": "Sin problema. Yo reservo la mesa. Álvaro, ¿compras tú el regalo?", "n": "No problem. I'll book the table. Álvaro, will you buy the present?" },
+          { "name": "Álvaro", "voice": "es-ES-AlvaroNeural", "t": "Vale, mañana voy a mirar algo en la librería. ¿Un libro de cocina?", "n": "OK, tomorrow I'm going to look for something at the bookshop. A cookbook?" },
+          { "name": "Lucía", "t": "¡Perfecto! Pero no le digáis nada a Carlos, ¡es una sorpresa!", "n": "Perfect! But don't tell Carlos anything, it's a surprise!" }
+        ],
+        "questions": [
+          { "q": "¿Qué celebran el sábado?", "n": "What are they celebrating on Saturday?", "t": ["El cumpleaños de Carlos", "El cumple de Carlos", "Un cumpleaños", "Su cumpleaños"] },
+          { "q": "¿A qué hora quedan para cenar?", "n": "What time are they meeting for dinner?", "t": ["A las nueve y media", "Las nueve y media"] },
+          { "q": "¿Quién compra el regalo?", "n": "Who is buying the present?", "t": ["Álvaro", "Lo compra Álvaro", "Álvaro compra el regalo"] }
+        ]
+      }
+    },
+    {
+      "id": "a2-u06-l6",
+      "kind": "roleplay",
+      "title": "Saying no nicely",
+      "goal": "Decline an invitation politely and suggest another plan.",
+      "phrases": [
+        { "t": "El sábado hago una carne asada.", "n": "On Saturday I'm having a barbecue.", "note": "Mexico, especially popular in the north." },
+        { "t": "Voy a estar fuera de la ciudad.", "n": "I'm going to be out of town." },
+        { "t": "¿Y si lo dejamos para el domingo?", "n": "What if we leave it for Sunday?" },
+        { "t": "¡Ahí estaré!", "n": "I'll be there!" }
+      ],
+      "branch": {
+        "title": "Jorge's birthday",
+        "scene": "Your friend Jorge in Monterrey, Mexico, calls to invite you to his birthday barbecue on Saturday.",
+        "name": "Jorge",
+        "voice": "es-MX-JorgeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "¡Hola! Oye, el sábado hago una carne asada en mi casa por mi cumpleaños. ¿Quieres venir?", "n": "Hi! Listen, on Saturday I'm having a barbecue at my house for my birthday. Do you want to come?",
+            "choices": [
+              { "t": "¡Muchas gracias por la invitación! ¿A qué hora es?", "n": "Thanks a lot for the invitation! What time is it?", "next": "time" },
+              { "t": "No, no quiero.", "n": "No, I don't want to.", "next": "rude" }
+            ]
+          },
+          "rude": {
+            "t": "Ah… bueno. Ok, no hay problema.", "n": "Oh… well. OK, no problem.",
+            "end": "bad", "outcome": "A flat \"no\" sounds rude. Thank Jorge, give a reason and suggest something else."
+          },
+          "time": {
+            "t": "A partir de las dos. Va a venir toda mi familia y unos amigos de la oficina.", "n": "From two o'clock. All my family and some friends from work are coming.",
+            "choices": [
+              { "t": "¡Qué padre! ¡Ahí estaré! ¿Llevo algo?", "n": "Brilliant! I'll be there! Shall I bring anything?", "next": "bring" },
+              { "t": "Ay, lo siento mucho. El sábado voy a estar fuera de la ciudad.", "n": "Oh, I'm so sorry. On Saturday I'm going to be out of town.", "next": "sorry" }
+            ]
+          },
+          "bring": {
+            "t": "Si quieres, trae algo de tomar o un postre.", "n": "If you like, bring something to drink or a dessert.",
+            "choices": [
+              { "t": "Perfecto, llevo un postre.", "n": "Perfect, I'll bring a dessert.", "next": "good" },
+              { "t": "Va, llevo unas cervezas.", "n": "OK, I'll bring some beers.", "next": "good" }
+            ]
+          },
+          "sorry": {
+            "t": "¡Qué lástima! ¿Y el domingo? Podemos ir a desayunar.", "n": "What a shame! And on Sunday? We could go out for breakfast.",
+            "choices": [
+              { "t": "¡Claro! ¿Y si lo dejamos para el domingo a las diez?", "n": "Of course! What if we leave it for Sunday at ten?", "next": "sunday" },
+              { "t": "Tampoco puedo, lo siento.", "n": "I can't then either, sorry.", "next": "never" }
+            ]
+          },
+          "never": {
+            "t": "Ah, ok… Bueno, otro día será.", "n": "Oh, OK… Well, some other time.",
+            "end": "bad", "outcome": "You declined twice without offering another time. Suggest a day that works for you."
+          },
+          "sunday": {
+            "t": "¡Va! El domingo a las diez en la cafetería de siempre. ¡Nos vemos!", "n": "Deal! Sunday at ten at our usual café. See you!",
+            "end": "good", "outcome": "You declined politely and arranged a birthday breakfast instead."
+          },
+          "good": {
+            "t": "¡Órale, perfecto! Nos vemos el sábado.", "n": "Great, perfect! See you on Saturday.",
+            "end": "good", "outcome": "You accepted the invitation and offered to bring something."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Say you're going to be out of town on Saturday.", "t": ["El sábado voy a estar fuera de la ciudad", "Voy a estar fuera de la ciudad el sábado", "Voy a estar fuera de la ciudad"] },
+        { "n": "Suggest leaving it for Sunday.", "t": ["Y si lo dejamos para el domingo", "Lo dejamos para el domingo", "Mejor el domingo"] }
+      ]
+    },
+    {
+      "id": "a2-u06-l7",
+      "kind": "speaking",
+      "title": "My plans",
+      "goal": "Talk about your plans for next weekend for 60 seconds.",
+      "culture": {
+        "title": "On time, more or less",
+        "body": "In Spain and Mexico, times for informal get-togethers are often a little flexible: arriving a bit late to a dinner at a friend's home or a party is usually fine. For work meetings, medical appointments, trains and official events, people are expected to be on time. In Spain plans often start late: meeting for dinner at nine or ten in the evening is perfectly normal. If you're running late, it's polite to send a quick message such as voy un poco tarde.",
+                "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Voy un poco tarde.", "n": "I'm running a bit late." },
+        { "t": "Llego en diez minutos.", "n": "I'll be there in ten minutes." },
+        { "t": "¿Nos vemos directamente allí?", "n": "Shall we meet there?" },
+        { "t": "Te espero en la puerta.", "n": "I'll wait for you at the entrance." }
+      ],
+      "free": [
+        {
+          "n": "Talk about your plans for next weekend, then invite a friend to join you and suggest a time and place to meet.",
+          "hint": "Use El sábado voy a …, El domingo vamos a …, Si hace buen tiempo / Si llueve …, ¿Te apetece / Quieres venir?, ¿Quedamos / Nos vemos a las … en …?",
+          "seconds": 60,
+          "minWords": 20,
+          "targets": [
+            { "label": "when", "any": ["sábado", "domingo", "fin de semana", "esta noche", "mañana", "viernes"] },
+            { "label": "going to (ir a)", "any": ["voy a", "vamos a", "vas a", "va a", "van a"] },
+            { "label": "an activity", "any": ["cine", "playa", "cenar", "comer", "visitar", "descansar", "pasear", "fiesta", "película", "museo"] },
+            { "label": "an invitation", "any": ["quieres", "te apetece", "te gustaría", "vienes", "quedamos", "nos vemos", "nos juntamos"] }
+          ],
+          "model": "Este fin de semana voy a estar en casa, pero tengo algunos planes. El sábado por la mañana voy a ir al mercado y por la tarde voy a descansar. Si hace buen tiempo, el domingo vamos a ir a la playa con unos amigos. ¿Te apetece venir? ¿Quedamos a las diez en la estación?"
+        }
+      ],
+      "prompts": [
+        { "n": "Text a friend that you're running a bit late.", "t": ["Voy un poco tarde", "Llego un poco tarde", "Voy a llegar un poco tarde"] },
+        { "n": "Say you'll wait at the entrance.", "t": ["Te espero en la puerta"] }
+      ]
+    },
+    {
+      "id": "a2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Planes",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
