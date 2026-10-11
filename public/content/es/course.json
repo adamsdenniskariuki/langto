@@ -52,9 +52,17 @@
     {
       "id": "B2",
       "title": "Upper intermediate",
-      "description": "Debate, negotiate, present in meetings and use idioms naturally.",
-      "comingSoon": true,
-      "units": []
+      "description": "Argue, negotiate, follow the news and talk about technology, health and city life — with idioms from Spain and Latin America.",
+      "units": [
+        "b2/u01-debate.json",
+        "b2/u02-reuniones.json",
+        "b2/u03-negociar.json",
+        "b2/u04-actualidad.json",
+        "b2/u05-tecnologia.json",
+        "b2/u06-bienestar.json",
+        "b2/u07-ciudad-o-campo.json",
+        "b2/u08-modismos.json"
+      ]
     },
     {
       "id": "C1",
@@ -84,7 +92,8 @@
         "pron/u04-j-g.json",
         "pron/u05-b-v-d.json",
         "pron/u06-acentos.json",
-        "pron/u07-entonacion.json"
+        "pron/u07-entonacion.json",
+        "pron/u08-enlace.json"
       ]
     }
   ]

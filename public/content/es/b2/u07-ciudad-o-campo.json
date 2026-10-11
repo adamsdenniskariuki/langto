@@ -1,0 +1,309 @@
+{
+  "id": "b2-u07",
+  "title": "¿Ciudad o campo?",
+  "subtitle": "Housing, commuting & where to live",
+  "icon": "🏡",
+  "lessons": [
+    {
+      "id": "b2-u07-l1",
+      "title": "Finding a place to live",
+      "goal": "Describe what you're looking for, ask detailed questions at a viewing and talk about rents.",
+      "tip": {
+        "title": "Piso, departamento, apartamento",
+        "body": "Housing words change from country to country. A flat is un piso in Spain, un departamento in Mexico and Argentina and un apartamento in Colombia. The rent is el alquiler (Spain, Argentina), la renta (Mexico) or el arriendo (Colombia); the deposit is la fianza in Spain and el depósito in Latin America, and the monthly building charges are la comunidad in Spain and las expensas in Argentina. When you describe something you haven't found yet, use que + subjunctive: Busco un piso que tenga terraza. Lo que más me importa es… (what matters most to me is…) lets you set your priorities."
+      },
+      "phrases": [
+        { "t": "Busco un piso de dos habitaciones que no esté lejos del centro.", "n": "I'm looking for a two-bedroom flat that isn't far from the centre.", "note": "Mexico and Argentina: departamento; Colombia: apartamento." },
+        { "t": "¿Los gastos están incluidos en el alquiler?", "n": "Are the bills included in the rent?", "note": "Mexico: la renta; Colombia: el arriendo. Argentina: ¿Las expensas están incluidas?" },
+        { "t": "El alquiler se lleva casi la mitad de mi sueldo.", "n": "The rent eats up almost half my salary." },
+        { "t": "Piden dos meses de fianza.", "n": "They're asking for two months' deposit.", "note": "Latin America: dos meses de depósito." },
+        { "t": "Es un barrio muy bien comunicado.", "n": "It's a very well-connected neighbourhood." },
+        { "t": "Por ese precio, esperaba algo más amplio.", "n": "For that price, I was expecting something more spacious." },
+        { "t": "¿Desde cuándo está disponible?", "n": "From when is it available?" },
+        { "t": "Lo que más me importa es la luz natural.", "n": "What matters most to me is natural light." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Viewing a flat in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Tomás", "t": "Pasá, pasá. Este es el living, que da a la calle. Mirá la luz que entra a la mañana.", "n": "Come in, come in. This is the living room, which faces the street. Look at the light that comes in in the morning." },
+          { "who": "you", "t": "Es muy luminoso, me encanta. ¿Las expensas están incluidas en el alquiler?", "n": "It's very bright, I love it. Are the building charges included in the rent?" },
+          { "who": "A", "name": "Tomás", "t": "No, las expensas se pagan aparte. Además te pido un mes de depósito y una garantía, como en todos lados.", "n": "No, the building charges are paid separately. I'll also need one month's deposit and a guarantee, like everywhere." },
+          { "who": "you", "t": "Entiendo. Por ese precio esperaba algo más amplio, pero el barrio me gusta mucho. ¿Está bien comunicado?", "n": "I see. For that price I was expecting something more spacious, but I really like the neighbourhood. Is it well connected?" },
+          { "who": "A", "name": "Tomás", "t": "Buenísimo: a dos cuadras tenés el subte y el colectivo para en la esquina. Pensalo tranquilo y avisame.", "n": "Really well: the underground is two blocks away and the bus stops on the corner. Have a think and let me know." },
+          { "who": "you", "t": "Gracias. ¿Desde cuándo está disponible? Si es desde el mes que viene, lo pienso esta noche y te llamo mañana.", "n": "Thanks. From when is it available? If it's from next month, I'll think it over tonight and call you tomorrow." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask if the bills are included in the rent.", "t": ["Los gastos están incluidos en el alquiler", "Están incluidos los gastos", "Los gastos están incluidos en la renta", "Las expensas están incluidas en el alquiler"] },
+        { "n": "Say you're looking for a two-bedroom flat that isn't far from the centre.", "t": ["Busco un piso de dos habitaciones que no esté lejos del centro", "Busco un departamento de dos habitaciones que no esté lejos del centro", "Busco un apartamento de dos habitaciones que no esté lejos del centro"] },
+        { "n": "Say what matters most to you is natural light.", "t": ["Lo que más me importa es la luz natural"] }
+      ]
+    },
+    {
+      "id": "b2-u07-l2",
+      "title": "City versus countryside",
+      "goal": "Weigh up city and village life, concede points and argue your case.",
+      "tip": {
+        "title": "Por un lado… por otro…",
+        "body": "To weigh things up, say por un lado… y por otro (lado)…; to contrast two situations, use mientras que (whereas) or en cambio (on the other hand): Mientras que en la ciudad lo tienes todo a mano, en el pueblo necesitas coche. A good debater concedes before disagreeing: Ahí te doy la razón, pero…, Es verdad que…, sin embargo…. To play something down, say No es para tanto (it's not that big a deal). Echar de menos (to miss) is the usual form in Spain; in Latin America people mostly say extrañar."
+      },
+      "phrases": [
+        { "t": "Mientras que en la ciudad lo tienes todo a mano, en el pueblo necesitas coche.", "n": "Whereas in the city you have everything to hand, in the village you need a car.", "note": "Latin America: carro (Mexico, Colombia) or auto (Argentina)." },
+        { "t": "Por un lado, la vida es más tranquila; por otro, hay menos trabajo.", "n": "On the one hand, life is quieter; on the other, there's less work." },
+        { "t": "Echaría de menos la oferta cultural.", "n": "I'd miss the cultural life.", "note": "Latin America: extrañaría." },
+        { "t": "Ahí te doy la razón.", "n": "I'll give you that." },
+        { "t": "Tampoco es para tanto.", "n": "It's not that big a deal." },
+        { "t": "Con el teletrabajo, ya no hace falta vivir en la ciudad.", "n": "With remote work, you no longer need to live in the city.", "note": "Latin America also: el trabajo remoto, el home office." },
+        { "t": "A la larga, me aburriría.", "n": "In the long run, I'd get bored." },
+        { "t": "Un pueblo cerca de la ciudad sería un buen término medio.", "n": "A village near the city would be a good middle ground." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-DarioNeural",
+        "title": "Should we leave Madrid?",
+        "lines": [
+          { "who": "A", "name": "Darío", "t": "Oye, ¿y si nos fuéramos a vivir a un pueblo? Con lo que pagamos aquí de alquiler, allí tendríamos una casa con jardín.", "n": "Hey, what if we went to live in a village? With what we pay in rent here, we'd have a house with a garden there." },
+          { "who": "you", "t": "No te voy a negar que la idea me tienta. Por un lado, la vida sería más tranquila; por otro, ¿de qué íbamos a trabajar?", "n": "I won't deny the idea tempts me. On the one hand, life would be quieter; on the other, what would we do for work?" },
+          { "who": "A", "name": "Darío", "t": "Con el teletrabajo ya no hace falta vivir en la ciudad. Y los niños crecerían rodeados de naturaleza.", "n": "With remote work you no longer need to live in the city. And the children would grow up surrounded by nature." },
+          { "who": "you", "t": "Ahí te doy la razón. Pero mientras que aquí lo tenemos todo a mano, en el pueblo necesitaríamos coche para todo.", "n": "I'll give you that. But whereas here we have everything to hand, in the village we'd need a car for everything." },
+          { "who": "A", "name": "Darío", "t": "Hombre, tampoco es para tanto. Hay pueblos con tren a menos de una hora de Madrid.", "n": "Come on, it's not that big a deal. There are villages with a train less than an hour from Madrid." },
+          { "who": "you", "t": "Vale, pero yo echaría de menos la oferta cultural. Quizás un pueblo cerca de la ciudad sería un buen término medio.", "n": "OK, but I'd miss the cultural life. Maybe a village near the city would be a good middle ground." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you'd miss the cultural life.", "t": ["Echaría de menos la oferta cultural", "Extrañaría la oferta cultural", "Echaría de menos la vida cultural", "Extrañaría la vida cultural"] },
+        { "n": "Concede a point: say 'I'll give you that'.", "t": ["Ahí te doy la razón", "En eso te doy la razón", "Ahí le doy la razón"] },
+        { "n": "Suggest that a village near the city would be a good middle ground.", "t": ["Un pueblo cerca de la ciudad sería un buen término medio", "Quizás un pueblo cerca de la ciudad sería un buen término medio", "Quizá un pueblo cerca de la ciudad sería un buen término medio"] }
+      ]
+    },
+    {
+      "id": "b2-u07-l3",
+      "title": "The daily commute",
+      "goal": "Complain about and justify your commute, and talk about the trade-offs of living far out.",
+      "tip": {
+        "title": "Tardar, compensar, aprovechar",
+        "body": "Tardar + time + en + infinitive says how long something takes you: Tardo una hora en llegar. In Latin America you'll also hear demorarse: Me demoro una hora. Compensar means to be worth it in the trade-off sense: Me compensa vivir lejos (living far out pays off for me). Aprovechar is to make the most of: Aprovecho el trayecto para leer. A traffic jam is un atasco in Spain, un trancón in Colombia and simply el tráfico in Mexico. In Bogotá, TransMilenio is the big network of bus lanes that many people use every day."
+      },
+      "phrases": [
+        { "t": "Tardo una hora y media en llegar al trabajo.", "n": "It takes me an hour and a half to get to work.", "note": "Latin America also: me demoro." },
+        { "t": "Me paso la vida en el transporte público.", "n": "I spend my whole life on public transport." },
+        { "t": "A esa hora el bus va lleno a reventar.", "n": "At that time of day the bus is packed to bursting.", "note": "Spain: el autobús; Mexico: el camión; Argentina: el colectivo." },
+        { "t": "Hay un trancón horrible en la autopista.", "n": "There's a horrible traffic jam on the motorway.", "note": "Colombia. Spain: un atasco; Mexico: mucho tráfico." },
+        { "t": "Si saliera media hora antes, me ahorraría el tráfico.", "n": "If I left half an hour earlier, I'd avoid the traffic." },
+        { "t": "Lo bueno es que aprovecho el trayecto para leer.", "n": "The good thing is that I use the journey to read." },
+        { "t": "Me compensa vivir lejos porque el alquiler es más barato.", "n": "Living far out is worth it for me because the rent is cheaper.", "note": "Colombia: el arriendo; Mexico: la renta." },
+        { "t": "¿Vale la pena tener carro en esta ciudad?", "n": "Is it worth having a car in this city?", "note": "Spain: coche; Argentina: auto." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Late again in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Salomé", "t": "¡Por fin llegas! ¿Otra vez el trancón?", "n": "You're here at last! The traffic jam again?" },
+          { "who": "you", "t": "Ni me digas. Tardé hora y media en llegar: a esa hora el TransMilenio va lleno a reventar.", "n": "Don't get me started. It took me an hour and a half to get here: at that time TransMilenio is packed to bursting." },
+          { "who": "A", "name": "Salomé", "t": "Uy, qué pereza. ¿Y por qué no te vienes en bici? Bogotá tiene un montón de ciclorrutas.", "n": "Ugh, what a drag. And why don't you come by bike? Bogotá has loads of cycle lanes." },
+          { "who": "you", "t": "Lo he pensado, pero con lo que llueve aquí… Lo bueno es que aprovecho el trayecto para leer.", "n": "I've thought about it, but with how much it rains here… The good thing is I use the journey to read." },
+          { "who": "A", "name": "Salomé", "t": "Yo antes vivía en Soacha y me pasaba la vida en el bus. Me mudé más cerca y me cambió la vida, aunque pago más.", "n": "I used to live in Soacha and spent my life on the bus. I moved closer and it changed my life, although I pay more." },
+          { "who": "you", "t": "Ya, pero a mí me compensa vivir lejos porque el arriendo es mucho más barato. Eso sí, si saliera media hora antes, me ahorraría el trancón.", "n": "Sure, but living far out is worth it for me because the rent is much cheaper. Mind you, if I left half an hour earlier, I'd avoid the jam." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say it takes you an hour and a half to get to work.", "t": ["Tardo una hora y media en llegar al trabajo", "Me demoro una hora y media en llegar al trabajo", "Tardo hora y media en llegar al trabajo"] },
+        { "n": "Say the good thing is that you use the journey to read.", "t": ["Lo bueno es que aprovecho el trayecto para leer", "Lo bueno es que aprovecho el viaje para leer"] },
+        { "n": "Say living far out is worth it for you because the rent is cheaper.", "t": ["Me compensa vivir lejos porque el alquiler es más barato", "Me compensa vivir lejos porque la renta es más barata", "Me compensa vivir lejos porque el arriendo es más barato"] }
+      ]
+    },
+    {
+      "id": "b2-u07-l4",
+      "kind": "grammar",
+      "title": "Relative clauses & 'the more…, the more…'",
+      "goal": "Use en el que, con quien, por lo cual and cuyo, and compare with cuanto más… más… and cada vez más.",
+      "tip": {
+        "title": "en el que, cuyo, cuanto más…",
+        "body": "Spanish never leaves a preposition hanging at the end like English (the street I live on). The preposition goes first, then el que / la que / los que / las que matching the noun: la calle en la que vivo, el amigo con el que comparto piso. For people you can also use quien: la vecina con quien hablo. Por lo cual (or por lo que) means which is why and refers to a whole idea. Cuyo (whose) agrees with the thing owned, not the owner: un pueblo cuyas casas son de piedra. For 'the more…, the more…' say cuanto más…, más… with no article: Cuanto más grande es la ciudad, más caro es todo. Before a noun cuanto agrees: cuanta más gente, cuantos más coches. Cada vez más / menos means more and more / less and less: Cada vez hay menos gente en los pueblos."
+      },
+      "phrases": [
+        { "t": "Es el barrio en el que crecí.", "n": "It's the neighbourhood I grew up in." },
+        { "t": "Mi vecina, con quien comparto coche, trabaja en el centro.", "n": "My neighbour, who I share a car with, works in the centre." },
+        { "t": "Los alquileres han subido mucho, por lo cual muchos jóvenes se van a las afueras.", "n": "Rents have gone up a lot, which is why many young people are moving to the outskirts." },
+        { "t": "Es un pueblo cuyos habitantes son casi todos mayores.", "n": "It's a village whose inhabitants are almost all elderly." },
+        { "t": "Cuanto más grande es la ciudad, más caro es vivir en ella.", "n": "The bigger the city, the more expensive it is to live there." }
+      ],
+      "drills": [
+        {
+          "title": "Which village?",
+          "base": { "t": "Es el pueblo en el que nací.", "n": "It's the village I was born in." },
+          "items": [
+            { "cue": "del que · te hablé", "t": "Es el pueblo del que te hablé.", "n": "It's the village I told you about." },
+            { "cue": "por el que · pasa el río", "t": "Es el pueblo por el que pasa el río.", "n": "It's the village the river runs through." },
+            { "cue": "cuyo · alcalde es muy joven", "t": "Es el pueblo cuyo alcalde es muy joven.", "n": "It's the village whose mayor is very young." },
+            { "cue": "cuyas · casas son de piedra", "t": "Es el pueblo cuyas casas son de piedra.", "n": "It's the village whose houses are made of stone." }
+          ]
+        },
+        {
+          "title": "The more…, the more…",
+          "base": { "t": "Cuanto más grande es la ciudad, más caro es el alquiler.", "n": "The bigger the city, the higher the rent." },
+          "items": [
+            { "cue": "más gente · más ruido", "t": "Cuanta más gente hay, más ruido hay.", "n": "The more people there are, the more noise there is." },
+            { "cue": "más lejos · más tiempo en el transporte", "t": "Cuanto más lejos vives, más tiempo pasas en el transporte.", "n": "The further away you live, the more time you spend commuting." },
+            { "cue": "cada vez más · caro", "t": "El alquiler es cada vez más caro.", "n": "Rent is getting more and more expensive." },
+            { "cue": "cada vez menos · gente en los pueblos", "t": "Cada vez hay menos gente en los pueblos.", "n": "There are fewer and fewer people in the villages." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say it's the neighbourhood you grew up in.", "t": ["Es el barrio en el que crecí", "Es el barrio en que crecí", "Es el barrio donde crecí"] },
+        { "n": "Say rent is getting more and more expensive.", "t": ["El alquiler es cada vez más caro", "El alquiler está cada vez más caro", "La renta es cada vez más cara", "Los alquileres son cada vez más caros"] }
+      ]
+    },
+    {
+      "id": "b2-u07-l5",
+      "kind": "listening",
+      "title": "Back to the village",
+      "goal": "Follow a radio interview about moving from Madrid to a village in inland Spain.",
+      "phrases": [
+        { "t": "La escuela estaba a punto de cerrar.", "n": "The school was about to close." },
+        { "t": "Cuantos más somos, más vida tiene el pueblo.", "n": "The more of us there are, the more life the village has." },
+        { "t": "Cuando falla internet, no puedo trabajar.", "n": "When the internet goes down, I can't work." },
+        { "t": "No volvería por nada del mundo.", "n": "I wouldn't go back for anything in the world." }
+      ],
+      "story": {
+        "title": "De Madrid a Teruel",
+        "intro": "A radio presenter talks to Lucía, who left Madrid for a small village in Teruel, in the heart of 'la España vaciada'.",
+        "voice": "es-ES-TrianaNeural",
+        "lines": [
+          { "name": "Marta", "t": "Hoy hablamos con Lucía, que hace tres años dejó Madrid para irse a vivir a un pueblo de Teruel. Lucía, ¿por qué te fuiste?", "n": "Today we're talking to Lucía, who left Madrid three years ago to go and live in a village in Teruel. Lucía, why did you leave?" },
+          { "name": "Lucía", "voice": "es-ES-AbrilNeural", "t": "Pagaba un alquiler altísimo por un piso en el que casi no entraba la luz. Cuando empecé a teletrabajar, pensé: ¿y por qué no?", "n": "I was paying a sky-high rent for a flat that hardly got any light. When I started working remotely, I thought: well, why not?" },
+          { "name": "Marta", "t": "¿Y cómo te recibieron en el pueblo?", "n": "And how did the village welcome you?" },
+          { "name": "Lucía", "voice": "es-ES-AbrilNeural", "t": "De maravilla. Éramos poco más de cien vecinos, casi todos mayores, y la escuela estaba a punto de cerrar porque solo quedaban tres niños.", "n": "Wonderfully. There were just over a hundred of us, almost all elderly, and the school was about to close because there were only three children left." },
+          { "name": "Marta", "t": "¿Y qué pasó con la escuela?", "n": "And what happened to the school?" },
+          { "name": "Lucía", "voice": "es-ES-AbrilNeural", "t": "Llegaron otras cuatro familias, cuyos hijos ahora van a clase con el mío. Cuantos más somos, más vida tiene el pueblo.", "n": "Four more families arrived, whose children now go to class with mine. The more of us there are, the more life the village has." },
+          { "name": "Marta", "t": "Pero no todo será tan bonito, ¿no?", "n": "But it can't all be so rosy, can it?" },
+          { "name": "Lucía", "voice": "es-ES-AbrilNeural", "t": "Claro que no. El médico solo viene dos días a la semana, no hay autobús y, cuando falla internet, no puedo trabajar. Aun así, no volvería a Madrid por nada del mundo.", "n": "Of course not. The doctor only comes two days a week, there's no bus, and when the internet goes down I can't work. Even so, I wouldn't go back to Madrid for anything in the world." }
+        ],
+        "questions": [
+          { "q": "¿Dónde vive Lucía ahora?", "n": "Where does Lucía live now?", "t": ["En un pueblo de Teruel", "En Teruel", "En un pueblo"] },
+          { "q": "¿Por qué estaba a punto de cerrar la escuela?", "n": "Why was the school about to close?", "t": ["Porque solo quedaban tres niños", "Solo quedaban tres niños", "Porque había muy pocos niños", "Porque había pocos niños"] },
+          { "q": "¿Cuántos días a la semana viene el médico?", "n": "How many days a week does the doctor come?", "t": ["Dos días", "Dos", "Dos días a la semana"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u07-l6",
+      "kind": "roleplay",
+      "title": "Negotiating the rent",
+      "goal": "Persuade a landlord to lower the rent by offering something in return.",
+      "phrases": [
+        { "t": "La renta se sale de mi presupuesto.", "n": "The rent is beyond my budget.", "note": "Spain: el alquiler; Colombia: el arriendo." },
+        { "t": "¿Podría bajarla un poco?", "n": "Could you bring it down a little?" },
+        { "t": "Si firmo un contrato de dos años, ¿me haría un descuento?", "n": "If I sign a two-year contract, would you give me a discount?" },
+        { "t": "Puedo pagar dos meses de depósito en lugar de uno.", "n": "I can pay two months' deposit instead of one.", "note": "In Mexico landlords often ask for un aval (fiador): a guarantor, usually a property owner." }
+      ],
+      "branch": {
+        "title": "A flat in Mexico City",
+        "scene": "You've just viewed a flat (departamento) in a popular neighbourhood (colonia) of Mexico City. You love it, but the rent is a little above your budget. The owner asks what you think.",
+        "name": "Jorge",
+        "voice": "es-MX-JorgeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bueno, ya vio todo. ¿Qué le pareció el departamento?", "n": "Well, you've seen everything. What did you think of the flat?",
+            "choices": [
+              { "t": "Me encantó, pero la verdad es que la renta se sale un poco de mi presupuesto.", "n": "I loved it, but the truth is the rent is a bit beyond my budget.", "next": "price" },
+              { "t": "Está bien, pero por ese precio debería tener al menos estacionamiento. Es un abuso.", "n": "It's OK, but for that price it should at least have parking. It's a rip-off.", "next": "offended" }
+            ]
+          },
+          "offended": {
+            "t": "Oiga, con ese tono no vamos a llegar a nada. Tengo otras tres personas interesadas.", "n": "Look, with that tone we won't get anywhere. I have three other people interested.",
+            "choices": [
+              { "t": "Disculpe, me expresé mal. Lo que quería decir es que se sale de mi presupuesto.", "n": "Sorry, I put that badly. What I meant is that it's beyond my budget.", "next": "price" },
+              { "t": "Pues que se lo rente a ellas.", "n": "Then rent it to them.", "next": "bad" }
+            ]
+          },
+          "price": {
+            "t": "Lo entiendo, pero en esta colonia las rentas suben cada vez más. ¿Qué me propone?", "n": "I understand, but in this neighbourhood rents are going up more and more. What do you suggest?",
+            "choices": [
+              { "t": "Si firmo un contrato de dos años, ¿me haría un descuento?", "n": "If I sign a two-year contract, would you give me a discount?", "next": "contract" },
+              { "t": "Le ofrezco la mitad. O lo toma o lo deja.", "n": "I'll offer you half. Take it or leave it.", "next": "lowball" }
+            ]
+          },
+          "lowball": {
+            "t": "¿La mitad? Eso no es una oferta, es una broma. Así no vamos a ningún lado.", "n": "Half? That's not an offer, it's a joke. We won't get anywhere like this.",
+            "choices": [
+              { "t": "Tiene razón, me pasé. ¿Y si firmo un contrato de dos años?", "n": "You're right, I went too far. What if I sign a two-year contract?", "next": "contract" },
+              { "t": "Entonces no hay trato.", "n": "Then there's no deal.", "next": "bad" }
+            ]
+          },
+          "contract": {
+            "t": "Mire, un inquilino que se queda dos años me da tranquilidad. Le puedo bajar un poco, pero necesito un aval.", "n": "Look, a tenant who stays two years gives me peace of mind. I can bring it down a bit, but I need a guarantor.",
+            "choices": [
+              { "t": "Aquí no tengo aval, pero puedo pagar dos meses de depósito en lugar de uno.", "n": "I don't have a guarantor here, but I can pay two months' deposit instead of one.", "next": "good" },
+              { "t": "¿Un aval? ¿No le basta con mi palabra?", "n": "A guarantor? Isn't my word enough for you?", "next": "noAval" }
+            ]
+          },
+          "noAval": {
+            "t": "Con todo respeto, la palabra no basta. Sin aval o sin alguna garantía, no puedo rentárselo.", "n": "With all due respect, your word isn't enough. Without a guarantor or some kind of guarantee, I can't rent it to you.",
+            "choices": [
+              { "t": "Lo entiendo. ¿Y si le pago dos meses de depósito en lugar de uno?", "n": "I understand. And what if I pay you two months' deposit instead of one?", "next": "good" },
+              { "t": "Pues entonces buscaré otro departamento.", "n": "Well then, I'll look for another flat.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Me parece razonable. Trato hecho: le bajo la renta y firmamos el lunes. ¡Que disfrute su nuevo hogar!", "n": "That seems reasonable. Deal: I'll lower the rent and we'll sign on Monday. Enjoy your new home!",
+            "end": "good", "outcome": "You stayed polite, offered a longer contract and a bigger deposit, and got the rent lowered."
+          },
+          "bad": {
+            "t": "Como usted quiera. Le deseo suerte, porque en esta zona no va a encontrar nada más barato.", "n": "As you wish. Good luck, because you won't find anything cheaper in this area.",
+            "end": "bad", "outcome": "Pushing too hard or giving up cost you the flat. Offering something in return, like a longer contract or a bigger deposit, is what persuades a landlord."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the landlord the rent is beyond your budget.", "t": ["La renta se sale de mi presupuesto", "El alquiler se sale de mi presupuesto", "El arriendo se sale de mi presupuesto"] },
+        { "n": "Ask if they'd give you a discount if you sign a two-year contract.", "t": ["Si firmo un contrato de dos años, me haría un descuento", "Si firmo un contrato de dos años, me hace un descuento", "Si firmo un contrato de dos años, me harías un descuento"] }
+      ]
+    },
+    {
+      "id": "b2-u07-l7",
+      "kind": "speaking",
+      "title": "City or country? Make your case",
+      "goal": "Argue for where you'd rather live in a structured, persuasive answer of about 90 seconds.",
+      "culture": {
+        "title": "La España vaciada and the megacities",
+        "body": "La España vaciada (emptied Spain) is the name given to the large, thinly populated areas of inland Spain, in provinces such as Soria, Teruel and Cuenca, where many villages lost most of their inhabitants during the twentieth century as people moved to the big cities and the coast. People say vaciada (emptied) rather than vacía (empty) to stress that it was emptied, not born that way. Today many villages try to attract newcomers with remote work, cheap housing and schools that stay open. Latin America went the other way: it is one of the most urbanised regions in the world, and the Mexico City metropolitan area is among the largest on the planet, alongside other huge metropolises such as Bogotá, Lima and Buenos Aires.",
+        "regions": ["ES", "MX", "CO", "AR"]
+      },
+      "phrases": [
+        { "t": "Estoy convencido de que el futuro está en los pueblos.", "n": "I'm convinced the future lies in the villages.", "note": "A woman says convencida." },
+        { "t": "Hay que reconocer que la ciudad ofrece más oportunidades.", "n": "You have to admit the city offers more opportunities." },
+        { "t": "Cuanto más lo pienso, más claro lo tengo.", "n": "The more I think about it, the clearer it is to me." },
+        { "t": "La calidad de vida no se mide solo en dinero.", "n": "Quality of life isn't measured only in money." }
+      ],
+      "free": [
+        {
+          "n": "A friend is deciding whether to move to the countryside or stay in a big city. Persuade them: take a clear position, weigh up both sides (housing, commuting, work, quality of life), concede one point, and finish with a recommendation.",
+          "hint": "Use Estoy convencido/a de que…, Por un lado… por otro…, Mientras que en la ciudad…, Hay que reconocer que…, Cuanto más…, más…, cada vez más…, un pueblo en el que / cuyo…, Por eso te recomiendo…",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "city / country", "any": ["ciudad", "campo", "pueblo", "pueblos", "barrio", "afueras", "naturaleza"] },
+            { "label": "weighing up", "any": ["por un lado", "por otro", "mientras que", "en cambio", "sin embargo", "hay que reconocer", "es verdad que", "ahí te doy la razón"] },
+            { "label": "cuanto más / cada vez", "any": ["cuanto más", "cuanta más", "cuantos más", "cuantas más", "cuanto menos", "cada vez más", "cada vez menos"] },
+            { "label": "a relative clause", "any": ["en el que", "en la que", "con quien", "por lo cual", "por lo que", "cuyo", "cuya", "cuyos", "cuyas", "del que", "de la que"] },
+            { "label": "housing & commuting", "any": ["alquiler", "renta", "arriendo", "vivienda", "casa", "piso", "departamento", "transporte", "tráfico", "coche", "carro", "teletrabajo"] }
+          ],
+          "model": "Estoy convencido de que deberías irte al campo. Por un lado, en la ciudad el alquiler es cada vez más caro y pasas horas en el transporte; por otro, en un pueblo tendrías una casa con jardín por la mitad de precio. Hay que reconocer que la ciudad ofrece más oportunidades, pero con el teletrabajo eso ya no es tan importante. Cuanto más lo pienso, más claro lo tengo: busca un pueblo en el que haya tren y escuela, y vivirás mucho mejor."
+        }
+      ],
+      "prompts": [
+        { "n": "Say the more you think about it, the clearer it is to you.", "t": ["Cuanto más lo pienso, más claro lo tengo", "Cuanto más lo pienso, más claro lo veo"] },
+        { "n": "Say quality of life isn't measured only in money.", "t": ["La calidad de vida no se mide solo en dinero", "La calidad de vida no se mide solo con dinero", "La calidad de vida no se mide sólo en dinero"] }
+      ]
+    },
+    {
+      "id": "b2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: ¿Ciudad o campo?",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

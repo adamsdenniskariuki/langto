@@ -1,0 +1,305 @@
+{
+  "id": "b2-u06",
+  "title": "Salud y bienestar",
+  "subtitle": "Health systems, lifestyle & giving advice",
+  "icon": "🧘",
+  "lessons": [
+    {
+      "id": "b2-u06-l1",
+      "title": "Healthcare systems",
+      "goal": "Talk about how healthcare works and compare public and private care.",
+      "tip": {
+        "title": "Healthcare words",
+        "body": "Public healthcare in Spain is la sanidad pública; in Latin America you'll more often hear el sistema de salud or la salud pública. Your GP is el médico de cabecera in Spain and el médico familiar or general in much of Latin America, and you see them at el centro de salud or la clínica. Private health insurance is un seguro médico (privado), a waiting list una lista de espera, and A&E is urgencias everywhere. To register is darse de alta."
+      },
+      "phrases": [
+        { "t": "¿Ya tienes la tarjeta sanitaria?", "n": "Have you got your health card yet?", "note": "Spain: the card for the public health system" },
+        { "t": "Tengo cita con mi médico de cabecera.", "n": "I've got an appointment with my GP.", "note": "Latin America: médico familiar / general" },
+        { "t": "En la sanidad pública las listas de espera son largas.", "n": "In public healthcare the waiting lists are long." },
+        { "t": "Mucha gente paga además un seguro médico privado.", "n": "Lots of people also pay for private health insurance." },
+        { "t": "Si es una urgencia, ve directamente a urgencias.", "n": "If it's an emergency, go straight to A&E." },
+        { "t": "Lo bueno es que la atención es gratuita.", "n": "The good thing is that the care is free." },
+        { "t": "La sanidad debería ser un derecho, no un negocio.", "n": "Healthcare should be a right, not a business." },
+        { "t": "Depende mucho de la comunidad autónoma.", "n": "It depends a lot on the region.", "note": "In Spain the regions run most health services" }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Carmen explains, Seville",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "¿Ya te has dado de alta en el centro de salud? Con el contrato de trabajo tienes derecho a la sanidad pública.", "n": "Have you registered at the health centre yet? With your work contract you're entitled to public healthcare." },
+          { "who": "you", "t": "Todavía no. ¿Qué tengo que hacer exactamente? ¿Me dan una tarjeta sanitaria?", "n": "Not yet. What exactly do I have to do? Do they give me a health card?" },
+          { "who": "A", "name": "Carmen", "t": "Sí. Vas al centro de salud con tus papeles, te dan la tarjeta y te asignan un médico de cabecera.", "n": "Yes. You go to the health centre with your documents, they give you the card and assign you a GP." },
+          { "who": "you", "t": "Perfecto. Me han dicho que las listas de espera son largas. ¿Es verdad?", "n": "Perfect. I've been told the waiting lists are long. Is that true?" },
+          { "who": "A", "name": "Carmen", "t": "Para el especialista, a veces sí. Por eso mucha gente paga además un seguro privado. Yo no, la verdad.", "n": "For a specialist, sometimes, yes. That's why lots of people also pay for private insurance. I don't, to be honest." },
+          { "who": "you", "t": "Yo tampoco lo veo necesario. Para mí, la sanidad debería ser un derecho, no un negocio.", "n": "I don't see the need either. For me, healthcare should be a right, not a business." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you've got an appointment with your GP.", "t": ["Tengo cita con mi médico de cabecera", "Tengo cita con el médico de cabecera", "Tengo cita con mi médico familiar", "Tengo cita con mi médico general"] },
+        { "n": "Say that in public healthcare the waiting lists are long.", "t": ["En la sanidad pública las listas de espera son largas", "En la salud pública las listas de espera son largas"] },
+        { "n": "Say healthcare should be a right, not a business.", "t": ["La sanidad debería ser un derecho, no un negocio", "La salud debería ser un derecho, no un negocio"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l2",
+      "title": "Stress and sleep",
+      "goal": "Describe stress and sleep problems and how they affect you.",
+      "tip": {
+        "title": "costar, pasar factura, desconectar",
+        "body": "Costar works like gustar: me cuesta dormirme (I find it hard to fall asleep), nos cuesta desconectar. Pasar factura (literally 'to send the bill') means to take its toll: el estrés me está pasando factura. Desconectar is to switch off. To be stressed is estar estresado/a everywhere, and in Spain also agobiado/a; burnt out is quemado/a. Notice the -se in dormirse (to fall asleep) versus dormir (to sleep)."
+      },
+      "phrases": [
+        { "t": "Últimamente me cuesta mucho dormirme.", "n": "Lately I find it really hard to fall asleep." },
+        { "t": "El estrés me está pasando factura.", "n": "Stress is taking its toll on me." },
+        { "t": "Estoy agobiado con tanto trabajo.", "n": "I'm overwhelmed with so much work.", "note": "A woman says agobiada; Latin America: estresado/a" },
+        { "t": "Me despierto a las cuatro y ya no me vuelvo a dormir.", "n": "I wake up at four and can't get back to sleep." },
+        { "t": "No consigo desconectar del trabajo.", "n": "I can't switch off from work." },
+        { "t": "Miro el celular hasta muy tarde.", "n": "I look at my phone until very late.", "note": "Spain: el móvil" },
+        { "t": "Con el estrés me duele la espalda.", "n": "When I'm stressed my back hurts." },
+        { "t": "Necesito unas vacaciones de verdad.", "n": "I need a proper holiday." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-GonzaloNeural",
+        "title": "Julián notices, Cali",
+        "lines": [
+          { "who": "A", "name": "Julián", "t": "Oye, ¿todo bien? Tienes cara de no haber dormido nada.", "n": "Hey, everything OK? You look like you haven't slept at all." },
+          { "who": "you", "t": "La verdad es que no. Últimamente me cuesta mucho dormirme, y luego me despierto a las cuatro.", "n": "Not really. Lately I find it really hard to fall asleep, and then I wake up at four." },
+          { "who": "A", "name": "Julián", "t": "Uy, eso no es bueno. ¿Es por el trabajo?", "n": "Oh, that's not good. Is it because of work?" },
+          { "who": "you", "t": "Sí, no consigo desconectar. Miro el celular hasta muy tarde y contesto correos a medianoche.", "n": "Yes, I can't switch off. I look at my phone until very late and answer emails at midnight." },
+          { "who": "A", "name": "Julián", "t": "Pues cuidado, que eso pasa factura. Yo estuve así el año pasado y terminé enfermo.", "n": "Well, careful, that takes its toll. I was like that last year and ended up ill." },
+          { "who": "you", "t": "Ya lo noto: el estrés me está pasando factura, hasta me duele la espalda. Necesito unas vacaciones de verdad.", "n": "I can feel it already: stress is taking its toll on me, even my back hurts. I need a proper holiday." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say that lately you find it really hard to fall asleep.", "t": ["Últimamente me cuesta mucho dormirme", "Últimamente me cuesta dormirme", "Últimamente me cuesta mucho dormir"] },
+        { "n": "Say you can't switch off from work.", "t": ["No consigo desconectar del trabajo", "No puedo desconectar del trabajo"] },
+        { "n": "Say stress is taking its toll on you.", "t": ["El estrés me está pasando factura", "El estrés me pasa factura"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l3",
+      "title": "Changing habits",
+      "goal": "Talk about lifestyle changes you've made and the ones you still want to make.",
+      "tip": {
+        "title": "Verbs for changing habits",
+        "body": "Dejar de + infinitive = to stop (he dejado de fumar); empezar a or ponerse a = to start; volver a = to do again (he vuelto a correr); seguir + gerund = to still be doing (sigo comiendo demasiado azúcar); llevar + time + gerund = to have been doing for (llevo un mes yendo al gimnasio). Proponerse algo is to set yourself a goal, and picar entre horas means to snack between meals."
+      },
+      "phrases": [
+        { "t": "Hace un año que dejé de fumar.", "n": "I stopped smoking a year ago." },
+        { "t": "Llevo un mes yendo al gimnasio tres veces por semana.", "n": "I've been going to the gym three times a week for a month." },
+        { "t": "He vuelto a correr por las mañanas.", "n": "I've started running in the mornings again." },
+        { "t": "Sigo comiendo demasiado azúcar.", "n": "I'm still eating too much sugar." },
+        { "t": "Intento no picar entre horas.", "n": "I try not to snack between meals." },
+        { "t": "Paso demasiadas horas sentado.", "n": "I spend too many hours sitting down.", "note": "A woman says sentada" },
+        { "t": "Me he propuesto cocinar más en casa.", "n": "I've set myself the goal of cooking more at home." },
+        { "t": "Lo importante es ser constante.", "n": "The important thing is to be consistent." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Flor wants the secret, Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Flor", "t": "¡Qué bien se te ve! ¿Qué hiciste? ¿Cambiaste algo?", "n": "You look great! What did you do? Did you change something?" },
+          { "who": "you", "t": "Sí, bastante. Hace un año que dejé de fumar, y llevo un mes yendo al gimnasio tres veces por semana.", "n": "Yes, quite a lot. I stopped smoking a year ago, and I've been going to the gym three times a week for a month." },
+          { "who": "A", "name": "Flor", "t": "¡Bien ahí! Yo siempre empiezo con ganas y a las dos semanas lo dejo. ¿Cómo hacés para no abandonar?", "n": "Good for you! I always start out keen and give up after two weeks. How do you manage not to quit? (hacés = haces)" },
+          { "who": "you", "t": "Lo importante es ser constante. Voy siempre a la misma hora, antes del trabajo, como si fuera una cita.", "n": "The important thing is to be consistent. I always go at the same time, before work, as if it were an appointment." },
+          { "who": "A", "name": "Flor", "t": "¿Y con la comida? Yo sigo comiendo facturas todos los días.", "n": "And what about food? I still eat pastries every day. (facturas = Argentine sweet pastries)" },
+          { "who": "you", "t": "Yo también sigo comiendo demasiado azúcar, no te creas. Pero me he propuesto cocinar más en casa.", "n": "I'm still eating too much sugar too, believe me. But I've set myself the goal of cooking more at home." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say you stopped smoking a year ago.", "t": ["Hace un año que dejé de fumar", "Dejé de fumar hace un año"] },
+        { "n": "Say you've been going to the gym three times a week for a month.", "t": ["Llevo un mes yendo al gimnasio tres veces por semana", "Llevo un mes yendo al gimnasio tres veces a la semana", "Llevo un mes yendo al gimnasio"] },
+        { "n": "Say the important thing is to be consistent.", "t": ["Lo importante es ser constante"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l4",
+      "kind": "grammar",
+      "title": "Giving advice: subjunctive and commands",
+      "goal": "Give advice with que + subjunctive and use commands with pronouns.",
+      "tip": {
+        "title": "Te recomiendo que… · tómatelo · dígaselo",
+        "body": "Verbs of advice (recomendar, aconsejar, sugerir) and expressions like es importante que or es mejor que take the subjunctive when you're talking about someone else: Te recomiendo que duermas más. Le aconsejo que vaya al médico (usted). Es importante que comas bien. With an infinitive, the advice is general: Es importante dormir bien. In commands, pronouns are attached to the end of affirmative forms (tómatelo, pídesela, dígaselo) and a written accent keeps the stress where it was; in negative commands they go before the verb: no te preocupes, no se lo digas. Le and les become se before lo, la, los, las: dígale + lo = dígaselo."
+      },
+      "phrases": [
+        { "t": "Te recomiendo que duermas al menos siete horas.", "n": "I recommend you sleep at least seven hours." },
+        { "t": "Es importante que comas a tus horas.", "n": "It's important that you eat at regular times." },
+        { "t": "Le aconsejo que vaya al médico cuanto antes.", "n": "I advise you to see a doctor as soon as possible.", "note": "usted" },
+        { "t": "Tómatelo con calma y no te preocupes.", "n": "Take it easy and don't worry.", "note": "Latin America also: tómalo con calma" },
+        { "t": "Si le duele, dígaselo a la enfermera.", "n": "If it hurts, tell the nurse.", "note": "usted: dígale + lo = dígaselo" }
+      ],
+      "drills": [
+        {
+          "title": "Recommend it",
+          "base": { "t": "Te recomiendo que duermas más.", "n": "I recommend you sleep more." },
+          "items": [
+            { "cue": "beber agua", "t": "Te recomiendo que bebas más agua.", "n": "I recommend you drink more water." },
+            { "cue": "es importante que", "t": "Es importante que duermas más.", "n": "It's important that you sleep more." },
+            { "cue": "usted", "t": "Le recomiendo que duerma más.", "n": "I recommend you sleep more. (formal)" },
+            { "cue": "te aconsejo · hacer ejercicio", "t": "Te aconsejo que hagas más ejercicio.", "n": "I advise you to do more exercise." }
+          ]
+        },
+        {
+          "title": "Pronouns on commands",
+          "base": { "t": "Pídele cita al médico.", "n": "Ask the doctor for an appointment." },
+          "items": [
+            { "cue": "cita → la", "t": "Pídesela al médico.", "n": "Ask the doctor for it." },
+            { "cue": "usted", "t": "Pídale cita al médico.", "n": "Ask the doctor for an appointment. (formal)" },
+            { "cue": "usted · cita → la", "t": "Pídasela al médico.", "n": "Ask the doctor for it. (formal)" },
+            { "cue": "no · todavía", "t": "No le pidas cita todavía.", "n": "Don't ask him for an appointment yet." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Advise a friend: you recommend they sleep at least seven hours.", "t": ["Te recomiendo que duermas al menos siete horas", "Te recomiendo que duermas por lo menos siete horas", "Le recomiendo que duerma al menos siete horas"] },
+        { "n": "Tell a friend to take it easy and not to worry.", "t": ["Tómatelo con calma y no te preocupes", "Tómatelo con calma, no te preocupes", "Tómalo con calma y no te preocupes"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l5",
+      "kind": "listening",
+      "title": "The radio doctor",
+      "goal": "Follow a doctor's advice to a caller on a radio show.",
+      "phrases": [
+        { "t": "Desde hace tres meses duermo fatal.", "n": "I've been sleeping terribly for three months." },
+        { "t": "Ahí tenemos dos pistas.", "n": "There we have two clues." },
+        { "t": "Te recomiendo que dejes el celular fuera del cuarto.", "n": "I recommend you leave your phone outside the bedroom.", "note": "Spain: el móvil, la habitación" },
+        { "t": "Es importante que te acuestes siempre a la misma hora.", "n": "It's important that you always go to bed at the same time." }
+      ],
+      "story": {
+        "title": "Consultorio de la mañana",
+        "intro": "On a Mexican morning radio show, Dr. Ramírez takes a call from Arturo, who can't sleep.",
+        "voice": "es-MX-DaliaNeural",
+        "lines": [
+          { "name": "Dra. Ramírez", "t": "Buenos días y bienvenidos al consultorio. Tenemos una llamada. Adelante, ¿cómo te llamas y qué te pasa?", "n": "Good morning and welcome to the advice slot. We have a caller. Go ahead, what's your name and what's the problem?" },
+          { "name": "Arturo", "voice": "es-MX-LibertoNeural", "t": "Hola, doctora, soy Arturo. Desde hace tres meses duermo fatal: me acuesto a las doce y a las cuatro ya estoy despierto.", "n": "Hello, doctor, I'm Arturo. I've been sleeping terribly for three months: I go to bed at twelve and I'm awake by four." },
+          { "name": "Dra. Ramírez", "t": "¿Y qué haces antes de dormir, Arturo?", "n": "And what do you do before going to sleep, Arturo?" },
+          { "name": "Arturo", "voice": "es-MX-LibertoNeural", "t": "Pues… veo series en el celular en la cama, y a veces me tomo un café después de cenar.", "n": "Well… I watch series on my phone in bed, and sometimes I have a coffee after dinner." },
+          { "name": "Dra. Ramírez", "t": "Ahí tenemos dos pistas. Te recomiendo que dejes el celular fuera del cuarto y que no tomes café después de las cinco de la tarde.", "n": "There we have two clues. I recommend you leave your phone outside the bedroom and don't drink coffee after five in the afternoon." },
+          { "name": "Arturo", "voice": "es-MX-LibertoNeural", "t": "¿Y si aun así no me duermo?", "n": "And what if I still can't fall asleep?" },
+          { "name": "Dra. Ramírez", "t": "Levántate y lee algo tranquilo hasta que tengas sueño. Es importante que te acuestes siempre a la misma hora. Y si en un mes no mejoras, ve con tu médico familiar.", "n": "Get up and read something calm until you feel sleepy. It's important that you always go to bed at the same time. And if you haven't improved in a month, go and see your family doctor." },
+          { "name": "Arturo", "voice": "es-MX-LibertoNeural", "t": "Muchas gracias, doctora. Esta misma noche lo intento.", "n": "Thank you very much, doctor. I'll try it tonight." }
+        ],
+        "questions": [
+          { "q": "¿Desde cuándo duerme mal Arturo?", "n": "How long has Arturo been sleeping badly?", "t": ["Desde hace tres meses", "Hace tres meses", "Tres meses"] },
+          { "q": "¿Qué le recomienda la doctora sobre el celular?", "n": "What does the doctor recommend about his phone?", "t": ["Que lo deje fuera del cuarto", "Que deje el celular fuera del cuarto", "Dejarlo fuera del cuarto", "Que no lo use en la cama"] },
+          { "q": "¿Qué debe hacer si en un mes no mejora?", "n": "What should he do if he hasn't improved in a month?", "t": ["Ir con su médico familiar", "Ir a su médico familiar", "Ir al médico", "Que vaya con su médico familiar", "Que vaya al médico"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u06-l6",
+      "kind": "roleplay",
+      "title": "A friend who won't slow down",
+      "goal": "Persuade a stressed friend to look after himself, tactfully.",
+      "phrases": [
+        { "t": "No te lo tomes a mal, pero te veo agotado.", "n": "Don't take it the wrong way, but you look exhausted.", "note": "to a woman: agotada" },
+        { "t": "Te aconsejo que pidas unos días libres.", "n": "I advise you to ask for a few days off." },
+        { "t": "Díselo a tu jefa claramente.", "n": "Tell your boss clearly." },
+        { "t": "Si quieres, te ayudo a pedir cita.", "n": "If you like, I'll help you make an appointment." }
+      ],
+      "branch": {
+        "title": "Javi is running on empty",
+        "scene": "Your friend Javi in Madrid has been working twelve-hour days, sleeping badly and getting headaches, but he refuses to slow down. He has just arrived late for dinner with you. Help him without lecturing.",
+        "name": "Javi",
+        "voice": "es-ES-SaulNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Perdona por llegar tarde otra vez. Es que tenía que terminar un informe… Llevo tres semanas sin dormir más de cinco horas.", "n": "Sorry for being late again. I had to finish a report… I haven't slept more than five hours a night for three weeks.",
+            "choices": [
+              { "t": "No te preocupes. Pero no te lo tomes a mal: te veo agotado. ¿Qué te pasa?", "n": "Don't worry. But don't take it the wrong way: you look exhausted. What's going on?", "next": "open" },
+              { "t": "Pues así no puedes seguir. Tienes que dejar ese trabajo ya.", "n": "Well, you can't go on like this. You have to quit that job right now.", "next": "defensive" }
+            ]
+          },
+          "defensive": {
+            "t": "¡Qué fácil es decirlo! Tengo una hipoteca, no puedo dejar el trabajo así como así.", "n": "That's easy to say! I've got a mortgage, I can't just quit my job like that.",
+            "choices": [
+              { "t": "Tienes razón, perdona. No digo que lo dejes, pero es importante que descanses.", "n": "You're right, sorry. I'm not saying you should quit, but it's important that you rest.", "next": "open" },
+              { "t": "Pues entonces no te quejes.", "n": "Well, then stop complaining.", "next": "bad" }
+            ]
+          },
+          "open": {
+            "t": "Es que mi jefa me manda cada vez más cosas y no sé decir que no. Encima me duele la cabeza todos los días.", "n": "The thing is, my boss keeps giving me more and more work and I can't say no. On top of that, I have a headache every day.",
+            "choices": [
+              { "t": "Te aconsejo que vayas al médico. Un dolor de cabeza todos los días no es normal.", "n": "I advise you to see a doctor. A headache every day isn't normal.", "next": "doctor" },
+              { "t": "Tómate una pastilla y ya está. Todos tenemos estrés.", "n": "Take a pill and that's it. We all have stress.", "next": "minimise" }
+            ]
+          },
+          "minimise": {
+            "t": "Ya… llevo semanas tomando pastillas. No sé si eso es la solución.", "n": "Yeah… I've been taking pills for weeks. I'm not sure that's the solution.",
+            "choices": [
+              { "t": "Tienes razón, eso no es solución. Te aconsejo que vayas al médico.", "n": "You're right, that's no solution. I advise you to see a doctor.", "next": "doctor" },
+              { "t": "Bueno, tú sabrás. Yo solo te digo lo que haría yo.", "n": "Well, it's up to you. I'm just telling you what I'd do.", "next": "bad" }
+            ]
+          },
+          "doctor": {
+            "t": "Puede ser… Pero ¿y el trabajo? No puedo desaparecer sin más.", "n": "Maybe… But what about work? I can't just disappear.",
+            "choices": [
+              { "t": "Habla con tu jefa y díselo claramente: necesitas repartir el trabajo. Y te aconsejo que pidas unos días libres.", "n": "Talk to your boss and tell her clearly: you need to share out the work. And I'd advise you to ask for a few days off.", "next": "good" },
+              { "t": "Si quieres, te ayudo a pedir cita ahora mismo, y luego pensamos juntos cómo decírselo a tu jefa.", "n": "If you like, I'll help you make an appointment right now, and then we'll think together about how to tell your boss.", "next": "help" }
+            ]
+          },
+          "good": {
+            "t": "Tienes razón. Mañana se lo digo. Gracias por preocuparte por mí.", "n": "You're right. I'll tell her tomorrow. Thanks for worrying about me.",
+            "end": "good", "outcome": "You were tactful, gave concrete advice, and Javi agreed to talk to his boss."
+          },
+          "help": {
+            "t": "Vale, vamos a pedir la cita. Me alegra que me lo hayas dicho.", "n": "OK, let's make the appointment. I'm glad you told me.",
+            "end": "good", "outcome": "You offered practical help, and Javi is booking a doctor's appointment."
+          },
+          "bad": {
+            "t": "Mira, mejor cambiamos de tema.", "n": "Look, let's just change the subject.",
+            "end": "bad", "outcome": "Lecturing or brushing off his problem made Javi close up. Acknowledge how he feels first, then advise."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Advise a friend to see a doctor (te aconsejo que…).", "t": ["Te aconsejo que vayas al médico", "Te aconsejo que vayas al doctor"] },
+        { "n": "Tell a friend: don't take it the wrong way, but they look exhausted.", "t": ["No te lo tomes a mal, pero te veo agotado", "No te lo tomes a mal, pero te veo agotada", "No te lo tomes a mal, pero te veo cansado", "No te lo tomes a mal, pero te veo cansada"] }
+      ]
+    },
+    {
+      "id": "b2-u06-l7",
+      "kind": "speaking",
+      "title": "Advice for a healthier life",
+      "goal": "Give a friend detailed advice about stress, sleep and lifestyle for 90 seconds.",
+      "culture": {
+        "title": "Public healthcare and the Mediterranean diet",
+        "body": "Spain has a public national health system, funded mainly through taxes, that covers almost everyone who lives there; the autonomous communities run most of the services. Patients are registered with a médico de cabecera at their local centro de salud, who refers them to specialists, and some people add private insurance to avoid waiting lists. Daily eating habits matter too: the Mediterranean diet, based on olive oil, vegetables, legumes, fish and shared meals, is part of everyday life in Spain and is recognised by UNESCO as intangible cultural heritage.",
+        "regions": ["ES"]
+      },
+      "phrases": [
+        { "t": "Si yo fuera tú, empezaría por dormir más.", "n": "If I were you, I'd start by sleeping more." },
+        { "t": "Es fundamental que encuentres tiempo para ti.", "n": "It's essential that you find time for yourself." },
+        { "t": "No hace falta que vayas al gimnasio todos los días.", "n": "You don't need to go to the gym every day." },
+        { "t": "Apúntate a algo que te guste, como el baile o la natación.", "n": "Sign up for something you enjoy, like dancing or swimming." }
+      ],
+      "free": [
+        {
+          "n": "A friend is stressed, sleeping badly and living on fast food. Give them detailed advice: what to change, why, and how to start. Use te recomiendo que / es importante que + subjunctive and at least one command.",
+          "hint": "Te recomiendo que … Es importante que … porque … Te aconsejo que … No hace falta que … Apúntate a … / Tómatelo con calma / No te preocupes …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "advice + subjunctive", "any": ["te recomiendo que", "te aconsejo que", "es importante que", "es fundamental que", "te sugiero que", "no hace falta que", "es mejor que"] },
+            { "label": "a command", "any": ["tómatelo", "no te preocupes", "apúntate", "intenta", "acuéstate", "deja", "haz", "come", "duerme", "desconecta", "sal"] },
+            { "label": "a health topic", "any": ["dormir", "duermas", "sueño", "estrés", "ejercicio", "comida", "comer", "comas", "dieta", "verdura*", "descans*"] },
+            { "label": "a reason", "any": ["porque", "así", "para que", "ya que", "de esta manera"] }
+          ],
+          "model": "Mira, te entiendo, pero así no puedes seguir. Lo primero: te recomiendo que te acuestes siempre a la misma hora y que dejes el móvil fuera de la habitación, porque así dormirás mejor. También es importante que comas más verdura y menos comida rápida, aunque no hace falta que hagas una dieta estricta. Te aconsejo que hagas algo de ejercicio: apúntate a natación o sal a caminar después del trabajo. Y sobre todo, tómatelo con calma y no te preocupes si un día no lo consigues."
+        }
+      ],
+      "prompts": [
+        { "n": "Say it's essential that they find time for themselves.", "t": ["Es fundamental que encuentres tiempo para ti", "Es fundamental que encuentre tiempo para usted", "Es importante que encuentres tiempo para ti"] },
+        { "n": "Say they don't need to go to the gym every day.", "t": ["No hace falta que vayas al gimnasio todos los días", "No hace falta que vayas al gimnasio cada día", "No hace falta que vaya al gimnasio todos los días"] }
+      ]
+    },
+    {
+      "id": "b2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Salud y bienestar",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

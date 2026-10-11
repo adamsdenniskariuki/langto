@@ -1,0 +1,309 @@
+{
+  "id": "b2-u01",
+  "title": "Pros y contras",
+  "subtitle": "Debating & weighing arguments",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "b2-u01-l1",
+      "title": "Weighing arguments",
+      "goal": "Present the pros and cons of a complex issue in a clear structure.",
+      "tip": {
+        "title": "Structure your argument",
+        "body": "At B2 you're expected to organise an argument, not just give an opinion. Number your points with en primer lugar, además and por último. Name the sides: a favor / en contra, las ventajas / los inconvenientes (inconveniente means drawback, not just inconvenience). Lo bueno es que… / lo malo es que… is a neat, very spoken way to weigh things up. To sound measured, frame the issue first: Es una cuestión compleja or No cabe duda de que… (there's no doubt that…)."
+      },
+      "phrases": [
+        { "t": "Hay argumentos a favor y en contra.", "n": "There are arguments for and against." },
+        { "t": "En primer lugar, hay que tener en cuenta el coste.", "n": "First of all, we have to take the cost into account.", "note": "Latin America: el costo." },
+        { "t": "Una de las principales ventajas es la flexibilidad.", "n": "One of the main advantages is flexibility." },
+        { "t": "El mayor inconveniente es el precio de la vivienda.", "n": "The biggest drawback is the price of housing." },
+        { "t": "Lo bueno es que se crea empleo; lo malo, que suben los alquileres.", "n": "The good thing is that it creates jobs; the bad thing is that rents go up.", "note": "Lo bueno / lo malo es que… = the good / bad thing is that…" },
+        { "t": "Si lo pensamos bien, los inconvenientes pesan más que las ventajas.", "n": "If we think it through, the drawbacks outweigh the advantages.", "note": "pesar más que = to weigh more than, to outweigh." },
+        { "t": "No cabe duda de que es una cuestión compleja.", "n": "There's no doubt that it's a complex issue." },
+        { "t": "Por último, no hay que olvidar el impacto en el medio ambiente.", "n": "Finally, we mustn't forget the impact on the environment." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Tourist flats in the neighbourhood",
+        "lines": [
+          { "who": "A", "name": "Lucía", "t": "¿Has visto que el ayuntamiento quiere limitar los pisos turísticos en el barrio? Yo lo veo clarísimo: ¡ya era hora!", "n": "Have you seen that the city council wants to limit tourist flats in the neighbourhood? It's crystal clear to me: about time!" },
+          { "who": "you", "t": "No cabe duda de que es una cuestión compleja. Hay argumentos a favor y en contra.", "n": "There's no doubt that it's a complex issue. There are arguments for and against." },
+          { "who": "A", "name": "Lucía", "t": "¿A favor de los pisos turísticos? Pero si los alquileres no paran de subir y los vecinos de toda la vida se tienen que ir.", "n": "In favour of tourist flats? But rents keep going up and people who've lived here all their lives are having to leave." },
+          { "who": "you", "t": "En eso tienes razón. Lo bueno del turismo es que se crea empleo; lo malo, que suben los alquileres.", "n": "You're right about that. The good thing about tourism is that it creates jobs; the bad thing is that rents go up." },
+          { "who": "A", "name": "Lucía", "t": "Ya, pero el empleo que crea suele ser precario. Y por último, el barrio está perdiendo su vida de siempre: solo quedan maletas y tiendas de recuerdos.", "n": "Sure, but the jobs it creates tend to be insecure. And finally, the neighbourhood is losing its everyday life: all that's left is suitcases and souvenir shops." },
+          { "who": "you", "t": "Bueno, si lo pensamos bien, para los vecinos los inconvenientes pesan más que las ventajas. Limitarlos me parece razonable.", "n": "Well, if we think it through, for residents the drawbacks outweigh the advantages. Limiting them seems reasonable to me." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say there are arguments for and against.", "t": ["Hay argumentos a favor y en contra", "Hay argumentos a favor y argumentos en contra"] },
+        { "n": "Say the biggest drawback is the price of housing.", "t": ["El mayor inconveniente es el precio de la vivienda", "El principal inconveniente es el precio de la vivienda"] },
+        { "n": "Frame the issue: say there's no doubt that it's a complex issue.", "t": ["No cabe duda de que es una cuestión compleja", "No hay duda de que es una cuestión compleja", "Sin duda es una cuestión compleja"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l2",
+      "title": "Conceding a point",
+      "goal": "Acknowledge the other side's argument before you counter it.",
+      "tip": {
+        "title": "Concede, then counter",
+        "body": "Persuasive speakers acknowledge the other side before disagreeing. Concede with Es verdad que…, Reconozco que… or Tienes razón en que…, then turn with pero, sin embargo or aun así (even so). Si bien es cierto que… is a more formal concession you'll hear in speeches and on the news. Eso no quita que + subjunctive means \"that doesn't change the fact that…\": Eso no quita que sea una buena idea. De todas formas (anyway) lets you move the discussion on."
+      },
+      "phrases": [
+        { "t": "Es verdad que es caro, pero a la larga sale rentable.", "n": "It's true that it's expensive, but in the long run it pays off." },
+        { "t": "Reconozco que tienes parte de razón.", "n": "I admit you're partly right.", "note": "Formal: Reconozco que tiene parte de razón." },
+        { "t": "Tienes razón en que es arriesgado; sin embargo, vale la pena.", "n": "You're right that it's risky; however, it's worth it." },
+        { "t": "Admito que no lo había pensado.", "n": "I admit I hadn't thought of that." },
+        { "t": "Aun así, sigo pensando que es un error.", "n": "Even so, I still think it's a mistake.", "note": "seguir + gerund = to still do something." },
+        { "t": "Eso no quita que sea una buena idea.", "n": "That doesn't change the fact that it's a good idea.", "note": "no quita que is followed by the subjunctive." },
+        { "t": "Si bien es cierto que hay riesgos, las ventajas son claras.", "n": "While it's true that there are risks, the advantages are clear.", "note": "Formal register." },
+        { "t": "De todas formas, hay que intentarlo.", "n": "Anyway, we have to try.", "note": "Also: de todas maneras, de todos modos." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "Rent or buy in Mexico City?",
+        "lines": [
+          { "who": "A", "name": "Emilio", "t": "Te lo digo en serio: rentar es tirar el dinero. Lo inteligente es comprar un departamento cuanto antes.", "n": "I'm serious: renting is throwing money away. The smart thing is to buy a flat as soon as possible.", "note": "Mexico: rentar, departamento. Spain: alquilar, piso." },
+          { "who": "you", "t": "Reconozco que tienes parte de razón. Pero comprar en la Ciudad de México ahora es carísimo.", "n": "I admit you're partly right. But buying in Mexico City right now is incredibly expensive." },
+          { "who": "A", "name": "Emilio", "t": "Es verdad que es caro, pero a la larga sale rentable. Además, al final es tuyo, nadie te puede subir la renta.", "n": "It's true that it's expensive, but in the long run it pays off. Besides, in the end it's yours, nobody can put up your rent." },
+          { "who": "you", "t": "Tienes razón en que es una inversión; sin embargo, una hipoteca te ata a una ciudad durante muchos años.", "n": "You're right that it's an investment; however, a mortgage ties you to one city for many years." },
+          { "who": "A", "name": "Emilio", "t": "Bueno, admito que no lo había pensado así. Aunque yo, la verdad, no me pienso ir de aquí nunca.", "n": "Well, I admit I hadn't thought of it that way. Although I, honestly, have no intention of ever leaving." },
+          { "who": "you", "t": "Pues para ti es perfecto. Aun así, sigo pensando que depende de cada persona. Eso no quita que comprar sea una buena idea.", "n": "Well, for you it's perfect. Even so, I still think it depends on the person. That doesn't change the fact that buying is a good idea." }
+        ]
+      },
+      "prompts": [
+        { "n": "Admit that your friend is partly right.", "t": ["Reconozco que tienes parte de razón", "Reconozco que tiene parte de razón", "Tienes parte de razón"] },
+        { "n": "Concede that it's expensive, but say that in the long run it pays off.", "t": ["Es verdad que es caro, pero a la larga sale rentable", "Es cierto que es caro, pero a la larga sale rentable", "Es verdad que es caro, pero a la larga vale la pena"] },
+        { "n": "Say that even so, you still think it's a mistake.", "t": ["Aun así, sigo pensando que es un error", "Aun así, sigo creyendo que es un error"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l3",
+      "title": "Countering an argument",
+      "goal": "Challenge an argument firmly, ask for evidence and clarify your position.",
+      "tip": {
+        "title": "Push back on the argument, not the person",
+        "body": "Eso no es del todo cierto and No se puede generalizar are firm but polite. Ask for evidence with ¿En qué te basas para decir eso? (Argentina: ¿En qué te basás…?). Al contrario signals that the opposite is true. No es que + subjunctive…, sino que + indicative… corrects a misunderstanding of your position: No es que esté en contra, sino que tengo dudas. Lo que pasa es que… (the thing is…) brings in the real issue, and Ahí está el problema (that's exactly the problem) turns the other person's point against them."
+      },
+      "phrases": [
+        { "t": "Eso no es del todo cierto.", "n": "That's not entirely true." },
+        { "t": "No se puede generalizar.", "n": "You can't generalise." },
+        { "t": "¿En qué te basas para decir eso?", "n": "What are you basing that on?", "note": "Formal: ¿En qué se basa…? Argentina: ¿En qué te basás…?" },
+        { "t": "Al contrario: los datos dicen otra cosa.", "n": "On the contrary: the data say something else." },
+        { "t": "No es que esté en contra, sino que tengo dudas.", "n": "It's not that I'm against it, it's that I have doubts.", "note": "No es que + subjunctive, sino que + indicative." },
+        { "t": "Ahí está precisamente el problema.", "n": "That's exactly the problem." },
+        { "t": "Lo que pasa es que nadie habla de los costes.", "n": "The thing is, nobody talks about the costs.", "note": "Latin America: los costos." },
+        { "t": "Pongamos un ejemplo concreto.", "n": "Let's take a concrete example." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "AI at university",
+        "lines": [
+          { "who": "A", "name": "Valentina", "t": "Para mí, la inteligencia artificial está arruinando la universidad. Los chicos ya no piensan, copian todo.", "n": "For me, artificial intelligence is ruining university. Students don't think any more, they copy everything." },
+          { "who": "you", "t": "Eso no es del todo cierto. No se puede generalizar.", "n": "That's not entirely true. You can't generalise." },
+          { "who": "A", "name": "Valentina", "t": "¿Ah, no? ¿Y en qué te basás para decir eso? Yo corrijo trabajos todas las semanas, eh.", "n": "Oh no? And what are you basing that on? I mark assignments every week, you know.", "note": "Argentine voseo: te basás = te basas." },
+          { "who": "you", "t": "Pongamos un ejemplo concreto: mucha gente la usa para entender un tema difícil, no para copiar.", "n": "Let's take a concrete example: lots of people use it to understand a difficult topic, not to copy." },
+          { "who": "A", "name": "Valentina", "t": "Mirá, no es que yo esté en contra de la tecnología, pero los profesores no sabemos cómo evaluar ahora.", "n": "Look, it's not that I'm against technology, but we teachers don't know how to assess students now." },
+          { "who": "you", "t": "Ahí está precisamente el problema. Lo que pasa es que hay que cambiar los exámenes, no prohibir la herramienta.", "n": "That's exactly the problem. The thing is, we need to change the exams, not ban the tool." }
+        ]
+      },
+      "prompts": [
+        { "n": "Firmly but politely say that's not entirely true.", "t": ["Eso no es del todo cierto", "No es del todo cierto", "Eso no es del todo verdad"] },
+        { "n": "Ask what they're basing that on.", "t": ["En qué te basas para decir eso", "En qué se basa para decir eso", "En qué te basás para decir eso", "En qué te basas"] },
+        { "n": "Clarify: it's not that you're against it, it's that you have doubts.", "t": ["No es que esté en contra, sino que tengo dudas", "No es que esté en contra, es que tengo dudas"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l4",
+      "kind": "grammar",
+      "title": "aunque: fact or possibility?",
+      "goal": "Use aunque with the indicative for facts and the subjunctive for possibilities, plus a pesar de que, sin embargo and no obstante.",
+      "tip": {
+        "title": "Aunque + indicative or subjunctive",
+        "body": "With the indicative, aunque means \"although\" and presents something as a fact: Aunque llueve, vamos a salir (it IS raining). With the subjunctive it means \"even if\": Aunque llueva, vamos a salir (it may or may not rain). The subjunctive is also used for a known fact you treat as irrelevant: Aunque sea caro, lo compro (I don't care that it's expensive). A pesar de que works the same way; a pesar de can also take a noun or an infinitive (a pesar del precio). Sin embargo and no obstante (more formal) both mean \"however\": they start a new sentence or follow a semicolon and never trigger the subjunctive."
+      },
+      "phrases": [
+        { "t": "Aunque llueve, vamos a salir.", "n": "Although it's raining, we're going out.", "note": "Indicative: it's a fact." },
+        { "t": "Aunque llueva, vamos a salir.", "n": "Even if it rains, we're going out.", "note": "Subjunctive: a possibility." },
+        { "t": "A pesar de que el proyecto es caro, merece la pena.", "n": "Even though the project is expensive, it's worth it.", "note": "Latin America also: vale la pena." },
+        { "t": "Es una buena propuesta. Sin embargo, no hay presupuesto.", "n": "It's a good proposal. However, there's no budget." },
+        { "t": "No obstante, conviene estudiarlo con calma.", "n": "Nevertheless, it would be wise to study it calmly." }
+      ],
+      "drills": [
+        {
+          "title": "Fact or possibility?",
+          "base": { "t": "Aunque es difícil, lo voy a intentar.", "n": "Although it's difficult, I'm going to try." },
+          "items": [
+            { "cue": "even if (possibility)", "t": "Aunque sea difícil, lo voy a intentar.", "n": "Even if it's difficult, I'm going to try." },
+            { "cue": "a pesar de que · fact", "t": "A pesar de que es difícil, lo voy a intentar.", "n": "Even though it's difficult, I'm going to try." },
+            { "cue": "costar mucho · possibility", "t": "Aunque cueste mucho, lo voy a intentar.", "n": "Even if it costs a lot, I'm going to try." },
+            { "cue": "no tener tiempo · fact", "t": "Aunque no tengo tiempo, lo voy a intentar.", "n": "Although I don't have time, I'm going to try." }
+          ]
+        },
+        {
+          "title": "Swap the connector",
+          "base": { "t": "Aunque la idea es buena, no hay dinero.", "n": "Although the idea is good, there's no money." },
+          "items": [
+            { "cue": "sin embargo", "t": "La idea es buena. Sin embargo, no hay dinero.", "n": "The idea is good. However, there's no money." },
+            { "cue": "no obstante", "t": "La idea es buena. No obstante, no hay dinero.", "n": "The idea is good. Nevertheless, there's no money." },
+            { "cue": "a pesar de que", "t": "A pesar de que la idea es buena, no hay dinero.", "n": "Even though the idea is good, there's no money." },
+            { "cue": "aunque · even if", "t": "Aunque la idea sea buena, no hay dinero.", "n": "Even if the idea is good, there's no money." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say you're going out even if it rains.", "t": ["Aunque llueva, voy a salir", "Aunque llueva, salgo", "Aunque llueva, saldré", "Aunque llueva, vamos a salir"] },
+        { "n": "Say that even though the project is expensive (and it is), it's worth it.", "t": ["A pesar de que el proyecto es caro, merece la pena", "Aunque el proyecto es caro, merece la pena", "A pesar de que el proyecto es caro, vale la pena", "Aunque el proyecto es caro, vale la pena"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l5",
+      "kind": "listening",
+      "title": "A radio tertulia",
+      "goal": "Follow a lively radio discussion and pick out each speaker's position.",
+      "phrases": [
+        { "t": "Dormimos poco y eso se nota en el trabajo.", "n": "We sleep too little and it shows at work." },
+        { "t": "El problema no es la cena, sino las jornadas partidas.", "n": "The problem isn't dinner, it's split working days.", "note": "jornada partida = a working day with a long lunch break in the middle." },
+        { "t": "A pesar de que lo vemos distinto, estamos de acuerdo en algo.", "n": "Even though we see it differently, we agree on something." },
+        { "t": "Hay que racionalizar los horarios de trabajo.", "n": "Working hours need to be made more sensible." }
+      ],
+      "story": {
+        "title": "¿Cenamos demasiado tarde?",
+        "intro": "On a Spanish radio show, the host and two regular commentators debate whether Spaniards keep hours that are too late.",
+        "voice": "es-ES-XimenaNeural",
+        "lines": [
+          { "name": "Carmen", "t": "Buenas noches. En la tertulia de hoy, un clásico: los horarios españoles. ¿Comemos, cenamos y nos acostamos demasiado tarde? Javier, empiezas tú.", "n": "Good evening. In today's discussion, a classic: Spanish hours. Do we have lunch, dinner and go to bed too late? Javier, you start." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Sin duda. Aunque a mucha gente le encante cenar a las diez, eso significa acostarse tardísimo. Dormimos poco y eso se nota en el trabajo.", "n": "No doubt about it. Even though lots of people love having dinner at ten, that means going to bed really late. We sleep too little and it shows at work." },
+          { "name": "Pilar", "voice": "es-ES-TrianaNeural", "t": "Perdona, Javier, pero eso no es del todo cierto. No se puede generalizar: hay quien duerme la siesta y descansa perfectamente.", "n": "Sorry, Javier, but that's not entirely true. You can't generalise: some people have a siesta and rest perfectly well." },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "¿La siesta? Reconozco que es un placer, Pilar, pero la mayoría de la gente que trabaja no puede dormir la siesta.", "n": "The siesta? I admit it's a pleasure, Pilar, but most working people can't have a siesta." },
+          { "name": "Pilar", "voice": "es-ES-TrianaNeural", "t": "Es verdad que las jornadas son largas. Sin embargo, el problema no es la hora de la cena, sino las jornadas partidas, con dos horas para comer en medio.", "n": "It's true that working days are long. However, the problem isn't dinner time, it's split working days, with two hours for lunch in the middle." },
+          { "name": "Carmen", "t": "A ver, a ver, que no os oigo a los dos a la vez. Entonces, ¿estáis de acuerdo en algo o no?", "n": "Hang on, hang on, I can't hear you both at once. So, do you agree on anything or not?" },
+          { "name": "Javier", "voice": "es-ES-DarioNeural", "t": "Pues sí. A pesar de que lo vemos distinto, creo que los dos pensamos que hay que racionalizar los horarios de trabajo.", "n": "Well, yes. Even though we see it differently, I think we both believe working hours need to be made more sensible." },
+          { "name": "Pilar", "voice": "es-ES-TrianaNeural", "t": "En eso estoy totalmente de acuerdo. Eso sí, que nadie me quite la cena en la terraza en verano.", "n": "On that I completely agree. Mind you, nobody's taking my summer dinners out on the terrace away from me." }
+        ],
+        "questions": [
+          { "q": "¿De qué tema hablan en la tertulia?", "n": "What topic are they discussing?", "t": ["De los horarios", "De los horarios españoles", "De la hora de la cena", "De los horarios en España"] },
+          { "q": "Según Pilar, ¿cuál es el verdadero problema?", "n": "According to Pilar, what's the real problem?", "t": ["Las jornadas partidas", "Las jornadas partidas con dos horas para comer", "Las jornadas largas"] },
+          { "q": "¿En qué están de acuerdo al final?", "n": "What do they agree on in the end?", "t": ["Hay que racionalizar los horarios de trabajo", "En racionalizar los horarios", "Que hay que racionalizar los horarios de trabajo", "Que hay que racionalizar los horarios"] }
+        ]
+      }
+    },
+    {
+      "id": "b2-u01-l6",
+      "kind": "roleplay",
+      "title": "Back to the office?",
+      "goal": "Argue against a proposal at work by conceding and countering. Your arguments decide the outcome.",
+      "phrases": [
+        { "t": "Reconozco que tiene sus ventajas. Sin embargo, tengo algunas dudas.", "n": "I admit it has its advantages. However, I have some doubts." },
+        { "t": "Aunque la oficina tiene ventajas, el tráfico es un problema.", "n": "Although the office has advantages, traffic is a problem." },
+        { "t": "¿Y si buscamos un punto medio?", "n": "What if we look for a middle ground?" },
+        { "t": "Eso es una preferencia personal, no un argumento.", "n": "That's a personal preference, not an argument." }
+      ],
+      "branch": {
+        "title": "La vuelta a la oficina",
+        "scene": "You work for a company in Bogotá. In a team meeting, your manager Andrés proposes that everyone return to the office five days a week. You'd like to keep some remote work.",
+        "name": "Andrés",
+        "voice": "es-CO-GonzaloNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Mi propuesta es sencilla: a partir de enero, todos en la oficina cinco días a la semana. Así se trabaja mejor en equipo. ¿Qué opinas?", "n": "My proposal is simple: from January, everyone in the office five days a week. That way we work better as a team. What do you think?",
+            "choices": [
+              { "t": "Reconozco que el trabajo en equipo es importante. Sin embargo, tengo algunas dudas.", "n": "I admit teamwork is important. However, I have some doubts.", "next": "doubts" },
+              { "t": "Eso es absurdo. Nadie va a querer volver.", "n": "That's absurd. Nobody's going to want to come back.", "next": "defensive" }
+            ]
+          },
+          "defensive": {
+            "t": "Bueno, calma. ¿En qué te basas para decir que nadie quiere volver?", "n": "OK, let's stay calm. What are you basing that on, saying nobody wants to come back?",
+            "choices": [
+              { "t": "Tienes razón, me expresé mal. Lo que quiero decir es que hay argumentos en contra.", "n": "You're right, I put that badly. What I mean is that there are arguments against it.", "next": "doubts" },
+              { "t": "En nada, pero es obvio.", "n": "Nothing, but it's obvious.", "next": "bad" }
+            ]
+          },
+          "doubts": {
+            "t": "Dale, cuéntame. ¿Qué dudas tienes?", "n": "Sure, tell me. What doubts do you have?",
+            "choices": [
+              { "t": "Aunque la oficina tiene ventajas, mucha gente vive lejos y pierde dos horas al día en el tráfico.", "n": "Although the office has advantages, a lot of people live far away and lose two hours a day in traffic.", "next": "traffic" },
+              { "t": "Simplemente prefiero trabajar desde casa.", "n": "I simply prefer working from home.", "next": "weak" }
+            ]
+          },
+          "weak": {
+            "t": "Ya, pero eso es una preferencia personal, no un argumento. A la empresa le interesa la productividad.", "n": "Sure, but that's a personal preference, not an argument. The company cares about productivity.",
+            "choices": [
+              { "t": "Es verdad. Pero precisamente los resultados del equipo no han bajado desde que teletrabajamos.", "n": "True. But that's the point: the team's results haven't dropped since we started working remotely.", "next": "evidence" },
+              { "t": "Pues a mí me interesa mi comodidad.", "n": "Well, I care about my comfort.", "next": "bad" }
+            ]
+          },
+          "traffic": {
+            "t": "Es cierto que el tráfico en Bogotá es tremendo. Pero los nuevos se sienten solos en casa y no aprenden de los demás.", "n": "It's true that the traffic in Bogotá is terrible. But new people feel isolated at home and don't learn from the others.",
+            "choices": [
+              { "t": "En eso tienes razón. ¿Y si probamos con tres días en la oficina y dos en casa?", "n": "You're right about that. What if we try three days in the office and two at home?", "next": "good" },
+              { "t": "Eso no es problema mío. Que aprendan por internet.", "n": "That's not my problem. They can learn online.", "next": "bad" }
+            ]
+          },
+          "evidence": {
+            "t": "¿En serio? No lo sabía. Aun así, me preocupan los nuevos: se sienten solos y no aprenden de los demás.", "n": "Really? I didn't know that. Even so, I'm worried about the new people: they feel isolated and don't learn from the others.",
+            "choices": [
+              { "t": "Lo entiendo. ¿Y si buscamos un punto medio? Tres días en la oficina y dos en casa.", "n": "I understand. What if we look for a middle ground? Three days in the office and two at home.", "next": "good" },
+              { "t": "Bueno, no se puede tener todo.", "n": "Well, you can't have everything.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Me parece un buen punto medio. Lo propongo así en la reunión del lunes, y diré que fue idea tuya.", "n": "That seems like a good middle ground. I'll propose it like that at Monday's meeting, and I'll say it was your idea.",
+            "end": "good", "outcome": "You conceded the valid point, backed your view with a concrete argument and proposed a compromise your manager adopted."
+          },
+          "bad": {
+            "t": "Mira, sin argumentos no puedo tenerlo en cuenta. Mantengo la propuesta tal como está.", "n": "Look, without arguments I can't take it into account. I'm keeping the proposal as it is.",
+            "end": "bad", "outcome": "Without evidence or a willingness to concede, your objection was dismissed. Try Reconozco que…, sin embargo… and give a concrete reason."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Concede that teamwork is important, but say you have some doubts.", "t": ["Reconozco que el trabajo en equipo es importante. Sin embargo, tengo algunas dudas", "Reconozco que el trabajo en equipo es importante, pero tengo algunas dudas", "Es verdad que el trabajo en equipo es importante, pero tengo dudas"] },
+        { "n": "Suggest trying three days in the office and two at home.", "t": ["Y si probamos con tres días en la oficina y dos en casa", "Por qué no probamos con tres días en la oficina y dos en casa", "Podríamos probar con tres días en la oficina y dos en casa"] }
+      ]
+    },
+    {
+      "id": "b2-u01-l7",
+      "kind": "speaking",
+      "title": "Take a stand",
+      "goal": "Defend a position for a minute and a half: arguments, a concession, a counter-argument and a conclusion.",
+      "culture": {
+        "title": "La tertulia",
+        "body": "A tertulia is a regular, informal gathering where the same group meets to talk and argue, traditionally around a café table. In the twentieth century, Madrid cafés such as the Café Gijón became famous for the literary tertulias of writers and artists, and Buenos Aires has a strong café tradition of its own. Today, in Spain, the word is also used for radio and TV programmes where a panel of commentators, the tertulianos, debate current affairs, often passionately and sometimes talking over one another. In both settings, a well-placed Es verdad que…, pero… is worth more than raising your voice.",
+        "regions": ["ES", "AR"]
+      },
+      "phrases": [
+        { "t": "Estoy totalmente a favor de esta medida.", "n": "I'm completely in favour of this measure." },
+        { "t": "Aunque entiendo los argumentos en contra, no me convencen.", "n": "Although I understand the arguments against, they don't convince me." },
+        { "t": "Teniendo todo esto en cuenta, creo que es una buena idea.", "n": "Taking all this into account, I think it's a good idea." },
+        { "t": "Por todo ello, mi postura es clara.", "n": "For all these reasons, my position is clear." }
+      ],
+      "free": [
+        {
+          "n": "Should social media be banned for under-16s? Take a stand: give two arguments, concede one point to the other side, counter it and finish with a conclusion.",
+          "hint": "Estoy a favor / en contra de … En primer lugar … Además … Es verdad que … ; sin embargo … Aunque … / A pesar de que … Por todo ello …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "your position", "any": ["estoy a favor", "estoy en contra", "mi postura", "creo que", "en mi opinión", "para mí"] },
+            { "label": "a concession", "any": ["es verdad que", "es cierto que", "reconozco que", "admito que", "si bien", "aunque", "a pesar de que"] },
+            { "label": "a counter-argument", "any": ["sin embargo", "no obstante", "aun así", "pero", "al contrario"] },
+            { "label": "the topic", "any": ["redes sociales", "redes", "menores", "adolescentes", "jóvenes", "prohibir", "prohibición", "edad"] },
+            { "label": "a conclusion", "any": ["por todo ello", "en conclusión", "en resumen", "por eso", "teniendo en cuenta", "por lo tanto"] }
+          ],
+          "model": "Estoy a favor de prohibir las redes sociales a los menores de dieciséis años. En primer lugar, muchos adolescentes pasan horas con el móvil y duermen poco. Además, las redes pueden afectar a su autoestima. Es verdad que también sirven para comunicarse con los amigos; sin embargo, para eso existen los mensajes y las llamadas. Aunque una prohibición no sea perfecta, por lo menos marca un límite claro. Por todo ello, creo que es una buena medida."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you're completely in favour of this measure.", "t": ["Estoy totalmente a favor de esta medida", "Estoy completamente a favor de esta medida", "Estoy a favor de esta medida"] },
+        { "n": "Say that, taking all this into account, you think it's a good idea.", "t": ["Teniendo todo esto en cuenta, creo que es una buena idea", "Teniendo en cuenta todo esto, creo que es una buena idea", "Por todo ello, creo que es una buena idea"] }
+      ]
+    },
+    {
+      "id": "b2-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Pros y contras",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "pron-u08",
+  "level": "B2",
+  "title": "Enlace y sinalefa",
+  "subtitle": "Linking words into one flow",
+  "icon": "🔗",
+  "lessons": [
+    {
+      "id": "pron-u08-l1",
+      "kind": "pron",
+      "title": "Sinalefa: vowels that meet",
+      "goal": "Glide vowels across word boundaries so a phrase sounds like one long word.",
+      "tip": {
+        "title": "No gaps between words",
+        "body": "Spanish doesn't pause between the words of a phrase. When one word ends in a vowel and the next starts with one (h is silent, so it counts as a vowel), the two vowels glide into a single syllable. This is called sinalefa. \"Mi amigo\" is three syllables, mia-mi-go, not four. \"La entrada\" → laen-tra-da, \"que es\" → quees, \"todo el día\" → to-doel-dí-a, \"de España\" → dees-pa-ña. Two identical vowels melt into one slightly longer vowel: \"va a ir\" → vaa-ir, \"la amiga\" sounds almost like \"la miga\". English speakers often put a little catch in the throat (a glottal stop, as in \"uh-oh\") before a word that starts with a vowel. Don't: keep your voice running and move your mouth straight from one vowel to the next. Every vowel keeps its full quality; it just gets shorter. A famous result: \"a ver\" (let's see) and \"haber\" (to have) sound identical, and so do \"va a ver\" (he's going to see) and \"va a haber\" (there's going to be). Even native speakers mix them up in writing."
+      },
+      "phrases": [
+        { "t": "Mi amigo es de España.", "n": "My friend is from Spain.", "note": "A woman's friend: mi amiga. Say it mia-mi-goes-dees-pa-ña." },
+        { "t": "¿Dónde está la entrada?", "n": "Where is the entrance?" },
+        { "t": "Va a ir a la oficina.", "n": "He's going to go to the office." },
+        { "t": "Trabajo todo el día.", "n": "I work all day." }
+      ],
+      "pairs": [
+        { "sound": "a + a → one long a (almost the same)", "a": { "t": "la amiga", "n": "the (female) friend" }, "b": { "t": "la miga", "n": "the crumb" } },
+        { "sound": "a + a → one long a (almost the same)", "a": { "t": "la acera", "n": "the pavement / sidewalk" }, "b": { "t": "la cera", "n": "the wax" } },
+        { "sound": "a + a → one long a (almost the same)", "a": { "t": "la avena", "n": "the oats" }, "b": { "t": "la vena", "n": "the vein" } },
+        { "sound": "i + i → one i (almost the same)", "a": { "t": "mi hijo", "n": "my son" }, "b": { "t": "mijo", "n": "millet" } },
+        { "sound": "a + A → one long a (almost the same)", "a": { "t": "Llama a Ana.", "n": "Call Ana. / He's calling Ana." }, "b": { "t": "Llama Ana.", "n": "Ana is calling." } },
+        { "sound": "o + e → one syllable / no e", "a": { "t": "Lo he visto.", "n": "I've seen it." }, "b": { "t": "Lo visto.", "n": "I dress him." } }
+      ],
+      "stress": [
+        { "t": "Mi hermana es de España.", "n": "My sister is from Spain.", "mark": "Mi her*ma*na es de Es*pa*ña.", "note": "One flow: mier-ma-naes-dees-pa-ña." },
+        { "t": "Mi amigo está en la entrada.", "n": "My friend is at the entrance.", "mark": "Mi a*mi*go es*tá* en la en*tra*da.", "note": "mia-mi-goes-táen-laen-tra-da: seven syllables, no gaps." },
+        { "t": "Va a estar aquí todo el día.", "n": "He's going to be here all day.", "mark": "*Va* a es*tar* a*quí* *to*do el *dí*a.", "note": "vaaes-ta-ra-quí-to-doel-dí-a" }
+      ],
+      "prompts": [
+        { "n": "Say that your friend is from Spain.", "t": ["Mi amigo es de España", "Mi amiga es de España"] }
+      ]
+    },
+    {
+      "id": "pron-u08-l2",
+      "kind": "pron",
+      "title": "Consonant + vowel linking",
+      "goal": "Hook a final consonant onto the next word's vowel, and recognise the near-homophones this creates.",
+      "tip": {
+        "title": "The consonant jumps to the next word",
+        "body": "Spanish loves syllables shaped consonant + vowel, and word boundaries don't get in the way. When a word ends in a consonant and the next begins with a vowel (or silent h), the consonant moves over and starts the next syllable: \"los otros\" → lo-so-tros, \"el agua\" → e-la-gua, \"un hombre\" → u-nom-bre, \"es así\" → e-sa-sí, \"más o menos\" → má-so-me-nos, \"las once\" → la-son-ce. So \"el hecho\" (the fact) sounds exactly like \"helecho\" (fern), and \"las aves\" (the birds) like \"la sabes\" (you know it); context tells them apart. When listening, if you hear lo-so-tros, think \"los otros\". When speaking, don't stop before the vowel; slide the consonant across. Two traps for English speakers: keep s as a sharp s even between vowels (\"los otros\" is never \"loz otros\"), and don't add a glottal catch before the vowel."
+      },
+      "phrases": [
+        { "t": "Los otros ya están aquí.", "n": "The others are already here." },
+        { "t": "El agua está muy fría.", "n": "The water is very cold." },
+        { "t": "Son las once en punto.", "n": "It's eleven o'clock sharp." },
+        { "t": "Un hombre entró en el bar.", "n": "A man walked into the bar." }
+      ],
+      "pairs": [
+        { "sound": "linked: sound the same", "a": { "t": "el hecho", "n": "the fact" }, "b": { "t": "helecho", "n": "fern" } },
+        { "sound": "linked: sound the same", "a": { "t": "las aves", "n": "the birds" }, "b": { "t": "la sabes", "n": "you know it (e.g. the song)" } },
+        { "sound": "linked: almost the same", "a": { "t": "un hombre", "n": "a man" }, "b": { "t": "un nombre", "n": "a name" } },
+        { "sound": "e-lal-to / el-sal-to", "a": { "t": "el alto", "n": "the tall one" }, "b": { "t": "el salto", "n": "the jump" } },
+        { "sound": "co-ne-llos / con-se-llos", "a": { "t": "con ellos", "n": "with them" }, "b": { "t": "con sellos", "n": "with stamps" } },
+        { "sound": "la-sa-las / la-sa-la", "a": { "t": "las alas", "n": "the wings" }, "b": { "t": "la sala", "n": "the room / hall" } }
+      ],
+      "stress": [
+        { "t": "Los otros están en el agua.", "n": "The others are in the water.", "mark": "Los *o*tros es*tán* en el *a*gua.", "note": "lo-so-tro-ses-tá-ne-ne-la-gua" },
+        { "t": "Es así, más o menos.", "n": "It's like that, more or less.", "mark": "Es a*sí*, *más* o *me*nos.", "note": "e-sa-sí, má-so-me-nos" },
+        { "t": "Hay un hombre en el autobús.", "n": "There's a man on the bus.", "mark": "*Hay* un *hom*bre en el auto*bús*.", "note": "a-yu-nom-bre-ne-lau-to-bús" }
+      ],
+      "prompts": [
+        { "n": "Say that the others are already here.", "t": ["Los otros ya están aquí", "Las otras ya están aquí", "Los otros están aquí", "Las otras están aquí"] }
+      ]
+    }
+  ]
+}
