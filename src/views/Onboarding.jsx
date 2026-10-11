@@ -76,7 +76,7 @@ export function Onboarding({ replay = false, returnTo = '#/' } = {}) {
             <div class="lang-btn soon" aria-disabled="true">
               <span class="flag" aria-hidden="true">🌍</span>
               <strong>More soon</strong>
-              <span class="muted small">Spanish, French…</span>
+              <span class="muted small">New courses on the way</span>
             </div>
           </div>
         </div>

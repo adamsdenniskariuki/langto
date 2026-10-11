@@ -17,7 +17,8 @@ export function Progress() {
   const sp = s.speaking;
   const live = new Set(course.levels.filter((l) => !l.comingSoon).map((l) => l.id));
   // Level badges appear once their level is available (or if already earned).
-  const badges = BADGES.filter((b) => !b.level || live.has(b.level) || s.badges[b.id]);
+  // Course-specific badges (Spanish A1 Graduate, …) only show for the course they belong to.
+  const badges = BADGES.filter((b) => s.badges[b.id] || ((!b.lang || b.lang === course.lang.code) && (!b.level || live.has(b.level))));
   const earned = badges.filter((b) => s.badges[b.id]).length;
 
   return (

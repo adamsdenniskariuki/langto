@@ -52,7 +52,7 @@ const phrasesOf = (l) => l?.phrases || [];
 
 /**
  * Recall items for a checkpoint (`sources` = the unit's other lessons) or level test (all lessons of the level).
- * Each item: { phrase, cardId } — English shown, learner says the German from memory.
+ * Each item: { phrase, cardId } — English shown, learner says the target-language phrase from memory.
  */
 export function examItems(sources, count, rand = Math.random) {
   const all = [];

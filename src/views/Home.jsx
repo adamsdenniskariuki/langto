@@ -86,7 +86,7 @@ export function Home() {
             </summary>
             {!level.comingSoon && !reachable && (
               <div class="card level-skip">
-                <p class="small">Already speak some German? Jump straight in — earlier levels stay open.</p>
+                <p class="small">Already speak some {course.lang.name}? Jump straight in — earlier levels stay open.</p>
                 <button type="button" class="btn ghost" onClick={startHere}>⏩ Start at {level.id}</button>
               </div>
             )}

@@ -40,7 +40,7 @@ npm run audio      # (optional) pre-generate lesson audio, see below
 - **Filenames are content hashes** of voice + text + format. Existing files are skipped, so only new or changed lines are synthesised. CI keeps `public/audio` in the Actions cache between runs.
 - **Voices** come from `tts` in `public/content/languages.json`: `default` speaks phrases and your lines, and `partner` speaks the other person in dialogues. You can override a voice per dialogue with `"voice"` on the dialogue, or per line with `"voice"` on the line.
 - **Narrator voices**: `tts.narrators` (e.g. `[{ "id": "female", "label": "Female", "voice": "de-DE-KatjaNeural" }, { "id": "male", … }]`) lists the voices learners can choose in Settings → Voice & speech. Narrated lines (vocabulary, repeat, drills, prompts, review, checkpoints, pronunciation) are generated in every narrator voice and listed in `narration.json`. Dialogue, role-play and story characters keep their own voice. If a clip is missing, the app tries the other narrator, then the device voice. "Download audio for offline" fetches only the chosen narrator plus the character voices.
-- **Free-tier budget**: each run stays under `AZURE_SPEECH_MONTHLY_CHARS` (default 500000, with a 5% margin). Usage is tracked in `public/audio/usage.json`. Lines over budget are skipped and picked up by later runs, so the build never fails because of quota.
+- **Monthly budget**: each run stays under `AZURE_SPEECH_MONTHLY_BUDGET` (a repository variable; default 2,000,000 characters for the pay-as-you-go S0 tier, with a 5% margin; set it to `500000` on the F0 free tier). Usage is tracked in `public/audio/usage.json`, and the budget is shared by all languages. If it runs out, lines are generated level by level (A1 of every course first, then A2, …; default voices before extra narrators), and the rest are picked up by later runs. The log reports how many characters are pending. The build never fails because of quota.
 - **No keys means no failure.** Without credentials the script just indexes any MP3s already present and exits successfully. The app then uses the browser voice.
 
 ### Set it up
@@ -96,7 +96,10 @@ Only append new lessons and phrases. Review cards are keyed by lesson id and phr
 To add a language:
 
 1. Add an entry to `languages.json` with neural voices from the [Azure voice list](https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts).
-2. Create `public/content/<code>/course.json` and its unit files.
+2. Create `public/content/<code>/course.json` and its unit files. Levels marked `"comingSoon": true` are shown but locked, so a course can go live one level at a time.
+3. Optionally add an SVG flag in `src/components/Flag.jsx`, number/time spelling or accent folding for scoring in `src/lib/score.js`, and the course name in `COURSE_BADGE_LANGS` (`src/lib/badges.js`) for per-course level badges and speaking milestones.
+
+Learners switch courses during onboarding or in **Settings → Course**. Lessons, reviews, tests and per-course speaking stats (`speakingBy`) are stored separately for each language, and XP, streaks and badges are shared.
 
 ## Deployment
 

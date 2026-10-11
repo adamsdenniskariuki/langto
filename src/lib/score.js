@@ -17,17 +17,56 @@ export function deNumber(n) {
   return String(n);
 }
 
-// Speech recognisers often return digits ("3 Uhr") — spell them out so they match the lesson text.
-const NUMBER_SPELLERS = { de: deNumber };
+const ES_ONES = ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez',
+  'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve', 'veinte',
+  'veintiuno', 'veintidós', 'veintitrés', 'veinticuatro', 'veinticinco', 'veintiséis', 'veintisiete', 'veintiocho', 'veintinueve'];
+const ES_TENS = ['', '', '', 'treinta', 'cuarenta', 'cincuenta', 'sesenta', 'setenta', 'ochenta', 'noventa'];
+const ES_HUNDREDS = ['', 'ciento', 'doscientos', 'trescientos', 'cuatrocientos', 'quinientos', 'seiscientos', 'setecientos', 'ochocientos', 'novecientos'];
+
+export function esNumber(n) {
+  if (n < 30) return ES_ONES[n];
+  if (n < 100) {
+    const o = n % 10;
+    return ES_TENS[Math.floor(n / 10)] + (o ? ' y ' + ES_ONES[o] : '');
+  }
+  if (n === 100) return 'cien';
+  if (n < 1000) {
+    const r = n % 100;
+    return ES_HUNDREDS[Math.floor(n / 100)] + (r ? ' ' + esNumber(r) : '');
+  }
+  return String(n);
+}
+
+// "3:30" → "3 y media" (then spelled out). Quarter to uses the next hour: "3:45" → "4 menos cuarto".
+function esTime(m, h, mm) {
+  const H = Number(h), M = Number(mm);
+  if (M === 0) return `${H}`;
+  if (M === 15) return `${H} y cuarto`;
+  if (M === 30) return `${H} y media`;
+  if (M === 45) return `${H === 12 ? 1 : H + 1} menos cuarto`;
+  return `${H} y ${M}`;
+}
+
+// Speech recognisers often return digits ("3 Uhr", "las 3:30") — spell them out so they match the lesson text.
+const NUMBER_SPELLERS = { de: deNumber, es: esNumber };
+const TIME_READERS = {
+  de: [/(\d{1,2})[:.](\d{2})(\s*uhr)?/g, (m, h, mm) => `${h} uhr${mm === '00' ? '' : ' ' + Number(mm)}`],
+  es: [/(\d{1,2})[:.](\d{2})/g, esTime],
+};
+// Languages where recognisers and learners are inconsistent with acute accents (está/esta, él/el): compare
+// without them. Only U+0301 is removed, so ñ and ü stay distinct.
+const FOLD_ACCENTS = { es: /[\u0301]/g };
 
 export function normalize(text, lang = 'de') {
   let s = String(text || '').normalize('NFC').toLowerCase();
   const spell = NUMBER_SPELLERS[lang];
   if (spell) {
-    s = s.replace(/(\d{1,2})[:.](\d{2})(\s*uhr)?/g, (m, h, mm) => `${h} uhr${mm === '00' ? '' : ' ' + Number(mm)}`);
+    if (TIME_READERS[lang]) s = s.replace(...TIME_READERS[lang]);
     s = s.replace(/\d+/g, (d) => (Number(d) < 1000 ? spell(Number(d)) : d));
   }
   if (lang === 'de') s = s.replace(/ß/g, 'ss');
+  if (FOLD_ACCENTS[lang]) s = s.normalize('NFD').replace(FOLD_ACCENTS[lang], '').normalize('NFC');
+  if (lang === 'es') s = s.replace(/%/g, ' por ciento ');
   s = s.replace(/€/g, ' euro ');
   return s.replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim();
 }
