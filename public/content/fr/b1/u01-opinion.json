@@ -1,0 +1,897 @@
+{
+  "id": "b1-u01",
+  "title": "À mon avis",
+  "subtitle": "Opinions & discussion",
+  "icon": "💬",
+  "lessons": [
+    {
+      "id": "b1-u01-l1",
+      "title": "Giving your opinion",
+      "goal": "Say what you think about a topic and give a reason.",
+      "tip": {
+        "title": "je pense que, je trouve que, à mon avis",
+        "body": "French has several ways to introduce an opinion. Je pense que and je crois que (I think, I believe) are followed by an ordinary statement — the word order doesn't change: Je pense que c'est une bonne idée. Je trouve que is for judgements based on your own experience: Je trouve que ce film est trop long. À mon avis, selon moi and pour moi simply go at the front, followed by a comma. Never drop que as English drops 'that'. Pronunciation: à mon avis has a liaison — mon_avis sounds 'mon-na-vi' (the on stays nasal), and the final s is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je pense que c'est une bonne idée.",
+          "n": "I think it's a good idea."
+        },
+        {
+          "t": "À mon avis, c'est beaucoup trop cher.",
+          "n": "In my opinion, it's far too expensive.",
+          "note": "Liaison: mon_avis."
+        },
+        {
+          "t": "Je trouve que le français est une belle langue.",
+          "n": "I think French is a beautiful language.",
+          "note": "trouver que = to find that (a personal judgement)."
+        },
+        {
+          "t": "Selon moi, il faut plus de temps.",
+          "n": "In my view, we need more time."
+        },
+        {
+          "t": "Qu'est-ce que tu en penses ?",
+          "n": "What do you think about it?",
+          "note": "en = about it. Formal: Qu'en pensez-vous ?"
+        },
+        {
+          "t": "Franchement, je ne trouve pas ça terrible.",
+          "n": "Honestly, I don't think it's that great.",
+          "note": "pas terrible = not great (a classic understatement)."
+        },
+        {
+          "t": "C'est important, parce qu'on doit pratiquer tous les jours.",
+          "n": "It's important because you have to practise every day."
+        },
+        {
+          "t": "Bof, je ne sais pas trop.",
+          "n": "Meh, I'm not really sure.",
+          "note": "Bof = a shrug in one word; very common."
+        }
+      ],
+      "dialogue": {
+        "title": "Learning with apps",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "J'apprends l'espagnol avec une appli maintenant. Qu'est-ce que tu en penses ?",
+            "n": "I'm learning Spanish with an app now. What do you think about it?"
+          },
+          {
+            "who": "you",
+            "t": "Je pense que c'est une bonne idée. Les applis sont très pratiques.",
+            "n": "I think it's a good idea. Apps are very practical."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Tu crois ? Moi, je trouve qu'on n'apprend pas vraiment à parler avec une appli.",
+            "n": "You think so? I find you don't really learn to speak with an app."
+          },
+          {
+            "who": "you",
+            "t": "Bof, je ne sais pas trop. C'est important, parce qu'on doit pratiquer tous les jours.",
+            "n": "Meh, I'm not really sure. It's important because you have to practise every day."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Et un cours avec un prof ? C'est mieux, non ?",
+            "n": "And a course with a teacher? That's better, isn't it?"
+          },
+          {
+            "who": "you",
+            "t": "À mon avis, c'est beaucoup trop cher.",
+            "n": "In my opinion, it's far too expensive."
+          },
+          {
+            "who": "A",
+            "name": "Julie",
+            "t": "Ce n'est pas faux. Mais il faut quand même parler avec des gens.",
+            "n": "That's not wrong. But you still have to talk to people."
+          },
+          {
+            "who": "you",
+            "t": "Là, je suis d'accord avec toi.",
+            "n": "There, I agree with you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you think it's a good idea.",
+          "t": [
+            "Je pense que c'est une bonne idée",
+            "Je crois que c'est une bonne idée",
+            "Je trouve que c'est une bonne idée",
+            "À mon avis, c'est une bonne idée"
+          ]
+        },
+        {
+          "n": "Ask a friend what they think about it.",
+          "t": [
+            "Qu'est-ce que tu en penses",
+            "Tu en penses quoi",
+            "T'en penses quoi",
+            "Qu'en penses-tu"
+          ]
+        },
+        {
+          "n": "Say that in your opinion it's far too expensive.",
+          "t": [
+            "À mon avis, c'est beaucoup trop cher",
+            "À mon avis, c'est trop cher",
+            "Je trouve que c'est trop cher",
+            "Selon moi, c'est trop cher"
+          ]
+        },
+        {
+          "n": "Say honestly that you don't think it's that great.",
+          "t": [
+            "Franchement, je ne trouve pas ça terrible",
+            "Franchement, je trouve pas ça terrible",
+            "Franchement, ce n'est pas terrible",
+            "Franchement, c'est pas terrible"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l2",
+      "title": "Agreeing and disagreeing",
+      "goal": "Agree, disagree politely and keep a discussion going.",
+      "tip": {
+        "title": "Disagreeing without offending",
+        "body": "Être d'accord means to agree: Je suis d'accord avec toi. To disagree softly, add a little hedge: Je ne suis pas tout à fait d'accord (I don't quite agree) is far gentler than Tu as tort (you're wrong). Note avoir raison / avoir tort — French says 'to have reason': Tu as raison. Weigh both sides with d'un côté … de l'autre … . Pronunciation: tout à fait has a liaison — tou-ta-fè — and the final t of fait is silent."
+      },
+      "phrases": [
+        {
+          "t": "Tu as tout à fait raison.",
+          "n": "You're absolutely right.",
+          "note": "Liaison: tout_à fait."
+        },
+        {
+          "t": "Je suis entièrement d'accord avec toi.",
+          "n": "I completely agree with you."
+        },
+        {
+          "t": "Je ne suis pas tout à fait d'accord.",
+          "n": "I don't quite agree.",
+          "note": "Soft, polite disagreement."
+        },
+        {
+          "t": "Je ne suis pas du tout d'accord.",
+          "n": "I don't agree at all.",
+          "note": "Strong — use with care."
+        },
+        {
+          "t": "D'un côté, c'est pratique, de l'autre, ça coûte cher.",
+          "n": "On the one hand it's practical, on the other it's expensive."
+        },
+        {
+          "t": "C'est vrai, mais il faut aussi penser à l'environnement.",
+          "n": "That's true, but you also have to think about the environment."
+        },
+        {
+          "t": "Qu'est-ce que tu veux dire exactement ?",
+          "n": "What exactly do you mean?",
+          "note": "Ask for clarification."
+        },
+        {
+          "t": "C'est un bon argument.",
+          "n": "That's a good point."
+        }
+      ],
+      "dialogue": {
+        "title": "Car or bike?",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Moi, je pense qu'en ville, tout le monde a besoin d'une voiture.",
+            "n": "Personally, I think everyone in town needs a car."
+          },
+          {
+            "who": "you",
+            "t": "Je ne suis pas tout à fait d'accord.",
+            "n": "I don't quite agree."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Ah bon ? Pourtant, avec une voiture, on est libre.",
+            "n": "Really? And yet with a car you're free."
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai, mais il faut aussi penser à l'environnement.",
+            "n": "That's true, but you also have to think about the environment."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Mais l'hiver, le vélo sous la pluie, ce n'est vraiment pas agréable !",
+            "n": "But in winter, cycling in the rain really isn't pleasant!"
+          },
+          {
+            "who": "you",
+            "t": "C'est un bon argument. D'un côté, la voiture, c'est pratique, de l'autre, ça coûte cher.",
+            "n": "That's a good point. On the one hand a car is practical, on the other it's expensive."
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Le tram, c'est peut-être la meilleure solution, alors.",
+            "n": "Maybe the tram is the best solution, then."
+          },
+          {
+            "who": "you",
+            "t": "Je suis entièrement d'accord avec toi.",
+            "n": "I completely agree with you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a friend they're absolutely right.",
+          "t": [
+            "Tu as tout à fait raison",
+            "Tu as raison",
+            "T'as raison",
+            "T'as tout à fait raison"
+          ]
+        },
+        {
+          "n": "Politely say you don't quite agree.",
+          "t": [
+            "Je ne suis pas tout à fait d'accord",
+            "Je suis pas tout à fait d'accord",
+            "Je ne suis pas vraiment d'accord",
+            "Je ne suis pas complètement d'accord"
+          ]
+        },
+        {
+          "n": "Ask what exactly they mean.",
+          "t": [
+            "Qu'est-ce que tu veux dire exactement",
+            "Qu'est-ce que tu veux dire",
+            "Tu veux dire quoi exactement",
+            "Qu'est-ce que vous voulez dire exactement"
+          ]
+        },
+        {
+          "n": "Say it's practical on the one hand but expensive on the other.",
+          "t": [
+            "D'un côté, c'est pratique, de l'autre, ça coûte cher",
+            "D'un côté, c'est pratique, de l'autre, c'est cher",
+            "D'un côté c'est pratique, mais de l'autre c'est cher"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l3",
+      "title": "Taking part in a discussion",
+      "goal": "Get a word in, ask not to be interrupted and find common ground.",
+      "tip": {
+        "title": "Jumping in is normal",
+        "body": "In a lively French discussion people often overlap and interrupt; it usually signals interest, not rudeness. To get the floor, say Je peux dire quelque chose ? or Juste une seconde… ; if someone keeps cutting you off, Laisse-moi finir (formal: Laissez-moi finir) is firm but acceptable. Ça dépend is the perfect escape when you need a nuance. In fast speech je peux often sounds like 'ch'peux'."
+      },
+      "phrases": [
+        {
+          "t": "Je peux dire quelque chose ?",
+          "n": "Can I say something?"
+        },
+        {
+          "t": "Laisse-moi finir, s'il te plaît.",
+          "n": "Please let me finish.",
+          "note": "Formal: Laissez-moi finir, s'il vous plaît."
+        },
+        {
+          "t": "Ça dépend.",
+          "n": "It depends."
+        },
+        {
+          "t": "Je reconnais que c'est un problème.",
+          "n": "I admit that it's a problem."
+        },
+        {
+          "t": "Sur ce point, on est d'accord.",
+          "n": "On that point, we agree.",
+          "note": "on = we in everyday French."
+        },
+        {
+          "t": "Ce n'est pas si simple.",
+          "n": "It's not that simple."
+        }
+      ],
+      "dialogue": {
+        "title": "Bikes in the city",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Le vélo en ville, c'est trop dangereux, c'est tout.",
+            "n": "Cycling in town is too dangerous, that's all."
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas si simple. Je peux dire quelque chose ?",
+            "n": "It's not that simple. Can I say something?"
+          },
+          {
+            "who": "A",
+            "name": "Nicolas",
+            "t": "Vas-y, je t'écoute.",
+            "n": "Go ahead, I'm listening."
+          },
+          {
+            "who": "you",
+            "t": "Je reconnais que c'est un problème. Mais il nous faut plus de pistes cyclables.",
+            "n": "I admit that it's a problem. But we need more cycle lanes."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if you can say something.",
+          "t": [
+            "Je peux dire quelque chose",
+            "Est-ce que je peux dire quelque chose",
+            "Puis-je dire quelque chose"
+          ]
+        },
+        {
+          "n": "A friend keeps interrupting you. Ask them to let you finish.",
+          "t": [
+            "Laisse-moi finir, s'il te plaît",
+            "Laisse-moi finir",
+            "Laissez-moi finir, s'il vous plaît",
+            "Laissez-moi finir"
+          ]
+        },
+        {
+          "n": "Say that it depends.",
+          "t": [
+            "Ça dépend",
+            "Cela dépend",
+            "Ça dépend des cas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l4",
+      "kind": "grammar",
+      "title": "Je pense que / je ne pense pas que",
+      "goal": "Use the indicative after a positive opinion and the subjunctive after a negative or doubtful one.",
+      "tip": {
+        "title": "Certainty → indicative, doubt → subjunctive",
+        "body": "When you state an opinion positively, French treats it as a fact and uses the indicative: Je pense que c'est vrai. Je crois qu'il a raison. When you negate it or express doubt, the content becomes uncertain and French switches to the subjunctive: Je ne pense pas que ce soit vrai. Je ne crois pas qu'il ait raison. Je doute que ce soit possible. The forms you need most are irregular: être → que ce soit, avoir → qu'il ait, faire → qu'il fasse, pouvoir → qu'on puisse, aller → qu'il aille. Most other verbs take the ils-form stem + -e: ils finissent → qu'il finisse, ils viennent → qu'il vienne, ils prennent → qu'il prenne. Pronunciation: soit sounds 'swa' — the t is silent."
+      },
+      "phrases": [
+        {
+          "t": "Je pense que c'est vrai.",
+          "n": "I think it's true.",
+          "note": "Positive → indicative (c'est)."
+        },
+        {
+          "t": "Je ne pense pas que ce soit vrai.",
+          "n": "I don't think it's true.",
+          "note": "Negative → subjunctive (ce soit)."
+        },
+        {
+          "t": "Je ne crois pas qu'il ait raison.",
+          "n": "I don't believe he's right."
+        },
+        {
+          "t": "Je doute qu'on puisse finir aujourd'hui.",
+          "n": "I doubt we can finish today.",
+          "note": "douter que always takes the subjunctive."
+        },
+        {
+          "t": "Je ne suis pas sûr que ce soit une bonne idée.",
+          "n": "I'm not sure it's a good idea.",
+          "note": "A woman says sûre — same sound."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Positive or negative?",
+          "base": {
+            "t": "Je pense que c'est une bonne idée.",
+            "n": "I think it's a good idea."
+          },
+          "items": [
+            {
+              "cue": "je ne pense pas que",
+              "t": "Je ne pense pas que ce soit une bonne idée.",
+              "n": "I don't think it's a good idea."
+            },
+            {
+              "cue": "je crois que · il a raison",
+              "t": "Je crois qu'il a raison.",
+              "n": "I believe he's right."
+            },
+            {
+              "cue": "je ne crois pas que · il a raison",
+              "t": "Je ne crois pas qu'il ait raison.",
+              "n": "I don't believe he's right."
+            },
+            {
+              "cue": "je ne pense pas que · il fait beau demain",
+              "t": "Je ne pense pas qu'il fasse beau demain.",
+              "n": "I don't think the weather will be nice tomorrow."
+            }
+          ]
+        },
+        {
+          "title": "Certain or doubtful?",
+          "base": {
+            "t": "Je suis sûr qu'on peut le faire.",
+            "n": "I'm sure we can do it."
+          },
+          "items": [
+            {
+              "cue": "je doute que",
+              "t": "Je doute qu'on puisse le faire.",
+              "n": "I doubt we can do it."
+            },
+            {
+              "cue": "je ne suis pas sûr que",
+              "t": "Je ne suis pas sûr qu'on puisse le faire.",
+              "n": "I'm not sure we can do it."
+            },
+            {
+              "cue": "je pense que",
+              "t": "Je pense qu'on peut le faire.",
+              "n": "I think we can do it."
+            },
+            {
+              "cue": "je ne pense pas que · il vient",
+              "t": "Je ne pense pas qu'il vienne.",
+              "n": "I don't think he's coming."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you don't think it's true.",
+          "t": [
+            "Je ne pense pas que ce soit vrai",
+            "Je ne crois pas que ce soit vrai",
+            "Je pense pas que ce soit vrai"
+          ]
+        },
+        {
+          "n": "Say you doubt we can finish today.",
+          "t": [
+            "Je doute qu'on puisse finir aujourd'hui",
+            "Je doute que nous puissions finir aujourd'hui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l5",
+      "kind": "listening",
+      "title": "Working from home or at the office?",
+      "goal": "Follow two colleagues weighing up the pros and cons.",
+      "phrases": [
+        {
+          "t": "Tu en penses quoi, toi, du télétravail ?",
+          "n": "What do you think of working from home?",
+          "note": "Very common spoken question pattern."
+        },
+        {
+          "t": "Mes collègues me manquent.",
+          "n": "I miss my colleagues.",
+          "note": "Back to front: my colleagues are missing to me."
+        },
+        {
+          "t": "À la maison, c'est beaucoup plus calme.",
+          "n": "It's much quieter at home."
+        },
+        {
+          "t": "C'est peut-être la meilleure solution.",
+          "n": "That's maybe the best solution."
+        }
+      ],
+      "story": {
+        "title": "At the coffee machine",
+        "intro": "Sophie and her Québécois colleague Maxime discuss whether they prefer working from home or at the office.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Sophie",
+            "t": "Dis-moi, Maxime, tu en penses quoi, toi, du télétravail ?",
+            "n": "Tell me, Maxime, what do you think of working from home?"
+          },
+          {
+            "name": "Maxime",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Franchement, je trouve ça génial. Je gagne une heure de transport par jour.",
+            "n": "Honestly, I think it's great. I save an hour of commuting a day."
+          },
+          {
+            "name": "Sophie",
+            "t": "C'est vrai. Mais moi, mes collègues me manquent.",
+            "n": "True. But I miss my colleagues."
+          },
+          {
+            "name": "Maxime",
+            "voice": "fr-CA-JeanNeural",
+            "t": "D'un côté, je comprends. De l'autre, à la maison, c'est beaucoup plus calme.",
+            "n": "On the one hand I understand. On the other, it's much quieter at home."
+          },
+          {
+            "name": "Sophie",
+            "t": "Pas chez moi ! Avec deux enfants, je ne pense pas que ce soit plus calme.",
+            "n": "Not at my place! With two kids, I don't think it's any quieter."
+          },
+          {
+            "name": "Maxime",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Ha ! Bon argument. Puis le midi, on mange tout seul devant l'ordi.",
+            "n": "Ha! Good point. And at lunchtime you eat alone in front of the computer."
+          },
+          {
+            "name": "Sophie",
+            "t": "Voilà. Même si c'est plus calme, je préfère travailler au bureau.",
+            "n": "Exactly. Even if it's quieter, I prefer working at the office."
+          },
+          {
+            "name": "Maxime",
+            "voice": "fr-CA-JeanNeural",
+            "t": "Alors deux jours de télétravail par semaine, c'est peut-être la meilleure solution.",
+            "n": "So two days a week from home is maybe the best solution."
+          },
+          {
+            "name": "Sophie",
+            "t": "Là, je suis entièrement d'accord avec toi !",
+            "n": "There, I completely agree with you!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Combien de temps est-ce que Maxime gagne par jour ?",
+            "n": "How much time does Maxime save per day?",
+            "t": [
+              "Une heure",
+              "Une heure par jour",
+              "Il gagne une heure",
+              "Une heure de transport"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qui manque à Sophie ?",
+            "n": "What does Sophie miss?",
+            "t": [
+              "Ses collègues",
+              "Les collègues",
+              "Ses collègues lui manquent"
+            ]
+          },
+          {
+            "q": "Pourquoi est-ce que ce n'est pas calme chez Sophie ?",
+            "n": "Why isn't it quiet at Sophie's place?",
+            "t": [
+              "Elle a deux enfants",
+              "À cause des enfants",
+              "Parce qu'elle a deux enfants",
+              "Les enfants"
+            ]
+          },
+          {
+            "q": "Où est-ce que Sophie préfère travailler ?",
+            "n": "Where does Sophie prefer to work?",
+            "t": [
+              "Au bureau",
+              "Elle préfère travailler au bureau",
+              "Elle préfère le bureau"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u01-l6",
+      "kind": "roleplay",
+      "title": "A heated topic at dinner",
+      "goal": "Disagree with your host politely — your tone decides how dinner goes.",
+      "phrases": [
+        {
+          "t": "Qu'est-ce que vous voulez dire exactement ?",
+          "n": "What exactly do you mean?"
+        },
+        {
+          "t": "Pardon, ce n'est pas ce que je voulais dire.",
+          "n": "Sorry, that's not what I meant."
+        },
+        {
+          "t": "Je n'y avais pas pensé.",
+          "n": "I hadn't thought of that.",
+          "note": "y = about it (penser à quelque chose)."
+        },
+        {
+          "t": "Vous n'avez pas tort, mais le portable est aussi très utile.",
+          "n": "You're not wrong, but the mobile is also very useful."
+        }
+      ],
+      "branch": {
+        "title": "Dinner at the Moreaus'",
+        "scene": "You're a dinner guest at your colleague's parents' home in Lyon. Over the main course, her father brings up a topic you see differently.",
+        "name": "Monsieur Moreau",
+        "voice": "fr-FR-AlainNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Moi, je trouve que les jeunes passent beaucoup trop de temps sur leur portable.",
+            "n": "Personally, I think young people spend far too much time on their phones.",
+            "choices": [
+              {
+                "t": "Je ne suis pas tout à fait d'accord.",
+                "n": "I don't quite agree.",
+                "next": "why"
+              },
+              {
+                "t": "Qu'est-ce que vous voulez dire exactement ?",
+                "n": "What exactly do you mean?",
+                "next": "explain"
+              },
+              {
+                "t": "N'importe quoi !",
+                "n": "Rubbish!",
+                "next": "offended"
+              }
+            ]
+          },
+          "explain": {
+            "t": "Eh bien, à table, plus personne ne se parle. Tout le monde regarde son écran.",
+            "n": "Well, at the table nobody talks to each other any more. Everyone looks at their screen.",
+            "choices": [
+              {
+                "t": "Là, vous avez raison. À table, ça me dérange aussi.",
+                "n": "You're right there. At the table it bothers me too.",
+                "next": "agree"
+              },
+              {
+                "t": "C'est vrai. Pourtant, on apprend aussi beaucoup de choses en ligne.",
+                "n": "That's true. And yet you also learn a lot online.",
+                "next": "concede"
+              }
+            ]
+          },
+          "why": {
+            "t": "Ah bon ? Et pourquoi donc ?",
+            "n": "Really? And why's that?",
+            "choices": [
+              {
+                "t": "Je ne pense pas que ce soit pire qu'avant. Avant, c'était la télé.",
+                "n": "I don't think it's worse than before. Before, it was the TV.",
+                "next": "concede"
+              },
+              {
+                "t": "Parce que vous n'y connaissez rien.",
+                "n": "Because you know nothing about it.",
+                "next": "offended"
+              }
+            ]
+          },
+          "offended": {
+            "t": "Pardon ? Je trouve ça un peu impoli, quand même.",
+            "n": "Excuse me? I find that a bit rude, actually.",
+            "choices": [
+              {
+                "t": "Pardon, ce n'est pas ce que je voulais dire.",
+                "n": "Sorry, that's not what I meant.",
+                "next": "why"
+              },
+              {
+                "t": "Bof, peu importe.",
+                "n": "Meh, whatever.",
+                "next": "bad"
+              }
+            ]
+          },
+          "concede": {
+            "t": "Hmm… c'est un bon argument. Je n'y avais pas pensé.",
+            "n": "Hmm… that's a good point. I hadn't thought of that.",
+            "choices": [
+              {
+                "t": "Vous n'avez pas tort, mais le portable est aussi très utile.",
+                "n": "You're not wrong, but the mobile is also very useful.",
+                "next": "good"
+              },
+              {
+                "t": "Vous voyez ? J'ai raison.",
+                "n": "You see? I'm right.",
+                "next": "smug"
+              }
+            ]
+          },
+          "smug": {
+            "t": "Doucement ! On discute, ce n'est pas un match de foot.",
+            "n": "Easy now! We're having a discussion, not a football match.",
+            "choices": [
+              {
+                "t": "Vous avez raison, pardon. Sur ce point, on est d'accord, non ?",
+                "n": "You're right, sorry. On that point we agree, don't we?",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Ah, voilà un vrai débat ! Je vous ressers un peu de vin ?",
+            "n": "Now that's a real debate! Can I pour you a little more wine?",
+            "end": "good",
+            "outcome": "You disagreed politely, gave a reason and found common ground — the French love a good debate at the table."
+          },
+          "agree": {
+            "t": "Ah, je suis content qu'on soit d'accord ! Encore un peu de gratin ?",
+            "n": "Ah, I'm glad we agree! A bit more gratin?",
+            "end": "good",
+            "outcome": "You asked for clarification and found the point you agree on."
+          },
+          "bad": {
+            "t": "Bon… on va peut-être parler d'autre chose.",
+            "n": "Well… perhaps we'd better talk about something else.",
+            "end": "bad",
+            "outcome": "Being dismissive spoiled the mood. Disagreeing is welcome; brushing someone off isn't."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Your host said something unclear. Ask what exactly he means.",
+          "t": [
+            "Qu'est-ce que vous voulez dire exactement",
+            "Qu'est-ce que vous voulez dire",
+            "Que voulez-vous dire exactement",
+            "Que voulez-vous dire"
+          ]
+        },
+        {
+          "n": "You sounded rude. Apologise and say that's not what you meant.",
+          "t": [
+            "Pardon, ce n'est pas ce que je voulais dire",
+            "Pardon, c'est pas ce que je voulais dire",
+            "Désolé, ce n'est pas ce que je voulais dire",
+            "Excusez-moi, ce n'est pas ce que je voulais dire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-l7",
+      "kind": "speaking",
+      "title": "Your opinion in a minute",
+      "goal": "Give a short, structured opinion with reasons and a counter-argument.",
+      "culture": {
+        "title": "A nation that loves a good debate",
+        "body": "In France, a lively disagreement over dinner is often seen as a sign of a good evening, not a problem: politics, food, films and education are all fair game, and people may argue hard and still part as friends. At school, pupils learn to structure an argument as thèse, antithèse, synthèse, and many TV and radio shows are built around debate. Belgians and Swiss often have a reputation for more consensus-seeking discussion, and in Québec people tend to keep debates friendly and informal — but everywhere, attacking the idea rather than the person is the golden rule.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis pour l'ouverture des magasins le dimanche.",
+          "n": "I'm in favour of shops opening on Sundays."
+        },
+        {
+          "t": "Je suis contre.",
+          "n": "I'm against it."
+        },
+        {
+          "t": "L'avantage, c'est que les gens ont plus de choix.",
+          "n": "The advantage is that people have more choice."
+        },
+        {
+          "t": "En conclusion, je pense que ça vaut la peine.",
+          "n": "In conclusion, I think it's worth it."
+        }
+      ],
+      "free": [
+        {
+          "n": "Should shops be open on Sundays? Give your opinion, a reason, a counter-argument and a conclusion.",
+          "hint": "À mon avis … parce que … D'un côté … de l'autre … / Je ne pense pas que … En conclusion …",
+          "seconds": 50,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "your opinion",
+              "any": [
+                "je pense",
+                "je trouve",
+                "je crois",
+                "à mon avis",
+                "selon moi",
+                "pour moi",
+                "je suis pour",
+                "je suis contre"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "parce que",
+                "parce qu",
+                "car",
+                "comme"
+              ]
+            },
+            {
+              "label": "a counter-argument",
+              "any": [
+                "mais",
+                "pourtant",
+                "d'un côté",
+                "de l'autre",
+                "par contre",
+                "cependant",
+                "même si"
+              ]
+            },
+            {
+              "label": "Sunday & shops",
+              "any": [
+                "dimanche",
+                "magasin*",
+                "commerce*",
+                "boutique*",
+                "ouvert*",
+                "ouverture"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "en conclusion",
+                "donc",
+                "alors",
+                "finalement",
+                "bref",
+                "c'est pourquoi"
+              ]
+            }
+          ],
+          "model": "À mon avis, les magasins devraient ouvrir le dimanche, parce que beaucoup de gens travaillent pendant la semaine. D'un côté, c'est pratique, de l'autre, les vendeurs ont besoin de repos. Je ne pense pas que ce soit un problème s'ils sont mieux payés. En conclusion, je suis pour."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're in favour of shops opening on Sundays.",
+          "t": [
+            "Je suis pour l'ouverture des magasins le dimanche",
+            "Je suis pour",
+            "Je suis pour l'ouverture le dimanche"
+          ]
+        },
+        {
+          "n": "Say the advantage is that people have more choice.",
+          "t": [
+            "L'avantage, c'est que les gens ont plus de choix",
+            "L'avantage, c'est qu'on a plus de choix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: À mon avis",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

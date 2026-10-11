@@ -1,0 +1,862 @@
+{
+  "id": "b1-u04",
+  "title": "Le monde du travail",
+  "subtitle": "CVs, interviews & careers",
+  "icon": "💼",
+  "lessons": [
+    {
+      "id": "b1-u04-l1",
+      "title": "Your experience",
+      "goal": "Describe your studies, your career and what you do in your job.",
+      "tip": {
+        "title": "depuis, pendant, il y a",
+        "body": "Three ways to talk about time: depuis + present for something still going on (Je travaille ici depuis deux ans — I've been working here for two years); pendant + passé composé for a finished period (J'ai travaillé pendant trois ans à Lyon); il y a + passé composé for 'ago' (J'ai eu mon diplôme il y a cinq ans). Pronunciation: make the liaison in deux_ans, trois_ans, six_ans, dix_ans (a z sound), and in neuf ans the f becomes a v: neu-v-ans."
+      },
+      "phrases": [
+        {
+          "t": "Je travaille dans le marketing depuis cinq ans.",
+          "n": "I've been working in marketing for five years.",
+          "note": "depuis + present"
+        },
+        {
+          "t": "J'ai fait un stage dans une banque.",
+          "n": "I did an internship at a bank.",
+          "note": "un stage = internship / work placement"
+        },
+        {
+          "t": "J'ai obtenu mon diplôme il y a trois ans.",
+          "n": "I got my degree three years ago."
+        },
+        {
+          "t": "J'ai travaillé pendant deux ans à l'étranger.",
+          "n": "I worked abroad for two years."
+        },
+        {
+          "t": "Je suis responsable d'une équipe de six personnes.",
+          "n": "I'm in charge of a team of six people."
+        },
+        {
+          "t": "Je m'occupe des relations avec les clients.",
+          "n": "I look after customer relations.",
+          "note": "s'occuper de = to take care of"
+        },
+        {
+          "t": "Je cherche un poste plus stimulant.",
+          "n": "I'm looking for a more challenging position."
+        }
+      ],
+      "dialogue": {
+        "title": "Networking evening",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Karim",
+            "t": "Bonsoir ! Vous travaillez dans quel domaine ?",
+            "n": "Good evening! What field do you work in?"
+          },
+          {
+            "who": "you",
+            "t": "Je travaille dans le marketing depuis cinq ans.",
+            "n": "I've been working in marketing for five years."
+          },
+          {
+            "who": "A",
+            "name": "Karim",
+            "t": "Ah, intéressant ! Et qu'est-ce que vous faites exactement ?",
+            "n": "Oh, interesting! And what exactly do you do?"
+          },
+          {
+            "who": "you",
+            "t": "Je suis responsable d'une équipe de six personnes. Je m'occupe aussi des relations avec les clients.",
+            "n": "I'm in charge of a team of six people. I also look after customer relations."
+          },
+          {
+            "who": "A",
+            "name": "Karim",
+            "t": "Vous avez toujours travaillé en France ?",
+            "n": "Have you always worked in France?"
+          },
+          {
+            "who": "you",
+            "t": "Non, j'ai travaillé pendant deux ans à l'étranger, au Canada.",
+            "n": "No, I worked abroad for two years, in Canada."
+          },
+          {
+            "who": "A",
+            "name": "Karim",
+            "t": "Et votre poste actuel vous plaît ?",
+            "n": "And do you like your current job?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, mais je cherche un poste plus stimulant. Votre entreprise recrute ?",
+            "n": "Yes, but I'm looking for a more challenging position. Is your company hiring?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you've been working in marketing for five years.",
+          "t": [
+            "Je travaille dans le marketing depuis cinq ans",
+            "Je travaille dans le marketing depuis …"
+          ]
+        },
+        {
+          "n": "Say you did an internship at a bank.",
+          "t": [
+            "J'ai fait un stage dans une banque",
+            "J'ai fait mon stage dans une banque"
+          ]
+        },
+        {
+          "n": "Say you got your degree three years ago.",
+          "t": [
+            "J'ai obtenu mon diplôme il y a trois ans",
+            "J'ai eu mon diplôme il y a trois ans"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-l2",
+      "title": "The job interview",
+      "goal": "Answer typical interview questions about yourself, your strengths and your motivation.",
+      "tip": {
+        "title": "L'entretien d'embauche",
+        "body": "A job interview is un entretien d'embauche (in Québec: une entrevue). Always use vous unless invited to switch. To apply is postuler: postuler à un poste, postuler chez Renault; your application is votre candidature. Strengths and weaknesses are vos points forts and vos points faibles; a classic trick is to present a weakness you are working on. Pronunciation: in entretien the en is nasal and the -tien ends in a nasal 'ti-in'; in disponible all the syllables are clear: dis-po-nibl."
+      },
+      "phrases": [
+        {
+          "t": "Parlez-moi un peu de vous.",
+          "n": "Tell me a little about yourself.",
+          "note": "A classic first question"
+        },
+        {
+          "t": "Pourquoi avez-vous postulé chez nous ?",
+          "n": "Why did you apply to us?"
+        },
+        {
+          "t": "Votre offre correspond exactement à mon profil.",
+          "n": "Your job offer matches my profile exactly."
+        },
+        {
+          "t": "Mon point fort, c'est l'organisation.",
+          "n": "My strong point is organisation."
+        },
+        {
+          "t": "Je suis parfois trop perfectionniste.",
+          "n": "I'm sometimes too much of a perfectionist."
+        },
+        {
+          "t": "Je sais travailler sous pression.",
+          "n": "I can work under pressure.",
+          "note": "savoir + infinitive = to know how to"
+        },
+        {
+          "t": "Je suis disponible à partir du premier mars.",
+          "n": "I'm available from the first of March."
+        },
+        {
+          "t": "Quelles sont les perspectives d'évolution ?",
+          "n": "What are the prospects for career progression?"
+        }
+      ],
+      "dialogue": {
+        "title": "In the HR office",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Girard",
+            "t": "Bonjour, asseyez-vous. Alors, parlez-moi un peu de vous.",
+            "n": "Hello, have a seat. So, tell me a little about yourself."
+          },
+          {
+            "who": "you",
+            "t": "Je travaille dans la logistique depuis quatre ans. J'ai de l'expérience dans la gestion de projets.",
+            "n": "I've been working in logistics for four years. I have experience in project management."
+          },
+          {
+            "who": "A",
+            "name": "Mme Girard",
+            "t": "Pourquoi avez-vous postulé chez nous ?",
+            "n": "Why did you apply to us?"
+          },
+          {
+            "who": "you",
+            "t": "Votre offre correspond exactement à mon profil, et j'aime beaucoup vos valeurs.",
+            "n": "Your offer matches my profile exactly, and I really like your values."
+          },
+          {
+            "who": "A",
+            "name": "Mme Girard",
+            "t": "Quels sont vos points forts ?",
+            "n": "What are your strengths?"
+          },
+          {
+            "who": "you",
+            "t": "Mon point fort, c'est l'organisation. Et je sais travailler sous pression.",
+            "n": "My strong point is organisation. And I can work under pressure."
+          },
+          {
+            "who": "A",
+            "name": "Mme Girard",
+            "t": "Et vos points faibles ?",
+            "n": "And your weaknesses?"
+          },
+          {
+            "who": "you",
+            "t": "Je suis parfois trop perfectionniste, mais j'apprends à déléguer.",
+            "n": "I'm sometimes too much of a perfectionist, but I'm learning to delegate."
+          },
+          {
+            "who": "A",
+            "name": "Mme Girard",
+            "t": "Très bien. Vous avez des questions ?",
+            "n": "Very good. Do you have any questions?"
+          },
+          {
+            "who": "you",
+            "t": "Oui : quelles sont les perspectives d'évolution dans ce poste ?",
+            "n": "Yes: what are the prospects for progression in this position?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say your strong point is organisation.",
+          "t": [
+            "Mon point fort, c'est l'organisation",
+            "Mon point fort est l'organisation"
+          ]
+        },
+        {
+          "n": "Say you're available from the first of March.",
+          "t": [
+            "Je suis disponible à partir du premier mars",
+            "Je suis disponible dès le premier mars",
+            "À partir du premier mars"
+          ]
+        },
+        {
+          "n": "Ask about the prospects for career progression.",
+          "t": [
+            "Quelles sont les perspectives d'évolution",
+            "Quelles sont les possibilités d'évolution",
+            "Est-ce qu'il y a des perspectives d'évolution"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-l3",
+      "title": "The application",
+      "goal": "Ask about a job ad and send your application.",
+      "tip": {
+        "title": "Formal set phrases",
+        "body": "Applications use fixed formulas. In writing: Vous trouverez ci-joint mon CV (Please find my CV attached) and Je reste à votre disposition pour un entretien (I am available for an interview). On the phone, introduce yourself clearly and say why you're calling: Je vous appelle au sujet de l'annonce… CV is said 'cé-vé'."
+      },
+      "phrases": [
+        {
+          "t": "Je vous appelle au sujet de votre annonce.",
+          "n": "I'm calling about your job advert."
+        },
+        {
+          "t": "Est-ce que le poste est encore disponible ?",
+          "n": "Is the position still available?"
+        },
+        {
+          "t": "Je souhaite postuler au poste de chef de projet.",
+          "n": "I would like to apply for the project manager position."
+        },
+        {
+          "t": "Je vous envoie mon CV et ma lettre de motivation.",
+          "n": "I'll send you my CV and my cover letter."
+        },
+        {
+          "t": "Vous trouverez ci-joint mon CV.",
+          "n": "Please find my CV attached.",
+          "note": "Written formula for emails and letters"
+        },
+        {
+          "t": "Je reste à votre disposition pour un entretien.",
+          "n": "I am available for an interview."
+        }
+      ],
+      "dialogue": {
+        "title": "A call to Lausanne",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Rochat",
+            "t": "Ressources humaines, Nathalie Rochat, bonjour !",
+            "n": "Human resources, Nathalie Rochat speaking, hello!"
+          },
+          {
+            "who": "you",
+            "t": "Bonjour, madame. Je vous appelle au sujet de votre annonce. Est-ce que le poste est encore disponible ?",
+            "n": "Hello. I'm calling about your job advert. Is the position still available?"
+          },
+          {
+            "who": "A",
+            "name": "Mme Rochat",
+            "t": "Le poste de chef de projet ? Oui, nous recevons les candidatures jusqu'au trente septembre.",
+            "n": "The project manager position? Yes, we're accepting applications until the thirtieth of September."
+          },
+          {
+            "who": "you",
+            "t": "Parfait. Je souhaite postuler. Je vous envoie mon CV et ma lettre de motivation par e-mail ?",
+            "n": "Perfect. I'd like to apply. Shall I send you my CV and cover letter by email?"
+          },
+          {
+            "who": "A",
+            "name": "Mme Rochat",
+            "t": "Oui, et ajoutez vos certificats de travail, s'il vous plaît.",
+            "n": "Yes, and please add your certificats de travail (Swiss written references from former employers)."
+          },
+          {
+            "who": "you",
+            "t": "D'accord, je vous envoie tout ça aujourd'hui. Merci beaucoup !",
+            "n": "OK, I'll send you all that today. Thank you very much!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask if the position is still available.",
+          "t": [
+            "Est-ce que le poste est encore disponible",
+            "Le poste est encore disponible",
+            "Le poste est-il encore disponible",
+            "Le poste est toujours disponible"
+          ]
+        },
+        {
+          "n": "Say you'd like to apply for the project manager position.",
+          "t": [
+            "Je souhaite postuler au poste de chef de projet",
+            "Je voudrais postuler au poste de chef de projet",
+            "J'aimerais postuler au poste de chef de projet"
+          ]
+        },
+        {
+          "n": "Say you'll send your CV and cover letter.",
+          "t": [
+            "Je vous envoie mon CV et ma lettre de motivation",
+            "Je vais vous envoyer mon CV et ma lettre de motivation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-l4",
+      "kind": "grammar",
+      "title": "Qui, que, où",
+      "goal": "Join sentences with relative pronouns to describe jobs, people and places.",
+      "tip": {
+        "title": "Subject, object or place?",
+        "body": "qui is the subject of the next verb, so a verb follows it directly: un collègue qui parle anglais. que is the object, so a new subject follows: le poste que je cherche. que becomes qu' before a vowel (le poste qu'il occupe) but qui never changes. où is used for places and also for time: l'entreprise où je travaille, le jour où j'ai commencé. Watch the agreement: with que + passé composé with avoir, the past participle agrees with the noun before it: la lettre que j'ai écrite. Unlike English, French never drops que: the job I want = le poste que je veux."
+      },
+      "phrases": [
+        {
+          "t": "C'est un poste qui me plaît beaucoup.",
+          "n": "It's a job I really like.",
+          "note": "Literally: a job that pleases me"
+        },
+        {
+          "t": "C'est l'entreprise où j'ai fait mon stage.",
+          "n": "That's the company where I did my internship."
+        },
+        {
+          "t": "Le collègue que j'ai remplacé est parti à Montréal.",
+          "n": "The colleague I replaced has gone to Montreal."
+        },
+        {
+          "t": "Je cherche un travail qui a du sens.",
+          "n": "I'm looking for a job that is meaningful."
+        },
+        {
+          "t": "Le jour où j'ai commencé, tout le monde était en vacances.",
+          "n": "The day I started, everyone was on holiday.",
+          "note": "où for time, not quand"
+        }
+      ],
+      "drills": [
+        {
+          "title": "qui or que?",
+          "base": {
+            "t": "C'est un poste qui me plaît.",
+            "n": "It's a job I like."
+          },
+          "items": [
+            {
+              "cue": "je cherche",
+              "t": "C'est le poste que je cherche.",
+              "n": "It's the job I'm looking for."
+            },
+            {
+              "cue": "est bien payé",
+              "t": "C'est un poste qui est bien payé.",
+              "n": "It's a job that is well paid."
+            },
+            {
+              "cue": "ma sœur a eu",
+              "t": "C'est le poste que ma sœur a eu.",
+              "n": "It's the job my sister got."
+            },
+            {
+              "cue": "il occupe depuis deux ans",
+              "t": "C'est le poste qu'il occupe depuis deux ans.",
+              "n": "It's the job he has held for two years."
+            }
+          ]
+        },
+        {
+          "title": "Link with où",
+          "base": {
+            "t": "C'est l'entreprise où je travaille.",
+            "n": "That's the company where I work."
+          },
+          "items": [
+            {
+              "cue": "la ville · j'ai fait mes études",
+              "t": "C'est la ville où j'ai fait mes études.",
+              "n": "That's the city where I studied."
+            },
+            {
+              "cue": "le bureau · nous avons nos réunions",
+              "t": "C'est le bureau où nous avons nos réunions.",
+              "n": "That's the office where we have our meetings."
+            },
+            {
+              "cue": "le jour · j'ai signé mon contrat",
+              "t": "C'est le jour où j'ai signé mon contrat.",
+              "n": "That's the day I signed my contract."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're looking for a job that is meaningful.",
+          "t": [
+            "Je cherche un travail qui a du sens",
+            "Je cherche un poste qui a du sens",
+            "Je cherche un emploi qui a du sens"
+          ]
+        },
+        {
+          "n": "Say that's the company where you did your internship.",
+          "t": [
+            "C'est l'entreprise où j'ai fait mon stage",
+            "C'est la société où j'ai fait mon stage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-l5",
+      "kind": "listening",
+      "title": "A call from Montreal",
+      "goal": "Understand a recruiter from Québec arranging an interview.",
+      "phrases": [
+        {
+          "t": "C'est au sujet de ma candidature ?",
+          "n": "Is it about my application?"
+        },
+        {
+          "t": "Votre CV a beaucoup plu.",
+          "n": "Your CV went down very well."
+        },
+        {
+          "t": "On aimerait vous rencontrer en entrevue.",
+          "n": "We'd like to meet you for an interview.",
+          "note": "Québec: entrevue; France: entretien"
+        },
+        {
+          "t": "C'est un poste à temps plein.",
+          "n": "It's a full-time position."
+        }
+      ],
+      "story": {
+        "title": "Montreal on the line",
+        "intro": "Lucas, a developer in Bordeaux, gets a call from a recruitment agency in Montreal.",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "name": "Geneviève",
+            "t": "Bonjour, est-ce que je parle à Lucas Moreau ? Ici Geneviève Tremblay, de l'agence Talents Montréal.",
+            "n": "Hello, am I speaking to Lucas Moreau? This is Geneviève Tremblay from the Talents Montréal agency."
+          },
+          {
+            "name": "Lucas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Oui, bonjour madame. C'est au sujet de ma candidature ?",
+            "n": "Yes, hello. Is it about my application?"
+          },
+          {
+            "name": "Geneviève",
+            "t": "Exactement. Votre CV a beaucoup plu à notre client, une entreprise de jeux vidéo.",
+            "n": "Exactly. Our client, a video game company, really liked your CV."
+          },
+          {
+            "name": "Lucas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "C'est une excellente nouvelle ! C'est le poste de développeur que j'ai vu sur votre site ?",
+            "n": "That's excellent news! Is it the developer position I saw on your website?"
+          },
+          {
+            "name": "Geneviève",
+            "t": "Oui. Ils aimeraient vous rencontrer en entrevue la semaine prochaine, par vidéo.",
+            "n": "Yes. They'd like to meet you for an interview next week, by video."
+          },
+          {
+            "name": "Lucas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Avec plaisir. Je suis disponible mardi ou jeudi.",
+            "n": "With pleasure. I'm available on Tuesday or Thursday."
+          },
+          {
+            "name": "Geneviève",
+            "t": "Parfait, disons jeudi à dix heures, heure de Montréal. Pour vous, en France, ce sera seize heures.",
+            "n": "Perfect, let's say Thursday at ten, Montreal time. For you in France, that will be four p.m."
+          },
+          {
+            "name": "Lucas",
+            "voice": "fr-FR-JeromeNeural",
+            "t": "Très bien. Et c'est quel type de contrat ?",
+            "n": "Very good. And what kind of contract is it?"
+          },
+          {
+            "name": "Geneviève",
+            "t": "C'est un poste permanent, à temps plein. Ce que vous appelez un CDI en France. Je vous envoie tous les détails par courriel cet après-midi. Bonne fin de journée !",
+            "n": "It's a permanent, full-time position. What you call a CDI in France. I'll send you all the details by email (Québec: courriel) this afternoon. Have a good rest of the day!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Dans quel secteur travaille l'entreprise ?",
+            "n": "What sector is the company in?",
+            "t": [
+              "Les jeux vidéo",
+              "Dans les jeux vidéo",
+              "Jeux vidéo",
+              "C'est une entreprise de jeux vidéo"
+            ]
+          },
+          {
+            "q": "Quand a lieu l'entrevue ?",
+            "n": "When is the interview?",
+            "t": [
+              "Jeudi",
+              "Jeudi à dix heures",
+              "Jeudi prochain",
+              "La semaine prochaine"
+            ]
+          },
+          {
+            "q": "Quelle heure sera-t-il en France ?",
+            "n": "What time will it be in France?",
+            "t": [
+              "Seize heures",
+              "Quatre heures",
+              "Quatre heures de l'après-midi",
+              "Il sera seize heures"
+            ]
+          },
+          {
+            "q": "Quel type de contrat est-ce ?",
+            "n": "What kind of contract is it?",
+            "t": [
+              "Un poste permanent",
+              "Permanent",
+              "Un CDI",
+              "Un contrat permanent",
+              "À temps plein",
+              "Un poste permanent à temps plein"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u04-l6",
+      "kind": "roleplay",
+      "title": "Interview in Geneva",
+      "goal": "Get through a job interview — and recover from a weak answer.",
+      "phrases": [
+        {
+          "t": "Je m'occupe d'une équipe de cinq personnes.",
+          "n": "I manage a team of five people."
+        },
+        {
+          "t": "J'apprends à déléguer.",
+          "n": "I'm learning to delegate."
+        },
+        {
+          "t": "Je cherche un poste où je peux évoluer.",
+          "n": "I'm looking for a job where I can progress."
+        },
+        {
+          "t": "Merci de m'avoir reçu.",
+          "n": "Thank you for seeing me.",
+          "note": "reçue for a woman — same sound"
+        }
+      ],
+      "branch": {
+        "title": "The interview",
+        "scene": "You're interviewing for a project manager job at a company in Geneva. The HR manager, Madame Favre, welcomes you.",
+        "name": "Mme Favre",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Bonjour, asseyez-vous, je vous en prie. Alors, parlez-moi un peu de vous.",
+            "n": "Hello, please have a seat. So, tell me a little about yourself.",
+            "choices": [
+              {
+                "t": "Je suis chef de projet depuis quatre ans. Je m'occupe d'une équipe de cinq personnes.",
+                "n": "I've been a project manager for four years. I manage a team of five people.",
+                "next": "why"
+              },
+              {
+                "t": "Euh… tout est dans mon CV.",
+                "n": "Er… it's all in my CV.",
+                "next": "cv"
+              }
+            ]
+          },
+          "cv": {
+            "t": "Oui, je l'ai lu. Mais j'aimerais l'entendre de votre bouche.",
+            "n": "Yes, I've read it. But I'd like to hear it from you.",
+            "choices": [
+              {
+                "t": "Bien sûr, pardon. Je travaille dans la logistique depuis quatre ans, chez un transporteur.",
+                "n": "Of course, sorry. I've been working in logistics for four years, at a transport company.",
+                "next": "why"
+              },
+              {
+                "t": "Je n'ai rien à ajouter.",
+                "n": "I have nothing to add.",
+                "next": "bad"
+              }
+            ]
+          },
+          "why": {
+            "t": "Et pourquoi avez-vous postulé chez nous ?",
+            "n": "And why did you apply to us?",
+            "choices": [
+              {
+                "t": "Votre entreprise a une excellente réputation, et l'offre correspond exactement à mon profil.",
+                "n": "Your company has an excellent reputation, and the offer matches my profile exactly.",
+                "next": "weak"
+              },
+              {
+                "t": "Surtout pour le salaire, pour être honnête.",
+                "n": "Mainly for the salary, to be honest.",
+                "next": "salary"
+              }
+            ]
+          },
+          "salary": {
+            "t": "Je vois… Et à part le salaire, qu'est-ce qui vous intéresse dans ce poste ?",
+            "n": "I see… And apart from the salary, what interests you in this job?",
+            "choices": [
+              {
+                "t": "Je cherche un poste où je peux évoluer, dans une équipe internationale.",
+                "n": "I'm looking for a job where I can progress, in an international team.",
+                "next": "weak"
+              },
+              {
+                "t": "Rien de spécial, c'est un poste comme un autre.",
+                "n": "Nothing special, it's a job like any other.",
+                "next": "bad"
+              }
+            ]
+          },
+          "weak": {
+            "t": "Bien. Quel est votre principal défaut ?",
+            "n": "Good. What is your main weakness?",
+            "choices": [
+              {
+                "t": "Je suis parfois trop perfectionniste, mais j'apprends à déléguer.",
+                "n": "I'm sometimes too much of a perfectionist, but I'm learning to delegate.",
+                "next": "date"
+              },
+              {
+                "t": "Je n'ai pas de défaut.",
+                "n": "I don't have any weaknesses.",
+                "next": "proud"
+              }
+            ]
+          },
+          "proud": {
+            "t": "Vraiment ? Personne n'est parfait… Vous voulez essayer encore une fois ?",
+            "n": "Really? Nobody is perfect… Would you like to try again?",
+            "choices": [
+              {
+                "t": "Vous avez raison. Parfois, je parle trop vite en réunion, alors je fais attention.",
+                "n": "You're right. Sometimes I speak too fast in meetings, so I'm careful about it.",
+                "next": "date"
+              }
+            ]
+          },
+          "date": {
+            "t": "Très bien. Vous seriez disponible à partir de quand ?",
+            "n": "Very good. When would you be available from?",
+            "choices": [
+              {
+                "t": "Je suis disponible à partir du premier mars. Merci de m'avoir reçu.",
+                "n": "I'm available from the first of March. Thank you for seeing me.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "C'est parfait. Nous vous recontacterons d'ici la fin de la semaine. Merci pour cet entretien.",
+            "n": "That's perfect. We'll get back to you by the end of the week. Thank you for this interview.",
+            "end": "good",
+            "outcome": "You presented yourself clearly and positively. You're on the shortlist!"
+          },
+          "bad": {
+            "t": "Bien. Je crois que nous avons terminé. Au revoir.",
+            "n": "Right. I think we're done. Goodbye.",
+            "end": "bad",
+            "outcome": "You came across as unmotivated. Next time talk about your experience and why the job interests you."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say you manage a team of five people.",
+          "t": [
+            "Je m'occupe d'une équipe de cinq personnes",
+            "Je gère une équipe de cinq personnes",
+            "Je suis responsable d'une équipe de cinq personnes"
+          ]
+        },
+        {
+          "n": "Thank the interviewer for seeing you.",
+          "t": [
+            "Merci de m'avoir reçu",
+            "Merci de m'avoir reçue",
+            "Merci pour cet entretien",
+            "Je vous remercie de m'avoir reçu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-l7",
+      "kind": "speaking",
+      "title": "Present yourself",
+      "goal": "Introduce yourself in a job interview for about a minute.",
+      "culture": {
+        "title": "Lettre de motivation, CDI and CDD",
+        "body": "In France, an application traditionally means a CV plus a lettre de motivation (cover letter), often written in a fairly formal style that ends with a set formula such as « Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées ». Contracts matter a lot: the CDI (contrat à durée indéterminée, open-ended) is the one most people hope for, while a CDD (contrat à durée déterminée) is fixed-term; new jobs usually start with a période d'essai (trial period). In Switzerland, applications often include a full dossier with copies of diplomas and certificats de travail (written references from former employers). In Québec you go to an entrevue and hope for a poste permanent.",
+        "regions": [
+          "FR",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je suis quelqu'un de motivé et d'organisé.",
+          "n": "I'm a motivated and organised person.",
+          "note": "quelqu'un de + masculine adjective, even for a woman"
+        },
+        {
+          "t": "J'ai un CDD de six mois.",
+          "n": "I have a six-month fixed-term contract."
+        },
+        {
+          "t": "Je cherche un CDI.",
+          "n": "I'm looking for a permanent contract.",
+          "note": "Say 'cé-dé-i'"
+        },
+        {
+          "t": "Je parle couramment anglais.",
+          "n": "I speak English fluently."
+        }
+      ],
+      "free": [
+        {
+          "n": "Introduce yourself in a job interview: your experience, a strength, and why you want this job. Try to use qui, que or où.",
+          "hint": "Je travaille dans … depuis … / J'ai fait un stage … Mon point fort, c'est … / Je suis quelqu'un de … J'ai postulé parce que … / Je cherche un poste où …",
+          "seconds": 60,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "your experience",
+              "any": [
+                "expérience",
+                "depuis",
+                "travaillé",
+                "stage",
+                "diplôme",
+                "poste",
+                "responsable"
+              ]
+            },
+            {
+              "label": "a strength",
+              "any": [
+                "point fort",
+                "qualité*",
+                "organisé*",
+                "motivé*",
+                "dynamique",
+                "rigoureu*",
+                "autonome",
+                "sérieu*",
+                "sous pression"
+              ]
+            },
+            {
+              "label": "your motivation",
+              "any": [
+                "postul*",
+                "intéress*",
+                "réputation",
+                "évoluer",
+                "profil",
+                "envie",
+                "motivation"
+              ]
+            }
+          ],
+          "model": "Je travaille dans la logistique depuis quatre ans. Je m'occupe d'une équipe qui gère les livraisons en Europe. Mon point fort, c'est l'organisation, et je sais travailler sous pression. J'ai postulé chez vous parce que je cherche un poste où je peux évoluer, dans une entreprise qui a une excellente réputation."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're a motivated and organised person.",
+          "t": [
+            "Je suis quelqu'un de motivé et d'organisé",
+            "Je suis quelqu'un de motivé et organisé",
+            "Je suis motivé et organisé",
+            "Je suis motivée et organisée"
+          ]
+        },
+        {
+          "n": "Say you're looking for a permanent contract.",
+          "t": [
+            "Je cherche un CDI",
+            "Je cherche un contrat à durée indéterminée",
+            "Je cherche un poste permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Le monde du travail",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

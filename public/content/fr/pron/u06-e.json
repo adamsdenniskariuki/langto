@@ -1,0 +1,248 @@
+{
+  "id": "pron-u06",
+  "level": "B1",
+  "title": "Les sons é, è et e muet",
+  "subtitle": "é vs è, and the e that disappears",
+  "icon": "✏️",
+  "lessons": [
+    {
+      "id": "pron-u06-l1",
+      "kind": "pron",
+      "title": "é and è",
+      "goal": "Keep é closed and è open.",
+      "tip": {
+        "title": "é: smile and hold still; è: open your mouth",
+        "body": "é (also -er, -ez, and et) is a short, tense vowel with spread lips — like the start of \"ay\" in \"day\" but without the glide to \"ee\". è, ê, -et and usually ai are more open, like \"e\" in \"bed\" (but j'ai and the future ending -ai, as in je serai, are é). Before a pronounced consonant you always use the open sound: mère, fête, belle. At the end of a word the contrast (pré/prêt) is clear in careful standard French, though many speakers make it less sharply in fast speech."
+      },
+      "phrases": [
+        {
+          "t": "Mon frère est né en été.",
+          "n": "My brother was born in summer."
+        },
+        {
+          "t": "Le café est prêt.",
+          "n": "The coffee is ready."
+        },
+        {
+          "t": "Elle préfère la mer.",
+          "n": "She prefers the sea."
+        },
+        {
+          "t": "Merci, c'est parfait !",
+          "n": "Thanks, that's perfect!"
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "é / è",
+          "a": {
+            "t": "pré",
+            "n": "meadow"
+          },
+          "b": {
+            "t": "prêt",
+            "n": "ready"
+          }
+        },
+        {
+          "sound": "é / è",
+          "a": {
+            "t": "fée",
+            "n": "fairy"
+          },
+          "b": {
+            "t": "fait",
+            "n": "done, made"
+          }
+        },
+        {
+          "sound": "é / è",
+          "a": {
+            "t": "épée",
+            "n": "sword"
+          },
+          "b": {
+            "t": "épais",
+            "n": "thick"
+          }
+        },
+        {
+          "sound": "é / è",
+          "a": {
+            "t": "les",
+            "n": "the (plural)"
+          },
+          "b": {
+            "t": "lait",
+            "n": "milk"
+          }
+        },
+        {
+          "sound": "é / è",
+          "a": {
+            "t": "été",
+            "n": "been; summer"
+          },
+          "b": {
+            "t": "était",
+            "n": "was"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Mon frère est né en été.",
+          "n": "My brother was born in summer.",
+          "mark": "Mon frère est né en é*té*."
+        },
+        {
+          "t": "Le café est prêt.",
+          "n": "The coffee is ready.",
+          "mark": "Le ca*fé* est *prêt*.",
+          "note": "Two rhythmic groups: \"le café\" | \"est prêt\"."
+        },
+        {
+          "t": "Merci, c'est parfait !",
+          "n": "Thanks, that's perfect!",
+          "mark": "Mer*ci*, c'est par*fait* !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"The coffee is ready.\"",
+          "t": [
+            "Le café est prêt",
+            "Le café est prêt !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pron-u06-l2",
+      "kind": "pron",
+      "title": "The e that disappears",
+      "goal": "Hear je vs j'ai, and drop the e caduc like a native.",
+      "tip": {
+        "title": "e caduc: weak, and often silent",
+        "body": "Unstressed e without an accent (le, je, de, ne, que, ce, and inside words like samedi, maintenant, petit) is a short, relaxed vowel — and in everyday speech it often vanishes: \"sam'di\", \"maint'nant\", \"p'tit\", \"j'sais pas\". It stays when dropping it would bring three consonants together (vendredi, quelque chose) and in careful speech, poetry and song. Keep it distinct from é: je dis (present) vs j'ai dit (past) differ only in that vowel."
+      },
+      "phrases": [
+        {
+          "t": "Je ne sais pas.",
+          "n": "I don't know.",
+          "note": "Casual: \"j'sais pas\" or even \"chais pas\"."
+        },
+        {
+          "t": "À samedi !",
+          "n": "See you on Saturday!",
+          "note": "Casual: \"sam'di\"."
+        },
+        {
+          "t": "Il est petit.",
+          "n": "He's small.",
+          "note": "Casual: \"il est p'tit\"."
+        },
+        {
+          "t": "Qu'est-ce que tu fais maintenant ?",
+          "n": "What are you doing now?",
+          "note": "Casual: \"qu'est-c'que tu fais maint'nant ?\""
+        }
+      ],
+      "pairs": [
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "je dis",
+            "n": "I say"
+          },
+          "b": {
+            "t": "j'ai dit",
+            "n": "I said"
+          }
+        },
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "je finis",
+            "n": "I finish"
+          },
+          "b": {
+            "t": "j'ai fini",
+            "n": "I finished"
+          }
+        },
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "je choisis",
+            "n": "I choose"
+          },
+          "b": {
+            "t": "j'ai choisi",
+            "n": "I chose"
+          }
+        },
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "ce livre",
+            "n": "this book"
+          },
+          "b": {
+            "t": "ces livres",
+            "n": "these books"
+          }
+        },
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "le chat",
+            "n": "the cat"
+          },
+          "b": {
+            "t": "les chats",
+            "n": "the cats"
+          }
+        },
+        {
+          "sound": "e / é",
+          "a": {
+            "t": "que",
+            "n": "that, what"
+          },
+          "b": {
+            "t": "quai",
+            "n": "platform, quay"
+          }
+        }
+      ],
+      "stress": [
+        {
+          "t": "Je ne sais pas.",
+          "n": "I don't know.",
+          "mark": "Je ne sais *pas*."
+        },
+        {
+          "t": "À samedi !",
+          "n": "See you on Saturday!",
+          "mark": "À same*di* !"
+        },
+        {
+          "t": "Qu'est-ce que tu fais maintenant ?",
+          "n": "What are you doing now?",
+          "mark": "Qu'est-ce que tu *fais* mainte*nant* ?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say \"I don't know.\"",
+          "t": [
+            "Je ne sais pas",
+            "Je sais pas",
+            "Chais pas"
+          ]
+        }
+      ]
+    }
+  ]
+}

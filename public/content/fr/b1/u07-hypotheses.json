@@ -1,0 +1,834 @@
+{
+  "id": "b1-u07",
+  "title": "Et si… ?",
+  "subtitle": "Hypotheses, wishes & advice",
+  "icon": "💭",
+  "lessons": [
+    {
+      "id": "b1-u07-l1",
+      "title": "Dreams and what-ifs",
+      "goal": "Talk about dreams and imaginary situations.",
+      "tip": {
+        "title": "si + imparfait → conditionnel",
+        "body": "To imagine something, French uses si + imparfait in the 'if' part and the conditional in the result: Si j'avais plus de temps, je voyagerais davantage. Never put the conditional right after si. The conditional endings sound like the imparfait (-ais, -ait = 'è'): je voyagerais, ce serait. In careful speech the future je voyagerai ends in a closed 'é' and the conditional je voyagerais in an open 'è', but many speakers barely distinguish them, so context does the work. In fast speech j'aimerais has three syllables: 'jèm-rè'."
+      },
+      "phrases": [
+        {
+          "t": "Si j'avais plus de temps, je voyagerais davantage.",
+          "n": "If I had more time, I'd travel more.",
+          "note": "si + imparfait, then conditional"
+        },
+        {
+          "t": "Si je gagnais au loto, j'arrêterais de travailler.",
+          "n": "If I won the lottery, I'd stop working."
+        },
+        {
+          "t": "J'aimerais bien vivre à l'étranger un jour.",
+          "n": "I'd really like to live abroad one day."
+        },
+        {
+          "t": "Ce serait génial !",
+          "n": "That would be great!"
+        },
+        {
+          "t": "Je rêve de faire le tour du monde.",
+          "n": "I dream of travelling round the world.",
+          "note": "rêver de + infinitive"
+        },
+        {
+          "t": "Qu'est-ce que tu ferais si tu avais un an de congé ?",
+          "n": "What would you do if you had a year off?"
+        },
+        {
+          "t": "Je ne changerais rien.",
+          "n": "I wouldn't change a thing."
+        },
+        {
+          "t": "Ce n'est qu'un rêve, mais on peut toujours rêver !",
+          "n": "It's only a dream, but you can always dream!",
+          "note": "ne … que = only"
+        }
+      ],
+      "dialogue": {
+        "title": "Lottery dreams",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Tu as joué au loto cette semaine ? La cagnotte est énorme !",
+            "n": "Did you play the lottery this week? The jackpot is huge!"
+          },
+          {
+            "who": "you",
+            "t": "Non, mais si je gagnais au loto, j'arrêterais de travailler.",
+            "n": "No, but if I won the lottery, I'd stop working."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Ah bon ? Et qu'est-ce que tu ferais de tes journées ?",
+            "n": "Really? And what would you do with your days?"
+          },
+          {
+            "who": "you",
+            "t": "Je rêve de faire le tour du monde. Ce serait génial !",
+            "n": "I dream of travelling round the world. That would be great!"
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Moi, je ne changerais rien. J'aime bien ma vie comme elle est.",
+            "n": "Me, I wouldn't change a thing. I like my life as it is."
+          },
+          {
+            "who": "you",
+            "t": "Vraiment ? Tu n'aimerais pas vivre ailleurs ?",
+            "n": "Really? Wouldn't you like to live somewhere else?"
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Peut-être au Canada… Et toi, qu'est-ce que tu ferais si tu avais un an de congé ?",
+            "n": "Maybe in Canada… And you, what would you do if you had a year off?"
+          },
+          {
+            "who": "you",
+            "t": "J'aimerais bien vivre à l'étranger un jour. Ce n'est qu'un rêve, mais on peut toujours rêver !",
+            "n": "I'd really like to live abroad one day. It's only a dream, but you can always dream!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say if you had more time, you'd travel more.",
+          "t": [
+            "Si j'avais plus de temps, je voyagerais davantage",
+            "Si j'avais plus de temps, je voyagerais plus",
+            "Je voyagerais plus si j'avais plus de temps"
+          ]
+        },
+        {
+          "n": "Say that would be great.",
+          "t": [
+            "Ce serait génial",
+            "Ça serait génial",
+            "Ce serait super"
+          ]
+        },
+        {
+          "n": "Ask a friend what they would do if they had a year off.",
+          "t": [
+            "Qu'est-ce que tu ferais si tu avais un an de congé",
+            "Que ferais-tu si tu avais un an de congé",
+            "Tu ferais quoi si tu avais un an de congé"
+          ]
+        },
+        {
+          "n": "Say you dream of travelling round the world.",
+          "t": [
+            "Je rêve de faire le tour du monde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l2",
+      "title": "Advice and polite requests",
+      "goal": "Give advice and ask for things politely with the conditional.",
+      "tip": {
+        "title": "tu devrais, à ta place, pourriez-vous",
+        "body": "The conditional softens everything. Advice: Tu devrais… (you should), À ta place, je… / Si j'étais toi, je… (if I were you), Il vaudrait mieux + infinitive (it would be better to). Requests: Pourriez-vous… ? / Tu pourrais… ? (could you), Ça vous dérangerait de… ? (would you mind). Pronunciation: pourriez has a double r but you say a single r: 'pou-rié'; the final s of devrais is silent: 'de-vrè'."
+      },
+      "phrases": [
+        {
+          "t": "Tu devrais en parler à ton chef.",
+          "n": "You should talk to your boss about it."
+        },
+        {
+          "t": "À ta place, je demanderais une augmentation.",
+          "n": "If I were you, I'd ask for a raise."
+        },
+        {
+          "t": "Si j'étais toi, je ne dirais rien.",
+          "n": "If I were you, I wouldn't say anything."
+        },
+        {
+          "t": "Il vaudrait mieux attendre un peu.",
+          "n": "It would be better to wait a bit.",
+          "note": "valoir mieux → il vaudrait mieux"
+        },
+        {
+          "t": "Pourriez-vous m'aider, s'il vous plaît ?",
+          "n": "Could you help me, please?"
+        },
+        {
+          "t": "Ça vous dérangerait de fermer la fenêtre ?",
+          "n": "Would you mind closing the window?"
+        },
+        {
+          "t": "Tu pourrais me rendre un petit service ?",
+          "n": "Could you do me a small favour?"
+        },
+        {
+          "t": "Qu'est-ce que tu ferais à ma place ?",
+          "n": "What would you do in my place?"
+        }
+      ],
+      "dialogue": {
+        "title": "Should I ask for a raise?",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Ça va ? Tu as l'air soucieux.",
+            "n": "Are you OK? You look worried."
+          },
+          {
+            "who": "you",
+            "t": "Pas trop. Tu pourrais me rendre un petit service ? J'ai besoin d'un conseil.",
+            "n": "Not really. Could you do me a small favour? I need some advice."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Bien sûr. Qu'est-ce qui se passe ?",
+            "n": "Of course. What's going on?"
+          },
+          {
+            "who": "you",
+            "t": "Je travaille beaucoup, mais mon salaire ne bouge pas. Qu'est-ce que tu ferais à ma place ?",
+            "n": "I work a lot, but my salary isn't moving. What would you do in my place?"
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "À ta place, je demanderais une augmentation.",
+            "n": "If I were you, I'd ask for a raise."
+          },
+          {
+            "who": "you",
+            "t": "Maintenant ? Le chef est de mauvaise humeur en ce moment.",
+            "n": "Now? The boss is in a bad mood at the moment."
+          },
+          {
+            "who": "A",
+            "name": "Sophie",
+            "t": "Alors il vaudrait mieux attendre un peu. Mais tu devrais en parler à ton chef avant l'été.",
+            "n": "Then it would be better to wait a bit. But you should talk to your boss about it before the summer."
+          },
+          {
+            "who": "you",
+            "t": "Tu as raison. Merci, tu es une vraie amie !",
+            "n": "You're right. Thanks, you're a real friend!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Tell a friend they should talk to their boss about it.",
+          "t": [
+            "Tu devrais en parler à ton chef",
+            "Tu devrais en parler à ta cheffe",
+            "Tu devrais parler à ton chef"
+          ]
+        },
+        {
+          "n": "Tell a friend that if you were them, you'd ask for a raise.",
+          "t": [
+            "À ta place, je demanderais une augmentation",
+            "Si j'étais toi, je demanderais une augmentation",
+            "Moi, à ta place, je demanderais une augmentation"
+          ]
+        },
+        {
+          "n": "Politely ask a stranger if they could help you.",
+          "t": [
+            "Pourriez-vous m'aider, s'il vous plaît",
+            "Pourriez-vous m'aider",
+            "Est-ce que vous pourriez m'aider",
+            "Vous pourriez m'aider, s'il vous plaît"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l3",
+      "title": "Living somewhere else",
+      "goal": "Say where and how you would like to live.",
+      "tip": {
+        "title": "Countries, cities and your dream home",
+        "body": "Use à for cities (à Montréal, à Genève, à Dakar), en for feminine countries and regions (en Suisse, en Belgique), au for masculine ones (au Québec, au Canada, au Sénégal). Describe an imaginary home with the conditional of avoir: Ma maison idéale aurait un jardin. Préférer A à B means to prefer A to B. Note the liaison in les_États-Unis (aux_États-Unis): 'o-zé-ta-zu-ni'."
+      },
+      "phrases": [
+        {
+          "t": "Si je pouvais, j'habiterais à Montréal.",
+          "n": "If I could, I'd live in Montreal.",
+          "note": "pouvoir → imparfait je pouvais"
+        },
+        {
+          "t": "J'aimerais vivre au bord de la mer.",
+          "n": "I'd like to live by the sea."
+        },
+        {
+          "t": "Ma maison idéale aurait un grand jardin.",
+          "n": "My ideal house would have a big garden.",
+          "note": "avoir → aur-"
+        },
+        {
+          "t": "Je préférerais une petite ville à une grande ville.",
+          "n": "I'd prefer a small town to a big city."
+        },
+        {
+          "t": "Là-bas, je pourrais parler français tous les jours.",
+          "n": "Over there, I could speak French every day."
+        }
+      ],
+      "dialogue": {
+        "title": "Anywhere in the world",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Si tu pouvais vivre n'importe où, tu choisirais quoi ?",
+            "n": "If you could live anywhere, what would you choose?"
+          },
+          {
+            "who": "you",
+            "t": "Si je pouvais, j'habiterais à Montréal. Là-bas, je pourrais parler français tous les jours.",
+            "n": "If I could, I'd live in Montreal. Over there, I could speak French every day."
+          },
+          {
+            "who": "A",
+            "name": "Nadia",
+            "t": "Et l'hiver ? Il fait très froid là-bas !",
+            "n": "And the winter? It's very cold over there!"
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas grave. Ma maison idéale aurait un grand jardin et une cheminée !",
+            "n": "Never mind. My ideal house would have a big garden and a fireplace!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say if you could, you'd live in Montreal.",
+          "t": [
+            "Si je pouvais, j'habiterais à Montréal",
+            "Si je pouvais, je vivrais à Montréal",
+            "J'habiterais à Montréal si je pouvais"
+          ]
+        },
+        {
+          "n": "Say you'd like to live by the sea.",
+          "t": [
+            "J'aimerais vivre au bord de la mer",
+            "J'aimerais habiter au bord de la mer",
+            "Je voudrais vivre au bord de la mer"
+          ]
+        },
+        {
+          "n": "Say your ideal house would have a big garden.",
+          "t": [
+            "Ma maison idéale aurait un grand jardin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l4",
+      "kind": "grammar",
+      "title": "The conditional and si-clauses",
+      "goal": "Form the conditional and build si + imparfait sentences.",
+      "tip": {
+        "title": "Future stem + imparfait endings",
+        "body": "The conditional = the future stem (usually the infinitive; -re verbs drop the e: prendre → prendr-) + the imparfait endings -ais, -ais, -ait, -ions, -iez, -aient: je parlerais, nous prendrions. Irregular stems are the same as in the future: être → ser-, avoir → aur-, aller → ir-, faire → fer-, pouvoir → pourr-, vouloir → voudr-, devoir → devr-, venir → viendr-, savoir → saur-. In a hypothesis: si + imparfait, then conditional — never the conditional after si. The two halves can swap: Je partirais si je pouvais. Si becomes s' only before il/ils (s'il), never before elle."
+      },
+      "phrases": [
+        {
+          "t": "Si tu venais avec moi, ce serait plus sympa.",
+          "n": "If you came with me, it would be more fun."
+        },
+        {
+          "t": "S'il faisait beau, on irait à la plage.",
+          "n": "If the weather were nice, we'd go to the beach.",
+          "note": "si + il = s'il; aller → ir-"
+        },
+        {
+          "t": "Nous aurions plus de temps si nous habitions plus près.",
+          "n": "We'd have more time if we lived closer."
+        },
+        {
+          "t": "Si elle savait conduire, elle prendrait la voiture.",
+          "n": "If she could drive, she'd take the car.",
+          "note": "no elision: si elle"
+        },
+        {
+          "t": "Vous pourriez venir si vous vouliez.",
+          "n": "You could come if you wanted."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the dream",
+          "base": {
+            "t": "Si j'avais de l'argent, j'achèterais une maison.",
+            "n": "If I had money, I'd buy a house."
+          },
+          "items": [
+            {
+              "cue": "voyager en Asie",
+              "t": "Si j'avais de l'argent, je voyagerais en Asie.",
+              "n": "If I had money, I'd travel in Asia."
+            },
+            {
+              "cue": "faire le tour du monde",
+              "t": "Si j'avais de l'argent, je ferais le tour du monde.",
+              "n": "If I had money, I'd travel round the world."
+            },
+            {
+              "cue": "aller vivre au Québec",
+              "t": "Si j'avais de l'argent, j'irais vivre au Québec.",
+              "n": "If I had money, I'd go and live in Québec."
+            },
+            {
+              "cue": "être plus tranquille",
+              "t": "Si j'avais de l'argent, je serais plus tranquille.",
+              "n": "If I had money, I'd be more relaxed."
+            }
+          ]
+        },
+        {
+          "title": "Change the subject",
+          "base": {
+            "t": "Si j'avais le temps, je viendrais.",
+            "n": "If I had time, I'd come."
+          },
+          "items": [
+            {
+              "cue": "tu",
+              "t": "Si tu avais le temps, tu viendrais.",
+              "n": "If you had time, you'd come."
+            },
+            {
+              "cue": "il",
+              "t": "S'il avait le temps, il viendrait.",
+              "n": "If he had time, he'd come."
+            },
+            {
+              "cue": "nous",
+              "t": "Si nous avions le temps, nous viendrions.",
+              "n": "If we had time, we'd come."
+            },
+            {
+              "cue": "elles",
+              "t": "Si elles avaient le temps, elles viendraient.",
+              "n": "If they had time, they'd come."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say if the weather were nice, we'd go to the beach.",
+          "t": [
+            "S'il faisait beau, on irait à la plage",
+            "S'il faisait beau, nous irions à la plage",
+            "On irait à la plage s'il faisait beau"
+          ]
+        },
+        {
+          "n": "Tell someone (vous) they could come if they wanted.",
+          "t": [
+            "Vous pourriez venir si vous vouliez",
+            "Si vous vouliez, vous pourriez venir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l5",
+      "kind": "listening",
+      "title": "Moving to Montreal?",
+      "goal": "Follow a French nurse and her Québécoise friend talking about a move abroad.",
+      "phrases": [
+        {
+          "t": "Je pense à partir vivre au Québec.",
+          "n": "I'm thinking about moving to Québec.",
+          "note": "penser à + infinitive"
+        },
+        {
+          "t": "Il paraît qu'on recrute beaucoup là-bas.",
+          "n": "Apparently they're hiring a lot over there."
+        },
+        {
+          "t": "Ce serait toute une aventure !",
+          "n": "That would be quite an adventure!"
+        },
+        {
+          "t": "Si j'étais toi, je ferais un essai d'un an.",
+          "n": "If I were you, I'd try it for a year."
+        }
+      ],
+      "story": {
+        "title": "Partir à Montréal",
+        "intro": "Léa, a nurse from Lyon, tells her Québécoise friend Geneviève that she's thinking of moving to Montreal.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Léa",
+            "t": "Geneviève, je pense à partir vivre au Québec. Qu'est-ce que tu en penses ?",
+            "n": "Geneviève, I'm thinking about moving to Québec. What do you think?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Ce serait toute une aventure ! Tu irais où ? À Montréal ?",
+            "n": "That would be quite an adventure! Where would you go? Montreal?"
+          },
+          {
+            "name": "Léa",
+            "t": "Oui. Je suis infirmière, et il paraît qu'on recrute beaucoup là-bas.",
+            "n": "Yes. I'm a nurse, and apparently they're hiring a lot over there."
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "C'est vrai. Mais attention, l'hiver est long. Il peut faire moins vingt en janvier.",
+            "n": "That's true. But be careful, the winter is long. It can get down to minus twenty in January."
+          },
+          {
+            "name": "Léa",
+            "t": "Moins vingt ! Je ne sais pas si je survivrais…",
+            "n": "Minus twenty! I don't know if I'd survive…"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Mais oui ! On s'habille chaudement, puis on fait du patin, de la raquette… C'est vraiment le fun !",
+            "n": "Of course you would! You dress warmly, then you go skating, snowshoeing… It's really fun! (Québec: c'est le fun)"
+          },
+          {
+            "name": "Léa",
+            "t": "Et si je ne trouvais pas d'appartement ?",
+            "n": "And what if I couldn't find a flat?"
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Tu pourrais habiter chez moi les premières semaines. Et au Québec, beaucoup de gens déménagent le premier juillet, alors il y a souvent des logements libres.",
+            "n": "You could stay at my place for the first few weeks. And in Québec lots of people move on the first of July, so there are often flats available."
+          },
+          {
+            "name": "Geneviève",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Franchement, si j'étais toi, je ferais un essai d'un an. Si ça ne marche pas, tu rentreras en France.",
+            "n": "Honestly, if I were you, I'd try it for a year. If it doesn't work out, you'll go back to France.",
+            "note": "si + present → future"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quel est le métier de Léa ?",
+            "n": "What is Léa's job?",
+            "t": [
+              "Elle est infirmière",
+              "Infirmière",
+              "C'est une infirmière"
+            ]
+          },
+          {
+            "q": "Quel temps peut-il faire à Montréal en janvier ?",
+            "n": "What can the weather be like in Montreal in January?",
+            "t": [
+              "Moins vingt",
+              "Il peut faire moins vingt",
+              "Très froid",
+              "Il fait très froid"
+            ]
+          },
+          {
+            "q": "Où est-ce que Léa pourrait habiter au début ?",
+            "n": "Where could Léa live at first?",
+            "t": [
+              "Chez Geneviève",
+              "Elle pourrait habiter chez Geneviève",
+              "Chez son amie"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Geneviève conseille à Léa ?",
+            "n": "What does Geneviève advise Léa to do?",
+            "t": [
+              "Un essai d'un an",
+              "De faire un essai d'un an",
+              "Faire un essai d'un an",
+              "D'essayer pendant un an"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u07-l6",
+      "kind": "roleplay",
+      "title": "A job offer in Lausanne",
+      "goal": "Discuss a job offer and ask about conditions politely.",
+      "phrases": [
+        {
+          "t": "Ce poste m'intéresserait beaucoup.",
+          "n": "This position would interest me a lot."
+        },
+        {
+          "t": "Est-ce qu'il serait possible de travailler à distance ?",
+          "n": "Would it be possible to work remotely?"
+        },
+        {
+          "t": "J'aurais besoin d'un peu de temps pour réfléchir.",
+          "n": "I'd need a bit of time to think it over."
+        },
+        {
+          "t": "Quand est-ce que je pourrais commencer ?",
+          "n": "When could I start?"
+        }
+      ],
+      "branch": {
+        "title": "A call from Lausanne",
+        "scene": "A company in Lausanne, Switzerland, calls you after your interview. The HR manager, Monsieur Favre, would like to offer you a job.",
+        "name": "Monsieur Favre",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour, ici Pierre Favre, de la société Alpinex à Lausanne. Nous aimerions vous proposer le poste de chef de projet. Ça vous intéresserait ?",
+            "n": "Hello, this is Pierre Favre from Alpinex in Lausanne. We'd like to offer you the project manager position. Would you be interested?",
+            "choices": [
+              {
+                "t": "Oui, ce poste m'intéresserait beaucoup. Est-ce qu'il serait possible de travailler à distance ?",
+                "n": "Yes, this position would interest me a lot. Would it be possible to work remotely?",
+                "next": "remote"
+              },
+              {
+                "t": "Peut-être. Ça dépend du salaire.",
+                "n": "Maybe. It depends on the salary.",
+                "next": "salary"
+              }
+            ]
+          },
+          "salary": {
+            "t": "Bien sûr. Nous vous proposerions un bon salaire et cinq semaines de vacances.",
+            "n": "Of course. We'd offer you a good salary and five weeks' holiday.",
+            "choices": [
+              {
+                "t": "Ça me paraît bien. Quand est-ce que je pourrais commencer ?",
+                "n": "That sounds good. When could I start?",
+                "next": "start"
+              },
+              {
+                "t": "C'est tout ? Je veux le double, sinon rien !",
+                "n": "Is that all? I want double, or nothing!",
+                "next": "rude"
+              }
+            ]
+          },
+          "remote": {
+            "t": "Deux jours par semaine, ce serait possible. Les autres jours, nous aimerions vous voir au bureau.",
+            "n": "Two days a week would be possible. On the other days, we'd like to see you at the office.",
+            "choices": [
+              {
+                "t": "Parfait. Quand est-ce que je pourrais commencer ?",
+                "n": "Perfect. When could I start?",
+                "next": "start"
+              }
+            ]
+          },
+          "start": {
+            "t": "Idéalement le premier septembre. Ça vous joue ?",
+            "n": "Ideally on the first of September. Does that work for you? (Swiss: ça vous joue = it suits you, it works for you)",
+            "choices": [
+              {
+                "t": "Oui, ça me conviendrait très bien.",
+                "n": "Yes, that would suit me very well.",
+                "next": "good"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Ah… Ce ne sera pas possible, je suis désolé. Vous voulez qu'on en reste là ?",
+            "n": "Ah… That won't be possible, I'm sorry. Do you want to leave it there?",
+            "choices": [
+              {
+                "t": "Excusez-moi, je me suis mal exprimé. Quand est-ce que je pourrais commencer ?",
+                "n": "Sorry, I expressed myself badly. When could I start?",
+                "next": "start"
+              },
+              {
+                "t": "Oui, au revoir !",
+                "n": "Yes, goodbye!",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Excellent ! Je vous envoie le contrat par e-mail. Bienvenue chez Alpinex !",
+            "n": "Excellent! I'll send you the contract by email. Welcome to Alpinex!",
+            "end": "good",
+            "outcome": "You accepted the job in Lausanne and start on the first of September."
+          },
+          "bad": {
+            "t": "Dans ce cas, je vous souhaite une bonne continuation. Au revoir.",
+            "n": "In that case, I wish you all the best. Goodbye.",
+            "end": "bad",
+            "outcome": "You lost the offer — polite conditionals would have got you much further."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask if it would be possible to work remotely.",
+          "t": [
+            "Est-ce qu'il serait possible de travailler à distance",
+            "Serait-il possible de travailler à distance",
+            "Ce serait possible de travailler à distance",
+            "Est-ce que je pourrais travailler à distance"
+          ]
+        },
+        {
+          "n": "Say you'd need a bit of time to think it over.",
+          "t": [
+            "J'aurais besoin d'un peu de temps pour réfléchir",
+            "J'aurais besoin de temps pour réfléchir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-l7",
+      "kind": "speaking",
+      "title": "A year anywhere",
+      "goal": "Say for about 50 seconds where you would live for a year and why.",
+      "culture": {
+        "title": "Living in French — beyond France",
+        "body": "Many French people dream of a life elsewhere, and French opens far more doors than France alone. Montreal is one of the largest French-speaking cities in the world, and Québec actively recruits French-speaking workers; young French people often go there on a working holiday visa (the PVT, programme vacances-travail). In Switzerland, French is spoken in the west of the country (Geneva, Vaud, Neuchâtel, Jura and parts of Fribourg and Valais); in Belgium, in Wallonia and in bilingual Brussels. In West Africa, French is an official language in countries such as Senegal and Côte d'Ivoire, alongside local languages like Wolof.",
+        "regions": [
+          "FR",
+          "CA",
+          "CH",
+          "BE",
+          "SN",
+          "CI"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Si je partais un an, je choisirais Dakar.",
+          "n": "If I went away for a year, I'd choose Dakar."
+        },
+        {
+          "t": "J'apprendrais une autre langue, le wolof par exemple.",
+          "n": "I'd learn another language, Wolof for example."
+        },
+        {
+          "t": "Ça me permettrait de découvrir une autre culture.",
+          "n": "It would allow me to discover another culture."
+        },
+        {
+          "t": "Je n'aurais pas peur de recommencer à zéro.",
+          "n": "I wouldn't be afraid to start again from scratch."
+        }
+      ],
+      "free": [
+        {
+          "n": "Imagine you could live anywhere in the French-speaking world for a year. Where would you go, what would you do there, and why?",
+          "hint": "Si je pouvais…, j'irais à …, J'habiterais…, Je travaillerais…, Ce serait…, Ça me permettrait de…",
+          "seconds": 55,
+          "minWords": 25,
+          "targets": [
+            {
+              "label": "a place",
+              "any": [
+                "montréal",
+                "québec",
+                "genève",
+                "lausanne",
+                "bruxelles",
+                "dakar",
+                "abidjan",
+                "paris",
+                "marseille",
+                "canada",
+                "suisse",
+                "belgique",
+                "sénégal",
+                "côte d'ivoire"
+              ]
+            },
+            {
+              "label": "si + imparfait",
+              "any": [
+                "si je pouvais",
+                "si j'avais",
+                "si j'étais",
+                "si je partais",
+                "si je vivais"
+              ]
+            },
+            {
+              "label": "the conditional",
+              "any": [
+                "irais",
+                "habiterais",
+                "serait",
+                "ferais",
+                "travaillerais",
+                "pourrais",
+                "aimerais",
+                "apprendrais",
+                "choisirais",
+                "vivrais",
+                "permettrait"
+              ]
+            },
+            {
+              "label": "a reason",
+              "any": [
+                "parce que",
+                "car",
+                "pour",
+                "découvrir",
+                "permettrait"
+              ]
+            }
+          ],
+          "model": "Si je pouvais vivre un an n'importe où, j'irais à Montréal. J'habiterais dans un petit appartement et je travaillerais dans un café. L'hiver serait dur, mais j'apprendrais à faire du patin. Ça me permettrait de découvrir une autre culture tout en parlant français tous les jours."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say if you went away for a year, you'd choose Dakar.",
+          "t": [
+            "Si je partais un an, je choisirais Dakar",
+            "Si je partais pendant un an, je choisirais Dakar",
+            "Je choisirais Dakar si je partais un an"
+          ]
+        },
+        {
+          "n": "Say it would allow you to discover another culture.",
+          "t": [
+            "Ça me permettrait de découvrir une autre culture",
+            "Cela me permettrait de découvrir une autre culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Et si… ?",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

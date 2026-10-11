@@ -1,0 +1,864 @@
+{
+  "id": "b1-u05",
+  "title": "Les médias",
+  "subtitle": "Media, news & series",
+  "icon": "📺",
+  "lessons": [
+    {
+      "id": "b1-u05-l1",
+      "title": "Media habits",
+      "goal": "Talk about how you keep up with the news and how much time you spend on screens.",
+      "tip": {
+        "title": "s'informer, l'actualité & ne … plus",
+        "body": "S'informer means to keep yourself informed; l'actualité (or les actualités, informally les infos) is the news in general, while le journal télévisé (le JT) is the TV news bulletin. Ne … plus means no longer: Je ne regarde plus la télé. In casual speech the ne is often dropped: Je regarde plus la télé — the s of plus stays silent here. Note the liaison in les_infos [lé-zin-fo]. In réseaux, the s between two vowels sounds like z [ré-zo], but there is no liaison in réseaux sociaux: [ré-zo so-sio]."
+      },
+      "phrases": [
+        {
+          "t": "Je m'informe surtout sur Internet.",
+          "n": "I mostly get my news online.",
+          "note": "s'informer = to keep informed"
+        },
+        {
+          "t": "Je ne regarde presque plus la télé.",
+          "n": "I hardly watch TV any more."
+        },
+        {
+          "t": "J'écoute la radio dans la voiture le matin.",
+          "n": "I listen to the radio in the car in the morning."
+        },
+        {
+          "t": "Je passe trop de temps sur les réseaux sociaux.",
+          "n": "I spend too much time on social media."
+        },
+        {
+          "t": "Je suis abonné à un journal en ligne.",
+          "n": "I subscribe to an online newspaper.",
+          "note": "abonnée for a woman — same sound"
+        },
+        {
+          "t": "Je lis les gros titres sur mon téléphone.",
+          "n": "I read the headlines on my phone."
+        },
+        {
+          "t": "Je fais attention aux sources.",
+          "n": "I pay attention to the sources."
+        },
+        {
+          "t": "J'ai du mal à décrocher de mon écran.",
+          "n": "I find it hard to tear myself away from my screen.",
+          "note": "avoir du mal à + infinitive = to struggle to"
+        }
+      ],
+      "dialogue": {
+        "title": "Over coffee",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Tu as entendu la nouvelle ce matin ? Tout le monde en parle.",
+            "n": "Did you hear the news this morning? Everyone's talking about it."
+          },
+          {
+            "who": "you",
+            "t": "Non, pas encore. Je ne regarde presque plus la télé.",
+            "n": "No, not yet. I hardly watch TV any more."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Ah bon ? Alors comment tu t'informes ?",
+            "n": "Really? So how do you keep up with the news?"
+          },
+          {
+            "who": "you",
+            "t": "Je m'informe surtout sur Internet. Je lis les gros titres sur mon téléphone.",
+            "n": "I mostly get my news online. I read the headlines on my phone."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Moi aussi, mais j'avoue que je passe trop de temps sur les réseaux sociaux.",
+            "n": "Me too, but I admit I spend too much time on social media."
+          },
+          {
+            "who": "you",
+            "t": "Pareil. J'ai du mal à décrocher de mon écran le soir.",
+            "n": "Same. I find it hard to tear myself away from my screen in the evening."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Et tu crois ce que tu lis sur les réseaux ?",
+            "n": "And do you believe what you read on social media?"
+          },
+          {
+            "who": "you",
+            "t": "Pas tout ! Je fais attention aux sources. Et je suis abonné à un journal en ligne.",
+            "n": "Not everything! I pay attention to the sources. And I subscribe to an online newspaper."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you mostly get your news online.",
+          "t": [
+            "Je m'informe surtout sur Internet",
+            "Je m'informe surtout en ligne",
+            "Je m'informe surtout sur le net"
+          ]
+        },
+        {
+          "n": "Say you hardly watch TV any more.",
+          "t": [
+            "Je ne regarde presque plus la télé",
+            "Je regarde presque plus la télé",
+            "Je ne regarde presque plus la télévision"
+          ]
+        },
+        {
+          "n": "Say you find it hard to tear yourself away from your screen.",
+          "t": [
+            "J'ai du mal à décrocher de mon écran",
+            "J'ai du mal à décrocher de l'écran"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l2",
+      "title": "Films and series",
+      "goal": "Talk about what you're watching, recommend a series and avoid spoilers.",
+      "tip": {
+        "title": "VO, VF & recommending",
+        "body": "In France films and series are often dubbed: la VF (version française). If you want the original language with subtitles, ask for la VO or la VOST (version originale sous-titrée). To recommend something warmly, say Je te la conseille vivement (la = la série) or Je te le conseille (le = le film): the object pronoun goes before the verb. Pronunciation: série is [sé-ri] with two clear vowels, and in sous-titrée the s of sous is silent."
+      },
+      "phrases": [
+        {
+          "t": "Qu'est-ce que tu regardes en ce moment ?",
+          "n": "What are you watching at the moment?"
+        },
+        {
+          "t": "Je regarde une série policière sur une plateforme.",
+          "n": "I'm watching a crime series on a streaming platform."
+        },
+        {
+          "t": "Ça se passe à Marseille.",
+          "n": "It's set in Marseille.",
+          "note": "se passer = to take place"
+        },
+        {
+          "t": "J'ai regardé toute la saison en un week-end.",
+          "n": "I binge-watched the whole season in one weekend."
+        },
+        {
+          "t": "Je préfère la regarder en VO sous-titrée.",
+          "n": "I prefer to watch it in the original version with subtitles.",
+          "note": "VO = version originale"
+        },
+        {
+          "t": "Je te la conseille vivement.",
+          "n": "I highly recommend it to you.",
+          "note": "la = la série"
+        },
+        {
+          "t": "Le scénario est un peu tiré par les cheveux.",
+          "n": "The plot is a bit far-fetched.",
+          "note": "literally 'pulled by the hair'"
+        },
+        {
+          "t": "Ne me raconte pas la fin !",
+          "n": "Don't tell me the ending!"
+        }
+      ],
+      "dialogue": {
+        "title": "Any recommendations?",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Maxime",
+            "t": "Dis donc, tu as l'air fatigué ce matin.",
+            "n": "Hey, you look tired this morning."
+          },
+          {
+            "who": "you",
+            "t": "Oui, j'ai regardé toute la saison en un week-end !",
+            "n": "Yes, I binge-watched the whole season in one weekend!"
+          },
+          {
+            "who": "A",
+            "name": "Maxime",
+            "t": "Ah ! Qu'est-ce que tu regardes en ce moment ?",
+            "n": "Ha! What are you watching at the moment?"
+          },
+          {
+            "who": "you",
+            "t": "Je regarde une série policière sur une plateforme. Ça se passe à Marseille.",
+            "n": "I'm watching a crime series on a streaming platform. It's set in Marseille."
+          },
+          {
+            "who": "A",
+            "name": "Maxime",
+            "t": "C'est bien ? Les acteurs sont bons ?",
+            "n": "Is it good? Are the actors good?"
+          },
+          {
+            "who": "you",
+            "t": "Les acteurs, oui. Mais le scénario est un peu tiré par les cheveux.",
+            "n": "The actors, yes. But the plot is a bit far-fetched."
+          },
+          {
+            "who": "A",
+            "name": "Maxime",
+            "t": "Moi, j'ai vu la fin hier. Tu veux savoir qui est le coupable ?",
+            "n": "I saw the ending yesterday. Do you want to know who the culprit is?"
+          },
+          {
+            "who": "you",
+            "t": "Surtout pas ! Ne me raconte pas la fin ! Mais je te la conseille vivement.",
+            "n": "Definitely not! Don't tell me the ending! But I highly recommend it to you."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend what they're watching at the moment.",
+          "t": [
+            "Qu'est-ce que tu regardes en ce moment",
+            "Tu regardes quoi en ce moment",
+            "Que regardes-tu en ce moment"
+          ]
+        },
+        {
+          "n": "Say the series is set in Marseille.",
+          "t": [
+            "Ça se passe à Marseille",
+            "La série se passe à Marseille",
+            "Elle se passe à Marseille"
+          ]
+        },
+        {
+          "n": "Tell a friend not to tell you the ending.",
+          "t": [
+            "Ne me raconte pas la fin",
+            "Me raconte pas la fin",
+            "Ne me dis pas la fin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l3",
+      "title": "True or fake?",
+      "goal": "Question a piece of news and explain how you check information.",
+      "tip": {
+        "title": "Talking about fake news",
+        "body": "French speakers say les fake news, but you will also hear les fausses informations, la désinformation and the official word une infox (info + intox). Fiable means reliable: une source fiable. Ça a l'air … means it looks/seems …: Ça a l'air faux. Pronunciation: in fiable the i glides into the a [fjabl], and in vérifier the final r is silent [vé-ri-fjé]."
+      },
+      "phrases": [
+        {
+          "t": "J'ai vu passer un article sur les réseaux.",
+          "n": "I came across an article on social media.",
+          "note": "voir passer = to come across"
+        },
+        {
+          "t": "D'où vient cette information ?",
+          "n": "Where does this information come from?"
+        },
+        {
+          "t": "Ça a l'air d'une fausse information.",
+          "n": "It looks like fake news."
+        },
+        {
+          "t": "Ce site n'est pas très fiable.",
+          "n": "This site isn't very reliable."
+        },
+        {
+          "t": "Il vaut mieux vérifier avant de partager.",
+          "n": "It's better to check before sharing.",
+          "note": "avant de + infinitive"
+        },
+        {
+          "t": "Je l'ai partagé trop vite.",
+          "n": "I shared it too quickly."
+        }
+      ],
+      "dialogue": {
+        "title": "A suspicious article",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "Regarde ça ! Le chocolat belge va être interdit en Europe !",
+            "n": "Look at this! Belgian chocolate is going to be banned in Europe!"
+          },
+          {
+            "who": "you",
+            "t": "Quoi ? D'où vient cette information ?",
+            "n": "What? Where does this information come from?"
+          },
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "J'ai vu passer un article sur les réseaux. Je l'ai déjà partagé.",
+            "n": "I came across an article on social media. I've already shared it."
+          },
+          {
+            "who": "you",
+            "t": "Hmm, ça a l'air d'une fausse information. Ce site n'est pas très fiable.",
+            "n": "Hmm, it looks like fake news. This site isn't very reliable."
+          },
+          {
+            "who": "A",
+            "name": "Manon",
+            "t": "Tu as raison… aucun journal sérieux n'en parle. Je l'ai partagé trop vite.",
+            "n": "You're right… no serious newspaper is talking about it. I shared it too quickly."
+          },
+          {
+            "who": "you",
+            "t": "Ça arrive à tout le monde. Il vaut mieux vérifier avant de partager.",
+            "n": "It happens to everyone. It's better to check before sharing."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask where this information comes from.",
+          "t": [
+            "D'où vient cette information",
+            "D'où vient cette info",
+            "Cette information vient d'où"
+          ]
+        },
+        {
+          "n": "Say this site isn't very reliable.",
+          "t": [
+            "Ce site n'est pas très fiable",
+            "Ce site est pas très fiable"
+          ]
+        },
+        {
+          "n": "Say it's better to check before sharing.",
+          "t": [
+            "Il vaut mieux vérifier avant de partager",
+            "Vaut mieux vérifier avant de partager"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l4",
+      "kind": "grammar",
+      "title": "dont, ce qui & ce que",
+      "goal": "Link ideas with dont, and say 'what' in the middle of a sentence with ce qui / ce que.",
+      "tip": {
+        "title": "dont = of which / about which; ce qui / ce que = what",
+        "body": "Dont replaces de + a noun after verbs and expressions built with de: parler de, avoir besoin de, se souvenir de, avoir peur de. C'est le film dont tout le monde parle (everyone talks about it → parler de). It also expresses whose: une journaliste dont j'admire le travail. English 'what' in the middle of a sentence is ce qui when it is the subject of the next verb (Ce qui m'intéresse…) and ce que when it is the object (Ce que je regarde…). Ce que becomes ce qu' before a vowel: ce qu'il dit. Pronunciation: dont is a nasal [dɔ̃]; before a vowel it is often linked: dont_il [dɔ̃-til]."
+      },
+      "phrases": [
+        {
+          "t": "C'est le film dont tout le monde parle.",
+          "n": "It's the film everyone is talking about.",
+          "note": "parler de → dont"
+        },
+        {
+          "t": "Voilà l'appli dont j'ai besoin.",
+          "n": "Here's the app I need.",
+          "note": "avoir besoin de → dont"
+        },
+        {
+          "t": "C'est une journaliste dont j'admire le travail.",
+          "n": "She's a journalist whose work I admire.",
+          "note": "dont = whose"
+        },
+        {
+          "t": "Ce qui m'intéresse, c'est la politique internationale.",
+          "n": "What interests me is international politics.",
+          "note": "ce qui = subject"
+        },
+        {
+          "t": "Ce que je ne supporte pas, c'est la publicité.",
+          "n": "What I can't stand is advertising.",
+          "note": "ce que = object"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the noun or verb (dont)",
+          "base": {
+            "t": "C'est le film dont tout le monde parle.",
+            "n": "It's the film everyone is talking about."
+          },
+          "items": [
+            {
+              "cue": "la série",
+              "t": "C'est la série dont tout le monde parle.",
+              "n": "It's the series everyone is talking about."
+            },
+            {
+              "cue": "le livre · j'ai besoin",
+              "t": "C'est le livre dont j'ai besoin.",
+              "n": "It's the book I need."
+            },
+            {
+              "cue": "l'émission · je me souviens",
+              "t": "C'est l'émission dont je me souviens.",
+              "n": "It's the programme I remember."
+            },
+            {
+              "cue": "le podcast · je t'ai parlé",
+              "t": "C'est le podcast dont je t'ai parlé.",
+              "n": "It's the podcast I told you about."
+            }
+          ]
+        },
+        {
+          "title": "ce qui or ce que?",
+          "base": {
+            "t": "Ce qui m'intéresse, c'est l'actualité.",
+            "n": "What interests me is the news."
+          },
+          "items": [
+            {
+              "cue": "j'aime",
+              "t": "Ce que j'aime, c'est l'actualité.",
+              "n": "What I like is the news."
+            },
+            {
+              "cue": "me dérange · la publicité",
+              "t": "Ce qui me dérange, c'est la publicité.",
+              "n": "What bothers me is advertising."
+            },
+            {
+              "cue": "je regarde · le journal de vingt heures",
+              "t": "Ce que je regarde, c'est le journal de vingt heures.",
+              "n": "What I watch is the eight o'clock news."
+            },
+            {
+              "cue": "m'énerve · la désinformation",
+              "t": "Ce qui m'énerve, c'est la désinformation.",
+              "n": "What annoys me is disinformation."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say it's the series everyone is talking about.",
+          "t": [
+            "C'est la série dont tout le monde parle"
+          ]
+        },
+        {
+          "n": "Say what interests you is international politics.",
+          "t": [
+            "Ce qui m'intéresse, c'est la politique internationale",
+            "Ce qui m'intéresse c'est la politique internationale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l5",
+      "kind": "listening",
+      "title": "On the radio",
+      "goal": "Follow a radio interview with a podcaster from Montréal.",
+      "phrases": [
+        {
+          "t": "Bienvenue dans l'émission.",
+          "n": "Welcome to the programme."
+        },
+        {
+          "t": "On enregistre chaque épisode à la maison.",
+          "n": "We record every episode at home."
+        },
+        {
+          "t": "Les auditeurs nous écrivent souvent.",
+          "n": "Listeners often write to us."
+        },
+        {
+          "t": "Merci d'être venue.",
+          "n": "Thank you for coming.",
+          "note": "venue: said to a woman"
+        }
+      ],
+      "story": {
+        "title": "A podcast about francophone music",
+        "intro": "A Paris radio host interviews Émilie, a podcaster from Montréal who talks about francophone music.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Animateur",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Bonjour à tous ! Aujourd'hui, notre invitée vient de Montréal. Bienvenue dans l'émission, Émilie !",
+            "n": "Hello everyone! Today our guest comes from Montréal. Welcome to the programme, Émilie!"
+          },
+          {
+            "name": "Émilie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Bonjour ! Merci de m'inviter, je suis très contente d'être ici.",
+            "n": "Hello! Thanks for inviting me, I'm very happy to be here."
+          },
+          {
+            "name": "Animateur",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Vous faites un podcast dont on parle beaucoup en ce moment. De quoi s'agit-il ?",
+            "n": "You make a podcast that people are talking about a lot at the moment. What is it about?"
+          },
+          {
+            "name": "Émilie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "C'est un podcast sur la musique francophone : des artistes du Québec, de Belgique, du Sénégal, de Suisse…",
+            "n": "It's a podcast about francophone music: artists from Québec, Belgium, Senegal, Switzerland…"
+          },
+          {
+            "name": "Animateur",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Et comment est-ce que vous travaillez ?",
+            "n": "And how do you work?"
+          },
+          {
+            "name": "Émilie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "On est deux. On enregistre chaque épisode à la maison, le dimanche, et on le publie le mercredi.",
+            "n": "There are two of us. We record every episode at home on Sundays, and we publish it on Wednesdays."
+          },
+          {
+            "name": "Animateur",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Qu'est-ce qui vous plaît le plus dans ce travail ?",
+            "n": "What do you like most about this work?"
+          },
+          {
+            "name": "Émilie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Ce que j'aime, c'est le contact avec le public. Les auditeurs nous écrivent souvent, même depuis l'Afrique de l'Ouest !",
+            "n": "What I love is the contact with the audience. Listeners often write to us, even from West Africa!"
+          },
+          {
+            "name": "Animateur",
+            "voice": "fr-FR-YvesNeural",
+            "t": "Formidable. Merci d'être venue, Émilie, et bonne continuation !",
+            "n": "Wonderful. Thank you for coming, Émilie, and all the best!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "D'où vient Émilie ?",
+            "n": "Where is Émilie from?",
+            "t": [
+              "De Montréal",
+              "Elle vient de Montréal",
+              "Du Québec",
+              "Elle vient du Québec",
+              "Du Canada"
+            ]
+          },
+          {
+            "q": "De quoi parle son podcast ?",
+            "n": "What is her podcast about?",
+            "t": [
+              "De musique francophone",
+              "De la musique francophone",
+              "Il parle de musique francophone",
+              "La musique francophone"
+            ]
+          },
+          {
+            "q": "Quel jour est-ce qu'ils publient les épisodes ?",
+            "n": "On which day do they publish the episodes?",
+            "t": [
+              "Le mercredi",
+              "Mercredi",
+              "Ils les publient le mercredi"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qu'Émilie aime dans son travail ?",
+            "n": "What does Émilie love about her work?",
+            "t": [
+              "Le contact avec le public",
+              "Le contact avec les auditeurs",
+              "Elle aime le contact avec le public"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u05-l6",
+      "kind": "roleplay",
+      "title": "A vox pop in Brussels",
+      "goal": "Give a clear, reasoned opinion to a radio reporter in the street.",
+      "phrases": [
+        {
+          "t": "Vous avez deux minutes ?",
+          "n": "Do you have two minutes?"
+        },
+        {
+          "t": "À mon avis, les réseaux sociaux ont des avantages et des inconvénients.",
+          "n": "In my opinion, social media has advantages and disadvantages."
+        },
+        {
+          "t": "Ce qui m'inquiète, c'est le temps que les jeunes passent devant les écrans.",
+          "n": "What worries me is the time young people spend in front of screens."
+        },
+        {
+          "t": "Je préfère ne pas donner mon nom.",
+          "n": "I'd rather not give my name."
+        }
+      ],
+      "branch": {
+        "title": "Micro-trottoir",
+        "scene": "You're walking through Brussels when a reporter from a local radio station stops you with a microphone. He's asking passers-by about young people and social media.",
+        "name": "Olivier (journaliste)",
+        "voice": "fr-BE-GerardNeural",
+        "start": "hello",
+        "nodes": {
+          "hello": {
+            "t": "Bonjour ! Je suis journaliste pour une radio locale. Vous avez deux minutes ?",
+            "n": "Hello! I'm a reporter for a local radio station. Do you have two minutes?",
+            "choices": [
+              {
+                "t": "Oui, bien sûr. C'est à quel sujet ?",
+                "n": "Yes, of course. What's it about?",
+                "next": "topic"
+              },
+              {
+                "t": "Laissez-moi tranquille, je suis pressé !",
+                "n": "Leave me alone, I'm in a hurry!",
+                "next": "bad"
+              }
+            ]
+          },
+          "topic": {
+            "t": "On parle des jeunes et des réseaux sociaux. Est-ce que c'est dangereux, selon vous ?",
+            "n": "We're talking about young people and social media. Is it dangerous, in your view?",
+            "choices": [
+              {
+                "t": "À mon avis, les réseaux sociaux ont des avantages et des inconvénients.",
+                "n": "In my opinion, social media has advantages and disadvantages.",
+                "next": "nuance"
+              },
+              {
+                "t": "Bof, je ne sais pas. Je m'en fiche.",
+                "n": "Meh, I don't know. I don't care.",
+                "next": "vague"
+              }
+            ]
+          },
+          "vague": {
+            "t": "Vraiment ? Vous n'avez pas d'opinion ? Vous utilisez les réseaux, vous ?",
+            "n": "Really? You don't have an opinion? Do you use social media yourself?",
+            "choices": [
+              {
+                "t": "Si, tous les jours. En fait, ce qui m'inquiète, c'est le temps que les jeunes passent devant les écrans.",
+                "n": "Yes, every day. Actually, what worries me is the time young people spend in front of screens.",
+                "next": "detail"
+              },
+              {
+                "t": "Non. Et ça ne vous regarde pas.",
+                "n": "No. And it's none of your business.",
+                "next": "bad"
+              }
+            ]
+          },
+          "nuance": {
+            "t": "Par exemple ? Qu'est-ce qui vous inquiète ?",
+            "n": "For example? What worries you?",
+            "choices": [
+              {
+                "t": "Ce qui m'inquiète, c'est le temps que les jeunes passent devant les écrans.",
+                "n": "What worries me is the time young people spend in front of screens.",
+                "next": "detail"
+              },
+              {
+                "t": "Ce qui m'inquiète, ce sont les fausses informations qu'ils partagent.",
+                "n": "What worries me is the fake news they share.",
+                "next": "detail"
+              }
+            ]
+          },
+          "detail": {
+            "t": "Et les avantages, alors ?",
+            "n": "And what about the advantages?",
+            "choices": [
+              {
+                "t": "Ce que j'apprécie, c'est qu'on peut rester en contact avec des amis à l'étranger.",
+                "n": "What I appreciate is that you can stay in touch with friends abroad.",
+                "next": "name"
+              },
+              {
+                "t": "On peut découvrir des médias dont on n'avait jamais entendu parler.",
+                "n": "You can discover media you'd never heard of.",
+                "next": "name"
+              }
+            ]
+          },
+          "name": {
+            "t": "Merci beaucoup ! On va peut-être vous passer à l'antenne ce soir. Je peux avoir votre prénom ?",
+            "n": "Thank you very much! We might put you on air tonight. Can I have your first name?",
+            "choices": [
+              {
+                "t": "Bien sûr, je m'appelle …",
+                "n": "Of course, my name is …",
+                "next": "good"
+              },
+              {
+                "t": "Je préfère ne pas donner mon nom.",
+                "n": "I'd rather not give my name.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Pas de problème. Merci pour votre témoignage, bonne journée !",
+            "n": "No problem. Thanks for your input, have a nice day!",
+            "end": "good",
+            "outcome": "You gave a nuanced, well-structured opinion — it may well be broadcast tonight."
+          },
+          "bad": {
+            "t": "Ah… d'accord. Bonne journée quand même.",
+            "n": "Ah… all right. Have a nice day anyway.",
+            "end": "bad",
+            "outcome": "You brushed the reporter off rudely. A polite 'Désolé, je n'ai pas le temps' would have been fine too."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say that in your opinion social media has advantages and disadvantages.",
+          "t": [
+            "À mon avis, les réseaux sociaux ont des avantages et des inconvénients",
+            "À mon avis les réseaux sociaux ont des avantages et des inconvénients"
+          ]
+        },
+        {
+          "n": "Say what worries you is the time young people spend in front of screens.",
+          "t": [
+            "Ce qui m'inquiète, c'est le temps que les jeunes passent devant les écrans",
+            "Ce qui m'inquiète c'est le temps que les jeunes passent devant les écrans"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-l7",
+      "kind": "speaking",
+      "title": "My media life",
+      "goal": "Talk for about 45 seconds about the media you use and recommend something.",
+      "culture": {
+        "title": "Francophone public media",
+        "body": "Each francophone country has its own public broadcaster: France Télévisions and Radio France in France, the RTBF in French-speaking Belgium, the RTS (Radio Télévision Suisse) in French-speaking Switzerland, and Radio-Canada, the French-language side of Canada's public broadcaster (ICI Radio-Canada). Internationally, TV5Monde is a joint francophone channel with partners from several countries, and RFI (Radio France Internationale) is widely listened to, especially in francophone Africa. Their websites and apps offer news, podcasts and programmes for learners — great free practice with different accents.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA",
+          "SN",
+          "CI"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "J'écoute RFI pour améliorer mon français.",
+          "n": "I listen to RFI to improve my French."
+        },
+        {
+          "t": "Sur TV5Monde, il y a des programmes sous-titrés.",
+          "n": "On TV5Monde there are subtitled programmes."
+        },
+        {
+          "t": "Ce que j'aime, c'est entendre des accents différents.",
+          "n": "What I love is hearing different accents."
+        },
+        {
+          "t": "C'est une émission dont je ne rate aucun épisode.",
+          "n": "It's a programme I never miss an episode of.",
+          "note": "rater = to miss"
+        }
+      ],
+      "free": [
+        {
+          "n": "Describe how you keep up with the news and recommend a series, film or podcast you like.",
+          "hint": "Use Je m'informe…, Ce qui m'intéresse, c'est…, Ce que j'aime, c'est…, C'est un(e) … dont…, Je te le/la conseille.",
+          "seconds": 50,
+          "minWords": 30,
+          "targets": [
+            {
+              "label": "dont / ce qui / ce que",
+              "any": [
+                "dont",
+                "ce qui",
+                "ce que",
+                "ce qu'"
+              ]
+            },
+            {
+              "label": "media words",
+              "any": [
+                "série*",
+                "film*",
+                "podcast*",
+                "émission*",
+                "journal",
+                "radio",
+                "télé*",
+                "réseaux",
+                "actualité*",
+                "article*",
+                "infos"
+              ]
+            },
+            {
+              "label": "how you get the news",
+              "any": [
+                "m'informe",
+                "je lis",
+                "j'écoute",
+                "je regarde",
+                "internet",
+                "en ligne",
+                "téléphone"
+              ]
+            },
+            {
+              "label": "a recommendation",
+              "any": [
+                "conseille",
+                "recommande",
+                "il faut voir",
+                "génial*",
+                "super"
+              ]
+            }
+          ],
+          "model": "Je m'informe surtout sur Internet et j'écoute la radio le matin. Ce qui m'intéresse, c'est l'actualité internationale. En ce moment, je regarde une série québécoise dont tout le monde parle. Ce que j'aime, c'est l'accent des acteurs. Je te la conseille vivement !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say what you love is hearing different accents.",
+          "t": [
+            "Ce que j'aime, c'est entendre des accents différents",
+            "Ce que j'aime c'est entendre des accents différents"
+          ]
+        },
+        {
+          "n": "Say you listen to RFI to improve your French.",
+          "t": [
+            "J'écoute RFI pour améliorer mon français"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les médias",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
