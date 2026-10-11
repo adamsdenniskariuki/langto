@@ -1,0 +1,846 @@
+{
+  "id": "c1-u01",
+  "title": "Changer de registre",
+  "subtitle": "Register: soutenu, courant, familier, tu & vous, formal writing",
+  "icon": "🎩",
+  "lessons": [
+    {
+      "id": "c1-u01-l1",
+      "title": "Tu or vous?",
+      "goal": "Handle the switch from vous to tu gracefully: offer it, accept it, or politely decline it.",
+      "tip": {
+        "title": "Who suggests tu?",
+        "body": "In France the older or more senior person usually suggests switching to tu, and it is perfectly acceptable to stay with vous. The verbs are tutoyer and vouvoyer: on se tutoie ? (shall we say tu?). Mixing them up in one sentence is a classic slip — once you've switched, stick to tu. Pronunciation: in on se tutoie the final -oie sounds like « wa », and vouvoyer is « vou-voi-yé »."
+      },
+      "phrases": [
+        {
+          "t": "Ça ne vous dérange pas si on se tutoie ?",
+          "n": "Do you mind if we say tu to each other?"
+        },
+        {
+          "t": "Volontiers, ce sera plus simple.",
+          "n": "Gladly, that'll be simpler."
+        },
+        {
+          "t": "Je préférerais qu'on continue à se vouvoyer, si ça ne vous ennuie pas.",
+          "n": "I'd rather we kept using vous, if you don't mind.",
+          "note": "Polite and perfectly acceptable; préférer que + subjunctive."
+        },
+        {
+          "t": "Je ne savais pas trop s'il fallait vous tutoyer ou vous vouvoyer.",
+          "n": "I wasn't quite sure whether to say tu or vous to you."
+        },
+        {
+          "t": "Ici, tout le monde se tutoie, même avec la direction.",
+          "n": "Here everyone says tu, even with senior management."
+        },
+        {
+          "t": "Pardon, je vous ai tutoyée sans faire exprès.",
+          "n": "Sorry, I said tu to you without meaning to.",
+          "note": "tutoyée agrees with a woman as the direct object; tutoyé for a man."
+        },
+        {
+          "t": "Je vous en prie, appelez-moi Martine.",
+          "n": "Please, call me Martine."
+        },
+        {
+          "t": "Avec les clients, on garde le vouvoiement.",
+          "n": "With clients, we stick to vous.",
+          "note": "le vouvoiement / le tutoiement = the use of vous / tu."
+        }
+      ],
+      "dialogue": {
+        "title": "First day in a Paris agency",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Martine Lefèvre",
+            "t": "Bienvenue dans l'équipe ! Vous avez trouvé facilement ?",
+            "n": "Welcome to the team! Did you find us easily?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, très bien, merci. Pour être honnête, je ne savais pas trop s'il fallait vous tutoyer ou vous vouvoyer.",
+            "n": "Yes, fine, thanks. To be honest, I wasn't quite sure whether to say tu or vous to you."
+          },
+          {
+            "who": "A",
+            "name": "Martine Lefèvre",
+            "t": "Bonne question. Ici, tout le monde se tutoie, même avec la direction. Ça ne vous dérange pas si on se tutoie ?",
+            "n": "Good question. Here everyone says tu, even with senior management. Do you mind if we say tu to each other?"
+          },
+          {
+            "who": "you",
+            "t": "Volontiers, ce sera plus simple.",
+            "n": "Gladly, that'll be simpler."
+          },
+          {
+            "who": "A",
+            "name": "Martine Lefèvre",
+            "t": "Parfait. Je t'en prie, appelle-moi Martine. Par contre, avec les clients, on garde le vouvoiement.",
+            "n": "Perfect. Please, call me Martine. With clients, though, we stick to vous."
+          },
+          {
+            "who": "you",
+            "t": "C'est noté. Merci, Martine !",
+            "n": "Noted. Thanks, Martine!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Politely suggest switching to tu.",
+          "t": [
+            "Ça ne vous dérange pas si on se tutoie",
+            "Ça vous dérange pas si on se tutoie",
+            "On peut se tutoyer",
+            "On se tutoie"
+          ]
+        },
+        {
+          "n": "Say you'd rather keep using vous, if they don't mind.",
+          "t": [
+            "Je préférerais qu'on continue à se vouvoyer, si ça ne vous ennuie pas",
+            "Je préférerais qu'on continue à se vouvoyer",
+            "Je préférerais qu'on se vouvoie"
+          ]
+        },
+        {
+          "n": "Admit you weren't sure whether to say tu or vous to them.",
+          "t": [
+            "Je ne savais pas trop s'il fallait vous tutoyer ou vous vouvoyer",
+            "Je ne savais pas s'il fallait vous tutoyer ou vous vouvoyer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l2",
+      "title": "Three ways to say it",
+      "goal": "Recognise and use the same idea in soutenu, courant and familier register.",
+      "tip": {
+        "title": "Soutenu, courant, familier",
+        "body": "French grammars talk about three registers. Soutenu (elevated) is for speeches, formal letters and literature: je n'ai guère le temps, prendre congé. Courant (neutral) is what you use with colleagues and strangers. Familier (casual) is for friends: dropped ne, slang like boulot, fric, bouffer. Using soutenu with friends sounds pompous — the French tease it with « tu parles comme un livre ». In familier speech, the e of je and le often disappears: j'sais pas, j'te dis."
+      },
+      "phrases": [
+        {
+          "t": "Je vous saurais gré de bien vouloir patienter.",
+          "n": "I would be grateful if you would kindly wait.",
+          "note": "Soutenu: savoir gré à quelqu'un = to be grateful to someone."
+        },
+        {
+          "t": "Merci de patienter quelques instants.",
+          "n": "Please wait a few moments (courant)."
+        },
+        {
+          "t": "Attends deux secondes.",
+          "n": "Hang on a sec (familier)."
+        },
+        {
+          "t": "Il se fait tard, je vais prendre congé.",
+          "n": "It's getting late, I shall take my leave (soutenu)."
+        },
+        {
+          "t": "Je n'ai guère le temps en ce moment.",
+          "n": "I have scarcely any time at the moment.",
+          "note": "Soutenu: ne … guère = hardly."
+        },
+        {
+          "t": "J'ai pas une minute à moi, là.",
+          "n": "I haven't got a minute to myself right now.",
+          "note": "Familier: no ne, and là as a filler."
+        },
+        {
+          "t": "Tu parles comme un livre !",
+          "n": "You talk like a book!",
+          "note": "Teasing someone for sounding too formal."
+        }
+      ],
+      "dialogue": {
+        "title": "Too formal for a friend",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Salut ! Tu viens boire un verre avec nous ce soir ?",
+            "n": "Hi! Are you coming for a drink with us tonight?"
+          },
+          {
+            "who": "you",
+            "t": "Je te remercie, mais je n'ai guère le temps en ce moment.",
+            "n": "Thank you, but I have scarcely any time at the moment."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "« Guère » ? Tu parles comme un livre ! On n'est pas à l'Académie française, hein.",
+            "n": "\"Scarcely\"? You talk like a book! We're not at the Académie française, you know."
+          },
+          {
+            "who": "you",
+            "t": "Ha ha, d'accord. Bon, en vrai, j'ai pas une minute à moi, là.",
+            "n": "Ha ha, OK. Well, honestly, I haven't got a minute to myself right now."
+          },
+          {
+            "who": "A",
+            "name": "Julien",
+            "t": "Voilà, là tu parles normalement ! Juste un verre, allez.",
+            "n": "There you go, now you're talking normally! Just one drink, come on."
+          },
+          {
+            "who": "you",
+            "t": "Attends deux secondes, je regarde mon agenda… OK, mais une heure, pas plus.",
+            "n": "Hang on a sec, I'll check my diary… OK, but an hour, no more."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "In elevated register, ask someone to kindly wait.",
+          "t": [
+            "Je vous saurais gré de bien vouloir patienter"
+          ]
+        },
+        {
+          "n": "Casually tell a friend to hang on a sec.",
+          "t": [
+            "Attends deux secondes",
+            "Attends une seconde",
+            "Attends deux secondes s'il te plaît"
+          ]
+        },
+        {
+          "n": "Tease a friend for sounding too formal.",
+          "t": [
+            "Tu parles comme un livre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l3",
+      "title": "Formal emails and letters",
+      "goal": "Open, structure and close a formal email or letter with the right fixed formulas.",
+      "tip": {
+        "title": "Formulas you can't improvise",
+        "body": "French formal letters rely on set formulas. Open with Madame, Monsieur, (never Cher Monsieur to a stranger). Introduce your purpose with Je me permets de vous écrire au sujet de… The traditional closing is long: Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. In everyday business emails, Bien cordialement or Cordialement is standard. Suite à is everywhere in offices, but careful writers prefer À la suite de."
+      },
+      "phrases": [
+        {
+          "t": "Madame, Monsieur,",
+          "n": "Dear Sir or Madam,",
+          "note": "Standard opening when you don't know the recipient."
+        },
+        {
+          "t": "Je me permets de vous écrire au sujet de votre annonce.",
+          "n": "I am writing to you regarding your advertisement."
+        },
+        {
+          "t": "À la suite de notre entretien téléphonique, je vous adresse les documents demandés.",
+          "n": "Further to our phone conversation, I am sending you the requested documents."
+        },
+        {
+          "t": "Vous trouverez en pièce jointe le compte rendu de la réunion.",
+          "n": "Please find attached the minutes of the meeting."
+        },
+        {
+          "t": "Je reste à votre entière disposition pour tout renseignement complémentaire.",
+          "n": "I remain at your full disposal for any further information."
+        },
+        {
+          "t": "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+          "n": "Yours faithfully.",
+          "note": "Traditional letter closing; agréer = to accept."
+        },
+        {
+          "t": "Bien cordialement,",
+          "n": "Kind regards,",
+          "note": "Standard email sign-off."
+        }
+      ],
+      "dialogue": {
+        "title": "Writing to the commune",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Charline",
+            "t": "Alors, ce courrier pour la commune, tu commences comment ?",
+            "n": "So, this letter to the commune — how are you starting it?"
+          },
+          {
+            "who": "you",
+            "t": "« Madame, Monsieur, je me permets de vous écrire au sujet de mon permis de stationnement. »",
+            "n": "\"Dear Sir or Madam, I am writing to you regarding my parking permit.\""
+          },
+          {
+            "who": "A",
+            "name": "Charline",
+            "t": "Très bien. Et tu as eu quelqu'un au téléphone, non ? Mentionne-le.",
+            "n": "Very good. And you spoke to someone on the phone, didn't you? Mention it."
+          },
+          {
+            "who": "you",
+            "t": "« À la suite de notre entretien téléphonique, je vous adresse les documents demandés. »",
+            "n": "\"Further to our phone conversation, I am sending you the requested documents.\""
+          },
+          {
+            "who": "A",
+            "name": "Charline",
+            "t": "Et pour finir ? Pas de « Bisous », hein !",
+            "n": "And to finish? No \"Love and kisses\", OK!"
+          },
+          {
+            "who": "you",
+            "t": "« Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées. »",
+            "n": "\"Yours faithfully.\""
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Begin a formal letter: say you're writing regarding their advertisement.",
+          "t": [
+            "Je me permets de vous écrire au sujet de votre annonce",
+            "Madame, Monsieur, je me permets de vous écrire au sujet de votre annonce"
+          ]
+        },
+        {
+          "n": "Say you remain at their disposal for any further information.",
+          "t": [
+            "Je reste à votre entière disposition pour tout renseignement complémentaire",
+            "Je reste à votre disposition pour tout renseignement complémentaire",
+            "Je reste à votre disposition"
+          ]
+        },
+        {
+          "n": "Close a formal letter the traditional way.",
+          "t": [
+            "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées",
+            "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l4",
+      "kind": "grammar",
+      "title": "Inversion and formal structures",
+      "goal": "Use subject–verb inversion in formal questions and after adverbs like peut-être, sans doute and à peine.",
+      "tip": {
+        "title": "Turning the verb around",
+        "body": "Formal questions invert subject pronoun and verb with a hyphen: Pouvez-vous… ? When the verb ends in a vowel, add -t- for sound: A-t-il répondu ? Va-t-elle venir ? With a noun subject, keep the noun and add a pronoun after the verb: Votre directeur a-t-il signé ? In writing and formal speech, inversion also follows peut-être, sans doute, aussi (= therefore) and à peine at the start of a sentence: Peut-être a-t-il oublié. Pronunciation: the -t- is always sounded, a-t-il = « a-til », but in pouvez-vous the z stays silent: « pou-vé-vou »."
+      },
+      "phrases": [
+        {
+          "t": "Pourriez-vous m'indiquer la marche à suivre ?",
+          "n": "Could you tell me the procedure to follow?"
+        },
+        {
+          "t": "Votre directeur a-t-il pris connaissance du dossier ?",
+          "n": "Has your director read the file?"
+        },
+        {
+          "t": "Peut-être a-t-il oublié de vous répondre.",
+          "n": "Perhaps he forgot to reply to you."
+        },
+        {
+          "t": "Sans doute faudrait-il revoir le calendrier.",
+          "n": "No doubt the schedule ought to be reviewed."
+        },
+        {
+          "t": "Je ne saurais vous dire à quelle heure il rentrera.",
+          "n": "I couldn't tell you what time he'll be back.",
+          "note": "Formal: ne saurais without pas = cannot."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Spoken question → formal inversion",
+          "base": {
+            "t": "Est-ce que vous pouvez m'envoyer le dossier ?",
+            "n": "Can you send me the file?"
+          },
+          "items": [
+            {
+              "cue": "il · a reçu",
+              "t": "A-t-il reçu le dossier ?",
+              "n": "Has he received the file?"
+            },
+            {
+              "cue": "votre collègue · a reçu",
+              "t": "Votre collègue a-t-il reçu le dossier ?",
+              "n": "Has your colleague received the file?"
+            },
+            {
+              "cue": "où · on · envoie",
+              "t": "Où envoie-t-on le dossier ?",
+              "n": "Where do we send the file?"
+            }
+          ]
+        },
+        {
+          "title": "Adverb at the start → inversion",
+          "base": {
+            "t": "Il a peut-être oublié.",
+            "n": "He may have forgotten."
+          },
+          "items": [
+            {
+              "cue": "Peut-être…",
+              "t": "Peut-être a-t-il oublié.",
+              "n": "Perhaps he forgot."
+            },
+            {
+              "cue": "Sans doute · elle · sera en retard",
+              "t": "Sans doute sera-t-elle en retard.",
+              "n": "No doubt she'll be late."
+            },
+            {
+              "cue": "À peine · il était arrivé",
+              "t": "À peine était-il arrivé qu'on l'a appelé.",
+              "n": "He had barely arrived when he got called."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Formally ask whether your colleague has received the file.",
+          "t": [
+            "Votre collègue a-t-il reçu le dossier",
+            "Votre collègue a-t-elle reçu le dossier"
+          ]
+        },
+        {
+          "n": "In formal style, say perhaps he forgot to reply to you.",
+          "t": [
+            "Peut-être a-t-il oublié de vous répondre",
+            "Peut-être a-t-il oublié de répondre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l5",
+      "kind": "listening",
+      "title": "Vous in Montréal",
+      "goal": "Follow a conversation about the culture shock of tu and vous between France and Québec.",
+      "phrases": [
+        {
+          "t": "Je me suis sentie un peu vieux jeu.",
+          "n": "I felt a bit old-fashioned.",
+          "note": "sentie: a woman speaking; senti for a man."
+        },
+        {
+          "t": "Ça m'a fait tout drôle.",
+          "n": "It felt really strange."
+        },
+        {
+          "t": "Il ne faut pas le prendre mal.",
+          "n": "You mustn't take it the wrong way."
+        },
+        {
+          "t": "C'est une question d'habitude.",
+          "n": "It's a matter of habit."
+        }
+      ],
+      "story": {
+        "title": "Le choc du tutoiement",
+        "intro": "Élodie, from Lyon, has just started working in Montréal. She tells her Québécois colleague Antoine about her first weeks.",
+        "voice": "fr-FR-CelesteNeural",
+        "lines": [
+          {
+            "name": "Antoine",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Pis, Élodie, ta première semaine ici, comment ça s'est passé ?",
+            "n": "So, Élodie, how did your first week here go?"
+          },
+          {
+            "name": "Élodie",
+            "t": "Bien, mais j'ai eu un petit choc. Dès le premier jour, tout le monde m'a tutoyée, même le patron.",
+            "n": "Fine, but I had a bit of a shock. From the very first day, everyone said tu to me, even the boss."
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Ben oui, c'est normal ici. Tu le vouvoyais, toi ?",
+            "n": "Well yes, that's normal here. Were you saying vous to him?"
+          },
+          {
+            "name": "Élodie",
+            "t": "Évidemment ! En France, je n'aurais jamais tutoyé un directeur le premier jour. Ça m'a fait tout drôle, et je me suis sentie un peu vieux jeu.",
+            "n": "Of course! In France I would never have said tu to a director on the first day. It felt really strange, and I felt a bit old-fashioned."
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Il ne faut pas le prendre mal. Ici, le tutoiement, c'est une façon d'être chaleureux, pas un manque de respect. Même au dépanneur, on te dit tu.",
+            "n": "You mustn't take it the wrong way. Here, saying tu is a way of being warm, not a lack of respect. Even at the corner shop, they say tu to you."
+          },
+          {
+            "name": "Élodie",
+            "t": "Je commence à le comprendre. Mais avec les personnes âgées, on vouvoie quand même, non ?",
+            "n": "I'm starting to understand that. But with elderly people you still say vous, don't you?"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Oui, souvent. Avec ma grand-mère, par exemple, je dis vous. Et dans une lettre officielle aussi.",
+            "n": "Yes, often. With my grandmother, for example, I say vous. And in an official letter too."
+          },
+          {
+            "name": "Élodie",
+            "t": "Bon. Alors c'est une question d'habitude. Dans un mois, je tutoierai tout le monde !",
+            "n": "Right. So it's a matter of habit. In a month I'll be saying tu to everyone!"
+          },
+          {
+            "name": "Antoine",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Pis quand tu vas retourner à Lyon, c'est là que tu vas avoir un choc !",
+            "n": "And when you go back to Lyon, that's when you'll get a shock!"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Qui a tutoyé Élodie dès le premier jour ?",
+            "n": "Who said tu to Élodie from the first day?",
+            "t": [
+              "Tout le monde",
+              "Tout le monde, même le patron",
+              "Le patron",
+              "Ses collègues"
+            ]
+          },
+          {
+            "q": "Comment Élodie s'est-elle sentie ?",
+            "n": "How did Élodie feel?",
+            "t": [
+              "Un peu vieux jeu",
+              "Vieux jeu",
+              "Elle s'est sentie un peu vieux jeu",
+              "Elle s'est sentie vieux jeu"
+            ]
+          },
+          {
+            "q": "Selon Antoine, qu'est-ce que le tutoiement au Québec ?",
+            "n": "According to Antoine, what is saying tu in Québec?",
+            "t": [
+              "Une façon d'être chaleureux",
+              "C'est une façon d'être chaleureux",
+              "Pas un manque de respect"
+            ]
+          },
+          {
+            "q": "Qui Antoine vouvoie-t-il ?",
+            "n": "Who does Antoine say vous to?",
+            "t": [
+              "Sa grand-mère",
+              "Il vouvoie sa grand-mère",
+              "Les personnes âgées"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u01-l6",
+      "kind": "roleplay",
+      "title": "At the property agency",
+      "goal": "Raise a delicate issue with a Swiss letting agency in the right register — your choices steer the outcome.",
+      "phrases": [
+        {
+          "t": "Je souhaiterais vous entretenir d'un problème concernant mon appartement.",
+          "n": "I would like to discuss a problem concerning my flat with you."
+        },
+        {
+          "t": "Si je comprends bien, vous me demandez de payer la totalité ?",
+          "n": "If I understand correctly, you're asking me to pay the whole amount?"
+        },
+        {
+          "t": "Serait-il envisageable de trouver un arrangement ?",
+          "n": "Would it be possible to find an arrangement?"
+        },
+        {
+          "t": "Je vous remercie de votre compréhension.",
+          "n": "Thank you for your understanding."
+        }
+      ],
+      "branch": {
+        "title": "La régie à Lausanne",
+        "scene": "In Lausanne, flats are usually managed by a régie (letting agency). The agency wants to deduct a repair from your rental deposit, though the damage was there when you moved in. You meet the manager, Madame Rochat.",
+        "name": "Madame Rochat",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "greet",
+        "nodes": {
+          "greet": {
+            "t": "Bonjour, asseyez-vous. Que puis-je faire pour vous ?",
+            "n": "Hello, have a seat. What can I do for you?",
+            "choices": [
+              {
+                "t": "Bonjour Madame. Je souhaiterais vous entretenir d'un problème concernant mon appartement.",
+                "n": "Hello. I would like to discuss a problem concerning my flat with you.",
+                "next": "issue"
+              },
+              {
+                "t": "Salut ! Bon, c'est quoi cette histoire de facture ?",
+                "n": "Hi! Right, what's all this about a bill?",
+                "next": "casual"
+              }
+            ]
+          },
+          "casual": {
+            "t": "Pardon ? Je vous prierais de rester courtois.",
+            "n": "Excuse me? I would ask you to remain courteous.",
+            "choices": [
+              {
+                "t": "Excusez-moi, je me suis mal exprimé. Je souhaiterais vous parler de la facture de réparation.",
+                "n": "I'm sorry, I expressed myself badly. I'd like to talk to you about the repair bill.",
+                "next": "issue"
+              },
+              {
+                "t": "Bof, je dis les choses comme je les pense.",
+                "n": "Meh, I say things the way I think them.",
+                "next": "bad"
+              }
+            ]
+          },
+          "issue": {
+            "t": "Je vois. Il s'agit de la porte du placard, n'est-ce pas ? Les frais seront déduits de votre garantie de loyer.",
+            "n": "I see. It's about the cupboard door, isn't it? The costs will be deducted from your rental deposit.",
+            "choices": [
+              {
+                "t": "Si je comprends bien, vous me demandez de payer la totalité ? Or, la porte était déjà abîmée à mon arrivée.",
+                "n": "If I understand correctly, you're asking me to pay the whole amount? However, the door was already damaged when I moved in.",
+                "next": "proof"
+              },
+              {
+                "t": "C'est n'importe quoi, je ne paierai rien du tout.",
+                "n": "That's rubbish, I won't pay anything at all.",
+                "next": "bad"
+              }
+            ]
+          },
+          "proof": {
+            "t": "Avez-vous de quoi le prouver ? L'état des lieux d'entrée ne mentionne rien.",
+            "n": "Do you have proof of that? The move-in inspection report doesn't mention anything.",
+            "choices": [
+              {
+                "t": "J'ai des photos datées du jour de mon arrivée. Puis-je vous les montrer ?",
+                "n": "I have dated photos from the day I moved in. May I show them to you?",
+                "next": "photos"
+              },
+              {
+                "t": "Serait-il envisageable de trouver un arrangement ?",
+                "n": "Would it be possible to find an arrangement?",
+                "next": "deal"
+              }
+            ]
+          },
+          "photos": {
+            "t": "Effectivement, on voit bien la fissure. Je vais transmettre ces photos au propriétaire.",
+            "n": "Indeed, the crack is clearly visible. I'll pass these photos on to the owner.",
+            "choices": [
+              {
+                "t": "Je vous remercie de votre compréhension. Pourriez-vous me confirmer sa décision par écrit ?",
+                "n": "Thank you for your understanding. Could you confirm his decision in writing?",
+                "next": "good"
+              }
+            ]
+          },
+          "deal": {
+            "t": "Sans preuve, c'est difficile. Je pourrais toutefois proposer au propriétaire de partager les frais.",
+            "n": "Without proof it's difficult. I could, however, suggest to the owner that the costs be shared.",
+            "choices": [
+              {
+                "t": "Ce serait tout à fait acceptable. Je vous remercie de votre compréhension.",
+                "n": "That would be perfectly acceptable. Thank you for your understanding.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Je vous enverrai un courrier d'ici la fin de la semaine. Bonne journée.",
+            "n": "I'll send you a letter by the end of the week. Have a good day.",
+            "end": "good",
+            "outcome": "Your courteous, well-argued approach got the agency on your side."
+          },
+          "bad": {
+            "t": "Dans ces conditions, je pense que nous n'avons plus rien à nous dire. Au revoir.",
+            "n": "In that case, I think we have nothing more to say to each other. Goodbye.",
+            "end": "bad",
+            "outcome": "Your tone was too blunt for a formal meeting — the agency closed the discussion. Try a more formal approach."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Formally say you'd like to discuss a problem concerning your flat.",
+          "t": [
+            "Je souhaiterais vous entretenir d'un problème concernant mon appartement",
+            "Je souhaiterais vous parler d'un problème concernant mon appartement",
+            "Je voudrais vous parler d'un problème concernant mon appartement"
+          ]
+        },
+        {
+          "n": "Ask, formally, whether an arrangement would be possible.",
+          "t": [
+            "Serait-il envisageable de trouver un arrangement",
+            "Serait-il possible de trouver un arrangement",
+            "Est-ce qu'il serait possible de trouver un arrangement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-l7",
+      "kind": "speaking",
+      "title": "Switching registers",
+      "goal": "Talk freely about forms of address and deliver the same message formally and casually.",
+      "culture": {
+        "title": "Tu, vous and the francophone map",
+        "body": "In France, vous is still the default with strangers, shop staff and often with older colleagues and bosses, although many start-ups and tech companies use tu across the board. Québec is famous for its generous tutoiement: colleagues, managers and even shop staff often say tu from the start, while vous is kept for formal situations and sometimes for elderly people. Belgium and French-speaking Switzerland are broadly closer to France, with plenty of variation between workplaces. The safe strategy everywhere: start with vous and let the other person offer tu.",
+        "regions": [
+          "FR",
+          "CA",
+          "BE",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Chez nous, c'est beaucoup plus décontracté.",
+          "n": "Where I come from, it's much more relaxed."
+        },
+        {
+          "t": "Dans un cadre professionnel, je reste plutôt sur la réserve.",
+          "n": "In a professional setting, I tend to stay rather reserved."
+        },
+        {
+          "t": "Entre amis, je ne le dirais pas du tout comme ça.",
+          "n": "Among friends, I wouldn't put it like that at all."
+        },
+        {
+          "t": "Dans le doute, mieux vaut vouvoyer.",
+          "n": "When in doubt, it's better to say vous."
+        }
+      ],
+      "free": [
+        {
+          "n": "Explain how people use tu and vous in your country compared with France or Québec.",
+          "hint": "Compare: Chez nous… / En France, en revanche… / Au Québec… / Au travail… / Entre amis…",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "tu or vous",
+              "any": [
+                "tutoi*",
+                "vouvoi*",
+                "tutoyer",
+                "vouvoyer",
+                "tu",
+                "vous"
+              ]
+            },
+            {
+              "label": "a comparison",
+              "any": [
+                "en revanche",
+                "par contre",
+                "alors que",
+                "tandis que",
+                "contrairement"
+              ]
+            },
+            {
+              "label": "the work context",
+              "any": [
+                "travail",
+                "bureau",
+                "collègue*",
+                "patron",
+                "chef*"
+              ]
+            },
+            {
+              "label": "your own experience",
+              "any": [
+                "j'ai",
+                "je trouve",
+                "à mon avis",
+                "personnellement",
+                "je me souviens"
+              ]
+            }
+          ],
+          "model": "Chez nous, c'est beaucoup plus décontracté, puisqu'en anglais on dit you à tout le monde. En France, en revanche, on vouvoie les inconnus et souvent son patron. Au Québec, par contre, on tutoie presque tout le monde. Personnellement, dans un cadre professionnel, je reste plutôt sur la réserve : dans le doute, mieux vaut vouvoyer."
+        },
+        {
+          "n": "Announce the same news twice — you have to cancel a meeting: first in a formal email style to a client, then casually to a friend.",
+          "hint": "Formal: Je suis au regret de vous informer que… / Casual: Écoute, je suis désolé, mais…",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "formal register",
+              "any": [
+                "je suis au regret",
+                "je vous prie",
+                "veuillez",
+                "je me permets",
+                "cordialement"
+              ]
+            },
+            {
+              "label": "casual register",
+              "any": [
+                "écoute",
+                "t'inquiète",
+                "on se voit",
+                "bisous",
+                "désolé"
+              ]
+            },
+            {
+              "label": "the cancellation",
+              "any": [
+                "annul*",
+                "report*",
+                "empêch*",
+                "rendez-vous",
+                "réunion"
+              ]
+            }
+          ],
+          "model": "Madame, je suis au regret de vous informer que je dois reporter notre réunion de jeudi en raison d'un empêchement. Je vous prie de bien vouloir m'en excuser. Bien cordialement. – Écoute, je suis vraiment désolée, mais jeudi c'est mort, j'ai un empêchement. On se voit la semaine prochaine ? Bisous !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that when in doubt, it's better to say vous.",
+          "t": [
+            "Dans le doute, mieux vaut vouvoyer",
+            "Dans le doute, il vaut mieux vouvoyer"
+          ]
+        },
+        {
+          "n": "Say that among friends you wouldn't put it like that at all.",
+          "t": [
+            "Entre amis, je ne le dirais pas du tout comme ça",
+            "Entre amis, je le dirais pas du tout comme ça",
+            "Entre amis, je ne dirais pas ça comme ça"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u01-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Changer de registre",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

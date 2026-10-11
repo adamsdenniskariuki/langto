@@ -1,0 +1,840 @@
+{
+  "id": "c1-u04",
+  "title": "Convaincre",
+  "subtitle": "Persuasion, rhetoric & counter-arguments",
+  "icon": "🎯",
+  "lessons": [
+    {
+      "id": "c1-u04-l1",
+      "title": "Building a case",
+      "goal": "Structure a persuasive argument with clear claims, evidence and examples.",
+      "tip": {
+        "title": "Claim, evidence, example",
+        "body": "A convincing French argument announces its structure: Mon premier argument est le suivant… Prenons un exemple concret. Les chiffres parlent d'eux-mêmes. Use autrement dit to restate your point simply, and ce n'est pas une question de X, mais de Y to reframe the debate. J'en veux pour preuve… is a formal way to bring in evidence. Pronunciation: the -ent of parlent is silent."
+      },
+      "phrases": [
+        {
+          "t": "Mon premier argument est le suivant.",
+          "n": "My first argument is the following."
+        },
+        {
+          "t": "Prenons un exemple concret.",
+          "n": "Let's take a concrete example."
+        },
+        {
+          "t": "Les chiffres parlent d'eux-mêmes.",
+          "n": "The figures speak for themselves."
+        },
+        {
+          "t": "Autrement dit, nous perdons de l'argent.",
+          "n": "In other words, we're losing money."
+        },
+        {
+          "t": "Ce n'est pas une question de moyens, mais de priorités.",
+          "n": "It's not a question of resources but of priorities."
+        },
+        {
+          "t": "J'en veux pour preuve les résultats de l'équipe de Québec.",
+          "n": "The results of the Québec City team prove my point.",
+          "note": "Formal: lit. 'as proof I want…'"
+        }
+      ],
+      "dialogue": {
+        "title": "Asking for a training budget",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Bon, tu voulais me parler de formation. Je t'écoute, mais je te préviens : le budget est serré.",
+            "n": "Right, you wanted to talk to me about training. I'm listening, but I'm warning you: the budget is tight."
+          },
+          {
+            "who": "you",
+            "t": "Merci. Mon premier argument est le suivant : la moitié de l'équipe ne maîtrise pas le nouveau logiciel.",
+            "n": "Thanks. My first argument is this: half the team hasn't mastered the new software."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Peut-être, mais ils vont finir par apprendre sur le tas, non ?",
+            "n": "Maybe, but they'll end up learning on the job, won't they?"
+          },
+          {
+            "who": "you",
+            "t": "Prenons un exemple concret. Le mois dernier, trois commandes ont été perdues à cause d'erreurs de saisie.",
+            "n": "Let's take a concrete example. Last month, three orders were lost because of data-entry errors."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Trois commandes… C'est fâcheux, je l'avoue.",
+            "n": "Three orders… That's unfortunate, I admit."
+          },
+          {
+            "who": "you",
+            "t": "Autrement dit, nous perdons de l'argent. Ce n'est pas une question de moyens, mais de priorités.",
+            "n": "In other words, we're losing money. It's not a question of resources but of priorities."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "Et qu'est-ce qui me dit que la formation va régler le problème ?",
+            "n": "And what tells me training will solve the problem?"
+          },
+          {
+            "who": "you",
+            "t": "J'en veux pour preuve les résultats de l'équipe de Québec : depuis leur formation, les erreurs ont presque disparu.",
+            "n": "The Québec City team's results prove it: since their training, the errors have almost disappeared."
+          },
+          {
+            "who": "A",
+            "name": "Mme Tremblay",
+            "t": "D'accord, tu m'as convaincue. Envoie-moi une proposition chiffrée.",
+            "n": "All right, you've convinced me. Send me a costed proposal."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say let's take a concrete example.",
+          "t": [
+            "Prenons un exemple concret"
+          ]
+        },
+        {
+          "n": "Say the figures speak for themselves.",
+          "t": [
+            "Les chiffres parlent d'eux-mêmes"
+          ]
+        },
+        {
+          "n": "Say it's not a question of resources but of priorities.",
+          "t": [
+            "Ce n'est pas une question de moyens, mais de priorités",
+            "C'est pas une question de moyens, mais de priorités"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l2",
+      "title": "Handling objections",
+      "goal": "Anticipate counter-arguments, concede a point and turn it to your advantage.",
+      "tip": {
+        "title": "Concede, then turn",
+        "body": "Strong persuaders pre-empt objections: On m'objectera que… (people will object that…), then grant a point to look fair — je vous accorde ce point, certes… mais…, admettons — before turning it. Expose weak reasoning politely but firmly: cet argument ne tient pas la route, vous confondez X et Y, c'est là que le bât blesse. You met bien que and même si at B2; here the focus is on the rhetorical moves. Certes sounds formal; its final s is silent: 'sert'. In bât, the circumflex marks a lost s — it rhymes with pas."
+      },
+      "phrases": [
+        {
+          "t": "On m'objectera que cela coûte trop cher.",
+          "n": "People will object that it costs too much."
+        },
+        {
+          "t": "Certes, l'investissement est important, mais il sera vite rentabilisé.",
+          "n": "Admittedly, the investment is substantial, but it will soon pay for itself."
+        },
+        {
+          "t": "Je vous accorde ce point.",
+          "n": "I'll grant you that point."
+        },
+        {
+          "t": "Cet argument ne tient pas la route.",
+          "n": "That argument doesn't hold water.",
+          "note": "Lit. 'doesn't hold the road'."
+        },
+        {
+          "t": "Vous confondez corrélation et causalité.",
+          "n": "You're confusing correlation and causation."
+        },
+        {
+          "t": "C'est précisément là que le bât blesse.",
+          "n": "That's precisely where the problem lies.",
+          "note": "Lit. 'that's where the pack-saddle chafes'."
+        },
+        {
+          "t": "Loin de nuire à l'apprentissage, cette mesure le renforcerait.",
+          "n": "Far from harming learning, this measure would strengthen it."
+        }
+      ],
+      "dialogue": {
+        "title": "Debate club: should homework be abolished?",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Bastien",
+            "t": "Supprimer les devoirs, c'est encourager la paresse. Les élèves ne travailleront plus du tout.",
+            "n": "Abolishing homework means encouraging laziness. Pupils won't work at all any more."
+          },
+          {
+            "who": "you",
+            "t": "Je vous accorde ce point : la répétition est utile. Mais les devoirs creusent les inégalités.",
+            "n": "I'll grant you that point: repetition is useful. But homework widens inequalities."
+          },
+          {
+            "who": "A",
+            "name": "Bastien",
+            "t": "Les inégalités ? Les meilleurs élèves sont ceux qui font leurs devoirs. C'est bien la preuve que ça marche !",
+            "n": "Inequalities? The best pupils are the ones who do their homework. That proves it works!"
+          },
+          {
+            "who": "you",
+            "t": "Vous confondez corrélation et causalité. Ces élèves ont souvent des parents qui peuvent les aider.",
+            "n": "You're confusing correlation and causation. Those pupils often have parents who can help them."
+          },
+          {
+            "who": "A",
+            "name": "Bastien",
+            "t": "Admettons. Mais sans devoirs, quand vont-ils réviser ?",
+            "n": "Granted. But without homework, when will they revise?"
+          },
+          {
+            "who": "you",
+            "t": "En classe, avec un enseignant. C'est précisément là que le bât blesse : à la maison, certains sont seuls.",
+            "n": "In class, with a teacher. That's precisely where the problem lies: at home, some are on their own."
+          },
+          {
+            "who": "A",
+            "name": "Bastien",
+            "t": "Et puis, les parents réclament des devoirs. Vous n'allez pas aller contre eux ?",
+            "n": "And besides, parents demand homework. You're not going to go against them?"
+          },
+          {
+            "who": "you",
+            "t": "Cet argument ne tient pas la route : beaucoup de parents s'en plaignent aussi. Loin de nuire à l'apprentissage, cette mesure le renforcerait.",
+            "n": "That argument doesn't hold water: many parents complain about it too. Far from harming learning, this measure would strengthen it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Grant someone (vous) a point.",
+          "t": [
+            "Je vous accorde ce point",
+            "Je vous l'accorde",
+            "Je t'accorde ce point"
+          ]
+        },
+        {
+          "n": "Say that argument doesn't hold water.",
+          "t": [
+            "Cet argument ne tient pas la route",
+            "Ça ne tient pas la route",
+            "Cet argument ne tient pas"
+          ]
+        },
+        {
+          "n": "Tell someone (vous) they're confusing correlation and causation.",
+          "t": [
+            "Vous confondez corrélation et causalité",
+            "Tu confonds corrélation et causalité"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l3",
+      "title": "Rhetorical moves",
+      "goal": "Engage an audience with rhetorical questions, vivid images and a strong conclusion.",
+      "tip": {
+        "title": "Speak to the audience",
+        "body": "French public speaking loves the rhetorical question (N'est-il pas temps d'agir ?), the invitation to imagine (Imaginez un instant…) and balanced pairs or threes: tout à y gagner et rien à y perdre. Inverted questions sound more solemn than est-ce que, which suits a speech. In N'est-il, the t links to il: nè-til. Slow down for your conclusion and let your voice fall on the last word: le choix est simple."
+      },
+      "phrases": [
+        {
+          "t": "Imaginez un instant une ville sans voitures.",
+          "n": "Imagine for a moment a city without cars."
+        },
+        {
+          "t": "N'est-il pas temps d'agir ?",
+          "n": "Isn't it time to act?"
+        },
+        {
+          "t": "Posons-nous la bonne question.",
+          "n": "Let's ask ourselves the right question."
+        },
+        {
+          "t": "Que voulons-nous laisser à nos enfants ?",
+          "n": "What do we want to leave to our children?"
+        },
+        {
+          "t": "Le choix est simple.",
+          "n": "The choice is simple."
+        },
+        {
+          "t": "Nous avons tout à y gagner et rien à y perdre.",
+          "n": "We have everything to gain and nothing to lose."
+        }
+      ],
+      "dialogue": {
+        "title": "Rehearsing a speech",
+        "voice": "fr-FR-BrigitteNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hélène",
+            "t": "Alors, ton discours pour le conseil municipal ? Commence par l'accroche.",
+            "n": "So, your speech for the town council? Start with the hook."
+          },
+          {
+            "who": "you",
+            "t": "Imaginez un instant une ville sans voitures, où les enfants jouent dans la rue.",
+            "n": "Imagine for a moment a city without cars, where children play in the street."
+          },
+          {
+            "who": "A",
+            "name": "Hélène",
+            "t": "Pas mal ! Et ensuite, tu enchaînes comment ?",
+            "n": "Not bad! And then, how do you move on?"
+          },
+          {
+            "who": "you",
+            "t": "Posons-nous la bonne question : que voulons-nous laisser à nos enfants ?",
+            "n": "Let's ask ourselves the right question: what do we want to leave to our children?"
+          },
+          {
+            "who": "A",
+            "name": "Hélène",
+            "t": "Très bien. Il te faut maintenant une conclusion qui frappe.",
+            "n": "Very good. Now you need a conclusion that hits home."
+          },
+          {
+            "who": "you",
+            "t": "Le choix est simple. Nous avons tout à y gagner et rien à y perdre. N'est-il pas temps d'agir ?",
+            "n": "The choice is simple. We have everything to gain and nothing to lose. Isn't it time to act?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask, rhetorically, whether it isn't time to act.",
+          "t": [
+            "N'est-il pas temps d'agir",
+            "Est-ce qu'il n'est pas temps d'agir"
+          ]
+        },
+        {
+          "n": "Say we have everything to gain and nothing to lose.",
+          "t": [
+            "Nous avons tout à y gagner et rien à y perdre",
+            "On a tout à y gagner et rien à y perdre",
+            "Nous avons tout à gagner et rien à perdre"
+          ]
+        },
+        {
+          "n": "Ask your audience to imagine a city without cars for a moment.",
+          "t": [
+            "Imaginez un instant une ville sans voitures",
+            "Imaginez une ville sans voitures",
+            "Imagine un instant une ville sans voitures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l4",
+      "kind": "grammar",
+      "title": "Mise en relief",
+      "goal": "Highlight the key element of a sentence with c'est … qui/que and ce qui/ce que … c'est.",
+      "tip": {
+        "title": "Putting the spotlight on",
+        "body": "English highlights with stress or 'It's … that'; French prefers structure. C'est … qui highlights the subject: C'est la direction qui a décidé. C'est … que highlights anything else: C'est maintenant qu'il faut agir. To build suspense, open with ce qui (subject), ce que (object) or ce dont (verbs with de) and reveal the key element after c'est: Ce qui me gêne, c'est le prix. Ce dont nous avons besoin, c'est de temps — keep the de! With a plural noun, careful French uses ce sont: Ce sont les clients qui paient. After c'est moi/nous/vous qui, the verb agrees with the pronoun: c'est nous qui avons. In speech, pause briefly at the comma before c'est."
+      },
+      "phrases": [
+        {
+          "t": "C'est la direction qui a pris cette décision.",
+          "n": "It was management that took this decision."
+        },
+        {
+          "t": "C'est maintenant qu'il faut agir.",
+          "n": "Now is the time to act."
+        },
+        {
+          "t": "Ce qui me frappe, c'est le manque de transparence.",
+          "n": "What strikes me is the lack of transparency."
+        },
+        {
+          "t": "Ce que je propose, c'est un essai de six mois.",
+          "n": "What I'm proposing is a six-month trial."
+        },
+        {
+          "t": "Ce dont nous avons besoin, c'est de temps.",
+          "n": "What we need is time.",
+          "note": "avoir besoin de → ce dont … c'est de"
+        },
+        {
+          "t": "Ce sont les clients qui en paient le prix.",
+          "n": "It's the customers who pay the price for it."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Spotlight with c'est … qui / que",
+          "base": {
+            "t": "Le marketing a oublié ce détail.",
+            "n": "Marketing overlooked this detail."
+          },
+          "items": [
+            {
+              "cue": "le marketing",
+              "t": "C'est le marketing qui a oublié ce détail.",
+              "n": "It was marketing that overlooked this detail."
+            },
+            {
+              "cue": "ce détail",
+              "t": "C'est ce détail que le marketing a oublié.",
+              "n": "It's this detail that marketing overlooked."
+            },
+            {
+              "cue": "nous",
+              "t": "C'est nous qui avons oublié ce détail.",
+              "n": "We're the ones who overlooked this detail."
+            }
+          ]
+        },
+        {
+          "title": "Build suspense with ce qui / ce que / ce dont",
+          "base": {
+            "t": "Le prix me gêne.",
+            "n": "The price bothers me."
+          },
+          "items": [
+            {
+              "cue": "ce qui",
+              "t": "Ce qui me gêne, c'est le prix.",
+              "n": "What bothers me is the price."
+            },
+            {
+              "cue": "ce que · je conteste",
+              "t": "Ce que je conteste, c'est le prix.",
+              "n": "What I dispute is the price."
+            },
+            {
+              "cue": "ce dont · je me plains",
+              "t": "Ce dont je me plains, c'est du prix.",
+              "n": "What I'm complaining about is the price."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say what you're proposing is a six-month trial.",
+          "t": [
+            "Ce que je propose, c'est un essai de six mois",
+            "Ce que je vous propose, c'est un essai de six mois"
+          ]
+        },
+        {
+          "n": "Say what we need is time.",
+          "t": [
+            "Ce dont nous avons besoin, c'est de temps",
+            "Ce dont on a besoin, c'est de temps",
+            "Ce qu'il nous faut, c'est du temps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l5",
+      "kind": "listening",
+      "title": "Free public transport?",
+      "goal": "Follow a lively debate and identify each speaker's arguments and counter-arguments.",
+      "phrases": [
+        {
+          "t": "La gratuité n'existe pas.",
+          "n": "There's no such thing as free."
+        },
+        {
+          "t": "C'est un choix de société.",
+          "n": "It's a choice about the kind of society we want."
+        },
+        {
+          "t": "Les faits sont têtus.",
+          "n": "Facts are stubborn things."
+        },
+        {
+          "t": "Encore faut-il que l'offre suive.",
+          "n": "Provided the service keeps up, that is.",
+          "note": "encore faut-il que + subjunctive: inversion after encore"
+        }
+      ],
+      "story": {
+        "title": "Transports gratuits : utopie ou évidence ?",
+        "intro": "In a radio debate, an urban planner from Montréal and an economist from Brussels argue over free public transport.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Animatrice",
+            "t": "Faut-il rendre les transports en commun gratuits ? Nos deux invités ne sont pas d'accord. Monsieur Gagnon, vous êtes pour.",
+            "n": "Should public transport be made free? Our two guests disagree. Mr Gagnon, you're in favour."
+          },
+          {
+            "name": "Antoine Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Absolument. Ce qui me frappe, c'est qu'on dépense des milliards pour les routes sans jamais se demander si elles devraient être payantes.",
+            "n": "Absolutely. What strikes me is that we spend billions on roads without ever asking whether people should pay to use them."
+          },
+          {
+            "name": "Antoine Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Prenons un exemple concret : le Luxembourg a rendu ses transports publics gratuits dans tout le pays en deux mille vingt.",
+            "n": "Let's take a concrete example: Luxembourg made its public transport free across the whole country in 2020."
+          },
+          {
+            "name": "Animatrice",
+            "t": "Madame Claes, vous n'êtes pas convaincue.",
+            "n": "Ms Claes, you're not convinced."
+          },
+          {
+            "name": "Sophie Claes",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Pas du tout. La gratuité n'existe pas : quelqu'un finit toujours par payer, en l'occurrence le contribuable.",
+            "n": "Not at all. There's no such thing as free: someone always ends up paying — in this case, the taxpayer."
+          },
+          {
+            "name": "Antoine Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Certes, mais c'est un choix de société. On paie bien l'école et les bibliothèques avec nos impôts.",
+            "n": "Admittedly, but it's a choice about society. After all, we pay for schools and libraries with our taxes."
+          },
+          {
+            "name": "Sophie Claes",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Admettons. Mais les faits sont têtus : quand le bus devient gratuit, ce sont souvent des piétons et des cyclistes qui le prennent, pas des automobilistes.",
+            "n": "Fine. But facts are stubborn: when the bus becomes free, it's often pedestrians and cyclists who take it, not drivers."
+          },
+          {
+            "name": "Antoine Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "C'est précisément là que le bât blesse : si l'offre est mauvaise, les automobilistes ne changeront pas leurs habitudes.",
+            "n": "That's precisely the problem: if the service is poor, drivers won't change their habits."
+          },
+          {
+            "name": "Sophie Claes",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Nous sommes donc d'accord : ce dont on a besoin, c'est d'un meilleur service, pas de la gratuité.",
+            "n": "So we agree: what we need is better service, not free fares."
+          },
+          {
+            "name": "Antoine Gagnon",
+            "voice": "fr-CA-AntoineNeural",
+            "t": "Les deux vont ensemble. La gratuité attire les gens, encore faut-il que l'offre suive.",
+            "n": "The two go together. Free fares attract people — provided the service keeps up."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Quel pays Antoine Gagnon cite-t-il en exemple ?",
+            "n": "Which country does Antoine Gagnon cite as an example?",
+            "t": [
+              "Le Luxembourg",
+              "Luxembourg"
+            ]
+          },
+          {
+            "q": "Selon Sophie Claes, qui finit par payer ?",
+            "n": "According to Sophie Claes, who ends up paying?",
+            "t": [
+              "Le contribuable",
+              "Les contribuables",
+              "C'est le contribuable"
+            ]
+          },
+          {
+            "q": "De quoi a-t-on besoin, selon Sophie Claes ?",
+            "n": "What is needed, according to Sophie Claes?",
+            "t": [
+              "D'un meilleur service",
+              "Un meilleur service",
+              "D'un meilleur service, pas de la gratuité"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u04-l6",
+      "kind": "roleplay",
+      "title": "Pitching remote work",
+      "goal": "Win over a sceptical director with arguments and guarantees — pressure will backfire.",
+      "phrases": [
+        {
+          "t": "Je vous propose un essai, sans engagement.",
+          "n": "I'm proposing a trial, with no commitment."
+        },
+        {
+          "t": "Si les résultats ne sont pas au rendez-vous, on arrête.",
+          "n": "If the results aren't there, we stop."
+        },
+        {
+          "t": "Ce qui est en jeu, c'est la fidélité de nos talents.",
+          "n": "What's at stake is keeping our talented people."
+        },
+        {
+          "t": "C'est justement pour cela que je vous en parle.",
+          "n": "That's exactly why I'm raising it with you."
+        }
+      ],
+      "branch": {
+        "title": "Two days of remote work?",
+        "scene": "You want your team in Brussels to work from home two days a week. Your director, M. Peeters, is sceptical. Convince him with arguments, not pressure.",
+        "name": "M. Peeters",
+        "voice": "fr-BE-GerardNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Le télétravail deux jours par semaine ? Je crains que l'équipe ne se disperse. Pourquoi changerait-on ce qui fonctionne ?",
+            "n": "Remote work two days a week? I'm afraid the team will drift apart. Why change what works?",
+            "choices": [
+              {
+                "t": "Je vous propose un essai de trois mois, sans engagement. Si les résultats ne sont pas au rendez-vous, on arrête.",
+                "n": "I'm proposing a three-month trial, with no commitment. If the results aren't there, we stop.",
+                "next": "q2"
+              },
+              {
+                "t": "Parce que tout le monde le fait, et l'équipe en a marre de venir tous les jours.",
+                "n": "Because everyone does it, and the team is fed up with coming in every day.",
+                "next": "weak"
+              }
+            ]
+          },
+          "weak": {
+            "t": "Tout le monde le fait ? Ce n'est pas un argument, ça. Et en avoir marre, ce n'est pas une stratégie.",
+            "n": "Everyone does it? That's not an argument. And being fed up isn't a strategy.",
+            "choices": [
+              {
+                "t": "Vous avez raison, je reformule. Ce qui est en jeu, c'est la fidélité de nos talents : deux personnes sont parties pour cette raison l'an dernier.",
+                "n": "You're right, let me rephrase. What's at stake is keeping our talented people: two people left for that reason last year.",
+                "next": "q2"
+              },
+              {
+                "t": "Si vous refusez, je crains que plusieurs collègues ne démissionnent.",
+                "n": "If you refuse, I'm afraid several colleagues will resign.",
+                "next": "threat"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Admettons. Mais comment saurai-je que les gens travaillent vraiment ?",
+            "n": "Granted. But how will I know people are really working?",
+            "choices": [
+              {
+                "t": "Ce sont les résultats qui comptent, pas la présence. Nous fixerons des objectifs clairs chaque semaine.",
+                "n": "It's results that count, not presence. We'll set clear goals every week.",
+                "next": "q3"
+              },
+              {
+                "t": "Vous n'avez qu'à leur faire confiance, c'est tout.",
+                "n": "You just have to trust them, that's all.",
+                "next": "doubt"
+              }
+            ]
+          },
+          "doubt": {
+            "t": "La confiance, c'est bien joli, mais il me faut des garanties.",
+            "n": "Trust is all very well, but I need guarantees.",
+            "choices": [
+              {
+                "t": "Je vous accorde ce point. Nous ferons un bilan chaque mois, chiffres à l'appui.",
+                "n": "I grant you that point. We'll review it every month, with figures to back it up.",
+                "next": "q3"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Et les réunions d'équipe ? Je tiens à ce que l'on se voie.",
+            "n": "And team meetings? I'm keen that we see each other.",
+            "choices": [
+              {
+                "t": "C'est justement pour cela que je vous en parle : le mardi et le jeudi, tout le monde serait au bureau.",
+                "n": "That's exactly why I'm raising it with you: on Tuesdays and Thursdays, everyone would be in the office.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Bon. Vous m'avez convaincu : essai de trois mois, avec un bilan mensuel. Au fond, que risquons-nous ?",
+            "n": "Fine. You've convinced me: a three-month trial with a monthly review. After all, what do we risk?",
+            "end": "good",
+            "outcome": "You acknowledged the director's concerns, offered guarantees and a reversible trial — he's on board."
+          },
+          "threat": {
+            "t": "Des menaces ? Ce n'est pas ainsi qu'on me convainc. La réponse est non.",
+            "n": "Threats? That's not how you convince me. The answer is no.",
+            "end": "bad",
+            "outcome": "Pressure backfired. Persuade with arguments, evidence and guarantees instead."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell someone (vous) you're proposing a trial with no commitment.",
+          "t": [
+            "Je vous propose un essai, sans engagement",
+            "Je vous propose un essai sans engagement",
+            "Je propose un essai sans engagement"
+          ]
+        },
+        {
+          "n": "Say that if the results aren't there, you'll stop.",
+          "t": [
+            "Si les résultats ne sont pas au rendez-vous, on arrête",
+            "Si les résultats ne sont pas au rendez-vous, nous arrêterons",
+            "Si les résultats ne sont pas là, on arrête"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-l7",
+      "kind": "speaking",
+      "title": "Make your case",
+      "goal": "Deliver a short persuasive speech with highlighting, a counter-argument and a strong close.",
+      "culture": {
+        "title": "Thèse, antithèse, synthèse",
+        "body": "French schools train argument through the dissertation: an essay built on an explicit plan, classically thèse, antithèse, synthèse — argue one side, then the other, then reach a nuanced resolution. In France, the philosophy paper of the baccalauréat, a four-hour written exam on broad questions about freedom, truth or justice, is something of a national ritual each June, and the topics are discussed in the media. Since the 2021 reform, the bac also includes the Grand oral, where pupils defend a question they have prepared. In Québec, cégep students must pass the province-wide épreuve uniforme de français, a dissertation critique, to obtain their DEC diploma. So expect French speakers to structure an argument explicitly — and to enjoy a well-built counter-argument.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Permettez-moi de défendre une position différente.",
+          "n": "Allow me to defend a different position."
+        },
+        {
+          "t": "J'irai même plus loin.",
+          "n": "I'll go even further."
+        },
+        {
+          "t": "Voilà pourquoi je vous invite à voter pour.",
+          "n": "That's why I urge you to vote in favour."
+        },
+        {
+          "t": "La balle est dans votre camp.",
+          "n": "The ball is in your court."
+        }
+      ],
+      "free": [
+        {
+          "n": "You have 90 seconds to convince your town council to close the street outside a school to cars. Use mise en relief, answer one objection and finish with a strong close.",
+          "hint": "Ce que je propose, c'est… / On m'objectera que… Certes, mais… / C'est maintenant que… / Le choix est simple.",
+          "seconds": 90,
+          "minWords": 50,
+          "targets": [
+            {
+              "label": "mise en relief",
+              "any": [
+                "ce que je",
+                "ce qui",
+                "ce dont",
+                "c'est maintenant",
+                "ce sont",
+                "c'est la",
+                "c'est le"
+              ]
+            },
+            {
+              "label": "an objection",
+              "any": [
+                "on m'objectera",
+                "certes",
+                "je vous accorde",
+                "admettons",
+                "on pourrait dire"
+              ]
+            },
+            {
+              "label": "the topic",
+              "any": [
+                "rue",
+                "école*",
+                "voiture*",
+                "enfant*",
+                "sécurité",
+                "piéton*"
+              ]
+            },
+            {
+              "label": "a strong close",
+              "any": [
+                "le choix est simple",
+                "n'est-il pas temps",
+                "voilà pourquoi",
+                "en définitive",
+                "tout à y gagner",
+                "je vous invite"
+              ]
+            }
+          ],
+          "model": "Ce que je propose, c'est de fermer la rue de l'école aux voitures aux heures d'entrée et de sortie. Ce qui est en jeu, c'est la sécurité de nos enfants. On m'objectera que les parents ont besoin de se garer. Certes, mais il existe un parking à deux cents mètres. C'est maintenant qu'il faut agir. Le choix est simple : voilà pourquoi je vous invite à voter pour."
+        },
+        {
+          "n": "Pick a debate (homework, a tourist tax, banning short-haul flights…) and rebut the opposing view in three steps: concede, expose the flaw, counter.",
+          "hint": "Je vous accorde que… / Mais cet argument ne tient pas la route, car… / Loin de…, … / J'irai même plus loin…",
+          "seconds": 75,
+          "minWords": 40,
+          "targets": [
+            {
+              "label": "concession",
+              "any": [
+                "je vous accorde",
+                "certes",
+                "admettons",
+                "il est vrai que",
+                "c'est vrai que"
+              ]
+            },
+            {
+              "label": "exposing the flaw",
+              "any": [
+                "ne tient pas",
+                "vous confondez",
+                "le bât blesse",
+                "repose sur",
+                "faux"
+              ]
+            },
+            {
+              "label": "a counter-argument",
+              "any": [
+                "loin de",
+                "au contraire",
+                "j'irai même plus loin",
+                "en réalité",
+                "autrement dit"
+              ]
+            }
+          ],
+          "model": "Je vous accorde que les vols courts sont pratiques. Mais l'argument du temps gagné ne tient pas la route : avec le trajet jusqu'à l'aéroport et les contrôles, le train est souvent aussi rapide. Loin de pénaliser les voyageurs, une interdiction les pousserait vers le rail. J'irai même plus loin : c'est le train qu'il faudrait rendre moins cher."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you'll go even further.",
+          "t": [
+            "J'irai même plus loin",
+            "Je vais même plus loin",
+            "Je vais aller encore plus loin"
+          ]
+        },
+        {
+          "n": "Tell someone (vous) the ball is in their court.",
+          "t": [
+            "La balle est dans votre camp",
+            "La balle est dans ton camp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Convaincre",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

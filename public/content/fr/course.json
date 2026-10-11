@@ -68,8 +68,16 @@
       "id": "C1",
       "title": "Advanced",
       "description": "Switch register, master spoken French, persuade, present and handle delicate conversations.",
-      "comingSoon": true,
-      "units": []
+      "units": [
+        "c1/u01-registre.json",
+        "c1/u02-francais-parle.json",
+        "c1/u03-nuances.json",
+        "c1/u04-convaincre.json",
+        "c1/u05-expose.json",
+        "c1/u06-diplomatie.json",
+        "c1/u07-raconter.json",
+        "c1/u08-grandes-questions.json"
+      ]
     },
     {
       "id": "C2",
@@ -93,7 +101,8 @@
         "pron/u05-liaison.json",
         "pron/u06-e.json",
         "pron/u07-eu.json",
-        "pron/u08-rythme.json"
+        "pron/u08-rythme.json",
+        "pron/u09-intonation.json"
       ]
     }
   ]

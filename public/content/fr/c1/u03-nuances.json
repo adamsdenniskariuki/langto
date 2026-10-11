@@ -1,0 +1,855 @@
+{
+  "id": "c1-u03",
+  "title": "Les nuances",
+  "subtitle": "Nuance, hedging & understatement",
+  "icon": "🎚️",
+  "lessons": [
+    {
+      "id": "c1-u03-l1",
+      "title": "Hedging your opinion",
+      "goal": "Soften your claims and express opinions with nuance rather than in black and white.",
+      "tip": {
+        "title": "Softeners: plutôt, assez, a priori",
+        "body": "French hedges with small words and the conditional: plutôt (rather), assez (fairly), a priori (on the face of it), dans une certaine mesure (to some extent), j'aurais tendance à penser que (I'd tend to think). Il se peut que takes the subjunctive: Il se peut qu'il ait raison. Careful: assez before an adjective means 'fairly', not 'enough' — c'est assez intéressant is lukewarm praise."
+      },
+      "phrases": [
+        {
+          "t": "J'aurais tendance à penser que le problème est ailleurs.",
+          "n": "I'd tend to think the problem lies elsewhere."
+        },
+        {
+          "t": "Il se peut qu'il ait raison, au fond.",
+          "n": "He may well be right, after all.",
+          "note": "il se peut que + subjunctive"
+        },
+        {
+          "t": "A priori, je ne vois pas d'obstacle.",
+          "n": "On the face of it, I don't see any obstacle.",
+          "note": "a priori = at first sight, unless proven otherwise"
+        },
+        {
+          "t": "Dans une certaine mesure, je suis d'accord avec vous.",
+          "n": "To some extent, I agree with you."
+        },
+        {
+          "t": "Sans vouloir généraliser, c'est assez fréquent.",
+          "n": "Without wanting to generalise, it's fairly common."
+        },
+        {
+          "t": "Je ne dirais pas ça comme ça.",
+          "n": "I wouldn't put it like that."
+        },
+        {
+          "t": "Ce n'est pas tout à fait exact.",
+          "n": "That's not entirely accurate."
+        }
+      ],
+      "dialogue": {
+        "title": "Do young people still read?",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Les jeunes ne lisent plus du tout. C'est un fait, non ?",
+            "n": "Young people don't read at all any more. That's a fact, isn't it?"
+          },
+          {
+            "who": "you",
+            "t": "Ce n'est pas tout à fait exact. Ils lisent beaucoup, mais autrement.",
+            "n": "That's not entirely accurate. They read a lot, but differently."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Autrement ? Tu veux dire sur leur téléphone ? Ça ne compte pas, ça !",
+            "n": "Differently? You mean on their phones? That doesn't count!"
+          },
+          {
+            "who": "you",
+            "t": "Je ne dirais pas ça comme ça. Sans vouloir généraliser, beaucoup lisent des romans en ligne.",
+            "n": "I wouldn't put it like that. Without wanting to generalise, many read novels online."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Admettons. Mais le niveau en orthographe baisse, ça, tu ne peux pas le nier.",
+            "n": "Fine. But spelling standards are falling — you can't deny that."
+          },
+          {
+            "who": "you",
+            "t": "Dans une certaine mesure, je suis d'accord. Mais j'aurais tendance à penser que le problème est ailleurs, plutôt du côté de l'école.",
+            "n": "To some extent, I agree. But I'd tend to think the problem lies elsewhere, more on the school side."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Tu crois ? Moi, je trouve que les écrans sont responsables de tout.",
+            "n": "Do you think so? I find screens are to blame for everything."
+          },
+          {
+            "who": "you",
+            "t": "Il se peut que tu aies raison en partie. Mais dire qu'ils sont responsables de tout, c'est peut-être un peu fort.",
+            "n": "You may be partly right. But saying they're to blame for everything is perhaps a bit strong."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say you'd tend to think the problem lies elsewhere.",
+          "t": [
+            "J'aurais tendance à penser que le problème est ailleurs",
+            "Je pense plutôt que le problème est ailleurs"
+          ]
+        },
+        {
+          "n": "Say that's not entirely accurate.",
+          "t": [
+            "Ce n'est pas tout à fait exact",
+            "C'est pas tout à fait exact",
+            "Ce n'est pas tout à fait juste"
+          ]
+        },
+        {
+          "n": "Tell someone (vous) that to some extent you agree with them.",
+          "t": [
+            "Dans une certaine mesure, je suis d'accord avec vous",
+            "Dans une certaine mesure, je suis d'accord",
+            "Dans une certaine mesure, je suis d'accord avec toi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l2",
+      "title": "Choosing the right word",
+      "goal": "Distinguish near-synonyms and reframe a claim with a more precise word.",
+      "tip": {
+        "title": "Not this — rather that",
+        "body": "A key C1 skill is correcting a word without contradicting the person: Ce n'est pas un échec, c'est un revers. Je parlerais plutôt de… Le mot est peut-être un peu fort. Many near-synonyms differ in intensity or connotation: économe (thrifty, positive) vs avare (stingy); déterminé vs têtu (stubborn); un revers (setback) vs un échec (failure); s'interroger sur (to wonder about) vs remettre en question (to challenge). Watch the false friend éventuellement — it means 'possibly', never 'eventually' (that's finalement). In revers the final s is silent: re-ver."
+      },
+      "phrases": [
+        {
+          "t": "Ce n'est pas un échec, c'est un revers.",
+          "n": "It's not a failure, it's a setback."
+        },
+        {
+          "t": "Je parlerais plutôt de malentendu que de conflit.",
+          "n": "I'd speak of a misunderstanding rather than a conflict."
+        },
+        {
+          "t": "Le mot est peut-être un peu fort.",
+          "n": "The word is perhaps a bit strong."
+        },
+        {
+          "t": "Il n'est pas avare, il est économe.",
+          "n": "He isn't stingy, he's thrifty."
+        },
+        {
+          "t": "Je ne remets pas en question votre travail, je m'interroge sur la méthode.",
+          "n": "I'm not questioning your work; I'm wondering about the method."
+        },
+        {
+          "t": "On pourrait éventuellement reporter la réunion.",
+          "n": "We could possibly postpone the meeting.",
+          "note": "éventuellement = possibly, not 'eventually'"
+        },
+        {
+          "t": "Disons que c'est perfectible.",
+          "n": "Let's say there's room for improvement.",
+          "note": "Polite: lit. 'it can be improved'."
+        }
+      ],
+      "dialogue": {
+        "title": "A difficult launch",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Bon, soyons francs : le lancement de l'application, c'est un échec total.",
+            "n": "Right, let's be frank: the app launch is a total failure."
+          },
+          {
+            "who": "you",
+            "t": "Le mot est peut-être un peu fort. Ce n'est pas un échec, c'est un revers.",
+            "n": "The word is perhaps a bit strong. It's not a failure, it's a setback."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Un revers ? Nous avons perdu la moitié des utilisateurs en un mois !",
+            "n": "A setback? We lost half our users in a month!"
+          },
+          {
+            "who": "you",
+            "t": "C'est vrai. Disons que l'application est perfectible, mais la base est solide.",
+            "n": "That's true. Let's say the app has room for improvement, but the foundation is solid."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Et l'équipe technique ? On m'a dit qu'il y avait un conflit avec le marketing.",
+            "n": "And the tech team? I was told there was a conflict with marketing."
+          },
+          {
+            "who": "you",
+            "t": "Je parlerais plutôt de malentendu que de conflit. Chacun avait des priorités différentes.",
+            "n": "I'd speak of a misunderstanding rather than a conflict. Everyone had different priorities."
+          },
+          {
+            "who": "A",
+            "name": "Mme Lambert",
+            "t": "Soit. Qu'est-ce que vous proposez, alors ?",
+            "n": "Very well. So what do you suggest?"
+          },
+          {
+            "who": "you",
+            "t": "On pourrait éventuellement reporter la nouvelle version d'un mois, pour bien faire les choses.",
+            "n": "We could possibly postpone the new version by a month, to do things properly."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say it's not a failure, it's a setback.",
+          "t": [
+            "Ce n'est pas un échec, c'est un revers",
+            "C'est pas un échec, c'est un revers"
+          ]
+        },
+        {
+          "n": "Say the word is perhaps a bit strong.",
+          "t": [
+            "Le mot est peut-être un peu fort",
+            "Le terme est peut-être un peu fort",
+            "Le mot est un peu fort"
+          ]
+        },
+        {
+          "n": "Say you'd speak of a misunderstanding rather than a conflict.",
+          "t": [
+            "Je parlerais plutôt de malentendu que de conflit",
+            "Je parlerais plutôt d'un malentendu que d'un conflit",
+            "Je parlerais plutôt de malentendu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l3",
+      "title": "Degrees of certainty",
+      "goal": "Signal precisely how sure you are, from near-certainty to serious doubt.",
+      "tip": {
+        "title": "sans doute ≠ without a doubt",
+        "body": "Beware: sans doute today means 'probably', while sans aucun doute means 'definitely'. A rough scale from sure to doubtful: sans aucun doute → selon toute vraisemblance → il y a fort à parier que → il est probable que → il est possible que → rien n'est moins sûr. Il est probable que takes the indicative, il est possible que the subjunctive — French treats 'probable' as close enough to fact. Note that vraisemblance keeps a hissing s (vrai-sem-blance) because it is a compound of vrai + semblance."
+      },
+      "phrases": [
+        {
+          "t": "Il viendra sans doute plus tard.",
+          "n": "He'll probably come later.",
+          "note": "sans doute = probably"
+        },
+        {
+          "t": "C'est sans aucun doute la meilleure option.",
+          "n": "It's definitely the best option."
+        },
+        {
+          "t": "Selon toute vraisemblance, le projet sera retardé.",
+          "n": "In all likelihood, the project will be delayed."
+        },
+        {
+          "t": "Il y a fort à parier que les prix vont augmenter.",
+          "n": "It's a safe bet that prices will rise."
+        },
+        {
+          "t": "Il est probable que la réunion sera annulée.",
+          "n": "The meeting will probably be cancelled.",
+          "note": "il est probable que + indicative"
+        },
+        {
+          "t": "Rien n'est moins sûr.",
+          "n": "That's far from certain.",
+          "note": "Lit. 'nothing is less sure'."
+        },
+        {
+          "t": "Je n'en mettrais pas ma main au feu.",
+          "n": "I wouldn't swear to it.",
+          "note": "Lit. 'I wouldn't put my hand in the fire for it'."
+        }
+      ],
+      "dialogue": {
+        "title": "Will we make the deadline?",
+        "voice": "fr-CA-JeanNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Penses-tu qu'on va livrer le rapport vendredi ?",
+            "n": "Do you think we'll deliver the report on Friday?"
+          },
+          {
+            "who": "you",
+            "t": "Selon toute vraisemblance, oui. Il nous reste juste la relecture.",
+            "n": "In all likelihood, yes. We've just got the proofreading left."
+          },
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Pis le client, il va accepter le budget révisé ?",
+            "n": "And the client — will they accept the revised budget?",
+            "note": "pis = puis, very common in Québec speech"
+          },
+          {
+            "who": "you",
+            "t": "Rien n'est moins sûr. Il y a fort à parier qu'il va vouloir négocier.",
+            "n": "That's far from certain. It's a safe bet he'll want to negotiate."
+          },
+          {
+            "who": "A",
+            "name": "Jean-François",
+            "t": "Et Martin, il va venir nous aider en fin de semaine ?",
+            "n": "And Martin, is he going to come and help us at the weekend?"
+          },
+          {
+            "who": "you",
+            "t": "Il viendra sans doute samedi, mais je n'en mettrais pas ma main au feu.",
+            "n": "He'll probably come on Saturday, but I wouldn't swear to it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that in all likelihood the project will be delayed.",
+          "t": [
+            "Selon toute vraisemblance, le projet sera retardé",
+            "Selon toute vraisemblance, le projet va être retardé"
+          ]
+        },
+        {
+          "n": "Say you wouldn't swear to it.",
+          "t": [
+            "Je n'en mettrais pas ma main au feu",
+            "J'en mettrais pas ma main au feu"
+          ]
+        },
+        {
+          "n": "Say it's a safe bet that prices will rise.",
+          "t": [
+            "Il y a fort à parier que les prix vont augmenter",
+            "Il y a fort à parier que les prix augmenteront"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l4",
+      "kind": "grammar",
+      "title": "Subjunctive or indicative?",
+      "goal": "Choose the mood that matches your degree of certainty, including il semble que vs il me semble que.",
+      "tip": {
+        "title": "Mood = degree of certainty",
+        "body": "The indicative presents something as real; the subjunctive presents it as doubtful, possible or merely imagined. So: je pense qu'il a raison (indicative), but je ne pense pas qu'il ait raison and pensez-vous qu'il ait raison ? (subjunctive — doubt). Il est probable que + indicative, il est possible que + subjunctive. A classic trap: il semble que usually takes the subjunctive (it seems — uncertain), but il me semble que takes the indicative (it seems to me — my opinion): Il semble qu'il soit malade / Il me semble qu'il est malade. Il paraît que (apparently, people say) also takes the indicative."
+      },
+      "phrases": [
+        {
+          "t": "Il semble que la situation soit sous contrôle.",
+          "n": "It seems the situation is under control.",
+          "note": "il semble que + subjunctive"
+        },
+        {
+          "t": "Il me semble que vous avez oublié un détail.",
+          "n": "It seems to me you've forgotten a detail.",
+          "note": "il me semble que + indicative"
+        },
+        {
+          "t": "Je ne pense pas que ce soit une bonne idée.",
+          "n": "I don't think it's a good idea."
+        },
+        {
+          "t": "Il est possible que nous devions revoir le calendrier.",
+          "n": "We may have to revise the schedule."
+        },
+        {
+          "t": "Il paraît qu'elle a démissionné.",
+          "n": "Apparently she's resigned.",
+          "note": "Hearsay, with the indicative."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the frame",
+          "base": {
+            "t": "Je pense qu'il a raison.",
+            "n": "I think he's right."
+          },
+          "items": [
+            {
+              "cue": "je ne pense pas",
+              "t": "Je ne pense pas qu'il ait raison.",
+              "n": "I don't think he's right."
+            },
+            {
+              "cue": "il me semble",
+              "t": "Il me semble qu'il a raison.",
+              "n": "It seems to me he's right."
+            },
+            {
+              "cue": "il semble",
+              "t": "Il semble qu'il ait raison.",
+              "n": "It seems he's right."
+            },
+            {
+              "cue": "il est probable",
+              "t": "Il est probable qu'il a raison.",
+              "n": "He's probably right."
+            }
+          ]
+        },
+        {
+          "title": "Possible, probable or hearsay?",
+          "base": {
+            "t": "Le train est en retard.",
+            "n": "The train is late."
+          },
+          "items": [
+            {
+              "cue": "il est possible",
+              "t": "Il est possible que le train soit en retard.",
+              "n": "The train may be late."
+            },
+            {
+              "cue": "il est probable",
+              "t": "Il est probable que le train est en retard.",
+              "n": "The train is probably late."
+            },
+            {
+              "cue": "il paraît",
+              "t": "Il paraît que le train est en retard.",
+              "n": "Apparently the train is late."
+            },
+            {
+              "cue": "je doute",
+              "t": "Je doute que le train soit en retard.",
+              "n": "I doubt the train is late."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Tell someone (vous) it seems to you they've forgotten a detail.",
+          "t": [
+            "Il me semble que vous avez oublié un détail",
+            "Il me semble que tu as oublié un détail"
+          ]
+        },
+        {
+          "n": "Say you don't think it's a good idea.",
+          "t": [
+            "Je ne pense pas que ce soit une bonne idée",
+            "Je ne crois pas que ce soit une bonne idée",
+            "Je pense pas que ce soit une bonne idée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l5",
+      "kind": "listening",
+      "title": "The four-day week",
+      "goal": "Follow a radio discussion full of cautious, qualified statements.",
+      "phrases": [
+        {
+          "t": "Les résultats sont encourageants, sans plus.",
+          "n": "The results are encouraging, nothing more."
+        },
+        {
+          "t": "Il faut nuancer ce constat.",
+          "n": "That observation needs qualifying."
+        },
+        {
+          "t": "On manque encore de recul.",
+          "n": "It's still too early to judge.",
+          "note": "Lit. 'we still lack distance'."
+        },
+        {
+          "t": "Ce serait aller un peu vite en besogne.",
+          "n": "That would be jumping the gun."
+        }
+      ],
+      "story": {
+        "title": "La semaine de quatre jours, une fausse bonne idée ?",
+        "intro": "On a Brussels radio show, the host interviews a Belgian labour economist about the four-day week, and a listener from Lausanne calls in.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Animatrice",
+            "t": "Bonsoir. La semaine de quatre jours fait beaucoup parler d'elle. Beaucoup la présentent comme l'avenir du travail. Est-ce vraiment le cas ?",
+            "n": "Good evening. The four-day week is getting a lot of attention. Many people present it as the future of work. Is that really the case?"
+          },
+          {
+            "name": "Pr Delvaux",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Il faut nuancer ce constat. Les premières expériences sont encourageantes, sans plus. On manque encore de recul.",
+            "n": "That needs qualifying. The first trials are encouraging, nothing more. It's still too early to judge."
+          },
+          {
+            "name": "Animatrice",
+            "t": "Pourtant, plusieurs entreprises affirment que leurs salariés sont plus productifs.",
+            "n": "Yet several companies claim their employees are more productive."
+          },
+          {
+            "name": "Pr Delvaux",
+            "voice": "fr-BE-GerardNeural",
+            "t": "C'est possible, mais il se peut que ce soit en partie un effet de nouveauté. Au début, les gens sont très motivés.",
+            "n": "That's possible, but it may partly be a novelty effect. At first, people are very motivated."
+          },
+          {
+            "name": "Animatrice",
+            "t": "Et chez nous, en Belgique, où en est-on ?",
+            "n": "And here in Belgium, where do things stand?"
+          },
+          {
+            "name": "Pr Delvaux",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Chez nous, il ne s'agit pas de travailler moins : on peut demander à faire ses heures en quatre jours au lieu de cinq. Les journées sont donc plus longues.",
+            "n": "Here it's not about working less: you can ask to do your hours in four days instead of five. So the days are longer."
+          },
+          {
+            "name": "Animatrice",
+            "t": "Nous avons une auditrice de Lausanne en ligne. Nathalie, bonsoir !",
+            "n": "We have a listener from Lausanne on the line. Nathalie, good evening!"
+          },
+          {
+            "name": "Nathalie",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Bonsoir. Moi, je travaille sur quatre jours depuis un an, et franchement, ce n'est pas mal du tout. Mais le vendredi, on me sollicite assez souvent quand même.",
+            "n": "Good evening. I've been working a four-day week for a year and honestly, it's not bad at all. But on Fridays people still contact me fairly often."
+          },
+          {
+            "name": "Pr Delvaux",
+            "voice": "fr-BE-GerardNeural",
+            "t": "C'est exactement le risque. Dire que c'est la solution miracle, ce serait aller un peu vite en besogne.",
+            "n": "That's exactly the risk. Saying it's a miracle solution would be jumping the gun."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment le professeur décrit-il les premières expériences ?",
+            "n": "How does the professor describe the first trials?",
+            "t": [
+              "Encourageantes, sans plus",
+              "Encourageantes",
+              "Elles sont encourageantes"
+            ]
+          },
+          {
+            "q": "Selon lui, qu'est-ce qui pourrait expliquer la hausse de productivité ?",
+            "n": "According to him, what might explain the rise in productivity?",
+            "t": [
+              "Un effet de nouveauté",
+              "L'effet de nouveauté",
+              "La nouveauté"
+            ]
+          },
+          {
+            "q": "En Belgique, est-ce qu'on travaille moins d'heures ?",
+            "n": "In Belgium, do people work fewer hours?",
+            "t": [
+              "Non",
+              "Non, les journées sont plus longues",
+              "Non, on fait ses heures en quatre jours"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u03-l6",
+      "kind": "roleplay",
+      "title": "A reference call",
+      "goal": "Give an honest but tactful reference — your choices decide whether you stay credible.",
+      "phrases": [
+        {
+          "t": "C'est quelqu'un de fiable, dans l'ensemble.",
+          "n": "On the whole, he's someone reliable."
+        },
+        {
+          "t": "Il a parfois eu du mal à respecter les délais.",
+          "n": "He sometimes struggled to meet deadlines."
+        },
+        {
+          "t": "Je ne voudrais pas lui porter préjudice.",
+          "n": "I wouldn't want to harm his chances.",
+          "note": "porter préjudice à quelqu'un = to harm someone"
+        },
+        {
+          "t": "Sur le plan humain, rien à redire.",
+          "n": "On a personal level, nothing to criticise."
+        }
+      ],
+      "branch": {
+        "title": "A reference for Thomas",
+        "scene": "A recruiter in Geneva calls you about Thomas, a former colleague: friendly and creative, but often late with his work. Be honest without sinking him.",
+        "name": "Mme Rochat",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "Bonjour, ici Mme Rochat, d'un cabinet de recrutement à Genève. Thomas Girard vous a cité comme référence. Que pouvez-vous me dire sur lui ?",
+            "n": "Hello, this is Ms Rochat from a recruitment firm in Geneva. Thomas Girard gave your name as a reference. What can you tell me about him?",
+            "choices": [
+              {
+                "t": "Volontiers. C'est quelqu'un de fiable, dans l'ensemble, et de très créatif.",
+                "n": "Gladly. On the whole he's someone reliable, and very creative.",
+                "next": "q2"
+              },
+              {
+                "t": "C'est le meilleur collaborateur que j'aie jamais eu. Il est parfait.",
+                "n": "He's the best colleague I've ever had. He's perfect.",
+                "next": "praise"
+              }
+            ]
+          },
+          "q2": {
+            "t": "Dans l'ensemble, dites-vous ? J'ai l'impression que vous avez une petite réserve.",
+            "n": "On the whole, you say? I get the impression you have a slight reservation.",
+            "choices": [
+              {
+                "t": "Il a parfois eu du mal à respecter les délais. Mais sur le plan humain, rien à redire.",
+                "n": "He sometimes struggled to meet deadlines. But on a personal level, nothing to criticise.",
+                "next": "q3"
+              }
+            ]
+          },
+          "praise": {
+            "t": "Parfait, vraiment ? Il n'avait aucun point faible ?",
+            "n": "Perfect, really? He had no weak points at all?",
+            "choices": [
+              {
+                "t": "Disons que l'organisation n'était pas son point fort. Il a parfois eu du mal à respecter les délais.",
+                "n": "Let's say organisation wasn't his strong point. He sometimes struggled to meet deadlines.",
+                "next": "q3"
+              },
+              {
+                "t": "Aucun. Il est irréprochable sur tous les plans.",
+                "n": "None. He's beyond reproach in every respect.",
+                "next": "bad2"
+              }
+            ]
+          },
+          "q3": {
+            "t": "Je vous remercie de votre franchise. Pensez-vous que ce soit rédhibitoire pour un poste de chef de projet ?",
+            "n": "Thank you for your frankness. Do you think it's a deal-breaker for a project manager role?",
+            "choices": [
+              {
+                "t": "Je ne pense pas que ce soit rédhibitoire, à condition qu'il soit bien épaulé. Je ne voudrais pas lui porter préjudice.",
+                "n": "I don't think it's a deal-breaker, provided he has good support. I wouldn't want to harm his chances.",
+                "next": "good"
+              },
+              {
+                "t": "Il se peut que ce soit un défi, mais il a beaucoup progressé ces derniers temps.",
+                "n": "It may be a challenge, but he's made a lot of progress recently.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Très bien. Votre avis est nuancé, c'est exactement ce dont j'avais besoin. Merci beaucoup !",
+            "n": "Very good. Your view is balanced — exactly what I needed. Thank you very much!",
+            "end": "good",
+            "outcome": "You were honest about Thomas's weakness without sinking him — a credible, balanced reference."
+          },
+          "bad2": {
+            "t": "Personne n'est irréprochable. Je crains que cette référence ne me soit pas très utile. Au revoir.",
+            "n": "Nobody is beyond reproach. I'm afraid this reference won't be much use to me. Goodbye.",
+            "end": "bad",
+            "outcome": "Over-the-top praise isn't credible either. Admit a weakness, softened with a hedge."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Say he sometimes struggled to meet deadlines.",
+          "t": [
+            "Il a parfois eu du mal à respecter les délais",
+            "Il avait parfois du mal à respecter les délais"
+          ]
+        },
+        {
+          "n": "Say that on a personal level there's nothing to criticise.",
+          "t": [
+            "Sur le plan humain, rien à redire",
+            "Sur le plan humain, il n'y a rien à redire",
+            "Sur le plan humain, y a rien à redire"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-l7",
+      "kind": "speaking",
+      "title": "Say less, mean more",
+      "goal": "Use litotes and understatement, and give a balanced opinion on a divisive question.",
+      "culture": {
+        "title": "Va, je ne te hais point",
+        "body": "French loves the litote — saying less to mean more. The classic example comes from Corneille's Le Cid, where Chimène tells Rodrigue Va, je ne te hais point ('Go, I do not hate you'), meaning that she still loves him. In everyday speech, c'est pas mal or pas bête are genuine compliments, ce n'est pas terrible means something is rather bad, and il ne fait pas chaud means it's cold. In Québec, c'est pas pire is real praise ('pretty good'), and in French-speaking Switzerland ça joue means that something works or is fine (ça joue pour toi ? — does that work for you?). Learn to hear the full meaning behind the understatement.",
+        "regions": [
+          "FR",
+          "CA",
+          "CH"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Ce n'est pas mal du tout.",
+          "n": "That's not bad at all.",
+          "note": "Genuine praise."
+        },
+        {
+          "t": "Ce n'est pas terrible.",
+          "n": "It's not great.",
+          "note": "Litote: it's rather bad."
+        },
+        {
+          "t": "Ce n'était pas l'idée du siècle.",
+          "n": "It wasn't the idea of the century."
+        },
+        {
+          "t": "Je ne dirais pas non.",
+          "n": "I wouldn't say no."
+        },
+        {
+          "t": "C'est pas pire !",
+          "n": "It's pretty good!",
+          "note": "Québec: pas pire = quite good."
+        }
+      ],
+      "free": [
+        {
+          "n": "Give a nuanced opinion: should mobile phones be banned in schools? Weigh both sides and qualify your conclusion.",
+          "hint": "Il faut nuancer… / D'un côté… de l'autre… / Il se peut que… / J'aurais tendance à penser que…",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a hedge",
+              "any": [
+                "plutôt",
+                "assez",
+                "il se peut",
+                "dans une certaine mesure",
+                "a priori",
+                "j'aurais tendance"
+              ]
+            },
+            {
+              "label": "both sides",
+              "any": [
+                "d'un côté",
+                "de l'autre",
+                "d'une part",
+                "d'autre part",
+                "cependant",
+                "en revanche",
+                "toutefois"
+              ]
+            },
+            {
+              "label": "subjunctive of doubt",
+              "any": [
+                "soit",
+                "ait",
+                "puisse",
+                "fasse",
+                "doive",
+                "aient",
+                "soient"
+              ]
+            },
+            {
+              "label": "the topic",
+              "any": [
+                "portable*",
+                "téléphone*",
+                "écran*",
+                "élève*",
+                "école*",
+                "interdi*"
+              ]
+            }
+          ],
+          "model": "Il faut nuancer. D'un côté, le portable empêche souvent les élèves de se concentrer, et il se peut qu'il favorise le harcèlement. De l'autre, je ne pense pas qu'une interdiction totale soit la solution : c'est aussi un outil pédagogique. J'aurais tendance à penser qu'il vaut mieux encadrer son usage plutôt que l'interdire."
+        },
+        {
+          "n": "Describe a meal, film or trip that disappointed you — using only understatement and litotes, never saying outright that it was bad.",
+          "hint": "Ce n'était pas terrible… / Ce n'était pas l'idée du siècle… / Disons que c'était perfectible…",
+          "seconds": 60,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "a litote",
+              "any": [
+                "pas terrible",
+                "pas l'idée du siècle",
+                "pas génial",
+                "pas extraordinaire",
+                "perfectible",
+                "pas inoubliable",
+                "pas vraiment"
+              ]
+            },
+            {
+              "label": "a softener",
+              "any": [
+                "disons",
+                "plutôt",
+                "assez",
+                "un peu",
+                "légèrement"
+              ]
+            },
+            {
+              "label": "the topic",
+              "any": [
+                "repas",
+                "film",
+                "voyage",
+                "restaurant",
+                "hôtel",
+                "plat*",
+                "séjour",
+                "dessert"
+              ]
+            }
+          ],
+          "model": "Le week-end dernier, nous avons essayé un nouveau restaurant. Disons que ce n'était pas l'idée du siècle. Le plat principal n'était pas terrible, un peu froid, et le service était assez lent. Ce n'était pas inoubliable, mais le dessert, lui, n'était pas mal du tout."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say it's not bad at all.",
+          "t": [
+            "Ce n'est pas mal du tout",
+            "C'est pas mal du tout",
+            "Pas mal du tout"
+          ]
+        },
+        {
+          "n": "Say, with understatement, that you wouldn't say no.",
+          "t": [
+            "Je ne dirais pas non",
+            "Je dirais pas non"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Les nuances",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

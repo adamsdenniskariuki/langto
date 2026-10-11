@@ -1,0 +1,798 @@
+{
+  "id": "c1-u05",
+  "title": "L'exposé",
+  "subtitle": "Presentations, structure & questions",
+  "icon": "🎤",
+  "lessons": [
+    {
+      "id": "c1-u05-l1",
+      "title": "Opening a talk",
+      "goal": "Greet the audience, state your guiding question and announce a clear plan.",
+      "tip": {
+        "title": "Hook, question, plan",
+        "body": "French-speaking audiences expect an explicit introduction: a hook (accroche), the guiding question (la problématique) and the plan (l'annonce du plan), announced in the future tense: je dresserai, nous verrons, je conclurai. With three parts, say dans un deuxième temps (second is traditionally kept for two). Pronunciation: make the liaison in trois axes (trwa-z-axe) and let your voice rise slightly at the end of each part of the plan, falling only on the last."
+      },
+      "phrases": [
+        {
+          "t": "Je vous remercie d'être venus si nombreux.",
+          "n": "Thank you for coming in such large numbers.",
+          "note": "A classic opener; venus agrees with vous (plural)."
+        },
+        {
+          "t": "Je vais vous parler aujourd'hui de la transition énergétique dans nos villes.",
+          "n": "Today I'm going to talk to you about the energy transition in our cities."
+        },
+        {
+          "t": "Mon exposé s'articulera autour de trois axes.",
+          "n": "My talk will be structured around three main points."
+        },
+        {
+          "t": "Dans un premier temps, je dresserai un état des lieux.",
+          "n": "First, I'll give an overview of the current situation.",
+          "note": "dresser un état des lieux = take stock"
+        },
+        {
+          "t": "Dans un deuxième temps, nous verrons quelles solutions s'offrent à nous.",
+          "n": "Secondly, we'll look at what solutions are available to us."
+        },
+        {
+          "t": "Enfin, je conclurai par quelques recommandations.",
+          "n": "Finally, I'll conclude with a few recommendations."
+        },
+        {
+          "t": "La question qui nous occupe est la suivante : comment concilier croissance et sobriété ?",
+          "n": "The question we're dealing with is this: how can we reconcile growth and restraint?",
+          "note": "sobriété = moderation in consumption (energy, resources)"
+        },
+        {
+          "t": "N'hésitez pas à m'interrompre si quelque chose n'est pas clair.",
+          "n": "Feel free to interrupt me if anything is unclear."
+        }
+      ],
+      "dialogue": {
+        "title": "A rehearsal in Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Bon, on fait une répétition ? Vas-y, commence comme si la salle était pleine.",
+            "n": "Right, shall we do a rehearsal? Go on, start as if the room were full."
+          },
+          {
+            "who": "you",
+            "t": "Je vous remercie d'être venus si nombreux. Je vais vous parler aujourd'hui de la transition énergétique dans nos villes.",
+            "n": "Thank you for coming in such large numbers. Today I'm going to talk to you about the energy transition in our cities."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Parfait. Et ensuite, tu annonces ton plan ?",
+            "n": "Perfect. And then you announce your plan?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Mon exposé s'articulera autour de trois axes. Dans un premier temps, je dresserai un état des lieux.",
+            "n": "Yes. My talk will be structured around three main points. First, I'll give an overview of the current situation."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Excellent. Mais pose ta question centrale dès le début, sinon le public va décrocher.",
+            "n": "Excellent. But state your central question right at the start, otherwise the audience will switch off."
+          },
+          {
+            "who": "you",
+            "t": "Bonne idée. La question qui nous occupe est la suivante : comment concilier croissance et sobriété ?",
+            "n": "Good idea. The question we're dealing with is this: how can we reconcile growth and restraint?"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Thank the audience for coming in such large numbers.",
+          "t": [
+            "Je vous remercie d'être venus si nombreux",
+            "Merci d'être venus si nombreux",
+            "Je vous remercie d'être venues si nombreuses"
+          ]
+        },
+        {
+          "n": "Say your talk will be structured around three main points.",
+          "t": [
+            "Mon exposé s'articulera autour de trois axes",
+            "Mon exposé s'articule autour de trois axes",
+            "Mon exposé comportera trois parties"
+          ]
+        },
+        {
+          "n": "Tell the audience to feel free to interrupt you if anything is unclear.",
+          "t": [
+            "N'hésitez pas à m'interrompre si quelque chose n'est pas clair",
+            "N'hésitez pas à m'interrompre",
+            "Hésitez pas à m'interrompre si quelque chose n'est pas clair"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l2",
+      "title": "Guiding your audience",
+      "goal": "Move between points, comment on a slide and reformulate key ideas.",
+      "tip": {
+        "title": "Signposts and slides",
+        "body": "Tell the audience where they are. Move on with the nous imperative (Passons maintenant à…), postpone with y (J'y reviendrai = I'll come back to it), reformulate with autrement dit. Pour illustrer mon propos introduces an example. Don't read your slides: point to one figure. Pronunciation: the final e of chiffre is silent: « chifr' »; pause just before a key number."
+      },
+      "phrases": [
+        {
+          "t": "Passons maintenant au deuxième point.",
+          "n": "Let's now move on to the second point."
+        },
+        {
+          "t": "Comme vous pouvez le constater sur ce graphique, les émissions ont nettement baissé.",
+          "n": "As you can see on this graph, emissions have fallen sharply."
+        },
+        {
+          "t": "J'attire votre attention sur ce chiffre.",
+          "n": "I'd like to draw your attention to this figure."
+        },
+        {
+          "t": "J'y reviendrai un peu plus tard.",
+          "n": "I'll come back to that a little later.",
+          "note": "y = to that (revenir à quelque chose)"
+        },
+        {
+          "t": "Autrement dit, la demande a doublé en dix ans.",
+          "n": "In other words, demand has doubled in ten years."
+        },
+        {
+          "t": "Pour illustrer mon propos, prenons un exemple concret.",
+          "n": "To illustrate my point, let's take a concrete example."
+        },
+        {
+          "t": "Ce qu'il faut retenir, c'est que tout se joue au niveau local.",
+          "n": "The key takeaway is that everything is decided at local level."
+        }
+      ],
+      "dialogue": {
+        "title": "Feedback from a Brussels colleague",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Bon, ta diapo avec les courbes est très chargée. Comment est-ce que tu vas la présenter ?",
+            "n": "Right, your slide with the curves is very busy. How are you going to present it?"
+          },
+          {
+            "who": "you",
+            "t": "Comme vous pouvez le constater sur ce graphique, les émissions ont nettement baissé. J'attire votre attention sur ce chiffre.",
+            "n": "As you can see on this graph, emissions have fallen sharply. I'd like to draw your attention to this figure."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "D'accord, mais lequel ? Il y en a au moins six à l'écran !",
+            "n": "OK, but which one? There are at least six on the screen!"
+          },
+          {
+            "who": "you",
+            "t": "Tu as raison. Je n'en garderai qu'un : la baisse de trente pour cent.",
+            "n": "You're right. I'll keep just one: the thirty per cent drop."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "t": "Impeccable. Et comment est-ce que tu termines cette partie ?",
+            "n": "Perfect. And how do you finish this part?"
+          },
+          {
+            "who": "you",
+            "t": "Ce qu'il faut retenir, c'est que tout se joue au niveau local. Passons maintenant au deuxième point.",
+            "n": "The key takeaway is that everything is decided at local level. Let's now move on to the second point."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Move on to the second point.",
+          "t": [
+            "Passons maintenant au deuxième point",
+            "Passons au deuxième point",
+            "Passons maintenant au second point"
+          ]
+        },
+        {
+          "n": "Say you'll come back to that a little later.",
+          "t": [
+            "J'y reviendrai un peu plus tard",
+            "J'y reviendrai plus tard",
+            "Je vais y revenir un peu plus tard"
+          ]
+        },
+        {
+          "n": "Introduce a concrete example to illustrate your point.",
+          "t": [
+            "Pour illustrer mon propos, prenons un exemple concret",
+            "Pour illustrer mon propos prenons un exemple",
+            "Prenons un exemple concret"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l3",
+      "title": "Handling questions",
+      "goal": "Welcome a question, reformulate it, and answer or promise a follow-up.",
+      "tip": {
+        "title": "Thank, reformulate, answer",
+        "body": "Buy time: thank the person, then reformulate (Si je comprends bien, vous vous demandez si…). If you don't know, say so and promise to follow up (je vous les ferai parvenir). To set a question aside, say it goes beyond the scope of the talk. Then check: Est-ce que cela répond à votre question ? Pronunciation: pertinente keeps the nasal vowel of pertinent and adds a pronounced t: per-ti-nan(t)' — whereas in the masculine pertinent the t is silent."
+      },
+      "phrases": [
+        {
+          "t": "Merci pour cette question, elle est tout à fait pertinente.",
+          "n": "Thank you for that question, it's entirely relevant."
+        },
+        {
+          "t": "Si je comprends bien, vous vous demandez si le projet est rentable.",
+          "n": "If I understand correctly, you're wondering whether the project is profitable."
+        },
+        {
+          "t": "Je n'ai pas les chiffres exacts en tête, mais je vous les ferai parvenir.",
+          "n": "I don't have the exact figures in my head, but I'll get them to you."
+        },
+        {
+          "t": "C'est une remarque intéressante, qui dépasse un peu le cadre de cet exposé.",
+          "n": "That's an interesting point, which goes slightly beyond the scope of this talk."
+        },
+        {
+          "t": "Permettez-moi de nuancer ce que vous venez de dire.",
+          "n": "Allow me to qualify what you've just said."
+        },
+        {
+          "t": "Est-ce que cela répond à votre question ?",
+          "n": "Does that answer your question?"
+        }
+      ],
+      "dialogue": {
+        "title": "A question from the floor in Neuchâtel",
+        "voice": "fr-CH-FabriceNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Monsieur Rochat",
+            "t": "Merci pour cet exposé. Mais concrètement, combien tout cela va-t-il coûter aux contribuables ?",
+            "n": "Thank you for the talk. But in concrete terms, how much is all this going to cost taxpayers?"
+          },
+          {
+            "who": "you",
+            "t": "Merci pour cette question, elle est tout à fait pertinente. Si je comprends bien, vous vous demandez si le projet est rentable.",
+            "n": "Thank you for that question, it's entirely relevant. If I understand correctly, you're wondering whether the project is profitable."
+          },
+          {
+            "who": "A",
+            "name": "Monsieur Rochat",
+            "t": "Exactement. On parle tout de même de plusieurs millions de francs.",
+            "n": "Exactly. We are talking about several million francs, after all."
+          },
+          {
+            "who": "you",
+            "t": "Je n'ai pas les chiffres exacts en tête, mais je vous les ferai parvenir dès demain.",
+            "n": "I don't have the exact figures in my head, but I'll get them to you tomorrow."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Thank someone for their question and say it's entirely relevant.",
+          "t": [
+            "Merci pour cette question, elle est tout à fait pertinente",
+            "Merci pour votre question, elle est très pertinente",
+            "Merci pour cette question très pertinente"
+          ]
+        },
+        {
+          "n": "Say you don't have the exact figures in your head but will get them to the person.",
+          "t": [
+            "Je n'ai pas les chiffres exacts en tête, mais je vous les ferai parvenir",
+            "Je n'ai pas les chiffres en tête, mais je vous les ferai parvenir",
+            "J'ai pas les chiffres exacts en tête mais je vous les ferai parvenir"
+          ]
+        },
+        {
+          "n": "Ask whether that answers their question.",
+          "t": [
+            "Est-ce que cela répond à votre question",
+            "Cela répond-il à votre question",
+            "Est-ce que ça répond à votre question"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l4",
+      "kind": "grammar",
+      "title": "Discourse connectors",
+      "goal": "Order, add, contrast and conclude ideas with formal connectors.",
+      "tip": {
+        "title": "Connectors that structure a talk",
+        "body": "Ordering: d'abord, ensuite, enfin. Adding: de plus, en outre (moreover, formal), qui plus est, par ailleurs (furthermore, or 'on another note'). Contrasting: cependant, toutefois, néanmoins (however), en revanche (on the other hand — nothing to do with revenge). Concluding: en somme, bref, en définitive. Connectors usually open the sentence, followed by a comma. Pronunciation: en outre has a liaison (an-noutr')."
+      },
+      "phrases": [
+        {
+          "t": "D'abord, je présenterai le contexte ; ensuite, j'analyserai les résultats.",
+          "n": "First I'll present the background; then I'll analyse the results."
+        },
+        {
+          "t": "Ce dispositif est peu coûteux. En outre, il est facile à mettre en place.",
+          "n": "This scheme is inexpensive. Moreover, it's easy to set up."
+        },
+        {
+          "t": "Par ailleurs, il convient de souligner le rôle des communes.",
+          "n": "Furthermore, the role of local authorities should be emphasised."
+        },
+        {
+          "t": "Les grandes villes progressent vite ; en revanche, les zones rurales sont à la traîne.",
+          "n": "Big cities are progressing fast; rural areas, on the other hand, are lagging behind."
+        },
+        {
+          "t": "En somme, la transition est possible, à condition d'être financée.",
+          "n": "In short, the transition is possible, provided it's funded."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Add an argument",
+          "base": {
+            "t": "Le projet est rentable. En outre, il crée des emplois.",
+            "n": "The project is profitable. Moreover, it creates jobs."
+          },
+          "items": [
+            {
+              "cue": "de plus",
+              "t": "Le projet est rentable. De plus, il crée des emplois.",
+              "n": "The project is profitable. In addition, it creates jobs."
+            },
+            {
+              "cue": "qui plus est",
+              "t": "Le projet est rentable. Qui plus est, il crée des emplois.",
+              "n": "The project is profitable. What's more, it creates jobs."
+            },
+            {
+              "cue": "par ailleurs",
+              "t": "Le projet est rentable. Par ailleurs, il crée des emplois.",
+              "n": "The project is profitable. Furthermore, it creates jobs."
+            }
+          ]
+        },
+        {
+          "title": "Contrast two ideas",
+          "base": {
+            "t": "Le coût est élevé ; en revanche, les bénéfices sont durables.",
+            "n": "The cost is high; on the other hand, the benefits are lasting."
+          },
+          "items": [
+            {
+              "cue": "toutefois",
+              "t": "Le coût est élevé ; toutefois, les bénéfices sont durables.",
+              "n": "The cost is high; however, the benefits are lasting."
+            },
+            {
+              "cue": "néanmoins",
+              "t": "Le coût est élevé ; néanmoins, les bénéfices sont durables.",
+              "n": "The cost is high; nevertheless, the benefits are lasting."
+            },
+            {
+              "cue": "certes… mais",
+              "t": "Certes, le coût est élevé, mais les bénéfices sont durables.",
+              "n": "Admittedly the cost is high, but the benefits are lasting."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the scheme is inexpensive and, moreover, easy to set up.",
+          "t": [
+            "Ce dispositif est peu coûteux. En outre, il est facile à mettre en place",
+            "Ce dispositif est peu coûteux, en outre il est facile à mettre en place",
+            "Ce dispositif est peu coûteux. De plus, il est facile à mettre en place"
+          ]
+        },
+        {
+          "n": "Sum up: in short, the transition is possible provided it's funded.",
+          "t": [
+            "En somme, la transition est possible, à condition d'être financée",
+            "Bref, la transition est possible à condition d'être financée",
+            "En somme, la transition est possible si elle est financée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l5",
+      "kind": "listening",
+      "title": "A student talk in Lausanne",
+      "goal": "Follow the structure of an academic talk and the question that follows.",
+      "phrases": [
+        {
+          "t": "Mon exposé porte sur l'avenir des stations de ski.",
+          "n": "My talk is about the future of ski resorts."
+        },
+        {
+          "t": "J'esquisserai quelques pistes pour l'avenir.",
+          "n": "I'll outline a few possible directions for the future.",
+          "note": "une piste = a lead, an avenue (and a ski run!)"
+        },
+        {
+          "t": "Les stations qui s'en sortent sont celles qui se diversifient.",
+          "n": "The resorts that are coping are those that diversify."
+        },
+        {
+          "t": "J'y consacre d'ailleurs un chapitre de mon mémoire.",
+          "n": "In fact, I devote a chapter of my thesis to it.",
+          "note": "mémoire (m.) = dissertation/thesis; la mémoire = memory"
+        }
+      ],
+      "story": {
+        "title": "Les stations de moyenne montagne ont-elles un avenir ?",
+        "intro": "At the University of Lausanne, a master's student presents his research on Alpine tourism, then takes a question from a visiting professor.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Mon exposé porte sur une question simple en apparence : les stations de ski de moyenne montagne ont-elles encore un avenir ?",
+            "n": "My talk deals with a question that seems simple: do mid-altitude ski resorts still have a future?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "D'abord, je rappellerai quelques données sur l'enneigement. Ensuite, je présenterai trois stations valaisannes que j'ai étudiées. Enfin, j'esquisserai quelques pistes pour l'avenir.",
+            "n": "First, I'll recall some data on snow cover. Then I'll present three resorts in the Valais that I studied. Finally, I'll outline a few possible directions for the future."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Premier constat : les remontées mécaniques coûtent très cher à entretenir. Par ailleurs, la clientèle évolue : elle recherche davantage la randonnée et le bien-être.",
+            "n": "First finding: ski lifts are very expensive to maintain. Furthermore, the clientele is changing: it's looking more for hiking and wellness."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "En somme, les stations qui s'en sortent sont celles qui se diversifient et qui vivent toute l'année.",
+            "n": "In short, the resorts that are coping are those that diversify and stay active all year round."
+          },
+          {
+            "name": "Professeur Mercier",
+            "voice": "fr-FR-AlainNeural",
+            "t": "Merci, c'était très clair. Mais vous n'évoquez pas les canons à neige. Ne sont-ils pas la solution ?",
+            "n": "Thank you, that was very clear. But you don't mention snow cannons. Aren't they the solution?"
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Merci pour cette question, elle est tout à fait pertinente. Les canons à neige aident à court terme, mais ils consomment beaucoup d'eau et d'énergie.",
+            "n": "Thank you for that question, it's entirely relevant. Snow cannons help in the short term, but they use a lot of water and energy."
+          },
+          {
+            "name": "Julien",
+            "voice": "fr-CH-FabriceNeural",
+            "t": "Autrement dit, ils prolongent la saison sans régler le problème de fond. J'y consacre d'ailleurs un chapitre de mon mémoire.",
+            "n": "In other words, they extend the season without solving the underlying problem. In fact, I devote a chapter of my thesis to it."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Sur quoi porte l'exposé de Julien ?",
+            "n": "What is Julien's talk about?",
+            "t": [
+              "Sur l'avenir des stations de ski",
+              "L'avenir des stations de ski",
+              "Le tourisme alpin"
+            ]
+          },
+          {
+            "q": "Combien de stations a-t-il étudiées ?",
+            "n": "How many resorts did he study?",
+            "t": [
+              "Trois",
+              "Trois stations",
+              "Il a étudié trois stations"
+            ]
+          },
+          {
+            "q": "Que recherche davantage la clientèle aujourd'hui ?",
+            "n": "What are visitors looking for more nowadays?",
+            "t": [
+              "La randonnée et le bien-être",
+              "La randonnée",
+              "Le bien-être"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u05-l6",
+      "kind": "roleplay",
+      "title": "A sceptical board member",
+      "goal": "Keep control of your presentation when someone challenges your figures.",
+      "phrases": [
+        {
+          "t": "Vos réserves sont légitimes, et je vais y répondre.",
+          "n": "Your reservations are legitimate, and I'm going to address them."
+        },
+        {
+          "t": "Si vous le permettez, je termine ce point et je reviens à votre question.",
+          "n": "If I may, I'll finish this point and come back to your question."
+        },
+        {
+          "t": "Les données proviennent d'une étude menée sur six mois.",
+          "n": "The data come from a study carried out over six months."
+        },
+        {
+          "t": "Ces économies compensent largement les frais de déménagement.",
+          "n": "These savings more than offset the moving costs."
+        }
+      ],
+      "branch": {
+        "title": "The Brussels board meeting",
+        "scene": "You're presenting a plan to move your company's Brussels office into a co-working space when a sceptical board member interrupts.",
+        "name": "Madame Peeters (conseil d'administration)",
+        "voice": "fr-BE-CharlineNeural",
+        "start": "open",
+        "nodes": {
+          "open": {
+            "t": "Excusez-moi de vous interrompre, mais vos chiffres me paraissent bien optimistes. D'où viennent-ils ?",
+            "n": "Sorry to interrupt, but your figures seem rather optimistic to me. Where do they come from?",
+            "choices": [
+              {
+                "t": "Merci pour cette question, elle est tout à fait pertinente. Les données proviennent d'une étude menée sur six mois.",
+                "n": "Thank you for that question, it's entirely relevant. The data come from a study carried out over six months.",
+                "next": "source"
+              },
+              {
+                "t": "Si vous m'aviez laissé finir, vous le sauriez.",
+                "n": "If you'd let me finish, you'd know.",
+                "next": "rude"
+              }
+            ]
+          },
+          "rude": {
+            "t": "Je vous demande pardon ? Je pose simplement une question légitime.",
+            "n": "I beg your pardon? I'm simply asking a legitimate question.",
+            "choices": [
+              {
+                "t": "Vous avez raison, excusez-moi. Vos réserves sont légitimes, et je vais y répondre.",
+                "n": "You're right, I apologise. Your reservations are legitimate, and I'm going to address them.",
+                "next": "source"
+              },
+              {
+                "t": "Les questions, c'est à la fin. Je continue.",
+                "n": "Questions are at the end. I'm carrying on.",
+                "next": "bad"
+              }
+            ]
+          },
+          "source": {
+            "t": "Six mois, c'est court. Et vous avez tenu compte des frais de déménagement ?",
+            "n": "Six months is short. And have you taken the moving costs into account?",
+            "choices": [
+              {
+                "t": "Je n'ai pas le détail en tête, mais je vous le ferai parvenir dès demain.",
+                "n": "I don't have the details in my head, but I'll get them to you tomorrow.",
+                "next": "later"
+              },
+              {
+                "t": "Oui, et j'y reviendrai d'ailleurs dans ma troisième partie.",
+                "n": "Yes, and in fact I'll come back to that in my third part.",
+                "next": "part3"
+              }
+            ]
+          },
+          "later": {
+            "t": "Hum. C'est un peu léger pour une décision de cette importance.",
+            "n": "Hmm. That's a bit thin for a decision of this importance.",
+            "choices": [
+              {
+                "t": "Je comprends. Prenons un exemple concret : notre bureau de Gand a fait la même transition l'an dernier et a réduit ses coûts d'environ vingt pour cent.",
+                "n": "I understand. Let's take a concrete example: our Ghent office made the same change last year and cut its costs by about twenty per cent.",
+                "next": "good"
+              },
+              {
+                "t": "Je comprends. Vous aurez le détail complet avant le vote, c'est promis.",
+                "n": "I understand. You'll have the full details before the vote, I promise.",
+                "next": "good"
+              }
+            ]
+          },
+          "part3": {
+            "t": "Très bien, je vous laisse poursuivre, alors.",
+            "n": "Very well, I'll let you continue, then.",
+            "choices": [
+              {
+                "t": "Merci. Comme vous pouvez le constater sur ce tableau, ces économies compensent largement les frais de déménagement.",
+                "n": "Thank you. As you can see in this table, these savings more than offset the moving costs.",
+                "next": "good"
+              },
+              {
+                "t": "Si vous le permettez, je termine ce point et je reviens à votre question.",
+                "n": "If I may, I'll finish this point and come back to your question.",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Voilà qui me rassure. Continuez, je vous écoute.",
+            "n": "That reassures me. Go on, I'm listening.",
+            "end": "good",
+            "outcome": "You welcomed the challenge, answered calmly and kept your presentation on track."
+          },
+          "bad": {
+            "t": "Dans ces conditions, je propose que nous reportions ce point à une prochaine séance.",
+            "n": "Under the circumstances, I suggest we postpone this item to a later meeting.",
+            "end": "bad",
+            "outcome": "You brushed off a legitimate question and lost the board. Thank, reformulate and answer — even when interrupted."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Tell the board member her reservations are legitimate and that you'll address them.",
+          "t": [
+            "Vos réserves sont légitimes, et je vais y répondre",
+            "Vos réserves sont légitimes et je vais y répondre",
+            "Vos réserves sont tout à fait légitimes"
+          ]
+        },
+        {
+          "n": "Say that, if you may, you'll finish this point and come back to her question.",
+          "t": [
+            "Si vous le permettez, je termine ce point et je reviens à votre question",
+            "Si vous permettez, je termine ce point et je reviens à votre question",
+            "Je termine ce point et je reviens à votre question"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-l7",
+      "kind": "speaking",
+      "title": "Your own exposé",
+      "goal": "Open a talk with a clear plan and handle a tricky question freely.",
+      "culture": {
+        "title": "Introduction, plan, conclusion",
+        "body": "In France, Belgium and Switzerland, school and university presentations usually follow a visible structure inherited from the dissertation: an introduction with a hook, a problématique and the announced plan, two or three linked parts, and a conclusion that answers the question and often opens up a wider one (l'ouverture). French lycée pupils now also take the Grand oral at the baccalauréat. In Québec, presentations are often more relaxed and interactive — but a clear plan is appreciated everywhere.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Pour commencer, permettez-moi de vous poser une question.",
+          "n": "To begin with, allow me to ask you a question."
+        },
+        {
+          "t": "Je conclurai en ouvrant sur une question plus large.",
+          "n": "I'll conclude by opening up a broader question."
+        },
+        {
+          "t": "Je vous remercie de votre attention.",
+          "n": "Thank you for your attention."
+        }
+      ],
+      "free": [
+        {
+          "n": "Open a short talk on a topic you know well: start with a hook, state your guiding question and announce a plan in two or three parts.",
+          "hint": "Je vais vous parler de … · La question qui nous occupe est la suivante : … · Dans un premier temps … Dans un deuxième temps … Enfin …",
+          "seconds": 75,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "introduce the topic",
+              "any": [
+                "exposé",
+                "vous parler",
+                "porte sur",
+                "sujet",
+                "présenter"
+              ]
+            },
+            {
+              "label": "a guiding question",
+              "any": [
+                "question",
+                "problématique",
+                "dans quelle mesure",
+                "comment",
+                "pourquoi"
+              ]
+            },
+            {
+              "label": "announce the plan",
+              "any": [
+                "premier temps",
+                "deuxième temps",
+                "d'abord",
+                "ensuite",
+                "enfin",
+                "axes",
+                "parties",
+                "s'articul*"
+              ]
+            }
+          ],
+          "model": "Qui, dans cette salle, va au travail à vélo ? Je vais vous parler aujourd'hui de la mobilité douce en ville. La question qui nous occupe est la suivante : comment rendre le vélo plus sûr ? Dans un premier temps, je dresserai un état des lieux. Ensuite, nous verrons des exemples réussis. Enfin, je conclurai par des recommandations."
+        },
+        {
+          "n": "Answer a tricky question from the audience: thank the person, reformulate the question, answer it or promise to follow up, then check they're satisfied.",
+          "hint": "Merci pour cette question … · Si je comprends bien, vous vous demandez si … · Je vous ferai parvenir … · Est-ce que cela répond à votre question ?",
+          "seconds": 60,
+          "minWords": 35,
+          "targets": [
+            {
+              "label": "thank the person",
+              "any": [
+                "merci",
+                "pertinente",
+                "bonne question",
+                "excellente question",
+                "remarque"
+              ]
+            },
+            {
+              "label": "reformulate",
+              "any": [
+                "si je comprends bien",
+                "autrement dit",
+                "vous vous demandez",
+                "vous voulez savoir",
+                "c'est-à-dire"
+              ]
+            },
+            {
+              "label": "answer or follow up",
+              "any": [
+                "ferai parvenir",
+                "reviendrai",
+                "enverrai",
+                "nuancer",
+                "cadre",
+                "chiffres"
+              ]
+            }
+          ],
+          "model": "Merci pour cette question, elle est tout à fait pertinente. Si je comprends bien, vous vous demandez si le projet est rentable. Je n'ai pas les chiffres exacts en tête, mais je vous les ferai parvenir dès demain. Est-ce que cela répond à votre question ?"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Thank the audience for their attention.",
+          "t": [
+            "Je vous remercie de votre attention",
+            "Merci de votre attention",
+            "Merci pour votre attention"
+          ]
+        },
+        {
+          "n": "Say you'll conclude by opening up a broader question.",
+          "t": [
+            "Je conclurai en ouvrant sur une question plus large",
+            "Je vais conclure en ouvrant sur une question plus large",
+            "Pour conclure, j'ouvrirai sur une question plus large"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: L'exposé",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "id": "c1-u07",
+  "title": "Raconter",
+  "subtitle": "Storytelling, anecdotes & narrative tenses",
+  "icon": "📖",
+  "lessons": [
+    {
+      "id": "c1-u07-l1",
+      "title": "Telling an anecdote with suspense",
+      "goal": "Hook your listeners, build up tension and deliver the twist of a personal anecdote.",
+      "tip": {
+        "title": "Switch to the present for the drama",
+        "body": "French anecdotes usually start in the passé composé and imparfait, but at the dramatic moment speakers often jump into the present (le présent de narration): Et là, qu'est-ce que je vois ? Hooks like Tu ne devineras jamais … create suspense. Speed up during the action, then pause just before the twist. Pronunciation: in Et là, the t of et is never pronounced, and the voice rises on là to keep people waiting."
+      },
+      "phrases": [
+        {
+          "t": "Tu ne devineras jamais ce qui m'est arrivé.",
+          "n": "You'll never guess what happened to me."
+        },
+        {
+          "t": "Je ne me doutais de rien.",
+          "n": "I didn't suspect a thing."
+        },
+        {
+          "t": "Et là, qu'est-ce que je vois ?",
+          "n": "And then, what do I see?"
+        },
+        {
+          "t": "J'en ai eu des sueurs froides.",
+          "n": "It gave me cold sweats."
+        },
+        {
+          "t": "Et c'est là que tout a basculé.",
+          "n": "And that's when everything changed."
+        },
+        {
+          "t": "Et le comble, c'est que personne n'avait rien remarqué.",
+          "n": "And the best part is that nobody had noticed a thing.",
+          "note": "le comble = the height of it, the last straw."
+        },
+        {
+          "t": "Avec le recul, j'en ris.",
+          "n": "Looking back, I laugh about it."
+        }
+      ],
+      "dialogue": {
+        "title": "The trip to Marseille",
+        "voice": "fr-FR-CoralieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Margaux",
+            "t": "Alors, ce week-end à Marseille ? Tu as une tête de quelqu'un qui a vécu des choses !",
+            "n": "So, that weekend in Marseille? You look like someone who's been through something!"
+          },
+          {
+            "who": "you",
+            "t": "Tu ne devineras jamais ce qui m'est arrivé. Samedi soir, on dînait sur le Vieux-Port, je ne me doutais de rien.",
+            "n": "You'll never guess what happened to me. On Saturday evening we were having dinner at the Old Port, I didn't suspect a thing."
+          },
+          {
+            "who": "A",
+            "name": "Margaux",
+            "t": "Oh là là, ça sent le drame. Vas-y, raconte !",
+            "n": "Oh dear, this smells like drama. Go on, tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Je mets la main dans mon sac pour payer… et là, qu'est-ce que je vois ? Plus de portefeuille ! J'en ai eu des sueurs froides.",
+            "n": "I put my hand in my bag to pay… and then, what do I see? No more wallet! It gave me cold sweats."
+          },
+          {
+            "who": "A",
+            "name": "Margaux",
+            "t": "Non ! On te l'avait volé ?",
+            "n": "No! Had someone stolen it?"
+          },
+          {
+            "who": "you",
+            "t": "C'est ce que je croyais. Et c'est là que tout a basculé : le serveur arrive avec mon portefeuille. Je l'avais laissé dans les toilettes !",
+            "n": "That's what I thought. And that's when everything changed: the waiter comes over with my wallet. I'd left it in the toilets!"
+          },
+          {
+            "who": "A",
+            "name": "Margaux",
+            "t": "Ah, quel soulagement ! Et tout y était ?",
+            "n": "Oh, what a relief! And was everything still in it?"
+          },
+          {
+            "who": "you",
+            "t": "Absolument tout. Et le comble, c'est que personne n'avait rien remarqué à table. Avec le recul, j'en ris.",
+            "n": "Absolutely everything. And the best part is that nobody at the table had noticed a thing. Looking back, I laugh about it."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Hook a friend: say they'll never guess what happened to you.",
+          "t": [
+            "Tu ne devineras jamais ce qui m'est arrivé",
+            "Vous ne devinerez jamais ce qui m'est arrivé",
+            "Tu devineras jamais ce qui m'est arrivé"
+          ]
+        },
+        {
+          "n": "Say that's when everything changed.",
+          "t": [
+            "Et c'est là que tout a basculé",
+            "C'est là que tout a basculé",
+            "C'est à ce moment-là que tout a basculé"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l2",
+      "title": "Setting the scene and reacting",
+      "goal": "Paint the background of a story and react like an engaged listener.",
+      "tip": {
+        "title": "Imparfait for the set, passé composé for the action",
+        "body": "Set the stage in the imparfait (il pleuvait, tout le monde dormait), then move the plot with the passé composé (le téléphone a sonné). Good listeners keep the story going: Sans blague ! Et ensuite ? or Ne me laisse pas sur ma faim ! If you suspect exaggeration, Tu me fais marcher ! is friendly teasing. Pronunciation: in Sans blague, the n of sans is nasal and silent — say [sɑ̃ blag], not 'sanz'."
+      },
+      "phrases": [
+        {
+          "t": "Imagine un peu la scène : il pleuvait des cordes et il était minuit passé.",
+          "n": "Just picture the scene: it was pouring with rain and it was past midnight."
+        },
+        {
+          "t": "Tout le monde dormait à poings fermés.",
+          "n": "Everyone was fast asleep."
+        },
+        {
+          "t": "Sans blague ! Et ensuite ?",
+          "n": "No kidding! And then?"
+        },
+        {
+          "t": "Tu me fais marcher !",
+          "n": "You're pulling my leg!"
+        },
+        {
+          "t": "Ne me laisse pas sur ma faim !",
+          "n": "Don't leave me hanging!"
+        },
+        {
+          "t": "J'avoue que j'ai un peu brodé.",
+          "n": "I admit I embellished it a bit.",
+          "note": "broder = to embroider, i.e. to embellish a story."
+        },
+        {
+          "t": "C'est une histoire à dormir debout.",
+          "n": "That's a cock-and-bull story."
+        }
+      ],
+      "dialogue": {
+        "title": "The night of the power cut",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "Je t'ai raconté la panne de courant de l'hiver dernier, à Namur ? Imagine un peu la scène : il pleuvait des cordes et il était minuit passé.",
+            "n": "Did I tell you about last winter's power cut in Namur? Just picture the scene: it was pouring with rain and it was past midnight."
+          },
+          {
+            "who": "you",
+            "t": "Non, jamais ! Et alors, qu'est-ce qui s'est passé ?",
+            "n": "No, never! So, what happened?"
+          },
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "Tout le monde dormait à poings fermés, sauf moi. Et d'un coup, plus de lumière, et quelqu'un frappe à la porte.",
+            "n": "Everyone was fast asleep, except me. And suddenly, no more light, and someone knocks at the door."
+          },
+          {
+            "who": "you",
+            "t": "Sans blague ! Et ensuite ? Ne me laisse pas sur ma faim !",
+            "n": "No kidding! And then? Don't leave me hanging!"
+          },
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "J'ouvre, et je tombe sur un homme trempé, avec une lampe de poche et… un mouton dans les bras.",
+            "n": "I open it, and I find a soaking-wet man with a torch and… a sheep in his arms."
+          },
+          {
+            "who": "you",
+            "t": "Un mouton ? Tu me fais marcher ! D'où il sortait, ce mouton ?",
+            "n": "A sheep? You're pulling my leg! Where did that sheep come from?"
+          },
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "C'était le voisin. La foudre avait abîmé sa clôture et il cherchait un abri pour la nuit. Bon, j'avoue que j'ai un peu brodé : c'était un agneau.",
+            "n": "It was the neighbour. Lightning had damaged his fence and he was looking for shelter for the night. OK, I admit I embellished it a bit: it was a lamb."
+          },
+          {
+            "who": "you",
+            "t": "C'est une histoire à dormir debout, mais je l'adore !",
+            "n": "It's a cock-and-bull story, but I love it!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "React with surprise and ask what happened next.",
+          "t": [
+            "Sans blague ! Et ensuite",
+            "Sans blague, et ensuite",
+            "Sans blague ! Et après"
+          ]
+        },
+        {
+          "n": "Tell a friend not to leave you hanging.",
+          "t": [
+            "Ne me laisse pas sur ma faim",
+            "Me laisse pas sur ma faim",
+            "Ne me laissez pas sur ma faim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l3",
+      "title": "Family stories and legends",
+      "goal": "Pass on a family story or local legend while keeping a little distance from the facts.",
+      "tip": {
+        "title": "Keeping your distance from the story",
+        "body": "Hearsay has its own grammar: on raconte que …, il paraît que … and the conditional (il aurait traversé l'Atlantique = he supposedly crossed) show you're not vouching for it. La légende veut que … takes the subjunctive. End with a shrug: Allez savoir ! Pronunciation: in il paraît qu'il, link everything into one breath — [ilpaʁɛkil]."
+      },
+      "phrases": [
+        {
+          "t": "Dans ma famille, on raconte que mon arrière-grand-père était parti sans un sou.",
+          "n": "In my family, people say my great-grandfather had left without a penny."
+        },
+        {
+          "t": "Il aurait fait fortune avant de tout perdre au jeu.",
+          "n": "He supposedly made a fortune before losing it all gambling.",
+          "note": "Conditional = unconfirmed information."
+        },
+        {
+          "t": "La légende veut que le vieux moulin soit hanté.",
+          "n": "Legend has it that the old mill is haunted.",
+          "note": "Subjunctive after la légende veut que."
+        },
+        {
+          "t": "Allez savoir si c'est vrai !",
+          "n": "Who knows if it's true!"
+        },
+        {
+          "t": "Cette histoire s'est transmise de génération en génération.",
+          "n": "This story has been passed down from generation to generation."
+        },
+        {
+          "t": "À force de la raconter, on a fini par y croire.",
+          "n": "From telling it so often, we ended up believing it."
+        }
+      ],
+      "dialogue": {
+        "title": "Family legends in Québec",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Chez nous, au Lac-Saint-Jean, mon grand-père racontait qu'il avait passé des hivers entiers dans les chantiers. Et dans ta famille, il y a des légendes ?",
+            "n": "Back home in Lac-Saint-Jean, my grandfather used to say he'd spent whole winters in the logging camps. Are there any legends in your family?"
+          },
+          {
+            "who": "you",
+            "t": "Oh oui ! Dans ma famille, on raconte que mon arrière-grand-père était parti sans un sou.",
+            "n": "Oh yes! In my family, people say my great-grandfather had left without a penny."
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "Parti où ? En Amérique, comme bien du monde à l'époque ?",
+            "n": "Left for where? America, like lots of people back then?"
+          },
+          {
+            "who": "you",
+            "t": "Exactement. Il aurait fait fortune avant de tout perdre au jeu. Allez savoir si c'est vrai !",
+            "n": "Exactly. He supposedly made a fortune before losing it all gambling. Who knows if it's true!"
+          },
+          {
+            "who": "A",
+            "name": "Sylvie",
+            "t": "C'est le genre d'histoire qu'on aime raconter. Qui te l'a apprise ?",
+            "n": "That's the kind of story people love to tell. Who taught it to you?"
+          },
+          {
+            "who": "you",
+            "t": "Ma grand-mère la racontait à chaque réveillon. À force de la raconter, on a fini par y croire !",
+            "n": "My grandmother used to tell it every Christmas Eve. From telling it so often, we ended up believing it!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say that legend has it the old mill is haunted.",
+          "t": [
+            "La légende veut que le vieux moulin soit hanté",
+            "On raconte que le vieux moulin est hanté",
+            "Il paraît que le vieux moulin est hanté"
+          ]
+        },
+        {
+          "n": "Say the story has been passed down from generation to generation.",
+          "t": [
+            "Cette histoire s'est transmise de génération en génération",
+            "L'histoire s'est transmise de génération en génération"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l4",
+      "kind": "grammar",
+      "title": "Plus-que-parfait and passé simple",
+      "goal": "Go one step further back in time, and recognise the literary passé simple.",
+      "tip": {
+        "title": "Two tenses for stories",
+        "body": "The plus-que-parfait (imparfait of avoir/être + past participle) is the English 'had done': Quand je suis arrivé, le train était déjà parti. Agreement rules are the same as in the passé composé. The passé simple is the written tense of novels and tales; you need to recognise it, not use it in conversation: il fut (était/a été), il eut (avait/a eu), elle prit, il fit, il vint, elle dit, ils parlèrent. When you retell a written story aloud, switch to the passé composé. Pronunciation: -èrent sounds like [ɛʁ] — ils parlèrent = [ilpaʁlɛʁ]."
+      },
+      "phrases": [
+        {
+          "t": "Quand je suis arrivé, le train était déjà parti.",
+          "n": "When I arrived, the train had already left."
+        },
+        {
+          "t": "Elle m'a avoué qu'elle n'avait jamais lu ce roman.",
+          "n": "She admitted to me that she had never read that novel."
+        },
+        {
+          "t": "Il était une fois un roi qui avait trois filles.",
+          "n": "Once upon a time there was a king who had three daughters."
+        },
+        {
+          "t": "Le roi fut surpris et ne dit rien.",
+          "n": "The king was surprised and said nothing."
+        },
+        {
+          "t": "Elle prit son manteau et sortit sans un mot.",
+          "n": "She took her coat and went out without a word."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap: what had already happened?",
+          "base": {
+            "t": "Quand je suis arrivé, le train était déjà parti.",
+            "n": "When I arrived, the train had already left."
+          },
+          "items": [
+            {
+              "cue": "les invités · partir",
+              "t": "Quand je suis arrivé, les invités étaient déjà partis.",
+              "n": "When I arrived, the guests had already left."
+            },
+            {
+              "cue": "le film · commencer",
+              "t": "Quand je suis arrivé, le film avait déjà commencé.",
+              "n": "When I arrived, the film had already started."
+            },
+            {
+              "cue": "elle · finir le repas",
+              "t": "Quand je suis arrivé, elle avait déjà fini le repas.",
+              "n": "When I arrived, she had already finished the meal."
+            }
+          ]
+        },
+        {
+          "title": "Retell aloud: passé simple → passé composé",
+          "base": {
+            "t": "Elle prit son manteau et sortit.",
+            "n": "She took her coat and went out."
+          },
+          "items": [
+            {
+              "cue": "passé composé",
+              "t": "Elle a pris son manteau et elle est sortie.",
+              "n": "She took her coat and went out."
+            },
+            {
+              "cue": "ils firent leurs valises et partirent",
+              "t": "Ils ont fait leurs valises et ils sont partis.",
+              "n": "They packed their bags and left."
+            },
+            {
+              "cue": "il vint, il vit et il repartit",
+              "t": "Il est venu, il a vu et il est reparti.",
+              "n": "He came, he saw and he left again."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say that when you arrived, the film had already started.",
+          "t": [
+            "Quand je suis arrivé, le film avait déjà commencé",
+            "Quand je suis arrivée, le film avait déjà commencé",
+            "Quand on est arrivés, le film avait déjà commencé"
+          ]
+        },
+        {
+          "n": "Retell aloud in the passé composé: 'Le roi fut surpris et ne dit rien.'",
+          "t": [
+            "Le roi a été surpris et il n'a rien dit",
+            "Le roi a été surpris et n'a rien dit",
+            "Le roi était surpris et il n'a rien dit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l5",
+      "kind": "listening",
+      "title": "Radio show: an evening with a storyteller",
+      "goal": "Follow a storyteller explaining the role of griots and telling a West African tale.",
+      "phrases": [
+        {
+          "t": "Il était une fois, il y a bien longtemps…",
+          "n": "Once upon a time, a long, long time ago…"
+        },
+        {
+          "t": "Le lièvre, plus malin que tous, eut une idée.",
+          "n": "The hare, cleverer than everyone, had an idea.",
+          "note": "eut = passé simple of avoir."
+        },
+        {
+          "t": "La ruse vaut mieux que la force.",
+          "n": "Cunning is worth more than strength."
+        },
+        {
+          "t": "Et c'est depuis ce jour-là que…",
+          "n": "And it's since that day that…"
+        }
+      ],
+      "story": {
+        "title": "Leuk le lièvre et le puits",
+        "intro": "A Belgian radio host welcomes Mamadou, a storyteller from Senegal, who explains what a griot is and tells a tale about Leuk the hare and Bouki the hyena.",
+        "voice": "fr-FR-DeniseNeural",
+        "lines": [
+          {
+            "name": "Animatrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Bonsoir à toutes et à tous. Ce soir, nous recevons Mamadou, conteur, venu de Saint-Louis du Sénégal. Mamadou, vous êtes griot ?",
+            "n": "Good evening, everyone. Tonight we welcome Mamadou, a storyteller from Saint-Louis in Senegal. Mamadou, are you a griot?"
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Non, je suis conteur. Le griot, c'est autre chose : traditionnellement, c'est la mémoire de la famille et du village. Il connaît les généalogies, il chante l'histoire, souvent avec la kora.",
+            "n": "No, I'm a storyteller. A griot is something else: traditionally, he is the memory of the family and the village. He knows the genealogies, he sings history, often with the kora."
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Ce soir, je vous raconte l'histoire de Leuk le lièvre et de Bouki l'hyène. Il était une fois, il y a bien longtemps, une terrible sécheresse. Il ne restait plus qu'un seul puits dans toute la savane.",
+            "n": "Tonight I'm telling you the story of Leuk the hare and Bouki the hyena. Once upon a time, long ago, there was a terrible drought. Only one well was left in the whole savannah."
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Bouki s'installa devant le puits et déclara que quiconque voulait boire devait lui donner sa part de nourriture. Les animaux, affamés et assoiffés, n'osèrent pas protester.",
+            "n": "Bouki settled in front of the well and declared that anyone who wanted to drink had to give him their share of food. The animals, hungry and thirsty, didn't dare protest."
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Le lièvre, plus malin que tous, eut une idée. Il courut vers le puits en criant que le roi Lion cherchait Bouki : il avait appris que l'hyène avait confisqué l'eau de tout le royaume.",
+            "n": "The hare, cleverer than everyone, had an idea. He ran to the well shouting that King Lion was looking for Bouki: he had heard that the hyena had confiscated the whole kingdom's water."
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Bouki prit peur et partit aussitôt se justifier auprès du roi. Pendant ce temps, tous les animaux burent à leur soif.",
+            "n": "Bouki got scared and immediately left to justify himself to the king. Meanwhile, all the animals drank their fill."
+          },
+          {
+            "name": "Mamadou",
+            "voice": "fr-FR-ClaudeNeural",
+            "t": "Bien sûr, le roi ne le cherchait pas du tout ! Et c'est depuis ce jour-là, dit-on, que l'hyène rôde la nuit, honteuse. La morale ? La ruse vaut mieux que la force.",
+            "n": "Of course, the king wasn't looking for him at all! And it's since that day, they say, that the hyena prowls at night, ashamed. The moral? Cunning is worth more than strength."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Selon Mamadou, qu'est-ce que le griot, traditionnellement ?",
+            "n": "According to Mamadou, what is a griot, traditionally?",
+            "t": [
+              "La mémoire de la famille et du village",
+              "La mémoire du village",
+              "C'est la mémoire de la famille"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que le lièvre a dit à Bouki ?",
+            "n": "What did the hare tell Bouki?",
+            "t": [
+              "Que le roi Lion le cherchait",
+              "Que le lion cherchait Bouki",
+              "Que le roi le cherchait"
+            ]
+          },
+          {
+            "q": "Quelle est la morale du conte ?",
+            "n": "What is the moral of the tale?",
+            "t": [
+              "La ruse vaut mieux que la force",
+              "La ruse est plus forte que la force",
+              "La ruse"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1-u07-l6",
+      "kind": "roleplay",
+      "title": "Dinner party: tell your best story",
+      "goal": "Keep a table of guests hooked with a well-paced anecdote.",
+      "phrases": [
+        {
+          "t": "Imaginez la scène.",
+          "n": "Picture the scene."
+        },
+        {
+          "t": "Pardon, je m'égare.",
+          "n": "Sorry, I'm getting sidetracked."
+        },
+        {
+          "t": "Je vous jure que c'est vrai !",
+          "n": "I swear it's true!"
+        },
+        {
+          "t": "Sur le moment, je n'en menais pas large.",
+          "n": "At the time, I was feeling pretty nervous."
+        }
+      ],
+      "branch": {
+        "title": "Un dîner à Genève",
+        "scene": "You're at a dinner party in Geneva. Your host Ariane has heard about your trip to Corsica and turns to you in front of all the guests.",
+        "name": "Ariane (hôtesse)",
+        "voice": "fr-CH-ArianeNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Il paraît que tu as vécu une aventure incroyable en Corse cet été ? Raconte-nous !",
+            "n": "I hear you had an incredible adventure in Corsica this summer? Tell us!",
+            "choices": [
+              {
+                "t": "Vous ne devinerez jamais ce qui nous est arrivé. C'était notre dernier soir, et on ne se doutait de rien…",
+                "n": "You'll never guess what happened to us. It was our last evening, and we didn't suspect a thing…",
+                "next": "hook"
+              },
+              {
+                "t": "Bof, on a raté un bateau, c'est tout. Il n'y a rien d'autre à raconter.",
+                "n": "Meh, we missed a boat, that's all. There's nothing else to tell.",
+                "next": "bad"
+              }
+            ]
+          },
+          "hook": {
+            "t": "On est suspendus à tes lèvres ! Et alors ?",
+            "n": "We're hanging on your every word! And then?",
+            "choices": [
+              {
+                "t": "On arrive au port avec nos valises, et là, qu'est-ce qu'on voit ? Le ferry qui s'éloigne !",
+                "n": "We get to the port with our suitcases, and then, what do we see? The ferry sailing away!",
+                "next": "twist"
+              },
+              {
+                "t": "Alors attendez, il faut d'abord que je vous explique les horaires de la compagnie maritime, les tarifs, les différents ports…",
+                "n": "Hang on, first I need to explain the ferry company's timetables, the fares, the different ports…",
+                "next": "long"
+              }
+            ]
+          },
+          "long": {
+            "t": "Euh… on s'éloigne un peu, non ? Reviens au ferry !",
+            "n": "Er… we're drifting a bit, aren't we? Get back to the ferry!",
+            "choices": [
+              {
+                "t": "Pardon, je m'égare. Bref, quand on est arrivés au port, le ferry était déjà parti !",
+                "n": "Sorry, I'm getting sidetracked. Anyway, when we got to the port, the ferry had already left!",
+                "next": "twist"
+              }
+            ]
+          },
+          "twist": {
+            "t": "Non ! Et qu'est-ce que vous avez fait ?",
+            "n": "No! And what did you do?",
+            "choices": [
+              {
+                "t": "Et c'est là que tout a basculé : un pêcheur nous a proposé de rattraper le ferry… dans sa barque !",
+                "n": "And that's when everything changed: a fisherman offered to catch up with the ferry… in his rowing boat!",
+                "next": "punch"
+              },
+              {
+                "t": "Rien, on est rentrés à l'hôtel.",
+                "n": "Nothing, we went back to the hotel.",
+                "next": "bad"
+              }
+            ]
+          },
+          "punch": {
+            "t": "Dans une barque ? Tu nous fais marcher !",
+            "n": "In a rowing boat? You're pulling our leg!",
+            "choices": [
+              {
+                "t": "Je vous jure que c'est vrai ! Avec le recul, j'en ris, mais sur le moment, je n'en menais pas large.",
+                "n": "I swear it's true! Looking back, I laugh about it, but at the time I was pretty nervous.",
+                "next": "good"
+              },
+              {
+                "t": "Bon, j'avoue que j'ai un peu brodé : c'était un vrai bateau de pêche. Mais on a bien rattrapé le ferry !",
+                "n": "OK, I admit I embellished it a bit: it was a proper fishing boat. But we really did catch the ferry!",
+                "next": "good"
+              }
+            ]
+          },
+          "good": {
+            "t": "Quelle histoire ! Tu es un vrai conteur. Allez, une autre !",
+            "n": "What a story! You're a real storyteller. Come on, another one!",
+            "end": "good",
+            "outcome": "You hooked the table, kept the pace and landed the twist — everyone wants more."
+          },
+          "bad": {
+            "t": "Bon… Qui reprendra un peu de fondue ?",
+            "n": "Well… who'd like a little more fondue?",
+            "end": "bad",
+            "outcome": "You lost your audience — build suspense, cut the detours and deliver a twist."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Apologise for getting sidetracked.",
+          "t": [
+            "Pardon, je m'égare",
+            "Excusez-moi, je m'égare",
+            "Désolé, je m'égare"
+          ]
+        },
+        {
+          "n": "Say that at the time you were feeling pretty nervous.",
+          "t": [
+            "Sur le moment, je n'en menais pas large",
+            "Sur le moment, j'en menais pas large",
+            "Sur le moment, j'avais très peur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-l7",
+      "kind": "speaking",
+      "title": "Your turn to tell a story",
+      "goal": "Tell a gripping anecdote and pass on a tale or legend freely.",
+      "culture": {
+        "title": "Griots and conteurs",
+        "body": "In West Africa — in Mali, Senegal, Guinea and beyond — griots have traditionally been the keepers of oral memory: they recite genealogies, sing the history of kingdoms and accompany ceremonies, often with the kora. Many Senegalese tales feature Leuk the clever hare and Bouki the greedy hyena. In Québec, conteurs such as Fred Pellerin fill theatres with tales from their village — in his case, Saint-Élie-de-Caxton. Written tales use the passé simple; a conteur on stage mostly tells in the present and passé composé.",
+        "regions": [
+          "SN",
+          "ML",
+          "GN",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je vais vous raconter une histoire vraie.",
+          "n": "I'm going to tell you a true story."
+        },
+        {
+          "t": "Je m'en souviens comme si c'était hier.",
+          "n": "I remember it as if it were yesterday."
+        },
+        {
+          "t": "Croyez-moi si vous voulez, mais c'est la pure vérité.",
+          "n": "Believe me or not, but it's the honest truth."
+        },
+        {
+          "t": "Morale de l'histoire : toujours vérifier l'heure du départ.",
+          "n": "Moral of the story: always check the departure time."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell a short true anecdote (a trip, a mix-up, a lucky escape). Hook the listener, set the scene, build up to a twist and say how you see it now.",
+          "hint": "Tu ne devineras jamais … · Imagine la scène : il … · Et là, … · J'avais déjà … · Avec le recul …",
+          "seconds": 100,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a hook",
+              "any": [
+                "devineras",
+                "devinerez",
+                "imagine",
+                "imaginez",
+                "figure-toi"
+              ]
+            },
+            {
+              "label": "setting the scene",
+              "any": [
+                "il pleuvait",
+                "il faisait",
+                "il était",
+                "c'était",
+                "je ne me doutais"
+              ]
+            },
+            {
+              "label": "the twist",
+              "any": [
+                "et là",
+                "soudain",
+                "tout à coup",
+                "d'un coup",
+                "basculé"
+              ]
+            },
+            {
+              "label": "looking back",
+              "any": [
+                "avec le recul",
+                "aujourd'hui",
+                "morale",
+                "pour faire court",
+                "j'en ris"
+              ]
+            }
+          ],
+          "model": "Tu ne devineras jamais ce qui m'est arrivé à Lyon. Imagine la scène : il était minuit, il pleuvait des cordes et je ne me doutais de rien. J'arrive à mon hôtel, et là, la réceptionniste me dit qu'elle avait donné ma chambre à quelqu'un d'autre ! Le comble, c'est que j'avais réservé trois mois avant. Finalement, on m'a surclassé dans une suite. Avec le recul, j'en ris."
+        },
+        {
+          "n": "Pass on a family story, a local legend or a tale you heard as a child. Keep some distance from the facts and end with a moral or a comment.",
+          "hint": "Il était une fois … · On raconte que … · Il aurait … · La légende veut que … · Allez savoir !",
+          "seconds": 90,
+          "minWords": 45,
+          "targets": [
+            {
+              "label": "a storytelling opening",
+              "any": [
+                "il était une fois",
+                "on raconte",
+                "dans ma famille",
+                "la légende",
+                "il paraît"
+              ]
+            },
+            {
+              "label": "distance from the facts",
+              "any": [
+                "aurait",
+                "auraient",
+                "il paraît",
+                "on dit",
+                "dit-on"
+              ]
+            },
+            {
+              "label": "passing it on",
+              "any": [
+                "transmis*",
+                "génération*",
+                "racontait",
+                "grand-mère",
+                "grand-père"
+              ]
+            },
+            {
+              "label": "a moral or comment",
+              "any": [
+                "morale",
+                "leçon",
+                "allez savoir",
+                "y croire",
+                "vrai"
+              ]
+            }
+          ],
+          "model": "Dans ma famille, on raconte que mon arrière-grand-mère avait caché un trésor dans le jardin pendant la guerre. Elle aurait enterré ses bijoux sous le vieux pommier. Ma grand-mère racontait cette histoire à chaque réveillon, et elle s'est transmise de génération en génération. Personne n'a jamais rien trouvé. Allez savoir si c'est vrai !"
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you remember it as if it were yesterday.",
+          "t": [
+            "Je m'en souviens comme si c'était hier",
+            "Je m'en rappelle comme si c'était hier",
+            "Je m'en souviens comme si c'était hier soir"
+          ]
+        },
+        {
+          "n": "Say: believe me or not, but it's the honest truth.",
+          "t": [
+            "Croyez-moi si vous voulez, mais c'est la pure vérité",
+            "Crois-moi si tu veux, mais c'est la pure vérité",
+            "Croyez-moi si vous voulez, c'est la pure vérité"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Raconter",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
