@@ -115,6 +115,6 @@ describe('export / import', () => {
     const s = migrate({ xp: 12, lessons: {} });
     expect(s.xp).toBe(12);
     expect(s.streak).toMatchObject({ count: 0, freezes: 0 });
-    expect(s.settings.theme).toBe('system');
+    expect(s.settings.theme).toBe('atlas');
   });
 });

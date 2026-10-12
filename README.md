@@ -1,6 +1,6 @@
 # Langto
 
-**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. The first course is German (A1–C2), French and Spanish are also available from A1 to C2, and more languages can be added as content alone.
+**Get your tongue around a new language.** Langto is a free, speech-first language-learning site. It teaches step by step, from your very first hello upwards, and the goal is that you can *speak*. Every course runs from A1 to C2; the list of courses comes from `public/content/languages.json`, so a new language can be added as content alone.
 
 🌍 Live at **https://langto.madebyfavor.com**
 
@@ -16,13 +16,13 @@
 - **Spanish course**: A1 to C2 (50 units, each level ending in a speaking test), teaching Spain and Latin America side by side: vosotros vs ustedes, voseo, seseo vs distinción and regional vocabulary (coche/carro/auto, ordenador/computadora). Voices are es-ES and es-MX, with es-AR and es-CO from B1. A 10-unit pronunciation track covers pure vowels, tapped and trilled r, ñ, ll/y, j/g, b/v/d, stress and written accents, intonation, linking (sinalefa), seseo and regional accents, each with spoken minimal pairs.
 - **Light gamification**: XP, daily goal, streaks with freezes, levels and badges, including speaking badges for minutes spoken, sentences said and dialogues completed, badges for pronunciation, checkpoints and free speaking, plus a level badge (earned by passing the level's speaking test) and a speaking milestone for each level. There are no hearts and no leaderboards.
 - **Spaced-repetition review** of every phrase you've learned, plus a **Most missed** session built from the phrases you slip on most.
-- **Themes and fonts**: System (follows dark mode), Light, Dark, Sepia, High contrast and more. Fonts include a dyslexia-friendly option, and text size is adjustable.
+- **Themes and fonts**: the default **Atlas** theme (teal on warm paper, switching to deep ink in dark mode) and the **Andika** font, which SIL designed for language learners with clear, unambiguous letterforms. Other themes: Classic (the old indigo default, follows dark mode), Light, Dark, Midnight (AMOLED black), Nord, Café, Lavender, Desert, Sepia, Ocean, Forest, Sunset and High contrast, all meeting WCAG AA contrast. Other fonts: Inter, Outfit, Nunito, Merriweather, Literata, Atkinson Hyperlegible, Lexend, OpenDyslexic (dyslexia-friendly) and JetBrains Mono, all covering German, French and Spanish accents. Text size is adjustable. A theme or font you pick yourself is kept when the defaults change.
 - **No account and fully private**: progress lives in your browser (localStorage). You can **export and import** a JSON backup to move between devices.
 - **Works offline (PWA)**: you can download all lesson audio for offline use in Settings.
 
 ### Browser support for speaking
 
-Pronunciation checks use the browser's `SpeechRecognition` in the course's language (de-DE, es-ES, fr-FR). This works in Chrome, Edge and Safari. In Firefox, and anywhere the mic isn't available, Langto falls back gracefully: you can still listen, record yourself and self-assess.
+Pronunciation checks use the browser's `SpeechRecognition` in the course's language (set per course in `languages.json`, e.g. de-DE). This works in Chrome, Edge and Safari. In Firefox, and anywhere the mic isn't available, Langto falls back gracefully: you can still listen, record yourself and self-assess.
 
 ## Development
 

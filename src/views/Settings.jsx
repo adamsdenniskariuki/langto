@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { useCourse } from '../components/context.js';
 import { exportData, parseImport, replaceState, resetAll, toast, update, useStore } from '../lib/store.js';
-import { FONTS, THEMES } from '../lib/appearance.js';
+import { FONTS, THEMES, loadAllFonts, setAppearance } from '../lib/appearance.js';
 import { listen, prefetchAudio, recognitionErrorMessage, say, support, voicesFor } from '../lib/speech.js';
 import { narrators, narratorVoice } from '../lib/tts-keys.js';
 import { ensureMicPermission, MIC_STATE_LABEL, micErrorCode, micPermissionState, micSupported, unblockSteps, watchMicPermission } from '../lib/mic.js';
@@ -17,7 +17,7 @@ const GOALS = [
 ];
 export { GOALS };
 
-const set = (key, value) => update((d) => (d.settings[key] = value));
+const set = (key, value) => update((d) => setAppearance(d.settings, key, value));
 
 export function MicTest() {
   const course = useCourse();
@@ -186,6 +186,7 @@ export function Settings() {
   useEffect(() => {
     voicesFor(course.lang.speech).then(setVoices);
   }, [course]);
+  useEffect(() => loadAllFonts(), []);
 
   const doExport = () => {
     const json = exportData();

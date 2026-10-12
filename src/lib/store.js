@@ -2,14 +2,17 @@
 import { useEffect, useState } from 'preact/hooks';
 import { newlyEarned } from './badges.js';
 import { dateKey } from './date.js';
+import { DEFAULT_FONT, DEFAULT_THEME, migrateAppearance } from './appearance.js';
 
 export const STORAGE_KEY = 'langto:v1';
 export const FORMAT = 1;
 
 export const DEFAULT_SETTINGS = {
   lang: 'de',
-  theme: 'system',
-  font: 'system',
+  theme: DEFAULT_THEME,
+  themeChosen: false, // true once the learner picks a theme; until then they follow DEFAULT_THEME
+  font: DEFAULT_FONT,
+  fontChosen: false,
   fontScale: 1,
   rate: 0.9,
   voiceURI: '',
@@ -60,6 +63,7 @@ export function migrate(data) {
   const s = merge(defaultState(), data);
   // Saves from before per-course speaking stats: everything so far was spoken in the course then selected.
   if (isObj(data) && !isObj(data.speakingBy) && isObj(data.speaking)) s.speakingBy = { [s.settings.lang || 'de']: { ...data.speaking } };
+  migrateAppearance(s.settings, isObj(data) ? data.settings : undefined);
   s.version = FORMAT;
   return s;
 }
