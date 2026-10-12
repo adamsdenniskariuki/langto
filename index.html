@@ -1,21 +1,25 @@
 <!doctype html>
-<html lang="en" data-theme="system" data-font="system">
+<html lang="en" data-theme="atlas" data-font="andika">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Langto — get your tongue around a new language</title>
     <meta name="description" content="Learn to speak a new language step by step with speech-first lessons. No account needed — your progress stays on your device." />
-    <meta name="theme-color" content="#4f46e5" />
+    <meta name="theme-color" content="#f5f2ec" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/icon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <script>
-      // Apply saved appearance before first paint to avoid a theme flash.
+      // Apply saved appearance before first paint to avoid a theme flash. Mirrors migrateAppearance():
+      // a theme/font the learner never changed (old saves: still 'system') follows the default in <html>.
       try {
         var s = (JSON.parse(localStorage.getItem('langto:v1') || '{}').settings) || {};
         var d = document.documentElement;
-        if (s.theme) d.dataset.theme = s.theme;
-        if (s.font) d.dataset.font = s.font;
+        var picked = function (k) { var f = s[k + 'Chosen']; return f === true || (f == null && s[k] && s[k] !== 'system'); };
+        if (picked('theme')) d.dataset.theme = s.theme;
+        if (picked('font')) d.dataset.font = s.font;
         if (s.fontScale) d.style.setProperty('--font-scale', s.fontScale);
       } catch (e) {}
     </script>
