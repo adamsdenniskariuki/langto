@@ -1,0 +1,880 @@
+{
+  "id": "c2-u02",
+  "title": "Ironie et humour",
+  "subtitle": "Irony, wordplay & second degré",
+  "icon": "😏",
+  "lessons": [
+    {
+      "id": "c2-u02-l1",
+      "title": "Irony on a bad day",
+      "goal": "Comment on a disastrous day with antiphrasis and dry understatement.",
+      "tip": {
+        "title": "Say the opposite, flatly",
+        "body": "French irony often says the opposite of what it means (antiphrase): Bravo, c'est réussi ! about a disaster. The voice does the work: say the praise word flat and slightly drawn out, with a falling end, and maybe a sigh first. Understatement adds polish: ne pas être franchement bavard (to be anything but chatty), ne pas se fouler (to make no effort at all). A pause before the key word, comment dire…, makes it land."
+      },
+      "phrases": [
+        {
+          "t": "Bravo, c'est réussi !",
+          "n": "Well done, great job!",
+          "note": "Ironic: it's a fiasco."
+        },
+        {
+          "t": "Génial, il ne manquait plus que ça.",
+          "n": "Great, that's all we needed."
+        },
+        {
+          "t": "Ce n'était pas une franche réussite.",
+          "n": "It wasn't exactly a roaring success."
+        },
+        {
+          "t": "Il n'est pas franchement bavard.",
+          "n": "He's not exactly chatty."
+        },
+        {
+          "t": "Elle ne s'est pas foulée.",
+          "n": "She didn't exactly overexert herself.",
+          "note": "se fouler = to strain yourself; used ironically."
+        },
+        {
+          "t": "Le repas était, comment dire, original.",
+          "n": "The meal was, how shall I put it, original."
+        },
+        {
+          "t": "Ce n'est pas la mort.",
+          "n": "It's not the end of the world.",
+          "note": "Informal."
+        }
+      ],
+      "dialogue": {
+        "title": "After the team-building day",
+        "voice": "fr-FR-JosephineNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Alors, cette journée de cohésion d'équipe ? Raconte !",
+            "n": "So, that team-building day? Tell me!"
+          },
+          {
+            "who": "you",
+            "t": "Bravo, c'est réussi ! Le car est tombé en panne au bout de dix minutes.",
+            "n": "Well done, great job! The coach broke down after ten minutes."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Oh non ! Et ensuite ?",
+            "n": "Oh no! And then?"
+          },
+          {
+            "who": "you",
+            "t": "Ensuite, il s'est mis à pleuvoir. Génial, il ne manquait plus que ça.",
+            "n": "Then it started to rain. Great, that's all we needed."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Et l'animateur ? Il a sauvé la situation ?",
+            "n": "And the facilitator? Did he save the day?"
+          },
+          {
+            "who": "you",
+            "t": "Il n'est pas franchement bavard. Et l'organisatrice ne s'est pas foulée.",
+            "n": "He's not exactly chatty. And the organiser didn't exactly overexert herself."
+          },
+          {
+            "who": "A",
+            "name": "Inès",
+            "t": "Au moins, vous avez bien mangé ?",
+            "n": "At least you ate well?"
+          },
+          {
+            "who": "you",
+            "t": "Le repas était, comment dire, original. Bon, ce n'est pas la mort.",
+            "n": "The meal was, how shall I put it, original. Oh well, it's not the end of the world."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say ironically: well done, great job!",
+          "t": [
+            "Bravo, c'est réussi",
+            "Bravo c'est réussi",
+            "Bravo"
+          ]
+        },
+        {
+          "n": "Say ironically that that's all you needed.",
+          "t": [
+            "Génial, il ne manquait plus que ça",
+            "Il ne manquait plus que ça",
+            "Génial, il manquait plus que ça"
+          ]
+        },
+        {
+          "n": "Say she didn't exactly overexert herself.",
+          "t": [
+            "Elle ne s'est pas foulée",
+            "Elle s'est pas foulée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l2",
+      "title": "Puns and wordplay",
+      "goal": "Enjoy and react to puns, punchlines and jokes among friends.",
+      "tip": {
+        "title": "Calembours everywhere",
+        "body": "French loves the calembour (pun), helped by its many homophones: vers, verre, vert, ver all sound [vɛʁ]. Hairdressers are famous for punning shop names, such as L'Hair du temps (l'air du temps, 'the spirit of the times'). The punchline is la chute. Classic reactions: Elle est bien bonne, celle-là ! (that's a good one) or, for a laboured, far-fetched one, Elle est tirée par les cheveux. Deliver the chute after a short pause, without laughing first."
+      },
+      "phrases": [
+        {
+          "t": "Elle est bien bonne, celle-là !",
+          "n": "That's a good one!"
+        },
+        {
+          "t": "Je ne l'ai pas vue venir, celle-là.",
+          "n": "I didn't see that one coming."
+        },
+        {
+          "t": "Je n'ai pas compris la chute.",
+          "n": "I didn't get the punchline."
+        },
+        {
+          "t": "Ta blague est un peu tirée par les cheveux.",
+          "n": "Your joke is a bit far-fetched."
+        },
+        {
+          "t": "Il a vraiment le sens de la formule.",
+          "n": "He really has a way with words."
+        },
+        {
+          "t": "Il fait des jeux de mots à longueur de journée.",
+          "n": "He makes puns all day long."
+        },
+        {
+          "t": "J'ai failli mourir de rire.",
+          "n": "I nearly died laughing."
+        }
+      ],
+      "dialogue": {
+        "title": "Jokes on the terrace",
+        "voice": "fr-FR-ClaudeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Tu as vu le nom du nouveau coiffeur en bas de la rue ? L'Hair du temps.",
+            "n": "Did you see the name of the new hairdresser down the street? L'Hair du temps."
+          },
+          {
+            "who": "you",
+            "t": "Elle est bien bonne, celle-là ! Il a vraiment le sens de la formule, ce coiffeur.",
+            "n": "That's a good one! He really has a way with words, that hairdresser."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Attends, j'en ai une autre. Pourquoi les plongeurs plongent-ils toujours en arrière ?",
+            "n": "Wait, I've got another one. Why do divers always dive backwards?"
+          },
+          {
+            "who": "you",
+            "t": "Aucune idée. Pourquoi ?",
+            "n": "No idea. Why?"
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Parce que sinon, ils tombent dans le bateau !",
+            "n": "Because otherwise they'd fall into the boat!"
+          },
+          {
+            "who": "you",
+            "t": "Je ne l'ai pas vue venir, celle-là. J'ai failli mourir de rire.",
+            "n": "I didn't see that one coming. I nearly died laughing."
+          },
+          {
+            "who": "A",
+            "name": "Hugo",
+            "t": "Et la dernière : que dit un escargot quand il croise une limace ? Oh, un naturiste !",
+            "n": "And the last one: what does a snail say when it meets a slug? Oh, a nudist!"
+          },
+          {
+            "who": "you",
+            "t": "Là, ta blague est un peu tirée par les cheveux. Tu fais des jeux de mots à longueur de journée !",
+            "n": "Now your joke is a bit far-fetched. You make puns all day long!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "React to a good joke: that's a good one!",
+          "t": [
+            "Elle est bien bonne, celle-là",
+            "Elle est bien bonne",
+            "Elle est bonne, celle-là"
+          ]
+        },
+        {
+          "n": "Say you didn't get the punchline.",
+          "t": [
+            "Je n'ai pas compris la chute",
+            "J'ai pas compris la chute",
+            "Je n'ai pas saisi la chute"
+          ]
+        },
+        {
+          "n": "Tell a friend their joke is a bit far-fetched.",
+          "t": [
+            "Ta blague est un peu tirée par les cheveux",
+            "Elle est un peu tirée par les cheveux",
+            "C'est un peu tiré par les cheveux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l3",
+      "title": "Literal or tongue-in-cheek?",
+      "goal": "Recognise teasing, take it well, and switch back to being serious.",
+      "tip": {
+        "title": "Second degré: the wink in French humour",
+        "body": "Au premier degré means literally; au second degré means with ironic distance. Prendre quelque chose au premier degré is to miss the joke. Friends tease (charrier, chambrer) as a sign of affection, and taking it well matters. Exits: C'était du second degré !, Je te charrie, Blague à part… or Sans rire… to turn serious. Say Blague à part with a short pause after it and a lower voice."
+      },
+      "phrases": [
+        {
+          "t": "C'était du second degré !",
+          "n": "I was being ironic!"
+        },
+        {
+          "t": "Tu le prends au premier degré.",
+          "n": "You're taking it literally."
+        },
+        {
+          "t": "Je te charrie.",
+          "n": "I'm just teasing you.",
+          "note": "Informal; also chambrer."
+        },
+        {
+          "t": "Tu me fais marcher ?",
+          "n": "Are you pulling my leg?"
+        },
+        {
+          "t": "Blague à part, ça te va très bien.",
+          "n": "Joking aside, it really suits you."
+        },
+        {
+          "t": "Je le prends avec humour.",
+          "n": "I'm taking it with a sense of humour."
+        }
+      ],
+      "dialogue": {
+        "title": "The new haircut",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "Oh, la coupe ! Tu es allé chez le coiffeur ou chez le tondeur de moutons ?",
+            "n": "Whoa, the haircut! Did you go to the hairdresser or the sheep shearer?"
+          },
+          {
+            "who": "you",
+            "t": "Tu me fais marcher ? J'ai payé quarante euros !",
+            "n": "Are you pulling my leg? I paid forty euros!"
+          },
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "Mais non, je te charrie ! C'était du second degré, voyons.",
+            "n": "No, I'm just teasing you! I was being ironic, come on."
+          },
+          {
+            "who": "you",
+            "t": "Ah bon. Pardon, je l'ai pris au premier degré.",
+            "n": "Oh, right. Sorry, I took it literally."
+          },
+          {
+            "who": "A",
+            "name": "Arnaud",
+            "t": "Blague à part, ça te va très bien. Ça te rajeunit.",
+            "n": "Joking aside, it really suits you. It makes you look younger."
+          },
+          {
+            "who": "you",
+            "t": "Merci. Je le prends avec humour, mais la prochaine fois, je te coupe les cheveux moi-même.",
+            "n": "Thanks. I'm taking it with a sense of humour, but next time I'll cut your hair myself."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Explain that you were being ironic.",
+          "t": [
+            "C'était du second degré",
+            "C'était au second degré",
+            "Je disais ça au second degré"
+          ]
+        },
+        {
+          "n": "Ask if someone is pulling your leg.",
+          "t": [
+            "Tu me fais marcher",
+            "Vous me faites marcher",
+            "Tu te moques de moi"
+          ]
+        },
+        {
+          "n": "Turn serious: joking aside, it really suits you.",
+          "t": [
+            "Blague à part, ça te va très bien",
+            "Blague à part, ça te va bien",
+            "Sans rire, ça te va très bien",
+            "Blague à part, ça vous va très bien"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l4",
+      "kind": "grammar",
+      "title": "Antiphrasis and rhetorical questions",
+      "goal": "Build ironic exclamations and rhetorical questions with the right structures.",
+      "tip": {
+        "title": "Grammar with a sting",
+        "body": "Ironic exclamations often use a dislocated subject: Elle est belle, l'équipe ! (adjective agrees with the noun: Il est beau, le progrès !). Fixed antiphrases: C'est malin ! (that was clever = stupid), Tu parles d'une surprise ! (some surprise!). Rhetorical questions expect no answer: Est-ce que j'ai une tête à + infinitive ? (do I look like someone who…?), and Comment veux-tu que + subjunctive ? (how am I supposed to…?). Intonation: a rhetorical question often falls at the end instead of rising."
+      },
+      "phrases": [
+        {
+          "t": "C'est malin !",
+          "n": "That was clever!",
+          "note": "Antiphrasis: that was stupid."
+        },
+        {
+          "t": "Tu parles d'une surprise !",
+          "n": "Some surprise that is!"
+        },
+        {
+          "t": "Elle est belle, l'équipe !",
+          "n": "Fine team this is!"
+        },
+        {
+          "t": "Est-ce que j'ai une tête à faire du camping ?",
+          "n": "Do I look like someone who goes camping?"
+        },
+        {
+          "t": "Comment veux-tu que je le sache ?",
+          "n": "How am I supposed to know?",
+          "note": "vouloir que + subjunctive."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Ironic praise with a dislocated subject",
+          "base": {
+            "t": "Elle est belle, l'équipe !",
+            "n": "Fine team this is!"
+          },
+          "items": [
+            {
+              "cue": "le progrès",
+              "t": "Il est beau, le progrès !",
+              "n": "So much for progress!"
+            },
+            {
+              "cue": "la jeunesse",
+              "t": "Elle est belle, la jeunesse !",
+              "n": "Youth today, eh!"
+            },
+            {
+              "cue": "les experts",
+              "t": "Ils sont beaux, les experts !",
+              "n": "Fine experts they are!"
+            }
+          ]
+        },
+        {
+          "title": "Comment veux-tu que + subjunctive",
+          "base": {
+            "t": "Comment veux-tu que je le sache ?",
+            "n": "How am I supposed to know?"
+          },
+          "items": [
+            {
+              "cue": "vous · je · finir à temps",
+              "t": "Comment voulez-vous que je finisse à temps ?",
+              "n": "How do you expect me to finish on time?"
+            },
+            {
+              "cue": "tu · il · comprendre",
+              "t": "Comment veux-tu qu'il comprenne ?",
+              "n": "How is he supposed to understand?"
+            },
+            {
+              "cue": "vous · nous · être prêts",
+              "t": "Comment voulez-vous que nous soyons prêts ?",
+              "n": "How do you expect us to be ready?"
+            }
+          ]
+        },
+        {
+          "title": "Est-ce que j'ai une tête à…",
+          "base": {
+            "t": "Est-ce que j'ai une tête à faire du camping ?",
+            "n": "Do I look like someone who goes camping?"
+          },
+          "items": [
+            {
+              "cue": "se lever à cinq heures",
+              "t": "Est-ce que j'ai une tête à me lever à cinq heures ?",
+              "n": "Do I look like someone who gets up at five?"
+            },
+            {
+              "cue": "aimer le karaoké",
+              "t": "Est-ce que j'ai une tête à aimer le karaoké ?",
+              "n": "Do I look like someone who likes karaoke?"
+            },
+            {
+              "cue": "mentir",
+              "t": "Est-ce que j'ai une tête à mentir ?",
+              "n": "Do I look like a liar?"
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask, irritated, how you're supposed to know.",
+          "t": [
+            "Comment veux-tu que je le sache",
+            "Comment voulez-vous que je le sache",
+            "Comment tu veux que je le sache"
+          ]
+        },
+        {
+          "n": "Ask rhetorically if you look like someone who goes camping.",
+          "t": [
+            "Est-ce que j'ai une tête à faire du camping",
+            "J'ai une tête à faire du camping",
+            "Ai-je une tête à faire du camping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l5",
+      "kind": "listening",
+      "title": "The simplified form",
+      "goal": "Follow a dry, ironic exchange between colleagues and catch what they really mean.",
+      "phrases": [
+        {
+          "t": "On n'arrête pas le progrès.",
+          "n": "There's no stopping progress.",
+          "note": "Often ironic."
+        },
+        {
+          "t": "Quelle bonne surprise.",
+          "n": "What a nice surprise.",
+          "note": "Ironic when said flatly."
+        },
+        {
+          "t": "Ils ont pensé à tout.",
+          "n": "They've thought of everything."
+        },
+        {
+          "t": "Je n'en attendais pas moins.",
+          "n": "I expected no less."
+        }
+      ],
+      "story": {
+        "title": "Fourteen pages of simplicity",
+        "intro": "In a Brussels office, colleagues Charline and Bastien discuss a new 'simplified' expense form from head office.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "Charline",
+            "t": "Bastien, tu as vu le nouveau formulaire de notes de frais ? Il est simplifié, paraît-il.",
+            "n": "Bastien, have you seen the new expense form? It's simplified, apparently."
+          },
+          {
+            "name": "Bastien",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Quelle bonne surprise. Combien de pages ?",
+            "n": "What a nice surprise. How many pages?"
+          },
+          {
+            "name": "Charline",
+            "t": "Quatorze. Avant, il y en avait trois.",
+            "n": "Fourteen. Before, there were three."
+          },
+          {
+            "name": "Bastien",
+            "voice": "fr-BE-GerardNeural",
+            "t": "On n'arrête pas le progrès. Et il faut toujours l'imprimer ?",
+            "n": "There's no stopping progress. And do we still have to print it?"
+          },
+          {
+            "name": "Charline",
+            "t": "Bien sûr. On l'imprime, on le signe, on le scanne, puis on l'envoie par e-mail.",
+            "n": "Of course. You print it, sign it, scan it, then send it by email."
+          },
+          {
+            "name": "Bastien",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Ils ont pensé à tout. Et pour un ticket de métro à deux euros ?",
+            "n": "They've thought of everything. And for a two-euro metro ticket?"
+          },
+          {
+            "name": "Charline",
+            "t": "Même procédure. Il faut juste la validation de trois responsables.",
+            "n": "Same procedure. You just need approval from three managers."
+          },
+          {
+            "name": "Bastien",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Seulement trois ? Je n'en attendais pas moins. Ça, c'est de l'efficacité.",
+            "n": "Only three? I expected no less. Now that's efficiency."
+          },
+          {
+            "name": "Charline",
+            "t": "Le pire, c'est que la direction est très fière de cette réforme.",
+            "n": "The worst part is that management is very proud of this reform."
+          },
+          {
+            "name": "Bastien",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Tu m'étonnes. Bon, moi, je garde mes tickets de métro en souvenir.",
+            "n": "No kidding. Well, I'm keeping my metro tickets as souvenirs."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Combien de pages a le nouveau formulaire ?",
+            "n": "How many pages does the new form have?",
+            "t": [
+              "Quatorze",
+              "Quatorze pages",
+              "Il a quatorze pages"
+            ]
+          },
+          {
+            "q": "Combien de pages avait l'ancien formulaire ?",
+            "n": "How many pages did the old form have?",
+            "t": [
+              "Trois",
+              "Trois pages"
+            ]
+          },
+          {
+            "q": "Combien de responsables doivent valider la note de frais ?",
+            "n": "How many managers have to approve the expense claim?",
+            "t": [
+              "Trois",
+              "Trois responsables"
+            ]
+          },
+          {
+            "q": "Qu'est-ce que Bastien va garder en souvenir ?",
+            "n": "What will Bastien keep as souvenirs?",
+            "t": [
+              "Ses tickets de métro",
+              "Les tickets de métro",
+              "Ses tickets"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u02-l6",
+      "kind": "roleplay",
+      "title": "Teased at a Montréal dinner",
+      "goal": "Parry a host's teasing with self-deprecating humour without offending anyone.",
+      "phrases": [
+        {
+          "t": "Je l'ai bien cherché.",
+          "n": "I asked for that one."
+        },
+        {
+          "t": "Touché !",
+          "n": "Touché! Fair point!"
+        },
+        {
+          "t": "Je vais faire semblant de ne pas avoir entendu.",
+          "n": "I'll pretend I didn't hear that."
+        },
+        {
+          "t": "Plus sérieusement…",
+          "n": "More seriously…"
+        }
+      ],
+      "branch": {
+        "title": "The accent joke",
+        "scene": "You're at a dinner party in Montréal. Your Québécois host loves to tease his guests, and tonight it's your turn: your French accent.",
+        "name": "Mathieu",
+        "voice": "fr-CA-JeanNeural",
+        "start": "jab",
+        "nodes": {
+          "jab": {
+            "t": "Pis toi, avec ton accent, on dirait que t'as appris le français dans un manuel des années cinquante !",
+            "n": "And you, with your accent, it sounds like you learned French from a 1950s textbook!",
+            "choices": [
+              {
+                "t": "Touché ! C'est d'ailleurs le cas. Je fais des efforts, mais j'ai encore l'air d'un bulletin de nouvelles.",
+                "n": "Touché! That's actually true. I'm trying, but I still sound like a news bulletin.",
+                "next": "laugh"
+              },
+              {
+                "t": "Au moins, moi, je ne parle pas comme un bûcheron.",
+                "n": "At least I don't talk like a lumberjack.",
+                "next": "chill"
+              }
+            ]
+          },
+          "laugh": {
+            "t": "Ha ! J'aime ça. Pis essaye de dire : c'est plate, il fait frette à soir.",
+            "n": "Ha! I like that. Now try saying: it's boring, it's freezing tonight.",
+            "choices": [
+              {
+                "t": "C'est plate, il fait frette à soir. Alors, je suis pas pire ?",
+                "n": "It's boring, it's freezing tonight. So, not too bad, eh?",
+                "next": "serious"
+              },
+              {
+                "t": "Non merci, ce français-là, je ne le parlerai jamais.",
+                "n": "No thanks, I'll never speak that kind of French.",
+                "next": "chill"
+              }
+            ]
+          },
+          "chill": {
+            "t": "Ouin… Correct. On va changer de sujet.",
+            "n": "Yeah… OK. Let's change the subject.",
+            "choices": [
+              {
+                "t": "Pardon, c'était maladroit. Je l'ai bien cherché, ta blague était bien meilleure que la mienne.",
+                "n": "Sorry, that was clumsy. I asked for that one, your joke was much better than mine.",
+                "next": "serious"
+              },
+              {
+                "t": "Je vais faire semblant de ne pas avoir entendu.",
+                "n": "I'll pretend I didn't hear that.",
+                "next": "bad"
+              }
+            ]
+          },
+          "serious": {
+            "t": "T'es pas pire pantoute ! Mais sérieusement, c'est-tu difficile, le français d'ici ?",
+            "n": "You're not bad at all! But seriously, is the French here difficult?",
+            "choices": [
+              {
+                "t": "Plus sérieusement, oui, un peu, mais c'est ce qui le rend vivant. J'adore vos expressions.",
+                "n": "More seriously, yes, a bit, but that's what makes it alive. I love your expressions.",
+                "next": "good"
+              },
+              {
+                "t": "Franchement, le vrai français, c'est celui de Paris.",
+                "n": "Frankly, real French is the French of Paris.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Tiens, je te sers un autre verre. Toi, t'es invité la semaine prochaine aussi !",
+            "n": "Here, let me pour you another glass. You're invited next week too!",
+            "end": "good",
+            "outcome": "You laughed at yourself, played along with Québécois expressions and ended on a warm, sincere note. The whole table loved it."
+          },
+          "bad": {
+            "t": "Ah bon. Ben… quelqu'un veut du dessert ?",
+            "n": "Oh, right. Well… anyone want dessert?",
+            "end": "bad",
+            "outcome": "You hit back instead of laughing along, or looked down on Québec French. The atmosphere went cold."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Admit you asked for that one.",
+          "t": [
+            "Je l'ai bien cherché",
+            "Je l'ai cherché"
+          ]
+        },
+        {
+          "n": "Say you'll pretend you didn't hear that.",
+          "t": [
+            "Je vais faire semblant de ne pas avoir entendu",
+            "Je vais faire comme si je n'avais rien entendu",
+            "Je vais faire semblant de pas avoir entendu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-l7",
+      "kind": "speaking",
+      "title": "Telling it with a wink",
+      "goal": "Narrate a mishap with irony and compare humour across the francophone world.",
+      "culture": {
+        "title": "Satire à la française and Belgian humour",
+        "body": "France has a long satirical tradition, from Molière's comedies and Voltaire's Candide to the weekly Le Canard enchaîné, founded in 1915, and today's political sketches and cartoons. Belgian humour is often described as self-mocking and absurd, close to the surrealism of Magritte's Ceci n'est pas une pipe. The French have long told blagues belges; Belgians reply with jokes about the French, usually with a smile. In Québec, Montréal's Juste pour rire festival has long been a major comedy event. Second degré is everywhere among friends, but in emails or with strangers, irony easily misfires.",
+        "regions": [
+          "FR",
+          "BE",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Je dis ça avec un clin d'œil.",
+          "n": "I say that with a wink."
+        },
+        {
+          "t": "Avec le recul, j'en ris.",
+          "n": "Looking back, I laugh about it."
+        },
+        {
+          "t": "On aurait presque cru que c'était fait exprès.",
+          "n": "You'd almost have thought it was on purpose."
+        },
+        {
+          "t": "L'ironie passe mal par écrit.",
+          "n": "Irony doesn't come across well in writing."
+        }
+      ],
+      "free": [
+        {
+          "n": "Tell the story of a small disaster (a trip, a move, a party) using irony and understatement.",
+          "hint": "Use: Bravo, c'est réussi…, il ne manquait plus que ça, ce n'était pas une franche réussite, comment dire…, Avec le recul, j'en ris.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "ironic praise",
+              "any": [
+                "bravo",
+                "génial",
+                "magnifique",
+                "réussi*",
+                "quelle bonne idée"
+              ]
+            },
+            {
+              "label": "understatement",
+              "any": [
+                "pas franchement",
+                "pas une franche",
+                "comment dire",
+                "pas vraiment",
+                "un peu"
+              ]
+            },
+            {
+              "label": "what went wrong",
+              "any": [
+                "en panne",
+                "oublié",
+                "perdu",
+                "raté",
+                "cassé",
+                "pleuvoir",
+                "en retard"
+              ]
+            },
+            {
+              "label": "the punchline",
+              "any": [
+                "avec le recul",
+                "j'en ris",
+                "au moins",
+                "finalement",
+                "ce n'est pas la mort"
+              ]
+            }
+          ],
+          "model": "Notre déménagement n'a pas été une franche réussite. Le camion est tombé en panne sur l'autoroute, et bien sûr, il s'est mis à pleuvoir. Génial, il ne manquait plus que ça ! On aurait presque cru que c'était fait exprès. Avec le recul, j'en ris : au moins, rien n'a été cassé."
+        },
+        {
+          "n": "Explain how humour works in your culture compared with France, Belgium or Québec, and when irony can misfire.",
+          "hint": "Use: Chez nous…, alors que…, le second degré, mal compris, L'ironie passe mal par écrit.",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "a comparison",
+              "any": [
+                "chez nous",
+                "dans mon pays",
+                "alors que",
+                "tandis que",
+                "contrairement"
+              ]
+            },
+            {
+              "label": "humour words",
+              "any": [
+                "humour",
+                "ironie",
+                "ironique",
+                "second degré",
+                "blague*",
+                "autodérision"
+              ]
+            },
+            {
+              "label": "the risk",
+              "any": [
+                "mal compris",
+                "malentendu*",
+                "vexer",
+                "vexé*",
+                "blesser",
+                "gênant"
+              ]
+            },
+            {
+              "label": "a situation",
+              "any": [
+                "par écrit",
+                "courriel*",
+                "mail*",
+                "au travail",
+                "inconnu*",
+                "entre amis"
+              ]
+            }
+          ],
+          "model": "Chez nous, en Angleterre, l'ironie est presque un mode de vie, alors qu'en France on aime plutôt les jeux de mots et la satire. Les Belges, eux, pratiquent beaucoup l'autodérision. Entre amis, le second degré marche très bien, mais au travail, surtout par courriel, une phrase ironique peut facilement être mal comprise et vexer quelqu'un."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say you're saying it with a wink.",
+          "t": [
+            "Je dis ça avec un clin d'œil",
+            "Je dis ça avec un clin d'oeil",
+            "C'est dit avec un clin d'œil"
+          ]
+        },
+        {
+          "n": "Say that, looking back, you laugh about it.",
+          "t": [
+            "Avec le recul, j'en ris",
+            "Avec le recul, ça me fait rire",
+            "Avec le recul j'en ris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ironie et humour",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

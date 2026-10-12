@@ -1,0 +1,853 @@
+{
+  "id": "c2-u04",
+  "title": "L'art du discours",
+  "subtitle": "Speeches, toasts & rhetoric",
+  "icon": "🎤",
+  "lessons": [
+    {
+      "id": "c2-u04-l1",
+      "title": "Raising a toast",
+      "goal": "Give a short, warm toast at a wedding or celebration.",
+      "tip": {
+        "title": "Porter un toast",
+        "body": "A French toast is short: ask permission to speak, tell one anecdote, make a wish, raise your glass. Wishes use que + subjunctive: Que votre vie à deux soit aussi belle que cette journée ! Close with Je vous propose de lever vos verres à… and the room answers À la vôtre ! or Santé ! Pause before the wish and let your voice fall on the very last word."
+      },
+      "phrases": [
+        {
+          "t": "Si vous le permettez, j'aimerais dire quelques mots.",
+          "n": "If I may, I'd like to say a few words."
+        },
+        {
+          "t": "Je serai bref, promis : le buffet nous attend.",
+          "n": "I'll be brief, I promise: the buffet is waiting.",
+          "note": "A woman says brève."
+        },
+        {
+          "t": "Qui aurait cru, il y a dix ans, que nous serions réunis ici ce soir ?",
+          "n": "Who would have thought, ten years ago, that we'd be gathered here tonight?"
+        },
+        {
+          "t": "Je me souviens encore du jour où vous vous êtes rencontrés.",
+          "n": "I still remember the day you met."
+        },
+        {
+          "t": "Que votre vie à deux soit aussi belle que cette journée !",
+          "n": "May your life together be as beautiful as this day!",
+          "note": "que + subjunctive expresses a wish."
+        },
+        {
+          "t": "Je vous propose de lever vos verres aux mariés.",
+          "n": "Please raise your glasses to the bride and groom."
+        },
+        {
+          "t": "J'ai un peu le trac, je l'avoue.",
+          "n": "I've got a bit of stage fright, I admit.",
+          "note": "le trac = stage fright, nerves before speaking."
+        },
+        {
+          "t": "À la vôtre !",
+          "n": "Cheers! (to yours)",
+          "note": "Reply to à votre santé; informally à la tienne."
+        }
+      ],
+      "dialogue": {
+        "title": "A wedding in Namur",
+        "voice": "fr-BE-GerardNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Oncle Marc",
+            "t": "Ah, te voilà ! Les mariés comptent sur toi pour le toast. Tu es prêt ?",
+            "n": "Ah, there you are! The bride and groom are counting on you for the toast. Are you ready?"
+          },
+          {
+            "who": "you",
+            "t": "Si vous le permettez, j'aimerais dire quelques mots. Je serai bref, promis : le buffet nous attend.",
+            "n": "If I may, I'd like to say a few words. I'll be brief, I promise: the buffet is waiting."
+          },
+          {
+            "who": "A",
+            "name": "Oncle Marc",
+            "t": "Bravo, ils rient déjà ! Continue.",
+            "n": "Well done, they're already laughing! Keep going."
+          },
+          {
+            "who": "you",
+            "t": "Qui aurait cru, il y a dix ans, que nous serions réunis ici ce soir ? Je me souviens encore du jour où vous vous êtes rencontrés.",
+            "n": "Who would have thought, ten years ago, that we'd be gathered here tonight? I still remember the day you met."
+          },
+          {
+            "who": "A",
+            "name": "Oncle Marc",
+            "t": "Parfait. Maintenant, le vœu !",
+            "n": "Perfect. Now, the wish!"
+          },
+          {
+            "who": "you",
+            "t": "Que votre vie à deux soit aussi belle que cette journée ! Je vous propose de lever vos verres aux mariés.",
+            "n": "May your life together be as beautiful as this day! Please raise your glasses to the bride and groom."
+          },
+          {
+            "who": "A",
+            "name": "Oncle Marc",
+            "t": "Aux mariés ! À la vôtre !",
+            "n": "To the bride and groom! Cheers!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask permission to say a few words.",
+          "t": [
+            "Si vous le permettez, j'aimerais dire quelques mots",
+            "Si vous le permettez, je voudrais dire quelques mots",
+            "Permettez-moi de dire quelques mots"
+          ]
+        },
+        {
+          "n": "Wish the couple a life together as beautiful as this day.",
+          "t": [
+            "Que votre vie à deux soit aussi belle que cette journée",
+            "Que votre vie à deux soit aussi belle que ce jour"
+          ]
+        },
+        {
+          "n": "Invite everyone to raise their glasses to the bride and groom.",
+          "t": [
+            "Je vous propose de lever vos verres aux mariés",
+            "Levons nos verres aux mariés",
+            "Levez vos verres aux mariés"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l2",
+      "title": "Rhetoric that sticks",
+      "goal": "Use anaphora, ternary rhythm, chiasmus and preterition in a speech.",
+      "tip": {
+        "title": "Les figures de style",
+        "body": "French rhetoric, taught at lycée, names the classic devices. L'anaphore repeats the opening words (Nous le devons à…). Le rythme ternaire groups three parallel parts, longest last. Le chiasme mirrors two ideas (manger pour vivre / vivre pour manger). La prétérition mentions something by claiming not to (Je ne vous parlerai pas de…). Let the voice rise on the first two members of a triad and fall on the third."
+      },
+      "phrases": [
+        {
+          "t": "Nous le devons à nos aînés, nous le devons à nos enfants, nous le devons à nous-mêmes.",
+          "n": "We owe it to our elders, we owe it to our children, we owe it to ourselves."
+        },
+        {
+          "t": "Ensemble, nous avons douté ; ensemble, nous avons lutté ; ensemble, nous avons gagné.",
+          "n": "Together we doubted; together we fought; together we won."
+        },
+        {
+          "t": "Je ne vous parlerai pas des sacrifices : vous les connaissez mieux que moi.",
+          "n": "I won't talk to you about the sacrifices: you know them better than I do.",
+          "note": "Prétérition: saying it by saying you won't."
+        },
+        {
+          "t": "Il faut manger pour vivre, et non pas vivre pour manger.",
+          "n": "One must eat to live, not live to eat.",
+          "note": "An old maxim and a classic chiasmus, made famous in French by Molière's L'Avare (1668)."
+        },
+        {
+          "t": "C'est un pas, c'est un élan, c'est une promesse.",
+          "n": "It's a step, it's a surge, it's a promise.",
+          "note": "Gradation: each word stronger than the last."
+        },
+        {
+          "t": "Ce n'est pas une fin, c'est un commencement.",
+          "n": "It's not an end, it's a beginning."
+        },
+        {
+          "t": "Laissez-moi vous poser une question : que voulons-nous transmettre ?",
+          "n": "Let me ask you a question: what do we want to pass on?"
+        },
+        {
+          "t": "Permettez-moi de conclure sur une note d'espoir.",
+          "n": "Allow me to end on a note of hope."
+        }
+      ],
+      "dialogue": {
+        "title": "Coaching session in Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Isabelle",
+            "t": "Bon, ton discours pour les cinquante ans de l'entreprise. L'ouverture est correcte, mais elle manque de souffle.",
+            "n": "Right, your speech for the company's fiftieth anniversary. The opening is fine, but it lacks punch."
+          },
+          {
+            "who": "you",
+            "t": "Tu proposes quoi ? Une anaphore ?",
+            "n": "What do you suggest? An anaphora?"
+          },
+          {
+            "who": "A",
+            "name": "Isabelle",
+            "t": "Exactement. Essaie avec « nous le devons à ».",
+            "n": "Exactly. Try it with 'we owe it to'."
+          },
+          {
+            "who": "you",
+            "t": "Nous le devons à nos aînés, nous le devons à nos enfants, nous le devons à nous-mêmes.",
+            "n": "We owe it to our elders, we owe it to our children, we owe it to ourselves."
+          },
+          {
+            "who": "A",
+            "name": "Isabelle",
+            "t": "Voilà ! Trois membres, ça sonne bien. Et pour les difficultés de l'an passé ?",
+            "n": "There you go! Three parts, that has a nice ring to it. And for last year's difficulties?"
+          },
+          {
+            "who": "you",
+            "t": "Je ne vous parlerai pas des sacrifices : vous les connaissez mieux que moi.",
+            "n": "I won't talk to you about the sacrifices: you know them better than I do."
+          },
+          {
+            "who": "A",
+            "name": "Isabelle",
+            "t": "Une belle prétérition. Pis, la fin ?",
+            "n": "A nice preterition. And the ending?"
+          },
+          {
+            "who": "you",
+            "t": "Permettez-moi de conclure sur une note d'espoir : ce n'est pas une fin, c'est un commencement.",
+            "n": "Allow me to end on a note of hope: it's not an end, it's a beginning."
+          },
+          {
+            "who": "A",
+            "name": "Isabelle",
+            "t": "Parfait. Avec ça, tu vas les faire lever de leur chaise !",
+            "n": "Perfect. With that, you'll have them on their feet!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Use an anaphora: we owe it to our elders, to our children, to ourselves.",
+          "t": [
+            "Nous le devons à nos aînés, nous le devons à nos enfants, nous le devons à nous-mêmes"
+          ]
+        },
+        {
+          "n": "Say it's not an end, it's a beginning.",
+          "t": [
+            "Ce n'est pas une fin, c'est un commencement",
+            "Ce n'est pas une fin mais un commencement"
+          ]
+        },
+        {
+          "n": "Ask to end on a note of hope.",
+          "t": [
+            "Permettez-moi de conclure sur une note d'espoir",
+            "Laissez-moi conclure sur une note d'espoir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l3",
+      "title": "A eulogy",
+      "goal": "Pay tribute to someone at a funeral or memorial with dignity.",
+      "tip": {
+        "title": "L'éloge funèbre",
+        "body": "A French eulogy is sober and personal: short sentences, the inclusive nous, one or two concrete memories rather than a list of achievements. Useful verbs: rendre hommage à, saluer la mémoire de, évoquer. Gentle humour is welcome if it fits the person. Speak slowly, let silences work, and let your voice fall at the end of each sentence."
+      },
+      "phrases": [
+        {
+          "t": "Nous sommes réunis aujourd'hui pour rendre hommage à Pierre.",
+          "n": "We are gathered here today to pay tribute to Pierre."
+        },
+        {
+          "t": "Il laisse un vide immense.",
+          "n": "He leaves a huge void."
+        },
+        {
+          "t": "Son rire résonne encore dans nos bureaux.",
+          "n": "His laughter still echoes in our offices."
+        },
+        {
+          "t": "Nous garderons de lui le souvenir d'un homme généreux et droit.",
+          "n": "We will remember him as a generous and upright man."
+        },
+        {
+          "t": "Toutes nos pensées vont à sa famille.",
+          "n": "Our thoughts are with his family."
+        }
+      ],
+      "dialogue": {
+        "title": "Before the ceremony in Lausanne",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Claire",
+            "t": "Merci d'avoir accepté de dire quelques mots pour mon père.",
+            "n": "Thank you for agreeing to say a few words for my father."
+          },
+          {
+            "who": "you",
+            "t": "C'est un honneur. Toutes nos pensées vont à votre famille.",
+            "n": "It's an honour. Our thoughts are with your family."
+          },
+          {
+            "who": "A",
+            "name": "Claire",
+            "t": "Il parlait souvent de vous. Vous allez évoquer son humour ?",
+            "n": "He often talked about you. Will you mention his sense of humour?"
+          },
+          {
+            "who": "you",
+            "t": "Oui. Son rire résonne encore dans nos bureaux. Il laisse un vide immense.",
+            "n": "Yes. His laughter still echoes in our offices. He leaves a huge void."
+          },
+          {
+            "who": "A",
+            "name": "Claire",
+            "t": "Il aurait aimé ça. Merci, sincèrement.",
+            "n": "He would have liked that. Thank you, truly."
+          },
+          {
+            "who": "you",
+            "t": "Nous garderons de lui le souvenir d'un homme généreux et droit.",
+            "n": "We will remember him as a generous and upright man."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Open a eulogy: we are gathered here today to pay tribute to Pierre.",
+          "t": [
+            "Nous sommes réunis aujourd'hui pour rendre hommage à Pierre",
+            "Nous sommes réunis ici aujourd'hui pour rendre hommage à Pierre"
+          ]
+        },
+        {
+          "n": "Say he leaves a huge void.",
+          "t": [
+            "Il laisse un vide immense",
+            "Il laisse un immense vide"
+          ]
+        },
+        {
+          "n": "Say your thoughts are with his family.",
+          "t": [
+            "Toutes nos pensées vont à sa famille",
+            "Nos pensées vont à sa famille"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l4",
+      "kind": "grammar",
+      "title": "Plus… plus, non seulement… mais and the rule of three",
+      "goal": "Build rhetorical rhythm with correlative structures and parallel triads.",
+      "tip": {
+        "title": "Rhythm through structure",
+        "body": "'The more…, the more…' is plus…, plus… with no article and no que: Plus nous attendons, plus la facture sera lourde. Mix freely: moins… plus, plus… mieux. Before a vowel, the s of plus usually links as a z: plus on attend → « plu-zon ». Non seulement…, mais aussi / mais surtout builds to a climax. In a triad, put three parallel items together, shortest first: une ville plus verte, plus juste et plus ouverte."
+      },
+      "phrases": [
+        {
+          "t": "Plus nous attendons, plus la facture sera lourde.",
+          "n": "The longer we wait, the heavier the bill will be."
+        },
+        {
+          "t": "Moins on en parle, plus le problème grandit.",
+          "n": "The less we talk about it, the more the problem grows."
+        },
+        {
+          "t": "Nous avons besoin non seulement de bonnes idées, mais aussi du courage de les mettre en œuvre.",
+          "n": "We need not only good ideas but also the courage to put them into practice."
+        },
+        {
+          "t": "C'est d'autant plus important que le temps presse.",
+          "n": "It's all the more important as time is short."
+        },
+        {
+          "t": "Nous voulons une ville plus verte, plus juste et plus ouverte sur le monde.",
+          "n": "We want a greener, fairer city, more open to the world."
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap the plus… plus pair",
+          "base": {
+            "t": "Plus nous attendons, plus la facture sera lourde.",
+            "n": "The longer we wait, the heavier the bill will be."
+          },
+          "items": [
+            {
+              "cue": "tôt · agir · facile",
+              "t": "Plus tôt nous agirons, plus ce sera facile.",
+              "n": "The sooner we act, the easier it will be."
+            },
+            {
+              "cue": "écouter · mieux se comprendre",
+              "t": "Plus nous écoutons, mieux nous nous comprenons.",
+              "n": "The more we listen, the better we understand each other."
+            },
+            {
+              "cue": "honnêtes · crédibles",
+              "t": "Plus nous sommes honnêtes, plus nous sommes crédibles.",
+              "n": "The more honest we are, the more credible we are."
+            }
+          ]
+        },
+        {
+          "title": "Build up: non seulement… mais and triads",
+          "base": {
+            "t": "Il nous faut de bonnes idées.",
+            "n": "We need good ideas."
+          },
+          "items": [
+            {
+              "cue": "non seulement · mais aussi · du courage",
+              "t": "Il nous faut non seulement de bonnes idées, mais aussi du courage.",
+              "n": "We need not only good ideas but also courage."
+            },
+            {
+              "cue": "non seulement · mais surtout · de la patience",
+              "t": "Il nous faut non seulement de bonnes idées, mais surtout de la patience.",
+              "n": "We need not only good ideas but above all patience."
+            },
+            {
+              "cue": "triade · du temps · de l'argent",
+              "t": "Il nous faut de bonnes idées, du temps et de l'argent.",
+              "n": "We need good ideas, time and money."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say the longer we wait, the heavier the bill will be.",
+          "t": [
+            "Plus nous attendons, plus la facture sera lourde",
+            "Plus on attend, plus la facture sera lourde"
+          ]
+        },
+        {
+          "n": "Say we need not only good ideas but also the courage to put them into practice.",
+          "t": [
+            "Nous avons besoin non seulement de bonnes idées, mais aussi du courage de les mettre en œuvre",
+            "On a besoin non seulement de bonnes idées, mais aussi du courage de les mettre en œuvre",
+            "Il nous faut non seulement de bonnes idées, mais aussi le courage de les mettre en œuvre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l5",
+      "kind": "listening",
+      "title": "Graduation night in Liège",
+      "goal": "Follow formal speeches and spot the rhetorical devices.",
+      "phrases": [
+        {
+          "t": "Chers diplômés, chers parents, chers collègues.",
+          "n": "Dear graduates, dear parents, dear colleagues."
+        },
+        {
+          "t": "Je prends la parole au nom de toute la promotion.",
+          "n": "I'm speaking on behalf of the whole graduating class.",
+          "note": "une promotion = a year group, a class."
+        },
+        {
+          "t": "Nous sommes arrivés seuls, nous repartons ensemble.",
+          "n": "We arrived alone, we leave together."
+        },
+        {
+          "t": "Applaudissons ceux qui nous ont portés.",
+          "n": "Let's applaud those who carried us."
+        }
+      ],
+      "story": {
+        "title": "La remise des diplômes",
+        "intro": "A graduation ceremony in Liège: the rector speaks, then Thomas speaks for his class, heckled by his Québécoise friend Émilie.",
+        "voice": "fr-BE-CharlineNeural",
+        "lines": [
+          {
+            "name": "La rectrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Chers diplômés, chers parents, chers collègues, bonsoir et bienvenue.",
+            "n": "Dear graduates, dear parents, dear colleagues, good evening and welcome."
+          },
+          {
+            "name": "La rectrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Ce soir, nous ne célébrons pas seulement des diplômes : nous célébrons des années de travail et de persévérance.",
+            "n": "Tonight we are not only celebrating diplomas: we are celebrating years of work and perseverance."
+          },
+          {
+            "name": "La rectrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "Plus le chemin a été long, plus la victoire est belle. Vous l'avez prouvé.",
+            "n": "The longer the road, the sweeter the victory. You have proved it."
+          },
+          {
+            "name": "La rectrice",
+            "voice": "fr-BE-CharlineNeural",
+            "t": "J'appelle maintenant Thomas Lambert, qui prendra la parole au nom de sa promotion.",
+            "n": "I now call Thomas Lambert, who will speak on behalf of his class."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Merci, Madame la Rectrice. Je ne vous parlerai pas des nuits blanches : nos cernes s'en souviennent pour nous.",
+            "n": "Thank you, Rector. I won't talk to you about the sleepless nights: the bags under our eyes remember them for us."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Nous sommes arrivés timides, nous repartons confiants ; nous sommes arrivés seuls, nous repartons ensemble.",
+            "n": "We arrived shy, we leave confident; we arrived alone, we leave together."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Je voudrais saluer Émilie, venue de Québec pour un an… et qui n'est jamais repartie.",
+            "n": "I'd like to greet Émilie, who came from Québec City for a year… and never left."
+          },
+          {
+            "name": "Émilie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Coudonc, Thomas, c'est-tu un discours ou une déclaration d'amour ?",
+            "n": "Hey (coudonc), Thomas, is this a speech or a declaration of love?"
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Un peu des deux, peut-être ! Mais revenons à l'essentiel.",
+            "n": "A bit of both, maybe! But let's get back to what matters."
+          },
+          {
+            "name": "Thomas",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Ce diplôme n'est pas une fin, c'est un commencement. Levons-nous, et applaudissons ceux qui nous ont portés : nos parents.",
+            "n": "This degree is not an end, it's a beginning. Let's stand up and applaud those who carried us: our parents."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Selon la rectrice, que célèbre-t-on ce soir, en plus des diplômes ?",
+            "n": "According to the rector, what are they celebrating tonight besides the degrees?",
+            "t": [
+              "Des années de travail et de persévérance",
+              "Des années de travail",
+              "La persévérance"
+            ]
+          },
+          {
+            "q": "Au nom de qui Thomas prend-il la parole ?",
+            "n": "On whose behalf does Thomas speak?",
+            "t": [
+              "Au nom de sa promotion",
+              "De sa promotion",
+              "Des diplômés"
+            ]
+          },
+          {
+            "q": "D'où vient Émilie ?",
+            "n": "Where does Émilie come from?",
+            "t": [
+              "De Québec",
+              "Du Québec",
+              "Du Canada"
+            ]
+          },
+          {
+            "q": "Qui Thomas demande-t-il d'applaudir à la fin ?",
+            "n": "Whom does Thomas ask everyone to applaud at the end?",
+            "t": [
+              "Les parents",
+              "Leurs parents",
+              "Nos parents"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u04-l6",
+      "kind": "roleplay",
+      "title": "Heckled at the town council",
+      "goal": "Keep your composure and win over a hostile listener.",
+      "phrases": [
+        {
+          "t": "Je comprends votre inquiétude, elle est légitime.",
+          "n": "I understand your concern, it's legitimate."
+        },
+        {
+          "t": "Permettez-moi de terminer, et je vous répondrai.",
+          "n": "Let me finish, and I'll answer you."
+        },
+        {
+          "t": "Je vous remercie de votre question, j'y viens.",
+          "n": "Thank you for your question, I'm coming to it."
+        },
+        {
+          "t": "Les chiffres parlent d'eux-mêmes.",
+          "n": "The figures speak for themselves."
+        }
+      ],
+      "branch": {
+        "title": "La piste cyclable",
+        "scene": "You are presenting a new bike-lane project at a public town council meeting in Sherbrooke, Québec. A resident interrupts you.",
+        "name": "M. Gagnon",
+        "voice": "fr-CA-JeanNeural",
+        "start": "interrupt",
+        "nodes": {
+          "interrupt": {
+            "t": "Excusez-moi, mais votre piste cyclable, c'est encore avec nos taxes qu'on va payer ça !",
+            "n": "Excuse me, but your bike lane, it's our taxes that are going to pay for it again!",
+            "choices": [
+              {
+                "t": "Je comprends votre inquiétude, elle est légitime. Permettez-moi de terminer, et je vous répondrai.",
+                "n": "I understand your concern, it's legitimate. Let me finish, and I'll answer you.",
+                "next": "listen"
+              },
+              {
+                "t": "Monsieur, vous n'avez pas la parole. Asseyez-vous.",
+                "n": "Sir, you don't have the floor. Sit down.",
+                "next": "angry"
+              }
+            ]
+          },
+          "angry": {
+            "t": "Ah ben là ! On paie, pis on a même pas le droit de parler ?",
+            "n": "Oh, come on! We pay, and we don't even have the right to speak?",
+            "choices": [
+              {
+                "t": "Vous avez raison, pardonnez-moi. Je vous écoute : qu'est-ce qui vous inquiète ?",
+                "n": "You're right, forgive me. I'm listening: what worries you?",
+                "next": "listen"
+              },
+              {
+                "t": "Si ça ne vous plaît pas, vous pouvez partir.",
+                "n": "If you don't like it, you can leave.",
+                "next": "bad"
+              }
+            ]
+          },
+          "listen": {
+            "t": "Bon, correct. Mais moi, je passe sur cette rue tous les jours en char. Vous allez m'enlever du stationnement ?",
+            "n": "OK, fine. But I drive down that street every day. Are you going to take away parking spaces?",
+            "choices": [
+              {
+                "t": "Je vous remercie de votre question, j'y viens : aucune place ne disparaît, la piste passe du côté du parc. Les chiffres parlent d'eux-mêmes.",
+                "n": "Thank you for your question, I'm coming to it: not a single space disappears, the lane runs along the park side. The figures speak for themselves.",
+                "next": "safety"
+              },
+              {
+                "t": "Il faudra bien faire quelques sacrifices, c'est l'avenir.",
+                "n": "We'll have to make a few sacrifices, that's the future.",
+                "next": "bad"
+              }
+            ]
+          },
+          "safety": {
+            "t": "Ah bon ? Personne nous a expliqué ça. Pis la sécurité des enfants, elle ?",
+            "n": "Oh really? Nobody explained that to us. And what about the children's safety?",
+            "choices": [
+              {
+                "t": "C'est justement la raison d'être du projet : plus la rue est sûre, plus les familles l'utilisent.",
+                "n": "That's exactly what the project is for: the safer the street, the more families use it.",
+                "next": "good"
+              },
+              {
+                "t": "Ça, ce n'est pas mon dossier.",
+                "n": "That's not my department.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Bon… Si c'est comme ça, je vais venir à la consultation. Merci de m'avoir répondu.",
+            "n": "Well… If that's how it is, I'll come to the consultation. Thanks for answering me.",
+            "end": "good",
+            "outcome": "You stayed calm, acknowledged the concern and answered with facts. The room is on your side."
+          },
+          "bad": {
+            "t": "C'est toujours la même affaire avec vous autres ! Je m'en vais.",
+            "n": "It's always the same thing with you people! I'm leaving.",
+            "end": "bad",
+            "outcome": "You lost your composure and the audience. Acknowledge the concern before answering it."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Acknowledge a heckler's concern as legitimate.",
+          "t": [
+            "Je comprends votre inquiétude, elle est légitime",
+            "Je comprends votre inquiétude"
+          ]
+        },
+        {
+          "n": "Politely ask to finish before answering.",
+          "t": [
+            "Permettez-moi de terminer, et je vous répondrai",
+            "Permettez-moi de terminer et je vous répondrai",
+            "Laissez-moi terminer, et je vous répondrai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-l7",
+      "kind": "speaking",
+      "title": "Your speech, your stage",
+      "goal": "Deliver a toast and a short persuasive speech with rhetorical devices.",
+      "culture": {
+        "title": "A tradition of great speeches",
+        "body": "Eloquence is prized in French public life, and concours d'éloquence are popular in schools and universities. Some speeches belong to the national memory: de Gaulle's appeal from London on 18 June 1940; Malraux's 1964 address as Jean Moulin's ashes entered the Panthéon; Simone Veil defending the abortion bill in 1974; Robert Badinter's 1981 plea against the death penalty. In Québec, René Lévesque's « À la prochaine fois », on referendum night in 1980, is still quoted.",
+        "regions": [
+          "FR",
+          "CA"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Mesdames et Messieurs, je vous remercie de votre présence.",
+          "n": "Ladies and gentlemen, thank you for being here."
+        },
+        {
+          "t": "Je voudrais commencer par une histoire.",
+          "n": "I'd like to begin with a story."
+        },
+        {
+          "t": "S'il ne fallait retenir qu'une chose de ce discours, ce serait celle-ci.",
+          "n": "If you were to remember only one thing from this speech, it would be this."
+        },
+        {
+          "t": "Je vous remercie de votre attention.",
+          "n": "Thank you for your attention."
+        }
+      ],
+      "free": [
+        {
+          "n": "Give a wedding or birthday toast: opening, anecdote, wish, raised glass.",
+          "hint": "Use: Si vous le permettez…, Je me souviens encore du jour où…, Que… soit…, Je vous propose de lever vos verres à…",
+          "seconds": 90,
+          "minWords": 50,
+          "targets": [
+            {
+              "label": "an opening",
+              "any": [
+                "permettez",
+                "quelques mots",
+                "chers",
+                "chères",
+                "mesdames"
+              ]
+            },
+            {
+              "label": "an anecdote",
+              "any": [
+                "souviens",
+                "souvenir",
+                "rencontr*",
+                "il y a",
+                "la première fois"
+              ]
+            },
+            {
+              "label": "a wish",
+              "any": [
+                "soit",
+                "soient",
+                "souhaite*",
+                "bonheur",
+                "vœu*"
+              ]
+            },
+            {
+              "label": "raising the glass",
+              "any": [
+                "verre*",
+                "levons",
+                "à la vôtre",
+                "santé",
+                "toast"
+              ]
+            }
+          ],
+          "model": "Si vous le permettez, j'aimerais dire quelques mots. Je serai bref, promis. Je me souviens encore du jour où j'ai rencontré Sophie : elle s'était trompée de salle de cours et elle est restée toute l'année. Qui aurait cru que nous serions ici, quinze ans plus tard ? Sophie, Julien, que votre vie à deux soit aussi belle que cette journée ! Je vous propose de lever vos verres aux mariés. À la vôtre !"
+        },
+        {
+          "n": "Give a short speech for a cause: anaphora, ternary rhythm, strong last line.",
+          "hint": "Use: Nous le devons à… (x3), Plus… plus…, non seulement… mais aussi…, Ce n'est pas…, c'est…",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "the cause",
+              "any": [
+                "ville",
+                "planète",
+                "climat",
+                "école*",
+                "avenir"
+              ]
+            },
+            {
+              "label": "a rhetorical structure",
+              "any": [
+                "non seulement",
+                "mais aussi",
+                "plus",
+                "nous le devons",
+                "ensemble"
+              ]
+            },
+            {
+              "label": "a call to action",
+              "any": [
+                "agissons",
+                "engageons",
+                "rejoignez",
+                "osons",
+                "levons"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "conclu*",
+                "retenez",
+                "retenir",
+                "commencement",
+                "merci"
+              ]
+            }
+          ],
+          "model": "Je voudrais commencer par une histoire : l'an dernier, notre bibliothèque de quartier a failli fermer. Nous le devons à nos enfants, nous le devons à nos aînés, nous le devons à nous-mêmes : ce lieu doit vivre. Plus nous attendons, plus il sera difficile de le sauver. Il nous faut non seulement de l'argent, mais aussi des bénévoles. Alors rejoignez-nous. Ce n'est pas une fin, c'est un commencement. Je vous remercie de votre attention."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Begin a speech: ladies and gentlemen, thank you for being here.",
+          "t": [
+            "Mesdames et Messieurs, je vous remercie de votre présence",
+            "Mesdames et Messieurs, merci de votre présence",
+            "Mesdames et Messieurs, merci d'être là"
+          ]
+        },
+        {
+          "n": "End a speech by thanking the audience for their attention.",
+          "t": [
+            "Je vous remercie de votre attention",
+            "Merci de votre attention",
+            "Merci pour votre attention"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: L'art du discours",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

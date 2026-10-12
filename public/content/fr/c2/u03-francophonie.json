@@ -1,0 +1,890 @@
+{
+  "id": "c2-u03",
+  "title": "La francophonie",
+  "subtitle": "French around the world",
+  "icon": "🌍",
+  "lessons": [
+    {
+      "id": "c2-u03-l1",
+      "title": "French the Québec way",
+      "goal": "Chat with Québécois friends using everyday Québec expressions.",
+      "tip": {
+        "title": "Le français québécois",
+        "body": "Québec French has its own standard (heard on Radio-Canada) and a relaxed everyday register; its most informal Montréal form is sometimes called joual. Markers: the question particle -tu (Tu viens-tu ?), pis for puis, à soir, and words like blonde, chum, plate, tanné, jaser. Before i and u, t and d sound like ts and dz (tu → « tsu »). The sacres (swear words) borrow church vocabulary: recognise them, but don't use them."
+      },
+      "phrases": [
+        {
+          "t": "Tu viens-tu souper à soir ?",
+          "n": "Are you coming for supper tonight?",
+          "note": "-tu marks a yes/no question; à soir = ce soir."
+        },
+        {
+          "t": "Ma blonde pis moi, on monte au chalet en fin de semaine.",
+          "n": "My girlfriend and I are going up to the cottage this weekend.",
+          "note": "blonde = girlfriend, chum = boyfriend; pis = puis."
+        },
+        {
+          "t": "C'est plate, il pleut encore.",
+          "n": "What a drag, it's raining again.",
+          "note": "plate = boring, or a shame."
+        },
+        {
+          "t": "On a jasé toute la soirée.",
+          "n": "We chatted all evening.",
+          "note": "jaser = to chat (in France: to gossip)."
+        },
+        {
+          "t": "Je suis tanné de chercher du stationnement.",
+          "n": "I'm fed up with looking for parking.",
+          "note": "tanné = fed up; stationnement = parking."
+        },
+        {
+          "t": "J'ai de la misère à suivre quand ils parlent vite.",
+          "n": "I have trouble following when they talk fast.",
+          "note": "avoir de la misère à = avoir du mal à."
+        },
+        {
+          "t": "Bienvenue !",
+          "n": "You're welcome!",
+          "note": "Québec reply to merci, like ça fait plaisir; France: de rien."
+        }
+      ],
+      "dialogue": {
+        "title": "Monday morning in Montréal",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Salut ! Pis, ta fin de semaine au chalet ?",
+            "n": "Hi! So, how was your weekend at the cottage?"
+          },
+          {
+            "who": "you",
+            "t": "C'était plate, il a plu tout le temps. Mais on a jasé toute la soirée.",
+            "n": "It was a drag, it rained the whole time. But we chatted all evening."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Au moins ça ! Moi, je suis tannée de chercher du stationnement. Pis, l'accent, ça va ? Tu comprends tout ce qu'on dit au bureau ?",
+            "n": "At least there's that! Me, I'm fed up with looking for parking. And the accent, how's it going? Do you understand everything we say at the office?"
+          },
+          {
+            "who": "you",
+            "t": "Pas pire ! Mais j'ai de la misère à suivre quand vous parlez vite.",
+            "n": "Not bad! But I have trouble following when you all talk fast."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Inquiète-toi pas, ça va venir. Tu viens-tu souper à soir ? Mon chum fait une tourtière.",
+            "n": "Don't worry, it'll come. Are you coming for supper tonight? My boyfriend is making a tourtière."
+          },
+          {
+            "who": "you",
+            "t": "Avec plaisir ! Merci, Geneviève.",
+            "n": "I'd love to! Thanks, Geneviève."
+          },
+          {
+            "who": "A",
+            "name": "Geneviève",
+            "t": "Bienvenue ! On se voit à soir, d'abord.",
+            "n": "You're welcome! See you tonight, then."
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a Québec friend, informally, if they're coming for supper tonight.",
+          "t": [
+            "Tu viens-tu souper à soir",
+            "Tu viens-tu souper ce soir",
+            "Viens-tu souper ce soir"
+          ]
+        },
+        {
+          "n": "Say, Québec-style, that it's a drag: it's raining again.",
+          "t": [
+            "C'est plate, il pleut encore",
+            "C'est plate il pleut encore"
+          ]
+        },
+        {
+          "n": "Say you have trouble following when people talk fast, the Québec way.",
+          "t": [
+            "J'ai de la misère à suivre quand ils parlent vite",
+            "J'ai de la misère à suivre quand vous parlez vite",
+            "J'ai du mal à suivre quand ils parlent vite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l2",
+      "title": "Brussels and Lausanne",
+      "goal": "Recognise and use typical Belgian and Swiss French expressions.",
+      "tip": {
+        "title": "Belgicismes et helvétismes",
+        "body": "Belgian and Swiss French are close to the French of France, with their own words. Both say septante and nonante; huitante is heard mainly in Vaud, Valais and Fribourg, while Geneva says quatre-vingts. Belgians use savoir for 'can' (Je ne sais pas venir), may soften requests with une fois (typical of Brussels, and much caricatured) and say s'il vous plaît when handing something over. Swiss speakers say ça joue (that works) and un cornet (a bag). Many Belgian and Swiss speakers keep brin and brun distinct, which most Parisians merge."
+      },
+      "phrases": [
+        {
+          "t": "S'il vous plaît, votre café.",
+          "n": "Here's your coffee.",
+          "note": "Belgium: also means 'here you are'."
+        },
+        {
+          "t": "Je ne sais pas venir demain, j'ai un examen.",
+          "n": "I can't come tomorrow, I have an exam.",
+          "note": "Belgium: savoir = pouvoir here."
+        },
+        {
+          "t": "Viens une fois voir !",
+          "n": "Come and have a look!",
+          "note": "une fois softens a request."
+        },
+        {
+          "t": "Il drache depuis ce matin.",
+          "n": "It's been pouring since this morning.",
+          "note": "dracher = to pour (Belgium)."
+        },
+        {
+          "t": "Ça joue pour jeudi ?",
+          "n": "Does Thursday work for you?",
+          "note": "Swiss: ça joue = ça marche."
+        },
+        {
+          "t": "Il n'y a pas le feu au lac !",
+          "n": "There's no rush!",
+          "note": "Swiss saying; the lake is Lake Geneva."
+        },
+        {
+          "t": "Vous voulez un cornet ?",
+          "n": "Would you like a bag?",
+          "note": "Swiss: un cornet = a (plastic) bag."
+        }
+      ],
+      "dialogue": {
+        "title": "Dinner in Geneva",
+        "voice": "fr-CH-ArianeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Sandrine",
+            "t": "Bonsoir et bienvenue ! Vous avez trouvé facilement ?",
+            "n": "Good evening and welcome! Did you find us easily?"
+          },
+          {
+            "who": "you",
+            "t": "Oui, merci. Désolé, je suis un peu en retard.",
+            "n": "Yes, thanks. Sorry, I'm a bit late."
+          },
+          {
+            "who": "A",
+            "name": "Sandrine",
+            "t": "Il n'y a pas le feu au lac ! Olivier vient aussi d'arriver de Bruxelles.",
+            "n": "There's no rush! Olivier has just arrived from Brussels too."
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Bonsoir ! Quel temps chez vous ? À Bruxelles, il drache depuis ce matin.",
+            "n": "Good evening! What's the weather like where you are? In Brussels it's been pouring since this morning."
+          },
+          {
+            "who": "you",
+            "t": "Ici aussi, il pleut. Dites, on se revoit pour parler du projet ?",
+            "n": "It's raining here too. Say, shall we meet again to talk about the project?"
+          },
+          {
+            "who": "A",
+            "name": "Olivier",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Volontiers, mais je ne sais pas venir demain, j'ai une réunion. Jeudi, peut-être ?",
+            "n": "Gladly, but I can't come tomorrow, I have a meeting. Thursday, maybe?"
+          },
+          {
+            "who": "A",
+            "name": "Sandrine",
+            "t": "Jeudi, ça joue pour moi aussi.",
+            "n": "Thursday works for me too."
+          },
+          {
+            "who": "you",
+            "t": "Ça joue pour jeudi, alors !",
+            "n": "Thursday it is, then!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Say, Belgian-style, that you can't come tomorrow because you have an exam.",
+          "t": [
+            "Je ne sais pas venir demain, j'ai un examen",
+            "Je sais pas venir demain, j'ai un examen",
+            "Je ne peux pas venir demain, j'ai un examen"
+          ]
+        },
+        {
+          "n": "Ask a Swiss colleague if Thursday works.",
+          "t": [
+            "Ça joue pour jeudi",
+            "Est-ce que ça joue pour jeudi",
+            "Jeudi, ça joue"
+          ]
+        },
+        {
+          "n": "Tell someone there's no rush, the Swiss way.",
+          "t": [
+            "Il n'y a pas le feu au lac",
+            "Y a pas le feu au lac",
+            "Il y a pas le feu au lac"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l3",
+      "title": "From Dakar to Yaoundé",
+      "goal": "Greet, welcome and chat with friends from francophone Africa.",
+      "tip": {
+        "title": "Les français d'Afrique",
+        "body": "A large and growing share of French speakers live in Africa, where French lives alongside other languages: Wolof in Senegal, Dioula and Baoulé in Côte d'Ivoire, dozens of languages in Cameroon. Everyday expressions include On dit quoi ?, Ça va un peu, Bonne arrivée !, Je suis en train de venir and, in Abidjan, On est ensemble ! Youth slangs such as nouchi (Abidjan) and camfranglais (Cameroon) mix French with local languages and English."
+      },
+      "phrases": [
+        {
+          "t": "On dit quoi ?",
+          "n": "What's up?",
+          "note": "Côte d'Ivoire, Cameroon and beyond."
+        },
+        {
+          "t": "Ça va un peu.",
+          "n": "I'm doing alright.",
+          "note": "Ivorian: modest, not negative."
+        },
+        {
+          "t": "Bonne arrivée !",
+          "n": "Welcome!",
+          "note": "Common in West and Central Africa."
+        },
+        {
+          "t": "Je suis en train de venir.",
+          "n": "I'm on my way.",
+          "note": "France: j'arrive."
+        },
+        {
+          "t": "On est ensemble !",
+          "n": "We're in this together!",
+          "note": "Ivorian; also a warm goodbye."
+        },
+        {
+          "t": "Ici, la teranga n'est pas un vain mot.",
+          "n": "Here, teranga isn't an empty word.",
+          "note": "teranga = Wolof for hospitality."
+        },
+        {
+          "t": "Le nouchi est né dans les rues d'Abidjan.",
+          "n": "Nouchi was born in the streets of Abidjan.",
+          "note": "Ivorian slang."
+        },
+        {
+          "t": "À Yaoundé, beaucoup de jeunes parlent camfranglais.",
+          "n": "In Yaoundé, many young people speak Camfranglais.",
+          "note": "Mix of French, English and local languages."
+        }
+      ],
+      "dialogue": {
+        "title": "Arriving in Abidjan",
+        "voice": "fr-FR-JeromeNeural",
+        "lines": [
+          {
+            "who": "A",
+            "name": "Koffi",
+            "t": "Bonne arrivée à Abidjan ! Le vol s'est bien passé ?",
+            "n": "Welcome to Abidjan! Did the flight go well?"
+          },
+          {
+            "who": "you",
+            "t": "Merci, Koffi ! Oui, très bien. On dit quoi ?",
+            "n": "Thanks, Koffi! Yes, very well. What's up?"
+          },
+          {
+            "who": "A",
+            "name": "Koffi",
+            "t": "Ça va un peu ! Tu as appris le nouchi avant de venir ?",
+            "n": "I'm doing alright! Did you learn nouchi before coming?"
+          },
+          {
+            "who": "you",
+            "t": "Juste quelques mots. Je sais que le nouchi est né dans les rues d'Abidjan.",
+            "n": "Just a few words. I know nouchi was born in the streets of Abidjan."
+          },
+          {
+            "who": "A",
+            "name": "Koffi",
+            "t": "Exactement. Ce soir, on mange chez ma cousine Awa. Elle est sénégalaise, tu vas découvrir la teranga !",
+            "n": "Exactly. Tonight we're eating at my cousin Awa's. She's Senegalese, you're going to discover teranga!"
+          },
+          {
+            "who": "you",
+            "t": "Génial ! On m'a dit qu'au Sénégal, la teranga n'est pas un vain mot.",
+            "n": "Great! I've been told that in Senegal, teranga isn't an empty word."
+          },
+          {
+            "who": "A",
+            "name": "Koffi",
+            "t": "C'est vrai. Attends, elle m'appelle… Allô, Awa ? Oui, on est en train de venir !",
+            "n": "That's true. Hang on, she's calling me… Hello, Awa? Yes, we're on our way!"
+          },
+          {
+            "who": "you",
+            "t": "Merci pour tout, Koffi. On est ensemble !",
+            "n": "Thanks for everything, Koffi. We're in this together!"
+          }
+        ]
+      },
+      "prompts": [
+        {
+          "n": "Ask a friend in Abidjan what's up.",
+          "t": [
+            "On dit quoi"
+          ]
+        },
+        {
+          "n": "Welcome someone who has just arrived, West African style.",
+          "t": [
+            "Bonne arrivée",
+            "Bienvenue"
+          ]
+        },
+        {
+          "n": "Say you're on your way, as many West Africans would.",
+          "t": [
+            "Je suis en train de venir",
+            "On est en train de venir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l4",
+      "kind": "grammar",
+      "title": "Grammar across varieties: -tu and savoir",
+      "goal": "Use the Québec question particle -tu and Belgian savoir, and know their standard equivalents.",
+      "tip": {
+        "title": "Same language, different grammar",
+        "body": "In informal Québec French, -tu after the verb turns a statement into a yes/no question, whatever the subject: Tu viens-tu ?, C'est-tu loin ?, Vous avez-tu fini ? This tu is a particle, not the pronoun, and sounds like « tsu ». In Belgium, savoir often replaces pouvoir for what is possible: Je ne sais pas ouvrir la fenêtre means it's stuck, not that you lack the skill. In formal writing everyone uses the standard forms (Viens-tu ?, Je ne peux pas), so learn both."
+      },
+      "phrases": [
+        {
+          "t": "Tu viens-tu avec nous ?",
+          "n": "Are you coming with us?",
+          "note": "Standard: Viens-tu avec nous ?"
+        },
+        {
+          "t": "C'est-tu loin d'ici ?",
+          "n": "Is it far from here?"
+        },
+        {
+          "t": "Vous avez-tu fini ?",
+          "n": "Have you finished?",
+          "note": "-tu works with any subject."
+        },
+        {
+          "t": "Je ne sais pas ouvrir la fenêtre, elle est coincée.",
+          "n": "I can't open the window, it's stuck.",
+          "note": "Belgium; France: je ne peux pas."
+        },
+        {
+          "t": "Tu sais me passer le sel ?",
+          "n": "Can you pass me the salt?",
+          "note": "Belgium; France: tu peux…"
+        }
+      ],
+      "drills": [
+        {
+          "title": "Swap to the Québec -tu question",
+          "base": {
+            "t": "Est-ce que tu viens ce soir ?",
+            "n": "Are you coming tonight? (standard)"
+          },
+          "items": [
+            {
+              "cue": "Québec · -tu",
+              "t": "Tu viens-tu ce soir ?",
+              "n": "Are you coming tonight? (Québec)"
+            },
+            {
+              "cue": "c'est loin",
+              "t": "C'est-tu loin ?",
+              "n": "Is it far?"
+            },
+            {
+              "cue": "il pleut",
+              "t": "Il pleut-tu ?",
+              "n": "Is it raining?"
+            }
+          ]
+        },
+        {
+          "title": "Swap pouvoir for Belgian savoir",
+          "base": {
+            "t": "Je ne peux pas venir demain.",
+            "n": "I can't come tomorrow. (France)"
+          },
+          "items": [
+            {
+              "cue": "Belgique · savoir",
+              "t": "Je ne sais pas venir demain.",
+              "n": "I can't come tomorrow. (Belgium)"
+            },
+            {
+              "cue": "tu · me passer le sel ?",
+              "t": "Tu sais me passer le sel ?",
+              "n": "Can you pass me the salt?"
+            },
+            {
+              "cue": "il · ouvrir la porte",
+              "t": "Il ne sait pas ouvrir la porte.",
+              "n": "He can't open the door."
+            }
+          ]
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Ask, Québec-style, whether it's far from here.",
+          "t": [
+            "C'est-tu loin d'ici",
+            "C'est-tu loin",
+            "Est-ce que c'est loin d'ici"
+          ]
+        },
+        {
+          "n": "Ask a Belgian friend to pass you the salt, using savoir.",
+          "t": [
+            "Tu sais me passer le sel",
+            "Tu peux me passer le sel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l5",
+      "kind": "listening",
+      "title": "Four accents, one language",
+      "goal": "Follow a radio discussion between speakers from Belgium, Switzerland, Senegal and Louisiana.",
+      "phrases": [
+        {
+          "t": "On dîne à midi et on soupe le soir.",
+          "n": "We have lunch at noon and dinner in the evening.",
+          "note": "France: déjeuner / dîner."
+        },
+        {
+          "t": "On passe d'une langue à l'autre dans la même phrase.",
+          "n": "We switch from one language to the other in the same sentence."
+        },
+        {
+          "t": "Des écoles d'immersion font revivre la langue.",
+          "n": "Immersion schools are bringing the language back to life."
+        },
+        {
+          "t": "Un accent, c'est une histoire, pas une faute.",
+          "n": "An accent is a story, not a mistake."
+        }
+      ],
+      "story": {
+        "title": "Parlures d'ici et d'ailleurs",
+        "intro": "Sylvie hosts a Montréal radio show. Today her guests from Liège, Fribourg, Dakar and Louisiana talk about their French.",
+        "voice": "fr-CA-SylvieNeural",
+        "lines": [
+          {
+            "name": "Sylvie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Bonjour et bienvenue à « Parlures d'ici et d'ailleurs ». Aujourd'hui, quatre invités, quatre façons de parler français.",
+            "n": "Hello and welcome to 'Ways of speaking, here and elsewhere'. Today: four guests, four ways of speaking French."
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Bonjour Sylvie ! Moi, je viens de Liège. Chez nous, on dit septante et nonante, et on dîne à midi.",
+            "n": "Hello Sylvie! I come from Liège. Where I live, we say septante and nonante, and we have dinner at noon."
+          },
+          {
+            "name": "Sylvie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Comme au Québec ! Nous aussi, on dîne à midi et on soupe le soir. Et en Suisse, Léa ?",
+            "n": "Just like in Québec! We also have dinner at noon and supper in the evening. And in Switzerland, Léa?"
+          },
+          {
+            "name": "Léa",
+            "voice": "fr-CH-ArianeNeural",
+            "t": "Pareil pour les repas. Et à Fribourg, on dit même huitante. À Genève, par contre, on dit quatre-vingts.",
+            "n": "Same for meals. And in Fribourg we even say huitante. In Geneva, on the other hand, they say quatre-vingts."
+          },
+          {
+            "name": "Sylvie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Fascinant. Aminata, vous êtes à Dakar. Comment le français vit-il au Sénégal ?",
+            "n": "Fascinating. Aminata, you're in Dakar. How does French live in Senegal?"
+          },
+          {
+            "name": "Aminata",
+            "voice": "fr-FR-CoralieNeural",
+            "t": "Le français est la langue officielle, mais au quotidien, beaucoup de gens parlent wolof. On passe souvent d'une langue à l'autre dans la même phrase.",
+            "n": "French is the official language, but day to day many people speak Wolof. We often switch from one language to the other in the same sentence."
+          },
+          {
+            "name": "Sylvie",
+            "voice": "fr-CA-SylvieNeural",
+            "t": "Et vous, Jean-Paul, en Louisiane ?",
+            "n": "And you, Jean-Paul, in Louisiana?"
+          },
+          {
+            "name": "Jean-Paul",
+            "voice": "fr-CA-ThierryNeural",
+            "t": "Ma grand-mère parlait le français cadien à la maison, mais à l'école, on lui interdisait de le parler. Aujourd'hui, des écoles d'immersion font revivre la langue.",
+            "n": "My grandmother spoke Cajun French at home, but at school she was forbidden to speak it. Today, immersion schools are bringing the language back to life."
+          },
+          {
+            "name": "Benoît",
+            "voice": "fr-BE-GerardNeural",
+            "t": "Et pour moi, un accent, c'est une histoire, pas une faute.",
+            "n": "And for me, an accent is a story, not a mistake."
+          }
+        ],
+        "questions": [
+          {
+            "q": "Comment dit-on quatre-vingts à Fribourg ?",
+            "n": "How do people say 'eighty' in Fribourg?",
+            "t": [
+              "Huitante",
+              "On dit huitante"
+            ]
+          },
+          {
+            "q": "Quelle langue beaucoup de gens parlent-ils au quotidien à Dakar ?",
+            "n": "Which language do many people speak day to day in Dakar?",
+            "t": [
+              "Le wolof",
+              "Wolof",
+              "Ils parlent wolof"
+            ]
+          },
+          {
+            "q": "Qu'est-ce qui fait revivre le français en Louisiane ?",
+            "n": "What is bringing French back to life in Louisiana?",
+            "t": [
+              "Les écoles d'immersion",
+              "Des écoles d'immersion",
+              "L'immersion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2-u03-l6",
+      "kind": "roleplay",
+      "title": "Dinner in Lausanne",
+      "goal": "Talk about regional words with curiosity, not Parisian condescension.",
+      "phrases": [
+        {
+          "t": "Comment est-ce qu'on dit ça, par ici ?",
+          "n": "How do people say that around here?"
+        },
+        {
+          "t": "Pardon, c'était maladroit de ma part.",
+          "n": "Sorry, that was clumsy of me."
+        },
+        {
+          "t": "J'adore ces mots qu'on n'entend qu'en Suisse romande.",
+          "n": "I love these words you only hear in French-speaking Switzerland."
+        },
+        {
+          "t": "Aucune variété n'est plus correcte qu'une autre.",
+          "n": "No variety is more correct than another."
+        }
+      ],
+      "branch": {
+        "title": "Souper chez Fabrice",
+        "scene": "Fabrice, a colleague from Lausanne, has invited you to his home. You learned your French in Paris.",
+        "name": "Fabrice",
+        "voice": "fr-CH-FabriceNeural",
+        "start": "welcome",
+        "nodes": {
+          "welcome": {
+            "t": "Bonsoir ! Entrez, je vous en prie. Le souper est presque prêt. Ça joue si on mange dans vingt minutes ?",
+            "n": "Good evening! Come in, please. Supper is almost ready. Is it OK if we eat in twenty minutes?",
+            "choices": [
+              {
+                "t": "Ça joue parfaitement ! Merci pour l'invitation.",
+                "n": "That works perfectly! Thanks for the invitation.",
+                "next": "wine"
+              },
+              {
+                "t": "Le souper ? Vous voulez dire le dîner, non ?",
+                "n": "Supper? You mean dinner, don't you?",
+                "next": "correct"
+              }
+            ]
+          },
+          "correct": {
+            "t": "À Paris, oui. Mais ici, le dîner, c'est à midi.",
+            "n": "In Paris, yes. But here, dîner is at noon.",
+            "choices": [
+              {
+                "t": "Ah, pardon, je l'ignorais ! Comment est-ce qu'on dit ça, par ici ?",
+                "n": "Oh, sorry, I didn't know! How do you say it around here?",
+                "next": "wine"
+              },
+              {
+                "t": "Oui, mais le vrai français, c'est celui de Paris, non ?",
+                "n": "Yes, but real French is the French of Paris, isn't it?",
+                "next": "bad"
+              }
+            ]
+          },
+          "wine": {
+            "t": "Voilà ! En attendant, goûtez ce chasselas de Lavaux. Mon voisin vigneron a huitante-deux ans et il travaille encore tous les jours !",
+            "n": "There you go! Meanwhile, taste this Chasselas from Lavaux. My neighbour, a winegrower, is eighty-two and still works every day!",
+            "choices": [
+              {
+                "t": "Huitante-deux ? J'adore ces mots qu'on n'entend qu'en Suisse romande.",
+                "n": "Huitante-deux? I love these words you only hear in French-speaking Switzerland.",
+                "next": "numbers"
+              },
+              {
+                "t": "Vous voulez dire quatre-vingt-deux ! Huitante, ce n'est pas du vrai français.",
+                "n": "You mean quatre-vingt-deux! Huitante isn't real French.",
+                "next": "mock"
+              }
+            ]
+          },
+          "numbers": {
+            "t": "Dans le canton de Vaud, on dit huitante. À Genève, plutôt quatre-vingts. Et chez vous ?",
+            "n": "In the canton of Vaud we say huitante. In Geneva, rather quatre-vingts. And where you're from?",
+            "choices": [
+              {
+                "t": "En France, on dit quatre-vingts, mais j'avoue que septante et huitante sont plus logiques.",
+                "n": "In France we say quatre-vingts, but I admit septante and huitante are more logical.",
+                "next": "good"
+              },
+              {
+                "t": "En France, bien sûr. C'est la seule façon correcte de compter.",
+                "n": "In France, of course. It's the only correct way to count.",
+                "next": "bad"
+              }
+            ]
+          },
+          "mock": {
+            "t": "Ah bon ? Pourtant, c'est dans le dictionnaire… Enfin, si vous le dites.",
+            "n": "Really? It's in the dictionary, though… Well, if you say so.",
+            "choices": [
+              {
+                "t": "Pardon, c'était maladroit de ma part. Aucune variété n'est plus correcte qu'une autre.",
+                "n": "Sorry, that was clumsy of me. No variety is more correct than another.",
+                "next": "numbers"
+              },
+              {
+                "t": "Je dis juste ce que tout le monde pense.",
+                "n": "I'm only saying what everyone thinks.",
+                "next": "bad"
+              }
+            ]
+          },
+          "good": {
+            "t": "Tout à fait d'accord ! À table ! Et la prochaine fois, c'est vous qui m'apprenez vos expressions parisiennes.",
+            "n": "Absolutely! Let's eat! And next time, you teach me your Parisian expressions.",
+            "end": "good",
+            "outcome": "Your curiosity about Swiss French made Fabrice feel respected."
+          },
+          "bad": {
+            "t": "Je vois… Bon, mangeons. Il se fait tard, de toute façon.",
+            "n": "I see… Well, let's eat. It's getting late anyway.",
+            "end": "bad",
+            "outcome": "You sounded like a condescending Parisian. Ask about local words instead of correcting them."
+          }
+        }
+      },
+      "prompts": [
+        {
+          "n": "Ask how people say that around here.",
+          "t": [
+            "Comment est-ce qu'on dit ça par ici",
+            "Comment on dit ça par ici",
+            "Comment dit-on ça par ici"
+          ]
+        },
+        {
+          "n": "Say no variety is more correct than another.",
+          "t": [
+            "Aucune variété n'est plus correcte qu'une autre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-l7",
+      "kind": "speaking",
+      "title": "French in the plural",
+      "goal": "Compare varieties of French and argue that no single French owns the language.",
+      "culture": {
+        "title": "The OIF and the francophone world",
+        "body": "The Organisation internationale de la Francophonie (OIF) grew out of an agency founded in Niamey, Niger, on 20 March 1970, hence the International Day of the Francophonie on 20 March. Léopold Sédar Senghor (Senegal), Habib Bourguiba (Tunisia) and Hamani Diori (Niger) were among its champions. The OIF estimated about 321 million French speakers in 2022, a growing share of them in Africa. Membership is political: Algeria, where French is widely spoken, is not a member. In Louisiana, CODOFIL has promoted French since 1968.",
+        "regions": [
+          "FR",
+          "BE",
+          "CH",
+          "CA",
+          "SN",
+          "CI",
+          "CM",
+          "US"
+        ]
+      },
+      "phrases": [
+        {
+          "t": "Selon l'OIF, on comptait environ trois cent vingt et un millions de francophones en deux mille vingt-deux.",
+          "n": "According to the OIF, there were about 321 million French speakers in 2022."
+        },
+        {
+          "t": "Le français se conjugue au pluriel.",
+          "n": "French is conjugated in the plural.",
+          "note": "A popular way of saying there are many Frenches."
+        },
+        {
+          "t": "L'avenir du français se joue en grande partie en Afrique.",
+          "n": "The future of French is largely being decided in Africa."
+        },
+        {
+          "t": "Chaque variété a sa propre norme et sa propre légitimité.",
+          "n": "Each variety has its own norm and its own legitimacy."
+        }
+      ],
+      "free": [
+        {
+          "n": "Compare French in at least three places (e.g. Québec, Belgium, Switzerland, West Africa), with word examples.",
+          "hint": "Use: Au Québec, on dit…, alors qu'en Belgique…, par contre…",
+          "seconds": 90,
+          "minWords": 55,
+          "targets": [
+            {
+              "label": "Québec",
+              "any": [
+                "québec*",
+                "montréal",
+                "blonde",
+                "chum",
+                "plate"
+              ]
+            },
+            {
+              "label": "Belgium or Switzerland",
+              "any": [
+                "belg*",
+                "suisse*",
+                "bruxelles",
+                "liège",
+                "lausanne"
+              ]
+            },
+            {
+              "label": "Africa",
+              "any": [
+                "afrique*",
+                "africain*",
+                "sénégal*",
+                "dakar",
+                "abidjan"
+              ]
+            },
+            {
+              "label": "a contrast",
+              "any": [
+                "alors que",
+                "tandis que",
+                "par contre",
+                "en revanche",
+                "contrairement"
+              ]
+            }
+          ],
+          "model": "Au Québec, on dit souper pour le repas du soir et ma blonde pour ma copine, alors qu'en France on dit dîner. En Belgique, on dit septante et nonante, et en Suisse romande, on dit même huitante dans le canton de Vaud. À Abidjan, par contre, on salue ses amis avec « On dit quoi ? » et les jeunes parlent nouchi. Bref, le français se conjugue au pluriel."
+        },
+        {
+          "n": "Argue for about a minute: is there one 'correct' French? Give reasons and a conclusion.",
+          "hint": "Use: À mon sens…, D'une part… d'autre part…, En somme…",
+          "seconds": 90,
+          "minWords": 50,
+          "targets": [
+            {
+              "label": "norm and varieties",
+              "any": [
+                "norme*",
+                "variété*",
+                "correct*",
+                "légitim*",
+                "standard"
+              ]
+            },
+            {
+              "label": "the francophone world",
+              "any": [
+                "francophon*",
+                "oif",
+                "afrique*",
+                "québec*",
+                "belg*"
+              ]
+            },
+            {
+              "label": "reasoning",
+              "any": [
+                "parce que",
+                "car",
+                "puisque",
+                "en effet",
+                "d'une part"
+              ]
+            },
+            {
+              "label": "a conclusion",
+              "any": [
+                "en somme",
+                "bref",
+                "en conclusion",
+                "finalement",
+                "c'est pourquoi"
+              ]
+            }
+          ],
+          "model": "À mon sens, il n'existe pas un seul français correct. D'une part, la plupart des francophones ne vivent pas en France, et l'avenir de la langue se joue en grande partie en Afrique. D'autre part, chaque variété a sa propre norme et sa propre légitimité : un accent, c'est une histoire, pas une faute. En somme, aucune variété n'est plus correcte qu'une autre."
+        }
+      ],
+      "prompts": [
+        {
+          "n": "Say French is conjugated in the plural.",
+          "t": [
+            "Le français se conjugue au pluriel"
+          ]
+        },
+        {
+          "n": "Say that, according to the OIF, there were about 321 million French speakers in 2022.",
+          "t": [
+            "Selon l'OIF, on comptait environ trois cent vingt et un millions de francophones en deux mille vingt-deux",
+            "Selon l'OIF, il y avait environ trois cent vingt et un millions de francophones en deux mille vingt-deux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2-u03-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: La francophonie",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
