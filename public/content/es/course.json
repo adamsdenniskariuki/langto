@@ -82,9 +82,17 @@
     {
       "id": "C2",
       "title": "Mastery",
-      "description": "Speak with native-like precision, wit and awareness of the Spanish-speaking world's variety.",
-      "comingSoon": true,
-      "units": []
+      "description": "Near-native finesse: nuance and irony, every regional variety, speeches, mediation, refranes and literary allusions, formal debate and crisis talk.",
+      "units": [
+        "c2/u01-matices.json",
+        "c2/u02-ironia.json",
+        "c2/u03-variedades.json",
+        "c2/u04-discurso.json",
+        "c2/u05-mediar.json",
+        "c2/u06-refranes.json",
+        "c2/u07-debate.json",
+        "c2/u08-crisis.json"
+      ]
     }
   ],
   "tracks": [
@@ -102,7 +110,8 @@
         "pron/u06-acentos.json",
         "pron/u07-entonacion.json",
         "pron/u08-enlace.json",
-        "pron/u09-seseo.json"
+        "pron/u09-seseo.json",
+        "pron/u10-regional.json"
       ]
     }
   ]

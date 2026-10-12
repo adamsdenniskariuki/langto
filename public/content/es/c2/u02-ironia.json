@@ -1,0 +1,305 @@
+{
+  "id": "c2-u02",
+  "title": "Ironía y humor",
+  "subtitle": "Irony, understatement & humour",
+  "icon": "😏",
+  "lessons": [
+    {
+      "id": "c2-u02-l1",
+      "title": "Irony and understatement",
+      "goal": "Use irony and understatement to comment on a bad day with dry humour.",
+      "tip": {
+        "title": "Say less, mean more",
+        "body": "Spanish understatement often works by denying the opposite: no es precisamente un genio means he's far from clever, and no está nada mal means it's really good. Digamos que… and tanto como… (Hombre, tanto como fácil…) let you hint without saying it outright. Irony lives in the voice: say praise like ¡Qué bien! or ¡Muy bonito! with a flat, slightly drawn-out tone and a falling ending, and pause briefly before the key word: Digamos que… no fue un éxito."
+      },
+      "phrases": [
+        { "t": "¡Qué bien, lo que me faltaba!", "n": "Great, that's all I needed!", "note": "Ironic: say it flat and slow." },
+        { "t": "No es precisamente un genio.", "n": "He's not exactly a genius." },
+        { "t": "Digamos que no ha sido un éxito rotundo.", "n": "Let's say it hasn't been a resounding success.", "note": "Latin America usually: no fue un éxito rotundo." },
+        { "t": "Pues sí que empezamos bien.", "n": "Well, this is off to a great start.", "note": "Ironic: things are going badly." },
+        { "t": "Hombre, tanto como fácil…", "n": "Well, I wouldn't go as far as calling it easy…", "note": "Tanto como + word = I wouldn't go that far. Hombre is used with anyone, in Spain even with women." },
+        { "t": "No es que sea muy puntual, la verdad.", "n": "He's not what you'd call punctual, to be honest." },
+        { "t": "¡Muy bonito, sí señor!", "n": "Very nice, I must say!", "note": "Sarcastic reproach." },
+        { "t": "No está nada mal.", "n": "It's not bad at all.", "note": "Understatement: often means it's really good." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-SaulNeural",
+        "title": "A Monday to forget",
+        "lines": [
+          { "who": "A", "name": "Sergio", "t": "¿Qué tal la presentación de esta mañana? ¿Todo bien?", "n": "How did this morning's presentation go? All good?" },
+          { "who": "you", "t": "Digamos que no ha sido un éxito rotundo. Para empezar, el proyector no funcionaba.", "n": "Let's say it hasn't been a resounding success. To start with, the projector wasn't working." },
+          { "who": "A", "name": "Sergio", "t": "Vaya. ¿Y al cliente le gustó la propuesta, por lo menos?", "n": "Oh dear. And did the client like the proposal, at least?" },
+          { "who": "you", "t": "Hombre, tanto como gustarle… Se pasó media hora mirando el móvil.", "n": "Well, I wouldn't go as far as saying he liked it… He spent half an hour looking at his phone." },
+          { "who": "A", "name": "Sergio", "t": "Pues sí que empezamos bien la semana. Por cierto, el jefe quiere verte a las cinco.", "n": "Well, the week's off to a great start. By the way, the boss wants to see you at five." },
+          { "who": "you", "t": "¡Qué bien, lo que me faltaba!", "n": "Great, that's all I needed!" }
+        ]
+      },
+      "prompts": [
+        { "n": "React ironically to more bad news: great, that's all I needed!", "t": ["Qué bien, lo que me faltaba", "Lo que me faltaba", "Genial, lo que me faltaba"] },
+        { "n": "Understate it: let's say it wasn't a resounding success.", "t": ["Digamos que no ha sido un éxito rotundo", "Digamos que no fue un éxito rotundo", "No fue un éxito rotundo"] },
+        { "n": "Say, with understatement, that it's not bad at all.", "t": ["No está nada mal", "No está mal"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l2",
+      "title": "Banter and playful rhymes",
+      "goal": "Banter with friends using playful rhymes and colourful idioms.",
+      "tip": {
+        "title": "Pumpkins, butterflies and octopuses",
+        "body": "Colloquial Spanish loves silly rhymes: ¿Qué pasa, calabaza? (what's up, pumpkin?), A otra cosa, mariposa (on to something else, butterfly) and Chao, pescao. Comparisons are wildly visual: más perdido que un pulpo en un garaje (more lost than an octopus in a garage). Many idioms are regional: Más se perdió en Cuba is typically Spanish and Ni modo typically Mexican and Central American, while me importa un pepino is understood widely. Deliver the punchline with a straight face and a tiny pause before the key word: the humour comes from timing, not volume."
+      },
+      "phrases": [
+        { "t": "¿Qué pasa, calabaza?", "n": "What's up, buttercup?", "note": "Playful rhyme between friends; calabaza = pumpkin." },
+        { "t": "A otra cosa, mariposa.", "n": "Moving on!", "note": "Rhyme: let's forget it and move on." },
+        { "t": "Chao, pescao.", "n": "See you later, alligator.", "note": "Heard in several Latin American countries; pescao = pescado." },
+        { "t": "Estás como una cabra.", "n": "You're completely nuts.", "note": "Affectionate teasing, especially in Spain." },
+        { "t": "Iba más perdido que un pulpo en un garaje.", "n": "He was completely lost.", "note": "Spain, colloquial. About a woman: perdida." },
+        { "t": "Me importa un pepino.", "n": "I couldn't care less.", "note": "Also: un comino, un pimiento." },
+        { "t": "Más se perdió en Cuba.", "n": "It's not the end of the world.", "note": "Spain. It alludes to the loss of Cuba, Spain's last major colony in the Americas, in 1898." },
+        { "t": "Ni modo, ya será otra vez.", "n": "Oh well, maybe next time.", "note": "Ni modo = oh well, nothing to be done (Mexico and Central America)." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-AbrilNeural",
+        "title": "Drinks in Madrid",
+        "lines": [
+          { "who": "A", "name": "Paula", "t": "¡Hombre! ¿Qué pasa, calabaza? Hace siglos que no te veo.", "n": "Hey! What's up, buttercup? I haven't seen you in ages." },
+          { "who": "you", "t": "Aquí, sobreviviendo. Ayer pasé una hora dando vueltas en el metro buscando la oficina.", "n": "Just surviving. Yesterday I spent an hour going round in circles on the metro looking for the office." },
+          { "who": "A", "name": "Paula", "t": "¿Una hora? ¡Como un pulpo en un garaje! ¿Y qué tal la entrevista?", "n": "An hour? Like an octopus in a garage! And how did the interview go?" },
+          { "who": "you", "t": "Llegué tarde y no me dieron el puesto. Bueno, más se perdió en Cuba.", "n": "I arrived late and didn't get the job. Oh well, it's not the end of the world." },
+          { "who": "A", "name": "Paula", "t": "Esa es la actitud. Estás como una cabra, pero me encanta. ¿Otra caña?", "n": "That's the attitude. You're completely nuts, but I love it. Another beer?" },
+          { "who": "you", "t": "Venga. Hoy, cañas; mañana, a buscar otra vez. ¡A otra cosa, mariposa!", "n": "Go on then. Today, beers; tomorrow, back to the search. Moving on!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Greet a friend playfully with the pumpkin rhyme.", "t": ["Qué pasa, calabaza", "Qué pasa calabaza"] },
+        { "n": "Say it's not the end of the world, the Spanish way (lost in Cuba).", "t": ["Más se perdió en Cuba"] },
+        { "n": "Say you couldn't care less.", "t": ["Me importa un pepino", "Me importa un comino", "Me importa un pimiento"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l3",
+      "title": "Taking a joke",
+      "goal": "Recognise teasing, defuse it and switch back to being serious.",
+      "tip": {
+        "title": "Signal the switch",
+        "body": "Irony needs exits. If you're not sure, ask Lo dices en broma, ¿no? To return to a serious tone, use Bromas aparte… or Ahora en serio…, with a short pause after it and a lower, calmer voice. Lo dijo con segundas means there was a barbed second meaning. Admitting a good tease is charming: Me has pillado in Spain, Me agarraste in Argentina, Me cachaste in Mexico. And Ya, ya, muy gracioso shows you got the joke without finding it funny."
+      },
+      "phrases": [
+        { "t": "Lo dices en broma, ¿no?", "n": "You're joking, right?" },
+        { "t": "Bromas aparte, tenemos un problema.", "n": "Joking aside, we have a problem." },
+        { "t": "Era broma, no te lo tomes a mal.", "n": "It was a joke, don't take it the wrong way." },
+        { "t": "Lo dijo con segundas.", "n": "There was a dig in what he said.", "note": "Con segundas = with a hidden, often barbed, meaning." },
+        { "t": "Me has pillado.", "n": "You got me.", "note": "Spain. Argentina: Me agarraste; Mexico: Me cachaste." },
+        { "t": "Sin acritud, ¿eh?", "n": "No offence meant, OK?", "note": "Spain, half-humorous." },
+        { "t": "Ya, ya, muy gracioso.", "n": "Yeah, yeah, very funny." },
+        { "t": "Ahora en serio: ¿qué opinas?", "n": "Seriously now: what do you think?" }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Early for once in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Martín", "t": "¡Mirá quién llegó! ¿Te caíste de la cama? Son las ocho y media.", "n": "Look who's here! Did you fall out of bed? It's half past eight." },
+          { "who": "you", "t": "Ya, ya, muy gracioso. Hoy hay reunión con la directora.", "n": "Yeah, yeah, very funny. There's a meeting with the director today." },
+          { "who": "A", "name": "Martín", "t": "Era broma, no te lo tomes a mal. Che, ¿viste el mail del jefe? Dice que somos «un equipo con mucho margen de mejora».", "n": "It was a joke, don't take it the wrong way. Hey, did you see the boss's email? He says we're 'a team with a lot of room for improvement'." },
+          { "who": "you", "t": "¿Eso lo dice en broma o con segundas?", "n": "Is he joking, or is that a dig?" },
+          { "who": "A", "name": "Martín", "t": "Con segundas, seguro. El tipo no hace chistes nunca.", "n": "A dig, for sure. The guy never makes jokes." },
+          { "who": "you", "t": "Bromas aparte, tenemos un problema. Ahora en serio: ¿qué propones?", "n": "Joking aside, we have a problem. Seriously now: what do you suggest?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Check whether someone is joking.", "t": ["Lo dices en broma, no", "Lo dices en broma", "Es broma, no", "Lo decís en broma, no"] },
+        { "n": "Switch to a serious tone: joking aside, we have a problem.", "t": ["Bromas aparte, tenemos un problema", "Bromas aparte, hay un problema", "Fuera de broma, tenemos un problema"] },
+        { "n": "Admit, the Spanish way, that someone got you.", "t": ["Me has pillado", "Me pillaste", "Me agarraste", "Me cachaste"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l4",
+      "kind": "grammar",
+      "title": "Exclamations with a sting",
+      "goal": "Build ironic exclamations with menudo, valiente, con lo que, mira que and pues sí que.",
+      "tip": {
+        "title": "Where irony hides in grammar",
+        "body": "Some exclamation patterns almost always carry irony or reproach. Menudo or valiente before a noun means 'what a…' or 'some…': ¡Menudo día! ¡Valiente ayuda! (mainly Spain; in much of Latin America ¡Tremendo…! or ¡Vaya…! does a similar job). Con lo que me gusta a mí + infinitive pretends to love what you hate. Mira que + infinitive or + clause scolds: ¡Mira que llegar tan tarde! Pues sí que + verb ironically confirms the opposite: ¡Pues sí que hace buen día! (it's pouring). Muy bonito, + infinitive is a classic parental reproach: ¡Muy bonito, llegar a estas horas!"
+      },
+      "phrases": [
+        { "t": "¡Menudo plan nos has preparado!", "n": "What a plan you've cooked up for us!", "note": "Menudo + noun: often ironic. Mainly Spain; Latin America: ¡Tremendo plan!" },
+        { "t": "¡Valiente ayuda la tuya!", "n": "Some help you are!", "note": "Valiente before a noun is ironic. Mainly Spain." },
+        { "t": "¡Con lo que me gusta a mí hacer cola!", "n": "As if I didn't just love queuing!" },
+        { "t": "¡Mira que llegar tan tarde!", "n": "Honestly, arriving so late!" },
+        { "t": "¡Pues sí que has tardado!", "n": "Well, you certainly took your time!", "note": "Latin America usually: ¡Pues sí que tardaste!" }
+      ],
+      "drills": [
+        {
+          "title": "Make the weather ironic",
+          "base": { "t": "Hace un día horrible.", "n": "It's a horrible day." },
+          "items": [
+            { "cue": "menudo", "t": "¡Menudo día hace!", "n": "What a day it is!" },
+            { "cue": "vaya", "t": "¡Vaya día que hace hoy!", "n": "What a day it is today!" },
+            { "cue": "qué · bonito · ironía", "t": "¡Qué día tan bonito hace!", "n": "What a lovely day it is! (ironic)" },
+            { "cue": "pues sí que · ironía", "t": "¡Pues sí que hace buen día!", "n": "Well, it's certainly a fine day! (ironic)" }
+          ]
+        },
+        {
+          "title": "Scold with a sting",
+          "base": { "t": "Llegas muy tarde.", "n": "You're very late." },
+          "items": [
+            { "cue": "pues sí que · pronto", "t": "¡Pues sí que llegas pronto!", "n": "Well, you're certainly early! (ironic)" },
+            { "cue": "mira que + infinitivo", "t": "¡Mira que llegar tan tarde!", "n": "Honestly, arriving so late!" },
+            { "cue": "muy bonito + infinitivo", "t": "¡Muy bonito, llegar a estas horas!", "n": "Very nice, turning up at this hour!" },
+            { "cue": "con lo que · esperar", "t": "¡Con lo que me gusta a mí esperar!", "n": "As if I didn't just love waiting!" }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Ironically say how much you love queuing.", "t": ["Con lo que me gusta a mí hacer cola", "Con lo que me gusta hacer cola", "Con lo que me gusta a mí hacer fila", "Con lo que me gusta hacer fila"] },
+        { "n": "Scold someone: honestly, arriving so late!", "t": ["Mira que llegar tan tarde", "Muy bonito, llegar a estas horas", "Mira que llegar tarde"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l5",
+      "kind": "listening",
+      "title": "A call from the landlord",
+      "goal": "Follow two flatmates in Buenos Aires being drily ironic about their landlord.",
+      "phrases": [
+        { "t": "¡Qué detalle!", "n": "How thoughtful!", "note": "Sincere or, as here, heavily ironic." },
+        { "t": "Un amor de persona.", "n": "A real sweetheart.", "note": "Often ironic." },
+        { "t": "No te lo puedo creer.", "n": "I can't believe it." },
+        { "t": "Encima nos sube el alquiler.", "n": "On top of that, he's raising our rent." }
+      ],
+      "story": {
+        "title": "El dueño",
+        "intro": "Sofía and Tomás share a flat in Buenos Aires; Sofía has just got off the phone with their landlord.",
+        "voice": "es-AR-ElenaNeural",
+        "lines": [
+          { "name": "Sofía", "t": "Llamó el dueño del departamento. Adiviná: a partir de marzo nos sube el alquiler un veinte por ciento.", "n": "The landlord called. Guess what: from March he's raising our rent by twenty per cent." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¡Qué detalle! Justo cuando el calefón lleva tres semanas sin andar.", "n": "How thoughtful! Just when the water heater hasn't worked for three weeks." },
+          { "name": "Sofía", "t": "Ah, pero eso no es todo. Dice que el calefón lo tenemos que arreglar nosotros, porque «seguro que lo rompimos».", "n": "Oh, but that's not all. He says we have to fix the water heater ourselves, because 'we surely broke it'." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Un amor de persona, este hombre. ¿Y no te dijo nada de la humedad del baño?", "n": "A real sweetheart, this man. And didn't he say anything about the damp in the bathroom?" },
+          { "name": "Sofía", "t": "Sí, que es «parte del encanto de un edificio antiguo». Textual.", "n": "Yes, that it's 'part of the charm of an old building'. His exact words." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "No te lo puedo creer. Encima de que nos sube el alquiler, nos vende la humedad como si fuera una ventaja.", "n": "I can't believe it. On top of raising the rent, he sells us the damp as if it were a selling point." },
+          { "name": "Sofía", "t": "Bueno, mirá el lado positivo: con el agua fría nos despertamos re rápido a la mañana.", "n": "Well, look on the bright side: with cold water we wake up really fast in the morning." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "Muy graciosa. Ahora en serio: mañana llamo a una amiga abogada y vemos qué dice el contrato.", "n": "Very funny. Seriously now: tomorrow I'll call a lawyer friend and we'll see what the contract says." }
+        ],
+        "questions": [
+          { "q": "¿Cuánto les sube el alquiler?", "n": "How much is their rent going up?", "t": ["Un veinte por ciento", "El veinte por ciento", "Veinte por ciento", "Un 20 por ciento", "Un 20 %"] },
+          { "q": "¿Qué aparato no funciona desde hace tres semanas?", "n": "Which appliance hasn't worked for three weeks?", "t": ["El calefón", "El calentador", "El calentador de agua"] },
+          { "q": "¿A quién va a llamar Tomás?", "n": "Who is Tomás going to call?", "t": ["A una amiga abogada", "A una abogada", "A su amiga abogada", "Una abogada"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u02-l6",
+      "kind": "roleplay",
+      "title": "Quick-witted on the talk show",
+      "goal": "Parry a host's sarcastic jab with humour, then make a serious point.",
+      "phrases": [
+        { "t": "Digamos que estaba haciendo trabajo de campo.", "n": "Let's say I was doing fieldwork." },
+        { "t": "Me lo tomo con humor.", "n": "I take it with a sense of humour." },
+        { "t": "Hablando en serio, es un tema importante.", "n": "Seriously speaking, it's an important subject." },
+        { "t": "Ahí me ha pillado.", "n": "You've got me there.", "note": "Spain. Latin America: Ahí me agarró." }
+      ],
+      "branch": {
+        "title": "Late-night TV in Bogotá",
+        "scene": "You've written a bestselling book on time management and you're a guest on a late-night TV show in Bogotá. You arrived twenty minutes late, and the host doesn't let it pass.",
+        "name": "Presentador Andrés",
+        "voice": "es-CO-GonzaloNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Muy buenas noches. Hoy nos acompaña quien escribió el libro del año sobre cómo gestionar el tiempo… y llegó veinte minutos tarde al estudio. ¿No le parece un poco irónico?", "n": "Good evening. Tonight we're joined by the author of the book of the year on time management… who arrived twenty minutes late to the studio. Don't you find that a little ironic?",
+            "choices": [
+              { "t": "Digamos que estaba haciendo trabajo de campo para el próximo libro.", "n": "Let's say I was doing fieldwork for my next book.", "next": "q2" },
+              { "t": "Eso no tiene ninguna gracia. El tráfico de Bogotá es imposible.", "n": "That's not funny at all. The traffic in Bogotá is impossible.", "next": "defensive" }
+            ]
+          },
+          "defensive": {
+            "t": "Uy, tranquilidad. Era una broma, no se lo tome a mal.", "n": "Whoa, calm down. It was a joke, don't take it the wrong way.",
+            "choices": [
+              { "t": "Tiene razón, perdone. Me lo tomo con humor: el tráfico me ganó la partida.", "n": "You're right, sorry. I'll take it with humour: the traffic beat me.", "next": "q2" },
+              { "t": "Pues a mí no me hace ninguna gracia.", "n": "Well, I don't find it funny at all.", "next": "sulk" }
+            ]
+          },
+          "q2": {
+            "t": "¡Muy bueno! Ahora, en su libro dice que hay que aprender a decir que no. ¿Esta mañana le dijo que no al despertador?", "n": "Very good! Now, in your book you say we need to learn to say no. Did you say no to your alarm clock this morning?",
+            "choices": [
+              { "t": "Ahí me ha pillado. Pero hablando en serio, decir que no es lo más difícil.", "n": "You've got me there. But seriously speaking, saying no is the hardest thing.", "next": "serious" },
+              { "t": "Mire, si va a seguir con eso, me levanto y me voy.", "n": "Look, if you're going to keep that up, I'll get up and leave.", "next": "walkout" }
+            ]
+          },
+          "serious": {
+            "t": "A ver, explíquenos eso. ¿Por qué nos cuesta tanto?", "n": "Go on, explain that to us. Why do we find it so hard?",
+            "choices": [
+              { "t": "Porque decimos que sí por miedo a quedar mal, y al final no nos queda tiempo para lo importante.", "n": "Because we say yes for fear of looking bad, and in the end we have no time left for what matters.", "next": "good" },
+              { "t": "Bueno, eso está todo en el libro. Cómprenlo.", "n": "Well, it's all in the book. Buy it.", "next": "flat" }
+            ]
+          },
+          "flat": {
+            "t": "Ah, bueno… Gracias por el resumen tan generoso.", "n": "Oh, right… Thanks for that generous summary.",
+            "choices": [
+              { "t": "Perdón, se lo explico: decimos que sí por miedo a quedar mal, y al final no nos queda tiempo para lo importante.", "n": "Sorry, let me explain: we say yes for fear of looking bad, and in the end we have no time left for what matters.", "next": "good" },
+              { "t": "Es que no quiero hacer spoiler.", "n": "I just don't want to give anything away.", "next": "sulk" }
+            ]
+          },
+          "good": {
+            "t": "Pues ahí lo tienen: sentido del humor y una idea que vale la pena. ¡Un aplauso!", "n": "So there you have it: a sense of humour and an idea worth hearing. A round of applause!",
+            "end": "good", "outcome": "You laughed at yourself, won the audience over and then made your serious point."
+          },
+          "sulk": {
+            "t": "Bueno… pasemos a la siguiente sección.", "n": "Right… let's move on to the next segment.",
+            "end": "bad", "outcome": "Taking the jab personally killed the mood. Laugh it off first, then switch to serious."
+          },
+          "walkout": {
+            "t": "¡Vaya, tenemos aquí a una estrella! Pues la puerta está por allá.", "n": "Well, we've got a real star here! The door's over there.",
+            "end": "bad", "outcome": "Threatening to leave on live TV made you the joke. A witty reply would have disarmed the host."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Admit with a smile that the host has got you there.", "t": ["Ahí me ha pillado", "Ahí me pilló", "Ahí me agarró", "Me ha pillado"] },
+        { "n": "Turn serious: seriously speaking, it's an important subject.", "t": ["Hablando en serio, es un tema importante", "En serio, es un tema importante", "Ahora en serio, es un tema importante"] }
+      ]
+    },
+    {
+      "id": "c2-u02-l7",
+      "kind": "speaking",
+      "title": "Telling it with a wink",
+      "goal": "Narrate a mishap with irony and understatement for 90 seconds.",
+      "culture": {
+        "title": "Mafalda, Cantinflas and retranca",
+        "body": "Humour travels differently across the Spanish-speaking world. Mafalda, the comic strip by the Argentine cartoonist Quino, has made generations laugh with a little girl's ironic questions about adults and world politics. In Mexico, the comic actor Cantinflas became famous for talking at length without actually saying anything, so much so that the verb cantinflear made it into the dictionary; Mexicans are also known for the albur, a quick-fire game of double meanings. In Galicia, in north-west Spain, people speak of retranca: a dry, ambiguous irony where you can never be quite sure whether the speaker is joking.",
+        "regions": ["AR", "MX", "ES"]
+      },
+      "phrases": [
+        { "t": "Para colmo, empezó a llover.", "n": "To top it all, it started to rain." },
+        { "t": "Lo que se dice relajante, no fue.", "n": "Relaxing is not exactly what it was." },
+        { "t": "Ahora me río, pero en ese momento no tenía ninguna gracia.", "n": "I laugh about it now, but at the time it wasn't funny at all." },
+        { "t": "Todo salió a pedir de boca… o casi.", "n": "Everything went perfectly… or almost." }
+      ],
+      "free": [
+        {
+          "n": "Tell the story of a minor disaster (a trip, a party, a move) using irony and understatement, then switch to a serious tone to say what you learned.",
+          "hint": "Use: Todo salió a pedir de boca… o casi; Para colmo…; ¡Qué bien, lo que me faltaba!; Digamos que…; Lo que se dice … no fue; Bromas aparte / Ahora en serio…",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "irony", "any": ["qué bien", "lo que me faltaba", "menudo", "menuda", "vaya", "genial", "maravilla", "estupendo", "muy bonito", "a pedir de boca"] },
+            { "label": "understatement", "any": ["digamos que", "no es que", "precisamente", "tanto como", "nada mal", "lo que se dice", "un pelín"] },
+            { "label": "sequencing", "any": ["primero", "luego", "después", "de repente", "para colmo", "encima", "al final"] },
+            { "label": "a serious switch", "any": ["en serio", "bromas aparte", "fuera de broma", "la verdad", "aprendí"] }
+          ],
+          "model": "El verano pasado decidimos hacer una mudanza nosotros mismos para ahorrar. Todo salió a pedir de boca… o casi. Primero, la furgoneta no arrancaba. Luego, el sofá no cabía por la puerta. Para colmo, empezó a llover. ¡Qué bien, lo que me faltaba! Lo que se dice relajante, no fue. Ahora en serio: aprendí que a veces ahorrar sale carísimo."
+        }
+      ],
+      "prompts": [
+        { "n": "Say that, to top it all, it started to rain.", "t": ["Para colmo, empezó a llover", "Para colmo empezó a llover", "Encima, empezó a llover"] },
+        { "n": "Say you laugh about it now, but at the time it wasn't funny at all.", "t": ["Ahora me río, pero en ese momento no tenía ninguna gracia", "Ahora me río, pero en ese momento no tuvo ninguna gracia", "Ahora me río, pero entonces no tenía ninguna gracia"] }
+      ]
+    },
+    {
+      "id": "c2-u02-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Ironía y humor",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

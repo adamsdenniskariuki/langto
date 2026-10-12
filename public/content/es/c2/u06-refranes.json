@@ -1,0 +1,303 @@
+{
+  "id": "c2-u06",
+  "title": "Refranes y citas",
+  "subtitle": "Proverbs, quotations & literary allusions",
+  "icon": "📚",
+  "lessons": [
+    {
+      "id": "c2-u06-l1",
+      "title": "Allusions to the classics",
+      "goal": "Recognise famous literary allusions and drop them playfully into everyday conversation.",
+      "tip": {
+        "title": "Cervantes at the dinner table",
+        "body": "Educated Spanish speakers borrow from literature all the time, often without naming the author. The opening of Don Quijote (En un lugar de la Mancha, de cuyo nombre no quiero acordarme…) is used jokingly when you'd rather not name a place, and luchar contra molinos de viento means fighting imaginary or hopeless battles. Antonio Machado's caminante, no hay camino, se hace camino al andar encourages someone to just start, and Calderón's play title La vida es sueño fits any moment of doubt about what's real. From Latin America, García Márquez gave the language Macondo (an absurd, magical world) and crónica de una muerte anunciada (a disaster everyone saw coming), and Borges inspired the adjective borgiano for endless labyrinths. Use them lightly, with a smile, never as a lecture."
+      },
+      "phrases": [
+        { "t": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme…", "n": "Somewhere in La Mancha, whose name I'd rather not recall…", "note": "Opening line of Don Quijote (Cervantes, 1605). Used jokingly to avoid naming a place." },
+        { "t": "Esto es luchar contra molinos de viento.", "n": "This is tilting at windmills.", "note": "From Don Quijote: fighting imaginary enemies or a hopeless battle." },
+        { "t": "Caminante, no hay camino, se hace camino al andar.", "n": "Traveller, there is no road; the road is made by walking.", "note": "Antonio Machado, from Campos de Castilla." },
+        { "t": "Como diría Calderón, la vida es sueño.", "n": "As Calderón would say, life is a dream.", "note": "La vida es sueño: play by Pedro Calderón de la Barca (17th century)." },
+        { "t": "Esto parece sacado de Macondo.", "n": "This seems straight out of Macondo.", "note": "The fictional town of García Márquez's Cien años de soledad; used, especially in Colombia, for absurd situations." },
+        { "t": "Era la crónica de una muerte anunciada.", "n": "It was a disaster everyone saw coming.", "note": "Title of a García Márquez novel; literally 'chronicle of a death foretold'." },
+        { "t": "Ese trámite es un laberinto borgiano.", "n": "That paperwork is a Borgesian labyrinth.", "note": "After Jorge Luis Borges, famous for stories of labyrinths and infinite libraries." },
+        { "t": "Tiene algo de quijotesco.", "n": "There's something quixotic about it." }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Passport trouble in Bogotá",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "¿Y qué? ¿Cómo te fue con el trámite del pasaporte?", "n": "So? How did it go with the passport paperwork?" },
+          { "who": "you", "t": "Ni me preguntes. Me pidieron un certificado que solo se puede pedir con el pasaporte. Esto parece sacado de Macondo.", "n": "Don't even ask. They asked me for a certificate that can only be requested with the passport. This seems straight out of Macondo." },
+          { "who": "A", "name": "Valeria", "t": "¡Realismo mágico puro! ¿Y vas a seguir insistiendo?", "n": "Pure magical realism! And are you going to keep at it?" },
+          { "who": "you", "t": "Sí, aunque a veces siento que es luchar contra molinos de viento. Es un laberinto borgiano.", "n": "Yes, although sometimes it feels like tilting at windmills. It's a Borgesian labyrinth." },
+          { "who": "A", "name": "Valeria", "t": "Ánimo: caminante, no hay camino, se hace camino al andar. ¿Y cuándo es el viaje?", "n": "Chin up: traveller, there is no road, the road is made by walking. And when's the trip?" },
+          { "who": "you", "t": "En dos semanas. Si el pasaporte no llega, será la crónica de una muerte anunciada.", "n": "In two weeks. If the passport doesn't arrive, it'll be a disaster everyone saw coming." }
+        ]
+      },
+      "prompts": [
+        { "n": "Say a bureaucratic mess seems straight out of Macondo.", "t": ["Esto parece sacado de Macondo", "Parece sacado de Macondo", "Esto parece Macondo"] },
+        { "n": "Say it feels like tilting at windmills.", "t": ["Esto es luchar contra molinos de viento", "Es luchar contra molinos de viento", "Es como luchar contra molinos de viento"] },
+        { "n": "Encourage a friend with Machado's line about the road being made by walking.", "t": ["Caminante, no hay camino, se hace camino al andar", "Se hace camino al andar"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l2",
+      "title": "Proverbs at the right moment",
+      "goal": "Comment on situations at work with a fitting refrán, said naturally and with good timing.",
+      "tip": {
+        "title": "Como dice el refrán…",
+        "body": "Refranes are everywhere in Spanish, from Sancho Panza to grandmothers to politicians. Introduce one lightly: como dice el refrán…, ya lo dice el refrán…, como decía mi abuela… Native speakers often say only the first half and let the listener finish it: Camarón que se duerme… or Al que madruga… Most refranes are shared across the Spanish-speaking world with small variations (ciento or cien volando; en casa de herrero or del herrero). Don't stack them: one well-timed refrán is witty, three in a row sound like a parody."
+      },
+      "phrases": [
+        { "t": "Como dice el refrán, más vale tarde que nunca.", "n": "As the saying goes, better late than never." },
+        { "t": "Del dicho al hecho hay mucho trecho.", "n": "Easier said than done.", "note": "Literally: from saying to doing there's a long stretch." },
+        { "t": "Quien mucho abarca, poco aprieta.", "n": "Don't bite off more than you can chew.", "note": "Also: el que mucho abarca, poco aprieta." },
+        { "t": "Camarón que se duerme, se lo lleva la corriente.", "n": "You snooze, you lose.", "note": "Literally: the shrimp that falls asleep gets swept away. Very common in Mexico and much of Latin America." },
+        { "t": "Más vale pájaro en mano que ciento volando.", "n": "A bird in the hand is worth two in the bush.", "note": "Also: que cien volando." },
+        { "t": "En casa de herrero, cuchillo de palo.", "n": "The shoemaker's children go barefoot.", "note": "Literally: in the blacksmith's house, a wooden knife." },
+        { "t": "No por mucho madrugar amanece más temprano.", "n": "You can't rush things.", "note": "Literally: getting up very early doesn't make dawn come sooner." },
+        { "t": "Al que madruga, Dios lo ayuda.", "n": "The early bird catches the worm.", "note": "Spain often says: Dios le ayuda." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "Office talk in Mexico City",
+        "lines": [
+          { "who": "A", "name": "Fernanda", "t": "¿Ya viste? Rodrigo prometió entregar el informe el lunes y apenas lo mandó hoy.", "n": "Did you see? Rodrigo promised to hand in the report on Monday and only sent it today." },
+          { "who": "you", "t": "Bueno, del dicho al hecho hay mucho trecho. Pero como dice el refrán, más vale tarde que nunca.", "n": "Well, easier said than done. But as the saying goes, better late than never." },
+          { "who": "A", "name": "Fernanda", "t": "Sí, pero es que ahora quiere llevar otros tres proyectos al mismo tiempo.", "n": "Yes, but now he wants to take on three more projects at the same time." },
+          { "who": "you", "t": "Pues quien mucho abarca, poco aprieta. Yo le sugeriría que se quedara con uno.", "n": "Well, he's biting off more than he can chew. I'd suggest he stick to one." },
+          { "who": "A", "name": "Fernanda", "t": "¿Y el cliente nuevo? Si no le contestamos hoy, se va con la competencia.", "n": "And the new client? If we don't answer today, they'll go to the competition." },
+          { "who": "you", "t": "Entonces contestemos ya, que camarón que se duerme, se lo lleva la corriente.", "n": "Then let's answer right now, because you snooze, you lose." }
+        ]
+      },
+      "prompts": [
+        { "n": "Comment that something is easier said than done, using a refrán.", "t": ["Del dicho al hecho hay mucho trecho", "Del dicho al hecho hay un gran trecho"] },
+        { "n": "Warn a colleague who takes on too much, using a refrán.", "t": ["Quien mucho abarca, poco aprieta", "El que mucho abarca, poco aprieta"] },
+        { "n": "Urge your team to act now: you snooze, you lose.", "t": ["Camarón que se duerme, se lo lleva la corriente", "Camarón que se duerme se lo lleva la corriente"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l3",
+      "title": "Quoting sources precisely",
+      "goal": "Introduce, attribute and check quotations accurately in a discussion.",
+      "tip": {
+        "title": "¿Quién lo dijo de verdad?",
+        "body": "Spanish has precise tools for quoting. Cito textualmente announces an exact quotation; parafraseando a… signals you're giving the gist. When you're unsure, hedge: si no me falla la memoria, es de…, or se le atribuye a… (it's attributed to…). Many famous lines circulate online with the wrong author's name attached, so before quoting in public, say habría que comprobar la fuente and look it up. If someone twists a quote, point out that está sacada de contexto (it's taken out of context)."
+      },
+      "phrases": [
+        { "t": "Cito textualmente sus palabras.", "n": "I'm quoting her words verbatim." },
+        { "t": "¿De dónde sale esa cita?", "n": "Where does that quotation come from?" },
+        { "t": "Parafraseando a Machado, se hace camino al andar.", "n": "To paraphrase Machado, you make the road by walking." },
+        { "t": "Esa frase se le atribuye a Cervantes, pero no aparece en el Quijote.", "n": "That line is attributed to Cervantes, but it doesn't appear in Don Quijote." },
+        { "t": "Si no me falla la memoria, es de Neruda: «Es tan corto el amor, y es tan largo el olvido».", "n": "If memory serves, it's by Neruda: 'Love is so short, and forgetting is so long.'", "note": "From Poema 20 in Veinte poemas de amor y una canción desesperada." },
+        { "t": "Esa frase está sacada de contexto.", "n": "That line is taken out of context." },
+        { "t": "Habría que comprobar la fuente.", "n": "We'd have to check the source." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Book club in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Facundo", "t": "Che, para el club de lectura del jueves, ¿vos abrís con una cita de Borges?", "n": "Hey, for Thursday's book club, are you opening with a Borges quote?", "note": "Voseo: vos abrís = tú abres." },
+          { "who": "you", "t": "Esa es la idea, pero quiero citarlo bien. ¿De dónde sale la frase que me mandaste?", "n": "That's the plan, but I want to quote him properly. Where does the line you sent me come from?" },
+          { "who": "A", "name": "Facundo", "t": "La vi en Internet: es del poema «Instantes», ese que empieza «Si pudiera vivir nuevamente mi vida».", "n": "I saw it online: it's from the poem 'Instants', the one that begins 'If I could live my life again'." },
+          { "who": "you", "t": "Ojo, que ese poema circula como si fuera de Borges, pero muchos especialistas dicen que no es suyo. Habría que comprobar la fuente.", "n": "Careful, that poem circulates as if it were by Borges, but many experts say it isn't his. We'd have to check the source." },
+          { "who": "A", "name": "Facundo", "t": "¿En serio? Mirá vos… ¿Y entonces qué hacés?", "n": "Seriously? Well, how about that… So what are you going to do?", "note": "Mirá vos = well, what do you know (Argentina)." },
+          { "who": "you", "t": "Cito textualmente un cuento suyo, con el libro en la mano. Y si parafraseo, lo digo claramente.", "n": "I'll quote one of his short stories word for word, with the book in my hand. And if I paraphrase, I'll say so clearly." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask where that quotation comes from.", "t": ["De dónde sale esa cita", "De dónde viene esa cita", "De dónde es esa cita"] },
+        { "n": "Point out that the line is taken out of context.", "t": ["Esa frase está sacada de contexto", "Está sacada de contexto", "Esa cita está sacada de contexto"] },
+        { "n": "Say you'd have to check the source.", "t": ["Habría que comprobar la fuente", "Hay que comprobar la fuente", "Habría que verificar la fuente"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l4",
+      "kind": "grammar",
+      "title": "Quien, el que and the subjunctive",
+      "goal": "Use proverb-style generalising clauses with the indicative or subjunctive correctly.",
+      "tip": {
+        "title": "Proverb grammar",
+        "body": "Many refranes start with quien or el que meaning 'whoever, anyone who'. When you state a general truth about how the world works, use the indicative: Quien mucho abarca, poco aprieta. El que avisa no es traidor. When you refer to people who may or may not exist, or to the future, switch to the subjunctive: Quien tenga dudas, que pregunte. Los que terminen mañana podrán irse. The pattern Quien + subjunctive, que + subjunctive is a classic way to issue an open invitation or challenge: Quien quiera venir, que venga. El que lo sepa, que lo diga."
+      },
+      "phrases": [
+        { "t": "Quien avisa no es traidor.", "n": "Consider yourself warned.", "note": "Indicative: a general truth. Also: el que avisa no es traidor." },
+        { "t": "Quien quiera venir, que venga.", "n": "Whoever wants to come is welcome to." },
+        { "t": "El que lo sepa, que lo diga.", "n": "If anyone knows, speak up." },
+        { "t": "Quien tenga dudas, que pregunte ahora.", "n": "Anyone with questions, ask now." },
+        { "t": "Los que terminen mañana podrán irse antes.", "n": "Those who finish tomorrow will be able to leave early." }
+      ],
+      "drills": [
+        {
+          "title": "Open invitations",
+          "base": { "t": "Quien quiera venir, que venga.", "n": "Whoever wants to come is welcome to." },
+          "items": [
+            { "cue": "opinar", "t": "Quien quiera opinar, que opine.", "n": "Whoever wants to give an opinion, go ahead." },
+            { "cue": "tener dudas · preguntar", "t": "Quien tenga dudas, que pregunte.", "n": "Anyone with questions, ask." },
+            { "cue": "saber la respuesta · decirla", "t": "Quien sepa la respuesta, que la diga.", "n": "Whoever knows the answer, say it." },
+            { "cue": "no estar de acuerdo · hablar ahora", "t": "Quien no esté de acuerdo, que hable ahora.", "n": "Anyone who disagrees, speak now." }
+          ]
+        },
+        {
+          "title": "Known people or unknown people?",
+          "base": { "t": "Los que han terminado pueden irse.", "n": "Those who have finished can leave." },
+          "items": [
+            { "cue": "mañana · terminar", "t": "Los que terminen mañana podrán irse.", "n": "Those who finish tomorrow will be able to leave." },
+            { "cue": "ayer · terminar", "t": "Los que terminaron ayer se fueron temprano.", "n": "Those who finished yesterday left early." },
+            { "cue": "quien · haber terminado", "t": "Quien haya terminado puede irse.", "n": "Anyone who has finished can leave." },
+            { "cue": "siempre · terminar pronto", "t": "Los que terminan pronto siempre se van antes.", "n": "Those who finish early always leave first." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Tell a group that anyone with questions should ask now.", "t": ["Quien tenga dudas, que pregunte ahora", "El que tenga dudas, que pregunte ahora", "Quien tenga dudas, que pregunte"] },
+        { "n": "Say that whoever wants to come is welcome to.", "t": ["Quien quiera venir, que venga", "El que quiera venir, que venga"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l5",
+      "kind": "listening",
+      "title": "Cervantes said it, or did he?",
+      "goal": "Follow a fast, colloquial exchange about a famous misattributed quotation.",
+      "phrases": [
+        { "t": "Queda de lujo.", "n": "It looks great.", "note": "Colloquial, mainly Spain." },
+        { "t": "¡Venga ya!", "n": "Come off it!", "note": "Spain. Mexico might say ¡no manches!, Argentina ¡dale, no!" },
+        { "t": "Ni rastro de esa frase.", "n": "Not a trace of that line." },
+        { "t": "Vale, me rindo.", "n": "OK, I give up." }
+      ],
+      "story": {
+        "title": "Ladran, Sancho",
+        "intro": "In Madrid, Lucía is finishing a presentation when her flatmate Darío looks over her shoulder at the quotation she has chosen.",
+        "voice": "es-ES-AbrilNeural",
+        "lines": [
+          { "name": "Lucía", "t": "Mira lo que voy a poner en la presentación de mañana: «Ladran, Sancho, señal que cabalgamos». Firmado: Cervantes. Queda de lujo, ¿no?", "n": "Look what I'm putting in tomorrow's presentation: 'The dogs bark, Sancho, a sign that we're riding on.' Signed: Cervantes. It looks great, doesn't it?" },
+          { "name": "Darío", "voice": "es-ES-DarioNeural", "t": "Queda de lujo, sí, pero yo no le pondría la firma de Cervantes. Que yo sepa, esa frase no aparece en el Quijote.", "n": "It looks great, yes, but I wouldn't put Cervantes's name on it. As far as I know, that line doesn't appear in Don Quijote." },
+          { "name": "Lucía", "t": "¡Venga ya! Si la he oído mil veces. Hasta mi profesor de Lengua la citaba.", "n": "Come off it! I've heard it a thousand times. Even my Spanish teacher used to quote it." },
+          { "name": "Darío", "voice": "es-ES-DarioNeural", "t": "Y no es el único. Es de esas frases que todo el mundo atribuye a Cervantes sin haberla leído nunca en el libro. Búscala en el texto, si no me crees.", "n": "And he's not the only one. It's one of those lines everyone attributes to Cervantes without ever having read it in the book. Search the text if you don't believe me." },
+          { "name": "Lucía", "t": "A ver… Sancho sale en casi todas las páginas, pero de los perros que ladran, ni rastro.", "n": "Let's see… Sancho is on almost every page, but of barking dogs, not a trace." },
+          { "name": "Darío", "voice": "es-ES-DarioNeural", "t": "¿Ves? Lo que sí hay en la novela son muchísimos refranes, sobre todo en boca de Sancho. Con eso tienes material de sobra.", "n": "See? What the novel does have is loads of proverbs, especially from Sancho's mouth. That gives you more than enough material." },
+          { "name": "Lucía", "t": "Vale, me rindo. ¿Y qué pongo entonces? ¿«Atribuida a Cervantes»?", "n": "OK, I give up. So what do I put? 'Attributed to Cervantes'?" },
+          { "name": "Darío", "voice": "es-ES-DarioNeural", "t": "Mejor algo como: «Como dice la famosa frase, que no es de Cervantes aunque lo parezca». Así encima quedas como una experta.", "n": "Better something like: 'As the famous line goes, which isn't by Cervantes even though it sounds like it.' That way you even come across as an expert." }
+        ],
+        "questions": [
+          { "q": "¿Dónde quiere usar Lucía la frase?", "n": "Where does Lucía want to use the line?", "t": ["En la presentación", "En la presentación de mañana", "En una presentación"] },
+          { "q": "¿Aparece la frase en el Quijote, según Darío?", "n": "According to Darío, does the line appear in Don Quijote?", "t": ["No", "No aparece", "No, no aparece"] },
+          { "q": "¿Qué hay en la novela, sobre todo en boca de Sancho?", "n": "What does the novel contain, especially from Sancho's mouth?", "t": ["Refranes", "Muchísimos refranes", "Muchos refranes"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u06-l6",
+      "kind": "roleplay",
+      "title": "Misquoted in the paper",
+      "goal": "Get a newspaper to correct a misquotation, firmly but without burning bridges.",
+      "phrases": [
+        { "t": "Me atribuyeron unas palabras que nunca dije.", "n": "They attributed words to me that I never said.", "note": "Spain often: me han atribuido." },
+        { "t": "La cita está sacada de contexto.", "n": "The quotation is taken out of context." },
+        { "t": "La frase completa fue otra.", "n": "The full sentence was something else." },
+        { "t": "Les pido que publiquen una rectificación.", "n": "I'm asking you to publish a correction." }
+      ],
+      "branch": {
+        "title": "The market quote",
+        "scene": "You chair a residents' association in Querétaro, Mexico. This morning's local paper quotes you as saying the old public market 'no longer makes sense', as if you supported closing it. You call the editor.",
+        "name": "Paula Ortega",
+        "voice": "es-MX-NuriaNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Redacción, buenos días, habla Paula Ortega. ¿En qué le puedo ayudar?", "n": "Newsroom, good morning, Paula Ortega speaking. How can I help you?",
+            "choices": [
+              { "t": "Buenos días. Le llamo por el artículo de hoy sobre el mercado: me atribuyeron unas palabras que nunca dije.", "n": "Good morning. I'm calling about today's article on the market: you attributed words to me that I never said.", "next": "check" },
+              { "t": "¡Su periódico publicó una mentira y los voy a demandar!", "n": "Your paper printed a lie and I'm going to sue you!", "next": "defensive" }
+            ]
+          },
+          "defensive": {
+            "t": "Le pido que baje el tono, por favor. Nuestro reportero grabó la entrevista completa.", "n": "Please lower your tone. Our reporter recorded the whole interview.",
+            "choices": [
+              { "t": "Tiene razón, disculpe el tono. Lo que pasa es que la cita está sacada de contexto.", "n": "You're right, excuse my tone. The thing is, the quotation is taken out of context.", "next": "check" },
+              { "t": "Me da igual lo que haya grabado. Quiero hablar con el director.", "n": "I don't care what he recorded. I want to speak to the editor-in-chief.", "next": "bad" }
+            ]
+          },
+          "check": {
+            "t": "A ver, tengo el artículo aquí: «El mercado ya no tiene sentido». ¿No dijo usted eso?", "n": "Let's see, I have the article here: 'The market no longer makes sense.' Didn't you say that?",
+            "choices": [
+              { "t": "Lo dije, pero la frase completa fue otra: «El mercado ya no tiene sentido si no lo renovamos».", "n": "I said it, but the full sentence was different: 'The market no longer makes sense if we don't renovate it.'", "next": "context" },
+              { "t": "No, eso no lo dije jamás.", "n": "No, I never said that.", "next": "recording" }
+            ]
+          },
+          "recording": {
+            "t": "Pues en la grabación se oye clarito. ¿Quiere que se la mande?", "n": "Well, it's crystal clear on the recording. Do you want me to send it to you?",
+            "choices": [
+              { "t": "Sí, por favor. Creo que oirá que la frase sigue: «si no lo renovamos».", "n": "Yes, please. I think you'll hear that the sentence goes on: 'if we don't renovate it'.", "next": "context" },
+              { "t": "No hace falta, ustedes siempre manipulan todo.", "n": "No need, you people always twist everything.", "next": "bad" }
+            ]
+          },
+          "context": {
+            "t": "Mmm… Tiene razón, se cortó la segunda mitad. ¿Qué es exactamente lo que nos pide?", "n": "Hmm… You're right, the second half got cut. What exactly are you asking us for?",
+            "choices": [
+              { "t": "Les pido que publiquen una rectificación con la cita completa, en la misma página que el artículo.", "n": "I'm asking you to publish a correction with the full quotation, on the same page as the article.", "next": "good" },
+              { "t": "Quiero que despidan al reportero.", "n": "I want you to fire the reporter.", "next": "fire" }
+            ]
+          },
+          "fire": {
+            "t": "Eso no va a pasar. Fue un error de edición, no de mala fe. Lo que sí puedo ofrecerle es una aclaración.", "n": "That's not going to happen. It was an editing mistake, not bad faith. What I can offer you is a clarification.",
+            "choices": [
+              { "t": "De acuerdo. Una rectificación con la cita completa me parece suficiente.", "n": "All right. A correction with the full quotation is enough for me.", "next": "good" },
+              { "t": "Entonces lo resolveré en redes sociales.", "n": "Then I'll sort it out on social media.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Me parece justo. Mañana sale la rectificación en la página tres, con la cita completa. Y gracias por llamar con calma.", "n": "That seems fair. The correction will run tomorrow on page three, with the full quotation. And thank you for calling so calmly.", "end": "good", "outcome": "You stayed precise and calm, proved the quote was cut, and got a correction while keeping a good relationship with the paper." },
+          "bad": {
+            "t": "Entiendo. Si gusta, mándele una carta al director. Que tenga buen día.", "n": "I see. If you like, send the editor a letter. Have a good day.", "end": "bad", "outcome": "You let anger take over and lost the chance of a correction." }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the editor they attributed words to you that you never said.", "t": ["Me atribuyeron unas palabras que nunca dije", "Me han atribuido unas palabras que nunca dije", "Me atribuyeron palabras que nunca dije"] },
+        { "n": "Ask them to publish a correction.", "t": ["Les pido que publiquen una rectificación", "Le pido que publiquen una rectificación", "Quiero que publiquen una rectificación"] }
+      ]
+    },
+    {
+      "id": "c2-u06-l7",
+      "kind": "speaking",
+      "title": "Words that stayed with you",
+      "goal": "Present a proverb or quotation that matters to you, with its origin, meaning and a personal story.",
+      "culture": {
+        "title": "A literature of proverbs and Nobel prizes",
+        "body": "In Don Quijote, Sancho Panza is famous for stringing refranes together, sometimes to Don Quijote's exasperation, and the novel helped make the refranero part of everyday Spanish. Around 23 April, the date linked to Cervantes's death, Spain and many other countries celebrate the Día del Libro, and the Cervantes Prize, the most prestigious award for literature in Spanish, is presented at the University of Alcalá de Henares, his birthplace. Latin America has given the language some of its best-loved writers: the Chilean Pablo Neruda won the Nobel Prize in Literature in 1971 and the Colombian Gabriel García Márquez in 1982. Jorge Luis Borges never won it, which is still mentioned as one of the Nobel committee's famous omissions.",
+        "regions": ["ES", "CL", "CO", "AR", "MX"]
+      },
+      "phrases": [
+        { "t": "Hay una frase que me acompaña desde hace años.", "n": "There's a line that has stayed with me for years." },
+        { "t": "Viene a decir que no hay que rendirse.", "n": "It basically means you shouldn't give up." },
+        { "t": "Me la enseñó mi abuela.", "n": "My grandmother taught it to me." },
+        { "t": "Cada vez que dudo, me acuerdo de ella.", "n": "Every time I'm in doubt, I remember it." }
+      ],
+      "free": [
+        {
+          "n": "Present a proverb or quotation that means something to you: say it, explain where it comes from and what it means, and tell when it helped you.",
+          "hint": "Use: Hay una frase que me acompaña desde hace años: «…»; Es de… / Se le atribuye a… / Me la enseñó mi abuela; Viene a decir que…; Recuerdo una vez que…; Cada vez que dudo, me acuerdo de ella.",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "introduce the quotation", "any": ["refrán", "frase", "cita", "dicho", "verso", "como dice", "como decía"] },
+            { "label": "its origin", "any": ["viene de", "se atribuye", "atribuye", "escribió", "abuela", "abuelo", "quijote", "cervantes", "machado", "neruda", "borges", "novela", "poema"] },
+            { "label": "its meaning", "any": ["significa", "quiere decir", "viene a decir", "o sea", "es decir"] },
+            { "label": "a personal story", "any": ["recuerdo", "me ayudó", "aquella vez", "una vez", "aprendí", "me acuerdo", "cada vez que"] }
+          ],
+          "model": "Hay una frase que me acompaña desde hace años: «Caminante, no hay camino, se hace camino al andar». Es de Antonio Machado, aunque yo la aprendí de mi abuela, que la decía siempre. Viene a decir que no hace falta tenerlo todo planeado: el camino se construye mientras avanzas. Recuerdo una vez que dudaba si mudarme a otro país. Tenía miedo, pero me acordé de la frase y me lancé. Cada vez que dudo, me acuerdo de ella."
+        }
+      ],
+      "prompts": [
+        { "n": "Say there's a line that has stayed with you for years.", "t": ["Hay una frase que me acompaña desde hace años", "Hay una frase que me acompaña hace años"] },
+        { "n": "Explain that the proverb basically means you shouldn't give up.", "t": ["Viene a decir que no hay que rendirse", "Quiere decir que no hay que rendirse", "Significa que no hay que rendirse"] }
+      ]
+    },
+    {
+      "id": "c2-u06-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Refranes y citas",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

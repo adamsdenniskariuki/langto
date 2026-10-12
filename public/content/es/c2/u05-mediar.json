@@ -1,0 +1,303 @@
+{
+  "id": "c2-u05",
+  "title": "Mediar",
+  "subtitle": "Mediating & summarising positions",
+  "icon": "🤝",
+  "lessons": [
+    {
+      "id": "c2-u05-l1",
+      "title": "Calming a conflict",
+      "goal": "Mediate in a tense workplace conflict by paraphrasing, validating and proposing a compromise.",
+      "tip": {
+        "title": "The conditional is your best friend",
+        "body": "Mediators soften everything. Turn demands into conditional questions: ¿Te parecería bien…?, ¿Qué te parecería si…?, ¿Podríamos…? After ¿Qué te parecería si…? the verb goes in the imperfect subjunctive (si os reunierais / si se reunieran). Paraphrase before you propose anything: Si lo he entendido bien, lo que te molesta es… (Latin America usually prefers Si entendí bien…). And validate both sides without taking one: Los dos tienen algo de razón. In Spain, informally, you'll hear the vosotros form: Los dos tenéis algo de razón."
+      },
+      "phrases": [
+        { "t": "Entiendo que esto te preocupa mucho.", "n": "I understand this worries you a lot." },
+        { "t": "Si lo he entendido bien, lo que te molesta es la falta de información.", "n": "If I've understood correctly, what bothers you is the lack of information.", "note": "Latin America usually: si entendí bien." },
+        { "t": "Nadie está diciendo que lo hayas hecho mal.", "n": "Nobody is saying you did it wrong." },
+        { "t": "Los dos tienen algo de razón.", "n": "You both have a point.", "note": "Spain, informally: los dos tenéis algo de razón." },
+        { "t": "¿Podríamos dejar las acusaciones a un lado?", "n": "Could we leave the accusations to one side?" },
+        { "t": "Vamos a centrarnos en lo que sí podemos cambiar.", "n": "Let's focus on what we can actually change." },
+        { "t": "¿Qué te parecería si se reunieran una vez por semana?", "n": "How would you feel about the two of you meeting once a week?", "note": "Spain, to two people: ¿Qué os parecería si os reunierais…?" },
+        { "t": "Propongo que nos demos un mes de prueba.", "n": "I suggest we give ourselves a one-month trial." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-XimenaNeural",
+        "title": "Tension in the Valencia office",
+        "lines": [
+          { "who": "A", "name": "Marta", "t": "Mira, estoy harta. Pablo cambia los plazos sin avisar y luego soy yo la que queda mal con el cliente.", "n": "Look, I'm fed up. Pablo changes the deadlines without warning and then I'm the one who looks bad in front of the client." },
+          { "who": "you", "t": "Entiendo que esto te preocupa mucho. Si lo he entendido bien, lo que te molesta es la falta de información, no Pablo como persona.", "n": "I understand this worries you a lot. If I've understood correctly, what bothers you is the lack of information, not Pablo as a person." },
+          { "who": "A", "name": "Marta", "t": "Bueno… sí, más o menos. Pero él dirá que yo soy una controladora.", "n": "Well… yes, more or less. But he'll say I'm a control freak." },
+          { "who": "you", "t": "Nadie está diciendo eso. ¿Podríamos dejar las acusaciones a un lado y centrarnos en lo que sí podemos cambiar?", "n": "Nobody's saying that. Could we leave the accusations aside and focus on what we can actually change?" },
+          { "who": "A", "name": "Marta", "t": "Vale. ¿Y qué propones?", "n": "OK. And what do you suggest?" },
+          { "who": "you", "t": "¿Qué te parecería si Pablo y tú se reunieran diez minutos cada lunes? Propongo que nos demos un mes de prueba.", "n": "How would you feel about you and Pablo meeting for ten minutes every Monday? I suggest we give ourselves a one-month trial." }
+        ]
+      },
+      "prompts": [
+        { "n": "Paraphrase: if you've understood correctly, what bothers her is the lack of information.", "t": ["Si lo he entendido bien, lo que te molesta es la falta de información", "Si entendí bien, lo que te molesta es la falta de información", "Si lo entendí bien, lo que te molesta es la falta de información"] },
+        { "n": "Tell two colleagues they both have a point.", "t": ["Los dos tienen algo de razón", "Los dos tenéis algo de razón", "Ambos tienen algo de razón", "Los dos tienen parte de razón"] },
+        { "n": "Suggest giving yourselves a one-month trial.", "t": ["Propongo que nos demos un mes de prueba", "Les propongo un mes de prueba", "Propongo un mes de prueba"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l2",
+      "title": "Summing up complex positions",
+      "goal": "Neutrally summarise opposing positions in a meeting using reporting verbs.",
+      "tip": {
+        "title": "Reporting verbs keep you neutral",
+        "body": "Instead of saying who's right, attribute each view to its owner with a precise reporting verb: sostiene que (maintains), considera que (believes), defiende que (argues), plantea que (raises the point that), a juicio de (in the view of), según (according to). Frame the two sides with por un lado … por otro (lado). Then name the common ground (En lo que todos coinciden es en que…) and the open question (La cuestión de fondo sigue abierta). Finish by checking: Corríjanme si me equivoco. Vocabulary note: costos is usual in Latin America, costes in Spain."
+      },
+      "phrases": [
+        { "t": "Resumo brevemente las dos posturas.", "n": "I'll briefly summarise the two positions." },
+        { "t": "Por un lado, Recursos Humanos sostiene que el teletrabajo reduce costos.", "n": "On the one hand, HR maintains that remote work cuts costs.", "note": "Spain: reduce costes." },
+        { "t": "Por otro, el equipo de ventas considera que se pierde el contacto con los clientes.", "n": "On the other, the sales team believes that contact with customers gets lost." },
+        { "t": "A juicio de la dirección, hay que decidir antes de fin de mes.", "n": "In management's view, a decision must be made before the end of the month." },
+        { "t": "En lo que todos coinciden es en que hace falta más flexibilidad.", "n": "What everyone agrees on is that more flexibility is needed." },
+        { "t": "La cuestión de fondo sigue abierta.", "n": "The underlying question remains open." },
+        { "t": "¿He reflejado bien su postura?", "n": "Have I captured your position correctly?" },
+        { "t": "Corríjanme si me equivoco.", "n": "Correct me if I'm wrong.", "note": "To one person: corríjame (usted) or corrígeme (tú)." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-JorgeNeural",
+        "title": "The remote-work meeting in Monterrey",
+        "lines": [
+          { "who": "A", "name": "Licenciado Treviño", "t": "Llevamos una hora dándole vueltas. ¿Me hace un resumen de dónde estamos, por favor?", "n": "We've been going round in circles for an hour. Could you sum up where we are, please?" },
+          { "who": "you", "t": "Claro. Resumo brevemente las dos posturas. Por un lado, Recursos Humanos sostiene que el teletrabajo reduce costos.", "n": "Of course. I'll briefly summarise the two positions. On the one hand, HR maintains that remote work cuts costs." },
+          { "who": "A", "name": "Licenciado Treviño", "t": "Ajá. ¿Y ventas?", "n": "Uh-huh. And sales?" },
+          { "who": "you", "t": "Por otro, el equipo de ventas considera que se pierde el contacto con los clientes. En lo que todos coinciden es en que hace falta más flexibilidad.", "n": "On the other, the sales team believes contact with customers gets lost. What everyone agrees on is that more flexibility is needed." },
+          { "who": "A", "name": "Licenciado Treviño", "t": "Bien visto. Entonces, ¿qué nos falta por decidir?", "n": "Well spotted. So what do we still need to decide?" },
+          { "who": "you", "t": "La cuestión de fondo sigue abierta: cuántos días a la semana en la oficina. Corríjanme si me equivoco.", "n": "The underlying question remains open: how many days a week in the office. Correct me if I'm wrong." }
+        ]
+      },
+      "prompts": [
+        { "n": "Announce that you'll briefly summarise the two positions.", "t": ["Resumo brevemente las dos posturas", "Voy a resumir brevemente las dos posturas", "Resumo brevemente las dos posiciones"] },
+        { "n": "Say what everyone agrees on is that more flexibility is needed.", "t": ["En lo que todos coinciden es en que hace falta más flexibilidad", "Todos coinciden en que hace falta más flexibilidad"] },
+        { "n": "Invite the room to correct you if you're wrong.", "t": ["Corríjanme si me equivoco", "Corrígeme si me equivoco", "Corríjame si me equivoco"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l3",
+      "title": "Relaying and rephrasing",
+      "goal": "Pass on what someone meant, not just what they said, when interpreting between two parties.",
+      "tip": {
+        "title": "Meaning before wording",
+        "body": "When you interpret informally, relay the intention and the tone, not a word-for-word copy. Useful frames: Lo que mi colega quiere decir es que… (what my colleague means is…), Viene a decir que… (he's basically saying…), Más que el precio, lo que le preocupa es… (it's less the price than…). Check before you relay: Déjeme comprobar que lo he entendido bien. And keep yourself out of it: Le transmito su propuesta tal cual. In Argentina your counterpart may use vos (decime, ¿qué te parece?); you can answer with usted or tú, and both sound natural."
+      },
+      "phrases": [
+        { "t": "Lo que mi colega quiere decir es que necesita más tiempo.", "n": "What my colleague means is that she needs more time." },
+        { "t": "Viene a decir que el precio no es negociable.", "n": "She's basically saying the price isn't negotiable." },
+        { "t": "Más que el precio, lo que le preocupa es el plazo de entrega.", "n": "It's less the price than the delivery time that worries her." },
+        { "t": "Literalmente dijo «imposible», pero en el sentido de «muy difícil».", "n": "Literally she said 'impossible', but in the sense of 'very difficult'." },
+        { "t": "Déjeme comprobar que lo he entendido bien.", "n": "Let me check I've understood correctly.", "note": "Latin America also: que entendí bien." },
+        { "t": "Le transmito su propuesta tal cual.", "n": "I'll pass on your proposal exactly as it is." },
+        { "t": "No lo dijo con mala intención.", "n": "She didn't mean it unkindly." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Interpreting for a colleague in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Tomás", "t": "Bueno, ¿y qué dice tu colega? Decime la verdad: ¿le gustó la oferta o no?", "n": "So, what does your colleague say? Tell me the truth: did she like the offer or not?", "note": "Voseo: decime = dime." },
+          { "who": "you", "t": "Le gustó, pero más que el precio, lo que le preocupa es el plazo de entrega.", "n": "She liked it, but it's less the price than the delivery time that worries her." },
+          { "who": "A", "name": "Tomás", "t": "Ah, pero recién dijo algo como «impossible». ¿Se enojó?", "n": "Oh, but just now she said something like 'impossible'. Did she get angry?", "note": "recién = just now (Southern Cone and other parts of Latin America)." },
+          { "who": "you", "t": "No, para nada. Literalmente dijo «imposible», pero en el sentido de «muy difícil». No lo dijo con mala intención.", "n": "No, not at all. Literally she said 'impossible', but in the sense of 'very difficult'. She didn't mean it unkindly." },
+          { "who": "A", "name": "Tomás", "t": "Entonces decile que podemos entregar en seis semanas, no en ocho, si pagan la mitad por adelantado.", "n": "Then tell her we can deliver in six weeks, not eight, if they pay half in advance." },
+          { "who": "you", "t": "Déjeme comprobar que lo he entendido bien: seis semanas, con la mitad por adelantado. Se lo transmito tal cual.", "n": "Let me check I've understood correctly: six weeks, with half paid in advance. I'll pass it on exactly as it is." }
+        ]
+      },
+      "prompts": [
+        { "n": "Explain that what your colleague means is that she needs more time.", "t": ["Lo que mi colega quiere decir es que necesita más tiempo", "Mi colega quiere decir que necesita más tiempo", "Viene a decir que necesita más tiempo"] },
+        { "n": "Say it's less the price than the delivery time that worries her.", "t": ["Más que el precio, lo que le preocupa es el plazo de entrega", "Más que el precio, le preocupa el plazo de entrega"] },
+        { "n": "Reassure the other side that she didn't mean it unkindly.", "t": ["No lo dijo con mala intención", "No lo dijo con mala onda", "No lo dijo a mal"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l4",
+      "kind": "grammar",
+      "title": "Reported speech and tense shifts",
+      "goal": "Report statements, promises and requests accurately, shifting tenses and moods as needed.",
+      "tip": {
+        "title": "Dice que… vs dijo que…",
+        "body": "With a present reporting verb (dice que), keep the original tenses: Dice que está dispuesta a negociar. With a past reporting verb (dijo que), shift back: present becomes imperfect (estaba), preterite or perfect becomes pluperfect (había avisado), future becomes conditional (enviaría). Reported requests and orders take the subjunctive: present after a present verb (Nos pide que esperemos), imperfect subjunctive after a past verb (Nos pidió que esperáramos). Spain also uses the -se form (esperásemos); both are correct. In everyday speech, people often keep the present when the fact is still true (Dijo que está dispuesta…)."
+      },
+      "phrases": [
+        { "t": "Dice que está dispuesta a negociar.", "n": "She says she's willing to negotiate." },
+        { "t": "Dijo que estaba dispuesta a negociar.", "n": "She said she was willing to negotiate." },
+        { "t": "Aseguró que lo había avisado con tiempo.", "n": "He insisted he had given notice in good time." },
+        { "t": "Prometió que nos enviaría la propuesta el lunes.", "n": "She promised she would send us the proposal on Monday." },
+        { "t": "Pidió que no tomáramos ninguna decisión sin ella.", "n": "She asked us not to make any decision without her.", "note": "Also: que no tomásemos (more common in Spain)." }
+      ],
+      "drills": [
+        {
+          "title": "Shift the statement into the past",
+          "base": { "t": "Dice que está dispuesta a negociar.", "n": "She says she's willing to negotiate." },
+          "items": [
+            { "cue": "ayer · dijo", "t": "Ayer dijo que estaba dispuesta a negociar.", "n": "Yesterday she said she was willing to negotiate." },
+            { "cue": "aseguró · ya · avisar", "t": "Aseguró que ya lo había avisado.", "n": "She insisted she had already given notice." },
+            { "cue": "prometió · enviar · el lunes", "t": "Prometió que enviaría la propuesta el lunes.", "n": "She promised she would send the proposal on Monday." },
+            { "cue": "reconoció · no · leer el correo", "t": "Reconoció que no había leído el correo.", "n": "She admitted she hadn't read the email." }
+          ]
+        },
+        {
+          "title": "Report the request",
+          "base": { "t": "Nos pide que esperemos.", "n": "She's asking us to wait." },
+          "items": [
+            { "cue": "ayer · pidió", "t": "Ayer nos pidió que esperáramos.", "n": "Yesterday she asked us to wait." },
+            { "cue": "exige · no firmar nada", "t": "Nos exige que no firmemos nada.", "n": "She's demanding that we don't sign anything." },
+            { "cue": "sugirió · hablar con ella", "t": "Nos sugirió que habláramos con ella.", "n": "She suggested we talk to her." },
+            { "cue": "recomienda · calmarnos", "t": "Nos recomienda que nos calmemos.", "n": "She recommends that we calm down." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Report that she promised she would send the proposal on Monday.", "t": ["Prometió que nos enviaría la propuesta el lunes", "Prometió que enviaría la propuesta el lunes"] },
+        { "n": "Report that she asked you all not to make any decision without her.", "t": ["Pidió que no tomáramos ninguna decisión sin ella", "Pidió que no tomásemos ninguna decisión sin ella", "Nos pidió que no tomáramos ninguna decisión sin ella", "Nos pidió que no tomásemos ninguna decisión sin ella"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l5",
+      "kind": "listening",
+      "title": "Noise in the neighbourhood",
+      "goal": "Follow a community mediator relaying positions between a bar owner and an angry neighbour.",
+      "phrases": [
+        { "t": "Vengo de parte de su vecina.", "n": "I've come on behalf of your neighbour." },
+        { "t": "Ella no pide que cierre el negocio.", "n": "She's not asking you to close the business." },
+        { "t": "Lo que le quita el sueño es la música después de medianoche.", "n": "What's keeping her up at night is the music after midnight." },
+        { "t": "¿Estaría dispuesta a bajar el volumen a partir de las once?", "n": "Would you be willing to turn the volume down from eleven onwards?" }
+      ],
+      "story": {
+        "title": "Mediación en Chapinero",
+        "intro": "In Bogotá's Chapinero district, a community mediator visits a bar owner after a neighbour's noise complaint.",
+        "voice": "es-CO-GonzaloNeural",
+        "lines": [
+          { "name": "Andrés", "t": "Buenas tardes, doña Patricia. Soy Andrés, el conciliador del barrio. Vengo de parte de su vecina, la señora Ruiz.", "n": "Good afternoon, Doña Patricia. I'm Andrés, the neighbourhood mediator. I've come on behalf of your neighbour, Mrs Ruiz." },
+          { "name": "Patricia", "voice": "es-CO-SalomeNeural", "t": "Ay, ya sé a qué viene. Esa señora quiere que cierre el bar, y de esto vivimos mi familia y cuatro empleados.", "n": "Oh, I know why you're here. That lady wants me to close the bar, and my family and four employees live off it." },
+          { "name": "Andrés", "t": "Le aclaro una cosa: ella no pide que cierre el negocio. Dice que el bar le gusta y que hasta las once no le molesta nada.", "n": "Let me clarify one thing: she's not asking you to close the business. She says she likes the bar and that nothing bothers her until eleven." },
+          { "name": "Patricia", "voice": "es-CO-SalomeNeural", "t": "¿Ah, sí? Pues no fue eso lo que me gritó por la ventana el sábado.", "n": "Oh, really? Well, that's not what she shouted at me through the window on Saturday." },
+          { "name": "Andrés", "t": "Lo entiendo, y ella misma reconoce que esa noche perdió los estribos. Lo que le quita el sueño, literalmente, es la música después de medianoche: ella entra a trabajar a las seis.", "n": "I understand, and she herself admits she lost her temper that night. What's keeping her up, literally, is the music after midnight: she starts work at six." },
+          { "name": "Patricia", "voice": "es-CO-SalomeNeural", "t": "Mire, yo tampoco quiero problemas. Pero si quito la música a medianoche, la clientela se me va al bar de la esquina.", "n": "Look, I don't want trouble either. But if I turn the music off at midnight, my customers will go to the bar on the corner." },
+          { "name": "Andrés", "t": "Nadie habla de quitarla. ¿Estaría dispuesta a bajar el volumen a partir de las once y a cerrar las ventanas? A cambio, ella se compromete a llamarla a usted antes de quejarse ante la alcaldía.", "n": "No one's talking about turning it off. Would you be willing to turn the volume down from eleven and close the windows? In return, she commits to calling you before complaining to the local authorities." },
+          { "name": "Patricia", "voice": "es-CO-SalomeNeural", "t": "Bueno, eso sí lo puedo hacer. Dígale que la invito a un tinto y lo hablamos con calma.", "n": "Well, that I can do. Tell her I'm inviting her for a coffee and we'll talk it over calmly.", "note": "tinto = a small black coffee in Colombia; elsewhere it usually means red wine." }
+        ],
+        "questions": [
+          { "q": "¿A qué hora entra a trabajar la vecina?", "n": "What time does the neighbour start work?", "t": ["A las seis", "A las 6", "Las seis"] },
+          { "q": "¿Qué teme Patricia si quita la música a medianoche?", "n": "What does Patricia fear if she turns the music off at midnight?", "t": ["Que la clientela se vaya", "Perder a los clientes", "Que los clientes se vayan al bar de la esquina", "Que se le vaya la clientela"] },
+          { "q": "¿Qué propone el mediador?", "n": "What does the mediator propose?", "t": ["Bajar el volumen a partir de las once", "Bajar el volumen", "Bajar el volumen y cerrar las ventanas"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u05-l6",
+      "kind": "roleplay",
+      "title": "Mediating a team conflict",
+      "goal": "Get an angry team lead from blame to a concrete agreement.",
+      "phrases": [
+        { "t": "Te escucho. Cuéntame qué ha pasado desde tu punto de vista.", "n": "I'm listening. Tell me what happened from your point of view." },
+        { "t": "Entiendo que te sientas así.", "n": "I understand why you feel that way.", "note": "entender que + subjunctive when acknowledging a feeling." },
+        { "t": "¿Qué necesitarías tú para poder volver a confiar en ella?", "n": "What would you need to be able to trust her again?" },
+        { "t": "¿Lo dejamos por escrito?", "n": "Shall we put it in writing?" }
+      ],
+      "branch": {
+        "title": "The missed launch",
+        "scene": "You are the internal mediator at a software company in Madrid. Project lead Sergio storms into your office, furious with his colleague Lucía after a missed product launch.",
+        "name": "Sergio",
+        "voice": "es-ES-DarioNeural",
+        "start": "start",
+        "nodes": {
+          "start": {
+            "t": "Mira, con Lucía no se puede trabajar. Retrasó el lanzamiento dos semanas y encima me echa la culpa a mí delante de todo el equipo.", "n": "Look, it's impossible to work with Lucía. She delayed the launch by two weeks and on top of that she blames me in front of the whole team.",
+            "choices": [
+              { "t": "Te escucho. Cuéntame qué ha pasado desde tu punto de vista.", "n": "I'm listening. Tell me what happened from your point of view.", "next": "listen" },
+              { "t": "Bueno, seguro que la culpa es de los dos.", "n": "Well, I'm sure you're both to blame.", "next": "defensive" }
+            ]
+          },
+          "defensive": {
+            "t": "¿De los dos? ¿Tú también te pones de su parte? Pues entonces no sé qué hago aquí.", "n": "Both of us? You're taking her side too? Well then I don't know what I'm doing here.",
+            "choices": [
+              { "t": "Tienes razón, me he precipitado. No me pongo de parte de nadie. Te escucho.", "n": "You're right, I jumped ahead. I'm not taking anyone's side. I'm listening.", "next": "listen" },
+              { "t": "Si te vas a poner así, mejor lo dejamos para otro día.", "n": "If you're going to be like that, we'd better leave it for another day.", "next": "bad" }
+            ]
+          },
+          "listen": {
+            "t": "Le pedí las pruebas para el día quince. No me dijo nada hasta el catorce por la noche, y entonces resulta que faltaba medio módulo.", "n": "I asked her for the tests by the fifteenth. She said nothing until the night of the fourteenth, and then it turned out half a module was missing.",
+            "choices": [
+              { "t": "Si lo he entendido bien, lo que más te molesta no es el retraso, sino que te enteraras en el último momento.", "n": "If I've understood correctly, what bothers you most isn't the delay but that you found out at the last minute.", "next": "paraphrase" },
+              { "t": "Ya, pero los retrasos pasan en todos los proyectos.", "n": "Yeah, but delays happen in every project.", "next": "defensive" }
+            ]
+          },
+          "paraphrase": {
+            "t": "Exacto. Eso es. Si me lo hubiera dicho una semana antes, lo habríamos arreglado.", "n": "Exactly. That's it. If she'd told me a week earlier, we'd have sorted it out.",
+            "choices": [
+              { "t": "Entiendo que te sientas así. ¿Qué necesitarías tú para poder volver a confiar en ella?", "n": "I understand why you feel that way. What would you need to be able to trust her again?", "next": "need" },
+              { "t": "Pues díselo a ella, no a mí.", "n": "Well, tell her, not me.", "next": "bad" }
+            ]
+          },
+          "need": {
+            "t": "No sé… Que me avise en cuanto vea un problema, aunque sea pequeño. Y que no me deje en evidencia delante del equipo.", "n": "I don't know… That she tells me as soon as she sees a problem, even a small one. And that she doesn't show me up in front of the team.",
+            "choices": [
+              { "t": "Me parece razonable. Propongo una reunión los tres el jueves, con dos acuerdos concretos. ¿Lo dejamos por escrito?", "n": "That sounds reasonable. I suggest a meeting with the three of us on Thursday, with two concrete agreements. Shall we put it in writing?", "next": "good" },
+              { "t": "Bueno, ya se lo comentaré cuando la vea.", "n": "Well, I'll mention it to her when I see her.", "next": "vague" }
+            ]
+          },
+          "vague": {
+            "t": "¿Cuando la veas? Así llevamos meses. Necesito algo más concreto.", "n": "When you see her? We've been like this for months. I need something more concrete.",
+            "choices": [
+              { "t": "Tienes razón. Propongo una reunión los tres el jueves, con dos acuerdos concretos por escrito.", "n": "You're right. I suggest a meeting with the three of us on Thursday, with two concrete agreements in writing.", "next": "good" },
+              { "t": "Más concreto no puedo ser, lo siento.", "n": "I can't be more concrete, sorry.", "next": "bad" }
+            ]
+          },
+          "good": {
+            "t": "Vale. El jueves a las diez me viene bien. Gracias por escucharme sin juzgar.", "n": "OK. Thursday at ten works for me. Thanks for listening without judging.", "end": "good", "outcome": "You listened, paraphrased the real issue and turned anger into a concrete meeting with written agreements." },
+          "bad": {
+            "t": "Mira, déjalo. Ya lo hablaré directamente con Recursos Humanos.", "n": "Look, forget it. I'll take it straight to HR.", "end": "bad", "outcome": "You took sides or brushed him off, and the conflict escalated past you." }
+        }
+      },
+      "prompts": [
+        { "n": "Invite him to tell you what happened from his point of view.", "t": ["Te escucho. Cuéntame qué ha pasado desde tu punto de vista", "Cuéntame qué ha pasado desde tu punto de vista", "Cuéntame qué pasó desde tu punto de vista"] },
+        { "n": "Ask what he would need to be able to trust her again.", "t": ["Qué necesitarías tú para poder volver a confiar en ella", "Qué necesitarías para volver a confiar en ella"] }
+      ]
+    },
+    {
+      "id": "c2-u05-l7",
+      "kind": "speaking",
+      "title": "Summarise and mediate",
+      "goal": "Summarise a dispute neutrally and mediate between two sides for 90 seconds.",
+      "culture": {
+        "title": "Tú, usted, vos: choosing the register of a mediation",
+        "body": "Picking the right form of address is half of any mediation in Spanish. In Spain, tú comes quickly, even with older colleagues, and usted can sound distant. In much of Colombia, usted is used not only for respect but also with friends and family, so it can sound warm rather than cold. In Argentina and Uruguay, vos replaces tú in everyday speech, while usted marks distance. Many Spanish-speaking countries also have a public ombudsman, the Defensor del Pueblo in Spain or the Defensoría del Pueblo in Colombia, that people turn to in disputes with public authorities.",
+        "regions": ["ES", "CO", "AR", "UY", "MX"]
+      },
+      "phrases": [
+        { "t": "Si me permiten, resumo lo que he oído.", "n": "If I may, I'll sum up what I've heard." },
+        { "t": "Ambas partes coinciden en lo esencial.", "n": "Both sides agree on the essentials." },
+        { "t": "Donde todavía no hay acuerdo es en los plazos.", "n": "Where there's still no agreement is on the timing." },
+        { "t": "¿Les parece una solución justa?", "n": "Does that seem like a fair solution to you?" }
+      ],
+      "free": [
+        {
+          "n": "Two friends are arguing about where to spend the holidays: one wants the beach, the other the mountains. Summarise each side neutrally, name what they agree on, and propose a compromise.",
+          "hint": "Use: Por un lado, … sostiene que…; por otro, … considera que…; Ambos coinciden en que…; Donde no hay acuerdo es en…; ¿Qué les parecería si…? Propongo que…; ¿Les parece una solución justa?",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "summarise one side", "any": ["por un lado", "sostiene", "considera", "defiende", "según", "a juicio de", "piensa que", "dice que"] },
+            { "label": "summarise the other side", "any": ["por otro", "en cambio", "mientras que", "sin embargo", "por su parte"] },
+            { "label": "common ground", "any": ["coinciden", "ambos", "los dos quieren", "están de acuerdo", "en común"] },
+            { "label": "a compromise", "any": ["propongo", "qué les parecería", "qué os parecería", "podrían", "podríais", "solución", "una semana", "mitad"] }
+          ],
+          "model": "Si me permiten, resumo lo que he oído. Por un lado, Lucía sostiene que necesita descansar en la playa, porque ha tenido un año agotador. Por otro, Diego considera que en la costa hay demasiada gente y prefiere la montaña. Ambos coinciden en que quieren viajar juntos y no gastar demasiado. Donde no hay acuerdo es en el destino. ¿Qué les parecería pasar una semana en la sierra y otra en la costa? ¿Les parece una solución justa?"
+        }
+      ],
+      "prompts": [
+        { "n": "Say both sides agree on the essentials.", "t": ["Ambas partes coinciden en lo esencial", "Las dos partes coinciden en lo esencial"] },
+        { "n": "Ask the two sides whether that seems like a fair solution.", "t": ["Les parece una solución justa", "Os parece una solución justa"] }
+      ]
+    },
+    {
+      "id": "c2-u05-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Mediar",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "pron-u10",
+  "level": "C2",
+  "title": "Acentos regionales",
+  "subtitle": "Buenos Aires, the Caribbean, Mexico, Bogotá, the Andes",
+  "icon": "🌎",
+  "lessons": [
+    {
+      "id": "pron-u10-l1",
+      "kind": "pron",
+      "title": "Rioplatense: ll and y as \"sh\"",
+      "goal": "Recognise the Buenos Aires and Montevideo pronunciation of ll and y, and keep it apart from ch.",
+      "tip": {
+        "title": "\"Sho me shamo\"",
+        "body": "Around the Río de la Plata (Buenos Aires, Montevideo), ll and consonant y are not the soft [ʝ] of Madrid or Mexico City but a hissing sound: [ʒ], like the s in English \"measure\", or, especially among younger speakers in Buenos Aires, [ʃ], like English \"sh\". So \"yo me llamo\" sounds like \"sho me shamo\", \"calle\" like \"cashe\", \"playa\" like \"plasha\". To do it, round your lips slightly and push air through the middle of your tongue, exactly as for \"sh\", with or without voice. Careful: ch stays different. Ch starts with a tiny t: \"cacho\" is ca-tcho, while Rioplatense \"cayo\" is ca-sho. The vowel y (y, hoy, muy) never changes. Other things you'll hear in the same region: voseo (vos sos, vos tenés, with the stress on the last syllable), a melody that many people compare to Italian, and s that is often softened to an h before a consonant (\"mismo\" ≈ \"mihmo\"). The narrator here uses Madrid pronunciation; listen to the story to hear the Buenos Aires voices."
+      },
+      "phrases": [
+        { "t": "Yo me llamo Tomás.", "n": "My name is Tomás.", "note": "Buenos Aires: \"sho me shamo\"; Madrid and most of Latin America: a soft y-sound." },
+        { "t": "¿Vos de dónde sos?", "n": "Where are you from? (voseo)", "note": "Argentina, Uruguay: vos sos = tú eres." },
+        { "t": "La calle está llena de gente.", "n": "The street is full of people.", "note": "Buenos Aires: ca-she, she-na." },
+        { "t": "Ya llegó el colectivo.", "n": "The bus is here.", "note": "colectivo = bus in Argentina. Buenos Aires: sha she-gó." }
+      ],
+      "pairs": [
+        { "sound": "ll / ch", "a": { "t": "callo", "n": "callus / I keep quiet" }, "b": { "t": "cacho", "n": "chunk, bit" } },
+        { "sound": "y / ch", "a": { "t": "mayo", "n": "May" }, "b": { "t": "macho", "n": "male" } },
+        { "sound": "y / ch", "a": { "t": "raya", "n": "line, stripe" }, "b": { "t": "racha", "n": "streak, gust" } },
+        { "sound": "ll / ch", "a": { "t": "gallo", "n": "rooster" }, "b": { "t": "gacho", "n": "drooping (ears, head)" } },
+        { "sound": "ll / ch", "a": { "t": "tallo", "n": "stem, stalk" }, "b": { "t": "tacho", "n": "bin, bucket (Southern Cone)" } },
+        { "sound": "y / ch", "a": { "t": "cayo", "n": "key, islet" }, "b": { "t": "cacho", "n": "chunk, bit" } }
+      ],
+      "stress": [
+        { "t": "Ayer llovió toda la tarde.", "n": "Yesterday it rained all afternoon.", "mark": "A*yer* llo*vió* *to*da la *tar*de.", "note": "Buenos Aires: a-sher sho-vió." },
+        { "t": "¿Vos de dónde sos?", "n": "Where are you from?", "mark": "¿*Vos* de *dón*de *sos*?", "note": "Voseo forms stress the last syllable: sos, tenés, querés." },
+        { "t": "Me llamo Elena.", "n": "My name is Elena.", "mark": "Me *lla*mo E*le*na." }
+      ],
+      "story": {
+        "title": "Una llamada a Buenos Aires",
+        "intro": "Pablo from Madrid calls two friends in Buenos Aires: listen to how differently they say ll and y.",
+        "voice": "es-AR-ElenaNeural",
+        "lines": [
+          { "name": "Pablo", "voice": "es-ES-DarioNeural", "t": "¡Hola! Yo me llamo Pablo y soy de Madrid.", "n": "Hi! My name is Pablo and I'm from Madrid." },
+          { "name": "Elena", "voice": "es-AR-ElenaNeural", "t": "¡Hola, Pablo! Yo me llamo Elena y soy de Buenos Aires.", "n": "Hi, Pablo! My name is Elena and I'm from Buenos Aires." },
+          { "name": "Pablo", "voice": "es-ES-DarioNeural", "t": "¿Qué tiempo hace allí? Aquí llueve sin parar.", "n": "What's the weather like there? Here it rains non-stop." },
+          { "name": "Elena", "voice": "es-AR-ElenaNeural", "t": "Acá hace calor. Ayer fuimos al parque con mi hermano y llevamos el mate.", "n": "It's hot here. Yesterday my brother and I went to the park and took the mate." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¡Hola, Pablo! Yo soy el hermano. ¿Vos ya conocés Buenos Aires?", "n": "Hi, Pablo! I'm the brother. Have you been to Buenos Aires yet?" },
+          { "name": "Pablo", "voice": "es-ES-DarioNeural", "t": "Todavía no, pero ya tengo el billete para mayo.", "n": "Not yet, but I've already got my ticket for May." },
+          { "name": "Tomás", "voice": "es-AR-TomasNeural", "t": "¡Qué bueno! Traé un paraguas, por las dudas.", "n": "Great! Bring an umbrella, just in case." },
+          { "name": "Elena", "voice": "es-AR-ElenaNeural", "t": "¡Y llamanos cuando llegues!", "n": "And call us when you arrive!" }
+        ],
+        "questions": [
+          { "q": "¿De dónde es Elena?", "n": "Where is Elena from?", "t": ["De Buenos Aires", "Es de Buenos Aires", "De Argentina", "Es de Argentina"] },
+          { "q": "¿Qué llevaron al parque?", "n": "What did they take to the park?", "t": ["El mate", "Llevaron el mate", "Mate"] },
+          { "q": "¿Cuándo va a viajar Pablo?", "n": "When is Pablo going to travel?", "t": ["En mayo", "Va a viajar en mayo", "Viaja en mayo"] }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask someone where they're from, using vos.", "t": ["Vos de dónde sos", "De dónde sos", "De dónde sos vos"] }
+      ]
+    },
+    {
+      "id": "pron-u10-l2",
+      "kind": "pron",
+      "title": "Lost s, Mexican melody, Bogotá clarity",
+      "goal": "Understand aspirated s and recognise Mexican, Colombian and Andean features.",
+      "tip": {
+        "title": "Same language, different music",
+        "body": "Aspirated s: in the Caribbean (Cuba, Puerto Rico, the Dominican Republic, coastal Venezuela and Colombia), in Andalusia and the Canary Islands, and around the Río de la Plata, s at the end of a syllable is often softened to an h-like breath or dropped: \"los amigos\" ≈ \"loh amigo\", \"mismo\" ≈ \"mihmo\", \"¿cómo estás?\" ≈ \"¿cómo ehtá?\". Plurals and \"tú\" forms then depend on context; in eastern Andalusia the vowel before the lost s is often pronounced more open, which keeps some of the difference. Pronounce every s yourself; just be ready to hear it disappear. Mexico (especially the centre): consonants are kept firm and s is strong, while unstressed vowels next to s are often shortened or nearly whispered (\"pues\" ≈ \"ps\", \"entonces\" ≈ \"ntons's\"); the melody often rises and stretches the last stressed syllable. Bogotá: speech is often described as clear and careful, every consonant pronounced, and usted is used a lot, even among friends and family. Andean Spanish (highlands of Peru, Bolivia, Ecuador): s is usually strong, unstressed vowels may weaken, and in some areas ll and y are still two different sounds."
+      },
+      "phrases": [
+        { "t": "Nos vemos después.", "n": "See you later.", "note": "Caribbean, Andalusia: often \"noh vemo dehpué\"." },
+        { "t": "¿Mande?", "n": "Pardon? / Yes? (Mexico)", "note": "Polite Mexican reply when you didn't hear or are called." },
+        { "t": "¿Me regala un tinto, por favor?", "n": "Can I have a black coffee, please? (Colombia)", "note": "\"Regalar\" is a polite way to ask for something in Colombia; tinto = black coffee." },
+        { "t": "¿Qué onda?", "n": "What's up? (Mexico, informal)" }
+      ],
+      "pairs": [
+        { "sound": "final s / no s", "a": { "t": "Tienes razón.", "n": "You're right." }, "b": { "t": "Tiene razón.", "n": "He's / She's right." } },
+        { "sound": "final s / no s", "a": { "t": "Trabajas mucho.", "n": "You work a lot." }, "b": { "t": "Trabaja mucho.", "n": "He / She works a lot." } },
+        { "sound": "plural s / no s", "a": { "t": "las casas", "n": "the houses" }, "b": { "t": "la casa", "n": "the house" } },
+        { "sound": "s before consonant", "a": { "t": "pasta", "n": "pasta / paste" }, "b": { "t": "pata", "n": "leg, paw (of an animal)" } },
+        { "sound": "s before consonant", "a": { "t": "mismo", "n": "same" }, "b": { "t": "mimo", "n": "cuddle / mime" } },
+        { "sound": "s before consonant", "a": { "t": "pesca", "n": "fishing" }, "b": { "t": "peca", "n": "freckle" } }
+      ],
+      "stress": [
+        { "t": "Nos vemos después.", "n": "See you later.", "mark": "Nos *ve*mos des*pués*.", "note": "Say every s; aspirating accents soften all three." },
+        { "t": "¿Me regala un tinto, por favor?", "n": "Can I have a black coffee, please?", "mark": "¿Me re*ga*la un *tin*to, por fa*vor*?" },
+        { "t": "Los estudiantes están listos.", "n": "The students are ready.", "mark": "Los estu*dian*tes es*tán* *lis*tos.", "note": "Six s sounds: in Havana or Seville many of them may become a soft h." }
+      ],
+      "story": {
+        "title": "Tres acentos en un congreso",
+        "intro": "At a conference, a Mexican, a Colombian and a Spaniard meet and help each other find a room.",
+        "voice": "es-MX-JorgeNeural",
+        "lines": [
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Buenas tardes. Soy Jorge y vengo de Guadalajara.", "n": "Good afternoon. I'm Jorge and I come from Guadalajara." },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Mucho gusto, Jorge. Yo soy Salomé, de Bogotá. ¿Usted es profesor?", "n": "Nice to meet you, Jorge. I'm Salomé, from Bogotá. Are you a teacher?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Sí, doy clases de historia. ¿Y usted?", "n": "Yes, I teach history. And you?" },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Yo trabajo en una editorial. Me encanta escuchar tantos acentos distintos.", "n": "I work at a publishing house. I love hearing so many different accents." },
+          { "name": "Carmen", "voice": "es-ES-TrianaNeural", "t": "Hola, soy Carmen, de Valladolid. Perdón, ¿es aquí la sala de prensa?", "n": "Hi, I'm Carmen, from Valladolid. Sorry, is this the press room?" },
+          { "name": "Jorge", "voice": "es-MX-JorgeNeural", "t": "Sí, aquí es. ¡Pásele, pásele!", "n": "Yes, it's here. Come in, come in!" },
+          { "name": "Salomé", "voice": "es-CO-SalomeNeural", "t": "Siga, siga, que ya va a empezar.", "n": "Come in, it's about to start." },
+          { "name": "Carmen", "voice": "es-ES-TrianaNeural", "t": "Gracias. Tres acentos distintos y nos entendemos perfectamente.", "n": "Thanks. Three different accents and we understand each other perfectly." }
+        ],
+        "questions": [
+          { "q": "¿De dónde viene Jorge?", "n": "Where does Jorge come from?", "t": ["De Guadalajara", "Viene de Guadalajara", "De México", "Es de Guadalajara"] },
+          { "q": "¿Dónde trabaja Salomé?", "n": "Where does Salomé work?", "t": ["En una editorial", "Trabaja en una editorial"] },
+          { "q": "¿Qué busca Carmen?", "n": "What is Carmen looking for?", "t": ["La sala de prensa", "Busca la sala de prensa"] }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask for a black coffee the Colombian way.", "t": ["Me regala un tinto por favor", "Me regala un tinto", "Un tinto por favor"] }
+      ]
+    }
+  ]
+}

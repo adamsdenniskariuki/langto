@@ -1,0 +1,296 @@
+{
+  "id": "c2-u04",
+  "title": "El arte del discurso",
+  "subtitle": "Toasts, speeches & rhetoric",
+  "icon": "🎤",
+  "lessons": [
+    {
+      "id": "c2-u04-l1",
+      "title": "Raising a toast",
+      "goal": "Give a short, warm and witty wedding toast in front of a crowd.",
+      "tip": {
+        "title": "Attention, anecdote, toast",
+        "body": "A good Spanish brindis has three beats: ask for attention, tell one short personal anecdote, then raise your glass. Use ustedes for the whole room everywhere; among friends in Spain you'll also hear vosotros (¿Me dais un momento?). Slow down before the last line, then lift your pitch and volume on ¡Por los novios! and finish with ¡Salud! At weddings, expect the guests to answer with ¡Vivan los novios! or chant ¡Que se besen!"
+      },
+      "phrases": [
+        { "t": "¿Me permiten un momento de atención?", "n": "May I have your attention for a moment?", "note": "Spain, among friends: ¿Me dais un momento?" },
+        { "t": "Prometo ser breve, que la comida se enfría.", "n": "I promise to be brief, the food's getting cold." },
+        { "t": "Todavía recuerdo el día en que nos conocimos.", "n": "I still remember the day we met." },
+        { "t": "Quien conoce a Sofía sabe que nunca se rinde.", "n": "Anyone who knows Sofía knows she never gives up." },
+        { "t": "Querida Sofía, no has dejado de sorprendernos.", "n": "Dear Sofía, you've never stopped surprising us." },
+        { "t": "Levantemos las copas.", "n": "Let's raise our glasses.", "note": "Also: alcemos las copas." },
+        { "t": "¡Por Sofía y Andrés, y por muchos años de felicidad!", "n": "To Sofía and Andrés, and to many years of happiness!" },
+        { "t": "¡Salud! ¡Vivan los novios!", "n": "Cheers! Long live the bride and groom!" }
+      ],
+      "dialogue": {
+        "voice": "es-MX-DaliaNeural",
+        "title": "A wedding in Guadalajara",
+        "lines": [
+          { "who": "A", "name": "Mariana", "t": "Oye, ¿no vas a decir unas palabras? Tú eres quien conoce a Sofía desde la prepa.", "n": "Hey, aren't you going to say a few words? You're the one who's known Sofía since high school.", "note": "prepa (preparatoria) = upper secondary school in Mexico." },
+          { "who": "you", "t": "Con mucho gusto. ¿Me permiten un momento de atención?", "n": "With pleasure. May I have your attention for a moment?" },
+          { "who": "A", "name": "Mariana", "t": "¡Shhh! ¡A ver, todos, que viene el brindis!", "n": "Shh! Listen up, everyone, here comes the toast!" },
+          { "who": "you", "t": "Tranquilos, prometo ser breve, que la comida se enfría. Todavía recuerdo el día en que nos conocimos: Sofía me corrigió la ortografía delante de toda la clase.", "n": "Don't worry, I promise to be brief, the food's getting cold. I still remember the day we met: Sofía corrected my spelling in front of the whole class." },
+          { "who": "A", "name": "Mariana", "t": "¡Muy de ella! ¿Y qué les deseas a los dos?", "n": "So like her! And what do you wish them both?" },
+          { "who": "you", "t": "Quien conoce a Sofía sabe que nunca se rinde, y Andrés tampoco. Levantemos las copas: ¡por Sofía y Andrés, y por muchos años de felicidad!", "n": "Anyone who knows Sofía knows she never gives up, and neither does Andrés. Let's raise our glasses: to Sofía and Andrés, and to many years of happiness!" }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask the guests for a moment of their attention.", "t": ["Me permiten un momento de atención", "Me permiten un momento", "Me dais un momento"] },
+        { "n": "Promise to be brief because the food is getting cold.", "t": ["Prometo ser breve, que la comida se enfría", "Prometo ser breve"] },
+        { "n": "Invite everyone to raise their glasses and toast the couple.", "t": ["Levantemos las copas por los novios", "Levantemos las copas", "Alcemos las copas", "Por los novios"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l2",
+      "title": "Rhetoric that sticks",
+      "goal": "Open, structure and close a formal speech using classic rhetorical devices.",
+      "tip": {
+        "title": "Question, contrast, triad",
+        "body": "Three devices make a Spanish speech memorable: the rhetorical question (¿Y si lo hiciéramos todo de otra manera?), the antithesis with no … sino (No se trata de buscar culpables, sino de asumir responsabilidades) and the triad, ideally with anaphora, repeating the same opening word (necesitamos valor, necesitamos paciencia y …). After a rhetorical question, pause for a full two seconds. In a triad, let your voice rise on the first two items and fall firmly on the third. Formal speeches address the audience as ustedes: permítanme, les agradezco."
+      },
+      "phrases": [
+        { "t": "Señoras y señores, es un honor estar hoy aquí.", "n": "Ladies and gentlemen, it's an honour to be here today." },
+        { "t": "Permítanme empezar con una pregunta.", "n": "Allow me to begin with a question." },
+        { "t": "¿Y si lo hiciéramos todo de otra manera?", "n": "What if we did everything differently?", "note": "Rhetorical question: pause afterwards." },
+        { "t": "No se trata de buscar culpables, sino de asumir responsabilidades.", "n": "It's not about finding someone to blame, but about taking responsibility.", "note": "Antithesis: no … sino." },
+        { "t": "Necesitamos valor, necesitamos paciencia y, sobre todo, nos necesitamos los unos a los otros.", "n": "We need courage, we need patience and, above all, we need each other.", "note": "Triad with anaphora." },
+        { "t": "Y con esto llego a mi último punto.", "n": "And that brings me to my final point." },
+        { "t": "Permítanme resumir brevemente lo dicho.", "n": "Allow me to briefly sum up what I've said." },
+        { "t": "Muchas gracias por su atención.", "n": "Thank you very much for your attention." }
+      ],
+      "dialogue": {
+        "voice": "es-ES-TrianaNeural",
+        "title": "Rehearsing with a speech coach in Madrid",
+        "lines": [
+          { "who": "A", "name": "Carmen", "t": "Empecemos por el arranque, que es lo que más cuesta. ¿Cómo abre usted el discurso?", "n": "Let's start with the opening, which is the hardest part. How do you open the speech?" },
+          { "who": "you", "t": "Señoras y señores, es un honor estar hoy aquí. Permítanme empezar con una pregunta.", "n": "Ladies and gentlemen, it's an honour to be here today. Allow me to begin with a question." },
+          { "who": "A", "name": "Carmen", "t": "Bien. ¿Y qué pregunta? Y, por favor, haga una pausa después; deje que el público piense.", "n": "Good. And what question? And please pause afterwards; let the audience think." },
+          { "who": "you", "t": "¿Y si lo hiciéramos todo de otra manera?", "n": "What if we did everything differently?" },
+          { "who": "A", "name": "Carmen", "t": "Muy bien. Ahora necesito una frase que se quede grabada, de esas que luego cita la prensa.", "n": "Very good. Now I need a line that sticks, the kind the press quotes afterwards." },
+          { "who": "you", "t": "No se trata de buscar culpables, sino de asumir responsabilidades. Y con esto llego a mi último punto: necesitamos valor, necesitamos paciencia y, sobre todo, nos necesitamos los unos a los otros.", "n": "It's not about finding someone to blame, but about taking responsibility. And that brings me to my final point: we need courage, we need patience and, above all, we need each other." }
+        ]
+      },
+      "prompts": [
+        { "n": "Open your speech by announcing that you'll begin with a question.", "t": ["Permítanme empezar con una pregunta", "Permítanme comenzar con una pregunta", "Quisiera empezar con una pregunta"] },
+        { "n": "Say it's not about finding someone to blame but about taking responsibility.", "t": ["No se trata de buscar culpables, sino de asumir responsabilidades", "No se trata de buscar culpables sino de asumir responsabilidades"] },
+        { "n": "Thank the audience for their attention.", "t": ["Muchas gracias por su atención", "Gracias por su atención", "Les agradezco su atención"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l3",
+      "title": "A retirement speech",
+      "goal": "Say goodbye to a long-serving colleague with warmth, dignity and a touch of humour.",
+      "tip": {
+        "title": "Gratitude, legacy, wishes",
+        "body": "A despedida honours the past, names the person's legacy and ends with good wishes for the new stage of life. Set phrases carry the weight: dejar huella (to leave a mark), dejar el listón muy alto (to set the bar very high; in parts of Latin America you'll also hear la vara muy alta) and esta nueva etapa. Whether you use tú or usted depends on your relationship and the country; in Colombia many colleagues, and even friends, use usted warmly. Lower your voice slightly for the personal part, and let the final wish sound bright."
+      },
+      "phrases": [
+        { "t": "Hoy no me resulta fácil encontrar las palabras adecuadas.", "n": "Today it isn't easy for me to find the right words." },
+        { "t": "Hoy despedimos a una compañera que ha dejado huella en esta casa.", "n": "Today we say goodbye to a colleague who has left her mark on this company.", "note": "Latin America often prefers the preterite: que dejó huella." },
+        { "t": "Sin ti no estaríamos donde estamos hoy.", "n": "Without you we wouldn't be where we are today.", "note": "Formal: sin usted." },
+        { "t": "Dejas el listón muy alto.", "n": "You've set the bar very high.", "note": "Also heard in parts of Latin America: dejas la vara muy alta." },
+        { "t": "Gracias por tantos años de entrega y generosidad.", "n": "Thank you for so many years of dedication and generosity." },
+        { "t": "Te deseamos lo mejor en esta nueva etapa.", "n": "We wish you all the best in this new stage of your life." },
+        { "t": "Que disfrutes de tu merecida jubilación.", "n": "Enjoy your well-deserved retirement.", "note": "Que + subjunctive expresses a wish. Formal: que disfrute de su …" }
+      ],
+      "dialogue": {
+        "voice": "es-CO-SalomeNeural",
+        "title": "Preparing the speech in Medellín",
+        "lines": [
+          { "who": "A", "name": "Natalia", "t": "¿Usted es quien da mañana el discurso de despedida de doña Gloria? ¿Ya sabe cómo va a empezar?", "n": "Are you the one giving the farewell speech for Doña Gloria tomorrow? Do you know how you'll start yet?" },
+          { "who": "you", "t": "Creo que sí: «Hoy despedimos a una compañera que ha dejado huella en esta casa».", "n": "I think so: 'Today we say goodbye to a colleague who has left her mark on this company.'" },
+          { "who": "A", "name": "Natalia", "t": "Muy bonito. Y no se olvide de contar lo del apagón, cuando ella sacó adelante la entrega a punta de linterna.", "n": "Very nice. And don't forget to tell the story about the blackout, when she got the delivery out by torchlight." },
+          { "who": "you", "t": "¡Claro! Esa anécdota lo dice todo. Y luego: «Sin usted no estaríamos donde estamos hoy».", "n": "Of course! That anecdote says it all. And then: 'Without you we wouldn't be where we are today.'" },
+          { "who": "A", "name": "Natalia", "t": "Perfecto. ¿Y cómo va a cerrar?", "n": "Perfect. And how are you going to close?" },
+          { "who": "you", "t": "Gracias por tantos años de entrega y generosidad. Deja el listón muy alto. Que disfrute de su merecida jubilación.", "n": "Thank you for so many years of dedication and generosity. You've set the bar very high. Enjoy your well-deserved retirement." }
+        ]
+      },
+      "prompts": [
+        { "n": "Tell a retiring colleague she has set the bar very high.", "t": ["Dejas el listón muy alto", "Deja el listón muy alto", "Dejas la vara muy alta", "Deja la vara muy alta"] },
+        { "n": "Say that without her you wouldn't be where you are today.", "t": ["Sin ti no estaríamos donde estamos hoy", "Sin usted no estaríamos donde estamos hoy"] },
+        { "n": "Wish her an enjoyable, well-deserved retirement.", "t": ["Que disfrutes de tu merecida jubilación", "Que disfrute de su merecida jubilación", "Que disfrutes tu merecida jubilación", "Que disfrute su merecida jubilación"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l4",
+      "kind": "grammar",
+      "title": "Cuanto más … más and cleft sentences",
+      "goal": "Give your sentences rhetorical rhythm with paired comparisons and emphatic clefts.",
+      "tip": {
+        "title": "Rhythm through structure",
+        "body": "Cuanto más … más means 'the more … the more': Cuanto más esperemos, más caro nos saldrá. When the first half refers to the future, its verb goes in the subjunctive (esperemos), and the second half takes the future or present. Cuanto agrees with a following noun: cuantas más personas, cuanta más información. In Mexico and much of Latin America you'll also hear entre más … más in speech, but cuanto is the standard choice for formal speeches. To spotlight one idea, use a cleft sentence: ser + the key element + que / quien / cuando / donde: Es precisamente ahora cuando no podemos bajar la guardia. Fue la gente la que cambió este barrio."
+      },
+      "phrases": [
+        { "t": "Cuanto más esperemos, más caro nos saldrá.", "n": "The longer we wait, the more expensive it will be." },
+        { "t": "Cuanto más abiertamente hablemos, más confianza habrá.", "n": "The more openly we talk, the more trust there will be." },
+        { "t": "No solo necesitamos buenas ideas, sino también el valor de llevarlas a cabo.", "n": "We need not only good ideas but also the courage to carry them out." },
+        { "t": "Es precisamente ahora cuando no podemos bajar la guardia.", "n": "Now of all times is when we can't let our guard down." },
+        { "t": "Fue la gente, y no el dinero, la que cambió este barrio.", "n": "It was the people, not the money, that changed this neighbourhood." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the cuanto más … más pair",
+          "base": { "t": "Cuanto más esperemos, más caro nos saldrá.", "n": "The longer we wait, the more expensive it will be." },
+          "items": [
+            { "cue": "antes · actuar · más fácil", "t": "Cuanto antes actuemos, más fácil será.", "n": "The sooner we act, the easier it will be." },
+            { "cue": "más · escuchar · mejor entendernos", "t": "Cuanto más escuchemos, mejor nos entenderemos.", "n": "The more we listen, the better we'll understand each other." },
+            { "cue": "más honestos · ser · más creíbles", "t": "Cuanto más honestos seamos, más creíbles seremos.", "n": "The more honest we are, the more credible we'll be." },
+            { "cue": "menos · prometer · menos decepcionar", "t": "Cuanto menos prometamos, menos decepcionaremos.", "n": "The less we promise, the less we'll disappoint." }
+          ]
+        },
+        {
+          "title": "Spotlight one element",
+          "base": { "t": "No podemos bajar la guardia ahora.", "n": "We can't let our guard down now." },
+          "items": [
+            { "cue": "Es ahora …", "t": "Es ahora cuando no podemos bajar la guardia.", "n": "Now is when we can't let our guard down." },
+            { "cue": "Lo que no podemos …", "t": "Lo que no podemos hacer ahora es bajar la guardia.", "n": "What we can't do now is let our guard down." },
+            { "cue": "Hoy más que nunca …", "t": "Hoy más que nunca, no podemos bajar la guardia.", "n": "Today more than ever, we can't let our guard down." },
+            { "cue": "Somos nosotros …", "t": "Somos nosotros los que no podemos bajar la guardia ahora.", "n": "We're the ones who can't let our guard down now." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say the longer we wait, the more expensive it will be.", "t": ["Cuanto más esperemos, más caro nos saldrá", "Cuanto más esperemos, más caro será", "Entre más esperemos, más caro nos saldrá", "Entre más esperemos, más caro será"] },
+        { "n": "Say that now of all times is when we can't let our guard down.", "t": ["Es precisamente ahora cuando no podemos bajar la guardia", "Es ahora cuando no podemos bajar la guardia"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l5",
+      "kind": "listening",
+      "title": "A library turns one hundred",
+      "goal": "Follow a ceremonial speech at natural speed and spot its rhetorical devices.",
+      "phrases": [
+        { "t": "Vecinas y vecinos, gracias por estar acá.", "n": "Neighbours, thank you for being here.", "note": "Acá is preferred in Argentina and much of Latin America; Spain mostly says aquí." },
+        { "t": "No tenían plata, no tenían local, no tenían permiso de nadie.", "n": "They had no money, no premises, no one's permission.", "note": "plata = money in much of Latin America; Spain: dinero, pasta (colloquial)." },
+        { "t": "Hoy no celebramos un edificio; celebramos a la gente.", "n": "Today we're not celebrating a building; we're celebrating the people." },
+        { "t": "Declaro inaugurados los festejos.", "n": "I declare the celebrations open." }
+      ],
+      "story": {
+        "title": "Cien años de la Biblioteca Popular",
+        "intro": "In a town near Rosario, Argentina, the mayor opens the centenary celebrations of the local public library.",
+        "voice": "es-AR-ElenaNeural",
+        "lines": [
+          { "name": "Martín", "voice": "es-AR-TomasNeural", "t": "Buenas tardes a todos y a todas. Para abrir el acto por los cien años de nuestra Biblioteca Popular, invitamos a subir al escenario a la intendenta, Laura Méndez.", "n": "Good afternoon, everyone. To open the ceremony for the hundredth anniversary of our public library, we invite the mayor, Laura Méndez, onto the stage." },
+          { "name": "Laura", "t": "Vecinas y vecinos, queridos chicos de las escuelas: gracias por estar acá en un día tan especial.", "n": "Neighbours, dear children from the schools: thank you for being here on such a special day." },
+          { "name": "Laura", "t": "Hace cien años, un puñado de inmigrantes juntó libros usados en un galpón del puerto. No tenían plata, no tenían local, no tenían permiso de nadie.", "n": "A hundred years ago, a handful of immigrants gathered second-hand books in a shed by the port. They had no money, no premises, no one's permission." },
+          { "name": "Laura", "t": "¿Qué tenían, entonces? Tenían algo que no se compra en ningún lado: ganas de que sus hijos aprendieran a leer.", "n": "So what did they have? They had something you can't buy anywhere: the wish for their children to learn to read." },
+          { "name": "Laura", "t": "Por eso hoy no celebramos un edificio; celebramos a la gente que lo sostuvo, generación tras generación.", "n": "That's why today we're not celebrating a building; we're celebrating the people who kept it going, generation after generation." },
+          { "name": "Laura", "t": "Y fíjense en algo curioso: cuanto más difícil fue la época, más socios se sumaron. Eso, vecinos, se llama comunidad.", "n": "And notice something curious: the harder the times, the more members joined. That, neighbours, is called community." },
+          { "name": "Laura", "t": "Esta biblioteca va a seguir abierta otros cien años, porque no es del municipio: es de ustedes.", "n": "This library will stay open for another hundred years, because it doesn't belong to the town council: it belongs to you." },
+          { "name": "Laura", "t": "Declaro inaugurados los festejos del centenario. ¡Que los disfruten!", "n": "I declare the centenary celebrations open. Enjoy them!" }
+        ],
+        "questions": [
+          { "q": "¿Cuántos años cumple la biblioteca?", "n": "How old is the library turning?", "t": ["Cien", "Cien años", "100 años", "100"] },
+          { "q": "¿Dónde juntaron los primeros libros?", "n": "Where did they gather the first books?", "t": ["En un galpón del puerto", "En un galpón", "En el puerto"] },
+          { "q": "¿Qué pasaba cuanto más difícil era la época?", "n": "What happened the harder the times were?", "t": ["Se sumaban más socios", "Más socios se sumaron", "Se sumaron más socios", "Más socios"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u04-l6",
+      "kind": "roleplay",
+      "title": "Heckled at a public meeting",
+      "goal": "Keep control of your speech when someone interrupts you angrily.",
+      "phrases": [
+        { "t": "Permítame terminar, por favor.", "n": "Please let me finish." },
+        { "t": "Tomo muy en serio su objeción.", "n": "I take your objection very seriously." },
+        { "t": "Enseguida vuelvo sobre eso.", "n": "I'll come back to that in a moment." },
+        { "t": "¿Podría repetir su pregunta, por favor?", "n": "Could you repeat your question, please?" }
+      ],
+      "branch": {
+        "title": "The bike lane debate",
+        "scene": "In a neighbourhood in Mexico City, you are presenting a new bike lane at a residents' meeting when a shop owner interrupts loudly.",
+        "name": "Don Ernesto",
+        "voice": "es-MX-LibertoNeural",
+        "start": "heckle",
+        "nodes": {
+          "heckle": {
+            "t": "¡Puro cuento! La ciclovía va a pasar frente a mi negocio, no frente al suyo. ¿Y mis clientes dónde se van a estacionar?", "n": "That's a load of nonsense! The bike lane will run past my shop, not yours. And where are my customers supposed to park?",
+            "choices": [
+              { "t": "Tomo muy en serio su objeción. Enseguida vuelvo sobre eso.", "n": "I take your objection very seriously. I'll come back to that in a moment.", "next": "wait" },
+              { "t": "¿Podría repetir su pregunta, por favor?", "n": "Could you repeat your question, please?", "next": "repeat" }
+            ]
+          },
+          "repeat": {
+            "t": "Con gusto, fuerte y claro: ¿por qué siempre nos toca a los comerciantes pagar los platos rotos?", "n": "Gladly, loud and clear: why is it always us shopkeepers who end up paying for everyone else's mistakes?",
+            "choices": [
+              { "t": "Es una pregunta legítima. Los lugares de estacionamiento no desaparecen: se trasladan a la calle de al lado.", "n": "It's a fair question. The parking spaces don't disappear: they move to the next street.", "next": "facts" },
+              { "t": "Porque así se decidió y punto.", "n": "Because that's what was decided, full stop.", "next": "uproar" }
+            ]
+          },
+          "wait": {
+            "t": "¿Y cuándo? ¿Después de la votación, como siempre?", "n": "And when? After the vote, as usual?",
+            "choices": [
+              { "t": "Ahora mismo. Los lugares de estacionamiento no desaparecen: se trasladan a la calle de al lado.", "n": "Right now. The parking spaces don't disappear: they move to the next street.", "next": "facts" },
+              { "t": "Permítame terminar, por favor, y le respondo con datos.", "n": "Please let me finish, and I'll answer you with facts.", "next": "calm" }
+            ]
+          },
+          "calm": {
+            "t": "Ándele, pues. Me callo. Pero aquí lo espero.", "n": "Fine, then. I'll be quiet. But I'm waiting.",
+            "choices": [
+              { "t": "Gracias. Sobre su preocupación: los lugares de estacionamiento no desaparecen, se trasladan a la calle de al lado.", "n": "Thank you. On your concern: the parking spaces don't disappear, they move to the next street.", "next": "facts" }
+            ]
+          },
+          "facts": {
+            "t": "¿A la calle de al lado? ¿Y eso a mí de qué me sirve?", "n": "To the next street? And how does that help me?",
+            "choices": [
+              { "t": "En otras colonias, los comercios junto a la ciclovía han ganado clientes que pasan a pie o en bici. Le propongo que lo revisemos juntos dentro de seis meses.", "n": "In other neighbourhoods, shops along the bike lane have gained customers passing on foot or by bike. I suggest we review it together in six months.", "next": "good" },
+              { "t": "Eso ya lo tendrá que averiguar usted.", "n": "You'll have to work that out for yourself.", "next": "uproar" }
+            ]
+          },
+          "good": {
+            "t": "Mmm… ¿Revisarlo en seis meses? Eso sí me late. Siga, siga.", "n": "Hmm… review it in six months? Now that I like the sound of. Go on, go on.", "end": "good", "outcome": "You stayed calm, acknowledged the objection, offered facts and a review date, and won over a sceptic." },
+          "uproar": {
+            "t": "¡Ahí está, vecinos! ¡Lo de siempre: deciden en una oficina y a nosotros ni nos preguntan!", "n": "There you have it, neighbours! Same as always: they decide in an office and don't even ask us!", "end": "bad", "outcome": "You brushed the heckler off and lost the room." }
+        }
+      },
+      "prompts": [
+        { "n": "Politely ask a heckler to let you finish.", "t": ["Permítame terminar, por favor", "Permítame terminar", "Déjeme terminar, por favor", "Déjeme terminar"] },
+        { "n": "Say you take the objection very seriously and you'll come back to it in a moment.", "t": ["Tomo muy en serio su objeción. Enseguida vuelvo sobre eso", "Tomo muy en serio su objeción"] }
+      ]
+    },
+    {
+      "id": "c2-u04-l7",
+      "kind": "speaking",
+      "title": "Your speech, your stage",
+      "goal": "Deliver the opening of a ceremonial speech with rhetorical control for 90 seconds.",
+      "culture": {
+        "title": "Toasts and speeches across the Spanish-speaking world",
+        "body": "¡Salud! works everywhere, and in Spain you'll also hear the playful ¡Chinchín! In Mexico, a well-known party toast goes ¡Arriba, abajo, al centro y pa' dentro!, with the glass moved up, down, to the centre and then to your lips. At weddings in many countries, guests interrupt the meal with ¡Vivan los novios! and chants of ¡Que se besen! Many people in Spain also hold that toasting with water brings bad luck, so pick up a glass of something else, even if you only take a sip. Formal speeches open by greeting the most important guests first, then the rest of the room.",
+        "regions": ["ES", "MX", "AR", "CO"]
+      },
+      "phrases": [
+        { "t": "Permítanme un comentario personal.", "n": "Allow me a personal remark." },
+        { "t": "Permítanme terminar con una imagen.", "n": "Allow me to close with an image." },
+        { "t": "Y con esto termino.", "n": "And with that, I'll finish." },
+        { "t": "Si se quedan con una sola idea, que sea esta:", "n": "If you take away just one idea, let it be this:" }
+      ],
+      "free": [
+        {
+          "n": "Give the opening of a speech for a company's 50th anniversary: greet the audience formally, ask a rhetorical question, use a triad or a no … sino contrast, and end with a memorable line.",
+          "hint": "Use: Señoras y señores, queridos compañeros…; ¿Quién iba a decir hace cincuenta años que…?; necesitamos…, necesitamos… y…; no … sino…; cuanto más…, más…; Si se quedan con una sola idea, que sea esta: …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "a formal greeting", "any": ["señoras y señores", "queridos", "queridas", "estimados", "estimadas", "buenas tardes", "buenas noches", "es un honor"] },
+            { "label": "a rhetorical question", "any": ["quién iba a decir", "quién hubiera dicho", "y si", "qué tienen en común", "se preguntarán", "qué hace falta"] },
+            { "label": "a triad or contrast", "any": ["sino", "no solo", "necesitamos", "cuanto más", "cuanto menos"] },
+            { "label": "the anniversary", "any": ["cincuenta años", "aniversario", "fundó", "fundamos", "celebramos", "celebrar", "gracias"] },
+            { "label": "a memorable close", "any": ["una sola idea", "termino", "terminar", "levantemos", "por los próximos"] }
+          ],
+          "model": "Señoras y señores, queridos compañeros: es un honor estar hoy aquí. ¿Quién iba a decir hace cincuenta años que de un pequeño taller en Puebla saldría una empresa con trescientas personas? Para llegar hasta aquí no hizo falta suerte, sino trabajo. Necesitamos valor, necesitamos paciencia y, sobre todo, nos necesitamos los unos a los otros. Y cuanto más crezcamos, más importante será no olvidarlo. Si se quedan con una sola idea, que sea esta: los próximos cincuenta años empiezan hoy."
+        }
+      ],
+      "prompts": [
+        { "n": "Ask the audience to allow you a personal remark.", "t": ["Permítanme un comentario personal", "Permítanme una observación personal"] },
+        { "n": "Tell the audience: if they take away just one idea, let it be this.", "t": ["Si se quedan con una sola idea, que sea esta", "Si se quedan con una idea, que sea esta"] }
+      ]
+    },
+    {
+      "id": "c2-u04-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: El arte del discurso",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "c2-u07",
+  "title": "Réplica y contrarréplica",
+  "subtitle": "Formal debate: moderating, rebuttal & steelmanning",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "c2-u07-l1",
+      "title": "Chairing a formal debate",
+      "goal": "Open a debate, give and take the floor and enforce time limits firmly but neutrally.",
+      "tip": {
+        "title": "Neutral, firm, on the clock",
+        "body": "A Spanish-speaking moderator addresses the debaters with usted and often by title: señora Ortega, doctora Salas, or licenciado Herrera in Mexico. Give the floor with Tiene la palabra…, announce the rules with the future (Cada participante dispondrá de…), warn with Le quedan treinta segundos and cut off with the polite but unmistakable Le ruego que vaya concluyendo. The rebuttal round is el turno de réplica. Keep your pitch level and your sentences short: the clock, not your mood, should do the pushing."
+      },
+      "phrases": [
+        { "t": "Buenas noches y bienvenidos a este debate.", "n": "Good evening and welcome to this debate.", "note": "Bienvenidos is the default for a mixed audience; some speakers say bienvenidos y bienvenidas." },
+        { "t": "Cada participante dispondrá de dos minutos por intervención.", "n": "Each participant will have two minutes per turn." },
+        { "t": "Tiene la palabra la señora Ortega.", "n": "Ms Ortega has the floor.", "note": "Also common: tiene el uso de la palabra." },
+        { "t": "Le quedan treinta segundos.", "n": "You have thirty seconds left." },
+        { "t": "Le ruego que vaya concluyendo.", "n": "Please start wrapping up.", "note": "ir + gerund: polite, steadily increasing pressure." },
+        { "t": "Se le ha agotado el tiempo; luego tendrá ocasión de replicar.", "n": "Your time is up; you'll have a chance to respond later." },
+        { "t": "Pasamos al turno de réplica.", "n": "We now move on to the rebuttal round." },
+        { "t": "Les pido que no se interrumpan.", "n": "I ask you not to interrupt each other." }
+      ],
+      "dialogue": {
+        "voice": "es-MX-LibertoNeural",
+        "title": "Free public transport: the university debate",
+        "lines": [
+          { "who": "A", "name": "Licenciado Herrera", "t": "Antes de empezar, ¿de cuánto tiempo disponemos exactamente cada uno?", "n": "Before we start, how much time exactly does each of us have?" },
+          { "who": "you", "t": "Cada participante dispondrá de dos minutos por intervención. Licenciado Herrera, tiene usted la palabra.", "n": "Each participant will have two minutes per turn. Mr Herrera, you have the floor." },
+          { "who": "A", "name": "Licenciado Herrera", "t": "Gracias. El transporte gratuito es una promesa populista que nadie sabe cómo financiar, y además, si me permite, quisiera añadir que…", "n": "Thank you. Free transport is a populist promise nobody knows how to fund, and furthermore, if I may, I'd like to add that…" },
+          { "who": "you", "t": "Le quedan treinta segundos. Le ruego que vaya concluyendo.", "n": "You have thirty seconds left. Please start wrapping up." },
+          { "who": "A", "name": "Licenciado Herrera", "t": "Permítame terminar la idea, que es fundamental para entender todo lo demás.", "n": "Let me finish the thought; it's essential for understanding everything else." },
+          { "who": "you", "t": "Se le ha agotado el tiempo; luego tendrá ocasión de replicar. Tiene la palabra la doctora Salas.", "n": "Your time is up; you'll have a chance to respond later. Dr Salas has the floor." }
+        ]
+      },
+      "prompts": [
+        { "n": "Give Ms Ortega the floor.", "t": ["Tiene la palabra la señora Ortega", "La señora Ortega tiene la palabra", "Señora Ortega, tiene la palabra"] },
+        { "n": "Tell a debater they have thirty seconds left.", "t": ["Le quedan treinta segundos", "Le quedan 30 segundos", "Quedan treinta segundos"] },
+        { "n": "Ask the speaker, politely but firmly, to start wrapping up.", "t": ["Le ruego que vaya concluyendo", "Le ruego que vaya terminando", "Vaya concluyendo, por favor"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l2",
+      "title": "Rebuttal under fire",
+      "goal": "Rebut misrepresentations firmly but courteously and hold the floor when you're interrupted.",
+      "tip": {
+        "title": "Firm, not loud",
+        "body": "When someone twists your words, name it calmly: Eso es precisamente lo que no he dicho (Latin America usually prefers the preterite: lo que no dije). Con todos los respetos is the usual form in Spain, con todo respeto in much of Latin America; both announce a sharp disagreement wrapped in courtesy. Eso es un juicio de intenciones rejects someone claiming to know your hidden motives. If interrupted, don't raise your pitch: lower it, slow down and stress the key words: ESO es precisamente lo que NO he dicho."
+      },
+      "phrases": [
+        { "t": "Permítame que le corrija un dato.", "n": "Allow me to correct a fact." },
+        { "t": "Eso, sencillamente, no es cierto.", "n": "That is simply not true." },
+        { "t": "Está usted mezclando dos cuestiones muy distintas.", "n": "You're mixing up two very different issues." },
+        { "t": "Permítame terminar, por favor.", "n": "Please let me finish." },
+        { "t": "Eso es un juicio de intenciones.", "n": "You're attributing motives to me.", "note": "Used when someone claims to know your hidden intentions." },
+        { "t": "Con todos los respetos, eso es simplificar demasiado.", "n": "With all due respect, that's oversimplifying.", "note": "Much of Latin America: con todo respeto." },
+        { "t": "Eso es precisamente lo que no he dicho.", "n": "That is precisely what I did not say.", "note": "Latin America: lo que no dije." },
+        { "t": "En eso, y solo en eso, le doy la razón.", "n": "On that point, and that point only, I agree with you." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-TomasNeural",
+        "title": "Head to head on Argentine TV",
+        "lines": [
+          { "who": "A", "name": "Martín Aguirre", "t": "Lo que usted propone es, lisa y llanamente, que la gente trabaje menos y cobre exactamente lo mismo.", "n": "What you're proposing is, plain and simple, that people work less and get paid exactly the same." },
+          { "who": "you", "t": "Con todo respeto, eso es simplificar demasiado. Y, además, es un juicio de intenciones.", "n": "With all due respect, that's oversimplifying. And on top of that, you're attributing motives to me." },
+          { "who": "A", "name": "Martín Aguirre", "t": "¿Ah, sí? Entonces explíquele a una pyme cómo va a pagar eso, porque los números no cierran por ningún lado…", "n": "Oh really? Then explain to a small business how it's going to pay for that, because the numbers just don't add up…" },
+          { "who": "you", "t": "Permítame terminar, por favor. Está usted mezclando dos cuestiones muy distintas: la productividad y los salarios.", "n": "Please let me finish. You're mixing up two very different issues: productivity and wages." },
+          { "who": "A", "name": "Martín Aguirre", "t": "Bueno, por lo menos coincidimos en que algo tiene que cambiar.", "n": "Well, at least we agree that something has to change." },
+          { "who": "you", "t": "En eso, y solo en eso, le doy la razón.", "n": "On that point, and that point only, I agree with you." }
+        ]
+      },
+      "prompts": [
+        { "n": "Ask to correct a fact.", "t": ["Permítame que le corrija un dato", "Permítame corregir un dato", "Permítame que corrija un dato"] },
+        { "n": "Insist politely on finishing your point.", "t": ["Permítame terminar, por favor", "Permítame terminar", "Déjeme terminar, por favor"] },
+        { "n": "Say that is precisely what you did not say.", "t": ["Eso es precisamente lo que no he dicho", "Eso es precisamente lo que no dije", "Eso es justamente lo que no dije"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l3",
+      "title": "Steelmanning your opponent",
+      "goal": "Restate the opposing view in its strongest form, check it, then answer it.",
+      "tip": {
+        "title": "Beat the best version",
+        "body": "Steelmanning is the opposite of the straw man (el hombre de paja): before you answer, you rebuild your opponent's argument in its strongest form. Spanish has no single settled word for it, so describe it: la versión más sólida del argumento contrario. Restate (Si no le he entendido mal…), check (¿Es justo resumirlo así?), concede what holds (Reconozco que es un argumento de peso) and only then turn. Judges and audiences reward it because it shows you aren't afraid of the best objection. Your Argentine coach in this lesson uses voseo: escuchá, podés, tenés, concretá (tú: escucha, puedes, tienes, concreta)."
+      },
+      "phrases": [
+        { "t": "Si no le he entendido mal, su argumento es el siguiente.", "n": "If I've understood you correctly, your argument is as follows.", "note": "Latin America also: si lo entendí bien (to a man) / si la entendí bien (to a woman)." },
+        { "t": "Formulado en su versión más sólida, el argumento sería este.", "n": "Put in its strongest form, the argument would be this." },
+        { "t": "¿Es justo resumirlo así?", "n": "Is it fair to sum it up like that?" },
+        { "t": "Reconozco que es un argumento de peso.", "n": "I acknowledge that it's a weighty argument." },
+        { "t": "No quiero caricaturizar su postura.", "n": "I don't want to caricature your position." },
+        { "t": "Eso sería un hombre de paja, y no le haría justicia.", "n": "That would be a straw man, and it wouldn't do it justice." },
+        { "t": "Aun en su mejor versión, el argumento deja un cabo suelto.", "n": "Even at its best, the argument leaves a loose end." },
+        { "t": "Vamos al fondo de la cuestión.", "n": "Let's get to the heart of the matter." }
+      ],
+      "dialogue": {
+        "voice": "es-AR-ElenaNeural",
+        "title": "Debate-club practice in Buenos Aires",
+        "lines": [
+          { "who": "A", "name": "Valeria", "t": "Escuchá: antes de rebatir, quiero que reconstruyas el argumento del otro equipo. Los autos fuera del centro, ¿te acordás? ¿Podés?", "n": "Listen: before you rebut, I want you to rebuild the other team's argument. Cars out of the city centre, remember? Can you do it?" },
+          { "who": "you", "t": "Claro. Formulado en su versión más sólida, el argumento sería este: cerrar el centro a los autos perjudica al pequeño comercio. ¿Es justo resumirlo así?", "n": "Sure. Put in its strongest form, the argument would be this: closing the centre to cars hurts small shops. Is it fair to sum it up like that?" },
+          { "who": "A", "name": "Valeria", "t": "Perfecto. ¿Y qué tenés para decir sobre eso? Pensá que el jurado te está mirando.", "n": "Perfect. And what do you have to say about it? Remember the judges are watching you." },
+          { "who": "you", "t": "Reconozco que es un argumento de peso, y no quiero caricaturizarlo. Pero aun en su mejor versión, deja un cabo suelto.", "n": "I acknowledge it's a weighty argument, and I don't want to caricature it. But even at its best, it leaves a loose end." },
+          { "who": "A", "name": "Valeria", "t": "¿Cuál? Concretá, no te vayas por las ramas.", "n": "Which one? Be specific, don't beat about the bush." },
+          { "who": "you", "t": "No dice nada de los vecinos que hoy respiran ese humo. Vamos al fondo de la cuestión: ¿para quién es el centro?", "n": "It says nothing about the residents who breathe those fumes today. Let's get to the heart of the matter: who is the city centre for?" }
+        ]
+      },
+      "prompts": [
+        { "n": "Check whether it's fair to sum up your opponent's view like that.", "t": ["Es justo resumirlo así", "Es justo resumirlo de esta manera", "Es justo resumirlo de este modo"] },
+        { "n": "Say you don't want to caricature their position (usted).", "t": ["No quiero caricaturizar su postura", "No quiero caricaturizar su posición"] },
+        { "n": "Acknowledge that it's a weighty argument.", "t": ["Reconozco que es un argumento de peso", "Es un argumento de peso"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l4",
+      "kind": "grammar",
+      "title": "Concede, then turn: aunque, si bien, por muy… que",
+      "goal": "Concede a point and rebut it with aunque + indicative or subjunctive, si bien, por más que and por muy… que.",
+      "tip": {
+        "title": "Concessive structures",
+        "body": "Aunque + indicative concedes a fact you accept: Aunque el plan es caro… (it is expensive, I grant you). Aunque + subjunctive concedes for the sake of argument or waves the point aside as irrelevant: Aunque sea caro… (even if it is). Aunque + imperfect subjunctive plus conditional makes it hypothetical: Aunque los datos fueran correctos, no bastarían. Si bien is formal and takes the indicative: Si bien es cierto que… Por más que and por mucho que (no matter how much) usually take the subjunctive in debate, and por muy + adjective + que + subjunctive means however: Por muy razonable que sea la objeción…"
+      },
+      "phrases": [
+        { "t": "Aunque el plan es caro, se amortiza a largo plazo.", "n": "Although the plan is expensive, it pays for itself in the long run." },
+        { "t": "Aunque los datos fueran correctos, solo contarían la mitad de la historia.", "n": "Even if the figures were correct, they'd only tell half the story." },
+        { "t": "Si bien es cierto que hay riesgos, no son motivo para no actuar.", "n": "While it's true there are risks, they're no reason not to act." },
+        { "t": "Por muy razonable que sea la objeción, no nos hace avanzar.", "n": "However reasonable the objection is, it doesn't get us any further." },
+        { "t": "Por más que insista, los hechos son los que son.", "n": "No matter how much you insist, the facts are what they are." }
+      ],
+      "drills": [
+        {
+          "title": "Swap the concessive connector",
+          "base": { "t": "Aunque es caro, vale la pena.", "n": "Although it's expensive, it's worth it." },
+          "items": [
+            { "cue": "si bien", "t": "Si bien es caro, vale la pena.", "n": "While it's expensive, it's worth it." },
+            { "cue": "aunque · subjunctive", "t": "Aunque sea caro, vale la pena.", "n": "Even if it's expensive, it's worth it." },
+            { "cue": "por muy … que", "t": "Por muy caro que sea, vale la pena.", "n": "However expensive it is, it's worth it." },
+            { "cue": "por más que · costar", "t": "Por más que cueste, vale la pena.", "n": "No matter how much it costs, it's worth it." }
+          ]
+        },
+        {
+          "title": "Swap the conceded point",
+          "base": { "t": "Aunque eso sea cierto, no cambia el problema de fondo.", "n": "Even if that's true, it doesn't change the underlying problem." },
+          "items": [
+            { "cue": "los datos · ser correctos", "t": "Aunque los datos sean correctos, eso no cambia el problema de fondo.", "n": "Even if the figures are correct, that doesn't change the underlying problem." },
+            { "cue": "usted · tener razón", "t": "Aunque usted tenga razón, eso no cambia el problema de fondo.", "n": "Even if you're right, that doesn't change the underlying problem." },
+            { "cue": "si bien · la objeción es legítima", "t": "Si bien la objeción es legítima, no cambia el problema de fondo.", "n": "While the objection is legitimate, it doesn't change the underlying problem." }
+          ]
+        }
+      ],
+      "prompts": [
+        { "n": "Say: however reasonable the objection is, it doesn't get us any further.", "t": ["Por muy razonable que sea la objeción, no nos hace avanzar", "Por razonable que sea la objeción, no nos hace avanzar"] },
+        { "n": "Concede with si bien that there are risks, but say they're no reason not to act.", "t": ["Si bien es cierto que hay riesgos, no son motivo para no actuar", "Si bien hay riesgos, no son motivo para no actuar"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l5",
+      "kind": "listening",
+      "title": "Radio debate: pico y placa",
+      "goal": "Follow a fast Colombian radio debate full of concessions and counterpoints.",
+      "phrases": [
+        { "t": "Con el tiempo, mucha gente termina comprando un segundo carro.", "n": "Over time, many people end up buying a second car.", "note": "Spain: coche; Argentina: auto." },
+        { "t": "No lo niego en absoluto.", "n": "I don't deny that at all." },
+        { "t": "Una restricción no sustituye a un buen transporte público.", "n": "A restriction is no substitute for good public transport." },
+        { "t": "Es una objeción de peso, se lo concedo.", "n": "It's a weighty objection, I grant you." }
+      ],
+      "story": {
+        "title": "Fewer cars in Bogotá?",
+        "intro": "A Bogotá radio host challenges a transport economist about pico y placa, the city's scheme that keeps cars off the road on certain days according to their number plate.",
+        "voice": "es-CO-SalomeNeural",
+        "lines": [
+          { "name": "Moderadora", "t": "Buenos días. Hoy debatimos si Bogotá debería endurecer el pico y placa. Andrés Ríos, usted es economista del transporte y está en contra. ¿Por qué?", "n": "Good morning. Today we're debating whether Bogotá should tighten pico y placa. Andrés Ríos, you're a transport economist and you're against it. Why?" },
+          { "name": "Andrés Ríos", "voice": "es-CO-GonzaloNeural", "t": "Mire, si bien la medida alivia el tráfico al principio, con el tiempo mucha gente termina comprando un segundo carro para esquivarla.", "n": "Look, while the measure eases traffic at first, over time many people end up buying a second car to get round it." },
+          { "name": "Moderadora", "t": "Pero la Alcaldía sostiene que la congestión ha bajado en las horas pico. ¿Lo niega usted?", "n": "But the mayor's office maintains that congestion has fallen at rush hour. Do you deny that?" },
+          { "name": "Andrés Ríos", "voice": "es-CO-GonzaloNeural", "t": "No lo niego en absoluto. Lo que digo es que, por muy bien diseñada que esté, una restricción no sustituye a un buen transporte público.", "n": "I don't deny that at all. What I'm saying is that, however well designed it is, a restriction is no substitute for good public transport." },
+          { "name": "Moderadora", "t": "Hay quien diría que eso es pedirle peras al olmo, porque un metro tarda años en construirse.", "n": "Some would say that's asking for the impossible, because a metro takes years to build." },
+          { "name": "Andrés Ríos", "voice": "es-CO-GonzaloNeural", "t": "Precisamente por eso hay que empezar ya. Mientras tanto, propongo más carriles exclusivos para buses y cobrar por circular por el centro.", "n": "That's exactly why we have to start now. In the meantime, I propose more bus-only lanes and charging to drive in the centre." },
+          { "name": "Moderadora", "t": "Cobrar por entrar al centro… Eso afectaría sobre todo a quien menos tiene, ¿no cree?", "n": "Charging to enter the centre… That would hit those with the least hardest, don't you think?" },
+          { "name": "Andrés Ríos", "voice": "es-CO-GonzaloNeural", "t": "Es una objeción de peso, se lo concedo. Por eso todo lo recaudado tendría que ir íntegro al transporte público de los barrios.", "n": "It's a weighty objection, I grant you. That's why every peso raised would have to go entirely to public transport in the neighbourhoods." }
+        ],
+        "questions": [
+          { "q": "Según Andrés, ¿qué hace mucha gente para esquivar la medida?", "n": "According to Andrés, what do many people do to get round the measure?", "t": ["Comprar un segundo carro", "Compran un segundo carro", "Un segundo carro", "Comprar otro carro"] },
+          { "q": "¿Qué no puede sustituir una restricción, según él?", "n": "What can a restriction not replace, according to him?", "t": ["Un buen transporte público", "El transporte público", "Transporte público"] },
+          { "q": "¿Adónde debería ir el dinero recaudado?", "n": "Where should the money raised go?", "t": ["Al transporte público de los barrios", "Al transporte público", "A los barrios"] }
+        ]
+      }
+    },
+    {
+      "id": "c2-u07-l6",
+      "kind": "roleplay",
+      "title": "Moderating a heated TV debate",
+      "goal": "Keep a live election debate fair: enforce the clock, defuse accusations of bias and stay neutral.",
+      "phrases": [
+        { "t": "Se le ha agotado el tiempo.", "n": "Your time is up.", "note": "Latin America also: se le acabó el tiempo." },
+        { "t": "Tendrá ocasión de replicar en el siguiente bloque.", "n": "You'll have a chance to respond in the next segment." },
+        { "t": "El cronómetro está a la vista de todos.", "n": "The clock is there for everyone to see." },
+        { "t": "Lo hará en el turno de réplica.", "n": "You'll do that in the rebuttal round." }
+      ],
+      "branch": {
+        "title": "The candidate who won't stop",
+        "scene": "You moderate a televised election debate in Madrid. Candidate Ignacio Vidal keeps running over time and attacking his rival, Ms Montes.",
+        "name": "Ignacio Vidal",
+        "voice": "es-ES-SaulNeural",
+        "start": "q1",
+        "nodes": {
+          "q1": {
+            "t": "…y por eso digo que mi adversaria lleva cuatro años engañando a los ciudadanos, y lo voy a demostrar ahora mismo con…",
+            "n": "…and that's why I say my opponent has spent four years deceiving the public, and I'm going to prove it right now with…",
+            "choices": [
+              { "t": "Señor Vidal, se le ha agotado el tiempo. Tendrá ocasión de replicar en el siguiente bloque.", "n": "Mr Vidal, your time is up. You'll have a chance to respond in the next segment.", "next": "q2" },
+              { "t": "Adelante, señor Vidal, tómese el tiempo que necesite.", "n": "Go ahead, Mr Vidal, take all the time you need.", "next": "unfair" }
+            ]
+          },
+          "q2": {
+            "t": "¡Esto es censura! A la señora Montes le ha dado usted mucho más tiempo que a mí.",
+            "n": "This is censorship! You've given Ms Montes much more time than me.",
+            "choices": [
+              { "t": "Los dos han dispuesto exactamente del mismo tiempo; el cronómetro está a la vista de todos.", "n": "You've both had exactly the same time; the clock is there for everyone to see.", "next": "q3" },
+              { "t": "Si sigue protestando, le apago el micrófono ahora mismo.", "n": "If you keep complaining, I'll switch your microphone off right now.", "next": "escalate" }
+            ]
+          },
+          "escalate": {
+            "t": "¿Me está amenazando en directo? Esto es sencillamente intolerable.",
+            "n": "Are you threatening me live on air? This is simply intolerable.",
+            "choices": [
+              { "t": "En absoluto, y le pido disculpas por el tono. Los dos han dispuesto exactamente del mismo tiempo.", "n": "Not at all, and I apologise for my tone. You've both had exactly the same time.", "next": "q3" },
+              { "t": "Tómeselo como quiera.", "n": "Take it however you like.", "next": "bad" }
+            ]
+          },
+          "q3": {
+            "t": "Está bien. Pero exijo responder ya a lo que ha dicho de la sanidad, que es rotundamente falso.",
+            "n": "All right. But I demand to answer right now what she said about healthcare, which is flatly untrue.",
+            "choices": [
+              { "t": "Lo hará en el turno de réplica. Ahora le pido que no interrumpa a la señora Montes.", "n": "You'll do that in the rebuttal round. For now, I ask you not to interrupt Ms Montes.", "next": "good" },
+              { "t": "Bueno, responda ahora, pero que sea breve.", "n": "Well, answer now, but keep it short.", "next": "loose" }
+            ]
+          },
+          "loose": {
+            "t": "Perfecto. Y ya que estamos, aprovecho para hablar también de impuestos, de vivienda y de…",
+            "n": "Perfect. And while I'm at it, I'll also talk about taxes, housing and…",
+            "choices": [
+              { "t": "Señor Vidal, le ruego que vaya concluyendo: pasamos al turno de réplica.", "n": "Mr Vidal, please wrap up: we're moving on to the rebuttal round.", "next": "good" }
+            ]
+          },
+          "good": {
+            "t": "De acuerdo. Respetaré los tiempos como todo el mundo.",
+            "n": "Fine. I'll stick to the time limits like everyone else.",
+            "end": "good",
+            "outcome": "You enforced the clock evenly, answered the accusation of bias with facts and kept the debate fair."
+          },
+          "unfair": {
+            "t": "Muchas gracias. Como decía, tengo aquí unos documentos que van a sorprender a todos…",
+            "n": "Thank you very much. As I was saying, I have some documents here that are going to surprise everyone…",
+            "end": "bad",
+            "outcome": "Letting one candidate run over the clock is unfair to the other: a moderator's first duty is equal time."
+          },
+          "bad": {
+            "t": "Pues muy bien: me levanto y me voy de este plató.",
+            "n": "Very well, then: I'm getting up and leaving this studio.",
+            "end": "bad",
+            "outcome": "Threats and sarcasm turned the moderator into the story. Stay neutral and let the rules, not personal clashes, do the work."
+          }
+        }
+      },
+      "prompts": [
+        { "n": "Tell the candidate his time is up.", "t": ["Se le ha agotado el tiempo", "Se le acabó el tiempo", "Señor Vidal, se le ha agotado el tiempo"] },
+        { "n": "Say both candidates have had exactly the same time.", "t": ["Los dos han dispuesto exactamente del mismo tiempo", "Los dos han tenido exactamente el mismo tiempo", "Ambos han tenido el mismo tiempo"] }
+      ]
+    },
+    {
+      "id": "c2-u07-l7",
+      "kind": "speaking",
+      "title": "Steelman, then rebut",
+      "goal": "Present the strongest version of the opposing view, concede what holds and rebut it in about 90 seconds.",
+      "culture": {
+        "title": "Réplica, dúplica and por alusiones",
+        "body": "In Spain's Congreso de los Diputados, debates run in strict turns: a speech, a turno de réplica and often a short dúplica in answer to it. A member who is criticised by name can ask the chair for the floor por alusiones, a brief right of reply. In Mexico's Chamber of Deputies you'll hear similar requests, such as para rectificación de hechos or por alusiones personales. Knowing these labels helps you follow televised parliamentary debates on both sides of the Atlantic.",
+        "regions": ["ES", "MX"]
+      },
+      "phrases": [
+        { "t": "Quiero empezar haciendo justicia al argumento contrario.", "n": "I'd like to start by doing justice to the opposing argument." },
+        { "t": "Lo más sólido de su planteamiento es esto.", "n": "The strongest part of their case is this." },
+        { "t": "Ahora bien, de ahí no se sigue que tengan razón.", "n": "That said, it doesn't follow that they're right." },
+        { "t": "En definitiva, aun en su mejor versión, el argumento no se sostiene.", "n": "In short, even at its best, the argument doesn't hold up." }
+      ],
+      "free": [
+        {
+          "n": "Take a position on a controversial question (e.g. should voting be compulsory?). First present the strongest version of the opposing view, concede what holds, then rebut it and conclude.",
+          "hint": "Use: Quiero empezar haciendo justicia al argumento contrario; Formulado en su versión más sólida, …; Reconozco que … / Si bien …; Ahora bien, …; Por muy … que sea, …; En definitiva, …",
+          "seconds": 90,
+          "minWords": 40,
+          "targets": [
+            { "label": "the steelman", "any": ["versión más sólida", "mejor versión", "haciendo justicia", "hacer justicia", "lo más sólido", "argumento contrario", "postura contraria", "si no le he entendido mal"] },
+            { "label": "a concession", "any": ["reconozco", "si bien", "aunque", "es cierto que", "por muy", "por más que", "se lo concedo", "de peso"] },
+            { "label": "the turn", "any": ["ahora bien", "sin embargo", "no obstante", "aun así", "no se sigue", "con todo"] },
+            { "label": "a conclusion", "any": ["en definitiva", "por consiguiente", "por lo tanto", "en suma", "no se sostiene", "por eso"] }
+          ],
+          "model": "Quiero empezar haciendo justicia al argumento contrario. Formulado en su versión más sólida, dice que votar es un derecho y que obligar a ejercerlo recorta la libertad. Reconozco que es un argumento de peso. Ahora bien, de ahí no se sigue que el voto obligatorio sea ilegítimo: nadie está obligado a elegir un partido, porque el voto en blanco sigue siendo posible. Por muy valiosa que sea la libertad individual, una democracia en la que solo vota una parte de la ciudadanía se resiente. En definitiva, aun en su mejor versión, el argumento no se sostiene."
+        }
+      ],
+      "prompts": [
+        { "n": "Say you'd like to start by doing justice to the opposing argument.", "t": ["Quiero empezar haciendo justicia al argumento contrario", "Quisiera empezar haciendo justicia al argumento contrario"] },
+        { "n": "Say that, that said, it doesn't follow that they're right.", "t": ["Ahora bien, de ahí no se sigue que tengan razón", "De ahí no se sigue que tengan razón"] }
+      ]
+    },
+    {
+      "id": "c2-u07-cp",
+      "kind": "checkpoint",
+      "title": "Checkpoint: Réplica y contrarréplica",
+      "goal": "Say the unit's phrases from memory."
+    }
+  ]
+}
